@@ -1,16 +1,2 @@
 {
-  "id": "1436487881",
-  "name": "TON Dev Chat (РУ)",
-  "type": "public_supergroup",
-  "messages": [
-    {
-      "id": 303541,
-      "type": "message",
-      "date": "2025-05-02T13:01:00.000Z",
-      "date_unixtime": "1746190860",
-      "from": "Combot",
-      "from_id": "user210944655",
-      "text": "Привет, Anton Kulkanov!\nПрочти правила и нажми кнопку ниже."
-    }
-  ]
 }
