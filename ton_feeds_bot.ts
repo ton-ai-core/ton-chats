@@ -17,6 +17,14 @@ import bigInt               from 'big-integer'; // Import bigInt
 import { Entity }           from "telegram/define";
 // Removed incorrect ChatFull import
 
+// Interface for the structure returned by formatMessagesToJson
+interface ChatHistoryJson {
+    id: string;
+    name: string;
+    type: string;
+    messages: { id: number; [key: string]: any }[]; // Basic structure for messages array
+}
+
 // === Configuration ===
 const API_ID = Number(process.env.TG_API_ID);
 const API_HASH = process.env.TG_API_HASH!;
@@ -195,43 +203,51 @@ function saveJSON<T>(file: string, data: T): void {
 }
 
 /**
- * Loads state from JSON file.
- * @returns {State} State object.
+ * Gets the last message ID from the existing JSON file for a chat.
+ * WARNING: Reading and parsing large JSON files can be very slow and memory-intensive.
+ * @param baseName Base name of the chat (username or ID).
+ * @returns The last message ID found, or 0 if not found or on error.
  */
-function loadState(): Record<string, number> { // Changed return type annotation
-  if (fs.existsSync(STATE_FILE)) {
-    const data = fs.readFileSync(STATE_FILE, "utf-8");
-    try {
-      const state = JSON.parse(data);
-      // Ensure state is an object
-      if (typeof state !== 'object' || state === null) {
-          console.warn(`State file ${STATE_FILE} has invalid format, returning default state.`);
-          return {};
-      }
-      // Ensure all values are numbers (or default to 0)
-       for (const key in state) {
-           if (typeof state[key] !== 'number') {
-               console.warn(`Invalid lastId for chat ${key} in state file, defaulting to 0.`);
-               state[key] = 0;
-           }
-       }
-      return state;
-    } catch (error) {
-      console.error(`Error parsing ${STATE_FILE}:`, error);
-      // Return default state if parsing fails
-      return {};
-    }
-  }
-  return {};
-}
+function getLastIdFromJson(baseName: string): number {
+    const jsonFilePath = path.join(JSON_OUT_DIR, `${baseName}.json`);
+    console.log(`Attempting to read last ID from ${jsonFilePath}...`);
 
-/**
- * Saves state to JSON file.
- * @param {State} state State object to save.
- */
-function saveState(state: Record<string, number>): void {
-  saveJSON(STATE_FILE, state);
-  console.log(`🔄 Final state saved to ${STATE_FILE}`);
+    if (!fs.existsSync(jsonFilePath)) {
+        console.log(`JSON file not found. Starting from message ID 0.`);
+        return 0;
+    }
+
+    try {
+        // WARNING: Reading potentially huge files into memory!
+        const fileContent = fs.readFileSync(jsonFilePath, "utf8");
+        if (!fileContent) {
+             console.log(`JSON file is empty. Starting from message ID 0.`);
+            return 0;
+        }
+
+        // WARNING: Parsing potentially huge JSON objects!
+        const jsonData = JSON.parse(fileContent);
+
+        if (!jsonData || !Array.isArray(jsonData.messages) || jsonData.messages.length === 0) {
+            console.log(`JSON data is invalid or contains no messages. Starting from message ID 0.`);
+            return 0;
+        }
+
+        // Find the maximum ID
+        let maxId = 0;
+        for (const message of jsonData.messages) {
+            if (message && typeof message.id === 'number' && message.id > maxId) {
+                maxId = message.id;
+            }
+        }
+        console.log(`Found last message ID: ${maxId}`);
+        return maxId;
+
+    } catch (error) {
+        console.error(`Error reading or parsing JSON file ${jsonFilePath} to get last ID:`, error);
+        console.log(`Starting from message ID 0 due to error.`);
+        return 0;
+    }
 }
 
 /**
@@ -356,8 +372,8 @@ function formatMessagesToJson(
     chats: Map<string, Api.Chat | Api.Channel>,
     chatEntity: Entity,
     fullChatInfo: Api.messages.ChatFull | null
-): object {
-    const chatHistory: any = {
+): ChatHistoryJson {
+    const chatHistory: ChatHistoryJson = {
         id: chatEntity.id.toString(),
         name: "Unknown Chat",
         type: "unknown",
@@ -563,12 +579,13 @@ async function ensureMarkdownExists(baseName: string): Promise<void> {
 
 /**
  * Processes data for a single chat: saves JSON and generates Markdown.
+ * This function now appends/updates the JSON file instead of relying on external state.
  * @param historyMessages Array of new Api.Message messages.
  * @param usersMap Map of users.
  * @param chatsMap Map of chats/channels.
  * @param entity Chat entity.
  * @param client Telegram client.
- * @returns Object with the updated lastId for this chat, or null on error.
+ * @returns {Promise<void>} Completes when processing is done.
  */
 async function processChatData(
     historyMessages: Api.Message[],
@@ -576,58 +593,92 @@ async function processChatData(
     chatsMap: Map<string, Api.Chat | Api.Channel>,
     entity: Entity,
     client: TelegramClient
-): Promise<Record<string, number> | null> { // Returns {[chatId]: newLastId} or null
+): Promise<void> { // No longer returns state update
     const chatId = entity.id.toString();
     console.log(`Starting processing of ${historyMessages.length} new messages for chat ${chatId}...`);
 
-    let fullChatInfo: Api.messages.ChatFull | null = null;
-    try {
-        // Request full chat info for details in JSON
-        if (entity instanceof Api.Channel) {
-            fullChatInfo = await client.invoke(new Api.channels.GetFullChannel({ channel: entity }));
-        } else if (entity instanceof Api.Chat) {
-            fullChatInfo = await client.invoke(new Api.messages.GetFullChat({ chatId: entity.id }));
-        } else if (entity instanceof Api.User) {
-             // No ChatFull for personal chats, use info from entity
-        }
-    } catch (err) {
-        console.warn(`Failed to get full info for chat ${chatId}:`, err);
-    }
-
-    // 1. Format to JSON
-    const jsonData = formatMessagesToJson(historyMessages, usersMap, chatsMap, entity, fullChatInfo);
-
-    // File name based on username or ID
+    // Determine base name for files
     let chatUsername: string | null | undefined = null;
     if (entity instanceof Api.Channel || entity instanceof Api.User) {
         chatUsername = entity.username;
     }
-    const baseName = chatUsername || chatId; // Use username if available, otherwise chatId
-    const jsonFileName = `${baseName}.json`;
-    // Corrected path for JSON file
-    const jsonFilePath = path.join(JSON_OUT_DIR, jsonFileName);
+    const baseName = chatUsername || chatId;
+    const jsonFilePath = path.join(JSON_OUT_DIR, `${baseName}.json`);
     const mdChatDir = path.join(MARKDOWN_OUT_DIR, baseName);
 
-    // Create directories if they don't exist
+    // Ensure output directories exist
     ensureDirExists(JSON_OUT_DIR);
     ensureDirExists(MARKDOWN_OUT_DIR);
     ensureDirExists(mdChatDir);
 
-    // 2. Save JSON
-    try {
-       // Corrected path usage here
-       fs.writeFileSync(jsonFilePath, JSON.stringify(jsonData, null, 2), "utf8");
-       console.log(`Saved JSON: ${jsonFilePath}`);
-    } catch (error) {
-       // Use the correct path in the error message
-        console.error(`Error saving JSON ${jsonFilePath}:`, error);
-        return null; // Do not update state if JSON saving failed
+    // --- Load existing JSON data --- 
+    let existingJsonData: ChatHistoryJson | null = null;
+    if (fs.existsSync(jsonFilePath)) {
+        console.log(`Loading existing JSON data from ${jsonFilePath}...`);
+        try {
+            const existingContent = fs.readFileSync(jsonFilePath, "utf8");
+            if (existingContent) {
+                existingJsonData = JSON.parse(existingContent) as ChatHistoryJson;
+            }
+        } catch (error) {
+             console.error(`Error reading existing JSON ${jsonFilePath}:`, error);
+             existingJsonData = null;
+        }
     }
 
-    // 3. Generate Markdown from JSON
+    // --- Get Full Chat Info (only needed if creating JSON from scratch or updating meta) ---
+    let fullChatInfo: Api.messages.ChatFull | null = null;
+    if (!existingJsonData || !existingJsonData.name || existingJsonData.name === 'Unknown Chat') { 
+         try {
+             console.log(`Fetching full chat info for ${chatId}...`);
+            if (entity instanceof Api.Channel) {
+                fullChatInfo = await client.invoke(new Api.channels.GetFullChannel({ channel: entity }));
+            } else if (entity instanceof Api.Chat) {
+                fullChatInfo = await client.invoke(new Api.messages.GetFullChat({ chatId: entity.id }));
+            } else if (entity instanceof Api.User) {
+                // No ChatFull for personal chats
+            }
+        } catch (err) {
+            console.warn(`Failed to get full info for chat ${chatId}:`, err);
+        }
+    }
+
+    // --- Format *new* messages to JSON structure ---
+    const newJsonData = formatMessagesToJson(historyMessages, usersMap, chatsMap, entity, fullChatInfo);
+
+    // --- Merge new messages with existing JSON data --- 
+    let finalJsonData: ChatHistoryJson;
+    if (existingJsonData && Array.isArray(existingJsonData.messages)) {
+        console.log(`Merging ${newJsonData.messages.length} new messages with ${existingJsonData.messages.length} existing messages.`);
+        const existingIds = new Set(existingJsonData.messages.map((m) => m.id));
+        const uniqueNewMessages = newJsonData.messages.filter((m) => !existingIds.has(m.id));
+
+        existingJsonData.messages.push(...uniqueNewMessages);
+        existingJsonData.messages.sort((a, b) => a.id - b.id);
+        if (fullChatInfo && (!existingJsonData.name || existingJsonData.name === 'Unknown Chat')){
+             existingJsonData.name = newJsonData.name;
+             existingJsonData.type = newJsonData.type;
+        }
+        finalJsonData = existingJsonData;
+        console.log(`Total messages after merge: ${finalJsonData.messages.length}`);
+    } else {
+        console.log(`No valid existing JSON found or messages array missing, using only newly fetched messages.`);
+        finalJsonData = newJsonData;
+    }
+
+    // 2. Save final JSON
     try {
-        // Pass the target directory for MD files
-        const mdFiles = generateMarkdownFromJson(jsonData, baseName, mdChatDir);
+       fs.writeFileSync(jsonFilePath, JSON.stringify(finalJsonData, null, 2), "utf8");
+       console.log(`Saved final JSON: ${jsonFilePath}`);
+    } catch (error) {
+        console.error(`Error saving final JSON ${jsonFilePath}:`, error);
+        // If saving fails, we cannot proceed reliably with MD generation for this run
+        return; 
+    }
+
+    // 3. Generate Markdown from the *final* JSON data
+    try {
+        const mdFiles = generateMarkdownFromJson(finalJsonData, baseName, mdChatDir);
         if (mdFiles.length > 0) {
             console.log(`Saved Markdown files: ${mdFiles.join(', ')}`);
         } else {
@@ -635,18 +686,10 @@ async function processChatData(
         }
     } catch (error) {
         console.error(`Error generating Markdown from ${jsonFilePath}:`, error);
-        // Continue, but state will be updated since JSON was saved
     }
 
-    // 4. Determine the new lastId to return
-    const lastProcessedMessage = historyMessages.length > 0 ? historyMessages[historyMessages.length - 1] : null;
-    if (lastProcessedMessage) {
-        // Return object for state update in main
-        return { [chatId]: lastProcessedMessage.id };
-    } else {
-        console.log(`Failed to determine last ID for state update (unexpected).`);
-        return null; // Failed to determine ID
-    }
+     console.log(`Finished processing for chat ${chatId}.`);
+    // No state to return
 }
 
 /**
@@ -729,22 +772,19 @@ async function main() {
       process.exit(1);
   }
 
-  // 2. Read config and state
+  // 2. Read config
   const feeds = loadJSON<{ chats: string[] }>(FEEDS_FILE, { chats: [] });
   if (!feeds.chats || feeds.chats.length === 0) {
     console.warn(`File ${FEEDS_FILE} is empty or does not contain a list of chats. Please add chat links.`);
     await client.disconnect();
     return;
   }
-  // Load initial state using the dedicated function
-  let currentState = loadState();
 
   // === Attempt joining chats ===
   await joinChats(client, feeds.chats);
 
   // 3. Process each chat
   console.log(`\nStarting processing for ${feeds.chats.length} chats...`);
-  let stateChanged = false; // Flag to track if state needs saving
 
   for (const link of feeds.chats) {
     console.log(`--- Processing chat: ${link} ---`);
@@ -761,15 +801,16 @@ async function main() {
       }
       baseName = chatUsername || chatId; // Use username if available, otherwise chatId
 
-      const lastId = currentState[chatId] || 0;
-      console.log(`Chat ID: ${chatId} (baseName: ${baseName}), last known message: ${lastId}`);
+      // Get last ID by reading the large JSON file
+      const lastId = getLastIdFromJson(baseName);
+      console.log(`Chat ID: ${chatId} (baseName: ${baseName}), starting fetch after message ID: ${lastId}`);
 
       // Fetch new messages and related data
       const collectedMessages: Api.Message[] = [];
       const collectedUsers = new Map<string, Api.User>();
       const collectedChats = new Map<string, Api.Chat | Api.Channel>();
 
-      let offsetId = 0;
+      let offsetId = 0; // Offset for GetHistory pagination, always start from 0
       const limit = 100;
       let fetchedCount = 0;
       let isComplete = false;
@@ -781,11 +822,11 @@ async function main() {
              history = await client.invoke(
               new Api.messages.GetHistory({
                 peer: entity,
-                offsetId: offsetId,
+                offsetId: offsetId, // Use 0 for first request, then last message ID of batch
                 addOffset: 0,
                 limit: limit,
-                maxId: 0,
-                minId: lastId + 1, // Fetch messages strictly newer than lastId
+                maxId: 0,           // Fetch messages older than offsetId
+                minId: lastId + 1, // Fetch messages strictly newer than lastId from JSON
                 hash: bigInt(0)
               })
             );
@@ -855,34 +896,20 @@ async function main() {
 
       if (!collectedMessages.length) {
          console.log(`No NEW messages to process in chat ${link}.`);
-         // Try to generate MD from existing JSON
-         await ensureMarkdownExists(baseName); // baseName is now accessible here
+         // We still might want to regenerate MD if JSON exists, even if no new messages
+         await ensureMarkdownExists(baseName);
       } else {
           // Sort collected messages by ID just in case
           collectedMessages.sort((a, b) => a.id - b.id);
 
-          // Process the collected data
-          const stateUpdate = await processChatData(
+          // Process the collected data - this now handles merging and saving
+          await processChatData(
               collectedMessages,
               collectedUsers,
               collectedChats,
               entity,
               client
           );
-
-          if (stateUpdate) {
-            const newLastId = stateUpdate[chatId];
-            if (newLastId > (currentState[chatId] || 0)) { // Update only if ID increased
-                currentState[chatId] = newLastId;
-                stateChanged = true;
-                console.log(`State for ${chatId} will be updated to ${newLastId}`);
-            } else {
-                console.log(`State for ${chatId} does not require update (${newLastId} <= ${currentState[chatId] || 0})`);
-            }
-
-          } else {
-            console.error(`Processing NEW data for chat ${link} failed. State not updated.`);
-          }
       }
 
     } catch (error: any) {
@@ -895,13 +922,6 @@ async function main() {
     console.log(`--- Finished processing chat: ${link} ---\n`);
     // Add a delay between processing different chats
     await new Promise(resolve => setTimeout(resolve, 1500));
-  }
-
-  // 4. Save final state if changed
-  if (stateChanged) {
-    saveState(currentState);
-  } else {
-      console.log(`State was not changed, file ${STATE_FILE} not overwritten.`);
   }
 
   await client.disconnect();

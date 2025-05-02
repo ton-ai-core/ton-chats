@@ -7137,3 +7137,9 @@ Dmitry: TON Smart Contracts pay for storage from own balance, but you can lock s
 Dmitry: https://docs.tact-lang.org/ref/core-contextstate/#nativereserve (reply to 61419)
 
 Артур: Thank you! (reply to 61420)
+
+— 2025-05-02 —
+
+Jared: Is there anyone looking for the developer now?
+
+Roman: How do I add comment to forwardPayload in NFTTransfer? In tact  message(0x5fcc3d14) NFTTransfer {     queryId: Int as uint64;     newOwner: Address; // Address of the new owner of the NFT item.     responseDestination: Address; // Address to send a response confirming a successful transfer and the remaining incoming message coins.     customPayload: Cell? = null; // Optional custom data. In most cases, this should be null.     forwardAmount: Int as coins; // The amount of nanotons to be sent to the new owner.     forwardPayload: Slice as remaining; // Optional custom data that should be sent to the new owner. }
