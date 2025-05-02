@@ -6,7 +6,7 @@ yarn-error.log
 
 # Runtime data
 session.string
-state.json
+# state.json # Removed - state needs to be committed for Actions
 # out/ # Removed to allow committing output
 .env # Ignore .env file
 

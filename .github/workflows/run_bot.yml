@@ -37,22 +37,22 @@ jobs:
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions-bot@users.noreply.github.com'
 
-      - name: Check for changes in out/ directory
+      - name: Check for changes in out/ directory and state.json
         id: check_changes
         run: |
-          git add out/
+          git add out/ state.json # Add both out/ and state.json
           if git diff --staged --quiet; then
-            echo "No changes to commit in out/ directory."
+            echo "No changes to commit in out/ directory or state.json."
             echo "changed=false" >> $GITHUB_OUTPUT
           else
-            echo "Changes detected in out/ directory."
+            echo "Changes detected in out/ directory or state.json."
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit and push changes if any
         if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git commit -m "Update data from TON Feeds Bot run"
+          git commit -m "Update data and state from TON Feeds Bot run"
           git push origin HEAD:${{ github.ref }} # Push to the same branch the workflow ran on
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use built-in token 
