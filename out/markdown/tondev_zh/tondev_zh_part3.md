@@ -10311,3 +10311,5 @@ Philip Lam: ⬆️點擊上方即可加入報單群組⬆️  CRV/USDT  📉空 
 Combot: Катя 💋💋 has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
