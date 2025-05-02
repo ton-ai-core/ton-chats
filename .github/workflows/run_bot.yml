@@ -1,0 +1,58 @@
+name: Run TON Feeds Bot and Commit Data
+
+on:
+  workflow_dispatch: # Allow manual trigger
+  schedule:
+    - cron: '0 3 * * *' # Run daily at 3:00 AM UTC
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allow workflow to commit code
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Use Node.js 20 LTS or match your local version
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci # Use 'ci' for faster, more reliable installs in CI
+
+      - name: Run TON Feeds Bot
+        run: npm start
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION_STRING: ${{ secrets.TG_SESSION_STRING }}
+          TG_PHONE: ${{ secrets.TG_PHONE }} # Optional: Add this secret if you use it
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions-bot@users.noreply.github.com'
+
+      - name: Check for changes in out/ directory
+        id: check_changes
+        run: |
+          git add out/
+          if git diff --staged --quiet; then
+            echo "No changes to commit in out/ directory."
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in out/ directory."
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes if any
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git commit -m "Update data from TON Feeds Bot run"
+          git push origin HEAD:${{ github.ref }} # Push to the same branch the workflow ran on
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use built-in token 

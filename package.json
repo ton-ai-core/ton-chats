@@ -1,33 +1,21 @@
 {
-  "name": "ton-chat-viewer",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "ton-chats-bot",
+  "version": "1.0.0",
+  "description": "UserBot to collect messages from TON-related Telegram chats.",
+  "main": "ton_feeds_bot.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "ts-node ton_feeds_bot.ts",
+    "build": "tsc"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@mantine/core": "^7.16.3",
-    "@mantine/hooks": "^7.16.3",
-    "dayjs": "^1.11.13",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "telegram": "^2.19.9",
+    "prompt-sync": "^4.2.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@vitejs/plugin-react": "^4.3.4",
-    "eslint": "^9.19.0",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.18",
-    "globals": "^15.14.0",
-    "typescript": "~5.7.2",
-    "typescript-eslint": "^8.22.0",
-    "vite": "^6.1.0"
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.19",
+    "@types/prompt-sync": "^4.2.3",
+    "dotenv": "^16.4.5"
   }
-}
+} 
