@@ -8,7 +8,7 @@ yarn-error.log
 session.string
 # state.json # Removed - state needs to be committed for Actions
 # out/ # Removed to allow committing output
-.env # Ignore .env file
+.env
 
 # OS generated files
 .DS_Store
