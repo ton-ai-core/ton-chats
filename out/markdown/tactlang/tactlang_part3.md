@@ -7145,3 +7145,145 @@ Jared: Is there anyone looking for the developer now?
 Roman: How do I add comment to forwardPayload in NFTTransfer? In tact  message(0x5fcc3d14) NFTTransfer {     queryId: Int as uint64;     newOwner: Address; // Address of the new owner of the NFT item.     responseDestination: Address; // Address to send a response confirming a successful transfer and the remaining incoming message coins.     customPayload: Cell? = null; // Optional custom data. In most cases, this should be null.     forwardAmount: Int as coins; // The amount of nanotons to be sent to the new owner.     forwardPayload: Slice as remaining; // Optional custom data that should be sent to the new owner. }
 
 V: Hey looking to start develop on Ton, some articles on the topics for beginners ?
+
+Андрей: https://docs.tact-lang.org/book/learn-tact-in-y-minutes/ (reply to 61507)
+
+V: Thanks 🙏🏽
+
+Шу: Hello everyone! Please help me figure this out. When I compile file main.tact I keep getting the same error: Error: main.tact:3:13: Expected ":" 2 | // Variable for storing NFT description > 3 | storage last_description: cell;  Tact version 1.6.7 I checked it on two different computers with Ubuntu and MacOS. I've already rewritten it dozens of times in different ways, nothing helps(((  contract Fanta {     // Variable for storing the last NFT description     storage last_description: cell;      init() {         self.last_description = empty_cell(); // Пустое значение при инициализации     }      // mint NFT — just save description     receive("mint") {         let description = slice::load_ref();         self.last_description = description.as_cell();         send_raw_message(sender(), 0, "Mint successful");     }      // Get last description     get fun get_last_description(): cell {         return self.last_description;     } } This Expected ":" it constantly appears... Thanks advance! 🙏
+
+Dmitry: Just remove ‘’’storage’’’ (reply to 61521)
+
+Dmitry: Your code looks very awkward tbh
+
+Dmitry: Some weird mix of Tact and FunC
+
+Шу: I am an amateur) thanks for your advice I will try it
+
+Dmitry: I will not expect that this code will compile
+
+Dmitry: https://docs.tact-lang.org/book/learn-tact-in-y-minutes/
+
+Dmitry: Maybe you want to start here
+
+David: Hi, I want to ask, does anyone know where I can get a smart contract for a reward token? (The one where the commission from purchases/sales is divided between holders.)
+
+— 2025-05-03 —
+
+Roman: How to check this for Anonymous Telegram Numbers? (reply to 58940)
+
+— 2025-05-04 —
+
+Georgiy: 🔧 Announcing: OCaml library for FunC parsing: nowarp/ocaml-func  For developers working with FunC, this library provides AST and parser functionality. (forwarded from nowarp | TON Security)
+
+— 2025-05-05 —
+
+Randolph: I have a smart contract written in Tact. Which SDK is most suitable for initiating interactions from the frontend?
+
+maksim: I guess there is only one option now - using Ton Connect as wallet provider and Tact generated wrappers within it to create messages for send (reply to 61743)
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2025-05-06 —
+
+Abrham: Hi, I've developed a web app similar to Polymarket where users can deposit Toncoin and interact with the platform. When a user wants to withdraw their balance, the process should be automatic.  I understand how to handle deposits using TON Connect, but my question is: How can I automate withdrawals without requiring my manual intervention?
+
+Daniil: Use highload wallet on backend (reply to 61849)
+
+Akan: Hi guys, I need some help sending a message to a contract from a react app, the user connects their wallet and then triggers the transaction that then sends the message as the payload of the transaction, I have figured everything except the creation of the payload, its a lot of cell manupulation I see online, which is a bit confusing, is there some article I can use to figure it out?  Thanks a bunch!
+
+Akan: Thank you!, I have figured it out (reply to 61925)
+
+— 2025-05-07 —
+
+Ivan: Hi! I have a receive method where the message contains a referrer address (other than the sender). Since the message may be sent from an alternative client, I need to validate this address in my receive method to ensure it's valid and I can send messages to it. Could you provide an example or just point me in the right direction? I need something like this:  receive(msg: MyMessage) {     let isValid = isAddressValid(msg.referrerAddress); //???     if(isValid) {         someAction();     } }
+
+Slava: I'm afraid you will have to define what the "valid" is, in your terms. (reply to 61995)
+
+Ivan: - Is properly formatted according to the blockchain's address structure (this would probably throw an error earlier, when the client tries to send the message) - Exists on the same chain as my contract (reply to 61998)
+
+Slava: I believe the Tact will handle address deserialization for you and will halt if the address format is invalid.
+
+maksim: True, if it's defined in MyMessage message definition as Address field than Tact will handle it (reply to 62000)
+
+Slava: Regarding the workchain, check the methods starting from here.
+
+Anton: For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸  🍲 got IDEA? ♨️ @tact_kitchen from the @ton_studio (forwarded from TON Dev News)
+
+Brave: offtopic but  Please make a FunC lsp plugin for neovim (or just vim)  Add FunC to the nvim-lspconfig pleeeeaseee 🥺 (reply to 62005)
+
+Anton: you should probably ask the team behind FunC to do it :) (reply to 62007)
+
+Brave: 💯  But only the TacT team is actually doing shit...  So i hardly think about moving from FunC -> to Tact... 🤔 (reply to 62009)
+
+Anton: you should be, you can already be more gas efficient since Tact 1.6.0 (if you follow the guidelines here: https://docs.tact-lang.org/book/gas-best-practices/)  and we are working on a new backend to completely cut off FunC and Fift from the compilation pipeline (reply to 62010)
+
+Brave: soon, i will seriously look forward into doing that. 🤝  We'll see)) (reply to 62011)
+
+Slava: 👏🏻 😅 (reply to 62010)
+
+— 2025-05-08 —
+
+🔳 ivan: Hi! I created a contract that emits event. Now i want to build a listener for such a contract. can you please guide me on off-chain part of this solution? how to get emitted events and parse the event data given event "abi"?
+
+Adam: Yeah sure thing what if you can explain what you want the listener to do I can help (reply to 62071)
+
+Lê: can you help me?  async getCounter(provider: ContractProvider) {         const builder = new TupleBuilder();         const source = (await provider.get('counter', builder.build())).stack;         const result = source.readBigNumber();         return result;     } this void is problem with user wallet
+
+— 2025-05-09 —
+
+Daniil: hello, tell me how to get correct op code from forwardPayload  const innerPayload = beginCell()                 .storeUint(0x54d5c342, 32)                  .endCell();                  const jwPayload = beginCell()                 .storeUint(0xf8a7ea5, 32)                 .storeUint(0, 64)                 .storeCoins(10 * 10**decimals)                 //.storeCoins(toNano(1))                 .storeAddress(smcAddress)                 .storeUint(0, 2) // response address -- null                 .storeUint(0, 1)                 .storeCoins(toNano("0.1"))                 .storeBit(1)                 .storeRef(innerPayload)                 .endCell()                  const payload = jwPayload.toBoc().toString('base64');  receive(msg: JettonTransferNotification) {          if (!msg.forwardPayload.empty()) {             let payload: Slice = msg.forwardPayload;             let opcode: Int = payload.loadUint(32);               if (opcode == 0x54d5c342) {                 self.requireNotStopped();                 let seed: Int = getSeed();                  setSeed(seed);                                let prize: Int = random(self.minPrize, self.maxPrize);                    send(SendParameters{                     to: self.myJettonWallet,                     value: JettonTransferGas,                     body: JettonTransfer {                         queryId: 6,                         amount: prize,                         destination: sender(),                         responseDestination: myAddress(),                         customPayload: null,                         forwardTonAmount: ton("0.015"),                         forwardPayload: rawSlice("F")                     }.toCell()                 });             }         } else {             self.myJettonBalance += msg.amount;             self.forward(msg.sender, null, false, null);         }        }
+
+klass: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
+
+A: Hi guys. Anyone faced this issue: When TonConnect is connected to a wallet (in a React.js app), sending the transaction causes openning a url in the browser instead of openning the already installed Wallet app (eg. TonKeeper). When sending the transaction the app should ask to open the already installed wallet app instead of openning this page.
+
+Slava: It's not the first report of this issue. (reply to 62193)
+
+— 2025-05-10 —
+
+Kenny: Hi guys. I'm new to Ton and Tact. I don't know what a map<K, V> actually does under the hood, so I have concerns that this type will consume lots of gas.  According to Ton docs, TVM is a stack machine, and it can operates on 7 types like integer and cell. So I'm assuming a map<K, V> is essentially a cell. (If my understanding is wrong here, then please ignore the following questions)  As far as I know, the data/bits in a cell cannot be randomly accessed, and can only be converted to a slice, then read and parsed bit by bit. Based on this fact, I have 2 questions:  1. Does a map<K, V> create a new cell for each new key value pair? And all cells (each with one and only one key-value pair in it) are organized in a binary-tree-like structure, leveraging the ability that each cell can store at most 4 references to other cells.  2. What's the time complexity of map.get and map.set and other functions? It seems to be O(log N) or even worse?  Thanks in advance 🙏
+
+Philip: Maps are called "dictionaries" on TVM side, and operations on them are implemented with assembly instructions. See "Dictionary manipulation" section here. (reply to 62249)
+
+Philip: Exact details on how dictionaries are stored can be found in tvm.pdf whitepaper, section 3.3 (reply to 62249)
+
+Kenny: Thanks a lot!!! I'll check them
+
+Philip: Time complexity doesn't really matter much, the thing that counts is amount of spent gas. TVM instruction documentation has "gas" column, albeit sometimes that number is wrong.  You can enable full TVM logs in sandbox and see actual gas costs for every instruction (reply to 62249)
+
+Kenny: At first I didn't know there are dedicated TVM instructions on operating on hashmap/dictionary. I thought the functionality of a map<K, V> is provided by Tact via encapsulating lots of low-level codes. But since there are dedicated TVM instructions, you are probably right that the time complexity doesn't matter much
+
+Philip: Also I have to tell that if you intend to store large amount of data in maps, you'll hit a limit on total amount of storage of a single contract. Scalable solution would use a child contract.  I recall we had some kind of documentation about that, but don't recall where exactly. The person who knows will likely answer here after weekend and public holidays are over (reply to 62254)
+
+Kenny: Yea, I've seen this on Tact book. Thanks for reminding 🥹 (reply to 62255)
+
+Amr: Hi
+
+Kenny: I also think it would be better if the details (reference links) of how a map<K, V> works is written in the "Maps" chapter of the Tact Book.
+
+Slava: I wonder what was the reason behind renaming dictionaries to maps. This is very confusing. Especially for people coming from lower level stuff.
+
+Anton: Who knows :) We just have to live with this now (reply to 62264)
+
+Slava: Oh, I see )
+
+Slava: By the way, I haven't seen any mention of the dictionaries in Tact docs.
+
+Anton: https://docs.tact-lang.org/book/exit-codes/#10 (reply to 62267)
+
+Anton: https://docs.tact-lang.org/book/maps/#ascell (reply to 62249)
+
+Slava: I was expecting to find it on this page.
+
+Anton: it is the same page :) (reply to 62274)
+
+Anton: a quick Cmd+F (Ctrl+F) revealed it to me  but yeah, this can be improved, of course
+
+Kenny: These docs are really helpful! Thanks a lot
+
+Anton: thanks for your questions that help improve the docs
+
+Anton: I just opened an issue about the map representation: https://github.com/tact-lang/tact/issues/3029
+
+Slava: I would've moved it to the top of the page or even renamed the page to read "Maps (dictionaries)" ;) (reply to 62275)

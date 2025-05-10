@@ -694,6 +694,20 @@
       "file": "photos/photo_69.jpg",
       "width": 1280,
       "height": 730
+    },
+    {
+      "id": 71,
+      "type": "message",
+      "date": "2025-05-07T20:50:48.000Z",
+      "date_unixtime": "1746651048",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸\n\n🍲 got IDEA?\n♨️ @tact_kitchen from the @ton_studio",
+      "reply_to_message_id": 70,
+      "media_type": "photo",
+      "file": "photos/photo_71.jpg",
+      "width": 1280,
+      "height": 889
     }
   ]
 }

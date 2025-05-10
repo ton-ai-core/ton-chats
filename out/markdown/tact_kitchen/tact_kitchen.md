@@ -225,3 +225,7 @@ Unknown: 🎉 Tact v1.6.6 is released!  The final patch release of this v1.6 ser
 — 2025-04-22 —
 
 Unknown: 🏆 The Tact Smart Battle is going strong — here are some preliminary standings.  You can still enter the competition and show off your best gas optimizations — the deadline is April 28th, at 12:00 UTC+3.  👉 Hop in: http://codeforces.com/contests/2105  🍲 message sending cell smashing fist ♨️ @tact_kitchen from the @ton_studio (reply to 67)
+
+— 2025-05-07 —
+
+Unknown: For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸  🍲 got IDEA? ♨️ @tact_kitchen from the @ton_studio (reply to 70)
