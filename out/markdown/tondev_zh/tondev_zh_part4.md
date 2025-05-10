@@ -8303,3 +8303,7 @@ Combot: Nadezhda, QTModo, a have been banned! Reason: CAS ban.
 Combot: даниил, Tkk Flk have been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: Robert, Lebron Antetokounmpo, Clement Ante, None have been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
