@@ -4190,7 +4190,7 @@ Runo: there are also endpoints that do not have a warning, but if it is on the m
 
 &rey: I remind you that TC2-returned BOC is not reliable. Wallet app can literally not send that message to blockchain (or replace it with transferring a much lower amount) and you'd be none the wiser. (reply to 137431)
 
-Mahdi: hello guys, if the following contract has 100 ton in it, how much it will send?   () withdraw(int value, slice in_msg, slice target) impure {      ...      ;; Reserve extra     raw_reserve(extra, 0);       var body = begin_cell()         .store_uint(op, 32)         .store_uint(query_id, 64)     .end_cell();      var msg = begin_cell()         .store_uint(0x10, 6)         .store_slice(target)         .store_coins(0)         .store_uint(1, 1 + 4 + 4 + 64 + 32 + 1 + 1)         .store_ref(body)     .end_cell();      send_raw_message(msg, 64);
+Mahdi 👨🏻‍💻: hello guys, if the following contract has 100 ton in it, how much it will send?   () withdraw(int value, slice in_msg, slice target) impure {      ...      ;; Reserve extra     raw_reserve(extra, 0);       var body = begin_cell()         .store_uint(op, 32)         .store_uint(query_id, 64)     .end_cell();      var msg = begin_cell()         .store_uint(0x10, 6)         .store_slice(target)         .store_coins(0)         .store_uint(1, 1 + 4 + 4 + 64 + 32 + 1 + 1)         .store_ref(body)     .end_cell();      send_raw_message(msg, 64);
 
 User<8171670349>: What is main and testnet   -239 / -3 which is with?
 
@@ -4198,15 +4198,15 @@ User<8171670349>: What is main and testnet   -239 / -3 which is with?
 
 &rey: -239 is mainnet, -3 is testnet. (reply to 137434)
 
-Mahdi: does it send 100 ton - extra? (reply to 137435)
+Mahdi 👨🏻‍💻: does it send 100 ton - extra? (reply to 137435)
 
 User<8171670349>: Thanks!
 
-Mahdi: i want it to send balance - extra - computation
+Mahdi 👨🏻‍💻: i want it to send balance - extra - computation
 
 &rey: No; whatever remains of incoming message. (reply to 137437)
 
-Mahdi: what is mean (reply to 137440)
+Mahdi 👨🏻‍💻: what is mean (reply to 137440)
 
 &rey: Mode 128 would work exactly as you wish! (reply to 137439)
 
@@ -4214,13 +4214,13 @@ User<8171670349>: Do you know why tonkeeper allow to send on main net when netwo
 
 User<8171670349>: In dapp
 
-Mahdi: >  whatever remains of incoming message.  what is mean?
+Mahdi 👨🏻‍💻: >  whatever remains of incoming message.  what is mean?
 
-Mahdi: can i dm you? (reply to 137442)
+Mahdi 👨🏻‍💻: can i dm you? (reply to 137442)
 
 &rey: No point in DMing.  If contract had 100 TON originally, incoming message had 1 TON and you spent 0.06 TON on computation, then 0.94 TON would be sent out. (reply to 137445)
 
-Mahdi: great, so no reduction in contract balance?
+Mahdi 👨🏻‍💻: great, so no reduction in contract balance?
 
 Adam: it will send when you sent - computation (reply to 137433)
 
@@ -4228,9 +4228,9 @@ Adam: yeah the sender pay the gas (reply to 137448)
 
 &rey: There would be no reduction... except TVM authors messed up with storage fee. (reply to 137448)
 
-Mahdi: thanks guys, helping a lot
+Mahdi 👨🏻‍💻: thanks guys, helping a lot
 
-Mahdi: if you have a question related to solidity eth, solana i'm here
+Mahdi 👨🏻‍💻: if you have a question related to solidity eth, solana i'm here
 
 Adam: thanks (reply to 137453)
 
@@ -4390,7 +4390,7 @@ Khashayar: lol (reply to 137555)
 
 Adam: Maybe just get someone more orientated ton ? (reply to 137550)
 
-Mahdi: TRUE is -1 in func? (reply to 137225)
+Mahdi 👨🏻‍💻: TRUE is -1 in func? (reply to 137225)
 
 Adam: each blockchain make have some basics you need to het hang of before building
 
@@ -4398,7 +4398,7 @@ Khashayar: Defi is literally dead on TON  Compare TVL with Now and 2023  Telegra
 
 Adam: yes (reply to 137560)
 
-Mahdi: for example what will be the result of (3>0) & 10 ? it will be -1 & 10 so what is the result?
+Mahdi 👨🏻‍💻: for example what will be the result of (3>0) & 10 ? it will be -1 & 10 so what is the result?
 
 &rey: It might. Still, we are improving it. (And this chat is an additional treasure of knowledge actually.)  If each person named at least one thing wrong with the docs, it would be better! (reply to 137550)
 
@@ -4752,7 +4752,7 @@ Adam: How you gonna put it if the tx is not sent
 
 &rey: Sometimes yes, and sometimes to prove right to some jettons in a distributing contract. (reply to 137924)
 
-Mahdi: Hello guys, is there anyone knows how ton whales nominator contract works?
+Mahdi 👨🏻‍💻: Hello guys, is there anyone knows how ton whales nominator contract works?
 
 Saul: Sorry to bother you, but if I could have found it, I wouldn't have bothered you (reply to 137921)
 
@@ -8750,7 +8750,7 @@ Nik: OR, is there a way to clear an individual TMA cache and data so I can see i
 
 Mohammad: Hey everyone. I am using WebStorm and installed TON plugin and trying to write smart contracts in Tact lang. but I don't get any syntax or snippet help from my IDE. I am using the latest version of both WebStorm and  TON plugin. Should I do something special?
 
-2024: Anyone familiar with TON infrastructure for running apps/servers?
+我就是我: Anyone familiar with TON infrastructure for running apps/servers?
 
 ❤️♣️Oliver | Waiger ♠️♦️: Hi all - nice to meet you. Had a question regarding questing in Tg apps.
 
@@ -8766,7 +8766,7 @@ Petr: Tact will definitely get great support in JB IDE, but a bit later 🙂
 
 WhyesCode: Yes, what is the issue? (reply to 143566)
 
-2024: How can I deploy FastAPI service on Ton Network?   Lets say I want to be on ubuntu linux and run some services on it. Whats involved in making this APi available to TON applications etc?
+我就是我: How can I deploy FastAPI service on Ton Network?   Lets say I want to be on ubuntu linux and run some services on it. Whats involved in making this APi available to TON applications etc?
 
 0xElements.sol: https://telegram.org/tos/stars#3-1-disputing-purchases  Is this rule fair? There was 600000 miner  97% of community invest in loss At least 20% of some miners have -5x loss frome Orginal strars purchase (reply to 143543)
 
@@ -8950,7 +8950,7 @@ Arseniy: Hi chat, I have question about contract code changes: how to properly d
 
 WhyesCode: What's the error? Can you send a code snippet (reply to 143749)
 
-2024: Greetings! i am looking for FunC developers and those familar with TON Networking/Filesystem to start a fun project.  Dm is fine
+我就是我: Greetings! i am looking for FunC developers and those familar with TON Networking/Filesystem to start a fun project.  Dm is fine
 
 3,1415: Hello everyone, please tell me how to bypass the blocking of a bot from reading messages from other bots?
 
@@ -9722,7 +9722,7 @@ JD: Because that's the link you are opening up when you hit the documentation se
 
 JD: Ohh makes total sense now. Thank you
 
-Johanna | Venn Network: Is there a ton builders group or is this where the devs mostly hang out?
+Johanna Moran: Is there a ton builders group or is this where the devs mostly hang out?
 
 cryptoDegen: Hello! Are you looking for ton developer? am here (reply to 144802)
 
@@ -9734,7 +9734,7 @@ Combot: Total messages:144814
 
 Andrew: hi， does anyone know how to generate a ton wallet in Java thanks
 
-Johanna | Venn Network: We're trying to build out detectors for wallet security infrastructure. If the solution is good it can be plugged into a decentralized security network where you're rewarded on an ongoing basis. (reply to 144805)
+Johanna Moran: We're trying to build out detectors for wallet security infrastructure. If the solution is good it can be plugged into a decentralized security network where you're rewarded on an ongoing basis. (reply to 144805)
 
 cryptoDegen: can we discuss in DM? (reply to 144822)
 
@@ -11954,7 +11954,7 @@ Boris: reality = intention - fee right?
 
 Boris: is there any guide how withdraw funds to multiple accounts at once and understand how much of them are really withdrawable without PayGasSeparately flag?
 
-Gg: Hello everyone. Are there any representatives of Fragment here? Or what are the current ways to contact them?
+GG: Hello everyone. Are there any representatives of Fragment here? Or what are the current ways to contact them?
 
 klass: Please make a constant for the costs to calculate available funds on-chain or I got smthng wrong? 🚀 (reply to 148123)
 
@@ -12014,4 +12014,30 @@ Kenny: But afaik,wallet contracts are developed in FunC...
 
 Kaveh: 📩 Official Invitation to the TON Community Dear TON Community, On the occasion of Technology Day, which coincides with the birth anniversary of Muhammad ibn Musa al-Khwarizmi – the father of algebra and one of the greatest contributors to mathematics and computer science – we are delighted to invite you to participate in the upcoming TechDay Khuzestan event in Iran. This event will be held at Gundishapur University in Ahvaz – recognized as the world’s first university – and will focus on innovation, emerging technologies, blockchain, and the TON ecosystem. 🗓 Date: July 13, 2025 Registration & More Info: https://www.techday.top 📩 Email: techday.khuzestan@proton.me We warmly welcome your participation, presence, or contribution to this historic celebration of technology and legacy.
 
-Combot: Hello Алексей Не важно! Click on the button below so that we understand that you are not a bot who came to tell us about how Durov is giving away bitcoins as a gift.
+Daniel: What's the best way to accept payement in TON ? Is there already working scripts to host on my own server ?
+
+:3: Crypto Bot? (reply to 148201)
+
+&rey: There is https://github.com/gobicycle/bicycle (if you need any automatic processing; manually, just a wallet address would suffice). (reply to 148201)
+
+Complex: https://github.com/txsociety/spice-harvester  I have made simple server for this (reply to 148201)
+
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: TON needs a tool like hel.io for creating invoices and simple paylinks (reply to 148204)
+
+&rey: You know that ton://transfer links do exist, right? (reply to 148207)
+
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I mean a service to simplify creating invoices and checkout flow (reply to 148208)
+
+Complex: This one. You can creae invoice and receive it status. Very simple (reply to 148206)
+
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: How can you create an invoice with product details and customer info with deeplinks?
+
+Complex: https://github.com/txsociety/spice-harvester/blob/main/api/example.http (reply to 148211)
+
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: nice job, thanks for sharing. Its can be infrastructure for what i said. Because needs a friendly UI to creating and monitoring invoices (reply to 148210)
+
+Complex: Coming soon. (reply to 148213)
+
+&rey: Asking for DMs is not permitted. Please describe your task a bit more detailed than "I have one".
+
+MoeMoney: /help

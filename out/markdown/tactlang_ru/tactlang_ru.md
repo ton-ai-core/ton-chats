@@ -2525,3 +2525,9 @@ RDN: Добрый день! Дошел в своём пути до работы 
 maksim: https://github.com/tact-lang/defi-cookbook/tree/main/jettons  вот тут есть примеры ончейн работы с жеттонами, в том числе usdt (reply to 2108)
 
 RDN: Спасибо. (reply to 2109)
+
+— 2025-05-10 —
+
+RDN: Добрый вечер, подскажите плз, есть дли возможность при тестировании взять .sender() у контракта инициализированного через blockchain.openContract()?  для отправки сообщения в тестах  await nft.send(       nftCollectionContract.getSender(), <----тут проблема                     {                         value: toNano('1'),                     },                    message )
+
+Gosha: можно использовать internal для этого, что-то типа такого:         await blockchain.sendMessage(internal({             from: contractA.address,             to: contractB.address,             value: toNano("0.05"),             body: beginCell().storeInt(1, 1).endCell()         })) (reply to 2112)

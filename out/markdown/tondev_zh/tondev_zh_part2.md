@@ -3470,11 +3470,11 @@ Zorro: 你有沒有看到最上面那排紅字? (reply to 20932)
 
 uupp $ZAI: 😂停止运营
 
-小P「JitoShred教程作者」: 😑TON起飞了
+小P「FuckMeMe」: 😑TON起飞了
 
 TON: 拥有TON，拥有Telegram 股份权，1TON=10股！
 
-小P「JitoShred教程作者」: 😑有没有人晓得TONOT这个项目是不是诈骗
+小P「FuckMeMe」: 😑有没有人晓得TONOT这个项目是不是诈骗
 
 TON: 囤TON就好了
 
@@ -3526,13 +3526,13 @@ Kirill: Or @thetonstakers / https://tonstakers.com (reply to 20970)
 
 Yang: 笑死，大家出來搶生意了
 
-小P「JitoShred教程作者」: 🫠Tonot才是最强的
+小P「FuckMeMe」: 🫠Tonot才是最强的
 
 Yang: Bemo、Hipo 在哪？一支穿雲箭、千軍萬馬來相見
 
 Yang: 過分了喔 (reply to 20975)
 
-小P「JitoShred教程作者」: 🫠滞销了
+小P「FuckMeMe」: 🫠滞销了
 
 Howard: PS. TonKeeper 的質押功能背後就是串 TonStakers.com 😂 (reply to 20973)
 
@@ -3568,9 +3568,9 @@ Yang: 難度： Fift > FunC > Tact 上手度：Tact > FunC > Fift   基本上全
 
 小龙龙: 有没有一键发布合约的三方平台了
 
-小P「JitoShred教程作者」: ton吗
+小P「FuckMeMe」: ton吗
 
-小P「JitoShred教程作者」: ton好像有的
+小P「FuckMeMe」: ton好像有的
 
 Will 🍅: 這誰說的 (reply to 20937)
 
@@ -3604,7 +3604,7 @@ Howard: Tact 教學可以參考 ScaleBit & TON 贊助的講座：https://openbui
 
 Howard: 征求一些微信小程序开发过的 Devs 跟我们分享一下迁移过来 TG 上搭建 mini-app 的体验、以及开发上的差别😂
 
-小P「JitoShred教程作者」: 羊了个羊
+小P「FuckMeMe」: 羊了个羊
 
 快乐玩币圈: 哈哈
 
@@ -3984,17 +3984,17 @@ User<6234295669>: is there anybody looking for a front-end developer?
 
 Andy (Gang): 我決定重壓ton ~
 
-小P「JitoShred教程作者」: 🙈有没有链游开发的
+小P「FuckMeMe」: 🙈有没有链游开发的
 
 Sean: 請問有興趣開發dapp程式要跟誰討論和聯絡呢
 
-小P「JitoShred教程作者」: 你是开发者吗
+小P「FuckMeMe」: 你是开发者吗
 
 Sean: 有點基本的基礎 也在學習開發
 
 Trb: 兄弟们,Tact有好点的Arrays 方案么,想实现  ABC[ 0 ].push( )这个功能
 
-小P「JitoShred教程作者」: 😐没人搞赌博类的链游吗
+小P「FuckMeMe」: 😐没人搞赌博类的链游吗
 
 Andy: 请问 ton合约 一般用啥语言 fift func  还是 tact
 
@@ -4130,7 +4130,7 @@ Howard: 提交到鏈上打包之後會有。透過 api 查詢 (reply to 21365)
 
 coolkhz: 合约可以写定时器   循环 3 分钟就执行一些操作吗？
 
-小P「JitoShred教程作者」: 🙈这是要搞什么 (reply to 21368)
+小P「FuckMeMe」: 🙈这是要搞什么 (reply to 21368)
 
 Squid: 可以内部写逻辑 (reply to 21368)
 
@@ -4144,7 +4144,7 @@ coolkhz: 那个机器人领了  也不给发啊
 
 coolkhz: 半个多小时了
 
-小P「JitoShred教程作者」: 以前领的水也不见了😂
+小P「FuckMeMe」: 以前领的水也不见了😂
 
 Ann: 你好，有空请看下私信哦 (reply to 21367)
 
@@ -4220,7 +4220,7 @@ Vivi: 你怎么也叫一个名字
 
 Conight: 脚本里面TonClient4实例怎么调用类似于api.getContractState 方法？
 
-小P「JitoShred教程作者」: 🫠ton上有看k线的吗
+小P「FuckMeMe」: 🫠ton上有看k线的吗
 
 航: tong这个币
 
@@ -4514,9 +4514,9 @@ Zorro: TON 沒有預言機 (reply to 21613)
 
 Bill: 也就是 市场空白😁
 
-小P「JitoShred教程作者」: 🌝🌝市场空白的比较多
+小P「FuckMeMe」: 🌝🌝市场空白的比较多
 
-小P「JitoShred教程作者」: 看你想怎么搞
+小P「FuckMeMe」: 看你想怎么搞
 
 carl: 在做sendBoc的时候返回了这个有大佬知道是什么原因吗end error: LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted\nCannot run message on account: inbound external message rejected by transaction 978819DB7AE4D9EDAE63A43C98BACC09176913FF820352E92148F06D9766D649:\nexitcode=33, steps=33, gas_used=0\nVM Log (truncated):\n...OW\nexecute XCHG s1,s3\nexecute LEQ\nexecute THROWIF 35\nexecute PUSH c4\nexecute CTOS\nexecute LDU 32\nexecute LDU 32\nexecute LDU 256\nexecute ENDS\nexecute XCPU s3,s2\nexecute EQUAL\nexecute THROWIFNOT 33\ndefault exception handler, terminating vm with exit code 33\n
 
@@ -4728,11 +4728,11 @@ carl: 这笔交易
 
 carl: 有对接过的大佬吗
 
-小P「JitoShred教程作者」: ton有没有狙击bot?
+小P「FuckMeMe」: ton有没有狙击bot?
 
 兵长: 有
 
-小P「JitoShred教程作者」: 哪里有
+小P「FuckMeMe」: 哪里有
 
 小龙: 在TON上如何获取telegram的用户信息
 
@@ -23111,4 +23111,6 @@ carol: 没TON了，只剩这点了。。😆
 wikig: 好像没有看到有这个方法（但是即使有.......好像也做不了什么？  但是有个方法可以使得关闭miniapp时触发一个用户手动确认  可能那个方法有回调事件 (reply to 36593)
 
 Lou: 我想在用户关闭的时候更新一次用户数据
+
+walker: ton上发交易时的seq，会像ethereum上一样有mempool去缓存未来的seq吗？比如钱包的seq现在是1，我发个seq是2的交易出去，这笔交易是会被节点丢弃掉，还是会等seq=1的交易被确认后，seq=2的交易会被节点确认？
 

@@ -1,13 +1,3 @@
-备用: 我觉得熟手的话,dump log的作用不如浏览器的作用大
-
-备用: 自动化测试的前提是业务比较固定,改动小...
-
-备用: 😂 我比较懒...
-
-备用: 沙盒只适合一些细节的调试.不适合测完整的流程
-
-备用: 个人感觉哈
-
 备用: 比如notify之后forward建了个临时的pool, 沙盒能不能直接测这个pool的方法? 还是得把前面的流程走完才能拿到pool做测试?
 
 备用: 定制得跟主网不一样,上了主网还得再测一遍吧...
@@ -8252,21 +8242,13 @@ Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的�
 
 — 2025-05-09 —
 
-Combot: Lakin Lon has been banned! Reason: CAS ban.
-
-Combot: Gl has been banned! Reason: CAS ban.
-
 sniper07: scam! (reply to 88510)
 
 one: 怎么禁止自己机器人被别人投广告啊
 
-Combot: selyaaaa has been banned! Reason: CAS ban.
-
 Kenny Chan: 官方推号👍
 
 — 2025-05-10 —
-
-Combot: schöne_Schlampe has been banned! Reason: CAS ban.
 
 TK: 大家好，谁知道这个的原因
 
@@ -8294,16 +8276,26 @@ TK: def create_transaction_digest(         self,         to_addr: str,         a
 
 TK: @andrew_cong
 
-Combot: Anggie has been banned! Reason: CAS ban.
-
 Andrew: 主要提供 TypeScript 的 SDK，我个人也没有用过 Python (reply to 88616)
 
-Combot: Nadezhda, QTModo, a have been banned! Reason: CAS ban.
+— 2025-05-11 —
 
-Combot: даниил, Tkk Flk have been banned! Reason: CAS ban.
+Combot: Brima Nabieu has been banned! Reason: CAS ban.
 
-Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+Kenny: GM 各位，想请教下，当一个合约收到一个 bounceable message，并且这个 message 附带的 toncoin value 在 computation phase 被耗尽，那么这个 message 还能被 bounce 回之前的合约吗？如果不能的话，岂不是理论上会有点风险，比如 Alice 给 Bob 转账 Jetton 时，Alice 的余额已经变少了，但是 message 去到 Bob 的合约时，message value 耗尽，没办法增加余额，而且 message 也 bounce 不回 Alice 的合约，这样子的话，这个 Jetton 的总供应量不久凭空消失了一部分吗？
 
-Combot: Robert, Lebron Antetokounmpo, Clement Ante, None have been banned! Reason: CAS ban.
+Leo: 是这样的，所以一般internal transfer这种关键消息都会带上足够的value，最后剩余返还给用户即可
 
-Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+Kenny: 是说，合约收到 internal message 时，会主动检查 value 是否足够，如果不够，就直接设定 exit code ，然后进到 bounce phase 吗？
+
+Kenny: 感觉总不能指望用户老老实实带上足够的 value？
+
+Kenny: 主要是感觉，亏点小钱是小事，但是这一块逻辑没处理好的话，可能会导致一些很严重的问题（比如 Jetton 的总供应量凭空消失），这种是大事……
+
+Leo: 不是啊，发出internal transfer之前就检查了，如果发出了就说明用户带的value足够
+
+Kenny: 哦哦哦，有道理。不过感觉似乎还是有一些问题？假设 Alice 要给 Bob 转 USDT，在 Alice 的 USDT wallet contract 收到 internal message 时，此时检查 value 是否足够，仅当足够时才发 internal message 给 Bob 的 USDT wallet contract，这样确实比较好。但是，假设 Alice 填的 Bob 的地址是一个错误的合约地址呢？USDT wallet contract 总没有能力能够检查目标地址是否跟自己一样是 USDT wallet 吧。然后那个错误的合约收到 internal message 时，假设它无视 message 内容，然后耗尽了 value，此时仍然是无法 bounce 回 Alice 的 USDT wallet contract？ (reply to 88767)
+
+Leo: alice给jetton wallet提供bob的地址而不是jw地址，alice的jw会算出对应的jw地址再发消息 (reply to 88768)
+
+Kenny: 有道理，十分感谢🙏

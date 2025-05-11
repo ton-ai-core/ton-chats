@@ -10146,7 +10146,7 @@ Kono: Hello. I can build website & smart contracts and tg bots for meme coin & d
 
 &rey: Here, if you poll on sender contract, you may match in_msg with BOC you have (or its hash). (reply to 84818)
 
-🌊: Halo
+NodeGo.Ai: Halo
 
 Constantine: The problem is that i DO NOT "bombing" ton blockchain at all. It doesn't matter how much time i wait to do a new post-request. The result is the same...  So, as i see the situation, my messages ALWAYS get lost in mempool🤷‍♂  Can the upgrade to some paid plan (at least the cheapest one) fix the situation? (2.5 Ton isn't a big amount of money, but anyway i dont wanna waste it with no effort) (reply to 84817)
 
@@ -10156,9 +10156,9 @@ Constantine: Ok, i will think about it. Thanks for support🙏 (reply to 84828)
 
 Buggy: Who need 200 test Ton?
 
-🌊: hello, is there anyone here who can help me regarding sending boom tokens?
+NodeGo.Ai: hello, is there anyone here who can help me regarding sending boom tokens?
 
-🌊: I have sent boom tokens to the boom contract semrt address. Can you please help me solve this??🙏
+NodeGo.Ai: I have sent boom tokens to the boom contract semrt address. Can you please help me solve this??🙏
 
 0xbera: What are orbs? Can you provide a link maybe? (reply to 84828)
 

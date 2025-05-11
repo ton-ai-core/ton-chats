@@ -240,13 +240,13 @@ Spite: And going to a contest just for the money is not a bad motivation. If a p
 
 Arnold: Привет, а битва токенов будет возобновлена? Я бы поучаствовал )
 
-Baxriddinovich | 16:08: Hello everyone
+Baxriddinovich </>: Hello everyone
 
-Baxriddinovich | 16:08: it is true ? (reply to 1273)
+Baxriddinovich </>: it is true ? (reply to 1273)
 
 melese: Yes
 
-Baxriddinovich | 16:08: ooo This is perfect
+Baxriddinovich </>: ooo This is perfect
 
 X1ag: What do you think of the idea of hiring the top 3 guys ?)
 

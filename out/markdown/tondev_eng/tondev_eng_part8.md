@@ -7916,7 +7916,7 @@ Thanh: How to check If a contract is deployed correctly, this is my v5 contract�
 
 Thanh: Yeah, I've seen that already lol, but it good to confirm that we can import contract and use in wallet apps, althought not for today 😆😆 Thank you so much for your time 🥰🥰🥰
 
-『🔎𝐓𝐆🔍』 买卖『🔎𝐓𝐆🔍』: What it problem
+User<6999651964>: What it problem
 
 final: receive_internal (reply to 98885)
 
@@ -10940,13 +10940,13 @@ Rudolf: Hi guys, do someone know how to get the contract type (interface, like i
 
 &rey: Well, you need something classifying contract by their code or code cell hash. Also, you need to load contract state somehow; I assume you can do so through liteservers, which are not API. (reply to 102868)
 
-Lucifet🍅: Help what should I do
+User<5558018977>: Help what should I do
 
 &rey: This is scam. Not returnable actually. (reply to 102872)
 
 Willie: sad (reply to 102872)
 
-Lucifet🍅: What should I do 😭😭 (reply to 102873)
+User<5558018977>: What should I do 😭😭 (reply to 102873)
 
 &rey: Not repeat that experience, probably. (reply to 102876)
 
@@ -10954,13 +10954,13 @@ Willie: crypto dont have admin, you cant return your money
 
 Willie: you saw your transaction, you lost your tons its not our problem. You need be careful
 
-Lucifet🍅: Why not when you got stolen and you know where address of the scamer is (reply to 102883)
+User<5558018977>: Why not when you got stolen and you know where address of the scamer is (reply to 102883)
 
 &rey: I acknowledge; blockchain by design is IMMUTABLE storage of transaction.
 
 &rey: (You have better chance to convince scammer to return money than doing something onchain.)
 
-Lucifet🍅: And why then ton support just contact me now
+User<5558018977>: And why then ton support just contact me now
 
 &rey: More scam? Watch out, they'll say "just send a bit more money". (reply to 102903)
 
@@ -10968,7 +10968,7 @@ Lucifet🍅: And why then ton support just contact me now
 
 &rey: I can't recommend using blockchain or automatic systems when you don't distinguish between your assumptions and what will really happen. (reply to 102914)
 
-Lucifet🍅: That 7$ is not much for you but for me it is
+User<5558018977>: That 7$ is not much for you but for me it is
 
 DeFi: It's gone. You can't get it back. (reply to 102922)
 

@@ -2274,7 +2274,7 @@ User: How to check if element already inside a tuple? Func.
 
 💎 Alireza 💎🥠 🐈‍⬛🐾: ?? (reply to 36068)
 
-ⓌⒷ Rosé 🇺🇦: just state your concern. they’ll reply once they’re available. it also avoids getting ras-ed (reply to 36062)
+Rosé 🇺🇦: just state your concern. they’ll reply once they’re available. it also avoids getting ras-ed (reply to 36062)
 
 💎 Alireza 💎🥠 🐈‍⬛🐾: details?? (reply to 36068)
 
@@ -5808,7 +5808,7 @@ User<1166596949>: But backend needs a rewrite, due to the large differences betw
 
 Wayne: DMed you. (reply to 38239)
 
-ⓌⒷ Rosé 🇺🇦: hey there. sorry for replying on your message. this is offtopic, but do you guys handle the same?   🔗 https://t.me/toncoin_chat/174349 (reply to 38239)
+Rosé 🇺🇦: hey there. sorry for replying on your message. this is offtopic, but do you guys handle the same?   🔗 https://t.me/toncoin_chat/174349 (reply to 38239)
 
 shawm \z/: Gm all! (Shom here from Graviton Web3 Accelerator)
 

@@ -593,3 +593,7 @@ Unknown: 🎉 Tact v1.6.6 is released!  The final patch release of this v1.6 ser
 — 2025-04-21 —
 
 Unknown: 🚀 Tact Smart Battle has officially started! 🤜  All tasks are now live.   The GitHub repo with setup, templates, and participation guide is here:    🐱 tact-smart-battle  Dive in, build, and push your skills to the limit
+
+— 2025-05-07 —
+
+Unknown: For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸  🍲 got IDEA? ♨️ @tact_kitchen from the @ton_studio

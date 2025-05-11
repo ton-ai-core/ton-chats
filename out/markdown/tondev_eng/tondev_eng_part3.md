@@ -456,7 +456,7 @@ Steve: I am about in-contract one, no scalable
 
 — 2023-03-26 —
 
-Dicov: Good evening, I have a question... How likely would be the implementation of the new AI technology in the blockchain or rather, in The Open Network? And if it were to be done... What would be the benefits according to you, both for users and developers?
+Dave: Good evening, I have a question... How likely would be the implementation of the new AI technology in the blockchain or rather, in The Open Network? And if it were to be done... What would be the benefits according to you, both for users and developers?
 
 Howard: with the largest exchange volume of TON via Mercuryo 🙈 (reply to 25582)
 
@@ -1950,19 +1950,19 @@ User<1418229103>: thx
 
 User<5905339297>: Hlw sir
 
-AK第三方定制号商: @rulon 你好管理员我充值了币没有输入comment怎么办
+AK［接粉专业户］: @rulon 你好管理员我充值了币没有输入comment怎么办
 
-AK第三方定制号商: @Rulon Hello, administrator, what should I do if I recharged the coin and didn't enter the comment?
+AK［接粉专业户］: @Rulon Hello, administrator, what should I do if I recharged the coin and didn't enter the comment?
 
-AK第三方定制号商: @Rulon Hola, administrador, recargué la moneda y no ingresé el comentario. ¿Qué debo hacer?
+AK［接粉专业户］: @Rulon Hola, administrador, recargué la moneda y no ingresé el comentario. ¿Qué debo hacer?
 
-AK第三方定制号商: 😭😭
+AK［接粉专业户］: 😭😭
 
-AK第三方定制号商: Will any relevant personnel solve this problem? Please teach me. Thank you very much.
+AK［接粉专业户］: Will any relevant personnel solve this problem? Please teach me. Thank you very much.
 
 Andrey: You should contact with OKX support (reply to 26803)
 
-AK第三方定制号商: Thank you for your advice. (reply to 26808)
+AK［接粉专业户］: Thank you for your advice. (reply to 26808)
 
 Kloy: Did anyone else get an error msg after the recent upgrade on mytonctrl?  — Configuring incomplete, errors occurred! See also "/usr/bin/ton/CMakeFiles/CMakeOutput.log". See also "/usr/bin/ton/CMakeFiles/CMakeError.log". Upgrade - Error
 
@@ -14610,7 +14610,7 @@ Jzuss ┌( ಠ_ಠ)┘: yes! (reply to 34468)
 
 Jzuss ┌( ಠ_ಠ)┘: ye, your advice helped! thnx @pcrafter @TrueCarry (reply to 34469)
 
-хд: goodbye
+насок: goodbye
 
 — 2023-09-12 —
 
