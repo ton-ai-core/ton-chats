@@ -768,15 +768,15 @@ Jhunie Ray: Hello,why does tonconnect.sendTransaction doesn’t show Jetton amou
 
 Maxwell: When would be possible to sign tx within TG?
 
-Qwerty: How to delete an account in tonkeeper?
+User<6188638430>: How to delete an account in tonkeeper?
 
 Daniil: what do you mean by that? (reply to 35170)
 
-Qwerty: I just want to delete my account in the tonkeeper wallet, tell me how do I do it? (reply to 35171)
+User<6188638430>: I just want to delete my account in the tonkeeper wallet, tell me how do I do it? (reply to 35171)
 
 Daniil: you mean log out from it? (reply to 35172)
 
-Qwerty: Not to exit but to delete (reply to 35173)
+User<6188638430>: Not to exit but to delete (reply to 35173)
 
 Daniil: Why would you want to do it?  Anyway, Tonkeeper don’t have such functionality. (reply to 35174)
 
@@ -784,11 +784,11 @@ Ashish: What you call a “tonkeeper account” is a blockchain wallet. You can'
 
 Daniil: Well, you can delete it by sending a message with mode 160 (reply to 35176)
 
-Qwerty: I suspect that an outsider has login details, please tell me what I can do to keep me safe (reply to 35175)
+User<6188638430>: I suspect that an outsider has login details, please tell me what I can do to keep me safe (reply to 35175)
 
 Daniil: Create a new wallet and send all the funds and collectibles there (reply to 35178)
 
-Qwerty: I understand you, thank you very much (reply to 35179)
+User<6188638430>: I understand you, thank you very much (reply to 35179)
 
 Ashish: I haven't worked with blockchain as a developer, so please answer the question.  Does the tone blockchain allow you to clear the entire history of working with a wallet with one command send_raw_message? I doubt. I assume that it blocks the address or resets it. This is not equivalent to deleting your account. (reply to 35177)
 
@@ -804,7 +804,7 @@ Daniil: And how is this not deletion? (reply to 35185)
 
 Ashish: All data associated with your wallet remains on the ton network. You simply lose the opportunity to use it. Almost the same thing as throwing out the seed phrase (reply to 35186)
 
-Qwerty: Great, thanks (reply to 35183)
+User<6188638430>: Great, thanks (reply to 35183)
 
 Daniil: The data is being deleted. The history may remain on the historical nodes. In case with regular wallet smart contracts -> you'll still be able to use it by simply activating the wallet once again. And for custom contract, it'll lose the code and data. (reply to 35189)
 

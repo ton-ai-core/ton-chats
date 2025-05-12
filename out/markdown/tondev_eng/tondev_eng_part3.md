@@ -9006,7 +9006,7 @@ Andrew: inflation is way higher than those laughable fee amounts, don't worry (r
 
 Emilia: Validators to maintain the PoS consensus, secure the network and offer additional functions must be rewarded in some way. The possibilities are commissions or inflation. TON has one of the lowest inflations among blockchains at 0.6% or about 30 M coins per year (considering a total supply of 5 G Toncoin). According to the data stated by the message and those of tontech.io, we have respectively 700-800 Toncoins of commissions and 180-200 k transactions per day equal to (800/200 k)=4*10^-3= 4 m Toncoins/transaction. So the breakeven point between issuing and burning at 50% would be reached with 2*30 M/(4 m)=15 G transactions per year or 41.09 M per day or 475.57 transactions per second. By reaching such a level of network usage, which is very low given the prospects of the project, TON tokenomics would become deflationary despite 0.6% inflation and at the same time fully reward validators. (reply to 31166)
 
-sajib: Interview With Narek Abovyan, Head of TonTech at FSL  The TON & Company YouTube channel has released a fresh interview with TonTech team member and TON ecosystem contributor Narek Abovyan.  Narek talked about his fascinating journey in the blockchain industry, his role in Getgems, and his contribution to the creation of TON NFT standards (in particular, the Soulbound standard).   He also talked about the Getgems launch, TonTech’s plans, a collaboration with TON Play, and more.  We recommend watching the interview — it’s available on YouTube. (forwarded from TON Community)
+User<6314963970>: Interview With Narek Abovyan, Head of TonTech at FSL  The TON & Company YouTube channel has released a fresh interview with TonTech team member and TON ecosystem contributor Narek Abovyan.  Narek talked about his fascinating journey in the blockchain industry, his role in Getgems, and his contribution to the creation of TON NFT standards (in particular, the Soulbound standard).   He also talked about the Getgems launch, TonTech’s plans, a collaboration with TON Play, and more.  We recommend watching the interview — it’s available on YouTube. (forwarded from TON Community)
 
 Howard: dude, you had forward this to everywhere (reply to 31170)
 
@@ -10140,7 +10140,7 @@ Synth: I am a developer and testing something things in tonkeeper
 
 Synth: Any idea how I can open the config tab in it? After it is created
 
-SOPHORN: How is the hash calculated for a cell that, in addition to data, holds reference(s) to other cell(s)?
+地方: How is the hash calculated for a cell that, in addition to data, holds reference(s) to other cell(s)?
 
 Dmitrii: Hi there. I ve got a question: I am connecting to the ton node using LiteClient. Is there a simple way do distinguish the type of node (whether is archive or not) which i am connected to. Maybe some function of parameter in lite_tl.api or tonlib_api.tl?  Tried to parse liteServer.Info capabilities param , but looks like it is not the one
 
@@ -11864,7 +11864,7 @@ Gulolio: Hi there guys, how can I make an in place replacement of the bytes in a
 
 Gulolio: I haven't found a way, so I'm thinking that maybe is not possible and made on that way on purpose. Let me know if I'm wrong in any case. Thanks in advance
 
-Ńúri Ýe Arsii Lij: Thanks (reply to 32838)
+ያረቢ'': Thanks (reply to 32838)
 
 x: Thanks to tonbyte.com, we can drop any collection on Getgems without worrying about technical stuff. The site has tools like Create Collection, Mint and also other things. They are getting improved day by day. Magic will happen 🏗 ✈️ Check and create your bulk-size collection! ✈️ @TONBEANZ (forwarded from TON BEANZ)
 

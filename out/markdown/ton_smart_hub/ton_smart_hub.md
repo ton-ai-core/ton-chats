@@ -580,11 +580,11 @@ Dammie: GM gm admin can I plead send a message
 
 Oleg: Is the problem gone? (reply to 1636)
 
-Tasneem: what exit code number I should throw? I have checked the reserved exit code numbers, but none of them is for this, so I should be throwing number between 256 to 65535, right?
+Tasneem(“”);: what exit code number I should throw? I have checked the reserved exit code numbers, but none of them is for this, so I should be throwing number between 256 to 65535, right?
 
 Anton: correct (reply to 1656)
 
-Tasneem: any number between the range is acceptable? (reply to 1657)
+Tasneem(“”);: any number between the range is acceptable? (reply to 1657)
 
 Anton: yes, you can throw any number in the range (reply to 1658)
 
@@ -662,7 +662,7 @@ Potok: How do I find out which tests failed? There are no problems running the n
 
 Max: It's because only a single small test runs locally. You cannot see which tests are failing as far as I know. Either way it wouldn't help you, because you cannot see the actual tests themselves
 
-Tasneem: in problem B,  1- how should I figure the value needed to send to the deployed Proposal Contract?                 for example: value: ton("0.001") , is 0.05 too much? 2- should I reimburse any funds in both contracts?, no right?
+Tasneem(“”);: in problem B,  1- how should I figure the value needed to send to the deployed Proposal Contract?                 for example: value: ton("0.001") , is 0.05 too much? 2- should I reimburse any funds in both contracts?, no right?
 
 Potok: then it's not clear what to fix. (reply to 1709)
 
@@ -1582,7 +1582,7 @@ Laplace: How do you deploy the contract in the blank recieve function
 
 E2BIG: Contract gets deployed when it receives any message if sender includes code and data of this contract in SendParameters (if i understand the question correctly) (reply to 2405)
 
-Tasneem: Hello @zabojeb , did you get an answer on this? (reply to 2143)
+Tasneem(“”);: Hello @zabojeb , did you get an answer on this? (reply to 2143)
 
 Yaroslaw: Not yet 🙁 (reply to 2407)
 
@@ -1600,7 +1600,7 @@ SHY(⁠*⁠_⁠*⁠): mentioned
 
 SHY(⁠*⁠_⁠*⁠): 0.01 in offical problem statement in D
 
-Tasneem: @hitasp @AntonTrunov welp?) 0.01 ton or 0.1 ton?) problem D (reply to 2410)
+Tasneem(“”);: @hitasp @AntonTrunov welp?) 0.01 ton or 0.1 ton?) problem D (reply to 2410)
 
 𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 0.01 (reply to 2419)
 
@@ -1628,7 +1628,7 @@ Sohom: But I guess it's my skill issue since I'm getting 4/18 (FINALLY got some 
 
 ABC: stuck on 21/23 in D. Any hints?
 
-Tasneem: sorry for tagging you so much, but could you please give some insides/answer this case?) @hitasp (reply to 2143)
+Tasneem(“”);: sorry for tagging you so much, but could you please give some insides/answer this case?) @hitasp (reply to 2143)
 
 Sohom: Yeah thanks. Already gone through it. I'm getting 4/18 now so I assume the implementation is correct but it's missing something. (reply to 2431)
 
@@ -5208,13 +5208,13 @@ Kinda Bad Music: nice i claimed it. do they have ton society value? (reply to 46
 
 Kinda Bad Music: nice nice
 
-Tasneem: Is there an X account for Tact language?) To brag about my SBT xD)
+Tasneem(“”);: Is there an X account for Tact language?) To brag about my SBT xD)
 
 Oleg: https://x.com/tact_language (reply to 4628)
 
 Seif: is there anything else to do?
 
-Tasneem: Ah! I can’t buy stars(or gifts) with my TON/Telegram wallet?!! Disappointed… ☹️😢
+Tasneem(“”);: Ah! I can’t buy stars(or gifts) with my TON/Telegram wallet?!! Disappointed… ☹️😢
 
 Oleg: ? Use fragment to buy stars (reply to 4631)
 
@@ -5228,7 +5228,7 @@ E2BIG: Для топ-16 виннер сбт, не для 128 (reply to 4633)
 
 Spite: ну я в топ 16, получил вторую таку же сбт, просто там 2000+ поинтов (reply to 4636)
 
-Tasneem: ah! didn’t know it’s done in a separate solution, thank you! (reply to 4634)
+Tasneem(“”);: ah! didn’t know it’s done in a separate solution, thank you! (reply to 4634)
 
 Andy: Hi everyone! I am quite late to the party, but here are some of my early solutions without Fift and test abuse that I submitted to the cookbook. They have a lot of documentation so if anyone had questions about previous solutions they might be answered here. I'll publish my final rank #39 Fift/FunC/test abuse solutions when I find the time, I promise ;) I think a few things in those wild solutions are quite interesting.
 
@@ -5272,7 +5272,7 @@ Skuli: I also want to write libraries for mutation tests to catch dummy tests. (
 
 Семен: Hello everyone. I am working on service that build web UI for Tact contracts published to the TON Verifier based on its ABI. For now it still on early stage of development. If you want to collaborate, i'll be glad GitHub https://github.com/supadupadao/minter Example of usage (reply to 4665)
 
-Tasneem: ah! that’s like ScaffoldEth? (reply to 4684)
+Tasneem(“”);: ah! that’s like ScaffoldEth? (reply to 4684)
 
 Семен: i used ui.use.ink as reference, but seems like it's similar too (reply to 4685)
 
@@ -5349,3 +5349,7 @@ Mojisola🍅 🍅: hi (reply to 4728)
 Crypto: good idea (reply to 4694)
 
 Crypto: I have seen many people ak (reply to 4694)
+
+— 2025-05-11 —
+
+Haстя zargates: Hi! I won in the jokes for impressions contest from telegram apps center, winners were announced more than a month ago, and I still haven't received any gift🥲 There is no support, I commented under TAC posts in X(twitter) but they didn't even read them Can you please contact them?

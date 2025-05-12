@@ -1,5 +1,3 @@
-&rey: Yes, get_jetton_data or sth like that returns it. (reply to 128262)
-
 &rey: Make sure to cross-check that jetton master really gives that jetton wallet's address, or you risk spending TON on wrong contract but thinking that's just high fees.
 
 Valentin: Is there a way to get faster access to this client?   const tonClient4 = new TonClient4({       endpoint: await getHttpV4Endpoint({         network: 'mainnet',       }),       timeout: 100000,     });
@@ -152,11 +150,11 @@ Sam: For example this is jetton wallet ?  0:09f2e59dec406ab26a5259a45d7ff23ef11f
 
 Jacob: rpc error :   cannot compute block with specified transaction: cannot find block (0,03d18a0b4b77c76f) lt=28733542000001: lt not in db  how to address this issue?  Thank you
 
-TKAINU: Hello, i call transfer Cati token, but error: Compute Phase Success: false Exit code: 709  I have never encountered this error 709, please help me, this is a cati contract  https://tonviewer.com/EQD-cvR0Nz6XAyRBvbhz-abTrRC6sI5tvHvvpeQraV9UAAD7
+Tùng: Hello, i call transfer Cati token, but error: Compute Phase Success: false Exit code: 709  I have never encountered this error 709, please help me, this is a cati contract  https://tonviewer.com/EQD-cvR0Nz6XAyRBvbhz-abTrRC6sI5tvHvvpeQraV9UAAD7
 
 final: Check source code of Jetton master or wallet (reply to 128677)
 
-TKAINU: I found the error, due to lack of gas, but the opcode here is 709, not 48 like other contracts. (reply to 128678)
+Tùng: I found the error, due to lack of gas, but the opcode here is 709, not 48 like other contracts. (reply to 128678)
 
 final: Because it is thrown by contract itself, which provides custom op codes (reply to 128679)
 
@@ -1082,7 +1080,7 @@ Brian ☀️: Code do transfer ton
 
 WhyesCode: Is your mnemonic for tonkeeper giving the same address? (reply to 131298)
 
-TKAINU: You can try replacing contractv4 with contractv3r2 (reply to 131299)
+Tùng: You can try replacing contractv4 with contractv3r2 (reply to 131299)
 
 Brian ☀️: yes I sure it same, double check in wallet (reply to 131300)
 
@@ -1730,7 +1728,7 @@ Outcasters: Thanks for info (reply to 133130)
 
 Tea the Bottle: hello, Im stucking here:  with this code, address show up was diff from my Ton keeper address  let mnemonics = (process.env.mnemonics || "").toString();  console.log(mnemonics.split(" ")) let keyPair = await mnemonicToPrivateKey(mnemonics.split(" "));  // Create wallet contract let workchain = 0; // Usually you need a workchain 0 let wallet = WalletContractV5R1.create({ workchain, publicKey: keyPair.publicKey }); console.log(wallet.address);   I can not figure out why from same mnemonics it was gave out 2 address
 
-TKAINU: It will be 1 display address and 1 standard Ton address (reply to 133134)
+Tùng: It will be 1 display address and 1 standard Ton address (reply to 133134)
 
 Tea the Bottle: I solved it, V4 is ok, V5 is a mess. Tonkepper using w5, not v5r1 like ton ton (reply to 133135)
 
@@ -2062,7 +2060,7 @@ Ahamd: Hello friends, I want to write a robot that the user sends some TON and t
 
 Sol: Hello everyone! I am looking for a technical specification or task related to developing smart contracts on the TON blockchain. If anyone has ongoing projects or documents describing specific requirements, please share or let me know where I can find one. Thank you in advance!
 
-TKAINU: For example, I have contract A with balance Ton = 0, executing transactions in parallel: - Receive jetton token X with 2 Ton from wallet 1 - When notified of receipt of Jetton X, 1 ton will be transferred from A to wallet 2 So the transferred ton will be taken from the contract, or taken from the ton of wallet 1 transferred to, because when I make the transaction to transfer ton from A to wallet 2, there will be an error of not having enough ton, even though I have received ton from wallet 1 and sent it over. Please help me
+Tùng: For example, I have contract A with balance Ton = 0, executing transactions in parallel: - Receive jetton token X with 2 Ton from wallet 1 - When notified of receipt of Jetton X, 1 ton will be transferred from A to wallet 2 So the transferred ton will be taken from the contract, or taken from the ton of wallet 1 transferred to, because when I make the transaction to transfer ton from A to wallet 2, there will be an error of not having enough ton, even though I have received ton from wallet 1 and sent it over. Please help me
 
 &rey: No contract executes anything in parallel; all transactions are serialized. (reply to 133627)
 
@@ -2654,11 +2652,11 @@ know: Hello, first time dev with a question about TMAs (hopefully this is an ok 
 
 4Basic: pleas any one ?
 
-0xNameless: can anyone give some suggestion for ton-connect issue255 ?
+0xNnnn: can anyone give some suggestion for ton-connect issue255 ?
 
-0xNameless: i just found this problem on Android,it seems all telegram accout share the same localStorage in each miniapp
+0xNnnn: i just found this problem on Android,it seems all telegram accout share the same localStorage in each miniapp
 
-0xNameless: it caused the local wallet information of multiple accounts to be the same
+0xNnnn: it caused the local wallet information of multiple accounts to be the same
 
 Nick: Hi, guys! Is it possible to send 10k messages in a row using highload wallet v3?  I tried tonkite lib and put 250 messages in each transaction (40 transactions in total). I set appropriate query id, but still I was getting this error after about 20 transactions. Does it mean I can't send any transactions amount even using highload wallet v3?  error: rejected by account before smart-contract execution
 
@@ -3094,15 +3092,15 @@ Africhain: Ok (reply to 135611)
 
 Vesting: Hello, I wanna ask about reall time transaction. I want when I get TON in my wallet it trow data  to my website like: block number, time, address sender, amount, etc. How I can pass this problem?.
 
-A: hi how should write a withdraw code for python using toncenter api for ton and usdt?
+TomanLand admin1: hi how should write a withdraw code for python using toncenter api for ton and usdt?
 
 Africhain: Which language (reply to 135622)
 
-A: python (reply to 135624)
+TomanLand admin1: python (reply to 135624)
 
 Africhain: Ok (reply to 135625)
 
-A: thanks (reply to 135626)
+TomanLand admin1: thanks (reply to 135626)
 
 Africhain: Talk to me in few minutes (reply to 135627)
 
@@ -3332,11 +3330,11 @@ Rusty | Titan: no a TON DeFi builder - but we're planning on spinning one up
 
 User<7158594595>: anyone can help me? (reply to 135921)
 
-A: tonlibjson.amd64.dll  where should i get this file?
+TomanLand admin1: tonlibjson.amd64.dll  where should i get this file?
 
 Dom: Probably github (reply to 135955)
 
-A: not found there (reply to 135957)
+TomanLand admin1: not found there (reply to 135957)
 
 Nolan: I have a query regarding handling of arbitrary JettonTokens in my contract, I saw that the packing for wallets could be in different formats.  For exaample in the ton-blockchain group for the minter-contract repo, the Jetton Minter packs the data as:  cell pack_jetton_wallet_data(int balance, slice owner_address, slice jetton_master_address, cell jetton_wallet_code) inline {    return  begin_cell()             .store_coins(balance)             .store_slice(owner_address)             .store_slice(jetton_master_address)             .store_ref(jetton_wallet_code)            .end_cell(); }   Where as in the in the same group for the stablecoin it is packed as:   cell pack_jetton_wallet_data(int status, int balance, slice owner_address, slice jetton_master_address) inline {     return begin_cell()     .store_uint(status, STATUS_SIZE)     .store_coins(balance)     .store_slice(owner_address)     .store_slice(jetton_master_address)     .end_cell(); }   For my contract to handle any arbitrary token, it needs to calculate calculate_user_jetton_wallet_address for that jetton which will in turn use the pack_jetton_wallet_data.   So how will my contract know which packing to use?   I thought if I pass packed_data as argument that should solve the issue as I do store jetton_master_addresses for allowed assets, and if I can somehow only extract the master_address, I can match it with asset-mapping to validate correct mapping.   Then calculating wallet address based on the packed_data is easy.
 
@@ -6832,7 +6830,7 @@ Adam: Either func or tact are good , tact is compiled back ro func (reply to 141
 
 Adam: You are using an unknown get method for the contract (reply to 141263)
 
-Olimp X: Greetings! I need a Ton for my project, my team and I are testing the Crypto Testnet bot, and we also plan to distribute a Ton sometimes, but not much, and so it is necessary for the project, please help me
+Olimp 30+ Rep: Greetings! I need a Ton for my project, my team and I are testing the Crypto Testnet bot, and we also plan to distribute a Ton sometimes, but not much, and so it is necessary for the project, please help me
 
 WhyesCode: Paid task? (reply to 141298)
 
@@ -6840,11 +6838,11 @@ Ghosthawk: idk any other faucet has or not but i only know this @testgiver_ton_b
 
 Green: How much you need? (reply to 141300)
 
-Olimp X: 90 TON (reply to 141305)
+Olimp 30+ Rep: 90 TON (reply to 141305)
 
 Adam: testnet ton or real ton? (reply to 141307)
 
-Olimp X: Testnet (reply to 141308)
+Olimp 30+ Rep: Testnet (reply to 141308)
 
 Oken: #report wallet.ton.org leak my IP address for no reason
 
@@ -7584,7 +7582,7 @@ best: guys, I have good experience in FunC. if anyone need Dev, let me know.
 
 0x: I am trying to transfer jetton from TON chain.  I would appreciate it if you could provide me the endpoint required to transfer jetton.
 
-FREEZZZZ: how to get transaction status using BOC in golang?
+FREEZZZZ ("⁧;(":: how to get transaction status using BOC in golang?
 
 yuichi: Thank you for your response.  What is this repo? It would be helpful if you could provide links, etc. (reply to 141945)
 
@@ -7756,7 +7754,7 @@ Combot: Combot has warned Felix (1/3) Reason: 1 reports (reply to 142273)
 
 Bright: thanks for the answer, im working on an ato start swapping bot (reply to 142272)
 
-FREEZZZZ: i only use BOC from ton connect, convert into hash and find transaction by hash using toncenter api. i think it's better thant fetch all transaction from wallet (reply to 142265)
+FREEZZZZ ("⁧;(":: i only use BOC from ton connect, convert into hash and find transaction by hash using toncenter api. i think it's better thant fetch all transaction from wallet (reply to 142265)
 
 Bright: This makes sense, but I am using one of the nodejs libraries as the transactions are signed and sent on the backend not the front end (reply to 142278)
 
@@ -7764,11 +7762,11 @@ Bright: And I fetch transactions with a limit of 15 (reply to 142278)
 
 Bright: The only issue with this is, it does have a fail rate where around 20% of the time an actual transaction isn’t found
 
-FREEZZZZ: what libraries you used? (reply to 142279)
+FREEZZZZ ("⁧;(":: what libraries you used? (reply to 142279)
 
 Bright: @ton/ton and @ton/core
 
-FREEZZZZ: idk, but i think it's possible to get BOC from Transaction (reply to 142283)
+FREEZZZZ ("⁧;(":: idk, but i think it's possible to get BOC from Transaction (reply to 142283)
 
 Bright: I tried this so many ways based on docs and all
 
@@ -8202,7 +8200,7 @@ Kevin: https://blog.ton.org/ton-storage  U can serve files from here (reply to 1
 
 Bus: With this solution it is not stored on chain. I wish to store the website on blockchain so it stays there forever.. (reply to 142778)
 
-A: Hi I requested tonkeeper to verify my coin. How long they reply?
+TomanLand admin1: Hi I requested tonkeeper to verify my coin. How long they reply?
 
 Kevin: I see. Is this possible on other chains? (reply to 142782)
 
@@ -8290,7 +8288,7 @@ Combot: Total messages:142888
 
 Vladimir: He is a spammer. (reply to 142916)
 
-TKAINU: Hello, i receive err: Retry limit reached: Unable to execute get method. Got exit_code: -13 Help me
+Tùng: Hello, i receive err: Retry limit reached: Unable to execute get method. Got exit_code: -13 Help me
 
 tp: Hi, is there any documents about message processing sequence rules? If I have a contract "C", which will send message "M" to other contract when receive message. There are two user "user1" and "user2". First, "user1" send message to contract "C" and generate a "message1", then "user2" send message to contract "C" and generate a "message2", Whether "message1" and "message2" will be processed in order?
 
@@ -8310,7 +8308,7 @@ KBA07: @pcrafter  Thanks for pointing it out. Can we rely it on more than testne
 
 &rey: And what is getting done instead? (reply to 142955)
 
-TKAINU: when i call runMethod, i receive error: Request failed with status code 405 please help me
+Tùng: when i call runMethod, i receive error: Request failed with status code 405 please help me
 
 Павел: Have you read "Messages and Transactions" on "docs ton org"? (Cannot send link because of spam protection) (reply to 142942)
 
@@ -8390,7 +8388,7 @@ KarnageKane: Is TON EVM compatible?
 
 WhyesCode: No (reply to 143098)
 
-🛍️: Any tool I can use to deploy a smart contract on TON testnet with a few clicks ?  I need this help please 🙏.
+🛍️ 💠: Any tool I can use to deploy a smart contract on TON testnet with a few clicks ?  I need this help please 🙏.
 
 bulul: Relationships, but complex transaction - idk(i dont understand 😂) For example tap to earn games: notcoin, catizen, hamster… (reply to 143097)
 
@@ -8428,7 +8426,7 @@ best: postgresql is not good for horizontal scaling. but there are solutions. I 
 
 — 2025-02-26 —
 
-FREEZZZZ: what indicator if the transaction is success while using /api/v3/transactions?
+FREEZZZZ ("⁧;(":: what indicator if the transaction is success while using /api/v3/transactions?
 
 bulul: Still, ipfs is used in applications such as catizen (accounting for taps, for example) or is this just a suggestion for use. I read that IPFS is quite buggy and can be slow. (reply to 143109)
 
@@ -8590,25 +8588,25 @@ crypto: const client = new Tonclient({endpoint:"https://testnet.toncenter.com/ap
 
 crypto: error: Error: Unsupported stack item type: -1
 
-FREEZZZZ: what indicator if the transaction is success while using /api/v3/transactions?
+FREEZZZZ ("⁧;(":: what indicator if the transaction is success while using /api/v3/transactions?
 
 &rey: What do you consider a transaction[ tree] failure? (reply to 143305)
 
-FREEZZZZ: Yes, how to know a transaction (Transfer TON) fails (transaction tree) or Is there a specific endpoint to check whether the entire transaction was successful or not? (reply to 143307)
+FREEZZZZ ("⁧;(":: Yes, how to know a transaction (Transfer TON) fails (transaction tree) or Is there a specific endpoint to check whether the entire transaction was successful or not? (reply to 143307)
 
 &rey: Well, let's start with the fact that TON transfer is chain of two transactions, one on source contract and one on destination. (reply to 143309)
 
-FREEZZZZ: Ok, I have done a fetch between the sender and the recipient. What should I do next, to find out if the transaction between the sender and the recipient was successful? btw thank you for your help (reply to 143310)
+FREEZZZZ ("⁧;(":: Ok, I have done a fetch between the sender and the recipient. What should I do next, to find out if the transaction between the sender and the recipient was successful? btw thank you for your help (reply to 143310)
 
-FREEZZZZ: Is there a standard procedure / good procedure to implement whether the transaction is successful between the sender and recipient?
+FREEZZZZ ("⁧;(":: Is there a standard procedure / good procedure to implement whether the transaction is successful between the sender and recipient?
 
 &rey: I'm trying to find out your definition of "successful" first. Blockchain doesn't quite offer it. (reply to 143312)
 
-FREEZZZZ: The meaning of this success is, when we send a token to the recipient, the token sent from the sender has arrived at the recipient. How to know the token has been sent to the recipient (reply to 143313)
+FREEZZZZ ("⁧;(":: The meaning of this success is, when we send a token to the recipient, the token sent from the sender has arrived at the recipient. How to know the token has been sent to the recipient (reply to 143313)
 
 &rey: The easiest way is to check Tonapi's traces, that in-progress is false and value flow indicates recipient getting their tokens. (reply to 143314)
 
-FREEZZZZ: Okay, I will do the test. Thanks for your answer and help 😊 (reply to 143315)
+FREEZZZZ ("⁧;(":: Okay, I will do the test. Thanks for your answer and help 😊 (reply to 143315)
 
 uchebnick: hello everyone, What determines the cost of creating a cell in a blockchain more, the restructuring of the Merkle tree or the mere storage of data?
 
@@ -8652,11 +8650,11 @@ Combot: Combot has warned Basil _01 (1/3) Reason: Word **** is not allowed
 
 WhyesCode: What is the issue? (reply to 143374)
 
-FREEZZZZ: @pcrafter thanks for your help before, i already implemented traces and it successfully. But for now, how to know the transfer is Fail (The Token Fail to transfer to Destination Address)? (reply to 143316)
+FREEZZZZ ("⁧;(":: @pcrafter thanks for your help before, i already implemented traces and it successfully. But for now, how to know the transfer is Fail (The Token Fail to transfer to Destination Address)? (reply to 143316)
 
 &rey: The easiest way is to check Tonapi's traces, that in-progress is false and value flow indicates recipient NOT getting their tokens. (reply to 143386)
 
-FREEZZZZ: Oke, very thanks (reply to 143387)
+FREEZZZZ ("⁧;(":: Oke, very thanks (reply to 143387)
 
 — 2025-03-01 —
 
@@ -8708,7 +8706,7 @@ User: You can get tx hash from your external msg, before sending it to toncenter
 
 Combot: Total messages:143466
 
-FREEZZZZ: { "type": "ord", "aborted": true, "destroyed": false, "credit_first": true, "storage_ph": { "storage_fees_collected": "1000000", "storage_fees_due": "954894", "status_change": "unchanged" }, "compute_ph": { "skipped": true, "reason": "no_gas" } }  What is the meaning of each value in reason, like no_gas or no_state, what all the values can be shown in reason on compute_ph and their meaning?
+FREEZZZZ ("⁧;(":: { "type": "ord", "aborted": true, "destroyed": false, "credit_first": true, "storage_ph": { "storage_fees_collected": "1000000", "storage_fees_due": "954894", "status_change": "unchanged" }, "compute_ph": { "skipped": true, "reason": "no_gas" } }  What is the meaning of each value in reason, like no_gas or no_state, what all the values can be shown in reason on compute_ph and their meaning?
 
 — 2025-03-02 —
 
@@ -9052,7 +9050,7 @@ BenVu: For TON Bridge for ETH L2 to TON Jetton, the new Jettons... 1. Add a "j" 
 
 perfogic: you have to write it manually (reply to 143899)
 
-🛍️: Can I get a working link to this? (reply to 143102)
+🛍️ 💠: Can I get a working link to this? (reply to 143102)
 
 Starsquid: Hi, is there a way to create my own genesis state of the chain for local testing?
 
@@ -9194,7 +9192,7 @@ Behrooz: Like this
 
 F: Hey all guys! Does anyone know how to speedup the process of telegram ads approval (it's 4+ days "in review" status)
 
-FREEZZZZ: You can claim testnet TON on faucet (reply to 144177)
+FREEZZZZ ("⁧;(":: You can claim testnet TON on faucet (reply to 144177)
 
 Ackermann: Hey guys, I’m facing a problem with my nft contract   It deploys and mint but it doesn’t get collection details and image but it fetches nft item metadata with all the details  What do I do
 
@@ -11802,7 +11800,7 @@ Kenny: Hi guys. I want to develop a Telegram Bot (not mini app) that allows user
 
 Star1004: Interested (reply to 147873)
 
-FREEZZZZ: hello, why in ton center, the output like this: {   "ok": false,   "result": "Network not allowed",   "code": 403 }
+FREEZZZZ ("⁧;(":: hello, why in ton center, the output like this: {   "ok": false,   "result": "Network not allowed",   "code": 403 }
 
 Chace: I dont own the contract (reply to 147858)
 
@@ -12041,3 +12039,69 @@ Complex: Coming soon. (reply to 148213)
 &rey: Asking for DMs is not permitted. Please describe your task a bit more detailed than "I have one".
 
 MoeMoney: /help
+
+— 2025-05-11 —
+
+Kenny: Hi guys. According to docs, transaction fee consists of 5 parts: storage_fee, in_fwd_fee, computation_fee, action_fee, out_fwd_fee. Assume a transaction will send an internal message to another contract, and there's no in_fwd_fee (which incurs when receiving external messages) and out_fwd_fee (which incurs when sending messages to outside blockchain like logging). We don't consider IHR either. We only consider the other 3 fees.  storage_fee and computation_fee is easy to understand. But I'm really confused with the action_fee. According to docs, action_fee is calculated by:  total_fwd_fee = lump_price + ceil((bit_price * number_of_bits + cell_price * number_of_cells) / 65536)  action_fee = total_fwd_fee * first_frac / 65536  where lump_price, bit_price, cell_price, first_frac is in the config parameter 24 & 25.  So, we are actually calculating total_fwd_fee first, and then action_fee is approximately 1/3 of this total_fwd_fee. And action_fee is actually part of total_fwd_fee. The remaining 2/3 of the total_fwd_fee is the forward fee of the newly created internal message.  So here comes 2 questions that confuse me a lot:  1. The word "forward" and its short form "fwd" are used everywhere. What exactly is a "forward fee"?  2. In my image, the amount I actually spend on fees should be the sum of all. How ever, the message forward fee (i.e., 2/3 * total_forward_fee) isn't counted into the transaction_fee. We can also confirm this on tonviewer.com. Why is it the case? Is it because the action_fee and message forward fee will be awarded to different validators?
+
+Leo: 1. forward fee is paid to validators along the routing path of outgoing messages 2. yes, total_fee only counts 1/3 of total forward fees that are paid to the validator responsible for the tx that sends messages
+
+Kenny: Oh! I understand. But why isn't the forward fee counted into the transaction_fee? To me (and possibly other people coming from other chains), in a naive toncoin transfer scenario, the "transaction fee" should be the amount that I am debited but not credited to recipient
+
+Kenny: I mean, the "transaction fee" should be equal to the rewards of all validators plus burnt amount
+
+klass: Transaction fee includes the amounts paid immediately. Forward fee is deducted on outgoing message kick off. (reply to 148239)
+
+Kenny: What? Do you mean the forward fee is deducted gradually as the message is routed and getting closer to target contract? (reply to 148241)
+
+klass: I mean not every transaction will cause an outbound message from the smart contract, so there would be no any forward fee in that case (reply to 148242)
+
+Kenny: You are right. But when there IS an outbound message, I think the forward fee should be counted into the "transaction fee", but the fact is that forward fee isn't counted into transaction fee.
+
+klass: Outbound message would be another transaction. (reply to 148244)
+
+Kenny: Yes there's one more transaction. But the forward fee isn't counted into either transaction.
+
+klass: That's something in between two transactions. (reply to 148246)
+
+Kenny: So the forward fee is indeed deducted gradually? If I query the balance of my wallet contract multiple times after my wallet contract sends an outbound internal message, and before the message reaches target contract, I might get different results?
+
+klass: Well, on smart-contract execution, a queue for all actions is formed, including outbound messages. Forward fees are deducted from the smart-contract balance on outbound message creation, and the amount for validators is attached to the message.
+
+Kenny: The queue is formed during action phase of the transaction, isn't it? It seems not something in between two transactions...
+
+klass: As far as I know, messages are formed on compute phase, than sent on action phase.
+
+Kenny: OK, so they are formed on compute phase of the transaction. Still seems not something in between two transactions
+
+klass: Yes, sorry for small confusion
+
+Leo: the total_fee field is for validators constructing merkle proofs of the shard block, instead of for you users to get the "transaction fee" (reply to 148240)
+
+Leo: so it's augmented by the fees only charged by the validator responsible for the tx
+
+Kenny: OK I understand. But this is still confusing. Why doesn't any Ton explorer show the actual transaction fee paid by users? All Ton explorers only shows total_fee, which is only collected by the validator responsible for the tx...
+
+Leo: bcoz explorers usually only show native data in the blockchain node
+
+Leo: all fields in, say tonviewer transaction page, are directly obtained from the tx cells in node database
+
+klass: So that data is not consistent with real fees?
+
+&rey: Value flows are more relevant indeed. (reply to 148260)
+
+Kenny: Thanks a lot! 🙏
+
+Leo: it's consistent if you do not misunderstand meaning of the total_fees field (reply to 148260)
+
+klass: I see... As explorers show forward fees as well. Thank you.
+
+Kenny: But from a user's perspective, I have to manually calculate the sum of them. And if there are many outbound messages, this is a little bit painful... (reply to 148265)
+
+klass: You can use ready-made emulation for estimation.
+
+Leo: you can simply do total_fee-action_fee+fwd_fee or storage_fee+gas_fee+fwd_fee, these fields are already summed (reply to 148266)
+
+Kenny: Oh! Make sense! 👍 (reply to 148269)
+
+James: Hi there? Anyone here need full-Stack and Web3 d.e.v?

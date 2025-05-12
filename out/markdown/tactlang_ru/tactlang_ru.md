@@ -2531,3 +2531,7 @@ RDN: Спасибо. (reply to 2109)
 RDN: Добрый вечер, подскажите плз, есть дли возможность при тестировании взять .sender() у контракта инициализированного через blockchain.openContract()?  для отправки сообщения в тестах  await nft.send(       nftCollectionContract.getSender(), <----тут проблема                     {                         value: toNano('1'),                     },                    message )
 
 Gosha: можно использовать internal для этого, что-то типа такого:         await blockchain.sendMessage(internal({             from: contractA.address,             to: contractB.address,             value: toNano("0.05"),             body: beginCell().storeInt(1, 1).endCell()         })) (reply to 2112)
+
+— 2025-05-11 —
+
+RDN: то, что надо, спасибо (reply to 2113)

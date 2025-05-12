@@ -1,3 +1,11 @@
+备用: 自动化测试的前提是业务比较固定,改动小...
+
+备用: 😂 我比较懒...
+
+备用: 沙盒只适合一些细节的调试.不适合测完整的流程
+
+备用: 个人感觉哈
+
 备用: 比如notify之后forward建了个临时的pool, 沙盒能不能直接测这个pool的方法? 还是得把前面的流程走完才能拿到pool做测试?
 
 备用: 定制得跟主网不一样,上了主网还得再测一遍吧...
@@ -4764,9 +4772,9 @@ Yasmin: Assalamualaikum 👋
 
 — 2025-01-05 —
 
-0xNameless: https://github.com/ton-connect/sdk/issues/255
+0xNnnn: https://github.com/ton-connect/sdk/issues/255
 
-0xNameless: 没人解决这个问题吗
+0xNnnn: 没人解决这个问题吗
 
 Andrew: 你在 github 提了 issue，开发者会评估解决的 (reply to 76341)
 
@@ -5022,9 +5030,9 @@ Jacob: 要么让用户直接发到sc whitelist，如判断通过再转发给jwsc
 
 Leo: 很简单，让wl持有资产而不是proj，这样wl只需发个通知给proj即可，用户可以直接转到wl的jw  如果资产一定要由proj持有，就把wl的功能合并到proj内，减少不必要的模块化  如果一定要分开且proj持有资产，让wl把变动或状态同步给proj，用merkle之类的方式让用户不经过wl也能在proj中验证 或者还有个思路是用户转给proj的jw后通知proj向wl请求验证，wl返回结果再处理下一步或退款
 
-0xNameless: ton 小程序内部可以实现保存图片到手机相册吗
+0xNnnn: ton 小程序内部可以实现保存图片到手机相册吗
 
-0xNameless: 浏览器 a 标签下载没反应
+0xNnnn: 浏览器 a 标签下载没反应
 
 Nix: 您可以使用 TonApi 获取 Fragment 的交易历史记录。如果您没有解决它，我可以为您提供帮助。 (reply to 76902)
 
@@ -5182,15 +5190,15 @@ Andrew: 我测试了是可以 callback 的，你需要在 bot 里面先构建一
 
 Andrew: 测试代码在这里，按需修改一下就好  savePreparedInlineMessage https://github.com/ton-builders/open-tg-bot/blob/main/bot.ts  window.Telegram.WebApp.shareMessage("Q80OofhZLXrSW8Br",callme)) https://github.com/ton-builders/open-mini-app/blob/main/app/page.tsx (reply to 77707)
 
-0xNameless: 这是用来分享 media 的吗 (reply to 77758)
+0xNnnn: 这是用来分享 media 的吗 (reply to 77758)
 
 Andrew: 是的，各种媒体消息都可以分享。 因为这个接口还比较新，所以我 demo 一下 (reply to 77762)
 
-0xNameless: 如果是图片的话 必须是 url 吧 不能是前端本地生成的 blob 什么的么
+0xNnnn: 如果是图片的话 必须是 url 吧 不能是前端本地生成的 blob 什么的么
 
 Andrew: 这个具体你看文档就好，实在遇到问题可以群里问
 
-0xNameless: 好的 明天试试看看能不能分享本地图片 感谢🙏
+0xNnnn: 好的 明天试试看看能不能分享本地图片 感谢🙏
 
 Karen: tonweb 的哪个版本是文档中的版本： 因为当我写入：const jettonMinter = new TonWeb.token.jetton.JettonMinter(tonweb.provider, {address: "<JETTON_MASTER_ADDRESS>"}); 我收到错误，它需要 JettonMinterOptions，而不是单个地址
 
@@ -8184,7 +8192,7 @@ Sun: ok
 
 — 2025-05-07 —
 
-Qwanntum: 😮‍💨🤙
+SHOP | crece: 😮‍💨🤙
 
 Katiya｜TON: 💎《TON 生态开发公开课 & 编程挑戰赛 2025》 🚀第4課下周一開課！  📅 課程時間：5 月 12 日 20:00 (UTC+8) 🎙️直播平台：請關注 X 帳號 @ tonsocietyhk  🏆 課程結束後還有 Coding Challenge編程挑戰賽，所有提交的开发者将会贏取一整年 Telegram Premium 會員！  💡 課程內容： 📌 TON 基础 & 智能合约 – 消息模式、API & SDK、Bag of Cell 📌 Jetton & NFT – 真实 USDT 案例，全流程应用集成  ✨感謝社區夥伴： BeWaterOfficial,HackQuest_,OpenBuildxyz (forwarded from TON Society Hong Kong Announcements)
 
@@ -8299,3 +8307,33 @@ Kenny: 哦哦哦，有道理。不过感觉似乎还是有一些问题？假设 
 Leo: alice给jetton wallet提供bob的地址而不是jw地址，alice的jw会算出对应的jw地址再发消息 (reply to 88768)
 
 Kenny: 有道理，十分感谢🙏
+
+Combot: Иван has been banned! Reason: CAS ban.
+
+Combot: ....... has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+TK: 大家好，谁知道我用tonsdk中的https://github.com/tonfactory/tonsdk/blob/master/examples/wallets/wallet.py这个运行后（将seqno改成获取最新的，version改成WalletVersionEnum.v4r2）生成的签名boc可以交易广播成功，但我换成我自己的24位的助记词（也是一个钱包生成的，正常钱包）就会报错，提示助记词有错误不能获取公钥匙私钥什么的，谁看过这个sdk，知道什么原因吗？
+
+TK: 还有就是我在我的框架那边用的是oneKey的ton的sdk,能正常使用我的钱包生成公钥和私钥，sdk地址是https://github.com/OneKeyHQ/firmware-pro/tree/main/core/src/apps/ton,其下的sign_message.py是生成交易签名的代码，get_address.py是根据种子获取ton地址的代码，哪位朋友能帮忙比较下这两个sdk的异同点
+
+TK: 上边说的tonsdk中的签名代码wallet.py运行时是提示无效的助记词，当使用我自己钱包的助记词执行的时候
+
+ke bi: 有做tg生态矿机的吗
+
+Combot: a has been banned! Reason: CAS ban.
+
+Combot: Liza, Luis Alberto Fernández, a, Егор have been banned! Reason: CAS ban.
+
+— 2025-05-12 —
+
+Randolph: tact真是太好用了，连jetton转账的接受方法的封装了，直接command+c、command+v 一把梭😄
+
+Randolph: message结构的设计真是秒，比func的方便很多，可复用性也强
+
+Combot: a, Дашусик, Yuditr Lllelandor, ㊙️🈷️🍵同城🌹品茶🌹妹嫩🍵🈷️㊙️ have been banned! Reason: CAS ban.
+
+Combot: 🍺пивасик🍺 has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

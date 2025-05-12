@@ -5264,7 +5264,7 @@ User<6247944943>: ❤️
 
 — 2023-06-05 —
 
-1.1: it's a TON of lies, they're all fake scammers, don't believe them, they're all a dime a dozen
+Ди♡: it's a TON of lies, they're all fake scammers, don't believe them, they're all a dime a dozen
 
 Dima: Who (reply to 3196)
 
@@ -5832,7 +5832,7 @@ Alex: https://github.com/tact-lang/awesome-tact#-smart-contracts-examples
 
 — 2023-07-17 —
 
-sajib: Interview With Narek Abovyan, Head of TonTech at FSL  The TON & Company YouTube channel has released a fresh interview with TonTech team member and TON ecosystem contributor Narek Abovyan.  Narek talked about his fascinating journey in the blockchain industry, his role in Getgems, and his contribution to the creation of TON NFT standards (in particular, the Soulbound standard).   He also talked about the Getgems launch, TonTech’s plans, a collaboration with TON Play, and more.  We recommend watching the interview — it’s available on YouTube. (forwarded from TON Community)
+User<6314963970>: Interview With Narek Abovyan, Head of TonTech at FSL  The TON & Company YouTube channel has released a fresh interview with TonTech team member and TON ecosystem contributor Narek Abovyan.  Narek talked about his fascinating journey in the blockchain industry, his role in Getgems, and his contribution to the creation of TON NFT standards (in particular, the Soulbound standard).   He also talked about the Getgems launch, TonTech’s plans, a collaboration with TON Play, and more.  We recommend watching the interview — it’s available on YouTube. (forwarded from TON Community)
 
 Howard: I deleted it first, since the URL looks malicious for me. (reply to 3550)
 
@@ -6738,7 +6738,7 @@ Howard: In light of the increasing number of people joining Tact recently, I wan
 
 Howard: Feel free to provide feedback or ideas for expansion if you have any! (reply to 4108)
 
-Abhishek Pandey |: https://t.me/OOIVentures/9
+Abhishek|: https://t.me/OOIVentures/9
 
 nonam3e: but how can you set the jetton wallet address of the contract on init of the contract? (reply to 4108)
 
@@ -7814,7 +7814,7 @@ Vlad: Coins is equal to uint120, right?
 
 Howard: 120bits, yes. https://tact-by-example.org/02-integers (reply to 5043)
 
-Annier: Hello
+User<5787719496>: Hello
 
 Vlad: Actually that’s not true, I was just testing with previous build 😅 with proper tact syntax (reply to 5040)
 
@@ -7830,11 +7830,11 @@ Alireza: So, which algorithm is used? (reply to 5129)
 
 Howard: Sure you do!  You can try. (reply to 5129)
 
-Annier: Hablo español
+User<5787719496>: Hablo español
 
 &rey: Why do you need them instead of directly changing price in DEX contract? To multiply jetton balance by some value, you need to get that multiplier into jetton wallet contract, and that may be expensive. (reply to 5129)
 
-Annier: Yes (reply to 5152)
+User<5787719496>: Yes (reply to 5152)
 
 Howard: Hi, this is a really tough question: "How can I make the current smart contract I've built understand if the sender is the correct NFT item from a specific NFT collection I'm targeting?"  1. In the past, if I deployed the NFT collection simultaneously, it was straightforward. This is because I knew how to calculate each NFT item's address within the smart contract.  2. The issue arises when an NFT item is transferred. It doesn't convey useful information in a consistent manner. This means the contract simply receives OwnershipAssigned(0x05138d91) and can't determine if it's the desired NFT item or not. (neither which the NFT Item is down below in one Specific Collection or not)
 
@@ -12098,7 +12098,7 @@ Denis: hey guys. can someone say what is unverified NFT? https://testnet.tonview
 
 Denis: will it be verified after a while?
 
-ᗩᗰᏆᑎ: Hi
+𝔸𝕄𝕀ℕ: Hi
 
 𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: How I can connect with Tact repo organizers?
 
@@ -13736,7 +13736,7 @@ Andrew: In tact, I think cell is object, slice is stream style of cell  Builder 
 
 Andrew: In tact There is no support for Either since it does not define what to pick during serialization in some cases.
 
-фил таунс: 10
+фил шёнгун: 10
 
 Seitaro: It seems that pow arguments are integers. There is sqrt in mathlib.fc: https://github.com/ton-blockchain/ton/blob/master/crypto/smartcont/mathlib.fc#L37C1-L37C24 probably you can link it manually (reply to 14293)
 
@@ -14636,7 +14636,7 @@ dwusiq: I deployed a jetton two days ago and was able to mint and transfer norma
 
 Cortex: how do you iterate thru map in tact?
 
-Alex: any one know how to refund the value? When value > gas
+Crypto A99: any one know how to refund the value? When value > gas
 
 szansky: Hi guys
 
@@ -15762,13 +15762,13 @@ Vlad: #compiler  trying to use    nativeThrowWhen(906, res.slice.empty());  gett
 
 Vlad: what is the best way to check if Dict is empty in tact? sth like  dict.dict_empty?()
 
-Thang: hi
+KT_LeThang: hi
 
-Thang: i deployed contract tact
+KT_LeThang: i deployed contract tact
 
-Thang: but have a error
+KT_LeThang: but have a error
 
-Thang: can who help me?
+KT_LeThang: can who help me?
 
 Vlad: That works actually (reply to 20685)
 
@@ -15834,9 +15834,9 @@ Spa: my codes can build, but can't build on nujan online.  "Error while building
 
 Ilya: Hello everyone  I'm new in tact language, and cant uderstand how is required working I put my require condition in init() block, and set message and condition. Yes, my test is failed, but where can I looking for a message from required condition?
 
-Thang: Build script running, let's find some FunC contracts to compile.. 'func' is not recognized as an internal or external command, operable program or batch file.  FATAL ERROR: 'func' with version >= 0.2.0 executable is not found, is it installed and in path?
+KT_LeThang: Build script running, let's find some FunC contracts to compile.. 'func' is not recognized as an internal or external command, operable program or batch file.  FATAL ERROR: 'func' with version >= 0.2.0 executable is not found, is it installed and in path?
 
-Thang: hey everyone, how to fix it
+KT_LeThang: hey everyone, how to fix it
 
 Kevin: Ask chatgpt (reply to 20825)
 

@@ -4882,7 +4882,7 @@ Oleg: Обычно код никто не парсит, за ненадобно�
 
 Cube: from pytonapi import AsyncTonapi from pytonapi.schema.nft import NftItem, NftItems  tonapi = AsyncTonapi(api_key=TONAPI_KEY, is_testnet=not IS_MAINNET)  @retry_on_tonapi_exception(retries=5, delay=1) async def doesOwnNft(address: str, nft_address: str) -> bool:     nft: NftItem = await tonapi.nft.get_item_by_address(nft_address)      if nft.owner.address.to_raw() != Address(address).to_str(is_user_friendly=False):         return False      return True (reply to 253684)
 
-Khannan 🐾: Можешь поделиться? (reply to 253596)
+Khannan: Можешь поделиться? (reply to 253596)
 
 Victor: В лс скину (reply to 253693)
 
