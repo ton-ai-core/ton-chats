@@ -8954,7 +8954,7 @@ Nikita: Hm, I will check same code I have for Jetton transfer as soon as I back 
 
 ashes: solved it like this, if u find it not optimal solution - please review  SendParameters{     to: self.contractJettonWallet!!,     value: ton("0.000001"),     mode: (SendRemainingValue + SendIgnoreErrors),     bounce: false, // 0x7362d09c - notify new owner     body: TokenTransfer{         queryId: now(),         amount: msg.amount,         destination: context().sender,         response_destination: myAddress(),         custom_payload: null,         forward_ton_amount: ton("0.000001"),         forward_payload: beginCell().storeUint(0,1).endCell().asSlice() }     .toCell() } (reply to 38246)
 
-Pika: hi has anyone implemented ERC20 transferFrom equivalent code for jetton in tact
+Rahul: hi has anyone implemented ERC20 transferFrom equivalent code for jetton in tact
 
 Vegeta Toriyama |: i dont think transfer from is necessary (reply to 38251)
 
@@ -9028,7 +9028,7 @@ Tom - Bushi: I figured it out, just need to use Dictionary.empty<bigint, bigint>
 
 — 2024-08-14 —
 
-Pika: i want a tact function which can accept jettons by user for any jetton_master. how can i implement this ? (reply to 38254)
+Rahul: i want a tact function which can accept jettons by user for any jetton_master. how can i implement this ? (reply to 38254)
 
 Nikita: Hey everyone again! I continue to fight against issue I texted about yesterday. Small updates from yesterday. I added dump for forward_payload I try to parse into struct (exact place where I get 9 exit code) and faced with strange behaviour. Here is place where I send message (jetton wallet contract): if (msg.forward_ton_amount > 0) {             dump(msg.forward_payload);             send(SendParameters{                 to: self.owner,                 value: msg.forward_ton_amount,                 mode: SendPayGasSeparately + SendIgnoreErrors,                 bounce: false,                 body: TokenNotification {                     queryId: msg.queryId,                     amount: msg.amount,                     from: msg.from,                     forward_payload: msg.forward_payload                 }.toCell()             });         }  and here is place where I receive it:  receive(msg: TokenNotification) {         dump("TokenNotification received".asComment());         self.requireJettonWallet(myAddress());         dump("wallet verification success".asComment());         dump(msg.forward_payload); }  And I see next in logs. Forward payload is different, even length, or I understand this logs incorrectly: (reply to 38264)
 
@@ -13051,6 +13051,4 @@ Jiego: then whats the point of the loan? (reply to 42980)
 Max: Leverage (reply to 42981)
 
 Jiego: but if you can leverage without risk (as you only need to wait for your transaction to be on the green), how is it leverage?
-
-Jiego: is more like a friend giving you money
 

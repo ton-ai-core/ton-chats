@@ -1742,37 +1742,37 @@ Flex: For the basic concepts, https://docs.ton.org/learn/introduction  For contr
 
 B: I'll go through this. Thanks !
 
-KaLL1mat0RR: What the hell?
+Kallimatorr: What the hell?
 
-KaLL1mat0RR: My massage
+Kallimatorr: My massage
 
 &rey: Yeah, unrelated and "hello" messages are deleted so that this chat remains a good collection of answers for developers' questions. (reply to 35750)
 
-KaLL1mat0RR: I understand, thank you 🙏 (reply to 35752)
+Kallimatorr: I understand, thank you 🙏 (reply to 35752)
 
-KaLL1mat0RR: What is this channel for?
+Kallimatorr: What is this channel for?
 
 &rey: Asking questions how to implement something on TON (https://docs.ton.org/learn/introduction) and why something doesn't work if so. (reply to 35754)
 
-KaLL1mat0RR: Ок
+Kallimatorr: Ок
 
-KaLL1mat0RR: Spam!
+Kallimatorr: Spam!
 
 &rey: There is Russian chat @tondev. (reply to 35757)
 
-KaLL1mat0RR: Thank you, but I’m learning English at the same time) (reply to 35759)
+Kallimatorr: Thank you, but I’m learning English at the same time) (reply to 35759)
 
-KaLL1mat0RR: I just really like your language and I want to master it faster so that I can use it in the future without a translator (reply to 35759)
+Kallimatorr: I just really like your language and I want to master it faster so that I can use it in the future without a translator (reply to 35759)
 
-KaLL1mat0RR: Because...
+Kallimatorr: Because...
 
-KaLL1mat0RR: Friend, please tell me what programming language they use to match the blockchain?
+Kallimatorr: Friend, please tell me what programming language they use to match the blockchain?
 
 &rey: I think that documentation https://docs.ton.org will be helpful for you. As well, on Youtube there are video lessons in different languages. (reply to 35764)
 
-KaLL1mat0RR: thanks
+Kallimatorr: thanks
 
-KaLL1mat0RR: I'll take a look
+Kallimatorr: I'll take a look
 
 takeuxp: Hi everyone! I represent a studio specializing in NFT game development. We are currently looking for people for the position of game chat administrator. Salary is fixed, payments every week, no fines or penalties. If you are interested, we will start a dialog! Have a good day everyone!
 
@@ -2228,7 +2228,7 @@ Oleksandr: https://pay.wallet.tg/ https://docs.wallet.tg/pay/ (reply to 36041)
 
 Lukas: Thank you 🙏
 
-KaLL1mat0RR: What's the bot in your a stories? (reply to 36042)
+Kallimatorr: What's the bot in your a stories? (reply to 36042)
 
 Vardan: Hi guys, do you know any team member or business development manager from this wallet? (reply to 36042)
 
@@ -3064,7 +3064,7 @@ Asdf: Hello, I created gift cards. These gift cards will have a code for 1 ton o
 
 Daniil: I think you want the cheques (or coupons) functionality. You can create them in telegram via bots like @cryptobot or @wallet, or, if you prefer decentralisation and on-chain projects — take a look at https://t.me/delabtonbot/dewa (reply to 36535)
 
-MI: tact (reply to 36534)
+Nova: tact (reply to 36534)
 
 Charles: 👌
 
@@ -3380,7 +3380,7 @@ Lukas: Can’t I connect the Ton wallet to my app like https://ton.diamonds/ dos
 
 Lukas: Thank you! I guess this is the right repo: https://github.com/ton-community/twa-template (reply to 36725)
 
-999: Who can do nft on ton blockchain please contact me
+User<5329517526>: Who can do nft on ton blockchain please contact me
 
 Roman: Hi everyone! Especially for all the new developers on TON! 🙃  We've made some updates to the TON Dev Kit chats folder and we have also added the TON Dev News channel to keep you updated with the latest news in the developer ecosystem.  Feel free to join!  UPD: the post with fixed links: https://t.me/tondev_eng/36903
 
@@ -7392,7 +7392,7 @@ isa: Its my wallet
 
 isa: Transfer not ton space adress
 
-Jin: I'll take a look. thanks! (reply to 39197)
+WakiyamaP: I'll take a look. thanks! (reply to 39197)
 
 isa: I see on transaction  but l cant see on my wallet
 
@@ -11316,7 +11316,7 @@ Vladimir: Is it possible to use TON wallet integrated to telegram app, to sign E
 
 jasio: Hey devs, with stonks team we create first trading bot on TON chains. Our next goal will be sniper bot/MEV bot.  If you dont mind, I encourage you to check how it works and test it. I will be greateful if you use my referral link  https://t.me/stonks_sniper_bot?start=4B18EA21408ACC1D3AB59B54182618E6E76D3A89F5E0C4015EE0B801B8AF19ED  sTONks telegram:  @stonksonton  You can dm me if you have some questions :)
 
-FR: Hi devs, I’m solidity dev and I want to learn FunC with a T shape learning. I have a unicorn idea to develop in TON blockchain.  2 questions: How does it will take to learn codes and other things to launch my dApp on TON? (normally)  Is it require to learn just funC or I have to learn other things?  Thanks in advance.
+MUFASA: Hi devs, I’m solidity dev and I want to learn FunC with a T shape learning. I have a unicorn idea to develop in TON blockchain.  2 questions: How does it will take to learn codes and other things to launch my dApp on TON? (normally)  Is it require to learn just funC or I have to learn other things?  Thanks in advance.
 
 Ruslan: You may also need knowledge in typescript (reply to 41884)
 
@@ -12464,9 +12464,9 @@ Barbell: is not working as it's complaining for store dictionary doesn't exist.
 
 — 2024-01-22 —
 
-Nakli Aman: Hey how can i connect to fragments using mytonwallet ?
+Chev: Hey how can i connect to fragments using mytonwallet ?
 
-Nakli Aman: i use ledger and wanted to buy few telegram numbers
+Chev: i use ledger and wanted to buy few telegram numbers
 
 Hunter: Hello, is there anybody looking for a frontend & contract developer?
 
@@ -12734,7 +12734,7 @@ Speculator: Hi i am getting this type of cell how to convert it into tx body?
 
 MS: nobody is here for reply? (reply to 42740)
 
-Freud: Hello community, is it very difficult to learn funC language without knowing anything about programming?
+Sr: Hello community, is it very difficult to learn funC language without knowing anything about programming?
 
 Comrade.ton: Anyone here that can help with this? Can't find anything... (reply to 42705)
 
@@ -13994,7 +13994,7 @@ Barbell: also is there any way to see error on SC? I only get failed in my walle
 
 walker: I think this is a very important and useful feature, why no one answer this question? (reply to 43524)
 
-Zero: Hey! How do i get the list of all jettons which have been deployed on the blockchain?
+DJ: Hey! How do i get the list of all jettons which have been deployed on the blockchain?
 
 Nxrix: How can I get a list of all nfts a wallet has using dton.io?
 
@@ -14022,9 +14022,9 @@ Scott: hey all, would like some of your input - if there were any key infrastruc
 
 Кроль Із Конохи: how to get the last block with all transactions with toncenter?  I don't understand what the parameters seqno, workchain_id and shard mean, and what they can be
 
-Zero: If anyone helps, i'll pay some ton (reply to 43573)
+DJ: If anyone helps, i'll pay some ton (reply to 43573)
 
-Zero: And will be very thankful as well
+DJ: And will be very thankful as well
 
 Anastasiia: You may probably use https://tonapi.io/v2/jettons for this. https://docs.tonconsole.com/tonapi/api-v2 (reply to 43573)
 

@@ -282,7 +282,7 @@ Dario: I cant even let users send two transactions to initialize "pool contract"
 
 — 2022-03-23 —
 
-Tri Sulasmono: Bagaimana cara mining cloud ton?
+Tri: Bagaimana cara mining cloud ton?
 
 User<1029195636>: Hello, I know someone who lost their TON doing the ether bridge swap, can someone help?
 
@@ -768,7 +768,7 @@ Andrey: https://github.com/toncenter/tonweb-mnemonic/blob/master/src/bip39-wordl
 
 Artis: Thank You. This is the correct path to solve the problem. It turned out to be simply a misspelled word on the paper (reply to 1300)
 
-Azat 🦴: Guys! Someone take me to your jun for free. I really want to develop under TON with experienced mentors. I have more than 6 hours of free time every day   I had experience during 6 months of working as a jun on the frontend 🤌🏿
+A: Guys! Someone take me to your jun for free. I really want to develop under TON with experienced mentors. I have more than 6 hours of free time every day   I had experience during 6 months of working as a jun on the frontend 🤌🏿
 
 Slava: Do you have a pet-project in TON? (reply to 1306)
 
@@ -14728,7 +14728,7 @@ lin: just make an assumption
 
 Arti: Hi folks 🖖👨‍💻  If you need to  1️⃣ chat about the next Hack-a-TON x   2️⃣ find new early stage TON projects & teams to become an angel investor, advisor or join it as a team member  3️⃣ find new team members of different skillsets (from developers to designers) for your TON project  join the global TON hackathon Hack-a-TON x community @hackatonx 💎
 
-Ruslan [vacation]: Hi!  Could you tell me please is it possible to connect TON DNS to ipfs content (site)?
+Ruslan: Hi!  Could you tell me please is it possible to connect TON DNS to ipfs content (site)?
 
 — 2022-11-05 —
 
@@ -15957,4 +15957,6 @@ User<5607333070>: not history
 talkol: Lazy dev team is a good thing :) hardware wallet should not change. It’s a good wallet for Ethereum coins and Bitcoin (reply to 14279)
 
 talkol: Ledger has some insanely bad decisions too, it’s not perfect  For example, passphrase has to be typed on the device using only 2 buttons which make people either avoid passphrase or take a short 4-6 character one which can easily be brute forced. Passphrase should always be used so then device doesn’t hold the full private key and it should be at least 14-15 characters so brute forcing it becomes difficult
+
+NuSs: hi, how can i get test tons? I tried a bot in teleram, but I could never get any ton :( (reply to 14284)
 

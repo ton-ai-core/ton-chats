@@ -5353,3 +5353,7 @@ Crypto: I have seen many people ak (reply to 4694)
 — 2025-05-11 —
 
 Haстя zargates: Hi! I won in the jokes for impressions contest from telegram apps center, winners were announced more than a month ago, and I still haven't received any gift🥲 There is no support, I commented under TAC posts in X(twitter) but they didn't even read them Can you please contact them?
+
+— 2025-05-12 —
+
+Unknown: Hello ! You can write about it here: @ton_help_bot (reply to 4736)

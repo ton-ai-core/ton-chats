@@ -1244,23 +1244,23 @@ Nyxra: if anyone has jettons on testnet please send me some for testing   UQAKW5
 
 CYFHER: Hi Guys Please how do I fix 'Price Impact too high 100%' on ston.fi ? This happened after I added liquidity to the token.
 
-Arnaud: Hey guys, got a problem here. When will the save_storage operation execute here? Will it depend on the execution status of call_pay_to here?
+Arnaud | OKX: Hey guys, got a problem here. When will the save_storage operation execute here? Will it depend on the execution status of call_pay_to here?
 
-Arnaud: if (op == burn_notification) {     ;; Sent by LP wallet after burning LP jettons to release liquidity     (int jetton_amount, slice from_address, slice response_address) = (in_msg_body~load_coins(), in_msg_body~load_msg_addr(), in_msg_body~load_msg_addr());     int gas_required = get_gas_fee(25000, WORKCHAIN);     cs~load_msg_addr();     cs~load_coins();     cs~skip_bits(1);     cs~load_coins();     throw_unless(INSUFFICIENT_GAS, (msg_value > gas_required) & (msg_value > cs~load_coins() * 6)); ;; use fwd_fee to estimate messages      throw_unless(INVALID_CALLER, equal_slices(calculate_user_jetton_wallet_address(from_address, my_address(), storage::jetton_lp_wallet_code), sender_address));     throw_unless(ZERO_OUTPUT, jetton_amount > 0);      ;; get shares     int amount0_out = (jetton_amount * storage::reserve0) / storage::total_supply_lp;     int amount1_out = (jetton_amount * storage::reserve1) / storage::total_supply_lp;      ;; both are positive     throw_unless(ZERO_OUTPUT, (amount0_out > 0) & (amount1_out > 0));      storage::reserve0 -= amount0_out;     storage::reserve1 -= amount1_out;     storage::total_supply_lp -= jetton_amount;      int gas = 0;     int mode = CARRY_REMAINING_GAS;     if (response_address.preload_uint(2) != 0) {       gas = (msg_value - gas_required) / 2;       mode = NORMAL;       var body = begin_cell()         .store_uint(excesses, 32)         .store_uint(query_id, 64);       send_message_nobounce(gas, response_address, body.end_cell(), IGNORE_ERRORS);     }     call_pay_to(gas, mode, query_id, from_address, burn_ok, amount0_out, amount1_out);     save_storage();     return ();   }
+Arnaud | OKX: if (op == burn_notification) {     ;; Sent by LP wallet after burning LP jettons to release liquidity     (int jetton_amount, slice from_address, slice response_address) = (in_msg_body~load_coins(), in_msg_body~load_msg_addr(), in_msg_body~load_msg_addr());     int gas_required = get_gas_fee(25000, WORKCHAIN);     cs~load_msg_addr();     cs~load_coins();     cs~skip_bits(1);     cs~load_coins();     throw_unless(INSUFFICIENT_GAS, (msg_value > gas_required) & (msg_value > cs~load_coins() * 6)); ;; use fwd_fee to estimate messages      throw_unless(INVALID_CALLER, equal_slices(calculate_user_jetton_wallet_address(from_address, my_address(), storage::jetton_lp_wallet_code), sender_address));     throw_unless(ZERO_OUTPUT, jetton_amount > 0);      ;; get shares     int amount0_out = (jetton_amount * storage::reserve0) / storage::total_supply_lp;     int amount1_out = (jetton_amount * storage::reserve1) / storage::total_supply_lp;      ;; both are positive     throw_unless(ZERO_OUTPUT, (amount0_out > 0) & (amount1_out > 0));      storage::reserve0 -= amount0_out;     storage::reserve1 -= amount1_out;     storage::total_supply_lp -= jetton_amount;      int gas = 0;     int mode = CARRY_REMAINING_GAS;     if (response_address.preload_uint(2) != 0) {       gas = (msg_value - gas_required) / 2;       mode = NORMAL;       var body = begin_cell()         .store_uint(excesses, 32)         .store_uint(query_id, 64);       send_message_nobounce(gas, response_address, body.end_cell(), IGNORE_ERRORS);     }     call_pay_to(gas, mode, query_id, from_address, burn_ok, amount0_out, amount1_out);     save_storage();     return ();   }
 
-Arnaud: Is it due to the poor liquidity in the pool? (reply to 54829)
+Arnaud | OKX: Is it due to the poor liquidity in the pool? (reply to 54829)
 
 CYFHER: I don't get your question.  Do you mean, higher liquidity reduces price impact? (reply to 54833)
 
-Arnaud: yeah I believe so
+Arnaud | OKX: yeah I believe so
 
-Arnaud: High price impact means your swap amount is kind of too much for an amm type pool
+Arnaud | OKX: High price impact means your swap amount is kind of too much for an amm type pool
 
 &rey: Yes, it will not be run if execution of call_pay_to fails. (reply to 54830)
 
 &rey: Please take note that execution of that does not include sending message, nor any actions by destination contract.
 
-Arnaud: Could you specify a little bit on it? As there's no feedback from call_pay_to, so how could save_storage be executed based on it's execution status. I'm not so familiar with the async mechanism here (reply to 54838)
+Arnaud | OKX: Could you specify a little bit on it? As there's no feedback from call_pay_to, so how could save_storage be executed based on it's execution status. I'm not so familiar with the async mechanism here (reply to 54838)
 
 &rey: If call_pay_to is fully run, then save_storage runs also. (reply to 54840)
 
@@ -1268,7 +1268,7 @@ Pragati: No I am working on TON (reply to 54795)
 
 &rey: Async paradigm of TON: all side effects happen after TVM execution. Or before, as is case with depositing incoming value.
 
-Arnaud: Is this the core reason for the conclusion above？ (reply to 54843)
+Arnaud | OKX: Is this the core reason for the conclusion above？ (reply to 54843)
 
 &rey: Then you're using wrong tool; ever-cli is not for TON. (reply to 54842)
 
@@ -1278,7 +1278,7 @@ Pragati: Tonos-cli it's not working (reply to 54845)
 
 Bear: omg, true. (reply to 54784)
 
-Arnaud: hey mate, i wonder whether you got any specific documents introducing this that you recommend, so i could dig a little more (reply to 54843)
+Arnaud | OKX: hey mate, i wonder whether you got any specific documents introducing this that you recommend, so i could dig a little more (reply to 54843)
 
 &rey: Where have you got list of tools from? (reply to 54848)
 
@@ -11248,7 +11248,7 @@ kevin: amount_0_out indicates how much you swap out from the pool (reply to 6445
 
 Milad: Thank you. Finally it worked. Here is the test transactions:  https://testnet.tonscan.org/address/kQAZKXNO5yNIbvXYItPK_A8tpYuqOtx6N5178_RVCn046MJH  I have another question. If the transaction is not bounced how can i return the amount. I sent a non-bounced and error was thrown. But the amount added to the wallet (reply to 64113)
 
-Negar: hi i want to verify jetton wallet address from sender using jetton wallet code  i know master address and my_address() and jetton_wallet_code is right but im keep getting 707 exit code  throw_unless(707,             equal_slices(calculate_user_jetton_wallet_address(my_address(), master_address, jetton_wallet_code), sender_address)  );
+User<6060490441>: hi i want to verify jetton wallet address from sender using jetton wallet code  i know master address and my_address() and jetton_wallet_code is right but im keep getting 707 exit code  throw_unless(707,             equal_slices(calculate_user_jetton_wallet_address(my_address(), master_address, jetton_wallet_code), sender_address)  );
 
 БОГАТЫЙ ОТ КРИПТО: No one is responsible for Support in TON?
 
@@ -11326,7 +11326,7 @@ User<6031319387>: Let me know when you create it (reply to 64515)
 
 User<6031319387>: You dm me (reply to 64527)
 
-Negar: hi has anyone used this code in contract (default jetton wallet contract code) ? for verifying address of jetton wallet address  equal_slices(calculate_user_jetton_wallet_address(from_address, jetton_master_address, jetton_wallet_code), sender_address)
+User<6060490441>: hi has anyone used this code in contract (default jetton wallet contract code) ? for verifying address of jetton wallet address  equal_slices(calculate_user_jetton_wallet_address(from_address, jetton_master_address, jetton_wallet_code), sender_address)
 
 Angel: I am looking for a senior developer who can get NFT minter addresses from NFT collection. If you have experience in it, DM me.
 

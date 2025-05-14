@@ -1,3 +1,5 @@
+Jiego: is more like a friend giving you money
+
 Max: It’s probably irrelevant to Tact itself. Ill need to test maps and see how gas efficient they might be if we have thousands of entries — that was my key concern (reply to 42984)
 
 Jiego: gotcha. What I said was that its probably gas efficient to have each loan work as an array, where each user gets a new contract deployed that tracks their debts (reply to 42986)
@@ -4558,7 +4560,7 @@ Anton: GasPump and PixelSwap, for example (reply to 53937)
 
 Я̨kov: Different people prefer different distribution models. I, too, prefer Open Source or at least Source-available, but mileage waries (reply to 53940)
 
-klass: Are there any examples of binary search or segment tree implementation. Is it possible?
+Всеволод: Are there any examples of binary search or segment tree implementation. Is it possible?
 
 Я̨kov: For one, GasPump's TypeScript wrappers for contracts were obtained with Tact.  About wrappers Tact produces, in general: https://docs.tact-lang.org/book/compile/#wrap (reply to 53944)
 
@@ -5142,7 +5144,7 @@ Oleg: I mean that I'm going deploy this contract many times not to test or somet
 
 Nerses: Is anyone familiar with the Fragment project? How secure is it to sell a username there, and how does the process work technically? Lately, I've been receiving multiple messages from people interested in buying my username, and it doesn’t seem like a scam. Can someone provide guidance on this?
 
-klass: Fragment is quite trustable (reply to 54954)
+Всеволод: Fragment is quite trustable (reply to 54954)
 
 Nerses: I just cant understand how it is done technically (reply to 54955)
 
@@ -5150,17 +5152,17 @@ Abrahim: How can I use username
 
 Nerses: I mean the part of swap.Suppose I sell my username and when my wallet accepts funds how my tg handle is changed,is it done automatically or can even fragment have access to my tg account (reply to 54956)
 
-klass: I think it’s architecture is quite interesting to research and explore, but here we discuss Tact language, and Fragment architecture is a little bit out of the topic. That is my opinion. (reply to 54956)
+Всеволод: I think it’s architecture is quite interesting to research and explore, but here we discuss Tact language, and Fragment architecture is a little bit out of the topic. That is my opinion. (reply to 54956)
 
 Nerses: To be frank I agree with you.Just hoped someone from fragment team will react to message (reply to 54959)
 
 Nerses: thanks for assistance
 
-klass: Anything can happen here. Good journey! (reply to 54960)
+Всеволод: Anything can happen here. Good journey! (reply to 54960)
 
 — 2025-02-22 —
 
-klass: Does someone has experience of writing on Tact with Grok 3 Beta? What tips can you give for achieving better results?
+Всеволод: Does someone has experience of writing on Tact with Grok 3 Beta? What tips can you give for achieving better results?
 
 Petr: Hey, check rules here: https://github.com/tact-lang/tact-template/blob/main/.cursorrules (reply to 55009)
 
@@ -5184,7 +5186,7 @@ Ivan: Hi everyone! Quick question, just to be sure:  Am I understanding correctl
 
 Jack: thank you, it works (reply to 55076)
 
-klass: In general — yes, because ParentContract is available for the next transaction after sending message to the ChildContract, however you can build the architecture of the smart-contract in a way, that User2 would not be able to modify the state variable in ParentContract before the first chain completes. For example you can implement a counter state variable that's state is updated once the whole chain of transactions is executed (the message from ChildContract came back to ParentContract) (reply to 55126)
+Всеволод: In general — yes, because ParentContract is available for the next transaction after sending message to the ChildContract, however you can build the architecture of the smart-contract in a way, that User2 would not be able to modify the state variable in ParentContract before the first chain completes. For example you can implement a counter state variable that's state is updated once the whole chain of transactions is executed (the message from ChildContract came back to ParentContract) (reply to 55126)
 
 — 2025-02-25 —
 
@@ -7218,7 +7220,7 @@ Lê: can you help me?  async getCounter(provider: ContractProvider) {         co
 
 Daniil: hello, tell me how to get correct op code from forwardPayload  const innerPayload = beginCell()                 .storeUint(0x54d5c342, 32)                  .endCell();                  const jwPayload = beginCell()                 .storeUint(0xf8a7ea5, 32)                 .storeUint(0, 64)                 .storeCoins(10 * 10**decimals)                 //.storeCoins(toNano(1))                 .storeAddress(smcAddress)                 .storeUint(0, 2) // response address -- null                 .storeUint(0, 1)                 .storeCoins(toNano("0.1"))                 .storeBit(1)                 .storeRef(innerPayload)                 .endCell()                  const payload = jwPayload.toBoc().toString('base64');  receive(msg: JettonTransferNotification) {          if (!msg.forwardPayload.empty()) {             let payload: Slice = msg.forwardPayload;             let opcode: Int = payload.loadUint(32);               if (opcode == 0x54d5c342) {                 self.requireNotStopped();                 let seed: Int = getSeed();                  setSeed(seed);                                let prize: Int = random(self.minPrize, self.maxPrize);                    send(SendParameters{                     to: self.myJettonWallet,                     value: JettonTransferGas,                     body: JettonTransfer {                         queryId: 6,                         amount: prize,                         destination: sender(),                         responseDestination: myAddress(),                         customPayload: null,                         forwardTonAmount: ton("0.015"),                         forwardPayload: rawSlice("F")                     }.toCell()                 });             }         } else {             self.myJettonBalance += msg.amount;             self.forward(msg.sender, null, false, null);         }        }
 
-Klass: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
+klass: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
 
 Slava: It's not the first report of this issue. (reply to 62193)
 
@@ -7274,7 +7276,7 @@ Slava: I would've moved it to the top of the page or even renamed the page to re
 
 Kenny: Hi guys. I have 2 questions regarding the "Communication and messaging" chapter in the Reference.  1. What's the point of send() function? If I want to send a message without deploying a contract, I can use message() and it's even cheaper. If I want to send a message and deploy a contract if there's no contract, I can use deploy() and it's cheaper too. So when should I use send()?  2. Under which situation should I use sendRawMessage()? According to the TL-B definition of a message: int_msg_info$0 ihr_disabled:Bool bounce:Bool bounced:Bool   src:MsgAddressInt dest:MsgAddressInt    value:CurrencyCollection ihr_fee:Grams fwd_fee:Grams   created_lt:uint64 created_at:uint32 = CommonMsgInfo; ext_in_msg_info$10 src:MsgAddressExt dest:MsgAddressInt    import_fee:Grams = CommonMsgInfo; ext_out_msg_info$11 src:MsgAddressInt dest:MsgAddressExt   created_lt:uint64 created_at:uint32 = CommonMsgInfo;  message$_ {X:Type} info:CommonMsgInfo   init:(Maybe (Either StateInit ^StateInit))   body:(Either X ^X) = Message X; and the SendParameters: struct SendParameters {     mode: Int = SendDefaultMode;     body: Cell? = null;     code: Cell? = null;     data: Cell? = null;     value: Int;     to: Address;     bounce: Bool = true; }  It seems that SendParameters covers all settable fields except for IHR related fields (but anyway IHR mechanism isn't implemented yet).
 
-Klass: Differ is in sugar and compilation result. Method "message" is universal, "send" & "deploy" — more specific.
+klass: Differ is in sugar and compilation result. Method "message" is universal, "send" & "deploy" — more specific.
 
 /B4ckSl4sh\: send is general, while message and deploy are mose specific (reply to 62393)
 
@@ -7282,6 +7284,36 @@ Klass: Differ is in sugar and compilation result. Method "message" is universal,
 
 Kenny: Thanks!
 
-— 2025-05-12 —
+— 2025-05-13 —
 
-GOJO COIN: BNB Smart Chain (BEP20) https://coinmarketcap.com/dexscan/networks/bnb-smart-chain-bep20/
+Kenny: Hi guys. What will happen if there's no corresponding receiver function when receiving a message? For example:  1. When receiving an internal message with body of unknown opcode, and there's no fallback receive(msg: Slice)  2. When receiving an internal message without body, and there's no receive()  3. When receiving a bounced message, but there's no bounced() or other bounced message receiver.  Will this message be simply ignored without throwing an error, and the message value is credited to the contract? Or will the contract throws an error in computation phase?
+
+Евгений: 1. error thrown for unknown opcode 2. if opcode is known, then contract will try to parse body (if opcode requires that) and error thrown because body is empty 3. it should be just ignored (reply to 62662)
+
+Kenny: Oh! I understand. Thanks a lot 🙏
+
+Fynn: Hello, I’m trying to do the following with no success: User calls a function to deposit some amount x of Ton in a contract, so the user can send x + y amount of Ton to cover fees. I can specify x in the msg itself, and y should be greater than a constant to cover fees. I though about calling nativeReserve to reserve the amount of x, so only x is effectively sent to the contract and send the rest with SendRemainingValue and value = 0. But it doesn’t seem to work, can someone see the flaw in my approach?
+
+maksim: This is tricky, but reserve doesn't work with this send mode because of very low level stuff (reseve doesn't update internal message balance) (reply to 62717)
+
+maksim: Your approach is right, but this is the corner case for such action combination
+
+/B4ckSl4sh\: And if I understood correctly, exactly what you are doing but with mode SendRemainingBalance will work for you
+
+Fynn: Then it’s not really possible, another approach is instead of relying in the actual balance of the contract, I could keep track of the balances myself and rely on this number instead of the actual balance of the contract. But wanted to still try the approach that looked more natural
+
+maksim: Here is docs link for this  https://docs.ton.org/v3/documentation/smart-contracts/message-management/message-modes-cookbook#mode64  See notice section (reply to 62717)
+
+Fynn: Is there some way to do this that doesn’t involve keeping track of the balance myself? This would complicate the code a lot since I need to add a step to solve this divergence between the actual balance of the contract and the one I’d like to track.
+
+&rey: I wouldn't recommend; after all, some transactions might've decreased balance (with storage fees) while not launching TVM at all. (reply to 62724)
+
+fruitful-l: Hi, I'm trying to make Jetton transfer from my contract to my wallet. This is how I do it: receive(msg: Invested) {         let init = getJettonWalletInit(myAddress());         self.budget += msg.value;         send(SendParameters {             to: contractAddress(init),             value: msg.value,             body: JettonTransfer {                 queryId: self.id,                 amount: 100,                 destination: msg.investor,                 responseDestination: null,                 customPayload: null,                 forwardTonAmount: 1,                 forwardPayload: beginCell().storeUint(32, 7).asSlice(),                                              }.toCell(),         }); I'm confident I'm doing something wrong, surly there's a problem with calculating contract's wallet address as after it gets the msg, it sends another message to init contract that bounces back
+
+Anton: you might want to check out the recipes in https://github.com/tact-lang/defi-cookbook (reply to 62751)
+
+fruitful-l: Glad to know that the solution is somewhere there. I'm having huge troubles implementing what I've seen on the cookbook into my contract, but thanks anyway for reducing the search area (reply to 62752)
+
+&rey: Does that consider that a) a random jetton is likely incompatible with any specific implementation of this, b) jetton master contract is not equal to myAddress() in context of this tx? (reply to 62751)
+
+fruitful-l: Should it be equal to jetton master address? Isn't it supposed to be address of the contract that has jettons? (reply to 62754)

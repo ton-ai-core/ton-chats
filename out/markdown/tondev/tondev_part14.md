@@ -1212,7 +1212,7 @@ Vlad: Спасибо! (reply to 117759)
 
 Asher: Выложили второй ролик по TON&GO(lang) https://www.youtube.com/watch?v=CLkM1Nv12yU
 
-тщетное бытие: Всем хай
+User<5083570331>: Всем хай
 
 Alexey: всем привет. подскажите? TonConnectButton ui-react отражается только 1 раз на странице react. почему так происходит и как это починить
 

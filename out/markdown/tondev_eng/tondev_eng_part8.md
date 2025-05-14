@@ -1024,7 +1024,7 @@ Nerses: why it is better to use mode 64 than 0 in that case ? (reply to 89978)
 
 &rey: Because it deducts TON used for computation fees. If you sent all of ctx.value back, contract would pay for computations on it, and that's not stable. (reply to 89985)
 
-Irina|Rubic OFF, delayed replies: @tsivarev could you pls check DM
+Irina|Rubic: @tsivarev could you pls check DM
 
 Suntrider: anyone complete smart contract of babyjubjub signature verfiy？
 
@@ -1046,7 +1046,7 @@ kapil: Why do we use the msg_value and msg_balance in the rec_internal function
 
 Abdulaziz: How to fix, maybe i did something wrong (reply to 90006)
 
-Pika: how can i convert my public key to uint256. it is required for sign verification on TON. please help.  https://docs.ton.org/develop/func/stdlib#signature-checks
+Rahul: how can i convert my public key to uint256. it is required for sign verification on TON. please help.  https://docs.ton.org/develop/func/stdlib#signature-checks
 
 kapil: A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --detectOpenHandles to find leaks. Active timers can also cause this, ensure that .unref() was called on them.
 
@@ -1638,9 +1638,9 @@ Akira: You need to get on your tsconfig.json and enable  "resolveJsonModule": tr
 
 — 2024-08-01 —
 
-Blockchain: Hi, on contract, can I send multi send_raw_message?
+Nemanja: Hi, on contract, can I send multi send_raw_message?
 
-Blockchain: with Func? I receive dict from client and each dict has wallet address and jetton amount, I want to send jetton to all addresses. is it possbile?
+Nemanja: with Func? I receive dict from client and each dict has wallet address and jetton amount, I want to send jetton to all addresses. is it possbile?
 
 𝔸𝕄: Hi everyone. I have specific question If you need to deploy contract with "coins" type field you can just use BigInt and then ~load_coins(). Easy. But what about dictionaries? When making dicts you have to provide exact amount of bits in BigInt. And here where i stuck. As far as i understand the size of coins value might be 128 bits long.  So it tried:   const allocation: Dictionary<DictionaryKeyTypes, bigint> = Dictionary.empty(                     Dictionary.Keys.Uint(32),                     Dictionary.Values.BigInt(128),                 ); but load_coins() fails here. But it works ok if i do load_uint(128).  Same with 64, 256 but only if i do load_uint(x). What could happen with load_coins()?  Thanks guys in advance
 
@@ -1650,15 +1650,15 @@ Blockchain: with Func? I receive dict from client and each dict has wallet addre
 
 𝔸𝕄: just loop the dict and call send_raw_message for each user. Here is my repo with hand-made jetton distributor using dicts. It's not perfect but could be a good example. It also has tests inside so you can make sure everything is working ok https://github.com/artemmartyhin/jetton-distributor (reply to 90722)
 
-Blockchain: sorry, can you point exact file, exact function? and I wonder even if I have 1000, possbile send all messages 1000 times
+Nemanja: sorry, can you point exact file, exact function? and I wonder even if I have 1000, possbile send all messages 1000 times
 
 𝔸𝕄: contracts/base/distributor.fc  op::transfer_notification  I am not sure about 1000, i tested with 10, you can try and check. Just edit test/distributor.spec.ts  for (let i = 0; i < 10; i++) { <—— change 10 to 1000             users.push(await blockchain.treasury(user${i}));         } and in test/distrubutor.ts  export const INITIAL_JETTON_BALANCE: bigint = toNano('1000.00');  extend to 100000.00 if u need 1000 users and the same result in tests
 
-Blockchain: sorry but I can't find it.... (reply to 90729)
+Nemanja: sorry but I can't find it.... (reply to 90729)
 
-Blockchain: sorry, I found and I will try (reply to 90730)
+Nemanja: sorry, I found and I will try (reply to 90730)
 
-Blockchain: but when I tried this, why always failed? can anyone explain?  cell data = in_msg_body~load_dict();  int index = 0;   ;; while(index <= 3 ){         ;;     (slice, int) (bid_params_data, flag) = udict_get?(data,256, index);         ;;     if(flag == -1){         ;;         slice wallet_address = bid_params_data~load_msg_addr();         ;;         int amount = bid_params_data~load_coins();         ;;         send_tokens(wallet_address,amount,query_id, jetton_address);         ;;         index = index + 1;         ;;     }         ;;     if(flag == 0){         ;;         return ();         ;;     }         ;;     ;; index = index + 1;         ;; }  Action Phase Success: false Result code: 37 Total actions: 3 Skipped actions: 0
+Nemanja: but when I tried this, why always failed? can anyone explain?  cell data = in_msg_body~load_dict();  int index = 0;   ;; while(index <= 3 ){         ;;     (slice, int) (bid_params_data, flag) = udict_get?(data,256, index);         ;;     if(flag == -1){         ;;         slice wallet_address = bid_params_data~load_msg_addr();         ;;         int amount = bid_params_data~load_coins();         ;;         send_tokens(wallet_address,amount,query_id, jetton_address);         ;;         index = index + 1;         ;;     }         ;;     if(flag == 0){         ;;         return ();         ;;     }         ;;     ;; index = index + 1;         ;; }  Action Phase Success: false Result code: 37 Total actions: 3 Skipped actions: 0
 
 fun🦴: https://github.com/ton-connect/demo-dapp-with-react-ui/blob/f739f62d0674c490f3aa267af2f67a1a53d1728f/src/server/wrappers/wallets-data.ts#L25 How to solve the problem of encountering a higher version of wallet (tonkeeper currently defaults to v5)? What about V6, V7, V8, V9, and VX in the future?
 
@@ -1666,7 +1666,7 @@ Akachi: https://testnet.tonscan.org/address/EQC_ElzMyYg3uCNQfcHHJ2oXYnNDgkJJSHaM
 
 Almatbek: who needs a developer?
 
-Blockchain: Thanks @princedev00. you are the genius. now I get wisdom from him.
+Nemanja: Thanks @princedev00. you are the genius. now I get wisdom from him.
 
 Ajay: https://www.npmjs.com/package/jetton-transfer  Used this (reply to 90452)
 
@@ -3256,7 +3256,7 @@ Nerses: can be passed to random()  arguments in hex ? https://docs.tact-lang.org
 
 Nerses: or only lower bound (reply to 92708)
 
-Jacob: Hi, Please DM me (reply to 92686)
+lim🐰🐰: Hi, Please DM me (reply to 92686)
 
 Marc: does it mean it can be cheaper for businesses than running on centralized architectures? (reply to 92707)
 
@@ -3786,7 +3786,7 @@ Nerses: what is the anloag in TACT for Cell.fromBase64  ?
 
 Vova: Need to make simple trading bot to trade my token to make movement on the market. Is it any library or script or something that can be useful  🙏🏽
 
-Jacob: hi, please DM me (reply to 93387)
+lim🐰🐰: hi, please DM me (reply to 93387)
 
 Apple: Hi, @Clane I have experience with Trading bot on TON like Sniper, Sandwich, MEV, Volume (reply to 93369)
 
@@ -3848,9 +3848,9 @@ x: please DM me (reply to 93096)
 
 &rey: Why are you using this command? (reply to 93432)
 
-Blockchain: Hi, guys, what is the difference NFT send and NFT transfer? I am interested in NFT transfer.
+Nemanja: Hi, guys, what is the difference NFT send and NFT transfer? I am interested in NFT transfer.
 
-Blockchain: And nft_item.fc is able to transfer NFT? I can't see any...
+Nemanja: And nft_item.fc is able to transfer NFT? I can't see any...
 
 0xbera: I was banned a few times for no good reason -- just checking what my status is 😛 (reply to 93446)
 
@@ -3858,33 +3858,33 @@ Blockchain: And nft_item.fc is able to transfer NFT? I can't see any...
 
 &rey: Well, there isn't anything useful (as you've just checked) and it clobbers chat. (reply to 93451)
 
-Blockchain: well, but even same, How can I transfer NFT to many users? not send....
+Nemanja: well, but even same, How can I transfer NFT to many users? not send....
 
-Blockchain: and those kind of nft_item has no collection address.
+Nemanja: and those kind of nft_item has no collection address.
 
 Nerses: for this piece of code             let msg: CommitData? = null;             try {                 msg = CommitData.fromSlice(msgSlc);             } catch (e) {                 require(false,"Unable to resolve CommitData");             }             require(ctx.value != 0,"Funds Not Sent");             require(msg.timelock > now(),"Not Future Timelock"); i got error `Invalid type "CommitData?" for field access                                                                                          Line 202, col 21:   201 |             require(ctx.value != 0,"Funds Not Sent"); > 202 |             require(msg.timelock > now(),"Not Future Timelock");  i tried to use (msg.timelock)!!`  but again got same error. Any hints how this can be solved ?
 
-Blockchain: is there any code about that? (reply to 93452)
+Nemanja: is there any code about that? (reply to 93452)
 
-Blockchain: if (op == op::transfer()) {        transfer_ownership(my_balance, index, collection_address, owner_address, content, sender_address, query_id, in_msg_body, fwd_fee);        return ();      }      if (op == op::get_static_data()) {        send_msg(sender_address, 0, op::report_static_data(), query_id, begin_cell().store_uint(index, 256).store_slice(collection_address), 64);  ;; carry all the remaining value of the inbound message        return ();      } normal nft_item only have this op code but when I see above transaction, they have ownership_assigned. how can I implement this?
+Nemanja: if (op == op::transfer()) {        transfer_ownership(my_balance, index, collection_address, owner_address, content, sender_address, query_id, in_msg_body, fwd_fee);        return ();      }      if (op == op::get_static_data()) {        send_msg(sender_address, 0, op::report_static_data(), query_id, begin_cell().store_uint(index, 256).store_slice(collection_address), 64);  ;; carry all the remaining value of the inbound message        return ();      } normal nft_item only have this op code but when I see above transaction, they have ownership_assigned. how can I implement this?
 
 &rey: let msg: CommitData = CommitData.fromSlice(msgSlc)!!; (reply to 93458)
 
-Blockchain: deploy without collection address is possbile? (reply to 93456)
+Nemanja: deploy without collection address is possbile? (reply to 93456)
 
 Nerses: here is full code     receive(msg: TokenNotification){         let ctx: Context = context();          let slice = msg.forward_payload.asCell().beginParse();          let flag = slice.loadUint(1);           let refCell = slice.loadRef();           let refSlice = refCell.beginParse();         let op_code = refSlice.loadUint(32);            if (op_code == 1734998782){             self._commit(refSlice, ctx);         }     }      fun _commit(msgSlc: Slice,ctx: Context){             try {                 let msg: CommitData = CommitData.fromSlice(msgSlc)!!;             } catch (e) {                 require(false,"Unable to resolve CommitData");             }             require(ctx.value != 0,"Funds Not Sent");             require(msg.timelock > now(),"Not Future Timelock");             self.contractNonce +=1;             let commitId: Int = self.seed ^ self.contractNonce;               require(self.commitExists(commitId) == false,"Commit Already Exists");             self.commits.set(commitId, PHTLC {                                                 dstAddress: msg.dstAddress,                                                 dstChain: msg.dstChain,                                                 dstAsset: msg.dstAsset,                                                 srcAsset: msg.srcAsset,                                                 sender: ctx.sender,                                                 srcReceiver: msg.srcReceiver,                                                 timelock: msg.timelock,                                                  amount: msg.amount,                                                 messenger: msg.messenger,                                                 locked: false,                                                 uncommitted: false,                                                 jettonMasterAddress: msg.jettonMasterAddress,                                                 jettonWalletCode: msg.jettonWalletCode                                                 });             emit(CommitId {commitId: commitId}.toCell());     } but it throws error after the change Type "CommitData" is not optional Line 193, col 39:   192 |             try { > 193 |                 let msg: CommitData = CommitData.fromSlice(msgSlc)!!;                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   194 |             } catch (e) { (reply to 93464)
 
-Blockchain: we deploy nft on collection. but for this, we have to deploy on own?    cell calculate_nft_item_state_init(int item_index, cell nft_item_code) {    cell data = begin_cell().store_uint(item_index, 64).store_slice(my_address()).end_cell();    return begin_cell().store_uint(0, 2).store_dict(nft_item_code).store_dict(data).store_uint(0, 1).end_cell();  }    slice calculate_nft_item_address(int wc, cell state_init) {    return begin_cell().store_uint(4, 3)                       .store_int(wc, 8)                       .store_uint(cell_hash(state_init), 256)                       .end_cell()                       .begin_parse();  }    () deploy_nft_item(int item_index, cell nft_item_code, int amount, cell nft_content) impure {    cell state_init = calculate_nft_item_state_init(item_index, nft_item_code);    slice nft_address = calculate_nft_item_address(workchain(), state_init);    var msg = begin_cell()              .store_uint(0x18, 6)              .store_slice(nft_address)              .store_coins(amount)              .store_uint(4 + 2 + 1, 1 + 4 + 4 + 64 + 32 + 1 + 1 + 1)              .store_ref(state_init)              .store_ref(nft_content);    send_raw_message(msg.end_cell(), 1); ;; pay transfer fees separately, revert on errors  }
+Nemanja: we deploy nft on collection. but for this, we have to deploy on own?    cell calculate_nft_item_state_init(int item_index, cell nft_item_code) {    cell data = begin_cell().store_uint(item_index, 64).store_slice(my_address()).end_cell();    return begin_cell().store_uint(0, 2).store_dict(nft_item_code).store_dict(data).store_uint(0, 1).end_cell();  }    slice calculate_nft_item_address(int wc, cell state_init) {    return begin_cell().store_uint(4, 3)                       .store_int(wc, 8)                       .store_uint(cell_hash(state_init), 256)                       .end_cell()                       .begin_parse();  }    () deploy_nft_item(int item_index, cell nft_item_code, int amount, cell nft_content) impure {    cell state_init = calculate_nft_item_state_init(item_index, nft_item_code);    slice nft_address = calculate_nft_item_address(workchain(), state_init);    var msg = begin_cell()              .store_uint(0x18, 6)              .store_slice(nft_address)              .store_coins(amount)              .store_uint(4 + 2 + 1, 1 + 4 + 4 + 64 + 32 + 1 + 1 + 1)              .store_ref(state_init)              .store_ref(nft_content);    send_raw_message(msg.end_cell(), 1); ;; pay transfer fees separately, revert on errors  }
 
 &rey: Oh. CommitData.fromSlice(msgSlc); then. Also you don't need to catch exception just to rethrow it, I guess.
 
 &rey: Yes, such NFTs are collectionless and deployed one by one. (reply to 93467)
 
-Blockchain: but when I deploy NFT item as own, I can't upload metadata...
+Nemanja: but when I deploy NFT item as own, I can't upload metadata...
 
 MZ: Is anyone able to help me with it? (reply to 93398)
 
-Blockchain: Do I have to study NFT_item and NFT_collection? is that only way to deploy my own NFT for transfer?
+Nemanja: Do I have to study NFT_item and NFT_collection? is that only way to deploy my own NFT for transfer?
 
 Nerses: yeah in this way contract compiled successfully,but the error because of fromSlice remains. In this way by error no one can distinguish from which logical part it is (reply to 93468)
 
@@ -3896,9 +3896,9 @@ NPA120: There is no special API for it. You have to monitor the balance changes 
 
 NPA120: You can find the open source in github (reply to 93474)
 
-Blockchain: is there NFT opensource?
+Nemanja: is there NFT opensource?
 
-Blockchain: not only standard but also expert's own nft_item which has no collection address. ;-)
+Nemanja: not only standard but also expert's own nft_item which has no collection address. ;-)
 
 Alexey: can anyone help me? I'm making a jetton smart contract, and I often get 37 error
 
@@ -3976,7 +3976,7 @@ Ahmed: maybe I didnt explain what i meant enough in the first message, but peopl
 
 Atharva🥠: Hey guys, I just wanted a little help from u people I see a lot of DEVs here so I really wanted to ask abt it I'm a 18 years old and I'm soon going to start with my college Very recently crypto has caught my interest and TON has been a major reason for that I'm wishing to learn more and contribute as a DEV in our ecosystem and explore other opportunities in the crypto world I wanted to ask for a pathway to start of with my journey I'm just trying to begin with python can anyone of u help me with ur suggestions? @admin
 
-Az ᴛʜᴇ ᴄʀᴀʏ: GameFi? (reply to 92180)
+0xTΛU: GameFi? (reply to 92180)
 
 &rey: You need to handle some message in A. It won't be in same transaction, of course. (reply to 93600)
 
@@ -4282,7 +4282,7 @@ Chi: Hello, TON newbie here. I am migrating a Ethereum project to TON, it basica
 
 Chelsea: Looking for telegram mini app(not bot) developer for our mvp, who can start off right away. Dm me with expected compensation
 
-Jacob: Hi, Chelsea. Please DM me (reply to 94078)
+lim🐰🐰: Hi, Chelsea. Please DM me (reply to 94078)
 
 Nerses: how much will be fee for such message TokenTransfer {                                     queryId: queryIndex,                                     amount: commitObj.amount,                                     destination: commitObj.sender,                                     response_destination: myAddress(),                                     custom_payload: null,                                     forward_ton_amount: 2000000,                                     forward_payload: ("Uncommitted").asSlice(),                                  }.toCell(),   . is it good practise to specify certain number in forward_ton_amount ?
 
@@ -4296,7 +4296,7 @@ Joel Mun: On TON you can use carry-value pattern. That is, you send a message co
 
 Nerses: in case i use such code in smart contract for Jetton transfer will it deplot jetton wallet contract for receiver in case it doersnt have,as i specified init code and data ?         send(SendParameters{                             to: lockObj.htlcJettonWalletAddress.loadAddress(),                             value: ctx.value,                             bounce: true,                             mode: 0,                             body: TokenTransfer {                                                 queryId: queryIndex,                                                 amount: lockObj.amount,                                                 destination: lockObj.srcReceiver,                                                 response_destination: sender(),                                                 custom_payload: null,                                                 forward_ton_amount: 1,                                                 forward_payload: ("Redeemed").asSlice(),                                              }.toCell(),                             code: lockObj.initCode,                             data: lockObj.initData,                                              }         );
 
-𝓼𝓸𝓵𝓪𝓷𝓪ᅠ ᅠ: hello everyone, im new into this, what library can be used for ton development on c#(sorry for my english)
+ᅠ ᅠᅠᅠ: hello everyone, im new into this, what library can be used for ton development on c#(sorry for my english)
 
 0xbera: can someone explain what happened to this transaction: https://tonviewer.com/transaction/f0ed52aced59a46841fcf28a0b7c8ea12212bb2fc28d31f2f9611c6d59cab1fa  it says "confirmed transaction" but also "exit code -14, out of gas error"  how can both of these be true?
 
@@ -4984,13 +4984,13 @@ Prince: what is this? (reply to 94996)
 
 Ali: my text get ignore by bot here
 
-Jacob: In my opinion, 'jetton_wallet' : This is the standard and more feature-rich implementation of a Jetton wallet. It supports advanced functionalities such as complex operations, interactions with smart contracts, and potentially more security features.    'jetton_wallet_simple' : As the name suggests, this is a simpler version of the Jetton wallet. It is designed for basic operations, with fewer features and possibly less complexity in terms of code and functionalities. It is typically used for straightforward use cases where advanced features are not necessary.
+lim🐰🐰: In my opinion, 'jetton_wallet' : This is the standard and more feature-rich implementation of a Jetton wallet. It supports advanced functionalities such as complex operations, interactions with smart contracts, and potentially more security features.    'jetton_wallet_simple' : As the name suggests, this is a simpler version of the Jetton wallet. It is designed for basic operations, with fewer features and possibly less complexity in terms of code and functionalities. It is typically used for straightforward use cases where advanced features are not necessary.
 
 Ali: i want to know difference between jetton _wallet and jetton_wallet_simple (reply to 94996)
 
 Ali: and wallet_v4r2 (reply to 95006)
 
-Jacob: jetton_wallet_simple is a lighter, more basic implementation compared to the more comprehensive jetton_wallet.
+lim🐰🐰: jetton_wallet_simple is a lighter, more basic implementation compared to the more comprehensive jetton_wallet.
 
 Ali: It is strange why there should be so many different types and not one unified thing like other blockchains (reply to 95005)
 
@@ -5120,7 +5120,7 @@ sheh: saw on https://ton.org/address/  but it's not clear to me, why it shows it
 
 &rey: All TON are inside blockchain on smart contracts; a bit similarly, all jettons of given kind are within jetton wallets system. Smart contracts can own jettons, but those are stored in a separate contract = jetton wallet. (reply to 95173)
 
-🐸🐍🦒🍅♥️ 🧠🦁️ Meksud🐾✌️Yescoiner 🦆📦 Bums: Hey
+Meksud: Hey
 
 Ƥυrу: i created a wallet with python i want to connect this wallet to a conncetor  (dApp) with ton_proof signature is it possible ?
 

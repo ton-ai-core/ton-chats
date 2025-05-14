@@ -3872,7 +3872,7 @@ Victor: it would be useless, because the code will not have any variables and wi
 
 Gulolio: Mmm ok understood, so there's no way in this specific case, to know the reason why  a transaction to a contract that doesn't have the funC source code failed. Like in this transaction for example.
 
-The hacker: How to play mind game
+𝓣𝓱𝓮 𝓗𝓪𝓬𝓴𝓮𝓻: How to play mind game
 
 Victor: https://github.com/TelegramMessenger/telemint/blob/main/func/nft-item.fc There's the source code, I think. There just was no verification (reply to 28042)
 
@@ -4992,7 +4992,7 @@ Kik: 中文
 
 Andrew: https://t.me/tondev_zh (reply to 28733)
 
-Noam: Hey guys, does anyone know how many validators currently active ?
+N: Hey guys, does anyone know how many validators currently active ?
 
 Nobody: tonmon.xyz (reply to 28737)
 
@@ -5064,11 +5064,11 @@ Ankit: https://ton-community.github.io/tutorials/03-client/  Hi, I'm learning To
 
 Howard: 🔥🔥🔥 (reply to 28776)
 
-Noam: Hello dev chat 👋, i’ve asked on the other chat and been referred here,  I’ve searched in the docs but I couldn’t find any information about voting process and how to be involved (which is disappointing for those who want to be involved), only validators can vote currently?, and the bigger the node the bigger the vote power?
+N: Hello dev chat 👋, i’ve asked on the other chat and been referred here,  I’ve searched in the docs but I couldn’t find any information about voting process and how to be involved (which is disappointing for those who want to be involved), only validators can vote currently?, and the bigger the node the bigger the vote power?
 
 Андрей: Yes (reply to 28784)
 
-Noam: Any doc to read more? (reply to 28785)
+N: Any doc to read more? (reply to 28785)
 
 Vatshayan: const WalletClass = tonweb.wallet.all["v4R2"]; I am using v4R2 contract version    But getting method not found   Is this contract version is correct ?
 
@@ -5344,19 +5344,19 @@ Sergey: and how to prepare a lib and deploy it to the masterchain?
 
 Sergey: can't find anything related in the docs
 
-Noam: I understood that the max token supply is 5b, but the total supply is higher, how is that possible?
+N: I understood that the max token supply is 5b, but the total supply is higher, how is that possible?
 
 Andrew: 0.6% yearly inflation (reply to 28944)
 
-Noam: I still dont get it, can you please elaborate? 🙏🏼 (reply to 28945)
+N: I still dont get it, can you please elaborate? 🙏🏼 (reply to 28945)
 
 Andrew: new tokens are minted as part of the validators' reward, with a fixed rate of 0.6% per year (reply to 28946)
 
-Noam: So isnt the max supply should be higher? Or the total supply will just continue growing?
+N: So isnt the max supply should be higher? Or the total supply will just continue growing?
 
 Andrew: total supply will continue, yes, but the new deflation mechanism will be proposed in the coming days (reply to 28948)
 
-Noam: Thanks! (reply to 28949)
+N: Thanks! (reply to 28949)
 
 Vatshayan: Thanks it worked  Thank you !! (reply to 28930)
 

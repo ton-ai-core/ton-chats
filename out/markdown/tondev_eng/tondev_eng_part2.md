@@ -1,5 +1,3 @@
-NuSs: hi, how can i get test tons? I tried a bot in teleram, but I could never get any ton :( (reply to 14284)
-
 doni: is your wallet on testnet ? (reply to 14285)
 
 Rasoul: It is strange to me that no one knows the answer (reply to 14272)
@@ -2184,7 +2182,7 @@ Liza: Hey guys! Mark, Daniil and I are preparing an online course on programming
 
 zzss: Hi guys. I have a question about the one part of code from this library  https://github.com/toncenter/tonweb  For which purposes this part of code, guys?
 
-Reynold: Hi devs. I need help with minting an NFT collection. I have all the attributes (layers) rednered but i still need to render full collection and mint it with all the attributes. I assume this work can be done easily with ton-cli (https://github.com/disintar/toncli/tree/v0.0.4) but I still need help. I can pay for work with royalties from collection or other ways (discuss in dm) DM me if you are interested. Thanks in advance)
+User<5652756485>: Hi devs. I need help with minting an NFT collection. I have all the attributes (layers) rednered but i still need to render full collection and mint it with all the attributes. I assume this work can be done easily with ton-cli (https://github.com/disintar/toncli/tree/v0.0.4) but I still need help. I can pay for work with royalties from collection or other ways (discuss in dm) DM me if you are interested. Thanks in advance)
 
 r4mze5: hi guys, how do you deploy data of transaction? Need using BOC?
 
@@ -2210,7 +2208,7 @@ User<5461650450>: Hi, have a quick question.  What is certificate for ton used f
 
 Диёрыч: I have a problem with installation fift on MacOS:  I took compilled binary from gitbhub and placed it in /usr/local/bin with "chmod +x fift" . I don't get fift version but see commit. Could anybody help me with this? :)
 
-Reynold: Hi guys. Do you know where to find docs about minting NFT collection + minting multiply items in this collection
+User<5652756485>: Hi guys. Do you know where to find docs about minting NFT collection + minting multiply items in this collection
 
 Никита: Hi! How can I find out the cost of NFT at its address? On tonapi.io there is a method "/v1/nft/GetItems" which, according to the documentation, should additionally add the key of the "sale" object, but it does not do this. NFT is definitely on sale.
 
@@ -2748,17 +2746,17 @@ Ruslan: You may find it here. (reply to 17064)
 
 Ruslan: You have version of binaries for another version of linux. Download binaries for your ubuntu version. (reply to 17070)
 
-Reynold: Does anybody know where to find docuantation about soulbound NFTs and how to mint them
+User<5652756485>: Does anybody know where to find docuantation about soulbound NFTs and how to mint them
 
 Kon: https://github.com/toncenter/tonweb/tree/master/src/contract/token/nft (reply to 17078)
 
-Reynold: no single word about soulbounds( (reply to 17080)
+User<5652756485>: no single word about soulbounds( (reply to 17080)
 
 Howard: Soulbounds only means a non-transferable token. (reply to 17081)
 
 Dmitry: Here is the standard proposal. Though it has little to do with Vitalik's view of soulbound token. These soulbound tokens for ton are bound to owner's private key. May be transferred only between their wallets.  https://github.com/ton-blockchain/TEPs/blob/master/text/0085-sbt-standard.md (reply to 17078)
 
-Reynold: by "their" you mean different versions of 1 wallet (aka v3r2 v4r2)? (reply to 17083)
+User<5652756485>: by "their" you mean different versions of 1 wallet (aka v3r2 v4r2)? (reply to 17083)
 
 Dmitry: I meant that. But I may be wrong here.
 
@@ -3012,17 +3010,17 @@ Jaimin: Hey, just wondering for Ton Storage is it being deprecated or migrated? 
 
 Dario: Thats not ton storage for sure. Do not connect your wallet to unknown site (reply to 17261)
 
-Reynold: Hi guys. Does anybody know how to get 32 bite hex private key from your mnemonic? tonweb is giving 64 bit private key by mnemonic I need 32 bit key because this library requires 32 bit private_key here in code
+User<5652756485>: Hi guys. Does anybody know how to get 32 bite hex private key from your mnemonic? tonweb is giving 64 bit private key by mnemonic I need 32 bit key because this library requires 32 bit private_key here in code
 
 Amin: Just use the first 32 bytes, it will be ok. (reply to 17263)
 
-Reynold: thanks. something in library broken probably, because its not reading private key properly and returning invalid inactive address( (reply to 17265)
+User<5652756485>: thanks. something in library broken probably, because its not reading private key properly and returning invalid inactive address( (reply to 17265)
 
 Amin: Your wallet is v3r2? and you changed the network in config? (reply to 17268)
 
 Kenan Heyatov: How i can get any nft or coin
 
-Reynold: The private key is the same for all versions of addresses, but the address that the library gives does not match mine. And yes I tried both networks (reply to 17272)
+User<5652756485>: The private key is the same for all versions of addresses, but the address that the library gives does not match mine. And yes I tried both networks (reply to 17272)
 
 User<5909707939>: (cell cur, int k) = udict_get_ref?(d, 16, val);   send_raw_message(cur, 0);     How would I activate the "inplace message body flag (Either)" for this code?
 
@@ -3078,11 +3076,11 @@ Summer: Hi, how can I set up my wallet address name, https://tonscan.org/address
 
 Summer: Like the above screenshot, OKX and Huobi Deposit
 
-Reynold: Does anybody know the difference between royalty parameter in tonweb NftCollection and seller_fee_basis_points in collection json metadata https://github.com/ton-blockchain/token-contract/blob/main/nft/web-example/index.html https://github.com/ton-foundation/token-contract/blob/main/nft/web-example/my_collection.json
+User<5652756485>: Does anybody know the difference between royalty parameter in tonweb NftCollection and seller_fee_basis_points in collection json metadata https://github.com/ton-blockchain/token-contract/blob/main/nft/web-example/index.html https://github.com/ton-foundation/token-contract/blob/main/nft/web-example/my_collection.json
 
 Tim: Json Metadata one doesn't matter
 
-Reynold: thx (reply to 17327)
+User<5652756485>: thx (reply to 17327)
 
 Emilia: Hello, I read that TON Storage is coming by the end of the year. What about TON Proxy 2.0 (privacy) and 3.0 (DeFi) announced in the past?
 

@@ -8120,7 +8120,7 @@ Heydar: I like this man ,  I think it's first time his tutorial on videos(just I
 
 Haq: Can you share link? (reply to 48652)
 
-Gary: Hello everyone, does anyone here know if there is a token holder snapshot tool available on TON?
+0X: Hello everyone, does anyone here know if there is a token holder snapshot tool available on TON?
 
 Oak Investor®: Hi! Is there any documentation out there how to implement wallet connect into tg app?😌
 

@@ -2650,11 +2650,11 @@ TON Bounty Bridge: ​Depth Comparison of Blockchains  🏷 Education  Summary:T
 
 Mohammad: Hey everyone, I was trying to write a contract that checks whether an NFT sent to it, is from a specific collection or not. But we cannot prove that the NFT is coming from a specific collection because get_static_data can be faked and there is no other option in TEP-62. That would be nice if there was a flow that we could use to make sure the NFT transferred to our smart contract is an NFT from a specific collection. if get_static_data could ask from collection to provide these information the problem would be solved.  Is there any workaround to make sure an NFT is coming from a specific collection? Would  it be ok to store a dictionary of all NFT addresses in the collection and check them in nft_ownership_assigned operation?
 
-✨Safina✨: Hello! How to parse a transaction hash from boc that we get after tonconnect/ui transaction?
+sAfinA💛: Hello! How to parse a transaction hash from boc that we get after tonconnect/ui transaction?
 
 &rey: You can't. What do you want to do with it? (reply to 109306)
 
-✨Safina✨: SetInterval and check when the transaction will be confirmed (reply to 109313)
+sAfinA💛: SetInterval and check when the transaction will be confirmed (reply to 109313)
 
 &rey: 1. You can hash cell that comes from TON Connect; it is hash of the external message (not of transaction!). 2. Probably you can feed that hash into explorers; if it points to a message, it is indeed recorded in blockchain, and the money is sent.
 
@@ -5872,7 +5872,7 @@ Sandy: Anyone know how to obtain the token id of NFTs ? I can get the NFT item a
 
 ⚡️ Ἑρμῆς (Hermes): I am (the sender) already have jetton, but for being more explicit I also added mint to this function async function sendJettonTo(         jettonContractSender : SandboxContract<ExampleJettonWallet>,         sender: SandboxContract<TreasuryContract>,          amount: bigint,          receiver: Address         ) {           // Mint 1 token to Sender          const mintyResult = await jettonMaster.send(             sender.getSender(),             {                 value: toNano('1'),             },             'Mint:1'         );         // Check that Sender send "Mint:1" msg to JettonMaster         expect(mintyResult.transactions).toHaveTransaction({             from: sender.address,             to: jettonMaster.address,             success: true,         });         ...remaining code is the same  The issue still there -   expect(transfterResult.transactions).toHaveTransaction({           |                                              ^       282 |             from: jettonContractSender.address,       283 |             to: receiverWalletAddress,       284 |             success: true,  with same message - {         lt: 25000000n,         now: 1728913987,         outMessagesCount: 1,         oldStatus: 'non-existing',         endStatus: 'non-existing',         totalFees: 133331n,         from: EQB4pYdHxm5W_LUTwb95WJa8TRVRHpOJcOEdhstsOd1kNjFL,         to: EQBGtzWULWv0m1WLsGcQ31Ho_Np8i1D3WFZhbnBvRMuQhaWX,         on: EQBGtzWULWv0m1WLsGcQ31Ho_Np8i1D3WFZhbnBvRMuQhaWX,         value: 99991698800n,         body: x{178D4519000000000000000010180194DDFF9BA93265B574C215ABD4BFD85D208744D2A7628686A3532A89A239C26F002DF17D1B4D26A55BF1784EE30A1D21836E5B9DDD9158EA21C2C8FF4320F1D9959409502F9002_},         inMessageBounced: false,         inMessageBounceable: true,         op: 395134233,         initData: undefined,         initCode: undefined,         deploy: false,         aborted: true,         destroyed: false,         exitCode: undefined,         actionResultCode: undefined,         success: false       } (reply to 115275)
 
-Eibrahim: Have you found a solution to this ? (reply to 114926)
+Certified_x: Have you found a solution to this ? (reply to 114926)
 
 &rey: Well, something in your code seems to serialize jetton transfers incorrectly, so you'd better check for bounced transactions on mint. (reply to 115278)
 
@@ -5884,17 +5884,17 @@ D_d: Not yet, probably will do my own backend for it (reply to 115280)
 
 &rey: You don't get to write init code as string. Rather, you must create a function cell push_init_code() asm   "B{B5EE9C...}"   "B>boc PUSHREF"; (reply to 115283)
 
-Eibrahim: Yeah I think that's the case  It depends on your backend structure  You can't easily detect if a user follow an account or not the best approach is to set a timer and assuming they would have followed the page before the time elapse (reply to 115288)
+Certified_x: Yeah I think that's the case  It depends on your backend structure  You can't easily detect if a user follow an account or not the best approach is to set a timer and assuming they would have followed the page before the time elapse (reply to 115288)
 
 George: tell me how to get the transaction hash. I make a transaction using the tongo library (I transfer ton V5 wallet)  I get the hash by calling extMsgCell.HashString() , but it does not match the hash of my transaction in the scanner
 
-Eibrahim: Use data from your backend for example if you are tracking the time user was active  You can create a function to check if they have logged in a day (reply to 114926)
+Certified_x: Use data from your backend for example if you are tracking the time user was active  You can create a function to check if they have logged in a day (reply to 114926)
 
 &rey: Indeed, because that's hash of sent external message; how'd it match? How would your lib get transaction hash? (reply to 115296)
 
 D_d: timer not reliable, but generate codes are easier (reply to 115295)
 
-Eibrahim: Ohh that's great (reply to 115299)
+Certified_x: Ohh that's great (reply to 115299)
 
 PtcBink: https://docs.ton.org/develop/smart-contracts This would help you. (reply to 115122)
 
@@ -6878,7 +6878,7 @@ NPA120: I was trying to find this in doc but there is not 44 in exit codes (repl
 
 NPA120: you are correct. I found it. Thanks (reply to 116910)
 
-...: hi everyone, i need to help about smart contract. my ton space wallet was deployed smartcontract by someone who I do not know person and  $TON in my wallet is recieving and sending with auto without my cantroll. please help me for remove smartcontract from my wallet.
+Sh. Olimov: hi everyone, i need to help about smart contract. my ton space wallet was deployed smartcontract by someone who I do not know person and  $TON in my wallet is recieving and sending with auto without my cantroll. please help me for remove smartcontract from my wallet.
 
 &rey: This is either not true, or you have sent secret key to another.  You should explain more precisely. (reply to 116916)
 
@@ -6918,7 +6918,7 @@ Haint: the op probably doesn't exist on the contract (reply to 116961)
 
 Mithra: Are there any alternative nodes to: https://toncenter.com/api/v2/jsonRPC ?
 
-...: various nft and 0 value tokens were coming to the wallet, i.e. 60,000 dogs worth of bonus and similar nfts were coming and that's it.  as a result, they turned out to be false.  after that $Ton of different value started coming to the wallet from different addresses and immediately sent to 4 5 addresses continuously.  the token received in the wallet will be sent to the same 4 5 addresses within 10 seconds.  the wallet has other $Not $Dogs and some other such tokens, but they can't be tapped because the wallet doesn't have $Tons for commission.  If I put $Ton in the wallet, the situation mentioned above happens.  I searched the shipping addresses and found information about the github site in my wallet, and when I went to it, there was information and codes about the samrt contract.  then when I explained the situation to the support people and asked for help, they said that they could not help and that they might have installed a smart contract on my wallet. (reply to 116924)
+Sh. Olimov: various nft and 0 value tokens were coming to the wallet, i.e. 60,000 dogs worth of bonus and similar nfts were coming and that's it.  as a result, they turned out to be false.  after that $Ton of different value started coming to the wallet from different addresses and immediately sent to 4 5 addresses continuously.  the token received in the wallet will be sent to the same 4 5 addresses within 10 seconds.  the wallet has other $Not $Dogs and some other such tokens, but they can't be tapped because the wallet doesn't have $Tons for commission.  If I put $Ton in the wallet, the situation mentioned above happens.  I searched the shipping addresses and found information about the github site in my wallet, and when I went to it, there was information and codes about the samrt contract.  then when I explained the situation to the support people and asked for help, they said that they could not help and that they might have installed a smart contract on my wallet. (reply to 116924)
 
 Elizabeth: Okay (reply to 116967)
 
@@ -7516,7 +7516,7 @@ Tornike: I want to know how can I connect myself to Ton wallet in my telegram mi
 
 &rey: It isn't a good idea, but you can transfer localStorage variables between the two using your backend. Remember to E2EE them with user-provided password so that server leaks do not allow anyone to get inside the session. (reply to 118072)
 
-vk: What do you mean? (reply to 118087)
+Vlad Coca: What do you mean? (reply to 118087)
 
 &rey: 1. Even if all users want to interact with your contract, fees will not become higher, and no transactions will be dropped. For certain architectures, all transaction trees will be processed quite fast. (reply to 118089)
 
@@ -8606,7 +8606,7 @@ Epsilone: https://tonviewer.com/transaction/442ae757ead3d3b4b1896a99b91e1d8cf1b5
 
 Epsilone: What I can do? (reply to 119930)
 
-Leonid: Hey guys, somebody looking for Devcon ?
+Leo: Hey guys, somebody looking for Devcon ?
 
 S: sir
 
@@ -9100,7 +9100,7 @@ Bzzzz: exit_code 9 means Cell underflow. The read operation from slice primitive
 
 T.E.I 🇨🇦Tooncinator 🌱SEED FLIES 🪰🍑$WIFE: Video tutorials mainly (reply to 66688)
 
-Allen: Hey guys
+ᎪᏞᏞᎬN ᏫᎰᎰᏞᏆNᎬ: Hey guys
 
 Nguyễn: I have read a policy about storage fee on Ton:
 
@@ -9112,7 +9112,7 @@ Mike: Does anyone know?😳
 
 Tom: Hey guys, I'm trying to compute the storage fee for my contract using GETSTORAGEFEE. Which one would be preferred to collect storage stats? - beginCell().store(storeStateInit(state)).endCell() - beginCell().store(storeAccountStorage(smc.account.account.storage)).endCell()
 
-Allen: It's fraud (reply to 120814)
+ᎪᏞᏞᎬN ᏫᎰᎰᏞᏆNᎬ: It's fraud (reply to 120814)
 
 Bzzzz: Currently, your contract needs to reach a balance -1 TON as result of storage fee accumulation to be deleted. (reply to 120811)
 
@@ -9242,7 +9242,7 @@ AlirezaEthDev: I tried that but I don't know where should I import types like Ke
 
 &rey: 1. It isn't luck, internals are strictly ordered; whitepaper knows how, but they cannot be reordered. 2. "mined"... "processed" is a more fitting word. 3. Internal messages in single shard may be processed in the same block when they were generated; cross-shard ones have to be routed first. (reply to 121137)
 
-Allen: @ton/ton
+ᎪᏞᏞᎬN ᏫᎰᎰᏞᏆNᎬ: @ton/ton
 
 амаdy: hello I nedd a help: ``
 
@@ -10876,7 +10876,7 @@ Marco | TAC: (and eventually instruct from the dapp side to switch the network?)
 
 &rey: Network ID: -239 or -3. And no you can't ask the wallet to switch; a particular reason is that users often use different wallet apps for mainnet and testnet. (reply to 124403)
 
-Russell: does anyone need a developer?
+User<8192154009>: does anyone need a developer?
 
 2happy: Hello, how can i get decimals value from metadata using tonweb? Why USDT have 6 and not ordinary ones 9?
 
@@ -11180,13 +11180,13 @@ Diamond 🐧: Can I ask you what frameworks and programming languages were used 
 
 Saqib: Hi! TON Dev team. I'm trying to get the staking amount of a wallet. Can you guys help me figuring this issue out.
 
-MI: Hi guys, how to estimate gas for transfer jetton?
+Nova: Hi guys, how to estimate gas for transfer jetton?
 
-MI: returned fee only 500,000, but actual is 5,000,000
+Nova: returned fee only 500,000, but actual is 5,000,000
 
-MI: something wrong, but I dont known
+Nova: something wrong, but I dont known
 
-MI: golang
+Nova: golang
 
 Gauthami: Hi is there a API to monitor a transaction status in TON ?
 
@@ -12749,8 +12749,4 @@ Disco: what do you mean, "set auto payment" ? (reply to 128254)
 Daniel(""): g'night, does anyone know a websocket for tracking user transactions?
 
 &rey: IIRC there are no reliable websockets right now. You can use tonapi with caveat that tx delivery [to your backend] is not guaranteed. (reply to 128257)
-
-Valentin: Hey, is there a way to obtain the owner of a given jetton wallet contract?
-
-&rey: Yes, get_jetton_data or sth like that returns it. (reply to 128262)
 

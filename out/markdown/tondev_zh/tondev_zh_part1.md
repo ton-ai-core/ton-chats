@@ -19558,15 +19558,15 @@ Mi: 请问以前sec要求Ton退换ICO的资金是针对Tg还是全部公链都�
 
 Howard: 這邊是 TON Dev 的中文群喔 🌊😳 (reply to 15039)
 
-999: 谁知道ton域名到底是用来干嘛的？能像com一样建站吗？
+User<5329517526>: 谁知道ton域名到底是用来干嘛的？能像com一样建站吗？
 
-999: @ex_binance
+User<5329517526>: @ex_binance
 
 Howard: 在我的理解中，Ton網路世界🌍  裡面包含著.ton 跟telegram ，而t.me 就像telegram 中的子域名，未來有沒有機會建設自己的網站，有可能，但這就是臉書之於你的臉書帳號，你在.t.me 上建立的內容是在Telegram 之上  但.ton則是網路中的自架網站，你可以制定屬於自己的規則（只要符合Ton宇宙規則就好）  晚點回去畫個圖應該會容易理解我的說法  以上只是我的個人理解 (forwarded from Yang)
 
 Howard: 這是 Yang 的一個切入點，說明。  是的，`.ton` domain name 可以做到建立網站 (reply to 15042)
 
-999: 目前有人用ton建立网站吗 (reply to 15045)
+User<5329517526>: 目前有人用ton建立网站吗 (reply to 15045)
 
 Uubot: 怎么整？ (reply to 15045)
 
@@ -19580,7 +19580,7 @@ Howard: 可以做很多事情
 
 Uubot: 我去看看，谢谢老铁
 
-999: 群里有能做ton网站的吗？
+User<5329517526>: 群里有能做ton网站的吗？
 
 Yang: 💥周读 TON Site  TON Sites 的维基百科  #⃣4️⃣ CryptoSloth  🟢Web2 网站: None  🟢TON 网站: cryptosloth.ton   🟢.RUN 网站: cryptosloth.ton.run  *⃣ 一键直达 TON Site。          技术支持：TON.RUN  苦于不知道如何搭建 TON SITE?  CryptoSloth 是一位 TON 中文开发者的个人 Blog，他在该网站贴出了一份搭建 .ton 网站的教程。  该教程不仅详细地记录了 .ton VPS 的设定、本地端/服务器端的设置代码、TON SITE 的两种运行方法，还涉及了如何将网站关联至 TON DNS。   TON Network：从监控和限制中彻底解放用户隐私。  🏠 Telegram Group (forwarded from TON RUN)
 
@@ -19594,7 +19594,7 @@ Yang: 窩窩窩，我好糗 (reply to 15058)
 
 Yang: 但那個我忘記是誰架的，站時也找不到人
 
-999: ton网站还是不够稳定，还需要发展
+User<5329517526>: ton网站还是不够稳定，还需要发展
 
 fomo: 請問有智能合約的教程嗎
 
@@ -21018,7 +21018,7 @@ goralson: /menu
 
 Ron: /menu
 
-999: @zhongcaiqun 这里面所有的bot 500u全出
+User<5329517526>: @zhongcaiqun 这里面所有的bot 500u全出
 
 meme: 6
 
@@ -21882,7 +21882,7 @@ Howard: 我也在學，但現在最簡單起的範例應該是這個。  https:/
 
 ro: 调用合约，gas费，有没有参数不从发送金额扣，额外扣钱包余额。
 
-999: 那个大佬知道这个属性是啥意思吗，怎么填啊。。
+User<5329517526>: 那个大佬知道这个属性是啥意思吗，怎么填啊。。
 
 frlyh: 应该是这 (reply to 16395)
 
@@ -21890,7 +21890,7 @@ frlyh: 你自定义
 
 Howard: Fields, 你的 metadata for NFTs (reply to 16394)
 
-999: 元数据是干啥的
+User<5329517526>: 元数据是干啥的
 
 Howard: 跟 OpenSea 這個文黨的標準一樣。  https://docs.opensea.io/docs/metadata-standards   範例：https://s.getgems.io/nft-staging/c/628f6ab8077060a7a8d52d63/meta.json (reply to 16401)
 
@@ -24866,9 +24866,9 @@ Yang: 應該都恢覆囉
 
 Yang: 我剛剛還解除流動性..等等有用到合約的操作，目前都沒問題
 
-999: ton是真不行啊
+User<5329517526>: ton是真不行啊
 
-999: 崩网几天了
+User<5329517526>: 崩网几天了
 
 User<6707872053>: 钱包就提现不了
 

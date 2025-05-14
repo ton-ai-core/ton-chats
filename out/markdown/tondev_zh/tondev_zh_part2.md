@@ -2418,7 +2418,7 @@ Howard: 更正，是因為考量佔用的 gasCost 以及 Cell 能儲存單位的
 
 User<1414660737>: TON域名有什么用
 
-999: 没有用 (reply to 20319)
+User<5329517526>: 没有用 (reply to 20319)
 
 User<1414660737>: 那开发出来做什么
 
@@ -3588,7 +3588,7 @@ Yang: 這裡是 Dev 群，請保留給開發者，移駕到 TON 社群討論區 
 
 Andrew: 这些话题移步Alphaton讨论就好，哪怕潜水看看就知道了 (reply to 21005)
 
-Arnaud: Hi 大家好，我想请教大佬们一个问题，目前我因为业务需要开始接触Ton生态。并且接下来应该会有合约开发相关的任务，之前写过一些solidity。我想从目前领域内的使用范围、安全与兼容性、gas消耗来咨询一下，是需要慢慢学Func还是可以直接尝试用tact来开发 🙂
+Arnaud | OKX: Hi 大家好，我想请教大佬们一个问题，目前我因为业务需要开始接触Ton生态。并且接下来应该会有合约开发相关的任务，之前写过一些solidity。我想从目前领域内的使用范围、安全与兼容性、gas消耗来咨询一下，是需要慢慢学Func还是可以直接尝试用tact来开发 🙂
 
 Trb: MyLocalTon 需要同步完才能用么?
 
@@ -3596,7 +3596,7 @@ Howard: 業務層可以用 Tact, 代幣標準建議上 FunC (reply to 21011)
 
 Howard: 可以參考這個混合配置的範例：https://github.com/howardpen9/jetton-hybrid-template
 
-Arnaud: Cool 谢谢大佬
+Arnaud | OKX: Cool 谢谢大佬
 
 Howard: Tact 教學可以參考 ScaleBit & TON 贊助的講座：https://openbuild.xyz/learn/challenges/2023609337
 
@@ -4158,7 +4158,7 @@ Crypto A99: 好謝謝
 
 Crypto A99: 我想做的 大概就像Deploy時 退還value的
 
-Arnaud: xdm，测试网bot领水估计多久能到账呀 “Request added to the queue for execution, please wait!”
+Arnaud | OKX: xdm，测试网bot领水估计多久能到账呀 “Request added to the queue for execution, please wait!”
 
 Jack: 谨慎，小心 (reply to 21392)
 
@@ -8800,7 +8800,7 @@ ro: 难不成使用 V2R2 这个版本 钱包
 
 wikig: 想问一下各位大佬。  就是现在botfather这边提供的webapp和game到底区别在哪里（好像都是打开个webview）  而且game.js那边提供的方法好像还不如直接用webapp的方案
 
-Arnaud: 大佬们，请教一个问题，这段代码中，save storage何时执行呢，是否依赖call pay to的成功
+Arnaud | OKX: 大佬们，请教一个问题，这段代码中，save storage何时执行呢，是否依赖call pay to的成功
 
 Orange: 无法验证交易是因为啥啊 大佬们
 
@@ -16900,7 +16900,7 @@ Logan 🐯: 哈希数组长度是3万是吧
 
 C: 哪里来的小鸡子，抓你黑脚🏀
 
-Альбукерке: friends, for some reason my notecoins disappeared when creating a wallet. guys, as much as you can, help me with notcoins
+Штандартэн: friends, for some reason my notecoins disappeared when creating a wallet. guys, as much as you can, help me with notcoins
 
 A: 大家也没有人对ton 上ena项目感兴趣呀，我们在找defi的dev
 

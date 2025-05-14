@@ -3452,7 +3452,7 @@ Crypto Notte: Hello team, any good repo where I can see how to have multiple mes
 
 Tech🧑‍💻🐾: Still needed? (reply to 73847)
 
-Kennyy: dm me (reply to 73962)
+Zicke 🍌: dm me (reply to 73962)
 
 Harry: i need to convert current time to logical time to filter transaction.. how we can do that? i searched but don't find the way
 
@@ -3514,7 +3514,7 @@ Aibar: is bridge working rn?
 
 MA: can you please send a sample code for any library that I can achieve that goal with it ? (reply to 74146)
 
-Nigatu: Work shop
+Abogeda: Work shop
 
 Nerses: how can i convert BoC base64 to Slice type ?
 
@@ -7060,23 +7060,23 @@ Witter: @testgiver_ton_bot doesn't work
 
 Witter: please fix it
 
-Eibrahim: I know of a YouTube channel where you can do but i can't send the link here due to rules (reply to 80196)
+Certified_x: I know of a YouTube channel where you can do but i can't send the link here due to rules (reply to 80196)
 
-Eibrahim: Hy guys I have a question I just learnt about the concept of rent in ton blockchain and how important it is when creating a smart contract  to fund the lifetime of the contract  So how Will one specify the rent amount considering you don't know how long a contract will be active
+Certified_x: Hy guys I have a question I just learnt about the concept of rent in ton blockchain and how important it is when creating a smart contract  to fund the lifetime of the contract  So how Will one specify the rent amount considering you don't know how long a contract will be active
 
 Ага: Hi! How to create custom Jetton on FUNC? Any guide or instructions please?
 
-Eibrahim: Try to use the Jetton minter website (reply to 80396)
+Certified_x: Try to use the Jetton minter website (reply to 80396)
 
-Eibrahim: And there's a tutorial on ton documentation too that you can use (reply to 80396)
+Certified_x: And there's a tutorial on ton documentation too that you can use (reply to 80396)
 
 Ага: I want custom, not basic (reply to 80397)
 
 Ага: Can you please give link? (reply to 80399)
 
-Eibrahim: I can't send a link in here don't know if it is  permissible (reply to 80401)
+Certified_x: I can't send a link in here don't know if it is  permissible (reply to 80401)
 
-Eibrahim: But you can append this path to ton documentation url  /develop/dapps/tutorials/jetton-minter
+Certified_x: But you can append this path to ton documentation url  /develop/dapps/tutorials/jetton-minter
 
 Heydar: my friend received this nft, and we wanted transfer that , but it's unverified , what's going on ! , we cant understand what happend exactly :/ ?
 
@@ -7128,7 +7128,7 @@ mohsen: I want to set wallet_id to 1 and get the private key of wallet_id 1. How
 
 &rey: What do you refer to? Actually, there is no possibility to charge your wallet silently, you have to approve the transaction. Or to install a plugin. (reply to 80495)
 
-Eibrahim: Is there a telegram or discord community for English learners on spetik ton blockchain course
+Certified_x: Is there a telegram or discord community for English learners on spetik ton blockchain course
 
 &: https://stepik.org/lesson/1011498/step/2?unit=1019358 (reply to 80512)
 
@@ -7456,19 +7456,19 @@ PoW: Sorry, I thought I can define in same wrapper.compile, I created new for ot
 
 Kunikimn: how to find a job on Ton network developmemt？
 
-Eibrahim: There's a channel called ton jobs, jobs available in the open network ecosystem are being posted there (reply to 81380)
+Certified_x: There's a channel called ton jobs, jobs available in the open network ecosystem are being posted there (reply to 81380)
 
 Kunikimn: thank you, sir! (reply to 81383)
 
 Wlah: Hi, I use pytonconnect to do payment. Sometimes, the call of connect.send_transaction() never return even if I confirm the transaction in TON Space. I don't know why. Anything do I miss out? thanks.
 
-Eibrahim: 😂 you don't have to (reply to 81390)
+Certified_x: 😂 you don't have to (reply to 81390)
 
-Eibrahim: Though I really feel like there's a need to bridge the gap for non-russian speakers
+Certified_x: Though I really feel like there's a need to bridge the gap for non-russian speakers
 
 Kunikimn: It is necessary. Ton network might change the world.
 
-Eibrahim: There's a need for more advocacy across several languages (reply to 81396)
+Certified_x: There's a need for more advocacy across several languages (reply to 81396)
 
 Rae: This is the most honest observation here. It would be much better for innovation outside the region. (reply to 81393)
 
@@ -7544,7 +7544,7 @@ K: i am a senior dev from web2
 
 K: how about the ton smart contract difficulty
 
-Eibrahim: We can start something though (reply to 81406)
+Certified_x: We can start something though (reply to 81406)
 
 Adam: Has anyone solved this? I can't query my lite server (reply to 59543)
 
@@ -8078,21 +8078,21 @@ musashi: I'm not sure but maybe this could help https://github.com/howardpen9/je
 
 Nerses: Really appreciate it, thanks! (reply to 82324)
 
-Pika: can anyone help me with TON staking with referral system. please share any resources of anything which can help. will appreciate some help here.
+Rahul: can anyone help me with TON staking with referral system. please share any resources of anything which can help. will appreciate some help here.
 
-Pika: please i need any resources on TON referral staking urgently
+Rahul: please i need any resources on TON referral staking urgently
 
 eason: 有人有想法做ton链上的短视频平台吗
 
 &: This is eng channel. Eng plz (reply to 82331)
 
-Pika: someone please help me with this (reply to 82327)
+Rahul: someone please help me with this (reply to 82327)
 
 Huu: Hi everyone, please help me answer this question.  I want to get the contract address from this API:  curl -X 'GET' \   'https://testnet.toncenter.com/api/v2/getTransactions?address=kQAhgoFCEOfODFnhTjfnsUE6Pl9YHL55mDH-9OeTeMei45Pj&limit=10&to_lt=0&archival=false' \   -H 'accept: application/json'  But in the response, it is not visible. Is there any way to get it?
 
 Alfred: Should be done easily by adding another input param referral address? (reply to 82327)
 
-Pika: Can i get some resource or demo regarding this please (reply to 82343)
+Rahul: Can i get some resource or demo regarding this please (reply to 82343)
 
 Rayan: Guys, Which one of TonViewer and TonScan is better. i have a transaction, TonViewer says its failed, TonScan says its confirmed and TonCenter is like TonScan. Which one is true? and is there another explorer for Ton?
 
@@ -8534,9 +8534,9 @@ mohsen: This is what happens. But what is the reason for this? (reply to 82859)
 
 Rayan: have TonCenter any limit for calls. what about TonWhales?
 
-Eibrahim: Smart contract om which chain (reply to 81650)
+Certified_x: Smart contract om which chain (reply to 81650)
 
-Eibrahim: Would love to contribute to this (reply to 81893)
+Certified_x: Would love to contribute to this (reply to 81893)
 
 RUN: On ton chain (reply to 82874)
 
@@ -10032,7 +10032,7 @@ Guillaume: thanks for your help. I found the issue, I was out of TON to pay for 
 
 Laura: Hi @ruslixag  Is it possible if you could help me reach out to support ... From my end they don't even reply ..  My friends telegram number got banned and there is this project we are working on now ... We've put so much hardwork effort and resources into this for it all to go to waste.. I would appreciate if you reply me ..so as to know the way forward with this thanks  Laura. (reply to 84700)
 
-Eibrahim: Gm gm
+Certified_x: Gm gm
 
 Ruslan: Hello, do you mean a telegram bot or mini app? (reply to 84716)
 
@@ -10412,7 +10412,7 @@ Qi: Js code
 
 Smart Ƀart: Hi! Does STON.fi have a developer telegram chat for questions?
 
-Eibrahim: Regarding this looking to start something soon to make it easier  It has not been easy for me too while learning (reply to 85119)
+Certified_x: Regarding this looking to start something soon to make it easier  It has not been easy for me too while learning (reply to 85119)
 
 Creator: Hi all. Guys, who knows how to get a block (shard or master) using transaction info? Those. by hash, lt, and similar information? Or liteclient dont know ? I write in Python.
 
@@ -10456,7 +10456,7 @@ Kryptonite: but still no luck
 
 Kryptonite: await provider.internal(via,{             value:opts.value,             sendMode:SendMode.PAY_GAS_SEPARATELY,             body:beginCell()                 . storeUint(Opcodes.deposit,32)                 . endCell()         }); (reply to 85234)
 
-Eibrahim: Who here is building challenge app
+Certified_x: Who here is building challenge app
 
 Kryptonite: i am trying to store msg_value on smart contract state
 
@@ -12316,7 +12316,7 @@ Louis: How to update the modified code on the chain
 
 Sammy: Hello everyone! I need Developer for my tapping game project: @TapMBoys_Bot   Please contact me if you experienced in this sphere and you are creative.  Dm: @cSiriusX
 
-Blockchain: Hi, guys. How can I get jetton balance on contract with FUNC?
+Nemanja: Hi, guys. How can I get jetton balance on contract with FUNC?
 
 Nerses: In Jetton TokenTransfer message should queryId be message op-code ?  https://docs.ton.org/develop/dapps/asset-processing/jettons#retrieving-jetton-wallet-addresses-for-a-given-user:~:text=Allows%20applications%20to%20link%20three%20messaging%20types%20Transfer%2C%20Transfer%20notification%20and%20Excesses%20to%20each%20other.%20For%20this%20process%20to%20be%20carried%20out%20correctly%20it%20is%20recommended%20to%20always%20use%20a%20unique%20query%20id.
 
@@ -12710,7 +12710,7 @@ Nightfall: thanks, one small question:  what would happen if you use flag 0x10 (
 
 &rey: Though I don't know what happens if contract receives message with flag 0x10 and fails action phase.
 
-Gary: Why delete it?
+0X: Why delete it?
 
 Nightfall: ah, I got it now, this is quite confusing lol (reply to 87851)
 
@@ -12734,7 +12734,7 @@ Nightfall: thank you, tvm is so different lol (reply to 87864)
 
 0xbera: I see -- thank you! (reply to 87861)
 
-Gary: Thank you🙏🏻 (reply to 87859)
+0X: Thank you🙏🏻 (reply to 87859)
 
 0xbera: how about the last 3 characters in the addresses ? They differ as well? Any idea why that might be the case? (reply to 87861)
 
