@@ -4466,7 +4466,7 @@ User<805422338>: nginx的TCP 代理吗？ (reply to 3024)
 
 User<805422338>: 啥时候出 转账功能兄嘚 (reply to 3024)
 
-👾 BITS🦉 🌱 SEED Brody 🐾: ⚡ We're giving away 10,000 Toncoin  Hello, everyone. We've got something special planned for you. For every 5 Toncoin you buy through our bot from Nov. Nov. 24 to Dec. 1, we'll gift you a sixth one as bonus.  Participating is easy: Buy a minimum of 5 Toncoin during the period mentioned above, and on Dec. 30, your bonus Toncoin will be added to your balance.  Please note: Users can only receive up to 10 bonus Toncoin. We're giving away only 10,000 Toncoin. (forwarded from Кошелёк)
+👾 BITS🦉 🌱 SEED Brody 🐾: ⚡ We're giving away 10,000 Toncoin  Hello, everyone. We've got something special planned for you. For every 5 Toncoin you buy through our bot from Nov. Nov. 24 to Dec. 1, we'll gift you a sixth one as bonus.  Participating is easy: Buy a minimum of 5 Toncoin during the period mentioned above, and on Dec. 30, your bonus Toncoin will be added to your balance.  Please note: Users can only receive up to 10 bonus Toncoin. We're giving away only 10,000 Toncoin. (forwarded from Wallet)
 
 User<805422338>: 买五送一
 

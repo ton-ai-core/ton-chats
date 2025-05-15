@@ -2591,3 +2591,7 @@ Petr: А можно транзакцию с exit code != 0?
 Андрей: вот пример реализации nft https://github.com/tact-lang/tact/tree/main/src/benchmarks/nft/tact (reply to 2138)
 
 Андрей: и также не надо считывать op, какие-то поля сообщения - такт сам все сделает, если определишь структуру сообщения, к примеру  message(x6d696e74) Mint{  description: Cell; }  ...  receive(msg: Mint){ msg.description }
+
+— 2025-05-14 —
+
+Roman: Как в ton sandbox можно подписать адреса, как system.name() в tact-lang/emulator?

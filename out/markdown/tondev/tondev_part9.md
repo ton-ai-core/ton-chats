@@ -1,7 +1,3 @@
-Mikhail: получаю ошибку  {'type': 'Exception', 'args': ('Wallet balance is less than requested coins',), 'message': 'Wallet balance is less than requested coins’}
-
-Dan: 5.36
-
 Mikhail: 5.36  не хватило 5.30 не хватило 5 хватило
 
 Dan: Тебе бы свой код для отправки сообщений
@@ -12573,4 +12569,6 @@ Tony: спасибо (reply to 83302)
 Егор: Привет! Как мне отправить TON со своего кошелька на другой через php скрипт?
 
 Daniil: Возможно эта библиотека поможет https://github.com/extraton/php-ton-client (reply to 83305)
+
+Егор: Я боюсь вариант использовать библиотеки у меня нет. Но спасибо (reply to 83306)
 

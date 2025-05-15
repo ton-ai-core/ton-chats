@@ -188,13 +188,13 @@ Denis: тогда хз. - https://t.me/tonutils
 
 Denis: на tongo как-то так: client, err := liteapi.NewClientWithDefaultMainnet()   if err != nil {     panic(err)   }   var params tlb.VmStack   cell, _ := tlb.TlbStructToVmCellSlice(ton.MustParseAccountID("QC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4"))   params.Put(cell)   cell, _ = tlb.TlbStructToVmCellSlice(ton.MustParseAccountID("EQCajaUU1XXSAjTD-xOV7pE49fGtg4q8kF3ELCOJtGvQFQ2C"))   params.Put(cell)   client.RunSmcMethod(context.TODO(), ton.MustParseAccountID("router_address"), "get_pool_address", params)
 
-Pasha: Привет, можно где-то почитать про применение Golang в TON?  Или может кто описать в пару предложений?
+User<6214683067>: Привет, можно где-то почитать про применение Golang в TON?  Или может кто описать в пару предложений?
 
 Denis: так в документации полно примеров
 
 Denis: как раз на го и жс
 
-Pasha: Мне нужно именно описание) (reply to 143534)
+User<6214683067>: Мне нужно именно описание) (reply to 143534)
 
 Denis: не понимаю
 
@@ -10388,9 +10388,9 @@ Aryn: так а что отправляется в бридж? (reply to 151781)
 
 Dan: Tonsdk (reply to 151772)
 
-Alex: Пользователь Night Dragon подтвердил получение платежа по сделке OS-002355279. Сумма 0.458715596 TON будет зачислена на ваш кошелек в течение 2 минут. (forwarded from Кошелёк)
+Alex: Пользователь Night Dragon подтвердил получение платежа по сделке OS-002355279. Сумма 0.458715596 TON будет зачислена на ваш кошелек в течение 2 минут. (forwarded from Wallet)
 
-Alex: ✅ Вы получили: 0.458715596 TON (forwarded from Кошелёк)
+Alex: ✅ Вы получили: 0.458715596 TON (forwarded from Wallet)
 
 Alex: Встроенный в валет вроде (reply to 151785)
 

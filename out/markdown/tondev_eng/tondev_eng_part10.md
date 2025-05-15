@@ -1,5 +1,3 @@
-Valentin: Hey, is there a way to obtain the owner of a given jetton wallet contract?
-
 &rey: Yes, get_jetton_data or sth like that returns it. (reply to 128262)
 
 &rey: Make sure to cross-check that jetton master really gives that jetton wallet's address, or you risk spending TON on wrong contract but thinking that's just high fees.
@@ -3672,11 +3670,11 @@ SynthLuvr: I don't see any launchpad on dedust. How did you do it? (reply to 136
 
 SynthLuvr: Interesting. I try to create and it gives error: This token is not supported. Please use a modern token. Not sure what that means (reply to 136678)
 
-Всеволод: Hello, searching for work! My CV: https://drive.google.com/file/d/1w4fzhfxYkRrvFsTOt3r92hupUgL-XLHc/view?usp=sharing
+Всеволод Игнатьев: Hello, searching for work! My CV: https://drive.google.com/file/d/1w4fzhfxYkRrvFsTOt3r92hupUgL-XLHc/view?usp=sharing
 
 &rey: I'd like to test your expertise?  The validation question is: 1) given a game server that wants to increase players' score (aka mint more jettons to them), 2) given that number of players may be quite high so we want users to pay for recording score in blockchain, 3) given a feature that users should be able to record several victories at once, using one transaction tree (to save on gas), how can this scheme be built? (Btw there is an ideal answer.) (reply to 136681)
 
-Всеволод: To address the described scenario optimally, here’s the ideal approach to structuring this scheme:  ---  ### 1. Smart Contract Design for Score Recording  #### a. Batch Recording Mechanism Design a smart contract that: - Supports batch transactions where multiple scores (or victories) can be recorded in a single transaction. - Accepts a list of victories with corresponding data (e.g., player ID, score increment, timestamp).  #### b. Payment Integration - Require users to include a payment in their transaction to cover the cost of recording the scores.  - The payment amount can be proportional to the number of victories recorded to ensure fairness and cover gas fees.  #### c. Verification - Use cryptographic signatures to verify that the data submitted (victories and scores) is valid and not tampered with. - Optionally, implement anti-cheat mechanisms if the scores originate from a game server.  ---  ### 2. Efficient Gas Usage via Merkle Trees To reduce gas fees when recording multiple victories: - Merkle Tree Structure:    - Players (or the server) construct a Merkle tree off-chain where each leaf represents a single victory.   - Submit the Merkle root to the smart contract in a single transaction.   - Store the root on-chain for verification purposes. - Proof-Based Verification:   - Allow players to submit individual victory proofs later if needed (e.g., for disputes or further validation).   - The proof will verify against the Merkle root stored on-chain.  ---  ### 3. Gas Payment Management - Players prepay a balance into the contract or include the payment directly in the batch transaction. - Deduct gas fees for recording scores from the prepaid balance.  ---  ### 4. Player-Oriented UX - Provide tools (e.g., a web app or SDK) to help players construct the Merkle tree and batch their victories. - Automate signing and submission of transactions for convenience.  ---  ### 5. Scalability and Security - Scalability: Use rollups or sidechains if the number of players is exceptionally high, with periodic settlement on the main chain. - Security: Regularly audit the smart contract and ensure it handles edge cases to prevent abuse.  ---  ### Ideal Flow 1. Player Wins Games: Off-chain, the game server tracks victories. 2. Batch Submission:     - The player (or game server) batches multiple victories into a Merkle tree.    - Sends the root and required payment in a single transaction to the contract. 3. Contract Validation:    - Contract validates the payment and stores the Merkle root.    - Optionally records a summary of the scores on-chain. 4. Optional Individual Proofs: Players can later submit individual proofs if needed.  ---  Would you say this aligns with your ideal answer? If not, let me know what I missed! (reply to 136682)
+Всеволод Игнатьев: To address the described scenario optimally, here’s the ideal approach to structuring this scheme:  ---  ### 1. Smart Contract Design for Score Recording  #### a. Batch Recording Mechanism Design a smart contract that: - Supports batch transactions where multiple scores (or victories) can be recorded in a single transaction. - Accepts a list of victories with corresponding data (e.g., player ID, score increment, timestamp).  #### b. Payment Integration - Require users to include a payment in their transaction to cover the cost of recording the scores.  - The payment amount can be proportional to the number of victories recorded to ensure fairness and cover gas fees.  #### c. Verification - Use cryptographic signatures to verify that the data submitted (victories and scores) is valid and not tampered with. - Optionally, implement anti-cheat mechanisms if the scores originate from a game server.  ---  ### 2. Efficient Gas Usage via Merkle Trees To reduce gas fees when recording multiple victories: - Merkle Tree Structure:    - Players (or the server) construct a Merkle tree off-chain where each leaf represents a single victory.   - Submit the Merkle root to the smart contract in a single transaction.   - Store the root on-chain for verification purposes. - Proof-Based Verification:   - Allow players to submit individual victory proofs later if needed (e.g., for disputes or further validation).   - The proof will verify against the Merkle root stored on-chain.  ---  ### 3. Gas Payment Management - Players prepay a balance into the contract or include the payment directly in the batch transaction. - Deduct gas fees for recording scores from the prepaid balance.  ---  ### 4. Player-Oriented UX - Provide tools (e.g., a web app or SDK) to help players construct the Merkle tree and batch their victories. - Automate signing and submission of transactions for convenience.  ---  ### 5. Scalability and Security - Scalability: Use rollups or sidechains if the number of players is exceptionally high, with periodic settlement on the main chain. - Security: Regularly audit the smart contract and ensure it handles edge cases to prevent abuse.  ---  ### Ideal Flow 1. Player Wins Games: Off-chain, the game server tracks victories. 2. Batch Submission:     - The player (or game server) batches multiple victories into a Merkle tree.    - Sends the root and required payment in a single transaction to the contract. 3. Contract Validation:    - Contract validates the payment and stores the Merkle root.    - Optionally records a summary of the scores on-chain. 4. Optional Individual Proofs: Players can later submit individual proofs if needed.  ---  Would you say this aligns with your ideal answer? If not, let me know what I missed! (reply to 136682)
 
 Egor: Hello everyone. I need some help: I'm working on a React app with Telegram UI and trying to connect to Tonkeeper from the Telegram desktop app, but the wallet doesn't recognize the app. Everything works fine from mobile and web. Has anyone encountered this issue?
 
@@ -5284,11 +5282,11 @@ Adam: When will it be online?
 
 — 2025-01-28 —
 
-Sunny: Evening Team TON!
+S: Evening Team TON!
 
-Sunny: Hope you're all well. Just joining the ecosystem...thought i'd say Hi. I'm not a Dev per se...but we have build an artistic creators ecosystem that we are launching on TON (our utility token) and obviously, the mini-app within Telegram.
+S: Hope you're all well. Just joining the ecosystem...thought i'd say Hi. I'm not a Dev per se...but we have build an artistic creators ecosystem that we are launching on TON (our utility token) and obviously, the mini-app within Telegram.
 
-Sunny: If you want to know more, just ask. W e would love to collab with your projects should there be synergy in what we are doing.
+S: If you want to know more, just ask. W e would love to collab with your projects should there be synergy in what we are doing.
 
 Oskarcv: hi there, does someone know how i can make a transfer of jetton I've been stuck for weeks, i have follow, https://docs.ton.org/v3/guidelines/dapps/cookbook#how-to-transfer-ton-how-to-send-a-text-message-to-another-wallet and  https://docs.ton.org/develop/dapps/asset-processing/jettons#send-jettons-with-comment and i simply cant get the transaction pass through   does someone knows if there is a github or something to try to figure out how to send a jetton pls   I'm totally lost in here
 
@@ -6834,7 +6832,7 @@ Adam: Either func or tact are good , tact is compiled back ro func (reply to 141
 
 Adam: You are using an unknown get method for the contract (reply to 141263)
 
-Olimp: Greetings! I need a Ton for my project, my team and I are testing the Crypto Testnet bot, and we also plan to distribute a Ton sometimes, but not much, and so it is necessary for the project, please help me
+Olimp 30+ Rep: Greetings! I need a Ton for my project, my team and I are testing the Crypto Testnet bot, and we also plan to distribute a Ton sometimes, but not much, and so it is necessary for the project, please help me
 
 WhyesCode: Paid task? (reply to 141298)
 
@@ -6842,11 +6840,11 @@ Ghosthawk: idk any other faucet has or not but i only know this @testgiver_ton_b
 
 Green: How much you need? (reply to 141300)
 
-Olimp: 90 TON (reply to 141305)
+Olimp 30+ Rep: 90 TON (reply to 141305)
 
 Adam: testnet ton or real ton? (reply to 141307)
 
-Olimp: Testnet (reply to 141308)
+Olimp 30+ Rep: Testnet (reply to 141308)
 
 Oken: #report wallet.ton.org leak my IP address for no reason
 
@@ -10828,7 +10826,7 @@ Lasha: Hi, I generated a wallet address, the state was nonexistent. After that, 
 
 Eva: Do any send transaction from your wallet (reply to 146328)
 
-sayhelloandrey: hello guys, tell me pls how to parse tx results onchain?
+andrey: hello guys, tell me pls how to parse tx results onchain?
 
 Denis: It will be automatically activated on first outgoing transfer. It's ok. (reply to 146328)
 
@@ -11234,7 +11232,7 @@ DeFi: Under current app store guidelines, yes. (reply to 147007)
 
 Zafar: I’m sorry then but we tried hard with Grok to help Ton and Telegram 😢 (reply to 147009)
 
-Саша: I am facing a problem, on the local request to ton network works, on the server does not, heard something about udp ports, can it be somehow related to this? Using tonutils-go
+Sasha: I am facing a problem, on the local request to ton network works, on the server does not, heard something about udp ports, can it be somehow related to this? Using tonutils-go
 
 — 2025-04-23 —
 
@@ -11280,7 +11278,7 @@ Willy: You can put an image as data for each NFT item on Blockchain   Or you can
 
 Lawrence Marius: Thanks very much (reply to 147126)
 
-Саша: Good evening, there is an api that calls ADNL over UDP (to interact with nodes TON), udp are open, on the local everything works, on the server I get exceeding the limit of the time limit of the response request, has anyone encountered?
+Sasha: Good evening, there is an api that calls ADNL over UDP (to interact with nodes TON), udp are open, on the local everything works, on the server I get exceeding the limit of the time limit of the response request, has anyone encountered?
 
 &rey: Have you tried checking system firewall's stats of dropped packets? (reply to 147136)
 
@@ -11958,7 +11956,7 @@ Boris: is there any guide how withdraw funds to multiple accounts at once and un
 
 GG: Hello everyone. Are there any representatives of Fragment here? Or what are the current ways to contact them?
 
-Всеволод: Please make a constant for the costs to calculate available funds on-chain or I got smthng wrong? 🚀 (reply to 148123)
+Всеволод Игнатьев: Please make a constant for the costs to calculate available funds on-chain or I got smthng wrong? 🚀 (reply to 148123)
 
 &rey: You didn't account for compute fees (needed for processing your order at all). And for storage which happened to be zero. (reply to 148122)
 
@@ -12102,7 +12100,7 @@ klass: I see... As explorers show forward fees as well. Thank you.
 
 Kenny: But from a user's perspective, I have to manually calculate the sum of them. And if there are many outbound messages, this is a little bit painful... (reply to 148265)
 
-Всеволод: You can use ready-made emulation for estimation.
+Всеволод Игнатьев: You can use ready-made emulation for estimation.
 
 Leo: you can simply do total_fee-action_fee+fwd_fee or storage_fee+gas_fee+fwd_fee, these fields are already summed (reply to 148266)
 
@@ -12126,7 +12124,7 @@ JD: Hello everybody.  Is tvm:-239 (mainnet ) and tvm:-3 (testnet) the correct CA
 
 JD: i've found the docs about it that is a draft that i can't post on the channel apparently and couldn't find anymore informations.
 
-Всеволод: > Is tvm:-239 (mainnet ) and tvm:-3 (testnet) the correct CAIP2 ids?  Yes
+Всеволод Игнатьев: > Is tvm:-239 (mainnet ) and tvm:-3 (testnet) the correct CAIP2 ids?  Yes
 
 Michaelzy: good day everybody please what is the recommended library to use in backend to interact with tact smart contracts
 
@@ -12166,7 +12164,7 @@ Nihal: Hello TON community  I am seeking a ZK dev ? Anyone here? ( Unpaid, looki
 
 Вадим: Looking for a developer experienced with TON (smart contracts, FunC/Tact). We're applying for a grant to build a project that combines an AI agent + DAO constructor on TON. The idea: a decentralized service with auto-payments and onchain logic. If you're interested in joining as a co-creator — DM me, I’ll share the pitch and details.
 
-Всеволод: Отписал (reply to 148387)
+Всеволод Игнатьев: Отписал (reply to 148387)
 
 Terry: @pcrafter  I have question I run the script to mint the new jetton when deploy, I use onchain metadata so after mint, send 0x04 message to change content, jetton's metadata even jetton_content changed, I can't see any change on explorer Can you explain about it?
 
@@ -12176,12 +12174,118 @@ sniper07: What does this mean? (reply to 148393)
 
 .6: I'm an expert in TON (reply to 148387)
 
-Combot: Combot has warned Nikolay TopTonApp (1/3) Reason: Word **** is not allowed
-
-Всеволод: I have written him (reply to 148399)
+Всеволод Игнатьев: I have written him (reply to 148399)
 
 TON Bounty Bridge: ​From f0c421f85f2d28fd6e43ef100b2a9293c9df0a13 Mon Sep 17 00:00:00 2001  Created by Eikyarkway
 
-Yuliya: /stat@combot
+— 2025-05-14 —
 
-Combot: Total messages: 148435
+SINISTER: I'm looking for someone who can measure the creditworthiness of smart contracts. Is there anyone here to help me
+
+professor x: Do u know how I can learn about creating smart contracts and wallets and sending money (reply to 148443)
+
+Ճϐ٥ษӈนҡ Ճ৮ᴥϐ٥ሉค: Good morning to everyone!  👋 Who can give you the code for a crypto bot, from which you can start writing your own, like the basis for a crypto bot. Please! 🙏
+
+SINISTER: Can I send you the address? (reply to 148446)
+
+professor x: I don't know how to check validity (reply to 148449)
+
+SINISTER: Well, that's my problem, bro 🤣🤣 (reply to 148450)
+
+SINISTER: You don't have a friend or acquaintance whose source code is publicly available
+
+professor x: Nope (reply to 148452)
+
+Hooman: for learning smart contract on TON, search for "funC" and "tact" programming language. (reply to 148444)
+
+Ճϐ٥ษӈนҡ Ճ৮ᴥϐ٥ሉค: Good morning to everyone!  👋 Who can give you the code for a crypto bot, from which you can start writing your own, like the basis for a crypto bot. Please! 🙏
+
+Tharun Tej: How to create multi-sig wallet on TON?
+
+Всеволод Игнатьев: multisig.ton.org (reply to 148458)
+
+Tharun Tej: Can you guide me how to use it and how will it work, pls? (reply to 148459)
+
+Ricardo: Hey guys, im trying to parse and decode a transaction before sending it to the network to understand all the details involved.      const message = beginCell()       .storeWritable(         storeMessage(           external({             init: seqno == 0 ? contract.init : undefined,             to: contract.address,             body: transfer           })         )       )       .endCell()  are there any tools?
+
+fedya eremin: hey, guys, does gobicycle require personal liteserver?
+
+.6: Interested (reply to 148455)
+
+&rey: Prerequisites point 2: it requires personal liteserver only for reliability. (reply to 148467)
+
+&rey: It is strange to try decoding the thing you just constructed. (reply to 148466)
+
+&rey: On https://docs.ton.org. (reply to 148444)
+
+Daniel: Is anyone looking for a FunC dev?
+
+JD: Usefull for multisigs etc. Standard stuff (reply to 148479)
+
+Всеволод Игнатьев: DM (reply to 148484)
+
+Dark Star: Hey folks, me again 😅 Ran into another issue – this time I’m trying to parse a Jetton transfer transaction.  For regular transactions, I can get the amount and other info from targetTx.inMessage?.info, but with Jetton transfers, the actual amount isn’t there. GPT says I should look in targetTx.inMessage.body, but when I try to parse it, I get this error:  No overload matches this call. Argument of type 'Cell' is not assignable to parameter of type 'string | Buffer | ArrayBuffer...'   Turns out inMessage.body is already a Cell, and I guess I was treating it like a base64 string or buffer 🤦  Any idea how to properly extract the amount from Jetton transfers? Or maybe I’m just missing something obvious after switching to @ton/core. Appreciate any tips!   Full code: public static async transactionsTokenFounder(adr: string, tx: string) {     try {         const wallet = Address.parse(adr);         const transactions = await client.getTransactions(wallet, { limit: 5 });         const targetTx = transactions.find(t => t.hash().toString('hex') === tx.toLowerCase());          if (targetTx && targetTx.inMessage?.body) {             console.log('FOUND THIS SHIT!', targetTx.inMessage?.info)             const hash = targetTx.hash().toString('hex');             const from = targetTx.inMessage?.info.src?.toString() ?? 'unknown';             const to = targetTx.inMessage?.info.dest?.toString() ?? 'unknown';                          const bodyBuffer = Buffer.from(targetTx.inMessage.body, 'base64');             const cell = Cell.fromBoc(bodyBuffer)[0];             const slice = cell.beginParse();              slice.skip(32);             slice.skip(64);              const amount = slice.loadCoins();             console.log('Amount:', amount.toString());             //@ts-ignore             const fee = targetTx.totalFees?.coins ?? 0n;             const timestamp = new Date((targetTx.now ?? 0) * 1000).toISOString();                      console.log(                 'Found transaction:\n' +                 `hash:   ${hash}\n` +                 `from:   ${from}\n` +                 `to:     ${to}\n` +                 `amount: ${fromNano(0)} TON\n` +                 `fee:    ${fromNano(fee)} TON\n` +                 `date:   ${timestamp}`             );                     } else {             console.log('All hashs found transactions:');             for (const tx of transactions) {                 const hash = tx.hash().toString('hex');                 console.log(`- ${hash}`);             }         }     } catch (error) {         console.error('Ton | transactionsTonFounder | ERROR: ', error);         throw new Error(`Ton | transactionsTonFounder | ERROR: ${error}`);     } }
+
+Nemo: Hi guys, could you please help, I want to track if a transaction I sent by tonconnect is completed, how this can be done?
+
+&rey: Please see https://t.me/tondev_eng/145782. (reply to 148491)
+
+Tharun Tej: Use tonviewer (reply to 148493)
+
+Slava: You can use Cell.fromBase64() directly. (reply to 148489)
+
+&rey: Is that a valid TON address though? (reply to 148493)
+
+Tharun Tej: Easy bro! (reply to 148491)
+
+Slava: import assert from 'node:assert/strict';  import { Address, Cell } from '@ton/core';  interface JettonTransfer {   queryId: bigint;   amount: bigint;   from: Address;   responseAddress: Address;   forwardTonAmount: bigint;   forwardPayload: (Cell | undefined); }  const MSG_OP_CODE_SIZE = 32;  const JettonOpCodes = {   transfer: 0x0f8a7ea5,   transfer_notification: 0x7362d09c,   excesses: 0xd53276db,   burn: 0x595f07bc,   provide_wallet_address: 0x2c76b973,   take_wallet_address: 0xd1735400,   internal_transfer: 0x178d4519,   burn_notification: 0x7bdd97de,  } as const;  export function parseJettonTransfer(   cell: Cell  ): JettonTransfer {    const slice = cell.beginParse();    /**    * internal_transfer#178d4519    *   query_id:uint64    *   amount:(VarUInteger 16)    *   from:MsgAddress    *   response_address:MsgAddress    *   forward_ton_amount:(VarUInteger 16)    *   forward_payload:(Either Cell ^Cell)    *    * = InternalMsgBody;    */    const op = slice.loadUint(MSG_OP_CODE_SIZE);   assert.equal(op, JettonOpCodes.internal_transfer);    const queryId = slice.loadUintBig(MSG_QUERY_ID_SIZE);    const amount = slice.loadCoins();    const from = slice.loadAddress();    const responseAddress = slice.loadAddress();    const forwardTonAmount = slice.loadCoins();    const forwardPayload = slice.loadMaybeRef();    return {     queryId,     amount,     from,     responseAddress,     forwardTonAmount,     forwardPayload: (forwardPayload ?? undefined),   };  } (reply to 148489)
+
+Pesy: import assert from 'node:assert/strict';  import { Address, Cell } from '@ton/core';  interface JettonTransfer {   queryId: bigint;   amount: bigint;   from: Address;   responseAddress: Address;   forwardTonAmount: bigint;   forwardPayload: (Cell | undefined); }  const MSG_OP_CODE_SIZE = 32;  const JettonOpCodes = {   transfer: 0x0f8a7ea5,   transfer_notification: 0x7362d09c,   excesses: 0xd53276db,   burn: 0x595f07bc,   provide_wallet_address: 0x2c76b973,   take_wallet_address: 0xd1735400,   internal_transfer: 0x178d4519,   burn_notification: 0x7bdd97de,  } as const;  export function parseJettonTransfer(   cell: Cell  ): JettonTransfer {    const slice = cell.beginParse();    /**    * internal_transfer#178d4519    *   query_id:uint64    *   amount:(VarUInteger 16)    *   from:MsgAddress    *   response_address:MsgAddress    *   forward_ton_amount:(VarUInteger 16)    *   forward_payload:(Either Cell ^Cell)    *    * = InternalMsgBody;    */    const op = slice.loadUint(MSG_OP_CODE_SIZE);   assert.equal(op, JettonOpCodes.internal_transfer);    const queryId = slice.loadUintBig(MSG_QUERY_ID_SIZE);    const amount = slice.loadCoins();    const from = slice.loadAddress();    const responseAddress = slice.loadAddress();    const forwardTonAmount = slice.loadCoins();    const forwardPayload = slice.loadMaybeRef();    return {     queryId,     amount,     from,     responseAddress,     forwardTonAmount,     forwardPayload: (forwardPayload ?? undefined),   };  }
+
+Nemo: maybe you know, are there testnet version for the base url tonapi.io ? (reply to 148492)
+
+&rey: Well testnet.tonapi.io should work. (reply to 148505)
+
+Nemo: Thank you, (reply to 148506)
+
+zerox: You can use indexer for ton network, like tonindexer or tonresearch (reply to 148491)
+
+zerox: or theGraph is better
+
+Nemo: Thank you will check (reply to 148509)
+
+zerox: I suggest theGraph (reply to 148510)
+
+Dark Star: Thanks a lot, that really helped! (reply to 148499)
+
+Andrei: Hey! Does anyone experiences problems with deploying smart contract through the tonkeeper wallet? It works fine on desktop, but neither on android nor on ios, transaction is perceived as a smart contract deployment, rather as a normal send transaction.
+
+DexfLo: Hello.  We are developing a protocol for TON that is an extension of a live protocol on EVM. It mitigates impermanent loss, at times converting it to an impermanent gain. There is also a lending protocol attached to it that generates synthetic usd from yield earned. With permission, I can drop a pitchdeck on here so you can get a better idea, because it's a bit complex to describe without me leaving a big wall of text that nobody will take the time to read lol.
+
+&rey: Do you have insights which are relevant to ways how to develop on TON by any chance? (reply to 148523)
+
+&rey: Examples of contracts are also appreciated, once you know that they work (as opposed to "well we tested it on a couple of messages and it looked fine").
+
+&rey: If you have any relevant questions, you can either search in chat history and ask!
+
+DexfLo: we have the entire blueprint.  You can't translate the code literally of course, but we have the entire codebase from evm and... what could you possibly have said that was an infraction (reply to 148524)
+
+DexfLo: im going to try to drop this pdf on here and see what happens..  nah.. won't let me
+
+&rey: (I managed to hit word which is used in most scam messages so very convenient to remove them automatically) (reply to 148529)
+
+&rey: On average, knowledge of EVM hindered development for TON compared to general programming experience. (reply to 148529)
+
+DexfLo: anyway, we have a sound plan. Im in the midst of applying for a grant. This can work as a standalone dex/lending protocol, or it can integrate with any other dex/liquidity pool
+
+DexfLo: i just sent u a message
+
+Sol: looking for orders for the development team
+
+— 2025-05-15 —
+
+Tharun Tej: I'm seeking assistance to transform my idea into a fully developed startup.
+
+WhyesCode: Interested. Let's initiate chat. (reply to 148539)
+
+Sol: Send me message please (reply to 148539)

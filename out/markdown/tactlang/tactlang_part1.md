@@ -13736,7 +13736,7 @@ Andrew: In tact, I think cell is object, slice is stream style of cell  Builder 
 
 Andrew: In tact There is no support for Either since it does not define what to pick during serialization in some cases.
 
-фил шёнгун: 10
+фил таунс: 10
 
 Seitaro: It seems that pow arguments are integers. There is sqrt in mathlib.fc: https://github.com/ton-blockchain/ton/blob/master/crypto/smartcont/mathlib.fc#L37C1-L37C24 probably you can link it manually (reply to 14293)
 
@@ -14554,7 +14554,7 @@ saddas: 6
 
 User<6234295669>: Hello is there anyone can help me?
 
-kh: What's up can anyone help me with TON?
+•..•: What's up can anyone help me with TON?
 
 Jay: What help is needed? Contract?
 
@@ -14638,7 +14638,7 @@ Cortex: how do you iterate thru map in tact?
 
 Crypto A99: any one know how to refund the value? When value > gas
 
-szansky: Hi guys
+szansky 🐱: Hi guys
 
 Mehdi: 7
 
@@ -15098,7 +15098,7 @@ Daniil: in that case you should consider sending a message that will act like a 
 
 Dmitry: Can you show example? (reply to 18685)
 
-kh: Who wants to sell notcoin's vaucher
+•..•: Who wants to sell notcoin's vaucher
 
 Daniil: just send a message back to the sender instead of throwing an error  but note that in some cases you'll also need to validate that the message came from a correct smart contract (reply to 18686)
 

@@ -1,3 +1,21 @@
+Sunny: hey is it possible to create ton wallet on my own server and send rewards to users directly from server instead of interacting with ton wallet to sign txn?
+
+wikig: Hello guys . is there any community or group chat about telegram game DEV  ?
+
+K.: Yes, https://tonhelloworld.com/01-wallet/ (reply to 53871)
+
+&rey: I pass zero, usually. (reply to 53869)
+
+&rey: After all, since others can use same queryId, it's useless to me.
+
+Nyxra: Guys is there any API that helps me send jetton to another TON wallet address?
+
+&rey: And storing zero onchain is a bit cheaper.
+
+&rey: Use @ton/ton lib. (reply to 53882)
+
+Oscar: Does anyone want to help 🙂 (reply to 53816)
+
 Michael: If you are not a developer, you should get help from a dev to customize your contract to take fee from transactions and deploy using script. (reply to 53887)
 
 Oscar: I am a developer, but I'd like some support with the FunC language and if there are any guides on doing something like this. I've looked into Solana contracts - and they involve things like withdraw authority addresses etc. How do I implement something like this?
@@ -2868,11 +2886,11 @@ Lucky: Anyone has a resource on learning funC language for developing smart cont
 
 Edm: Hi everyone, I’m studying the TON blockchain lately and wonder if there’s any transaction events aggregation service on TON, which is equivalent to subgraphs for EVMs?  Thanks
 
-Baron: Although TON does not have a built-in event aggregation service like EVM subgraphs, there are several ways to aggregate and process data from TON segments using external tools and services (reply to 56307)
+BARON: Although TON does not have a built-in event aggregation service like EVM subgraphs, there are several ways to aggregate and process data from TON segments using external tools and services (reply to 56307)
 
 Edm: Hey, thanks for the reply. May I know what external tools/services are available? Don’t seem to find these in the documentation (reply to 56310)
 
-Baron: I'll explain in a private message (reply to 56314)
+BARON: I'll explain in a private message (reply to 56314)
 
 Ma><im: how can i get parsed address?
 
@@ -3064,13 +3082,13 @@ Haz: I have a simple but not easy question. How to dump address when debugging? 
 
 User<6943543282>: is there any multisender tool on ton?
 
-Baron: Yes (reply to 56506)
+BARON: Yes (reply to 56506)
 
 User<6943543282>: can you share? (reply to 56507)
 
-Baron: "One Click Sender" as long as I remember
+BARON: "One Click Sender" as long as I remember
 
-Baron: There is another one, but I don’t remember the name
+BARON: There is another one, but I don’t remember the name
 
 Darkening Dawn: I fixed the problem, it was wrong payload format (reply to 56499)
 
@@ -3622,7 +3640,7 @@ lafi: whats the current version for node.js
 
 Andrii: Guys, be careful. Anthony Tsivarev | TON - this person is posing as a chat admin. He writes in private messages and tries to help. But it ends up sending phishing links!!!!
 
-Baron: Hero (reply to 56998)
+BARON: Hero (reply to 56998)
 
 #: export async function run(provider: NetworkProvider) {     const JettonWalletAddress = "kQD5Bqxff0kOIZNDh3Yx4tawkyRfcz3aJwB-seu_eLNEooh_";     const sendTon = provider.open(await SendTon.fromInit(0n));     const id = await sendTon.getId();     await sendTon.send(         provider.sender(),         {             value: toNano("0.04")         },         "test"     ); } Do I need to indicate the JettonWalletAddress here?
 
@@ -3664,7 +3682,7 @@ O: Morning, does anyone has working code for ston dex swap TON <> Jetton  v0.5 ?
 
 🐮: hi,Is there a way to convert the address of ton into the address of eth?
 
-Baron: Through USDT (reply to 57051)
+BARON: Through USDT (reply to 57051)
 
 Bear: That make sense! (reply to 57028)
 
@@ -4182,7 +4200,7 @@ bc1only1: Hello everyone, could you please share if you know any projects built 
 
 Fractured: How’s everyone doing on this fine monday? I guess it’s time to stop lurking and start networking and meet a few new people around here
 
-Baron: I think so too) (reply to 57613)
+BARON: I think so too) (reply to 57613)
 
 Amir: tnx man (reply to 57607)
 
@@ -4426,7 +4444,7 @@ Bromelia: damn, that sucks :(  If you have the url or CA, I can try to take a lo
 
 User<6779439263>: does anyone need a front-end & contract developer?
 
-Baron: Who needs a smart contract, web app, front end developer?)
+BARON: Who needs a smart contract, web app, front end developer?)
 
 Cube: Is there any way to call get method of contract from another contract?
 
@@ -5910,7 +5928,7 @@ Human: please tell me where am I wrong?
 
 MicroStrategy: Who is looking for someone who is proficient in web2 and web3 field?
 
-Baron: Who needs a smart contract/ ton developer?
+BARON: Who needs a smart contract/ ton developer?
 
 Денис: Hello,  How can I find out the status of the contract at its address?
 
@@ -8960,7 +8978,7 @@ Kryptonite: but is it going to be unlocked after that period (reply to 62176)
 
 Kryptonite: can we burn LP or renounce ownership to this burn  address
 
-Baron: If you need help developing smart contracts and multi-senders  I am a developer and have sufficient qualifications
+BARON: If you need help developing smart contracts and multi-senders  I am a developer and have sufficient qualifications
 
 Johan: Seems I finally come up with idea how to decode needed fields....
 
@@ -9006,13 +9024,13 @@ Easycall: i need to study more about smart contract on ton, I started on bnb sma
 
 Jim: dm me (reply to 62245)
 
-Baron: He won't pay you and will just disappear (reply to 62246)
+BARON: He won't pay you and will just disappear (reply to 62246)
 
-Baron: That's what he did to me
+BARON: That's what he did to me
 
-Baron: more than 20 people, where 5 of them are regular customers and will confirm the opposite
+BARON: more than 20 people, where 5 of them are regular customers and will confirm the opposite
 
-Baron: It was not me who violated the terms of the contract 😂 (reply to 62264)
+BARON: It was not me who violated the terms of the contract 😂 (reply to 62264)
 
 Adam: you can make it yourself (reply to 62231)
 
@@ -9490,7 +9508,7 @@ cfs chef: why i can’t see my nft at tonkeeper，I’m already verified contrac
 
 agile_ape: Thanks! Will explore (reply to 62697)
 
-szansky: I have question i have problem in my payment system on ton with ton space, the transaction return to sender here is tx accepted from tonkeeper, and returned with tonspace. Have anybody any idea why this may occur ?
+szansky 🐱: I have question i have problem in my payment system on ton with ton space, the transaction return to sender here is tx accepted from tonkeeper, and returned with tonspace. Have anybody any idea why this may occur ?
 
 cfs chef: I airdropped an NFT to my community, but everyone said they couldn't see it, whether it was in Tonkeeper or Tonviewer, and I have verified the contract code (reply to 62698)
 
@@ -11620,7 +11638,7 @@ K.: yes
 
 K.: Although, there is no way to know for how long to wait, might be 10 minutes, might be an hour.
 
-szansky: Hi, do you know of an API that can analyse a portfolio to see if a user has NFT etc? so that the answer would be which NFT he has?
+szansky 🐱: Hi, do you know of an API that can analyse a portfolio to see if a user has NFT etc? so that the answer would be which NFT he has?
 
 Равиль: guys, can I make a usdt wallet on the ton network?
 
@@ -14352,7 +14370,7 @@ C: Hello. Pls dm me. (reply to 68471)
 
 Harry: guys, how i can change ton wallet to testnet wallet on telegram app
 
-Sarah: Hi! Just wanted double check regarding the upcoming upgrade..  Does this apply to rpc providers too? Or is it just mandatory for validators?
+sarah: Hi! Just wanted double check regarding the upcoming upgrade..  Does this apply to rpc providers too? Or is it just mandatory for validators?
 
 MEW: every full node is running a local validator (reply to 68966)
 
@@ -14378,7 +14396,7 @@ Falco: I think this is the only one, so you should probably just share your issu
 
 nick: I followed the official documentation to install the TON full node using the following steps:  wget https://raw.githubusercontent.com/ton-blockchain/mytonctrl/master/scripts/install.sh sudo bash install.sh -m full -d  I pre-downloaded the latest file (279G) specified by the script to the install.sh directory to speed up the installation. However, I encountered the following error during installation:  ton@prod-bon-chainnode-ton-1-b:/home/app$ mytonctrl [warning] 10.06.2024, 07:43:23.466 (UTC)  <MainThread>  The config file is broken local.db: {'config': {'logLevel': 'info', 'isLimitLogFile': True, 'isDeleteOldLogFile': False, 'isIgnorLogWarning': False, 'isStartOnlyOneProcess': True, 'memoryUsinglimit': 50, 'isLocaldbSaving': False, 'isWritingLogFile': True}} [debug]   10.06.2024, 07:43:23.467 (UTC)  <MainThread>  Thread self_test started [debug]   10.06.2024, 07:43:23.467 (UTC)  <MainThread>  Thread write_log started [info]    10.06.2024, 07:43:23.467 (UTC)  <MainThread>  Start program /usr/src/mytonctrl/mytonctrl.py Welcome to the console. Enter 'help' to display the help menu. Traceback (most recent call last):   File "/usr/src/mytonctrl/mytonctrl.py", line 1228, in <module>     console.Run()   File "/usr/src/mytonctrl/mypyconsole/mypyconsole.py", line 97, in Run     self.startFunction()   File "/usr/src/mytonctrl/mytonctrl.py", line 114, in PreUp     check_vport()   File "/usr/src/mytonctrl/mytonctrl.py", line 130, in check_vport     vconfig = ton.GetValidatorConfig()   File "/usr/src/mytonctrl/mytoncore.py", line 1951, in GetValidatorConfig     result = self.validatorConsole.Run("getconfig")   File "/usr/src/mytonctrl/mytoncore.py", line 67, in Run     raise Exception("ValidatorConsole error: Validator console is not settings") Exception: ValidatorConsole error: Validator console is not settings  Could you please help me resolve this issue?
 
-Sarah: is there downtime during the upgrade?  and the instructions for the upgrade (including version) will be provided at 0900 utc? (reply to 68976)
+sarah: is there downtime during the upgrade?  and the instructions for the upgrade (including version) will be provided at 0900 utc? (reply to 68976)
 
 Mohammadreza: Hi everybody  Can we pay more fees to prioritize our transaction to validators?  Like tips on polkadot
 
@@ -14591,16 +14609,4 @@ uzbc0der: how i can provide liquidity (reply to 69238)
 NPA120: https://guide.ston.fi/en/how-to-provide-liquidity-on-ston.fi (reply to 69241)
 
 Jzuss ┌( ಠ_ಠ)┘: This post (https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation) about rnd number generation. "...you can create number that are even harder to potential adveraries to predict" What does exactly this mean? How attacker can predict hash(c7 info) in run time?
-
-Milad: Hi everyone. How can I check the type of data inside a slice in FunC?  I want to see if the data is uint or not!
-
-Ronaldo: Guys, is there a way to Implement Ton Connect in Java or Kotlin?
-
-&rey: To implement which side? (reply to 69256)
-
-Ronaldo: My wallet is developed for Android and it uses Kotlin
-
-Ronaldo: to allow dapps connect there
-
-Ronaldo: I added support for TON network on the wallet, but the dapps is not working, because it needs support Ton Connect
 

@@ -14796,9 +14796,9 @@ User<689845327>: Thanks @pcrafter & @commonbabylightmyfire  I need time to revie
 
 Howard: You can push the data to the chain through a URL and then send it using TonKeeper (Wallet).    Essentially, the data you mentioned here is meant for mining purposes and will be pasted to a smart contract like EVM. How you implement your code will determine if this is possible or not.  If you want to mint an NFT in the TON network, you should know that each NFT has a unique contract address and is signed with the owner's address. That's all. (reply to 25289)
 
-𝑴𝒂𝒉𝒅𝒊: Mask ??
+𝑴𝒐𝒉𝒂𝒎𝒎𝒂𝒅 𝑴𝒂𝒉𝒅𝒊: Mask ??
 
-𝑴𝒂𝒉𝒅𝒊: Does anyone here have mask currency?
+𝑴𝒐𝒉𝒂𝒎𝒎𝒂𝒅 𝑴𝒂𝒉𝒅𝒊: Does anyone here have mask currency?
 
 User<689845327>: Thanks. We can connect the wallet but still work on making NFTs. (reply to 25313)
 

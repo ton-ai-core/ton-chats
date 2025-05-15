@@ -1,3 +1,15 @@
+Milad: Hi everyone. How can I check the type of data inside a slice in FunC?  I want to see if the data is uint or not!
+
+Ronaldo: Guys, is there a way to Implement Ton Connect in Java or Kotlin?
+
+&rey: To implement which side? (reply to 69256)
+
+Ronaldo: My wallet is developed for Android and it uses Kotlin
+
+Ronaldo: to allow dapps connect there
+
+Ronaldo: I added support for TON network on the wallet, but the dapps is not working, because it needs support Ton Connect
+
 Gleb: Our team just became bigger  🇯🇵 🇩🇪 🇺🇦🇵🇱🇷🇺🇧🇾🇳🇬🇦🇪🇹🇭  We are excited to announce the expansion of our team, now encompassing talents from Japan, Germany, Ukraine, Poland, Russia, Belarus, Nigeria, the United Arab Emirates, and Thailand. If you are a developer interested in joining our diverse team to create Telegram Mini Apps, please reach out to me directly at @glebfinup.  Github : Challenge-day
 
 TON Bounty Bridge: ​Educational content - News Platform / Turkish  🏷 Education  Summary:Turkey holds a significant position in the world of cryptocurrency markets, emerging as one of the t...  Created by japethh
@@ -3026,7 +3038,7 @@ Ton: @pcrafter could you pls help me with this problem?
 
 User<6650251888>: Своровали (reply to 73255)
 
-Matthew: Hi I tried deploying a Jetton master and when i tried creating a Jetton wallet, it says uninit but it only sent TON to it without initializing the contract.
+Matthew 🌍🌎: Hi I tried deploying a Jetton master and when i tried creating a Jetton wallet, it says uninit but it only sent TON to it without initializing the contract.
 
 L: I am looking for TON blockchain developers on a permanent basis. It requires knowledge of building dapps with TON Proxy, TON Sites, TON DNS, TON connect, TON storage, etc., the ability to work with TON smart contracts in the Blueprint framework, in the FunC language and writing scripts for them in Java Script/Type Script
 
@@ -9274,7 +9286,7 @@ Wukong: Hi guys, does anyone know how to make a token to be verified on Tonkeepe
 
 &: exit_code 9 means your tx structure is mismatching. Carefully check your tx structure. And if you have problems please search this chat history (reply to 83537)
 
-Bean: Hi everyone! I'm newbie, when reading the document of TON, I see that smartcontract contains address, code, data, balance and others. What is the others stand for?
+mewe lỏd |: Hi everyone! I'm newbie, when reading the document of TON, I see that smartcontract contains address, code, data, balance and others. What is the others stand for?
 
 &rey: Flags requesting tick-tock calls at each block (active only for fundamental contracts), auto-splitting information (reserved) and published library cells. (reply to 83745)
 
@@ -13585,12 +13597,4 @@ musashi: jetton standard has get_jetton_data method for getting it (reply to 888
 musashi: (int, int, slice, cell, cell) get_jetton_data() method_id {     (int total_supply, slice admin_address, cell content, cell jetton_wallet_code) = load_data();     return (total_supply, -1, admin_address, content, jetton_wallet_code); }
 
 Nerses: I have the data with getter,but it says that items is private so have no access to it,is there any solution for this case ?  TupleReader {   items: [     { type: 'int', value: 1000000n },     { type: 'int', value: -1n },     {       type: 'cell',       cell: x{8013E12980F6BA46675F7523CC42077D9F1A4B5B7B58A58C2C8D67C07C2145161D7_}     },     { type: 'cell', cell: x{} },     {       type: 'cell',       cell: x{FF00F4A413F4BCF2C80B}        x{62_}         x{D001...1450551443306D6DDB3C019410356C41E2216EB38E9B7003C8018210D5 (reply to 88808)
-
-Adams: Hello,   I wish to transfer Ton from wallet to wallet. Please what should I write in the comment section?   Can anybody help me?
-
-Almatbek: Are there any companies or projects seeking a talented developer?
-
-&rey: If destination isn't a centralized exchange or like, you can use arbitrary comment — it will be public, that's all. (reply to 88814)
-
-Nerses: is there any example in type script to get jetton_jetton_data  ?
 

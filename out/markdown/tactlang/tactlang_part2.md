@@ -9634,7 +9634,7 @@ Urban: Can someone explain what am doing wrong here? Im trying to handle JettonT
 
 hΔrdshell: trying to login with firebase in my Telegram web app and it just loads forever doesnt go back to the TWAP
 
-NearWormHole ▪️ 🐾: Gm fellow
+MON prince: Gm fellow
 
 Marcus: Hello. How can i use Nodejs server to call receive() func in Tact contract? any example?
 
@@ -9650,9 +9650,9 @@ X Era Space 🦴 🍅▪️ 🐾 🐶: message(0x5fcc3d14) Transfer {   // messa
 
 Дмитрий: https://docs.tact-lang.org/book/exit-codes
 
-NearWormHole ▪️ 🐾: I’m banned from sending messages (reply to 39043)
+MON prince: I’m banned from sending messages (reply to 39043)
 
-NearWormHole ▪️ 🐾: That is what @Aixeraspace sent me in dm
+MON prince: That is what @Aixeraspace sent me in dm
 
 Nostra: Hey guys has anyone a template how to write the standard nft transfer method in tact for a getgems nft collection ?
 
@@ -9832,9 +9832,9 @@ yash: looking for someone who can write smart contracts on funcc, please dm, it'
 
 Tom - Bushi: nope (reply to 39245)
 
-NearWormHole ▪️ 🐾: Yo DM (reply to 39252)
+MON prince: Yo DM (reply to 39252)
 
-NearWormHole ▪️ 🐾: Over 18 (reply to 39257)
+MON prince: Over 18 (reply to 39257)
 
 hate crab 🦀: 19 (reply to 39257)
 
@@ -12178,7 +12178,7 @@ blocksdev: You have to go to the settings tab, and scroll to the bottom and tap 
 
 Rohit: Thanks but in new version there is no such option (reply to 41792)
 
-NearWormHole ▪️ 🐾: Copy your mnemonic and try to add a new wallet, then scroll down to choose a testnet account. It will take you to testnet (reply to 41794)
+MON prince: Copy your mnemonic and try to add a new wallet, then scroll down to choose a testnet account. It will take you to testnet (reply to 41794)
 
 Alexander: Hey, I need verify that a hash is correctly created. I want to hash an object with a varying size between 200 and 500 Bytes (4000 bits).  However, I cannot stored all of this in a cell without references. According to the docs, this implies I cannot sha256 hash it. It this true?  I have tried various other paths, like trying to convert the information to strings (since strings seems to have less strict size requirements), however this doesn't seem possible either.
 
@@ -12312,7 +12312,7 @@ Ton.: i creaded on gas.pump (reply to 41964)
 
 Yuri: I've seen this docs I just need to see contract's code that works with multi-jetons. I wanna get in how to transfer different jetons from contract-to-contract, contract-to-user (reply to 41967)
 
-NearWormHole ▪️ 🐾: Please I want to ask, how to verify if a is holding my jetton. Or a wallet is holding nftItem from my nftCollection
+MON prince: Please I want to ask, how to verify if a is holding my jetton. Or a wallet is holding nftItem from my nftCollection
 
 — 2024-10-07 —
 
@@ -12364,7 +12364,7 @@ live: hello，everybody，hao can i convert Int to Int as coins?
 
 Tree: Hey, how did you solve the problem? Can you please share？ (reply to 36351)
 
-NearWormHole ▪️ 🐾: Please Dev’s on $TON eco. How can I do holder’s verification of a particular Jetton or NftCollection in the frontend.  [ isHolder, setHolder ] = useState(false) ;  async function checkHolder(userFreindlyAddress) { await // how to check if a wallet is an holder of a particular nft if isHolder setHolder(true)   if(isHolder) { console.log("Is Holder)  } else { console.log(" You didn't have any of this asset/nftItem from nftcollection in Your wallet"  }
+MON prince: Please Dev’s on $TON eco. How can I do holder’s verification of a particular Jetton or NftCollection in the frontend.  [ isHolder, setHolder ] = useState(false) ;  async function checkHolder(userFreindlyAddress) { await // how to check if a wallet is an holder of a particular nft if isHolder setHolder(true)   if(isHolder) { console.log("Is Holder)  } else { console.log(" You didn't have any of this asset/nftItem from nftcollection in Your wallet"  }
 
 Max: Hey guys, what’s the difference between the following?  .storeAddress(myAddress()) vs .storeSlice(myAddress().asSlice())  I’ve seen both implementations used in a jetton transfer message body
 
@@ -13051,4 +13051,6 @@ Jiego: then whats the point of the loan? (reply to 42980)
 Max: Leverage (reply to 42981)
 
 Jiego: but if you can leverage without risk (as you only need to wait for your transaction to be on the green), how is it leverage?
+
+Jiego: is more like a friend giving you money
 

@@ -64,7 +64,7 @@ Nguyễn Linh: https://testnet.tonviewer.com/transaction/1bbe705968fb9ecc2965b50
 
 Nguyễn Linh: Im trying to use estimateExternalMessageFee from TonAPI but the actual value is quite different
 
-AnawoRICH: Hello I can't access ton.org What can I do
+Anawo: Hello I can't access ton.org What can I do
 
 Ivan: Hi,   I faced with issue on my full node after upgrade. The server got out of memory, then I've cleaned up it (with cleanup, removing some *.OLD.logs, etc). After that I've applied update & upgrade and for now it cannot sync   Network load average (Mbit/s): 34.25, 49.73, 53.29 Memory load: ram:[15.1 Gb, 14.6%], swap:[0.0 Gb, 0.0%] Disks load average (MB/s): nvme0n1:[664.94, 99.9%], nvme1n1:[669.18, 99.9%] Mytoncore status: working, 1 days Local validator status: working, 1 days Local validator out of sync: 48056 s Local validator last state serialization: 55509 blocks ago Local validator database size: 536.61 Gb, 65.5%  Everyday  value Local validator out of sync increasing. Yesterday it was 8 hours, today it's 13 hours. Are there any solutions or how can I debug it and understand what can I do to get it work?
 
@@ -11104,7 +11104,7 @@ User<7418242907>: oh, okey. Where i can get example of code "how send  internalM
 
 User<7418242907>: Called contract failed how i can fix that? (reply to 124973)
 
-Sarah: Hey, were you able to get it to work?  I'm also running my fullnode with docker and I have issue connecting my node with my local liteserver.. (reply to 98921)
+sarah: Hey, were you able to get it to work?  I'm also running my fullnode with docker and I have issue connecting my node with my local liteserver.. (reply to 98921)
 
 Gauthami: Hi any suggestion on why I am getting this error ? (reply to 124536)
 
@@ -12749,4 +12749,6 @@ Disco: what do you mean, "set auto payment" ? (reply to 128254)
 Daniel(""): g'night, does anyone know a websocket for tracking user transactions?
 
 &rey: IIRC there are no reliable websockets right now. You can use tonapi with caveat that tx delivery [to your backend] is not guaranteed. (reply to 128257)
+
+Valentin: Hey, is there a way to obtain the owner of a given jetton wallet contract?
 

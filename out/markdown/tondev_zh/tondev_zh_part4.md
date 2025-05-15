@@ -1834,11 +1834,11 @@ Evan: 大家平时使用多的 usdt， 还是jusdt了？
 
 备用: jsdt是啥? u都是指usdt. 在不同的链都有发行. (reply to 66678)
 
-Sophia Rose: 大佬们。开发支付的时候这个前端返回的密文如何php解密
+Alex: 大佬们。开发支付的时候这个前端返回的密文如何php解密
 
-Sophia Rose: 就这个json
+Alex: 就这个json
 
-Sophia Rose: 他的sdkphp 版本看的不太明白
+Alex: 他的sdkphp 版本看的不太明白
 
 Ginta 🦴: 有没有做过链上游戏的ui呢 或者认识的
 
@@ -7968,7 +7968,7 @@ H: TON地址的Masterchain (workchain_id=-1)和basic workchain (workchain_id=0)�
 
 Andrew: https://docs.ton.org/mandarin/v3/concepts/dive-into-ton/ton-blockchain/blockchain-of-blockchains (reply to 86657)
 
-ydzr: 大佬们，我想问下，php有没有库可以通过助记词发起交易的，像go这样 github.com/xssnick/tonutils-go w, err := wallet.FromSeed(api, words, wallet.V3R2) w.Transfer(ctx, recipientAddr, amount, comment, true)
+Tessa: 大佬们，我想问下，php有没有库可以通过助记词发起交易的，像go这样 github.com/xssnick/tonutils-go w, err := wallet.FromSeed(api, words, wallet.V3R2) w.Transfer(ctx, recipientAddr, amount, comment, true)
 
 Andrew: PHP 作为世界上最好的语言，怎么能没有  https://github.com/olifanton/ton (reply to 86727)
 
@@ -8358,8 +8358,6 @@ Leo: 可以啊，代价是要自己改sdk，而且无法导入钱包
 
 TK: 你说无法导入到专为ton开发的钱包里吧
 
-Leo: 对的
-
 Katiya｜TON: $TON 编程挑战 & 课后作业04 💎🔥  第四次編程比賽&課後作業來啦💎 Andrew為大家準備了課後作業巩固昨晚学习到的知识！  🏆我们会挑選出獲勝者贏取Telegram會員（1年、半年、3個月），同時，積極在社群和推特互動轉發，也有機會獲得大會員！  🔗比賽題目（直接fork參與）：https://github.com/ton-builders/ton-coding-challenge-25-round-4 🔗昨晚直播課程文檔：https://ton-org.notion.site/IV-Jetton-NFT-1e35274bd2cf80648f32d9157647451d 🔗昨晚直播連結回放： https://www.youtube.com/watch?v=MXNBztpa8ZU (forwarded from TON Society Hong Kong Announcements)
 
 Katiya｜TON: 课后作业不要忘记提交哦！
@@ -8373,8 +8371,6 @@ TK: @leouvw 这个是用我的钱包的助记词导入tonkeeper钱包，这个�
 TK: 是吗
 
 Andrew: Tonkeeper 的助记词在 TON 生态内是兼容的通用的 (reply to 89095)
-
-Leo: 不是词库的问题 (reply to 89095)
 
 TK: @raphael233 你好，朋友，你这儿这个问题是怎么解决的，我看下下边那个兄弟的消息说是绑定账号原因吗，我没太明白什么意思 (reply to 76260)
 
@@ -8392,17 +8388,9 @@ c: 麻烦问下telegram bot 给用户发送消息有没有批量发送的操作
 
 TK: @carlxxxxxxxxx 你这个是怎么解决的，我这儿也是这个错误 (reply to 21619)
 
-Leo: 批量消息发太多了
-
 TK: 你的意思这一次性发的消息过多吗，我只发了一个交易的签名呀
 
-Leo: 你给什么合约发的
-
 TK: 不是jetton 合约，就是正常的ton交易
-
-Leo: 不是，是说外部消息给啥合约发的
-
-Leo: 钱包还是什么
 
 TK: 给一个钱包
 
@@ -8411,8 +8399,6 @@ TK: @leouvw
 Randolph: https://testnet.tonviewer.com/transaction/a00c320c27ccf5cbeabbf3b552e80be0f04aec214b2d3c618d7b250cc1c3cd77 大佬们，这个通知有个叹号是不是表示没有执行成功呀。
 
 Andrew: 一般的 Notify 和 Excess 可以忽略，相当于银行的短信通知，不影响银行转账结果。 (reply to 89146)
-
-Leo: 方便的话你把钱包地址 链下代码 错误信息都发下吧，不然没法定位问题 (reply to 89144)
 
 Randolph: Jetton Notify可以用于处理转账成功后的动作吗，例如用户usdt质押存款，通过Jetton Notify通知质押合约更新用户的质押金额
 
@@ -8432,15 +8418,9 @@ TK: https://github.com/tonfactory/tonsdk
 
 TK: 代码中公钥私钥来自于转账钱包：UQD8vDn2jXGuFbQqDmpd-rTVqnCivT1aVLdnmXbdtgQL_PlX  转入钱包地址是：UQC6UPsnVDFqRIzkbPNmV4xPv2C9xE8RifVbRQ4pAyebGCbx
 
-Leo: 你是主网tx，url用错了 (reply to 89154)
-
-Leo: 去掉testnet.
-
 TK: 去掉了之后是这个错误：{'ok': False, 'error': 'LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted\nCannot run message on account: inbound external message rejected by transaction FCBC39F68D71AE15B42A0E6A5DFAB4D5AA70A2BD3D5A54B7679976DDB6040BFC:\nexitcode=35, steps=31, gas_used=0\nVM Log (truncated):\n... XCPU s4,s3\nexecute EQUAL\nexecute THROWIFNOT 33\nexecute XCPU s5,s1\nexecute EQUAL\nexecute THROWIFNOT 34\nexecute XCHG s5\nexecute HASHSU\nexecute XC2PU s0,s6,s4\nexecute CHKSIGNU\nexecute THROWIFNOT 35\ndefault exception handler, terminating vm with exit code 35\n', 'code': 500}
 
 TK: @leouvw
-
-Leo: 你把boc 打印出来看看 (reply to 89164)
 
 TK: 明天我发你下
 
@@ -8460,8 +8440,6 @@ Andrew: https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-sta
 
 Andrew: 在 网页端 试试 https://fragment.com/stars (reply to 89276)
 
-Leo: 你私钥给错了 要和公钥连起来 (reply to 89269)
-
 ke bi: @andrew_cong 我是登录在网页端，
 
 ke bi: Token会提示这个
@@ -8472,15 +8450,9 @@ Andrew: 用 TonKeeper 钱包 (reply to 89294)
 
 TK: @leouvw 你这个连起来，是说私钥和公钥不匹配吗 (reply to 89289)
 
-Leo: 不是，参数格式
-
 TK: 怎么连起来，首位相接还是什么？，现在程序里是二进制的数据格式
 
 TK: 现在是这样的 @leouvw
-
-Leo: private_key=b'私钥'+b'公钥'
-
-Leo: 这个钱包别放重要资产，私钥都公开了
 
 TK: 嗯
 
@@ -8490,4 +8462,34 @@ TK: 好像可以了😂
 
 TK: 这个的原理是什么😂之前的sdk没到这块资料
 
-Combot: Liza has been banned! Reason: CAS ban.
+Leo: 大伙儿都是助记词，你要直接用私钥就得这样
+
+Kenny Chan: 收到badge了！👍
+
+— 2025-05-15 —
+
+Randolph: 今天试了一下，第一个地址是目标用户的jetton wallet 地址，可以用jettonmaster类的函数获得 (reply to 89286)
+
+Randolph: 第二个地址可以是任意地址，但只能通知无法携带自定义参数
+
+Leo: 非也，第一个是用户地址，jw地址无需提供 (reply to 89454)
+
+Randolph: 啊，我再试下
+
+Randolph: 这地址数太多了，钱包ui一个地址，Address phrase 一个格式，在交易细节里面又是一个格式
+
+Randolph: 🤣
+
+Randolph: 第二个地址不能携带参数是因为这个通知不可信吗，因为不确定转账是否真的顺利完成，只有目标地址余额增加了，才算完成
+
+Andrew: 🎓欢迎注册 TON 人才库    你是否有技术而没有实战的舞台？ 你是否有成熟的技术团队而找不到业务方？  赶紧注册 TON人才库，成为技术服务商(Agencies)、独立技术专家(Individuals)以及安全审计(Auditors)。  注册地址：https://ton.org/en/talents?howToJoin
+
+Combot: ~Эмилия~ has been banned! Reason: CAS ban.
+
+Combot: Total messages: 89476
+
+Randolph: 这个我们可以注册吗 (reply to 89469)
+
+Katiya｜TON: 这个就是专门针对开发者的，赶紧注册～～ (reply to 89478)
+
+Randolph: 好的👌

@@ -1,3 +1,7 @@
+Bear: Thanks. And I think this code is quite difficult to understand:  1/ Why do we need with store_uint(0, 2) in state_init_builder?      builder state_init_builder = begin_cell()         .store_uint(0, 2)         .store_dict(storage::pool_code);   2/ why does the state_init is the address of the contract but in Int?      cell state_init = state_init_builder         .store_uint(0, 1)         .end_cell();
+
+Nxrix: If I select 24 random words from bip39 list in javascript using Math.random is it safe to use it as wallet?
+
 Andrey: Actually it has addition checks for generated seed, you can check them in tonlib code:  https://github.com/ton-blockchain/ton/blob/8a9ff339927b22b72819c5125428b70c406da631/tonlib/tonlib/keys/Mnemonic.cpp#L159 (reply to 43707)
 
 Bear: 😄 (reply to 43706)
@@ -4356,7 +4360,7 @@ Kenny$$Shillz: hey guys please is there a testnet version of the stonfi dex?
 
 TON Bounty Bridge: ​Click-to-Earn Game-Dev Framework for TON Blockchain  Summary:Develop a comprehensive framework for building click-to-earn applications for game developers, with ...  Rewards: • SBT Bounty Reward • TBD USD in TON  Created by seriybeliy11
 
-szansky: Hi bros is there anyone who ever have  seen a smart contract with a sell tax?
+szansky 🐱: Hi bros is there anyone who ever have  seen a smart contract with a sell tax?
 
 Buth™: GM guys is there really no way that I can send this token to another address using smart comtract
 
@@ -4580,7 +4584,7 @@ Satoshi: This is my code
 
 Satoshi: const transfer = await contract.createTransfer({      seqno,      secretKey: keyPair.secretKey,      messages: [        internal({          to: sendToAddress,          value: amount,          body: "Hello world",        }),      ],    });    console.log(transfer);      const Transaction = await contract.sendTransfer(transfer);    console.log(Transaction);
 
-szansky: Hi does anyone have any ideas on how a sales tax on jettons could be implemented in theory? i.e. if someone sells jettons on stonfi and takes a TON out of the pool I would like there to be some small tax on those taken out tons. Anybody have an idea how this could be done in theory?
+szansky 🐱: Hi does anyone have any ideas on how a sales tax on jettons could be implemented in theory? i.e. if someone sells jettons on stonfi and takes a TON out of the pool I would like there to be some small tax on those taken out tons. Anybody have an idea how this could be done in theory?
 
 William: How can i validate if wallet address is valid by ton sdk (TypeScript) or some lib in TypeScript?
 
@@ -4596,7 +4600,7 @@ William: thanks (reply to 46507)
 
 TON Bounty Bridge: ​Stablecoin Study Flash Game  Summary:Development of a flash game to promote the understanding and study of stablecoins in the TON ecosyst...  Rewards: • SBT Bounty Reward • ~2000 USD in TON  Created by seriybeliy11
 
-szansky: So what functions should I implement into my SC? Totalny new functions? Or changed pool functions of stonfi implemented into my smart contract? (reply to 46508)
+szansky 🐱: So what functions should I implement into my SC? Totalny new functions? Or changed pool functions of stonfi implemented into my smart contract? (reply to 46508)
 
 Grigory: Hello, I started to work with @redstone-finance/ton-connector module and came across one problem:  I import {TonPricesContractConnector} from "@redstone-finance/ton-connector"; like in their documentation, but there's no 'TonPricesContractConnector' script in node_modules when run installation of this module.  https://www.npmjs.com/package/@redstone-finance/ton-connector/v/0.3.6  Does anyone know how to resolve it?
 
@@ -4686,7 +4690,7 @@ DEVCW75: Hi, i'm trying to use @ton package, and all my code is working perfectl
 
 &rey: https://docs.ton.org/develop/dapps/cookbook#how-to-send-standard-ton-transfer-message
 
-szansky: U know maybe how many transactions is able to send wallet 4v per one transaction?
+szansky 🐱: U know maybe how many transactions is able to send wallet 4v per one transaction?
 
 TON Bounty Bridge: ​Покер сеть  🏷 Developer Tool  Summary:Топовую онлайн покер сеть  Assignees: no assignees Created by SlarDark1
 
@@ -4914,13 +4918,13 @@ Grigory: it's v4
 
 💥Phong: i use @dedust/sdk
 
-szansky: how dedust/sdk works? some like an api?
+szansky 🐱: how dedust/sdk works? some like an api?
 
 💥Phong: I get an error when running this function.
 
 💥Phong: it is a nodejs library (reply to 46714)
 
-szansky: how can I use it in my dapps for example?
+szansky 🐱: how can I use it in my dapps for example?
 
 💥Phong: I want to swap from TON to token. If anyone has any other way, please share with me. Thank you
 
@@ -4934,7 +4938,7 @@ Kenny$$Shillz: Thanks @victoleon1979 for private support
 
 💥Phong: I have fixed it. Replace WalletContractV3R2 = WalletContractV4 and it is successful. However result is undefined. I want to get the number of swapped tokens and txhash, what should I do? (reply to 46711)
 
-szansky: the point is how can I use dedust/sdk ? example what I can do with it ? thanks for your answer ! i am trying to understand it. (reply to 46719)
+szansky 🐱: the point is how can I use dedust/sdk ? example what I can do with it ? thanks for your answer ! i am trying to understand it. (reply to 46719)
 
 LeeMinThien: I got the hash, how to get transaction detail?
 
@@ -5494,7 +5498,7 @@ Evgeniy: https://github.com/alefmanvladimir/get-jetton-metadata/blob/main/main.t
 
 William: thanks you
 
-szansky: can u do it as a bot or send a source code? (reply to 47027)
+szansky 🐱: can u do it as a bot or send a source code? (reply to 47027)
 
 kevin: I have no plan to make it into bot or source code for now as it pretty early stage and I got more plan. (reply to 47049)
 
@@ -14157,22 +14161,4 @@ KaKui: Can anyone tell me what the queryId is used for when sending a transactio
 Kenny$$Shillz: U shouldn't use unbounded data structures in a ton contract as it becomes exponentially expensive to use (reply to 53831)
 
 KaKui: What do you guys pass in queryId? I wanted to pass in the ID of the business in the database, but I found that the number might be too big. (reply to 53855)
-
-Sunny: hey is it possible to create ton wallet on my own server and send rewards to users directly from server instead of interacting with ton wallet to sign txn?
-
-wikig: Hello guys . is there any community or group chat about telegram game DEV  ?
-
-K.: Yes, https://tonhelloworld.com/01-wallet/ (reply to 53871)
-
-&rey: I pass zero, usually. (reply to 53869)
-
-&rey: After all, since others can use same queryId, it's useless to me.
-
-Nyxra: Guys is there any API that helps me send jetton to another TON wallet address?
-
-&rey: And storing zero onchain is a bit cheaper.
-
-&rey: Use @ton/ton lib. (reply to 53882)
-
-Oscar: Does anyone want to help 🙂 (reply to 53816)
 

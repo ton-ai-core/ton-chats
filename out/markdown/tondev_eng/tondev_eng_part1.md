@@ -4650,7 +4650,7 @@ J: Hey, if you are in the  chat https://t.me/tonstatus/15 validators are all loo
 
 Andrey: Russian chat: https://t.me/tondev (reply to 273)
 
-NM | token2049 (slow reply): Hi folks! Would someone help with advices on how to start learning app development for TON.
+NM: Hi folks! Would someone help with advices on how to start learning app development for TON.
 
 — 2022-05-14 —
 
@@ -12450,9 +12450,9 @@ altoshi: Ipfs (reply to 11575)
 
 talkol: And soon Ton Storage that isn’t released yet but when it does it will make IPFS obsolete :)
 
-Berkcan: One day left until TON Proxy & Sites release   Before the TON Foundation kicks off the new technologies, we know that the TON community is preparing. Meanwhile, the documentation on the work of TON Proxy continues to be updated. Today, the instructions on how a user can link his TON DNS domain to a web3 website appeared on the official GitHub page.   More interestingly, according to the documentation, users can create a smart contract on The Open Network, which will allow an auction for subdomains. For example, the owner of the wallet.ton domain can hold an auction for selling second-level domains such as toncoin.wallet.ton, shop.wallet.ton, and others.  We are looking forward to the upcoming release, so we suggest the community familiarize themselves with the documentation in advance. We advise you to look over these documents if you are interested in building a decentralized internet on The Open Network. (forwarded from The Daily TON | News)
+Berk: One day left until TON Proxy & Sites release   Before the TON Foundation kicks off the new technologies, we know that the TON community is preparing. Meanwhile, the documentation on the work of TON Proxy continues to be updated. Today, the instructions on how a user can link his TON DNS domain to a web3 website appeared on the official GitHub page.   More interestingly, according to the documentation, users can create a smart contract on The Open Network, which will allow an auction for subdomains. For example, the owner of the wallet.ton domain can hold an auction for selling second-level domains such as toncoin.wallet.ton, shop.wallet.ton, and others.  We are looking forward to the upcoming release, so we suggest the community familiarize themselves with the documentation in advance. We advise you to look over these documents if you are interested in building a decentralized internet on The Open Network. (forwarded from The Daily TON | News)
 
-Berkcan: Is it release today or not?
+Berk: Is it release today or not?
 
 davide: Is released (reply to 11579)
 

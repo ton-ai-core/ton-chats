@@ -1,5 +1,3 @@
-Jiego: is more like a friend giving you money
-
 Max: It’s probably irrelevant to Tact itself. Ill need to test maps and see how gas efficient they might be if we have thousands of entries — that was my key concern (reply to 42984)
 
 Jiego: gotcha. What I said was that its probably gas efficient to have each loan work as an array, where each user gets a new contract deployed that tracks their debts (reply to 42986)
@@ -490,7 +488,7 @@ Odilov: there is not this file
 
 Bzzzz: npx blueprint build (reply to 43817)
 
-NearWormHole ▪️ 🐾: Learnt that, funC will soon be the development language to be using to build on TON and tact will stop from 2025.  How true and we all have to migrate to funC?
+MON prince: Learnt that, funC will soon be the development language to be using to build on TON and tact will stop from 2025.  How true and we all have to migrate to funC?
 
 Laisky: None of the points are correct except for the spelling of these words. (reply to 43849)
 
@@ -4560,7 +4558,7 @@ Anton: GasPump and PixelSwap, for example (reply to 53937)
 
 Я̨kov: Different people prefer different distribution models. I, too, prefer Open Source or at least Source-available, but mileage waries (reply to 53940)
 
-Всеволод: Are there any examples of binary search or segment tree implementation. Is it possible?
+Всеволод Игнатьев: Are there any examples of binary search or segment tree implementation. Is it possible?
 
 Я̨kov: For one, GasPump's TypeScript wrappers for contracts were obtained with Tact.  About wrappers Tact produces, in general: https://docs.tact-lang.org/book/compile/#wrap (reply to 53944)
 
@@ -5144,7 +5142,7 @@ Oleg: I mean that I'm going deploy this contract many times not to test or somet
 
 Nerses: Is anyone familiar with the Fragment project? How secure is it to sell a username there, and how does the process work technically? Lately, I've been receiving multiple messages from people interested in buying my username, and it doesn’t seem like a scam. Can someone provide guidance on this?
 
-Всеволод: Fragment is quite trustable (reply to 54954)
+Всеволод Игнатьев: Fragment is quite trustable (reply to 54954)
 
 Nerses: I just cant understand how it is done technically (reply to 54955)
 
@@ -5152,17 +5150,17 @@ Abrahim: How can I use username
 
 Nerses: I mean the part of swap.Suppose I sell my username and when my wallet accepts funds how my tg handle is changed,is it done automatically or can even fragment have access to my tg account (reply to 54956)
 
-Всеволод: I think it’s architecture is quite interesting to research and explore, but here we discuss Tact language, and Fragment architecture is a little bit out of the topic. That is my opinion. (reply to 54956)
+Всеволод Игнатьев: I think it’s architecture is quite interesting to research and explore, but here we discuss Tact language, and Fragment architecture is a little bit out of the topic. That is my opinion. (reply to 54956)
 
 Nerses: To be frank I agree with you.Just hoped someone from fragment team will react to message (reply to 54959)
 
 Nerses: thanks for assistance
 
-Всеволод: Anything can happen here. Good journey! (reply to 54960)
+Всеволод Игнатьев: Anything can happen here. Good journey! (reply to 54960)
 
 — 2025-02-22 —
 
-Всеволод: Does someone has experience of writing on Tact with Grok 3 Beta? What tips can you give for achieving better results?
+Всеволод Игнатьев: Does someone has experience of writing on Tact with Grok 3 Beta? What tips can you give for achieving better results?
 
 Petr: Hey, check rules here: https://github.com/tact-lang/tact-template/blob/main/.cursorrules (reply to 55009)
 
@@ -5186,7 +5184,7 @@ Ivan: Hi everyone! Quick question, just to be sure:  Am I understanding correctl
 
 Jack: thank you, it works (reply to 55076)
 
-Всеволод: In general — yes, because ParentContract is available for the next transaction after sending message to the ChildContract, however you can build the architecture of the smart-contract in a way, that User2 would not be able to modify the state variable in ParentContract before the first chain completes. For example you can implement a counter state variable that's state is updated once the whole chain of transactions is executed (the message from ChildContract came back to ParentContract) (reply to 55126)
+Всеволод Игнатьев: In general — yes, because ParentContract is available for the next transaction after sending message to the ChildContract, however you can build the architecture of the smart-contract in a way, that User2 would not be able to modify the state variable in ParentContract before the first chain completes. For example you can implement a counter state variable that's state is updated once the whole chain of transactions is executed (the message from ChildContract came back to ParentContract) (reply to 55126)
 
 — 2025-02-25 —
 
@@ -5540,13 +5538,13 @@ Georgiy: 🎉 Misti 0.7 has just landed on NPM!  🔍 More Tact Detectors: State
 
 Higher Thought Sandeep: Mini app on ton blockchain
 
-фьюри | IT: hi bros
+User<8052386255>: hi bros
 
-фьюри | IT: how can i create nft username&
+User<8052386255>: how can i create nft username&
 
-фьюри | IT: ?
+User<8052386255>: ?
 
-фьюри | IT: who can help me?
+User<8052386255>: who can help me?
 
 — 2025-03-07 —
 
@@ -7317,3 +7315,33 @@ fruitful-l: Glad to know that the solution is somewhere there. I'm having huge t
 &rey: Does that consider that a) a random jetton is likely incompatible with any specific implementation of this, b) jetton master contract is not equal to myAddress() in context of this tx? (reply to 62751)
 
 fruitful-l: Should it be equal to jetton master address? Isn't it supposed to be address of the contract that has jettons? (reply to 62754)
+
+— 2025-05-14 —
+
+Всеволод Игнатьев: The to address in SendParameters should be the Jetton wallet address (derived from the Jetton master contract and your contract’s address), not the Jetton master address. The Jetton wallet is the contract that holds the Jettons for your contract.
+
+fruitful-l: The contract I’m using this function in is not the jetton master. I was trying to send message to the contract’s jetton wallet, therefore I need its jetton address. I’m using inline function imported from another contract, and that was the error. It’s from the minter and has arguments: address(wallet), myAddress(Should be minter address, but since I imported it became another jetton wallet address), and balance. The solution was using initial function which I described above but with minter address and not myAddress() (reply to 62799)
+
+Всеволод Игнатьев: Thank you for such a detailed description and comments. Do you have you any additional issues now? (reply to 62830)
+
+Angel Ⓜ️ MEMES: Please how does this work?
+
+fruitful-l: Everything seems to be working, at least for now, thanks! (reply to 62837)
+
+Angel Ⓜ️ MEMES: Anyone please 🙏 (reply to 62838)
+
+Всеволод Игнатьев: I did not got you clearly, what exactly do you mean by "this"? Is it a situation, issue, event or smthng else? How would you describe "this"? (reply to 62840)
+
+Sol: looking for orders for the development team
+
+Герман: Тут есть русские?
+
+Sol: https://t.me/tactlang_ru (reply to 62888)
+
+— 2025-05-15 —
+
+u: I can help you (reply to 35371)
+
+Kenny: Hi guys, me again 🥺 Under the hood, is a struct actually a tuple in TVM? For example: struct Coordinate {     x: Int as int32;     y: Int as int32; }  fun foo() {     let c = Coordinate {         x: 4,         y: 3,     }; } From TVM's perspective, is variable c a tuple with 2 integer elements, so x and y together form only one element on the stack? Or there are 2 integer elements on the stack, representing x and y namely?
+
+saniya: hiii goodmorning

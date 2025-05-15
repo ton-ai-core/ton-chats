@@ -5250,15 +5250,15 @@ My Lover🧁🗃: 独立游戏一大堆人做，前几年，死的不知几何
 
 Roger: 是啊 太难做了
 
-Luckyball: 链改
+Taverns: 链改
 
 Roger: 不是所有游戏都适合链改的
 
 Roger: 去年做的AVG就不行
 
-Luckyball: 要会营销啊
+Taverns: 要会营销啊
 
-Luckyball: 设计经济模型
+Taverns: 设计经济模型
 
 Roger: 很多游戏能做完就不错了，独立游戏很难
 
@@ -6762,13 +6762,13 @@ Roger: 好的
 
 Philip 菲力: 提示：注意代幣流入第三方的風險，這邊有開源程式碼可以用：https://github.com/toncenter/examples/blob/main/withdrawals-jettons-highload.js (reply to 23060)
 
-Luckyball: mint nft的有么
+Taverns: mint nft的有么
 
-Luckyball: 为什么平台nft交易手续费贵的离谱
+Taverns: 为什么平台nft交易手续费贵的离谱
 
 Philip 菲力: 平台都有抽成 (reply to 23066)
 
-Luckyball: 1.45买的只能卖1.25而且还有手续费
+Taverns: 1.45买的只能卖1.25而且还有手续费
 
 Roger: 感谢 (reply to 23064)
 
@@ -10752,13 +10752,13 @@ Spa: ton 链 是出问题了， 怎么支付不了？
 
 Spa: 无法验证交易是什么意思？
 
-Baron: The issue is that you have two contract definitions with the same name Counter. This is not allowed in Solidity (reply to 25475)
+BARON: The issue is that you have two contract definitions with the same name Counter. This is not allowed in Solidity (reply to 25475)
 
-Baron: To fix the error, simply remove the duplicate contract definition
+BARON: To fix the error, simply remove the duplicate contract definition
 
-Baron: import "@stdlib/deploy"; contract Counter with Deployable {     val: Int as uint32;     init() {         val = 0;     }     get fun value(): Int {         return self.val;     } }
+BARON: import "@stdlib/deploy"; contract Counter with Deployable {     val: Int as uint32;     init() {         val = 0;     }     get fun value(): Int {         return self.val;     } }
 
-Baron: あなたの問題を解決できましたか? (reply to 25475)
+BARON: あなたの問題を解決できましたか? (reply to 25475)
 
 — 2024-05-06 —
 
@@ -11050,7 +11050,7 @@ lin: 官方能不能回复一下
 
 User<1920239264>: Moй кошелек ?
 
-Baron: ---> Ton Dev Chat (Ру) (reply to 25639)
+BARON: ---> Ton Dev Chat (Ру) (reply to 25639)
 
 lin: 请问给定Jettonmaster地址 返回池子地址有相关接口吗
 
@@ -11108,7 +11108,7 @@ Melinda: 请问有做到的吗 (reply to 25495)
 
 Super: 更新钱包试试工 (reply to 25493)
 
-Baron: スマート コントラクト、Web アプリ、フロントエンド開発者を必要としているのは誰ですか?
+BARON: スマート コントラクト、Web アプリ、フロントエンド開発者を必要としているのは誰ですか?
 
 — 2024-05-07 —
 
@@ -12760,7 +12760,7 @@ xml: 这个人是个天才 (reply to 26558)
 
 xml: 😂😂😂
 
-肾宝111 🐾: 👍
+only lucky🍀: 👍
 
 gityyge: 我在项目里面导入ton爆的错
 
@@ -15676,7 +15676,7 @@ Yang: 已轉達 EN 管理員，後續等他回覆
 
 fu: @wisdom_yang 👍
 
-🦴Dai: 大佬们，请问一下 TON WALLET 能配置 solana链吗
+呆呆: 大佬们，请问一下 TON WALLET 能配置 solana链吗
 
 Wick李: 不能 (reply to 28359)
 
@@ -16972,7 +16972,7 @@ wikig: 考虑过这个方案，但是这个方案对pc和pc-browser端不友好�
 
 wikig: 我试一下公共频道转发 (reply to 29311)
 
-wikig: 🚧 Welcome to tonspay status checking bot 🚧  This bot can help you check the ProductionEVN & TestENV of Tonspay service in realtime.  You can @me command to see the status .  Commands support :  ping_pro function_test_pro ping_test function_test_test (forwarded from Tonspay_status)
+wikig: 🚧 Welcome to tonspay status checking bot 🚧  This bot can help you check the ProductionEVN & TestENV of Tonspay service in realtime.  You can @me command to see the status .  Commands support :  ping_pro function_test_pro ping_test function_test_test (forwarded from Tonspay Status)
 
 wikig: 好像也不行，按钮也被吃了 (reply to 29314)
 

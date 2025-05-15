@@ -1,3 +1,11 @@
+Adams: Hello,   I wish to transfer Ton from wallet to wallet. Please what should I write in the comment section?   Can anybody help me?
+
+Almatbek: Are there any companies or projects seeking a talented developer?
+
+&rey: If destination isn't a centralized exchange or like, you can use arbitrary comment — it will be public, that's all. (reply to 88814)
+
+Nerses: is there any example in type script to get jetton_jetton_data  ?
+
 ETON: It didn't give any error and executed successfully. But it didn't delete a piece of dictionary data as I expected. The same deletion logic can delete a piece of dictionary data in other functions (reply to 88742)
 
 &rey: Perhaps you forgot to save data? (reply to 88823)
@@ -2044,7 +2052,7 @@ Shrish Yadav: Hi, can I create a mini app If the solidity smart contracts are de
 
 yoshi~: Is there a significant indexing latency of tonapi? Is it more profitable in terms of latency and stability to use private liteserver or tonapi's indexing hardware is superior? The context is simple actions like getting wallet's balance and querying jetton metadata.
 
-Matthew: hello my fellow indians
+Matthew 🌍🌎: hello my fellow indians
 
 Casa: Hi I need a simple ton nft generating script. I am a newbie to ton chain. Could you guide me how to make it?
 
@@ -2880,7 +2888,7 @@ Bryce: Hello,  I want to use Highload Wallet V3 to pay the transaction fees inst
 
 Steven: Hi, Does anyone can explain or paste some link of resource or document about why the recipient would be charged transaction fee unlike other blockchains? please help🙏
 
-Matthew: hello my fellow indians
+Matthew 🌍🌎: hello my fellow indians
 
 Stanislav: It seems that in testnet toncenter indexer API v3 estimateFee endpoint disappeared (although it's still available in mainnet version still). Does anyone know what happened? Not sure if it's just a bug, or intentional removal.
 
@@ -2932,7 +2940,7 @@ Haint: 3 is (1 | 2), 1 is pay fees separately, 2 is ignore errors (reply to 9235
 
 sunyoki: thanks
 
-Matthew: greetings my fellow indians
+Matthew 🌍🌎: greetings my fellow indians
 
 sunyoki: How did you get this trade hash
 
@@ -3424,7 +3432,7 @@ Rjx: Hey guys, error: [TON_CONNECT_SDK] Bridge reconnecting, 5000ms delay. I am 
 
 &rey: I guess because there might be storage fee, which is hard to estimate. (reply to 92864)
 
-Matthew: i see your face (reply to 92891)
+Matthew 🌍🌎: i see your face (reply to 92891)
 
 MZ: Thanks. What forward_ton_amount means in fact? Does it mean that I send also some TON to a recipent except Jetton tokens?  What is the main utility of forward_ton_amount? (reply to 92916)
 
@@ -3658,11 +3666,11 @@ Tom: Hi, where i can faucet usdt testnet ?
 
 Miss Siyu: Hi, @ton/ton How can I switch to wallet v5 r1?
 
-Matthew: Is it ok to have lists in a smart contract?
+Matthew 🌍🌎: Is it ok to have lists in a smart contract?
 
 Miss Siyu: No
 
-Matthew: yes it is. because sometimes you need multiple references of the same smart contract
+Matthew 🌍🌎: yes it is. because sometimes you need multiple references of the same smart contract
 
 Miss Siyu: My TonKeeper wallet is W5, how do I switch to W4?
 
@@ -3670,7 +3678,7 @@ Miss Siyu: Because @ton/ton doesn't have a V5 contract
 
 Alex: TON should place anonymity and privacy on its road map to be complete... How do we get there?
 
-Matthew: greetings my fellow indians
+Matthew 🌍🌎: greetings my fellow indians
 
 NICK: Is there any detailed guide available how to host .ton websites?
 
@@ -4212,7 +4220,7 @@ hentai8: I've been running it for a week now, but out of sync time is increasing
 
 Ma><im: same problem (reply to 93956)
 
-Matthew: greetings my fellow indians
+Matthew 🌍🌎: greetings my fellow indians
 
 Govind: What is this how this works plz tell as I'm new here
 
@@ -4394,7 +4402,7 @@ defany: Its vs code (reply to 94244)
 
 wonderful: hi guys,If a transaction occurs with Ton, how should I determine if it is successful
 
-Matthew: greetings my fellow indians
+Matthew 🌍🌎: greetings my fellow indians
 
 Tùng: Hello everyone, can I ask if I can interact with smart contract through the build/jettonMinter.compile.js file and Ton contract address? I can't find any documentation about this, thank you very much.
 
@@ -5164,7 +5172,7 @@ Daniel: hmm i read this but dont understand how it pertains to my use case  1. T
 
 PtcBink: Can you share a minimized example that can still reproduce the same error message? (reply to 94739)
 
-Matthew: greetings my fellow indians
+Matthew 🌍🌎: greetings my fellow indians
 
 Brian ☀️: hi
 
@@ -5974,7 +5982,7 @@ jessepinkman: Has anyone build an open source ton txn indexer?   I want to know 
 
 Development: hello/ i need example tests of smart contract funC
 
-Matthew: Greetings my fellow indians
+Matthew 🌍🌎: Greetings my fellow indians
 
 ᴅʏᴜᴛɪ ᴅɪᴘᴛᴀ: Here I have to paste my wallet addresses or the secret phrases?
 
@@ -6288,7 +6296,7 @@ Tùng: i deploy and receive err: 65535 Can I ask what error this is?
 
 Monika: Finally found the ton dev chat, if I'd been here it'd have saved me 2weeks of straight pain in the ass coding marathon ....lol
 
-Matthew: Greetings my fellow indians
+Matthew 🌍🌎: Greetings my fellow indians
 
 Sixone: Hi I am following https://docs.ton.org/participate/run-nodes/full-node to run a full node.  but keep seeing this error. "error: externally-managed-environment" Can anyone help?
 
@@ -7114,7 +7122,7 @@ Big Chiano: when i force the parameter by using config type as any i get error i
 
 Big Chiano: ok seen, thanks (reply to 52065)
 
-Ivan: 👋 everyone  I’ve set up a small but useful chat for everyone heading to TON Gateway in Dubai  Join in @tongateway2024  I think it’ll really come alive as the event gets closer! 🙂
+ivan: 👋 everyone  I’ve set up a small but useful chat for everyone heading to TON Gateway in Dubai  Join in @tongateway2024  I think it’ll really come alive as the event gets closer! 🙂
 
 thebatclaudio: Hello! I'm trying to deploy an nft collection on testnet, but on tonscan I see that "Contract Type" is "Unknown". I think that I'm writing the offchain content url in a wrong way, but I don't know how to debug.  So I'm asking: - Do you know how can I debug a deployed contract to read the content? (in this case, I need to check if my content url is the right one) - Do you have any other suggestions to debug deployed contracts?   Thank you!
 
@@ -8184,7 +8192,7 @@ Attah 🍖 🍅 🐾🧑🏻‍💻🌱🌱SEED: How (reply to 99183)
 
 Kaspars: Hmm, everything ok with TON chain? https://tonscan.org/blocks last block 14min ago?
 
-Sarah: hmmm.. chain halt??
+sarah: hmmm.. chain halt??
 
 TON Bounty Bridge: ​Telegram Intelligence Marketplace first DeI system  🏷 Resource  Summary:Today, when it is not clear of the legislative pressure on centralized parties, to create a safe int...  Created by DunaSpice
 
@@ -8452,7 +8460,7 @@ Haint: but it doesn't work if you are trying to build an indexer. If you control
 
 🦊Bisoye ⏳️🐸: Hello
 
-Matthew: if something fails does ton revert the state
+Matthew 🌍🌎: if something fails does ton revert the state
 
 🦊Bisoye ⏳️🐸: Please I need help on this issue
 
@@ -8678,11 +8686,11 @@ Adam: Lmao deploy it by sending a transaction from it (reply to 99457)
 
 Sadman: I always got  {"connected":false,"error_code":"invalid_signature"}  anyone know the method to generate signature?
 
-Sarah: chain halt.. again??
+sarah: chain halt.. again??
 
 Wasiq: Hello what's up with TON again it's slow again
 
-Sarah: last block was 17 minutes ago..
+sarah: last block was 17 minutes ago..
 
 Sam: Hello  How can i generate signature? Pls help me
 

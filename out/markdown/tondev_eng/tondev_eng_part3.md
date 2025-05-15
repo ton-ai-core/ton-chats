@@ -456,7 +456,7 @@ Steve: I am about in-contract one, no scalable
 
 — 2023-03-26 —
 
-Dave: Good evening, I have a question... How likely would be the implementation of the new AI technology in the blockchain or rather, in The Open Network? And if it were to be done... What would be the benefits according to you, both for users and developers?
+Dicov: Good evening, I have a question... How likely would be the implementation of the new AI technology in the blockchain or rather, in The Open Network? And if it were to be done... What would be the benefits according to you, both for users and developers?
 
 Howard: with the largest exchange volume of TON via Mercuryo 🙈 (reply to 25582)
 
@@ -13122,7 +13122,7 @@ Howard: yes, you can also using toNano from ton SDK. (reply to 33582)
 
 — 2023-08-25 —
 
-Bean: Hello you guys! Do we have any DEX on the testnet?
+mewe lỏd |: Hello you guys! Do we have any DEX on the testnet?
 
 User<1633983160>: 😀
 
@@ -13548,7 +13548,7 @@ Rahul: this subwallet id is fixed or it will changed wallet-wise?  storeUint(698
 
 Tee: check your DM (reply to 33852)
 
-Bean: Hello you guys, how can I set max supply for Jetton token? In the example contract, I can mint any amount of token, and the tottle supply is just sum them together
+mewe lỏd |: Hello you guys, how can I set max supply for Jetton token? In the example contract, I can mint any amount of token, and the tottle supply is just sum them together
 
 JS_: Hey GM!
 
@@ -13580,9 +13580,9 @@ User: Can you help me, is that possible to send from contract to address in slic
 
 &rey: Yes, you can send up to 4 transactions each of which can trigger certain actions such as sending tokens. (reply to 33878)
 
-Bean: Hello guys! From my understanding, when we attempt to transfer a quantity of Jetton tokens to a user, we have the option to request a notification that includes attaching a "forward_ton_amount" to send to a specified wallet. If we set the message (msg) amount to be less than the "forward_ton_amount," and the user's Jetton wallet contains enough TON, it will utilize these funds to send to the intended destination wallet.  For instance, let's consider a scenario where I'm minting Jetton tokens for a user who possesses a suitable Jetton wallet containing 11 TON:  -I specify a msg amount of 0.5 (indicating that I've attached 0.5 TON for covering gas fees). -I set the "forward_ton_amount" to 10 TON. -The user's Jetton wallet contains 11 TON.  The outcome is that 10 TON will be refunded to me. In essence, this implies that I've effectively obtained 10 TON from another source.
+mewe lỏd |: Hello guys! From my understanding, when we attempt to transfer a quantity of Jetton tokens to a user, we have the option to request a notification that includes attaching a "forward_ton_amount" to send to a specified wallet. If we set the message (msg) amount to be less than the "forward_ton_amount," and the user's Jetton wallet contains enough TON, it will utilize these funds to send to the intended destination wallet.  For instance, let's consider a scenario where I'm minting Jetton tokens for a user who possesses a suitable Jetton wallet containing 11 TON:  -I specify a msg amount of 0.5 (indicating that I've attached 0.5 TON for covering gas fees). -I set the "forward_ton_amount" to 10 TON. -The user's Jetton wallet contains 11 TON.  The outcome is that 10 TON will be refunded to me. In essence, this implies that I've effectively obtained 10 TON from another source.
 
-Bean: For example https://testnet.tonviewer.com/kQAbgM4LfbuhRpKUXA1eaB3X_az7oiEBV-NNdTtIja85lEFf/transaction/46d6f1d713a3dba397893941dd6fdf849972b7a3df8b49a65c45e4998351ce56 I send 0.5 but receive 0.7 TON
+mewe lỏd |: For example https://testnet.tonviewer.com/kQAbgM4LfbuhRpKUXA1eaB3X_az7oiEBV-NNdTtIja85lEFf/transaction/46d6f1d713a3dba397893941dd6fdf849972b7a3df8b49a65c45e4998351ce56 I send 0.5 but receive 0.7 TON
 
 — 2023-09-02 —
 
@@ -14028,7 +14028,7 @@ Rahul: How can i get seeds? 😅 i am thinking to get seeds from base64 😅 (re
 
 Rahul: Is there any way to get base64 from connected wallet?
 
-Bean: Hey guys, do you know this error when using https://github.com/ton-blockchain/tonlib-go  # github.com/mercuryoio/tonlib-go vendor/github.com/mercuryoio/tonlib-go/client.go:8:10: fatal error: './lib/tonlib_client_json.h' file not found #include <./lib/tonlib_client_json.h>          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1 error generated.
+mewe lỏd |: Hey guys, do you know this error when using https://github.com/ton-blockchain/tonlib-go  # github.com/mercuryoio/tonlib-go vendor/github.com/mercuryoio/tonlib-go/client.go:8:10: fatal error: './lib/tonlib_client_json.h' file not found #include <./lib/tonlib_client_json.h>          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1 error generated.
 
 &rey: No, connection does not share private key. (Except fake airdrops with fake connection methods.) (reply to 34120)
 
@@ -14258,17 +14258,17 @@ User<857683111>: good deal (reply to 34264)
 
 User<857683111>: thks lots (reply to 34267)
 
-Bean: Hi guys, I want to set admin wallet for Ton contract (similar to ownership in solidity), how can I implement it? I guess I must store owner address in the contract and it only be updated by message come from exact itself to transfer owner, right?
+mewe lỏd |: Hi guys, I want to set admin wallet for Ton contract (similar to ownership in solidity), how can I implement it? I guess I must store owner address in the contract and it only be updated by message come from exact itself to transfer owner, right?
 
 &rey: > I must store owner address in the contract: right > and it only be updated by message come from exact itself to transfer owner: by message from current owner is right; not by message from the contract itself. (reply to 34271)
 
-Bean: thank you
+mewe lỏd |: thank you
 
-Bean: why do we need to ignore all bounced messages in the custom contract ?
+mewe lỏd |: why do we need to ignore all bounced messages in the custom contract ?
 
 &rey: Usually there's not much to do if you receive bounced message, since it originally came from the contract itself. (reply to 34274)
 
-Bean: Ah I got it
+mewe lỏd |: Ah I got it
 
 &rey: Jetton wallets handle such messages, though, to ensure that jettons are not lost when transfer fails.
 
@@ -14322,13 +14322,13 @@ Pixel ^_^: Hello guys,  Good day!
 
 Pixel ^_^: We're currently in the process of developing a crypto casino featuring a variety of exciting gambling games. Our launch date is approaching rapidly, and we're eager to explore the potential benefits of the TON ecosystem in helping us gain traction for our project.
 
-Bean: Hello guys, I can't see decoded value here
+mewe lỏd |: Hello guys, I can't see decoded value here
 
-Bean: how can I make it show like this
+mewe lỏd |: how can I make it show like this
 
 Tim: You need to verify contract
 
-Bean: How can I verify it @TrueCarry
+mewe lỏd |: How can I verify it @TrueCarry
 
 Tim: Verifier.ton.org
 
@@ -14352,7 +14352,7 @@ TECHN0x_6900: Role:  Integrating interactions with Solidity smart contracts into
 
 TECHN0x_6900: if anyone is interested plz tap 👍 emoji and i will dm you
 
-Bean: Hi guys! When developing a contract 1. How can I get balance of ton of current contract? 2. How can I get balance of a jetton token of current contract by jetton minter address?
+mewe lỏd |: Hi guys! When developing a contract 1. How can I get balance of ton of current contract? 2. How can I get balance of a jetton token of current contract by jetton minter address?
 
 I V: hi! has anyone tried to send ton to a wallet created via “Wallet” in telegram? my transaction is executed but the money hasn’t appeared in the wallet
 
@@ -14360,7 +14360,7 @@ Dmitry | backend4you.ton: 1: get_balance() https://docs.ton.org/develop/func/std
 
 Dmitry | backend4you.ton: 2* The only place where you can get balance of some jetton of some user is inside of contract for that jetton for that user. It's in get_data(), check jetton source code for more details.
 
-Bean: asume that I write a contract and deploy it to the TON network, I use my account to send a Jetton to this contract -> Q1: Is it work?  If aswer of Q1 is "work", Q2: do we have any way for me to develop the contract to give it ability to transfer Jetton of this contract to another wallet?   Cmiiw
+mewe lỏd |: asume that I write a contract and deploy it to the TON network, I use my account to send a Jetton to this contract -> Q1: Is it work?  If aswer of Q1 is "work", Q2: do we have any way for me to develop the contract to give it ability to transfer Jetton of this contract to another wallet?   Cmiiw
 
 Cocomastoras: https://github.com/tonfactory/tonsdk  Anyone managed to get the client running with base url and api key?
 
@@ -14368,7 +14368,7 @@ Dmitry | backend4you.ton: It seems you have some gaps in jetton knowledge... ima
 
 Dmitry | backend4you.ton: If above does not answer your question - please re-ask them :)
 
-Bean: thank you so much, very transparent, I got the answer for my question
+mewe lỏd |: thank you so much, very transparent, I got the answer for my question
 
 Rahul: Hey i am waiting 20 seconds after each transaction to get right seqno but sometime its failed. Any idea?
 
@@ -14424,13 +14424,13 @@ Rahul: presale of token
 
 Yan: 🎮 Just Playing With TON  Gaming is the key factor in the mass adoption of blockchain platforms. The amount of money going through the microtransactions 🛒 alone – inside of an average mobile game – is beyond what some decentralized exchanges can reproduce in trading volume.  Chains clash for every game developer there is ⚔️, frequently focusing on the game industry exclusively. Imagine the amount of transactions CS:GO 🔫 could generate if its item marketplace ran on The Open Network, and the items would have a price tag in toncoin or a TON-based stablecoin.  Some dream about it 🦄, and some make it possible. The team of Continuation has released the 1.0 version of TonConnect SDK for developers on C# and Unity. A developer toolkit to let game builders integrate with TON wallets 👝, right inside of the game application.  As someone building a game, devs no longer need to worry about the credit cards 💳 hassle or game store fees – basing the entire in-game economy on TON sets you free from the countless financial roadblocks, and grants access to the global community of 💎 toncoin fans eager to beat the sh*t out of some zombies (or whatever the gameplay is about).  > GitHub repository; > YouTube demo & tutorial (RU).  @tonsider (forwarded from Tonsider 💎)
 
-Bean: Hello guys, I have an issue with jetton When I try transfering using Tonkepeer, I got message Send Token
+mewe lỏd |: Hello guys, I have an issue with jetton When I try transfering using Tonkepeer, I got message Send Token
 
-Bean: But when I using JS to send transfer, it is mark as Call contract instead of Send Token
+mewe lỏd |: But when I using JS to send transfer, it is mark as Call contract instead of Send Token
 
-Bean: But the token is actually transferred under the hood
+mewe lỏd |: But the token is actually transferred under the hood
 
-Bean: One more question, how can I get list all jetton wallet of an address without call to each jetton master?
+mewe lỏd |: One more question, how can I get list all jetton wallet of an address without call to each jetton master?
 
 Maxey: Has anyone tried receiving external messages in Tact and successfully written tests for it?
 
@@ -14552,11 +14552,11 @@ Arash Nemat Zadeh: I got this in my tonkeeper What does it mean? Can it be harmf
 
 Rey: SCAM 😞 (reply to 34440)
 
-Bean: Hi guys, I want to implement a method to transfer all amount of a Jetton of the contract to another wallet   global slice centralize_wallet  transfer_jetton(slice jetton_master) {     transfer jetton of this.contract to centralzie_wallet }  How can I get jetton wallet and jetton amount of current contract inside FunC code? As I know we can't call get method of another contract inside current contract.
+mewe lỏd |: Hi guys, I want to implement a method to transfer all amount of a Jetton of the contract to another wallet   global slice centralize_wallet  transfer_jetton(slice jetton_master) {     transfer jetton of this.contract to centralzie_wallet }  How can I get jetton wallet and jetton amount of current contract inside FunC code? As I know we can't call get method of another contract inside current contract.
 
 Howard: You can't do it directly. TON is only possible through message passing and is triggered by the internal{...} area. (reply to 34443)
 
-Bean: you mean In my Dapp, I must specify contract_jetton_wallet, target_jetton_wallet, amount and send them to the contract to execute function transfer_jetton, right? so this function must be transfer_jetton(slice source, slice target, int amount)
+mewe lỏd |: you mean In my Dapp, I must specify contract_jetton_wallet, target_jetton_wallet, amount and send them to the contract to execute function transfer_jetton, right? so this function must be transfer_jetton(slice source, slice target, int amount)
 
 naoer: Buddies, can ton support tracking and positioning? I am working on a project similar to stepn.
 
@@ -14576,7 +14576,7 @@ GD@0606: anyone had done with transaction by sending some test ton from one acco
 
 Alex: Ever Wondered How Different Blockchains Connect?  We are living in a world of connections and interactions, and with their lack, today's world will be meaningless. In the space of cryptocurrencies, numerous blockchains coexist and interact, each with its own set of rules and protocols.   But how do these independent networks manage to communicate and work together?   The solution lies in blockchain bridges. A blockchain bridge is a set of rules and mechanisms that establish a connection between two separate blockchains, allowing them to communicate and engage with each other.  learn and read more about it comprehensively in our, Blockchain Bridge Explained , article.   Website | Blog  | Twitter (forwarded from TonRadar)
 
-Bean: Hi guys, under the hood, what aspects does TON outperform both EVM and SOLANA?
+mewe lỏd |: Hi guys, under the hood, what aspects does TON outperform both EVM and SOLANA?
 
 researcher: https://ton.org/en/analysis (reply to 34455)
 
@@ -14991,8 +14991,4 @@ moono: address
 &rey: Doesn't wallet need some ETH to pull wrapped TON out of bridge?
 
 moono: then, the receiver needs to withdraw himself?
-
-&rey: I don't actually know but this looks plausible. Or the transaction might not go through yet; if it's not working for 30 more minutes, you can write to https://t.me/ton_help_bot.
-
-moono: thx
 
