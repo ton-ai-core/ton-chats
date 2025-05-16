@@ -388,7 +388,7 @@ Glen: Will have a look and see if that works. Thanks (reply to 43921)
 
 Glen: Property 'getAddress' does not exist on type 'WalletContractV4' ? (reply to 43921)
 
-Andrey: Guys, what python libs do you use for mining? I tried pythoniq, but there's no interatcion with  transation pool
+👹 Капризнышко: Guys, what python libs do you use for mining? I tried pythoniq, but there's no interatcion with  transation pool
 
 P.I 🦈: guys, who have code for tg bot  , to approve nft hold
 
@@ -6722,7 +6722,7 @@ Alex: guys i need help, it gives me error in createFromConfig({ //here} , contra
 
 Alex: its a script btw
 
-🐾D3ra.: please can i get a solution to this error code in the terminal
+Emmanuel: please can i get a solution to this error code in the terminal
 
 User<5487356724>: What is the solution?
 

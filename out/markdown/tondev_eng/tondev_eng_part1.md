@@ -2196,31 +2196,31 @@ User<5298987488>: The software that you use to for example sign a transaction
 
 Slava: That would depend on my goals :) (reply to 2588)
 
-Omid: hello
+User<135516283>: hello
 
-Omid: How to communicate between web and cryptobot
+User<135516283>: How to communicate between web and cryptobot
 
-Omid: I want to pay for my product from the site through a Telegram Inc. robot ton
+User<135516283>: I want to pay for my product from the site through a Telegram Inc. robot ton
 
-Omid: Is this possible?
+User<135516283>: Is this possible?
 
-Omid: Thanks
+User<135516283>: Thanks
 
 Slava: What is Telegram Inc. robot ton? (reply to 2593)
 
-Omid: I mean crypto bot (reply to 2597)
+User<135516283>: I mean crypto bot (reply to 2597)
 
-Omid: I want to connect my website to Telegram to pay with ton tokens
+User<135516283>: I want to connect my website to Telegram to pay with ton tokens
 
 Slava: Try writing to their support service. (reply to 2598)
 
 Slava: They have API by the way.
 
-Omid: 🙏 (reply to 2600)
+User<135516283>: 🙏 (reply to 2600)
 
-Omid: I did not find a sample code done as an example (reply to 2601)
+User<135516283>: I did not find a sample code done as an example (reply to 2601)
 
-Omid: Are you a programmer? (reply to 2601)
+User<135516283>: Are you a programmer? (reply to 2601)
 
 Slava: Learning to be one :) (reply to 2604)
 
@@ -3186,7 +3186,7 @@ Slava: Try looking at these examples: https://github.com/toncenter/tonweb/blob/m
 
 username: Hi guys Could you help me with these basic questions? What is ton os and tonoscli? (https://github.com/tonlabs/tonos-cli) toncli made for same purpose? (https://github.com/disintar/toncli)  Are there more jetone examples except of this one? (https://github.com/KoteCoin/token-contract)
 
-Omid: How to connect to the telegram robot and make payment?
+User<135516283>: How to connect to the telegram robot and make payment?
 
 RocketMan: ton os and tonos cli made for everscale - another blockchain (that is also based on telegram initial source code) (reply to 3406)
 
@@ -3254,19 +3254,19 @@ doni: this a good example   https://github.com/ton-blockchain/token-contract/blo
 
 Andrew: https://ton.org/docs/#/func (reply to 3463)
 
-Omid: no (reply to 3429)
+User<135516283>: no (reply to 3429)
 
-Omid: @foile/crypto-pay-api
+User<135516283>: @foile/crypto-pay-api
 
-Omid: @foile/crypto-pay-api  npm i @foile/crypto-pay-api  This library does not run at all. I do not know why he makes a mistake I tested in vscode environment.
+User<135516283>: @foile/crypto-pay-api  npm i @foile/crypto-pay-api  This library does not run at all. I do not know why he makes a mistake I tested in vscode environment.
 
 Witer33: I recommend using https://github.com/witer33/toncenter with the PaymentReceiver (reply to 3465)
 
 Witer33: Here's an example bot that uses this library, @ProxyRollerBot. Send /pay to generate a fake invoice on the testnet.
 
-Omid: This is in Python. Not an example of react or php? (reply to 3469)
+User<135516283>: This is in Python. Not an example of react or php? (reply to 3469)
 
-Omid: const { CryptoPay } = require('@foile/crypto-pay-api'); (reply to 3468)
+User<135516283>: const { CryptoPay } = require('@foile/crypto-pay-api'); (reply to 3468)
 
 Witer33: Python is good for telegram bots (reply to 3471)
 
@@ -3276,7 +3276,7 @@ Andrey: Kotlin/Java SDK: https://github.com/andreypfau/ton-kotlin
 
 RocketMan: this chat not about cryptobot api development, please move to cryptobot api support chat.   feel free to ask question about ton development here (reply to 3471)
 
-Omid: Please provide the channel ID? (reply to 3476)
+User<135516283>: Please provide the channel ID? (reply to 3476)
 
 RocketMan: https://t.me/CryptoBotEnglish (reply to 3477)
 
@@ -3286,7 +3286,7 @@ Dario Tarantini (ex Tonox): If you want to make payments, there are libs for js 
 
 Dario Tarantini (ex Tonox): https://github.com/danog/MadelineProto/blob/master/ton/README.md
 
-Omid: Thank you very much for your explanation. (reply to 3479)
+User<135516283>: Thank you very much for your explanation. (reply to 3479)
 
 Christopher: Afternoon. I see toncoin is going through a coin migration. How do we migrate toncoin being held in wallet?
 
@@ -3500,9 +3500,9 @@ TON technical overview: I indeed misread your message. Store_hash will hash byte
 
 ᅠ: Though it does that with all past previous successful withdrawals, so it is probably OKX system giving a wrong transaction browser link (reply to 3728)
 
-Omid: Is there a json library for making nft and token? I work with php
+User<135516283>: Is there a json library for making nft and token? I work with php
 
-Omid: Someone wrote nft, I need help
+User<135516283>: Someone wrote nft, I need help
 
 Sinax: hello every body. I withdraw some TON coin from OKex to my  TONKEEPER wallet but my TONs does not received to my wallet. in OKex in TXID show link below Error : 602 : no account workchain id .
 
@@ -3528,7 +3528,7 @@ Wrong💎: OKX's official announcement says withdrawals will resume on April 29t
 
 Sinax: ohh,  thank you for your support. (reply to 3750)
 
-Omid: What are these two addresses in this function?   collectionContentUri: 'http://localhost:63342/nft-marketplace/my_collection.json',     nftItemContentBaseUri: 'http://localhost:63342/nft-marketplace/',
+User<135516283>: What are these two addresses in this function?   collectionContentUri: 'http://localhost:63342/nft-marketplace/my_collection.json',     nftItemContentBaseUri: 'http://localhost:63342/nft-marketplace/',
 
 Vardan: Dear Ton dev community. We have 2 way to use ton wallet  1. deposits-multi-wallet Here we will look at how to accept deposits. Each user will have their own deposit address.  2. deposits-single-wallet Here we will look at how to accept deposits to a single wallet.  I have 2 questions.  A. For which task we can use 1st or 2nd way and why(pluses and minuses )?  B. And how much fees we must pay for 1 & 2.  Thx
 
@@ -7682,9 +7682,9 @@ Mr. B: 😅 (reply to 8027)
 
 Slava: TON™ — widening your horizons, if you like it or not… (reply to 8025)
 
-Omid: hi
+User<135516283>: hi
 
-Omid: Why does it give this error for token generation? What does this error mean?
+User<135516283>: Why does it give this error for token generation? What does this error mean?
 
 Frank: @talkol . Is there any video link of this tutorial? (reply to 8011)
 
@@ -10482,11 +10482,11 @@ talkol: In general, ton mission is mass adoption so the focus in general is on a
 
 Yang: Do you have a video showing the exchange process? (reply to 10184)
 
-Omid: How to introduce the project to TON and chat with support? does anyone know
+User<135516283>: How to introduce the project to TON and chat with support? does anyone know
 
-Omid: hi
+User<135516283>: hi
 
-Omid: Is it possible to transfer NFTs to Metamask?
+User<135516283>: Is it possible to transfer NFTs to Metamask?
 
 Nick: Nope. Different blockchains. No any NFT bridges. Impossible at the moment. (reply to 10197)
 
@@ -15955,8 +15955,4 @@ User<5607333070>: I think he’s trying to ask how to listen to transactions on 
 User<5607333070>: not history
 
 talkol: Lazy dev team is a good thing :) hardware wallet should not change. It’s a good wallet for Ethereum coins and Bitcoin (reply to 14279)
-
-talkol: Ledger has some insanely bad decisions too, it’s not perfect  For example, passphrase has to be typed on the device using only 2 buttons which make people either avoid passphrase or take a short 4-6 character one which can easily be brute forced. Passphrase should always be used so then device doesn’t hold the full private key and it should be at least 14-15 characters so brute forcing it becomes difficult
-
-NuSs: hi, how can i get test tons? I tried a bot in teleram, but I could never get any ton :( (reply to 14284)
 

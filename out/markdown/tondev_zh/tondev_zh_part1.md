@@ -342,21 +342,21 @@ Koala: 喔？這在哪看到的 (reply to 250)
 
 系统恢复: 你好，单日喷钱率数据在哪里找? (reply to 275)
 
-空军帮-帮主: 电脑为啥挖不起来Windows，不会配置，有大佬可以指导一下吗
+庸医: 电脑为啥挖不起来Windows，不会配置，有大佬可以指导一下吗
 
 J: 這裡就是
 
-空军帮-帮主: 是这些文件吗
+庸医: 是这些文件吗
 
 Tony: 請問地址總數528 是不是有點少的不合理啊
 
-空军帮-帮主: 有人能教下咋挖吗
+庸医: 有人能教下咋挖吗
 
 Tony: btc快四千萬 狗幣也有450萬個地址
 
 Koala: 剛發行吧，沒什麼人有原生鏈上的幣 (reply to 293)
 
-空军帮-帮主: 管理员有中文挖矿指南吗，搞了半天挖不起来
+庸医: 管理员有中文挖矿指南吗，搞了半天挖不起来
 
 Tony: 原來如此 謝謝 (reply to 294)
 
@@ -366,9 +366,9 @@ Koala: 但目前連英文素材也不足 其實基金會也不知道那麼多算
 
 User<1361235909>: 算力几万个G？
 
-空军帮-帮主: 现在想先人一步挖，不然大家都挖感觉不会有啥优势了 (reply to 297)
+庸医: 现在想先人一步挖，不然大家都挖感觉不会有啥优势了 (reply to 297)
 
-空军帮-帮主: 或者能不能提前买
+庸医: 或者能不能提前买
 
 Koala: 大約26000多Gh/s
 
@@ -378,11 +378,11 @@ Koala: 現在的話，能去以太和BSC買 (reply to 301)
 
 User<1361235909>: 一天能挖出来多少个币。。。
 
-空军帮-帮主: 所以想挖
+庸医: 所以想挖
 
 Koala: 是啊⋯ 也不知是否能打平成本 (reply to 303)
 
-空军帮-帮主: 已经可以买了吗 (reply to 304)
+庸医: 已经可以买了吗 (reply to 304)
 
 User<1361235909>: 一共多少个？？？
 
@@ -400,7 +400,7 @@ User<1361235909>: 总量
 
 Koala: 50億顆
 
-空军帮-帮主: 流动性不足🌝
+庸医: 流动性不足🌝
 
 User<1361235909>: 现在pancake上
 
@@ -420,11 +420,11 @@ J: 可以用uniswap或pancakeswap買 (reply to 301)
 
 User<1361235909>: 已经是4U一个了
 
-空军帮-帮主: 是的
+庸医: 是的
 
 金宝: 到顶了？
 
-空军帮-帮主: 11.6号我看才0.4直接10倍
+庸医: 11.6号我看才0.4直接10倍
 
 User<1361235909>: 谁知道呢。
 
@@ -480,7 +480,7 @@ Koala: 不行，必須要再透過跨鏈橋跨鏈 (reply to 374)
 
 Koala: 是的 (reply to 377)
 
-空军帮-帮主: 想知道咋挖怎么还没大神开发出来
+庸医: 想知道咋挖怎么还没大神开发出来
 
 User<538054004>: 請問Ton的總量有多少顆~
 
@@ -488,7 +488,7 @@ LaDoger: 50億顆+每年0.6%通膨
 
 Yeh: https://github.com/tontechio/pow-miner-gpu (reply to 379)
 
-空军帮-帮主: 没成功🌚
+庸医: 没成功🌚
 
 Yeh: https://github.com/tontechio/pow-miner-gpu/blob/main/crypto/util/pow-miner-windows-howto.md
 
@@ -1336,11 +1336,11 @@ User<1361235909>: 机构加持也是坏事，隐私这东西
 
 User<1361235909>: 不需要机构投资
 
-空军帮-帮主: 这个挖起来了，怎么看挖矿的进度
+庸医: 这个挖起来了，怎么看挖矿的进度
 
 系统恢复: 100ton现在价值多少?
 
-空军帮-帮主: 3k
+庸医: 3k
 
 系统恢复: 会涨吗
 
@@ -1354,7 +1354,7 @@ User<1361235909>: 你怎么挖的。。。 (reply to 1021)
 
 User<1361235909>: 有没有教程啥的，windows的
 
-空军帮-帮主: 我找找看 (reply to 1031)
+庸医: 我找找看 (reply to 1031)
 
 User<1361235909>: 你挖了3000个了？
 
@@ -1366,7 +1366,7 @@ Joy: 用TON链
 
 Joy: 有TON链啊，昨天选了TON链提币，但未收到 (reply to 938)
 
-空军帮-帮主: 这个挖矿，多少会打一次币啊
+庸医: 这个挖矿，多少会打一次币啊
 
 TON 官方中文频道: Toncoin 現在在FTX 上。   Toncoin/USD 货币对提供 现货交易 和 永续期货。   今天对于 Toncoin 和开放网络项目来说是重要的一天。现在，TON 的原生加密货币可在三个中心化加密货币交易所使用，其中两个位于世界前三名。   「Toncoin 现在在 FTX 上交易。」  FTX 被 CoinMarketCap 排名第三，日交易量为 168 亿美元。   「Toncoin 也在 OKEx 上交易。」  根据 CoinMarketCap 的评级，OKEx 在现货交易量方面排名第三，其衍生品交易量排名第二，每天超过 280 亿美元。   「Toncoin 也可在 EXMO 上使用。」  EXMO 是东欧最大的加密货币交易所，日交易量超过 1.6 亿美元。    您可以在这篇文章中 了解有关如何购买 Toncoin 的更多信息。   我们很高兴看到人们对我们的 TON 项目越来越信任和兴趣，但我们相信最好的还在后头 ——这只是开始。 (forwarded from TON 官方中文频道)
 
@@ -1614,7 +1614,7 @@ LaDoger: 你是用哪個錢包？轉帳的時候都可以打附言
 
 米安: 發個參考，截圖也行
 
-空军帮-帮主: 想问下这个挖矿会不会被查
+庸医: 想问下这个挖矿会不会被查
 
 Koala: 其實就是按下去transfer，等節點確認完  按get coin，錢就入帳了 (reply to 1173)
 
@@ -1624,7 +1624,7 @@ Koala: 被政府查嗎？ (reply to 1176)
 
 米安: 這bridge是怎麼用的啊？
 
-空军帮-帮主: 是的，这个和也太一样容易被查吗 (reply to 1178)
+庸医: 是的，这个和也太一样容易被查吗 (reply to 1178)
 
 Koala: Tonkeeper只是轉錢 (reply to 1179)
 
@@ -1634,17 +1634,17 @@ Koala: 基本上跟以太一樣吧 (reply to 1181)
 
 Koala: 除非你願意用CPU挖礦
 
-空军帮-帮主: 卧槽 (reply to 1184)
+庸医: 卧槽 (reply to 1184)
 
 Koala: 長得跟一般電腦一樣，那肯定沒人抓得到
 
-空军帮-帮主: 这个啥意思啊 (reply to 1187)
+庸医: 这个啥意思啊 (reply to 1187)
 
 Koala: 比較好的是這沒有礦池啦，你的ip不會暴露 (reply to 1186)
 
-空军帮-帮主: 哦哦
+庸医: 哦哦
 
-空军帮-帮主: 挂全局vpn呢
+庸医: 挂全局vpn呢
 
 Koala: 那大概沒問題 (reply to 1191)
 
@@ -1690,7 +1690,7 @@ Koala: 不確定欸，我在牆外😭😭 (reply to 1191)
 
 Koala: 可以 (reply to 1212)
 
-空军帮-帮主: 幸福 (reply to 1213)
+庸医: 幸福 (reply to 1213)
 
 Koala: 😂 (reply to 1215)
 
@@ -1730,7 +1730,7 @@ Koala: 照他給的comment打
 
 米安: 搞了4小時就是轉不到錢去meta mask
 
-空军帮-帮主: hps怎么转换为算力值
+庸医: hps怎么转换为算力值
 
 Koala: 會的 (reply to 1233)
 
@@ -3110,7 +3110,7 @@ hollejacklin🤡: 5G挖第三天還是沒有挖到
 
 User<1873635180>: 我早放棄了
 
-空军帮-帮主: 有人挖出来了吗
+庸医: 有人挖出来了吗
 
 User<2021796615>: 同問+1 (reply to 2165)
 
@@ -3160,7 +3160,7 @@ songmowen: 都是大鳄不卖的，散户应该很少 (reply to 2195)
 
 麥當勞從此單點: 五十億顆 4美元
 
-空军帮-帮主: 有没有大佬电脑成功挖出来了ton😂
+庸医: 有没有大佬电脑成功挖出来了ton😂
 
 J: 48亿 找不找得到还是个疑问。
 
@@ -3170,7 +3170,7 @@ J: 48亿 找不找得到还是个疑问。
 
 ㅤ: http://t.me/CryptoBot?start=r-73218
 
-空军帮-帮主: 可以啊，为啥不能 (reply to 2204)
+庸医: 可以啊，为啥不能 (reply to 2204)
 
 Tim: ton幣，未來能到多少啊
 
@@ -3204,7 +3204,7 @@ J: 对啊, 平均一天是26颗上下｡ 的确是4-5天该爆一次 (reply to 2
 
 hollejacklin🤡: 運氣不好
 
-空军帮-帮主: 一直3060大概要多少天啊
+庸医: 一直3060大概要多少天啊
 
 hollejacklin🤡: 20.8day/G
 
@@ -3256,7 +3256,7 @@ hollejacklin🤡: 我也是一下子就到了
 
 hollejacklin🤡: 沒有填memo
 
-空军帮-帮主: 这个爆一次啥意思，按这个4.3个一天，钱包一天应该多4.3个币吗 (reply to 2233)
+庸医: 这个爆一次啥意思，按这个4.3个一天，钱包一天应该多4.3个币吗 (reply to 2233)
 
 User<1873635180>: 爆=挖到，爆一次100顆
 
@@ -3342,13 +3342,13 @@ GTA: 明白了，感謝大家
 
 天天: 還連續兩筆😢
 
-空军帮-帮主: 这个咋看的啊 (reply to 2324)
+庸医: 这个咋看的啊 (reply to 2324)
 
 天天: 送回去 PoW Giver 8 為什麼啊orz
 
 天天: mac 版錢包 (reply to 2326)
 
-空军帮-帮主: ok (reply to 2328)
+庸医: ok (reply to 2328)
 
 Koala: 應該是因為錢包還未初始化成功 (reply to 2327)
 
@@ -4466,7 +4466,7 @@ User<805422338>: nginx的TCP 代理吗？ (reply to 3024)
 
 User<805422338>: 啥时候出 转账功能兄嘚 (reply to 3024)
 
-👾 BITS🦉 🌱 SEED Brody 🐾: ⚡ We're giving away 10,000 Toncoin  Hello, everyone. We've got something special planned for you. For every 5 Toncoin you buy through our bot from Nov. Nov. 24 to Dec. 1, we'll gift you a sixth one as bonus.  Participating is easy: Buy a minimum of 5 Toncoin during the period mentioned above, and on Dec. 30, your bonus Toncoin will be added to your balance.  Please note: Users can only receive up to 10 bonus Toncoin. We're giving away only 10,000 Toncoin. (forwarded from Wallet)
+👾 BITS🦉 🌱 SEED Brody 🐾: ⚡ We're giving away 10,000 Toncoin  Hello, everyone. We've got something special planned for you. For every 5 Toncoin you buy through our bot from Nov. Nov. 24 to Dec. 1, we'll gift you a sixth one as bonus.  Participating is easy: Buy a minimum of 5 Toncoin during the period mentioned above, and on Dec. 30, your bonus Toncoin will be added to your balance.  Please note: Users can only receive up to 10 bonus Toncoin. We're giving away only 10,000 Toncoin. (forwarded from Кошелёк)
 
 User<805422338>: 买五送一
 
@@ -25905,4 +25905,14 @@ Anthony: It could be
 Pie: I tried removing 'sudo' and running mytonctrl as a normal user. It seems to no longer give an error.
 
 Pie: Thank you for your timely help. The TON community is really fantastic.
+
+Pie: It seems that this tutorial differs from the actual situation. I found in the GitHub repository that this step doesn't require sudo permissions.
+
+Pie: https://github.com/ton-blockchain/mytonctrl
+
+Anthony: What is your OS? (reply to 18824)
+
+Pie: Ubuntu 22.04.3 LTS (reply to 18829)
+
+— 2023-12-19 —
 

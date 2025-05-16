@@ -3760,7 +3760,7 @@ Willie: Thank you very much! (reply to 74526)
 
 Dinkar: So can't launch a GambleFi app as a telegram mini app? (reply to 74528)
 
-Coindrop_support: 👋
+woong keun: 👋
 
 &rey: Yes, data is stored in contract. If data grows, transactions on contract will indeed fail when limit is reached. (reply to 74481)
 
@@ -4564,9 +4564,9 @@ elm: Yeah was leaning towards that but had to check maybe there was simpler opti
 
 — 2024-06-28 —
 
-bt/ss: Hi all. Is there an example of a Jetton wallet contract that implements a maximum amount a wallet can have?
+bete: Hi all. Is there an example of a Jetton wallet contract that implements a maximum amount a wallet can have?
 
-bt/ss: That uses get_balance and then filters? Why are there no public examples of this?
+bete: That uses get_balance and then filters? Why are there no public examples of this?
 
 Tyson (NEVER DM FIRST): "@type": "adnl.address.udp",                 "ip": -1746587354,                 "port": 25975  Is this right for the IP in the generated config for a node or is there some error? Doesn't look like an IP and cannot connect to liteserver with this config
 

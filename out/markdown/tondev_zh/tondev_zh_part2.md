@@ -1,13 +1,3 @@
-Pie: It seems that this tutorial differs from the actual situation. I found in the GitHub repository that this step doesn't require sudo permissions.
-
-Pie: https://github.com/ton-blockchain/mytonctrl
-
-Anthony: What is your OS? (reply to 18824)
-
-Pie: Ubuntu 22.04.3 LTS (reply to 18829)
-
-— 2023-12-19 —
-
 User<6904617991>: 哈咯
 
 Howard: 我們 NFT content 這個 cell in HexString 怎麼變回 URL String 去了？
@@ -5700,7 +5690,7 @@ Yotsuha: tact里有类似openzeplin那样的包，方便开发吗
 
 刘皓 转账语音确认: 这样间接性可以出动TON流通
 
-发: https://github.com/ton-blockchain/minter-contract 这个是发布ton代币的合约吗
+User<6082945982>: https://github.com/ton-blockchain/minter-contract 这个是发布ton代币的合约吗
 
 Philip 菲力: 各位老闆可以關注 TON Hacker House 第二名的 KoALA 項目團隊，他們打算在 telegram 上實現類似於 intent-centric 的 app，讓 TON 無痛跨鏈
 
@@ -7436,7 +7426,7 @@ Wendy: 但是里面没有在一个receive里面去调用两次self.mint (reply t
 
 Wendy: 我想在一个receive里面去调用两次self.mint
 
-发: 刚发布的代币 要怎么验证？
+User<6082945982>: 刚发布的代币 要怎么验证？
 
 刘皓 转账语音确认: 你好 (reply to 23507)
 
@@ -16004,7 +15994,7 @@ Z: 突然打不开了，你们能打开吗
 
 tbag - 上午别找我: 能打开
 
-BingZi: ‼️Please update the list of wallets in TonConnect if you want to allow authorization in your dApp via Ton Space.‼️  这个的意思是我需要手动调用吗
+Ryu: ‼️Please update the list of wallets in TonConnect if you want to allow authorization in your dApp via Ton Space.‼️  这个的意思是我需要手动调用吗
 
 Z: 请问如何联系到ton官方，充值不到账，资产都看不到了
 
@@ -16972,7 +16962,7 @@ wikig: 考虑过这个方案，但是这个方案对pc和pc-browser端不友好�
 
 wikig: 我试一下公共频道转发 (reply to 29311)
 
-wikig: 🚧 Welcome to tonspay status checking bot 🚧  This bot can help you check the ProductionEVN & TestENV of Tonspay service in realtime.  You can @me command to see the status .  Commands support :  ping_pro function_test_pro ping_test function_test_test (forwarded from Tonspay Status)
+wikig: 🚧 Welcome to tonspay status checking bot 🚧  This bot can help you check the ProductionEVN & TestENV of Tonspay service in realtime.  You can @me command to see the status .  Commands support :  ping_pro function_test_pro ping_test function_test_test (forwarded from Tonspay_status)
 
 wikig: 好像也不行，按钮也被吃了 (reply to 29314)
 
@@ -17970,7 +17960,7 @@ wikig: 除TONchain外其他chain的token数据源是 dexscreener.com (reply to 3
 
 zachary: 在miniapp 中send transaction 之后会唤起 wallet，用的 tonconnect UI sdk， 返回到 miniapp时 会重新打开页面，这时候如何获取这次交易的状态和BOC ，可以看到sdk有打印 信息，但是如何捕获或者监听这个事件呢
 
-F: 已经是我想要的效果了 (reply to 30563)
+Free: 已经是我想要的效果了 (reply to 30563)
 
 🌑: 明白了谢谢 (reply to 30573)
 
@@ -22506,7 +22496,7 @@ Steven: 这个是不同地址格式的转换网址
 
 MAX-SlerfTools|一键发币|批量发送｜捆绑交易｜市值管理｜需求定制: 找管理员吗
 
-anan: nice to be here
+black: nice to be here
 
 Z: 请问下， 和ton 合约交互的话。除了用官方的typescript 的library, 还有其他的语言的么？
 
@@ -23111,4 +23101,6 @@ carol: 没TON了，只剩这点了。。😆
 wikig: 好像没有看到有这个方法（但是即使有.......好像也做不了什么？  但是有个方法可以使得关闭miniapp时触发一个用户手动确认  可能那个方法有回调事件 (reply to 36593)
 
 Lou: 我想在用户关闭的时候更新一次用户数据
+
+walker: ton上发交易时的seq，会像ethereum上一样有mempool去缓存未来的seq吗？比如钱包的seq现在是1，我发个seq是2的交易出去，这笔交易是会被节点丢弃掉，还是会等seq=1的交易被确认后，seq=2的交易会被节点确认？
 

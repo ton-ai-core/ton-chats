@@ -5357,3 +5357,7 @@ Haстя zargates: Hi! I won in the jokes for impressions contest from telegram 
 — 2025-05-12 —
 
 Unknown: Hello ! You can write about it here: @ton_help_bot (reply to 4736)
+
+— 2025-05-15 —
+
+Baran Battal: Hello, recently the sanctions by the United States against Syria have been lifted. Will this affect some of the services restricted by TON and TELEGRAM, or will everything remain the same?

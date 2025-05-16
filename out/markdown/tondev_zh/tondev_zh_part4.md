@@ -1,11 +1,3 @@
-备用: 自动化测试的前提是业务比较固定,改动小...
-
-备用: 😂 我比较懒...
-
-备用: 沙盒只适合一些细节的调试.不适合测完整的流程
-
-备用: 个人感觉哈
-
 备用: 比如notify之后forward建了个临时的pool, 沙盒能不能直接测这个pool的方法? 还是得把前面的流程走完才能拿到pool做测试?
 
 备用: 定制得跟主网不一样,上了主网还得再测一遍吧...
@@ -6298,13 +6290,13 @@ king: 是的 (reply to 80595)
 
 ZombHunt: 请问下如果要想在Telegram App Center里发布的应用能够被打上New的标签并且展示在首页New这边的话需要什么条件呢？ (forwarded from ZombHunt)
 
-Less Enter🐺MrBeast: 请问star支付成功创建了InvoiceLink后，点击支付时，机器人一直没有触发pre_checkout_query监听，有没有大神知道是什么原因
+Less Enter: 请问star支付成功创建了InvoiceLink后，点击支付时，机器人一直没有触发pre_checkout_query监听，有没有大神知道是什么原因
 
 Andrew: 是不是被其他处理方式处理了，比如通用的 message 方法。 (reply to 80646)
 
 Andrew: 注册监听是排序的
 
-Less Enter🐺MrBeast: 刚刚找到原因了 在机器人start时allowed_updates没有配置pre_checkout_query， 感谢@andrew_cong
+Less Enter: 刚刚找到原因了 在机器人start时allowed_updates没有配置pre_checkout_query， 感谢@andrew_cong
 
 Andrew: 其他申请过的项目方可以解答下，是否申请 listing 后就展示？ 我没走过这个流程 (reply to 80642)
 
@@ -8493,3 +8485,33 @@ Randolph: 这个我们可以注册吗 (reply to 89469)
 Katiya｜TON: 这个就是专门针对开发者的，赶紧注册～～ (reply to 89478)
 
 Randolph: 好的👌
+
+Randolph: destination确实是接收者的ton钱包地址 https://testnet.tonviewer.com/transaction/4884f73a5b0c9ced206bb442f42402c853ec931ba5d1fa4ba54fefb35ca135c0
+
+Randolph: Jetton Notify 终于生效了，成功更新用户质押金额。之前不生效的原因应该是给的转发gas不够，一直以为是地址的问题。。😂
+
+Randolph: 从源码看Jetton Notify的接受方，是jetton接收人的ton钱包地址，也就是destination，并不能自定义 Jetton Notify发送到其他地方。 那个response_destination，应该是多余ton回退的地址
+
+6666feile: response_destination一般填用户D或自己A的地址，你填B地址，就相当于超出的TON就丢了吧
+
+Randolph: 明白了🫡 (reply to 89488)
+
+Combot: милочка has been banned! Reason: CAS ban.
+
+Andrew: hello 我写了个ton的nft合约 但是在tonviewer和tonscan上面都不能能被解析为nft格式。 有没有可能我用在合约用了with deployable 导致的呢？ tep62得方法我都实现了
+
+Andrew: 应该还是 content 数据格式问题 (reply to 89511)
+
+Andrew: 了解 我xontent给的一个ipfs的link (reply to 89522)
+
+Combot: Саша has been banned! Reason: CAS ban.
+
+Combot: Bin Nguyễn, Ayman Reda have been banned! Reason: CAS ban.
+
+Combot: Mugimugijesh has been banned! Reason: CAS ban.
+
+Combot: Toe Toe Lwin, Каппов Александр #Extra#LA#dxf#AKS#ФСБ have been banned! Reason: CAS ban.
+
+— 2025-05-16 —
+
+Combot: FaRES aMz has been banned! Reason: CAS ban.

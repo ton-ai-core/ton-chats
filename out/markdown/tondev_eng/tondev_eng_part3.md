@@ -1532,7 +1532,7 @@ Seitaro: TONHouse  TON Network monitor.  Award: 3000 TON (~$6720) was sent earli
 
 Tolya: Tonscan+ browser extension  Google Chrome extension dedicated to providing a better user experience on tonscan.org. Users can add custom names to TON adresses locally as well as contribute to user-driven adress database.  Award: 200 TON (~$448)  #tonawards2022
 
-Tokmach: wow👏 (reply to 26457)
+Tokmachka °°° 麺は人生 °°°: wow👏 (reply to 26457)
 
 Seitaro: Tact  Development of a new alternative programming language for TON smart contracts.  Award: 17 000 TON (~$38 000)  #tonawards2022
 
@@ -9864,7 +9864,7 @@ sdw: Hello,  after trying the following to convert boc to text still returns me 
 
 Daniil: const yourCell = Cell.fromBase64('te...') (reply to 31643)
 
-Spongebob: Hy Helo
+f: Hy Helo
 
 Gardener: The last time she asked y'all just made fun of her. Slow Wednesday? Lol
 
@@ -10140,7 +10140,7 @@ Synth: I am a developer and testing something things in tonkeeper
 
 Synth: Any idea how I can open the config tab in it? After it is created
 
-地方: How is the hash calculated for a cell that, in addition to data, holds reference(s) to other cell(s)?
+Mi Tii: How is the hash calculated for a cell that, in addition to data, holds reference(s) to other cell(s)?
 
 Dmitrii: Hi there. I ve got a question: I am connecting to the ton node using LiteClient. Is there a simple way do distinguish the type of node (whether is archive or not) which i am connected to. Maybe some function of parameter in lite_tl.api or tonlib_api.tl?  Tried to parse liteServer.Info capabilities param , but looks like it is not the one
 

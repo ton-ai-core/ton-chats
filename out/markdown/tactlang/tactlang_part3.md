@@ -4558,7 +4558,7 @@ Anton: GasPump and PixelSwap, for example (reply to 53937)
 
 Я̨kov: Different people prefer different distribution models. I, too, prefer Open Source or at least Source-available, but mileage waries (reply to 53940)
 
-Всеволод Игнатьев: Are there any examples of binary search or segment tree implementation. Is it possible?
+Seva: Are there any examples of binary search or segment tree implementation. Is it possible?
 
 Я̨kov: For one, GasPump's TypeScript wrappers for contracts were obtained with Tact.  About wrappers Tact produces, in general: https://docs.tact-lang.org/book/compile/#wrap (reply to 53944)
 
@@ -5142,7 +5142,7 @@ Oleg: I mean that I'm going deploy this contract many times not to test or somet
 
 Nerses: Is anyone familiar with the Fragment project? How secure is it to sell a username there, and how does the process work technically? Lately, I've been receiving multiple messages from people interested in buying my username, and it doesn’t seem like a scam. Can someone provide guidance on this?
 
-Всеволод Игнатьев: Fragment is quite trustable (reply to 54954)
+Seva: Fragment is quite trustable (reply to 54954)
 
 Nerses: I just cant understand how it is done technically (reply to 54955)
 
@@ -5150,17 +5150,17 @@ Abrahim: How can I use username
 
 Nerses: I mean the part of swap.Suppose I sell my username and when my wallet accepts funds how my tg handle is changed,is it done automatically or can even fragment have access to my tg account (reply to 54956)
 
-Всеволод Игнатьев: I think it’s architecture is quite interesting to research and explore, but here we discuss Tact language, and Fragment architecture is a little bit out of the topic. That is my opinion. (reply to 54956)
+Seva: I think it’s architecture is quite interesting to research and explore, but here we discuss Tact language, and Fragment architecture is a little bit out of the topic. That is my opinion. (reply to 54956)
 
 Nerses: To be frank I agree with you.Just hoped someone from fragment team will react to message (reply to 54959)
 
 Nerses: thanks for assistance
 
-Всеволод Игнатьев: Anything can happen here. Good journey! (reply to 54960)
+Seva: Anything can happen here. Good journey! (reply to 54960)
 
 — 2025-02-22 —
 
-Всеволод Игнатьев: Does someone has experience of writing on Tact with Grok 3 Beta? What tips can you give for achieving better results?
+Seva: Does someone has experience of writing on Tact with Grok 3 Beta? What tips can you give for achieving better results?
 
 Petr: Hey, check rules here: https://github.com/tact-lang/tact-template/blob/main/.cursorrules (reply to 55009)
 
@@ -5184,7 +5184,7 @@ Ivan: Hi everyone! Quick question, just to be sure:  Am I understanding correctl
 
 Jack: thank you, it works (reply to 55076)
 
-Всеволод Игнатьев: In general — yes, because ParentContract is available for the next transaction after sending message to the ChildContract, however you can build the architecture of the smart-contract in a way, that User2 would not be able to modify the state variable in ParentContract before the first chain completes. For example you can implement a counter state variable that's state is updated once the whole chain of transactions is executed (the message from ChildContract came back to ParentContract) (reply to 55126)
+Seva: In general — yes, because ParentContract is available for the next transaction after sending message to the ChildContract, however you can build the architecture of the smart-contract in a way, that User2 would not be able to modify the state variable in ParentContract before the first chain completes. For example you can implement a counter state variable that's state is updated once the whole chain of transactions is executed (the message from ChildContract came back to ParentContract) (reply to 55126)
 
 — 2025-02-25 —
 
@@ -7066,7 +7066,7 @@ Mykola: The contract should accept all the funds if the incoming message carries
 
 MaratㅤSafiyev: Hello guys! My friend wrote for me the smart contract. Can u check it?   https://github.com/SAFIYEV/token1/tree/main    Thanks🙏
 
-Destiny | Matchain 🔥: What's it for (reply to 61054)
+Destiny 🔥: What's it for (reply to 61054)
 
 &rey: It does not work. (reply to 61054)
 
@@ -7218,7 +7218,7 @@ Lê: can you help me?  async getCounter(provider: ContractProvider) {         co
 
 Daniil: hello, tell me how to get correct op code from forwardPayload  const innerPayload = beginCell()                 .storeUint(0x54d5c342, 32)                  .endCell();                  const jwPayload = beginCell()                 .storeUint(0xf8a7ea5, 32)                 .storeUint(0, 64)                 .storeCoins(10 * 10**decimals)                 //.storeCoins(toNano(1))                 .storeAddress(smcAddress)                 .storeUint(0, 2) // response address -- null                 .storeUint(0, 1)                 .storeCoins(toNano("0.1"))                 .storeBit(1)                 .storeRef(innerPayload)                 .endCell()                  const payload = jwPayload.toBoc().toString('base64');  receive(msg: JettonTransferNotification) {          if (!msg.forwardPayload.empty()) {             let payload: Slice = msg.forwardPayload;             let opcode: Int = payload.loadUint(32);               if (opcode == 0x54d5c342) {                 self.requireNotStopped();                 let seed: Int = getSeed();                  setSeed(seed);                                let prize: Int = random(self.minPrize, self.maxPrize);                    send(SendParameters{                     to: self.myJettonWallet,                     value: JettonTransferGas,                     body: JettonTransfer {                         queryId: 6,                         amount: prize,                         destination: sender(),                         responseDestination: myAddress(),                         customPayload: null,                         forwardTonAmount: ton("0.015"),                         forwardPayload: rawSlice("F")                     }.toCell()                 });             }         } else {             self.myJettonBalance += msg.amount;             self.forward(msg.sender, null, false, null);         }        }
 
-klass: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
+User<7759979758>: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
 
 Slava: It's not the first report of this issue. (reply to 62193)
 
@@ -7274,7 +7274,7 @@ Slava: I would've moved it to the top of the page or even renamed the page to re
 
 Kenny: Hi guys. I have 2 questions regarding the "Communication and messaging" chapter in the Reference.  1. What's the point of send() function? If I want to send a message without deploying a contract, I can use message() and it's even cheaper. If I want to send a message and deploy a contract if there's no contract, I can use deploy() and it's cheaper too. So when should I use send()?  2. Under which situation should I use sendRawMessage()? According to the TL-B definition of a message: int_msg_info$0 ihr_disabled:Bool bounce:Bool bounced:Bool   src:MsgAddressInt dest:MsgAddressInt    value:CurrencyCollection ihr_fee:Grams fwd_fee:Grams   created_lt:uint64 created_at:uint32 = CommonMsgInfo; ext_in_msg_info$10 src:MsgAddressExt dest:MsgAddressInt    import_fee:Grams = CommonMsgInfo; ext_out_msg_info$11 src:MsgAddressInt dest:MsgAddressExt   created_lt:uint64 created_at:uint32 = CommonMsgInfo;  message$_ {X:Type} info:CommonMsgInfo   init:(Maybe (Either StateInit ^StateInit))   body:(Either X ^X) = Message X; and the SendParameters: struct SendParameters {     mode: Int = SendDefaultMode;     body: Cell? = null;     code: Cell? = null;     data: Cell? = null;     value: Int;     to: Address;     bounce: Bool = true; }  It seems that SendParameters covers all settable fields except for IHR related fields (but anyway IHR mechanism isn't implemented yet).
 
-klass: Differ is in sugar and compilation result. Method "message" is universal, "send" & "deploy" — more specific.
+User<7759979758>: Differ is in sugar and compilation result. Method "message" is universal, "send" & "deploy" — more specific.
 
 /B4ckSl4sh\: send is general, while message and deploy are mose specific (reply to 62393)
 
@@ -7318,11 +7318,11 @@ fruitful-l: Should it be equal to jetton master address? Isn't it supposed to be
 
 — 2025-05-14 —
 
-Всеволод Игнатьев: The to address in SendParameters should be the Jetton wallet address (derived from the Jetton master contract and your contract’s address), not the Jetton master address. The Jetton wallet is the contract that holds the Jettons for your contract.
+Seva: The to address in SendParameters should be the Jetton wallet address (derived from the Jetton master contract and your contract’s address), not the Jetton master address. The Jetton wallet is the contract that holds the Jettons for your contract.
 
 fruitful-l: The contract I’m using this function in is not the jetton master. I was trying to send message to the contract’s jetton wallet, therefore I need its jetton address. I’m using inline function imported from another contract, and that was the error. It’s from the minter and has arguments: address(wallet), myAddress(Should be minter address, but since I imported it became another jetton wallet address), and balance. The solution was using initial function which I described above but with minter address and not myAddress() (reply to 62799)
 
-Всеволод Игнатьев: Thank you for such a detailed description and comments. Do you have you any additional issues now? (reply to 62830)
+Seva: Thank you for such a detailed description and comments. Do you have you any additional issues now? (reply to 62830)
 
 Angel Ⓜ️ MEMES: Please how does this work?
 
@@ -7330,7 +7330,7 @@ fruitful-l: Everything seems to be working, at least for now, thanks! (reply to 
 
 Angel Ⓜ️ MEMES: Anyone please 🙏 (reply to 62838)
 
-Всеволод Игнатьев: I did not got you clearly, what exactly do you mean by "this"? Is it a situation, issue, event or smthng else? How would you describe "this"? (reply to 62840)
+Seva: I did not got you clearly, what exactly do you mean by "this"? Is it a situation, issue, event or smthng else? How would you describe "this"? (reply to 62840)
 
 Sol: looking for orders for the development team
 
@@ -7344,4 +7344,10 @@ u: I can help you (reply to 35371)
 
 Kenny: Hi guys, me again 🥺 Under the hood, is a struct actually a tuple in TVM? For example: struct Coordinate {     x: Int as int32;     y: Int as int32; }  fun foo() {     let c = Coordinate {         x: 4,         y: 3,     }; } From TVM's perspective, is variable c a tuple with 2 integer elements, so x and y together form only one element on the stack? Or there are 2 integer elements on the stack, representing x and y namely?
 
-saniya: hiii goodmorning
+Hung: is jBTC token is legit? i just wanna use BTC in TON network for my projects
+
+Anton: It depends, but it’s usually two elements in the stack (reply to 62926)
+
+Kenny: Thanks!
+
+Seva: Me too (reply to 62882)

@@ -1,3 +1,7 @@
+talkol: Ledger has some insanely bad decisions too, it’s not perfect  For example, passphrase has to be typed on the device using only 2 buttons which make people either avoid passphrase or take a short 4-6 character one which can easily be brute forced. Passphrase should always be used so then device doesn’t hold the full private key and it should be at least 14-15 characters so brute forcing it becomes difficult
+
+NuSs: hi, how can i get test tons? I tried a bot in teleram, but I could never get any ton :( (reply to 14284)
+
 doni: is your wallet on testnet ? (reply to 14285)
 
 Rasoul: It is strange to me that no one knows the answer (reply to 14272)
@@ -3060,7 +3064,7 @@ Chun Hsin: does anyone have a db snapshot for the toncenter indexer? https://git
 
 Tim: Did you install archive node from archive dump?
 
-tk.crypt0x | Drops💧🆙 UXUY: Im new here, I just saw this TON recently..im interested in the project
+tk.crypt0x | Drops💧🆙 UXUY $IFR 🔜: Im new here, I just saw this TON recently..im interested in the project
 
 Chun Hsin: yes (reply to 17306)
 
@@ -5236,7 +5240,7 @@ Dev: Yes that's video. I will watch it now
 
 Nati: Is there any TL-B to PyTONLib class convertor?  If not, would it be useful if I create one, or it'll be useless?  I feel like it's a tedious work to not automate.
 
-Omid: hi  How to display the jetton transaction in JavaScript
+User<135516283>: hi  How to display the jetton transaction in JavaScript
 
 Mohammed: It was released last week (reply to 19185)
 

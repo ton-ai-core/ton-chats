@@ -9266,7 +9266,7 @@ Corn: Do they have a certain value in real usdt? Is it possible to say how much?
 
 &rey: You'd need to do your own research to find any value. (reply to 40601)
 
-ℝ𝕒𝕒𝕊: ✅ You’ve received: 0.000000001 TON (forwarded from Wallet)
+ℝ𝕒𝕒𝕊: ✅ You’ve received: 0.000000001 TON (forwarded from Кошелёк)
 
 ℝ𝕒𝕒𝕊: transferd 10 to my telegram
 
