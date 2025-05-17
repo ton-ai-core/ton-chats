@@ -3028,7 +3028,7 @@ Amir: I'm still a programmer and I'm interested in it, but in some situations, i
 
 &rey: Well literally https://github.com/yungwine/pytvm/blob/9956750c81e4aff07e1efc85936e67c253023159/examples/get_method.py#L22-L36. (reply to 135514)
 
-Alexander: It is possible to learn something without an income (reply to 135521)
+мельниц: It is possible to learn something without an income (reply to 135521)
 
 Amir: Can you live without income? (reply to 135523)
 
@@ -9172,7 +9172,7 @@ Mr.AiKen: Good afternoon, does anyone have a link to any documentation on develo
 
 &rey: Mind possible scam. (reply to 144153)
 
-filatov: why brother? (reply to 144154)
+叶戈尔: why brother? (reply to 144154)
 
 WhyesCode: It is a warning ⚠️ (reply to 144155)
 
@@ -11714,7 +11714,7 @@ Samyar: Hi, has anyone encountered the problem with tonconnect in miniapps that 
 
 Samyar: for tonkeeper (reply to 147663)
 
-Дмитрий: Hi , I need a code in node.js from which I can send tokens from wallet to another wallet
+Ted Kaczynski: Hi , I need a code in node.js from which I can send tokens from wallet to another wallet
 
 Mojisola🍅 🍅: I have this code (reply to 147666)
 
@@ -11750,23 +11750,23 @@ wy: hi how can i make a pull request. i would like to verify my token
 
 Combot: Combot has warned Georgiy Komarov (1/3) Reason: Word **** is not allowed
 
-Артур: Hello everyone! Does anyone know if there’s a way to verify on-chain that an NFT belongs to a certain collection? I mean, I can’t call get_collection_data on-chain because it’s a get-method. And I can’t rely on get_static_data / report_static_data, because these messages can be faked.
+Artur: Hello everyone! Does anyone know if there’s a way to verify on-chain that an NFT belongs to a certain collection? I mean, I can’t call get_collection_data on-chain because it’s a get-method. And I can’t rely on get_static_data / report_static_data, because these messages can be faked.
 
 TON Bounty Bridge: ​Trouble  Created by 4ak7P
 
 Mojisola🍅 🍅: can't you call directly the contract address of the nft? (reply to 147799)
 
-Артур: Yes, I can call the get_static_data method of the NFT item contract and get a response with information about the collection. But that information can be faked. Someone could create a fake NFT item contract that claims the NFT belongs to a collection it doesn’t actually belong to. (reply to 147801)
+Artur: Yes, I can call the get_static_data method of the NFT item contract and get a response with information about the collection. But that information can be faked. Someone could create a fake NFT item contract that claims the NFT belongs to a collection it doesn’t actually belong to. (reply to 147801)
 
-Артур: It would be great if the NFT collection contract had a method that could confirm whether a given NFT actually belongs to that collection. Unfortunately, TEP-62 doesn’t provide for such a method. (reply to 147802)
+Artur: It would be great if the NFT collection contract had a method that could confirm whether a given NFT actually belongs to that collection. Unfortunately, TEP-62 doesn’t provide for such a method. (reply to 147802)
 
 &rey: You can "import" collection address, data and code into your contract — more precisely, place these cells in whatever way you see fit. Then, call https://github.com/ProgramCrafter/tvm-quirks/blob/master/ok-nft-addr-onchain.fc. (reply to 147799)
 
-Артур: Yes, but my goal is to make my contract compatible with any contract that implements the NFT standard. So unfortunately, hardcoding the collection’s data and code isn’t a viable option for me. (reply to 147804)
+Artur: Yes, but my goal is to make my contract compatible with any contract that implements the NFT standard. So unfortunately, hardcoding the collection’s data and code isn’t a viable option for me. (reply to 147804)
 
 &rey: Those could be set on contract deployment, for most applications I can imagine. (reply to 147805)
 
-Артур: I hadn’t considered that approach 🤔 I’ll give it a try—thank you! (reply to 147806)
+Artur: I hadn’t considered that approach 🤔 I’ll give it a try—thank you! (reply to 147806)
 
 Mojisola🍅 🍅: what's the scope though, is it going to be your own created nfts or nfts from other people?  if from others, not sure you can run away from fakes except you manually check originals
 
@@ -11934,7 +11934,7 @@ Boris: address is UQDCxTpNnwrU8IuuBbPe2vCBWY7ZbJdz9ldNyBP5mB8TQQz2
 
 jennifer [afk]: u need to make transaction (reply to 148110)
 
-Артур: At least one outgoing transaction is required (reply to 148110)
+Artur: At least one outgoing transaction is required (reply to 148110)
 
 Boris: ok thanks (reply to 148113)
 
@@ -12319,3 +12319,43 @@ Shemhamforash: You always, want to use native scanner not a 3rd party ones
 &rey: Nope. Native one, which is https://explorer.toncoin.org/status, is kinda not convenient to use. (reply to 148584)
 
 Shemhamforash: https://tonscan.org/ is also good (reply to 148585)
+
+— 2025-05-16 —
+
+Alexander: Hello everyone. Is there a way to on-chain verify that the STON.fi router address passed to the contract actually belongs to STON.fi? DeDust has this option and it is implemented by creating a proof for a specific pair of jettons (there is an example in their sdk), which does not allow funds to be sent to the hacker's wallet
+
+Denis: You can't verify this (reply to 148610)
+
+Alexander: Can't verify only for STON fi? Is this implementation for DeDust absolutely correct?  // DeDust contract type const DEDUST_CONTRACT_TYPE_VAULT: Int = 1; const DEDUST_CONTRACT_TYPE_POOL: Int = 2; const DEDUST_CONTRACT_TYPE_LIQUIDITY_DEPOSIT: Int = 3;  // DeDust factory address const DEDUST_FACTORY_ADDRESS: Address = address(   "EQBfBWT7X2BHg9tXAxzhz2aKiNTU1tpt5NsiK0uSDW_YAJ67" );  // DeDust contract code const DEDUST_BLANK_CODE: Cell = cell(   "te6ccgEBBAEAlgABFP8A9KQT9LzyyAsBAgJwAwIACb8pMvg8APXeA6DprkP0gGBB2onai9qPHDK3AgFA4LEAIZGWCgOeLAP0BQDXnoGSA/YB2s/ay9rI4v/aIxx72omh9IGmDqJljgvlwgcIHgmmPgMEITZ1R/V0K+XoB6Z+AmGpph4CA6hD9ghDodo92qYgjCCLBAHKTdqHsdqD2+ID5f8=" );  // Create proof to confirm DeDust address fun createProofAddress(   factoryAddress: Address,   contractType: Int,   jettonAddress: Address? ): Address {   let data = beginCell()     .storeAddress(factoryAddress)     .storeUint(contractType, 8);    if (jettonAddress == null) {     data = data.storeUint(0b0000, 4);   } else {     let parsedAddress = parseStdAddress(jettonAddress!!.asSlice());      data = data       .storeUint(0b0001, 4)       .storeInt(parsedAddress.workchain, 8)       .storeUint(parsedAddress.address, 256);   }    return contractAddress(     StateInit {       code: DEDUST_BLANK_CODE,       data: data.endCell()     }   ); }  // Create proof to confirm the DeDust vault address fun createVaultProofAddress(   factoryAddress: Address,   jettonAddress: Address? ): Address {   return createProofAddress(     factoryAddress,     DEDUST_CONTRACT_TYPE_VAULT,     jettonAddress   ); }  // Verification of DeDust vault address fun verifyVaultAddress(   vaultAddress: Address,   factoryAddress: Address,   jettonAddress: Address? ) {   require(     vaultAddress == createVaultProofAddress(factoryAddress, jettonAddress),     "Invalid DeDust vault address"   ); } code taken from DeDust sdk (reply to 148612)
+
+Andrei: Hey! Quick question. Can somebody please tell what are the common reasons for transaction being marked as suspicious on tonviewer?
+
+Denis: Usually long text with some keywords and low amount attached to message (reply to 148614)
+
+Denis: Yes (reply to 148613)
+
+Alexander: This means that there are 2 solutions for absolute security of swaps: 1. Refuse STON fi and use only DeDust 2. Create a multisig contract that stores all STON fi router addresses and manually update them when new routers appear Right? Do you think that no one has yet implemented the second point in the same way? (reply to 148617)
+
+Lasha: Hi, I’d like to install Func on Ubuntu. Could you please share an article or guide on how to do that?
+
+Andy: Hi! Is there any way to accept_message an internal message with a value of one nanoton, to pay for everything from contract's balance?
+
+&rey: No. TVM is already not launched for it. (reply to 148642)
+
+Master: Who can help me with my project? I need to create a Lenling website and a Telegram bot on a volunteer basis. Please become my partner in developing my project.
+
+Combot: Combot has warned Daivd Eason (1/3) Reason: Word ***** is not allowed (reply to 148644)
+
+Daivd: open source? (reply to 148644)
+
+BizX: Hey, what kind of project are you developing? (reply to 148644)
+
+Slava: Anyway, you need to pay forward fees to send the message in the first place, why not pay minimal gas fees as well? (reply to 148642)
+
+Andy: That's true. The case I'm considering is doing something on-chain once a simple jetton transfer from a wallet is received (which at least in mytonwallet generates a transfer notification with 1 nanoton) (reply to 148652)
+
+Slava: It can be zero with the same effect. Just increase the value. (reply to 148656)
+
+— 2025-05-17 —
+
+Nasri: Hi guys, can i check if there is a developer program on TON?

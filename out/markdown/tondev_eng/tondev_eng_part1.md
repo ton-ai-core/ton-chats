@@ -6048,7 +6048,7 @@ shahar: Announcing Jetton Deployer:  we've created a webapp which allows anyone 
 
 shahar: hello, sure
 
-Lisa OOO: Hack-a-TON  The first-ever Hack-a-TON, with a total prize fund of 40,000 TON!   The brainstorming is about to begin 😉 All you need to participate is JavaScript and fresh ideas. The TON team will provide all the participants with an SDK and ready-made smart contracts. Get ready to gather a group of 4 people (or fewer).   It kicks off on Friday, July 1! The hack-a-TON will run for 48 hours. We will provide you with all the details later.
+Lisa: Hack-a-TON  The first-ever Hack-a-TON, with a total prize fund of 40,000 TON!   The brainstorming is about to begin 😉 All you need to participate is JavaScript and fresh ideas. The TON team will provide all the participants with an SDK and ready-made smart contracts. Get ready to gather a group of 4 people (or fewer).   It kicks off on Friday, July 1! The hack-a-TON will run for 48 hours. We will provide you with all the details later.
 
 User<1130209015>: Does anyone have a link to funC tutorial? I couldn’t find anything on YouTube
 
@@ -8984,7 +8984,7 @@ Daniil: what am I doing wrong in jetton transfering?
 
 Daniil: toAddress must be my jetton wallet address and payload.toAddress must be jetton wallet address to which I'm sending jettons, right?
 
-Lisa OOO: Hi, contestants! Long time no see 😉  We are here to announce the next TON Smart Challenge with a total prize fund over 16,000 TON. The contest begins on August 4, 12:00 UTC and will last until 11 of August, 18:00 UTC.   TON Smart Challenge #2 is focused on giving opportunities to developers only starting their path of mastering FunC and smart contract development and will comprise five simple tasks, which will be automatically scored on submission. You can prepare for the contest by studying official docs and setting up a developer’s environment.  To participate and get more information go to the website.
+Lisa: Hi, contestants! Long time no see 😉  We are here to announce the next TON Smart Challenge with a total prize fund over 16,000 TON. The contest begins on August 4, 12:00 UTC and will last until 11 of August, 18:00 UTC.   TON Smart Challenge #2 is focused on giving opportunities to developers only starting their path of mastering FunC and smart contract development and will comprise five simple tasks, which will be automatically scored on submission. You can prepare for the contest by studying official docs and setting up a developer’s environment.  To participate and get more information go to the website.
 
 ba5defghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkl: oh (reply to 8993)
 
@@ -12384,15 +12384,15 @@ altoshi: You don’t have redirect from http to https (reply to 11510)
 
 Hemi: thanks all, fixed.
 
-Lisa OOO: Hey, everyone! As a part of offline Hack-a-TONx Prague, today will be the lecture about Telegram Web Apps development. Join us to have fun and hacks. All the details in the post below ✌️
+Lisa: Hey, everyone! As a part of offline Hack-a-TONx Prague, today will be the lecture about Telegram Web Apps development. Join us to have fun and hacks. All the details in the post below ✌️
 
-Lisa OOO: Hey, everyone! We continue preparing for the Hack-a-TONx Prague — an independent offline event by the Czech blockchain community with the support of TON Foundation. The topic for today is highly anticipated — Telegram Web Apps: tips and hacks 🔥🔥🔥  Artur Stambultsian, frontend developer at @wallet will share his experience of creating TWAs. Telegram's new initiative makes it possible to significantly improve user interaction with bots. In addition to the documentation and SDK, provided by Telegram team, Artur will speak about the infrastructure that he has built with the team while working on @wallet.   Tools to greatly simplify the TWA are guaranteed.  🗓28 Sept, 17:00 UTC Telegram Web Apps: tips and hacks  Follow the translation on the Tonana team channel and don’t forget to ask your questions. We also provide the record after the live stream 🙌 (forwarded from TON Society)
+Lisa: Hey, everyone! We continue preparing for the Hack-a-TONx Prague — an independent offline event by the Czech blockchain community with the support of TON Foundation. The topic for today is highly anticipated — Telegram Web Apps: tips and hacks 🔥🔥🔥  Artur Stambultsian, frontend developer at @wallet will share his experience of creating TWAs. Telegram's new initiative makes it possible to significantly improve user interaction with bots. In addition to the documentation and SDK, provided by Telegram team, Artur will speak about the infrastructure that he has built with the team while working on @wallet.   Tools to greatly simplify the TWA are guaranteed.  🗓28 Sept, 17:00 UTC Telegram Web Apps: tips and hacks  Follow the translation on the Tonana team channel and don’t forget to ask your questions. We also provide the record after the live stream 🙌 (forwarded from TON Society)
 
 Slava: Are you planning to publish the recording later on? I'm sure not everyone will be able to participate personally. Developers are busy people :) (reply to 11534)
 
-Lisa OOO: Sure, the last sentence in the post claims exactly your suggestion) (reply to 11536)
+Lisa: Sure, the last sentence in the post claims exactly your suggestion) (reply to 11536)
 
-Lisa OOO: We have just started the stream, join us here. (reply to 11534)
+Lisa: We have just started the stream, join us here. (reply to 11534)
 
 talkol: it's not officially launched yet (reply to 11540)
 
@@ -12422,13 +12422,13 @@ User<59608113>: Hello guys, I'm going to attend the Tonana Hack-A-TON x Prague  
 
 User<59608113>: Just in case here is the list of all guests:  ▫️Roman Krutovoy will talk about TON Blockchain and Telegram Ecosystem ▫️Artur Stambultsyan will talk about TWA, what to do with them and how ▫️Jakub Jedlinsky, Ph.D at VSE, will talk about Gaming DAOs ▫️Tamara Bizyuk from Tatum, will lead a workshop on understanding the product ▫️Vadim Keff from T7T lab, talks about how to conduct user research ▫️Eugen Anisey from Tonana will hold a master class on grants and networking ▫️Jan Silhavy from The Crypto Headhunter will talk about how to create a team ▫️Nikita Moskalenko from Hexit Capital will talk about how to start fundraising   ▫️Volodymyr Manoilo from Wargaming & Studentspeak will talk about Game Marketing ▫️TON Play team about gamification and general marketing in Web3.0  https://docs.google.com/forms/d/e/1FAIpQLSdG8YY1ixMb1m1STSj-eCLbmOy4VC_a4D3L9DhDRPTxvLm1xQ/viewform
 
-Lisa OOO: Hi, everyone!  Don't miss the workshop on TWA template today at 13:00 UTC, read the info below 👇
+Lisa: Hi, everyone!  Don't miss the workshop on TWA template today at 13:00 UTC, read the info below 👇
 
-Lisa OOO: Good day, everyone!  Last, but not least lecture in the series of workshops during the Hack-a-TONx Prague preparation will focus on a template for a project that one may use for creating a TWA connected to TON.  The speaker for today is Shahar Yakir, jetton.live creator at Orbs. Shahar is a great technical expert of TON, he writes frontend, backend, and smart contracts.  Today on the stream Shahar will revolve around using the template and modifying the GitHub repo, that he has prepared for the community. It allows participants to fork it to add their own functionality, connect wallets and etc.   After the workshop one may do a basic operation against TON, f.e. transfer TON, work with Jettons and more 🙌  29 Sept, 13:00 UTC Jumpstart at TON ecosystem: dive to TWAs  See you soon at the live stream 👈 Don’t forget to ask questions, we will give 30 TON for the best one 😉 (forwarded from TON Society)
+Lisa: Good day, everyone!  Last, but not least lecture in the series of workshops during the Hack-a-TONx Prague preparation will focus on a template for a project that one may use for creating a TWA connected to TON.  The speaker for today is Shahar Yakir, jetton.live creator at Orbs. Shahar is a great technical expert of TON, he writes frontend, backend, and smart contracts.  Today on the stream Shahar will revolve around using the template and modifying the GitHub repo, that he has prepared for the community. It allows participants to fork it to add their own functionality, connect wallets and etc.   After the workshop one may do a basic operation against TON, f.e. transfer TON, work with Jettons and more 🙌  29 Sept, 13:00 UTC Jumpstart at TON ecosystem: dive to TWAs  See you soon at the live stream 👈 Don’t forget to ask questions, we will give 30 TON for the best one 😉 (forwarded from TON Society)
 
 Slava: The default values are configured in systemd service as far as I know. (reply to 11552)
 
-Lisa OOO: Starting in several minutes, tap to join us! ✌️ (reply to 11556)
+Lisa: Starting in several minutes, tap to join us! ✌️ (reply to 11556)
 
 Артем: Hi everyone  Is there Ton design system(UI/UX)? In Figma, etc.
 
@@ -13808,9 +13808,9 @@ Shawn: Hi all! Shawn again from Orbs! Just yesterday we (Orbs) published a TON g
 
 Silvio: Hello everyone. I would like to ask a technical question about the TON Bridge and the new possibility of transferring tokens:  The bridge fee is quite high for ordinary users, is there no way to reduce it? Is it created like this on purpose?  Note: I mean the main bridge, the token bridge has a low fee.
 
-Lisa OOO: Don't miss such a livestream today ✌️
+Lisa: Don't miss such a livestream today ✌️
 
-Lisa OOO: Hack-TON-berfest livestream  Hacktoberfest is underway for open-source projects on TON and will close in a week.   More than 20 TON projects need help from contributors, so all developers are encouraged to join the festival!  Hack-TON-berfest is an excellent opportunity to make the first step toward building a reputation in the TON community, contribute to the development of the Web3 internet, and receive a limited-edition NFT.  Today, Oct. 24 at 16:00 (UTC), people will be able to join a livestream where they’ll learn how to make a quality Pull Request, the reasons why people should participate in such an event, and how open-source development influences the growth of the TON ecosystem.  The stream will be hosted by:  — Danila Volkov, creator of the first mining pool on TON and one of the developers at Whales Corp.  — Mark Okman, another member of the TonWhales team and creator of YouTube and Telegram channels on programming on TON and in the world of Web3.  The stream will be held on YouTube and on TON Society’s channel.  We recommend all beginners join the stream of open-source development who want to join the festival but don’t know where to start. (forwarded from TON Society)
+Lisa: Hack-TON-berfest livestream  Hacktoberfest is underway for open-source projects on TON and will close in a week.   More than 20 TON projects need help from contributors, so all developers are encouraged to join the festival!  Hack-TON-berfest is an excellent opportunity to make the first step toward building a reputation in the TON community, contribute to the development of the Web3 internet, and receive a limited-edition NFT.  Today, Oct. 24 at 16:00 (UTC), people will be able to join a livestream where they’ll learn how to make a quality Pull Request, the reasons why people should participate in such an event, and how open-source development influences the growth of the TON ecosystem.  The stream will be hosted by:  — Danila Volkov, creator of the first mining pool on TON and one of the developers at Whales Corp.  — Mark Okman, another member of the TonWhales team and creator of YouTube and Telegram channels on programming on TON and in the world of Web3.  The stream will be held on YouTube and on TON Society’s channel.  We recommend all beginners join the stream of open-source development who want to join the festival but don’t know where to start. (forwarded from TON Society)
 
 rm -rf /*: Hi. Who has a node with a validator, write to me, I have a couple of questions. I am ready to pay your time $.
 

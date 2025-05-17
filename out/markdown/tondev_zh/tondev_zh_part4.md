@@ -8515,3 +8515,55 @@ Combot: Toe Toe Lwin, Каппов Александр #Extra#LA#dxf#AKS#ФСБ h
 — 2025-05-16 —
 
 Combot: FaRES aMz has been banned! Reason: CAS ban.
+
+Katiya｜TON: $TON 家人们：  5月21日至22日欢迎來第五屆全球產品與增長出海展會，現場見一面吧！  🔥連結知名出海企業 🔥解鎖海外流量增長新機會 🔥學習海外流量增長策略  🔗报名注册：掃描海報上的二維碼，立即報名！ (forwarded from TON Society Hong Kong Announcements)
+
+Combot: Magic Man has been banned! Reason: CAS ban.
+
+Combot: Goddess, Anna ⁪⁬⁮⁮⁮⁮, Trường Nguyễn Văn, Paws have been banned! Reason: CAS ban.
+
+Combot: Ибраева Жузика has been banned! Reason: CAS ban.
+
+Combot: ᅠ has been banned! Reason: CAS ban.
+
+Combot: silent_king24 has been banned! Reason: CAS ban.
+
+Combot: manusia biasa has been banned! Reason: CAS ban.
+
+Milad: سلام
+
+Milad: چجوری میتونم نصبش کنم
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
+
+Rose: Yeah, I don't like your flooding. Xx has been muted.
+
+Koim: For sell
+
+Combot: Masters-Chief has been banned! Reason: CAS ban.
+
+— 2025-05-17 —
+
+Rose: You need to be an admin to do this. (reply to 89763)
+
+Combot: Catherine ⁪⁬⁮⁮⁮⁮ has been banned! Reason: CAS ban.
+
+Combot: вера🪼 has been banned! Reason: CAS ban.

@@ -2852,7 +2852,7 @@ User<6194487905>: Hello, could anyone help me about ston-fi sdk?
 
 liminal: https://youtu.be/0-A2IuK3KcA
 
-Lisa OOO: Hey devs!  We need your brutally honest thoughts on ton.org website. Do you find it easy to use or do you have any suggestions to make it better?  Please do us a solid and fill out our feedback form. You'll be done with the form quicker than you can say "supercalifragilisticexpialidocious"!  Your input is incredibly valuable to us, and we are grateful for any help you can give us.  Thanks a TON ❤️
+Lisa: Hey devs!  We need your brutally honest thoughts on ton.org website. Do you find it easy to use or do you have any suggestions to make it better?  Please do us a solid and fill out our feedback form. You'll be done with the form quicker than you can say "supercalifragilisticexpialidocious"!  Your input is incredibly valuable to us, and we are grateful for any help you can give us.  Thanks a TON ❤️
 
 Aina: Hey guys! I want to share some news on behalf of TON Play:  TON Play has released the Unity SDK + payment management for games!  TON Play, a toolkit for developers, has introduced Pay-in, Mass payout, and On-demand payout methods that are easy to incorporate into a product.  The payment solution allows you to: 💸 get paid by Telegram users in TON 💸 add mass payouts in TON to games with cash prizes 💸 automate payouts on user demand  But that’s not all! TON Play has simplified interaction with the TON blockchain and WebApps on Telegram by releasing SDKs, allowing projects to manage assets and in-game marketplace. SDKs are written in Unity, Python, and Typescript.  What do you have to do to connect all these solutions? ✔️ subscribe to TON Play Insider ✔️ take SDK and payment solutions ✔️ in case of questions, write to @tonplay_devs or gamedevs@tonplay.io.
 
@@ -5850,9 +5850,9 @@ Yuri: Can I use Ton Connect on TWAPs?
 
 Andrew: multisig is better to create separately from versioning simple wallets (reply to 29254)
 
-Lisa OOO: Join our livestream about FunC ❤️
+Lisa: Join our livestream about FunC ❤️
 
-Lisa OOO: Join us tomorrow for an epic workshop hosted by none other than Mark Okhman — the DevRel Manager at TON Foundation! Mark will be diving into the world of FunC smart programming, and it's going to be mind-blowing.  Make sure to set a reminder because Mark's workshop kicks off tomorrow at 16:00 GMT+4.  Just click on the link below to hop in and be part of this awesome experience!   Link to workshop 👈  Save the date. See you there, folks! (forwarded from TON Society)
+Lisa: Join us tomorrow for an epic workshop hosted by none other than Mark Okhman — the DevRel Manager at TON Foundation! Mark will be diving into the world of FunC smart programming, and it's going to be mind-blowing.  Make sure to set a reminder because Mark's workshop kicks off tomorrow at 16:00 GMT+4.  Just click on the link below to hop in and be part of this awesome experience!   Link to workshop 👈  Save the date. See you there, folks! (forwarded from TON Society)
 
 Дмитрий: Why might this error occur? What did I do wrong? I'm running an example code Jetton TonTools
 

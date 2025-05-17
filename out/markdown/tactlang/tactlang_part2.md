@@ -12006,7 +12006,7 @@ Ksms: I need to review q contract written in tact and I come from solidity. what
 
 Ksms: also is tact production ready?has it been audited? I recenlty found a post from 2023 where the main dev was advising against using it for applications handling more than 10k in funds
 
-Артур: Hi everyone!  I have this contract:  import "@stdlib/deploy";  message(0x05138d91) OwnershipAssigned {     query_id: Int as uint64;     prev_owner: Address;     forward_payload: Slice as remaining; }  contract TempContract with Deployable {     id: Int as uint16;     nftReceived: Bool;      init(id: Int) {         self.id = id;         self.nftReceived = false;     }      receive(msg: OwnershipAssigned) {         self.nftReceived = true;     }      get fun isNftReceived(): Bool {         return self.nftReceived;     } }  Could anyone tell me why  isNftReceived  returns false  after NFT was sent to the contract?   transaction id: 9fc01c6e272497f975e8d10f0f085000eb3661385b28f6dde0a3befd3be4c725 contract address: 0QAgJD5pmyNPcsfjEaBbrBrW98RYK8WLGfRY6fGUMAXC1ZSq network: testnet
+Artur: Hi everyone!  I have this contract:  import "@stdlib/deploy";  message(0x05138d91) OwnershipAssigned {     query_id: Int as uint64;     prev_owner: Address;     forward_payload: Slice as remaining; }  contract TempContract with Deployable {     id: Int as uint16;     nftReceived: Bool;      init(id: Int) {         self.id = id;         self.nftReceived = false;     }      receive(msg: OwnershipAssigned) {         self.nftReceived = true;     }      get fun isNftReceived(): Bool {         return self.nftReceived;     } }  Could anyone tell me why  isNftReceived  returns false  after NFT was sent to the contract?   transaction id: 9fc01c6e272497f975e8d10f0f085000eb3661385b28f6dde0a3befd3be4c725 contract address: 0QAgJD5pmyNPcsfjEaBbrBrW98RYK8WLGfRY6fGUMAXC1ZSq network: testnet
 
 — 2024-09-28 —
 
@@ -12704,7 +12704,7 @@ Tiqan: So i will have to send the data for the initOf with it. Got it
 
 traceur: Hi all, does Tact support keccak256 function to calculate some data’s hash?
 
-KT_LeThang: Does anyone have an example of writing an ICO contract on TON using Tact that I can refer to?
+Thang: Does anyone have an example of writing an ICO contract on TON using Tact that I can refer to?
 
 Baldwin: you can hire me 😄 (reply to 42479)
 
@@ -12946,15 +12946,15 @@ Illia: Do wallets like Tonkeeper already support them? (reply to 42792)
 
 ⁭: When nft?
 
-Артур: Hello! Could anybody tell me why building this contract fails with this message:  Error: contracts\bank_account_contract.tact:5:1: Type "BankAccountContract" already exists Line 5, col 1:   4 | > 5 | contract BankAccountContract with Deployable {       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   6 |     id: Int as uint16;  import "@stdlib/deploy"; import "./messages"; import "./bank_cell_contract";  contract BankAccountContract with Deployable {     id: Int as uint16;      init(msg: DeployBankAccount) {         self.id = msg.id;     } }  I did not define contract BankAccountContract anywhere else in the code. Is this name reserved or smth?
+Artur: Hello! Could anybody tell me why building this contract fails with this message:  Error: contracts\bank_account_contract.tact:5:1: Type "BankAccountContract" already exists Line 5, col 1:   4 | > 5 | contract BankAccountContract with Deployable {       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   6 |     id: Int as uint16;  import "@stdlib/deploy"; import "./messages"; import "./bank_cell_contract";  contract BankAccountContract with Deployable {     id: Int as uint16;      init(msg: DeployBankAccount) {         self.id = msg.id;     } }  I did not define contract BankAccountContract anywhere else in the code. Is this name reserved or smth?
 
-Артур: other contracts building with no errors (even those that deploy BankAccountContract) (reply to 42834)
+Artur: other contracts building with no errors (even those that deploy BankAccountContract) (reply to 42834)
 
 Tiqan: Do you import BankAccountContract in  messages or bank_cell_contract ? (reply to 42835)
 
-Артур: yes :( (reply to 42836)
+Artur: yes :( (reply to 42836)
 
-Артур: oh its circular import...
+Artur: oh its circular import...
 
 Tiqan: Thats a circular import
 
@@ -12962,7 +12962,7 @@ Tiqan: es (reply to 42838)
 
 Tiqan: *yes
 
-Артур: got it.. thank you! (reply to 42839)
+Artur: got it.. thank you! (reply to 42839)
 
 Tiqan: You are Welcome ❤️
 

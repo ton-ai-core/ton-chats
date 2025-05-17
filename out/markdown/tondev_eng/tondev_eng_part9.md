@@ -1330,11 +1330,11 @@ Tom: For "ton", I set it to idx = false, crc = true
 
 Daniel: Admins, someone can ask me? (reply to 106081)
 
-Ali: Hi there I want to build SDK for a new programming language on TVM What way do you suggest? From what level is it possible to add a programming language in TVM?
+Akadi: Hi there I want to build SDK for a new programming language on TVM What way do you suggest? From what level is it possible to add a programming language in TVM?
 
-Ali: Or where can I find an answer to this question?
+Akadi: Or where can I find an answer to this question?
 
-Ali: @opensource
+Akadi: @opensource
 
 Small: Can a ton contract initiate a bounced message?
 
@@ -6680,7 +6680,7 @@ Arthur: i try both variants (reply to 116495)
 
 Arthur: https://tonscan.org/ru/tx/b16a1366c79504a51aa124933a559e0d35e20f80aabb9e9f60614d0c8f44c488 - my transaction https://tonscan.org/ru/tx/acd52d68e5e789b2209ac328bd581d5b26b1d8b3b69390901bfe816458b1a1c1#overview - ok transacrion
 
-Артур: Hello! Could anybody tell me which class from the ton/ton library corresponds to the W5 Tonkeeper wallet? WalletContractV5R1? I'm trying to check if wallet contract is deployed and it gives me "false" all the time (but it is deployed and has multiple transactions done already). Here is the code:      const walletMnemonic = "my mnemonic exported from TonKeeper app"     const walletKeyPair = await mnemonicToWalletKey(walletMnemonic.split(" "))     const endpoint = await getHttpEndpoint({ network: "testnet" })     const tonClient = new TonClient({ endpoint })     const wallet = WalletContractV5R1.create({ publicKey: walletKeyPair.publicKey, workchain: 0 })     const isContractDeployed = await tonClient.isContractDeployed(wallet.address)     console.log("isContractDeployed: ", isContractDeployed)     const walletContract = tonClient.open(wallet)  I tried to use WalletContractV5R1 and WalletContractV4 but result is the same.
+Artur: Hello! Could anybody tell me which class from the ton/ton library corresponds to the W5 Tonkeeper wallet? WalletContractV5R1? I'm trying to check if wallet contract is deployed and it gives me "false" all the time (but it is deployed and has multiple transactions done already). Here is the code:      const walletMnemonic = "my mnemonic exported from TonKeeper app"     const walletKeyPair = await mnemonicToWalletKey(walletMnemonic.split(" "))     const endpoint = await getHttpEndpoint({ network: "testnet" })     const tonClient = new TonClient({ endpoint })     const wallet = WalletContractV5R1.create({ publicKey: walletKeyPair.publicKey, workchain: 0 })     const isContractDeployed = await tonClient.isContractDeployed(wallet.address)     console.log("isContractDeployed: ", isContractDeployed)     const walletContract = tonClient.open(wallet)  I tried to use WalletContractV5R1 and WalletContractV4 but result is the same.
 
 kheil117: Hi, I'd like to retrieve smart contract data that is not available through a defined method, is there a way to get it (I will then parse it manually) ?
 
@@ -12052,11 +12052,11 @@ User<7062442470>: Hi all. I'm trying to simulate a swap on stonfi, but it gives 
 
 User<7062442470>: Help pls😢 (reply to 126888)
 
-Артур: Hey everyone! I’m currently working on creating a smart contract that can receive NFTs. I’m curious about how I can make it check which collection an NFT belongs to. Has anyone else encountered this issue and has any solutions?
+Artur: Hey everyone! I’m currently working on creating a smart contract that can receive NFTs. I’m curious about how I can make it check which collection an NFT belongs to. Has anyone else encountered this issue and has any solutions?
 
 &rey: Well it's pretty hard, one has to pass StateInit for both collection and NFT which'd have to be cross-checked... (reply to 126925)
 
-Артур: I guess one way is to call GetStaticData and check if msg.collection == self.targer_collection 🤔 But this approach adds even more moving parts such as checking that ReportStaticData was not forged etc. (reply to 126927)
+Artur: I guess one way is to call GetStaticData and check if msg.collection == self.targer_collection 🤔 But this approach adds even more moving parts such as checking that ReportStaticData was not forged etc. (reply to 126927)
 
 Freed: do you want to deploy jetton smart contact and then distribute it among other wallets? (reply to 126935)
 

@@ -10190,7 +10190,7 @@ Zaitsev [will never DM you first]: Could anyone check this out please? Thanks in
 
 Diat: In other words, I need to transfer funds into that wallet before calling the isContractDeployed function, right? (reply to 50026)
 
-Артур: Hello! Does anybody know is it possible to create a TON wallet programmatically? I mean using SDKs
+Artur: Hello! Does anybody know is it possible to create a TON wallet programmatically? I mean using SDKs
 
 K.: Of course :) You may find this useful: https://tonhelloworld.com/01-wallet/ (reply to 50032)
 
@@ -13098,13 +13098,13 @@ Heydar: #Question   I have this code:  (slice, int, int, int, int, int, cell) lo
 
 Heydar: Sorry what's meaning of hops? (reply to 52937)
 
-Артур: Hello guys! Can you advice me an IPFS to store NFT assets?
+Artur: Hello guys! Can you advice me an IPFS to store NFT assets?
 
 Yakitori: "hops" in this context are cross-contract messages.  Say for instance I send jettons to a contract, in order to get something done in the contract e.g mint other jettons as part of a presale.   The later contract fails, because there are no jettons left to be sold.   Does the whole transaction reverts, or does only the presale contract part of the call? In this case, I wouldn't get my jettons back, right? (reply to 52939)
 
 Grigory: Гетгеймс онли (reply to 52941)
 
-Артур: thank you! can you provide a link, please? (reply to 52943)
+Artur: thank you! can you provide a link, please? (reply to 52943)
 
 Heydar: Sorry  ,Im noob,I just was interesting to learn that too.  but In my opinion Its dependent the implementation (in jetton it seems it will be back). maybe this help you too: https://docs.ton.org/img/interaction-schemes/ecosystem.svg (reply to 52942)
 
@@ -13114,7 +13114,7 @@ Grigory: https://getgems.io/
 
 Grigory: Гугл в помощь😁👋
 
-Артур: oh no, im looking for IPFS storage (not NFT market) (reply to 52949)
+Artur: oh no, im looking for IPFS storage (not NFT market) (reply to 52949)
 
 Grigory: https://t.me/hackatonx
 

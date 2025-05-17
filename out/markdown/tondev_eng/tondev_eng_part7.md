@@ -2378,7 +2378,7 @@ Long: How to verify token on network ton?
 
 Gandalf: Hello friends! Help me please, I'm using ton4j and trying to create a Tonlib instance as described in the doc: https://github.com/neodix42/ton4j/blob/main/smartcontract/jetton-example.md but I get the error: Exception in thread "main" java.lang.UnsatisfiedLinkError: Unable to load library 'tonlibjson.dylib': Process finished with exit code 1  The full error log is presented here: https://gist.github.com/morbiuslevakov/a6de44e4a5792a1bf941639a6511cd85
 
-GENTLE_IAA CLONE: Good morning
+GENTLE_IAA: Good morning
 
 mcmuffin: Does anyone know how I could get the transaction hash of a wallet.transfer()? For example with DeDust swap I execute           receipt = await wallet.transfer(destination=native_vault_address,  # native vault                               amount=swap_amount,                               body=swap)  I want to get the hash of this transaction.
 
@@ -3464,7 +3464,7 @@ Crypto Notte: Hello team, any good repo where I can see how to have multiple mes
 
 Tech🧑‍💻🐾: Still needed? (reply to 73847)
 
-Zicke 🍌: dm me (reply to 73962)
+Kennyy: dm me (reply to 73962)
 
 Harry: i need to convert current time to logical time to filter transaction.. how we can do that? i searched but don't find the way
 
@@ -7098,7 +7098,7 @@ User<7118587076>: Hello, how i can completely decode transaction payload?
 
 TON Bounty Bridge: ​NFT метка  🏷 Developer Tool  Summary:Сделать нфт метку для оплаты различных услуг  Created by Korkin-ton
 
-Артур: I’m not sure, but I think yes. If you write a script that will try to send TON from that address (using it's mnemonic / private key), this wallet will become become a wallet contract. (reply to 80410)
+Artur: I’m not sure, but I think yes. If you write a script that will try to send TON from that address (using it's mnemonic / private key), this wallet will become become a wallet contract. (reply to 80410)
 
 &rey: It is impossible, yes. (reply to 80410)
 

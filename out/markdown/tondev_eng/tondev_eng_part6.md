@@ -464,13 +464,13 @@ Heydar: so the result should be proceed in the destination smart contract.
 
 Heydar: and it decide to roll back or not.
 
-Артур: Hi guys! I don't receive a transaction push notification (tonkeeper testnet) after running npx blueprint run Has anybody else experienced this?
+Artur: Hi guys! I don't receive a transaction push notification (tonkeeper testnet) after running npx blueprint run Has anybody else experienced this?
 
 Heydar: if I didnt understand your question clearly, I need more information.
 
 Heydar: are you sure it's on correct net? (main net , test net)? (reply to 54214)
 
-Артур: yes (reply to 54216)
+Artur: yes (reply to 54216)
 
 Frank: Ah yes of course, the state must be compensated for...because a message and smart contract state can be committed in a block , even when the whole conversation is not yet finished. I suppose no other mechanism than explicit compensation code is possible. (reply to 54213)
 
@@ -490,7 +490,7 @@ Darkening Dawn: Hey guys! Does someone have a solution for onchain jetton metada
 
 fade: Sometimes my swaps failed and it doesn't even got on chain, it only happens sometimes, my seqno and gas are correctly configured, anyone got the same problem?
 
-Артур: upd: I deleted temp folder, retried scanning QR code (it failed again), cancelled the process (ctrl + c) and started it again - and finally received the transaction confirmation notification (reply to 54214)
+Artur: upd: I deleted temp folder, retried scanning QR code (it failed again), cancelled the process (ctrl + c) and started it again - and finally received the transaction confirmation notification (reply to 54214)
 
 User<6952362368>: Could be that you have little gas (reply to 54203)
 
@@ -1558,7 +1558,7 @@ CKEPTIK SHOP: Hello. Ready to work in a small start-up project. Experience : 1 y
 
 Kevin Jr: Hi guys, how can I list my project giveaway on @community_bot?
 
-Артур: Hi guys! Is there any way to explicitly calculate how many tons per year will be consumed by a smart contract storage?
+Artur: Hi guys! Is there any way to explicitly calculate how many tons per year will be consumed by a smart contract storage?
 
 Амир: Deploy, wait 1 year, try to send message, check the fee (reply to 55111)
 
@@ -1568,7 +1568,7 @@ I'm: Hi bro, I am searching the code that can get estimate Ton fee. But I have n
 
 K.: Have you checked this: https://docs.ton.org/develop/smart-contracts/fees#storage-fee ? There's a calculator example. (reply to 55111)
 
-Артур: not yet, thank you! (reply to 55117)
+Artur: not yet, thank you! (reply to 55117)
 
 Slava: Regarding fees calculation, please see the recent TVM upgrade: https://docs.ton.org/learn/tvm-instructions/fee-calculation-instructions  The related documentation wasn't updated.  For example, you can now use the GETSTORAGEFEE instruction to calculate the storage fee (you don't need to do this manually anymore).
 
@@ -2502,13 +2502,13 @@ Mohammad: This is related to tonapi I think you can get help from their tech cha
 
 User<7121766667>: Hello, how can I get transactions from mempool?
 
-Артур: Hi guys! Is there any option to connect to the TON network except orbs and toncenter? Can I run my own RPC server? Is there any tutorials about this topic?
+Artur: Hi guys! Is there any option to connect to the TON network except orbs and toncenter? Can I run my own RPC server? Is there any tutorials about this topic?
 
 Ruslan: Hi, you can run your own instance of toncenter from here: https://github.com/toncenter/ton-http-api (reply to 55910)
 
 Ruslan: And if you need api/v3, then check https://github.com/toncenter/ton-indexer
 
-Артур: thank you! (reply to 55915)
+Artur: thank you! (reply to 55915)
 
 Âmin: hi  can any one guide me how to transfer jettons to another wallet? on python
 
@@ -12446,7 +12446,7 @@ User<6992329284>: Hm, like in getgems history, I can see “NFT sale” or Aucti
 
 Denis: https://app.tapswap.club/ does somebody knows them? i need contacts ASAP
 
-Артур: Hi guys!  I'm using tonconnect/ui-react and I'm getting this error:  Access to resource at 'https://connect.tonhubapi.com/tonconnect/events?client_id=...' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.  Recently it was working fine.  Has anyone faced this error?
+Artur: Hi guys!  I'm using tonconnect/ui-react and I'm getting this error:  Access to resource at 'https://connect.tonhubapi.com/tonconnect/events?client_id=...' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.  Recently it was working fine.  Has anyone faced this error?
 
 Evgeniy: hey there, complete noob in frontend development, sry if my question is stupid anyway, i want to use solidj but also indend to stick to telegram-backed component libs the tgui lib won a grant from foundation, as I understand this is a react lib can i make tgui work with solid?
 
@@ -12454,13 +12454,13 @@ User<7123272744>: Can you share the NFT collection and item address? (reply to 6
 
 Cesar: same here (reply to 65751)
 
-Артур: I think there are some global problems on the blockchain level (reply to 65765)
+Artur: I think there are some global problems on the blockchain level (reply to 65765)
 
 Cesar: chain is not down, it is still producing blocks, just tonconnect / ton wallet / tonkeeper is down (reply to 65767)
 
 Cesar: https://tonscan.org/blocks
 
-Артур: In other TON related telegram channels people are complaining that testnet is down. Mainnet is fine I guess. (reply to 65769)
+Artur: In other TON related telegram channels people are complaining that testnet is down. Mainnet is fine I guess. (reply to 65769)
 
 Cesar: testnet is not down either, been sending txns via the cli and they work fine (reply to 65771)
 
@@ -12474,9 +12474,9 @@ Omprakash: I know but no one providing any update about it (reply to 65775)
 
 slavagm: okey and how we'll provide any info about it? (reply to 65782)
 
-Артур: UPD: the CORS error is gone now (reply to 65765)
+Artur: UPD: the CORS error is gone now (reply to 65765)
 
-Артур: everything works fine
+Artur: everything works fine
 
 User<7100996052>: Does anyone need a developer?
 
@@ -13422,11 +13422,11 @@ Vito: Hello, It’s new network for me. I also need to known how can I test it w
 
 W. [Разработка сайтов]: ofc scam (reply to 65423)
 
-Артур: Hi guys! Is there any way to listen to wallet events (like transactions)?
+Artur: Hi guys! Is there any way to listen to wallet events (like transactions)?
 
 Амир: Of course (reply to 67281)
 
-Артур: Could you tell me how I can find information about how to implement it? Is there any related documentation? (reply to 67282)
+Artur: Could you tell me how I can find information about how to implement it? Is there any related documentation? (reply to 67282)
 
 Rick: Hello, I am transferring jetton and encountering error code 9 in TokenNotification. Where should I start checking and fixing the code?
 
@@ -14578,7 +14578,7 @@ Aceme: Anyone needs a TON dev?
 
 Nerses: how can I convert from String to Slice ? I used Builder for it,but for long  Strings i get BitBuilder overflow
 
-Sev: please help me. I have a telegram bot that uses sendgame to open web links. When I go to the website, what should I do so that when I click the button, I will be redirected to another bot channel?
+Bussan: please help me. I have a telegram bot that uses sendgame to open web links. When I go to the website, what should I do so that when I click the button, I will be redirected to another bot channel?
 
 &rey: .storeStringTail should work fine. (reply to 69196)
 

@@ -8460,11 +8460,11 @@ Anonim: Неа (reply to 225812)
 
 Abdulaziz: Как скомпилировать fc, выдает какую-то ошибку
 
-Alexander: Какую? (reply to 225839)
+мельниц: Какую? (reply to 225839)
 
 User<7093551154>: ?? (reply to 225730)
 
-Alexander: Мне не нужен (reply to 225844)
+мельниц: Мне не нужен (reply to 225844)
 
 Abdulaziz: npm error could not determine executable to run npm error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2024-07-30T19_14_10_854Z-debug-0.log /sdcard/exam $ (reply to 225843)
 
@@ -8940,7 +8940,7 @@ Ruslan: Спасибо! (reply to 226296)
 
 Vladimir: 1. Это чат про TON. 2. Вам в @devs @devs_cis. 3. Ждать. Копить. Менять на TON. (reply to 226300)
 
-Alexander: не знаю (reply to 225857)
+мельниц: не знаю (reply to 225857)
 
 Андрей: Смотря что вы понимаете под выражением "сеть ton"  Через ton dns вы не сможете найти ip адрес сервера, только adnl адрес Что бы найти ip адрес сервера вам нужно вытащить его из dht таблицы (reply to 226298)
 

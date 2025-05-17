@@ -1,7 +1,3 @@
-Пескарь™ | фронтент телефонов: подробности где? (reply to 143403)
-
-Roma: Я скину логи, только не сюда же. ) (reply to 143404)
-
 Fotex: Спасибо большое. А какое примерно время между новыми блоками в нулевом чейне? (reply to 143402)
 
 Пескарь™ | фронтент телефонов: why not? (reply to 143405)
@@ -6454,7 +6450,7 @@ Max: Очевидно, это вопрос к команде @wallet, а не с
 
 T010110111T: Сорри (reply to 148389)
 
-Απόλλων: Почему мне tonconnect при отправке транзакции через tonhub TESTNET, выдает вот такой boc  te6cckEBAgEAkgABnKbHlKxuA8gxzsYwFmWeRvpQvFzuqyxipzDd1s3kGmhmyHX/5zZYUEex+o0G+mUz9nJBs/YtFPvhAew41VDlOwkpqaMXZTorHgAAABcAAwEAfmIAaupaamli1EcwaivA90tcrB9OJaySkZnQu8ql1ZjeELUlloLwAAAAAAAAAAAAAAAAAAAAAAAARGVwb3NpdC08lTs=  преобразую в hex   7f3ab0a877711da962911e3c223a12264177bdd6edd0958a58c5fcec290f88a5  не могу найти trace  по данному хешу, через тонкипер все работает ) кто знает почему так ?
+Nikolas: Почему мне tonconnect при отправке транзакции через tonhub TESTNET, выдает вот такой boc  te6cckEBAgEAkgABnKbHlKxuA8gxzsYwFmWeRvpQvFzuqyxipzDd1s3kGmhmyHX/5zZYUEex+o0G+mUz9nJBs/YtFPvhAew41VDlOwkpqaMXZTorHgAAABcAAwEAfmIAaupaamli1EcwaivA90tcrB9OJaySkZnQu8ql1ZjeELUlloLwAAAAAAAAAAAAAAAAAAAAAAAARGVwb3NpdC08lTs=  преобразую в hex   7f3ab0a877711da962911e3c223a12264177bdd6edd0958a58c5fcec290f88a5  не могу найти trace  по данному хешу, через тонкипер все работает ) кто знает почему так ?
 
 DPL: Привет Подскажите почему psylopunk для либы pytonlib с этого репо собирает бинарники - https://github.com/newton-blockchain/ton.git (форкнутого) почему не с офф репа? И будет ли работать pytonlib + бинарники с офф репо
 
@@ -11437,4 +11433,6 @@ VIKTOR: в W5 Будет) (reply to 152584)
 VIKTOR: через пол года обещают (reply to 152584)
 
 User<2078555039>: сейчас только пересыл тон на главный кошель откуда будет отправка и последующая отправка жетонов с этими тонами? (reply to 152588)
+
+VIKTOR: механика другая там будет плагин позволяющий оплаnить комиссию за пересылку jetton (reply to 152589)
 

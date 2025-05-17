@@ -2330,7 +2330,7 @@ yoshi~: Is there a significant indexing latency of tonapi? Is it more profitable
 
 Pibu: hey everyone, I have a Root contract and Child contract. Child contracts are deployed per user address. User can do something in their contract and it sends a notification to Root. It is easy to discover the user contract by providing an address. But there is also a case when I get a string (let's say some code) and I need to find user's contract based on that string. I was thinking about using a dict (storing code -> user address) but as I understand this is not TON way. So am I correct to assume that it would be better to deploy a Child2 contract that maps that string to user and sends appropriate data to the Child user contract?
 
-Артур: Hi guys! Could anybody explain this weird tact compiler behavior?  When I do:  send(SendParameters{             to: self.bankWalletContractAddress,             value: context().value - self.minBalance,             mode: SendRemainingValue,             bounce: true         });  it compiles. But when I try to specify some value in tons:   send(SendParameters{             to: self.bankWalletContractAddress,             value: ton("0.005"),             mode: 0,             bounce: true         });  compiler says "Error: Struct value is missing a field: body"
+Artur: Hi guys! Could anybody explain this weird tact compiler behavior?  When I do:  send(SendParameters{             to: self.bankWalletContractAddress,             value: context().value - self.minBalance,             mode: SendRemainingValue,             bounce: true         });  it compiles. But when I try to specify some value in tons:   send(SendParameters{             to: self.bankWalletContractAddress,             value: ton("0.005"),             mode: 0,             bounce: true         });  compiler says "Error: Struct value is missing a field: body"
 
 Almatbek: Could there be an opportunity for a capable developer to contribute to your project?
 
@@ -2348,13 +2348,13 @@ M: I installed mytonctrl2, and when I tried to run it with mytonctrl, it said: "
 
 &rey: ton.org is official, one which you browse is not.
 
-Артур: sure (reply to 91555)
+Artur: sure (reply to 91555)
 
 Vova: const wallet = useTonWallet();  how i can get same addres as in tonconnect button   Address.parse(wallet.account.address).toString()  givin me different representation
 
 Bored: Hey looking for some philiphines devs anyone interested?
 
-Артур: UPD: I have created new project using npm create ton@latest and problem disappeared (used the same code) (reply to 91551)
+Artur: UPD: I have created new project using npm create ton@latest and problem disappeared (used the same code) (reply to 91551)
 
 Dave: How can I get started? (reply to 66688)
 
@@ -3132,13 +3132,13 @@ Valamar.$888: And if you provide with some resources it would be great 😃
 
 TON Bounty Bridge: ​Ton Review (Write, Read and Explore trusted reviews, polls and rating from real community)  🏷 Developer Tool  Summary:TonReview is a telegram mini app that will be serve as directory listings of all Apps, Games, and ch...  Created by abarukayya
 
-Ali: Hi Can you guide me how I can develop ton network with Scheme language(r7rs)?
+Akadi: Hi Can you guide me how I can develop ton network with Scheme language(r7rs)?
 
-Ali: If it is as much as the introduction of an article or book or... it can help
+Akadi: If it is as much as the introduction of an article or book or... it can help
 
-Ali: Or if there are examples of smart contracts for the construction of the second layer network in the Ton network, it would be good
+Akadi: Or if there are examples of smart contracts for the construction of the second layer network in the Ton network, it would be good
 
-Ali: anyone? (reply to 92579)
+Akadi: anyone? (reply to 92579)
 
 — 2024-08-07 —
 

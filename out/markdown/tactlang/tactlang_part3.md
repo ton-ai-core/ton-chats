@@ -7112,15 +7112,15 @@ Ilia: can you expand a bit what "wait for message" means? which api are you refe
 
 — 2025-05-01 —
 
-Артур: Hi guys! I have this simple contract:  import "./messages";  contract ContractB {     id: Int as uint8;      init(msg: DeployContractB) {         self.id = msg.id;     }      receive("HelloB") {         self.reply("ContractBResponse".asComment());     }      receive() {} }  I’ve noticed that when "HelloB" is called, the contract’s balance decreases (by a very small amount, like 10^-7, but still). Now I’m wondering — is it possible to write a contract that uses only the TON from incoming messages without touching its own balance?
+Artur: Hi guys! I have this simple contract:  import "./messages";  contract ContractB {     id: Int as uint8;      init(msg: DeployContractB) {         self.id = msg.id;     }      receive("HelloB") {         self.reply("ContractBResponse".asComment());     }      receive() {} }  I’ve noticed that when "HelloB" is called, the contract’s balance decreases (by a very small amount, like 10^-7, but still). Now I’m wondering — is it possible to write a contract that uses only the TON from incoming messages without touching its own balance?
 
 Dmitry: TON Smart Contracts pay for storage from own balance, but you can lock some funds from incoming message to compensate it (reply to 61416)
 
-Артур: Could you please tell me how I can achieve that? I mean, locking the funds from the incoming message? (reply to 61418)
+Artur: Could you please tell me how I can achieve that? I mean, locking the funds from the incoming message? (reply to 61418)
 
 Dmitry: https://docs.tact-lang.org/ref/core-contextstate/#nativereserve (reply to 61419)
 
-Артур: Thank you! (reply to 61420)
+Artur: Thank you! (reply to 61420)
 
 — 2025-05-02 —
 
@@ -7351,3 +7351,11 @@ Anton: It depends, but it’s usually two elements in the stack (reply to 62926)
 Kenny: Thanks!
 
 Seva: Me too (reply to 62882)
+
+— 2025-05-16 —
+
+A: Hi guys. How to get the user's wallet type using code to see if they are using version 5 or other versions? eg WalletContractv4, WalletContractV5R1, ...
+
+Alexander: Hello everyone. Is there a way to on-chain verify that the STON fi router address passed to the contract actually belongs to STON fi? DeDust has this option and it is implemented by creating a proof for a specific pair of jettons (there is an example in their sdk), which does not allow funds to be sent to the hacker's wallet  Here is the implementation for DeDust:  // DeDust contract type const DEDUST_CONTRACT_TYPE_VAULT: Int = 1; const DEDUST_CONTRACT_TYPE_POOL: Int = 2; const DEDUST_CONTRACT_TYPE_LIQUIDITY_DEPOSIT: Int = 3;  // DeDust factory address const DEDUST_FACTORY_ADDRESS: Address = address(   "EQBfBWT7X2BHg9tXAxzhz2aKiNTU1tpt5NsiK0uSDW_YAJ67" );  // DeDust contract code const DEDUST_BLANK_CODE: Cell = cell(   "te6ccgEBBAEAlgABFP8A9KQT9LzyyAsBAgJwAwIACb8pMvg8APXeA6DprkP0gGBB2onai9qPHDK3AgFA4LEAIZGWCgOeLAP0BQDXnoGSA/YB2s/ay9rI4v/aIxx72omh9IGmDqJljgvlwgcIHgmmPgMEITZ1R/V0K+XoB6Z+AmGpph4CA6hD9ghDodo92qYgjCCLBAHKTdqHsdqD2+ID5f8=" );  // Create proof to confirm DeDust address fun createProofAddress(   factoryAddress: Address,   contractType: Int,   jettonAddress: Address? ): Address {   let data = beginCell()     .storeAddress(factoryAddress)     .storeUint(contractType, 8);    if (jettonAddress == null) {     data = data.storeUint(0b0000, 4);   } else {     let parsedAddress = parseStdAddress(jettonAddress!!.asSlice());      data = data       .storeUint(0b0001, 4)       .storeInt(parsedAddress.workchain, 8)       .storeUint(parsedAddress.address, 256);   }    return contractAddress(     StateInit {       code: DEDUST_BLANK_CODE,       data: data.endCell()     }   ); }  // Create proof to confirm the DeDust vault address fun createVaultProofAddress(   factoryAddress: Address,   jettonAddress: Address? ): Address {   return createProofAddress(     factoryAddress,     DEDUST_CONTRACT_TYPE_VAULT,     jettonAddress   ); }  // Verification of DeDust vault address fun verifyVaultAddress(   vaultAddress: Address,   factoryAddress: Address,   jettonAddress: Address? ) {   require(     vaultAddress == createVaultProofAddress(factoryAddress, jettonAddress),     "Invalid DeDust vault address"   ); }  And what is the implementation for STON fi?
+
+Slava: Hey. You just need to compare the contract's code with the canonical one. (reply to 63072)

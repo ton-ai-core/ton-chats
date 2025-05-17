@@ -196,7 +196,7 @@ CryptoTara: What function is used when someone nominates a stake to a validator 
 
 &rey: By the way, do you know that TON contracts are separate and cannot invoke each other's functions directly, the only interaction is via sending messages? (The question felt like referring to EVM concepts.) (reply to 34820)
 
-Απόλλων: Please tell me, in order for a validator to participate in the rounds, he must have 350 K TON on his balance. Pools can be created for nominators.. The documentation creates 2 pools, for even and odd rounds. Question: each pool must have 350K TON in total?? so that the validator can participate in the rounds or at least one of the two??
+Nikolas: Please tell me, in order for a validator to participate in the rounds, he must have 350 K TON on his balance. Pools can be created for nominators.. The documentation creates 2 pools, for even and odd rounds. Question: each pool must have 350K TON in total?? so that the validator can participate in the rounds or at least one of the two??
 
 &rey: Each pool must have 350K in total (node owner + nominators). It's also possible to participate in half of validation rounds, using only one pool. (reply to 34825)
 
@@ -518,7 +518,7 @@ Dmitry | backend4you.ton: @twa_dev (reply to 35006)
 
 Howard: let's have a API tutorials? (reply to 34965)
 
-Απόλλων: HI, how i can convert Address or hex of Address  to bigint in JS ??
+Nikolas: HI, how i can convert Address or hex of Address  to bigint in JS ??
 
 Daniil: Be careful with @andrew83xmr 👀 (reply to 34916)
 
@@ -1350,7 +1350,7 @@ User<5762094943>: I'm use img width: 350px &hieght: 623px is that must be like 1
 
 User<5762094943>: let me try use different size
 
-Απόλλων: Hello, how i can get transaction hash  from Boc ??? For exapmle:  te6cckEBAgEArQAB34gAiKcaiDmUyEiywZV84IdHciBsbf5CDKMVw9tw/GunluYEkbz4FXRJopd4z56FLsG2N19btjLVKdivARPJT4/TFLZ8zdOhAaJB/L9zLuFibHqKceVPu8tVRfGBLdvY49jQGU1NGLso18UwAAAAUBwBAHBiAD9ArEqy48PMicaFJFIkCDZIquPQB2NfNxqppryOgS6mmHoSAAAAAAAAAAAAAAAAAAAAAAAAV/dkloA=  I got this boc…
+Nikolas: Hello, how i can get transaction hash  from Boc ??? For exapmle:  te6cckEBAgEArQAB34gAiKcaiDmUyEiywZV84IdHciBsbf5CDKMVw9tw/GunluYEkbz4FXRJopd4z56FLsG2N19btjLVKdivARPJT4/TFLZ8zdOhAaJB/L9zLuFibHqKceVPu8tVRfGBLdvY49jQGU1NGLso18UwAAAAUBwBAHBiAD9ArEqy48PMicaFJFIkCDZIquPQB2NfNxqppryOgS6mmHoSAAAAAAAAAAAAAAAAAAAAAAAAV/dkloA=  I got this boc…
 
 &rey: Cell.fromBase64('te6cck...oA=').hash() (reply to 35508)
 

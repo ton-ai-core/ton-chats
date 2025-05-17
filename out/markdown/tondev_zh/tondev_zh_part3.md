@@ -2706,7 +2706,7 @@ Freeman: 所以必须要通过message进行通讯
 
 Freeman: 好的，感谢 (reply to 39618)
 
-Gary: @dev_rel Hi Howard, 请问这个是什么工具吗？  可以看到bot数据
+User<5596839430>: @dev_rel Hi Howard, 请问这个是什么工具吗？  可以看到bot数据
 
 Yang: TGstats
 

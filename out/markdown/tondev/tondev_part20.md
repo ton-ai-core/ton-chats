@@ -1,5 +1,3 @@
-Ruslan: Вот этот скрипт может помочь: https://github.com/ton-blockchain/ton/blob/master/assembly/native/build-macos-shared.sh (reply to 170615)
-
 ADM_CashWorld: тоесть? у меня поднят сервак под ton-http-api. Все через него работает, но как выяснилось сейчас, получение адреса по домену не пашет: await tonweb.dns.getWalletAddress('foundation.ton');  меняю свой ton-http-api v2 на toncenter.com/api/v2 все работает.  Не в репо не на форумах ничего не могу найти по данной проблеме) (reply to 170627)
 
 NIKITA M.: Благодарю! (reply to 170629)

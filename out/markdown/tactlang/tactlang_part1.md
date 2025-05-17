@@ -14554,7 +14554,7 @@ saddas: 6
 
 User<6234295669>: Hello is there anyone can help me?
 
-•..•: What's up can anyone help me with TON?
+kh: What's up can anyone help me with TON?
 
 Jay: What help is needed? Contract?
 
@@ -14674,7 +14674,7 @@ Raden0x: i've successfully deployed contracts via collection or item.. however, 
 
 Raden0x: it uploads succesffully and i recieve a link to use my gateway domain.. but still nothing
 
-🐾Omid: 15
+Doro2rooo: 15
 
 Gsaomfets: 10
 
@@ -15098,7 +15098,7 @@ Daniil: in that case you should consider sending a message that will act like a 
 
 Dmitry: Can you show example? (reply to 18685)
 
-•..•: Who wants to sell notcoin's vaucher
+kh: Who wants to sell notcoin's vaucher
 
 Daniil: just send a message back to the sender instead of throwing an error  but note that in some cases you'll also need to validate that the message came from a correct smart contract (reply to 18686)
 
@@ -15762,13 +15762,13 @@ Vlad: #compiler  trying to use    nativeThrowWhen(906, res.slice.empty());  gett
 
 Vlad: what is the best way to check if Dict is empty in tact? sth like  dict.dict_empty?()
 
-KT_LeThang: hi
+Thang: hi
 
-KT_LeThang: i deployed contract tact
+Thang: i deployed contract tact
 
-KT_LeThang: but have a error
+Thang: but have a error
 
-KT_LeThang: can who help me?
+Thang: can who help me?
 
 Vlad: That works actually (reply to 20685)
 
@@ -15834,9 +15834,9 @@ Spa: my codes can build, but can't build on nujan online.  "Error while building
 
 Ilya: Hello everyone  I'm new in tact language, and cant uderstand how is required working I put my require condition in init() block, and set message and condition. Yes, my test is failed, but where can I looking for a message from required condition?
 
-KT_LeThang: Build script running, let's find some FunC contracts to compile.. 'func' is not recognized as an internal or external command, operable program or batch file.  FATAL ERROR: 'func' with version >= 0.2.0 executable is not found, is it installed and in path?
+Thang: Build script running, let's find some FunC contracts to compile.. 'func' is not recognized as an internal or external command, operable program or batch file.  FATAL ERROR: 'func' with version >= 0.2.0 executable is not found, is it installed and in path?
 
-KT_LeThang: hey everyone, how to fix it
+Thang: hey everyone, how to fix it
 
 Kevin: Ask chatgpt (reply to 20825)
 
