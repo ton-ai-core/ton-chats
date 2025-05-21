@@ -282,7 +282,7 @@ Dario: I cant even let users send two transactions to initialize "pool contract"
 
 — 2022-03-23 —
 
-Tri: Bagaimana cara mining cloud ton?
+Tri Sulasmono: Bagaimana cara mining cloud ton?
 
 User<1029195636>: Hello, I know someone who lost their TON doing the ether bridge swap, can someone help?
 
@@ -768,7 +768,7 @@ Andrey: https://github.com/toncenter/tonweb-mnemonic/blob/master/src/bip39-wordl
 
 Artis: Thank You. This is the correct path to solve the problem. It turned out to be simply a misspelled word on the paper (reply to 1300)
 
-A: Guys! Someone take me to your jun for free. I really want to develop under TON with experienced mentors. I have more than 6 hours of free time every day   I had experience during 6 months of working as a jun on the frontend 🤌🏿
+Azat 🦴: Guys! Someone take me to your jun for free. I really want to develop under TON with experienced mentors. I have more than 6 hours of free time every day   I had experience during 6 months of working as a jun on the frontend 🤌🏿
 
 Slava: Do you have a pet-project in TON? (reply to 1306)
 
@@ -2196,31 +2196,31 @@ User<5298987488>: The software that you use to for example sign a transaction
 
 Slava: That would depend on my goals :) (reply to 2588)
 
-User<135516283>: hello
+Omid: hello
 
-User<135516283>: How to communicate between web and cryptobot
+Omid: How to communicate between web and cryptobot
 
-User<135516283>: I want to pay for my product from the site through a Telegram Inc. robot ton
+Omid: I want to pay for my product from the site through a Telegram Inc. robot ton
 
-User<135516283>: Is this possible?
+Omid: Is this possible?
 
-User<135516283>: Thanks
+Omid: Thanks
 
 Slava: What is Telegram Inc. robot ton? (reply to 2593)
 
-User<135516283>: I mean crypto bot (reply to 2597)
+Omid: I mean crypto bot (reply to 2597)
 
-User<135516283>: I want to connect my website to Telegram to pay with ton tokens
+Omid: I want to connect my website to Telegram to pay with ton tokens
 
 Slava: Try writing to their support service. (reply to 2598)
 
 Slava: They have API by the way.
 
-User<135516283>: 🙏 (reply to 2600)
+Omid: 🙏 (reply to 2600)
 
-User<135516283>: I did not find a sample code done as an example (reply to 2601)
+Omid: I did not find a sample code done as an example (reply to 2601)
 
-User<135516283>: Are you a programmer? (reply to 2601)
+Omid: Are you a programmer? (reply to 2601)
 
 Slava: Learning to be one :) (reply to 2604)
 
@@ -3186,7 +3186,7 @@ Slava: Try looking at these examples: https://github.com/toncenter/tonweb/blob/m
 
 username: Hi guys Could you help me with these basic questions? What is ton os and tonoscli? (https://github.com/tonlabs/tonos-cli) toncli made for same purpose? (https://github.com/disintar/toncli)  Are there more jetone examples except of this one? (https://github.com/KoteCoin/token-contract)
 
-User<135516283>: How to connect to the telegram robot and make payment?
+Omid: How to connect to the telegram robot and make payment?
 
 RocketMan: ton os and tonos cli made for everscale - another blockchain (that is also based on telegram initial source code) (reply to 3406)
 
@@ -3254,19 +3254,19 @@ doni: this a good example   https://github.com/ton-blockchain/token-contract/blo
 
 Andrew: https://ton.org/docs/#/func (reply to 3463)
 
-User<135516283>: no (reply to 3429)
+Omid: no (reply to 3429)
 
-User<135516283>: @foile/crypto-pay-api
+Omid: @foile/crypto-pay-api
 
-User<135516283>: @foile/crypto-pay-api  npm i @foile/crypto-pay-api  This library does not run at all. I do not know why he makes a mistake I tested in vscode environment.
+Omid: @foile/crypto-pay-api  npm i @foile/crypto-pay-api  This library does not run at all. I do not know why he makes a mistake I tested in vscode environment.
 
 Witer33: I recommend using https://github.com/witer33/toncenter with the PaymentReceiver (reply to 3465)
 
 Witer33: Here's an example bot that uses this library, @ProxyRollerBot. Send /pay to generate a fake invoice on the testnet.
 
-User<135516283>: This is in Python. Not an example of react or php? (reply to 3469)
+Omid: This is in Python. Not an example of react or php? (reply to 3469)
 
-User<135516283>: const { CryptoPay } = require('@foile/crypto-pay-api'); (reply to 3468)
+Omid: const { CryptoPay } = require('@foile/crypto-pay-api'); (reply to 3468)
 
 Witer33: Python is good for telegram bots (reply to 3471)
 
@@ -3276,7 +3276,7 @@ Andrey: Kotlin/Java SDK: https://github.com/andreypfau/ton-kotlin
 
 RocketMan: this chat not about cryptobot api development, please move to cryptobot api support chat.   feel free to ask question about ton development here (reply to 3471)
 
-User<135516283>: Please provide the channel ID? (reply to 3476)
+Omid: Please provide the channel ID? (reply to 3476)
 
 RocketMan: https://t.me/CryptoBotEnglish (reply to 3477)
 
@@ -3286,7 +3286,7 @@ Dario Tarantini (ex Tonox): If you want to make payments, there are libs for js 
 
 Dario Tarantini (ex Tonox): https://github.com/danog/MadelineProto/blob/master/ton/README.md
 
-User<135516283>: Thank you very much for your explanation. (reply to 3479)
+Omid: Thank you very much for your explanation. (reply to 3479)
 
 Christopher: Afternoon. I see toncoin is going through a coin migration. How do we migrate toncoin being held in wallet?
 
@@ -3500,9 +3500,9 @@ TON technical overview: I indeed misread your message. Store_hash will hash byte
 
 ᅠ: Though it does that with all past previous successful withdrawals, so it is probably OKX system giving a wrong transaction browser link (reply to 3728)
 
-User<135516283>: Is there a json library for making nft and token? I work with php
+Omid: Is there a json library for making nft and token? I work with php
 
-User<135516283>: Someone wrote nft, I need help
+Omid: Someone wrote nft, I need help
 
 Sinax: hello every body. I withdraw some TON coin from OKex to my  TONKEEPER wallet but my TONs does not received to my wallet. in OKex in TXID show link below Error : 602 : no account workchain id .
 
@@ -3528,7 +3528,7 @@ Wrong💎: OKX's official announcement says withdrawals will resume on April 29t
 
 Sinax: ohh,  thank you for your support. (reply to 3750)
 
-User<135516283>: What are these two addresses in this function?   collectionContentUri: 'http://localhost:63342/nft-marketplace/my_collection.json',     nftItemContentBaseUri: 'http://localhost:63342/nft-marketplace/',
+Omid: What are these two addresses in this function?   collectionContentUri: 'http://localhost:63342/nft-marketplace/my_collection.json',     nftItemContentBaseUri: 'http://localhost:63342/nft-marketplace/',
 
 Vardan: Dear Ton dev community. We have 2 way to use ton wallet  1. deposits-multi-wallet Here we will look at how to accept deposits. Each user will have their own deposit address.  2. deposits-single-wallet Here we will look at how to accept deposits to a single wallet.  I have 2 questions.  A. For which task we can use 1st or 2nd way and why(pluses and minuses )?  B. And how much fees we must pay for 1 & 2.  Thx
 
@@ -4650,7 +4650,7 @@ J: Hey, if you are in the  chat https://t.me/tonstatus/15 validators are all loo
 
 Andrey: Russian chat: https://t.me/tondev (reply to 273)
 
-NM: Hi folks! Would someone help with advices on how to start learning app development for TON.
+NM | token2049 (slow reply): Hi folks! Would someone help with advices on how to start learning app development for TON.
 
 — 2022-05-14 —
 
@@ -6048,7 +6048,7 @@ shahar: Announcing Jetton Deployer:  we've created a webapp which allows anyone 
 
 shahar: hello, sure
 
-Lisa: Hack-a-TON  The first-ever Hack-a-TON, with a total prize fund of 40,000 TON!   The brainstorming is about to begin 😉 All you need to participate is JavaScript and fresh ideas. The TON team will provide all the participants with an SDK and ready-made smart contracts. Get ready to gather a group of 4 people (or fewer).   It kicks off on Friday, July 1! The hack-a-TON will run for 48 hours. We will provide you with all the details later.
+Lisa OOO: Hack-a-TON  The first-ever Hack-a-TON, with a total prize fund of 40,000 TON!   The brainstorming is about to begin 😉 All you need to participate is JavaScript and fresh ideas. The TON team will provide all the participants with an SDK and ready-made smart contracts. Get ready to gather a group of 4 people (or fewer).   It kicks off on Friday, July 1! The hack-a-TON will run for 48 hours. We will provide you with all the details later.
 
 User<1130209015>: Does anyone have a link to funC tutorial? I couldn’t find anything on YouTube
 
@@ -7682,9 +7682,9 @@ Mr. B: 😅 (reply to 8027)
 
 Slava: TON™ — widening your horizons, if you like it or not… (reply to 8025)
 
-User<135516283>: hi
+Omid: hi
 
-User<135516283>: Why does it give this error for token generation? What does this error mean?
+Omid: Why does it give this error for token generation? What does this error mean?
 
 Frank: @talkol . Is there any video link of this tutorial? (reply to 8011)
 
@@ -8984,7 +8984,7 @@ Daniil: what am I doing wrong in jetton transfering?
 
 Daniil: toAddress must be my jetton wallet address and payload.toAddress must be jetton wallet address to which I'm sending jettons, right?
 
-Lisa: Hi, contestants! Long time no see 😉  We are here to announce the next TON Smart Challenge with a total prize fund over 16,000 TON. The contest begins on August 4, 12:00 UTC and will last until 11 of August, 18:00 UTC.   TON Smart Challenge #2 is focused on giving opportunities to developers only starting their path of mastering FunC and smart contract development and will comprise five simple tasks, which will be automatically scored on submission. You can prepare for the contest by studying official docs and setting up a developer’s environment.  To participate and get more information go to the website.
+Lisa OOO: Hi, contestants! Long time no see 😉  We are here to announce the next TON Smart Challenge with a total prize fund over 16,000 TON. The contest begins on August 4, 12:00 UTC and will last until 11 of August, 18:00 UTC.   TON Smart Challenge #2 is focused on giving opportunities to developers only starting their path of mastering FunC and smart contract development and will comprise five simple tasks, which will be automatically scored on submission. You can prepare for the contest by studying official docs and setting up a developer’s environment.  To participate and get more information go to the website.
 
 ba5defghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijkl: oh (reply to 8993)
 
@@ -10482,11 +10482,11 @@ talkol: In general, ton mission is mass adoption so the focus in general is on a
 
 Yang: Do you have a video showing the exchange process? (reply to 10184)
 
-User<135516283>: How to introduce the project to TON and chat with support? does anyone know
+Omid: How to introduce the project to TON and chat with support? does anyone know
 
-User<135516283>: hi
+Omid: hi
 
-User<135516283>: Is it possible to transfer NFTs to Metamask?
+Omid: Is it possible to transfer NFTs to Metamask?
 
 Nick: Nope. Different blockchains. No any NFT bridges. Impossible at the moment. (reply to 10197)
 
@@ -12384,15 +12384,15 @@ altoshi: You don’t have redirect from http to https (reply to 11510)
 
 Hemi: thanks all, fixed.
 
-Lisa: Hey, everyone! As a part of offline Hack-a-TONx Prague, today will be the lecture about Telegram Web Apps development. Join us to have fun and hacks. All the details in the post below ✌️
+Lisa OOO: Hey, everyone! As a part of offline Hack-a-TONx Prague, today will be the lecture about Telegram Web Apps development. Join us to have fun and hacks. All the details in the post below ✌️
 
-Lisa: Hey, everyone! We continue preparing for the Hack-a-TONx Prague — an independent offline event by the Czech blockchain community with the support of TON Foundation. The topic for today is highly anticipated — Telegram Web Apps: tips and hacks 🔥🔥🔥  Artur Stambultsian, frontend developer at @wallet will share his experience of creating TWAs. Telegram's new initiative makes it possible to significantly improve user interaction with bots. In addition to the documentation and SDK, provided by Telegram team, Artur will speak about the infrastructure that he has built with the team while working on @wallet.   Tools to greatly simplify the TWA are guaranteed.  🗓28 Sept, 17:00 UTC Telegram Web Apps: tips and hacks  Follow the translation on the Tonana team channel and don’t forget to ask your questions. We also provide the record after the live stream 🙌 (forwarded from TON Society)
+Lisa OOO: Hey, everyone! We continue preparing for the Hack-a-TONx Prague — an independent offline event by the Czech blockchain community with the support of TON Foundation. The topic for today is highly anticipated — Telegram Web Apps: tips and hacks 🔥🔥🔥  Artur Stambultsian, frontend developer at @wallet will share his experience of creating TWAs. Telegram's new initiative makes it possible to significantly improve user interaction with bots. In addition to the documentation and SDK, provided by Telegram team, Artur will speak about the infrastructure that he has built with the team while working on @wallet.   Tools to greatly simplify the TWA are guaranteed.  🗓28 Sept, 17:00 UTC Telegram Web Apps: tips and hacks  Follow the translation on the Tonana team channel and don’t forget to ask your questions. We also provide the record after the live stream 🙌 (forwarded from TON Society)
 
 Slava: Are you planning to publish the recording later on? I'm sure not everyone will be able to participate personally. Developers are busy people :) (reply to 11534)
 
-Lisa: Sure, the last sentence in the post claims exactly your suggestion) (reply to 11536)
+Lisa OOO: Sure, the last sentence in the post claims exactly your suggestion) (reply to 11536)
 
-Lisa: We have just started the stream, join us here. (reply to 11534)
+Lisa OOO: We have just started the stream, join us here. (reply to 11534)
 
 talkol: it's not officially launched yet (reply to 11540)
 
@@ -12422,13 +12422,13 @@ User<59608113>: Hello guys, I'm going to attend the Tonana Hack-A-TON x Prague  
 
 User<59608113>: Just in case here is the list of all guests:  ▫️Roman Krutovoy will talk about TON Blockchain and Telegram Ecosystem ▫️Artur Stambultsyan will talk about TWA, what to do with them and how ▫️Jakub Jedlinsky, Ph.D at VSE, will talk about Gaming DAOs ▫️Tamara Bizyuk from Tatum, will lead a workshop on understanding the product ▫️Vadim Keff from T7T lab, talks about how to conduct user research ▫️Eugen Anisey from Tonana will hold a master class on grants and networking ▫️Jan Silhavy from The Crypto Headhunter will talk about how to create a team ▫️Nikita Moskalenko from Hexit Capital will talk about how to start fundraising   ▫️Volodymyr Manoilo from Wargaming & Studentspeak will talk about Game Marketing ▫️TON Play team about gamification and general marketing in Web3.0  https://docs.google.com/forms/d/e/1FAIpQLSdG8YY1ixMb1m1STSj-eCLbmOy4VC_a4D3L9DhDRPTxvLm1xQ/viewform
 
-Lisa: Hi, everyone!  Don't miss the workshop on TWA template today at 13:00 UTC, read the info below 👇
+Lisa OOO: Hi, everyone!  Don't miss the workshop on TWA template today at 13:00 UTC, read the info below 👇
 
-Lisa: Good day, everyone!  Last, but not least lecture in the series of workshops during the Hack-a-TONx Prague preparation will focus on a template for a project that one may use for creating a TWA connected to TON.  The speaker for today is Shahar Yakir, jetton.live creator at Orbs. Shahar is a great technical expert of TON, he writes frontend, backend, and smart contracts.  Today on the stream Shahar will revolve around using the template and modifying the GitHub repo, that he has prepared for the community. It allows participants to fork it to add their own functionality, connect wallets and etc.   After the workshop one may do a basic operation against TON, f.e. transfer TON, work with Jettons and more 🙌  29 Sept, 13:00 UTC Jumpstart at TON ecosystem: dive to TWAs  See you soon at the live stream 👈 Don’t forget to ask questions, we will give 30 TON for the best one 😉 (forwarded from TON Society)
+Lisa OOO: Good day, everyone!  Last, but not least lecture in the series of workshops during the Hack-a-TONx Prague preparation will focus on a template for a project that one may use for creating a TWA connected to TON.  The speaker for today is Shahar Yakir, jetton.live creator at Orbs. Shahar is a great technical expert of TON, he writes frontend, backend, and smart contracts.  Today on the stream Shahar will revolve around using the template and modifying the GitHub repo, that he has prepared for the community. It allows participants to fork it to add their own functionality, connect wallets and etc.   After the workshop one may do a basic operation against TON, f.e. transfer TON, work with Jettons and more 🙌  29 Sept, 13:00 UTC Jumpstart at TON ecosystem: dive to TWAs  See you soon at the live stream 👈 Don’t forget to ask questions, we will give 30 TON for the best one 😉 (forwarded from TON Society)
 
 Slava: The default values are configured in systemd service as far as I know. (reply to 11552)
 
-Lisa: Starting in several minutes, tap to join us! ✌️ (reply to 11556)
+Lisa OOO: Starting in several minutes, tap to join us! ✌️ (reply to 11556)
 
 Артем: Hi everyone  Is there Ton design system(UI/UX)? In Figma, etc.
 
@@ -12450,9 +12450,9 @@ altoshi: Ipfs (reply to 11575)
 
 talkol: And soon Ton Storage that isn’t released yet but when it does it will make IPFS obsolete :)
 
-Berk: One day left until TON Proxy & Sites release   Before the TON Foundation kicks off the new technologies, we know that the TON community is preparing. Meanwhile, the documentation on the work of TON Proxy continues to be updated. Today, the instructions on how a user can link his TON DNS domain to a web3 website appeared on the official GitHub page.   More interestingly, according to the documentation, users can create a smart contract on The Open Network, which will allow an auction for subdomains. For example, the owner of the wallet.ton domain can hold an auction for selling second-level domains such as toncoin.wallet.ton, shop.wallet.ton, and others.  We are looking forward to the upcoming release, so we suggest the community familiarize themselves with the documentation in advance. We advise you to look over these documents if you are interested in building a decentralized internet on The Open Network. (forwarded from The Daily TON | News)
+Berkcan: One day left until TON Proxy & Sites release   Before the TON Foundation kicks off the new technologies, we know that the TON community is preparing. Meanwhile, the documentation on the work of TON Proxy continues to be updated. Today, the instructions on how a user can link his TON DNS domain to a web3 website appeared on the official GitHub page.   More interestingly, according to the documentation, users can create a smart contract on The Open Network, which will allow an auction for subdomains. For example, the owner of the wallet.ton domain can hold an auction for selling second-level domains such as toncoin.wallet.ton, shop.wallet.ton, and others.  We are looking forward to the upcoming release, so we suggest the community familiarize themselves with the documentation in advance. We advise you to look over these documents if you are interested in building a decentralized internet on The Open Network. (forwarded from The Daily TON | News)
 
-Berk: Is it release today or not?
+Berkcan: Is it release today or not?
 
 davide: Is released (reply to 11579)
 
@@ -13808,9 +13808,9 @@ Shawn: Hi all! Shawn again from Orbs! Just yesterday we (Orbs) published a TON g
 
 Silvio: Hello everyone. I would like to ask a technical question about the TON Bridge and the new possibility of transferring tokens:  The bridge fee is quite high for ordinary users, is there no way to reduce it? Is it created like this on purpose?  Note: I mean the main bridge, the token bridge has a low fee.
 
-Lisa: Don't miss such a livestream today ✌️
+Lisa OOO: Don't miss such a livestream today ✌️
 
-Lisa: Hack-TON-berfest livestream  Hacktoberfest is underway for open-source projects on TON and will close in a week.   More than 20 TON projects need help from contributors, so all developers are encouraged to join the festival!  Hack-TON-berfest is an excellent opportunity to make the first step toward building a reputation in the TON community, contribute to the development of the Web3 internet, and receive a limited-edition NFT.  Today, Oct. 24 at 16:00 (UTC), people will be able to join a livestream where they’ll learn how to make a quality Pull Request, the reasons why people should participate in such an event, and how open-source development influences the growth of the TON ecosystem.  The stream will be hosted by:  — Danila Volkov, creator of the first mining pool on TON and one of the developers at Whales Corp.  — Mark Okman, another member of the TonWhales team and creator of YouTube and Telegram channels on programming on TON and in the world of Web3.  The stream will be held on YouTube and on TON Society’s channel.  We recommend all beginners join the stream of open-source development who want to join the festival but don’t know where to start. (forwarded from TON Society)
+Lisa OOO: Hack-TON-berfest livestream  Hacktoberfest is underway for open-source projects on TON and will close in a week.   More than 20 TON projects need help from contributors, so all developers are encouraged to join the festival!  Hack-TON-berfest is an excellent opportunity to make the first step toward building a reputation in the TON community, contribute to the development of the Web3 internet, and receive a limited-edition NFT.  Today, Oct. 24 at 16:00 (UTC), people will be able to join a livestream where they’ll learn how to make a quality Pull Request, the reasons why people should participate in such an event, and how open-source development influences the growth of the TON ecosystem.  The stream will be hosted by:  — Danila Volkov, creator of the first mining pool on TON and one of the developers at Whales Corp.  — Mark Okman, another member of the TonWhales team and creator of YouTube and Telegram channels on programming on TON and in the world of Web3.  The stream will be held on YouTube and on TON Society’s channel.  We recommend all beginners join the stream of open-source development who want to join the festival but don’t know where to start. (forwarded from TON Society)
 
 rm -rf /*: Hi. Who has a node with a validator, write to me, I have a couple of questions. I am ready to pay your time $.
 
@@ -14728,7 +14728,7 @@ lin: just make an assumption
 
 Arti: Hi folks 🖖👨‍💻  If you need to  1️⃣ chat about the next Hack-a-TON x   2️⃣ find new early stage TON projects & teams to become an angel investor, advisor or join it as a team member  3️⃣ find new team members of different skillsets (from developers to designers) for your TON project  join the global TON hackathon Hack-a-TON x community @hackatonx 💎
 
-Ruslan: Hi!  Could you tell me please is it possible to connect TON DNS to ipfs content (site)?
+Ruslan [vacation]: Hi!  Could you tell me please is it possible to connect TON DNS to ipfs content (site)?
 
 — 2022-11-05 —
 
@@ -15955,4 +15955,6 @@ User<5607333070>: I think he’s trying to ask how to listen to transactions on 
 User<5607333070>: not history
 
 talkol: Lazy dev team is a good thing :) hardware wallet should not change. It’s a good wallet for Ethereum coins and Bitcoin (reply to 14279)
+
+talkol: Ledger has some insanely bad decisions too, it’s not perfect  For example, passphrase has to be typed on the device using only 2 buttons which make people either avoid passphrase or take a short 4-6 character one which can easily be brute forced. Passphrase should always be used so then device doesn’t hold the full private key and it should be at least 14-15 characters so brute forcing it becomes difficult
 

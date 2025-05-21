@@ -1,0 +1,6128 @@
+{
+  "id": "1977890135",
+  "name": "Tact GANG",
+  "type": "public_supergroup",
+  "messages": [
+    {
+      "id": 5,
+      "type": "message",
+      "date": "2023-07-31T14:19:03.000Z",
+      "date_unixtime": "1690813143",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "чо"
+    },
+    {
+      "id": 6,
+      "type": "message",
+      "date": "2023-07-31T14:19:19.000Z",
+      "date_unixtime": "1690813159",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "за что"
+    },
+    {
+      "id": 7,
+      "type": "message",
+      "date": "2023-07-31T14:19:20.000Z",
+      "date_unixtime": "1690813160",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "админку ему дай"
+    },
+    {
+      "id": 8,
+      "type": "message",
+      "date": "2023-07-31T14:19:35.000Z",
+      "date_unixtime": "1690813175",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "дал"
+    },
+    {
+      "id": 9,
+      "type": "message",
+      "date": "2023-07-31T14:19:45.000Z",
+      "date_unixtime": "1690813185",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "он в такте шарит?"
+    },
+    {
+      "id": 10,
+      "type": "message",
+      "date": "2023-07-31T14:19:55.000Z",
+      "date_unixtime": "1690813195",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "он в генгбенгах шарит"
+    },
+    {
+      "id": 11,
+      "type": "message",
+      "date": "2023-07-31T14:20:11.000Z",
+      "date_unixtime": "1690813211",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ладно"
+    },
+    {
+      "id": 12,
+      "type": "message",
+      "date": "2023-07-31T14:20:23.000Z",
+      "date_unixtime": "1690813223",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "он в тонане кста"
+    },
+    {
+      "id": 13,
+      "type": "message",
+      "date": "2023-07-31T14:20:29.000Z",
+      "date_unixtime": "1690813229",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ну я думаю ты знаешь"
+    },
+    {
+      "id": 14,
+      "type": "message",
+      "date": "2023-07-31T14:20:37.000Z",
+      "date_unixtime": "1690813237",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "оооо"
+    },
+    {
+      "id": 15,
+      "type": "message",
+      "date": "2023-07-31T14:20:39.000Z",
+      "date_unixtime": "1690813239",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "прикольно"
+    },
+    {
+      "id": 16,
+      "type": "message",
+      "date": "2023-07-31T14:20:42.000Z",
+      "date_unixtime": "1690813242",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "дарова пидарасы"
+    },
+    {
+      "id": 17,
+      "type": "message",
+      "date": "2023-07-31T14:20:42.000Z",
+      "date_unixtime": "1690813242",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "ну ты приколист кирилл"
+    },
+    {
+      "id": 18,
+      "type": "message",
+      "date": "2023-07-31T14:20:43.000Z",
+      "date_unixtime": "1690813243",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "буду знать"
+    },
+    {
+      "id": 19,
+      "type": "message",
+      "date": "2023-07-31T14:20:49.000Z",
+      "date_unixtime": "1690813249",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "даровааа",
+      "reply_to_message_id": 16
+    },
+    {
+      "id": 20,
+      "type": "message",
+      "date": "2023-07-31T14:20:49.000Z",
+      "date_unixtime": "1690813249",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "не я",
+      "reply_to_message_id": 17
+    },
+    {
+      "id": 21,
+      "type": "message",
+      "date": "2023-07-31T14:20:52.000Z",
+      "date_unixtime": "1690813252",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "это все пес"
+    },
+    {
+      "id": 22,
+      "type": "message",
+      "date": "2023-07-31T14:20:54.000Z",
+      "date_unixtime": "1690813254",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ты охуел",
+      "reply_to_message_id": 21
+    },
+    {
+      "id": 23,
+      "type": "message",
+      "date": "2023-07-31T14:20:58.000Z",
+      "date_unixtime": "1690813258",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вот",
+      "reply_to_message_id": 4
+    },
+    {
+      "id": 24,
+      "type": "message",
+      "date": "2023-07-31T14:21:38.000Z",
+      "date_unixtime": "1690813298",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "зачем ты его пригласил"
+    },
+    {
+      "id": 25,
+      "type": "message",
+      "date": "2023-07-31T14:21:47.000Z",
+      "date_unixtime": "1690813307",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "чтоб научил тебя уму разуму"
+    },
+    {
+      "id": 26,
+      "type": "message",
+      "date": "2023-07-31T14:21:56.000Z",
+      "date_unixtime": "1690813316",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "всм",
+      "reply_to_message_id": 25
+    },
+    {
+      "id": 27,
+      "type": "message",
+      "date": "2023-07-31T14:23:13.000Z",
+      "date_unixtime": "1690813393",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "лучше б ты все таки фанси учил"
+    },
+    {
+      "id": 28,
+      "type": "message",
+      "date": "2023-07-31T14:23:18.000Z",
+      "date_unixtime": "1690813398",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а не эту хуйню жсную"
+    },
+    {
+      "id": 29,
+      "type": "message",
+      "date": "2023-07-31T14:23:25.000Z",
+      "date_unixtime": "1690813405",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да блять",
+      "reply_to_message_id": 27
+    },
+    {
+      "id": 30,
+      "type": "message",
+      "date": "2023-07-31T14:23:30.000Z",
+      "date_unixtime": "1690813410",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "сначала говоришь что такт"
+    },
+    {
+      "id": 31,
+      "type": "message",
+      "date": "2023-07-31T14:23:31.000Z",
+      "date_unixtime": "1690813411",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "потом фанси"
+    },
+    {
+      "id": 32,
+      "type": "message",
+      "date": "2023-07-31T14:23:37.000Z",
+      "date_unixtime": "1690813417",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "это док говорил",
+      "reply_to_message_id": 30
+    },
+    {
+      "id": 33,
+      "type": "message",
+      "date": "2023-07-31T14:23:38.000Z",
+      "date_unixtime": "1690813418",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ты сам хули такт учишь"
+    },
+    {
+      "id": 34,
+      "type": "message",
+      "date": "2023-07-31T14:23:38.000Z",
+      "date_unixtime": "1690813418",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "дебил"
+    },
+    {
+      "id": 35,
+      "type": "message",
+      "date": "2023-07-31T14:23:40.000Z",
+      "date_unixtime": "1690813420",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а я хуесосил"
+    },
+    {
+      "id": 36,
+      "type": "message",
+      "date": "2023-07-31T14:23:46.000Z",
+      "date_unixtime": "1690813426",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "та его учить пол дня",
+      "reply_to_message_id": 33
+    },
+    {
+      "id": 37,
+      "type": "message",
+      "date": "2023-07-31T14:23:59.000Z",
+      "date_unixtime": "1690813439",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "у меня не получается",
+      "reply_to_message_id": 36
+    },
+    {
+      "id": 38,
+      "type": "message",
+      "date": "2023-07-31T14:24:01.000Z",
+      "date_unixtime": "1690813441",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "день прошёл"
+    },
+    {
+      "id": 39,
+      "type": "message",
+      "date": "2023-07-31T14:24:09.000Z",
+      "date_unixtime": "1690813449",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "так я фанси знаю"
+    },
+    {
+      "id": 41,
+      "type": "message",
+      "date": "2023-07-31T14:24:17.000Z",
+      "date_unixtime": "1690813457",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "пруф"
+    },
+    {
+      "id": 42,
+      "type": "message",
+      "date": "2023-07-31T14:24:23.000Z",
+      "date_unixtime": "1690813463",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "хуюф"
+    },
+    {
+      "id": 43,
+      "type": "message",
+      "date": "2023-07-31T14:24:31.000Z",
+      "date_unixtime": "1690813471",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не знаешь значмт"
+    },
+    {
+      "id": 44,
+      "type": "message",
+      "date": "2023-07-31T14:25:03.000Z",
+      "date_unixtime": "1690813503",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "я тебе мессаджи показывал как в фанси выглядят",
+      "reply_to_message_id": 43
+    },
+    {
+      "id": 45,
+      "type": "message",
+      "date": "2023-07-31T14:25:13.000Z",
+      "date_unixtime": "1690813513",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "и что",
+      "reply_to_message_id": 44
+    },
+    {
+      "id": 46,
+      "type": "message",
+      "date": "2023-07-31T14:25:23.000Z",
+      "date_unixtime": "1690813523",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ебать прикинь"
+    },
+    {
+      "id": 47,
+      "type": "message",
+      "date": "2023-07-31T14:25:27.000Z",
+      "date_unixtime": "1690813527",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "в такте нету begin_cell"
+    },
+    {
+      "id": 48,
+      "type": "message",
+      "date": "2023-07-31T14:25:27.000Z",
+      "date_unixtime": "1690813527",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "так это единственное различие в языках",
+      "reply_to_message_id": 45
+    },
+    {
+      "id": 49,
+      "type": "message",
+      "date": "2023-07-31T14:25:30.000Z",
+      "date_unixtime": "1690813530",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "есть beginCell"
+    },
+    {
+      "id": 51,
+      "type": "message",
+      "date": "2023-07-31T14:26:48.000Z",
+      "date_unixtime": "1690813608",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "у тя есть жетоны в тестнете какие-то?"
+    },
+    {
+      "id": 52,
+      "type": "message",
+      "date": "2023-07-31T14:26:49.000Z",
+      "date_unixtime": "1690813609",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "кроме усдт"
+    },
+    {
+      "id": 53,
+      "type": "message",
+      "date": "2023-07-31T14:26:58.000Z",
+      "date_unixtime": "1690813618",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "сминти"
+    },
+    {
+      "id": 54,
+      "type": "message",
+      "date": "2023-07-31T14:27:02.000Z",
+      "date_unixtime": "1690813622",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "мне кажется эти усдт штормовские какие-то заколдованные"
+    },
+    {
+      "id": 55,
+      "type": "message",
+      "date": "2023-07-31T14:27:41.000Z",
+      "date_unixtime": "1690813661",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "возьми тоны тестовые, заложи в @EvaaAppBot и возьми в кредит биткоины",
+      "reply_to_message_id": 54
+    },
+    {
+      "id": 56,
+      "type": "message",
+      "date": "2023-07-31T14:27:55.000Z",
+      "date_unixtime": "1690813675",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "кринжанул"
+    },
+    {
+      "id": 57,
+      "type": "message",
+      "date": "2023-07-31T14:28:18.000Z",
+      "date_unixtime": "1690813698",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "и пацанам поможешь",
+      "reply_to_message_id": 56
+    },
+    {
+      "id": 58,
+      "type": "message",
+      "date": "2023-07-31T14:28:23.000Z",
+      "date_unixtime": "1690813703",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "и жетон получишь"
+    },
+    {
+      "id": 59,
+      "type": "message",
+      "date": "2023-07-31T14:29:26.000Z",
+      "date_unixtime": "1690813766",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "t.me/EvaaAppBot/test"
+    },
+    {
+      "id": 60,
+      "type": "message",
+      "date": "2023-07-31T14:29:31.000Z",
+      "date_unixtime": "1690813771",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "опять забыл про неё"
+    },
+    {
+      "id": 61,
+      "type": "message",
+      "date": "2023-07-31T14:29:45.000Z",
+      "date_unixtime": "1690813785",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "про когоо"
+    },
+    {
+      "id": 63,
+      "type": "message",
+      "date": "2023-07-31T14:29:49.000Z",
+      "date_unixtime": "1690813789",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "ссылку"
+    },
+    {
+      "id": 64,
+      "type": "message",
+      "date": "2023-07-31T14:29:54.000Z",
+      "date_unixtime": "1690813794",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а"
+    },
+    {
+      "id": 65,
+      "type": "message",
+      "date": "2023-07-31T14:30:26.000Z",
+      "date_unixtime": "1690813826",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "бля мем"
+    },
+    {
+      "id": 66,
+      "type": "message",
+      "date": "2023-07-31T14:30:31.000Z",
+      "date_unixtime": "1690813831",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "сминтил жетон без картинки"
+    },
+    {
+      "id": 67,
+      "type": "message",
+      "date": "2023-07-31T14:30:35.000Z",
+      "date_unixtime": "1690813835",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "он в тонхабе не отображается"
+    },
+    {
+      "id": 68,
+      "type": "message",
+      "date": "2023-07-31T14:31:05.000Z",
+      "date_unixtime": "1690813865",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "@sepezho а когда там это тыры пыры ева в релизе"
+    },
+    {
+      "id": 69,
+      "type": "message",
+      "date": "2023-07-31T14:31:11.000Z",
+      "date_unixtime": "1690813871",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "там осталось же прям по хуйне"
+    },
+    {
+      "id": 70,
+      "type": "message",
+      "date": "2023-07-31T14:31:40.000Z",
+      "date_unixtime": "1690813900",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "сложный вопрос. не могу ответить)"
+    },
+    {
+      "id": 71,
+      "type": "message",
+      "date": "2023-07-31T14:31:45.000Z",
+      "date_unixtime": "1690813905",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "когда на маиннет выйдем"
+    },
+    {
+      "id": 72,
+      "type": "message",
+      "date": "2023-07-31T14:31:52.000Z",
+      "date_unixtime": "1690813912",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ответ имба"
+    },
+    {
+      "id": 73,
+      "type": "message",
+      "date": "2023-07-31T14:31:54.000Z",
+      "date_unixtime": "1690813914",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а пон"
+    },
+    {
+      "id": 74,
+      "type": "message",
+      "date": "2023-07-31T14:31:57.000Z",
+      "date_unixtime": "1690813917",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "по плану в середине этого мес. по факту скорее всего задержимся"
+    },
+    {
+      "id": 75,
+      "type": "message",
+      "date": "2023-07-31T14:32:05.000Z",
+      "date_unixtime": "1690813925",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "потому что непаханное поле работы"
+    },
+    {
+      "id": 76,
+      "type": "message",
+      "date": "2023-07-31T14:32:51.000Z",
+      "date_unixtime": "1690813971",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "месяц закончился уже"
+    },
+    {
+      "id": 77,
+      "type": "message",
+      "date": "2023-07-31T14:32:54.000Z",
+      "date_unixtime": "1690813974",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "сегодня"
+    },
+    {
+      "id": 78,
+      "type": "message",
+      "date": "2023-07-31T14:32:58.000Z",
+      "date_unixtime": "1690813978",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "завтра закончится"
+    },
+    {
+      "id": 79,
+      "type": "message",
+      "date": "2023-07-31T14:33:32.000Z",
+      "date_unixtime": "1690814012",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "го контракт для фриминта на такте напишем"
+    },
+    {
+      "id": 80,
+      "type": "message",
+      "date": "2023-07-31T14:33:49.000Z",
+      "date_unixtime": "1690814029",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "давай"
+    },
+    {
+      "id": 81,
+      "type": "message",
+      "date": "2023-07-31T14:33:54.000Z",
+      "date_unixtime": "1690814034",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "пиши"
+    },
+    {
+      "id": 82,
+      "type": "message",
+      "date": "2023-07-31T14:34:01.000Z",
+      "date_unixtime": "1690814041",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "сука я хотел так ответить"
+    },
+    {
+      "id": 83,
+      "type": "message",
+      "date": "2023-07-31T14:36:12.000Z",
+      "date_unixtime": "1690814172",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ну так чё"
+    },
+    {
+      "id": 84,
+      "type": "message",
+      "date": "2023-07-31T14:36:21.000Z",
+      "date_unixtime": "1690814181",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "зачем тут сепежо"
+    },
+    {
+      "id": 85,
+      "type": "message",
+      "date": "2023-07-31T14:39:18.000Z",
+      "date_unixtime": "1690814358",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "потому что его чат"
+    },
+    {
+      "id": 86,
+      "type": "message",
+      "date": "2023-07-31T14:40:55.000Z",
+      "date_unixtime": "1690814455",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "всмм"
+    },
+    {
+      "id": 87,
+      "type": "message",
+      "date": "2023-07-31T14:41:51.000Z",
+      "date_unixtime": "1690814511",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "ну отдавай ему"
+    },
+    {
+      "id": 88,
+      "type": "message",
+      "date": "2023-07-31T14:43:08.000Z",
+      "date_unixtime": "1690814588",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "зачем"
+    },
+    {
+      "id": 89,
+      "type": "message",
+      "date": "2023-07-31T14:43:48.000Z",
+      "date_unixtime": "1690814628",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "пиздец такт рил хуйня"
+    },
+    {
+      "id": 90,
+      "type": "message",
+      "date": "2023-07-31T14:43:52.000Z",
+      "date_unixtime": "1690814632",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "лаганная"
+    },
+    {
+      "id": 91,
+      "type": "message",
+      "date": "2023-07-31T14:43:56.000Z",
+      "date_unixtime": "1690814636",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "опять тот же адрес предлагает"
+    },
+    {
+      "id": 92,
+      "type": "message",
+      "date": "2023-07-31T14:44:03.000Z",
+      "date_unixtime": "1690814643",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "надо фанси"
+    },
+    {
+      "id": 93,
+      "type": "message",
+      "date": "2023-07-31T14:44:08.000Z",
+      "date_unixtime": "1690814648",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "так нехуй тестить в чейне сразу"
+    },
+    {
+      "id": 94,
+      "type": "message",
+      "date": "2023-07-31T14:44:14.000Z",
+      "date_unixtime": "1690814654",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "тесты писать учись"
+    },
+    {
+      "id": 95,
+      "type": "message",
+      "date": "2023-07-31T14:44:15.000Z",
+      "date_unixtime": "1690814655",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а как",
+      "reply_to_message_id": 93
+    },
+    {
+      "id": 96,
+      "type": "message",
+      "date": "2023-07-31T14:44:23.000Z",
+      "date_unixtime": "1690814663",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "и типа адрес будет другой?"
+    },
+    {
+      "id": 97,
+      "type": "message",
+      "date": "2023-07-31T14:44:25.000Z",
+      "date_unixtime": "1690814665",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "если тесты пропишешь"
+    },
+    {
+      "id": 98,
+      "type": "message",
+      "date": "2023-07-31T14:44:50.000Z",
+      "date_unixtime": "1690814690",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "нет, типо тестировать на локальном чейне проще"
+    },
+    {
+      "id": 99,
+      "type": "message",
+      "date": "2023-07-31T14:44:58.000Z",
+      "date_unixtime": "1690814698",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "и ты сразу прописываешь автоматизированные тесты"
+    },
+    {
+      "id": 100,
+      "type": "message",
+      "date": "2023-07-31T14:46:35.000Z",
+      "date_unixtime": "1690814795",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "так надо фанси или нет"
+    },
+    {
+      "id": 101,
+      "type": "message",
+      "date": "2023-07-31T14:46:48.000Z",
+      "date_unixtime": "1690814808",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "надо"
+    },
+    {
+      "id": 102,
+      "type": "message",
+      "date": "2023-07-31T14:46:50.000Z",
+      "date_unixtime": "1690814810",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "почему ты пишешь ико контракт на такте"
+    },
+    {
+      "id": 103,
+      "type": "message",
+      "date": "2023-07-31T14:47:01.000Z",
+      "date_unixtime": "1690814821",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "я буду единственным тактером на тоне"
+    },
+    {
+      "id": 104,
+      "type": "message",
+      "date": "2023-07-31T14:47:17.000Z",
+      "date_unixtime": "1690814837",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "нахуй пошёл",
+      "reply_to_message_id": 103
+    },
+    {
+      "id": 105,
+      "type": "message",
+      "date": "2023-07-31T14:47:21.000Z",
+      "date_unixtime": "1690814841",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "всё я в такте"
+    },
+    {
+      "id": 106,
+      "type": "message",
+      "date": "2023-07-31T14:47:26.000Z",
+      "date_unixtime": "1690814846",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "1. Простой смарт\n2. Нам нужен смарт для исо",
+      "reply_to_message_id": 102
+    },
+    {
+      "id": 107,
+      "type": "message",
+      "date": "2023-07-31T14:47:36.000Z",
+      "date_unixtime": "1690814856",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ичо",
+      "reply_to_message_id": 106
+    },
+    {
+      "id": 110,
+      "type": "message",
+      "date": "2023-07-31T15:17:09.000Z",
+      "date_unixtime": "1690816629",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "тут консилиум целый собрался"
+    },
+    {
+      "id": 111,
+      "type": "message",
+      "date": "2023-07-31T15:17:12.000Z",
+      "date_unixtime": "1690816632",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "великие ценители такта"
+    },
+    {
+      "id": 112,
+      "type": "message",
+      "date": "2023-07-31T15:17:29.000Z",
+      "date_unixtime": "1690816649",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "вот они все: слева направо"
+    },
+    {
+      "id": 113,
+      "type": "message",
+      "date": "2023-07-31T15:17:36.000Z",
+      "date_unixtime": "1690816656",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "ценители тактальных утех"
+    },
+    {
+      "id": 114,
+      "type": "message",
+      "date": "2023-07-31T15:18:07.000Z",
+      "date_unixtime": "1690816687",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "а я вам расскажу откуда готовится тактильное нападение"
+    },
+    {
+      "id": 115,
+      "type": "message",
+      "date": "2023-07-31T15:19:26.000Z",
+      "date_unixtime": "1690816766",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "с каким опкодом готовилось"
+    },
+    {
+      "id": 116,
+      "type": "message",
+      "date": "2023-07-31T15:19:44.000Z",
+      "date_unixtime": "1690816784",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ок"
+    },
+    {
+      "id": 117,
+      "type": "message",
+      "date": "2023-07-31T15:20:09.000Z",
+      "date_unixtime": "1690816809",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "самый великий ценитель такта это я",
+      "reply_to_message_id": 111
+    },
+    {
+      "id": 118,
+      "type": "message",
+      "date": "2023-07-31T15:20:21.000Z",
+      "date_unixtime": "1690816821",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "нет"
+    },
+    {
+      "id": 119,
+      "type": "message",
+      "date": "2023-07-31T15:20:26.000Z",
+      "date_unixtime": "1690816826",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да"
+    },
+    {
+      "id": 120,
+      "type": "message",
+      "date": "2023-07-31T15:20:27.000Z",
+      "date_unixtime": "1690816827",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "не ценишь"
+    },
+    {
+      "id": 121,
+      "type": "message",
+      "date": "2023-07-31T15:20:35.000Z",
+      "date_unixtime": "1690816835",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да потому что нахуй блюпринт хуйн",
+      "reply_to_message_id": 120
+    },
+    {
+      "id": 122,
+      "type": "message",
+      "date": "2023-07-31T15:20:38.000Z",
+      "date_unixtime": "1690816838",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ой"
+    },
+    {
+      "id": 123,
+      "type": "message",
+      "date": "2023-07-31T15:26:51.000Z",
+      "date_unixtime": "1690817211",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а как .ts файл запустить"
+    },
+    {
+      "id": 124,
+      "type": "message",
+      "date": "2023-07-31T15:27:38.000Z",
+      "date_unixtime": "1690817258",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "@godemodegame"
+    },
+    {
+      "id": 125,
+      "type": "message",
+      "date": "2023-07-31T15:27:38.000Z",
+      "date_unixtime": "1690817258",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "какой"
+    },
+    {
+      "id": 126,
+      "type": "message",
+      "date": "2023-07-31T15:27:43.000Z",
+      "date_unixtime": "1690817263",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "мой",
+      "reply_to_message_id": 125
+    },
+    {
+      "id": 127,
+      "type": "message",
+      "date": "2023-07-31T15:27:46.000Z",
+      "date_unixtime": "1690817266",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "deploy.ts"
+    },
+    {
+      "id": 128,
+      "type": "message",
+      "date": "2023-07-31T15:27:54.000Z",
+      "date_unixtime": "1690817274",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "npx blueprint run"
+    },
+    {
+      "id": 129,
+      "type": "message",
+      "date": "2023-07-31T15:27:59.000Z",
+      "date_unixtime": "1690817279",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "эм"
+    },
+    {
+      "id": 130,
+      "type": "message",
+      "date": "2023-07-31T15:28:02.000Z",
+      "date_unixtime": "1690817282",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ты дебил?"
+    },
+    {
+      "id": 131,
+      "type": "message",
+      "date": "2023-07-31T15:28:03.000Z",
+      "date_unixtime": "1690817283",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "мой"
+    },
+    {
+      "id": 132,
+      "type": "message",
+      "date": "2023-07-31T15:28:08.000Z",
+      "date_unixtime": "1690817288",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а не от блюпринта"
+    },
+    {
+      "id": 133,
+      "type": "message",
+      "date": "2023-07-31T15:28:25.000Z",
+      "date_unixtime": "1690817305",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а нахуй ты это не в блюпринте делал"
+    },
+    {
+      "id": 134,
+      "type": "message",
+      "date": "2023-07-31T15:28:51.000Z",
+      "date_unixtime": "1690817331",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не работает блюпринт"
+    },
+    {
+      "id": 135,
+      "type": "message",
+      "date": "2023-07-31T15:28:54.000Z",
+      "date_unixtime": "1690817334",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не билдит"
+    },
+    {
+      "id": 136,
+      "type": "message",
+      "date": "2023-07-31T15:28:57.000Z",
+      "date_unixtime": "1690817337",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "просто нахуй не билдит"
+    },
+    {
+      "id": 137,
+      "type": "message",
+      "date": "2023-07-31T15:29:02.000Z",
+      "date_unixtime": "1690817342",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не обновляются билд файлы"
+    },
+    {
+      "id": 138,
+      "type": "message",
+      "date": "2023-07-31T15:29:07.000Z",
+      "date_unixtime": "1690817347",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "я хз чё за хуйгя"
+    },
+    {
+      "id": 139,
+      "type": "message",
+      "date": "2023-07-31T15:29:11.000Z",
+      "date_unixtime": "1690817351",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "версию подними мб"
+    },
+    {
+      "id": 140,
+      "type": "message",
+      "date": "2023-07-31T15:29:16.000Z",
+      "date_unixtime": "1690817356",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "build",
+      "reply_to_message_id": 128
+    },
+    {
+      "id": 141,
+      "type": "message",
+      "date": "2023-07-31T15:29:23.000Z",
+      "date_unixtime": "1690817363",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "и сбилдит"
+    },
+    {
+      "id": 142,
+      "type": "message",
+      "date": "2023-07-31T15:29:25.000Z",
+      "date_unixtime": "1690817365",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "packaje.json"
+    },
+    {
+      "id": 143,
+      "type": "message",
+      "date": "2023-07-31T15:29:35.000Z",
+      "date_unixtime": "1690817375",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "blueprint 0.12"
+    },
+    {
+      "id": 144,
+      "type": "message",
+      "date": "2023-07-31T15:29:40.000Z",
+      "date_unixtime": "1690817380",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а не 0.10"
+    },
+    {
+      "id": 145,
+      "type": "message",
+      "date": "2023-07-31T15:30:17.000Z",
+      "date_unixtime": "1690817417",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "у него деплоится каждый раз с одним и тем же адресом",
+      "reply_to_message_id": 140
+    },
+    {
+      "id": 146,
+      "type": "message",
+      "date": "2023-07-31T15:31:22.000Z",
+      "date_unixtime": "1690817482",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "так же......................",
+      "reply_to_message_id": 143
+    },
+    {
+      "id": 147,
+      "type": "message",
+      "date": "2023-07-31T15:34:57.000Z",
+      "date_unixtime": "1690817697",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "мир просто не хочет чтобы я стал крутым такт девом"
+    },
+    {
+      "id": 148,
+      "type": "message",
+      "date": "2023-07-31T15:35:28.000Z",
+      "date_unixtime": "1690817728",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "учись тесты писать"
+    },
+    {
+      "id": 149,
+      "type": "message",
+      "date": "2023-07-31T15:35:35.000Z",
+      "date_unixtime": "1690817735",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "и тестировать код тестами"
+    },
+    {
+      "id": 150,
+      "type": "message",
+      "date": "2023-07-31T15:35:38.000Z",
+      "date_unixtime": "1690817738",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а не руками"
+    },
+    {
+      "id": 151,
+      "type": "message",
+      "date": "2023-07-31T15:35:56.000Z",
+      "date_unixtime": "1690817756",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да блять"
+    },
+    {
+      "id": 152,
+      "type": "message",
+      "date": "2023-07-31T15:36:00.000Z",
+      "date_unixtime": "1690817760",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "что изменится"
+    },
+    {
+      "id": 153,
+      "type": "message",
+      "date": "2023-07-31T15:36:02.000Z",
+      "date_unixtime": "1690817762",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "@analcasino опааа"
+    },
+    {
+      "id": 154,
+      "type": "message",
+      "date": "2023-07-31T15:36:03.000Z",
+      "date_unixtime": "1690817763",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "у меня не билдится нахуй"
+    },
+    {
+      "id": 155,
+      "type": "message",
+      "date": "2023-07-31T15:36:09.000Z",
+      "date_unixtime": "1690817769",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "надо делать смарт на тыкте"
+    },
+    {
+      "id": 156,
+      "type": "message",
+      "date": "2023-07-31T15:36:16.000Z",
+      "date_unixtime": "1690817776",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да сука я и пишу",
+      "reply_to_message_id": 155
+    },
+    {
+      "id": 157,
+      "type": "message",
+      "date": "2023-07-31T15:36:30.000Z",
+      "date_unixtime": "1690817790",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "код скинь"
+    },
+    {
+      "id": 159,
+      "type": "message",
+      "date": "2023-07-31T15:36:40.000Z",
+      "date_unixtime": "1690817800",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ща",
+      "reply_to_message_id": 157
+    },
+    {
+      "id": 160,
+      "type": "message",
+      "date": "2023-07-31T15:39:26.000Z",
+      "date_unixtime": "1690817966",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "сюда прям?"
+    },
+    {
+      "id": 161,
+      "type": "message",
+      "date": "2023-07-31T15:39:28.000Z",
+      "date_unixtime": "1690817968",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "код"
+    },
+    {
+      "id": 162,
+      "type": "message",
+      "date": "2023-07-31T15:39:32.000Z",
+      "date_unixtime": "1690817972",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "@godemodegame"
+    },
+    {
+      "id": 163,
+      "type": "message",
+      "date": "2023-07-31T15:39:57.000Z",
+      "date_unixtime": "1690817997",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "хз"
+    },
+    {
+      "id": 164,
+      "type": "message",
+      "date": "2023-07-31T15:40:30.000Z",
+      "date_unixtime": "1690818030",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "тут просто могут украсть"
+    },
+    {
+      "id": 165,
+      "type": "message",
+      "date": "2023-07-31T15:40:39.000Z",
+      "date_unixtime": "1690818039",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "это же такт генг"
+    },
+    {
+      "id": 166,
+      "type": "message",
+      "date": "2023-07-31T15:40:42.000Z",
+      "date_unixtime": "1690818042",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "тут воры все"
+    },
+    {
+      "id": 168,
+      "type": "message",
+      "date": "2023-07-31T15:40:49.000Z",
+      "date_unixtime": "1690818049",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "я в джетлабс кину"
+    },
+    {
+      "id": 169,
+      "type": "message",
+      "date": "2023-07-31T15:40:50.000Z",
+      "date_unixtime": "1690818050",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "кто"
+    },
+    {
+      "id": 170,
+      "type": "message",
+      "date": "2023-07-31T15:40:58.000Z",
+      "date_unixtime": "1690818058",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "все",
+      "reply_to_message_id": 169
+    },
+    {
+      "id": 171,
+      "type": "message",
+      "date": "2023-07-31T15:41:03.000Z",
+      "date_unixtime": "1690818063",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "кто"
+    },
+    {
+      "id": 172,
+      "type": "message",
+      "date": "2023-07-31T15:41:23.000Z",
+      "date_unixtime": "1690818083",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ВСЕ БЛЯТЬ"
+    },
+    {
+      "id": 173,
+      "type": "message",
+      "date": "2023-07-31T15:41:31.000Z",
+      "date_unixtime": "1690818091",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "ты"
+    },
+    {
+      "id": 174,
+      "type": "message",
+      "date": "2023-07-31T15:41:33.000Z",
+      "date_unixtime": "1690818093",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "вор"
+    },
+    {
+      "id": 175,
+      "type": "message",
+      "date": "2023-07-31T15:41:57.000Z",
+      "date_unixtime": "1690818117",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "что что"
+    },
+    {
+      "id": 176,
+      "type": "message",
+      "date": "2023-07-31T15:59:14.000Z",
+      "date_unixtime": "1690819154",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ЕБААААААААААААТЬ"
+    },
+    {
+      "id": 177,
+      "type": "message",
+      "date": "2023-07-31T15:59:15.000Z",
+      "date_unixtime": "1690819155",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "Я ПОЧИНИЛ"
+    },
+    {
+      "id": 178,
+      "type": "message",
+      "date": "2023-07-31T15:59:20.000Z",
+      "date_unixtime": "1690819160",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "НАДО БЫЛО ФАЙЛЫ БИЛДА УДАЛИТЬ НАХУЙ"
+    },
+    {
+      "id": 179,
+      "type": "message",
+      "date": "2023-08-23T10:04:23.000Z",
+      "date_unixtime": "1692785063",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "nfr"
+    },
+    {
+      "id": 180,
+      "type": "message",
+      "date": "2023-08-23T10:04:24.000Z",
+      "date_unixtime": "1692785064",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "так"
+    },
+    {
+      "id": 181,
+      "type": "message",
+      "date": "2023-08-23T10:04:29.000Z",
+      "date_unixtime": "1692785069",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "вопросы есть по такту"
+    },
+    {
+      "id": 182,
+      "type": "message",
+      "date": "2023-08-23T10:04:34.000Z",
+      "date_unixtime": "1692785074",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "какие"
+    },
+    {
+      "id": 183,
+      "type": "message",
+      "date": "2023-08-23T10:04:37.000Z",
+      "date_unixtime": "1692785077",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "как опкоды в нем работают?"
+    },
+    {
+      "id": 184,
+      "type": "message",
+      "date": "2023-08-23T10:04:39.000Z",
+      "date_unixtime": "1692785079",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "нихуясе",
+      "reply_to_message_id": 181
+    },
+    {
+      "id": 185,
+      "type": "message",
+      "date": "2023-08-23T10:04:42.000Z",
+      "date_unixtime": "1692785082",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а, ща",
+      "reply_to_message_id": 183
+    },
+    {
+      "id": 186,
+      "type": "message",
+      "date": "2023-08-23T10:04:53.000Z",
+      "date_unixtime": "1692785093",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "ты тип слово просто пишешь?"
+    },
+    {
+      "id": 187,
+      "type": "message",
+      "date": "2023-08-23T10:05:02.000Z",
+      "date_unixtime": "1692785102",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "какой-то буллщит ниче не понятно"
+    },
+    {
+      "id": 188,
+      "type": "message",
+      "date": "2023-08-23T10:05:21.000Z",
+      "date_unixtime": "1692785121",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "всмы",
+      "reply_to_message_id": 186
+    },
+    {
+      "id": 189,
+      "type": "message",
+      "date": "2023-08-23T10:05:22.000Z",
+      "date_unixtime": "1692785122",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "да и из него делается опкод сам",
+      "reply_to_message_id": 186
+    },
+    {
+      "id": 190,
+      "type": "message",
+      "date": "2023-08-23T10:05:30.000Z",
+      "date_unixtime": "1692785130",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "а в коде ск"
+    },
+    {
+      "id": 191,
+      "type": "message",
+      "date": "2023-08-23T10:05:33.000Z",
+      "date_unixtime": "1692785133",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "тоже слово?"
+    },
+    {
+      "id": 192,
+      "type": "message",
+      "date": "2023-08-23T10:05:37.000Z",
+      "date_unixtime": "1692785137",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "или там число"
+    },
+    {
+      "id": 195,
+      "type": "message",
+      "date": "2023-08-23T10:06:11.000Z",
+      "date_unixtime": "1692785171",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "можно вот так в скобках указать нужный тебе оп код",
+      "reply_to_message_id": 193
+    },
+    {
+      "id": 196,
+      "type": "message",
+      "date": "2023-08-23T10:06:45.000Z",
+      "date_unixtime": "1692785205",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "и когда будешь отправлять или принимать этот мессадж у тебя будет именно этот опкод",
+      "reply_to_message_id": 193
+    },
+    {
+      "id": 197,
+      "type": "message",
+      "date": "2023-08-23T10:06:56.000Z",
+      "date_unixtime": "1692785216",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "а не сгенеренный тактом на основе названия"
+    },
+    {
+      "id": 198,
+      "type": "message",
+      "date": "2023-08-23T10:07:15.000Z",
+      "date_unixtime": "1692785235",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "однако такт говно"
+    },
+    {
+      "id": 199,
+      "type": "message",
+      "date": "2023-08-23T10:07:20.000Z",
+      "date_unixtime": "1692785240",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "зачем такт тебе"
+    },
+    {
+      "id": 200,
+      "type": "message",
+      "date": "2023-08-23T10:07:34.000Z",
+      "date_unixtime": "1692785254",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "надо"
+    },
+    {
+      "id": 201,
+      "type": "message",
+      "date": "2023-08-23T10:07:35.000Z",
+      "date_unixtime": "1692785255",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "такс пока что говно*"
+    },
+    {
+      "id": 202,
+      "type": "message",
+      "date": "2023-08-23T10:07:43.000Z",
+      "date_unixtime": "1692785263",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "и будет"
+    },
+    {
+      "id": 203,
+      "type": "message",
+      "date": "2023-08-23T10:07:49.000Z",
+      "date_unixtime": "1692785269",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "даже хайлайта нету)",
+      "media_type": "photo",
+      "file": "photos/photo_203.jpg",
+      "width": 633,
+      "height": 698
+    },
+    {
+      "id": 204,
+      "type": "message",
+      "date": "2023-08-23T10:07:51.000Z",
+      "date_unixtime": "1692785271",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "фанси всегда будет пизже лол"
+    },
+    {
+      "id": 205,
+      "type": "message",
+      "date": "2023-08-23T10:07:57.000Z",
+      "date_unixtime": "1692785277",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "сижу тупо смотрю в плеин текст"
+    },
+    {
+      "id": 206,
+      "type": "message",
+      "date": "2023-08-23T10:08:22.000Z",
+      "date_unixtime": "1692785302",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "есть же",
+      "reply_to_message_id": 203
+    },
+    {
+      "id": 207,
+      "type": "message",
+      "date": "2023-08-23T10:08:38.000Z",
+      "date_unixtime": "1692785318",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "ну в вскод да"
+    },
+    {
+      "id": 208,
+      "type": "message",
+      "date": "2023-08-23T10:08:39.000Z",
+      "date_unixtime": "1692785319",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а ты шо в виме",
+      "reply_to_message_id": 203
+    },
+    {
+      "id": 209,
+      "type": "message",
+      "date": "2023-08-23T10:08:40.000Z",
+      "date_unixtime": "1692785320",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "в вим нет"
+    },
+    {
+      "id": 210,
+      "type": "message",
+      "date": "2023-08-23T10:08:44.000Z",
+      "date_unixtime": "1692785324",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ля сигма",
+      "reply_to_message_id": 209
+    },
+    {
+      "id": 211,
+      "type": "message",
+      "date": "2023-08-23T10:08:52.000Z",
+      "date_unixtime": "1692785332",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "так зайди в вс код"
+    },
+    {
+      "id": 212,
+      "type": "message",
+      "date": "2023-08-23T10:09:02.000Z",
+      "date_unixtime": "1692785342",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а ты в вим зайди тогда",
+      "reply_to_message_id": 211
+    },
+    {
+      "id": 213,
+      "type": "message",
+      "date": "2023-08-23T10:09:05.000Z",
+      "date_unixtime": "1692785345",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "ну приходится ради такта зайти да"
+    },
+    {
+      "id": 214,
+      "type": "message",
+      "date": "2023-08-23T10:09:10.000Z",
+      "date_unixtime": "1692785350",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "но это булщит"
+    },
+    {
+      "id": 215,
+      "type": "message",
+      "date": "2023-08-23T10:09:14.000Z",
+      "date_unixtime": "1692785354",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "зайти то зайду, а как выйти",
+      "reply_to_message_id": 212
+    },
+    {
+      "id": 216,
+      "type": "message",
+      "date": "2023-08-23T10:09:14.000Z",
+      "date_unixtime": "1692785354",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да. вот первый минус такта",
+      "reply_to_message_id": 213
+    },
+    {
+      "id": 217,
+      "type": "message",
+      "date": "2023-08-23T10:09:18.000Z",
+      "date_unixtime": "1692785358",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "аххахах",
+      "reply_to_message_id": 215
+    },
+    {
+      "id": 219,
+      "type": "message",
+      "date": "2023-08-23T10:09:41.000Z",
+      "date_unixtime": "1692785381",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "тебе что нужно написать? давай напишу",
+      "reply_to_message_id": 203
+    },
+    {
+      "id": 220,
+      "type": "message",
+      "date": "2023-08-23T10:17:21.000Z",
+      "date_unixtime": "1692785841",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "да в целом разбираюсь потихоньку"
+    },
+    {
+      "id": 221,
+      "type": "message",
+      "date": "2023-08-23T10:17:27.000Z",
+      "date_unixtime": "1692785847",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "а как работать с жетонами?"
+    },
+    {
+      "id": 222,
+      "type": "message",
+      "date": "2023-08-23T10:17:36.000Z",
+      "date_unixtime": "1692785856",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "всмы",
+      "reply_to_message_id": 221
+    },
+    {
+      "id": 223,
+      "type": "message",
+      "date": "2023-08-23T10:17:40.000Z",
+      "date_unixtime": "1692785860",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "и нфт"
+    },
+    {
+      "id": 224,
+      "type": "message",
+      "date": "2023-08-23T10:17:48.000Z",
+      "date_unixtime": "1692785868",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "тип как это на такте выглядит\nесть примеры?"
+    },
+    {
+      "id": 225,
+      "type": "message",
+      "date": "2023-08-23T10:17:49.000Z",
+      "date_unixtime": "1692785869",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "такие штуки писать",
+      "reply_to_message_id": 193
+    },
+    {
+      "id": 226,
+      "type": "message",
+      "date": "2023-08-23T10:18:50.000Z",
+      "date_unixtime": "1692785930",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "но у меня на такте жетоны не отправлялись"
+    },
+    {
+      "id": 227,
+      "type": "message",
+      "date": "2023-08-23T10:18:54.000Z",
+      "date_unixtime": "1692785934",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "поэтому я на фанси и перешёл"
+    },
+    {
+      "id": 228,
+      "type": "message",
+      "date": "2023-08-23T10:22:09.000Z",
+      "date_unixtime": "1692786129",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "так же)",
+      "reply_to_message_id": 221
+    },
+    {
+      "id": 229,
+      "type": "message",
+      "date": "2023-08-23T10:22:24.000Z",
+      "date_unixtime": "1692786144",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "ну вот сообщения",
+      "reply_to_message_id": 193
+    },
+    {
+      "id": 230,
+      "type": "message",
+      "date": "2023-08-23T10:22:33.000Z",
+      "date_unixtime": "1692786153",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "их принимаешь/отправляешь тудым сюдым"
+    },
+    {
+      "id": 232,
+      "type": "message",
+      "date": "2023-09-20T17:58:17.000Z",
+      "date_unixtime": "1695232697",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "о нихуя"
+    },
+    {
+      "id": 233,
+      "type": "message",
+      "date": "2023-09-20T17:58:26.000Z",
+      "date_unixtime": "1695232706",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ураа"
+    },
+    {
+      "id": 234,
+      "type": "message",
+      "date": "2023-09-20T17:58:36.000Z",
+      "date_unixtime": "1695232716",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "+1 тактер"
+    },
+    {
+      "id": 235,
+      "type": "message",
+      "date": "2023-09-20T17:58:53.000Z",
+      "date_unixtime": "1695232733",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "посмотрим что там у вас"
+    },
+    {
+      "id": 236,
+      "type": "message",
+      "date": "2023-09-20T17:58:57.000Z",
+      "date_unixtime": "1695232737",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ничего"
+    },
+    {
+      "id": 237,
+      "type": "message",
+      "date": "2023-09-20T17:59:12.000Z",
+      "date_unixtime": "1695232752",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "в ваших тактах"
+    },
+    {
+      "id": 238,
+      "type": "message",
+      "date": "2023-09-20T17:59:19.000Z",
+      "date_unixtime": "1695232759",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "я с func world 🌍"
+    },
+    {
+      "id": 239,
+      "type": "message",
+      "date": "2023-09-20T17:59:39.000Z",
+      "date_unixtime": "1695232779",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "чужак"
+    },
+    {
+      "id": 240,
+      "type": "message",
+      "date": "2023-09-20T17:59:49.000Z",
+      "date_unixtime": "1695232789",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "pov ты живешь на func планете\n\nhttps://www.youtube.com/watch?v=iKxw_xHDJ0k\n\nдумаешь умные мысли"
+    },
+    {
+      "id": 241,
+      "type": "message",
+      "date": "2023-09-20T18:00:09.000Z",
+      "date_unixtime": "1695232809",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "пишешь умный код"
+    },
+    {
+      "id": 242,
+      "type": "message",
+      "date": "2023-09-20T18:00:14.000Z",
+      "date_unixtime": "1695232814",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не то что мы, тактеры"
+    },
+    {
+      "id": 243,
+      "type": "message",
+      "date": "2023-09-20T18:00:16.000Z",
+      "date_unixtime": "1695232816",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "не про меня(",
+      "reply_to_message_id": 241
+    },
+    {
+      "id": 244,
+      "type": "message",
+      "date": "2023-09-20T18:00:22.000Z",
+      "date_unixtime": "1695232822",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а ну тогда ты тактер",
+      "reply_to_message_id": 243
+    },
+    {
+      "id": 245,
+      "type": "message",
+      "date": "2023-09-20T18:00:28.000Z",
+      "date_unixtime": "1695232828",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "поздравляем"
+    },
+    {
+      "id": 246,
+      "type": "message",
+      "date": "2023-09-20T18:00:30.000Z",
+      "date_unixtime": "1695232830",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "я func девиант"
+    },
+    {
+      "id": 247,
+      "type": "message",
+      "date": "2023-09-20T18:00:36.000Z",
+      "date_unixtime": "1695232836",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ладн"
+    },
+    {
+      "id": 248,
+      "type": "message",
+      "date": "2023-09-20T18:00:52.000Z",
+      "date_unixtime": "1695232852",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ну такт хуйня неимхо"
+    },
+    {
+      "id": 249,
+      "type": "message",
+      "date": "2023-09-20T18:01:08.000Z",
+      "date_unixtime": "1695232868",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "да, но они пытаются, посмотрим"
+    },
+    {
+      "id": 250,
+      "type": "message",
+      "date": "2023-09-20T18:01:16.000Z",
+      "date_unixtime": "1695232876",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "может оно пишет код лучше меня"
+    },
+    {
+      "id": 251,
+      "type": "message",
+      "date": "2023-09-20T18:01:17.000Z",
+      "date_unixtime": "1695232877",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "лол"
+    },
+    {
+      "id": 252,
+      "type": "message",
+      "date": "2023-09-20T18:01:19.000Z",
+      "date_unixtime": "1695232879",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "на func"
+    },
+    {
+      "id": 254,
+      "type": "message",
+      "date": "2023-09-20T18:21:44.000Z",
+      "date_unixtime": "1695234104",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "сообщество пополняется"
+    },
+    {
+      "id": 256,
+      "type": "message",
+      "date": "2023-09-20T18:27:03.000Z",
+      "date_unixtime": "1695234423",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "Добрый вечер"
+    },
+    {
+      "id": 257,
+      "type": "message",
+      "date": "2023-09-20T18:27:08.000Z",
+      "date_unixtime": "1695234428",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "добрый"
+    },
+    {
+      "id": 259,
+      "type": "message",
+      "date": "2023-09-20T18:47:52.000Z",
+      "date_unixtime": "1695235672",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "какой же тут добрый чат 😊"
+    },
+    {
+      "id": 260,
+      "type": "message",
+      "date": "2023-09-20T18:48:02.000Z",
+      "date_unixtime": "1695235682",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не то что в этих ваших фанси генгах"
+    },
+    {
+      "id": 265,
+      "type": "message",
+      "date": "2023-09-22T11:41:53.000Z",
+      "date_unixtime": "1695382913",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "опа"
+    },
+    {
+      "id": 266,
+      "type": "message",
+      "date": "2023-09-22T11:42:03.000Z",
+      "date_unixtime": "1695382923",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а ты как"
+    },
+    {
+      "id": 267,
+      "type": "message",
+      "date": "2023-09-22T11:42:16.000Z",
+      "date_unixtime": "1695382936",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "этот чат ток в фанси генге приватном знают"
+    },
+    {
+      "id": 268,
+      "type": "message",
+      "date": "2023-09-22T11:42:48.000Z",
+      "date_unixtime": "1695382968",
+      "from": "Yar",
+      "from_id": "user402323402",
+      "text": "Хехе"
+    },
+    {
+      "id": 269,
+      "type": "message",
+      "date": "2023-09-22T11:42:53.000Z",
+      "date_unixtime": "1695382973",
+      "from": "Yar",
+      "from_id": "user402323402",
+      "text": "Ну так-с"
+    },
+    {
+      "id": 270,
+      "type": "message",
+      "date": "2023-09-22T11:44:48.000Z",
+      "date_unixtime": "1695383088",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "чтобы до вечера @ShadowTi был в приватке фанси геньга"
+    },
+    {
+      "id": 271,
+      "type": "message",
+      "date": "2023-09-22T11:44:51.000Z",
+      "date_unixtime": "1695383091",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "@godemodegame"
+    },
+    {
+      "id": 272,
+      "type": "message",
+      "date": "2023-09-22T11:45:03.000Z",
+      "date_unixtime": "1695383103",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "чо я то сразу"
+    },
+    {
+      "id": 273,
+      "type": "message",
+      "date": "2023-09-22T11:45:14.000Z",
+      "date_unixtime": "1695383114",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "management"
+    },
+    {
+      "id": 275,
+      "type": "message",
+      "date": "2023-09-22T11:47:38.000Z",
+      "date_unixtime": "1695383258",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "проконтролировать чтобы он зашел в фанси генг?"
+    },
+    {
+      "id": 276,
+      "type": "message",
+      "date": "2023-09-22T11:47:45.000Z",
+      "date_unixtime": "1695383265",
+      "from": "Yar",
+      "from_id": "user402323402",
+      "text": "Канешн"
+    },
+    {
+      "id": 277,
+      "type": "message",
+      "date": "2023-09-22T11:47:55.000Z",
+      "date_unixtime": "1695383275",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "децентралайз"
+    },
+    {
+      "id": 278,
+      "type": "message",
+      "date": "2023-09-22T11:47:55.000Z",
+      "date_unixtime": "1695383275",
+      "from": "Chris",
+      "from_id": "user263737173",
+      "text": "так там прогеры"
+    },
+    {
+      "id": 279,
+      "type": "message",
+      "date": "2023-09-22T11:48:03.000Z",
+      "date_unixtime": "1695383283",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "так кузя не?"
+    },
+    {
+      "id": 280,
+      "type": "message",
+      "date": "2023-09-22T11:48:06.000Z",
+      "date_unixtime": "1695383286",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "так не"
+    },
+    {
+      "id": 281,
+      "type": "message",
+      "date": "2023-09-22T11:48:18.000Z",
+      "date_unixtime": "1695383298",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "@toncoinsex не прогер"
+    },
+    {
+      "id": 282,
+      "type": "message",
+      "date": "2023-09-22T11:48:23.000Z",
+      "date_unixtime": "1695383303",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "just npc"
+    },
+    {
+      "id": 283,
+      "type": "message",
+      "date": "2023-09-22T11:48:34.000Z",
+      "date_unixtime": "1695383314",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "just rpc"
+    },
+    {
+      "id": 285,
+      "type": "message",
+      "date": "2023-09-22T11:48:46.000Z",
+      "date_unixtime": "1695383326",
+      "from": "Yar",
+      "from_id": "user402323402",
+      "text": "time"
+    },
+    {
+      "id": 286,
+      "type": "message",
+      "date": "2023-09-22T11:48:53.000Z",
+      "date_unixtime": "1695383333",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "bl"
+    },
+    {
+      "id": 287,
+      "type": "message",
+      "date": "2023-09-22T11:49:34.000Z",
+      "date_unixtime": "1695383374",
+      "from": "User<5062827846>",
+      "from_id": "user5062827846",
+      "text": ":/",
+      "reply_to_message_id": 281
+    },
+    {
+      "id": 288,
+      "type": "message",
+      "date": "2023-09-22T11:50:19.000Z",
+      "date_unixtime": "1695383419",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "я вот поэтому и спросил, ладно, и так сойдет",
+      "reply_to_message_id": 278
+    },
+    {
+      "id": 290,
+      "type": "message",
+      "date": "2023-10-16T16:29:11.000Z",
+      "date_unixtime": "1697473751",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "дарова коллеги тактеры"
+    },
+    {
+      "id": 291,
+      "type": "message",
+      "date": "2023-10-16T16:29:15.000Z",
+      "date_unixtime": "1697473755",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "кто решает такт челендж?"
+    },
+    {
+      "id": 292,
+      "type": "message",
+      "date": "2023-10-16T16:29:31.000Z",
+      "date_unixtime": "1697473771",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "Допустим"
+    },
+    {
+      "id": 293,
+      "type": "message",
+      "date": "2023-10-16T16:29:40.000Z",
+      "date_unixtime": "1697473780",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "показывай газ",
+      "reply_to_message_id": 292
+    },
+    {
+      "id": 294,
+      "type": "message",
+      "date": "2023-10-16T16:30:07.000Z",
+      "date_unixtime": "1697473807",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "🐷💨"
+    },
+    {
+      "id": 295,
+      "type": "message",
+      "date": "2023-10-16T16:30:22.000Z",
+      "date_unixtime": "1697473822",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "настоящий тактер",
+      "reply_to_message_id": 294
+    },
+    {
+      "id": 296,
+      "type": "message",
+      "date": "2023-10-16T16:31:37.000Z",
+      "date_unixtime": "1697473897",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "Таски отвалились на самом важном коммите, пока живи без газу",
+      "reply_to_message_id": 295
+    },
+    {
+      "id": 297,
+      "type": "message",
+      "date": "2023-10-16T16:33:53.000Z",
+      "date_unixtime": "1697474033",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "Please rerun the action. We've experienced a significan spike in amount of submissions recently. The issue you've faced is most likely caused by our servers overload.",
+      "forwarded_from": "TON Contests Chat",
+      "forwarded_from_id": "channel1754930953",
+      "forwarded_date": "2023-10-16T16:31:58.000Z"
+    },
+    {
+      "id": 299,
+      "type": "message",
+      "date": "2023-10-16T16:37:31.000Z",
+      "date_unixtime": "1697474251",
+      "from": "User<5062827846>",
+      "from_id": "user5062827846",
+      "text": "аё",
+      "reply_to_message_id": 297
+    },
+    {
+      "id": 300,
+      "type": "message",
+      "date": "2023-10-16T16:37:42.000Z",
+      "date_unixtime": "1697474262",
+      "from": "User<5062827846>",
+      "from_id": "user5062827846",
+      "text": "тоесть из за нагрузок все эти проблемы?"
+    },
+    {
+      "id": 301,
+      "type": "message",
+      "date": "2023-10-16T16:37:53.000Z",
+      "date_unixtime": "1697474273",
+      "from": "Влад",
+      "from_id": "user1340874559",
+      "text": "здарова получается"
+    },
+    {
+      "id": 302,
+      "type": "message",
+      "date": "2023-10-16T16:38:04.000Z",
+      "date_unixtime": "1697474284",
+      "from": "User<5062827846>",
+      "from_id": "user5062827846",
+      "text": "привет"
+    },
+    {
+      "id": 303,
+      "type": "message",
+      "date": "2023-10-16T16:38:56.000Z",
+      "date_unixtime": "1697474336",
+      "from": "Влад",
+      "from_id": "user1340874559",
+      "text": "Уже несколько раз подряд крашутся 4 и 5, а на 2 сломался 6 тест 😶",
+      "reply_to_message_id": 298
+    },
+    {
+      "id": 306,
+      "type": "message",
+      "date": "2023-10-16T17:11:37.000Z",
+      "date_unixtime": "1697476297",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "mode: 0  – 1,054,237,989\nmode: SendRemainingValue  – 1,054,237,986\n\nкстати, @dogpy в курсе, что мод влияет на газ? шок"
+    },
+    {
+      "id": 307,
+      "type": "message",
+      "date": "2023-10-16T17:13:29.000Z",
+      "date_unixtime": "1697476409",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ок",
+      "reply_to_message_id": 306
+    },
+    {
+      "id": 308,
+      "type": "message",
+      "date": "2023-10-16T18:54:20.000Z",
+      "date_unixtime": "1697482460",
+      "from": "Влад",
+      "from_id": "user1340874559",
+      "text": "@dogpy сколько у тебя очков в 5?"
+    },
+    {
+      "id": 309,
+      "type": "message",
+      "date": "2023-10-16T18:56:05.000Z",
+      "date_unixtime": "1697482565",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "5.3765",
+      "reply_to_message_id": 308
+    },
+    {
+      "id": 310,
+      "type": "message",
+      "date": "2023-10-16T18:56:09.000Z",
+      "date_unixtime": "1697482569",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ну я не оптизимирую"
+    },
+    {
+      "id": 311,
+      "type": "message",
+      "date": "2023-10-16T18:56:11.000Z",
+      "date_unixtime": "1697482571",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ибо не дома"
+    },
+    {
+      "id": 312,
+      "type": "message",
+      "date": "2023-10-16T18:56:43.000Z",
+      "date_unixtime": "1697482603",
+      "from": "Влад",
+      "from_id": "user1340874559",
+      "text": "нуб получается, у меня на 0,0145 больше",
+      "reply_to_message_id": 309
+    },
+    {
+      "id": 313,
+      "type": "message",
+      "date": "2023-10-16T18:58:07.000Z",
+      "date_unixtime": "1697482687",
+      "from": "Влад",
+      "from_id": "user1340874559",
+      "text": "(Если вычесть у тебя 5 таску, то у меня на 0.0145 очков больше, чем у тебя)",
+      "reply_to_message_id": 312
+    },
+    {
+      "id": 314,
+      "type": "message",
+      "date": "2023-10-16T18:58:42.000Z",
+      "date_unixtime": "1697482722",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вау"
+    },
+    {
+      "id": 316,
+      "type": "message",
+      "date": "2023-10-17T19:06:23.000Z",
+      "date_unixtime": "1697569583",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "@dogpy подскажи, я же правильно время в четвертой пытаюсь поставить?     \nself.lockedUntil = now() + msg.forwardPayload.loadUint(32);"
+    },
+    {
+      "id": 317,
+      "type": "message",
+      "date": "2023-10-17T19:06:40.000Z",
+      "date_unixtime": "1697569600",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "да, пупсик",
+      "reply_to_message_id": 316
+    },
+    {
+      "id": 318,
+      "type": "message",
+      "date": "2023-10-17T19:06:47.000Z",
+      "date_unixtime": "1697569607",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "da blya"
+    },
+    {
+      "id": 319,
+      "type": "message",
+      "date": "2023-10-17T19:07:00.000Z",
+      "date_unixtime": "1697569620",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "могу помочь тебе"
+    },
+    {
+      "id": 320,
+      "type": "message",
+      "date": "2023-10-17T19:07:17.000Z",
+      "date_unixtime": "1697569637",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "скажу где ошибка"
+    },
+    {
+      "id": 321,
+      "type": "message",
+      "date": "2023-10-17T19:07:32.000Z",
+      "date_unixtime": "1697569652",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "я всё решил"
+    },
+    {
+      "id": 322,
+      "type": "message",
+      "date": "2023-10-17T19:07:33.000Z",
+      "date_unixtime": "1697569653",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "я сигма"
+    },
+    {
+      "id": 323,
+      "type": "message",
+      "date": "2023-10-17T19:09:00.000Z",
+      "date_unixtime": "1697569740",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а у тя скок тестов?",
+      "reply_to_message_id": 318
+    },
+    {
+      "id": 324,
+      "type": "message",
+      "date": "2023-10-17T19:09:03.000Z",
+      "date_unixtime": "1697569743",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "пройдено"
+    },
+    {
+      "id": 326,
+      "type": "message",
+      "date": "2023-10-17T19:09:39.000Z",
+      "date_unixtime": "1697569779",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а"
+    },
+    {
+      "id": 327,
+      "type": "message",
+      "date": "2023-10-17T19:09:44.000Z",
+      "date_unixtime": "1697569784",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "это с выводом нфт тогда"
+    },
+    {
+      "id": 328,
+      "type": "message",
+      "date": "2023-10-17T19:09:49.000Z",
+      "date_unixtime": "1697569789",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "кинь код вывода нфт в лс"
+    },
+    {
+      "id": 329,
+      "type": "message",
+      "date": "2023-10-17T19:09:51.000Z",
+      "date_unixtime": "1697569791",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "4"
+    },
+    {
+      "id": 330,
+      "type": "message",
+      "date": "2023-10-17T19:09:58.000Z",
+      "date_unixtime": "1697569798",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "можешь часть"
+    },
+    {
+      "id": 331,
+      "type": "message",
+      "date": "2023-10-17T19:10:00.000Z",
+      "date_unixtime": "1697569800",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "если боишься"
+    },
+    {
+      "id": 335,
+      "type": "message",
+      "date": "2023-10-18T04:05:30.000Z",
+      "date_unixtime": "1697601930",
+      "from": "Doctor Delpy",
+      "from_id": "user5587262915",
+      "text": "Почему..?",
+      "reply_to_message_id": 334
+    },
+    {
+      "id": 336,
+      "type": "message",
+      "date": "2023-10-18T04:15:27.000Z",
+      "date_unixtime": "1697602527",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "он меня буллит"
+    },
+    {
+      "id": 337,
+      "type": "message",
+      "date": "2023-10-18T04:16:02.000Z",
+      "date_unixtime": "1697602562",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "это разборка тактерская"
+    },
+    {
+      "id": 341,
+      "type": "message",
+      "date": "2023-10-20T18:27:50.000Z",
+      "date_unixtime": "1697826470",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "/ban",
+      "reply_to_message_id": 339
+    },
+    {
+      "id": 343,
+      "type": "message",
+      "date": "2023-10-20T18:27:57.000Z",
+      "date_unixtime": "1697826477",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "рано",
+      "reply_to_message_id": 341
+    },
+    {
+      "id": 344,
+      "type": "message",
+      "date": "2023-10-20T18:28:09.000Z",
+      "date_unixtime": "1697826489",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "/delay ban 3000",
+      "reply_to_message_id": 343
+    },
+    {
+      "id": 345,
+      "type": "message",
+      "date": "2023-10-20T18:28:30.000Z",
+      "date_unixtime": "1697826510",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "фейк!!!",
+      "reply_to_message_id": 339
+    },
+    {
+      "id": 346,
+      "type": "message",
+      "date": "2023-10-20T18:28:32.000Z",
+      "date_unixtime": "1697826512",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ребята не верьте ему"
+    },
+    {
+      "id": 347,
+      "type": "message",
+      "date": "2023-10-20T18:28:46.000Z",
+      "date_unixtime": "1697826526",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "он развалил эверскейл, он развалит и нас если будем поддаваться"
+    },
+    {
+      "id": 348,
+      "type": "message",
+      "date": "2023-10-20T18:28:53.000Z",
+      "date_unixtime": "1697826533",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Based",
+      "reply_to_message_id": 339
+    },
+    {
+      "id": 349,
+      "type": "message",
+      "date": "2023-10-20T18:28:55.000Z",
+      "date_unixtime": "1697826535",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "такт генг нерушим"
+    },
+    {
+      "id": 350,
+      "type": "message",
+      "date": "2023-10-20T18:29:19.000Z",
+      "date_unixtime": "1697826559",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Ты не понимаешь о чем говоришь",
+      "reply_to_message_id": 347
+    },
+    {
+      "id": 351,
+      "type": "message",
+      "date": "2023-10-20T18:29:24.000Z",
+      "date_unixtime": "1697826564",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "покажите как на такте юзать asm вставки и мы подружимся",
+      "reply_to_message_id": 349
+    },
+    {
+      "id": 352,
+      "type": "message",
+      "date": "2023-10-20T18:29:40.000Z",
+      "date_unixtime": "1697826580",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "А на солидити можно было?"
+    },
+    {
+      "id": 353,
+      "type": "message",
+      "date": "2023-10-20T18:29:46.000Z",
+      "date_unixtime": "1697826586",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "неа)"
+    },
+    {
+      "id": 354,
+      "type": "message",
+      "date": "2023-10-20T18:29:50.000Z",
+      "date_unixtime": "1697826590",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "там оно и не надо"
+    },
+    {
+      "id": 355,
+      "type": "message",
+      "date": "2023-10-20T18:30:03.000Z",
+      "date_unixtime": "1697826603",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ну",
+      "reply_to_message_id": 351
+    },
+    {
+      "id": 356,
+      "type": "message",
+      "date": "2023-10-20T18:30:09.000Z",
+      "date_unixtime": "1697826609",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "import \"stdlib.fc\";"
+    },
+    {
+      "id": 357,
+      "type": "message",
+      "date": "2023-10-20T18:30:10.000Z",
+      "date_unixtime": "1697826610",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вот"
+    },
+    {
+      "id": 358,
+      "type": "message",
+      "date": "2023-10-20T18:30:38.000Z",
+      "date_unixtime": "1697826638",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "буду писать контракты на asm, а говорить, что пишу на такте"
+    },
+    {
+      "id": 359,
+      "type": "message",
+      "date": "2023-10-20T18:30:39.000Z",
+      "date_unixtime": "1697826639",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "профит"
+    },
+    {
+      "id": 360,
+      "type": "message",
+      "date": "2023-10-20T18:30:44.000Z",
+      "date_unixtime": "1697826644",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "А есть мысли по поводу деботов из эверскала?"
+    },
+    {
+      "id": 361,
+      "type": "message",
+      "date": "2023-10-20T18:30:49.000Z",
+      "date_unixtime": "1697826649",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "asm на такте написан",
+      "reply_to_message_id": 358
+    },
+    {
+      "id": 362,
+      "type": "message",
+      "date": "2023-10-20T18:30:52.000Z",
+      "date_unixtime": "1697826652",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "если ты не знал"
+    },
+    {
+      "id": 363,
+      "type": "message",
+      "date": "2023-10-20T18:31:00.000Z",
+      "date_unixtime": "1697826660",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "интересно, но жаль что на них забили",
+      "reply_to_message_id": 360
+    },
+    {
+      "id": 364,
+      "type": "message",
+      "date": "2023-10-20T18:31:18.000Z",
+      "date_unixtime": "1697826678",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Там там уже на всё забили",
+      "reply_to_message_id": 363
+    },
+    {
+      "id": 365,
+      "type": "message",
+      "date": "2023-10-20T18:31:30.000Z",
+      "date_unixtime": "1697826690",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "было бы интересно пригнать деботов в тон и запихнуть в webapp"
+    },
+    {
+      "id": 366,
+      "type": "message",
+      "date": "2023-10-20T18:31:42.000Z",
+      "date_unixtime": "1697826702",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "У меня была такая мысль"
+    },
+    {
+      "id": 367,
+      "type": "message",
+      "date": "2023-10-20T18:32:02.000Z",
+      "date_unixtime": "1697826722",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ТАК"
+    },
+    {
+      "id": 368,
+      "type": "message",
+      "date": "2023-10-20T18:32:07.000Z",
+      "date_unixtime": "1697826727",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Webapp это TWA?"
+    },
+    {
+      "id": 369,
+      "type": "message",
+      "date": "2023-10-20T18:32:10.000Z",
+      "date_unixtime": "1697826730",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "тут такт"
+    },
+    {
+      "id": 370,
+      "type": "message",
+      "date": "2023-10-20T18:32:13.000Z",
+      "date_unixtime": "1697826733",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "да",
+      "reply_to_message_id": 368
+    },
+    {
+      "id": 371,
+      "type": "message",
+      "date": "2023-10-20T18:32:22.000Z",
+      "date_unixtime": "1697826742",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "зачем?",
+      "reply_to_message_id": 369
+    },
+    {
+      "id": 372,
+      "type": "message",
+      "date": "2023-10-20T18:32:23.000Z",
+      "date_unixtime": "1697826743",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "TMA*",
+      "reply_to_message_id": 368
+    },
+    {
+      "id": 373,
+      "type": "message",
+      "date": "2023-10-20T18:32:39.000Z",
+      "date_unixtime": "1697826759",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Мы добавили ботов в ботов, чтобы ты мог общаться с ботом пока общаешься с ботом"
+    },
+    {
+      "id": 374,
+      "type": "message",
+      "date": "2023-10-20T18:32:43.000Z",
+      "date_unixtime": "1697826763",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "тут тактеры собрались",
+      "reply_to_message_id": 371
+    },
+    {
+      "id": 375,
+      "type": "message",
+      "date": "2023-10-20T18:32:50.000Z",
+      "date_unixtime": "1697826770",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "такт сила"
+    },
+    {
+      "id": 376,
+      "type": "message",
+      "date": "2023-10-20T18:32:53.000Z",
+      "date_unixtime": "1697826773",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "фанси могила"
+    },
+    {
+      "id": 377,
+      "type": "message",
+      "date": "2023-10-20T18:33:09.000Z",
+      "date_unixtime": "1697826789",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "можете банить, но....",
+      "reply_to_message_id": 374
+    },
+    {
+      "id": 379,
+      "type": "message",
+      "date": "2023-10-20T18:33:11.000Z",
+      "date_unixtime": "1697826791",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "рот болит и попе больно, но на такт писать прикольно",
+      "forwarded_from": "Пескарь™ | фронтент телефонов",
+      "forwarded_from_id": "user6037851294",
+      "forwarded_date": "2023-10-14T12:37:15.000Z"
+    },
+    {
+      "id": 380,
+      "type": "message",
+      "date": "2023-10-20T18:33:34.000Z",
+      "date_unixtime": "1697826814",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "зачем слил чат тактеров",
+      "reply_to_message_id": 378
+    },
+    {
+      "id": 381,
+      "type": "message",
+      "date": "2023-10-20T18:33:50.000Z",
+      "date_unixtime": "1697826830",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вот они, команда тонб слева направо",
+      "reply_to_message_id": 378
+    },
+    {
+      "id": 383,
+      "type": "message",
+      "date": "2023-10-20T18:34:10.000Z",
+      "date_unixtime": "1697826850",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "а снимает их @gusarich",
+      "reply_to_message_id": 381
+    },
+    {
+      "id": 384,
+      "type": "message",
+      "date": "2023-10-20T18:34:21.000Z",
+      "date_unixtime": "1697826861",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Спор между питонычем и пескарем",
+      "reply_to_message_id": 382
+    },
+    {
+      "id": 385,
+      "type": "message",
+      "date": "2023-10-20T18:34:54.000Z",
+      "date_unixtime": "1697826894",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не ну такт рил хуйня"
+    },
+    {
+      "id": 386,
+      "type": "message",
+      "date": "2023-10-20T18:36:42.000Z",
+      "date_unixtime": "1697827002",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "TACT vs FunC\n\nВ сообществе TON идет активная дискуссия относительно языков TACT и FunC. Мы решили взять комментарий у нашего CTO, чтобы развеять все мифы, окружающие TON разработку. \n\nЗнакомьтесь с Игорем, CTO в TONBanking. Серебряный призер хакатона Binance, он прошел через многие сложности разработки смарт-контрактов не только на TON. Его мнение о TACT?⬇️\n\n«TACT устраняет рутинные задачи в разработке смарт-контрактов, освобождая разработчиков для фокуса на самом главном. За последний год наша команда написала десятки контрактов на FunC, и каждый раз мы сталкивались с повторяющимися операциями.\n\nКонечно, есть вещи, которые нуждаются в улучшении — оптимизация могла бы быть лучше, низкоуровневые функции ограничены и использование ABI над TL-B вызывает споры. \n\nНо вот что важно: TACT быстро эволюционирует. Благодаря значительному финансированию и поддержке со стороны сообщества эти проблемы решаются.\n\nМы видим два возможных решения этой проблемы: либо расширение библиотек и вспомогательных инструментов для FunC, либо переход на TACT. Мы уверены, что эти проблемы могут быть успешно решены благодаря проектной работе и поддержке.\n\nВ заключение мы делаем большую ставку на TACT. Мы верим, что когда техническая часть TACT будет полностью оптимизирована, все разработчики перейдут на него.\n\nПотому что в TONBanking мы всегда открыты для инноваций, которые облегчают жизнь нашим разработчикам и обеспечивают превосходные результаты для наших пользователей».",
+      "forwarded_from": "Ekaterina",
+      "forwarded_date": "2023-10-10T15:31:06.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_386.jpg",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "id": 387,
+      "type": "message",
+      "date": "2023-10-20T18:37:08.000Z",
+      "date_unixtime": "1697827028",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вот для всех хейтеров такта 👍👍👍🖕🖕🖕👆👆👆",
+      "reply_to_message_id": 386
+    },
+    {
+      "id": 388,
+      "type": "message",
+      "date": "2023-10-20T18:37:34.000Z",
+      "date_unixtime": "1697827054",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Ekaterina Pantaz?",
+      "reply_to_message_id": 386
+    },
+    {
+      "id": 389,
+      "type": "message",
+      "date": "2023-10-20T18:37:41.000Z",
+      "date_unixtime": "1697827061",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "хз",
+      "reply_to_message_id": 388
+    },
+    {
+      "id": 390,
+      "type": "message",
+      "date": "2023-10-20T18:37:46.000Z",
+      "date_unixtime": "1697827066",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "я бы понял смысл сравнения, если бы такт не компилировался в FunC",
+      "reply_to_message_id": 386
+    },
+    {
+      "id": 391,
+      "type": "message",
+      "date": "2023-10-20T18:38:05.000Z",
+      "date_unixtime": "1697827085",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "фейк инфа от хейтеров",
+      "reply_to_message_id": 390
+    },
+    {
+      "id": 392,
+      "type": "message",
+      "date": "2023-10-20T18:38:06.000Z",
+      "date_unixtime": "1697827086",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "Она чуточку адекватнее",
+      "reply_to_message_id": 388
+    },
+    {
+      "id": 393,
+      "type": "message",
+      "date": "2023-10-20T18:38:26.000Z",
+      "date_unixtime": "1697827106",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "такт компилируется в нули и еденицы",
+      "reply_to_message_id": 391
+    },
+    {
+      "id": 394,
+      "type": "message",
+      "date": "2023-10-20T18:38:55.000Z",
+      "date_unixtime": "1697827135",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Хз, я её в список пидарасов внёс",
+      "reply_to_message_id": 392
+    },
+    {
+      "id": 395,
+      "type": "message",
+      "date": "2023-10-20T18:39:07.000Z",
+      "date_unixtime": "1697827147",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "а вы типа рил список пидарасов ведёте или рофлите?"
+    },
+    {
+      "id": 396,
+      "type": "message",
+      "date": "2023-10-20T18:39:18.000Z",
+      "date_unixtime": "1697827158",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "ты первый",
+      "reply_to_message_id": 395
+    },
+    {
+      "id": 397,
+      "type": "message",
+      "date": "2023-10-20T18:39:26.000Z",
+      "date_unixtime": "1697827166",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "https://leaderboard.tonsmartchallenge.org/\n\nон автоматически ведётся",
+      "reply_to_message_id": 395
+    },
+    {
+      "id": 398,
+      "type": "message",
+      "date": "2023-10-20T18:39:30.000Z",
+      "date_unixtime": "1697827170",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Веду в голове",
+      "reply_to_message_id": 395
+    },
+    {
+      "id": 399,
+      "type": "message",
+      "date": "2023-10-20T18:40:15.000Z",
+      "date_unixtime": "1697827215",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не смог решить 5 задач и стал хейтером, ну понятно 🤕🤕🤕🤕🤕\nкароче когда чатгпт заменит твой фанси придёшь в такт чат а мы тебя не примем я тебя запомнил 👅👅👅👅",
+      "reply_to_message_id": 397
+    },
+    {
+      "id": 400,
+      "type": "message",
+      "date": "2023-10-20T18:40:27.000Z",
+      "date_unixtime": "1697827227",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Когда эверскал конкурсы проводил, призы рассылали с мультисига"
+    },
+    {
+      "id": 402,
+      "type": "message",
+      "date": "2023-10-20T18:40:44.000Z",
+      "date_unixtime": "1697827244",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Там чет нужно было 8 подписей набрать из 12"
+    },
+    {
+      "id": 403,
+      "type": "message",
+      "date": "2023-10-20T18:40:50.000Z",
+      "date_unixtime": "1697827250",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "бля весело",
+      "reply_to_message_id": 402
+    },
+    {
+      "id": 404,
+      "type": "message",
+      "date": "2023-10-20T18:40:55.000Z",
+      "date_unixtime": "1697827255",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Вот один ключ у нее был"
+    },
+    {
+      "id": 405,
+      "type": "message",
+      "date": "2023-10-20T18:41:15.000Z",
+      "date_unixtime": "1697827275",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "И эти подписи месяцами можно было ждать"
+    },
+    {
+      "id": 406,
+      "type": "message",
+      "date": "2023-10-20T18:41:18.000Z",
+      "date_unixtime": "1697827278",
+      "from": "Andrew",
+      "from_id": "user624904668",
+      "text": "я потратил 10 минут на решение 2 задач. этого хватило, чтобы напомнить себе что такт хреновый",
+      "reply_to_message_id": 399
+    },
+    {
+      "id": 408,
+      "type": "message",
+      "date": "2023-10-20T18:41:50.000Z",
+      "date_unixtime": "1697827310",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "И на одну попытку было где то несколько дней, потом транзакция устаревала и нужно было заново"
+    },
+    {
+      "id": 409,
+      "type": "message",
+      "date": "2023-10-20T18:41:52.000Z",
+      "date_unixtime": "1697827312",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "такт топ",
+      "reply_to_message_id": 406
+    },
+    {
+      "id": 411,
+      "type": "message",
+      "date": "2023-10-20T18:42:26.000Z",
+      "date_unixtime": "1697827346",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Она вроде быстро подписывала всегда, но я всех владельцев ключей на всякий случай внёс в список пидарасов",
+      "reply_to_message_id": 394
+    },
+    {
+      "id": 412,
+      "type": "message",
+      "date": "2023-10-20T18:42:30.000Z",
+      "date_unixtime": "1697827350",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вот тонбанкинг",
+      "media_type": "photo",
+      "file": "photos/photo_412.jpg",
+      "width": 405,
+      "height": 160
+    },
+    {
+      "id": 413,
+      "type": "message",
+      "date": "2023-10-20T18:42:35.000Z",
+      "date_unixtime": "1697827355",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "стейкинг на такте soon"
+    },
+    {
+      "id": 414,
+      "type": "message",
+      "date": "2023-10-20T18:42:38.000Z",
+      "date_unixtime": "1697827358",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "декс на такте soon"
+    },
+    {
+      "id": 415,
+      "type": "message",
+      "date": "2023-10-20T18:42:54.000Z",
+      "date_unixtime": "1697827374",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Комиссии будут больше чем профит?",
+      "reply_to_message_id": 413
+    },
+    {
+      "id": 416,
+      "type": "message",
+      "date": "2023-10-20T18:43:01.000Z",
+      "date_unixtime": "1697827381",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "они стандарт жетона на такт переписали ещё, настоящие спасители",
+      "reply_to_message_id": 414
+    },
+    {
+      "id": 417,
+      "type": "message",
+      "date": "2023-10-20T18:43:13.000Z",
+      "date_unixtime": "1697827393",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "вот ещё один хейтер",
+      "reply_to_message_id": 415
+    },
+    {
+      "id": 418,
+      "type": "message",
+      "date": "2023-10-20T18:43:19.000Z",
+      "date_unixtime": "1697827399",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Но зачем?",
+      "reply_to_message_id": 416
+    },
+    {
+      "id": 419,
+      "type": "message",
+      "date": "2023-10-20T18:43:32.000Z",
+      "date_unixtime": "1697827412",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "хз",
+      "reply_to_message_id": 418
+    },
+    {
+      "id": 420,
+      "type": "message",
+      "date": "2023-10-20T18:43:40.000Z",
+      "date_unixtime": "1697827420",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "ну без разницы"
+    },
+    {
+      "id": 421,
+      "type": "message",
+      "date": "2023-10-20T18:43:45.000Z",
+      "date_unixtime": "1697827425",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "главное что на такте"
+    },
+    {
+      "id": 422,
+      "type": "message",
+      "date": "2023-10-20T18:46:27.000Z",
+      "date_unixtime": "1697827587",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "такт сила"
+    },
+    {
+      "id": 423,
+      "type": "message",
+      "date": "2023-10-20T18:46:30.000Z",
+      "date_unixtime": "1697827590",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "фанси могила"
+    },
+    {
+      "id": 424,
+      "type": "message",
+      "date": "2023-10-20T18:46:36.000Z",
+      "date_unixtime": "1697827596",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "фифт вообще залупа"
+    },
+    {
+      "id": 425,
+      "type": "message",
+      "date": "2023-10-20T18:47:18.000Z",
+      "date_unixtime": "1697827638",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "покажите поинты ваши"
+    },
+    {
+      "id": 429,
+      "type": "message",
+      "date": "2023-10-20T18:55:51.000Z",
+      "date_unixtime": "1697828151",
+      "from": "Andrey",
+      "from_id": "user1159570109",
+      "text": "У кого-нибудь было 2/5 в 4?"
+    },
+    {
+      "id": 430,
+      "type": "message",
+      "date": "2023-10-20T19:13:11.000Z",
+      "date_unixtime": "1697829191",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "??",
+      "media_type": "photo",
+      "file": "photos/photo_430.jpg",
+      "width": 1280,
+      "height": 118
+    },
+    {
+      "id": 431,
+      "type": "message",
+      "date": "2023-10-20T19:13:40.000Z",
+      "date_unixtime": "1697829220",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "спайт помогает kilyandra, а kilyandra помогает dalvpv вроде",
+      "reply_to_message_id": 430
+    },
+    {
+      "id": 432,
+      "type": "message",
+      "date": "2023-10-20T19:14:07.000Z",
+      "date_unixtime": "1697829247",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "не палится вообще"
+    },
+    {
+      "id": 433,
+      "type": "message",
+      "date": "2023-10-20T19:14:12.000Z",
+      "date_unixtime": "1697829252",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "Они все таки нашли как с контекстом работать?)",
+      "reply_to_message_id": 431
+    },
+    {
+      "id": 434,
+      "type": "message",
+      "date": "2023-10-20T19:14:24.000Z",
+      "date_unixtime": "1697829264",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "спайт писал там чет хитрое",
+      "reply_to_message_id": 433
+    },
+    {
+      "id": 435,
+      "type": "message",
+      "date": "2023-10-20T19:14:27.000Z",
+      "date_unixtime": "1697829267",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6037851294",
+      "text": "в конце напишет"
+    },
+    {
+      "id": 437,
+      "type": "message",
+      "date": "2023-10-20T21:21:25.000Z",
+      "date_unixtime": "1697836885",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "я не пескарь"
+    },
+    {
+      "id": 440,
+      "type": "message",
+      "date": "2023-11-08T22:41:49.000Z",
+      "date_unixtime": "1699483309",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "hi all"
+    },
+    {
+      "id": 441,
+      "type": "message",
+      "date": "2023-11-08T22:42:32.000Z",
+      "date_unixtime": "1699483352",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "tact stimulates TON's growth"
+    },
+    {
+      "id": 442,
+      "type": "message",
+      "date": "2023-11-08T22:42:41.000Z",
+      "date_unixtime": "1699483361",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "$2.72 now"
+    },
+    {
+      "id": 443,
+      "type": "message",
+      "date": "2023-11-09T05:57:57.000Z",
+      "date_unixtime": "1699509477",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "💀💀💀"
+    },
+    {
+      "id": 445,
+      "type": "message",
+      "date": "2023-11-09T05:58:42.000Z",
+      "date_unixtime": "1699509522",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "tact to the moon"
+    },
+    {
+      "id": 446,
+      "type": "message",
+      "date": "2023-11-11T13:34:40.000Z",
+      "date_unixtime": "1699709680",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "these NFTs were written in Tact",
+      "media_type": "photo",
+      "file": "photos/photo_446.jpg",
+      "width": 1166,
+      "height": 250
+    },
+    {
+      "id": 447,
+      "type": "message",
+      "date": "2023-11-11T13:35:10.000Z",
+      "date_unixtime": "1699709710",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "чтоооо",
+      "reply_to_message_id": 446
+    },
+    {
+      "id": 448,
+      "type": "message",
+      "date": "2023-11-11T13:35:42.000Z",
+      "date_unixtime": "1699709742",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "@dogpy разлогинься",
+      "reply_to_message_id": 446
+    },
+    {
+      "id": 449,
+      "type": "message",
+      "date": "2023-11-11T13:36:41.000Z",
+      "date_unixtime": "1699709801",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "ну да",
+      "reply_to_message_id": 447
+    },
+    {
+      "id": 450,
+      "type": "message",
+      "date": "2023-11-11T13:36:48.000Z",
+      "date_unixtime": "1699709808",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "а ты думал почему такая большая комса"
+    },
+    {
+      "id": 451,
+      "type": "message",
+      "date": "2023-11-11T13:36:49.000Z",
+      "date_unixtime": "1699709809",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "при минте"
+    },
+    {
+      "id": 452,
+      "type": "message",
+      "date": "2023-11-11T13:37:12.000Z",
+      "date_unixtime": "1699709832",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "я за 0.003 тон минтил нфт на фанси"
+    },
+    {
+      "id": 453,
+      "type": "message",
+      "date": "2023-11-11T13:37:17.000Z",
+      "date_unixtime": "1699709837",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "пон пон такт пон хехе"
+    },
+    {
+      "id": 456,
+      "type": "message",
+      "date": "2023-11-11T13:38:23.000Z",
+      "date_unixtime": "1699709903",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "это самый дешевый минт вроде"
+    },
+    {
+      "id": 457,
+      "type": "message",
+      "date": "2023-11-11T13:38:28.000Z",
+      "date_unixtime": "1699709908",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "called contract - зачем ты звонил контракту?",
+      "reply_to_message_id": 455
+    },
+    {
+      "id": 458,
+      "type": "message",
+      "date": "2023-11-11T13:38:41.000Z",
+      "date_unixtime": "1699709921",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "алло алло",
+      "reply_to_message_id": 457
+    },
+    {
+      "id": 459,
+      "type": "message",
+      "date": "2023-11-11T13:40:13.000Z",
+      "date_unixtime": "1699710013",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "правда там мизерный баланс",
+      "reply_to_message_id": 456,
+      "media_type": "photo",
+      "file": "photos/photo_459.jpg",
+      "width": 314,
+      "height": 59
+    },
+    {
+      "id": 460,
+      "type": "message",
+      "date": "2023-11-11T13:40:18.000Z",
+      "date_unixtime": "1699710018",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "но вроде на пару лет хватит"
+    },
+    {
+      "id": 461,
+      "type": "message",
+      "date": "2023-11-11T13:40:34.000Z",
+      "date_unixtime": "1699710034",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "при трансфере нфт ок будет"
+    },
+    {
+      "id": 462,
+      "type": "message",
+      "date": "2023-11-11T13:40:41.000Z",
+      "date_unixtime": "1699710041",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "а че ты кстати тонвивер юзаешь?)"
+    },
+    {
+      "id": 463,
+      "type": "message",
+      "date": "2023-11-11T13:41:02.000Z",
+      "date_unixtime": "1699710062",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "гетгемс перенаправил на него",
+      "reply_to_message_id": 462
+    },
+    {
+      "id": 464,
+      "type": "message",
+      "date": "2023-11-11T13:41:08.000Z",
+      "date_unixtime": "1699710068",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "создатель презентации «tonapi хуйня»"
+    },
+    {
+      "id": 465,
+      "type": "message",
+      "date": "2023-11-11T13:41:21.000Z",
+      "date_unixtime": "1699710081",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "это мой друг Пескарь сделал",
+      "reply_to_message_id": 464
+    },
+    {
+      "id": 466,
+      "type": "message",
+      "date": "2023-11-11T13:41:26.000Z",
+      "date_unixtime": "1699710086",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "ахахахахах",
+      "reply_to_message_id": 465
+    },
+    {
+      "id": 467,
+      "type": "message",
+      "date": "2023-11-11T13:41:32.000Z",
+      "date_unixtime": "1699710092",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "тайлер дерден"
+    },
+    {
+      "id": 468,
+      "type": "message",
+      "date": "2023-11-11T13:41:34.000Z",
+      "date_unixtime": "1699710094",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "ну я ему помогал да"
+    },
+    {
+      "id": 469,
+      "type": "message",
+      "date": "2023-11-11T13:43:24.000Z",
+      "date_unixtime": "1699710204",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "кто-то стёр tact gang из стенда tonapi на gay away, поэтому сотрите func gang пж",
+      "media_type": "photo",
+      "file": "photos/photo_469.jpg",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "id": 470,
+      "type": "message",
+      "date": "2023-11-11T13:43:58.000Z",
+      "date_unixtime": "1699710238",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "а там был такт генг?",
+      "reply_to_message_id": 469
+    },
+    {
+      "id": 471,
+      "type": "message",
+      "date": "2023-11-11T13:44:01.000Z",
+      "date_unixtime": "1699710241",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "да"
+    },
+    {
+      "id": 472,
+      "type": "message",
+      "date": "2023-11-11T13:44:03.000Z",
+      "date_unixtime": "1699710243",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "его стёрли"
+    },
+    {
+      "id": 473,
+      "type": "message",
+      "date": "2023-11-11T15:06:47.000Z",
+      "date_unixtime": "1699715207",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "КРАСАВЦЫ",
+      "reply_to_message_id": 469,
+      "media_type": "photo",
+      "file": "photos/photo_473.jpg",
+      "width": 960,
+      "height": 1280
+    },
+    {
+      "id": 474,
+      "type": "message",
+      "date": "2023-11-12T18:20:49.000Z",
+      "date_unixtime": "1699813249",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "не верьте ему!! это программист, я фотошоп\n\nэто пост для того, чтобы начинающие тактеры переходили на func",
+      "media_type": "photo",
+      "file": "photos/photo_474.jpg",
+      "width": 503,
+      "height": 488
+    },
+    {
+      "id": 475,
+      "type": "message",
+      "date": "2023-11-12T18:24:12.000Z",
+      "date_unixtime": "1699813452",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "аххахахахаххахахахах"
+    },
+    {
+      "id": 477,
+      "type": "message",
+      "date": "2024-03-01T13:54:55.000Z",
+      "date_unixtime": "1709301295",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "Картинка заиграла новыми красками \n\nhttps://github.com/tact-lang/tact.vim",
+      "reply_to_message_id": 218
+    },
+    {
+      "id": 480,
+      "type": "message",
+      "date": "2024-03-01T14:39:51.000Z",
+      "date_unixtime": "1709303991",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "хахахахахаххахаххаха",
+      "reply_to_message_id": 479
+    },
+    {
+      "id": 481,
+      "type": "message",
+      "date": "2024-03-01T16:01:57.000Z",
+      "date_unixtime": "1709308917",
+      "from": "Promise",
+      "from_id": "user515090561",
+      "text": "🐡",
+      "reply_to_message_id": 478
+    },
+    {
+      "id": 482,
+      "type": "message",
+      "date": "2024-03-01T16:02:16.000Z",
+      "date_unixtime": "1709308936",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "жесть зубы"
+    },
+    {
+      "id": 483,
+      "type": "message",
+      "date": "2024-03-01T16:02:25.000Z",
+      "date_unixtime": "1709308945",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "как дела тактеры"
+    },
+    {
+      "id": 484,
+      "type": "message",
+      "date": "2024-03-01T16:02:43.000Z",
+      "date_unixtime": "1709308963",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "да норм ток вчера разьебали мою банковскую систему на такте",
+      "reply_to_message_id": 483
+    },
+    {
+      "id": 485,
+      "type": "message",
+      "date": "2024-03-01T16:02:45.000Z",
+      "date_unixtime": "1709308965",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "рассказывайте сколько газа сегодня сожгли"
+    },
+    {
+      "id": 486,
+      "type": "message",
+      "date": "2024-03-01T16:02:47.000Z",
+      "date_unixtime": "1709308967",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "а так все отлична"
+    },
+    {
+      "id": 487,
+      "type": "message",
+      "date": "2024-03-01T16:03:15.000Z",
+      "date_unixtime": "1709308995",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "видишь комсу? это я сжёг",
+      "reply_to_message_id": 485,
+      "media_type": "photo",
+      "file": "photos/photo_487.jpg",
+      "width": 612,
+      "height": 132
+    },
+    {
+      "id": 492,
+      "type": "message",
+      "date": "2025-03-10T17:23:41.000Z",
+      "date_unixtime": "1741627421",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "@sepezho можешь сносить всех из funC gang и переезжаем сюда!"
+    },
+    {
+      "id": 493,
+      "type": "message",
+      "date": "2025-03-10T17:24:35.000Z",
+      "date_unixtime": "1741627475",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "о нет"
+    },
+    {
+      "id": 494,
+      "type": "message",
+      "date": "2025-03-10T17:24:43.000Z",
+      "date_unixtime": "1741627483",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "вот это чат для мемов с смешариками"
+    },
+    {
+      "id": 496,
+      "type": "message",
+      "date": "2025-03-10T17:36:58.000Z",
+      "date_unixtime": "1741628218",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "здесь-то точно все setCode от setC3 отличают"
+    },
+    {
+      "id": 497,
+      "type": "message",
+      "date": "2025-03-10T18:19:47.000Z",
+      "date_unixtime": "1741630787",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "А может аватарку поменять на схожу с другим чатом? Может другая цветовая палитра и тп"
+    },
+    {
+      "id": 498,
+      "type": "message",
+      "date": "2025-03-10T23:21:16.000Z",
+      "date_unixtime": "1741648876",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "А что случилось?",
+      "reply_to_message_id": 492
+    },
+    {
+      "id": 499,
+      "type": "message",
+      "date": "2025-03-11T07:58:01.000Z",
+      "date_unixtime": "1741679881",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "В фанси гэнге запустили викторину, кто не ответил или ответил неправильно получает кик",
+      "reply_to_message_id": 498
+    },
+    {
+      "id": 500,
+      "type": "message",
+      "date": "2025-03-11T08:02:10.000Z",
+      "date_unixtime": "1741680130",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Какой вопрос?"
+    },
+    {
+      "id": 501,
+      "type": "message",
+      "date": "2025-03-11T08:02:45.000Z",
+      "date_unixtime": "1741680165",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Так а в чем разница?",
+      "reply_to_message_id": 496
+    },
+    {
+      "id": 502,
+      "type": "message",
+      "date": "2025-03-11T08:04:24.000Z",
+      "date_unixtime": "1741680264",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "По правилам опроса пока нельзя говорить ответ :)",
+      "reply_to_message_id": 501
+    },
+    {
+      "id": 503,
+      "type": "message",
+      "date": "2025-03-11T08:05:36.000Z",
+      "date_unixtime": "1741680336",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Но отличие есть, можешь посерчить"
+    },
+    {
+      "id": 504,
+      "type": "message",
+      "date": "2025-03-11T08:06:40.000Z",
+      "date_unixtime": "1741680400",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "В stdlib вроде set_code это именно что asm set C3"
+    },
+    {
+      "id": 505,
+      "type": "message",
+      "date": "2025-03-11T08:07:00.000Z",
+      "date_unixtime": "1741680420",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "По памяти пишу, не помню точно конечно"
+    },
+    {
+      "id": 506,
+      "type": "message",
+      "date": "2025-03-11T08:07:08.000Z",
+      "date_unixtime": "1741680428",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "В стдлиб это SETCODE",
+      "reply_to_message_id": 504
+    },
+    {
+      "id": 507,
+      "type": "message",
+      "date": "2025-03-11T08:07:21.000Z",
+      "date_unixtime": "1741680441",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Хммм"
+    },
+    {
+      "id": 508,
+      "type": "message",
+      "date": "2025-03-11T08:10:22.000Z",
+      "date_unixtime": "1741680622",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Это уже asm gang какой-то"
+    },
+    {
+      "id": 510,
+      "type": "message",
+      "date": "2025-03-15T06:10:05.000Z",
+      "date_unixtime": "1742019005",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "здарова бандиты"
+    },
+    {
+      "id": 511,
+      "type": "message",
+      "date": "2025-03-15T06:12:16.000Z",
+      "date_unixtime": "1742019136",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "кстати, мы делаем новый ассемблер для TVM\n\nNo more Fift",
+      "reply_to_message_id": 508
+    },
+    {
+      "id": 512,
+      "type": "message",
+      "date": "2025-03-15T07:47:13.000Z",
+      "date_unixtime": "1742024833",
+      "from": "ARS",
+      "from_id": "user480445836",
+      "text": "Это уже gang bang",
+      "reply_to_message_id": 511
+    },
+    {
+      "id": 518,
+      "type": "message",
+      "date": "2025-04-21T11:27:33.000Z",
+      "date_unixtime": "1745234853",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Наконец-то",
+      "reply_to_message_id": 511
+    },
+    {
+      "id": 520,
+      "type": "message",
+      "date": "2025-04-21T11:52:58.000Z",
+      "date_unixtime": "1745236378",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "о"
+    },
+    {
+      "id": 521,
+      "type": "message",
+      "date": "2025-04-21T11:53:04.000Z",
+      "date_unixtime": "1745236384",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "Tact Gang сюдооо"
+    },
+    {
+      "id": 522,
+      "type": "message",
+      "date": "2025-04-21T11:53:21.000Z",
+      "date_unixtime": "1745236401",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "как с фанси генгом щас\n\nпока открыто\n\nпотом закроете??"
+    },
+    {
+      "id": 524,
+      "type": "message",
+      "date": "2025-04-21T12:00:06.000Z",
+      "date_unixtime": "1745236806",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Да, нужно будет тест на знание такта сдавать",
+      "reply_to_message_id": 522
+    },
+    {
+      "id": 525,
+      "type": "message",
+      "date": "2025-04-21T12:00:35.000Z",
+      "date_unixtime": "1745236835",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "я думаю участников слишком много\nНадо начать банить 😁"
+    },
+    {
+      "id": 526,
+      "type": "message",
+      "date": "2025-04-21T12:01:36.000Z",
+      "date_unixtime": "1745236896",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Опа, надо начать кидать сюда опросы",
+      "reply_to_message_id": 524
+    },
+    {
+      "id": 527,
+      "type": "message",
+      "date": "2025-04-21T12:01:54.000Z",
+      "date_unixtime": "1745236914",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Будет обидно если ты какой-то не пройдёшь)",
+      "reply_to_message_id": 526
+    },
+    {
+      "id": 528,
+      "type": "message",
+      "date": "2025-04-21T12:02:31.000Z",
+      "date_unixtime": "1745236951",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "я не могу знать всего, так что это нормально"
+    },
+    {
+      "id": 529,
+      "type": "message",
+      "date": "2025-04-21T12:09:44.000Z",
+      "date_unixtime": "1745237384",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "Да пох на тест\n\nнужно щас набрать человек 50 как минимум\n\nчтобы можно было закрыть чат",
+      "reply_to_message_id": 524
+    },
+    {
+      "id": 530,
+      "type": "message",
+      "date": "2025-04-21T12:09:49.000Z",
+      "date_unixtime": "1745237389",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "ну кароче тут овнер оказывается"
+    },
+    {
+      "id": 531,
+      "type": "message",
+      "date": "2025-04-21T12:09:51.000Z",
+      "date_unixtime": "1745237391",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "сепезжо"
+    },
+    {
+      "id": 532,
+      "type": "message",
+      "date": "2025-04-21T12:09:54.000Z",
+      "date_unixtime": "1745237394",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "он шарит и знает как"
+    },
+    {
+      "id": 533,
+      "type": "message",
+      "date": "2025-04-21T12:10:06.000Z",
+      "date_unixtime": "1745237406",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "я просто думал другой человек\n\nхотел узнать у него чо да как"
+    },
+    {
+      "id": 538,
+      "type": "message",
+      "date": "2025-04-21T12:53:49.000Z",
+      "date_unixtime": "1745240029",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "главный тактер зашел"
+    },
+    {
+      "id": 539,
+      "type": "message",
+      "date": "2025-04-21T12:54:13.000Z",
+      "date_unixtime": "1745240053",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "а почему я тут овнер? это группа пескаря вообще"
+    },
+    {
+      "id": 540,
+      "type": "message",
+      "date": "2025-04-21T12:54:20.000Z",
+      "date_unixtime": "1745240060",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "я только заметил"
+    },
+    {
+      "id": 541,
+      "type": "message",
+      "date": "2025-04-21T12:54:56.000Z",
+      "date_unixtime": "1745240096",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "админ с ролью овнер"
+    },
+    {
+      "id": 542,
+      "type": "message",
+      "date": "2025-04-21T12:58:55.000Z",
+      "date_unixtime": "1745240335",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "можешь мне отдать)",
+      "reply_to_message_id": 539
+    },
+    {
+      "id": 543,
+      "type": "message",
+      "date": "2025-04-21T13:00:15.000Z",
+      "date_unixtime": "1745240415",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "давай"
+    },
+    {
+      "id": 544,
+      "type": "message",
+      "date": "2025-04-21T13:00:21.000Z",
+      "date_unixtime": "1745240421",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "мне не жалко"
+    },
+    {
+      "id": 545,
+      "type": "message",
+      "date": "2025-04-21T13:01:37.000Z",
+      "date_unixtime": "1745240497",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "а нет, я не овнер. не могу админов добавлять\nхоть и пишет что овнер\n\nстранно конечно",
+      "media_type": "photo",
+      "file": "photos/photo_545.jpg",
+      "width": 230,
+      "height": 88
+    },
+    {
+      "id": 547,
+      "type": "message",
+      "date": "2025-04-21T13:06:13.000Z",
+      "date_unixtime": "1745240773",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "группа передается в добрые руки такта"
+    },
+    {
+      "id": 548,
+      "type": "message",
+      "date": "2025-04-21T13:06:47.000Z",
+      "date_unixtime": "1745240807",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "я прост тя в овнера переименовал и все)",
+      "reply_to_message_id": 545
+    },
+    {
+      "id": 549,
+      "type": "message",
+      "date": "2025-04-21T13:06:48.000Z",
+      "date_unixtime": "1745240808",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Неужели кто-то скинул",
+      "reply_to_message_id": 546
+    },
+    {
+      "id": 553,
+      "type": "message",
+      "date": "2025-04-21T20:14:03.000Z",
+      "date_unixtime": "1745266443",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "О нет, текст попердолило"
+    },
+    {
+      "id": 554,
+      "type": "message",
+      "date": "2025-05-07T21:07:05.000Z",
+      "date_unixtime": "1746652025",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "@AntonTrunov твоё мнение?\n\nПереезжаю на Tact?"
+    },
+    {
+      "id": 555,
+      "type": "message",
+      "date": "2025-05-07T21:07:45.000Z",
+      "date_unixtime": "1746652065",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "А ответ правильный какой?",
+      "reply_to_message_id": 552
+    },
+    {
+      "id": 556,
+      "type": "message",
+      "date": "2025-05-07T21:08:31.000Z",
+      "date_unixtime": "1746652111",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Ты ж предлагал фунс ганг закрыть))",
+      "reply_to_message_id": 554
+    },
+    {
+      "id": 557,
+      "type": "message",
+      "date": "2025-05-07T21:08:41.000Z",
+      "date_unixtime": "1746652121",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "когда?",
+      "reply_to_message_id": 556
+    },
+    {
+      "id": 559,
+      "type": "message",
+      "date": "2025-05-07T21:08:59.000Z",
+      "date_unixtime": "1746652139",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "))",
+      "reply_to_message_id": 522
+    },
+    {
+      "id": 560,
+      "type": "message",
+      "date": "2025-05-07T21:09:10.000Z",
+      "date_unixtime": "1746652150",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Ну спрашивал о таком))"
+    },
+    {
+      "id": 561,
+      "type": "message",
+      "date": "2025-05-07T21:09:14.000Z",
+      "date_unixtime": "1746652154",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "а причем тут Фунс ганг?",
+      "reply_to_message_id": 559
+    },
+    {
+      "id": 562,
+      "type": "message",
+      "date": "2025-05-07T21:09:18.000Z",
+      "date_unixtime": "1746652158",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "фунс ганг итак закрыт же"
+    },
+    {
+      "id": 563,
+      "type": "message",
+      "date": "2025-05-07T21:09:29.000Z",
+      "date_unixtime": "1746652169",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "Так он про вход закрыть",
+      "reply_to_message_id": 560
+    },
+    {
+      "id": 564,
+      "type": "message",
+      "date": "2025-05-07T21:09:42.000Z",
+      "date_unixtime": "1746652182",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Я думал удалить типо))"
+    },
+    {
+      "id": 565,
+      "type": "message",
+      "date": "2025-05-07T21:09:46.000Z",
+      "date_unixtime": "1746652186",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "ахахахах",
+      "reply_to_message_id": 564
+    },
+    {
+      "id": 566,
+      "type": "message",
+      "date": "2025-05-07T21:09:47.000Z",
+      "date_unixtime": "1746652187",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "не"
+    },
+    {
+      "id": 567,
+      "type": "message",
+      "date": "2025-05-07T21:09:51.000Z",
+      "date_unixtime": "1746652191",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "пока ничо делать не нужно"
+    },
+    {
+      "id": 568,
+      "type": "message",
+      "date": "2025-05-07T21:09:53.000Z",
+      "date_unixtime": "1746652193",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "тут даже 100 человек нету"
+    },
+    {
+      "id": 569,
+      "type": "message",
+      "date": "2025-05-07T21:10:08.000Z",
+      "date_unixtime": "1746652208",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Я думал ты предлагал фанс ганг удалить))"
+    },
+    {
+      "id": 570,
+      "type": "message",
+      "date": "2025-05-07T21:10:13.000Z",
+      "date_unixtime": "1746652213",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "мне интересно было\n\nэтот чат также закроют потом как func gang\n\nведь func gang был публичным раньше"
+    },
+    {
+      "id": 571,
+      "type": "message",
+      "date": "2025-05-07T21:10:18.000Z",
+      "date_unixtime": "1746652218",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Типо это теперь основная беседа",
+      "reply_to_message_id": 569
+    },
+    {
+      "id": 572,
+      "type": "message",
+      "date": "2025-05-07T21:20:02.000Z",
+      "date_unixtime": "1746652802",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Исключение на стороне TVM",
+      "reply_to_message_id": 555
+    },
+    {
+      "id": 573,
+      "type": "message",
+      "date": "2025-05-07T21:20:24.000Z",
+      "date_unixtime": "1746652824",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Ура, я угадал"
+    },
+    {
+      "id": 574,
+      "type": "message",
+      "date": "2025-05-07T21:55:02.000Z",
+      "date_unixtime": "1746654902",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Любителям JetBrains привет, профессионалам VS Code соболезную"
+    },
+    {
+      "id": 575,
+      "type": "message",
+      "date": "2025-05-07T21:55:02.000Z",
+      "date_unixtime": "1746654902",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸\n\n🍲 got IDEA?\n♨️ @tact_kitchen from the @ton_studio",
+      "forwarded_from": "TON Dev News",
+      "forwarded_from_id": "channel1755815351",
+      "forwarded_date": "2025-05-07T20:52:13.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_575.jpg",
+      "width": 1280,
+      "height": 889
+    },
+    {
+      "id": 576,
+      "type": "message",
+      "date": "2025-05-07T22:00:37.000Z",
+      "date_unixtime": "1746655237",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "а изгоям neovim что?",
+      "reply_to_message_id": 574
+    },
+    {
+      "id": 577,
+      "type": "message",
+      "date": "2025-05-07T22:00:52.000Z",
+      "date_unixtime": "1746655252",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "хотя у мя в виме ЛСПшки от vscode)) (microsoft)"
+    },
+    {
+      "id": 578,
+      "type": "message",
+      "date": "2025-05-07T22:01:05.000Z",
+      "date_unixtime": "1746655265",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "https://github.com/tact-lang/tact-language-server?tab=readme-ov-file#neovim"
+    },
+    {
+      "id": 579,
+      "type": "message",
+      "date": "2025-05-07T22:01:12.000Z",
+      "date_unixtime": "1746655272",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Для вас у нас есть LS!"
+    },
+    {
+      "id": 580,
+      "type": "message",
+      "date": "2025-05-07T22:02:47.000Z",
+      "date_unixtime": "1746655367",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Установка супер простая, скачиваем архив из релиза, распаковываем и прокидываем этот путь как обычный LS в neovim"
+    },
+    {
+      "id": 581,
+      "type": "message",
+      "date": "2025-05-07T22:04:35.000Z",
+      "date_unixtime": "1746655475",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Плагины для Visual Studio и Xcode wen",
+      "media_type": "photo",
+      "file": "photos/photo_581.jpg",
+      "width": 1280,
+      "height": 811
+    },
+    {
+      "id": 582,
+      "type": "message",
+      "date": "2025-05-07T22:06:52.000Z",
+      "date_unixtime": "1746655612",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Да это люди по рофлу ответили",
+      "reply_to_message_id": 581
+    },
+    {
+      "id": 583,
+      "type": "message",
+      "date": "2025-05-07T22:07:00.000Z",
+      "date_unixtime": "1746655620",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Никто там код контрактов не пишет"
+    },
+    {
+      "id": 584,
+      "type": "message",
+      "date": "2025-05-07T22:07:10.000Z",
+      "date_unixtime": "1746655630",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "А ты купи слона",
+      "reply_to_message_id": 583
+    },
+    {
+      "id": 585,
+      "type": "message",
+      "date": "2025-05-07T22:09:35.000Z",
+      "date_unixtime": "1746655775",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "В вскод?",
+      "reply_to_message_id": 583
+    },
+    {
+      "id": 586,
+      "type": "message",
+      "date": "2025-05-07T22:10:17.000Z",
+      "date_unixtime": "1746655817",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Не, там прям студия"
+    },
+    {
+      "id": 587,
+      "type": "message",
+      "date": "2025-05-07T22:10:27.000Z",
+      "date_unixtime": "1746655827",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Не VS Code, а Visual Studio"
+    },
+    {
+      "id": 588,
+      "type": "message",
+      "date": "2025-05-07T22:14:04.000Z",
+      "date_unixtime": "1746656044",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Ls for notepad++ wen",
+      "reply_to_message_id": 587
+    },
+    {
+      "id": 589,
+      "type": "message",
+      "date": "2025-05-07T22:14:31.000Z",
+      "date_unixtime": "1746656071",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Кстати там есть плагин для LSP"
+    },
+    {
+      "id": 590,
+      "type": "message",
+      "date": "2025-05-07T22:15:02.000Z",
+      "date_unixtime": "1746656102",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "И я даже общался с автором когда делал LSP для другого языка"
+    },
+    {
+      "id": 591,
+      "type": "message",
+      "date": "2025-05-07T22:15:09.000Z",
+      "date_unixtime": "1746656109",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "И он нашел немало багов"
+    },
+    {
+      "id": 592,
+      "type": "message",
+      "date": "2025-05-07T22:34:17.000Z",
+      "date_unixtime": "1746657257",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Как вам такое, пользователи IDE",
+      "media_type": "photo",
+      "file": "photos/photo_592.jpg",
+      "width": 1280,
+      "height": 842
+    },
+    {
+      "id": 593,
+      "type": "message",
+      "date": "2025-05-07T22:38:34.000Z",
+      "date_unixtime": "1746657514",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Кстати не знаю что помешает LS работать и в Visual Studio и Xcode если у них есть поддержка (у VS точно есть)"
+    },
+    {
+      "id": 594,
+      "type": "message",
+      "date": "2025-05-07T22:48:29.000Z",
+      "date_unixtime": "1746658109",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "np++?",
+      "reply_to_message_id": 592
+    },
+    {
+      "id": 595,
+      "type": "message",
+      "date": "2025-05-07T22:48:46.000Z",
+      "date_unixtime": "1746658126",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "ага"
+    },
+    {
+      "id": 596,
+      "type": "message",
+      "date": "2025-05-07T22:50:45.000Z",
+      "date_unixtime": "1746658245",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Писать контракты в xcode это типо так же, как писать контракты в AndroidStudio - если очень хочется, но наверное можно, но зачем?)",
+      "reply_to_message_id": 593
+    },
+    {
+      "id": 597,
+      "type": "message",
+      "date": "2025-05-07T22:51:01.000Z",
+      "date_unixtime": "1746658261",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "В андроид студии кстати теперь это очень приятно делать"
+    },
+    {
+      "id": 599,
+      "type": "message",
+      "date": "2025-05-08T05:03:42.000Z",
+      "date_unixtime": "1746680622",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "LS + https://github.com/tact-lang/tact.vim",
+      "reply_to_message_id": 576
+    },
+    {
+      "id": 600,
+      "type": "message",
+      "date": "2025-05-08T05:15:13.000Z",
+      "date_unixtime": "1746681313",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "А профессионалам курсор?)",
+      "reply_to_message_id": 574
+    },
+    {
+      "id": 601,
+      "type": "message",
+      "date": "2025-05-08T06:23:47.000Z",
+      "date_unixtime": "1746685427",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Ребят, мы тут тестим чат бота от MAVA. Я ему сейчас и доку Такта скормил. Может хотите поиграться с ним."
+    },
+    {
+      "id": 602,
+      "type": "message",
+      "date": "2025-05-08T06:24:32.000Z",
+      "date_unixtime": "1746685472",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Попытался добавить, но вроде без прав не могу @tondevAIbot"
+    },
+    {
+      "id": 603,
+      "type": "message",
+      "date": "2025-05-08T06:26:25.000Z",
+      "date_unixtime": "1746685585",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Хм, там каждый путь заканчивается тем что \"напиши запрос и член нашей команды вернется к вам\", кажется это не то?"
+    },
+    {
+      "id": 604,
+      "type": "message",
+      "date": "2025-05-08T06:26:48.000Z",
+      "date_unixtime": "1746685608",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "я тоже не смог пообщаться"
+    },
+    {
+      "id": 605,
+      "type": "message",
+      "date": "2025-05-08T06:28:02.000Z",
+      "date_unixtime": "1746685682",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Я сейчас делаю проект связанный с TonAI \nГде AI кодит контракты от и до",
+      "reply_to_message_id": 601
+    },
+    {
+      "id": 606,
+      "type": "message",
+      "date": "2025-05-08T06:33:02.000Z",
+      "date_unixtime": "1746685982",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "До этого тоже пробовал делать чатботов\nНо они по факту бесполезны\n\nТ.к это не мультиагентские системы и они не умеют проверять сами себя \nДа и ещё процессы сложно отслеживать конечному пользователю\nЯ как вижу все AI системы \nОни не могут уметь решить все проблемы пользователя, но пользователь всегда сам должен иметь возможность донастроить систему так как ему удобно\n \nСамое крутое пока это либо делать своего AI программиста либо делать интеграцию с чужими (Cursor, Windsurf и кучу других)",
+      "reply_to_message_id": 605
+    },
+    {
+      "id": 607,
+      "type": "message",
+      "date": "2025-05-08T06:34:46.000Z",
+      "date_unixtime": "1746686086",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Это не для саппорта, а для публичных ответов именно. \nУ Мавы два продукта.",
+      "reply_to_message_id": 603
+    },
+    {
+      "id": 608,
+      "type": "message",
+      "date": "2025-05-08T06:35:34.000Z",
+      "date_unixtime": "1746686134",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Ну вот хотят люди чат ботов. У всех есть, а у тона нет. Надо пробовать, делать и искать полезный.",
+      "reply_to_message_id": 606
+    },
+    {
+      "id": 609,
+      "type": "message",
+      "date": "2025-05-08T06:36:52.000Z",
+      "date_unixtime": "1746686212",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "ну вообще есть такие)\nhttps://chatgpt.com/g/g-tFkVOWIoi-tact"
+    },
+    {
+      "id": 610,
+      "type": "message",
+      "date": "2025-05-08T06:37:05.000Z",
+      "date_unixtime": "1746686225",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Мы целимся на онбординг по первым вопросам, но не на то что он будет проекты писать. \n\nИ смысл только в публичном поле, где люди могут затереть и забраковать ответ. Он не должен быть личным.",
+      "reply_to_message_id": 605
+    },
+    {
+      "id": 611,
+      "type": "message",
+      "date": "2025-05-08T06:37:59.000Z",
+      "date_unixtime": "1746686279",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "А чем конкретно оно лучше? И это можно использовать за разумный прайс, без тысяч долларов?",
+      "reply_to_message_id": 609
+    },
+    {
+      "id": 612,
+      "type": "message",
+      "date": "2025-05-08T06:38:28.000Z",
+      "date_unixtime": "1746686308",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Можно бесплатно юзать\nЭто сделано на базе гптс\n\nВ публичном чате конечно не работает\nНу это я показал тебе пример чатбота",
+      "reply_to_message_id": 611
+    },
+    {
+      "id": 613,
+      "type": "message",
+      "date": "2025-05-08T06:38:49.000Z",
+      "date_unixtime": "1746686329",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "По факту он бесполезен сейчас т.к есть Cursor который можно юзать безлимитно и бесплатно (просто аккаунты абьюзишь)\nВ курсор корми любые доки и курсор с ними будет работать"
+    },
+    {
+      "id": 614,
+      "type": "message",
+      "date": "2025-05-08T06:39:44.000Z",
+      "date_unixtime": "1746686384",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Ну для личных у меня другое. \nCursor как раз сейчас на задаче по апдейту TVM доков буду юзать. \n\nCursor сможет отвечать в публичных чатах без безумных трат?",
+      "reply_to_message_id": 612
+    },
+    {
+      "id": 615,
+      "type": "message",
+      "date": "2025-05-08T06:40:37.000Z",
+      "date_unixtime": "1746686437",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Курсор не умеет отвечать в публичных чатах\nНо можно делать интеграции при которых сможет, но кто-то должен запускать в курсоре начало диалога\n\nА так можно сделать что бы курсор в телеграмме вопросы спрашивал)",
+      "reply_to_message_id": 614
+    },
+    {
+      "id": 616,
+      "type": "message",
+      "date": "2025-05-08T06:41:39.000Z",
+      "date_unixtime": "1746686499",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "В общем то смысл, что нам нужен актуальный контекст. Если мы имеем какое-то стартовое решение и понятные проблемы, мы будем это решение улучшать. Но чтобы не согласовывать сразу миллионы на сомнительный проект, нельзя. \nНас нужно из коробки решение, чтобы самим это саппортить не надо был. Вот Mava - это решение готовое."
+    },
+    {
+      "id": 617,
+      "type": "message",
+      "date": "2025-05-08T06:42:03.000Z",
+      "date_unixtime": "1746686523",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Если считаешь что есть польза билди\nЯ могу тебе показать где данные можно взять\n\nЯ писал парсер телеграм чатов в тоне\nМОжешь на базе их кормить в своего чат бота\n\nhttps://github.com/ton-ai-core/ton-chats/tree/main/out/markdown",
+      "reply_to_message_id": 615
+    },
+    {
+      "id": 618,
+      "type": "message",
+      "date": "2025-05-08T06:42:05.000Z",
+      "date_unixtime": "1746686525",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Опять же можно смотреть в сторону таких агентов, они просто сейчас недоступны на рынке.",
+      "reply_to_message_id": 615
+    },
+    {
+      "id": 619,
+      "type": "message",
+      "date": "2025-05-08T06:42:24.000Z",
+      "date_unixtime": "1746686544",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Если нужны ещё какие-то данные с чатов скажи я добавлю и пусть их тоже парсит",
+      "reply_to_message_id": 617
+    },
+    {
+      "id": 620,
+      "type": "message",
+      "date": "2025-05-08T06:44:00.000Z",
+      "date_unixtime": "1746686640",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Ещё я видосы парсил с ютуб\nНо там пока канал никадира спарсил\nТам транскрибция голоса и копипаст текста того что на экране было\nИ ещё описание видео\nhttps://github.com/ton-ai-core/ton-video-course/tree/main/YoutubeNikandrSurkov"
+    },
+    {
+      "id": 621,
+      "type": "message",
+      "date": "2025-05-08T06:45:33.000Z",
+      "date_unixtime": "1746686733",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "А это исходники вот этой фигни\n\nhttps://github.com/ton-ai-core/tact-gpts/",
+      "reply_to_message_id": 609
+    },
+    {
+      "id": 622,
+      "type": "message",
+      "date": "2025-05-08T06:48:26.000Z",
+      "date_unixtime": "1746686906",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "Тут добавлю, нам делали кастомное решение в прошлом году, отдельная команда. Оно тестово работало и сжирало сколько то тысяч в месяц. И все равно были проблемы в точности ответов. \n\nНа основании этого опыта, считаю что лучше начать с простой модели которая сопровождается командой и не требует тонкой настройки и обучения. Понять что мы можем от неё получить.",
+      "reply_to_message_id": 619
+    },
+    {
+      "id": 623,
+      "type": "message",
+      "date": "2025-05-08T06:48:58.000Z",
+      "date_unixtime": "1746686938",
+      "from": "Alex",
+      "from_id": "user552934687",
+      "text": "И вот я поспрашивал и особой разницы не вижу с тем результатом за тысячи долларов и с этим базовым функционалом. \nРазница есть, но она не согласованна с разницей в стоимости."
+    },
+    {
+      "id": 624,
+      "type": "message",
+      "date": "2025-05-08T06:49:54.000Z",
+      "date_unixtime": "1746686994",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "ну у меня курсор например умеет писать код и проверять его валидность\nОн работает в агент моде и полностью бесплатно \n\nЯ пока ещё свой проект доделываю надо разрешить ещё пару вещей с ним и можно уже будет снимать обучающие видео по его использованию",
+      "reply_to_message_id": 622
+    },
+    {
+      "id": 626,
+      "type": "message",
+      "date": "2025-05-13T00:08:20.000Z",
+      "date_unixtime": "1747094900",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "щас"
+    },
+    {
+      "id": 628,
+      "type": "message",
+      "date": "2025-05-13T00:08:22.000Z",
+      "date_unixtime": "1747094902",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "сюда етот"
+    },
+    {
+      "id": 629,
+      "type": "message",
+      "date": "2025-05-13T00:08:24.000Z",
+      "date_unixtime": "1747094904",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "гений зайдет"
+    },
+    {
+      "id": 630,
+      "type": "message",
+      "date": "2025-05-13T00:08:25.000Z",
+      "date_unixtime": "1747094905",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "а вот"
+    },
+    {
+      "id": 631,
+      "type": "message",
+      "date": "2025-05-13T00:08:28.000Z",
+      "date_unixtime": "1747094908",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Ахахахах",
+      "reply_to_message_id": 629
+    },
+    {
+      "id": 632,
+      "type": "message",
+      "date": "2025-05-13T00:08:51.000Z",
+      "date_unixtime": "1747094931",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "тут 80% людей из func gang тоже поооон",
+      "reply_to_message_id": 631
+    },
+    {
+      "id": 633,
+      "type": "message",
+      "date": "2025-05-13T00:08:55.000Z",
+      "date_unixtime": "1747094935",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "но мы тут такт любим"
+    },
+    {
+      "id": 634,
+      "type": "message",
+      "date": "2025-05-13T00:09:01.000Z",
+      "date_unixtime": "1747094941",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Всем салам 🤗"
+    },
+    {
+      "id": 635,
+      "type": "message",
+      "date": "2025-05-13T00:09:04.000Z",
+      "date_unixtime": "1747094944",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "и я в том числе"
+    },
+    {
+      "id": 636,
+      "type": "message",
+      "date": "2025-05-13T00:09:10.000Z",
+      "date_unixtime": "1747094950",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Фанс ганг не существует"
+    },
+    {
+      "id": 637,
+      "type": "message",
+      "date": "2025-05-13T00:09:13.000Z",
+      "date_unixtime": "1747094953",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "скоро буду TacT по серьезке учить"
+    },
+    {
+      "id": 638,
+      "type": "message",
+      "date": "2025-05-13T00:09:16.000Z",
+      "date_unixtime": "1747094956",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Есть только такт ганг"
+    },
+    {
+      "id": 639,
+      "type": "message",
+      "date": "2025-05-13T00:09:19.000Z",
+      "date_unixtime": "1747094959",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Он мне скрины кидал)",
+      "reply_to_message_id": 636
+    },
+    {
+      "id": 640,
+      "type": "message",
+      "date": "2025-05-13T00:09:22.000Z",
+      "date_unixtime": "1747094962",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "верим",
+      "reply_to_message_id": 636
+    },
+    {
+      "id": 641,
+      "type": "message",
+      "date": "2025-05-13T00:09:28.000Z",
+      "date_unixtime": "1747094968",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "тебе показалосб))",
+      "reply_to_message_id": 639
+    },
+    {
+      "id": 642,
+      "type": "message",
+      "date": "2025-05-13T00:09:29.000Z",
+      "date_unixtime": "1747094969",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Из такт ганг",
+      "reply_to_message_id": 639
+    },
+    {
+      "id": 643,
+      "type": "message",
+      "date": "2025-05-13T00:09:35.000Z",
+      "date_unixtime": "1747094975",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Ахахахаха)",
+      "reply_to_message_id": 642
+    },
+    {
+      "id": 644,
+      "type": "message",
+      "date": "2025-05-13T00:10:19.000Z",
+      "date_unixtime": "1747095019",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Вообще он тебе скрины кидал из личных сообщений со мной"
+    },
+    {
+      "id": 645,
+      "type": "message",
+      "date": "2025-05-13T00:10:25.000Z",
+      "date_unixtime": "1747095025",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "А че так фансишный чат приватный а тактеры публичные"
+    },
+    {
+      "id": 646,
+      "type": "message",
+      "date": "2025-05-13T00:10:27.000Z",
+      "date_unixtime": "1747095027",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Это мы тебя обманывали так"
+    },
+    {
+      "id": 647,
+      "type": "message",
+      "date": "2025-05-13T00:10:34.000Z",
+      "date_unixtime": "1747095034",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Делали вид что есть фанс ганг"
+    },
+    {
+      "id": 648,
+      "type": "message",
+      "date": "2025-05-13T00:11:11.000Z",
+      "date_unixtime": "1747095071",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Скоро приватным станет",
+      "reply_to_message_id": 645
+    },
+    {
+      "id": 649,
+      "type": "message",
+      "date": "2025-05-13T00:11:47.000Z",
+      "date_unixtime": "1747095107",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Ну вот будет другое дело, а то че они тайная секта а тут заходи кому не лень будет)",
+      "reply_to_message_id": 648
+    },
+    {
+      "id": 650,
+      "type": "message",
+      "date": "2025-05-13T00:12:32.000Z",
+      "date_unixtime": "1747095152",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Если уж давить func то давить его по всем фронтам а не только компилятором и оптимизацией газа"
+    },
+    {
+      "id": 651,
+      "type": "message",
+      "date": "2025-05-13T00:13:12.000Z",
+      "date_unixtime": "1747095192",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "На фанс пишут те кто работают в Газпроме и кто имеет много свободного времени описывать вручную враперы"
+    },
+    {
+      "id": 652,
+      "type": "message",
+      "date": "2025-05-13T00:13:51.000Z",
+      "date_unixtime": "1747095231",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Д камон после того как ты написал код на func у тебя уже пальцы сломаны так что код на ts покажется для тебя массажиком )"
+    },
+    {
+      "id": 653,
+      "type": "message",
+      "date": "2025-05-13T00:15:04.000Z",
+      "date_unixtime": "1747095304",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "победа",
+      "reply_to_message_id": 637
+    },
+    {
+      "id": 654,
+      "type": "message",
+      "date": "2025-05-13T00:15:24.000Z",
+      "date_unixtime": "1747095324",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "кстати был подобный случай в истории",
+      "reply_to_message_id": 641
+    },
+    {
+      "id": 655,
+      "type": "message",
+      "date": "2025-05-13T00:15:30.000Z",
+      "date_unixtime": "1747095330",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "А на такте написал смартконтракт написал команду \"npx blueprint build\" и получил готовый Typescript код врапер",
+      "reply_to_message_id": 652
+    },
+    {
+      "id": 656,
+      "type": "message",
+      "date": "2025-05-13T00:15:30.000Z",
+      "date_unixtime": "1747095330",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "накуканили"
+    },
+    {
+      "id": 657,
+      "type": "message",
+      "date": "2025-05-13T00:16:17.000Z",
+      "date_unixtime": "1747095377",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Дак можно ваще по хардкору пойти tonutils-go и в припляску самостоятельно все делать)",
+      "reply_to_message_id": 655
+    },
+    {
+      "id": 659,
+      "type": "message",
+      "date": "2025-05-13T00:16:23.000Z",
+      "date_unixtime": "1747095383",
+      "from": "RootTon",
+      "from_id": "user5187512201",
+      "text": "Зато сильный и независимый"
+    },
+    {
+      "id": 660,
+      "type": "message",
+      "date": "2025-05-13T00:16:30.000Z",
+      "date_unixtime": "1747095390",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "правильно!",
+      "reply_to_message_id": 655
+    },
+    {
+      "id": 661,
+      "type": "message",
+      "date": "2025-05-13T00:16:46.000Z",
+      "date_unixtime": "1747095406",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "только я перестал блюпринт использовать"
+    },
+    {
+      "id": 662,
+      "type": "message",
+      "date": "2025-05-13T00:17:00.000Z",
+      "date_unixtime": "1747095420",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Теперь юзаешь tact template?)"
+    },
+    {
+      "id": 663,
+      "type": "message",
+      "date": "2025-05-13T00:17:11.000Z",
+      "date_unixtime": "1747095431",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "да"
+    },
+    {
+      "id": 664,
+      "type": "message",
+      "date": "2025-05-13T00:17:19.000Z",
+      "date_unixtime": "1747095439",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Нравится больше?"
+    },
+    {
+      "id": 665,
+      "type": "message",
+      "date": "2025-05-13T00:17:37.000Z",
+      "date_unixtime": "1747095457",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "так получилось"
+    },
+    {
+      "id": 666,
+      "type": "message",
+      "date": "2025-05-13T00:17:56.000Z",
+      "date_unixtime": "1747095476",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Я сути не понял\nТам из коробки нельзя контракт деплоить как ты хочешь\n\nЯ раньше его постоянно юзал и пытался под иишку билдить"
+    },
+    {
+      "id": 667,
+      "type": "message",
+      "date": "2025-05-13T00:18:20.000Z",
+      "date_unixtime": "1747095500",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "ну тебе и в блюпринте и в темплейте надо дописывать скрипт деплоя"
+    },
+    {
+      "id": 668,
+      "type": "message",
+      "date": "2025-05-13T00:18:23.000Z",
+      "date_unixtime": "1747095503",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "В итоге пока решил блюпринт переписать под себя",
+      "reply_to_message_id": 666
+    },
+    {
+      "id": 669,
+      "type": "message",
+      "date": "2025-05-13T00:18:36.000Z",
+      "date_unixtime": "1747095516",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "мне оч понравилось первый раз что там деплой через отдельный сервис идет"
+    },
+    {
+      "id": 670,
+      "type": "message",
+      "date": "2025-05-13T00:18:40.000Z",
+      "date_unixtime": "1747095520",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Так в блюпринт ты выбираешь через что деплоить",
+      "reply_to_message_id": 667
+    },
+    {
+      "id": 671,
+      "type": "message",
+      "date": "2025-05-13T00:18:55.000Z",
+      "date_unixtime": "1747095535",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "ну ладно"
+    },
+    {
+      "id": 672,
+      "type": "message",
+      "date": "2025-05-13T00:19:04.000Z",
+      "date_unixtime": "1747095544",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "И со скриптами более удобно работа"
+    },
+    {
+      "id": 673,
+      "type": "message",
+      "date": "2025-05-13T00:21:33.000Z",
+      "date_unixtime": "1747095693",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "ну главное что на такте"
+    },
+    {
+      "id": 674,
+      "type": "message",
+      "date": "2025-05-13T00:21:35.000Z",
+      "date_unixtime": "1747095695",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "остальное не важно"
+    },
+    {
+      "id": 675,
+      "type": "message",
+      "date": "2025-05-13T00:26:34.000Z",
+      "date_unixtime": "1747095994",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Кстати\nТут шуточки до этого про такт шутили\nТеперь можем друг другу такие мемы про фанси тут кидать",
+      "reply_to_message_id": 487
+    },
+    {
+      "id": 679,
+      "type": "message",
+      "date": "2025-05-14T16:30:22.000Z",
+      "date_unixtime": "1747240222",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "без ножек - бан"
+    },
+    {
+      "id": 684,
+      "type": "message",
+      "date": "2025-05-14T16:30:52.000Z",
+      "date_unixtime": "1747240252",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Сук"
+    },
+    {
+      "id": 685,
+      "type": "message",
+      "date": "2025-05-14T16:30:52.000Z",
+      "date_unixtime": "1747240252",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "ХАХАХАХАХА",
+      "reply_to_message_id": 683
+    },
+    {
+      "id": 686,
+      "type": "message",
+      "date": "2025-05-14T16:31:01.000Z",
+      "date_unixtime": "1747240261",
+      "from": "Алексей",
+      "from_id": "user108781922",
+      "text": "программирую на такте",
+      "reply_to_message_id": 683
+    },
+    {
+      "id": 687,
+      "type": "message",
+      "date": "2025-05-14T16:31:04.000Z",
+      "date_unixtime": "1747240264",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "достоин."
+    },
+    {
+      "id": 688,
+      "type": "message",
+      "date": "2025-05-14T16:31:10.000Z",
+      "date_unixtime": "1747240270",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Почему не такт открыт?"
+    },
+    {
+      "id": 691,
+      "type": "message",
+      "date": "2025-05-14T21:28:34.000Z",
+      "date_unixtime": "1747258114",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "У меня арч линукс стоит если что",
+      "reply_to_message_id": 690
+    },
+    {
+      "id": 692,
+      "type": "message",
+      "date": "2025-05-14T21:31:04.000Z",
+      "date_unixtime": "1747258264",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Вот вы рофлите прикалываетесь\n\nА вы хоть раз видели как выглядят Senior разработчики JS?\n\nЭто видео с жс конференции \nhttps://www.youtube.com/watch?v=jjxu614FG80",
+      "reply_to_message_id": 689
+    },
+    {
+      "id": 693,
+      "type": "message",
+      "date": "2025-05-14T21:32:29.000Z",
+      "date_unixtime": "1747258349",
+      "from": "Алексей",
+      "from_id": "user108781922",
+      "text": "(вспоминаем на чём написан компилятор такта)"
+    },
+    {
+      "id": 694,
+      "type": "message",
+      "date": "2025-05-14T21:32:44.000Z",
+      "date_unixtime": "1747258364",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Если бы все разработчики так выглядели я бы может и не женился бы вовсе"
+    },
+    {
+      "id": 695,
+      "type": "message",
+      "date": "2025-05-14T21:34:36.000Z",
+      "date_unixtime": "1747258476",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Что бы вы вообще понимали кто это такой\n\nЭто какой-то мега мега мега мега мега ультра крутой разработчик",
+      "media_type": "photo",
+      "file": "photos/photo_695.jpg",
+      "width": 576,
+      "height": 1280
+    },
+    {
+      "id": 696,
+      "type": "message",
+      "date": "2025-05-14T21:34:53.000Z",
+      "date_unixtime": "1747258493",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Ну и его профиль в твитере и на гите если полистать это отдельный вид искусства"
+    },
+    {
+      "id": 697,
+      "type": "message",
+      "date": "2025-05-14T21:35:03.000Z",
+      "date_unixtime": "1747258503",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Только senior так выглядят",
+      "reply_to_message_id": 694
+    },
+    {
+      "id": 698,
+      "type": "message",
+      "date": "2025-05-14T21:35:07.000Z",
+      "date_unixtime": "1747258507",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Реагировать но тайский огонь",
+      "reply_to_message_id": 695
+    },
+    {
+      "id": 699,
+      "type": "message",
+      "date": "2025-05-14T21:35:21.000Z",
+      "date_unixtime": "1747258521",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Так можно сеньора вычеслить\nОни все так ходят"
+    },
+    {
+      "id": 700,
+      "type": "message",
+      "date": "2025-05-14T21:35:37.000Z",
+      "date_unixtime": "1747258537",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "пиздец",
+      "reply_to_message_id": 692
+    },
+    {
+      "id": 701,
+      "type": "message",
+      "date": "2025-05-14T21:36:17.000Z",
+      "date_unixtime": "1747258577",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "https://github.com/tact-lang/tact/blob/main/dev-docs/STYLEGUIDE.md",
+      "reply_to_message_id": 693
+    },
+    {
+      "id": 702,
+      "type": "message",
+      "date": "2025-05-14T21:37:40.000Z",
+      "date_unixtime": "1747258660",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "*Антон пытается делать вид, что не носит зайчиь ушки и не одевается в анимешные наряды на конференции*\n\nНо мы хотим огорчить Антона\nХоть конференция по JS была, но сеньер разработчик то он на TS 😁",
+      "reply_to_message_id": 701
+    },
+    {
+      "id": 703,
+      "type": "message",
+      "date": "2025-05-14T21:37:53.000Z",
+      "date_unixtime": "1747258673",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "И проект по тайп скрипт питчил типочек"
+    },
+    {
+      "id": 704,
+      "type": "message",
+      "date": "2025-05-14T21:38:40.000Z",
+      "date_unixtime": "1747258720",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "хафыхафыха",
+      "reply_to_message_id": 702
+    },
+    {
+      "id": 705,
+      "type": "message",
+      "date": "2025-05-14T21:38:51.000Z",
+      "date_unixtime": "1747258731",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "и?"
+    },
+    {
+      "id": 706,
+      "type": "message",
+      "date": "2025-05-14T21:38:58.000Z",
+      "date_unixtime": "1747258738",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "что в этом плохого емае?"
+    },
+    {
+      "id": 707,
+      "type": "message",
+      "date": "2025-05-14T21:39:03.000Z",
+      "date_unixtime": "1747258743",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Ничего",
+      "reply_to_message_id": 706
+    },
+    {
+      "id": 708,
+      "type": "message",
+      "date": "2025-05-14T21:39:11.000Z",
+      "date_unixtime": "1747258751",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "я кнш не анимешник и тд"
+    },
+    {
+      "id": 709,
+      "type": "message",
+      "date": "2025-05-14T21:39:16.000Z",
+      "date_unixtime": "1747258756",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "никогда не смотрел наруто даже"
+    },
+    {
+      "id": 710,
+      "type": "message",
+      "date": "2025-05-14T21:39:24.000Z",
+      "date_unixtime": "1747258764",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "но не против людей кто фанат этой хуйни"
+    },
+    {
+      "id": 711,
+      "type": "message",
+      "date": "2025-05-14T21:39:25.000Z",
+      "date_unixtime": "1747258765",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Но попробовать не против)",
+      "reply_to_message_id": 708
+    },
+    {
+      "id": 712,
+      "type": "message",
+      "date": "2025-05-14T21:39:29.000Z",
+      "date_unixtime": "1747258769",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "они обычно мемные и крутые люди"
+    },
+    {
+      "id": 713,
+      "type": "message",
+      "date": "2025-05-14T21:39:34.000Z",
+      "date_unixtime": "1747258774",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "хфахыхфыхх",
+      "reply_to_message_id": 711
+    },
+    {
+      "id": 714,
+      "type": "message",
+      "date": "2025-05-14T21:39:57.000Z",
+      "date_unixtime": "1747258797",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Я наверное все тайтлы пересмотрел\nХочешь вместе начнём смотреть?",
+      "reply_to_message_id": 711
+    },
+    {
+      "id": 715,
+      "type": "message",
+      "date": "2025-05-14T21:40:09.000Z",
+      "date_unixtime": "1747258809",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "В дискордике на демочке"
+    },
+    {
+      "id": 717,
+      "type": "message",
+      "date": "2025-05-14T21:40:12.000Z",
+      "date_unixtime": "1747258812",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Надо ведь было так оскорбить человека назвав сеньором на TS",
+      "reply_to_message_id": 702
+    },
+    {
+      "id": 718,
+      "type": "message",
+      "date": "2025-05-14T21:41:54.000Z",
+      "date_unixtime": "1747258914",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "@bravecode так что го?\nУ меня много знакомых кто так же не смотрел\n\nЯ раньше таким же был\n\nНо со временем каждый начинает\n\nИ потом подсаживает других\n\nТы только начинаешь этот путь",
+      "reply_to_message_id": 714
+    },
+    {
+      "id": 719,
+      "type": "message",
+      "date": "2025-05-14T21:42:14.000Z",
+      "date_unixtime": "1747258934",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "а что",
+      "reply_to_message_id": 714
+    },
+    {
+      "id": 720,
+      "type": "message",
+      "date": "2025-05-14T21:42:20.000Z",
+      "date_unixtime": "1747258940",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "что именно",
+      "reply_to_message_id": 718
+    },
+    {
+      "id": 721,
+      "type": "message",
+      "date": "2025-05-14T21:42:24.000Z",
+      "date_unixtime": "1747258944",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "расскажи в лс"
+    },
+    {
+      "id": 722,
+      "type": "message",
+      "date": "2025-05-14T21:42:30.000Z",
+      "date_unixtime": "1747258950",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "подробнее если не лень"
+    },
+    {
+      "id": 723,
+      "type": "message",
+      "date": "2025-05-14T21:42:33.000Z",
+      "date_unixtime": "1747258953",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "я просто ваще 0й"
+    },
+    {
+      "id": 724,
+      "type": "message",
+      "date": "2025-05-14T21:42:33.000Z",
+      "date_unixtime": "1747258953",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Аниме смотреть на демочке в дискорде",
+      "reply_to_message_id": 720
+    },
+    {
+      "id": 725,
+      "type": "message",
+      "date": "2025-05-14T21:42:38.000Z",
+      "date_unixtime": "1747258958",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "какое?",
+      "reply_to_message_id": 724
+    },
+    {
+      "id": 726,
+      "type": "message",
+      "date": "2025-05-14T21:42:43.000Z",
+      "date_unixtime": "1747258963",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "я не разбираюсь"
+    },
+    {
+      "id": 727,
+      "type": "message",
+      "date": "2025-05-14T21:42:47.000Z",
+      "date_unixtime": "1747258967",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "я знаю\n\nАтака титанов ииии Хентай"
+    },
+    {
+      "id": 728,
+      "type": "message",
+      "date": "2025-05-14T21:42:54.000Z",
+      "date_unixtime": "1747258974",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "сначала ванпис до конца посмотрите"
+    },
+    {
+      "id": 729,
+      "type": "message",
+      "date": "2025-05-14T21:42:54.000Z",
+      "date_unixtime": "1747258974",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Можно начать с восхождение в тени",
+      "reply_to_message_id": 725
+    },
+    {
+      "id": 730,
+      "type": "message",
+      "date": "2025-05-14T21:43:07.000Z",
+      "date_unixtime": "1747258987",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "лс.",
+      "reply_to_message_id": 729
+    },
+    {
+      "id": 731,
+      "type": "message",
+      "date": "2025-05-14T21:44:37.000Z",
+      "date_unixtime": "1747259077",
+      "from": "Алексей",
+      "from_id": "user108781922",
+      "text": "красивое",
+      "reply_to_message_id": 701
+    },
+    {
+      "id": 732,
+      "type": "message",
+      "date": "2025-05-14T21:45:40.000Z",
+      "date_unixtime": "1747259140",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "мы ещё не всё отрефакторили в этом стиле, но движемся",
+      "reply_to_message_id": 731
+    },
+    {
+      "id": 733,
+      "type": "message",
+      "date": "2025-05-14T21:53:18.000Z",
+      "date_unixtime": "1747259598",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "помогите 🆘✋🆘",
+      "reply_to_message_id": 729,
+      "media_type": "photo",
+      "file": "photos/photo_733.jpg",
+      "width": 976,
+      "height": 1428
+    },
+    {
+      "id": 734,
+      "type": "message",
+      "date": "2025-05-14T22:00:50.000Z",
+      "date_unixtime": "1747260050",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "@myakount ты с нами хочешь?)"
+    },
+    {
+      "id": 735,
+      "type": "message",
+      "date": "2025-05-14T22:01:19.000Z",
+      "date_unixtime": "1747260079",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "не, мне в такт шардинг завозить",
+      "reply_to_message_id": 734
+    },
+    {
+      "id": 738,
+      "type": "message",
+      "date": "2025-05-19T14:16:26.000Z",
+      "date_unixtime": "1747664186",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Тактеры, ваш выход \nhttps://x.com/ZYPER_officialX/status/1923724500019052974"
+    },
+    {
+      "id": 739,
+      "type": "message",
+      "date": "2025-05-21T10:11:51.000Z",
+      "date_unixtime": "1747822311",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "Привет всем, у моей компании проходит в Москве мероприятие 22-24 мая Positive Hack Days Fest. Традиционно мы проводим CTF в EVM сетях, в этом году подготовили еще задачи на TON, в данном случае на Tact. Доступ откроется 22го примерно в 12 часов по Москве\n\nНавсегда доступ к задачам откроется после фестиваля, можно будет решать задачи в своем темпе, так же задачи продублирую на GitHub\n\n+ 23го мы презентуем альфу фаззера для TON контрактов, можно будет получить доступ, подробнее 22го числа все будет в @PositiveWeb3. Там как раз для решения задачки он пригодится\n\nСама CTF размещена тут: https://positive.com/ctf",
+      "forwarded_from": "Sergey",
+      "forwarded_date": "2025-05-21T10:04:25.000Z"
+    },
+    {
+      "id": 740,
+      "type": "message",
+      "date": "2025-05-21T10:12:07.000Z",
+      "date_unixtime": "1747822327",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "оригинал здесь: https://t.me/hacktheton/485"
+    }
+  ]
+}

@@ -1,5 +1,3 @@
-talkol: Ledger has some insanely bad decisions too, it’s not perfect  For example, passphrase has to be typed on the device using only 2 buttons which make people either avoid passphrase or take a short 4-6 character one which can easily be brute forced. Passphrase should always be used so then device doesn’t hold the full private key and it should be at least 14-15 characters so brute forcing it becomes difficult
-
 NuSs: hi, how can i get test tons? I tried a bot in teleram, but I could never get any ton :( (reply to 14284)
 
 doni: is your wallet on testnet ? (reply to 14285)
@@ -2186,7 +2184,7 @@ Liza: Hey guys! Mark, Daniil and I are preparing an online course on programming
 
 zzss: Hi guys. I have a question about the one part of code from this library  https://github.com/toncenter/tonweb  For which purposes this part of code, guys?
 
-User<5652756485>: Hi devs. I need help with minting an NFT collection. I have all the attributes (layers) rednered but i still need to render full collection and mint it with all the attributes. I assume this work can be done easily with ton-cli (https://github.com/disintar/toncli/tree/v0.0.4) but I still need help. I can pay for work with royalties from collection or other ways (discuss in dm) DM me if you are interested. Thanks in advance)
+Reynold: Hi devs. I need help with minting an NFT collection. I have all the attributes (layers) rednered but i still need to render full collection and mint it with all the attributes. I assume this work can be done easily with ton-cli (https://github.com/disintar/toncli/tree/v0.0.4) but I still need help. I can pay for work with royalties from collection or other ways (discuss in dm) DM me if you are interested. Thanks in advance)
 
 r4mze5: hi guys, how do you deploy data of transaction? Need using BOC?
 
@@ -2212,7 +2210,7 @@ User<5461650450>: Hi, have a quick question.  What is certificate for ton used f
 
 Диёрыч: I have a problem with installation fift on MacOS:  I took compilled binary from gitbhub and placed it in /usr/local/bin with "chmod +x fift" . I don't get fift version but see commit. Could anybody help me with this? :)
 
-User<5652756485>: Hi guys. Do you know where to find docs about minting NFT collection + minting multiply items in this collection
+Reynold: Hi guys. Do you know where to find docs about minting NFT collection + minting multiply items in this collection
 
 Никита: Hi! How can I find out the cost of NFT at its address? On tonapi.io there is a method "/v1/nft/GetItems" which, according to the documentation, should additionally add the key of the "sale" object, but it does not do this. NFT is definitely on sale.
 
@@ -2750,17 +2748,17 @@ Ruslan: You may find it here. (reply to 17064)
 
 Ruslan: You have version of binaries for another version of linux. Download binaries for your ubuntu version. (reply to 17070)
 
-User<5652756485>: Does anybody know where to find docuantation about soulbound NFTs and how to mint them
+Reynold: Does anybody know where to find docuantation about soulbound NFTs and how to mint them
 
 Kon: https://github.com/toncenter/tonweb/tree/master/src/contract/token/nft (reply to 17078)
 
-User<5652756485>: no single word about soulbounds( (reply to 17080)
+Reynold: no single word about soulbounds( (reply to 17080)
 
 Howard: Soulbounds only means a non-transferable token. (reply to 17081)
 
 Dmitry: Here is the standard proposal. Though it has little to do with Vitalik's view of soulbound token. These soulbound tokens for ton are bound to owner's private key. May be transferred only between their wallets.  https://github.com/ton-blockchain/TEPs/blob/master/text/0085-sbt-standard.md (reply to 17078)
 
-User<5652756485>: by "their" you mean different versions of 1 wallet (aka v3r2 v4r2)? (reply to 17083)
+Reynold: by "their" you mean different versions of 1 wallet (aka v3r2 v4r2)? (reply to 17083)
 
 Dmitry: I meant that. But I may be wrong here.
 
@@ -3014,17 +3012,17 @@ Jaimin: Hey, just wondering for Ton Storage is it being deprecated or migrated? 
 
 Dario: Thats not ton storage for sure. Do not connect your wallet to unknown site (reply to 17261)
 
-User<5652756485>: Hi guys. Does anybody know how to get 32 bite hex private key from your mnemonic? tonweb is giving 64 bit private key by mnemonic I need 32 bit key because this library requires 32 bit private_key here in code
+Reynold: Hi guys. Does anybody know how to get 32 bite hex private key from your mnemonic? tonweb is giving 64 bit private key by mnemonic I need 32 bit key because this library requires 32 bit private_key here in code
 
 Amin: Just use the first 32 bytes, it will be ok. (reply to 17263)
 
-User<5652756485>: thanks. something in library broken probably, because its not reading private key properly and returning invalid inactive address( (reply to 17265)
+Reynold: thanks. something in library broken probably, because its not reading private key properly and returning invalid inactive address( (reply to 17265)
 
 Amin: Your wallet is v3r2? and you changed the network in config? (reply to 17268)
 
 Kenan Heyatov: How i can get any nft or coin
 
-User<5652756485>: The private key is the same for all versions of addresses, but the address that the library gives does not match mine. And yes I tried both networks (reply to 17272)
+Reynold: The private key is the same for all versions of addresses, but the address that the library gives does not match mine. And yes I tried both networks (reply to 17272)
 
 User<5909707939>: (cell cur, int k) = udict_get_ref?(d, 16, val);   send_raw_message(cur, 0);     How would I activate the "inplace message body flag (Either)" for this code?
 
@@ -3064,7 +3062,7 @@ Chun Hsin: does anyone have a db snapshot for the toncenter indexer? https://git
 
 Tim: Did you install archive node from archive dump?
 
-tk.crypt0x | Drops💧🆙 UXUY $IFR 🔜: Im new here, I just saw this TON recently..im interested in the project
+tk.crypt0x | Drops💧🆙 UXUY: Im new here, I just saw this TON recently..im interested in the project
 
 Chun Hsin: yes (reply to 17306)
 
@@ -3080,11 +3078,11 @@ Summer: Hi, how can I set up my wallet address name, https://tonscan.org/address
 
 Summer: Like the above screenshot, OKX and Huobi Deposit
 
-User<5652756485>: Does anybody know the difference between royalty parameter in tonweb NftCollection and seller_fee_basis_points in collection json metadata https://github.com/ton-blockchain/token-contract/blob/main/nft/web-example/index.html https://github.com/ton-foundation/token-contract/blob/main/nft/web-example/my_collection.json
+Reynold: Does anybody know the difference between royalty parameter in tonweb NftCollection and seller_fee_basis_points in collection json metadata https://github.com/ton-blockchain/token-contract/blob/main/nft/web-example/index.html https://github.com/ton-foundation/token-contract/blob/main/nft/web-example/my_collection.json
 
 Tim: Json Metadata one doesn't matter
 
-User<5652756485>: thx (reply to 17327)
+Reynold: thx (reply to 17327)
 
 Emilia: Hello, I read that TON Storage is coming by the end of the year. What about TON Proxy 2.0 (privacy) and 3.0 (DeFi) announced in the past?
 
@@ -5240,7 +5238,7 @@ Dev: Yes that's video. I will watch it now
 
 Nati: Is there any TL-B to PyTONLib class convertor?  If not, would it be useful if I create one, or it'll be useless?  I feel like it's a tedious work to not automate.
 
-User<135516283>: hi  How to display the jetton transaction in JavaScript
+Omid: hi  How to display the jetton transaction in JavaScript
 
 Mohammed: It was released last week (reply to 19185)
 
@@ -9504,7 +9502,7 @@ Alex: have you maybe exmaple how to do that diff contract?
 
 User<1783915887>: hi,I am a  ambassador and marketer, with two years of experience in marketing and guidance and moderator, in Telegram, conditions for I can create a local association. What is your opinion, who should I talk to?
 
-Lisa: Attention, developers! 💎  Join us at the upcoming Hack-a-TONxDoraHack offline meetup in Dubai, where you'll have the opportunity not only to pitch ideas for the hackathon but also to learn about the latest advancements in TON blockchain technology and network.  18-19 Feb, TON Foundation office, you'll learn everything you need to know to get started. The full agenda is already published on the website.  Whether you're an experienced developer or just starting out, this is the perfect opportunity to expand your knowledge, network with TON experts, and be a part of the TON community shaping the future of blockchain technology.  👉 Register now and be a part of our meetup.
+Lisa OOO: Attention, developers! 💎  Join us at the upcoming Hack-a-TONxDoraHack offline meetup in Dubai, where you'll have the opportunity not only to pitch ideas for the hackathon but also to learn about the latest advancements in TON blockchain technology and network.  18-19 Feb, TON Foundation office, you'll learn everything you need to know to get started. The full agenda is already published on the website.  Whether you're an experienced developer or just starting out, this is the perfect opportunity to expand your knowledge, network with TON experts, and be a part of the TON community shaping the future of blockchain technology.  👉 Register now and be a part of our meetup.
 
 Alex: i try to do                     const opcode = cell.bits.readUint(32)  i don't have readuinit(32) =/
 
@@ -14800,9 +14798,9 @@ User<689845327>: Thanks @pcrafter & @commonbabylightmyfire  I need time to revie
 
 Howard: You can push the data to the chain through a URL and then send it using TonKeeper (Wallet).    Essentially, the data you mentioned here is meant for mining purposes and will be pasted to a smart contract like EVM. How you implement your code will determine if this is possible or not.  If you want to mint an NFT in the TON network, you should know that each NFT has a unique contract address and is signed with the owner's address. That's all. (reply to 25289)
 
-𝑴𝒐𝒉𝒂𝒎𝒎𝒂𝒅 𝑴𝒂𝒉𝒅𝒊: Mask ??
+𝑴𝒂𝒉𝒅𝒊: Mask ??
 
-𝑴𝒐𝒉𝒂𝒎𝒎𝒂𝒅 𝑴𝒂𝒉𝒅𝒊: Does anyone here have mask currency?
+𝑴𝒂𝒉𝒅𝒊: Does anyone here have mask currency?
 
 User<689845327>: Thanks. We can connect the wallet but still work on making NFTs. (reply to 25313)
 

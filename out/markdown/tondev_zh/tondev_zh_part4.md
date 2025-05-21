@@ -1,3 +1,13 @@
+备用: 我觉得熟手的话,dump log的作用不如浏览器的作用大
+
+备用: 自动化测试的前提是业务比较固定,改动小...
+
+备用: 😂 我比较懒...
+
+备用: 沙盒只适合一些细节的调试.不适合测完整的流程
+
+备用: 个人感觉哈
+
 备用: 比如notify之后forward建了个临时的pool, 沙盒能不能直接测这个pool的方法? 还是得把前面的流程走完才能拿到pool做测试?
 
 备用: 定制得跟主网不一样,上了主网还得再测一遍吧...
@@ -1826,11 +1836,11 @@ Evan: 大家平时使用多的 usdt， 还是jusdt了？
 
 备用: jsdt是啥? u都是指usdt. 在不同的链都有发行. (reply to 66678)
 
-Alex: 大佬们。开发支付的时候这个前端返回的密文如何php解密
+Sophia Rose: 大佬们。开发支付的时候这个前端返回的密文如何php解密
 
-Alex: 就这个json
+Sophia Rose: 就这个json
 
-Alex: 他的sdkphp 版本看的不太明白
+Sophia Rose: 他的sdkphp 版本看的不太明白
 
 Ginta 🦴: 有没有做过链上游戏的ui呢 或者认识的
 
@@ -4764,9 +4774,9 @@ Yasmin: Assalamualaikum 👋
 
 — 2025-01-05 —
 
-User<8081668836>: https://github.com/ton-connect/sdk/issues/255
+0xNameless: https://github.com/ton-connect/sdk/issues/255
 
-User<8081668836>: 没人解决这个问题吗
+0xNameless: 没人解决这个问题吗
 
 Andrew: 你在 github 提了 issue，开发者会评估解决的 (reply to 76341)
 
@@ -5022,9 +5032,9 @@ Jacob: 要么让用户直接发到sc whitelist，如判断通过再转发给jwsc
 
 Leo: 很简单，让wl持有资产而不是proj，这样wl只需发个通知给proj即可，用户可以直接转到wl的jw  如果资产一定要由proj持有，就把wl的功能合并到proj内，减少不必要的模块化  如果一定要分开且proj持有资产，让wl把变动或状态同步给proj，用merkle之类的方式让用户不经过wl也能在proj中验证 或者还有个思路是用户转给proj的jw后通知proj向wl请求验证，wl返回结果再处理下一步或退款
 
-User<8081668836>: ton 小程序内部可以实现保存图片到手机相册吗
+0xNameless: ton 小程序内部可以实现保存图片到手机相册吗
 
-User<8081668836>: 浏览器 a 标签下载没反应
+0xNameless: 浏览器 a 标签下载没反应
 
 Nix: 您可以使用 TonApi 获取 Fragment 的交易历史记录。如果您没有解决它，我可以为您提供帮助。 (reply to 76902)
 
@@ -5182,15 +5192,15 @@ Andrew: 我测试了是可以 callback 的，你需要在 bot 里面先构建一
 
 Andrew: 测试代码在这里，按需修改一下就好  savePreparedInlineMessage https://github.com/ton-builders/open-tg-bot/blob/main/bot.ts  window.Telegram.WebApp.shareMessage("Q80OofhZLXrSW8Br",callme)) https://github.com/ton-builders/open-mini-app/blob/main/app/page.tsx (reply to 77707)
 
-User<8081668836>: 这是用来分享 media 的吗 (reply to 77758)
+0xNameless: 这是用来分享 media 的吗 (reply to 77758)
 
 Andrew: 是的，各种媒体消息都可以分享。 因为这个接口还比较新，所以我 demo 一下 (reply to 77762)
 
-User<8081668836>: 如果是图片的话 必须是 url 吧 不能是前端本地生成的 blob 什么的么
+0xNameless: 如果是图片的话 必须是 url 吧 不能是前端本地生成的 blob 什么的么
 
 Andrew: 这个具体你看文档就好，实在遇到问题可以群里问
 
-User<8081668836>: 好的 明天试试看看能不能分享本地图片 感谢🙏
+0xNameless: 好的 明天试试看看能不能分享本地图片 感谢🙏
 
 Karen: tonweb 的哪个版本是文档中的版本： 因为当我写入：const jettonMinter = new TonWeb.token.jetton.JettonMinter(tonweb.provider, {address: "<JETTON_MASTER_ADDRESS>"}); 我收到错误，它需要 JettonMinterOptions，而不是单个地址
 
@@ -6290,13 +6300,13 @@ king: 是的 (reply to 80595)
 
 ZombHunt: 请问下如果要想在Telegram App Center里发布的应用能够被打上New的标签并且展示在首页New这边的话需要什么条件呢？ (forwarded from ZombHunt)
 
-Less Enter: 请问star支付成功创建了InvoiceLink后，点击支付时，机器人一直没有触发pre_checkout_query监听，有没有大神知道是什么原因
+Less Enter🐺MrBeast: 请问star支付成功创建了InvoiceLink后，点击支付时，机器人一直没有触发pre_checkout_query监听，有没有大神知道是什么原因
 
 Andrew: 是不是被其他处理方式处理了，比如通用的 message 方法。 (reply to 80646)
 
 Andrew: 注册监听是排序的
 
-Less Enter: 刚刚找到原因了 在机器人start时allowed_updates没有配置pre_checkout_query， 感谢@andrew_cong
+Less Enter🐺MrBeast: 刚刚找到原因了 在机器人start时allowed_updates没有配置pre_checkout_query， 感谢@andrew_cong
 
 Andrew: 其他申请过的项目方可以解答下，是否申请 listing 后就展示？ 我没走过这个流程 (reply to 80642)
 
@@ -7960,7 +7970,7 @@ H: TON地址的Masterchain (workchain_id=-1)和basic workchain (workchain_id=0)�
 
 Andrew: https://docs.ton.org/mandarin/v3/concepts/dive-into-ton/ton-blockchain/blockchain-of-blockchains (reply to 86657)
 
-Tessa: 大佬们，我想问下，php有没有库可以通过助记词发起交易的，像go这样 github.com/xssnick/tonutils-go w, err := wallet.FromSeed(api, words, wallet.V3R2) w.Transfer(ctx, recipientAddr, amount, comment, true)
+ydzr: 大佬们，我想问下，php有没有库可以通过助记词发起交易的，像go这样 github.com/xssnick/tonutils-go w, err := wallet.FromSeed(api, words, wallet.V3R2) w.Transfer(ctx, recipientAddr, amount, comment, true)
 
 Andrew: PHP 作为世界上最好的语言，怎么能没有  https://github.com/olifanton/ton (reply to 86727)
 
@@ -8184,7 +8194,7 @@ Sun: ok
 
 — 2025-05-07 —
 
-SHOP | crece: 😮‍💨🤙
+Qwanntum: 😮‍💨🤙
 
 Katiya｜TON: 💎《TON 生态开发公开课 & 编程挑戰赛 2025》 🚀第4課下周一開課！  📅 課程時間：5 月 12 日 20:00 (UTC+8) 🎙️直播平台：請關注 X 帳號 @ tonsocietyhk  🏆 課程結束後還有 Coding Challenge編程挑戰賽，所有提交的开发者将会贏取一整年 Telegram Premium 會員！  💡 課程內容： 📌 TON 基础 & 智能合约 – 消息模式、API & SDK、Bag of Cell 📌 Jetton & NFT – 真实 USDT 案例，全流程应用集成  ✨感謝社區夥伴： BeWaterOfficial,HackQuest_,OpenBuildxyz (forwarded from TON Society Hong Kong Announcements)
 
@@ -8242,13 +8252,21 @@ Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的�
 
 — 2025-05-09 —
 
+Combot: Lakin Lon has been banned! Reason: CAS ban.
+
+Combot: Gl has been banned! Reason: CAS ban.
+
 sniper07: scam! (reply to 88510)
 
 one: 怎么禁止自己机器人被别人投广告啊
 
+Combot: selyaaaa has been banned! Reason: CAS ban.
+
 Kenny Chan: 官方推号👍
 
 — 2025-05-10 —
+
+Combot: schöne_Schlampe has been banned! Reason: CAS ban.
 
 TK: 大家好，谁知道这个的原因
 
@@ -8276,7 +8294,15 @@ TK: def create_transaction_digest(         self,         to_addr: str,         a
 
 TK: @andrew_cong
 
+Combot: Anggie has been banned! Reason: CAS ban.
+
 Andrew: 主要提供 TypeScript 的 SDK，我个人也没有用过 Python (reply to 88616)
+
+Combot: Nadezhda, QTModo, a have been banned! Reason: CAS ban.
+
+Combot: даниил, Tkk Flk have been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
 
 — 2025-05-11 —
 
@@ -8297,8 +8323,6 @@ Kenny: 哦哦哦，有道理。不过感觉似乎还是有一些问题？假设 
 Leo: alice给jetton wallet提供bob的地址而不是jw地址，alice的jw会算出对应的jw地址再发消息 (reply to 88768)
 
 Kenny: 有道理，十分感谢🙏
-
-Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
 
 TK: 大家好，谁知道我用tonsdk中的https://github.com/tonfactory/tonsdk/blob/master/examples/wallets/wallet.py这个运行后（将seqno改成获取最新的，version改成WalletVersionEnum.v4r2）生成的签名boc可以交易广播成功，但我换成我自己的24位的助记词（也是一个钱包生成的，正常钱包）就会报错，提示助记词有错误不能获取公钥匙私钥什么的，谁看过这个sdk，知道什么原因吗？
 
@@ -8476,10 +8500,6 @@ Randolph: 第二个地址不能携带参数是因为这个通知不可信吗，�
 
 Andrew: 🎓欢迎注册 TON 人才库    你是否有技术而没有实战的舞台？ 你是否有成熟的技术团队而找不到业务方？  赶紧注册 TON人才库，成为技术服务商(Agencies)、独立技术专家(Individuals)以及安全审计(Auditors)。  注册地址：https://ton.org/en/talents?howToJoin
 
-Combot: ~Эмилия~ has been banned! Reason: CAS ban.
-
-Combot: Total messages: 89476
-
 Randolph: 这个我们可以注册吗 (reply to 89469)
 
 Katiya｜TON: 这个就是专门针对开发者的，赶紧注册～～ (reply to 89478)
@@ -8496,74 +8516,108 @@ Randolph: 从源码看Jetton Notify的接受方，是jetton接收人的ton钱包
 
 Randolph: 明白了🫡 (reply to 89488)
 
-Combot: милочка has been banned! Reason: CAS ban.
-
 Andrew: hello 我写了个ton的nft合约 但是在tonviewer和tonscan上面都不能能被解析为nft格式。 有没有可能我用在合约用了with deployable 导致的呢？ tep62得方法我都实现了
 
 Andrew: 应该还是 content 数据格式问题 (reply to 89511)
 
 Andrew: 了解 我xontent给的一个ipfs的link (reply to 89522)
 
-Combot: Саша has been banned! Reason: CAS ban.
-
-Combot: Bin Nguyễn, Ayman Reda have been banned! Reason: CAS ban.
-
-Combot: Mugimugijesh has been banned! Reason: CAS ban.
-
-Combot: Toe Toe Lwin, Каппов Александр #Extra#LA#dxf#AKS#ФСБ have been banned! Reason: CAS ban.
-
 — 2025-05-16 —
-
-Combot: FaRES aMz has been banned! Reason: CAS ban.
 
 Katiya｜TON: $TON 家人们：  5月21日至22日欢迎來第五屆全球產品與增長出海展會，現場見一面吧！  🔥連結知名出海企業 🔥解鎖海外流量增長新機會 🔥學習海外流量增長策略  🔗报名注册：掃描海報上的二維碼，立即報名！ (forwarded from TON Society Hong Kong Announcements)
 
-Combot: Magic Man has been banned! Reason: CAS ban.
-
-Combot: Goddess, Anna ⁪⁬⁮⁮⁮⁮, Trường Nguyễn Văn, Paws have been banned! Reason: CAS ban.
-
-Combot: Ибраева Жузика has been banned! Reason: CAS ban.
-
-Combot: ᅠ has been banned! Reason: CAS ban.
-
-Combot: silent_king24 has been banned! Reason: CAS ban.
-
-Combot: manusia biasa has been banned! Reason: CAS ban.
-
-Milad: سلام
-
-Milad: چجوری میتونم نصبش کنم
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Xx: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot  💎❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️  🐾❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️❗️ ❗️❗️❗️❗️❗️❗️❗️❗️❗️  🏴‍☠️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️@PawsAirdropSolanabot (forwarded from PAWS)
-
-Rose: Yeah, I don't like your flooding. Xx has been muted.
-
-Koim: For sell
-
-Combot: Masters-Chief has been banned! Reason: CAS ban.
-
 — 2025-05-17 —
 
-Rose: You need to be an admin to do this. (reply to 89763)
+Lucky: Hi!In the TON sandbox, could you please suggest how to write a test to ensure that a transaction sent to an invalid address gets properly bounced?
 
-Combot: Catherine ⁪⁬⁮⁮⁮⁮ has been banned! Reason: CAS ban.
+— 2025-05-19 —
 
-Combot: вера🪼 has been banned! Reason: CAS ban.
+Combot: Fred Coz has been banned! Reason: CAS ban.
+
+Combot: dt has been banned! Reason: CAS ban.
+
+Combot: Jean Paul Sinti has been banned! Reason: CAS ban.
+
+Combot: Solana, Cc have been banned! Reason: CAS ban.
+
+wikig: 提问，目前TMA在涉及crypto这块有什么限制性条款吗。 因为我看目前TON上最大的mixer  tonnel也停止了mixer运营。 所以来询问一下有什么服务是不能做的么
+
+Combot: hamo da ana has been banned! Reason: CAS ban.
+
+Combot: BoB Zasa, Noel Cantero, Noelle, Bensalem med ishak have been banned! Reason: CAS ban.
+
+— 2025-05-20 —
+
+Combot: Сообщение от Exnode has been banned! Reason: CAS ban.
+
+Andrew: 目前最权威的是这个文档 Blockchain Guidelines https://core.telegram.org/bots/blockchain-guidelines (reply to 90059)
+
+Combot: Anastasiya 🥠, Anna 🍌 have been banned! Reason: CAS ban.
+
+Combot: 喔！是陳 has been banned! Reason: CAS ban.
+
+wikig: 我看了下，似乎是没有限制混币协议或者隐私性协议的开发、使用的，那么如果接下来我们做一个基于TON的隐私转账服务或混币协议应该是不会被ban的吧hhh (reply to 90127)
+
+Andrew: 我理解不违法这个协议，以及 TG小程序和 BOT 的开发者协议就可以 (reply to 90144)
+
+Combot: 漢堡🐤 has been banned! Reason: CAS ban.
+
+Combot: CL|𝑯𝒊𝒎𝒆𝒌𝒐/ 姫子#𝐀𝐬𝐧 has been banned! Reason: CAS ban.
+
+Combot: Liza, Solana have been banned! Reason: CAS ban.
+
+— 2025-05-21 —
+
+Combot: 豬排飯我的愛 has been banned! Reason: CAS ban.
+
+Combot: Sara Kapoor has been banned! Reason: CAS ban.
+
+Andrew: 问个问题 为什么我在quicknode买的付费ton节点 却不能执行mint类似的功能
+
+Andrew: 会报404
+
+Andrew: 我用公共节点就可以
+
+Andrew: 是quicknode提供的节点有问题吗
+
+Andrew: 没有用过quicknode，也不推荐使用 (reply to 90263)
+
+Andrew: 那推荐使用什么节点呢？ (reply to 90264)
+
+Andrew: 免费节点不符合项目要求
+
+Andrew: http://tondevdoc.xyz/
+
+Andrew: 我之前用的mainnet-v4.tonhubapi
+
+Andrew: 这个v2 v3 会对tonClient4 初始化吗
+
+Andrew: https://github.com/ton-org/ton 上有 Usage 的，如果你选第三方 API，可能也有独立的兼容 SDK (reply to 90269)
+
+Andrew: https://ton-org.notion.site/III-TON-1d05274bd2cf80a7a8b0e11c0f3b1640
+
+Andrew: tonclinet4 是在@ton/ton下面的 这个不能像evm一样直接替换的一个地址就行了吗
+
+Andrew: 我不需要自己搭建 如果好的 付费的最好了
+
+Andrew: 能够直接替换掉我现有的 mainnet-v4.tonhubapi.com
+
+Combot: Полина Камышова has been banned! Reason: CAS ban.
+
+Andrew: 主要是今天开始这个地址发起不了我的交易了 (reply to 90275)
+
+jgfg: 洛阳
+
+AGT: 朋友们，如何在这里的地址可以显示自定义头像，就像币安这样
+
+Combot: Aymen Nnnnn has been banned! Reason: CAS ban.
+
+Combot: Nestor Orito has been banned! Reason: CAS ban.
+
+Combot: Bingsu has been banned! Reason: CAS ban.
+
+Combot: Phan Trong Duy has been banned! Reason: CAS ban.
+
+Keith: 找几个执行力强的哥们，两个月后奥迪Q7到位，不玩虚的，戳头像
+
+Combot: Akui Rian has been banned! Reason: CAS ban.

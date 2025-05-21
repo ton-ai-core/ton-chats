@@ -1,3 +1,7 @@
+Jiego: but if you can leverage without risk (as you only need to wait for your transaction to be on the green), how is it leverage?
+
+Jiego: is more like a friend giving you money
+
 Max: It’s probably irrelevant to Tact itself. Ill need to test maps and see how gas efficient they might be if we have thousands of entries — that was my key concern (reply to 42984)
 
 Jiego: gotcha. What I said was that its probably gas efficient to have each loan work as an array, where each user gets a new contract deployed that tracks their debts (reply to 42986)
@@ -422,7 +426,7 @@ august.l: how to use this method  blockchain.setShardAccount(address, account) t
 
 dotfx: @AntonTrunov are you experiencing errors with external calls using the last tact-compiler? (reply to 43567)
 
-SP: how to selfdestruct a wallet?
+Son Pin: how to selfdestruct a wallet?
 
 Anton: Can you provide a reproducible example please? You can open an issue here: https://github.com/tact-lang/tact (reply to 43657)
 
@@ -488,7 +492,7 @@ Odilov: there is not this file
 
 Bzzzz: npx blueprint build (reply to 43817)
 
-MON prince: Learnt that, funC will soon be the development language to be using to build on TON and tact will stop from 2025.  How true and we all have to migrate to funC?
+NearWormHole ▪️ 🐾: Learnt that, funC will soon be the development language to be using to build on TON and tact will stop from 2025.  How true and we all have to migrate to funC?
 
 Laisky: None of the points are correct except for the spelling of these words. (reply to 43849)
 
@@ -636,7 +640,7 @@ Kirill: Awesome, I’ll check it out (reply to 44048)
 
 — 2024-11-07 —
 
-Mohammed: Hello .  I'm Ton FunC & Tact Engineer Experienced with ton bot and mini app Plz kindly reach me out
+wizardev: Hello .  I'm Ton FunC & Tact Engineer Experienced with ton bot and mini app Plz kindly reach me out
 
 Pasha: Hey guys, is it possible to get StateInit of  a contract based on code_hash and data_hash? (like on screenshot)
 
@@ -1918,7 +1922,7 @@ Gosha: I'll try in few hours Thank you very much!! (reply to 46149)
 
 Manifreebird: if you guys made mod, I will take care of Spam
 
-ㅤㅤㅤ: + (reply to 46160)
+ㅤㅤㅤㅤㅤ: + (reply to 46160)
 
 EDITOR FRED: Please any idea how I can fix this in a bot receiving stars??
 
@@ -1936,7 +1940,7 @@ Blockchain: import "@stdlib/deploy";  contract BlankContract with Deployable {  
 
 Blockchain: fun Prices(){         let a: Int = 0;                  repeat (18) {             if (a >= 1 && a <= 6) {                 self.stagePrice.set(a, 100);             } else if (a >= 7 && a <= 12) {                 self.stagePrice.set(a, 200);             } else if (a >= 13 && a <= 18) {                 self.stagePrice.set(a, 300);             }              a = a + 1;         }     }  i make this.    Output Same  [   {     "type": "base64",     "value": "te6cckEBEgEA0wACA8/IARACASACCQIBIAMFAgEgBAYAQVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADJAIBIAYHAgEgCAgCASAIDgBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyQAgEgCgwCASALCwIBIA4OAgEgDQ8CASAOEQBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkQAgEgERECAc4REQBBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWQGQMAAw=="   } ] (reply to 46195)
 
-ㅤㅤㅤ: /report advertisement (reply to 46204)
+ㅤㅤㅤㅤㅤ: /report advertisement (reply to 46204)
 
 Anton: Please don’t do it, this is not helping, just multiplying spam (reply to 46205)
 
@@ -2030,7 +2034,7 @@ Andrei: Hey! When I'm sending a deploy message, is there a way to retain the val
 
 Andrei: Great idea, let me try. Thanks! (reply to 46396)
 
-Mohammed: I'm available for ton smart contract with func or tact Let's connect via DM (reply to 46386)
+wizardev: I'm available for ton smart contract with func or tact Let's connect via DM (reply to 46386)
 
 Илья: Help pls Contract fragment: message(0xf8a7ea5) JettonTransfer {     queryId: Int as uint64;     amount: Int as coins;     destination: Address;     responseDestination: Address?;     customPayload: Cell? = null;     forwardTonAmount: Int as coins;     forwardPayload: Slice as remaining; }  message SendTokens {     to: Address;     amount: Int as coins; }  receive(msg: SendTokens) {         self.requireOwner();         require(!self.stopped, "Contract was stopped");          self.queryId += 1;          let addressReciever = calculateJettonWalletAddress(             msg.to,             self.jettonMasterAddress,             self.jettonWalletCode         );          send(SendParameters{             to: addressReciever,              value: JettonTransferGas,             mode: SendIgnoreErrors,             body: JettonTransfer {                 queryId: self.queryId,                 amount: msg.amount,                 destination: msg.to,                 responseDestination: msg.to,                 customPayload: null,                 forwardTonAmount: 1,                 forwardPayload: rawSlice("F")             }.toCell(),         });          send(SendParameters{             to: sender(),             value: 0,             mode: SendRemainingValue,             body: Excesses{}.toCell()         });     }  TypeScript Code import { Address, toNano } from '@ton/core'; import { NetworkProvider } from '@ton/blueprint'; import { WalletContract } from '../wrappers/WalletContract';  export async function run(provider: NetworkProvider) {     const CONTRACT_ADDRESS = Address.parse("");     const walletContract = await provider.open(WalletContract.fromAddress(CONTRACT_ADDRESS));     await walletContract.send(         provider.sender(),         {             value: toNano("0.05")         },         {             $$type: "SendTokens",             to: Address.parse(""),             amount: 100n,         }     ) }  Try to send jetton to other wallet, but it isn`t work
 
@@ -2072,17 +2076,17 @@ Mo30: forwardTonAmount: 1?  its nano coin based did you tried ton("1")? (reply t
 
 Mo30: idk im newbie in ton blockchain too (reply to 46480)
 
-Mohammed: Hi
+wizardev: Hi
 
-Mohammed: I was trying to token mint in one msg
+wizardev: I was trying to token mint in one msg
 
-Mohammed: but encountered error
+wizardev: but encountered error
 
-Mohammed: plz help me
+wizardev: plz help me
 
-Mohammed: fun mint(to: Address, amount: Int, response_destination: Address) {         require(self.mintable, "Can't Mint Anymore");         self.total_supply = (self.total_supply + amount); // Update total supply          let winit: StateInit = self.getJettonWalletInit(to); // Create message         send(SendParameters{                 to: contractAddress(winit),                 value: 0,                 bounce: true,                 mode: SendRemainingValue,                 body: TokenTransferInternal{                     query_id: 0,                     amount: amount,                     from: myAddress(),                     response_destination: response_destination,                     forward_ton_amount: 0,                     forward_payload: emptySlice()                 }.toCell(),                 code: winit.code,                 data: winit.data             }         );          send(SendParameters{                 to: contractAddress(winit),                 value: 1,                 bounce: true,                 mode: SendRemainingValue,                 body: TokenTransferInternal{                     query_id: 0,                     amount: amount,                     from: myAddress(),                     response_destination: response_destination,                     forward_ton_amount: 0,                     forward_payload: emptySlice()                 }.toCell(),                 code: winit.code,                 data: winit.data             }         );     }
+wizardev: fun mint(to: Address, amount: Int, response_destination: Address) {         require(self.mintable, "Can't Mint Anymore");         self.total_supply = (self.total_supply + amount); // Update total supply          let winit: StateInit = self.getJettonWalletInit(to); // Create message         send(SendParameters{                 to: contractAddress(winit),                 value: 0,                 bounce: true,                 mode: SendRemainingValue,                 body: TokenTransferInternal{                     query_id: 0,                     amount: amount,                     from: myAddress(),                     response_destination: response_destination,                     forward_ton_amount: 0,                     forward_payload: emptySlice()                 }.toCell(),                 code: winit.code,                 data: winit.data             }         );          send(SendParameters{                 to: contractAddress(winit),                 value: 1,                 bounce: true,                 mode: SendRemainingValue,                 body: TokenTransferInternal{                     query_id: 0,                     amount: amount,                     from: myAddress(),                     response_destination: response_destination,                     forward_ton_amount: 0,                     forward_payload: emptySlice()                 }.toCell(),                 code: winit.code,                 data: winit.data             }         );     }
 
-Mohammed: any one here?
+wizardev: any one here?
 
 Tea the Bottle: hello, how can I show user how much Jetton they will received upon finish this transaction ?
 
@@ -2092,37 +2096,37 @@ Tea the Bottle: receive("Mint") { // Public Minting         let ctx: Context = c
 
 Sol: Hello. I really need an experienced person who can write on time, to consult on the project.
 
-Mohammed: @Thea
+wizardev: @Thea
 
-Mohammed: Are you ton dev ?
+wizardev: Are you ton dev ?
 
-Mohammed: would you plz help me one thing ?
+wizardev: would you plz help me one thing ?
 
-Mohammed: I've deployed one jetton contract
+wizardev: I've deployed one jetton contract
 
-Mohammed: and have to interact with that contract but confused how to interact with it
+wizardev: and have to interact with that contract but confused how to interact with it
 
-Mohammed:   // // Log the contract address     // console.log("Reading Contract Info...");     // console.log(`Contract Address : ${contract_address.toString()}`);      // Instantiate the contract and open it with the client     const contract = await JettonLaunch.fromAddress(Address.parse("kQAkEa4fhU2XJe9zmXUI51kp4kKDD8JE0zfG0lfhW-g0zLhs"));     const contract_open = await client.open(contract);      const initMintAmount = toNano("400000000")      const InitMint: InitMint = {         $$type: "InitMint",         amount: initMintAmount,     };      const provider = client.provider(Address.parse('kQAkEa4fhU2XJe9zmXUI51kp4kKDD8JE0zfG0lfhW-g0zLhs'))      const temp = await contract_open.send(deployer_wallet.sender(provider, secretKey), { value: BigInt('10') }, InitMint)      console.log("result : ", temp);
+wizardev:   // // Log the contract address     // console.log("Reading Contract Info...");     // console.log(`Contract Address : ${contract_address.toString()}`);      // Instantiate the contract and open it with the client     const contract = await JettonLaunch.fromAddress(Address.parse("kQAkEa4fhU2XJe9zmXUI51kp4kKDD8JE0zfG0lfhW-g0zLhs"));     const contract_open = await client.open(contract);      const initMintAmount = toNano("400000000")      const InitMint: InitMint = {         $$type: "InitMint",         amount: initMintAmount,     };      const provider = client.provider(Address.parse('kQAkEa4fhU2XJe9zmXUI51kp4kKDD8JE0zfG0lfhW-g0zLhs'))      const temp = await contract_open.send(deployer_wallet.sender(provider, secretKey), { value: BigInt('10') }, InitMint)      console.log("result : ", temp);
 
-Mohammed: This is current codebase
+wizardev: This is current codebase
 
-Mohammed: JettonLaunch is jettonmaster contract
+wizardev: JettonLaunch is jettonmaster contract
 
-Mohammed: kQAkEa4fhU2XJe9zmXUI51kp4kKDD8JE0zfG0lfhW-g0zLhs
+wizardev: kQAkEa4fhU2XJe9zmXUI51kp4kKDD8JE0zfG0lfhW-g0zLhs
 
-Mohammed: is jetton address
+wizardev: is jetton address
 
-Mohammed: I've to mint jetton from that contract but how can i access that contract ?
+wizardev: I've to mint jetton from that contract but how can i access that contract ?
 
-Mohammed: plz help me out
+wizardev: plz help me out
 
-Mohammed: blueprint is working well
+wizardev: blueprint is working well
 
-Mohammed: Can we do it on here plz (reply to 46514)
+wizardev: Can we do it on here plz (reply to 46514)
 
-Mohammed: It might be helpful for other beginners
+wizardev: It might be helpful for other beginners
 
-Mohammed: plz leave me msg here
+wizardev: plz leave me msg here
 
 Sol: Consultation 30 min (reply to 46497)
 
@@ -5538,13 +5542,13 @@ Georgiy: 🎉 Misti 0.7 has just landed on NPM!  🔍 More Tact Detectors: State
 
 Higher Thought Sandeep: Mini app on ton blockchain
 
-User<8052386255>: hi bros
+фьюри IT (CYBER-SECURITY): hi bros
 
-User<8052386255>: how can i create nft username&
+фьюри IT (CYBER-SECURITY): how can i create nft username&
 
-User<8052386255>: ?
+фьюри IT (CYBER-SECURITY): ?
 
-User<8052386255>: who can help me?
+фьюри IT (CYBER-SECURITY): who can help me?
 
 — 2025-03-07 —
 
@@ -5778,7 +5782,7 @@ Philip: Basically we'll have to redo the whole interface of Sandbox just to get 
 
 — 2025-03-14 —
 
-ᅠ: Is the contract automatically activated when I make my first top up? I compiled a small contract on TACT and sent some TON to it, but the status of the contract did not change  UQBFwXWTnR4M__kcM8FOgsX1eB7p_M1r4CMD0M0K_YY3vZo3
+Балтика: Is the contract automatically activated when I make my first top up? I compiled a small contract on TACT and sent some TON to it, but the status of the contract did not change  UQBFwXWTnR4M__kcM8FOgsX1eB7p_M1r4CMD0M0K_YY3vZo3
 
 Алексей: The most easy way to deploy contract is to use blueprint, run yarn blueprint run or smth like that (reply to 56702)
 
@@ -5858,9 +5862,9 @@ Anton: @pcrafter @gosunov have you had a chance to look at our new gas guideline
 
 Я̨kov: Do you mean to use the message() over send() and such? Then, yes — https://github.com/tact-lang/tact/issues/2393 (reply to 56779)
 
-ᅠ: import "@stdlib/deploy";  // Deposit wallet contract contract Wallet with Deployable {     owner: Address;          // Owner address (master wallet)     user_id: Int as uint64;  // User identifier      // Contract initialization     init(owner: Address, user_id: Int) {         self.owner = owner;         self.user_id = user_id;     }      // Processing incoming messages without type (just TON)     receive() {         // Empty function - contract just activates when receiving funds     }      // Getting contract information     get fun owner(): Address {         return self.owner;     }      get fun user_id(): Int {         return self.user_id;     } } (reply to 56707)
+Балтика: import "@stdlib/deploy";  // Deposit wallet contract contract Wallet with Deployable {     owner: Address;          // Owner address (master wallet)     user_id: Int as uint64;  // User identifier      // Contract initialization     init(owner: Address, user_id: Int) {         self.owner = owner;         self.user_id = user_id;     }      // Processing incoming messages without type (just TON)     receive() {         // Empty function - contract just activates when receiving funds     }      // Getting contract information     get fun owner(): Address {         return self.owner;     }      get fun user_id(): Int {         return self.user_id;     } } (reply to 56707)
 
-ᅠ: I compile the contract code into a HEX string and then already on nodejs predict the address of the contract by passing it unique data. After sending funds to the address the contract is not executed. What am I doing wrong?
+Балтика: I compile the contract code into a HEX string and then already on nodejs predict the address of the contract by passing it unique data. After sending funds to the address the contract is not executed. What am I doing wrong?
 
 Алексей: Blindly following ai... If you want the easiest way to deploy contract use blueprint. If you want the hard way find how to construct and attach stateinit to the message (reply to 56787)
 
@@ -5900,39 +5904,39 @@ Nyine: 👍
 
 Anton: wow! looks interesting 🚀  will definitely take a look (reply to 57242)
 
-ᅠ: contract Wallet {     id: Int as uint64;          init(id: Int) {         self.id = id;     }          receive() {         cashback(sender());     } }
+Балтика: contract Wallet {     id: Int as uint64;          init(id: Int) {         self.id = id;     }          receive() {         cashback(sender());     } }
 
-ᅠ: import { Address, beginCell, Cell, toNano } from '@ton/core';  const codeHex = 'xxx-hex-code';  function getWalletAddress(id: number, codeHex: string): Address {     const code = Cell.fromBoc(Buffer.from(codeHex, 'hex'))[0];      const data = beginCell()         .storeUint(id, 64) // id хранится как uint64         .endCell();      const stateInit = beginCell()         .storeBit(0) // No split_depth         .storeBit(0) // No special         .storeBit(1) // Has code         .storeBit(1) // Has data         .storeBit(0) // No library         .storeRef(code)         .storeRef(data)         .endCell();      const hash = stateInit.hash();     const address = new Address(0, hash);     console.log('Generated wallet address:', address);     return address; }
+Балтика: import { Address, beginCell, Cell, toNano } from '@ton/core';  const codeHex = 'xxx-hex-code';  function getWalletAddress(id: number, codeHex: string): Address {     const code = Cell.fromBoc(Buffer.from(codeHex, 'hex'))[0];      const data = beginCell()         .storeUint(id, 64) // id хранится как uint64         .endCell();      const stateInit = beginCell()         .storeBit(0) // No split_depth         .storeBit(0) // No special         .storeBit(1) // Has code         .storeBit(1) // Has data         .storeBit(0) // No library         .storeRef(code)         .storeRef(data)         .endCell();      const hash = stateInit.hash();     const address = new Address(0, hash);     console.log('Generated wallet address:', address);     return address; }
 
-ᅠ: What's the problem? I generate addresses based on the received hex string with blueprint build command. Then I expect the contract to be deployed at the first replenishment. What am I doing wrong?
+Балтика: What's the problem? I generate addresses based on the received hex string with blueprint build command. Then I expect the contract to be deployed at the first replenishment. What am I doing wrong?
 
 Anton: You are building your data cell manually, you should have used the fromInit function that Tact generates for you.  Since you are using the init function, Tact adds the lazy deployment bit into the data cell.  Your way should work if you switch to using contract parameters introduced in Tact 1.6.0, like this:   contract Wallet(id: Int as uint64) {     receive() {         cashback(sender());     } } (reply to 57248)
 
-ᅠ: contract Wallet(id: Int as uint64) {     receive() {         cashback(sender());     } } import { Address } from '@ton/core'; import { Wallet } from '@/build/Wallet/tact_Wallet';  async function getWalletAddress(id: bigint): Promise<Address> {     const wallet = await Wallet.fromInit(id);     return wallet.address; } (reply to 57249)
+Балтика: contract Wallet(id: Int as uint64) {     receive() {         cashback(sender());     } } import { Address } from '@ton/core'; import { Wallet } from '@/build/Wallet/tact_Wallet';  async function getWalletAddress(id: bigint): Promise<Address> {     const wallet = await Wallet.fromInit(id);     return wallet.address; } (reply to 57249)
 
-ᅠ: I did as you said but I am not getting the expected behavior. I updated the hex string after compilation and use the wrapper from the build folder. When sending funds (0.1 TON) the contract does not change its status to active.
+Балтика: I did as you said but I am not getting the expected behavior. I updated the hex string after compilation and use the wrapper from the build folder. When sending funds (0.1 TON) the contract does not change its status to active.
 
-ᅠ: Does it matter if I use bounced or non-bounced addresses?
+Балтика: Does it matter if I use bounced or non-bounced addresses?
 
 /B4ckSl4sh\: No (reply to 57253)
 
 /B4ckSl4sh\: how do you actually send funds to the address? (reply to 57252)
 
-ᅠ: Tonkeeper (reply to 57255)
+Балтика: Tonkeeper (reply to 57255)
 
-ᅠ: My plan is to have these contracts serve as a pad between the master wallet and transfer funds in the future. The first replenishment should, as I thought, deploy the contract and send a message to the master wallet about the initial replenishment amount (excluding deployment costs and sending commission)
+Балтика: My plan is to have these contracts serve as a pad between the master wallet and transfer funds in the future. The first replenishment should, as I thought, deploy the contract and send a message to the master wallet about the initial replenishment amount (excluding deployment costs and sending commission)
 
 /B4ckSl4sh\: You should attach stateInit to your message to deploy contract, you don't have this feature in tonkeeper interface, you should deploy your contract by script in prefered language (reply to 57256)
 
-ᅠ: What is the point of lazy deployment then? I'm just a newbie 😔
+Балтика: What is the point of lazy deployment then? I'm just a newbie 😔
 
-ᅠ: My task was to not pay immediately for the deployment of each contract from my wallet and to deploy the contract upon receipt of the first funds. Since a day there may be thousands of users and accordingly thousands of contracts. According to your logic it turns out to be costly.
+Балтика: My task was to not pay immediately for the deployment of each contract from my wallet and to deploy the contract upon receipt of the first funds. Since a day there may be thousands of users and accordingly thousands of contracts. According to your logic it turns out to be costly.
 
 Я̨kov: To perform some specific action upon deployment and do it just once and never again.  Before contract parameters were introduced in Tact v1.6.0, this one-off function was used primarily to set default values of contract variables (reply to 57259)
 
-ᅠ: What is the present value of deploying the contract?
+Балтика: What is the present value of deploying the contract?
 
-ᅠ: I think I got it. The contract address itself does not give anything since it is just an address and the contract code is not in the blockchain. Thank you. So I was just generating a bunch of addresses that had nothing inherently behind them. And when I sent the TON they just stayed there?
+Балтика: I think I got it. The contract address itself does not give anything since it is just an address and the contract code is not in the blockchain. Thank you. So I was just generating a bunch of addresses that had nothing inherently behind them. And when I sent the TON they just stayed there?
 
 — 2025-03-21 —
 
@@ -7066,7 +7070,7 @@ Mykola: The contract should accept all the funds if the incoming message carries
 
 MaratㅤSafiyev: Hello guys! My friend wrote for me the smart contract. Can u check it?   https://github.com/SAFIYEV/token1/tree/main    Thanks🙏
 
-Destiny 🔥: What's it for (reply to 61054)
+Destiny | Matchain 🔥: What's it for (reply to 61054)
 
 &rey: It does not work. (reply to 61054)
 
@@ -7098,29 +7102,41 @@ Ilia: can you expand a bit what "wait for message" means? which api are you refe
 
 — 2025-04-30 —
 
+A: I've seen something like this in this repo: https://github.com/ton-blockchain/minter/blob/main/src/lib/deploy-controller.ts#L181  async burnJettons(     tonConnection: TonConnectUI,     amount: BN,     jettonAddress: string,     walletAddress: string,   ) {     const tc = await getClient();      const waiter = await waitForSeqno(       tc.openWalletFromAddress({         source: Address.parse(walletAddress),       }),     );      const tx: SendTransactionRequest = {       validUntil: Date.now() + 5 * 60 * 1000,       messages: [         {           address: jettonAddress,           amount: toNano(0.031).toString(),           stateInit: undefined,           payload: burn(amount, Address.parse(walletAddress)).toBoc().toString("base64"),         },       ],     };      await tonConnection.sendTransaction(tx);      await waiter();   }  The code uses the old ton package which I prefer not to use. The await waiter(); part is where I'm interested in. But I don't understand how to bring it to my code which uses the latest version of @ton/ton package (reply to 61196)
+
 /B4ckSl4sh\: Just save current seqno, send transaction and then wait for seqno to change (reply to 61324)
+
+A: How to wait for seqno to change? I tried to rewrite the waitForSeqno function available here. But I'm totally confused. the Wallet type is not available in @ton/ton package. Instead there is WalletContractV4. Here is my code: export async function waitForSeqno(provider: ContractProvider, wallet: WalletContractV4) {   const seqnoBefore = await wallet.getSeqno(provider);    return async () => {     for (let attempt = 0; attempt < 25; attempt++) {       await sleep(3000);       const seqnoAfter = await wallet.getSeqno(provider);       if (seqnoAfter > seqnoBefore) return;     }     throw new Error("Timeout");   }; }  But I don't understand how to use it in my sendTransfer function: const client = useTonClient(); const { sender, walletAddress } = useTonConnect(); sendTransfer: async (amount: string | number) => {             const forwardTonAmount = toNano("0.05");             const forwardPayload = beginCell().storeUint(0, 1).endCell().asSlice();             const packedMessage = beginCell().store(                 storeJettonTransfer({                     $$type: "JettonTransfer",                     queryId: BigInt(Date.now()),                     amount: toNano(amount),                     destination: Address.parse(SOME_ADDRESS),                     responseDestination: sender.address!,                     customPayload: null,                     forwardTonAmount,                     forwardPayload                 })             ).endCell();              await sender.send({                 value: toNano("0.1"),                 to: contract.address!,                 bounce: true,                 body: packedMessage             });         } (reply to 61325)
 
 /B4ckSl4sh\: your waitForSeqno looks good, what exactly is not working? (reply to 61330)
 
+A: I don't understand this part: const waiter = await waitForSeqno(       client.openWalletFromAddress({         source: Address.parse(walletAddress),       }),     );  there is no function named openWalletFromAddress()  in the latest version of TonClient (package @ton/ton) (reply to 61332)
+
 /B4ckSl4sh\: const walletContract = WalletContractV4.create({     workchain: 0,     publicKey: keyPair.publicKey, }); const openedWallet = client.open(walletContract); (reply to 61334)
+
+A: Thank you but I'm using @tonconnect/ui-react and @tonconnect/ui packages. I don't create WalletContractV4 manually. Is there any way to wait for seqno using these packages? (reply to 61335)
 
 /B4ckSl4sh\: Obtain wallet address from tonconnect and call get-method seqno on this address using, for example toncenter  https://toncenter.com/api/v3/index.html#/ (reply to 61336)
 
+A: const { walletAddress } = useTonConnect(); const client = useTonClient();  await cleint?.runMethod(walletAddress!, "seqno") Is this the right way to obtain seqno? (reply to 61337)
+
 /B4ckSl4sh\: Doesn't look correct (reply to 61340)
+
+A: Any example of how to use this API? The documentation seems not good enough (reply to 61337)
 
 /B4ckSl4sh\: Use fetch function. It is usual rest-api (reply to 61343)
 
 — 2025-05-01 —
 
-Artur: Hi guys! I have this simple contract:  import "./messages";  contract ContractB {     id: Int as uint8;      init(msg: DeployContractB) {         self.id = msg.id;     }      receive("HelloB") {         self.reply("ContractBResponse".asComment());     }      receive() {} }  I’ve noticed that when "HelloB" is called, the contract’s balance decreases (by a very small amount, like 10^-7, but still). Now I’m wondering — is it possible to write a contract that uses only the TON from incoming messages without touching its own balance?
+Артур: Hi guys! I have this simple contract:  import "./messages";  contract ContractB {     id: Int as uint8;      init(msg: DeployContractB) {         self.id = msg.id;     }      receive("HelloB") {         self.reply("ContractBResponse".asComment());     }      receive() {} }  I’ve noticed that when "HelloB" is called, the contract’s balance decreases (by a very small amount, like 10^-7, but still). Now I’m wondering — is it possible to write a contract that uses only the TON from incoming messages without touching its own balance?
 
 Dmitry: TON Smart Contracts pay for storage from own balance, but you can lock some funds from incoming message to compensate it (reply to 61416)
 
-Artur: Could you please tell me how I can achieve that? I mean, locking the funds from the incoming message? (reply to 61418)
+Артур: Could you please tell me how I can achieve that? I mean, locking the funds from the incoming message? (reply to 61418)
 
 Dmitry: https://docs.tact-lang.org/ref/core-contextstate/#nativereserve (reply to 61419)
 
-Artur: Thank you! (reply to 61420)
+Артур: Thank you! (reply to 61420)
 
 — 2025-05-02 —
 
@@ -7218,7 +7234,9 @@ Lê: can you help me?  async getCounter(provider: ContractProvider) {         co
 
 Daniil: hello, tell me how to get correct op code from forwardPayload  const innerPayload = beginCell()                 .storeUint(0x54d5c342, 32)                  .endCell();                  const jwPayload = beginCell()                 .storeUint(0xf8a7ea5, 32)                 .storeUint(0, 64)                 .storeCoins(10 * 10**decimals)                 //.storeCoins(toNano(1))                 .storeAddress(smcAddress)                 .storeUint(0, 2) // response address -- null                 .storeUint(0, 1)                 .storeCoins(toNano("0.1"))                 .storeBit(1)                 .storeRef(innerPayload)                 .endCell()                  const payload = jwPayload.toBoc().toString('base64');  receive(msg: JettonTransferNotification) {          if (!msg.forwardPayload.empty()) {             let payload: Slice = msg.forwardPayload;             let opcode: Int = payload.loadUint(32);               if (opcode == 0x54d5c342) {                 self.requireNotStopped();                 let seed: Int = getSeed();                  setSeed(seed);                                let prize: Int = random(self.minPrize, self.maxPrize);                    send(SendParameters{                     to: self.myJettonWallet,                     value: JettonTransferGas,                     body: JettonTransfer {                         queryId: 6,                         amount: prize,                         destination: sender(),                         responseDestination: myAddress(),                         customPayload: null,                         forwardTonAmount: ton("0.015"),                         forwardPayload: rawSlice("F")                     }.toCell()                 });             }         } else {             self.myJettonBalance += msg.amount;             self.forward(msg.sender, null, false, null);         }        }
 
-User<7759979758>: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
+klass: Please check out here:  https://github.com/ton-blockchain/liquid-staking-contract/blob/1f4e9badbed52a4cf80cc58e4bb36ed375c6c8e7/utils.ts#L426 (reply to 62161)
+
+A: Hi guys. Anyone faced this issue: When TonConnect is connected to a wallet (in a React.js app), sending the transaction causes openning a url in the browser instead of openning the already installed Wallet app (eg. TonKeeper). When sending the transaction the app should ask to open the already installed wallet app instead of openning this page.
 
 Slava: It's not the first report of this issue. (reply to 62193)
 
@@ -7359,3 +7377,149 @@ A: Hi guys. How to get the user's wallet type using code to see if they are usin
 Alexander: Hello everyone. Is there a way to on-chain verify that the STON fi router address passed to the contract actually belongs to STON fi? DeDust has this option and it is implemented by creating a proof for a specific pair of jettons (there is an example in their sdk), which does not allow funds to be sent to the hacker's wallet  Here is the implementation for DeDust:  // DeDust contract type const DEDUST_CONTRACT_TYPE_VAULT: Int = 1; const DEDUST_CONTRACT_TYPE_POOL: Int = 2; const DEDUST_CONTRACT_TYPE_LIQUIDITY_DEPOSIT: Int = 3;  // DeDust factory address const DEDUST_FACTORY_ADDRESS: Address = address(   "EQBfBWT7X2BHg9tXAxzhz2aKiNTU1tpt5NsiK0uSDW_YAJ67" );  // DeDust contract code const DEDUST_BLANK_CODE: Cell = cell(   "te6ccgEBBAEAlgABFP8A9KQT9LzyyAsBAgJwAwIACb8pMvg8APXeA6DprkP0gGBB2onai9qPHDK3AgFA4LEAIZGWCgOeLAP0BQDXnoGSA/YB2s/ay9rI4v/aIxx72omh9IGmDqJljgvlwgcIHgmmPgMEITZ1R/V0K+XoB6Z+AmGpph4CA6hD9ghDodo92qYgjCCLBAHKTdqHsdqD2+ID5f8=" );  // Create proof to confirm DeDust address fun createProofAddress(   factoryAddress: Address,   contractType: Int,   jettonAddress: Address? ): Address {   let data = beginCell()     .storeAddress(factoryAddress)     .storeUint(contractType, 8);    if (jettonAddress == null) {     data = data.storeUint(0b0000, 4);   } else {     let parsedAddress = parseStdAddress(jettonAddress!!.asSlice());      data = data       .storeUint(0b0001, 4)       .storeInt(parsedAddress.workchain, 8)       .storeUint(parsedAddress.address, 256);   }    return contractAddress(     StateInit {       code: DEDUST_BLANK_CODE,       data: data.endCell()     }   ); }  // Create proof to confirm the DeDust vault address fun createVaultProofAddress(   factoryAddress: Address,   jettonAddress: Address? ): Address {   return createProofAddress(     factoryAddress,     DEDUST_CONTRACT_TYPE_VAULT,     jettonAddress   ); }  // Verification of DeDust vault address fun verifyVaultAddress(   vaultAddress: Address,   factoryAddress: Address,   jettonAddress: Address? ) {   require(     vaultAddress == createVaultProofAddress(factoryAddress, jettonAddress),     "Invalid DeDust vault address"   ); }  And what is the implementation for STON fi?
 
 Slava: Hey. You just need to compare the contract's code with the canonical one. (reply to 63072)
+
+— 2025-05-18 —
+
+M.a: C:\Users\extra>npm install -g https://github.com/tact-lang/tact.gitnpm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported\
+
+Anton: it’s fine, won’t affect your smart contracts (reply to 63274)
+
+M.a: I want to create a system that receives inputs from the user and, based on a specific algorithm, generates a license key to be used for activating a software application. Last night, I was installing the prerequisites, but I ran into some issues while trying to install Tact. I'll try again tonight and also get help from ChatGPT.
+
+poppa: Have you considered that the blockchain state is public and therefore any license key you generate will be readable by the entire world? (reply to 63276)
+
+Daniil: I don't think smart contract is the right solution for that goal (reply to 63276)
+
+Daniil: why? (reply to 63291)
+
+M.a: Yes, the keys are visible to everyone, but each key is generated for only one user ID, so the keys are unique." (reply to 63282)
+
+M.a: Smart contracts eliminate the need for a server and simplify the process of collecting subscription fees. I no longer need to generate the keys manually—there just needs to be a complex enough algorithm so that the encryption cannot be easily guessed through reverse engineering. (reply to 63290)
+
+M.a: The user enters their account number and selects the license duration, and the key is generated based on these inputs. On the other side, within the software, it checks whether the account number matches the system's account number and whether the algorithm follows the pattern defined by the developer. Only then is the user authorized to use the software.
+
+M.a: I have a problem: this is my first experience writing a smart contract, and I couldn't even run hello.tact without errors. I'm using ChatGPT for help, but I'm still getting errors. I was hoping to have a simple example of a contract to help me get started.
+
+M.a: contract Hello {      get inline greet(): String {         return "Hello, blockchain!";     }  }   What is the problem?
+
+Denis: Try harder 🌚️️ https://docs.tact-lang.org/book/learn-tact-in-y-minutes/ (reply to 63342)
+
+&rey: that tends to make things worse. LLMs are extremely not familiar with TON. (reply to 63338)
+
+&rey: It is actually comparable with coming from EVM to TON.
+
+Jan: Which AMM dex like uniswap v2 in Ton chain?
+
+&rey: Both Dedust and Stonfi I guess? Tho how is that related to Tact? (reply to 63346)
+
+Jan: Which one is built using tact between two? Also can I implement adding liquidity in my Tact contract even if the dex is not built using Tact? (reply to 63347)
+
+&rey: 1. Neither. 2. Of course. Tact can send pretty much any message to other contracts, and that is sufficient to control, in particular, liquidity adding. (TON's account boundary also happens to abstract implementation away.) (reply to 63348)
+
+/B4ckSl4sh\: We are developing https://github.com/tact-lang/dex now, you can check it out (reply to 63348)
+
+Jan: Do you have any codesnippet which interacts ston.fi and adding liquidity using Tact? (reply to 63349)
+
+&rey: No. But I know that, per https://docs.ston.fi/developer-section/api-reference-v2/example_lp_provide, you just have to send two jetton transfers with appropriate forward payloads. (reply to 63352)
+
+Anton: have you checked this page?  https://docs.tact-lang.org/cookbook/dexes/stonfi/#liquidity-provision  if something does not work there, please let us know (reply to 63352)
+
+Jan: How can we deploy new contract and get address inside receiver()? For example in solidity ERC20 token = new ERC20(....); address tokenAddress = address(token); How can we implement this in Tact?
+
+— 2025-05-19 —
+
+&rey: Note: you can obtain address prior to deploying contract. Knowing this, do you still need to deploy it? (reply to 63390)
+
+M.a: Is the smart contract code I use for the license key generation algorithm visible to everyone? If the answer is yes, is there a way to keep the algorithm hidden?
+
+&rey: Visible to everyone. No you can't hide algorithm. (reply to 63424)
+
+&rey: Nor the data or results of evaluation, actually, so if a "license key" is generated it will be available to anyone.
+
+M.a: It doesn’t matter if the key itself is publicly accessible; what matters to me is that the key generation algorithm is not made public. (reply to 63426)
+
+&rey: You are choosing wrong tools. Blockchain, with its transparency and ability to replicate+verify any part, is uniquely bad-suited for the task. (reply to 63427)
+
+Jan: I am going to build token factory contract which deploys new token when user requests Btw how can we get address before deploy? (reply to 63423)
+
+&rey: I believe you should check out Tact Smart Battle, it can point at some fundamental knowledge for you. (reply to 63429)
+
+Jan: What is Tact Smart Battle? (reply to 63430)
+
+&rey: This one: https://github.com/ton-studio/tact-smart-battle, which was run on Codeforces. (reply to 63431)
+
+Georgiy: If you must use blockchain (you should not), you could move the key generation logic to the off-chain part (kind of trusted oracle) and store the computation results on-chain. These could either be the keys generated by your algorithm as-is or zk proofs that you know them if they also need to be private. (reply to 63424)
+
+Michaelzy: Hey guys  want to know if it's possible to upgrade contracts on tact or if its better(possible) to design a proxy contract
+
+Dmitry: https://docs.tact-lang.org/cookbook/upgrades/ (reply to 63463)
+
+Michaelzy: Thank you (reply to 63464)
+
+Dagnachew: Hi
+
+— 2025-05-20 —
+
+`SayedEx: Hello
+
+`SayedEx: i am new in TON anyone can help me with jetton deployment?
+
+Georgiy: The easier way is to use blueprint: https://github.com/ton-org/blueprint?tab=readme-ov-file#deploying-contracts (reply to 63543)
+
+Anton: take a look at this project https://github.com/tact-lang/jetton  it showcases deployment scripts  you might also want to check out this repo too: https://github.com/tact-lang/defi-cookbook (reply to 63543)
+
+`SayedEx: I can verify the contract as well here sir?   Also, can you please send me a standard jetton token smart contract that i can learn and deploy to production.   Thanks 🙌 (reply to 63546)
+
+Michaelzy: good morning guys Tact dev here i currently have this transaction payload in my script that sends message to my contract and it executes successfully.  const message = beginCell()     .storeUint(2016634319, 32)     .storeUint(0, 64)     .storeStringRefTail(trackData.tun3zTitle)     .storeStringRefTail(trackData.coverImage)     .endCell();  this is the message in my contract message Mint{     query_id: Int as uint64;        name: String;     image: String; }  But i want to make the name and string values optional in my contract like this  message Mint{     query_id: Int as uint64;        name: String?;     image: String?; }  how can i modify my payload to match this new message struct because old one wont work
+
+Daniil: Consider using auto-generated wrappers for message composing instead (reply to 63553)
+
+M.a: "I want to send a transaction with a private comment to a smart contract I wrote. Can this comment, considering it's private, be understood by the contract?"
+
+&rey: Contract execution is replicated by each and every validator, and also by any interested party. You're looking for some ZK technology. (reply to 63563)
+
+`SayedEx: anyone can help? (reply to 63548)
+
+Devialle: Hello everyone, I am looking for an experienced developer on tact with extensive experience
+
+sajad: dm (reply to 63570)
+
+— 2025-05-21 —
+
+🔳 ivan: hey everyone. where can I find repo with tact docs?
+
+🔳 ivan: ( i want to try using raw docs files to teach my cursor )
+
+Georgiy: https://github.com/tact-lang/tact/tree/main/docs (reply to 63650)
+
+Devon: hi guys, we just launched an open source community project tonmcp.xyz for interacting with Ton blockchain using natural language, pin me if you have questions install it or want to collaborate on PRs 😆
+
+Michaelzy: how do i use it the wrapper in my blueprint folder only contains an export statement (reply to 63558)
+
+M.a: Can a smart contract search for a past comment using a hash or address? A comment that was previously sent to the contract's address.
+
+Mirka: Contract can't access past transactions but it can save comment/data you need (reply to 63656)
+
+M.a: I want to save a private comment. After saving it, is it still fully secure, or can it be accessed through hacking?  I want to introduce a key to the contract only once without writing the key itself inside the contract code, and use this key for encryption.
+
+Dmitry: Nothing is private in the blockchain (reply to 63659)
+
+Dmitry: You already have been advised in which direction you should look (reply to 63564)
+
+Я̨kov: You can also give it llms.txt, see: * https://docs.tact-lang.org/llms.txt — for full context * https://docs.tact-lang.org/llms-small.txt — for smaller context windows (reply to 63651)
+
+Skuli: I do the same We can cooperate (reply to 63651)
+
+Philip: Please share the code and error messages  https://nometa.xyz/ (reply to 63672)
+
+Anton: this is not valid Tact, there is no storage blocks (reply to 63678)
+
+Anton: LLMs are not of much help with TON smart contract languages, please check out https://docs.tact-lang.org/
+
+Petr: Or at least try this one: https://chatgpt.com/g/g-tFkVOWIoi-tact
+
+Skuli: I can recommend using my template for development with Cursor AI. It is compatible with blueprint, but I use a custom version of blueprint. You will be able to create contracts autonomously from start to finish, but the system is not ready yet.  https://github.com/ton-ai-core/contract-knowlenge (reply to 63688)
+
+🔳 ivan: raw llms not but if fed with knowledge base - that could work. (reply to 63685)
+
+Skuli: Just documentation won't help much. It is necessary to create a system in which AI can feel free. Test the code yourself. See the result yourself.  it is necessary to make a mutation testing library for TON. Also, the code will have to be covered by 100% tests. (reply to 63697)

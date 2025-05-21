@@ -1,7 +1,3 @@
-&rey: I don't actually know but this looks plausible. Or the transaction might not go through yet; if it's not working for 30 more minutes, you can write to https://t.me/ton_help_bot.
-
-moono: thx
-
 Anton: Looks like you have to interact with toncoin contract (op: "Vote for minting").  I've checked the previous transfer transaction https://etherscan.io/tx/0x44b63ae1e34055275dcb4f156f715da7426a0acd8f2771612fc7f9db8d78bb86  https://tonscan.org/tx/RGhqaBLK4onUlyRi07R1GScmU8qkQxd9S73nV-ktUyo= (reply to 34713)
 
 moono: Ah ok thank you!!! :) (reply to 34716)
@@ -196,7 +192,7 @@ CryptoTara: What function is used when someone nominates a stake to a validator 
 
 &rey: By the way, do you know that TON contracts are separate and cannot invoke each other's functions directly, the only interaction is via sending messages? (The question felt like referring to EVM concepts.) (reply to 34820)
 
-Nikolas: Please tell me, in order for a validator to participate in the rounds, he must have 350 K TON on his balance. Pools can be created for nominators.. The documentation creates 2 pools, for even and odd rounds. Question: each pool must have 350K TON in total?? so that the validator can participate in the rounds or at least one of the two??
+Απόλλων: Please tell me, in order for a validator to participate in the rounds, he must have 350 K TON on his balance. Pools can be created for nominators.. The documentation creates 2 pools, for even and odd rounds. Question: each pool must have 350K TON in total?? so that the validator can participate in the rounds or at least one of the two??
 
 &rey: Each pool must have 350K in total (node owner + nominators). It's also possible to participate in half of validation rounds, using only one pool. (reply to 34825)
 
@@ -518,7 +514,7 @@ Dmitry | backend4you.ton: @twa_dev (reply to 35006)
 
 Howard: let's have a API tutorials? (reply to 34965)
 
-Nikolas: HI, how i can convert Address or hex of Address  to bigint in JS ??
+Απόλλων: HI, how i can convert Address or hex of Address  to bigint in JS ??
 
 Daniil: Be careful with @andrew83xmr 👀 (reply to 34916)
 
@@ -772,15 +768,15 @@ Jhunie Ray: Hello,why does tonconnect.sendTransaction doesn’t show Jetton amou
 
 Maxwell: When would be possible to sign tx within TG?
 
-User<6188638430>: How to delete an account in tonkeeper?
+Qwerty: How to delete an account in tonkeeper?
 
 Daniil: what do you mean by that? (reply to 35170)
 
-User<6188638430>: I just want to delete my account in the tonkeeper wallet, tell me how do I do it? (reply to 35171)
+Qwerty: I just want to delete my account in the tonkeeper wallet, tell me how do I do it? (reply to 35171)
 
 Daniil: you mean log out from it? (reply to 35172)
 
-User<6188638430>: Not to exit but to delete (reply to 35173)
+Qwerty: Not to exit but to delete (reply to 35173)
 
 Daniil: Why would you want to do it?  Anyway, Tonkeeper don’t have such functionality. (reply to 35174)
 
@@ -788,11 +784,11 @@ Ashish: What you call a “tonkeeper account” is a blockchain wallet. You can'
 
 Daniil: Well, you can delete it by sending a message with mode 160 (reply to 35176)
 
-User<6188638430>: I suspect that an outsider has login details, please tell me what I can do to keep me safe (reply to 35175)
+Qwerty: I suspect that an outsider has login details, please tell me what I can do to keep me safe (reply to 35175)
 
 Daniil: Create a new wallet and send all the funds and collectibles there (reply to 35178)
 
-User<6188638430>: I understand you, thank you very much (reply to 35179)
+Qwerty: I understand you, thank you very much (reply to 35179)
 
 Ashish: I haven't worked with blockchain as a developer, so please answer the question.  Does the tone blockchain allow you to clear the entire history of working with a wallet with one command send_raw_message? I doubt. I assume that it blocks the address or resets it. This is not equivalent to deleting your account. (reply to 35177)
 
@@ -808,7 +804,7 @@ Daniil: And how is this not deletion? (reply to 35185)
 
 Ashish: All data associated with your wallet remains on the ton network. You simply lose the opportunity to use it. Almost the same thing as throwing out the seed phrase (reply to 35186)
 
-User<6188638430>: Great, thanks (reply to 35183)
+Qwerty: Great, thanks (reply to 35183)
 
 Daniil: The data is being deleted. The history may remain on the historical nodes. In case with regular wallet smart contracts -> you'll still be able to use it by simply activating the wallet once again. And for custom contract, it'll lose the code and data. (reply to 35189)
 
@@ -1350,7 +1346,7 @@ User<5762094943>: I'm use img width: 350px &hieght: 623px is that must be like 1
 
 User<5762094943>: let me try use different size
 
-Nikolas: Hello, how i can get transaction hash  from Boc ??? For exapmle:  te6cckEBAgEArQAB34gAiKcaiDmUyEiywZV84IdHciBsbf5CDKMVw9tw/GunluYEkbz4FXRJopd4z56FLsG2N19btjLVKdivARPJT4/TFLZ8zdOhAaJB/L9zLuFibHqKceVPu8tVRfGBLdvY49jQGU1NGLso18UwAAAAUBwBAHBiAD9ArEqy48PMicaFJFIkCDZIquPQB2NfNxqppryOgS6mmHoSAAAAAAAAAAAAAAAAAAAAAAAAV/dkloA=  I got this boc…
+Απόλλων: Hello, how i can get transaction hash  from Boc ??? For exapmle:  te6cckEBAgEArQAB34gAiKcaiDmUyEiywZV84IdHciBsbf5CDKMVw9tw/GunluYEkbz4FXRJopd4z56FLsG2N19btjLVKdivARPJT4/TFLZ8zdOhAaJB/L9zLuFibHqKceVPu8tVRfGBLdvY49jQGU1NGLso18UwAAAAUBwBAHBiAD9ArEqy48PMicaFJFIkCDZIquPQB2NfNxqppryOgS6mmHoSAAAAAAAAAAAAAAAAAAAAAAAAV/dkloA=  I got this boc…
 
 &rey: Cell.fromBase64('te6cck...oA=').hash() (reply to 35508)
 
@@ -1746,37 +1742,37 @@ Flex: For the basic concepts, https://docs.ton.org/learn/introduction  For contr
 
 B: I'll go through this. Thanks !
 
-Kallimatorr: What the hell?
+KaLL1mat0RR: What the hell?
 
-Kallimatorr: My massage
+KaLL1mat0RR: My massage
 
 &rey: Yeah, unrelated and "hello" messages are deleted so that this chat remains a good collection of answers for developers' questions. (reply to 35750)
 
-Kallimatorr: I understand, thank you 🙏 (reply to 35752)
+KaLL1mat0RR: I understand, thank you 🙏 (reply to 35752)
 
-Kallimatorr: What is this channel for?
+KaLL1mat0RR: What is this channel for?
 
 &rey: Asking questions how to implement something on TON (https://docs.ton.org/learn/introduction) and why something doesn't work if so. (reply to 35754)
 
-Kallimatorr: Ок
+KaLL1mat0RR: Ок
 
-Kallimatorr: Spam!
+KaLL1mat0RR: Spam!
 
 &rey: There is Russian chat @tondev. (reply to 35757)
 
-Kallimatorr: Thank you, but I’m learning English at the same time) (reply to 35759)
+KaLL1mat0RR: Thank you, but I’m learning English at the same time) (reply to 35759)
 
-Kallimatorr: I just really like your language and I want to master it faster so that I can use it in the future without a translator (reply to 35759)
+KaLL1mat0RR: I just really like your language and I want to master it faster so that I can use it in the future without a translator (reply to 35759)
 
-Kallimatorr: Because...
+KaLL1mat0RR: Because...
 
-Kallimatorr: Friend, please tell me what programming language they use to match the blockchain?
+KaLL1mat0RR: Friend, please tell me what programming language they use to match the blockchain?
 
 &rey: I think that documentation https://docs.ton.org will be helpful for you. As well, on Youtube there are video lessons in different languages. (reply to 35764)
 
-Kallimatorr: thanks
+KaLL1mat0RR: thanks
 
-Kallimatorr: I'll take a look
+KaLL1mat0RR: I'll take a look
 
 takeuxp: Hi everyone! I represent a studio specializing in NFT game development. We are currently looking for people for the position of game chat administrator. Salary is fixed, payments every week, no fines or penalties. If you are interested, we will start a dialog! Have a good day everyone!
 
@@ -2232,7 +2228,7 @@ Oleksandr: https://pay.wallet.tg/ https://docs.wallet.tg/pay/ (reply to 36041)
 
 Lukas: Thank you 🙏
 
-Kallimatorr: What's the bot in your a stories? (reply to 36042)
+KaLL1mat0RR: What's the bot in your a stories? (reply to 36042)
 
 Vardan: Hi guys, do you know any team member or business development manager from this wallet? (reply to 36042)
 
@@ -2278,7 +2274,7 @@ User: How to check if element already inside a tuple? Func.
 
 💎 Alireza 💎🥠 🐈‍⬛🐾: ?? (reply to 36068)
 
-Rosé 🇺🇦: just state your concern. they’ll reply once they’re available. it also avoids getting ras-ed (reply to 36062)
+ⓌⒷ Rosé 🇺🇦: just state your concern. they’ll reply once they’re available. it also avoids getting ras-ed (reply to 36062)
 
 💎 Alireza 💎🥠 🐈‍⬛🐾: details?? (reply to 36068)
 
@@ -3068,7 +3064,7 @@ Asdf: Hello, I created gift cards. These gift cards will have a code for 1 ton o
 
 Daniil: I think you want the cheques (or coupons) functionality. You can create them in telegram via bots like @cryptobot or @wallet, or, if you prefer decentralisation and on-chain projects — take a look at https://t.me/delabtonbot/dewa (reply to 36535)
 
-Nova: tact (reply to 36534)
+MI: tact (reply to 36534)
 
 Charles: 👌
 
@@ -3356,7 +3352,7 @@ Parmanand: Hello Team,  I have set up a TON node on an AWS EC2 instance followin
 
 Dmitry | backend4you.ton: TON nodes does not have HTTP API. What protocol do you expect at RPC endpoint? (reply to 36707)
 
-mewe lỏd |: Hi guys, when fetching incoming jetton transfer transactions of a specific address, I just can see the Jetton Notify from Jetton Wallet Address to this receiver address. But I want to know the original sender, how can I find it?
+Bean: Hi guys, when fetching incoming jetton transfer transactions of a specific address, I just can see the Jetton Notify from Jetton Wallet Address to this receiver address. But I want to know the original sender, how can I find it?
 
 Dmitry | backend4you.ton: sender, see transfer_notification in TEP-74 (reply to 36709)
 
@@ -3384,7 +3380,7 @@ Lukas: Can’t I connect the Ton wallet to my app like https://ton.diamonds/ dos
 
 Lukas: Thank you! I guess this is the right repo: https://github.com/ton-community/twa-template (reply to 36725)
 
-User<5329517526>: Who can do nft on ton blockchain please contact me
+999: Who can do nft on ton blockchain please contact me
 
 Roman: Hi everyone! Especially for all the new developers on TON! 🙃  We've made some updates to the TON Dev Kit chats folder and we have also added the TON Dev News channel to keep you updated with the latest news in the developer ecosystem.  Feel free to join!  UPD: the post with fixed links: https://t.me/tondev_eng/36903
 
@@ -4276,7 +4272,7 @@ Sol: Big think you (reply to 37248)
 
 — 2023-11-03 —
 
-mewe lỏd |: Hi sir, i can't bridge from bsc to ton using this https://bridge.ton.org/
+Bean: Hi sir, i can't bridge from bsc to ton using this https://bridge.ton.org/
 
 User<1658592266>: Please help me understand.  I issued tokens of my project in TON, how can I now make wrapped tokens on the Ethereum network?  TON BRIDGE does not perform the transfer. What do I need to do to implement this?
 
@@ -4556,11 +4552,11 @@ Maxwell: Can load_data have some side effect?
 
 Daniil: Changing global variables (reply to 37427)
 
-mewe lỏd |: When I send a message to contract, I use mode pay fees separately from balance, not from amount), but the tx is always failed untils I put 0.05 ton into message amount? I not sure the reason why? What happen when the fee is  greater than 0.05, how can we make it dynamic?
+Bean: When I send a message to contract, I use mode pay fees separately from balance, not from amount), but the tx is always failed untils I put 0.05 ton into message amount? I not sure the reason why? What happen when the fee is  greater than 0.05, how can we make it dynamic?
 
 Daniil: “Pay fees separately” is related to forward fees for sending message. Gas fees are still covered using the value of the message (unless contract decides to cover them on its own) (reply to 37429)
 
-mewe lỏd |: One more point, do we have any stuff such as estimate gas fees to avoid tx failed?
+Bean: One more point, do we have any stuff such as estimate gas fees to avoid tx failed?
 
 Daniil: Some APIs have such methods, but usually you just add some constant value for fees (reply to 37431)
 
@@ -4762,15 +4758,15 @@ Sam: @tsivarev curious if you've had a chance to check these questions out (repl
 
 Sam: Is there someway for me to get the 10000 TON required to run a testnet validator?
 
-Brain: Buy (reply to 37614)
+Brain toncoin: Buy (reply to 37614)
 
 Sam: Its testnet... (reply to 37615)
 
-Brain: yeah (reply to 37616)
+Brain toncoin: yeah (reply to 37616)
 
 Sam: Wdym "buy" then? Testnet tokens don;t have value...
 
-Brain: Usdt testnet (reply to 37618)
+Brain toncoin: Usdt testnet (reply to 37618)
 
 Sam: How do I get USDT on testnet then?
 
@@ -5554,7 +5550,7 @@ Tim: https://tondiamonds.github.io/ton-wallet-generator/ (reply to 38065)
 
 lowry: Hello everyone, may I ask if it's possible to receive a callback when using the Share API to share content to a channel, indicating whether the sharing process has been completed?
 
-mewe lỏd |: Hi guys! with the same contract code, how can I deploy mutil instances of the contract?
+Bean: Hi guys! with the same contract code, how can I deploy mutil instances of the contract?
 
 Клецка: change initial data (reply to 38085)
 
@@ -5812,7 +5808,7 @@ User<1166596949>: But backend needs a rewrite, due to the large differences betw
 
 Wayne: DMed you. (reply to 38239)
 
-Rosé 🇺🇦: hey there. sorry for replying on your message. this is offtopic, but do you guys handle the same?   🔗 https://t.me/toncoin_chat/174349 (reply to 38239)
+ⓌⒷ Rosé 🇺🇦: hey there. sorry for replying on your message. this is offtopic, but do you guys handle the same?   🔗 https://t.me/toncoin_chat/174349 (reply to 38239)
 
 shawm \z/: Gm all! (Shom here from Graviton Web3 Accelerator)
 
@@ -6962,9 +6958,9 @@ Yoyo: Hi everyone!, I have noticed that the mainnet config have 0 liteserevrs, h
 
 — 2023-12-07 —
 
-mewe lỏd |: Do we have any announcement for this? (reply to 38950)
+Bean: Do we have any announcement for this? (reply to 38950)
 
-mewe lỏd |: Any explain?
+Bean: Any explain?
 
 Sam: How can I tell that besides using mytonctrl? No useful logs seem to be output even when it is working properly (reply to 38923)
 
@@ -7396,7 +7392,7 @@ isa: Its my wallet
 
 isa: Transfer not ton space adress
 
-WakiyamaP: I'll take a look. thanks! (reply to 39197)
+Jin: I'll take a look. thanks! (reply to 39197)
 
 isa: I see on transaction  but l cant see on my wallet
 
@@ -9380,7 +9376,7 @@ MonoBit: Hi.  Where can I find out what the limitations of dict, tuple, list, ..
 
 Hakiem: Hi, anyone else have issues sending jettons using MyTonWallet? I get out of gas exit code at recipient jetton wallet contract for JettonInternalTransfer message. Jettons deducted from my balance and not incremented in recipient balance.   Tonhub works fine.
 
-Luis: Hi   someone can help me pls i got stuck and i can't find how to calculate the "jetton_address", in an example they calculate it using the "jetton_master_addres" and the "jetton_code" which in this case i dont know how to get either =( any help would be appreciated
+K: Hi   someone can help me pls i got stuck and i can't find how to calculate the "jetton_address", in an example they calculate it using the "jetton_master_addres" and the "jetton_code" which in this case i dont know how to get either =( any help would be appreciated
 
 &rey: 1. Dict: limited only by contract storage which can have at most 65536 cells. 2. Tuple: 255 elements if plain tuple [A, B, C, ...], unlimited with scheme [A, [B, ...rest]]. 3. List: what's that? 4. Recursive calls within contract: should be limited only by gas. 5. Recursive calls between contracts: what's that? Sending messages is limited only by balance (they don't track history per se). (reply to 40671)
 
@@ -9430,7 +9426,7 @@ Pavel: Preload does not move pointer (reply to 40701)
 
 Dmitry | backend4you.ton: In incoming transfer notification, according to TEP-74 (reply to 40702)
 
-Luis: Store them in a cell and use .begin_parse to get the slice, also make sure to follow the scheme https://docs.ton.org/develop/data-formats/msg-tlb#msgaddressint-tl-b (reply to 40700)
+K: Store them in a cell and use .begin_parse to get the slice, also make sure to follow the scheme https://docs.ton.org/develop/data-formats/msg-tlb#msgaddressint-tl-b (reply to 40700)
 
 Jarek: excuse me, is there any nvim plugins for func? Only found the syntax usage in docs
 
@@ -9460,13 +9456,13 @@ Tim: i can't even read your message
 
 Mehdi: first 32 bit , from recv_external message body always return number after # (for example # here update#9df10277 in TL-B) , as  we have only one recv_external() function in one smart contract,  we can branch our logic based on this 32 bit information ,please let me know if there is something missing in between ,    🙏
 
-Luis: the # is just notation that specifies that the number 9df10277 is encoded in hex, each caracter represents 4 bits so there is no # in the data, just the 32-bit number "9df10277" (reply to 40729)
+K: the # is just notation that specifies that the number 9df10277 is encoded in hex, each caracter represents 4 bits so there is no # in the data, just the 32-bit number "9df10277" (reply to 40729)
 
 Mehdi: I got it , thank you all .
 
 Luke: how can i create an address slice based on the 256bit part
 
-Luis: any luck with that ?, i tried to get it from "in_msg" and "in_msg_body" (reply to 40702)
+K: any luck with that ?, i tried to get it from "in_msg" and "in_msg_body" (reply to 40702)
 
 — 2023-12-30 —
 
@@ -12468,9 +12464,9 @@ Barbell: is not working as it's complaining for store dictionary doesn't exist.
 
 — 2024-01-22 —
 
-Chev: Hey how can i connect to fragments using mytonwallet ?
+Nakli Aman: Hey how can i connect to fragments using mytonwallet ?
 
-Chev: i use ledger and wanted to buy few telegram numbers
+Nakli Aman: i use ledger and wanted to buy few telegram numbers
 
 Hunter: Hello, is there anybody looking for a frontend & contract developer?
 
@@ -12738,7 +12734,7 @@ Speculator: Hi i am getting this type of cell how to convert it into tx body?
 
 MS: nobody is here for reply? (reply to 42740)
 
-Sr: Hello community, is it very difficult to learn funC language without knowing anything about programming?
+Freud: Hello community, is it very difficult to learn funC language without knowing anything about programming?
 
 Comrade.ton: Anyone here that can help with this? Can't find anything... (reply to 42705)
 
@@ -13998,7 +13994,7 @@ Barbell: also is there any way to see error on SC? I only get failed in my walle
 
 walker: I think this is a very important and useful feature, why no one answer this question? (reply to 43524)
 
-DJ: Hey! How do i get the list of all jettons which have been deployed on the blockchain?
+Zero: Hey! How do i get the list of all jettons which have been deployed on the blockchain?
 
 Nxrix: How can I get a list of all nfts a wallet has using dton.io?
 
@@ -14026,9 +14022,9 @@ Scott: hey all, would like some of your input - if there were any key infrastruc
 
 Кроль Із Конохи: how to get the last block with all transactions with toncenter?  I don't understand what the parameters seqno, workchain_id and shard mean, and what they can be
 
-DJ: If anyone helps, i'll pay some ton (reply to 43573)
+Zero: If anyone helps, i'll pay some ton (reply to 43573)
 
-DJ: And will be very thankful as well
+Zero: And will be very thankful as well
 
 Anastasiia: You may probably use https://tonapi.io/v2/jettons for this. https://docs.tonconsole.com/tonapi/api-v2 (reply to 43573)
 
@@ -14179,4 +14175,8 @@ Bear: https://docs.ton.org/develop/func/stdlib#dict_get ? (reply to 43702)
 Seitaro: Yes, you can find example for instance here: https://github.com/newton-blockchain/ton/blob/master/crypto/smartcont/config-code.fc#L430 (reply to 43703)
 
 Bear: func func func
+
+Bear: Thanks. And I think this code is quite difficult to understand:  1/ Why do we need with store_uint(0, 2) in state_init_builder?      builder state_init_builder = begin_cell()         .store_uint(0, 2)         .store_dict(storage::pool_code);   2/ why does the state_init is the address of the contract but in Int?      cell state_init = state_init_builder         .store_uint(0, 1)         .end_cell();
+
+Nxrix: If I select 24 random words from bip39 list in javascript using Math.random is it safe to use it as wallet?
 

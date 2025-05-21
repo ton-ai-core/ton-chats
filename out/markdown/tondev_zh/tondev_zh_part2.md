@@ -1,3 +1,13 @@
+Pie: It seems that this tutorial differs from the actual situation. I found in the GitHub repository that this step doesn't require sudo permissions.
+
+Pie: https://github.com/ton-blockchain/mytonctrl
+
+Anthony: What is your OS? (reply to 18824)
+
+Pie: Ubuntu 22.04.3 LTS (reply to 18829)
+
+— 2023-12-19 —
+
 User<6904617991>: 哈咯
 
 Howard: 我們 NFT content 這個 cell in HexString 怎麼變回 URL String 去了？
@@ -2408,7 +2418,7 @@ Howard: 更正，是因為考量佔用的 gasCost 以及 Cell 能儲存單位的
 
 User<1414660737>: TON域名有什么用
 
-User<5329517526>: 没有用 (reply to 20319)
+999: 没有用 (reply to 20319)
 
 User<1414660737>: 那开发出来做什么
 
@@ -3460,11 +3470,11 @@ Zorro: 你有沒有看到最上面那排紅字? (reply to 20932)
 
 uupp $ZAI: 😂停止运营
 
-小P「卖飞机卖大炮卖核弹」: 😑TON起飞了
+小P「JitoShred教程作者」: 😑TON起飞了
 
 TON: 拥有TON，拥有Telegram 股份权，1TON=10股！
 
-小P「卖飞机卖大炮卖核弹」: 😑有没有人晓得TONOT这个项目是不是诈骗
+小P「JitoShred教程作者」: 😑有没有人晓得TONOT这个项目是不是诈骗
 
 TON: 囤TON就好了
 
@@ -3516,13 +3526,13 @@ Kirill: Or @thetonstakers / https://tonstakers.com (reply to 20970)
 
 Yang: 笑死，大家出來搶生意了
 
-小P「卖飞机卖大炮卖核弹」: 🫠Tonot才是最强的
+小P「JitoShred教程作者」: 🫠Tonot才是最强的
 
 Yang: Bemo、Hipo 在哪？一支穿雲箭、千軍萬馬來相見
 
 Yang: 過分了喔 (reply to 20975)
 
-小P「卖飞机卖大炮卖核弹」: 🫠滞销了
+小P「JitoShred教程作者」: 🫠滞销了
 
 Howard: PS. TonKeeper 的質押功能背後就是串 TonStakers.com 😂 (reply to 20973)
 
@@ -3558,9 +3568,9 @@ Yang: 難度： Fift > FunC > Tact 上手度：Tact > FunC > Fift   基本上全
 
 小龙龙: 有没有一键发布合约的三方平台了
 
-小P「卖飞机卖大炮卖核弹」: ton吗
+小P「JitoShred教程作者」: ton吗
 
-小P「卖飞机卖大炮卖核弹」: ton好像有的
+小P「JitoShred教程作者」: ton好像有的
 
 Will 🍅: 這誰說的 (reply to 20937)
 
@@ -3578,7 +3588,7 @@ Yang: 這裡是 Dev 群，請保留給開發者，移駕到 TON 社群討論區 
 
 Andrew: 这些话题移步Alphaton讨论就好，哪怕潜水看看就知道了 (reply to 21005)
 
-Arnaud | OKX: Hi 大家好，我想请教大佬们一个问题，目前我因为业务需要开始接触Ton生态。并且接下来应该会有合约开发相关的任务，之前写过一些solidity。我想从目前领域内的使用范围、安全与兼容性、gas消耗来咨询一下，是需要慢慢学Func还是可以直接尝试用tact来开发 🙂
+Arnaud: Hi 大家好，我想请教大佬们一个问题，目前我因为业务需要开始接触Ton生态。并且接下来应该会有合约开发相关的任务，之前写过一些solidity。我想从目前领域内的使用范围、安全与兼容性、gas消耗来咨询一下，是需要慢慢学Func还是可以直接尝试用tact来开发 🙂
 
 Trb: MyLocalTon 需要同步完才能用么?
 
@@ -3586,7 +3596,7 @@ Howard: 業務層可以用 Tact, 代幣標準建議上 FunC (reply to 21011)
 
 Howard: 可以參考這個混合配置的範例：https://github.com/howardpen9/jetton-hybrid-template
 
-Arnaud | OKX: Cool 谢谢大佬
+Arnaud: Cool 谢谢大佬
 
 Howard: Tact 教學可以參考 ScaleBit & TON 贊助的講座：https://openbuild.xyz/learn/challenges/2023609337
 
@@ -3594,7 +3604,7 @@ Howard: Tact 教學可以參考 ScaleBit & TON 贊助的講座：https://openbui
 
 Howard: 征求一些微信小程序开发过的 Devs 跟我们分享一下迁移过来 TG 上搭建 mini-app 的体验、以及开发上的差别😂
 
-小P「卖飞机卖大炮卖核弹」: 羊了个羊
+小P「JitoShred教程作者」: 羊了个羊
 
 快乐玩币圈: 哈哈
 
@@ -3974,17 +3984,17 @@ User<6234295669>: is there anybody looking for a front-end developer?
 
 Andy (Gang): 我決定重壓ton ~
 
-小P「卖飞机卖大炮卖核弹」: 🙈有没有链游开发的
+小P「JitoShred教程作者」: 🙈有没有链游开发的
 
 Sean: 請問有興趣開發dapp程式要跟誰討論和聯絡呢
 
-小P「卖飞机卖大炮卖核弹」: 你是开发者吗
+小P「JitoShred教程作者」: 你是开发者吗
 
 Sean: 有點基本的基礎 也在學習開發
 
 Trb: 兄弟们,Tact有好点的Arrays 方案么,想实现  ABC[ 0 ].push( )这个功能
 
-小P「卖飞机卖大炮卖核弹」: 😐没人搞赌博类的链游吗
+小P「JitoShred教程作者」: 😐没人搞赌博类的链游吗
 
 Andy: 请问 ton合约 一般用啥语言 fift func  还是 tact
 
@@ -4120,7 +4130,7 @@ Howard: 提交到鏈上打包之後會有。透過 api 查詢 (reply to 21365)
 
 coolkhz: 合约可以写定时器   循环 3 分钟就执行一些操作吗？
 
-小P「卖飞机卖大炮卖核弹」: 🙈这是要搞什么 (reply to 21368)
+小P「JitoShred教程作者」: 🙈这是要搞什么 (reply to 21368)
 
 Squid: 可以内部写逻辑 (reply to 21368)
 
@@ -4134,7 +4144,7 @@ coolkhz: 那个机器人领了  也不给发啊
 
 coolkhz: 半个多小时了
 
-小P「卖飞机卖大炮卖核弹」: 以前领的水也不见了😂
+小P「JitoShred教程作者」: 以前领的水也不见了😂
 
 Ann: 你好，有空请看下私信哦 (reply to 21367)
 
@@ -4148,7 +4158,7 @@ Crypto A99: 好謝謝
 
 Crypto A99: 我想做的 大概就像Deploy時 退還value的
 
-Arnaud | OKX: xdm，测试网bot领水估计多久能到账呀 “Request added to the queue for execution, please wait!”
+Arnaud: xdm，测试网bot领水估计多久能到账呀 “Request added to the queue for execution, please wait!”
 
 Jack: 谨慎，小心 (reply to 21392)
 
@@ -4210,7 +4220,7 @@ Vivi: 你怎么也叫一个名字
 
 Conight: 脚本里面TonClient4实例怎么调用类似于api.getContractState 方法？
 
-小P「卖飞机卖大炮卖核弹」: 🫠ton上有看k线的吗
+小P「JitoShred教程作者」: 🫠ton上有看k线的吗
 
 航: tong这个币
 
@@ -4504,9 +4514,9 @@ Zorro: TON 沒有預言機 (reply to 21613)
 
 Bill: 也就是 市场空白😁
 
-小P「卖飞机卖大炮卖核弹」: 🌝🌝市场空白的比较多
+小P「JitoShred教程作者」: 🌝🌝市场空白的比较多
 
-小P「卖飞机卖大炮卖核弹」: 看你想怎么搞
+小P「JitoShred教程作者」: 看你想怎么搞
 
 carl: 在做sendBoc的时候返回了这个有大佬知道是什么原因吗end error: LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted\nCannot run message on account: inbound external message rejected by transaction 978819DB7AE4D9EDAE63A43C98BACC09176913FF820352E92148F06D9766D649:\nexitcode=33, steps=33, gas_used=0\nVM Log (truncated):\n...OW\nexecute XCHG s1,s3\nexecute LEQ\nexecute THROWIF 35\nexecute PUSH c4\nexecute CTOS\nexecute LDU 32\nexecute LDU 32\nexecute LDU 256\nexecute ENDS\nexecute XCPU s3,s2\nexecute EQUAL\nexecute THROWIFNOT 33\ndefault exception handler, terminating vm with exit code 33\n
 
@@ -4718,11 +4728,11 @@ carl: 这笔交易
 
 carl: 有对接过的大佬吗
 
-小P「卖飞机卖大炮卖核弹」: ton有没有狙击bot?
+小P「JitoShred教程作者」: ton有没有狙击bot?
 
 兵长: 有
 
-小P「卖飞机卖大炮卖核弹」: 哪里有
+小P「JitoShred教程作者」: 哪里有
 
 小龙: 在TON上如何获取telegram的用户信息
 
@@ -5240,15 +5250,15 @@ My Lover🧁🗃: 独立游戏一大堆人做，前几年，死的不知几何
 
 Roger: 是啊 太难做了
 
-Taverns: 链改
+Luckyball: 链改
 
 Roger: 不是所有游戏都适合链改的
 
 Roger: 去年做的AVG就不行
 
-Taverns: 要会营销啊
+Luckyball: 要会营销啊
 
-Taverns: 设计经济模型
+Luckyball: 设计经济模型
 
 Roger: 很多游戏能做完就不错了，独立游戏很难
 
@@ -5690,7 +5700,7 @@ Yotsuha: tact里有类似openzeplin那样的包，方便开发吗
 
 刘皓 转账语音确认: 这样间接性可以出动TON流通
 
-User<6082945982>: https://github.com/ton-blockchain/minter-contract 这个是发布ton代币的合约吗
+发: https://github.com/ton-blockchain/minter-contract 这个是发布ton代币的合约吗
 
 Philip 菲力: 各位老闆可以關注 TON Hacker House 第二名的 KoALA 項目團隊，他們打算在 telegram 上實現類似於 intent-centric 的 app，讓 TON 無痛跨鏈
 
@@ -6752,13 +6762,13 @@ Roger: 好的
 
 Philip 菲力: 提示：注意代幣流入第三方的風險，這邊有開源程式碼可以用：https://github.com/toncenter/examples/blob/main/withdrawals-jettons-highload.js (reply to 23060)
 
-Taverns: mint nft的有么
+Luckyball: mint nft的有么
 
-Taverns: 为什么平台nft交易手续费贵的离谱
+Luckyball: 为什么平台nft交易手续费贵的离谱
 
 Philip 菲力: 平台都有抽成 (reply to 23066)
 
-Taverns: 1.45买的只能卖1.25而且还有手续费
+Luckyball: 1.45买的只能卖1.25而且还有手续费
 
 Roger: 感谢 (reply to 23064)
 
@@ -7426,7 +7436,7 @@ Wendy: 但是里面没有在一个receive里面去调用两次self.mint (reply t
 
 Wendy: 我想在一个receive里面去调用两次self.mint
 
-User<6082945982>: 刚发布的代币 要怎么验证？
+发: 刚发布的代币 要怎么验证？
 
 刘皓 转账语音确认: 你好 (reply to 23507)
 
@@ -8506,7 +8516,7 @@ Orange: 怎么确认jetton能发送出去啊= =
 
 jerry: 大佬们好，有遇到这个问题的吗，怎么解决呀
 
-Ди♡: Gtonbgtn
+1.1: Gtonbgtn
 
 信诚: 有没有做海外盗U的 多签或者授权的 来合作吃肉
 
@@ -8790,7 +8800,7 @@ ro: 难不成使用 V2R2 这个版本 钱包
 
 wikig: 想问一下各位大佬。  就是现在botfather这边提供的webapp和game到底区别在哪里（好像都是打开个webview）  而且game.js那边提供的方法好像还不如直接用webapp的方案
 
-Arnaud | OKX: 大佬们，请教一个问题，这段代码中，save storage何时执行呢，是否依赖call pay to的成功
+Arnaud: 大佬们，请教一个问题，这段代码中，save storage何时执行呢，是否依赖call pay to的成功
 
 Orange: 无法验证交易是因为啥啊 大佬们
 
@@ -10742,13 +10752,13 @@ Spa: ton 链 是出问题了， 怎么支付不了？
 
 Spa: 无法验证交易是什么意思？
 
-BARON: The issue is that you have two contract definitions with the same name Counter. This is not allowed in Solidity (reply to 25475)
+Baron: The issue is that you have two contract definitions with the same name Counter. This is not allowed in Solidity (reply to 25475)
 
-BARON: To fix the error, simply remove the duplicate contract definition
+Baron: To fix the error, simply remove the duplicate contract definition
 
-BARON: import "@stdlib/deploy"; contract Counter with Deployable {     val: Int as uint32;     init() {         val = 0;     }     get fun value(): Int {         return self.val;     } }
+Baron: import "@stdlib/deploy"; contract Counter with Deployable {     val: Int as uint32;     init() {         val = 0;     }     get fun value(): Int {         return self.val;     } }
 
-BARON: あなたの問題を解決できましたか? (reply to 25475)
+Baron: あなたの問題を解決できましたか? (reply to 25475)
 
 — 2024-05-06 —
 
@@ -11040,7 +11050,7 @@ lin: 官方能不能回复一下
 
 User<1920239264>: Moй кошелек ?
 
-BARON: ---> Ton Dev Chat (Ру) (reply to 25639)
+Baron: ---> Ton Dev Chat (Ру) (reply to 25639)
 
 lin: 请问给定Jettonmaster地址 返回池子地址有相关接口吗
 
@@ -11098,7 +11108,7 @@ Melinda: 请问有做到的吗 (reply to 25495)
 
 Super: 更新钱包试试工 (reply to 25493)
 
-BARON: スマート コントラクト、Web アプリ、フロントエンド開発者を必要としているのは誰ですか?
+Baron: スマート コントラクト、Web アプリ、フロントエンド開発者を必要としているのは誰ですか?
 
 — 2024-05-07 —
 
@@ -12750,7 +12760,7 @@ xml: 这个人是个天才 (reply to 26558)
 
 xml: 😂😂😂
 
-only lucky🍀: 👍
+肾宝111 🐾: 👍
 
 gityyge: 我在项目里面导入ton爆的错
 
@@ -15666,7 +15676,7 @@ Yang: 已轉達 EN 管理員，後續等他回覆
 
 fu: @wisdom_yang 👍
 
-呆呆: 大佬们，请问一下 TON WALLET 能配置 solana链吗
+🦴Dai: 大佬们，请问一下 TON WALLET 能配置 solana链吗
 
 Wick李: 不能 (reply to 28359)
 
@@ -15994,7 +16004,7 @@ Z: 突然打不开了，你们能打开吗
 
 tbag - 上午别找我: 能打开
 
-Ryu: ‼️Please update the list of wallets in TonConnect if you want to allow authorization in your dApp via Ton Space.‼️  这个的意思是我需要手动调用吗
+BingZi: ‼️Please update the list of wallets in TonConnect if you want to allow authorization in your dApp via Ton Space.‼️  这个的意思是我需要手动调用吗
 
 Z: 请问如何联系到ton官方，充值不到账，资产都看不到了
 
@@ -16890,7 +16900,7 @@ Logan 🐯: 哈希数组长度是3万是吧
 
 C: 哪里来的小鸡子，抓你黑脚🏀
 
-Штандартэн: friends, for some reason my notecoins disappeared when creating a wallet. guys, as much as you can, help me with notcoins
+Альбукерке: friends, for some reason my notecoins disappeared when creating a wallet. guys, as much as you can, help me with notcoins
 
 A: 大家也没有人对ton 上ena项目感兴趣呀，我们在找defi的dev
 
@@ -17960,7 +17970,7 @@ wikig: 除TONchain外其他chain的token数据源是 dexscreener.com (reply to 3
 
 zachary: 在miniapp 中send transaction 之后会唤起 wallet，用的 tonconnect UI sdk， 返回到 miniapp时 会重新打开页面，这时候如何获取这次交易的状态和BOC ，可以看到sdk有打印 信息，但是如何捕获或者监听这个事件呢
 
-Free: 已经是我想要的效果了 (reply to 30563)
+F: 已经是我想要的效果了 (reply to 30563)
 
 🌑: 明白了谢谢 (reply to 30573)
 
@@ -22496,7 +22506,7 @@ Steven: 这个是不同地址格式的转换网址
 
 MAX-SlerfTools|一键发币|批量发送｜捆绑交易｜市值管理｜需求定制: 找管理员吗
 
-black: nice to be here
+anan: nice to be here
 
 Z: 请问下， 和ton 合约交互的话。除了用官方的typescript 的library, 还有其他的语言的么？
 
@@ -23101,6 +23111,4 @@ carol: 没TON了，只剩这点了。。😆
 wikig: 好像没有看到有这个方法（但是即使有.......好像也做不了什么？  但是有个方法可以使得关闭miniapp时触发一个用户手动确认  可能那个方法有回调事件 (reply to 36593)
 
 Lou: 我想在用户关闭的时候更新一次用户数据
-
-walker: ton上发交易时的seq，会像ethereum上一样有mempool去缓存未来的seq吗？比如钱包的seq现在是1，我发个seq是2的交易出去，这笔交易是会被节点丢弃掉，还是会等seq=1的交易被确认后，seq=2的交易会被节点确认？
 

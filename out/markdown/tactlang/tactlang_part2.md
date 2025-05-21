@@ -1732,7 +1732,7 @@ Wendy: but the value is wrong, there the value is be6b1998, not 0x7362d09c
 
 Wendy: https://emn178.github.io/online-tools/crc32.html?input_type=utf-8&input=TokenNotification%20%7Bquery_id%3A%20Int%20as%20uint64%3Bamount%3A%20Int%20as%20coins%3Bfrom%3A%20Address%3Bforward_payload%3A%20Slice%20as%20remaining%3B%7D&output_type=hex
 
-Nelt - BC: You could assign message's opcode, default value is from crc
+Nelt: You could assign message's opcode, default value is from crc
 
 Jay: This is OpCode ya the contract recognize this operation when receiving message. (reply to 25905)
 
@@ -1886,7 +1886,7 @@ Dmitry | backend4you.ton: it would, if you make "individual content" initially e
 
 — 2024-05-18 —
 
-Nelt - BC: I'm testing this function in my contract and found out that 2 of 10 times when TokenTransferInternal receive it didn't send TokenNotification message. Plz help
+Nelt: I'm testing this function in my contract and found out that 2 of 10 times when TokenTransferInternal receive it didn't send TokenNotification message. Plz help
 
 ed: how are you going to find the jobOffer from FE when it consists of so many variables? it is like calling getJobOffer but supplying all the relevant info to actually get the info. (reply to 26012)
 
@@ -1894,15 +1894,15 @@ ed: how are you going to find the jobOffer from FE when it consists of so many v
 
 &rey: How much TON are you sending out with that message?
 
-Nelt - BC: It's 0.15, the ton forward is 0.025
+Nelt: It's 0.15, the ton forward is 0.025
 
 &rey: Then count all TON your send parameters send out. (reply to 26208)
 
-Nelt - BC: https://testnet.tonviewer.com/kQAaynYax_AiMf7MQle8Y5FgroV99ud3jUm7rVSLrR5tXmYJ/jetton/kQA3PBz81_OL_L9SHB6wJLuobVHy5-B6CuW5ooHSZqff_upE  I think i send excess TON to this function. In list transaction, the latest one is seem not correct somehow, and the second is my happy case (burn token)
+Nelt: https://testnet.tonviewer.com/kQAaynYax_AiMf7MQle8Y5FgroV99ud3jUm7rVSLrR5tXmYJ/jetton/kQA3PBz81_OL_L9SHB6wJLuobVHy5-B6CuW5ooHSZqff_upE  I think i send excess TON to this function. In list transaction, the latest one is seem not correct somehow, and the second is my happy case (burn token)
 
 &rey: let v = context().value; let f = context().readForwardFee(); let w = ton("0.1"); send(SendParameters {     value: w,     mode: SendPayGasSeparately + SendRemainingValue,     ... }); How much TON does contract send? How much destination address receives? (reply to 26208)
 
-Nelt - BC: actually i just want to transfer ton remaining to destination. but somehow it not working (sometimes)
+Nelt: actually i just want to transfer ton remaining to destination. but somehow it not working (sometimes)
 
 Enoch: Hi
 
@@ -4562,13 +4562,13 @@ lee: The template for running the official website has not been working for two 
 
 lee: TON is too difficult.
 
-SP: any comparion of tact and func in deep level
+Son Pin: any comparion of tact and func in deep level
 
 Anton: So basically the issue is in the storageReserve constant. Here you declare it as a variable (which the typechecker misses, we will fix that), what you really need to do is to say it like this:  override const storageReserve: Int = ton("0.01”);   You’ll have to do it like this, because defining constants in terms of other constants is not possible now, but will be in the next Tact feature release (reply to 33720)
 
 Howard: deep level? Which part you mean? We have the example comparison in here: https://tact-lang.org (reply to 33782)
 
-SP: I mean some case of control low level that we can not do with tact but good with func. We are In RnD phase (reply to 33784)
+Son Pin: I mean some case of control low level that we can not do with tact but good with func. We are In RnD phase (reply to 33784)
 
 Anton: you can always write some parts of your project in FunC and then do FFI with Tact (it’s really straightforward) (reply to 33785)
 
@@ -4602,7 +4602,7 @@ Sumit: https://katb.in/qiviruxejik
 
 Sumit: this is the contract that i am using
 
-SP: What’s FFI sir (reply to 33786)
+Son Pin: What’s FFI sir (reply to 33786)
 
 Surendra: Hello (reply to 33817)
 
@@ -4832,11 +4832,11 @@ cindy: wow,my first debug on tact works
 
 cindy: How can i get the failure reason on the transcation result of tact test?
 
-Ilya: Hello everyone. Is it possible to get a reply value from a contract sent using self.reply() in blueprint test?
+0xCryptolia: Hello everyone. Is it possible to get a reply value from a contract sent using self.reply() in blueprint test?
 
 Illia: Will do today. Btw I've initiated a blueprint project with a simple counter in Tact; added example there (reply to 34022)
 
-Ilya: Thank) (reply to 34046)
+0xCryptolia: Thank) (reply to 34046)
 
 Illia: added new readme; if there are any suggestions on features, please let me know  i think i may add human-readable names for opcodes in the next update (reply to 34022)
 
@@ -5004,7 +5004,7 @@ Anton: you didn’t post your exit code, btw it’s -14, meaning your contract i
 
 Anton: debug instructions also consume gas
 
-Ilya: Hello everyone. How do I convert cell data to a string obtained from contract in Blueprint test?
+0xCryptolia: Hello everyone. How do I convert cell data to a string obtained from contract in Blueprint test?
 
 Truong: What is the problem with the build command? when the header.fc file still exists in the output
 
@@ -5012,7 +5012,7 @@ Dmitry: import "@stdlib/deploy";   contract TestNested with Deployable {   owner
 
 Dmitry: 135 = Code of a contract was not found
 
-SP: Try to build before test? (reply to 34188)
+Son Pin: Try to build before test? (reply to 34188)
 
 Dmitry: the build is fine.    but ill try to make it a separate contract
 
@@ -5038,7 +5038,7 @@ Dmitry: Any ideas? (reply to 34188)
 
 lee: how to translate string to cell?
 
-Ilya: string.asComment() (reply to 34208)
+0xCryptolia: string.asComment() (reply to 34208)
 
 lee: thanks ,i will try
 
@@ -5492,7 +5492,7 @@ Haris: i am trying to create Dictionary type object but cant do so (reply to 346
 
 Illia: There inevitably is some cost involved when interacting with smart contracts.  Storing large amounts of data on the blockchain is no good.  You need to off-chain data that you don't really need or use ton storage.  If u want to subsidize transactions for your users, then you need to implement something like Tonkeeper Battery but which funds only interactions with your smart contracts (reply to 34607)
 
-SP: how to print wallet address on Testnet with same mnemonics. using @ton/ton WalletContractV4
+Son Pin: how to print wallet address on Testnet with same mnemonics. using @ton/ton WalletContractV4
 
 Illia: the send functions creates an action during the action phrase that will be executed during the action phrase  since ton blockchain is async, once you sent your message from contract A to contract B, no matter what happens to contract B (whether it rejects the transaction or processes it gracefully) the state of contract A is not changes (unlike on Ethereum where if one action fails, then everything fails; therefore you need to make sure that if you message bounces you handle it gracefully) (reply to 34613)
 
@@ -5502,7 +5502,7 @@ Nerses: thanks a lot (reply to 34618)
 
 Illia: can u clarify your question? if you already have an instance of WalletContractV4, then you can just console.log(wallet.address) 🤷‍♂️   https://ton-community.github.io/ton/classes/WalletContractV4.html#address:~:text=address-,address%3A%20Address,-Implementation%20of%20Contract (reply to 34617)
 
-SP: this just print wallet address on mainnet. not have a property to determine network (reply to 34621)
+Son Pin: this just print wallet address on mainnet. not have a property to determine network (reply to 34621)
 
 hΔrdshell: anyone have examples of building a jetton with its meta data? ex. image, url, name, symbol etc?
 
@@ -5996,11 +5996,11 @@ Chou: Thanks， (reply to 34939)
 
 jay: Wow, call func code in Tact work fine.
 
-SP: Any example? (reply to 35021)
+Son Pin: Any example? (reply to 35021)
 
 Calvin | Impossible: Gm :) (reply to 35024)
 
-SP: Bro (reply to 35025)
+Son Pin: Bro (reply to 35025)
 
 jay: `(slice, int) begin_parse_exotic(cell c) asm "XCTOS";  slice merkle_verify(cell proof_cell, int merkle_root, int index) method_id {     (slice cs, int exotic?) = proof_cell.begin_parse_exotic();     throw_unless(42, exotic?);     throw_unless(43, cs~load_uint(8) == 3);     throw_unless(44, merkle_root == cs~load_uint(256));      cell dict = cs~load_ref();     (slice entry, int found?) = dict.udict_get?(256, index);     throw_unless(45, found?);      return entry; }`  helper.fc (reply to 35024)
 
@@ -6570,7 +6570,7 @@ Aish: Hi all,  Is it possible for tact contracts to get the real time price of o
 
 Nerses: Suppose i have smart contract for doing HTLC and user1 wants to do swap of Jetton with user2. when user1 locks his Jetton funds in HTLC smart contract,Jetton wallet will be created for HTLC contarct after it how HTLC smart contract should calculate the Jetton wallet address of user2 to do transfer ? if Jetton wallet for user 2 doesnt exist  what will be done ?
 
-SP: Anyone has stonfi and dedust Testnet addresses?
+Son Pin: Anyone has stonfi and dedust Testnet addresses?
 
 .: Hey, in TON blockchain, can we create an MEV bot similar to those on Ethereum?
 
@@ -6862,7 +6862,7 @@ Degen: yes i just for testing (reply to 35840)
 
 Degen: same code, place them after deploy msg ,then can receive,put it under a separate 'it'  structure and no messages will be received
 
-SP: What’s foward fee? And forward fee is paid for storage fee or compute fee?
+Son Pin: What’s foward fee? And forward fee is paid for storage fee or compute fee?
 
 Nerses: can Jetton code be accessed only having master Jetton address ?
 
@@ -6882,13 +6882,13 @@ Degen: Is the query_id in the message body required?
 
 Degen: Is there a problem if the query_id is the same every time?
 
-SP: I can understand that the foward fee will only be available if the contract sends the next message, right? (reply to 35856)
+Son Pin: I can understand that the foward fee will only be available if the contract sends the next message, right? (reply to 35856)
 
 Degen: When I switch to the testnet in the sandbox, it says timeout
 
 Nerses: Can this code be used to calculate Jetton wallet address ? fun packJettonWalletData(balance: Int, ownerAddress: Slice, jettonMasterAddress: Slice, jettonWalletCode: Cell): Cell {    return  beginCell()             .storeCoins(balance)             .storeSlice(ownerAddress)             .storeSlice(jettonMasterAddress)             .storeRef(jettonWalletCode)            .endCell(); }  fun calculateJettonWalletStateInit(balance: Int, ownerAddress: Slice, jettonMasterAddress: Slice, jettonWalletCode: Cell): Cell{       return beginCell()                     .storeUint(0, 2)           .storeRef(jettonWalletCode)           .storeRef(packJettonWalletData(0, ownerAddress, jettonMasterAddress, jettonWalletCode))           .storeUint(0, 1)          .endCell(); }  fun calculateJettonWalletAddress( stateInit: Cell): Slice{       return beginCell().storeUint(4, 3)                      .storeInt(0, 8)                      .storeUint(stateInit.hash(), 256)                      .endCell()                      .beginParse(); }  fun calculateUserJettonWalletAddress(ownerAddress: Slice, jettonMasterAddress: Slice, jettonWalletCode: Cell): Slice{   return calculateJettonWalletAddress(calculateJettonWalletStateInit(0,ownerAddress, jettonMasterAddress, jettonWalletCode)); }
 
-SP: fw fee is calculate in both sender and receiver? (reply to 35856)
+Son Pin: fw fee is calculate in both sender and receiver? (reply to 35856)
 
 Родион: hi! how an i send this arraylike dictionary to to the message reciever ?
 
@@ -7544,15 +7544,15 @@ Moni Rul: Hi
 
 Stephan: Hi guys, please help me, I created jetton according to this standard - https://tact-by-example.org/07-jetton-standard  I need to send my token through another contract. Here is my contract     import "@stdlib/deploy"; import "@stdlib/ownable"; import "./sample_jetton";  contract TestJettonTransferV20 with Deployable, OwnableTransferable {     seqno: Int as uint64; //Unique identifcator of game     owner: Address;     tokenMaster: Address;     tokenValue: Int as coins;      init(seqno: Int) {         self.owner = sender();         self.seqno = seqno;         self.tokenMaster = address("EQC2C3NAI10BnSK96hO_fBpAZ4dr8Pc8vXT77qQrKrh7bZ0G");         self.tokenValue = ton("100");     }      receive() {              }      receive("Jetton") {                    let user: Address =  address("0QDUjiO08AZdPz8vzOX4HqqH5nGghOocerxpfPIJZoyltpNx");                  // let init: StateInit = initOf JettonDefaultWallet(self.owner, user);          let initContract: StateInit = initOf JettonDefaultWallet(self.tokenMaster, myAddress());         send(SendParameters{                 to: contractAddress(initContract),                  value: ton("0.1"),                 mode: SendIgnoreErrors,                 bounce: false,                 body: TokenTransfer{                     queryId: 5151556711,                     amount: self.tokenValue,                     destination: user,                     response_destination: self.owner,                     custom_payload: emptyCell(),                     forward_ton_amount: 0,                     forward_payload: emptySlice()                 }.toCell(),                 code: initContract.code,                 data: initContract.data             });       } }   I deployed it and then sent a little TON (for commissions) and my token to it, when I call "Jetton", this error comes out (in the screenshot). I have already made dozens of attempts with different code, but the tokens are not being sent. Help please
 
-SP: Anyone familiar with dedust sdk?
+Son Pin: Anyone familiar with dedust sdk?
 
-SP: I use sdk to add liquidity but its fail with 263
+Son Pin: I use sdk to add liquidity but its fail with 263
 
-SP: my code is follow docs. but it’s fail when deposit native TON (forwarded from SP)
+Son Pin: my code is follow docs. but it’s fail when deposit native TON (forwarded from Son Pin)
 
-SP: https://tonviewer.com/transaction/a43238ebf89d937bcce52a01105a2ed601aecac1c757cb2e6d353ef53641ecee (forwarded from SP)
+Son Pin: https://tonviewer.com/transaction/a43238ebf89d937bcce52a01105a2ed601aecac1c757cb2e6d353ef53641ecee (forwarded from Son Pin)
 
-SP: Can you help me (reply to 36610)
+Son Pin: Can you help me (reply to 36610)
 
 Stephan: Hi guys, please help me, I created jetton according to this standard - https://tact-by-example.org/07-jetton-standard  I need to send my token through another contract. Here is my contract     import "@stdlib/deploy"; import "@stdlib/ownable"; import "./sample_jetton";  contract TestJettonTransferV20 with Deployable, OwnableTransferable {     seqno: Int as uint64; //Unique identifcator of game     owner: Address;     tokenMaster: Address;     tokenValue: Int as coins;      init(seqno: Int) {         self.owner = sender();         self.seqno = seqno;         self.tokenMaster = address("EQC2C3NAI10BnSK96hO_fBpAZ4dr8Pc8vXT77qQrKrh7bZ0G");         self.tokenValue = ton("100");     }      receive() {              }      receive("Jetton") {                    let user: Address =  address("0QDUjiO08AZdPz8vzOX4HqqH5nGghOocerxpfPIJZoyltpNx");                  // let init: StateInit = initOf JettonDefaultWallet(self.owner, user);          let initContract: StateInit = initOf JettonDefaultWallet(self.tokenMaster, myAddress());         send(SendParameters{                 to: contractAddress(initContract),                  value: ton("0.1"),                 mode: SendIgnoreErrors,                 bounce: false,                 body: TokenTransfer{                     queryId: 5151556711,                     amount: self.tokenValue,                     destination: user,                     response_destination: self.owner,                     custom_payload: emptyCell(),                     forward_ton_amount: 0,                     forward_payload: emptySlice()                 }.toCell(),                 code: initContract.code,                 data: initContract.data             });       } }   I deployed it and then sent a little TON (for commissions) and my token to it, when I call "Jetton", this error comes out (in the screenshot). I have already made dozens of attempts with different code, but the tokens are not being sent. Help please
 
@@ -7812,13 +7812,13 @@ Anton: https://docs.tact-lang.org/book/operators#binary-bitwise-and (reply to 36
 
 fomo: after updating the tact using yarn, it is no longer compatible with blueprint test. And some weird error appears:  Type 'SandboxContract<Contract>' is missing the following properties from type 'SandboxContract<MyContract>': send, getOperatorAddress, getKeyWalletAddress, getKeyWalletAddress2, and 33 more. (reply to 36822)
 
-SP: can we check signature in tact?
+Son Pin: can we check signature in tact?
 
-SP: check_signature
+Son Pin: check_signature
 
 Anton: https://docs.tact-lang.org/ref/core-math#checksignature (reply to 36831)
 
-SP: public key is Int? (reply to 36833)
+Son Pin: public key is Int? (reply to 36833)
 
 ashes: emit(MatchEvent{order_history:order_history}.toCell());   Could someone explain how to decode the body of the cell?  typescript e {       type: 'message_sent',       from: EQABEq658dLg1KxPhXZxj0vapZMNYevotqeINH786lpwwSnT,       to: EQDW7wbsPTfQcqoRM1lp-DGuIi-e7fPEo0zvPTqo9VdBuF48,       value: 500000000n,       body: x{FEEB96840000000280002255D73E3A5C1A9589F0AECE31E97B54B261AC3D7D16D4F1068FDF9D4B4E182000000C8000000C90000001880000013C_},       bounced: false     }
 
@@ -7902,11 +7902,11 @@ Haris: please help? (reply to 36916)
 
 Anton: we have some example documented here: https://github.com/tact-lang/awesome-tact  but I cannot recall if there was the one you are asking for specifically (reply to 36920)
 
-SP: any example about verify signature in tact @AntonTrunov
+Son Pin: any example about verify signature in tact @AntonTrunov
 
 Anton: did you check the Tact reference? (reply to 36922)
 
-SP: yes. it’s not clear
+Son Pin: yes. it’s not clear
 
 Haris: I could not find it (reply to 36921)
 
@@ -7914,7 +7914,7 @@ Anton: So is your question (reply to 36924)
 
 Anton: What is not clear exactly?
 
-SP: An example about data of signatures , message, pubkey. To verify signature
+Son Pin: An example about data of signatures , message, pubkey. To verify signature
 
 Anton: https://docs.tact-lang.org/ref/core-math#checksignature has a couple examples (reply to 36928)
 
@@ -7972,7 +7972,7 @@ Anton: bingo!
 
 Anton: I’d try sending more tons
 
-SP: can we send a rawdata message? @AntonTrunov
+Son Pin: can we send a rawdata message? @AntonTrunov
 
 Sumit: I am trying to compile a contract and i get this error: https://katb.in/ijulonuyoqi
 
@@ -8016,11 +8016,11 @@ Jake: where may I read more about this BASE_URL pls? How can I config my own col
 
 Jake: above is example from https://github.com/Ton-Dynasty/tondynasty-contracts
 
-SP: @AntonTrunov do you know how can convert message to cell in sdk??
+Son Pin: @AntonTrunov do you know how can convert message to cell in sdk??
 
 Alexander: In what kind of sdk, what language are you using etc, you need to provide more context to get help (reply to 37023)
 
-SP: async send(provider: ContractProvider, via: Sender, args: { value: bigint, bounce?: boolean| null | undefined }, message: null | MultisigInit) {                  let body: Cell | null = null;         if (message === null) {             body = new Cell();         }         if (message && typeof message === 'object' && !(message instanceof Slice) && message.$$type === 'MultisigInit') {             body = beginCell().store(storeMultisigInit(message)).endCell();         }         if (body === null) { throw new Error('Invalid message type'); }                  await provider.internal(via, { ...args, body: body });              }  let deployer: SandboxContract<TreasuryContract>;  Im using sandbox contract of "@ton/sandbox"; But I want to create a raw message and send raw message instead of a structured message
+Son Pin: async send(provider: ContractProvider, via: Sender, args: { value: bigint, bounce?: boolean| null | undefined }, message: null | MultisigInit) {                  let body: Cell | null = null;         if (message === null) {             body = new Cell();         }         if (message && typeof message === 'object' && !(message instanceof Slice) && message.$$type === 'MultisigInit') {             body = beginCell().store(storeMultisigInit(message)).endCell();         }         if (body === null) { throw new Error('Invalid message type'); }                  await provider.internal(via, { ...args, body: body });              }  let deployer: SandboxContract<TreasuryContract>;  Im using sandbox contract of "@ton/sandbox"; But I want to create a raw message and send raw message instead of a structured message
 
 Lin: Hi Jay, I want to ask if I want to customizable NFT metadata, like adding a "rarity" data into every NFT,  how can I add this data to the individual content? Just using append("string") function without any title like"rarity" ,  the code can correctly analyze its content? I don't understand how it works, please help me thx! (reply to 18371)
 
@@ -8194,7 +8194,7 @@ User<6573316513>: Has anyone worked with nft? Who has the opportunity to talk in
 
 Rahul: share link (reply to 36918)
 
-SP: Can we parse code and data from raw (cell, boc) ?
+Son Pin: Can we parse code and data from raw (cell, boc) ?
 
 hΔrdshell: anyone know how to programatically get the jetton wallet address if you hold a jetton
 
@@ -8762,7 +8762,7 @@ Joel Mun: If u learn func first, tact is easy peasy
 
 Joel Mun: Also i wanna mention that all important contracts on TON are written and deployed in func. So if u need to look into them (like jetton wallet contracts), u might wanna learn func too. Because it is inevitable that u interact with those contracts
 
-SP: "in_msg":{ "@type":"raw.message", "source":"EQANsvIDPk22MqkDtk-TCeBTW1MDz5PP-Gy35WVGOZ15N1LF", "destination":"EQClRL5UpS51_wm1Vmzs7GKquvCOZY7C6tv_PmrNOI0wENXF", "value":"20000000", "fwd_fee":"461337", "ihr_fee":"0", "created_lt":"24325525000002", "body_hash":"4nIC4tpC2aRMnGymkSN/Z72vYV+IqClvje96czP1d00=", "msg_data":{ "@type":"msg.dataRaw", "body":"te6cckEBAwEAVAACDyv1xOGBkAADAQIAQ7+NsvIDPk22MqkDtk+TCeBTW1MDz5PP+Gy35WVGOZ15N8AAQ7+QLZYDBkkCtsmxcRJqWPAIw81owF79ShN7vigMsj81pMDn44rX", "init_state":"" }, "message":"K/XE4YGQAAI=\n" },  how can we extract op_code from msg data? (forwarded from SP)
+Son Pin: "in_msg":{ "@type":"raw.message", "source":"EQANsvIDPk22MqkDtk-TCeBTW1MDz5PP-Gy35WVGOZ15N1LF", "destination":"EQClRL5UpS51_wm1Vmzs7GKquvCOZY7C6tv_PmrNOI0wENXF", "value":"20000000", "fwd_fee":"461337", "ihr_fee":"0", "created_lt":"24325525000002", "body_hash":"4nIC4tpC2aRMnGymkSN/Z72vYV+IqClvje96czP1d00=", "msg_data":{ "@type":"msg.dataRaw", "body":"te6cckEBAwEAVAACDyv1xOGBkAADAQIAQ7+NsvIDPk22MqkDtk+TCeBTW1MDz5PP+Gy35WVGOZ15N8AAQ7+QLZYDBkkCtsmxcRJqWPAIw81owF79ShN7vigMsj81pMDn44rX", "init_state":"" }, "message":"K/XE4YGQAAI=\n" },  how can we extract op_code from msg data? (forwarded from Son Pin)
 
 Сергей: Hi, I need to verify sender address when receive TokenNotification for contract written in funC (say USDT) Is it possible to calculate usdt jetton wallet address for my contract in tact?
 
@@ -8954,7 +8954,7 @@ Nikita: Hm, I will check same code I have for Jetton transfer as soon as I back 
 
 ashes: solved it like this, if u find it not optimal solution - please review  SendParameters{     to: self.contractJettonWallet!!,     value: ton("0.000001"),     mode: (SendRemainingValue + SendIgnoreErrors),     bounce: false, // 0x7362d09c - notify new owner     body: TokenTransfer{         queryId: now(),         amount: msg.amount,         destination: context().sender,         response_destination: myAddress(),         custom_payload: null,         forward_ton_amount: ton("0.000001"),         forward_payload: beginCell().storeUint(0,1).endCell().asSlice() }     .toCell() } (reply to 38246)
 
-Rahul: hi has anyone implemented ERC20 transferFrom equivalent code for jetton in tact
+Pika: hi has anyone implemented ERC20 transferFrom equivalent code for jetton in tact
 
 Vegeta Toriyama |: i dont think transfer from is necessary (reply to 38251)
 
@@ -8990,7 +8990,7 @@ Tom - Bushi: 2 questions: 1. how can I make a dictionary in blueprint tests? 2. 
 
 Vegeta Toriyama |: 1. can use map but it has limited max entries (reply to 38274)
 
-SP: 1. Question 1 =============== https://testnet.toncenter.com/api/v2/#/accounts/get_transactions_getTransactions_get  after get transaction. I can see in message info with   info: CommonMessageInfo;     init?: Maybe<StateInit>;     body: Cell;  But how can parse the body with generated function in Tact.  2. Question 2 =============== Although i added emit function. but the api still return the same
+Son Pin: 1. Question 1 =============== https://testnet.toncenter.com/api/v2/#/accounts/get_transactions_getTransactions_get  after get transaction. I can see in message info with   info: CommonMessageInfo;     init?: Maybe<StateInit>;     body: Cell;  But how can parse the body with generated function in Tact.  2. Question 2 =============== Although i added emit function. but the api still return the same
 
 Tom - Bushi: thanks for answering, do you know the limit? (reply to 38275)
 
@@ -9028,7 +9028,7 @@ Tom - Bushi: I figured it out, just need to use Dictionary.empty<bigint, bigint>
 
 — 2024-08-14 —
 
-Rahul: i want a tact function which can accept jettons by user for any jetton_master. how can i implement this ? (reply to 38254)
+Pika: i want a tact function which can accept jettons by user for any jetton_master. how can i implement this ? (reply to 38254)
 
 Nikita: Hey everyone again! I continue to fight against issue I texted about yesterday. Small updates from yesterday. I added dump for forward_payload I try to parse into struct (exact place where I get 9 exit code) and faced with strange behaviour. Here is place where I send message (jetton wallet contract): if (msg.forward_ton_amount > 0) {             dump(msg.forward_payload);             send(SendParameters{                 to: self.owner,                 value: msg.forward_ton_amount,                 mode: SendPayGasSeparately + SendIgnoreErrors,                 bounce: false,                 body: TokenNotification {                     queryId: msg.queryId,                     amount: msg.amount,                     from: msg.from,                     forward_payload: msg.forward_payload                 }.toCell()             });         }  and here is place where I receive it:  receive(msg: TokenNotification) {         dump("TokenNotification received".asComment());         self.requireJettonWallet(myAddress());         dump("wallet verification success".asComment());         dump(msg.forward_payload); }  And I see next in logs. Forward payload is different, even length, or I understand this logs incorrectly: (reply to 38264)
 
@@ -9634,7 +9634,7 @@ Urban: Can someone explain what am doing wrong here? Im trying to handle JettonT
 
 hΔrdshell: trying to login with firebase in my Telegram web app and it just loads forever doesnt go back to the TWAP
 
-MON prince: Gm fellow
+NearWormHole ▪️ 🐾: Gm fellow
 
 Marcus: Hello. How can i use Nodejs server to call receive() func in Tact contract? any example?
 
@@ -9650,9 +9650,9 @@ X Era Space 🦴 🍅▪️ 🐾 🐶: message(0x5fcc3d14) Transfer {   // messa
 
 Дмитрий: https://docs.tact-lang.org/book/exit-codes
 
-MON prince: I’m banned from sending messages (reply to 39043)
+NearWormHole ▪️ 🐾: I’m banned from sending messages (reply to 39043)
 
-MON prince: That is what @Aixeraspace sent me in dm
+NearWormHole ▪️ 🐾: That is what @Aixeraspace sent me in dm
 
 Nostra: Hey guys has anyone a template how to write the standard nft transfer method in tact for a getgems nft collection ?
 
@@ -9784,7 +9784,7 @@ Sumit: What does an error code 88 mean in a jetton wallet?
 
 hΔrdshell: anyone (reply to 39148)
 
-Ceo_sim: Who is core developer of Tact?
+Ton_M🎓: Who is core developer of Tact?
 
 3827: hi can someone tell mr how to get a ton wallet api
 
@@ -9832,9 +9832,9 @@ yash: looking for someone who can write smart contracts on funcc, please dm, it'
 
 Tom - Bushi: nope (reply to 39245)
 
-MON prince: Yo DM (reply to 39252)
+NearWormHole ▪️ 🐾: Yo DM (reply to 39252)
 
-MON prince: Over 18 (reply to 39257)
+NearWormHole ▪️ 🐾: Over 18 (reply to 39257)
 
 hate crab 🦀: 19 (reply to 39257)
 
@@ -10438,7 +10438,7 @@ Joaquim: I've pinged you (DM) (reply to 39821)
 
 Cyril M |: still need help on thiiissss (reply to 39692)
 
-Gy: /report (reply to 39827)
+GyNanzo: /report (reply to 39827)
 
 Nerses: is it okay that contract processing this message fails when  it receieves first time and in balance is 0 TON but after having some amount of TON it process susccessfully ? it fails because of sending Notify  message,Initially I set its parameters value:0 mode:1  but it failed as well
 
@@ -11106,7 +11106,7 @@ Anton: sure, but no documented examples, afaik
 
 Jb: Ok thanks! Is it coming with the 1.5 asm?
 
-Gy: Can i get docs for tact language?
+GyNanzo: Can i get docs for tact language?
 
 Cyril M |: is testnet down?
 
@@ -11532,9 +11532,9 @@ blocksdev: whats BD (reply to 40957)
 
 Ak: Sales manager
 
-Mohammed: Hi , I've developed  air drop  b o t
+wizardev: Hi , I've developed  air drop  b o t
 
-Ilya: Well done (reply to 40970)
+0xCryptolia: Well done (reply to 40970)
 
 Tugged: Anyone familiar with wallet creation and TON particularly. Dm
 
@@ -12006,7 +12006,7 @@ Ksms: I need to review q contract written in tact and I come from solidity. what
 
 Ksms: also is tact production ready?has it been audited? I recenlty found a post from 2023 where the main dev was advising against using it for applications handling more than 10k in funds
 
-Artur: Hi everyone!  I have this contract:  import "@stdlib/deploy";  message(0x05138d91) OwnershipAssigned {     query_id: Int as uint64;     prev_owner: Address;     forward_payload: Slice as remaining; }  contract TempContract with Deployable {     id: Int as uint16;     nftReceived: Bool;      init(id: Int) {         self.id = id;         self.nftReceived = false;     }      receive(msg: OwnershipAssigned) {         self.nftReceived = true;     }      get fun isNftReceived(): Bool {         return self.nftReceived;     } }  Could anyone tell me why  isNftReceived  returns false  after NFT was sent to the contract?   transaction id: 9fc01c6e272497f975e8d10f0f085000eb3661385b28f6dde0a3befd3be4c725 contract address: 0QAgJD5pmyNPcsfjEaBbrBrW98RYK8WLGfRY6fGUMAXC1ZSq network: testnet
+Артур: Hi everyone!  I have this contract:  import "@stdlib/deploy";  message(0x05138d91) OwnershipAssigned {     query_id: Int as uint64;     prev_owner: Address;     forward_payload: Slice as remaining; }  contract TempContract with Deployable {     id: Int as uint16;     nftReceived: Bool;      init(id: Int) {         self.id = id;         self.nftReceived = false;     }      receive(msg: OwnershipAssigned) {         self.nftReceived = true;     }      get fun isNftReceived(): Bool {         return self.nftReceived;     } }  Could anyone tell me why  isNftReceived  returns false  after NFT was sent to the contract?   transaction id: 9fc01c6e272497f975e8d10f0f085000eb3661385b28f6dde0a3befd3be4c725 contract address: 0QAgJD5pmyNPcsfjEaBbrBrW98RYK8WLGfRY6fGUMAXC1ZSq network: testnet
 
 — 2024-09-28 —
 
@@ -12178,7 +12178,7 @@ blocksdev: You have to go to the settings tab, and scroll to the bottom and tap 
 
 Rohit: Thanks but in new version there is no such option (reply to 41792)
 
-MON prince: Copy your mnemonic and try to add a new wallet, then scroll down to choose a testnet account. It will take you to testnet (reply to 41794)
+NearWormHole ▪️ 🐾: Copy your mnemonic and try to add a new wallet, then scroll down to choose a testnet account. It will take you to testnet (reply to 41794)
 
 Alexander: Hey, I need verify that a hash is correctly created. I want to hash an object with a varying size between 200 and 500 Bytes (4000 bits).  However, I cannot stored all of this in a cell without references. According to the docs, this implies I cannot sha256 hash it. It this true?  I have tried various other paths, like trying to convert the information to strings (since strings seems to have less strict size requirements), however this doesn't seem possible either.
 
@@ -12312,7 +12312,7 @@ Ton.: i creaded on gas.pump (reply to 41964)
 
 Yuri: I've seen this docs I just need to see contract's code that works with multi-jetons. I wanna get in how to transfer different jetons from contract-to-contract, contract-to-user (reply to 41967)
 
-MON prince: Please I want to ask, how to verify if a is holding my jetton. Or a wallet is holding nftItem from my nftCollection
+NearWormHole ▪️ 🐾: Please I want to ask, how to verify if a is holding my jetton. Or a wallet is holding nftItem from my nftCollection
 
 — 2024-10-07 —
 
@@ -12364,7 +12364,7 @@ live: hello，everybody，hao can i convert Int to Int as coins?
 
 Tree: Hey, how did you solve the problem? Can you please share？ (reply to 36351)
 
-MON prince: Please Dev’s on $TON eco. How can I do holder’s verification of a particular Jetton or NftCollection in the frontend.  [ isHolder, setHolder ] = useState(false) ;  async function checkHolder(userFreindlyAddress) { await // how to check if a wallet is an holder of a particular nft if isHolder setHolder(true)   if(isHolder) { console.log("Is Holder)  } else { console.log(" You didn't have any of this asset/nftItem from nftcollection in Your wallet"  }
+NearWormHole ▪️ 🐾: Please Dev’s on $TON eco. How can I do holder’s verification of a particular Jetton or NftCollection in the frontend.  [ isHolder, setHolder ] = useState(false) ;  async function checkHolder(userFreindlyAddress) { await // how to check if a wallet is an holder of a particular nft if isHolder setHolder(true)   if(isHolder) { console.log("Is Holder)  } else { console.log(" You didn't have any of this asset/nftItem from nftcollection in Your wallet"  }
 
 Max: Hey guys, what’s the difference between the following?  .storeAddress(myAddress()) vs .storeSlice(myAddress().asSlice())  I’ve seen both implementations used in a jetton transfer message body
 
@@ -12946,15 +12946,15 @@ Illia: Do wallets like Tonkeeper already support them? (reply to 42792)
 
 ⁭: When nft?
 
-Artur: Hello! Could anybody tell me why building this contract fails with this message:  Error: contracts\bank_account_contract.tact:5:1: Type "BankAccountContract" already exists Line 5, col 1:   4 | > 5 | contract BankAccountContract with Deployable {       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   6 |     id: Int as uint16;  import "@stdlib/deploy"; import "./messages"; import "./bank_cell_contract";  contract BankAccountContract with Deployable {     id: Int as uint16;      init(msg: DeployBankAccount) {         self.id = msg.id;     } }  I did not define contract BankAccountContract anywhere else in the code. Is this name reserved or smth?
+Артур: Hello! Could anybody tell me why building this contract fails with this message:  Error: contracts\bank_account_contract.tact:5:1: Type "BankAccountContract" already exists Line 5, col 1:   4 | > 5 | contract BankAccountContract with Deployable {       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   6 |     id: Int as uint16;  import "@stdlib/deploy"; import "./messages"; import "./bank_cell_contract";  contract BankAccountContract with Deployable {     id: Int as uint16;      init(msg: DeployBankAccount) {         self.id = msg.id;     } }  I did not define contract BankAccountContract anywhere else in the code. Is this name reserved or smth?
 
-Artur: other contracts building with no errors (even those that deploy BankAccountContract) (reply to 42834)
+Артур: other contracts building with no errors (even those that deploy BankAccountContract) (reply to 42834)
 
 Tiqan: Do you import BankAccountContract in  messages or bank_cell_contract ? (reply to 42835)
 
-Artur: yes :( (reply to 42836)
+Артур: yes :( (reply to 42836)
 
-Artur: oh its circular import...
+Артур: oh its circular import...
 
 Tiqan: Thats a circular import
 
@@ -12962,7 +12962,7 @@ Tiqan: es (reply to 42838)
 
 Tiqan: *yes
 
-Artur: got it.. thank you! (reply to 42839)
+Артур: got it.. thank you! (reply to 42839)
 
 Tiqan: You are Welcome ❤️
 
@@ -13049,8 +13049,4 @@ Jiego: then whats the point of the loan? (reply to 42980)
 @just_d.fanciey: I don't know (reply to 42981)
 
 Max: Leverage (reply to 42981)
-
-Jiego: but if you can leverage without risk (as you only need to wait for your transaction to be on the green), how is it leverage?
-
-Jiego: is more like a friend giving you money
 

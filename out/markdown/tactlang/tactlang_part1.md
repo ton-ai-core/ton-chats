@@ -5264,7 +5264,7 @@ User<6247944943>: ❤️
 
 — 2023-06-05 —
 
-Ди♡: it's a TON of lies, they're all fake scammers, don't believe them, they're all a dime a dozen
+1.1: it's a TON of lies, they're all fake scammers, don't believe them, they're all a dime a dozen
 
 Dima: Who (reply to 3196)
 
@@ -5832,7 +5832,7 @@ Alex: https://github.com/tact-lang/awesome-tact#-smart-contracts-examples
 
 — 2023-07-17 —
 
-User<6314963970>: Interview With Narek Abovyan, Head of TonTech at FSL  The TON & Company YouTube channel has released a fresh interview with TonTech team member and TON ecosystem contributor Narek Abovyan.  Narek talked about his fascinating journey in the blockchain industry, his role in Getgems, and his contribution to the creation of TON NFT standards (in particular, the Soulbound standard).   He also talked about the Getgems launch, TonTech’s plans, a collaboration with TON Play, and more.  We recommend watching the interview — it’s available on YouTube. (forwarded from TON Community)
+sajib: Interview With Narek Abovyan, Head of TonTech at FSL  The TON & Company YouTube channel has released a fresh interview with TonTech team member and TON ecosystem contributor Narek Abovyan.  Narek talked about his fascinating journey in the blockchain industry, his role in Getgems, and his contribution to the creation of TON NFT standards (in particular, the Soulbound standard).   He also talked about the Getgems launch, TonTech’s plans, a collaboration with TON Play, and more.  We recommend watching the interview — it’s available on YouTube. (forwarded from TON Community)
 
 Howard: I deleted it first, since the URL looks malicious for me. (reply to 3550)
 
@@ -6738,7 +6738,7 @@ Howard: In light of the increasing number of people joining Tact recently, I wan
 
 Howard: Feel free to provide feedback or ideas for expansion if you have any! (reply to 4108)
 
-Abhishek|: https://t.me/OOIVentures/9
+Abhishek Pandey |: https://t.me/OOIVentures/9
 
 nonam3e: but how can you set the jetton wallet address of the contract on init of the contract? (reply to 4108)
 
@@ -7814,7 +7814,7 @@ Vlad: Coins is equal to uint120, right?
 
 Howard: 120bits, yes. https://tact-by-example.org/02-integers (reply to 5043)
 
-User<5787719496>: Hello
+Annier: Hello
 
 Vlad: Actually that’s not true, I was just testing with previous build 😅 with proper tact syntax (reply to 5040)
 
@@ -7830,11 +7830,11 @@ Alireza: So, which algorithm is used? (reply to 5129)
 
 Howard: Sure you do!  You can try. (reply to 5129)
 
-User<5787719496>: Hablo español
+Annier: Hablo español
 
 &rey: Why do you need them instead of directly changing price in DEX contract? To multiply jetton balance by some value, you need to get that multiplier into jetton wallet contract, and that may be expensive. (reply to 5129)
 
-User<5787719496>: Yes (reply to 5152)
+Annier: Yes (reply to 5152)
 
 Howard: Hi, this is a really tough question: "How can I make the current smart contract I've built understand if the sender is the correct NFT item from a specific NFT collection I'm targeting?"  1. In the past, if I deployed the NFT collection simultaneously, it was straightforward. This is because I knew how to calculate each NFT item's address within the smart contract.  2. The issue arises when an NFT item is transferred. It doesn't convey useful information in a consistent manner. This means the contract simply receives OwnershipAssigned(0x05138d91) and can't determine if it's the desired NFT item or not. (neither which the NFT Item is down below in one Specific Collection or not)
 
@@ -12098,7 +12098,7 @@ Denis: hey guys. can someone say what is unverified NFT? https://testnet.tonview
 
 Denis: will it be verified after a while?
 
-𝔸𝕄𝕀ℕ: Hi
+ᗩᗰᏆᑎ: Hi
 
 𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: How I can connect with Tact repo organizers?
 
@@ -14636,9 +14636,9 @@ dwusiq: I deployed a jetton two days ago and was able to mint and transfer norma
 
 Cortex: how do you iterate thru map in tact?
 
-Crypto A99: any one know how to refund the value? When value > gas
+Alex: any one know how to refund the value? When value > gas
 
-szansky 🐱: Hi guys
+szansky: Hi guys
 
 Mehdi: 7
 
@@ -14674,7 +14674,7 @@ Raden0x: i've successfully deployed contracts via collection or item.. however, 
 
 Raden0x: it uploads succesffully and i recieve a link to use my gateway domain.. but still nothing
 
-Doro2rooo: 15
+🐾Omid: 15
 
 Gsaomfets: 10
 

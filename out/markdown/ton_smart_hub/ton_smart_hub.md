@@ -8,7 +8,7 @@ Vladimir: 🎯 Welcome to Tact Smart Battle — the ultimate smart contract chal
 
 Farhad Seyfullazada: Use blueprint
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Hello everyone! 🙂  It’s so wonderful to see so many familiar faces. 🤨  I’m thrilled to be taking on this challenge with you, I’ve really missed all of you. 🥺  Wishing the best of luck to everyone!🧑‍💻
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Hello everyone! 🙂  It’s so wonderful to see so many familiar faces. 🤨  I’m thrilled to be taking on this challenge with you, I’ve really missed all of you. 🥺  Wishing the best of luck to everyone!🧑‍💻
 
 Unknown: Hello everybody! We are glad to see you.
 
@@ -22,7 +22,7 @@ Nikita: https://github.com/ton-org/blueprint (reply to 62)
 
 Randolph: GM
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Will submissions be verified by gitHub actions as before?
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Will submissions be verified by gitHub actions as before?
 
 Brave: is there an alternative?)) 😂 (reply to 59)
 
@@ -272,7 +272,7 @@ Sunny: ⚡️
 
 Sunny: Are you winning son?✊🏻💙 (reply to 1379)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I don't see anything that can stop me from trying 🧑‍💻 (reply to 1383)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I don't see anything that can stop me from trying 🧑‍💻 (reply to 1383)
 
 Vladimir: 🚀 Tact Smart Battle has officially started! 🤜  All tasks are now live.   The GitHub repo with setup, templates, and participation guide is here:    🐱 tact-smart-battle  Dive in, build, and push your skills to the limit
 
@@ -346,7 +346,7 @@ pennione: is there some problem with the last testcase of problem A, Keep failin
 
 Mario: Hi
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: can we change message types?   task2 deploy message doesn't have endTime :/
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": can we change message types?   task2 deploy message doesn't have endTime :/
 
 Grit: I second that. ProposalInit doesn't have votingEnding in it. Please fix the task description (reply to 1458)
 
@@ -354,11 +354,11 @@ Grit: I second that. ProposalInit doesn't have votingEnding in it. Please fix th
 
 Иван: BTW my solution for B dont work either, no idea why... (reply to 1472)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: thanks for help my friend (reply to 1472)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": thanks for help my friend (reply to 1472)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: HaHa 0 point :) (reply to 1476)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": HaHa 0 point :) (reply to 1476)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: How is possible, local tests are passing but codeforce's partial result is 0 points :/
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": How is possible, local tests are passing but codeforce's partial result is 0 points :/
 
 Nikita: Read statements better (reply to 1484)
 
@@ -370,13 +370,13 @@ Shi Wei: Will there be additional tests after the contest is over? Are the score
 
 Nikita: For example, I did a "cashback" here and it did not allow me to pass the test successfully. (reply to 1484)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I have cashback too, let me try with banking. thanks for hint (reply to 1489)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I have cashback too, let me try with banking. thanks for hint (reply to 1489)
 
 Nikita: just remove it (reply to 1490)
 
 Gurpreet: Hi
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: It didn't help 🧐 (reply to 1491)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": It didn't help 🧐 (reply to 1491)
 
 Nikita: Interesting
 
@@ -398,13 +398,13 @@ pennione: Mine passes 9 cases
 
 pennione: Don't know what's wrong
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I have problem with B too. local tests are passed even with 0.01 TON but 0 points in codeforces 🗿 (reply to 1474)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I have problem with B too. local tests are passed even with 0.01 TON but 0 points in codeforces 🗿 (reply to 1474)
 
 Anton: Please check out the corrected version of Problem B’s statement (reply to 1524)
 
 としあき: I am getting 16/18 test passed on B. Has anyone had a similar problem and figured it out?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: thanks for response, but where? github hasn't new changes (reply to 1526)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": thanks for response, but where? github hasn't new changes (reply to 1526)
 
 Anton: it’s all on codeforces (reply to 1528)
 
@@ -456,7 +456,7 @@ Anton: it’s up to you
 
 としあき: it would be nice to have a better test suite available to check what's actually going wrong, but I guess that's part of the challenge...
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: same,  #1: OK [46ms, 0MB]: task2 Tests completed 17/18 Score: 0.00 Total score: 0.00 (reply to 1532)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": same,  #1: OK [46ms, 0MB]: task2 Tests completed 17/18 Score: 0.00 Total score: 0.00 (reply to 1532)
 
 Salty: How are points calculated? Is it related to speed? Length of the code? Or something else? Thx
 
@@ -494,7 +494,7 @@ Kinda Bad Music: i might be blind 😫😫 (reply to 1472)
 
 Dammie: GM everyone
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: How can I verify the master? Because address of state had similar result (reply to 1567)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": How can I verify the master? Because address of state had similar result (reply to 1567)
 
 Vladimir: 🛠 Tact Smart Battle Task Updates  We’ve made a few minor corrections and clarifications to the task descriptions to ensure everything is as clear and transparent as possible.  📄 Full list of changes:   👉 https://github.com/ton-studio/tact-smart-battle/pull/1  If you’ve already started working on your solutions — take a quick look to make sure your task wasn’t affected. The logic remains unchanged; the updates are purely textual.  Thanks to everyone who shared feedback. Let’s keep building! 🔥
 
@@ -510,7 +510,7 @@ Akan: I'm also stuck here😫 (reply to 1595)
 
 Иван: @AntonTrunov, you shoud defenetly say, that in B one shouldn't send excess, otherwise the tests would fail, despite the fact that sending excess doesn't contradict the problem statement.
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: this solved my problem, 18/18 (reply to 1600)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": this solved my problem, 18/18 (reply to 1600)
 
 ......: why is the last test case failing
 
@@ -528,7 +528,7 @@ melese: Hi
 
 Vladimir: I believe this can be displayed even if the solution is completely solved. The main thing is to see that you passed all the private tests (reply to 1607)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: nice!  I'm stuck on C's #9 🗿 (reply to 1610)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": nice!  I'm stuck on C's #9 🗿 (reply to 1610)
 
 Ackermann: Where is this (reply to 1435)
 
@@ -538,7 +538,7 @@ Ackermann: Please how do I submit?? (reply to 1616)
 
 Farhad Seyfullazada: Read initial statements more carefully (reply to 1610)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: local test passed 100K votes, is it not enough to find out our contract is scalable? 🤨 (reply to 1614)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": local test passed 100K votes, is it not enough to find out our contract is scalable? 🤨 (reply to 1614)
 
 Ackermann: @alefman I registered for the contest but I want to submit code it’s saying I have to register to submit
 
@@ -550,9 +550,9 @@ Skuli: I've done this before. But it still didn't work. (reply to 1627)
 
 ......: is this the syntax of deploying contract from other contract i can't find this anywhere
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: before deploy? review your code and ensure only master can initializing the proposal contract and throw exactly 2025 code by proposal contract (reply to 1629)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": before deploy? review your code and ensure only master can initializing the proposal contract and throw exactly 2025 code by proposal contract (reply to 1629)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: @xpyctum   my local test with 100_000 voters are passed, but I'm stuck on 8/11. any hint please?
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": @xpyctum   my local test with 100_000 voters are passed, but I'm stuck on 8/11. any hint please?
 
 Иван: BTW What does Judgement failed error mean?
 
@@ -566,13 +566,13 @@ Oleg: Is this repeating or once? (reply to 1636)
 
 Oleg: Yes, try one more time please (reply to 1641)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I'm not using map for C solution. I'm not sure maps can be an solution 🧐 (reply to 1637)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I'm not using map for C solution. I'm not sure maps can be an solution 🧐 (reply to 1637)
 
 Иван: 🤔
 
 Ackermann: @xpyctum (reply to 1647)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Its a ping-pong method using new tact's feature deploy :D
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Its a ping-pong method using new tact's feature deploy :D
 
 Oleg: You need to "Enter". Just right on the top of screen (reply to 1647)
 
@@ -590,9 +590,9 @@ Anton: yes, you can throw any number in the range (reply to 1658)
 
 Grit: It's easy to miss some initial requirements in this one. Please carefully read them. (reply to 1614)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: yeah, I missed cashback and timeout validation.  now I'm stuck on 10/11 :)  I have child contracts for voters, but IDK how to throw error from them seems test script needs an throw  EDIT: test script needs cashback at throw xaxaaxa (reply to 1661)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": yeah, I missed cashback and timeout validation.  now I'm stuck on 10/11 :)  I have child contracts for voters, but IDK how to throw error from them seems test script needs an throw  EDIT: test script needs cashback at throw xaxaaxa (reply to 1661)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: solved (reply to 1661)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": solved (reply to 1661)
 
 Bulat: Will solutions be manually checked for safety and bugs in the final leaderboard? Current tests can't cover all cases so can we omit some safety checks to reduce gas consumption?
 
@@ -648,7 +648,7 @@ Kinda Bad Music: do you use throwIf or require ? i have already done this (reply
 
 としあき: Could you publish official solutions on some sort of online sandbox without visible code, so we can send messages to it and see how it needs to react? The problem statement is not precise enough to understand what the logic tests require.
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: throwUnless (reply to 1695)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": throwUnless (reply to 1695)
 
 Andrey: Hi, sorry if the question is stupid, but all tests are hidden?
 
@@ -740,15 +740,15 @@ Gosha: any tips how to optimize a?
 
 Dmitry: Looks like you’ve already optimized it quite well
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I'm stuck on D's 20/23  previous balance + 0.01 ton or balance should be exactly 0.01 and returns extra?
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I'm stuck on D's 20/23  previous balance + 0.01 ton or balance should be exactly 0.01 and returns extra?
 
 Grit: it should return the extra above 0,01 (reply to 1795)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: contract balance after top up should not be greater than 0.01? (reply to 1796)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": contract balance after top up should not be greater than 0.01? (reply to 1796)
 
 Grit: yes
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: same result, I think description is not clear (for must people) (reply to 1797)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": same result, I think description is not clear (for must people) (reply to 1797)
 
 SHY(⁠*⁠_⁠*⁠): Yes description is not clear (reply to 1802)
 
@@ -768,7 +768,7 @@ Petr: https://docs.tact-lang.org/book/gas-best-practices/ (reply to 1815)
 
 Boa: stuck on this too (reply to 1795)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: task5 14/15, I can't figure the last condition. any hint?  🧑‍💻
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": task5 14/15, I can't figure the last condition. any hint?  🧑‍💻
 
 Shi Wei: I am facing the same issue as well :( (reply to 1820)
 
@@ -786,13 +786,13 @@ Surender: Hlo new members
 
 Surender: 🧠 Tact Smart Battle 🤜  Join the ultimate smart contract challenge powered by Tact, organized by TON Studio & Codeforces  🏅 Prize Pool — $20,000 in Toncoin!  🎯 Challenge Tasks: 1. Simple Voting — basic voting system. 2. Serial Voting — multiple proposals via a master contract. 3. Scalable Voting — support up to 4 billion voters. 4. Voting with Refunds — refunds to voters. 5. Gas-Managed Voting — fully optimized contracts.  🏆 Rewards: - Top 128 participants share the prize pool and receive exclusive Soulbound Tokens (SBTs). - All participants with valid solutions also receive a Participant SBT. - SBTs include embedded on-chain developer reputation.  ⭐️ Additional Perks: - Top participants will be invited for job interviews at TON Studio.  ⏰ Duration: 7 days  🗓️ Start Date: April 21, 12:00 (UTC+3) 🛑 Deadline: April 28, 12:00 (UTC+3)  Registration: 👉 Challenge Link (Codeforces)   Registration guide: 👉 Notion link  Community & Support: 👉 Telegram Challenge Chat  Good luck and may your contracts be efficient and bug-free! 🚀🔥
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: i call this progress 🗿 (reply to 1822)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": i call this progress 🗿 (reply to 1822)
 
 Surender: Mtlb
 
 Boa: I call this frustration 😭 (reply to 1833)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: @xpyctum   dear Oleg, please advice us about task5 14/15. thanks in advanced
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": @xpyctum   dear Oleg, please advice us about task5 14/15. thanks in advanced
 
 Surender: Batao sir New joining (reply to 1837)
 
@@ -808,7 +808,7 @@ Yaroslaw: I so understand you 🤗 (reply to 1836)
 
 Zyad M. Ayad: I solved A and C and still can't pass more than 12 tests on B 😩
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I don't see anything that can stop me from trying (reply to 1383)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I don't see anything that can stop me from trying (reply to 1383)
 
 Sunny: Try your best 🤝 (reply to 1846)
 
@@ -828,7 +828,7 @@ Yaroslaw: wow!  how did you beat 20/23 on D? (reply to 1846)
 
 Farhad Seyfullazada: me too (reply to 1820)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 20/23 mean your contract is exactly level2 without level 4 requirement. you have to read full description rather than first line (reply to 1869)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": 20/23 mean your contract is exactly level2 without level 4 requirement. you have to read full description rather than first line (reply to 1869)
 
 Иван: Yes, 172 :) (reply to 1850)
 
@@ -846,7 +846,7 @@ Ruslan: beast (reply to 1881)
 
 Yaroslaw: Same goes for 21/23? I need to optimise it more? (reply to 1871)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: is not about optimization. you have to implement top-up as statement said:  The `ProposalMaster` contract should have a top-up empty message receiver that increases the contract balance to 0.01 TON each time it is invoked. The contract should accept all the funds if the incoming message carries a smaller TON amount. (reply to 1884)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": is not about optimization. you have to implement top-up as statement said:  The `ProposalMaster` contract should have a top-up empty message receiver that increases the contract balance to 0.01 TON each time it is invoked. The contract should accept all the funds if the incoming message carries a smaller TON amount. (reply to 1884)
 
 Mooventh: Y bro tell me pls 🙏🏻
 
@@ -860,7 +860,7 @@ jum: in problem B, what should be the value in the deploy message?
 
 MBA: it depends on the mode you can put 0 and use mode 64 for that (reply to 1896)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: read statement   You must handle cases when voting transactions fail midair due to insufficient funds. The voter should be able to vote again by increasing the amount of Toncoins spent. Do not assume gas price is constant. (reply to 1895)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": read statement   You must handle cases when voting transactions fail midair due to insufficient funds. The voter should be able to vote again by increasing the amount of Toncoins spent. Do not assume gas price is constant. (reply to 1895)
 
 Sasha: Do we need to throw anything specific in C? Wrote it in 3 different ways and all of them are 10/11
 
@@ -868,13 +868,13 @@ Ackermann: I’m stuck at 9/18 in B
 
 MBA: should i do it on the ProposalVoteCast receive to accept the vote? (reply to 1899)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: its time to changing the battle name: "ASM Smart Battle"  lets fight 🤨
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": its time to changing the battle name: "ASM Smart Battle"  lets fight 🤨
 
 Farhad Seyfullazada: really? (reply to 1906)
 
 MBA: last test is not for gas management i think. (reply to 1903)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: yep, It's tact and we are open to use all tact's features and respect the development team's achievements (reply to 1908)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": yep, It's tact and we are open to use all tact's features and respect the development team's achievements (reply to 1908)
 
 Farhad Seyfullazada: Yess one thing is obvious that descriptions are not clear and you need to guess in many cases.
 
@@ -1028,7 +1028,7 @@ Aeren: can't figure out how to use it :/
 
 Zyad M. Ayad: guys, this isn't me  this is the maximum achieved by everyone (reply to 2030)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 1012.81 without any native or custom ASM  New tact's features are awesome  message() cashback() deploy()  I really enjoyed. I appreciates tact's dev team (reply to 2030)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": 1012.81 without any native or custom ASM  New tact's features are awesome  message() cashback() deploy()  I really enjoyed. I appreciates tact's dev team (reply to 2030)
 
 Max: Where can I read about ASM integration in tact?
 
@@ -1266,7 +1266,7 @@ SHY(⁠*⁠_⁠*⁠): Same I am also on question D 22/23 and on E 14/15 (reply t
 
 Alexey: This comment makes more sense than half of the problem description (reply to 2144)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: There are 60 hidden points in quests 3 and 5 🧐
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": There are 60 hidden points in quests 3 and 5 🧐
 
 SHY(⁠*⁠_⁠*⁠): Bro give some hints on D
 
@@ -1276,23 +1276,23 @@ Kinda Bad Music: it's just excess part ... (reply to 2198)
 
 Shi Wei: For D, do we need to return funds for DeployNewProposal? Or do we send all the funds to the Proposal contract?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 20/23 mean you are not implemented D's requirements    D is B + top-up (reply to 2198)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": 20/23 mean you are not implemented D's requirements    D is B + top-up (reply to 2198)
 
 SHY(⁠*⁠_⁠*⁠): I am missing last one 22/23 (reply to 2202)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: you should bank up to 0.01 ton   extras should refund and less should accept (reply to 2203)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": you should bank up to 0.01 ton   extras should refund and less should accept (reply to 2203)
 
 Shi Wei: @hitasp can you help with this? (reply to 2201)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: read statement.md:  The proposal contracts should reimburse the excess funds sent by voters: it cannot freeze funds, burn them, or send them to someone else. (reply to 2206)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": read statement.md:  The proposal contracts should reimburse the excess funds sent by voters: it cannot freeze funds, burn them, or send them to someone else. (reply to 2206)
 
 SHY(⁠*⁠_⁠*⁠): @hitasp he need clarity on this For D, do we need to return funds for DeployNewProposal? Or do we send all the funds to the Proposal contract?
 
 Shi Wei: This is only for the voting though. What about the deployment of Proposal through ProposalMaster? (reply to 2207)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: so, follow up your idea and see the result (reply to 2209)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": so, follow up your idea and see the result (reply to 2209)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: @Shy2009   I think statement is clear. it's not contain anything about proposal deployers refund but voters (reply to 2207)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": @Shy2009   I think statement is clear. it's not contain anything about proposal deployers refund but voters (reply to 2207)
 
 spirit: @po1ok English only please
 
@@ -1308,17 +1308,17 @@ Aeren: anyone else stuck on 21/23?
 
 Aeren: on D
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: calculate voter balance before and after voting and vote twice first with tiny amount   proposal state should be 0, 0  then ensure balance is close to the before vote value, then vote again with 0.1 ton and state should change (reply to 2226)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": calculate voter balance before and after voting and vote twice first with tiny amount   proposal state should be 0, 0  then ensure balance is close to the before vote value, then vote again with 0.1 ton and state should change (reply to 2226)
 
 TZ: I am. I've tried many ways but still stuck on that. (reply to 2229)
 
 Nikita: If require fails, does it automatically trigger a cashback return?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: yes, to sender (reply to 2236)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": yes, to sender (reply to 2236)
 
 Farhad Seyfullazada: trivial point (reply to 2237)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: why? (reply to 2238)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": why? (reply to 2238)
 
 Farhad Seyfullazada: the sender is the address initiated the message not the starter of the transaction (reply to 2239)
 
@@ -1328,7 +1328,7 @@ ABC: And what happens with throw()
 
 ABC: Does it also trigger a cashback return?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: context.sender contains 1 address which initiated the message. can be voter wallet contract address or another contract address (ProposalMaster in our case). (reply to 2241)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": context.sender contains 1 address which initiated the message. can be voter wallet contract address or another contract address (ProposalMaster in our case). (reply to 2241)
 
 jum: in problem C, how can I throw if the sender has already voted? In my implementation I just send a message to another contract that checks it, so I cannot throw in the proposal contract
 
@@ -1336,17 +1336,17 @@ TZ: just use the throw function(e.g. throw(404)) (reply to 2245)
 
 jum: yes but I don't know when to throw
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: instead of throwing, reply to parent, you cant cashback from child (reply to 2245)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": instead of throwing, reply to parent, you cant cashback from child (reply to 2245)
 
 jum: do we need cashback in problem C?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: not sure, read the statement. C & E are similar (reply to 2249)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": not sure, read the statement. C & E are similar (reply to 2249)
 
 Mobarak Hosen: In B, should i check sender in during vote??
 
 Mobarak Hosen: Stuck 17/18
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 371 😐😐😐😐  total point: 220  that mean 151 extra point. is it a bug or what :)))
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": 371 😐😐😐😐  total point: 220  that mean 151 extra point. is it a bug or what :)))
 
 Aeren: in problem D,  > The ProposalMaster contract should have a top-up empty message receiver that increases the contract balance to 0.01 TON each time it is invoked. The contract should accept all the funds if the incoming message carries a smaller TON amount.   Does it mean that total balance after that is at most 0.01 TON? or the amount of balance it accepts is at most 0.01?
 
@@ -1504,7 +1504,7 @@ Tory: I tried for multiple contracts and it always fails last test N I don't get
 
 ＫＴＳＨＡＣＸ: ur username ? (reply to 2359)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Wasn't Yahya better? He had a better position.   Scammers everywhere (reply to 2363)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Wasn't Yahya better? He had a better position.   Scammers everywhere (reply to 2363)
 
 Yaroslaw: dude why do such a thing, what's the purpose of this spam? (reply to 2359)
 
@@ -1516,55 +1516,55 @@ Andrey: This is really confusing. There won't be systests after contest is over.
 
 Yaroslaw: what a fun way to spend $20,000
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: well, you can do same but I'm not sure such solutions will be disqualified or not. I'm waiting for official clarifications (reply to 2368)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": well, you can do same but I'm not sure such solutions will be disqualified or not. I'm waiting for official clarifications (reply to 2368)
 
 Andrey: Their reply to me was “aside from anti plagiarism and checks for AI, no other tests planned”, that’s why I’m also raising it here. (reply to 2370)
 
 Kinda Bad Music: The task requires scalability. So they have to remove the ones that have not implemented it correctly (reply to 2370)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: so, they should remove that requirement for 4 billion vote (reply to 2371)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": so, they should remove that requirement for 4 billion vote (reply to 2371)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: just required limited storage (100K). no scalability need. (reply to 2372)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": just required limited storage (100K). no scalability need. (reply to 2372)
 
 Kinda Bad Music: Didn't they say up to 4 billion votes ? (reply to 2374)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: this is a bug in test script that can't handle 4 billion vote simulation. so script only test contract storage
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": this is a bug in test script that can't handle 4 billion vote simulation. so script only test contract storage
 
 Aeren: is 4 billion vote even possible to test in 60 seconds?
 
 jum: so how many votes do we actually get? can we store all the addresses in a map? I tried but it does not work
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: there is a trick to pass all tests with simple map for C & E and people are using it
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": there is a trick to pass all tests with simple map for C & E and people are using it
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: you should manage contract storage and store all voter addresses to avoid sending extra messages to child contracts (reply to 2378)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": you should manage contract storage and store all voter addresses to avoid sending extra messages to child contracts (reply to 2378)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: that mean huge extra gas 🗿  I'm waiting for organizers clarifications. DO NOT SUBMIT SUCH SOLUTIONS before clarifications (reply to 2380)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": that mean huge extra gas 🗿  I'm waiting for organizers clarifications. DO NOT SUBMIT SUCH SOLUTIONS before clarifications (reply to 2380)
 
 Phoenix: C
 
 Andrey: 10 (reply to 2378)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 2000 (reply to 2383)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": 2000 (reply to 2383)
 
 Andrey: 10 for C
 
 Kinda Bad Music: you don't  that's the only hint you get (reply to 2386)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: you should be smart. I can't help until organizers clarifications.  good luck (reply to 2386)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": you should be smart. I can't help until organizers clarifications.  good luck (reply to 2386)
 
 Farhad Seyfullazada: It is counter intuitive (reply to 2355)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: @alefman @AntonTrunov (reply to 2381)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": @alefman @AntonTrunov (reply to 2381)
 
 Иван: BTW as was mention previously, if the solution passes all the tests - it should be vaild (reply to 267)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: that's correct. but we asked for clarifications because statement said: this time the voting contract needs to be scalable and should handle any number of voters up to 4 billion. (reply to 2391)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": that's correct. but we asked for clarifications because statement said: this time the voting contract needs to be scalable and should handle any number of voters up to 4 billion. (reply to 2391)
 
 Иван: I totaly agree with you, that its not really fair (reply to 2395)
 
 Виталий: still you are fighting against tests, not against the task
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: statement should change to:  this time the voting contract needs to be storage friendly  and should handle all tests.
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": statement should change to:  this time the voting contract needs to be storage friendly  and should handle all tests.
 
 Artur: Will the solutions be manually checked for correctness after the competition? Or if the solution passes all the tests, does it mean it's valid?
 
@@ -1602,7 +1602,7 @@ SHY(⁠*⁠_⁠*⁠): 0.01 in offical problem statement in D
 
 Tasneem(“”);: @hitasp @AntonTrunov welp?) 0.01 ton or 0.1 ton?) problem D (reply to 2410)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: 0.01 (reply to 2419)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": 0.01 (reply to 2419)
 
 SHY(⁠*⁠_⁠*⁠): management of this contest is very bad
 
@@ -1614,7 +1614,7 @@ SHY(⁠*⁠_⁠*⁠): nothing is explicit
 
 ＫＴＳＨＡＣＸ: i am still struggling with 1 test case for E, stuck at 14/15
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Running such events is difficult and needs months of extra work which is not easy for a busy team (reply to 2421)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Running such events is difficult and needs months of extra work which is not easy for a busy team (reply to 2421)
 
 SHY(⁠*⁠_⁠*⁠): i can understand this but in problem statement language is very unclear almost in every question and they also need to mention explicitly that these things will be tested overall i have issue with only wordings (reply to 2426)
 
@@ -1624,7 +1624,7 @@ Sohom: I had difficulty understand what the problem B is asking for.
 
 Sohom: But I guess it's my skill issue since I'm getting 4/18 (FINALLY got some non-zero), and the worst of y'all got 17/18.
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: its about deploying new contracts from another contract, you can learn more in docs and tact-by-example web app (reply to 2430)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": its about deploying new contracts from another contract, you can learn more in docs and tact-by-example web app (reply to 2430)
 
 ABC: stuck on 21/23 in D. Any hints?
 
@@ -1632,23 +1632,23 @@ Tasneem(“”);: sorry for tagging you so much, but could you please give some 
 
 Sohom: Yeah thanks. Already gone through it. I'm getting 4/18 now so I assume the implementation is correct but it's missing something. (reply to 2431)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: yes (reply to 2143)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": yes (reply to 2143)
 
 Sohom: So my next assumption is that I'm missing something in the statement.
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: top up and cashback (reply to 2432)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": top up and cashback (reply to 2432)
 
 ＫＴＳＨＡＣＸ: @hitasp any hints on E
 
 ＫＴＳＨＡＣＸ: ?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: similar to C + cashback + ensure context.value contains compose fee (reply to 2438)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": similar to C + cashback + ensure context.value contains compose fee (reply to 2438)
 
 Sohom: There's this in B: > Each Proposal contract is identified by its master address and a unique proposalId number, which should start from zero and increase by one each time a new proposal is deployed.  Is there any significance to it? Do we need to add any explicit checks for this? I don't understand why there's this sentence otherwise.
 
 Alexey: I'd say that tasks are cool. Tests are.. as I understand not so good but that's more complicated. But text of the tasks itself is very bad. And for me that's the main issue with this contest (reply to 2426)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: The tact team and contest organizer has done a great job with implementing the CodeForces integration. I'm sure these very minor issues will be fixed in the future contests. (reply to 2442)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": The tact team and contest organizer has done a great job with implementing the CodeForces integration. I'm sure these very minor issues will be fixed in the future contests. (reply to 2442)
 
 Alexey: Hope so. But at least add some examples for bottleneck cases (that a lot of people mentioned in the chat) doesn't sound like rocket science to me
 
@@ -1662,13 +1662,13 @@ Max: Someone a long time ago stated that for B to pass you need to not send exce
 
 ＫＴＳＨＡＣＸ: now comes the optimization part
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I participated in the TON Challenges for the first time 3 years ago. At that time I was able to pass only 2/5 tasks. Old friends know that time resources was very limited.    These challenges are to attract more developers and are very cool.  Today I got acquainted with the cashback() method. last day I meet message() and deploy(). When I compare it with the old version, I see that the TACT's development team has been successful. (reply to 2446)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I participated in the TON Challenges for the first time 3 years ago. At that time I was able to pass only 2/5 tasks. Old friends know that time resources was very limited.    These challenges are to attract more developers and are very cool.  Today I got acquainted with the cashback() method. last day I meet message() and deploy(). When I compare it with the old version, I see that the TACT's development team has been successful. (reply to 2446)
 
 Kinda Bad Music: finally instead of 12/15 i get 13/15 🤬🤬🤬🤬🤬
 
 Petr: Hope you also found our new VS Code plugin, which is much more powerful than the previous one 😋 (reply to 2452)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: it's really awesome. thank you guys (reply to 2454)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": it's really awesome. thank you guys (reply to 2454)
 
 Kinda Bad Music: 🛌🛌🛌 (reply to 2453)
 
@@ -1688,7 +1688,7 @@ Aeren: being a good advertisement has nothing to do with being a good contest, m
 
 Ackermann: I feel we should even be able to know which tests do not pass so we can focus on that and all
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: This is not true. The only bug I found was in testing cases C and E.   It doesn't make sense that you want everything to be transparent. The challenge is for developers and if everything is transparent you are nothing but a typewriter.   To tell them what is needed and what the tests are based on means we don't need your creativity, just type from English to TACT. (reply to 2463)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": This is not true. The only bug I found was in testing cases C and E.   It doesn't make sense that you want everything to be transparent. The challenge is for developers and if everything is transparent you are nothing but a typewriter.   To tell them what is needed and what the tests are based on means we don't need your creativity, just type from English to TACT. (reply to 2463)
 
 Laplace: I'm confused, are we supposed to use the deploy() function in      // deploy     receive() { }
 
@@ -1696,7 +1696,7 @@ Aeren: > To tell them what is needed and what the tests are based on means we do
 
 Ackermann: True (reply to 2468)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I am a participant like you and was the sixth person to complete the battle. Raise your capabilities instead of lowering the efforts of a team.
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I am a participant like you and was the sixth person to complete the battle. Raise your capabilities instead of lowering the efforts of a team.
 
 Aeren: that is a good way to dodge argument
 
@@ -1778,7 +1778,7 @@ VH: even though I'm sure most top scores of C and E arent the intended solution
 
 VH: or even correct solution
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Source? (reply to 2527)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Source? (reply to 2527)
 
 VH: hm he isnt the organizer
 
@@ -1788,13 +1788,13 @@ VH: @alefman
 
 VH: hm any other admin here
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I was 6th with correct solution 1039.87 points (full score + 39.87 for gas)  But i kicked to 33 because of this bug. (reply to 2530)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I was 6th with correct solution 1039.87 points (full score + 39.87 for gas)  But i kicked to 33 because of this bug. (reply to 2530)
 
 VH: how can you be kicked?
 
 VH: somehow remove your old solution?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: My position changed to 33th (reply to 2542)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": My position changed to 33th (reply to 2542)
 
 SHY(⁠*⁠_⁠*⁠): Give Hints on E anyone  ??
 
@@ -1980,7 +1980,7 @@ SHY(⁠*⁠_⁠*⁠): This is not his scores he is just sharing scores of @Galiu
 
 Fedor: Also about problem D. I am stuck at 22/23 and I suspect that I incorrectly refund when create new proposals. Do I understand correctly that: 1. If we top up ProposalMaster and then send message to create new proposal with value == 0 (or anything very small) it should succeed? 2. If we top up proposalMaster and then send message with 10 tons to create new proposal, we should reimburse for 9.9… tons and keep ProposalMaster balance at 0.01?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: why you are not banned yet :/ (reply to 2649)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": why you are not banned yet :/ (reply to 2649)
 
 Александр: Maybe it's not right? (reply to 2687)
 
@@ -2486,7 +2486,7 @@ Denis: I wonder whether I'd need to refund a user trying to cast their vote a se
 
 Passion: why this
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Thanks to tact compiler, all members can get asm code ctrl+c ctrl+v  I'm not interesting to fight anymore (reply to 2974)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Thanks to tact compiler, all members can get asm code ctrl+c ctrl+v  I'm not interesting to fight anymore (reply to 2974)
 
 Abdo: I have 112 submits on D and stuck on 22/23 for the last two days :)
 
@@ -3138,11 +3138,11 @@ VH: you'll need reversing skill to read the top solutions
 
 Nemo: this is for D: "The ProposalMaster contract should have a top-up empty message receiver that increases the contract balance to 0.01 TON each time it is invoked. The contract should accept all the funds if the incoming message carries a smaller TON amount." does it mean that balance should not be bigger then 0.01?
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Whats your rank? (reply to 3380)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Whats your rank? (reply to 3380)
 
 Алексей: 12 (reply to 3388)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Fift or test bugs? (reply to 3389)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Fift or test bugs? (reply to 3389)
 
 Александр: init() {setCode(....)} (reply to 3380)
 
@@ -3340,9 +3340,9 @@ VH: Ton's gas consumption isnt linear (not gas * price)
 
 VH: There is dedicated library function in tact for it
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: refund top up sender (reply to 3469)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": refund top up sender (reply to 3469)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I need an tact expert in DM lol  how to create cell from hex string :/
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I need an tact expert in DM lol  how to create cell from hex string :/
 
 tyulpan: So is there some way to replace the contract initialization contract Proposal { ... } with Fift code? (reply to 3433)
 
@@ -3698,7 +3698,7 @@ Denis: Erm... haven't they had any duplicate voter checks at all? (reply to 3719
 
 Виталий: but as i could see getter gas doesn't count in the score
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I realy want to see your solution on C   Nice job (reply to 3723)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I realy want to see your solution on C   Nice job (reply to 3723)
 
 Andy: damn, well played (reply to 3728)
 
@@ -3764,7 +3764,7 @@ Sho: if not then throw when nr of votes >=10 (reply to 3756)
 
 Spite: But the main points:  1. You can forget about storage  2. Use only changing code 3. If y = 0, n = 1 just throw errors for future messages 4. If we receive yes after y1n1, then do only return and its should getter return  min(divr(balance / 0.1), 10) 5. If we receive no after y1n1 just use getter for returning (4,6)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: interesting. I tried this at first day, but I gived up after bug script comes out publicly. (reply to 3734)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": interesting. I tried this at first day, but I gived up after bug script comes out publicly. (reply to 3734)
 
 Ernesto: thats quite interesting, i was trying to gather some info about the tests, but it seems like in 9 (from C) the contract was deployed once, and the 2 remaining had more contracts deployed (reply to 3762)
 
@@ -3772,7 +3772,7 @@ Denis: Were the magic conditions deduced just by randomization or have you manag
 
 Abdo: my code is so similar to that I got 269 (reply to 3761)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: nice :D   but checker is single address too )) (reply to 3765)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": nice :D   but checker is single address too )) (reply to 3765)
 
 Dmitry: Is it C? What's your score? (reply to 3760)
 
@@ -3822,7 +3822,7 @@ Spite: I prepared c5 with needed action list beforehand
 
 Iury: Fail on any request (reply to 3796)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Is it scalable? In theory, I think this wouldn't work for an unknown number of votes (reply to 3734)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Is it scalable? In theory, I think this wouldn't work for an unknown number of votes (reply to 3734)
 
 narzullayev.me: Make the code there open source.
 
@@ -3850,7 +3850,7 @@ Anton: I did but it was ~216 points, even with sharded chunks of child votes. (r
 
 Artur: is it true for all tasks or only for C? (reply to 3778)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: The gas you use to build the cell is important ENDC, as it consumes the most gas (reply to 3811)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": The gas you use to build the cell is important ENDC, as it consumes the most gas (reply to 3811)
 
 Zewa 🧻: Let's be honest, the last competition was terrible 🙂
 
@@ -3862,7 +3862,7 @@ Kinda Bad Music: same like when i removed things it worked (reply to 3817)
 
 Kinda Bad Music: the code i wrote to pass C won't be used anywhere
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: using c5 to build actions chain and set code/data is the solution. but how? wait for top10 solutions
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": using c5 to build actions chain and set code/data is the solution. but how? wait for top10 solutions
 
 Jason: I want to know how the first place solved problem C
 
@@ -3876,7 +3876,7 @@ Dmitry: there is only one test for score. and it test only deploy + first invoca
 
 Евгений: would be great if you commit as is for initial commit, and then update as you wish, so we can see your initial creativity mess haha (reply to 3734)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: interesting!   I found checker is one address (voter treasury). I validate requests from this address and accepted others. but seems is wasn't good hack (reply to 3824)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": interesting!   I found checker is one address (voter treasury). I validate requests from this address and accepted others. but seems is wasn't good hack (reply to 3824)
 
 Dmitry: If you check the time votitingTimeEnd == now + 86400  it is not stable hack (reply to 3828)
 
@@ -3904,7 +3904,7 @@ Denis: The official statement was that score will be based on these tests, no re
 
 Pavel: What other option? (reply to 3835)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: storage fees are calculating after 24H? (reply to 3830)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": storage fees are calculating after 24H? (reply to 3830)
 
 | timon: C can also be hacked to pass the test with map and throwUnless numberOfVotes < 10
 
@@ -3930,7 +3930,7 @@ Andrey: Usually if you know how to exploit you also know how to solve it in the 
 
 Spite: But you need to throw (reply to 3851)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: ah I see, test are running in current LT, if lt is changed so storage fee is greater than 1 (reply to 3843)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": ah I see, test are running in current LT, if lt is changed so storage fee is greater than 1 (reply to 3843)
 
 Denis: How about suggesting next time they have a hacking phase equal in duration to the contest phase? 😀
 
@@ -4396,7 +4396,7 @@ Farhad Seyfullazada: Yes and in that case you have the user wallet. Because that
 
 Farhad Seyfullazada: So you do like this:   try {…} catch {cashback(self.owner)}
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: you must pay try body's compute fee at all (reply to 4127)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": you must pay try body's compute fee at all (reply to 4127)
 
 E2BIG: Catching will prevent sending the bounced message to the main contract though? And main contract needs to adjust yes/no counts (reply to 4126)
 
@@ -4408,7 +4408,7 @@ Farhad Seyfullazada: İn real scenario the Voter contract is not deployed from t
 
 E2BIG: Aha, so i tried both approaches: 1. Increase counts when Vote is accepted by main contract and revert if VoteInternal is bounced → bumped into problems of cashback 2. Deploy Voter when when Vote is accepted by main contract, send VoteResponse from Voter to main contract and update counts only then → less optimal because doubles the amount of messages + bumped into strange problems when VoteResponse gets bounced with a small amount of gas (reply to 4130)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: contract VoterInfo (proposalAddress: Address, voter: Address, isVoted: Bool) {     receive(msg: Vote) {         throwUnless(401, sender() == self.proposalAddress);         throwIf(500, self.isVoted);          self.isVoted = true;     } }  contract Proposal {     proposalId: Int as uint32;     votingEndingAt: Int as uint32;      yesCount: Int as uint32 = 0;     noCount: Int as uint32 = 0;      init(data: Init) {         self.proposalId = data.proposalId;         self.votingEndingAt = data.votingEndingAt;     }      // deploy     receive() { }      receive(msg: Vote) {         if(msg.value) {             self.yesCount += 1;         } else {             self.noCount += 1;         }          deploy(DeployParameters{             init: initOf VoterInfo(myAddress(), sender(), false),             mode: SendBounceIfActionFail,             bounce: true,             value: getComputeFee(9000, false),             body: msg.toCell()         });       cashback(sender());     }      bounced(msg: bounced<Vote>) {         if(msg.value) {             self.yesCount -= 1;         } else {             self.noCount -= 1;         }     }      get fun proposalState(): ProposalState {         return ProposalState{             yesCount: self.yesCount,             noCount: self.noCount         };     } } (reply to 4129)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": contract VoterInfo (proposalAddress: Address, voter: Address, isVoted: Bool) {     receive(msg: Vote) {         throwUnless(401, sender() == self.proposalAddress);         throwIf(500, self.isVoted);          self.isVoted = true;     } }  contract Proposal {     proposalId: Int as uint32;     votingEndingAt: Int as uint32;      yesCount: Int as uint32 = 0;     noCount: Int as uint32 = 0;      init(data: Init) {         self.proposalId = data.proposalId;         self.votingEndingAt = data.votingEndingAt;     }      // deploy     receive() { }      receive(msg: Vote) {         if(msg.value) {             self.yesCount += 1;         } else {             self.noCount += 1;         }          deploy(DeployParameters{             init: initOf VoterInfo(myAddress(), sender(), false),             mode: SendBounceIfActionFail,             bounce: true,             value: getComputeFee(9000, false),             body: msg.toCell()         });       cashback(sender());     }      bounced(msg: bounced<Vote>) {         if(msg.value) {             self.yesCount -= 1;         } else {             self.noCount -= 1;         }     }      get fun proposalState(): ProposalState {         return ProposalState{             yesCount: self.yesCount,             noCount: self.noCount         };     } } (reply to 4129)
 
 Farhad Seyfullazada: Yeah. So it is better to not bounce back. Why? Because you have lost the address of the voter already you can’t send excess to it. (reply to 4133)
 
@@ -4426,11 +4426,11 @@ Farhad Seyfullazada: You don’t need to assume in this case just send it
 
 E2BIG: He’s sending a precise amount of ton to the VoterInfo so he should not cashback from it, and makes cashback from the main contract. So I guess if getComputeFee is smart enough to account for both cases (deployment should be more expensive than second attempt to vote, but how getComputeFee knows of state of VoteInfo of particular voter?) 🤔 (reply to 4141)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: You have to send code and data  In that code I mentioned, you can send them with body of vote instead of empty for deploy   At throw you can revert proposal state, just at throw you have another transaction. But, in ping-pong pattern which Farhad mentioned in both scenarios (accepted-rejected) you have to send response (reply to 4142)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": You have to send code and data  In that code I mentioned, you can send them with body of vote instead of empty for deploy   At throw you can revert proposal state, just at throw you have another transaction. But, in ping-pong pattern which Farhad mentioned in both scenarios (accepted-rejected) you have to send response (reply to 4142)
 
 E2BIG: Yeah, that I understand. What i can not understand is why getComputeFee is just enough as value and you can skip cashback in VoterInfo? (reply to 4143)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: This is designed to pass tests, where test scripts looks for cashback from proposal address. In other cases, you can send remaining value to child and send cashback. (reply to 4144)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": This is designed to pass tests, where test scripts looks for cashback from proposal address. In other cases, you can send remaining value to child and send cashback. (reply to 4144)
 
 E2BIG: Let’s discuss real life scenario!  Here’s the point: is you send remaining value to child, it will get bounced to parent in case of error or lack of gas. But then parent needs to cashback it to the voter, but bounced message can not contain the address - which means you need to store all “in progress” voters temporarily in map in parent contract, right? (reply to 4145)
 
@@ -4438,7 +4438,7 @@ E2BIG: Let’s discuss real life scenario!  Here’s the point: is you send rema
 
 Евгений: if child contract failed due to lack of gas fee then there is nothing to return to voter (reply to 4146)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: In real life, you will reserve storage and compute fee per vote and should bounce if context value is less than expected (reply to 4146)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": In real life, you will reserve storage and compute fee per vote and should bounce if context value is less than expected (reply to 4146)
 
 Iury: Most likely, you just need to calculate the minimum gas for deployment and reject requests with less gas.  The rest of the gas should be returned from VoteInfo directly, and the voice should be taken into account via a message from VoteInfo. I think this is a stable solution. I honestly don't fully understand whether two transactions can be executed simultaneously on the same contract, so saving the last voting address may be a mistake. (reply to 4146)
 
@@ -4446,13 +4446,13 @@ E2BIG: What you described is a happy path. What happens if user tries to vote se
 
 Iury: VoteInfo made cashback and not sending msg to Proposal
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Cashback context value - compute from parent and send deploy gas to child, throwif already deployed and handle bounced msg in parent   This an standard way for nft collections at mint also Jettons masters at mint and any child-parent usecases  You can learn more by reading standard contracts I mentioned (reply to 4152)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Cashback context value - compute from parent and send deploy gas to child, throwif already deployed and handle bounced msg in parent   This an standard way for nft collections at mint also Jettons masters at mint and any child-parent usecases  You can learn more by reading standard contracts I mentioned (reply to 4152)
 
 Iury: What I'm trying to understand is that the bounce method may not be called immediately after the transaction, but I could be wrong. If someone knows will be great
 
 E2BIG: “handle bounced msg in parent” → with this is my problem. How do you know address of the user from bounced message? Could you please refer me to some good examples in tact? (reply to 4155)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: I already sent. Read again that code block (reply to 4157)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": I already sent. Read again that code block (reply to 4157)
 
 Denis: Note that in real life instead of throwing an error and relying on the bounce message you can send an explicit message VoteRejected { voter: Address }. Sure, in this case you'd need to check the sender address to ensure it's actually coming from your subcontract responsible for that voter address. (reply to 4157)
 
@@ -4462,9 +4462,9 @@ Denis: Does SendBounceIfActionFail change that to "revert/bounce on action error
 
 E2BIG: Messages are sent asynchronously, and bounced message is just a special kind of message (reply to 4156)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Well, this is whats task E asked. You have to ensured context value has enough for storage fee and compute fee. Those fee can be changed by TON's config. So, instead of using const you should calculate the cost on air (reply to 4160)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Well, this is whats task E asked. You have to ensured context value has enough for storage fee and compute fee. Those fee can be changed by TON's config. So, instead of using const you should calculate the cost on air (reply to 4160)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: TVM has built-in functions to calculate those fees. In tact you can use  fun getComputeFee(gasUsed: Int, isMasterchain: Bool): Int;  and fun getStorageFee(cells: Int, bits: Int, seconds: Int, isMasterchain: Bool): Int;
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": TVM has built-in functions to calculate those fees. In tact you can use  fun getComputeFee(gasUsed: Int, isMasterchain: Bool): Int;  and fun getStorageFee(cells: Int, bits: Int, seconds: Int, isMasterchain: Bool): Int;
 
 ＫＴＳＨＡＣＸ: Admins when the prize distribution?  @alefman @xpyctum @AntonTrunov
 
@@ -4488,17 +4488,17 @@ Ruslan: Hello, can you please tell me about SBT the participation fee?
 
 Andy: yeah, but depending on architecture it might not matter (reply to 4173)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Impossible, read more on docs.ton.org about actors (reply to 4169)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Impossible, read more on docs.ton.org about actors (reply to 4169)
 
 Andy: actually nevermind, you're right (reply to 4176)
 
 Denis: Could you provide a more precise link? As far as I understand, each contract's messages are processed by its node independently, so main contract and subcontract are likely processed by different nodes in different subchains at slightly different time, and the moment of price change can happen between these two points in time. The only two ways to counter that I know off the top of my head would be either to have a "network stop" for price change that would guarantee that no messages can cross that boundary or to inherit old prices for old messages for... indefinite time? (reply to 4177)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: You have an missed point here, each block of transactions are processed by its node. All contracts messages will be in same block (reply to 4179)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": You have an missed point here, each block of transactions are processed by its node. All contracts messages will be in same block (reply to 4179)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: And new configs will affected after decided block number
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": And new configs will affected after decided block number
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: That was an explanation in simplest words. you can learn more on docs.ton.org.
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": That was an explanation in simplest words. you can learn more on docs.ton.org.
 
 Алексей: The change for gas price as far as I know happened only once, and it was lowering the price, so that is extremely rare case) So no one think about this kind of scenarios (reply to 4169)
 
@@ -4524,7 +4524,7 @@ E2BIG: Any chance you guys consider sharing the reference solutions? For learnin
 
 Denis: That does not match my understanding of sharding in TON - if the main contract and subcontract are in different shards (have address prefix different enough), they cannot be processed in the same block, no? (reply to 4181)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: https://docs.ton.org/v3/concepts/dive-into-ton/ton-blockchain/blockchain-of-blockchains#the-lowest-level-accountchain (reply to 4196)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": https://docs.ton.org/v3/concepts/dive-into-ton/ton-blockchain/blockchain-of-blockchains#the-lowest-level-accountchain (reply to 4196)
 
 Andy: https://docs.ton.org/v3/documentation/smart-contracts/message-management/messages-and-transactions#what-is-a-message-1 (reply to 4197)
 
@@ -4532,11 +4532,11 @@ Andy: A better doc: https://docs.ton.org/v3/documentation/smart-contracts/shards
 
 Andy: basically as far as I understand it: if the addresses are in the same shard then it might process in the same block, but if they aren't, then the outgoing messages of that shard are grouped by blocks and then somehow get routed to other shards that will process the message at least in the next block
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: You mean what if: 1[wallet->A]  2[A->B]  1 should be the latest tx of latest block that decided for config change and 2 is first block after config set tx  That is very very very rare near impossible (reply to 4198)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": You mean what if: 1[wallet->A]  2[A->B]  1 should be the latest tx of latest block that decided for config change and 2 is first block after config set tx  That is very very very rare near impossible (reply to 4198)
 
 Andy: yeah that is what we mean, it's a theoretical for sure, but the blockchain never stops, so it has some merit, I guess
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Maybe you missed that config change is also a transaction (reply to 4203)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Maybe you missed that config change is also a transaction (reply to 4203)
 
 Farhad Seyfullazada: Yeah but you miss the point it is microservices so the config change can arrive before the outgoing message (reply to 4204)
 
@@ -4710,7 +4710,7 @@ Mojisola🍅 🍅: you can drop a code to illustrate
 
 Mojisola🍅 🍅: will definitely  help
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: https://docs.tact-lang.org/ref/core-gas/ (reply to 4297)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": https://docs.tact-lang.org/ref/core-gas/ (reply to 4297)
 
 Алексей: It's basically just a little better than writing require(context().value > ton("0.05"))  You instead writing require(context().value > getComputeFee(10000, false))  You can find this usage in tact implemntation of jetton  https://github.com/tact-lang/jetton/blob/34a60ecf0587c9048d01060aa8fc3e2699ad52a9/src/contracts/governance/jetton-wallet.tact#L99 (reply to 4294)
 
@@ -4792,17 +4792,17 @@ Andy: True, my solutions use DICTUADDB, which deduplicated quite a lot of logic 
 
 Andy: (will publish them soon)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: An important note we can learn from this contest. do not use hardcoded test data and use random treasures (reply to 4342)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": An important note we can learn from this contest. do not use hardcoded test data and use random treasures (reply to 4342)
 
 Ernesto: the problem of random tests if that you are scoring people with different rules and it will boil down into lots of luck/tries (reply to 4347)
 
 Kinda Bad Music: Are the results finalized
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: This is a funny excuse.  They can get averages.  However, any result can be better than "voter" treasury and 1 true vote as base for all problems. (reply to 4348)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": This is a funny excuse.  They can get averages.  However, any result can be better than "voter" treasury and 1 true vote as base for all problems. (reply to 4348)
 
 Oleg: Yep (reply to 4349)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: Also, using setCode mean just keep file extension and do anything you want. I'm sad for tact team because they are waiting for result of this contest to improve tact's features and roadmap. But they faced setCode(null)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": Also, using setCode mean just keep file extension and do anything you want. I'm sad for tact team because they are waiting for result of this contest to improve tact's features and roadmap. But they faced setCode(null)
 
 Kinda Bad Music: I almost had a heart attack I thought I was removed from the list
 
@@ -5194,7 +5194,7 @@ Farhad Seyfullazada: Otherwise you should have been traversing all blockchains t
 
 Andy: These SBTs are actually cSBT. Basically none of the SBT are actually minted on the blockchain yet, to allow for cheap mass sending of NFT/SBT. This might cause some issues for indexers like explorers.  See more info: https://github.com/ton-blockchain/TEPs/pull/126/files (reply to 4611)
 
-𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;("⁧: actually getgems.io (reply to 4603)
+𝐻𝒾𝓉𝒶𝓈𝓅("⁧ ;(": actually getgems.io (reply to 4603)
 
 narzullayev.me: Yes, of course (reply to 4620)
 
@@ -5316,7 +5316,7 @@ Vladimir: It seems you just cancel the transaction (reply to 4708)
 
 Baran Battal: No when i agree to do transaction it return to bot and say transaction failed (reply to 4709)
 
-MOHD SHAH: Hi (reply to 4659)
+Mount: Hi (reply to 4659)
 
 Kinda Bad Music: What these points indicate (reply to 4663)
 
@@ -5334,13 +5334,13 @@ Baran Battal: Don't know (reply to 4719)
 
 Baran Battal: Thank you 😂 (reply to 4720)
 
-MOHD SHAH: I have (reply to 4659)
+Mount: I have (reply to 4659)
 
-MOHD SHAH: Open it thanks (reply to 4659)
+Mount: Open it thanks (reply to 4659)
 
-MOHD SHAH: But i need help 😂😂😂😂 (reply to 4659)
+Mount: But i need help 😂😂😂😂 (reply to 4659)
 
-MOHD SHAH: Hello (reply to 4669)
+Mount: Hello (reply to 4669)
 
 — 2025-05-10 —
 
@@ -5361,3 +5361,45 @@ Unknown: Hello ! You can write about it here: @ton_help_bot (reply to 4736)
 — 2025-05-15 —
 
 Baran Battal: Hello, recently the sanctions by the United States against Syria have been lifted. Will this affect some of the services restricted by TON and TELEGRAM, or will everything remain the same?
+
+— 2025-05-18 —
+
+Passion: So these Devs no know to return excess ton sent to the contract 😁
+
+Mojisola🍅 🍅: probably by design to receive ton and do nothing. the poster may not be entirely true.  there may be means to get it out that poster didn't state. (reply to 4744)
+
+Passion: This was posted in the official channel for not pixel (reply to 4745)
+
+Mojisola🍅 🍅: they probably missed to ensure any unintended message bounce back (reply to 4744)
+
+Mojisola🍅 🍅: it is possible
+
+Zyad M. Ayad: Designing a contract to receive ton is almost required to keep the contract on-chain  However in this example i think the user sent a message to a receiver (method) which he expected to refund the remaining value (reply to 4745)
+
+Andy: This is actually a lot more interesting than that. The contract properly handles wrong use (the contract even crashed with exit code 9, not very intended but it should still bounce), however the user sent their message as a non-bounceable message, so as a result it didn't bounce and funds remained in the Jetton minter. This happened because of address encoding - they used UQ.... address that makes the message non-bounceable, while the EQ.... address does make bounces.
+
+Farhad Seyfullazada: Just add a case that refunda if it is over a TON (reply to 4749)
+
+— 2025-05-19 —
+
+Andy: Also the contract could immediately refund non-bounceable messages 🤔
+
+Mojisola🍅 🍅: ohoh.  user surely didn't envisage such situation or scenario. bounce and no bounce.   only few may be Devs know bounce and no bounce and they also can make similar mistake 😀😃 (reply to 4750)
+
+Andy: well in this case the user accidentally sent a non-bounceable message so 🤷
+
+Farhad Seyfullazada: Why? (reply to 4755)
+
+— 2025-05-20 —
+
+Crypto: this ?
+
+Phin: This is scam (reply to 4760)
+
+Crypto: 🤨How did he get my address
+
+Phin: Dude probably just checking new transactions in mempool and spaming all addresses (reply to 4762)
+
+Crypto: An interesting fraud
+
+Crypto: 😆

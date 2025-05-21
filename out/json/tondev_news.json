@@ -1944,6 +1944,18 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "🚀 Tact Smart Battle has officially started! 🤜\n\nAll tasks are now live.  \nThe GitHub repo with setup, templates, and participation guide is here:  \n\n🐱 tact-smart-battle\n\nDive in, build, and push your skills to the limit"
+    },
+    {
+      "id": 214,
+      "type": "message",
+      "date": "2025-05-12T11:21:00.000Z",
+      "date_unixtime": "1747048860",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🫧 Tolk v0.12: structures, generics, and methods\n\nFinally! Or maybe not yet?\n\nThis update brings Tolk one step closer to its final form by introducing:\n\n✅ Notable changes in Tolk v0.12:\n\n1. Structures\n2. Generics\n3. Methods\n4. Stdlib with short naming\n5. Fift output enhancements\n\nPR on GitHub with detailed info.\n\n✔ Structures\n\nLooks like TypeScript — but works in TVM!\n\n\nstruct Point {\n    x: int;\n    y: int;\n}\n\nfun calcMaxCoord(p: Point) {\n    return p.x > p.y ? p.x : p.y;\n}\n\n// declared like a JS object\nvar p: Point = { x: 10, y: 20 };\n\n// called like a JS object\ncalcMaxCoord({ x: 10, y: 20 });\n\n\nPoint a just named tensor — identical to (int, int) at the TVM level.\n\nKey features:\n- Compiler guesses what you mean — automatically:\n\nfun loadData(): StoredInfo {\n    return {\n        counterValue: ...,\n        ownerAddress: ...,\n    }\n}\n\n\n- Works with shorthand syntax { x, y }\n- Default values for fields are supported\n- Nested objects are supported\n- No overhead for single-field structs over a plain value\n- Nullability, smart casts, union types, all language features — everything works\n\n✔ Generics\n\nThey exist only at the type level (no runtime cost):\n\nstruct Nullable<T> {\n    item: T? = null;\n}\n\n\nThe type system becomes powerful enough to express complex scenarios:\n\nstruct Ok<TResult> { result: TResult }\nstruct Err<TError> { err: TError }\n\ntype Response<R, E> = Ok<R> | Err<E>;\n\nmatch (r) {\n    Ok => { r.result }\n    Err => { r.err }\n}\n\n\n✔ Methods — for any types\n\nFor structures:\n\nfun Point.getX(self) {\n    return self.x\n}\n\nfun Point.create(x: int, y: int): Point {\n    return { x, y }\n}\n\n\nOr extend built-in types:\n\nfun slice.load32(mutate self): int32 {\n    return self.loadInt(32);\n}\n\n\nOr — tensors, unions, generics, even \"any receiver\". A method is just an extension function with predictable resolution rules.\n\n✔ stdlib — with short methods naming\n\n\n// before\nsomeCell.cellHash();\nsomeTuple.tupleSize();\nsomeBuilder.getBuilderBitsCount();\n\n// now\nsomeCell.hash();\nsomeTuple.size();\nsomeBuilder.bitsCount();\n\n\nEven more — some global functions are now static methods:\n\n// before\ngetMyAddress();\nsetContractData(c);\ngetLogicalTime();\n\n// now\ncontract.getAddress();\ncontract.setData(c);\nblockchain.logicalTime();\n\n\nIt looks pretty, and since IDE suggest only available methods after dot, it's extremely useful. For a full list of renamings, consider documentation.\n\n✔ A long-awaited bonus for Fift ninja\n\nLook at the PR and enjoy how readable Fift assembler output is. Yes, it contains original .tolk lines as comments! And yes, it works perfectly.\n\n🌳 You now see how Tolk's features are aligning together towards automatic serialization, fully described by the type system. Cell references, constructor prefixes, message sending, and other use cases will be expressed with the features above.",
+      "forwarded_from": "TOLK lang",
+      "forwarded_from_id": "channel2203874215",
+      "forwarded_date": "2025-05-12T09:12:01.000Z"
     }
   ]
 }
