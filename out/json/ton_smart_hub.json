@@ -25953,6 +25953,86 @@
       "from": "Crypto",
       "from_id": "user7376541183",
       "text": "😆"
+    },
+    {
+      "id": 4768,
+      "type": "message",
+      "date": "2025-05-22T08:23:44.000Z",
+      "date_unixtime": "1747902224",
+      "from": "Vladimir",
+      "from_id": "user260316435",
+      "text": "⚡️ Tact Smart Battle Mirror is now on TON Contests ⚡️\n\nThe official contest is over, but this isn't the end! DivaTech team has integrated all Tact Smart Battle tasks into the TON Contests platform, giving you the opportunity to solve the same problems without any time limits\n\n🔹 Missed the contest? Catch up now!\n🔹 Want to improve your result? Give it another try!\n🔹 Just love solving problems? Enjoy!\n\nWe've kept all the test cases unchanged so you get the same experience\n\nWhat's new?\n😎 Nice design\n🚀 Web IDE\n⭐️ And other cool features of the TON Contests platform\n\nTest yourself and sharpen your skills 👇",
+      "forwarded_from": "Contests support bot",
+      "forwarded_from_id": "user8140326965",
+      "forwarded_date": "2025-05-21T16:34:11.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_4768.jpg",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "id": 4770,
+      "type": "message",
+      "date": "2025-05-22T08:51:59.000Z",
+      "date_unixtime": "1747903919",
+      "from": "Александр",
+      "from_id": "user775346414",
+      "text": "Couldn't log in with tonkeeper wallet",
+      "reply_to_message_id": 4768
+    },
+    {
+      "id": 4771,
+      "type": "message",
+      "date": "2025-05-22T08:55:55.000Z",
+      "date_unixtime": "1747904155",
+      "from": "Oleg",
+      "from_id": "user138933879",
+      "text": "W5?",
+      "reply_to_message_id": 4770
+    },
+    {
+      "id": 4772,
+      "type": "message",
+      "date": "2025-05-22T08:57:14.000Z",
+      "date_unixtime": "1747904234",
+      "from": "Александр",
+      "from_id": "user775346414",
+      "text": "Yes, w5 (testnet)",
+      "reply_to_message_id": 4771
+    },
+    {
+      "id": 4773,
+      "type": "message",
+      "date": "2025-05-22T09:02:18.000Z",
+      "date_unixtime": "1747904538",
+      "from": "Daniil",
+      "from_id": "user796495925",
+      "text": "Testnet wallets are not allowed. We use connected wallets for prize distributions. \n\nSo please use your mainnet wallet  to login on the platform\n\nHave a nice coding🏆",
+      "reply_to_message_id": 4772
+    },
+    {
+      "id": 4774,
+      "type": "message",
+      "date": "2025-05-22T09:05:12.000Z",
+      "date_unixtime": "1747904712",
+      "from": "Александр",
+      "from_id": "user775346414",
+      "text": "Thanks! It seems to be possible to make a warning about the network being used. It works with the mainnet.",
+      "reply_to_message_id": 4773
+    },
+    {
+      "id": 4775,
+      "type": "message",
+      "date": "2025-05-22T09:20:19.000Z",
+      "date_unixtime": "1747905619",
+      "from": "Daniil",
+      "from_id": "user796495925",
+      "text": "Thanks for your feedback)\nThe notification was already there, but it was hidden on the right. Now we've moved it up to make it more visible",
+      "reply_to_message_id": 4774,
+      "media_type": "photo",
+      "file": "photos/photo_4775.jpg",
+      "width": 1280,
+      "height": 636
     }
   ]
 }

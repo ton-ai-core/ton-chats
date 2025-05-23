@@ -708,6 +708,22 @@
       "file": "photos/photo_71.jpg",
       "width": 1280,
       "height": 889
+    },
+    {
+      "id": 73,
+      "type": "message",
+      "date": "2025-05-22T09:19:02.000Z",
+      "date_unixtime": "1747905542",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "We’ve launched the ultimate hunt for bugs and hacker mastery — the epic CTF has begun at positive.com/ctf! \n\nOn the menu: blazing challenges in EVM and TON security — plus one juicy Bug Bounty worth 100 TON!",
+      "forwarded_from": "Positive Web3",
+      "forwarded_from_id": "channel1620019916",
+      "forwarded_date": "2025-05-22T09:16:47.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_73.jpg",
+      "width": 1024,
+      "height": 1024
     }
   ]
 }

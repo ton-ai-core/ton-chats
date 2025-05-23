@@ -6123,6 +6123,249 @@
       "from": "Anton",
       "from_id": "user328585584",
       "text": "оригинал здесь: https://t.me/hacktheton/485"
+    },
+    {
+      "id": 742,
+      "type": "message",
+      "date": "2025-05-22T12:42:53.000Z",
+      "date_unixtime": "1747917773",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Так ну это уже наночелик",
+      "media_type": "photo",
+      "file": "photos/photo_742.jpg",
+      "width": 746,
+      "height": 370
+    },
+    {
+      "id": 743,
+      "type": "message",
+      "date": "2025-05-22T12:44:59.000Z",
+      "date_unixtime": "1747917899",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "кажется тут лишнее сообщение: вместо Decrease можно послать отрицательное число в Increase",
+      "reply_to_message_id": 741
+    },
+    {
+      "id": 744,
+      "type": "message",
+      "date": "2025-05-22T12:45:11.000Z",
+      "date_unixtime": "1747917911",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "льзя"
+    },
+    {
+      "id": 745,
+      "type": "message",
+      "date": "2025-05-22T12:45:24.000Z",
+      "date_unixtime": "1747917924",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Но убирать ресиверы это уже не то"
+    },
+    {
+      "id": 746,
+      "type": "message",
+      "date": "2025-05-22T12:46:27.000Z",
+      "date_unixtime": "1747917987",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "можно 0x убрать"
+    },
+    {
+      "id": 747,
+      "type": "message",
+      "date": "2025-05-22T12:46:33.000Z",
+      "date_unixtime": "1747917993",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "точняк"
+    },
+    {
+      "id": 749,
+      "type": "message",
+      "date": "2025-05-22T12:47:08.000Z",
+      "date_unixtime": "1747918028",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "и в целом явное задание опкодов, если хочется загольфить"
+    },
+    {
+      "id": 750,
+      "type": "message",
+      "date": "2025-05-22T12:47:19.000Z",
+      "date_unixtime": "1747918039",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Еще лишний пробел",
+      "media_type": "photo",
+      "file": "photos/photo_750.jpg",
+      "width": 752,
+      "height": 400
+    },
+    {
+      "id": 751,
+      "type": "message",
+      "date": "2025-05-22T12:47:43.000Z",
+      "date_unixtime": "1747918063",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Жаловаться будут",
+      "reply_to_message_id": 749,
+      "media_type": "photo",
+      "file": "photos/photo_751.jpg",
+      "width": 1280,
+      "height": 419
+    },
+    {
+      "id": 752,
+      "type": "message",
+      "date": "2025-05-22T12:48:16.000Z",
+      "date_unixtime": "1747918096",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "А ты JB плагин открой",
+      "reply_to_message_id": 751
+    },
+    {
+      "id": 753,
+      "type": "message",
+      "date": "2025-05-22T12:48:19.000Z",
+      "date_unixtime": "1747918099",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "там не жалуются"
+    },
+    {
+      "id": 754,
+      "type": "message",
+      "date": "2025-05-22T12:48:21.000Z",
+      "date_unixtime": "1747918101",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "сук"
+    },
+    {
+      "id": 755,
+      "type": "message",
+      "date": "2025-05-22T12:48:35.000Z",
+      "date_unixtime": "1747918115",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "наплодили плагинов умных..."
+    },
+    {
+      "id": 756,
+      "type": "message",
+      "date": "2025-05-22T12:48:54.000Z",
+      "date_unixtime": "1747918134",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Кстати пусть и не будут :)",
+      "reply_to_message_id": 753
+    },
+    {
+      "id": 757,
+      "type": "message",
+      "date": "2025-05-22T12:49:12.000Z",
+      "date_unixtime": "1747918152",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Но quick action нужен"
+    },
+    {
+      "id": 759,
+      "type": "message",
+      "date": "2025-05-22T12:50:24.000Z",
+      "date_unixtime": "1747918224",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Там ещё Филипп вроде собирался дефайны делать"
+    },
+    {
+      "id": 760,
+      "type": "message",
+      "date": "2025-05-22T12:50:27.000Z",
+      "date_unixtime": "1747918227",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Или не собирался"
+    },
+    {
+      "id": 761,
+      "type": "message",
+      "date": "2025-05-22T12:50:33.000Z",
+      "date_unixtime": "1747918233",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Но если бы были можно было бы ещё сократить"
+    },
+    {
+      "id": 762,
+      "type": "message",
+      "date": "2025-05-22T12:50:41.000Z",
+      "date_unixtime": "1747918241",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "возвращение легендарного define int long long"
+    },
+    {
+      "id": 763,
+      "type": "message",
+      "date": "2025-05-22T12:50:53.000Z",
+      "date_unixtime": "1747918253",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "define true false"
+    },
+    {
+      "id": 764,
+      "type": "message",
+      "date": "2025-05-22T12:50:55.000Z",
+      "date_unixtime": "1747918255",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "#define true false"
+    },
+    {
+      "id": 765,
+      "type": "message",
+      "date": "2025-05-22T12:51:01.000Z",
+      "date_unixtime": "1747918261",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Гении мыслят одинаково",
+      "reply_to_message_id": 763
+    },
+    {
+      "id": 767,
+      "type": "message",
+      "date": "2025-05-22T12:51:09.000Z",
+      "date_unixtime": "1747918269",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "В контракте особенно смешно",
+      "reply_to_message_id": 764
+    },
+    {
+      "id": 768,
+      "type": "message",
+      "date": "2025-05-22T12:51:46.000Z",
+      "date_unixtime": "1747918306",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "#define receive external"
+    },
+    {
+      "id": 769,
+      "type": "message",
+      "date": "2025-05-22T12:53:35.000Z",
+      "date_unixtime": "1747918415",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "#define sender() mintmachine"
     }
   ]
 }

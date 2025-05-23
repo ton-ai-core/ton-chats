@@ -8621,3 +8621,35 @@ Combot: Phan Trong Duy has been banned! Reason: CAS ban.
 Keith: 找几个执行力强的哥们，两个月后奥迪Q7到位，不玩虚的，戳头像
 
 Combot: Akui Rian has been banned! Reason: CAS ban.
+
+— 2025-05-22 —
+
+c: ton的地址是EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c嘛？
+
+c: why get ton-usdt price is 0?
+
+Copper Golem: 謝謝你的歡迎 (reply to 90429)
+
+Copper Golem: 不客氣 (reply to 90430)
+
+Combot: saya has been banned! Reason: CAS ban.
+
+Combot: satannn has been banned! Reason: CAS ban.
+
+— 2025-05-23 —
+
+Combot: ㅤㅤㅤㅤ ㅤ𝙷𝙸𝙼𝙾𝚁𝚁𝙸ㅤㅤㅤ ㅤㅤㅤㅤㅤㅤ has been banned! Reason: CAS ban.
+
+Combot: Sp Senevirathne has been banned! Reason: CAS ban.
+
+ke bi: Telegram小程序开发者可将Telegram Stars兑换为TON代币，或以折扣价格购买Telegram广告。
+
+ke bi: 我怎么没看到在什么地方可以兑换呢
+
+ke bi: Stars兑换ton或者去投Tg 广告也可以，没找到位置哈
+
+Andrew: https://ton-org.notion.site/Telegram-Star-1b95274bd2cf81a381f7da81c96d4baf?pvs=73 (reply to 90509)
+
+ke bi: 好的，谢谢
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

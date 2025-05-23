@@ -229,3 +229,7 @@ Unknown: 🏆 The Tact Smart Battle is going strong — here are some preliminar
 — 2025-05-07 —
 
 Unknown: For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸  🍲 got IDEA? ♨️ @tact_kitchen from the @ton_studio (reply to 70)
+
+— 2025-05-22 —
+
+Unknown: We’ve launched the ultimate hunt for bugs and hacker mastery — the epic CTF has begun at positive.com/ctf!   On the menu: blazing challenges in EVM and TON security — plus one juicy Bug Bounty worth 100 TON! (forwarded from Positive Web3)

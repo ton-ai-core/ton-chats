@@ -7523,3 +7523,13 @@ Skuli: I can recommend using my template for development with Cursor AI. It is c
 🔳 ivan: raw llms not but if fed with knowledge base - that could work. (reply to 63685)
 
 Skuli: Just documentation won't help much. It is necessary to create a system in which AI can feel free. Test the code yourself. See the result yourself.  it is necessary to make a mutation testing library for TON. Also, the code will have to be covered by 100% tests. (reply to 63697)
+
+— 2025-05-22 —
+
+Anton: We’ve launched the ultimate hunt for bugs and hacker mastery — the epic CTF has begun at positive.com/ctf!   On the menu: blazing challenges in EVM and TON security — plus one juicy Bug Bounty worth 100 TON! (forwarded from Positive Web3)
+
+Stark: hey i am looking to deploy bridge on ton for smooth transactions with evm chain, any idea which repo i should fork and any previous deployments available?
+
+`SayedEx: I have a repo (reply to 63800)
+
+Bohdan: Who know what does this error from https://ton.access.orbs.network means? {"ok":false,"error":"VALIDATE_ACCOUNT_STATEFailed to unpack Account","code":500}

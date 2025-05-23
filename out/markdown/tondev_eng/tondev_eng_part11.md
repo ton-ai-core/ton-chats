@@ -267,3 +267,77 @@ Hobbs: Gmgm
 Danik: Hi  I’m a full-stack developer with strong experience in building Telegram Mini Apps (TMA).  Stack: TS, React, NextJS/Tanstack Start, tRPC, Hono/Express, TON integration, payments, Grammy and more.  I can handle projects of any complexity — from MVPs to full-scale production apps.
 
 Michaelzy: gm guys i am calling a get method from my script to my contract using clien.runMethod (toncenter endpoint0 but i keep getting this error: node:internal/process/promises:394     triggerUncaughtException(err, true /* fromPromise */);     ^ AxiosError: Request failed with status code 503 . . . data: { ok: false, error: '', code: 503 }   },   status: 503  crazy thing is i am calling other get methods from my contract and they all work fine but when i call this paryticular one  const resultt = await client.runMethod(contractAddress, "get_jetton_address_by_params", [         {type: 'int', value: index},         {type: 'int', value: fractionCount},         {type: 'slice', cell: nameCell},         {type: 'builder', cell: addressCell},     ]) any help will be appreciated (reply to 148944)
+
+Bohdan: also have this error from yesterday (reply to 148993)
+
+Sent Σ: I want  you  to work on ton smart contract  that helps  users to send ton and ton Jetton  tokens to  our wallet after making  purchases  on our mini app
+
+TON Bounty Bridge: ​Number1  🏷 Developer Tool  Summary:#1043  Created by Akbarsohbatloo1
+
+Sent Σ: Anyone? (reply to 149045)
+
+&rey: This doesn't call for any smart contract beyond your wallet. You're most probably looking for https://github.com/gobicycle/bicycle? (reply to 149045)
+
+Sent Σ: Isn't this in it's  test phase (reply to 149048)
+
+Sent Σ: Isn't  this too much risk
+
+&rey: Not a single failure was recorded in half a year, to my knowledge. (reply to 149049)
+
+— 2025-05-22 —
+
+Albert: Ping me (reply to 149045)
+
+Alex: TON Studio is looking for a technical specialist to moderate and support developer chats, such as TON Dev EN and TON Dev RU, chat contest, chat hackathon.  Main tasks: - Help developers find answers to their questions in the documentation, and formalize and systematize questions that are not covered in the documentation for further development. - Help integrate and support a public chatbot helper that is trained in documentation and can answer some questions. We want to closely monitor such a bot and prevent meaningless spam from it. - Improve the experience of people communicating, improve the quality of catching real spam messages, keep safe regular users from unfair bans.
+
+Willy: I have been banned in RU chat:( Totally unfair, done nothing wrong (reply to 149064)
+
+Alexander | Hubz: Sent you a DM (reply to 149064)
+
+Lasha: Hi, this is a TON transfer's in_msg msg_data. I want to parse the message body. Do you have any suggestions on how I can parse it? The type is dataRaw.    'msg_data': {'@type': 'msg.dataRaw', 'body': 'te6cckEBAQEAAgAAAEysuc0=', 'init_state': ''}}
+
+Mahdi: Hello friends. Anyone can help with this?
+
+Mahdi: Hi  I've put my NFT on sale with tonutils library. you can see that the sale address is for getgems sales https://tonapi.io/v2/nfts/EQC4dwQ9pj613YHd37r1JMo0yO4Z8hz2CG3tJFajRU4MbmmS   but Getgems UI does not show my NFT as on sale. it shows it "Not for sale"  Why?
+
+Stark: hey i am looking to deploy bridge on ton for smooth transactions with evm chain, any idea which repo i should fork and any previous deployments available?
+
+Justice: I can help (reply to 149092)
+
+Marous: Hello guys, I'm new to TON network. i'm trying to udnerstand how gas fees are sent/paid when sending  a transaction.             await wallet.methods.transfer({                 secretKey: keyPair.secretKey,                 toAddress: JETTON_WALLET_ADDRESS,                 amount: TonWeb.utils.toNano('0.05'),                 seqno: seqno,                 payload: await jettonWallet.createTransferBody({                     jettonAmount: TonWeb.utils.toNano('500'),                     toAddress: new TonWeb.utils.Address(WALLET2_ADDRESS),                     forwardAmount: TonWeb.utils.toNano('0.01'),                     forwardPayload: comment,                     responseAddress: walletAddress                 }),                 sendMode: 3,             }).send()         );     }  amount: TonWeb.utils.toNano('0.05'). Is this the gas fees paid ? Or the amount sent to JETTON_WALLET_ADDRESS or both ? And is there a refund ? How would that work
+
+Slava: Gas fees are deducted from the contract's balance after it's execution, based on the amount of gas units actually used (but no more than the amount of the incoming message by default).  However, besides the gas fees there are other types of fees.  Actually, fee management is one of the most nastiest problems in TON. You should study the docs very careful and try everything for yourself. (reply to 149108)
+
+&rey: Both, and part of that amount is forwarded to destination contract too.  Jetton wallet, in its kindness, refunds some TON to responseAddress. (reply to 149108)
+
+Marous: If it is deducted from the contracts balance I can just put amount: 0 then ? (reply to 149110)
+
+Slava: You are missing this part. (reply to 149110)
+
+Slava: See this.
+
+Marous: Got it. It won't work, I have to atleast specify the exact amount of gas fees in the amount section minimum or else the tx will revert (reply to 149114)
+
+Slava: You should provide enough extra coins to cover all the fees for the execution of the entire transaction chain to be more precise.
+
+&rey: "will revert" – why do you think so? (reply to 149116)
+
+Marous: because gas fees is deducted from amount and it is 0 so th tx wont work so it will revert (reply to 149118)
+
+&rey: The last step is faulty. (reply to 149119)
+
+&rey: That transaction will end abruptly with out-of-gas error, no actions will be applied, and handling stops at that.
+
+&rey: No reverting changes of prior transactions of the tree.
+
+&rey: If other tree branches had sent some messages, those will be handled as usual – this tx has no influence on them.
+
+Evgenii: Hello there! I am using @ton/ton library to call my contract's GET method. It used to work fine until couple of days ago. Since then I'm getting errors "failed to unpack account state".  bluepring client works just fine. tonClient4 also doesn't lead to any errors. It's only tonClient + apiKey.   All of the above is relevant for the testnet only.  Does anybody have any idea why?
+
+— 2025-05-23 —
+
+Tom | OrevaApp: Hello there!   Senior TON dev needed for equity in my project with worthy compensation (UI ready, over 5K community). If interested, DM!
+
+Bohdan: I have this error too. It's the third day of this error. I asked this question in all chats, even in orbs support but no answer yet. Will hope they fix it soon (reply to 149128)
+
+Evgenii: In my case tonclient replacement with its 4th version saved the day. (reply to 149151)

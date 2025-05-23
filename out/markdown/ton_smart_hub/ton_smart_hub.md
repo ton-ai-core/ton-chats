@@ -5403,3 +5403,19 @@ Phin: Dude probably just checking new transactions in mempool and spaming all ad
 Crypto: An interesting fraud
 
 Crypto: 😆
+
+— 2025-05-22 —
+
+Vladimir: ⚡️ Tact Smart Battle Mirror is now on TON Contests ⚡️  The official contest is over, but this isn't the end! DivaTech team has integrated all Tact Smart Battle tasks into the TON Contests platform, giving you the opportunity to solve the same problems without any time limits  🔹 Missed the contest? Catch up now! 🔹 Want to improve your result? Give it another try! 🔹 Just love solving problems? Enjoy!  We've kept all the test cases unchanged so you get the same experience  What's new? 😎 Nice design 🚀 Web IDE ⭐️ And other cool features of the TON Contests platform  Test yourself and sharpen your skills 👇 (forwarded from Contests support bot)
+
+Александр: Couldn't log in with tonkeeper wallet (reply to 4768)
+
+Oleg: W5? (reply to 4770)
+
+Александр: Yes, w5 (testnet) (reply to 4771)
+
+Daniil: Testnet wallets are not allowed. We use connected wallets for prize distributions.   So please use your mainnet wallet  to login on the platform  Have a nice coding🏆 (reply to 4772)
+
+Александр: Thanks! It seems to be possible to make a warning about the network being used. It works with the mainnet. (reply to 4773)
+
+Daniil: Thanks for your feedback) The notification was already there, but it was hidden on the right. Now we've moved it up to make it more visible (reply to 4774)
