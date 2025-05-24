@@ -8653,3 +8653,19 @@ Andrew: https://ton-org.notion.site/Telegram-Star-1b95274bd2cf81a381f7da81c96d4b
 ke bi: 好的，谢谢
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+wikig: 提问一下，TON proxy 的连接是只在mobile版的TG中直接打开有效，还是在mobile版本的TG中的TMA也可以有效请求
+
+Hh: 通过ton转的usdt一直不到账是为什么
+
+— 2025-05-24 —
+
+土豆: 我账号里面的usdt为什么转换不了ton
+
+土豆: 纯小白有没有大哥帮忙讲解一下
+
+小: 这是波场的usdt吧
+
+小: 大群里面有人问过，比较复杂
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

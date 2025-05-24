@@ -341,3 +341,47 @@ Tom | OrevaApp: Hello there!   Senior TON dev needed for equity in my project wi
 Bohdan: I have this error too. It's the third day of this error. I asked this question in all chats, even in orbs support but no answer yet. Will hope they fix it soon (reply to 149128)
 
 Evgenii: In my case tonclient replacement with its 4th version saved the day. (reply to 149151)
+
+Bohdan: Unfortunately didn't help. It's more like server side issue on orbs side. (reply to 149152)
+
+Bohdan: The funny thing is that if I deploy some simple contract like e.g. counter and call function from this contract, it works. Weird)
+
+XI: Hi everyone! Could you please recommend the best and up-to-date materials to learn how to write smart contracts for TON? I’m looking for practical guides, GitHub repositories, or video tutorials — anything that helped you personally to get started or go deeper. Thanks in advance!
+
+Anton: hey, please check out  https://docs.tact-lang.org — Tact documentation  https://github.com/tact-lang/defi-cookbook — practical DeFi recipes (just Jettons for the moment, will be updated with more materials)  https://github.com/tact-lang/awesome-tact — you can find the tools and video courses there (reply to 149162)
+
+TON Bounty Bridge: ​Feature] Add wallet connection history to TON ID mini app  🏷 Developer Tool  Summary:Add a feature to display a connection history of previously used TON wallets in the TON ID mini app.  Rewards: • 150 – 250 USD • (Depends on implementation complexity and UX quality.)  Created by stennnly
+
+Evgenii: old client also stopped worked for others methods. 😠 (reply to 149159)
+
+&rey: Testnet interfaces can be quite unstable.
+
+Bohdan: Yeah. But at least they could notify that today we have a problem, so we don't waste our time on unnecessary debugging (reply to 149168)
+
+Bohdan: what alternatives are there except orbs?
+
+&rey: The main Toncenter perhaps? testnet.toncenter.com
+
+Bohdan: thank you very much. I connected toncenter to TonClient and it works. (reply to 149173)
+
+Evgenii: I also switched to https://testnet.toncenter.com/api/v2/jsonRPC - works fine
+
+Eugene: https://chainstack.com/build-better-with-ton/ (reply to 149172)
+
+Combot: Combot has warned Draco (1/3) Reason: Word **** is not allowed
+
+Stark: Hi can anyone share resources on connecting smart contract with oracle to trigger functions on contracts for Ton blockchain?
+
+Andrei: Hi! Can someone please point to the example where smart contract is deployed from the wallet with pre-defined mnemonics. JS example would be perfect  To give a little more details.  I want to convert this (smart contract deployment from connected wallet) await tonConnectUI.sendTransaction({                     validUntil: Date.now() + 5 * 60 * 1000, // 5 minutes                     network: tonConnectUI.account?.chain,                     messages: [                         {                             address: address.toRawString(),                             amount: toNano('0.02').toString(),                             stateInit: stateInit.toBoc().toString('base64'),                             payload: body.toBoc().toString('base64'),                         },                     ],                 } Into the deployment from mnemonics?
+
+Slava: https://github.com/ton-org/ton?tab=readme-ov-file#usage (reply to 149216)
+
+Andrei: Thanks. What method from client should I use though? client.sendMessage()? (reply to 149218)
+
+Slava: Just put your deploy message inside the messages array.
+
+— 2025-05-24 —
+
+橘柚香: 才抢8.88u 手气有点差 (reply to 6)
+
+橘柚香: 才抢8.88u 手气有点差 (reply to 6)
