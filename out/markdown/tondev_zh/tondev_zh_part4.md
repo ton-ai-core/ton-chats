@@ -8669,3 +8669,15 @@ Hh: 通过ton转的usdt一直不到账是为什么
 小: 大群里面有人问过，比较复杂
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+— 2025-05-25 —
+
+Crypto: 钱包第三方服务自带的。 (reply to 90285)
+
+— 2025-05-26 —
+
+Combot: Anka has been banned! Reason: CAS ban.
+
+ab: 大佬们，请教个问题， 我的小程序接入了telegram stars支付，别人支付后，我在哪能看到收益？
+
+Andrew: https://ton-org.notion.site/Telegram-Star-1b95274bd2cf81a381f7da81c96d4baf?pvs=73 (reply to 90868)

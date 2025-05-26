@@ -385,3 +385,43 @@ Slava: Just put your deploy message inside the messages array.
 橘柚香: 才抢8.88u 手气有点差 (reply to 6)
 
 橘柚香: 才抢8.88u 手气有点差 (reply to 6)
+
+它是: Hey guys. The NFT transfer on Telegram to Fragments takes about 14 days for the mint process, is it maintained on the contract of the NFTs or it is off-chain process?
+
+Combot: Combot has warned Umar Aminu (1/3) Reason: 1 reports (reply to 149256)
+
+— 2025-05-25 —
+
+Specter MM ⚝: Hello everyone. Does anyone have a working example of processing a transaction after receiving it from the toncenter? I need to make payment acceptance in ton, but I don't really understand how to process transactions to exclude fake transfers, etc.
+
+Slava: Just read the docs, it has a dedicated section for this. (reply to 149322)
+
+Nxrix: How I must create transaction for renewing a ton dns with ton connect in my web app
+
+Nxrix: Also how can I find out the time left until the dns access will be lost
+
+&rey: IIRC any message with sufficient TON to complete compute phase suffices. (reply to 149394)
+
+&rey: Use get-method. (reply to 149395)
+
+Nxrix: how much? (reply to 149396)
+
+&rey: 0.01 or less. (reply to 149398)
+
+Denis: https://tonviewer.com/EQAKzoH3bMazEpZbXxUQ_xE-7jvcTt-rUE6eV8WzPF7OIx62?section=method (reply to 149397)
+
+Nxrix: Is it possible to make bulk transactions for ton connect?
+
+Nxrix: must be from owner address or any (reply to 149396)
+
+&rey: From owner, yes. (reply to 149403)
+
+&rey: No one in this chat has control over Fragment. Actually there are three options: a) Fragment glitch, b) scam, c) you misunderstood the terms. (reply to 149410)
+
+— 2025-05-26 —
+
+Mike: Yeah its all good. Ive only made rarible nfts and it was my mistake.
+
+TON Bounty Bridge: ​I do not consider specific details.  🏷 Developer Tool  Summary:B  Created by Hesami0084
+
+小小怪同学: 好吃不如饺子 好玩还是得是嫂子 (reply to 29)

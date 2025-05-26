@@ -11287,6 +11287,183 @@
       "from": "/B4ckSl4sh\\",
       "from_id": "user527968971",
       "text": "И, возможно\nhttps://docs.ton.org/v3/documentation/smart-contracts/message-management/message-modes-cookbook#10-send-all-received-tokens-together-with-the-contract-balance"
+    },
+    {
+      "id": 2227,
+      "type": "message",
+      "date": "2025-05-25T16:38:57.000Z",
+      "date_unixtime": "1748191137",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "Всем привет, подскажите плз, что могло пойти не так?\n\nЗадеплоил контракт в testnet, \nпытаюсь дернуть какой-нибуть геттер через\n\nconst adminContract = useAsyncInitialize(async () => {\n        if (!client) return;\n\n        const contract = AdminContract.fromAddress(Address.parse('EQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfk4Mm'));\n\n        return client.open(contract) as OpenedContract<AdminContract>\n    }, [client])\nи вот этот запрос\n\nconst data = await adminContract.getGetBalance(); отваливается с ошибкой 500 Failed to unpack account state"
+    },
+    {
+      "id": 2228,
+      "type": "message",
+      "date": "2025-05-25T16:39:14.000Z",
+      "date_unixtime": "1748191154",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "на контракте 0.2 тона"
+    },
+    {
+      "id": 2229,
+      "type": "message",
+      "date": "2025-05-25T16:41:23.000Z",
+      "date_unixtime": "1748191283",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "вот он на Tonviewer: https://testnet.tonviewer.com/kQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfkzis?section=transactions"
+    },
+    {
+      "id": 2230,
+      "type": "message",
+      "date": "2025-05-25T16:42:50.000Z",
+      "date_unixtime": "1748191370",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "сам геттер вот такой\n\nget fun get_balance(): Int {\n        return myBalance();\n    }"
+    },
+    {
+      "id": 2231,
+      "type": "message",
+      "date": "2025-05-25T16:44:15.000Z",
+      "date_unixtime": "1748191455",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "и почему-то геттеры в списке не отображаются на tonviewer"
+    },
+    {
+      "id": 2232,
+      "type": "message",
+      "date": "2025-05-25T16:47:17.000Z",
+      "date_unixtime": "1748191637",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Они вроде и не должны",
+      "reply_to_message_id": 2231
+    },
+    {
+      "id": 2233,
+      "type": "message",
+      "date": "2025-05-25T16:49:21.000Z",
+      "date_unixtime": "1748191761",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "0xbd89e00 ≈ 198,000,000 ≈ 0.2 TON",
+      "media_type": "photo",
+      "file": "photos/photo_2233.jpg",
+      "width": 1178,
+      "height": 816
+    },
+    {
+      "id": 2234,
+      "type": "message",
+      "date": "2025-05-25T16:49:49.000Z",
+      "date_unixtime": "1748191789",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "вот да, там геттеры что-то возвращают"
+    },
+    {
+      "id": 2235,
+      "type": "message",
+      "date": "2025-05-25T16:50:06.000Z",
+      "date_unixtime": "1748191806",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "Но с фронта когда запрашиваю, то ошибка",
+      "reply_to_message_id": 2227
+    },
+    {
+      "id": 2236,
+      "type": "message",
+      "date": "2025-05-25T16:50:20.000Z",
+      "date_unixtime": "1748191820",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Баланс вроде и возвращают",
+      "reply_to_message_id": 2234
+    },
+    {
+      "id": 2237,
+      "type": "message",
+      "date": "2025-05-25T17:02:33.000Z",
+      "date_unixtime": "1748192553",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Возможно, client подключен к mainnet, а не testnet",
+      "reply_to_message_id": 2227
+    },
+    {
+      "id": 2238,
+      "type": "message",
+      "date": "2025-05-25T17:05:48.000Z",
+      "date_unixtime": "1748192748",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "Вродь нет.",
+      "media_type": "photo",
+      "file": "photos/photo_2238.jpg",
+      "width": 932,
+      "height": 478
+    },
+    {
+      "id": 2241,
+      "type": "message",
+      "date": "2025-05-25T18:17:02.000Z",
+      "date_unixtime": "1748197022",
+      "from": "Slava",
+      "from_id": "user137299503",
+      "text": "Попробуйте в клиенте вызвать client.getBalance() для начала с тем же адресом не используя wrapper.",
+      "reply_to_message_id": 2227
+    },
+    {
+      "id": 2242,
+      "type": "message",
+      "date": "2025-05-25T18:25:17.000Z",
+      "date_unixtime": "1748197517",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "То же самое"
+    },
+    {
+      "id": 2243,
+      "type": "message",
+      "date": "2025-05-25T18:59:23.000Z",
+      "date_unixtime": "1748199563",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "Самое интересное, что в скрипте деплоя контракта всё работает"
+    },
+    {
+      "id": 2245,
+      "type": "message",
+      "date": "2025-05-25T19:00:20.000Z",
+      "date_unixtime": "1748199620",
+      "from": "RDN",
+      "from_id": "user284602315",
+      "text": "Это тот, что через blueprint вызывается"
+    },
+    {
+      "id": 2246,
+      "type": "message",
+      "date": "2025-05-25T19:37:30.000Z",
+      "date_unixtime": "1748201850",
+      "from": "Slava",
+      "from_id": "user137299503",
+      "text": "Значит что-то не так с клиентом.",
+      "reply_to_message_id": 2242
+    },
+    {
+      "id": 2248,
+      "type": "message",
+      "date": "2025-05-25T19:39:59.000Z",
+      "date_unixtime": "1748201999",
+      "from": "Slava",
+      "from_id": "user137299503",
+      "text": "Попробуйте toncenter.com с API-ключом.",
+      "reply_to_message_id": 2247
     }
   ]
 }

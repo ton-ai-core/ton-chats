@@ -7533,3 +7533,7 @@ Stark: hey i am looking to deploy bridge on ton for smooth transactions with evm
 `SayedEx: I have a repo (reply to 63800)
 
 Bohdan: Who know what does this error from https://ton.access.orbs.network means? {"ok":false,"error":"VALIDATE_ACCOUNT_STATEFailed to unpack Account","code":500}
+
+— 2025-05-25 —
+
+RDN: Hello, can anyone help me with problem?  I tried to call contract getters from my front-end app and getting an error 500 with message   `response:  "{\"ok\":false,\"error\":\"VALIDATE_ACCOUNT_STATEFailed to unpack Account\",\"code\":500}"`  that is my code     const adminContract = useAsyncInitialize(async () => {         if (!client) return;          const contract = AdminContract.fromAddress(Address.parse('EQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfk4Mm'));         const b = await client.getBalance(Address.parse('EQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfk4Mm')); <---- error is here         debugger          return client.open(contract) as OpenedContract<AdminContract>     }, [client])  Test wallet connected, contract deployed, and its balance more than 0

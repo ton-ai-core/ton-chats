@@ -2661,3 +2661,41 @@ Azamat: и если это так, то выйдет что комиссия б�
 Azamat: Благодарю🤗 (reply to 2202)
 
 /B4ckSl4sh\: И, возможно https://docs.ton.org/v3/documentation/smart-contracts/message-management/message-modes-cookbook#10-send-all-received-tokens-together-with-the-contract-balance
+
+— 2025-05-25 —
+
+RDN: Всем привет, подскажите плз, что могло пойти не так?  Задеплоил контракт в testnet,  пытаюсь дернуть какой-нибуть геттер через  const adminContract = useAsyncInitialize(async () => {         if (!client) return;          const contract = AdminContract.fromAddress(Address.parse('EQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfk4Mm'));          return client.open(contract) as OpenedContract<AdminContract>     }, [client]) и вот этот запрос  const data = await adminContract.getGetBalance(); отваливается с ошибкой 500 Failed to unpack account state
+
+RDN: на контракте 0.2 тона
+
+RDN: вот он на Tonviewer: https://testnet.tonviewer.com/kQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfkzis?section=transactions
+
+RDN: сам геттер вот такой  get fun get_balance(): Int {         return myBalance();     }
+
+RDN: и почему-то геттеры в списке не отображаются на tonviewer
+
+fruitful-l: Они вроде и не должны (reply to 2231)
+
+fruitful-l: 0xbd89e00 ≈ 198,000,000 ≈ 0.2 TON
+
+RDN: вот да, там геттеры что-то возвращают
+
+RDN: Но с фронта когда запрашиваю, то ошибка (reply to 2227)
+
+fruitful-l: Баланс вроде и возвращают (reply to 2234)
+
+Андрей: Возможно, client подключен к mainnet, а не testnet (reply to 2227)
+
+RDN: Вродь нет.
+
+Slava: Попробуйте в клиенте вызвать client.getBalance() для начала с тем же адресом не используя wrapper. (reply to 2227)
+
+RDN: То же самое
+
+RDN: Самое интересное, что в скрипте деплоя контракта всё работает
+
+RDN: Это тот, что через blueprint вызывается
+
+Slava: Значит что-то не так с клиентом. (reply to 2242)
+
+Slava: Попробуйте toncenter.com с API-ключом. (reply to 2247)
