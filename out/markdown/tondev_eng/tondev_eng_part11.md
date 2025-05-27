@@ -425,3 +425,61 @@ Mike: Yeah its all good. Ive only made rarible nfts and it was my mistake.
 TON Bounty Bridge: ​I do not consider specific details.  🏷 Developer Tool  Summary:B  Created by Hesami0084
 
 小小怪同学: 好吃不如饺子 好玩还是得是嫂子 (reply to 29)
+
+Random️: Hey guys, is testnet having any issues now? Seems pending for quite a long time for several of my transactions
+
+Mojisola🍅 🍅: possible ur transaction is having issue (reply to 149430)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 16 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 60  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Ricardo: are there TON API and TON CENTER mocking utilities for testing purposes?
+
+&rey: I don't think so. In particular, different mocks may require different capabilities, up to having a backing testnet chain. (reply to 149439)
+
+Nxrix: what was url for ton domains in testnet?
+
+TON Bounty Bridge: ​Viva  🏷 Developer Tool  Created by beneraindustries
+
+Agustin: Hey guys, do you have any working example on how to create and send wallet v5r1 ton transactions using js? My flow is Transaction creation -> get the signature hash -> sign it -> create the external message with the signatures -> broadcast
+
+Nerses: Why is there such caution around the checkSignature and checkDataSignature functions? What technical limitation necessitates it?
+
+&rey: Ed25519 is not known for being a cheap computational operation. (reply to 149457)
+
+Nerses: Actually I was wondering what changes after 11th call,that it consumes more gas (reply to 149459)
+
+&rey: TVM internal counter does. (reply to 149460)
+
+TON Bounty Bridge: ​Begin Start NFT  🏷 Developer Tool  Summary:I’m interested to NFTs.  Created by calvin-bitcoin
+
+@WK: Hello everyone, the cryptocurrency I created on the T O N blockchain has never successfully passed the approval to remove the verification token.
+
+Selcuk: Hey guys, we're building a chat-based UI for our AI discovery module as a Telegram Mini App, but facing an iOS issue that breaks our input field’s UX. It works fine in Safari and Android, but not in the iOS Mini App. We think this is a common problem for chat-style Mini Apps on iOS. Who would be the right person for this issue? I can provide more details. Thx.
+
+&rey: @devs chat would be right, not this one. I believe they might have answered that one btw – please check chat history. (reply to 149472)
+
+Selcuk: thx! will do. (reply to 149483)
+
+Mehmet Ankara: Question to the TON Dev Community: Hi everyone 👋  I'm analyzing the wallet contract structure for Wallet V5, particularly the part where the wallet state is initialized using the following structure:  ts Kopyala Düzenle beginCell()   .storeBit(config.signatureAllowed)   .storeUint(config.seqno, 32)   .storeUint(config.walletId, 32)   .storeBuffer(config.publicKey, 32)   .storeDict(config.extensions, Dictionary.Keys.BigUint(256), Dictionary.Values.BigInt(1))   .endCell(); I have a question regarding the config.walletId value.  🧠 What exactly is walletId (also referred to as subwallet_id) supposed to represent in this context?  And more specifically:  👉 What value does the official Telegram Wallet (W5) use for walletId when deploying user wallets?  Is it always the same hardcoded value for all users, or is it dynamically derived per user or key?  Any clarification or pointers to where this is defined (FunC or deployment logic) would be much appreciated 🙏  Thanks in advance!
+
+Slava: Having unpredictable walletId will make your wallet (seed phrase) incompatible with other wallet software. (reply to 149486)
+
+Slava: What's that? (reply to 149486)
+
+Mehmet Ankara: So how can I import a wallet with the same address as the memoric list? (reply to 149487)
+
+Slava: You can call the get_subwallet_id on the deployed wallet contract to determine the ID used.
+
+Mehmet Ankara: thank you i will try (reply to 149491)
+
+IMe: Is there a way to check pnl of ton wallets ?
+
+— 2025-05-27 —
+
+它是: Any replies? (reply to 149250)
+
+HeKnow: hello good morning guys please need help   Firstly I am the individual_content (from TEP64 standard in my init like this init(         owner: Address,         collection_address: Address,         item_index: Int,         individual_content: Cell?,         metadata: Metadata?     ) {         self.owner = owner;         self.collection_address = collection_address;         self.item_index = item_index;         self.is_initialized = false;         self.metadata = metadata;         let dict: map<Int as uint256, Cell> = emptyMap();         let attribute  = "[{ }]";         dict.set(sha256("name"), beginTailString().concat("Michaelzy #1").toCell());         dict.set(sha256("description"), beginTailString().concat("Michaelzy test nft").toCell());         dict.set(sha256("image"), beginTailString().concat("image link here").toCell());         dict.set(sha256("content_url"), beginTailString().concat("empty url").toCell());         dict.set(sha256("attributes"), beginTailString().concat(attribute).toCell());                   self.individual_content = beginCell()             .storeUint(0, 8)             .storeMaybeRef(dict.asCell()!!)             .endCell();     }  then i implemented the getter as so: get fun get_nft_data(): GetNftData {         return GetNftData{             is_initialized: self.is_initialized,             index: self.item_index,             collection_address: self.collection_address,             owner_address: self.owner,             individual_content: self.individual_content!!,         };     }  the tonviewer link shows the owner address and collection address but the content metadata is empty. I'd appreciate your help pls
+
+HeKnow: Posted this in tact dev group but was banned for some reeason
+
+/B4ckSl4sh\: I guess this link may help you  https://docs.tact-lang.org/cookbook/nfts/#on-chain-metadata-creation (reply to 149566)

@@ -7537,3 +7537,23 @@ Bohdan: Who know what does this error from https://ton.access.orbs.network means
 — 2025-05-25 —
 
 RDN: Hello, can anyone help me with problem?  I tried to call contract getters from my front-end app and getting an error 500 with message   `response:  "{\"ok\":false,\"error\":\"VALIDATE_ACCOUNT_STATEFailed to unpack Account\",\"code\":500}"`  that is my code     const adminContract = useAsyncInitialize(async () => {         if (!client) return;          const contract = AdminContract.fromAddress(Address.parse('EQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfk4Mm'));         const b = await client.getBalance(Address.parse('EQAmKTAgl5jlvLX4_xZbCQpahocbkh7nSMpblxPFWbAfk4Mm')); <---- error is here         debugger          return client.open(contract) as OpenedContract<AdminContract>     }, [client])  Test wallet connected, contract deployed, and its balance more than 0
+
+— 2025-05-26 —
+
+7VPN ||: Hello. I am new in smart contract and TON blockchain. for a test project i want to launch a token with basic features like send, Freeze and burn. i just install nodejs in phpstorm and create a sample with npm create ton@latest but i don't know what i am doing and how i must customize my token with my logo name and etc... is there any sample to undrestand the concept? or any course? Thank you in advance.
+
+maksim: Hello, here is reference jetton (token in TON) implementation in Tact https://github.com/tact-lang/jetton  And here is cookbook with different examples of working with this jettons (sending, receiving, etc) https://github.com/tact-lang/defi-cookbook  Based on this, you should be able to implement your own custom logic (reply to 64120)
+
+7VPN ||: Thank you i will check them all. but i have some basic questions because i don't have any experience in blockchain programming. launching token ( or should i say jetton?) in TON blockchain is same as writing an smart contract? or first i should launch a token in another way and then write a smart contract for manage the token? (reply to 64121)
+
+maksim: Launching jetton means to deploy a smart contract that implements jetton logic  You can do it either by yourself, or by using some tools. Here is open-source minter tool for deploying Tact jettons, that does this for you https://kaladin13.github.io/minter/ (NOTE: work on this is still in progress, only use it for testing purposes in testnet, it might be migrated to the other url soon too)  And here is more detailed guide on how to mint your first jetton in text format https://docs.ton.org/v3/guidelines/dapps/tutorials/mint-your-first-token (reply to 64123)
+
+7VPN ||: so i think it's better to start with cloning /tact-lang/jetton and deploy a sample jetton and then work with examples at tact-lang/defi-cookbook for more details. yes? (reply to 64124)
+
+maksim: Jetton repo also contains deploy scripts, so you can go with this approach too
+
+7VPN ||: yes i am following that. i am trying to find contact.deploy.ts file to edit it (reply to 64128)
+
+M.a: Hi How install toncli??
+
+Slava: https://github.com/disintar/toncli/blob/master/INSTALLATION.md (reply to 64154)

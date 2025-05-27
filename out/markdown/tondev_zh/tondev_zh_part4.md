@@ -8681,3 +8681,19 @@ Combot: Anka has been banned! Reason: CAS ban.
 ab: 大佬们，请教个问题， 我的小程序接入了telegram stars支付，别人支付后，我在哪能看到收益？
 
 Andrew: https://ton-org.notion.site/Telegram-Star-1b95274bd2cf81a381f7da81c96d4baf?pvs=73 (reply to 90868)
+
+Combot: leekill has been banned! Reason: CAS ban.
+
+Combot: Настенька has been banned! Reason: CAS ban.
+
+Combot: Isaac has been banned! Reason: CAS ban.
+
+Combot: 🖤🚫 has been banned! Reason: CAS ban.
+
+Combot: VEN has been banned! Reason: CAS ban.
+
+— 2025-05-27 —
+
+Combot: Unung has been banned! Reason: CAS ban.
+
+Combot: Gente Jm has been banned! Reason: CAS ban.
