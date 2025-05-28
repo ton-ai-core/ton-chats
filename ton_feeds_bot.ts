@@ -714,6 +714,7 @@ async function main() {
   const client = new TelegramClient(
     new StringSession(sessionStr), API_ID, API_HASH, {
       connectionRetries: 5,
+      useWSS: true,    // Обязательно! Использует WSS (порт 443) вместо WS (порт 80)
     }
   );
 
