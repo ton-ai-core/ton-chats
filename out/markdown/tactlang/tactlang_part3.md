@@ -7557,3 +7557,91 @@ maksim: Jetton repo also contains deploy scripts, so you can go with this approa
 M.a: Hi How install toncli??
 
 Slava: https://github.com/disintar/toncli/blob/master/INSTALLATION.md (reply to 64154)
+
+— 2025-05-27 —
+
+Chief: Hello,  I am having issues getting my nft item metadata to display on tonviewer and getgems  Firstly I am the individual_content (from TEP64 standard in my init like this init(         owner: Address,         collection_address: Address,         item_index: Int,         individual_content: Cell?,         metadata: Metadata?     ) {         self.owner = owner;         self.collection_address = collection_address;         self.item_index = item_index;         self.is_initialized = false;         self.metadata = metadata;         let dict: map<Int as uint256, Cell> = emptyMap();         let attribute  = "[{ }]";         dict.set(sha256("name"), beginTailString().concat("Michaelzy #1").toCell());         dict.set(sha256("description"), beginTailString().concat("Michaelzy test nft").toCell());         dict.set(sha256("image"), beginTailString().concat("image here").toCell());         dict.set(sha256("content_url"), beginTailString().concat("empty url").toCell());         dict.set(sha256("attributes"), beginTailString().concat(attribute).toCell());                   self.individual_content = beginCell()             .storeUint(0, 8)             .storeMaybeRef(dict.asCell()!!)             .endCell();     }  then i implemented the getter as so: get fun get_nft_data(): GetNftData {         return GetNftData{             is_initialized: self.is_initialized,             index: self.item_index,             collection_address: self.collection_address,             owner_address: self.owner,             individual_content: self.individual_content!!,         };     }  the tonviewer link shows the owner address and collection address but the content metadata is empty. I'd appreciate your help pls
+
+Nerses: Hi all, I’m writing a TACT function where the user sends amount_sent and specifies amount_to_lock. The contract should:  Lock exactly amount_to_lock in state  Refund the surplus (amount_sent – amount_to_lock) to the sender after covering all fees (incl. storage rent)  Any recommended TACT pattern or sample code?
+
+maksim:       nativeReserve(msg.amount, ReserveExact | ReserveAddOriginalBalance | ReserveBounceIfActionFail);        message(MessageParameters {                 to: sender(),                 value: 0,                 bounce: false,                 mode: SendRemainingBalance,             });  It should look something like this (reply to 64222)
+
+maksim: Don't use cashback() function since it uses SendRemainingValue send mode, and this mode would fail if you use it together with reserve
+
+Nerses: I used smth like that,but problem is that before it contract also has some balance so if I use this code the caller will get all balance except msg.amount (reply to 64223)
+
+Nerses: yeah I have tested that😅😅 Thanks anyway (reply to 64224)
+
+maksim: No, it won't since you are using ReserveAddOriginalBalance mode in reserve here (reply to 64225)
+
+maksim: This mode ensures that all previous balance is secure
+
+Nerses: let me try and inform you (reply to 64227)
+
+Nerses: No the code didnt behave like expected.Here I have run same script without changing any parameter and used the code you provided.As you can see every time it returned different amount (reply to 64227)
+
+Nerses: even for first call I have specified to keep 0.1 but it kept 0.2
+
+maksim: Can you please provide related code snippet
+
+Nerses: let me send it in DM (reply to 64232)
+
+— 2025-05-28 —
+
+Bhavyaraj singh: I am beginners is  any tips for me
+
+Anton: hi and welcome, a good place to start is https://docs.tact-lang.org  you can find how to install the Tact tooling here: https://tact-lang.org/#tooling (reply to 64257)
+
+fruitful-l: Is Tact by example still being supported? It just seems like there’s a lot of outdated content, like deployable trait, and a ton of room for improvement like more immersive user-contract interactions, but I’m not sure if any of this is ever coming to this project
+
+Anton: Right now it’s not maintained, however we started working on a project that is inspired by tact-by-example but will be updated to include all the recent language features (reply to 64259)
+
+fruitful-l: Great to know, thanks!
+
+Chief: Hi Anton, can I get you help with an issue I am having? Thanks. (reply to 64258)
+
+Chief: @@tiredofbeeing or anyone who can help, I will be grateful. Really need the help in resolving a bug. Thanks
+
+Chief: I also would like to ask,  I am currently writing an nft and jetton smart contract and would just like to ask which is recommended to use between onchain metadata and offchain metadata
+
+maksim: Offchain meta could get lost with time (link expire for example) and needs to be fetched separately, while onchain data is stored on the blockchain so no such issues, but you will pay slightly more storage fees for more size stored in your contract. Generally, it's a trade-off of what you want more, but from web3 perspective storing data on-chain is more "correct" (decentralization and etc) (reply to 64268)
+
+maksim: Please share the issue or question in chat (reply to 64267)
+
+M.a: Where can I find the selector? I want to connect the contract to a web page, and it seems I need a selector for that.
+
+maksim: Seems that you need TON Connect frontend protocol, https://docs.ton.org/v3/guidelines/ton-connect/guidelines/how-ton-connect-works (reply to 64271)
+
+M.a: Thanks 🙏 (reply to 64272)
+
+Chief: I am having issues getting my nft item metadata to display on tonviewer. Tonviewer displays the owner address and collection address but doesn't display the metadata (individual_content) (reply to 64270)
+
+M.a: Actually, I don't have enough knowledge for this task, but I have a serious goal. That's why I’m first teaching ChatGPT using the official documentation, and then I want it to help me based on that. Sometimes, though, it seems to think it's developing a contract on the Ethereum network 😅
+
+maksim: You might want to check this org and related ai repos, https://github.com/ton-ai-core (reply to 64275)
+
+maksim: Please provide more context and/or related code snippets and explorer links (reply to 64274)
+
+Ivan: Hi, what can I do if I sent my tokens from Tonkeeper to another Jetton wallet (instantiated from another my contract)? The Jetton notify failed =(. Could you please take a look at this transaction: https://testnet.tonviewer.com/transaction/5f980113c456b97c5351e1127ae54a6b50c09ca57e8b3a25ccd627ee72392181?section=trace (reply to 53450)
+
+/B4ckSl4sh\: Tonkeeper sets forwardTonAmount to 1n
+
+Ivan: so i cant send jettons with it? (reply to 64279)
+
+/B4ckSl4sh\: You can't invoke destination contract (reply to 64280)
+
+Rami: Hi guys! I'm unable to access the Telegram Wallet due to country restrictions. Are there plans to lift these restrictions for EU and Usa and other restricted coutry? If so, what steps are needed to make this happen from telegram to do so?  and is the team actively working on a solution?
+
+/B4ckSl4sh\: But Jettons themselves will be sent (reply to 64281)
+
+Ivan: bad for me =( looks like the only solution is to write a separate wallet for my project? maybe there are good wallet repos in tact? (reply to 64283)
+
+/B4ckSl4sh\: You usually just need to propose a correct transaction to your user by TonConnect (reply to 64286)
+
+Ivan: you mean to invoke tonkeepr transaction on client side, not from tonkeeper itself? (reply to 64289)
+
+/B4ckSl4sh\: Yes (reply to 64290)
+
+Ivan: ty sir
+
+Chief: I will share that. Can I please share this in DM. Thanks (reply to 64277)

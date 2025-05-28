@@ -8697,3 +8697,19 @@ Combot: VEN has been banned! Reason: CAS ban.
 Combot: Unung has been banned! Reason: CAS ban.
 
 Combot: Gente Jm has been banned! Reason: CAS ban.
+
+Combot: Colonel has been banned! Reason: CAS ban.
+
+Combot: Emmanuel Pio Mohamed has been banned! Reason: CAS ban.
+
+Combot: desie has been banned! Reason: CAS ban.
+
+— 2025-05-28 —
+
+Combot: Liza has been banned! Reason: CAS ban.
+
+Combot: LUDUS, Vasanth Kutty have been banned! Reason: CAS ban.
+
+Combot: Parejita joven Parejita joven has been banned! Reason: CAS ban.
+
+Na_Lunariso: Who need UX/UI designer and website front-end developer?

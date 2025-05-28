@@ -2739,3 +2739,27 @@ RDN: Попробовал - работает, а это к чему была з�
 Slava: ^ (reply to 2246)
 
 Slava: Была информация что API-шки тупят, в причинах я не разбирался. toncenter.com работает — проверенно.
+
+— 2025-05-27 —
+
+Roman: Как можно добавить к кастомному body текстовый комментарий в Tact? Например к  NFTTransfer NFTTransfer {     queryId: Int as uint64;     newOwner: Address; // Address of the new owner of the NFT item.     responseDestination: Address; // Address to send a response confirming a successful transfer and the remaining incoming message coins.     customPayload: Cell? = null; // Optional custom data. In most cases, this should be null.     forwardAmount: Int as coins; // The amount of nanotons to be sent to the new owner.     forwardPayload: Slice as remaining; // Optional custom data that should be sent to the new owner. }
+
+Андрей: А куда конкретнее хотите добавить комментарий? К forwardPayload? (reply to 2295)
+
+Roman: Да (reply to 2296)
+
+Nikitos: forwardPayload: Slice as remaining = beginCell().storeStringTail(“comment”).endCell().beginParse();  Если не ошибаюсь, можно и так (reply to 2295)
+
+Андрей: https://docs.tact-lang.org/ref/core-strings/#stringascomment  Думаю вам поможет (reply to 2297)
+
+Roman: Так я делал, не отображалось (reply to 2299)
+
+Андрей: Можно пример пожалуйста (reply to 2300)
+
+/B4ckSl4sh\: Кажется не хватает префикса .storeUint(0, 32) (reply to 2298)
+
+/B4ckSl4sh\: Но я не на 100% уверен
+
+Nikitos: Не совсем понял, куда и зачем его надо добавить (reply to 2302)
+
+Андрей: в начало,  ``` .asComment() Returns a Cell from a String by prefixing the latter with four null bytes. This format is used for passing text comments as message bodies. ``` (reply to 2304)

@@ -11647,6 +11647,114 @@
       "from": "Slava",
       "from_id": "user137299503",
       "text": "Была информация что API-шки тупят, в причинах я не разбирался. toncenter.com работает — проверенно."
+    },
+    {
+      "id": 2295,
+      "type": "message",
+      "date": "2025-05-27T12:46:23.000Z",
+      "date_unixtime": "1748349983",
+      "from": "Roman",
+      "from_id": "user7197127123",
+      "text": "Как можно добавить к кастомному body текстовый комментарий в Tact? Например к  NFTTransfer\nNFTTransfer {\n    queryId: Int as uint64;\n    newOwner: Address; // Address of the new owner of the NFT item.\n    responseDestination: Address; // Address to send a response confirming a successful transfer and the remaining incoming message coins.\n    customPayload: Cell? = null; // Optional custom data. In most cases, this should be null.\n    forwardAmount: Int as coins; // The amount of nanotons to be sent to the new owner.\n    forwardPayload: Slice as remaining; // Optional custom data that should be sent to the new owner.\n}"
+    },
+    {
+      "id": 2296,
+      "type": "message",
+      "date": "2025-05-27T12:53:28.000Z",
+      "date_unixtime": "1748350408",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "А куда конкретнее хотите добавить комментарий? К forwardPayload?",
+      "reply_to_message_id": 2295
+    },
+    {
+      "id": 2297,
+      "type": "message",
+      "date": "2025-05-27T12:56:30.000Z",
+      "date_unixtime": "1748350590",
+      "from": "Roman",
+      "from_id": "user7197127123",
+      "text": "Да",
+      "reply_to_message_id": 2296
+    },
+    {
+      "id": 2298,
+      "type": "message",
+      "date": "2025-05-27T13:02:49.000Z",
+      "date_unixtime": "1748350969",
+      "from": "Nikitos",
+      "from_id": "user1478247707",
+      "text": "forwardPayload: Slice as remaining = beginCell().storeStringTail(“comment”).endCell().beginParse();\n\nЕсли не ошибаюсь, можно и так",
+      "reply_to_message_id": 2295
+    },
+    {
+      "id": 2299,
+      "type": "message",
+      "date": "2025-05-27T13:03:01.000Z",
+      "date_unixtime": "1748350981",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "https://docs.tact-lang.org/ref/core-strings/#stringascomment\n\nДумаю вам поможет",
+      "reply_to_message_id": 2297
+    },
+    {
+      "id": 2300,
+      "type": "message",
+      "date": "2025-05-27T13:03:26.000Z",
+      "date_unixtime": "1748351006",
+      "from": "Roman",
+      "from_id": "user7197127123",
+      "text": "Так я делал, не отображалось",
+      "reply_to_message_id": 2299
+    },
+    {
+      "id": 2301,
+      "type": "message",
+      "date": "2025-05-27T13:04:26.000Z",
+      "date_unixtime": "1748351066",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Можно пример пожалуйста",
+      "reply_to_message_id": 2300
+    },
+    {
+      "id": 2302,
+      "type": "message",
+      "date": "2025-05-27T13:05:10.000Z",
+      "date_unixtime": "1748351110",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Кажется не хватает префикса .storeUint(0, 32)",
+      "reply_to_message_id": 2298
+    },
+    {
+      "id": 2303,
+      "type": "message",
+      "date": "2025-05-27T13:05:17.000Z",
+      "date_unixtime": "1748351117",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Но я не на 100% уверен"
+    },
+    {
+      "id": 2304,
+      "type": "message",
+      "date": "2025-05-27T13:06:09.000Z",
+      "date_unixtime": "1748351169",
+      "from": "Nikitos",
+      "from_id": "user1478247707",
+      "text": "Не совсем понял, куда и зачем его надо добавить",
+      "reply_to_message_id": 2302
+    },
+    {
+      "id": 2305,
+      "type": "message",
+      "date": "2025-05-27T13:07:23.000Z",
+      "date_unixtime": "1748351243",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "в начало,\n\n``` .asComment()\nReturns a Cell from a String by prefixing the latter with four null bytes. This format is used for passing text comments as message bodies.\n```",
+      "reply_to_message_id": 2304
     }
   ]
 }

@@ -483,3 +483,33 @@ HeKnow: hello good morning guys please need help   Firstly I am the individual_c
 HeKnow: Posted this in tact dev group but was banned for some reeason
 
 /B4ckSl4sh\: I guess this link may help you  https://docs.tact-lang.org/cookbook/nfts/#on-chain-metadata-creation (reply to 149566)
+
+Keshav: Hi Team I'm getting this Error   While deploying through command   npx blueprint run  TypeError: Cannot read properties of undefined (reading 'slice')     at /home/lenovo/Desktop/Work/POC/Lottry/node_modules/@ton/blueprint/dist/utils/selection.utils.js:77:47     at Array.map (<anonymous>)     at findScripts (/home/lenovo/Desktop/Work/POC/Lottry/node_modules/@ton/blueprint/dist/utils/selection.utils.js:76:10)     at async run (/home/lenovo/Desktop/Work/POC/Lottry/node_modules/@ton/blueprint/dist/cli/run.js:18:59)     at async main (/home/lenovo/Desktop/Work/POC/Lottry/node_modules/@ton/blueprint/dist/cli/cli.js:112:5)    I was just following the documentation  and made a tact boilerplate through this command   npm create ton@latest
+
+Fardin: Hello my friends
+
+Fardin: We are working on a dapp on ton which has a login with wallet address  Is the response of ton connect ( wallet address) secure enough for using as a fast login method?
+
+&rey: If the login is for frontend only, it is. If it is for server, ask for tonProof too. (reply to 149606)
+
+Fardin: It's for the backend and could make critical security issues (reply to 149607)
+
+Fardin: Is tonProof something like the sign data in evm network?
+
+&rey: Then tonProof proves that the connected user really owns the wallet they name. Yes, it signs a specific wallet-and-dApp-generated blob of data. (reply to 149608)
+
+Fardin: Great, thanks buddy (reply to 149610)
+
+— 2025-05-28 —
+
+Evgenii: Btw regarding ton connect - is there a way to identify whether a connected wallet belongs to testnet or mainnet in case a wallet is not initialized yet?
+
+Mojisola🍅 🍅: it is ur front-end, you can enforce what you want.  you can set testnet or mainnet (reply to 149622)
+
+Evgenii: It won't help - I check the resulting ton proof in the backend. (reply to 149625)
+
+Mojisola🍅 🍅: maybe you are not doing it correctly.
+
+&rey: What do you mean though? If a proof succeeds, then the person owns wallet with that address in either network. (reply to 149622)
+
+&rey: The network currently chosen in wallet app is .account.chain, where -239 stands for mainnet and -3 for testnet.
