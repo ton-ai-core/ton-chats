@@ -8713,3 +8713,9 @@ Combot: LUDUS, Vasanth Kutty have been banned! Reason: CAS ban.
 Combot: Parejita joven Parejita joven has been banned! Reason: CAS ban.
 
 Na_Lunariso: Who need UX/UI designer and website front-end developer?
+
+Combot: Milon Minon has been banned! Reason: CAS ban.
+
+— 2025-05-29 —
+
+Combot: 糕bnaibiahuu has been banned! Reason: CAS ban.

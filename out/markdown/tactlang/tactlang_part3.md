@@ -7645,3 +7645,55 @@ Ivan: you mean to invoke tonkeepr transaction on client side, not from tonkeeper
 Ivan: ty sir
 
 Chief: I will share that. Can I please share this in DM. Thanks (reply to 64277)
+
+Andrei: Hi! How do I keep the value sent in a deploy message and make sure it's not bounced back to the wallet?  Right now, the value is being sent back, even though I have the flag bounce set to false.   export async function run(provider: NetworkProvider) {     const contract = provider.open(await Contract.fromInit(ID, AMOUNT));      const deploymentFee = toNano('0.05');     const totalValue = toNano(AMOUNT.toString()) + deploymentFee;      await contract.send(         provider.sender(),         {             value: totalValue,             bounce: false,         },         {             $$type: 'Deploy',             queryId: 0n,         },     );      await provider.waitForDeploy(contract.address); }
+
+maksim: The message doesn't bounce, however I guess you are using Deployable trait that includes cashback function in it, and this function returns all remaining funds from deploy (reply to 64309)
+
+maksim: You can read more about this here  https://docs.tact-lang.org/ref/stdlib-deploy/#deployable
+
+Andrei: Thank you. (reply to 64310)
+
+7VPN ||: Hello i have this contract code: import "@stdlib/ownable"; message IncreaseOwner{     amount : Int as uint32; }  contract TestOwnable with Deployable, Ownable {     init(id : Int) {         self.owner = sender();          self.val = 1;         self.id = id;     }     receive(msg: IncreaseOwner) {         self.requireOwner();         self.val = self.val + msg.amount;     } } deployed it with a wallet and now test it  import { Address, toNano } from '@ton/core'; import { TestOwnable } from '../build/TestOwnable/TestOwnable_TestOwnable'; import { NetworkProvider,sleep } from '@ton/blueprint';  export async function run(provider: NetworkProvider, args: string[]) {     const address = Address.parse("kQAy8gzhh2uIakN4yIzCBC7aWdZ1xwpO9gDyszr2AD7lCi2M");      const testOwnable = provider.open(TestOwnable.fromAddress(address));      await testOwnable.send(         provider.sender(),             {                 value: toNano('0.01'),             },             {                 $$type : "IncreaseOwner",                 amount: 6n,             }     )  }  problem is no matter from what wallet i sent this request, val increase for amount and never checked if the sender is owner or not how i can fix it?
+
+Андрей: Can you provide piece of code, where you check self.val? In that code you just send message from wallet (reply to 64346)
+
+7VPN ||: as i read in document of we put self.requireOwner() in contract and then receiving a message from a wallet which is not owner the transaction will be failed and don't require extra work. is it wrong? (reply to 64347)
+
+Андрей: Yeah, but you don’t check transaction fail (reply to 64348)
+
+7VPN ||: aha, so how i must check it? in receive(msg: IncreaseOwner) i must add something? because i don't want self.val = self.val + msg.amount; executed when not owner (reply to 64349)
+
+Андрей: If you check in testnet than you can view it in tonviewer  If you check locally you can view transaction  const trxRes = await… console.log(trxRes.transactions) (reply to 64350)
+
+7VPN ||: sorry but didn't catch it. in my idea if sender is not owner the next lines will not be executed so val never changes with messages from non owner wallet.  but now you said that i must check if transaction is failed i shouldn't increase val  i just take a look as tonviewer and didn't see any failed transaction https://testnet.tonviewer.com/kQAy8gzhh2uIakN4yIzCBC7aWdZ1xwpO9gDyszr2AD7lCi2M this is my contract (reply to 64351)
+
+— 2025-05-29 —
+
+7VPN ||: you know unfortunately i am new in blockchain programming because of that i am confused here and sorry for that
+
+Андрей: Are you sure the requireOwner() call is present in your saved code? I couldn’t find a const declaration 132 in the code you shared (fift)  https://docs.tact-lang.org/ref/stdlib-ownable/#ownable (reply to 64353)
+
+7VPN ||: yes (reply to 64354)
+
+Андрей: Please try to deploy again,  yarn build yarn deploy (reply to 64356)
+
+7VPN ||: here you can see my contract, my script and terminal. first i saved then npx blueprint build —all then npx blueprint run my script. in terminal it's clear that my wallet and owner wallet is not same
+
+7VPN ||: ok i will do it now (reply to 64357)
+
+7VPN ||: yarn build works but deploy failed. no command finds. and problem still here (reply to 64361)
+
+Андрей: You rewrite ownable trait? It make more sense (reply to 64358)
+
+Андрей: Just delete it 😁
+
+Андрей: https://docs.tact-lang.org/ref/core-debug/#throwunless
+
+7VPN ||: i wasn't rewrite it. in my last test done that and same can it be because of internal and external message? i am confirm transaction through my tonkeeper wallet on my phone (reply to 64363)
+
+Андрей: No, your connection method doesn’t affect at contract code/behaviour (reply to 64366)
+
+7VPN ||: ok i done something new     get fun checkSenderAddress():Address {         return sender();     } and then     const testOwnable = provider.open(TestOwnable.fromAddress(address));       const owner = await testOwnable.getCheckSenderAddress();      console.log(owner - ${owner}) got: Error: Unable to execute get method. Got exit_code: 11 (reply to 64367)
+
+Amor: I think u should refer OwnableTransferable2Step trait (reply to 64369)

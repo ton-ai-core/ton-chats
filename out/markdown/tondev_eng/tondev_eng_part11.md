@@ -513,3 +513,57 @@ Mojisola🍅 🍅: maybe you are not doing it correctly.
 &rey: What do you mean though? If a proof succeeds, then the person owns wallet with that address in either network. (reply to 149622)
 
 &rey: The network currently chosen in wallet app is .account.chain, where -239 stands for mainnet and -3 for testnet.
+
+Mehmet Ankara: Hello again I am interested in importing wallet I am using ton_dart library via flutter and https://github.com/mrtnetwork/ton_dart/blob/8ba497819a04aeac7a67cdbba727d043d88dbfb7/lib/src/contracts/wallet_contracts/types/models/v5_client_id.dart#L43 what should I write to this number while importing subwalletNumber so that I can import my wallet or other wallet in telegram
+
+Torit: Can you tell me if there is a telegram bot that can track my transactions in my TON wallet? So that when I replenish my wallet, I get a notification about it in the telegram bot?
+
+Mojisola🍅 🍅: what is subwallet. thought it isnt needed when importing wallet (reply to 149667)
+
+Mehmet Ankara: My problem is that I import with a memoric key, for example WalletV5, but it gives a different wallet address. (reply to 149670)
+
+Mojisola🍅 🍅: this is exactly my experience too. different wallet address.  somebody should provide answer to this.
+
+Slava: When instantiating a wallet contract's wrapper you need to provide exactly the same init data (considering the same code is used) that was used for deploying the existing wallet's smart contract. Otherwise you will get a different address.
+
+Mojisola🍅 🍅: v5 for example gives different address in script (reply to 149681)
+
+Mojisola🍅 🍅: and different address in tonkeeper even though I used same phrase
+
+Slava: Seed phrase is only a part of the init data. You need to provide all the other details exactly the same as well.
+
+Slava: By the way, why don't you use the createFromAddress method for instantiating the wallet? Considering the wallet is already deployed…
+
+.kodgen: Your wallets were not accidentally created in 2019?
+
+Mojisola🍅 🍅: I am surprised at this response.  If I use js to create wallet, it gives different address and when I import into tonkeeper, it gives different address (reply to 149685)
+
+Mojisola🍅 🍅: I thought this issue is popular
+
+Nxrix: what is the fastest api for getting ton price usd for my web app
+
+Philipp: Good day,  I'm trying to understand the algorythm of the bidding on getgems. When I big a contract is being deployed and the amout is being send to the new contract. When I want to find the nft adress in this contract I use the method "get_offer_data"  Then I get some random output, I could convert the hex to decimal and then from unix to utc time or the the amout of the transaction. But I cant convert the "cell" to the apropriate adress.  Can someone please explain to me how to do this?    Thanks in advance!!
+
+Slava: Hello. Why are you trying to reverse-engineer it when the contracts seems to be officially published on GitHub? (reply to 149703)
+
+Slava: By the way, the NFT address is parameter No. 6.
+
+Philipp: Just for my interest I would like to get the adres from this string
+
+Philipp: is the an option to decode it?
+
+Slava: See the link above.
+
+— 2025-05-29 —
+
+TON Bounty Bridge: ​Release 0.4.0  Created by MazepaDeni
+
+零纪年〃微蓝一抹淡笑: 才抢了8.8u，手气真差 (reply to 15)
+
+零纪年〃微蓝一抹淡笑: 才抢了8.8u，手气真差 (reply to 15)
+
+楠笙几梦: 才抢了8.8u，手气真差 (reply to 15)
+
+喊我女王万万岁: 才抢了8.8u，手气真差 (reply to 15)
+
+零纪年〃微蓝一抹淡笑: 才抢了8.8u，手气真差 (reply to 15)
