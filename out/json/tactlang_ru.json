@@ -11915,6 +11915,45 @@
       "from_id": "user964514710",
       "text": "В репозитории жеттонов хорошо сделаны комиссии, можно посмотреть на тесты чтобы понять какие именно гарантии дает наша реализация\n\nhttps://github.com/tact-lang/jetton/blob/main/src/tests/base/extended.spec.ts#L401",
       "reply_to_message_id": 2320
+    },
+    {
+      "id": 2332,
+      "type": "message",
+      "date": "2025-05-29T09:51:04.000Z",
+      "date_unixtime": "1748512264",
+      "from": "Nikita",
+      "from_id": "user546689605",
+      "text": "Кто-нибудь может скинуть ссылку, пожалуйста, на документацию или пример реализации прокси на tact?"
+    },
+    {
+      "id": 2333,
+      "type": "message",
+      "date": "2025-05-29T09:53:14.000Z",
+      "date_unixtime": "1748512394",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Если по аналогии как в эфире, то в тоне так делать не надо, у нас контракты просто upgradable",
+      "reply_to_message_id": 2332
+    },
+    {
+      "id": 2334,
+      "type": "message",
+      "date": "2025-05-29T09:53:47.000Z",
+      "date_unixtime": "1748512427",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "https://docs.tact-lang.org/cookbook/upgrades/",
+      "reply_to_message_id": 2333
+    },
+    {
+      "id": 2336,
+      "type": "message",
+      "date": "2025-05-29T10:30:03.000Z",
+      "date_unixtime": "1748514603",
+      "from": "Nikita",
+      "from_id": "user546689605",
+      "text": "То есть, стирается старая логика контракта, и вместо нее по тому же адресу деплоится новый код?",
+      "reply_to_message_id": 2333
     }
   ]
 }

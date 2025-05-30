@@ -8719,3 +8719,21 @@ Combot: Milon Minon has been banned! Reason: CAS ban.
 — 2025-05-29 —
 
 Combot: 糕bnaibiahuu has been banned! Reason: CAS ban.
+
+Combot: Mr. AiSs has been banned! Reason: CAS ban.
+
+wikig: hello各位大佬，有个疑问想问一下
+
+wikig: 就是当前，同样是tonconnectUI，但是连接了tonkeeper和连接@wallet 似乎在transaction构建的规则上有差异？  比如我尝试构建一个，包含：  空转账 TON ，jetton转账 二合一的交易 如       const transaction = {         validUntil: Math.floor(Date.now() / 1000) + 6000, // 6000 sec         messages: [             {                 address: jettonMinterAddress.toString(true),                 amount: tonFee,                 payload: TonWeb.utils.bytesToBase64(await payload.toBoc())             },             {                 address: to,                 amount: 0,                 payload:  TonWeb.utils.bytesToBase64(await pl.toBoc())             }         ]       }  注 : payload是jetton transfer消息  在tonkeeper上可以正常发送， 但是在 @wallet 中无法正常发出
+
+wikig: 即便是在dedust的TMA版本中也会遇到同样的问题（似乎
+
+Combot: Albert Black has been banned! Reason: CAS ban.
+
+Combot: آریانا, 0x0 Community Manager - Will not DM 1st EVER have been banned! Reason: CAS ban.
+
+Andrew: 🔥 $TON生态五月Builders电话会议直播开始了  一起聊聊TON生态最新方向和热点叙事机会  🔗加入直播：https://x.com/i/broadcasts/1jMJgkqjdaMJL (forwarded from TON Society Hong Kong Announcements)
+
+Combot: Tungga81 has been banned! Reason: CAS ban.
+
+Combot: . has been banned! Reason: CAS ban.

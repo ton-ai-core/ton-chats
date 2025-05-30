@@ -7697,3 +7697,37 @@ Andrei: Thank you. (reply to 64310)
 7VPN ||: ok i done something new     get fun checkSenderAddress():Address {         return sender();     } and then     const testOwnable = provider.open(TestOwnable.fromAddress(address));       const owner = await testOwnable.getCheckSenderAddress();      console.log(owner - ${owner}) got: Error: Unable to execute get method. Got exit_code: 11 (reply to 64367)
 
 Amor: I think u should refer OwnableTransferable2Step trait (reply to 64369)
+
+Nicholas: Hello I'm here
+
+&rey: Well a get-method cannot be protected "for owner only" — there is no sender() in it! (reply to 64369)
+
+7VPN ||: exactly (reply to 64384)
+
+7VPN ||: i try to get sender() address but i failed a lot and i don't know why. if anyone can help please     cacheSender : Address;     receive() {         self.cacheSender = self.owner;     }     get fun checkSender(): Address {         return self.cacheSender;     } then i send this scripts     try {         await testOwnable.send(             provider.sender(),             {                 value: toNano('0.01'),             },             null         );         ui.write(`✅ IncreaseOwner sent successfully.`);     } catch (err) {         ui.write(`❌ Transaction failed:`);         ui.write(`${err}`);     } now cacheSender must be set as owner then in another script     const ownerFlag = await testOwnable.getCheckSender(); // returns BigInt     console.log(`Sender IS : ${ownerFlag}`); Error: Unable to execute get method. Got exit_code: 11
+
+&rey: You tend to have some extra code for the contract. Please stash it away and try again. (reply to 64402)
+
+&rey: (that is, I hope your implementation with custom — and wrong — Ownable is used by no one) (reply to 64358)
+
+Nerses: What traits should be used instead of Deployable and FactoryDeployable, since they’ve been deprecated as of version 1.6? I couldn’t find anything about replacements in the documentation.
+
+/B4ckSl4sh\: you should use empty receiver instead of Deployable (reply to 64414)
+
+/B4ckSl4sh\: receive() {  }
+
+Petr: Hey, if you use VS Code with the Tact extension, it has a quickfix for this case (reply to 64414)
+
+Nerses: the problem is that with empty receiver having cashback the call fails (reply to 64418)
+
+Nerses: while using the trait Deployabel,everything is ok
+
+Petr: Can you attach a link to ton viewer?
+
+/B4ckSl4sh\: It is normal behaviour (reply to 64420)
+
+/B4ckSl4sh\: contract is deployed
+
+Nerses: https://testnet.tonviewer.com/kQCx6EQxN-QVAFHOpOMoOZ1T04-tNKTrYIlg-VCpYUOuQklw (reply to 64422)
+
+Zohirbek: Hello TON Community!  I’m developing a creative and community-driven NFT collection called Telegram Garage, designed for integration into the Telegram Gifts section and based on the TON blockchain.  The collection includes 15 unique NFTs — 5 classic cars, 5 ultra-luxury Rolls-Royce designs, and 5 front-facing Lamborghinis — all created with a unified, clean, and collectible aesthetic.  I'm looking for: — a TON developer to help build a Mini App for in-app viewing/minting — a UI designer familiar with TON ecosystem design standards — a promoter or marketing partner to grow our Telegram-based audience  The goal is to bring more TON-native art into Telegram's gifting economy, and also attract early adopters and collectors.  If you're interested in collaborating (profit-share or hybrid model possible), or want to support/invest, I’d love to connect!  Thank you!

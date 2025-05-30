@@ -567,3 +567,53 @@ TON Bounty Bridge: ​Release 0.4.0  Created by MazepaDeni
 喊我女王万万岁: 才抢了8.8u，手气真差 (reply to 15)
 
 零纪年〃微蓝一抹淡笑: 才抢了8.8u，手气真差 (reply to 15)
+
+Makis: Hello everyone! Does anyone know the tradeoffs between using v2 vs v3 api? From what I understand v3 is indexed? Also less providers support it presumably?
+
+Tharun Tej: Is there any api which gives metadata of telegram Collectibles?
+
+&: const cellData = Cell.fromBoc(          Buffer.from(              'b5ee9c72010101010024000043800d8d14f7e5aad1d5630a7c7f5cb1af485023e32a71135f9534c5a163fe74720b70',             'hex'         )      ); console.log(cellData[0]?.beginParse().loadAddress().toString()); (reply to 149703)
+
+🎩: Hello, We are developing TON based gaming project that's going to be accessible in telegram and our app. We want and advice how to move forward with the project. Our company is registered in Dubai, is there any possibility to meet someone from TON for possible cooperation
+
+&: What's your problem? (reply to 149752)
+
+🎩: Lack of experience in this field, we have experience in developing apps and operate them, but since we want to make our app and gaming hub as utility for our future token, we want to know how to move forward. 0 experience in launching projects in telegram (reply to 149753)
+
+&: DM me (reply to 149754)
+
+&rey: I somewhat doubt TON Foundation can help everyone so I'd suggest not to waste time.  Experience can be gained at looking at existing applications and deconstructing them, going through tutorials (docs.ton.org for TON, somewhere else for TMA), trying, reading chat history and communicating on new issues. (reply to 149754)
+
+&rey: Also, warning in advance that place to discuss Telegram miniapps is not here. It is @devs instead.
+
+🎩: Thank you very much
+
+S: hey, I have bunch of experience in this tg field, ton smart contract dev and tg miniapp and tg bot devlopment. just dm me or send msg here (reply to 149754)
+
+Zerox: Hi I have exp developing some ton mini apps on TG, if you need developers, let's connect. (reply to 149752)
+
+Slava: Cell.fromHex('b5ee…') (reply to 149751)
+
+Tharun Tej: ? (reply to 149743)
+
+Vetch: Hi everyone
+
+Vetch: Could someone please tell why my USDT transfer is failed? What should I do to make a successful transfer? This is my failed transaction  hash 6eee5ee0c0f2303c0a6b576a75341f05d3ce482438090cca8db0c4fe10a6c09e
+
+&rey: nothing, it is complete. (reply to 149781)
+
+Combot: Combot has warned Zohirbek (1/3) Reason: Word **** is not allowed
+
+🇵🇸: retracer.ton.org and verifier.ton.org are showing different opcodes for same contract which one could be closest to real one? i have unknown contract that i want to understand how it works. could someone help me?
+
+Petr: You can also try this one: https://txtracer.ton.org (reply to 149801)
+
+Andrei: Hey! Is there a chance someone can help me crafting contract deploy transaction?              // Prepare TON smart contract transaction             const __system = Cell.fromBase64(CONTRACT_STATE_INIT_DATA);             const data = beginCell().storeRef(__system)                 .storeUint(0, 1)                 .storeInt(id, 257)                 .storeInt(toNano(parseFloat(amount)), 257)                 .endCell();              const body = beginCell()                 .storeUint(0, 32)                 .storeStringTail(`Create contract: ${text} with ${amount} TONs`)                 .endCell();              const init = {                 code: Cell.fromBase64(CONTRACT_CODE),                 data: data,             } satisfies StateInit;              const stateInit = beginCell()                 .store(storeStateInit(init))                 .endCell();              const address = contractAddress(0, init);             const address_string = address.toString();              try {                 // Perform TON wallet transaction                 const transaction = await tonConnectUI.sendTransaction({                     validUntil: Date.now() + 5 * 60 * 1000,                     messages: [                         {                             address: address.toRawString(),                             amount: toNano('0.02').toString(),                             stateInit: stateInit.toBoc().toString('base64'),                             payload: body.toBoc().toString('base64'),                         },                     ],                 });  Init parameters are quite simple on a contract level.  message Init {     id: Int as uint32;     amount: Int as coins; }  When I'm trying to deploy the contract, I'm having an error. Exit code 130 (invalid incoming message)  What am I doing wrong?
+
+🇵🇸: can you please summarize what this contract does: https://txtracer.ton.org/?tx=52b7ef34c7c43cbc9bea88a481c46e80219bf89b54ed8bb249c87c0e6038c36b (reply to 149802)
+
+&: you have input contract code but not intial state cell (reply to 149803)
+
+— 2025-05-30 —
+
+Vetch: But why the final notification is failed? I couldn't figure it out (reply to 149782)
