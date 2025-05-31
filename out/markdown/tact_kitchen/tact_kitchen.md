@@ -233,3 +233,7 @@ Unknown: For you all, JetBrains IDEs lovers: intelli-tact plugin release 📸  �
 — 2025-05-22 —
 
 Unknown: We’ve launched the ultimate hunt for bugs and hacker mastery — the epic CTF has begun at positive.com/ctf!   On the menu: blazing challenges in EVM and TON security — plus one juicy Bug Bounty worth 100 TON! (forwarded from Positive Web3)
+
+— 2025-05-30 —
+
+Unknown: 🎉 Tact Language Server & VS Code Extension v0.8.0 are live!  Smarter code insight, TL-B support, fresh UI touches and a faster, quieter indexer — all wrapped into v0.8.0 release!  🚀 Headline features  ▪️ Flexible toolchain picker – point the extension at any local Tact toolchain and switch them on the fly. ▪️ TL-B first-class citizen – syntax highlighting, completions, document symbols, go-to-references and inline highlighting inside Tact comments. ▪️ Next level navigation – search for functions by type, easily navigate with code lenses with go-to places where messages were sent and received ▪️ Fresh inspections – CanBeInline (with quickfix), DeprecatedSymbolUsage, MissedMembersInContract (with quickfix), NamingConvention, OptimalMathFunctions.  📜 And that's not all 😎, check out our changelog to find all the improvements and fixes in the new release, and also see our X/Twitter thread with the announcement.  📥 Upgrade now via VS Code marketplace or Open VSX  ✨ Happy hacking!  🍲 intelli-tact, you're next ♨️ @tact_kitchen from the @ton_studio

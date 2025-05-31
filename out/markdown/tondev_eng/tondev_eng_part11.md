@@ -617,3 +617,63 @@ Andrei: Hey! Is there a chance someone can help me crafting contract deploy tran
 — 2025-05-30 —
 
 Vetch: But why the final notification is failed? I couldn't figure it out (reply to 149782)
+
+кравлер kernel: Hi guys! Help me please, where can I get a testnet +888 number?
+
+Mojisola🍅 🍅: have you checked fragment platform? (reply to 149815)
+
+кравлер kernel: Yea (reply to 149816)
+
+кравлер kernel: but i need testnet number +888
+
+кравлер kernel: where can i get it?
+
+Mojisola🍅 🍅: sorry, why not use mainnet
+
+Mojisola🍅 🍅: own. I think the target is mainnet not testnet
+
+&rey: Why do you think they exist? What would they even mean, in context of Telegram? (reply to 149820)
+
+кравлер kernel: So +888 testnet doesn't exist?
+
+Nxrix: nope (reply to 149829)
+
+Denis S: Hey! Friends. Please help me. How to get jetton deply date and time from TON API. I tried so many options and still can't get it properly. Thanks
+
+Denis S: I have found solution.
+
+Combot: Combot has warned l1ttps (2/3) Reason: Word **** is not allowed
+
+Zerox: Hello everyone, Anyone have plan to build perp swap platform like GMX in TON? If yes, would love to contribute as a developer.
+
+MikeWeb3Mighty: Hello everyone! Tell me examples of smart contracts with a referral system on USDT(Ton).
+
+Andrei: Hey! Can someone help with crafting deploy transaction?  ```             // Prepare TON smart contract transaction             const __system = Cell.fromBase64(CONTRACT_STATE_INIT_DATA);             const data = beginCell().storeRef(__system)                 .storeUint(0, 1)                 .storeInt(id, 257)                 .storeInt(toNano(parseFloat(amount)), 257)                 .endCell();              const body = beginCell()                 .storeUint(0, 32)                 .storeStringTail(`Create contract: ${text} with ${amount} TONs`)                 .endCell();              const init = {                 code: Cell.fromBase64(CONTRACT_CODE),                 data: data,             } satisfies StateInit;              const stateInit = beginCell()                 .store(storeStateInit(init))                 .endCell();              const address = contractAddress(0, init);             const address_string = address.toString();              try {                 // Perform TON wallet transaction                 const transaction = await tonConnectUI.sendTransaction({                     validUntil: Date.now() + 5 * 60 * 1000,                     messages: [                         {                             address: address.toRawString(),                             amount: toNano('0.02').toString(),                             stateInit: stateInit.toBoc().toString('base64'),                             payload: body.toBoc().toString('base64'),                         },                     ],                 });  Contract with Deployable {     id: Int;     amount: Int as coins;     ———      init(id: Int, amount: Int) {         self.id = id;         self.amount = amount;     ———     } ```  I'm having an error upon deployment. 130 invalid incoming message
+
+AutoShield: Hello 👋 I have an idea for an advanced AI-powered Web3 wallet that can integrate with TON and Telegram (via Mini Apps). Is there someone from the core team I could share a quick update or pitch with? I’d appreciate any direction. Thank you
+
+Zerox: Hey, I am looking for new projects now, if you need more developers in your team, would love to discuss with you. (reply to 149887)
+
+Zerox: Do you plan to develop project with the idea? If yes, would love to discuss further. One thing I wanna say first,  I am not a TON core team member (reply to 149889)
+
+AutoShield: Thank you for the idea, it is strong to subscribe but contact the team
+
+TON Bounty Bridge: ​money  Created by Polyanov
+
+angel: Hi there,  Thanks for sharing your vision — it sounds like an exciting project! I have hands-on experience developing games and apps on the TON blockchain, including Telegram-integrated games, smart contract logic, and onboarding user flows. I can definitely help guide you on how to move forward — from setting up your TON wallet & token infrastructure, to game logic integration, Mini App deployment, and even launch strategies inside Telegram.  I’d be happy to:   - Set up Telegram Mini App or bot integration  - Handle smart contract development and in-app transactions (e.g., NFT rewards, game economy)  Is there any opportunity I can work with you? (reply to 149752)
+
+— 2025-05-31 —
+
+番茄你个白薯: 发了18888u (reply to 15)
+
+此籹子不需要谁来怜惜: 发了18888u (reply to 15)
+
+此籹子不需要谁来怜惜: 发了18888u (reply to 15)
+
+灬夏恋海边: 发了18888u (reply to 15)
+
+此籹子不需要谁来怜惜: 发了18888u (reply to 15)
+
+灬夏恋海边: 发了18888u (reply to 15)
+
+Zerox: Hey Andrei. That 130 invalid incoming message error usually means your contract isn’t handling the incoming init message correctly. Make sure you’ve implemented recv_internal() and try increasing the sent amount (e.g., 0.05 TON) to cover deploy costs.  Could also help to simulate the tx in TON Sandbox for better debugging. (reply to 149887)

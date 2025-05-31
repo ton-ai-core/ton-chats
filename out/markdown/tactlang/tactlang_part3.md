@@ -7731,3 +7731,23 @@ Petr: Can you attach a link to ton viewer?
 Nerses: https://testnet.tonviewer.com/kQCx6EQxN-QVAFHOpOMoOZ1T04-tNKTrYIlg-VCpYUOuQklw (reply to 64422)
 
 Zohirbek: Hello TON Community!  I’m developing a creative and community-driven NFT collection called Telegram Garage, designed for integration into the Telegram Gifts section and based on the TON blockchain.  The collection includes 15 unique NFTs — 5 classic cars, 5 ultra-luxury Rolls-Royce designs, and 5 front-facing Lamborghinis — all created with a unified, clean, and collectible aesthetic.  I'm looking for: — a TON developer to help build a Mini App for in-app viewing/minting — a UI designer familiar with TON ecosystem design standards — a promoter or marketing partner to grow our Telegram-based audience  The goal is to bring more TON-native art into Telegram's gifting economy, and also attract early adopters and collectors.  If you're interested in collaborating (profit-share or hybrid model possible), or want to support/invest, I’d love to connect!  Thank you!
+
+— 2025-05-30 —
+
+Seva: Ready to make a result, DM. (reply to 64428)
+
+Chief: Hello community,  I am trying to get code and data to test contract upgrade of my contract (SETCODE) but my Contract.compile.json file doesn't change (hash, hashBase64 and hex values) after building with Blueprint  I also noticed my nft Collection and NftItem have the same compile.json after building both individually
+
+maksim: SETCODE doesn't affect compilation results since it changes code at runtime, when contract is already in the network, and .json result is static file during compilation (reply to 64436)
+
+Chief: Okay (reply to 64437)
+
+Chief: I defined SETCODE in my contract. I want to send a message to update the code and data with new code and data cells. I was trying to get the new code through ⁠ const codeCell = Cell.fromHex(hex); ⁠ where 'hex' is from my compile.json but the problem is that after i updated the code of my contract, the hex of the new contract is the same as the hex of the old contract. (reply to 64437)
+
+Chief: Any pointers to how to properly execute SETCODE will be appreciated. Currently i need to get the new Cell of my updated contract and pass it to my old contract. Here is the Upgrade message in my old contract:           self.requireOwner();         if (msg.code != null) {             // Change of code will be applied at the end of this transaction             setCode(msg.code!!);         }         if (msg.data != null) {             // Change of data will be immediate             setData(msg.data!!);         }     }  asm fun setCode(cell: Cell) { SETCODE }  asm fun setData(data: Cell) { c4 POP }
+
+&rey: You also have to stop current execution with command like THROW 0. (reply to 64442)
+
+&rey: It must mean that compiler determined those contracts are same. Or that you run wrong blueprint command. (reply to 64440)
+
+&rey: Please also add validation with oldDataHash or like, so that no updates between forming the upgrade message and processing it can ever be lost in the contract. (reply to 64442)

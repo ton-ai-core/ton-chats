@@ -1956,6 +1956,19 @@
       "forwarded_from": "TOLK lang",
       "forwarded_from_id": "channel2203874215",
       "forwarded_date": "2025-05-12T09:12:01.000Z"
+    },
+    {
+      "id": 216,
+      "type": "message",
+      "date": "2025-05-30T12:15:03.000Z",
+      "date_unixtime": "1748607303",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🎉 Tact Language Server & VS Code Extension v0.8.0 are live!\n\nSmarter code insight, TL-B support, fresh UI touches and a faster, quieter indexer — all wrapped into v0.8.0 release!\n\n🚀 Headline features\n\nFlexible toolchain picker – point the extension at any local Tact toolchain and switch them on the fly.\nTL-B first-class citizen – syntax highlighting, completions, document symbols, go-to-references and inline highlighting inside Tact comments.\nNext level navigation – search for functions by type, easily navigate with code lenses with go-to places where messages were sent and received\nFresh inspections – CanBeInline (with quickfix), DeprecatedSymbolUsage, MissedMembersInContract (with quickfix), NamingConvention, OptimalMathFunctions.\n\n📜 And that's not all 😎, check out our changelog to find all the improvements and fixes in the new release!\nAlso check out X/Twitter thread with announcement.\n\n📥 Upgrade now\n\nVia VS Code marketplace\nor Open VSX \n\nHappy hacking! 🛠️✨\n\n🍲 intelli-tact, you're next\n♨️ @tact_kitchen from the @ton_studio",
+      "media_type": "photo",
+      "file": "photos/photo_216.jpg",
+      "width": 477,
+      "height": 567
     }
   ]
 }

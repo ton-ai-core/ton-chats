@@ -8737,3 +8737,37 @@ Andrew: 🔥 $TON生态五月Builders电话会议直播开始了  一起聊聊TO
 Combot: Tungga81 has been banned! Reason: CAS ban.
 
 Combot: . has been banned! Reason: CAS ban.
+
+— 2025-05-30 —
+
+Howard: 有意思的是 Privy 後續會接入 TON, 不知道他們會不會支持 Signing: https://docs.privy.io/wallets/overview/chains#tier-1%3A-cryptographic-signing  cc @carzygod / @andrew_cong
+
+wikig: 单纯从keypair角度来说，支持sign message 蛮多TON 钱包都是支持的。 主要问题是现在tonconnectUI没有预留 sign message 的interface (reply to 91240)
+
+Combot: 漢堡🐤 has been banned! Reason: CAS ban.
+
+Combot: H F has been banned! Reason: CAS ban.
+
+Andrew: TON 生態系統更新：為開發者提供更智慧的支持  隨著 TON 規模的擴大，我們的支援系統也隨之擴展——現在更加清晰、敏銳，並以影響力為導向。  新功能：  🎯 五個重點垂直領域：DeFi、GameFi、支付、Telegram 應用內經濟、人工智慧 🥇 分級模型：競爭者與冠軍 🏆 冠軍資助：為關鍵垂直領域中具有高影響力的團隊提供重點支持  開源工具、核心基礎設施和公共產品仍將獲得專門的非商業支援。  📥 所有專案（新建和現有）都必須註冊：TON 開發者入口網站 ✅ 現有資助將在里程碑完成後支付  🔗 了解更多： 👉 生態系支援 👉 資助計畫 (forwarded from TON中文頻道)
+
+AGT: Tonkeeper的验证如何提交啊，有人会吗
+
+AGT: 😄
+
+Combot: Liza has been banned! Reason: CAS ban.
+
+Combot: Architect Sine🧑‍💼👷 has been banned! Reason: CAS ban.
+
+Combot: Shahabuddin Ahammed has been banned! Reason: CAS ban.
+
+— 2025-05-31 —
+
+Jerry: 有大佬可以帮忙看看这几笔交易为啥 Exit code: 47 吗？ 代码已经运行大半年了，从昨天开始就有这几笔交易失败的问题，之前都没有出现过。 而且这个47的错误码在官方文档里也没有找到相关的解释。 https://tonviewer.com/transaction/f93833f29b1d420ff2d83a280701cabaf33fa561d8885352ea83ed71ff55745a https://tonviewer.com/transaction/8e41e52cf2a29a57e326fe7fa83a8c8913b005f6faff279c3474883c864d8d5f https://tonviewer.com/transaction/4168e20c62fc5c71f4c7dd06897567d619ca8954bfdf7e395bd8c0d44556ecd9 https://tonviewer.com/transaction/55b869efabd1c0083d7c495715ba39dde03172530fbd0d250c5a92ae61213218
+
+Leo: 很简单，余额不够
+
+Jerry: 感谢🙏 (reply to 91344)
+
+Combot: Manuu Flames, Amr Yasser, Nkomati Sambo have been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
