@@ -8771,3 +8771,11 @@ Jerry: 感谢🙏 (reply to 91344)
 Combot: Manuu Flames, Amr Yasser, Nkomati Sambo have been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+— 2025-06-01 —
+
+Howard: 什么东西。代幣驗證嗎 (reply to 91269)
+
+AGT: 是的 (reply to 91427)
+
+Combot: Tonny Oganga has been banned! Reason: CAS ban.

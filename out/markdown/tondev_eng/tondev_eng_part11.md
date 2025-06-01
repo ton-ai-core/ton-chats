@@ -677,3 +677,87 @@ angel: Hi there,  Thanks for sharing your vision — it sounds like an exciting 
 灬夏恋海边: 发了18888u (reply to 15)
 
 Zerox: Hey Andrei. That 130 invalid incoming message error usually means your contract isn’t handling the incoming init message correctly. Make sure you’ve implemented recv_internal() and try increasing the sent amount (e.g., 0.05 TON) to cover deploy costs.  Could also help to simulate the tx in TON Sandbox for better debugging. (reply to 149887)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: Here anyone knows how can I get in touch with the official TON network support?
+
+Андрей: @ton_help_bot (reply to 149947)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: No one answers. (reply to 149951)
+
+Андрей: then you didn't wait long enough for an answer (reply to 149954)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: No, it's been a while since I sent a message to this bot asking for help. (reply to 149955)
+
+&rey: What was the class of issue? Did it involve any service beyond TON Blockchain? (reply to 149954)
+
+Slava: I want to share some important information about using TON HTTP API keys. Below are the best practices discussed with my friends at toncenter.com:  1. RPS (Requests Per Second) Limits: Each toncenter account has a limit on the number of requests. Higher tariff plans allow for more requests, enabling more users to access the application simultaneously.  2. Limiting RPS by IP Address: There is an option to limit RPS based on IP addresses. If your Web3 application exposes the API key on the client side, we strongly recommend enabling this setting. Without it, your service is vulnerable to denial-of-service (DOS) attacks from a single IP address.  3. Domain Name Restrictions (CORS): Implementing restrictions based on domain names is advisable, particularly for Web3 apps. While this measure is not foolproof, it can help prevent unauthorized use of your API key in other web applications.  4. Utilizing a Reverse Proxy: Because the above protective measures can potentially be bypassed, it's recommended not to expose your API key directly. Instead, consider setting up a reverse proxy. This will hide the key and provide you with additional ways to defend against attacks if you have the necessary resources.  5. Full Backend Solution: The most reliable solution, though not ideal for Web3 applications, is to have a complete backend setup that includes caching, request limitation, and authentication.  6. Current Challenges for Web3 Applications: For a full-fledged Web3 applications, the situation is still quite challenging. By enabling domain binding and IP-based RPS restrictions, you can potentially maintain service under normal conditions. However, in the event of a DDoS attack, there is a high likelihood of service disruption, particularly for small projects on lower tariff plans with limited RPS. This remains true even with the presence of a Web Application Firewall (WAF) to protect against common attacks.  At this point, the only reliable solution I see for decentralized finance (DeFi) is to allow users to input their own endpoints and API keys within your Web3 application. Although this may negatively impact the user experience, it promotes decentralization, which comes with its own costs.
+
+Combot: Combot has warned Bohdan (1/3) Reason: Word **** is not allowed (reply to 149963)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: yes, username transfer on TON Blockchain - fragment frozen commissions fee and TON assets during this process (reply to 149962)
+
+&rey: So it did involve non-blockchain service, namely Fragment. Please refer to them. (reply to 149966)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: and fragment support are exhibiting suspicious behavior (reply to 149967)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: I can't find their official support. (reply to 149967)
+
+&rey: TON Community Chat's moderators say it is help@fragment.com .  As for any service you learn about — if you do see something suspicious, you should not use it or learn more. It's one of the basic rules for protecting from scam as well. Anyways, TON is The Open Network, many things can be run here. (reply to 149969)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: Can you please look into a transaction related to the commission that I was asked to make and tell me the details? (reply to 149970)
+
+&rey: No one in this chat, including me, has influence over what private services do. (reply to 149971)
+
+Alireza⁪⁬⁮⁮⁮⁮⁪⁬⁮⁮⁮⁮ ⁪⁬⁮⁮: No, help me explain the sections in the tonviewer transaction link please. (reply to 149972)
+
+AGT: Gentlemen, is there any way to destroy the tokens transferred to the black hole address?
+
+Jimmy: Unfortunately, tokens that end up in a "black hole" address (i.e. an address that cannot be controlled or from which funds can be extracted) cannot be destroyed or returned. A black hole in the blockchain is simply an address that does not belong to anyone, and funds sent there are lost forever. (reply to 149980)
+
+&rey: That's quite imprecise; the TON black hole -1:ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff also disposes of any native currency sent to it (IIRC half those TON are distributed by validators and half are destroyed reducing the total stat). (reply to 149982)
+
+AGT: But the total circulation on the chain includes this part of the tokens, right? (reply to 149982)
+
+&rey: That's the point; it does NOT. Just like half of transaction fees are destroyed, meaning that those TON are no more. You can see that the black hole address (whose alternative spelling is Uf___________________________________________-ll) contains zero TON despite being sent some. (reply to 149987)
+
+Jimmy: No (reply to 149987)
+
+AGT: UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJKZ This is the address I transferred to. (reply to 149988)
+
+&rey: No. The tоkens are owned by this address, but no one will ever deploy a contract there, so no one will be able to do anything with tоkens. (reply to 149992)
+
+AGT: Is this address a black hole address? (reply to 149993)
+
+Jimmy: Stop deleting my information to that dude pls. (reply to 149993)
+
+&rey: No. It is just unusable (unless SHA-256 preimage is found for all-zeros, which is harder than mining). (reply to 149994)
+
+AGT: My tokens were issued 190,000,000 before, I transferred 1010,000,000 here, but tonscan shows that there are still 190,000,000 tokens in circulation
+
+AGT: It seems that I was wrong, this is an irreversible mistake (reply to 149996)
+
+&rey: Please note that black hole does not do anything to non-native tokens either (and TEP-74 jettons are fungible tokens).  TEP-74 has a special facility, burn message, which allows to permanently remove some jettons you own.
+
+AGT: 👌🏿
+
+Dmitry | backend4you.ton: Yes. The fact that you don’t know seed (private key) from some contract that owns your jettons doesn’t mean that these jettons do not exist. The fact that nobody knows (and has no chance to know) means the same. To “destroy” some jettons you need to send them back to jettons master with “burn” command. Jetton master will decrease total amount (reply to 149997)
+
+AGT: OK, I understand.
+
+shealtielanz: Hello, How can i submit a bug in a very used standard and get rewarded for it?
+
+shealtielanz: ? (reply to 150005)
+
+&rey: A bug, or improvement opportunity? Please submit latter to https://github.com/ton-society/grants-and-bounties/. (reply to 150005)
+
+shealtielanz: this isn't what I'm looking for, i'll do my own research (reply to 150008)
+
+ming: is this true ?
+
+&rey: No. Please do not use any links/buttons from that message. You can open Fragment on your own to check what is real. (reply to 150011)
+
+ming: Someone asked me to follow the instructions in the video. The video seemed very realistic and I almost fell for it.
+
+&rey: Then, just ignore them. The video itself does not belong in this chat. (reply to 150014)
+
+&rey: Please see chat name for its primary topic though! Any questions on how to develop on TON are welcome.
