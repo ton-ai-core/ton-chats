@@ -8779,3 +8779,31 @@ Howard: 什么东西。代幣驗證嗎 (reply to 91269)
 AGT: 是的 (reply to 91427)
 
 Combot: Tonny Oganga has been banned! Reason: CAS ban.
+
+Combot: Herman ⁪⁬⁮⁮⁮⁮, Samy Samy, неморшикKARMA#PRIME have been banned! Reason: CAS ban.
+
+Combot: Om DER has been banned! Reason: CAS ban.
+
+Combot: Williams Dog has been banned! Reason: CAS ban.
+
+Combot: Lawsoncopusmugit Condilaperonds has been banned! Reason: CAS ban.
+
+6666feile: ton官方节点lite-server连不上了？
+
+Andrew: Block creation has been suspended on the TON mainnet  The TON Core team is aware of the issue and is working to resolve it. (forwarded from TON Status)
+
+Crypto: 正在排查
+
+Andrew: Block production has been restored  A quick fix was released, and updating only a few master chain validators was sufficient to resume block production.  The incident was related to an error in the processing of the masterchain dispatch queue.  We will release a technical report on the incident shortly. (forwarded from TON Status)
+
+Combot: Jose Lisandro Pulgarin Moreno has been banned! Reason: CAS ban.
+
+Combot: Mart B has been banned! Reason: CAS ban.
+
+Combot: ≠ has been banned! Reason: CAS ban.
+
+— 2025-06-02 —
+
+Combot: 💗 has been banned! Reason: CAS ban.
+
+Combot: Adnan has been banned! Reason: CAS ban.

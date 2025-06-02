@@ -761,3 +761,35 @@ ming: Someone asked me to follow the instructions in the video. The video seemed
 &rey: Then, just ignore them. The video itself does not belong in this chat. (reply to 150014)
 
 &rey: Please see chat name for its primary topic though! Any questions on how to develop on TON are welcome.
+
+— 2025-06-01 —
+
+Combot: Combot has warned 巴黎铁塔上盛开的繁华* (1/3) Reason: 1 reports (reply to 150060)
+
+Александр 🫶: anyone else has trouble with transactions that were proceed when blockchain was down? lost tether
+
+&rey: Do you have the hash of transaction which has been executed and its followup in the tx tree has not? (reply to 150114)
+
+&rey: If not, then jettons simply lie in sender's wallet, untouched.
+
+Александр 🫶: msg deleted
+
+&rey: Contact their support.
+
+Александр 🫶: their wallet is not deployed, have hashes on my jetton address but no info about the wallet to i have sent
+
+Александр 🫶: jetton addr only show my addr
+
+Александр 🫶: may be that is why cannot see money on their wallet (reply to 150122)
+
+&rey: Well, that is common for custodial services. If their processing went down with block generation, it might handle everything upon next transaction (1 microUSDT). (reply to 150122)
+
+Александр 🫶: thx
+
+— 2025-06-02 —
+
+CHINA: It's real?
+
+CHINA: True info?
+
+isik: Hello 👋, does anyone used okx web3 API before it shut down. I was using okx web3 API a few months ago and it worked perfect, but when I try to make API calls now it takes almost 1 minute to get the quotes response from the API. Do I need to create a new API key or something else. Any help appreciated
