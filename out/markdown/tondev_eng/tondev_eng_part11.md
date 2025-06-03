@@ -793,3 +793,69 @@ CHINA: It's real?
 CHINA: True info?
 
 isik: Hello 👋, does anyone used okx web3 API before it shut down. I was using okx web3 API a few months ago and it worked perfect, but when I try to make API calls now it takes almost 1 minute to get the quotes response from the API. Do I need to create a new API key or something else. Any help appreciated
+
+🇵🇸: can anybody help me to parse this dict?  x{C_}    x{2_}     x{7BA_}      x{AD9A741281DCD6539DC_}      x{2_}       x{2_}        x{A852184A07735943F9_}        x{A83A604A0773594241_}       x{AA11542503B9ACA1DD}     x{2_}      x{2_}       x{2_}        x{4}         x{AD9A741281DCD650B24_}         x{2_}          x{2_}           x{A852184A077359487D_}           x{A83A604A07735940BD_}          x{AA11542503B9ACA116}        x{4}         x{AD9A741281DCD68D28C_}         x{2_}          x{2_}           x{A852184A07735941F3_}           x{A83A604A0773594195_}          x{AA11542503B9ACA78E}       x{2_}        x{4}         x{AD9A741281DCD652CEC_}         x{2_}          x{2_}           x{A852184A07735940BF_}           x{A83A604A077359413D_}          x{AA11542503B9ACA36C}        x{4}         x{AD9A741281DCD6510BC_}         x{2_}          x{2_}           x{A852184A0773594811_}           x{A83A604A0773594839_}          x{AA11542503B9ACBC31}      x{70}       x{AD9A741281DCD650B2C_}       x{2_}        x{2_}         x{A852184A07735940C1_}         x{A83A604A0773594FAB_}        x{AA11542503B9ACA351}
+
+Dmitry | backend4you.ton: What you expect by “parse”? Do you know what are key length and value type? (reply to 150145)
+
+🇵🇸: i dont know keys and values  😢 probably some integers. may be this can provide some hint https://txtracer.ton.org/?tx=57bc2c5e3b66bab77cc43fcf384a139dfb0575ffd2cbc3e4f2b3d18131da5990 (reply to 150146)
+
+&rey: 64-bit keys, empty values. (reply to 150146)
+
+🇵🇸: loadDict(Dictionary.Keys.Uint(64),Dictionary.Values.Cell()) producing no more reference error
+
+&rey: Because the contained value is not a cell, it is empty. (reply to 150151)
+
+🇵🇸: how to set empty value in loadDict() ?
+
+Dmitry | backend4you.ton: Slice? (Didn’t tried, just guess) (reply to 150153)
+
+🇵🇸: my code is like this.   {         u: ref_s.loadUintBig(256),         uu: ref_s.loadUint(34),         uuu: ref_s.loadUint(8),         uuuu: ref_s.loadDict(Dictionary.Keys.BigUint(64),Dictionary.Values.Cell()),     }
+
+🇵🇸: just loadDict has problem
+
+Combot: Combot has warned 海上花 (1/3) Reason: 1 reports (reply to 150161)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 16 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 65  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+🇵🇸: only the dict stored in state data seems to be having this structure. (reply to 150150)
+
+🇵🇸: i need to parse dict that is sent in external message
+
+&rey: Just checking: you already tried Dictionary.Values.BitString(0)? (reply to 150170)
+
+🇵🇸: yes but it is able to parse only dict stored in state data ,  i want the dict sent in this transaction https://txtracer.ton.org/?tx=57bc2c5e3b66bab77cc43fcf384a139dfb0575ffd2cbc3e4f2b3d18131da5990 (reply to 150173)
+
+🇵🇸: this contract loads state data( line #54)  may be you mistaken it as what i want.
+
+🇵🇸: i want this dict in line number 106
+
+&rey: It might have key len 28. (reply to 150176)
+
+Happyful: Gm every one.  Is it possible to connect with the TON team/DevRel or anyone from TON?  We’ve a product that lets users to shop retail/e-commerce (think Amazon) using crypto.  And we would love to bring this to TON and Telegram.   Would appreciate a lead.
+
+&rey: If you want to connect to TON Foundation, that's partnership@ton.org (reply to 150178)
+
+&rey: Depends on what you mean by "succeed" in fact. (reply to 150192)
+
+kidogb: I mean how can I check the status of a transfer. I can see in the traces, there are 3 transactions.
+
+kidogb: And one was failed. I tried to get the trace but too many fields, make me confusing
+
+kidogb: How can I check the status same as the tonviewer
+
+&rey: See its bottom right menu. (reply to 150198)
+
+kidogb: thanks, any chance to check it from the toncenter api v3?
+
+&rey: I don't think anything shares Tonviewer's definition precisely. (reply to 150200)
+
+Aleksander: Hello everyone!  Guys, please tell me if there is an API in the Tonnel market? I have a cool idea, I want to try to implement it!   thanks
+
+Tom: 706 is a “common” error for not enough jetton. (reply to 150196)
+
+— 2025-06-03 —
+
+Soon Guan: Hi! what's the TON Balance in the Elector Contract supposed to represent? :O  1. Is it the total stake of TON on the network?  2. Are the rewards that it receives from the system = to universe of staking rewards distributed
+
+TON Bounty Bridge: ​TON Ecosystem  🏷 Developer Tool  Summary:Ton  Created by calvin-bitcoin

@@ -7751,3 +7751,7 @@ Chief: Any pointers to how to properly execute SETCODE will be appreciated. Curr
 &rey: It must mean that compiler determined those contracts are same. Or that you run wrong blueprint command. (reply to 64440)
 
 &rey: Please also add validation with oldDataHash or like, so that no updates between forming the upgrade message and processing it can ever be lost in the contract. (reply to 64442)
+
+— 2025-06-02 —
+
+🌸Alunvit🌸: Hi everyone! 👋  I'm working on a Telegram Web App game called ALUNBIT — a soul-based, step-counting adventure with deep moral choices.  🧠 Core concept: Players grow unique NFT souls (light, dark, or neutral) by walking in real life and making decisions in story-driven investigations (inspired by Sherlock Holmes). Souls evolve based on thinking quality, not XP.  🎮 Key mechanics: – Step-based earning system – Map with hidden chests and missions – Moral choices affect soul evolution – NFT marketplace for souls – Premium roles (Pirate, Wizard, etc.) – Clan-based referral system – Powered by TON  💡 Our vision: a mix of Aglet, Hamster Combat, and detective mechanics, where critical thinking matters more than just clicks.  We're building an MVP now and looking for devs interested in TON integration (NFTs, TonConnect, smart contracts) and gamified blockchain UX.  Let me know if you're interested in the idea or want to collaborate!

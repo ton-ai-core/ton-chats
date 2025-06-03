@@ -8807,3 +8807,17 @@ Combot: ≠ has been banned! Reason: CAS ban.
 Combot: 💗 has been banned! Reason: CAS ban.
 
 Combot: Adnan has been banned! Reason: CAS ban.
+
+6666feile: 官方测试lite-server节点也有问题？
+
+Combot: Bigfred Cheche has been banned! Reason: CAS ban.
+
+Combot: Jhuny Waruwu has been banned! Reason: CAS ban.
+
+Combot: Hasib has been banned! Reason: CAS ban.
+
+— 2025-06-03 —
+
+Combot: 卡 has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
