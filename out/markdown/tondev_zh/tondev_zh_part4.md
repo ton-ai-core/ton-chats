@@ -8821,3 +8821,23 @@ Combot: Hasib has been banned! Reason: CAS ban.
 Combot: 卡 has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Yang: 報告：  https://telegra.ph/Report-on-June-1-2025-Operation-Incident-06-02
+
+Katiya｜TON: 《TON 直播开发课 & 编程挑戰赛 2025》 第5課本周四開課！  📅 課程時間：6月 5 日 20:00 (UTC+8) 🔗註冊連結：https://lu.ma/tjk2uoe5  🎙️直播平台：請關注 X 帳號 https://x.com/TONEastAsia  🏆 課程結束後還有 Coding Challenge編程挑戰賽，所有提交的开发者将会贏取一整年 Telegram Premium 會員！  💡 本次課程內容： 📌 TON Connect 集成  ✨感謝社區夥伴： BeWater,HackQuest,OpenBuild (forwarded from TON Society Hong Kong Announcements)
+
+Katiya｜TON: 第五课这周四晚上 这次记得注册luma活动链接哦 (reply to 91660)
+
+Combot: dariusha has been banned! Reason: CAS ban.
+
+Jason: UQAPxYhsnSaGFwi4PxZrH6AhlJsRuzzgpkGjJbEWtK7bd1GP
+
+Combot: Phú Caocap has been banned! Reason: CAS ban.
+
+Combot: Yytgj Gghhj, 52083, Saugi 03 have been banned! Reason: CAS ban.
+
+Combot: Moi Moi has been banned! Reason: CAS ban.
+
+— 2025-06-04 —
+
+Combot: Md Shawon has been banned! Reason: CAS ban.

@@ -5419,3 +5419,11 @@ Daniil: Testnet wallets are not allowed. We use connected wallets for prize dist
 Александр: Thanks! It seems to be possible to make a warning about the network being used. It works with the mainnet. (reply to 4773)
 
 Daniil: Thanks for your feedback) The notification was already there, but it was hidden on the right. Now we've moved it up to make it more visible (reply to 4774)
+
+— 2025-06-03 —
+
+Haстя zargates: Hi, 2 months have passed from the results of the jokes contest from your project "Telegram Apps Center" I won there, and I didn't get my reward. Like what's the point of making a contest if you don't even give people their rewards? A bit depressing
+
+Unknown: Hello ! Write: @app_moderation_bot (reply to 4792)
+
+Haстя zargates: And what to choose.. no options for support

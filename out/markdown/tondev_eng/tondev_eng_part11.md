@@ -859,3 +859,37 @@ Tom: 706 is a “common” error for not enough jetton. (reply to 150196)
 Soon Guan: Hi! what's the TON Balance in the Elector Contract supposed to represent? :O  1. Is it the total stake of TON on the network?  2. Are the rewards that it receives from the system = to universe of staking rewards distributed
 
 TON Bounty Bridge: ​TON Ecosystem  🏷 Developer Tool  Summary:Ton  Created by calvin-bitcoin
+
+Combot: Combot has warned Devameer•ton 💙 (1/3) Reason: 1 reports (reply to 150237)
+
+TON Bounty Bridge: ​Ton  Created by Red03Red03547
+
+Soon Guan: Can nominator pool submit 2 different stake elector contract o_o?  https://tonviewer.com/Ef9SgTB0x_36riLHzxje_7Sz5e803iBsuU20QnP6EyTLKLBG
+
+🇵🇸: can anybody explain this code like how dictionary key is constructed ?  PUSHCONT {                         NOW                         LTIME                         PUSH s4                         ADD                         XCHG_0 s4                         INC                         SWAP                         PUSHINT_8 15                         AND                         LSHIFT_1 24                         XCHG_0 s4                         PUSHPOW2DEC 24                         AND                         XCHG_3 s1 s4                         ADD                         PUSH s2                         PUSHINT_8 28                         DICTUGET                         NULLSWAPIFNOT                         PUSHCONT_SHORT {                             LDGRAMS                             SWAP                             SETGLOB 1                             ENDS                         }                         PUSHCONT_SHORT {                             DROP                         }                         IFELSE                     }
+
+Zerox: I think Tonnel doesnt support external API but if you want, I can get all the data using Dune-Tonnel TG Gift Marketplace or other ways, so what's your cool idea? (reply to 150207)
+
+🇵🇸: i have dict like this key is 28 bits value is coins. can anybody tell me on what logic the contract picks a specific item from the dict?    'n:130261058' => 5000000093n,       'n:131261058' => 5000001577n,       'n:132261058' => 5000001659n,       'n:147038274' => 5000000866n,       'n:148038274' => 5000002036n,       'n:149038274' => 5000000074n,       'n:150038274' => 5000000846n,       'n:163815490' => 5000000849n,       'n:164815490' => 5000000845n,       'n:165815490' => 5000000160n,       'n:166815490' => 5000000256n,       'n:180592706' => 5000018709n,       'n:181592706' => 5000000040n,       'n:182592706' => 5000000054n,       'n:183592706' => 5000000299n,       'n:197369922' => 5000000299n,       'n:198369922' => 5000000231n,       'n:199369922' => 5000000269n,       'n:200369922' => 5000000204n,       'n:214147138' => 5000000769n,       'n:215147138' => 5000002971n,       'n:216147138' => 5000001212n,       'n:217147138' => 5000000181n (reply to 150253)
+
+TON Bounty Bridge: ​TON Security Enhancement via Google OSS-Fuzz Integration  🏷 Developer Tool  Summary:Integrate TON blockchain components into Google OSS-Fuzz for continuous automated security testing t...  Created by vah13
+
+🇵🇸: ?🥹 (reply to 150267)
+
+pL: Hi, I have a question, can I retrieve tx with it’s hash and LT, are there any ways to do this?
+
+&rey: (address,LT,hash) is the native tuple for retrieving; indexers can do so from (hash) alone. (reply to 150277)
+
+🇵🇸: how to compute dict key like 131261058 from this code? (reply to 150253)
+
+pL: Thank you! (reply to 150278)
+
+Aleksander: I aim create a collective purchase system for expensive gifts 🎁 and something else (reply to 150255)
+
+— 2025-06-04 —
+
+Alula: Hello TON Dev community — I’m with Covalent, and we’re exploring partnership and indexing opportunities on TON. Could someone point me to the right person or team to speak with?
+
+Soon Guan: Hi all! I'm interested in understanding staking rewards per ton account  Is it possible to do the following with transactions and messages data?   1. Fetch stake/unstake movement of TON from nominators and validators  2. Identify rewards accrued for each staker (nomin/validator) after each election   3. Identify rewards of all validators in each election cycle?   Basically I want to input address X and find how much staking rewards it has received for accounting purpose
+
+Alula: That’s a real challenge — I found some block explorers and APIs that sort of let you pull this info, but it’s patchy at best.  That’s actually why I think a TON x Covalent partnership could be powerful.  I can get 100+ EVM wallet balances instantly with Covalent — why not TON? Structured access to staking data, validator rewards, and onchain movements would open up a ton of use cases for devs, auditors, and infra teams. (reply to 150308)

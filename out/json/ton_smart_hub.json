@@ -26033,6 +26033,42 @@
       "file": "photos/photo_4775.jpg",
       "width": 1280,
       "height": 636
+    },
+    {
+      "id": 4792,
+      "type": "message",
+      "date": "2025-06-03T05:54:17.000Z",
+      "date_unixtime": "1748930057",
+      "from": "Haстя zargates",
+      "from_id": "user7687357954",
+      "text": "Hi, 2 months have passed from the results of the jokes contest from your project \"Telegram Apps Center\"\nI won there, and I didn't get my reward. Like what's the point of making a contest if you don't even give people their rewards? A bit depressing",
+      "media_type": "photo",
+      "file": "photos/photo_4792.jpg",
+      "width": 669,
+      "height": 1280
+    },
+    {
+      "id": 4793,
+      "type": "message",
+      "date": "2025-06-03T05:55:01.000Z",
+      "date_unixtime": "1748930101",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Hello ! Write: @app_moderation_bot",
+      "reply_to_message_id": 4792
+    },
+    {
+      "id": 4794,
+      "type": "message",
+      "date": "2025-06-03T05:59:16.000Z",
+      "date_unixtime": "1748930356",
+      "from": "Haстя zargates",
+      "from_id": "user7687357954",
+      "text": "And what to choose.. no options for support",
+      "media_type": "photo",
+      "file": "photos/photo_4794.jpg",
+      "width": 576,
+      "height": 1280
     }
   ]
 }
