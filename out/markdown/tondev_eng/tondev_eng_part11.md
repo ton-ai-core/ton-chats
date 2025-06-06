@@ -893,3 +893,167 @@ Alula: Hello TON Dev community — I’m with Covalent, and we’re exploring pa
 Soon Guan: Hi all! I'm interested in understanding staking rewards per ton account  Is it possible to do the following with transactions and messages data?   1. Fetch stake/unstake movement of TON from nominators and validators  2. Identify rewards accrued for each staker (nomin/validator) after each election   3. Identify rewards of all validators in each election cycle?   Basically I want to input address X and find how much staking rewards it has received for accounting purpose
 
 Alula: That’s a real challenge — I found some block explorers and APIs that sort of let you pull this info, but it’s patchy at best.  That’s actually why I think a TON x Covalent partnership could be powerful.  I can get 100+ EVM wallet balances instantly with Covalent — why not TON? Structured access to staking data, validator rewards, and onchain movements would open up a ton of use cases for devs, auditors, and infra teams. (reply to 150308)
+
+Andrei: I think I sorted it out Thanks though (reply to 150314)
+
+&rey: You could start with the Elector contract / reading network parameter which holds current stakes. (reply to 150308)
+
+&rey: In Tonapi, there is /v2/accounts/_bulk already, so you're just mistaken on this. (reply to 150309)
+
+🇵🇸: help me friends whoever helps to solve this puzzle i will surprise with gifts. (reply to 150280)
+
+&rey: Stack had: ... c b a Key is: ((now()%16) << 24) + (lt+c)%(1<<24) (reply to 150253)
+
+Soon Guan: Interesting! is th historical stake and election data also found in the elector contract as wlel? (reply to 150327)
+
+🇵🇸: this is 16 or 15 i don't see 16 in the code ? (reply to 150333)
+
+🇵🇸: is https://txtracer.ton.org/?tx=57bc2c5e3b66bab77cc43fcf384a139dfb0575ffd2cbc3e4f2b3d18131da5990 reliable to analyse a transaction? i see some block of code showing as "not executed" but i don't think so.
+
+&rey: &15 or %16 is the same – taking four smallest bits. (reply to 150338)
+
+.: Hello, can someone help me integrate the system to buy project tokens with tons in the mini app or transfer existing tokens to the project or withdraw project tokens in the mini app to crypto wallets?
+
+&rey: It is called a DEX; if you use popular AMM-based ones (that is, ston.fi or dedust.io), you can look at their SDKs. (reply to 150345)
+
+&rey: If I understand right, github.com/gobicycle/bicycle is suitable. (reply to 150345)
+
+.: I understand, I looked at ston.fi, but I'm new to blockchain software and programming, so I don't know much. Are there any resources that give examples of how to do it step by step? I'll learn, and thank you very much for your help. (reply to 150348)
+
+.: Thank you (reply to 150349)
+
+&rey: You're looking for https://docs.ston.fi/developer-section/quickstart/swap (reply to 150350)
+
+.: Thank you (reply to 150352)
+
+Justice: I can (reply to 150345)
+
+.: Can I write to you privately? (reply to 150352)
+
+mikail: After buying telegram stars on fragment.com i need to confirm transaction in my wallet (e.g. Tonkeeper). So I want to automate this process and make a script doing that(transaction confirming). So could you please tell me how can i do it because i didn't find any point in documentation about transaction confirming.
+
+&rey: Tonkeeper does not have functionality for automatically confirming transactions as it would be harmful to common users. You need a specific TC2-compatible wallet, perhaps writing your own. (reply to 150359)
+
+mikail: what python library can i use to do this? (reply to 150360)
+
+&rey: That's kind of complex. You will need something like tonutils/pytoniq, requests and some more. Implementing your own wallet's side for TON Connect 2 is not documented well in fact. (reply to 150361)
+
+mikail: Okay, thank you (reply to 150362)
+
+🇵🇸: how can we compute LT from unix timestamp? like we see here  https://explorer.toncoin.org/last is there any formula?
+
+Denis: there is not any direct connection between lt and unixtimestamp (reply to 150364)
+
+Alex: Hi everyone
+
+Alex: How can I validate my issued token? So that when I transfer it, the wallet does not display the message "This token is not verified. Buy only tokens that you trust" ?
+
+Daniel: you should make a pull request to tonkeeper’s repository on github (reply to 150370)
+
+Alex: Thnx Daniel (reply to 150371)
+
+Daniel: https://github.com/tonkeeper/ton-assets (reply to 150372)
+
+🇵🇸: so where these values are coming from?  lt  57930295000000 .. 57930295000004 (reply to 150366)
+
+Denis: https://en.wikipedia.org/wiki/Lamport_timestamp (reply to 150376)
+
+🇵🇸: hard to understand.   i see i can get these values using your api https://tonapi.io/v2/blockchain/masterchain-head does it change every second or every block? (reply to 150378)
+
+Denis: every block
+
+🇵🇸: How do I compute an internal message hash? What are the required parameters?
+
+&rey: You should format it as block.tlb does, and hash the resulting cell. (reply to 150387)
+
+🇵🇸: you mean this?  https://github.com/ton-blockchain/ton/blob/master/crypto/block/block.tlb#L126 (reply to 150388)
+
+&rey: Yes, followed by possibly StateInit, followed by payload. (reply to 150389)
+
+Juster: Hello, which TON indexers you use for real-time data. It is not always convenient to send data via API, do you write your own scanners?
+
+Juster: Hello. if some one from this asset list will be scammed in future, he will be removed from this list? (reply to 150373)
+
+pL: Hello, is there any way to unmarshall smart-contract response from message body?
+
+&rey: It is defined by TL-B which often comes within contract's source code, or in standard (TEP-62 for NFTs, TEP-74 for jettons). (reply to 150408)
+
+pL: Thank you (reply to 150409)
+
+— 2025-06-05 —
+
+MAGIC | Blockchain🙏: Has anyone tried developing multi-contract defi on ton. Jettons token transfer fee is almost 30 times higher than on Binance chain. I can't afford if an order of 30 USDT but it costs almost $3 in transaction fee with 15 contracts launched
+
+MAGIC | Blockchain🙏: It's too expensive to build defi on TON. I wonder if there's a better way? Hope to hear from you.
+
+🇵🇸: const cell = beginCell() .storeBit(0) .storeBit(1) .storeBit(1) .storeBit(0) .storeAddress(Address.parse(src)) .storeAddress(Address.parse(dest)) .storeCoins(value) .storeDict(null) // Extra currencies (null if none) .storeCoins(0n) .storeCoins(fwd_fee) .storeUint(created_lt, 64) .storeUint(created_at, 32) .storeBit(false) .storeBit(true) .storeRef(payload) .endCell(); is this correct approach? this is working if there is no payload, or the payload contains no ref.  if the payload contains ref then the cell giving wrong hash.  any idea how to fix? (reply to 150390)
+
+🇵🇸: exact code here https://pastebin.com/raw/RyJNELAP (reply to 150428)
+
+&rey: Though what do you use internal message hash for? Also, doesn't your API return the whole message cell?
+
+🇵🇸: i need to precompute hash to compete in a race.  can you check pastebin link please? (reply to 150431)
+
+&rey: Then how an internal message helps you? Presumably you'd meant to optimize hash of external one? (reply to 150432)
+
+Nxrix: how many bits is the storage of a contract
+
+🇵🇸: i think its internal only. i saw some guys influencing internal message orders to take some advantage (reply to 150433)
+
+&rey: Well up to 67043328, see at https://docs.ton.org/ru/v3/documentation/smart-contracts/limits#message-and-transaction-limits (reply to 150434)
+
+🇵🇸: ? (reply to 150430)
+
+🇵🇸: can anybody check this code and tell me why the hash is not same? (reply to 150430)
+
+pL: Hi, i have a question about msg parsing: while transforming msg payload to slice a receive next struct:   556[...] -> {   267[...],   56[...] }  Doing slice.LoadRef() I receive only 267[] and losing 56[] is there a way to get 56[]?
+
+&rey: So you do LoadRef once more. (reply to 150447)
+
+Slava: Are you saying that you have 25 jetton transfers in your transactions chain? Are you sure your architecture is optimal? (reply to 150425)
+
+pL: It says there is no any refs and after first LoadRef it shows only 267[] part (reply to 150448)
+
+&rey: On which of the slices do you call second LoadRef? (reply to 150451)
+
+О.К: Hi, I need help with a smart contract. Is there a recommended way to issue a custom asset in TON in 2025?
+
+pL: I solved it, the problem was in not referring from raw message body, thanks (reply to 150454)
+
+Always Polite: Hi Ton token contract is written in solidity?
+
+Always Polite: We want to launch our token on TON Mainet  Where i can get other things? Examples , testnet tokens etc.
+
+Daniel: Smart contracts are written in FunC, TACT or TOLK (reply to 150463)
+
+Daniel: You can read about token standard (Jetton) here: https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md (reply to 150463)
+
+&rey: No, that would be impossible since EVM languages do not work on TON. (reply to 150462)
+
+Nikhil: Is there any way i can compile and execute smart contracts locally using python?
+
+&rey: Compile – not particularly.  Execute – yes; see pytvm. (reply to 150468)
+
+Dh dh: Is this scam?
+
+&rey: That is. Please don't engage with it. (reply to 150475)
+
+&: Why not use Ts? (reply to 150468)
+
+Алина: I get this annyoing bug - when i send money to my highload wallet, wait for the transaction to finalize and then create a transfer from that wallet, the order of transactions gets somehow mixed up and the transfer fails because there were no money at the moment.  Could that be related to the createdAt parameter in the highload ext in msg?
+
+&rey: Did you wait for the arrival transaction to happen, or just for the sending one? (reply to 150480)
+
+Алина: I did wait until the money comes sort of speak (reply to 150481)
+
+&rey: Well I should remind that TON transfer consists of two transactions, not one; and if you wait for the second one, then highload transfers do succeed.
+
+Алина: Oh, that could be the culprit! Thanks (reply to 150483)
+
+— 2025-06-06 —
+
+TON Bounty Bridge: ​Wallet  Created by delaram7
+
+TON Bounty Bridge: ​Wallet et 😁 pour la fin  Created by delaram7
+
+TON Bounty Bridge: ​Vaule  Created by delaram7

@@ -8841,3 +8841,31 @@ Combot: Moi Moi has been banned! Reason: CAS ban.
 — 2025-06-04 —
 
 Combot: Md Shawon has been banned! Reason: CAS ban.
+
+Crypto: 有人参加ChainLink 黑客松吗
+
+Combot: 37 has been banned! Reason: CAS ban.
+
+Jason: Why (reply to 91789)
+
+Andrew: 📣TON Hubs 架构重组：全面赋能区域生态  TON Hubs 正在迈向新阶段！各地 Hub 将升级为由 TON 基金会直接支持的区域单位运作。此次调整将进一步推动 TON 实现其核心使命：发展本地生态、吸引优质项目与开发者，并建立战略性区域合作关系。  🌐 五大官方 TON Hubs 全新登场： 🔹TON 东亚（East Asia） 🔹TON 南亚与东南亚（SSEA） 🔹TON 独联体（CIS） 🔹TON 欧洲（Europe） 🔹TON 美国（即将上线）  🔁 区域整合优化资源配置： 🇮🇳印度 + 🌏东南亚 → TON 南亚与东南亚（SSEA）Hub 🇭🇰香港 + 🇰🇷韩国 → TON 东亚（EA）Hub 🇷🇸巴尔干地区 + 🇬🇧英国 → TON 欧洲（Europe）Hub  更多更新即将发布，敬请关注！🌍 (forwarded from TON East Asia Hub)
+
+— 2025-06-05 —
+
+Combot: WAY! 乾嘛哈 has been banned! Reason: CAS ban.
+
+L: 大佬们，测试网是出问题了吗？ 接口一直报错呢
+
+Andrew: 有可能是 RPC 服务商服务问题，看看其他的  - [TON Console API](https://tonapi.io/)：提供更丰富的 API 支持，返回的数据结构类似于 Tonviewer 浏览器 - [TONX API](https://tonxapi.com/)：除了对标准 API 提供支持，还有新增更高级的 API，还有 Webhooks 等 - [其他 API 参考](https://www.notion.so/Public-RPC-Endpoint-in-TON-by-Howard-886c02fe1a7d40a5a1535ce927fa72a7?pvs=21) (reply to 91901)
+
+Katiya｜TON: 《TON 直播开发课 & 编程挑战赛 2025》第5课直播开始啦！  🏆 课程结束后还有 Coding Challenge 编程挑战赛，所有提交的开发者将会赢取一整年 Telegram Premium 会员！ 💡 本次课程内容：TON Connect 集成  直播链接：https://x.com/i/broadcasts/1OyKALQOdvLxb (forwarded from TON East Asia Hub)
+
+Katiya｜TON: 直播开始啦 快来加入
+
+Combot: Cao Gôn has been banned! Reason: CAS ban.
+
+Combot: rrnar has been banned! Reason: CAS ban.
+
+Combot: kidaaah has been banned! Reason: CAS ban.
+
+Combot: Liza has been banned! Reason: CAS ban.

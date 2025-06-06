@@ -7759,3 +7759,7 @@ Chief: Any pointers to how to properly execute SETCODE will be appreciated. Curr
 — 2025-06-03 —
 
 Oha: 🧩 Looking for some support – TON Telegram Mini Game  Hi everyone!  I'm building a small Telegram Mini App that combines XP progression, daily tasks, and NFT avatars, with wallet integration planned via TON Connect.  The basics are already in place (bot, task system, early UI), but I’d really appreciate support with: – TON Connect integration – Mini App UI logic (HTML + JS) – Optional: NFT-based access control or gated content  Open to short-term collaboration, feedback, or co-building.  If you have experience with Telegram Bots or Mini Apps and feel like helping out, feel free to DM. Happy to share the current progress & roadmap.  Thanks!
+
+— 2025-06-04 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
