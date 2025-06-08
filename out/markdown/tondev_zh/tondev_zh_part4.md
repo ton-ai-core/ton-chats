@@ -8869,3 +8869,37 @@ Combot: rrnar has been banned! Reason: CAS ban.
 Combot: kidaaah has been banned! Reason: CAS ban.
 
 Combot: Liza has been banned! Reason: CAS ban.
+
+— 2025-06-06 —
+
+lig: Hi
+
+eason: 👍
+
+Combot: Uchiha Izanagi has been banned! Reason: CAS ban.
+
+Combot: Quenkxbkb Foruisr has been banned! Reason: CAS ban.
+
+Combot: BONNIE FX has been banned! Reason: CAS ban.
+
+Combot: Tensin Nash, Yu Ming have been banned! Reason: CAS ban.
+
+— 2025-06-07 —
+
+Combot: ㅤ . has been banned! Reason: CAS ban.
+
+🦴Loghman: Hi
+
+Combot: Ruc has been banned! Reason: CAS ban.
+
+Combot: . has been banned! Reason: CAS ban.
+
+Combot: Trọng Thanh has been banned! Reason: CAS ban.
+
+Combot: dien điền has been banned! Reason: CAS ban.
+
+Combot: Cobbler-whee Prt has been banned! Reason: CAS ban.
+
+Combot: ألتوشك has been banned! Reason: CAS ban.
+
+Combot: ألتوشك has been banned! Reason: CAS ban.

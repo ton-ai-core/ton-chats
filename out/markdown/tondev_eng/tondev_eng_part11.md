@@ -1057,3 +1057,77 @@ TON Bounty Bridge: ​Wallet  Created by delaram7
 TON Bounty Bridge: ​Wallet et 😁 pour la fin  Created by delaram7
 
 TON Bounty Bridge: ​Vaule  Created by delaram7
+
+О.К: I need help with a smart contract. Is there a recommended way to issue a custom asset in TON in 2025?
+
+Daisy: GM Frens, Is there anyone who can help me listing my application on TON App?
+
+Khashayar: Is there anyway to talk to Telegram Devs?
+
+Khashayar: About Limitations for game making on it
+
+MAGIC | Blockchain🙏: I'm not talking about architecture, I'm just saying that the cost of a jettons transaction is too high (reply to 150450)
+
+Hakiem: Hi can someone help me find where my tokens ended up? transaction failed but tokens are lost  https://tonviewer.com/transaction/9d21cde0ace0046a8af6f036561ac717a614cb37720dff2595c0190badf992f7
+
+Andrew: Hey, I have a problem: the USDT transaction is present in tonviewer. It definetelly exists. It is definitelly send to my wallet. But when I parse transactions from https://toncenter.com/api/v2/getTransactions , several such transactions are missed. I cannot understand why p.s. I checked, “Jetton Notify” is sent
+
+&rey: This is an unsound jetton; normal implementations are tested to never fail receiving the internal transfer. I don't think the jettons are anywhere accessible now. (reply to 150503)
+
+&rey: If you just want a jetton, one can be made at minter.ton.org/ (reply to 150494)
+
+Slava: Really? Have you seen fees in the TRON network for example? (reply to 150502)
+
+Andrii: Alright. That's so higher than TON network. (reply to 150534)
+
+aedqdes: hello guys
+
+aedqdes: Hey! I'm doing a quick UX survey for a TON-related project about identity and scoring in TON. Would really appreciate it if any dApp users or devs could help out — it’s just 2 minutes 🙏 https://forms.gle/9DK1xMTuFR37do5NA
+
+jack ma: jettonminter Contract minted whats next  tried mint.ts but stucked here  ton-blockchain/stablecoin-contract?tab=readme-ov-file  its stablecoin contract
+
+Ali: Hi guys, please help me, how to start an auction for a domain that has already run out of time?
+
+Mojisola🍅 🍅: ton network fee is really low. hope you know how to refund excess and not using it to consider that ton is high (reply to 150502)
+
+aaaaaa: Hello, dear community members!  I'm currently working on testing and need a significant amount of TON testnet tokens (100+) to proceed with my tasks.  If any validators or community members could spare a large quantity of testnet tokens, your contribution would greatly help me in completing my work. I'd be immensely grateful for your support!  My testnet wallet address:  0QD15lVoaA6rJE-1uMBB3xQkf7euWURFtV8006AiaU9kpFj2   Thank you so much for your generosity and assistance!
+
+&rey: @f_closer can help you with this. (reply to 150570)
+
+— 2025-06-07 —
+
+Vetch: Hi everyone, could you tell me why this TON transfer end up with -14 out of gas error? Both sending and receiving address have enough TON, I dn't understand how could this happen. The transaction hash is: 3f3479fc00a3d077fa45f320d976328a8f9d04bc4508f59123756aebb8ed17b5
+
+Mojisola🍅 🍅: check the mode you are using to send. use sendpaygasseparately. seem the receiving address doesn't have enough ton (reply to 150609)
+
+Vetch: I'll check that, thanks. Why the 1 Ton is not enough for the receiving address? What's the suggested Ton balance to hold for a wallet? (reply to 150619)
+
+Mojisola🍅 🍅: the amount you sent is kind of small
+
+Mojisola🍅 🍅: and receiving address probably don't have enough or so.  U shud av like 0.05
+
+sangmin: u will send 0.05 ton
+
+Mojisola🍅 🍅: even 0.01 should work or so
+
+Vetch: So it's because the sending amount was too small, I don't see any info about the min amount limit in a transfer, could you tell where to find it?
+
+Mojisola🍅 🍅: you can test things for yourself. (reply to 150630)
+
+ᅠ: Who can send a testnet ton in large quantities, I will be grateful
+
+&rey: @f_closer can help you with this. (reply to 150663)
+
+&rey: It is alright by the way. (reply to 150609)
+
+&rey: I do recall I answered you. Do not spam further. (reply to 150570)
+
+Combot: Combot has warned 悔恨当初 (1/3) Reason: 1 reports (reply to 150685)
+
+Penny: Hi, could someone send me a small amount of Testnet TON for testing?
+
+Penny: My address:0QDhspsUjJD3SS5iUmfytUdfX-jFrUuvtqtzAlgJiuOVqEsR
+
+&rey: @testgiver_ton_bot does that. (reply to 150696)
+
+TON Bounty Bridge: ​Fixing TON Connect Gaps in Python  🏷 Developer Tool  Summary:Despite the existence of a Python SDK for TON Connect, its current implementation and documentation ...  Rewards: • SBT Bounty Reward • TON Docs Localization Pioneer SBT  Created by nessshon
