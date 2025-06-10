@@ -7763,3 +7763,25 @@ Oha: 🧩 Looking for some support – TON Telegram Mini Game  Hi everyone!  I'm
 — 2025-06-04 —
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2025-06-09 —
+
+fgx: I am new to TACT, but I have 3 years experience in FunC, FIFT and TON Blockchain. I have studied TACT documentation and am searching for small tasks to kick off. Please DM.
+
+Dalen: i not a bot
+
+Dalen: Hello everyone! I'm looking for a solution for on-chain randomness on the TON blockchain. I found the Tact documentation here: https://docs.tact-lang.org/ref/core-random/#randomint Is it truly secure enough for use in a production environment? Are there any other solutions available?
+
+/B4ckSl4sh\: Validator can predict your random number (reply to 64818)
+
+/B4ckSl4sh\: https://docs.tact-lang.org/book/security-best-practices/#insecure-random-numbers (reply to 64818)
+
+Dalen: thank for response are there any orther solotions we can apply? or any example? (reply to 64822)
+
+/B4ckSl4sh\: Everything depends on your exact needs
+
+/B4ckSl4sh\: I'd recommend commit and disclosure scheme, if applicable
+
+Dalen: I plan to implement a commit-reveal scheme for my app. However, I couldn’t find any examples of it—only examples of randomize_lt and block skipping.   https://docs.ton.org/v3/guidelines/smart-contracts/security/random-number-generation (reply to 64826)
+
+/B4ckSl4sh\: https://en.m.wikipedia.org/wiki/Commitment_scheme (reply to 64832)

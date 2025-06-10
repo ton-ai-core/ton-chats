@@ -8903,3 +8903,69 @@ Combot: Cobbler-whee Prt has been banned! Reason: CAS ban.
 Combot: ألتوشك has been banned! Reason: CAS ban.
 
 Combot: ألتوشك has been banned! Reason: CAS ban.
+
+— 2025-06-09 —
+
+Combot: 藍天與白雲 has been banned! Reason: CAS ban.
+
+9: 寻找全职工作或承包项目 我正在寻找一个长期的职位，或者一个完整的区块链/智能合约开发项目（TON、Python、Go 等）。 没有明确技术需求的请勿联系。
+
+Thea: Gʻ..
+
+Combot: 💗 has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🚀 在 TON Live 编程课中，你已经学会了如何将 TON Connect 无缝集成进 Telegram Mini App！  💻 现在，是时候用代码证明你的实力了！ 📅 6月9日-6月23日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  🎥 课程回顾： Notion 精华笔记：https://ton-org.notion.site/V-TON-Connect-2075274bd2cf8047a5a8d7e99c40b167 YouTube 视频：https://www.youtube.com/watch?v=pYZ6dTcoyHQ X直播回放：https://x.com/i/broadcasts/1OyKALQOdvLxb  🔥 立即参与挑战： 点击此处提交你的代码：https://github.com/ton-builders/ton-coding-challenge-25-round-5 (forwarded from TON East Asia Hub)
+
+Combot: Prosto women has been banned! Reason: CAS ban.
+
+Combot: Дмитрий Пешкур has been banned! Reason: CAS ban.
+
+Andrew: 求助各位 我部署了一个ton的nft合约 当我mint到15000个的时候 出现了result50 超空间了
+
+Andrew: 那么这种时候的话 ton的这个空间大小是如何确定的呢？ 假设我需要mint到20w个nft 那么我需要怎么办呢
+
+Andrew: nft collection超空间
+
+Combot: Humble Gather has been banned! Reason: CAS ban.
+
+Combot: 𝒀𝑶𝑼𝑺𝑬𝑭🐼❤ has been banned! Reason: CAS ban.
+
+Combot: David has been banned! Reason: CAS ban.
+
+Combot: Helohelo xinchao has been banned! Reason: CAS ban.
+
+Leo: 没看懂，怎么超的 (reply to 92250)
+
+Leo: 你用map实现的么
+
+— 2025-06-10 —
+
+Andrew: 是的 (reply to 92273)
+
+Andrew: 我在主合约里用map存了信息
+
+Andrew: 因为我这个是个sbt
+
+Leo: sbt本身的信息存在子合约就行了
+
+Leo: 主合约存一些全局或统计信息
+
+Andrew: 但是我会有一些针对sbt内容的查询操作
+
+Andrew: 比如我说我像判断这个sbt是否mint成功了 通过查询合约的方式
+
+Andrew: 先用 collection 的 get_nft_address_by_index() 查询 item 的地址，再调用 item 的 get_nft_data(), 来判断是否 mint 成功了？（要预留一些合约部署的时间差，部署中的合约 get 不到信息） (reply to 92284)
+
+Andrew: 主要是index tokenid这个东西是从合约里来查的 并不是我本地就存的 (reply to 92285)
+
+Andrew: 我现在的流程是 我的管理员钱包帮一批地址来mint sbt
+
+Andrew: 我这个合约是参考evm的sbt合约来写的
+
+Combot: Liza has been banned! Reason: CAS ban.
+
+Leo: 可能设计上就错了
+
+Leo: ton不像evm支持无限map，得调整逻辑
+
+Jack Hunter: Diving into Hyperion? 🌌 Build, market, or operate—there’s a Guild for that. Join the squad, share tools, collab, and get your name out there. Start your Hyperion journey 👉 https://f._mtr._cool/dbikwmpzcx

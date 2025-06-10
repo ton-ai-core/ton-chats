@@ -1131,3 +1131,65 @@ Penny: My address:0QDhspsUjJD3SS5iUmfytUdfX-jFrUuvtqtzAlgJiuOVqEsR
 &rey: @testgiver_ton_bot does that. (reply to 150696)
 
 TON Bounty Bridge: ​Fixing TON Connect Gaps in Python  🏷 Developer Tool  Summary:Despite the existence of a Python SDK for TON Connect, its current implementation and documentation ...  Rewards: • SBT Bounty Reward • TON Docs Localization Pioneer SBT  Created by nessshon
+
+— 2025-06-09 —
+
+MAGIC | Blockchain🙏: That is reason Defi on TRON can not scale user :))) (reply to 150534)
+
+MAGIC | Blockchain🙏: We are a team that has been developing Blockchain software for 8 years. I really like TON but I need to speak out so that the Defi ecosystem on TON can develop further.
+
+Matt: Pls what is it all about
+
+&rey: This group? It's about how to develop your smart contracts on TON and interfaces to them. (reply to 150769)
+
+fgx: Searching for job or tasks in TON / Telegram, DM. Skilled developer + team.
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 16 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 74  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Jimmy: @pcrafter that ad, i think (reply to 150775)
+
+Dalen: Hello everyone! I'm looking for a solution for on-chain randomness on the TON blockchain. I found the Tact documentation here: https://docs.tact-lang.org/ref/core-random/#randomint Is it truly secure enough for use in a production environment? Are there any other solutions available?
+
+&rey: First, you need a specification: who commits to invoking your contract and who commits to a random number at which moment, plus to set stakes level. That will allow to make an informed choice. (reply to 150781)
+
+Dalen: In the case of the current application I'm building, anyone can call the contract at any time, and staking is not possible. Are there any other solutions available? I found this article on Medium — is this method truly secure for use in a production environment? https://medium.com/miki-dev/true-randomness-on-ton-blockchain-60670f455027 (reply to 150782)
+
+&rey: This should be solved at theoretical level, subject to these two constraints: 1. User shouldn't have ability to know the number before they commit to sending message to your contact. 2. Whoever provides the last bits of entropy (when using LT, that's a validator; ECVRF doesn't provide entropy itself, just generates an unpredictable number) shouldn't be able to calculate the result after user commits to send a message, but before they commit to that entropy. (reply to 150784)
+
+&rey: "user commits to send a message..." is, essentially, "the external message is accepted by user's wallet contract".
+
+Алексей Ковалёв: What is your project? (reply to 150796)
+
+Zaidu: My project is about Ziver, a pioneering Multi-chain project meant to revolutionize and give a new meaning to cryptocurrencies.  I don't know if I am allowed but here's our whitepaper:  https://docs.google.com/document/d/16f3_po7M2OxfAUM8gaz4mbMHe12GW1ii/edit?usp=drivesdk&ouid=100918683306786672033&rtpof=true&sd=true  ---------    You can get all the information about this project there, and you get our progress through our telegram channel:  https://t.me/zivcoins (reply to 150797)
+
+Dalen: does we have any example? (reply to 150786)
+
+Dalen: I plan to implement a commit-reveal scheme for my app. However, I couldn’t find any examples of it—only examples of randomize_lt and block skipping.   https://docs.ton.org/v3/guidelines/smart-contracts/security/random-number-generation (reply to 150786)
+
+&rey: Well all primitives (that is, probably, cell_hash) are in place. (reply to 150804)
+
+Azim: Hi everyone,  We’re building a product on the TON network and need a VRF (Verifiable Random Function) service for one of its components. I’ve explored several options, and recently found a VRF solution developed by a group called Hexolabs—but the only resource I could locate is their GitHub repository:  @github/hexolabs-web3  If you have any knowledge of the team or the company behind this project, or if you’ve used their VRF service yourself, I’d be grateful for your insights. I’m especially interested in whether the project is officially recognized, whether it has undergone any audits, and any other relevant details you can share.  Thanks in advance!
+
+&rey: I could not find the actual verified randomness function inside it. (reply to 150818)
+
+Azim: do you have access to their contracts' code ? marked “confidential implementation” in their docs (reply to 150819)
+
+&rey: Apparently it is inside EQAlanxuEMsnWh0EhV2rwfelemQZpJM8uyvN0tM62IWPzQ0L but they didn't publish that code! Though you most certainly don't want to pay that much.
+
+&rey: I had written ECVRF impl once, at https://github.com/ProgramCrafter/ecvrf-coordinator-contract/blob/master/src/ecvrf.fc, but I missed an important part of it so it needs patching.
+
+Azim: Oh, you’re ProgramCrafter, by the way?   I’ve read your work and put a lot of effort into using it.
+
+&rey: One and the same. (reply to 150824)
+
+Azim: What you’ve accomplished is really impressive, but as you’ve mentioned, some key parts are still unfinished. Do you plan to complete them? I imagine many in the community urgently need a production-ready VRF implementation on the network. @pcrafter
+
+&rey: The oracle somewhat worked but had only one use besides me, unfortunately. Though I can complete it. (reply to 150827)
+
+&rey: By the way I cannot attest to their knowledge of idiomatic Rust either, because they chose to change environment variables instead of configuring the logging library inside code. (reply to 150818)
+
+Azim: So I hope we can become one of its biggest, most frequent users once you complete it. I’m not sure if this is the right place to ask, but could we have a more detailed conversation about it? (reply to 150828)
+
+&rey: It is open source software. Will be done soon. (reply to 150830)
+
+Azim: So you really are finishing it—that’s great to hear! From our earlier chat I had the impression you might have abandoned the project. I hope I can start using it very soon. Thanks for taking the time to answer my questions so patiently.
