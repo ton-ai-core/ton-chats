@@ -8969,3 +8969,47 @@ Leo: 可能设计上就错了
 Leo: ton不像evm支持无限map，得调整逻辑
 
 Jack Hunter: Diving into Hyperion? 🌌 Build, market, or operate—there’s a Guild for that. Join the squad, share tools, collab, and get your name out there. Start your Hyperion journey 👉 https://f._mtr._cool/dbikwmpzcx
+
+Andrew: 那感觉我这种代替mint的方式 在ton上面很不受用啊 (reply to 92293)
+
+Andrew: 如果大批量进行mint的话 这种不通过map的话 很难去判断是否成功
+
+Leo: 查子合约地址就行了 (reply to 92299)
+
+Leo: 你这个思路是违背ton设计原则的，要改变思路
+
+Katiya｜TON (On vacation🏝️): 💎 Roast Session #3 线上直播pitch项目阵容公布！ 💎 从支付到 AI，从 GameFi 到 DeFi —— 顶级开发者即将点燃 $TON 舞台！  📅 6月10日(今晚) | 🕗 20:00（UTC+8） 📺 YouTube 直播链接： https://www.youtube.com/watch?v=akScEcxkJv4 🟦 同步 X 平台直播 — 关注 https://x.com/TONEastAsia 获取提醒！  👇 以下是本期登场项目： 1️⃣ Hipopo – 基于 AI 的游戏化社交平台，重新定义人们的互动、娱乐与社交方式。  2️⃣ Fufuture – 去中心化永续期权协议，提供无清算风险的链上衍生品交易体验。  3️⃣ Tonscredit – TON 上最流畅的加密预付卡服务，随时随地用加密货币消费。  4️⃣ Wolf fun – TON 上首款去中心化 PvP 对战游戏！策略、刺激、超高奖励尽在 Wolf.Fun！🎮  5️⃣ Hypecoin – 一个开放式变现平台，用户可即时将网络热点和流行趋势代币化。  6️⃣ A3A – 篮球主题的放置类 RPG 游戏，融合 QTE 投篮与团队策略玩法。  🎙️ 评审团见海报⬇️今晚不见不散！ (forwarded from TON East Asia Hub)
+
+Katiya｜TON (On vacation🏝️): 今晚不见不散！
+
+Andrew: 话说 如果这样的话，就不能通过主合约来防止重复mint么？ (reply to 92300)
+
+Leo: ton的特性决定了单个合约不能存无限增长的数据 (reply to 92312)
+
+Leo: 最好还是用ton原生的方式去做ton应用
+
+Cyber: 我的项目里有个用户钱包链接后支付1USDT的功能，但是当我钱包里没有USDT的时候，从钱包发起转USDT的请求，会变成转0.01TON，有知道这是什么情况吗
+
+sakura: 在发起支付前去查用户余额，不足就不进行支付 (reply to 92330)
+
+Crypto: 消息费？
+
+Cyber: 嗯，感谢，解决了，账户没钱默认要扣手续费 (reply to 92332)
+
+Madodana: Hi
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+— 2025-06-11 —
+
+Jason: Who is banned
+
+Andrew: TON Demo Day： 向顶级投资者推介您的愿景！🚀  召集所有具有创造性的 TON 建设者！准备好向顶级投资者推介您足以改变游戏规则的项目了吗？6月24日北京时间晚上 20:00，我们将首次举办 TON Demo Day，让您有机会在 Animoca Brands, Mechanism Capital, Kenetic Capital, Impossible Finance, Polymorphic Capital, Cypher Capital 等顶级投资机构面前大放异彩。  为何参加？  - 向全球领先的风投机构现场展示 💰 - 将挑选出 5 个卓越团队  - 由 TON 基金会增长主管 Martin Masser 主持   📅 6 月 19 日前申请： builders.ton.org/opportunities/demo-day  ▪️ 申请者将根据我们的 评分标准 进行评估。  ▪️ 邀请所有用户观看 YouTube 上的现场直播！   ▪️ 关注 TON Builders，以了解更多更新。 (forwarded from TON East Asia Hub Chat)
+
+— 2025-06-12 —
+
+Combot: Johnj Risth has been banned! Reason: CAS ban.
+
+Combot: Scene.ta has been banned! Reason: CAS ban.
+
+一二三～商会（主页赚钱项目）: 有人能做NFT狙击程序吗？或者有现成的吗？

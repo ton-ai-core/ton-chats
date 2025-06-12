@@ -7785,3 +7785,107 @@ Dalen: thank for response are there any orther solotions we can apply? or any ex
 Dalen: I plan to implement a commit-reveal scheme for my app. However, I couldn’t find any examples of it—only examples of randomize_lt and block skipping.   https://docs.ton.org/v3/guidelines/smart-contracts/security/random-number-generation (reply to 64826)
 
 /B4ckSl4sh\: https://en.m.wikipedia.org/wiki/Commitment_scheme (reply to 64832)
+
+— 2025-06-10 —
+
+Nerses: How do DEDUST or STON.fi handle storage fees on their contracts? Who actually pays these fees? Do they deposit funds into the contracts specifically to cover storage fees, or are the stuck/unclaimed swap funds used for this purpose? Or maybe I’m misunderstanding how it works and there’s a better approach? Would appreciate any clarification!
+
+maksim: They don't pay storage fees themselves nor they send any funds from their side. They simply reserve needed storage amount from user messages, similar to how jetton wallet does it to ensure it has enough tons on balance to remain active  Here https://github.com/tact-lang/dex/blob/main/sources/contracts/vaults/ton-vault.tact you can check example of storage fee managment in Ton Vault for Tact dex (note, work in progress, but it's still can be useful). Also you can check tests in this repo to see what this approach ensures (reply to 64878)
+
+Nerses: thanks a lot (reply to 64879)
+
+Nerses: I have investigated the code, but I would like to clarify how this case is handled. Suppose a user deposits funds that are locked in the contract, and the estimated storage fee at the time is x. The contract reserves the funds plus x. However, when the swap is eventually executed, let's say the storage fee has increased to 2x by that time. In this scenario, the user would have paid less than what is actually required. How is this situation addressed? (reply to 64879)
+
+maksim: Contract are allowed to go negative balance up to -0.01 ton iirc, so the next user tx will simply cover this diff (reply to 64885)
+
+Nerses: so users will pay one for another.and is 0.01 TON reasonable amount or there are known issues in DEXes connected with it ? (reply to 64886)
+
+maksim: Actually if we go into detail, there are two main approaches for this:  1. Always reserve some positive constant on the contract balance, e.g. 0.01 ton, then storage fees will be paid from this amount and then it will be reserved again with new user tx. This is the way of jettons, https://github.com/tact-lang/jetton/blob/main/src/contracts/base/jetton-wallet.tact#L74 (and I guess maybe the same for dedust, since their vaults balances always postive with some reserves)  2. Don't reserve anything, allow contract balance to stay slightly negative/zero, and either send unbounceable messages inside the protocol (this way storage fees are paid from the message, not the contract balance), or reserve myStorageDue() from user tx to cover storage fees from it. This is Tact dex approach, since it simplifies fee handling at the start of swap/liquduity provisioning  Both ways are correct, the choise depends on the use-case
+
+Nerses: Thanks for detailed explanation.I think your explanation could be added into docs or at least as blogpost.Because couldnt find anywhere description of approaches for such cases (reply to 64889)
+
+maksim: With contract size being similar to jetton wallet, it's enough reserves for a year I think, with current config (reply to 64887)
+
+maksim: Yeah, I think so, we will prepare page in docs for it (reply to 64890)
+
+Thanh: Hi everyone,  I want to mint batch collection but I got some issues. 1. Wallet V5 can't mint batch when call transaction with ton ui sdk 2. Some case I want to mint more then 4 (4 is max message can send once)   So I changed my approach to: I write smart contract (tact language) and in contract will have a function deploy batch nft.  I want to ask if my approach is reasonable, if not can you help me come up with another solution.  Thanks!
+
+maksim: I think there is already nft batch mint functionality inside nft collection contract that does exactly this under the hood inside the collection contract
+
+maksim: It's presernt both in og FunC Tep implementation and in Tact one  https://github.com/tact-lang/tact/blob/main/src/benchmarks/nft/func/nft-collection.fc#L109 https://github.com/tact-lang/tact/blob/main/src/benchmarks/nft/tact/collection.tact#L52
+
+Thanh: Oh, thanks a lot. I am a newbie and I following guideline in ton docs "nft-minting-guide". So I don't know If I can change logic of NFT Collection in that guideline to mint batch nft?
+
+maksim: I am not sure about the guide you're following but every nft implementation on ton that I know of contains batch nft mint functionality (reply to 64898)
+
+Thanh: Thank you. Let me try!
+
+Thanh: Can u help me one more. This is my code in Typescript    const dict = Dictionary.empty(Dictionary.Keys.Uint(64), Dictionary.Values.Cell());    if(!params.items || params.items.length === 0) {     throw new Error("No items provided for batch mint");   }    params.items.forEach((item) => {     const initNFTBody = beginCell()       .storeAddress(item.itemOwnerAddress)       .storeRef(         beginCell()           .storeBuffer(Buffer.from(item.commonContentUrl))           .endCell()       )       .endCell();      // Serialize DictItem đúng với contract     const dictItem = beginCell()       .storeCoins(item.amount) // amount       .storeRef(initNFTBody)   // initNFTBody       .endCell();      dict.set(item.itemIndex, dictItem);   });    if (dict.size === 0) {     throw new Error("Dictionary is empty, check item data");   }    return beginCell()     .storeUint(2, 32)     .storeUint(params.queryId || Date.now(), 64)     .storeDict(dict)     .endCell(); }   I was follow message type but when I confirm transaction then I get error Call contract failed although my collection is minted
+
+Nerses: has anyone handled cases where you need to keep storage fees from incoming deposits, but refund the rest if something fails? Tried nativeReserve(msg.amount + myStorageDue()) for ok, and just nativeReserve(myStorageDue()) for fail, but storage fees aren’t kept if the message fails. Tried different combos with try/catch ,  commit , etc., but no luck. Any tips?
+
+&rey: any failure is in action phase, so TVM cannot act in response. (reply to 64913)
+
+Nerses: Will using try catch and on error just emit a message(not throw error) solve the case? (reply to 64917)
+
+/B4ckSl4sh\: It's impossible to change contract's state and send bounce. If the message bounced it means there was no changes of destination account (except storage fee collection) (reply to 64913)
+
+Nerses: Buy try catch reverts everything in try block so I guess if I don't throw any error in catch the flow can be changed (reply to 64922)
+
+Nerses: Am I missing smth ?
+
+/B4ckSl4sh\: You still can refund the sender explicitly by sending a message (or calling cashback() which is the same thing) (reply to 64923)
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+Maria: Yes, it is (reply to 64927)
+
+Zakir: Yes (reply to 64927)
+
+— 2025-06-11 —
+
+&rey: Not everything, recoverable TVM errors only (e.g. ZERO SETGASLIMIT is non-recoverable). (reply to 64923)
+
+&rey: Insufficient funds is not a TVM error, it will only be known after contract executes to completion.
+
+Nerses: Are you aware of any scenarios where the results of the nativeReserve function could be reverted? Or could you point me to any materials/resources on this topic? (reply to 64995)
+
+&rey: As proved above, no TVM code can handle failure of nativeReserve. You should consider another way of knowing which of the two should be invoked. (reply to 64997)
+
+Freddy | metafields.xyz: can anyone share faucet link , thanks
+
+Nerses: I have modified the code (reply to 64998)
+
+Nerses: receive(msg: Msg) {     nativeReserve(myStorageDue(), ReserveAddOriginalBalance | ReserveExact | ReserveBounceIfActionFail);     commit();     try {         nativeReserve(msg.amount, ReserveExact | ReserveAddOriginalBalance | ReserveBounceIfActionFail);         require();         require();         // code         message(MessageParameters {             to: sender(),             value: 0,             bounce: false,             mode: SendRemainingBalance,         });     } catch (e) {         message(MessageParameters {             to: sender(),             value: 0,             bounce: false,             mode: SendRemainingBalance,         });         commit();         throw(e);     } }
+
+Nerses: In this pseudocode, I expect myStorageDue() to always be reserved, even if the try block fails. But in tests, if there’s a failure, the storage due isn’t kept. Why isn’t the storage due reserved on failure, even though nativeReserve and commit() are called before the try? (reply to 65002)
+
+&rey: and what is sent instead? (reply to 65005)
+
+Nerses: when I send the msg first time it doesnt keep the storage dues (successful msg data), second msg sent (failing msg data) sends back remaining balance also pays the storage due in behalf of contract (expected to be paid by incoming msg value) (reply to 65006)
+
+&rey: Well that's the behavior of bounce. Expected and valid one, at that; if user's request was not completed, it's only fair that they get everything back. (reply to 65007)
+
+Nerses: Is there any workaround for this case ? (reply to 65008)
+
+&rey: So do you have a valid reason? (reply to 65009)
+
+&rey: Basically, bounced messages should be treated as if they never happened.
+
+Nerses: I just want the contract not to pay storage fees no matter the incoming message failed or not (reply to 65010)
+
+&rey: They do not incur any change to total storage fees, too.
+
+Nerses: I meant to be paid by user (reply to 65012)
+
+Nerses: here is the tested example on testnet https://testnet.tonviewer.com/kQDRSNX2W9nm5zMpiLJfFeb32WnqGUjswRk0ecX9f4IOvtmd (reply to 65013)
+
+&rey: Then, do not bounce the messages, use reply() or cashback(). (reply to 65012)
+
+Nerses: you mean this part to change with reply ? (reply to 65002)
+
+&rey: The ReserveBounceIfActionFail.
+
+— 2025-06-12 —
+
+Nerses: I've tested removing ReserveBounceIfActionFail and explicitly handling refunds with cashback() and manual reply(), but the issue persists. Storage fees (myStorageDue()) are still not correctly retained by the contract on failure scenarios.  I've created a gist file with a simplified test contract to reproduce the issue clearly: link  This example demonstrates that even with manual handling, the contract does not retain the required storage fees on transaction failure.  Could you please have another look? (reply to 65018)

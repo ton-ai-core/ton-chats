@@ -1193,3 +1193,107 @@ Azim: So I hope we can become one of its biggest, most frequent users once you c
 &rey: It is open source software. Will be done soon. (reply to 150830)
 
 Azim: So you really are finishing it—that’s great to hear! From our earlier chat I had the impression you might have abandoned the project. I hope I can start using it very soon. Thanks for taking the time to answer my questions so patiently.
+
+— 2025-06-10 —
+
+ㅤ: Hey guys does anyone know how i can integrate TON with telegram bot ..... any example github repo ??
+
+Odd: Anyone here looking for dev?
+
+Orang Ganteng Coin: Hi, can I get some testnet TON for development?
+
+Dmitry: @testgiver_ton_bot (reply to 150850)
+
+Orang Ganteng Coin: thanks brother🫡 (reply to 150851)
+
+Nerses: How do DEDUST or STON.fi handle storage fees on their contracts? Who actually pays these fees? Do they deposit funds into the contracts specifically to cover storage fees, or are the stuck/unclaimed swap funds used for this purpose? Or maybe I’m misunderstanding how it works and there’s a better approach? Would appreciate any clarification!
+
+Investor: I'm building NemexCoin – a pioneering TON-based Task-to-Earn (T2E) and wallet project focused on enabling easy Web3 access for non-crypto users. We're integrating a unique anti-rug pull mechanism to foster trust and security. Our backend is already progressing, and we're actively seeking a talented Frontend Developer to join us in a collaborative capacity to integrate key wallet components for our Telegram Mini-App:  * Wallet interface (Create/import)  * Token display (balance + USD value)  * Send/receive UI (TON + jetton) Experience with TON Connect, Web3, and mobile-first design is preferred. This is an early-stage opportunity where compensation will be token-based, with vesting tied to mutually agreed-upon project milestones. This ensures early contributors gain a significant stake in NemexCoin's shared success. If you're passionate about building for mass adoption on TON and are open to a collaborative, token-based model, please contact me directly on Telegram: @InvestorSirri"
+
+Justice: I am well experienced and I am currently available (reply to 150859)
+
+Tony: Hello, can I integrate stars payments on a website outside telegram?  And people can register with their telegram handle, then pay with stars?
+
+Ruslan: Via bot only. But yes, basically the similar way as with OAuth (reply to 150862)
+
+Ярослав: What exactly do you want to test? If that’s something like connecting wallet or sending a transaction, you can do it on main-net, if you get your wallet app opening with prompting you to make transaction you’re good, you don’t have to send a transaction to make sure that tonconnect works, but if you want to test tonconnect integration in whole flow that’s another question (reply to 150873)
+
+Ярослав: Well in most cases you don’t need to use testnet with tonconnect unless you want to test actual transactions sending or calling some contract and don’t want to spend some funds paying fees (reply to 150875)
+
+&rey: Choose testnet in the wallet app and do connection as usual. You will see -3 chain ID in tonConnectSDK.account, while -239 stands for mainnet. (reply to 150873)
+
+&rey: Any console output, too? (reply to 150885)
+
+&rey: Well it shouldn't be the reason because Tonkeeper uses another bridge. Have you tried connecting another wallet then? (reply to 150889)
+
+Jason 🆙 UXUY $ETN: Hi guys how's everyone had a quick question if anybody can point me in the right direction to documentation if there's a possibility of capturing all transactions of a specific Jetton Master, meaning transactions that happened of that Jetton between various Jetton wallets without specifying the Jetton wallets via any API obviously it's easy to capture swaps from a dex but I meant all transactions that that coin has so whenever it's sent between users
+
+&rey: Tonviewer does this IIRC, and you can see its data sources in the bottom right corner. (reply to 150897)
+
+Ricardo: So im trying to dynamically get the blochain configuration parameter number 21, using strictly the ton core libraries, has anyone done this in JS?
+
+Justice: I have done similar (reply to 150912)
+
+Andersen: Hoping to ask questions related to the validator operation here, from what I understand ~2M ton is the maximum effective stake per validator currently.. Does this mean if I had say 100M TON I would need to run 50 separate validators? Do people run multiple isolated validators on one hardware deployment? as 50 separate deployments is just too much cost.
+
+Ricardo: Do you have code example? (reply to 150920)
+
+Justice: Not at the moment (reply to 150926)
+
+&rey: We must hope that you do not do that; such centralization could bring down a shard if 1/3 of its validators failed. (reply to 150924)
+
+Ricardo: In its defect, i need a dynamic way to load all of the blockchain's configuration parameters using ton/ton library
+
+Andersen: man 2m ton per validator deployment is so low.. especially given the high specifications to run one..The ton earnings must be really high. (reply to 150928)
+
+&rey: The underlying API call is https://toncenter.com/api/v2/#/get%20config/get_config_all_getConfigAll_get; I'm not sure if there is a ready wrapper function. (reply to 150929)
+
+Ricardo: there doesn't seem to be a wrapper (reply to 150931)
+
+— 2025-06-11 —
+
+Hong Kyun: Fragment doesn't seem to work?
+
+Hong Kyun: I tried different browsers, and cannot connect
+
+Hong Kyun: Yeah, tried Dedust and it works fine, seems like there's a problem with Fragment
+
+Folakemi: Hello, I am trying to connect ton wallet but it dosent work  Is there anything wrong with ton, I even tried ton telegram but I got an error of 500 How can I successfully integrate ton wallet connection at the front end?
+
+&rey: Is the app manifest downloadable from Internet? (reply to 150975)
+
+Folakemi: I think it is  But the extension Dosent work (reply to 150976)
+
+&rey: And does it work if you connect the same wallet to an existing service (dns.ton.org, for instance)? (reply to 150977)
+
+Folakemi: It didn’t work at all (reply to 150978)
+
+Roj: Why can’t I send videos here? :(
+
+Andersen: Hi everyone,  I’m currently working on a TON profitability calculator and would really appreciate a peer review from the community. While I’ve gone through a lot of the documentation, I’m still relatively new to the ecosystem, so any feedback or pull requests would be incredibly helpful.  My top priority is ensuring that the calculations are accurate and based on reliable data sources and protocol-level parameters.  You can find the project here: https://github.com/blueprint-infrastructure/TON  Thanks in advance!
+
+Roj: Does anyone know why this is not working?
+
+James: The issue I kept running into has to do with the "url" value in the tonconnect-manifest.json. I coud never get it to resolve by setting the value to my local machine. Not much help, but I would start looking there. (reply to 150997)
+
+Roj: It’s unfortunately already a publicly accessible URL. (reply to 150998)
+
+Roj: No, that didn’t work either.
+
+James: I was able to get it to work using Vercel. Uploaded the project, then changed that value to the URL for the vercel app. (reply to 151001)
+
+James: Might be something to do with connecting to Testnet instead of mainnet as well. After fighting with it for a while, I just started using mainnet to see if I could get it to work, and it did. (reply to 151001)
+
+Zerox: Looks pretty interesting. Do you have any roadmap to extend the project? Or just plan to complete current script? (reply to 150996)
+
+— 2025-06-12 —
+
+L30n1d: Powerful calculator with clean, well-structured code — and everything is clearly commented. Great job! (reply to 150996)
+
+Combot: Combot has warned ⸸ | ᴍᴏʀᴇɴ (1/3) Reason: Word ******* is not allowed
+
+⸸ | ᴍᴏʀᴇɴ: I'm working on launching a token through a token generator platform, and I’m looking to build a reward distribution system that activates only after a small on-chain transaction is made.  Specifically, I'm looking to:  1. Enable users to receive tokens after sending a predefined transaction (acting like an access gate).   2. Configure the transaction amount and direct it to a custom destination address.   3. Decide whether to implement this entirely on-chain (via contract logic), or partially through frontend interaction.    I’d really appreciate code samples, advice, or shared experience from anyone who's done something similar.  Thanks a lot!
+
+Andersen: Thanks for checking, Immediate goal is to confirm the accuracy and approach, as I feel the profitability is a bit optimistic, but at the same time I think I followed all the documentation. - Hoping to get some experienced eyes on it to expose anything I did wrong.  Next step on the roadmap is to research the leading validators and compare their earnings on chain to the estimations, then deploy some validators and monitor the results comparing them with the calculator, but id like to have more confidence before capital deployment. (reply to 151026)
+
+Andersen: Thanks for taking a look, my hope is that its accurate (reply to 151029)
