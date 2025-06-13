@@ -7889,3 +7889,41 @@ Nerses: you mean this part to change with reply ? (reply to 65002)
 — 2025-06-12 —
 
 Nerses: I've tested removing ReserveBounceIfActionFail and explicitly handling refunds with cashback() and manual reply(), but the issue persists. Storage fees (myStorageDue()) are still not correctly retained by the contract on failure scenarios.  I've created a gist file with a simplified test contract to reproduce the issue clearly: link  This example demonstrates that even with manual handling, the contract does not retain the required storage fees on transaction failure.  Could you please have another look? (reply to 65018)
+
+&rey: 1) catch block is totally irrelevant. (reply to 65042)
+
+Nerses: but the main issue is that the code isnt behaving like it was intended (reply to 65048)
+
+&rey: Then I cannot help you, if you start debugging from the middle while I show why existing code works as it does. (reply to 65049)
+
+Nerses: thanks anyway (reply to 65050)
+
+Nerses: is it possible to create such receiver that will accept any type of message ? I have seen in docs the empty receiver, but what can be done with messages with arbitrary text (in case I dont want to write a receiver for each text message) ?
+
+Dmitry: receive(msg: Slice) {  } (reply to 65052)
+
+Nerses: will it handle arbitrary text message ? (reply to 65058)
+
+Dmitry: It will handle any message (reply to 65059)
+
+Dmitry: receive(str: String) {  }
+
+Dmitry: For text messages
+
+Nerses: I am a lil bit confused.Will receiving only Slice type messages cover all possible incoming messages, or I need to declare for each one separate receiver(empty,String,Slice,...) ? (reply to 65062)
+
+Dmitry: receive(msg: Slice) is for all possible messages
+
+Dmitry: receive(str: String) is only for strings
+
+Nerses: thanks a lot (reply to 65064)
+
+Baba: Does Tact support vesting or locking mechanism?
+
+&rey: It allows to do pretty much everything that FunC does, so perhaps. (reply to 65073)
+
+Nerses: https://github.com/tact-lang/tact/blob/854e9954fac1c1b7b771eacb8c9272a6b4ef6d67/src/benchmarks/escrow/tact/escrow.tact#L37 (reply to 65073)
+
+Baba: Thank you very much
+
+Nerses: @B4ckSl4sh what is the state of this issue https://github.com/tact-lang/tact/issues/2336 ? what is workaround for it now ?

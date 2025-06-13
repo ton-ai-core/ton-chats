@@ -9013,3 +9013,13 @@ Combot: Johnj Risth has been banned! Reason: CAS ban.
 Combot: Scene.ta has been banned! Reason: CAS ban.
 
 一二三～商会（主页赚钱项目）: 有人能做NFT狙击程序吗？或者有现成的吗？
+
+Combot: zayar has been banned! Reason: CAS ban.
+
+Combot: KOUASSI sylvain, Rudra have been banned! Reason: CAS ban.
+
+— 2025-06-13 —
+
+Combot: Lekgolo ICT Securities Lekgolo ICT Securities, Nyashwarrior have been banned! Reason: CAS ban.
+
+Combot: Maizol Perez has been banned! Reason: CAS ban.

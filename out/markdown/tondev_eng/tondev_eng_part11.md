@@ -1297,3 +1297,91 @@ Combot: Combot has warned ⸸ | ᴍᴏʀᴇɴ (1/3) Reason: Word ******* is not 
 Andersen: Thanks for checking, Immediate goal is to confirm the accuracy and approach, as I feel the profitability is a bit optimistic, but at the same time I think I followed all the documentation. - Hoping to get some experienced eyes on it to expose anything I did wrong.  Next step on the roadmap is to research the leading validators and compare their earnings on chain to the estimations, then deploy some validators and monitor the results comparing them with the calculator, but id like to have more confidence before capital deployment. (reply to 151026)
 
 Andersen: Thanks for taking a look, my hope is that its accurate (reply to 151029)
+
+.: Hi ! Can anyone help me?)  Can smart contract use method of other smart contract ?  For example:  I want to use method "get_wallet_address" / "get_jetton_data" of jetton_minter in my smart contract on FunC  Is it really ?
+
+&rey: Retrieving them from another contract is not possible due to strong tx isolation (transaction only touches one contract). (reply to 151052)
+
+&rey: If you have master's code+data+address as cells, on the other hand, you can do RUNVM.
+
+&rey: e.g. https://github.com/ProgramCrafter/tvm-quirks/blob/master/ok-jetton-wallet-onchain.fc
+
+.: Oh, I saw this code, and it’s only available method to get Jetton Wallet Address ?  I want to get Jetton Wallet Address, but this system is so hard for me)) (reply to 151055)
+
+&rey: are you familiar with concept of code modularity? (reply to 151057)
+
+&rey: It abstracts complexity out, leaving you to call calc_my_jetton_wallet(master_addr, master_code, master_data).
+
+&: Smart contract cannot run getty functions of other contract. (reply to 151052)
+
+.: I know, I saw https://gist.github.com/ProgramCrafter/53fc3a4846397ee5f3f3b25ca3356ab5 but need I to get master_code and master_data, yes?  And in which format I need to use master_code and master_data? (reply to 151059)
+
+&rey: yes, from Tonviewer or like. (reply to 151063)
+
+&rey: cells, just like when you put them in StateInit. It is simpler if you handle them with TS and put into contract's data. (reply to 151063)
+
+Nerses: what is the best approach to get number of Cells and bits of contract ? also is it possible to do on chain ?
+
+&rey: This: https://docs.ton.org/v3/documentation/smart-contracts/func/docs/stdlib/#compute_data_size. It is easier to do onchain than offchain, but more expensive. (Offchain calculation obviously costs zero.) (reply to 151068)
+
+Nerses: In case this info will be used for storage fee calculation isnt it optimal to do that on chain, as it will be calculated just once, or that data is dynamically changing in case of storing more and more data ? (reply to 151069)
+
+&rey: Well IF (and only if) you store more and more data, then more data will be stored. Blockchain does not force contracts to pay for transaction history; in exchange, it does not guarantee that transaction history is preserved. (reply to 151070)
+
+Nerses: I meant in storage fee calculation is used the size of code (the logic) or the whole data that currently in contract is stored ? (reply to 151071)
+
+&rey: Whole data. Including balance and other metadata, that is. (reply to 151072)
+
+Nerses: thanks for clarification. So what you think of using hardcoded storage fees like in some Jetton implementations.Are there any known issues on it ? (reply to 151073)
+
+.: Sorry, I can't understand, how to convert hex of cell to cell ?  How to convert b5ee9c7201010c0100c400010300c0010201580203020120040502...... to cell for using .storeRef() ? (reply to 151065)
+
+&rey: Cell.fromHex('b5ee...') (reply to 151076)
+
+.: Thanks Do you know why this happened? calc_my_jetton_wallet in FunC return 0x19379...  It's code return 0x19379:  var get_jetton_wallet() method_id {     load_data();     return (calc_my_jetton_wallet(ctx_master_addr, ctx_master_code, ctx_master_data)); }  *The problem is not with the master code/cell (reply to 151077)
+
+&rey: Do you have the contract deployed, so that it could be tested? (reply to 151079)
+
+&rey: Is your load_data marked impure so it is not omitted?
+
+.: Yes, testnet kQBXIrf9dLJsqiybkpdI8yGXJijrP7CW7dZJ77cko-oxqlyM (reply to 151080)
+
+.: My methods: get_jetton_wallet, get_master_code, get_master_data   I used Impure for load_data (reply to 151082)
+
+Дмитрий: Hello everyone! Please tell me if it is possible to somehow solve the problem that when opening the telegram wallet to confirm a transaction from my mini apps - the mini apps are minimized? returnStrategy does not work specifically on the TG desktop.   try {                    const result = await tonConnectUI.sendTransaction(transaction, {                        returnStrategy: 'https://t.me/.../....'                    });
+
+&rey: I think @devs know more about TMAs. (reply to 151098)
+
+Дмитрий: thx
+
+JinX: Hi everyone, I would like to ask you for tones for the test, there is no telegram wallet, who is not difficult, please send it UQB526ofOMG_dklXqm_66bIJHRo1smF_m4AHqbbHc1Gkyh15
+
+&rey: @testgiver_ton_bot does that. (reply to 151102)
+
+JinX: They just give very little, I need more (reply to 151103)
+
+&rey: So you have already tested in sandbox? (reply to 151104)
+
+&rey: You can message @f_closer describing nature of your project. Alternatively, testnet TON are sold(sic) at tonconsole.com/.
+
+Artem: Hi all! Does ton have a standardized way of introducing new changes to the chain like Ethereum does with EIPs? I've seen the TEPs repo, but it seems kind of incomplete with only some proposals being written. Also, it doesn't seem like the original infra left by the Telegram team long ago is documented properly either, for example I couldn't find specs for the Elector contract in any whitepaper PDFs or the proposals. How does the community and the TON Foundation manage to work on the project without an actualized spec of the network? 😅
+
+&rey: I have heard TON Studio has internal documentation and test harness. Something may also be in audit reports for those fundamental smart contracts. (reply to 151108)
+
+Artem: True, Certik's report and article do have some info about the elector contract, but I mentioned it just as an example. Would I be right to assume then that the chain development is mostly discussed within the TON Foundation itself, as well as github issues and tonresear.ch? Meaning there isn't a properly formalized mechanism being used for publishing upgrade specs etc (reply to 151109)
+
+BizX: Hey, are you looking for dev? (reply to 149045)
+
+Ricardo: Hey guys, im getting:  Error: grams overflow  when calling emulateMessageToWallet using '@ton-api/client' dependency, what does that mean?
+
+&rey: It means that the API you're connecting to went crazy. It will be fixed shortly.  Will I be right to assume that you query testnet? (reply to 151114)
+
+Ricardo: problem solved, thank you (reply to 151116)
+
+Ricardo: On another note, How likely is it that TON blockchain will change its configuration parameter number 21? what would it take to make such a change?
+
+Ricardo: I have been trying to dynamically fetch the configuration parameter number 21 that dictates computation costs, i know i can do it with @ton-api/client, but i cant use that client, i can only use TonClient from @ton/ton npm package. Also how is this parameter stored in the blockchain? is it like a contract address?
+
+&rey: Probably yet another order of magnitude of adopters, or TON going much up. So it is likely to happen at some moment but not in near future. (reply to 151119)
+
+&rey: in The Config fundamental smart contract. (reply to 151120)
