@@ -7927,3 +7927,31 @@ Nerses: https://github.com/tact-lang/tact/blob/854e9954fac1c1b7b771eacb8c9272a6b
 Baba: Thank you very much
 
 Nerses: @B4ckSl4sh what is the state of this issue https://github.com/tact-lang/tact/issues/2336 ? what is workaround for it now ?
+
+— 2025-06-13 —
+
+Nerses: Is supposed to get same return result for functions getStorageFee  and myStorageDue ? I have tested in sandbox with this simple code      get fun calcStorageFees(): Int{         let data: DataSize = myCode().computeDataSize(self.MAX_INT);         return getStorageFee(data.cells,data.bits,now() - self.LAST_TX,self.IS_MASTERCHAIN);     }      get fun calcStorageFees2(): Int {         return myStorageDue();     }  but they give different results, for some cases myStorageDue returns 0. Is that ok, or I am missing smth ?
+
+/B4ckSl4sh\: If incoming message is unbounceable, storage fees are paid automatically and 'myStorageDue' will return 0 (reply to 65160)
+
+Nerses: storage fees are paid from balance of message receiver contract, arent it ? So is it the main purpose of using max(computeFess,myStorageDue()) in some contract implementations ? (reply to 65161)
+
+/B4ckSl4sh\: If incoming message is bounceable (reply to 65162)
+
+Nerses: in case it is unbounceable the msg sender will pay the contract storage fees of msg receiver contract ? (reply to 65163)
+
+/B4ckSl4sh\: None of them. They will be deducted from the incoming message (reply to 65164)
+
+Denis: Hey  I’m building a referral system and need to verify referred users during commission calculations. However, I can’t store referral data in a map (e.g., due to contract constraints). What are some alternative approaches to track referrals?  Is there a way to check if a contract with specific init data exists?
+
+&rey: Yes. Send it a message. (reply to 65198)
+
+Denis: Sorry if this is a dumb question — I’m just getting started. I understand that I can send a message and the referral contract can respond. But what if I’m not sure the contract exists?  In JavaScript, I’d just wrap it in a try/catch. But here, it seems like I’d just send the message, and if the contract doesn’t exist, I simply won’t get a response. Is that correct?
+
+&rey: You will get a bounce message in case destination contract didn't process the message, including when it is not. (reply to 65200)
+
+Denis: Thanks. I think I saw something about message bounces in the docs somewhere (reply to 65201)
+
+— 2025-06-14 —
+
+Adam: Hi, if anyone need a contract developer in ton contact me

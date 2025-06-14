@@ -1385,3 +1385,45 @@ Ricardo: I have been trying to dynamically fetch the configuration parameter num
 &rey: Probably yet another order of magnitude of adopters, or TON going much up. So it is likely to happen at some moment but not in near future. (reply to 151119)
 
 &rey: in The Config fundamental smart contract. (reply to 151120)
+
+— 2025-06-13 —
+
+Nerses: Is supposed to get same return result for functions getStorageFee  and myStorageDue ? I have tested in sandbox with this simple code     get fun calcStorageFees(): Int{         let data: DataSize = myCode().computeDataSize(self.MAX_INT);         return getStorageFee(data.cells,data.bits,now() - self.LAST_TX,self.IS_MASTERCHAIN);     }      get fun calcStorageFees2(): Int {         return myStorageDue();     } but they give different results, for some cases myStorageDue returns 0. Is that ok, or I am missing smth ?
+
+M$L: Hi,who will promote my telegram channel?
+
+Алексей Ковалёв: For money only) (reply to 151157)
+
+.: Hi ! Do anyone know, Which is format of address here (for testnet)?  I use ide-ton-org
+
+&rey: This is raw address. It does not distinguish between testnet and mainnet. (reply to 151159)
+
+.: Need I use raw address or standard format ?   I created simple smart contract on Tact for Jetton Transfer and code created wrong Jetton wallet address, I think that problem in my master address (reply to 151161)
+
+L30n1d: For what? (reply to 151162)
+
+.: The web IDE asked me for the address for StateInit, In what format should I send it? I used to use ts for StateInit, but now the site does not allow me to deploy unless I specify something in the field. (reply to 151163)
+
+Ro: Is it possible to retrieve current API request usage statistics for tokens from TONCenter and TONConsole.com? Are there any unofficial APIs or alternative methods available for this? I'm looking for programmatic access to this usage data.
+
+Waterso: Hi, do anyone know about how protocols like STON.fi, DeDust.io, or other service handle transaction syncing.  - Use public APIs like getTransactions from toncenter or TONAPI? - Run their own indexer synced from public liteservers? - Run their own liteserver?  What’s generally recommended for syncing transactions in production environments.
+
+&rey: You mean the DEX part? It is inside the chain itself, binding validators to run the protocols. (reply to 151177)
+
+Waterso: I mean the off-chain infrastructure used by them.  To improve user experience, I assume they don’t rely only on calling get method. For example, they provide APIs (some even GraphQL) and offer stats and analytics features.  I’m curious how they sync all this data from the chain in production environments. (reply to 151179)
+
+&rey: Probably their own liteservers. (reply to 151182)
+
+Waterso: That makes sense. 👍 Thank u. (reply to 151183)
+
+atlge: Hello! I'm developing a Telegram Mini App + web app for TON called AXUS Protocol — it's a pawn system that accepts any TON-based tokens as collateral.  We’re already listed on TON App and use TonConnect + Jettons.   I'm building solo and looking for the correct way to apply for Champion Grants (or similar ecosystem-level support).    Could someone from the TON team point me in the right direction?  Thanks!
+
+JOSS¥D££••: That's awesome (reply to 151187)
+
+Artem: Is it possible to get a PDF of the Phase 1 audit by Certik mentioned in the governance contracts repo here? https://github.com/ton-blockchain/governance-contract  As far as I understood the Phase 2 issues are from the formal verification report, a PDF of which is available here https://docs.ton.org/v3/concepts/dive-into-ton/ton-blockchain/security-measures, but the Phase 1 report is missing
+
+Artem: The config and elector contracts are mentioned in the TON bug bounty but it'd be pretty hard to work on them considering that there are two different versions of each. From what I gathered the new versions were written based on the comments from the Phase 1 audit, which doesn't seem to be published anywhere. Trying to report anything related to these contracts would probably be closed as N/A since it has already been reported in Certik's audit :P  https://github.com/ton-blockchain/bug-bounty
+
+— 2025-06-14 —
+
+Adam: Hi, if anyone need a contract developer in ton contact me

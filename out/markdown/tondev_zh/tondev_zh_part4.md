@@ -9023,3 +9023,13 @@ Combot: KOUASSI sylvain, Rudra have been banned! Reason: CAS ban.
 Combot: Lekgolo ICT Securities Lekgolo ICT Securities, Nyashwarrior have been banned! Reason: CAS ban.
 
 Combot: Maizol Perez has been banned! Reason: CAS ban.
+
+Combot: 100u戰神 has been banned! Reason: CAS ban.
+
+Combot: Bachir has been banned! Reason: CAS ban.
+
+Combot: johnn xmas, abdurazak Ismail have been banned! Reason: CAS ban.
+
+— 2025-06-14 —
+
+Combot: Chea has been banned! Reason: CAS ban.
