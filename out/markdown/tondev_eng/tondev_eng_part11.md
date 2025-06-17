@@ -1427,3 +1427,91 @@ Artem: The config and elector contracts are mentioned in the TON bug bounty but 
 — 2025-06-14 —
 
 Adam: Hi, if anyone need a contract developer in ton contact me
+
+Valeriaaa: Sorry for asking is this NOT COIN reality
+
+&rey: Notcoin, uniquely identified as EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT jetton and its project, exists indeed. This chat is not about it though. (reply to 151213)
+
+&rey: This chat is about development on TON.
+
+Combot: Combot has warned Alexander Blagovestnov (2/3) Reason: Word **** is not allowed
+
+Alexander: 🚀 Exciting Announcement: TGUI Angular Library for Telegram Web Apps  Hello TON developers! I'm excited to share that I've created TGUI Angular - a comprehensive UI component library specifically designed for building Telegram Web Apps with Angular.
+
+Alexander: 🔍 You can explore it through: - NPM: https://www.npmjs.com/package/tgui-angular - Documentation: https://ablagovestnov.github.io/tgui-angular - Demo Project: https://ablagovestnov.github.io/tgui-demo - Demo Web App: https://t.me/tgui_demo_bot/tgui_demo - Library Repository: https://github.com/ablagovestnov/tgui-angular
+
+Alexander: 📦 The library is in an advanced stage of development and is currently undergoing testing. It's being developed as part of the TON Society bounty program (https://github.com/ton-society/grants-and-bounties/issues/606)
+
+Alexander: I'm committed to making this a valuable tool for the TON ecosystem and would be honored to contribute to the TON Society's Hall of Fame through this project.  Contact me: - Telegram: @ablagovestnov - Email: a.blagovestnov@gmail.com - GitHub: @ablagovestnov
+
+AGT: What's wrong with being unable to enter in tonutils-reverse-proxy-windows-x64.exe?
+
+&rey: What's the error, then? (reply to 151251)
+
+— 2025-06-15 —
+
+AGT: I seem to need this when trying to bind my website to a TON domain, but I find that I cannot type in the Tonutils reverse proxy to complete the command. (reply to 151256)
+
+&rey: So have you downloaded or compiled it? (reply to 151267)
+
+AGT: I just downloaded this file tonutils-reverse-proxy-windows-x64.exe (reply to 151268)
+
+&rey: Have you put it in PATH or navigated to the directory where this file is located? (reply to 151269)
+
+AGT: no
+
+AGT: Does this document mean that I can use a TON domain name in a traditional website?
+
+&rey: Then, so that your system recognizes the executable file you are launching, you should do either of those options. (reply to 151271)
+
+&rey: A very careful wording is needed here.  You can launch an application, the "reverse proxy" to be precise, which will serve your existing website under TON domain, and then anyone with "forward" TON proxy will be able to access it. (reply to 151272)
+
+Teers k 🐾: Why do hell i sent him a ton even if he has no access to my seed phrase
+
+&rey: Are you familiar with "bounce" phenomenon? (reply to 151315)
+
+Ion: Hi guys, I have a Ethereum (ETH) in TON chain network and I want to withdraw it. Bybit support says that this token is high-risk token that is why it does not allow me to successfully swap it. Does anyone of you have any idea how can I get to finally swap it?
+
+&rey: Most probably you have a scam token and not ETH? (reply to 151319)
+
+Teers k 🐾: To send a transaction, is it enough to generate a signed BOC and send it via RPC?
+
+Ion: It may be, but still want to know if there is a solution to this. Binance shows "no liquidity available" (reply to 151320)
+
+&rey: Yes. You should watch that it is not accidentally ignored tho. (reply to 151321)
+
+&rey: If so, that jetton might be worth zero indeed. (reply to 151322)
+
+Teers k 🐾: It works i guess (reply to 151323)
+
+Teers k 🐾: Not as i excepted. That same 24 phrase shows different addresses in tongo and in tonkeeper (reply to 151330)
+
+&rey: So do you have same wallet version and same subwallet ID? (reply to 151331)
+
+Teers k 🐾: Different wallet versions have different addresses even with same mnemonic phrases? (reply to 151335)
+
+&rey: Yes! (reply to 151336)
+
+— 2025-06-16 —
+
+Teers k 🐾: Tact is new language better than funC?
+
+Eren: Hi guys, I have something to ask.  Do u know If I build a miniapp and use both EVM and TON integrations into it be okay?  I remember I read something that telegram restricted another blockchains in its ecosystem something. Is it real?
+
+L30n1d: Enhanced readability and structured (reply to 151357)
+
+Azim: I have the same question if anyone could help (reply to 151358)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 16 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 75  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+&rey: Apparently it will not be OK. (reply to 151358)
+
+Лёва: I'm trying to send transactions programmatically. Do I have to wait until a transaction completes to be able to send the next one? I get this message: cannot apply external message to current state : External message was not accepted\nCannot run message on account: inbound external message rejected by account ABCDEF before smart-contract execution
+
+Teers k 🐾: Is there any official roadmap which i can follow to learn ton, sdk, building contracts and wallet connection and etc?
+
+.: Hi ! Can anyone help me?)  Why isn't coding working ?  Jetton wallet returned me "Cell underflow"           cell body = begin_cell()             .store_uint(0x0f8a7ea5, 32)             .store_uint(0, 64)             .store_coins(coins_to_buy)             .store_slice(sender_address)             .store_slice(sender_address)             .store_uint(0, 0)             .store_coins(0)             .store_uint(0, 0)             .end_cell();         cell msg = begin_cell()             .store_uint(0x18, 6) ;; flags             .store_slice(ctx_wallet_jetton)              .store_coins(100000000)             .store_uint(0, 1 + 4 + 4 + 64 + 32 + 1 + 1)             .store_ref(body)         .end_cell();         send_raw_message(msg,3);
+
+.: I tried to send jettons with func smart contract Transaction: https://tonviewer.com/transaction/531d4326ce97561f8874170209e383bb4dcd5cd73079e7d8b72cfe8330fd092e (reply to 151389)
+
+&rey: ...     .store_slice(sender_address)     .store_uint(0, 1).store_coins(0).store_uint(0, 1)     ;; or fold the above constants into (0,6)     .end_cell(); ...     .store_uint(1, 107)     .store_ref(body) (reply to 151389)

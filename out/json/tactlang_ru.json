@@ -11954,6 +11954,157 @@
       "from_id": "user546689605",
       "text": "То есть, стирается старая логика контракта, и вместо нее по тому же адресу деплоится новый код?",
       "reply_to_message_id": 2333
+    },
+    {
+      "id": 2484,
+      "type": "message",
+      "date": "2025-06-14T10:28:43.000Z",
+      "date_unixtime": "1749896923",
+      "from": "Шу",
+      "from_id": "user6446917137",
+      "text": "Подскажите пожалуйста где можно взять сразу много тестовых TON? Через бот мне на один нормальный тест надо весь день собирать монетки"
+    },
+    {
+      "id": 2485,
+      "type": "message",
+      "date": "2025-06-14T10:46:42.000Z",
+      "date_unixtime": "1749898002",
+      "from": "Nikitos",
+      "from_id": "user1478247707",
+      "text": "Когда тесты пишешь, там дается вроде 1к тестовых тонов на кошелек деплоера, а чтоб именно на твоём кошельке было, я такого не знаю",
+      "reply_to_message_id": 2484
+    },
+    {
+      "id": 2486,
+      "type": "message",
+      "date": "2025-06-14T10:48:08.000Z",
+      "date_unixtime": "1749898088",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Ну он скорее всего про деплой на тестнете, там через бота можно раз в полчаса себе на тестнет кошелек 2 TON закидывать. Но да, в тестах можно себе фактически бесконечное количество тонкоинов сделать вроде",
+      "reply_to_message_id": 2485
+    },
+    {
+      "id": 2487,
+      "type": "message",
+      "date": "2025-06-14T10:49:31.000Z",
+      "date_unixtime": "1749898171",
+      "from": "Nikitos",
+      "from_id": "user1478247707",
+      "text": "Ну я понял, я об этом и говорю",
+      "reply_to_message_id": 2486
+    },
+    {
+      "id": 2488,
+      "type": "message",
+      "date": "2025-06-14T10:59:42.000Z",
+      "date_unixtime": "1749898782",
+      "from": "Шу",
+      "from_id": "user6446917137",
+      "text": "Да, только раз в 2 часа 2 TON ..."
+    },
+    {
+      "id": 2489,
+      "type": "message",
+      "date": "2025-06-14T11:00:55.000Z",
+      "date_unixtime": "1749898855",
+      "from": "Dmitry",
+      "from_id": "user248213078",
+      "text": "Тут можно купить tonconsole.com"
+    },
+    {
+      "id": 2492,
+      "type": "message",
+      "date": "2025-06-14T11:55:09.000Z",
+      "date_unixtime": "1749902109",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Можно на всех контрактах сделать вывод (SendRemainingBalance, 128 мод), чтобы не терять лишние тоны и тогда надолго хватит",
+      "reply_to_message_id": 2488
+    },
+    {
+      "id": 2518,
+      "type": "message",
+      "date": "2025-06-16T07:46:38.000Z",
+      "date_unixtime": "1750059998",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "Вопрос по реализации проверки подписей в Tact\n\nЕсть задача: сообщения должны формироваться только через Telegram-бота. Нейросеть подсказала такой вариант:  \n1. Бот имеет публичный ключ  \n2. При формировании сообщения подписываем его приватным ключом бота  \n3. В смарт-контракте проверяем подпись  \n\nНакидал такой код на Tact:\nconst BOT_PUBKEY: Slice = \"EQB...123\"; // 256-битный Ed25519 ключ\n\nmessage(0x654a1101) StakeViaBot {\n    queryId: Int as uint64;\n    amount: Int as uint64;\n    duration: Int as uint32;\n    reward_rate: Int as uint8;\n    signature: Slice as remaining; // Подпись от бота\n}\n\nreceive(msg: StakeViaBot) {\n    // 1. Проверяем подпись бота\n    let messageCell = beginCell()\n        .storeAddress(self.owner)\n        .storeUint(msg.amount, 64)\n        .storeUint(msg.duration, 32)\n        .storeUint(msg.reward_rate, 8)\n        .endCell();\n    \n    let isBotSignatureValid = checkSignature(\n        messageCell.hash(),\n        msg.signature,\n        BOT_PUBKEY\n    );\n    require(isBotSignatureValid, \"Invalid bot signature\");\n}\n\nВопросы:  \n1. Корректен ли такой подход в Tact?  \n2. Функция checkSignature встроенная или её нужно реализовывать отдельно?  \n3. Есть ли лучшие практики для такого сценария?  \n\nЗаранее спасибо за помощь!"
+    },
+    {
+      "id": 2519,
+      "type": "message",
+      "date": "2025-06-16T07:49:22.000Z",
+      "date_unixtime": "1750060162",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "fun checkSignature(hash: Int, signature: Slice, public_key: Int): Bool\nФункция встроенная, подход корректный"
+    },
+    {
+      "id": 2520,
+      "type": "message",
+      "date": "2025-06-16T07:49:39.000Z",
+      "date_unixtime": "1750060179",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "привет, идейно подход верный\n\nвот пример реализации с подписями https://github.com/tact-lang/tact/blob/main/src/benchmarks/wallet-v4/tact/wallet-v4.tact#L12",
+      "reply_to_message_id": 2518
+    },
+    {
+      "id": 2521,
+      "type": "message",
+      "date": "2025-06-16T07:50:04.000Z",
+      "date_unixtime": "1750060204",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "также в std есть SignedBundle структура, она тоже для подписей подходит"
+    },
+    {
+      "id": 2522,
+      "type": "message",
+      "date": "2025-06-16T07:50:22.000Z",
+      "date_unixtime": "1750060222",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "вот дока на нее https://docs.tact-lang.org/ref/core-crypto/#signedbundle"
+    },
+    {
+      "id": 2523,
+      "type": "message",
+      "date": "2025-06-16T07:53:28.000Z",
+      "date_unixtime": "1750060408",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "Благодарю за ответы!"
+    },
+    {
+      "id": 2528,
+      "type": "message",
+      "date": "2025-06-16T16:57:47.000Z",
+      "date_unixtime": "1750093067",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Добрый день. Какой в данный момент актуальный Extension для VS Code? Сейчас столкнулся с тем, что очень много функций Extension от Kon Vik не распознает. Ситуация лучше на других IDE? Где лучше всего сейчас кодить на tact?"
+    },
+    {
+      "id": 2529,
+      "type": "message",
+      "date": "2025-06-16T16:58:19.000Z",
+      "date_unixtime": "1750093099",
+      "from": "Oleg",
+      "from_id": "user138933879",
+      "text": "От TON Studio самый актуальный для VS Code для Tact",
+      "reply_to_message_id": 2528
+    },
+    {
+      "id": 2530,
+      "type": "message",
+      "date": "2025-06-16T16:59:20.000Z",
+      "date_unixtime": "1750093160",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Спасибо!",
+      "reply_to_message_id": 2529
     }
   ]
 }

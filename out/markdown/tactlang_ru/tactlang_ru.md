@@ -2809,3 +2809,39 @@ Nikita: Кто-нибудь может скинуть ссылку, пожалу
 /B4ckSl4sh\: https://docs.tact-lang.org/cookbook/upgrades/ (reply to 2333)
 
 Nikita: То есть, стирается старая логика контракта, и вместо нее по тому же адресу деплоится новый код? (reply to 2333)
+
+— 2025-06-14 —
+
+Шу: Подскажите пожалуйста где можно взять сразу много тестовых TON? Через бот мне на один нормальный тест надо весь день собирать монетки
+
+Nikitos: Когда тесты пишешь, там дается вроде 1к тестовых тонов на кошелек деплоера, а чтоб именно на твоём кошельке было, я такого не знаю (reply to 2484)
+
+fruitful-l: Ну он скорее всего про деплой на тестнете, там через бота можно раз в полчаса себе на тестнет кошелек 2 TON закидывать. Но да, в тестах можно себе фактически бесконечное количество тонкоинов сделать вроде (reply to 2485)
+
+Nikitos: Ну я понял, я об этом и говорю (reply to 2486)
+
+Шу: Да, только раз в 2 часа 2 TON ...
+
+Dmitry: Тут можно купить tonconsole.com
+
+Андрей: Можно на всех контрактах сделать вывод (SendRemainingBalance, 128 мод), чтобы не терять лишние тоны и тогда надолго хватит (reply to 2488)
+
+— 2025-06-16 —
+
+kai: Вопрос по реализации проверки подписей в Tact  Есть задача: сообщения должны формироваться только через Telegram-бота. Нейросеть подсказала такой вариант:   1. Бот имеет публичный ключ   2. При формировании сообщения подписываем его приватным ключом бота   3. В смарт-контракте проверяем подпись    Накидал такой код на Tact: const BOT_PUBKEY: Slice = "EQB...123"; // 256-битный Ed25519 ключ  message(0x654a1101) StakeViaBot {     queryId: Int as uint64;     amount: Int as uint64;     duration: Int as uint32;     reward_rate: Int as uint8;     signature: Slice as remaining; // Подпись от бота }  receive(msg: StakeViaBot) {     // 1. Проверяем подпись бота     let messageCell = beginCell()         .storeAddress(self.owner)         .storeUint(msg.amount, 64)         .storeUint(msg.duration, 32)         .storeUint(msg.reward_rate, 8)         .endCell();          let isBotSignatureValid = checkSignature(         messageCell.hash(),         msg.signature,         BOT_PUBKEY     );     require(isBotSignatureValid, "Invalid bot signature"); }  Вопросы:   1. Корректен ли такой подход в Tact?   2. Функция checkSignature встроенная или её нужно реализовывать отдельно?   3. Есть ли лучшие практики для такого сценария?    Заранее спасибо за помощь!
+
+Dmitry: fun checkSignature(hash: Int, signature: Slice, public_key: Int): Bool Функция встроенная, подход корректный
+
+maksim: привет, идейно подход верный  вот пример реализации с подписями https://github.com/tact-lang/tact/blob/main/src/benchmarks/wallet-v4/tact/wallet-v4.tact#L12 (reply to 2518)
+
+maksim: также в std есть SignedBundle структура, она тоже для подписей подходит
+
+maksim: вот дока на нее https://docs.tact-lang.org/ref/core-crypto/#signedbundle
+
+kai: Благодарю за ответы!
+
+fruitful-l: Добрый день. Какой в данный момент актуальный Extension для VS Code? Сейчас столкнулся с тем, что очень много функций Extension от Kon Vik не распознает. Ситуация лучше на других IDE? Где лучше всего сейчас кодить на tact?
+
+Oleg: От TON Studio самый актуальный для VS Code для Tact (reply to 2528)
+
+fruitful-l: Спасибо! (reply to 2529)

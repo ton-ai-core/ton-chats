@@ -7955,3 +7955,11 @@ Denis: Thanks. I think I saw something about message bounces in the docs somewhe
 — 2025-06-14 —
 
 Adam: Hi, if anyone need a contract developer in ton contact me
+
+— 2025-06-16 —
+
+Nerses: Will this loop continue until there is remaining forward fee ? receive() {     cashback(myAddress()); }
+
+𝙹𝙰𝙼𝙴𝚂: Ia is the only thing I have left to say I h cm
+
+Nerses: for this code         nativeReserve(self.storageReserve, ReserveExact | ReserveAddOriginalBalance | ReserveBounceIfActionFail);             message(MessageParameters {                 to: sender(),                 value: 0,                 bounce: false,                 mode: SendRemainingBalance,                             });             message(MessageParameters { to: receiver, bounce: false, value: amount, mode: SendPayFwdFeesSeparately }); I get error 40 and with other order of actions          nativeReserve(self.storageReserve, ReserveExact | ReserveAddOriginalBalance | ReserveBounceIfActionFail); message(MessageParameters { to: receiver, bounce: false, value: amount, mode: SendPayFwdFeesSeparately });             message(MessageParameters {                 to: sender(),                 value: 0,                 bounce: false,                 mode: SendRemainingBalance,                             }); I get error 37. I think this issue is related with this case description,but still cant figure out how to solve it. Has anyopne lese solved such an issue ?

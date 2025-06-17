@@ -1969,6 +1969,27 @@
       "file": "photos/photo_216.jpg",
       "width": 477,
       "height": 567
+    },
+    {
+      "id": 218,
+      "type": "message",
+      "date": "2025-06-16T13:48:42.000Z",
+      "date_unixtime": "1750081722",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🔨 Dev Tools Updates\n\nFresh updates are out for TON development tools! These releases bring enhanced reliability, a smoother developer experience, and stronger tooling performance. Make sure to upgrade and enjoy the latest improvements!\n\n📁 @ton/blueprint v0.36.0 – 2025-06-16\n📁 @ton/sandbox v0.33.0 – 2025-06-16\n📁 @ton/test-utils v0.8.0 – 2025-06-16\n\n👥 Noticeable changes\n• New Jest matcher: toThrowExitCode for validating exitCode in tests.\n• New Chai assertion: throwExitCode for similar exit code validation.\n• ExitCode enum: Introduced for standardizing exit codes\n• Added fetchConfig and setGlobalVersion utility functions\n• Added blockchain.randomSeed property to update random seed in transactions or get methods\n• Added support for updating blockchain config via loadConfig and updateConfig functions\n• Blockchain.now not updating in blockchain.sendMessageIter is resolved\n• Immutability fix: Blockchain.snapshot now returns copy, not reference\n• Switched to Dirent.parentPath from deprecated .path\n• Network Provider Enhancements. Added getConfig, getContractState and waitForLastTransaction methods\n• Added utility getNormalizedExtMessageHash functions\n\n⬇ To update, run npm install @ton/blueprint@latest @ton/sandbox@latest @ton/test-utils@latest.\n\n💡To learn more, visit GitHub pages: https://github.com/ton-org/blueprint, https://github.com/ton-org/sandbox and https://github.com/ton-org/test-utils.\n\n💬 Encountered issues? Please report them on GitHub at https://github.com/ton-org/blueprint/issues.\n\n🎁 Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK!",
+      "forwarded_from": "TonTech",
+      "forwarded_from_id": "channel1764902466",
+      "forwarded_date": "2025-06-16T13:45:30.000Z"
+    },
+    {
+      "id": 219,
+      "type": "message",
+      "date": "2025-06-16T18:46:08.000Z",
+      "date_unixtime": "1750099568",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "💬 Infrastructure Time\n\nWhat Infrastructure do you need to ship faster on TON?\n\nWe’re gathering feedback from the community about what’s missing, what’s needed, and what could unlock more building in the TON ecosystem! Fill out the short form:\n\nhttps://forms.gle/9MMMXDxWha1R6qxN6\n\nPlease, take this survey seriously: your input will shape TON Foundation infrastructure strategy priorities for this year."
     }
   ]
 }
