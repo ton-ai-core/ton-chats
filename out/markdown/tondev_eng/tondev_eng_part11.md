@@ -1515,3 +1515,35 @@ Teers k 🐾: Is there any official roadmap which i can follow to learn ton, sdk
 .: I tried to send jettons with func smart contract Transaction: https://tonviewer.com/transaction/531d4326ce97561f8874170209e383bb4dcd5cd73079e7d8b72cfe8330fd092e (reply to 151389)
 
 &rey: ...     .store_slice(sender_address)     .store_uint(0, 1).store_coins(0).store_uint(0, 1)     ;; or fold the above constants into (0,6)     .end_cell(); ...     .store_uint(1, 107)     .store_ref(body) (reply to 151389)
+
+— 2025-06-17 —
+
+This photo: Tryna explore quick start on ton org (reply to 151377)
+
+Ammar: Hello my friends, I have created a token on TON using a token generator website, but the image and name are not showing up in the wallet. Can anyone help me? I have no experience in programming or GitHub.
+
+User: Can you share your token address? (reply to 151426)
+
+Ammar: Of course (reply to 151427)
+
+Ammar: EQDPo62Pq1a_yem4hPzBgAK48AJjPvxNAYHmTkMINfRMwZJs (reply to 151427)
+
+User: Can you send me please tool, where you have created this token
+
+Teers k 🐾: use minter.ton.org (reply to 151426)
+
+Teers k 🐾: It's official jetton minter you can start here and later deploy with code (reply to 151439)
+
+Teers k 🐾: Are they stupid or something else? Technical support for what, learning Blockchain?
+
+Виконт vangaard: The scammers are getting desperate (reply to 151455)
+
+S: hey, folks. I have some problem with jetton content. Confirm jetton name, description, image is working properly with json format like this. {   "name": "AAA",   "description": "AAA",   "symbol": "AAA",   "decimals": 9,   "image": "https://", } but tried to add social links and websites etc, but wasn't working well. what is the json format for adding social links and the others. tried with this but didn't work. {   "name": "AAA",   "description": "AAA ",   "symbol": "AAACT",   "decimals": 9,   "image": "https://",   "social": [     "https://",     "https://",     "https://t.me/"   ],   "websites": ["https://b.xyz"] }
+
+S: hey, first your msg got ref so you need to update it with .store_uint(1, 107) and why body got unnecessary double store_uint(0, 0)? i think they are not useless in your msg_body. don't you? and is there any send message mode 3? there is only 0,1,2,32,64,128. need to change it. (reply to 151389)
+
+— 2025-06-18 —
+
+&rey: I would recommend not to give out advice sloppily, especially on a question already answered.  As for send mode 3, it is 1|2 (SendPayFwdFeesSeparately | SendIgnoreErrors). (reply to 151469)
+
+Kiki | Security Researcher: Is there an effective way to clone contracts that have been deployed? On EVM there is forge clone which allows me to pull down all contract code of a gien address.

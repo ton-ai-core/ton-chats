@@ -9133,3 +9133,27 @@ Combot: 吧 has been banned! Reason: CAS ban.
 Combot: хxx has been banned! Reason: CAS ban.
 
 Combot: Brdan has been banned! Reason: CAS ban.
+
+6666feile: 官方lite-server节点又有问题？
+
+Combot: 怕 has been banned! Reason: CAS ban.
+
+Combot: Evelynkazakovaeb Gr has been banned! Reason: CAS ban.
+
+Combot: Youssef Sherif has been banned! Reason: CAS ban.
+
+Combot: Thái (QN) 846445⚜️ Hoàng has been banned! Reason: CAS ban.
+
+Combot: Total messages: 93299
+
+Combot: mauricio guzman has been banned! Reason: CAS ban.
+
+— 2025-06-18 —
+
+Combot: ThangPD, Gia🐾 Cát Lượng have been banned! Reason: CAS ban.
+
+Ваника.: 🔠🅰️🔠🔠🔠🔠  ⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️  💲2️⃣0️⃣2️⃣5️⃣  🎁 Claim a 💵2025 free bonus with the promo code easy2025🥳 !   ✈️ Join now: @easymoneyro_bot 🏆  💎Use it when registering at EasyMoney Casino and start winning now!  🎗️Good luck with your game! 🎉  🚜🚜🚜🚜🚜🚜🚜🚜  🔠🔠🔠🔠🔠🔠🔠🔠🔠  ➖➖➖➖➖➖➖➖ 🟢@easymoneyro_bot 🟢 🟢@easymoneyro_bot 🟢 🟢@easymoneyro_bot 🟢 ➖➖➖➖➖➖➖➖
+
+ss: Capybara Gogogo! Battle for $CAPY Airdrop!!
+
+Combot: Starchy_exp, Liza have been banned! Reason: CAS ban.

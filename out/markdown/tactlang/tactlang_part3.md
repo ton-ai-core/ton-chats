@@ -7963,3 +7963,17 @@ Nerses: Will this loop continue until there is remaining forward fee ? receive()
 𝙹𝙰𝙼𝙴𝚂: Ia is the only thing I have left to say I h cm
 
 Nerses: for this code         nativeReserve(self.storageReserve, ReserveExact | ReserveAddOriginalBalance | ReserveBounceIfActionFail);             message(MessageParameters {                 to: sender(),                 value: 0,                 bounce: false,                 mode: SendRemainingBalance,                             });             message(MessageParameters { to: receiver, bounce: false, value: amount, mode: SendPayFwdFeesSeparately }); I get error 40 and with other order of actions          nativeReserve(self.storageReserve, ReserveExact | ReserveAddOriginalBalance | ReserveBounceIfActionFail); message(MessageParameters { to: receiver, bounce: false, value: amount, mode: SendPayFwdFeesSeparately });             message(MessageParameters {                 to: sender(),                 value: 0,                 bounce: false,                 mode: SendRemainingBalance,                             }); I get error 37. I think this issue is related with this case description,but still cant figure out how to solve it. Has anyopne lese solved such an issue ?
+
+— 2025-06-17 —
+
+Nerses: @pcrafter have you ever encountered such case ? (reply to 65422)
+
+&rey: For you, it would be best to draw what do you want to happen. The code is unlogical as is. (reply to 65443)
+
+Nerses: the logic is simple.1) reserve the amount for storage fees (which is hardcoded) 2) transfer beforehand escrowed amount to receiver1 3) return excess to sender()
+
+&rey: No-no-no, full drawing, including the bars of "original balance" and "incoming message value". (reply to 65445)
+
+Nerses: okay I will return with it after few minutes.Thanks a lot (reply to 65446)
+
+Nerses: @pcrafter I hope this will help

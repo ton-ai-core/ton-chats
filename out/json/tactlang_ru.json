@@ -12105,6 +12105,116 @@
       "from_id": "user1035885335",
       "text": "Спасибо!",
       "reply_to_message_id": 2529
+    },
+    {
+      "id": 2532,
+      "type": "message",
+      "date": "2025-06-17T17:12:29.000Z",
+      "date_unixtime": "1750180349",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "Привет! В документации tact есть пример перевода jetton\nhttps://docs.tact-lang.org/cookbook/jettons/\n\nТам в body передают forwardPayload: rawSlice(\"F\"), кажется это просто 1111 для \"непустого\" сообщения, что бы JettonTransferNotification гарантировано отправился.\n\nНо похоже это ломает переводы USDT, метод check_either_forward_payload в usdt токен волет выбрасывает эксепшен:\n() check_either_forward_payload(slice s) impure inline {\n    if (s.preload_uint(1)) {\n        ;; forward_payload in ref\n        (int remain_bits, int remain_refs) = slice_bits_refs(s);\n        throw_unless(error::invalid_message, (remain_refs == 1) & (remain_bits == 1)); ;; we check that there is no excess in the slice\n    }\n    ;; else forward_payload in slice - arbitrary bits and refs\n}\n\n\nПравильно я понимаю, что все таки лучше в forwardPayload слать null? Для чего 0xF все таки указан в доке?"
+    },
+    {
+      "id": 2534,
+      "type": "message",
+      "date": "2025-06-17T17:17:51.000Z",
+      "date_unixtime": "1750180671",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "привет, null не пройдет either проверку, это вообще отдельный тип данных\n\nминимальный пейлоад для прохождения это\n\nasm fun sliceWithOneZeroBit(): Slice {\n    b{0} PUSHSLICE\n}"
+    },
+    {
+      "id": 2535,
+      "type": "message",
+      "date": "2025-06-17T17:18:22.000Z",
+      "date_unixtime": "1750180702",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "0 bit -> храним данные either инлайн, и потом просто нет никаких данных"
+    },
+    {
+      "id": 2536,
+      "type": "message",
+      "date": "2025-06-17T17:24:53.000Z",
+      "date_unixtime": "1750181093",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "я так понимаю это мало чем отличается от forwardPayload: rawSlice(\"F\") ?"
+    },
+    {
+      "id": 2537,
+      "type": "message",
+      "date": "2025-06-17T17:26:09.000Z",
+      "date_unixtime": "1750181169",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "семантически - да",
+      "reply_to_message_id": 2536
+    },
+    {
+      "id": 2538,
+      "type": "message",
+      "date": "2025-06-17T17:29:23.000Z",
+      "date_unixtime": "1750181363",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "но check_either_forward_payload проверяет первый бит, он 1, подозревает что в плейлоаде ссылка\n\nпотом slice_bits_refs говорит что ссылок нет и бросает error::invalid_message ?"
+    },
+    {
+      "id": 2539,
+      "type": "message",
+      "date": "2025-06-17T17:30:05.000Z",
+      "date_unixtime": "1750181405",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "т.е. если мы запишем любой слайс, начинающийся с 1 но без ссылок, usdt jetton wallet не даст сделать token transfer?"
+    },
+    {
+      "id": 2540,
+      "type": "message",
+      "date": "2025-06-17T17:30:17.000Z",
+      "date_unixtime": "1750181417",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "мне кажется так быть не может и я что-то упускаю"
+    },
+    {
+      "id": 2541,
+      "type": "message",
+      "date": "2025-06-17T17:30:51.000Z",
+      "date_unixtime": "1750181451",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "https://tonviewer.com/EQB7SIYm7SqRa03GkONdZa98JY5aYWoQbWS9K4zgaGs9mVon?section=code\n\nВот тут можно увидеть эту функцию в токен волете usdt"
+    },
+    {
+      "id": 2542,
+      "type": "message",
+      "date": "2025-06-17T17:47:04.000Z",
+      "date_unixtime": "1750182424",
+      "from": "Dmitry",
+      "from_id": "user464364233",
+      "text": "Итак, если мы посмотрим в TEP-74\nhttps://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md\n\nТо в схеме увидим forward_payload:(Either Cell ^Cell), т.е. первый бит является флагом срез/ссылка. \n\n\nКажется стоит это упомянуть в доке, более того пример с forwardPayload: rawSlice(\"F\") не соответствует TEP-74, вводит в заблуждение и нет никаких упоминий о том, что rawSlice(\"F\") приведет к ошибке. Стоит ли мне открыть PR?"
+    },
+    {
+      "id": 2543,
+      "type": "message",
+      "date": "2025-06-17T18:02:07.000Z",
+      "date_unixtime": "1750183327",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "да, ты прав, спасибо за репорт!\n\nможешь сделать ищус + пр в такт репозиторий с фиксом доки, если есть желание, или в ближайшее время мы сами  это поправим",
+      "reply_to_message_id": 2542
+    },
+    {
+      "id": 2544,
+      "type": "message",
+      "date": "2025-06-17T18:02:58.000Z",
+      "date_unixtime": "1750183378",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "конкретно собирать 0xF слайс некорректно в данном случае и не пройдет either проверки на пейлоад"
     }
   ]
 }
