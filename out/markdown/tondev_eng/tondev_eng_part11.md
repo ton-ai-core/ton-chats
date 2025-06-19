@@ -1547,3 +1547,87 @@ S: hey, first your msg got ref so you need to update it with .store_uint(1, 107)
 &rey: I would recommend not to give out advice sloppily, especially on a question already answered.  As for send mode 3, it is 1|2 (SendPayFwdFeesSeparately | SendIgnoreErrors). (reply to 151469)
 
 Kiki | Security Researcher: Is there an effective way to clone contracts that have been deployed? On EVM there is forge clone which allows me to pull down all contract code of a gien address.
+
+S: oops. I didn't see the answer. (reply to 151471)
+
+S: is there any body who can help me? (reply to 151467)
+
+Adam: With? (reply to 151484)
+
+S: this one pls. (reply to 151467)
+
+Adam: Social with s (reply to 151467)
+
+S: yeah, how can I add social links to jetton master content
+
+Adam: {   "address": "0:aaaabbbbccccddddeeeeffff0000111122223333444455556666777788889999",   "name": "Example Token",   "symbol": "EXM",   "decimals": "9",   "image": "https://example.com/logo.png",   "description": "cccaaa - This is a placeholder token used for demonstration purposes. It follows the Jetton metadata standard on TON.",   "social": [     "https://t.me/examplechannel",     "https://twitter.com/exampletoken"   ],   "websites": [     "https://www.exampletoken.com"   ] }
+
+Adam: Like this format (reply to 151490)
+
+Jason 🆙 UXUY $ETN: Yeah I've seen that but what if I want specifically only jettons and a specific jetton master (reply to 150903)
+
+S: thx, bro. but as you know we can't add address manually to the jetton minter content itself. well, this is what a jetton contract shows on tonviewer or tonscanner etc. what I want to know is how to create a jetton contract with content which has social links and the other infos. (reply to 151491)
+
+0xAnthony: Did you upload jetton content to on-chain or off-chain? (reply to 151493)
+
+S: offchain (reply to 151494)
+
+Adam: just dont add address (reply to 151493)
+
+Adam: {   "name": "Example Token",   "symbol": "EXM",   "decimals": "9",   "image": "https://example.com/logo.png",   "description": "cccaaa - This is a placeholder token used for demonstration purposes. It follows the Jetton metadata standard on TON.",   "social": [     "https://t.me/examplechannel",     "https://twitter.com/exampletoken"   ],   "websites": [     "https://www.exampletoken.com"   ] }
+
+S: thx, but as you can see, i have tried with you way but it didn't work
+
+0xAnthony: what I have experienced, when save offchain, can't see metadata anytime. you can try onchain (reply to 151495)
+
+Adam: what's the issue
+
+S: I have tried but it didn't work. i will share my jetton contract address. https://tonviewer.com/EQBuv0xsmtzTbPZevlEjpfzJjiti_Sq7C-y0j1JJOZ_hASut this is what i have deployed with the json format you quoted above. but the social and websites are not appeared to jetton metadata (reply to 151497)
+
+Adam: you can show me where you uploaded the json?
+
+S: sure
+
+&rey: Call getAddressInformation or similar API on them. All contract's code will be contained there, due to strong tx isolation (a single tx uses data of one contract only). (reply to 151480)
+
+S: hey, bro, can you help me? (reply to 151506)
+
+0xAnthony: He is not bro, He is admin, pls respect him (reply to 151507)
+
+S: oops, sorry. (reply to 151508)
+
+&rey: Isn't that "social_links": [...]? (reply to 151467)
+
+S: thx, but tried with social_links but still don't appear as social links. i will share json file and jetton contract. {   "name": "AAA",   "symbol": "CCC",   "image": "___.jpg",   "description": "BBBlaskdjlkjaslkjl asjldkjasfjlsakdf",   "social_links": {     "telegram": "t.me/yourtelegram",     "twitter": "twitter.com/yourtwitter",     "websites": "lasdfjlksdfj.com"   } } address: EQANJr8pPBDQJgYiCHBTdCMM0czcYlamKDUX_MZO0C1VyGcH (reply to 151512)
+
+Leo: the social_links attribute is for NFTs, not jettons
+
+0xAnthony: I don't think so. {   "address": "0:59fdc69f3f20ebe4a513b3468dc61d194c3864a4464e3662c903648d1a52e6e0",   "name": "Resistance Dog",   "symbol": "REDO",   "decimals": "9",   "image": "https://raw.githubusercontent.com/Resistance-Dog/resistance-dog/main/resistance-dog.webp",   "description": "Pavel Durov Founder Of The Digital Resitance Dog - $REDO is a meme coin on the TON Blockchain. https://t.me/RedoTON",   "social": [     "https://t.me/redoton",     "https://twitter.com/redoonton"   ],   "websites": [     "https://www.redoton.com/"   ] } (reply to 151522)
+
+Leo: be aware that it's social in your example (reply to 151524)
+
+0xAnthony: yeah true I misunderstood your words :) (reply to 151525)
+
+S: same here. (reply to 151525)
+
+S: but as you can see on tonscan on tonviewer, we can add social links to a jetton contract.
+
+S: but how?
+
+0xAnthony: I said try onchain, not offchain (reply to 151530)
+
+S: but there is no metadata attribute like social onchain.
+
+S: i think we need to set social links on offchain.
+
+Leo: verify on https://github.com/tonkeeper/ton-assets (reply to 151530)
+
+S: let's check related to Kirby token. address is EQBfXRfeutTL-mcVJD4tQfRWC1AHRj9QRJCliZE_62n_8WJj well, on tonscan we can confirm that it's metadata is saved on onchain. but we can't see the social links there. but on tonviewer we can see it has social links as it's metadata. what this tells us? I will share you those links. https://tonscan.org/jetton/EQBfXRfeutTL-mcVJD4tQfRWC1AHRj9QRJCliZE_62n_8WJj https://tonviewer.com/EQBfXRfeutTL-mcVJD4tQfRWC1AHRj9QRJCliZE_62n_8WJj
+
+Nerses: Has anyone recently succeeded to verify contract ? I am getting the error in image.Informed in ton verifier chat but there wasnt any response
+
+Red: Does the JS sdk have methods to get all nft collections and nft transactions?
+
+— 2025-06-19 —
+
+&rey: That social links on jettons are not standard and therefore supported by some explorers only. (reply to 151535)

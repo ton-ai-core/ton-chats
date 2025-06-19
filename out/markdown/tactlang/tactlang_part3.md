@@ -7977,3 +7977,11 @@ Nerses: the logic is simple.1) reserve the amount for storage fees (which is har
 Nerses: okay I will return with it after few minutes.Thanks a lot (reply to 65446)
 
 Nerses: @pcrafter I hope this will help
+
+— 2025-06-18 —
+
+Georgiy: 🚀 Introducing Scanner: Mass Static Analysis for TON Smart Contracts  We've released a demo showcasing our static analysis tooling for TON contracts.  🔍 Features: - ~20 curated contracts with zero vulnerabilities - Detailed analysis results - Great for learning Tact development best practices and exploring the tooling capabilities  🛡️ We scan everything for research but only display clean contracts without vulnerabilities publicly.  📊 Check it out: https://nowarp.io/tools/scanner/ (forwarded from nowarp | TON Security)
+
+MR COOL-WEB3: I have drop a twitter thread about this (reply to 65480)
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
