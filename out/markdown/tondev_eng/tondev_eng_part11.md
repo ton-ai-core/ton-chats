@@ -1631,3 +1631,49 @@ Red: Does the JS sdk have methods to get all nft collections and nft transaction
 — 2025-06-19 —
 
 &rey: That social links on jettons are not standard and therefore supported by some explorers only. (reply to 151535)
+
+Olimpio⚡⋈: Did they ever respond to this? (reply to 102592)
+
+Eren: Do u guys know how to make multisend TON in the cheapest way ?
+
+Jimmy: Another china lol (reply to 151581)
+
+Jimmy: Use coinfactory (reply to 151594)
+
+Jimmy: This better thing that i found
+
+Eren: I’ll check it out, thanks Jimmy (reply to 151598)
+
+Jimmy: Np (reply to 151599)
+
+&rey: Please check out https://github.com/pyAndr3w/ton-preprocessed-wallet-v2/tree/main. It's very much cheaper than alternatives, moving most validation off chain – only signature+seqno validation remains. (reply to 151594)
+
+Eren: Thanks (reply to 151601)
+
+jack ma: how to access v5 wallet ?  TonWeb.Wallets.all.v4R2; ?
+
+Combot: Combot has warned Novikov Kirill (2/3) Reason: Word **** is not allowed
+
+Matthew: Any Africa based TON smart contract DEV here?   If so pls DM me I have a few projects that may need based on skill level etc
+
+&rey: It is not supported. TonWeb, I mean. (reply to 151605)
+
+Ammar: I have created a token on TON for the first time, but the name and image do not appear, and I can't even add liquidity to the token. Is there a tutorial video explaining how to add these things on GitHub? This is my first time using GitHub. I would be very grateful if someone could do it for me.
+
+Albert: Ping me I will help (reply to 151622)
+
+Albert: Connect with me. (reply to 151617)
+
+Matthew: @AlbertDeve
+
+Albert: Yes (reply to 151632)
+
+Matthew: Is TON Dev working on a jetton protocol for issuance of securities and central bank issued bonds?    Similar to ERC 7092 or Hedera above
+
+Ammar: I sent it to you. (reply to 151628)
+
+&: Dm me (reply to 151617)
+
+Teers k 🐾: Do i get in jail if i develop something in ton where is crypto are illegal?
+
+Willy: You tell us  How do we know what the law is in your country;) (reply to 151647)

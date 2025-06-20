@@ -7985,3 +7985,45 @@ Georgiy: 🚀 Introducing Scanner: Mass Static Analysis for TON Smart Contracts 
 MR COOL-WEB3: I have drop a twitter thread about this (reply to 65480)
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2025-06-19 —
+
+Nerses: I’m implementing Jetton support in my smart contract and have seen several versions of the standard. Which version should I target for consistent compatibility, and where can I find a single, authoritative spec that covers all message types and data structures?
+
+maksim: This is latest Tact-native tep compliant jetton implementation  https://github.com/tact-lang/jetton  In contains 4 distinct jetton versions, all tep-compliant, but with slightly different functionality, you can read the about it in the repo readme  This is base version, that aims to only implement og-jetton functionality, with minimal quality-of-life improvements (e.g. claiming of stale ton, you can read about those in readme too)  And this is feature-rich version, that contains new features like jetton send modes. There is standalone spec, describing them  And also there is general jetton spec, that just talks about differences between FunC and Tact jettons
+
+Nerses: Thanks a lot very detailed answer (reply to 65547)
+
+maksim: So, if you want to just work with old reliable FunC interfaces and messages without any of the new stuff, pick governance (usdt) or base jetton  If you want to try latest TVM features and new functionality, check out sharded or feature-rich versions  Dev feedback on any of this docs/impls appretiated 🫴
+
+Nerses: I am just creating cross chain swap smart contract,so I need to use any consistent and wide adopted version (reply to 65549)
+
+Nerses: Am I getting right that all Jetton implementations are inherited from Base contract ? (reply to 65549)
+
+Dmitry: Hello everyone 👋  there is a smart contract with a referral and reward transfers  when updating the contract code and its deployment, a new contract is created, because the previous one is immutable  how do you solve this kind of problem?  it seems that a mechanism for migrating users and rewards from the old contract to the new one is needed here
+
+maksim: In some way yes, they pass the same Base jetton test suite. But since Tact support only traits inheritance, they are not inherited in that sense (reply to 65553)
+
+Nerses: Got it! Thanks very much (reply to 65556)
+
+Marshal: Guys what is the benefit of these NFTs
+
+maksim: Ton allows updating already deployed existing contract, here is simple guide on how to do it in Tact  However remember, that updating contract is dangerous and can lead to fund lock if done wrong (reply to 65555)
+
+Dmitry: thanks, I'll take a look (reply to 65559)
+
+Dmitry: then the flow would be better like this: - deploy the updated contract separately - transfer funds to the new contract - start the migration of users and their rewards  what do you think? (reply to 65559)
+
+maksim: I think this approach is even more error-prone that simply updating, but it depends on the concrete usecase (reply to 65561)
+
+Dmitry: and how do the TON developers guru do it? maybe there are best practices regarding such cases? 🙂 (reply to 65562)
+
+&rey: Hint: they do not upgrade contracts. (reply to 65563)
+
+maksim: General approach is outlined in the example link that I've shared before. Another pattern is making delayed update, you can check it here (reply to 65563)
+
+Dmitry: cool 💪 (reply to 65564)
+
+Dmitry: thank you, I will study these examples ❤️ (reply to 65565)
+
+Nerses: I’ve got a Tact contract that accepts Jettons and then does some work based on the forwardPayload field in the JettonTransferNotification. If my validation fails on that payload, what’s the best practice for returning both the Jettons and incoming TON? Should I handle both refunds in the same refund message, or is it better to return the TON separately? Thanks!

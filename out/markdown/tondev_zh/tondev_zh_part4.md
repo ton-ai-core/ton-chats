@@ -9187,3 +9187,41 @@ Combot: minh duc duc has been banned! Reason: CAS ban.
 — 2025-06-19 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: P35 has been banned! Reason: CAS ban.
+
+wikig: 问一下各位大佬，有人尝试在 IOS环境的telegram 中使用过 Cloudstorage模块么？  似乎有水土不服问题，在IOS version TMA clent中无法正常的读写 Telegram Cloudstorage。有人跟我一样遇到这个问题吗？这个问题应该去年八九月份的时候就遇到过，但是受限于TMA糟糕的cache管理一直没有办法debug所以暂且没管那时候。
+
+wikig: 目前多环境交叉测试中，WEB / PC / Android 三端都没有相似问题，只有在 IOS TMA中遇到该问题。 咱不知道具体问题，也没搜索到相关issues (reply to 93445)
+
+Andrew: Telegram Developers Community 有人答复吗 (reply to 93446)
+
+wikig: 我去问问看。我猜测是TMA版本不支持 Cloudstorage （等于整个IOS都没做CS服务的覆盖） (reply to 93447)
+
+wikig: 如果真是这样的话，这个服务四舍五入用不了了就（
+
+叶师傅: IOS是所有平台Bug最多的
+
+叶师傅: 去发issue几个月都没人回应的。
+
+wikig: 那看起来够呛 (reply to 93452)
+
+Combot: Jos Tinh has been banned! Reason: CAS ban.
+
+longer_2021: 请问游戏开发者应该参考什么转到TON开发？
+
+Tan Tai: ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️❗️❗️❗️❗️❗️  ❗️❗️❗️❗️❗️❗️❗️❗️   🌐 Visit  @GETBIGSOLBOT 🌐 Visit  @GETBIGSOLBOT 🌐 Visit  @GETBIGSOLBOT (forwarded from ㅤ)
+
+Combot: DNA has been banned! Reason: CAS ban.
+
+Combot: Liza has been banned! Reason: CAS ban.
+
+Agony: Hi, looking for a TON dev with knowledge about collectible gifts on Telegram, both onchain and offchain.
+
+Combot: Bảo Bảo has been banned! Reason: CAS ban.
+
+— 2025-06-20 —
+
+Combot: Duke Hayes has been banned! Reason: CAS ban.
+
+Combot: 看 has been banned! Reason: CAS ban.
