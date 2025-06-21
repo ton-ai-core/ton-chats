@@ -1677,3 +1677,121 @@ Ammar: I sent it to you. (reply to 151628)
 Teers k 🐾: Do i get in jail if i develop something in ton where is crypto are illegal?
 
 Willy: You tell us  How do we know what the law is in your country;) (reply to 151647)
+
+— 2025-06-20 —
+
+professor x: Ask chatgpt about that...also specify your country (reply to 151647)
+
+Combot: Combot has warned 六句迷人诗 (1/3) Reason: 1 reports (reply to 151666)
+
+Teers k 🐾: It says you go to jail if you don't pay two and half million dollars for licence (reply to 151665)
+
+Michael: Hi all, getting following timeout frequently, is it ok?  : "500, message='lookup tc-node-01.toncenter.local: i/o timeout', url='https://toncenter.com/api/v3/runGetMethod'"
+
+Willy: Pretty obvious then, huh? (reply to 151673)
+
+L30n1d: Hi! I was blocked in the TON Tact Language Chat after sharing a code example — most likely due to a bot error. Could you please help me get unbanned?
+
+Jimmy: Nope. Hahaha (reply to 151690)
+
+L30n1d: Already whitelisted, thanks (reply to 151692)
+
+Jimmy: Why i cant tag rey?
+
+&rey: Hi that's Combot's moderation style. (reply to 151695)
+
+Jimmy: Strange bot. Btw thanks for answer (bad eng) (reply to 151696)
+
+Hamid: Hi can some one tell me ton payment integration
+
+&rey: Starts here. https://docs.ton.org/v3/guidelines/ton-connect/guidelines/how-ton-connect-works (reply to 151708)
+
+Hamid: i can set up ton payments but the rpc endpoint is not setting up can without it it is secure or anyone can hack it
+
+Hamid: please any one answer
+
+&rey: Well you should query liteservers, even if public ones. (reply to 151711)
+
+&rey: They provide proofs that data they send corresponds to the actual chain state.
+
+Hamid: I am not understanding this one
+
+&rey: So what do you use for server's side?
+
+Emirhan: Hey guys! I'm having this error once try to connect my TON wallet with ui-react package.
+
+Emirhan: but my manifest file looks valid
+
+&rey: and is it loading from website successfully? (reply to 151720)
+
+Emirhan: yeah, this one worked. privacy and terms must be a .txt file i guess
+
+Hamid: The file has to be in right place
+
+Emirhan: it's in public folder for sure (reply to 151723)
+
+Hamid: Is PNG accessable from PNG link
+
+Hamid: It has to be a real PNG image and accessable
+
+Emirhan: it was
+
+Emirhan: everything
+
+Emirhan: my message are getting deleted, why
+
+Hamid: Is it a JSON file
+
+Emirhan: for sure man
+
+Hamid: Remove terms of use and privacy policy url for now
+
+&rey: Do not hit rate limit and it will be better. (reply to 151735)
+
+Eren: Have you checked all the URLs one by one? If they all work, try to deploy again. Your manifest file looks alright (reply to 151722)
+
+Ammar: "After creating a token using the TON Minter tool, can I add liquidity directly or not? I had previously created a token using another tool (I don’t remember its name), but until now I haven’t been able to add liquidity, even though I added the token data to Jetton. That was my first time."
+
+— 2025-06-21 —
+
+&rey: Do you know what "adding liquidity" means on a lower level? (reply to 151753)
+
+Ammar: Yes (reply to 151755)
+
+&rey: So you know which ~two projects on TON handle "adding liquidity". (reply to 151756)
+
+Ammar: It seems that I used an unofficial tool. I will use an official one and try again. (reply to 151755)
+
+Ammar: Stone fi  And de dust (reply to 151757)
+
+&rey: https://minter.ton.org is official for creating jettons of a standard template — that is, with no features or builtin utility. (reply to 151758)
+
+Ammar: Can I add liquidity after creation? I don’t need to do anything on GitHub, right? Because I’m honestly tired of it, haha. (reply to 151760)
+
+&rey: 1. Obviously yes. I'd even say that you cannot create any liquidity pools nor add anything before creation (if you're not using something something presale which handles all of that automatically). (reply to 151761)
+
+&rey: 2. To my knowledge, creating liquidity pool is trustless, can just be done on ston.fi / dedust.io. Does that fail for you?
+
+Ammar: Thank you so much, my brother. You really helped me a lot — I've been searching for a solution for days.
+
+Zin Gyi: 可以有实力 (reply to 37)
+
+Zin Gyi: 抢了这么多？ (reply to 37)
+
+Zin Gyi: 抢了这么多？ (reply to 37)
+
+shunz: 你好 👋
+
+Zin Gyi: 可以有实力 (reply to 37)
+
+Zin Gyi: 抢了这么多？ (reply to 37)
+
+Zin Gyi: 可以有实力 (reply to 37)
+
+Zin Gyi: 抢了这么多？ (reply to 37)
+
+Zin Gyi: 抢了这么多？ (reply to 37)
+
+Zin Gyi: 可以有实力 (reply to 37)
+
+Zin Gyi: 抢了这么多？ (reply to 37)

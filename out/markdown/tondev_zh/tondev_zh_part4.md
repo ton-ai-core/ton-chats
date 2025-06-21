@@ -9225,3 +9225,21 @@ Combot: Bảo Bảo has been banned! Reason: CAS ban.
 Combot: Duke Hayes has been banned! Reason: CAS ban.
 
 Combot: 看 has been banned! Reason: CAS ban.
+
+Andrew: 这边有个指南文档 http://tondevdoc.xyz/ (reply to 93472)
+
+Combot: Casey Johnston has been banned! Reason: CAS ban.
+
+Combot: hothotpot has been banned! Reason: CAS ban.
+
+Combot: Маруська- InSiDe has been banned! Reason: CAS ban.
+
+Combot: Tuấn Nguyễn Trọng has been banned! Reason: CAS ban.
+
+Combot: Gabriel Carmona has been banned! Reason: CAS ban.
+
+Combot: Гаврилина Ничка has been banned! Reason: CAS ban.
+
+— 2025-06-21 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

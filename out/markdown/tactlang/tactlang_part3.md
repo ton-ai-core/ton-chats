@@ -8027,3 +8027,57 @@ Dmitry: cool 💪 (reply to 65564)
 Dmitry: thank you, I will study these examples ❤️ (reply to 65565)
 
 Nerses: I’ve got a Tact contract that accepts Jettons and then does some work based on the forwardPayload field in the JettonTransferNotification. If my validation fails on that payload, what’s the best practice for returning both the Jettons and incoming TON? Should I handle both refunds in the same refund message, or is it better to return the TON separately? Thanks!
+
+— 2025-06-20 —
+
+Nerses: How I can send a text message in Jetton transfer in field forward payload so wallets can parse that message.I have tried several approaches,smth like  beginCell()                         .storeUint(0, 32)                         .storeSlice("OpCodeNotAllowed".asSlice())                         .endCell()                         .beginParse()   but all failed
+
+L30n1d: Hey This is an example of sending a text message in jetton transfer    fun transferJettonsAndTons(amount: Int, destination: Address, text: String, mode: Int, forward_ton_amount: Int){         require(self.balance >= amount, "Not enough jettons");          let sb: StringBuilder = beginString();          sb.append(text);          let forwardPayload: Cell = beginCell()         .storeUint(0, 32)         .storeRef(sb.toCell())         .endCell();          let body = JettonTransfer{             query_id: 0,             amount: amount,             destination: destination,             response_destination: myAddress(),             custom_payload: null,             forward_ton_amount: forward_ton_amount,             forward_payload: forwardPayload         }.toCell();          send(SendParameters{             to: self.jettonWallet,             value: TRANSFER_JETTON_MESSAGE_VALUE,             mode: mode,             body: body,             bounce: false,         });          self.balance -= amount;     } (reply to 65621)
+
+Nerses: thanks a lot will try now (reply to 65628)
+
+maksim: Yeah, IIRC jetton payload needs to start with zero opcode to be detected by api providers (reply to 65628)
+
+Nerses: I have used that code,but it doesnt show the actual text. I have just modified your code a lil bit in the end I make slice from the cell as forward_payload accepts only slice (reply to 65628)
+
+L30n1d: works for me, hm (reply to 65631)
+
+Nerses: how it succeeded to send notification in case you specified 0 as forwarded_ton (reply to 65632)
+
+L30n1d: it's not notification, it is transfer (reply to 65633)
+
+Nerses: why dont you make slice and then pass the parameter,in my case it shows an error (reply to 65634)
+
+L30n1d: Not sure I'm following you   message(0xf8a7ea5) JettonTransfer {     query_id: Int as uint64;     amount: Int as coins;     destination: Address;     response_destination: Address;     custom_payload: Cell?;     forward_ton_amount: Int as coins;     forward_payload: Cell?; }   there is no slice in my transfer message (reply to 65635)
+
+Nerses: here is my code             let sb: StringBuilder = beginString();              sb.append("Hi");              let forwardPayload: Cell = beginCell()                 .storeUint(0, 32)                 .storeRef(sb.toCell())                 .endCell();              message(MessageParameters {                 to: ctx.sender,                 value: 0,                 bounce: false,                 mode: SendRemainingBalance | SendIgnoreErrors,                 body: TokenTransfer {                     queryId: 832224636,                     amount: msg.amount,                     destination: msg.from,                     responseDestination: msg.from,                     customPayload: null,                     forwardTonAmount: 1,                     forwardPayload: forwardPayload,                 }.toCell(),             });
+
+Nerses: but compiler shows such an error ```Invalid type "Cell" for field "forwardPayload" with type "Slice" in type "TokenTransfer"tact-compiler(tact-compiler-errors) let forwardPayload: Cell = beginCell()                 .storeUint(0, 32)                 .storeRef(sb.toCell())                 .endCell()``` when dont get asSlice() from forwardPyaload before passing
+
+L30n1d: Looks like your TokenTransfer use Slice for forwardPyaload? (reply to 65638)
+
+Nerses: yeah exactly (reply to 65639)
+
+Nerses: here is the message message(0xf8a7ea5) TokenTransfer {     queryId: Int as uint64;     amount: Int as coins;     destination: Address;     responseDestination: Address;     customPayload: Cell?;     forwardTonAmount: Int as coins;     forwardPayload: Slice as remaining; }
+
+Nerses: in base Jetton implementation is also used Slice as remaining  https://github.com/tact-lang/jetton/blob/a15f508cc78e8d946d7707db3c29a47c38f7175b/src/contracts/base/messages.tact#L28
+
+L30n1d: It works fine because both Cell and Slice represent the same underlying data — the difference is just in how they are packed and read. You can use my solution as it’s tested and works, or adapt your code to parse a Slice if needed. (reply to 65642)
+
+Nerses: okay will try.thanks a lot (reply to 65643)
+
+Nerses: can you send your implementation if it is public ? (reply to 65643)
+
+L30n1d: this?   message(0xf8a7ea5) JettonTransfer {     query_id: Int as uint64;     amount: Int as coins;     destination: Address;     response_destination: Address;     custom_payload: Cell?;     forward_ton_amount: Int as coins;     forward_payload: Cell?; } (reply to 65645)
+
+Nerses: Yeah as I want to change transfer message and apply just your code (reply to 65646)
+
+Nerses: thnx
+
+&rey: If it were so easy.   No, Slice as remaining was never TEP74-compliant because it forgets about mandatory bit whether forward payload is in reference or not. Some jettons did not need or check that bit though, and that implementation slipped to public. (reply to 65643)
+
+L30n1d: IIRC, I once ran into this issue and have been using Cell instead of Slice ever since.  By the way, could you clarify how Slice works as a message parameter? As I understand it, a Cell is a container for bits, and a Slice acts like a reader or cursor over a Cell. Am I wrong? If that’s accurate, how is it possible to send a reader as part of a message? (reply to 65654)
+
+L30n1d: Or it's like a wrapper? (reply to 65655)
+
+&rey: Slice is a pair of cursors, right. Tact uses sugar "give me reader for whatever was left in the cell". (reply to 65655)

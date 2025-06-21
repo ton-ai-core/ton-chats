@@ -26069,6 +26069,25 @@
       "file": "photos/photo_4794.jpg",
       "width": 576,
       "height": 1280
+    },
+    {
+      "id": 4812,
+      "type": "message",
+      "date": "2025-06-20T07:49:31.000Z",
+      "date_unixtime": "1750405771",
+      "from": "Yaroslaw",
+      "from_id": "user1059241214",
+      "text": "Hello guys\n\nWill there be more contests? On what platforms and where will the announcements be made?"
+    },
+    {
+      "id": 4813,
+      "type": "message",
+      "date": "2025-06-20T10:19:23.000Z",
+      "date_unixtime": "1750414763",
+      "from": "spirit",
+      "from_id": "user5364780111",
+      "text": "whenever there's any contest, the announcement will be made here",
+      "reply_to_message_id": 4812
     }
   ]
 }

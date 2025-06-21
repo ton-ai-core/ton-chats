@@ -5427,3 +5427,9 @@ Haстя zargates: Hi, 2 months have passed from the results of the jokes contes
 Unknown: Hello ! Write: @app_moderation_bot (reply to 4792)
 
 Haстя zargates: And what to choose.. no options for support
+
+— 2025-06-20 —
+
+Yaroslaw: Hello guys  Will there be more contests? On what platforms and where will the announcements be made?
+
+spirit: whenever there's any contest, the announcement will be made here (reply to 4812)

@@ -12215,6 +12215,34 @@
       "from": "maksim",
       "from_id": "user964514710",
       "text": "конкретно собирать 0xF слайс некорректно в данном случае и не пройдет either проверки на пейлоад"
+    },
+    {
+      "id": 2557,
+      "type": "message",
+      "date": "2025-06-20T21:47:57.000Z",
+      "date_unixtime": "1750456077",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Если у меня есть контракт, который деплоится на каждый инстанс боя в игре, есть ли способ реализовать уничтожение контракта после его отработки, вроде selfdestruct в солидити? Или достаточно просто вывести с него весь баланс?"
+    },
+    {
+      "id": 2558,
+      "type": "message",
+      "date": "2025-06-20T21:49:31.000Z",
+      "date_unixtime": "1750456171",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Да, с модом\n\nSendRemainingBalance + SendDestroyIfZero\n\nhttps://docs.tact-lang.org/book/message-mode/"
+    },
+    {
+      "id": 2559,
+      "type": "message",
+      "date": "2025-06-20T21:49:47.000Z",
+      "date_unixtime": "1750456187",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Спасибо!",
+      "reply_to_message_id": 2558
     }
   ]
 }
