@@ -1795,3 +1795,51 @@ Zin Gyi: 抢了这么多？ (reply to 37)
 Zin Gyi: 可以有实力 (reply to 37)
 
 Zin Gyi: 抢了这么多？ (reply to 37)
+
+WATS: 1 test tone is needed  UQC_hYu2RoYu3MCgcPQtGTuba70Y5hva9PFDy279co7r89OC
+
+Андрей: @testgiver_ton_bot (reply to 151789)
+
+Teers k 🐾: It's not testnet address (reply to 151789)
+
+WATS: 0QCuO4ND5iUssJYFnFHRgFgSY2lzj2MboOKJ6g5QIySPKkHp (reply to 151791)
+
+Teers k 🐾: https://t.me/tondev_eng/151790 (reply to 151792)
+
+Ammar: Hello TON team,  I recently created a token on TON using the official TON Minter tool. Everything works fine and the token is visible on-chain, but I couldn’t find any option to add my project's Telegram link or social media information.  Is there a way to add a Telegram link or update metadata for my token after creation?  Here is the token address: EQBXTMbijDs-ycbzdn2AS2EHGUor_a4ioTI9vknroTFHkwfo  I’d really appreciate your guidance on how to do this officially.  Thank you!
+
+Leo: verify the token on github/tonkeeper/ton-assets
+
+Ammar: Alright, I’ll give it a try. This is my first experience, so I’ll keep bothering you until I learn. (reply to 151803)
+
+Ammar: What’s the next step? 😅 (reply to 151803)
+
+Leo: I mean.. github.com/tonkeeper/ton-assets
+
+Leo: follow the instructions to make a pr
+
+Teers k 🐾: One more question, technically i can create a lot of hundred or thousands wallets with one 24 phrase or nah? (reply to 151337)
+
+Teers k 🐾: If i deploy custom wallet contracts which changes address
+
+&rey: subwallet IDs. You will have a bad time trying to import such into wallet apps, but scripts will work fine. (reply to 151808)
+
+&rey: A contract does not ever move to another address. (reply to 151809)
+
+&rey: how would it help with changing metadata? (reply to 151803)
+
+Leo: adding social links to it makes tonviewer to show them (reply to 151813)
+
+Ammar: I've been trying since yesterday, guys, but I can't add the social media links to my token. I just want to add the Telegram at least. Is there any admin who can do it for me? I would be very grateful.
+
+&rey: No one except you has authority over jetton you have created. (reply to 151820)
+
+Ammar: I don't know how to add a Telegram link to the token. Can you explain it to me? I'm not a programmer. (reply to 151827)
+
+Hamid: Add it in token metadata or project description
+
+Ammar: I’m working from my phone, that’s the problem. (reply to 151829)
+
+CrazyIsland: hi guys, i try to get address state via tonlib-cli ( test network ) but get the following error all the time : getstate EQD1uarAfXKFUZ21JYbTl08lJyJmUH62cONDNsMaxDSJ1Nu_ ←[1;32m[ 3][t 3][2025-06-21 21:35:16.4439501][ext-client.cpp:175][!ExtClient]   Connecting to liteserver #7 (69.67.151.218:35939) for query [ getBlockProof (-1,8000000000000000) ] ←[0mQuery {getstate EQD1uarAfXKFUZ21JYbTl08lJyJmUH62cONDNsMaxDSJ1Nu_} FAILED:         [Error : 500 : LITE_SERVER_NETWORKtimeout for adnl query query(during last block synchronization)] ←[1;32m[ 3][t 3][2025-06-21 21:35:26.4478330][ext-client.cpp:81][!ExtClient]    Force resetting all liteservers ←[0m is anybody know how to fix it? Thanks
+
+Hamid: set testnet=true

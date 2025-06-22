@@ -9243,3 +9243,17 @@ Combot: Гаврилина Ничка has been banned! Reason: CAS ban.
 — 2025-06-21 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: JrDnS87 has been banned! Reason: CAS ban.
+
+longer_2021: @andrew_cong 谢谢大佬
+
+Combot: 怕, 他 have been banned! Reason: CAS ban.
+
+Combot: lizzza has been banned! Reason: CAS ban.
+
+Combot: superloka17 has been banned! Reason: CAS ban.
+
+Combot: Boss Boss has been banned! Reason: CAS ban.
+
+Combot: Ko có tên has been banned! Reason: CAS ban.
