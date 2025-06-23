@@ -8081,3 +8081,25 @@ L30n1d: IIRC, I once ran into this issue and have been using Cell instead of Sli
 L30n1d: Or it's like a wrapper? (reply to 65655)
 
 &rey: Slice is a pair of cursors, right. Tact uses sugar "give me reader for whatever was left in the cell". (reply to 65655)
+
+— 2025-06-22 —
+
+fabriregu: Hello, I'm looking for clarification regarding two variables, minTonsForStorage and gasConsumption, as they appear in the following code snippet from what appears to be a TON smart contract:  let storageFee: Int = minTonsForStorage - min(tonBalanceBeforeMsg, minTonsForStorage); msgValue = msgValue - (storageFee + gasConsumption + self.nft_price);  Specifically, I have the following questions: Why is it important to explicitly set minTonsForStorage and gasConsumption within the code? What are their primary roles in the context of TON smart contract operations? What would be the consequences if either minTonsForStorage or gasConsumption were set to 0?  Thank you in advance for your time and help.
+
+&rey: Without proof of what they do, or at least stated intent, those are just variable names, like n or expectedMinBalance. (reply to 65766)
+
+&rey: Try finding out what this code does if prior balance was low, and if it was high. You'll get it. (reply to 65766)
+
+fabriregu: Is for NFT collection mint
+
+fabriregu: I try to decrease the amount from 0.05 to 0.03 and to perform a new deploy. The transaction successfully end. So the question is... Why in the code there was 0.05 if also with 0.03 works?
+
+&rey: well, well, but that does not explain what the code does – actually does, at low level. (reply to 65774)
+
+Neon |: Guys. I am putting together a team for a joint startup. Please write back, programmers of any level and knowledge. In the future, we are going to conquer a system inside Telegram that has not yet been deployed.
+
+Kayse: No chain I am Africa man
+
+Kayse: Goodby
+
+Maska2022: А по русски можно?

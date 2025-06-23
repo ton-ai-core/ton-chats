@@ -1843,3 +1843,7 @@ Ammar: I’m working from my phone, that’s the problem. (reply to 151829)
 CrazyIsland: hi guys, i try to get address state via tonlib-cli ( test network ) but get the following error all the time : getstate EQD1uarAfXKFUZ21JYbTl08lJyJmUH62cONDNsMaxDSJ1Nu_ ←[1;32m[ 3][t 3][2025-06-21 21:35:16.4439501][ext-client.cpp:175][!ExtClient]   Connecting to liteserver #7 (69.67.151.218:35939) for query [ getBlockProof (-1,8000000000000000) ] ←[0mQuery {getstate EQD1uarAfXKFUZ21JYbTl08lJyJmUH62cONDNsMaxDSJ1Nu_} FAILED:         [Error : 500 : LITE_SERVER_NETWORKtimeout for adnl query query(during last block synchronization)] ←[1;32m[ 3][t 3][2025-06-21 21:35:26.4478330][ext-client.cpp:81][!ExtClient]    Force resetting all liteservers ←[0m is anybody know how to fix it? Thanks
 
 Hamid: set testnet=true
+
+— 2025-06-22 —
+
+Combot: Combot has warned 你最倾城* (1/3) Reason: 1 reports (reply to 151860)

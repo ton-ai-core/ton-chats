@@ -9257,3 +9257,23 @@ Combot: superloka17 has been banned! Reason: CAS ban.
 Combot: Boss Boss has been banned! Reason: CAS ban.
 
 Combot: Ko có tên has been banned! Reason: CAS ban.
+
+— 2025-06-22 —
+
+Combot: Wade Pena, Fevercas have been banned! Reason: CAS ban.
+
+Combot: LUXURЕ has been banned! Reason: CAS ban.
+
+Combot: David 7 has been banned! Reason: CAS ban.
+
+Combot: xuân đức xuân đức has been banned! Reason: CAS ban.
+
+Combot: 吗, Htđt Ghùc have been banned! Reason: CAS ban.
+
+Combot: SơnNek Dohongson has been banned! Reason: CAS ban.
+
+Combot: Fevercas has been banned! Reason: CAS ban.
+
+— 2025-06-23 —
+
+Combot: weeng has been banned! Reason: CAS ban.
