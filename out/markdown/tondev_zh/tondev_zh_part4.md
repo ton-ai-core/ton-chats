@@ -9277,3 +9277,7 @@ Combot: Fevercas has been banned! Reason: CAS ban.
 — 2025-06-23 —
 
 Combot: weeng has been banned! Reason: CAS ban.
+
+— 2025-06-24 —
+
+Combot: 发 has been banned! Reason: CAS ban.

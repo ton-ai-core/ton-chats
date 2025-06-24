@@ -12243,6 +12243,147 @@
       "from_id": "user1035885335",
       "text": "Спасибо!",
       "reply_to_message_id": 2558
+    },
+    {
+      "id": 2562,
+      "type": "message",
+      "date": "2025-06-23T10:54:17.000Z",
+      "date_unixtime": "1750676057",
+      "from": "Nikita",
+      "from_id": "user7851517854",
+      "text": "Привет! Кто-нибудь сталкивался с такой ошибкой? В чем может быть причина ошибки компиляции?\n\nCompiling...   > Contract: tact compiler\n   > Contract: func compiler\nFunC compilation error: C:/Users/.../build/Contract/tact_Contract.fc:1027:470: error: return type of an assembler built-in function must have a well-defined fixed width\n  ... slice, int, int, int), (int, int, int, int, int, int, int, int, (int), slice, slice, int, cell)) v) asm \"NOP\";\n💥 Compilation failed. Skipping packaging\nError: Could not compile tact"
+    },
+    {
+      "id": 2563,
+      "type": "message",
+      "date": "2025-06-23T11:02:46.000Z",
+      "date_unixtime": "1750676566",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "скорее всего есть какая-то функция которая принимает слишком много аргументов",
+      "reply_to_message_id": 2562
+    },
+    {
+      "id": 2564,
+      "type": "message",
+      "date": "2025-06-23T11:02:52.000Z",
+      "date_unixtime": "1750676572",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "хотя такого быть всё равно не должно"
+    },
+    {
+      "id": 2565,
+      "type": "message",
+      "date": "2025-06-23T11:03:26.000Z",
+      "date_unixtime": "1750676606",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Если можете поделиться экзамплом - будет круто, мы посмотрим, и либо исправим либо нормальное сообщение об ошибке сделаем"
+    },
+    {
+      "id": 2569,
+      "type": "message",
+      "date": "2025-06-23T17:47:46.000Z",
+      "date_unixtime": "1750700866",
+      "from": "Artem",
+      "from_id": "user129896295",
+      "text": "Коллеги, привет. Задолбался вокруг ошибки ходить. Делаю через ide.ton.org.\n\nMisti execution failed:\nSyntax error: JettonProfitDistributor.tact:5:17: Expected \"<\" or not identifier character\n  4 |     // Правильное объявление map с указанием типов ключей и значений для текущей версии Misti/Fantom\n> 5 |     holders: map[Int, Address];\n                      ^\n  6 |     holdersCount: Int;\n 19:02:51\nMisti execution failed:\nSyntax error: JettonProfitDistributor.tact:6:17: Expected \"<\" or not identifier character\n  5 |     // Объявление map с указанием типов ключей и значений через \"::\"\n> 6 |     holders: map::Int => Address;\n                      ^\n  7 |     holdersCount: Int;"
+    },
+    {
+      "id": 2570,
+      "type": "message",
+      "date": "2025-06-23T17:49:11.000Z",
+      "date_unixtime": "1750700951",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Привет, нужно map<Int, Int>, а не map[Int, Int]"
+    },
+    {
+      "id": 2571,
+      "type": "message",
+      "date": "2025-06-23T17:49:30.000Z",
+      "date_unixtime": "1750700970",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "А это вообще не то: holders: map::Int => Address;"
+    },
+    {
+      "id": 2572,
+      "type": "message",
+      "date": "2025-06-23T17:53:22.000Z",
+      "date_unixtime": "1750701202",
+      "from": "Artem",
+      "from_id": "user129896295",
+      "text": "спасибо, сделал так:\n\n    // Объект с типом 'map' и явной инициализацией\n    holders: map;\n    balances: map;\n\n    holdersCount: Int;\n    totalJettons: Int;\n\n    init(ownerAddress: Address) {\n        self.owner = ownerAddress;\n        \n        // Явная инициализация map с типами ключей и значений через .make()\n        self.holders = map.make:<Int, Address>();\n        self.balances = map.make<Address, Int>();",
+      "reply_to_message_id": 2570
+    },
+    {
+      "id": 2573,
+      "type": "message",
+      "date": "2025-06-23T17:53:50.000Z",
+      "date_unixtime": "1750701230",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Вот это тоже неверно: map.make:<Int, Address>, нужно emptyMap()"
+    },
+    {
+      "id": 2574,
+      "type": "message",
+      "date": "2025-06-23T17:57:44.000Z",
+      "date_unixtime": "1750701464",
+      "from": "Ivan",
+      "from_id": "user572547927",
+      "text": "не мое дело конечно, но судя по названию полей, коллекции это не то что тут нужно =))",
+      "reply_to_message_id": 2572
+    },
+    {
+      "id": 2575,
+      "type": "message",
+      "date": "2025-06-23T17:58:05.000Z",
+      "date_unixtime": "1750701485",
+      "from": "Artem",
+      "from_id": "user129896295",
+      "text": "я уже просто пробую тупа через нейросеть все варианты...",
+      "reply_to_message_id": 2574
+    },
+    {
+      "id": 2577,
+      "type": "message",
+      "date": "2025-06-23T18:21:46.000Z",
+      "date_unixtime": "1750702906",
+      "from": "Artem",
+      "from_id": "user129896295",
+      "text": "так?     mapping(address => uint128) holders;",
+      "reply_to_message_id": 2571
+    },
+    {
+      "id": 2578,
+      "type": "message",
+      "date": "2025-06-23T18:25:25.000Z",
+      "date_unixtime": "1750703125",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "https://docs.tact-lang.org/book/maps/"
+    },
+    {
+      "id": 2579,
+      "type": "message",
+      "date": "2025-06-23T18:30:55.000Z",
+      "date_unixtime": "1750703455",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "В тоне токены иначе устроены (стандарт называется жетон), можно посмотреть здесь:\n\nhttps://docs.tact-lang.org/cookbook/jettons/\n\nhttps://github.com/tact-lang/jetton",
+      "reply_to_message_id": 2572
+    },
+    {
+      "id": 2580,
+      "type": "message",
+      "date": "2025-06-23T19:06:10.000Z",
+      "date_unixtime": "1750705570",
+      "from": "Artem",
+      "from_id": "user129896295",
+      "text": "Ребят, а есть кто может отрефакторить мой код. Напишите в личку пожалуйста, а то я уже плавлюсь."
     }
   ]
 }

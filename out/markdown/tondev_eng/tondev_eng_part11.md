@@ -1847,3 +1847,31 @@ Hamid: set testnet=true
 — 2025-06-22 —
 
 Combot: Combot has warned 你最倾城* (1/3) Reason: 1 reports (reply to 151860)
+
+— 2025-06-23 —
+
+Combot: Hello Dawin! Click on the button below so that we understand that you are not a bot who came to tell us about how Durov is giving away bitcoins as a gift.
+
+Олег: Hey guys, has anyone here worked with merkle trees on TON? I need to understand the difference from EVM ones.
+
+0xAnthony: it's on opensource. pls check ton community public repo (reply to 151936)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 16 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 74  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+&rey: Please move to @devs, this chat is not related to your problem in any way. (reply to 151952)
+
+🤔: Hello guys! I faced such a problem with ton dns. Website says domen is taken and also says it was expired at the same time. So how can i purchase it?
+
+NPA120: You can purchase it from auction site (reply to 151975)
+
+&rey: As an aside. That's, in fact, true; owner can still remember about it and renew for a year (reply to 151975)
+
+🤔: So I cant buy it now? Then, what’s real period of rent? More than 365 days?
+
+&rey: You can, like in https://t.me/tondev_eng/71518 — substitute your parameters instead. (reply to 151979)
+
+🤔: Tysm (reply to 151980)
+
+— 2025-06-24 —
+
+praxis: Hi team, I face this problem during the whole time of working with the indexer, regularly once a day/two days, the worker just hangs on one value and in this state it will stay exactly until I do not restart it, whether it is a week/month.

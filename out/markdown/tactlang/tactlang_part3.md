@@ -8103,3 +8103,45 @@ Kayse: No chain I am Africa man
 Kayse: Goodby
 
 Maska2022: А по русски можно?
+
+— 2025-06-23 —
+
+Nikita: Hi! Does anyone know what could be causing this compilation error? Has anyone encountered this error before? Where should I look for the cause?  Compiling...   > Contract: tact compiler    > Contract: func compiler FunC compilation error: C:/Users/.../build/Contract/tact_Contract.fc:1027:470: error: return type of an assembler built-in function must have a well-defined fixed width   ... slice, int, int, int), (int, int, int, int, int, int, int, int, (int), slice, slice, int, cell)) v) asm "NOP"; 💥 Compilation failed. Skipping packaging Error: Could not compile tact
+
+Neon |: (int, int, int, int, int, int, int, int, int, slice, slice, int, cell) v = asm "NOP";  use this method (reply to 65807)
+
+Nerses: what will be the state of Jettons if the Jetton transfer tx is aborted with highlighted reasons ?
+
+Nerses: Also will that anyhow affect on action phase ?
+
+&rey: there will be no actions taken since TVM issued no commands (reply to 65810)
+
+&rey: Which of transactions in the tree failed so? Sender's or receiver's jetton wallet? (reply to 65809)
+
+Nerses: The contract data should be modified and token should be transferred.The tokens failed to transfer but data was modified. (reply to 65811)
+
+Nerses: reciever's (reply to 65812)
+
+Nerses: https://testnet.tonviewer.com/transaction/85334c638df56220b275932b12b058dde08539584516393bf86ae1fb2210cb4c
+
+&rey: Then it is an unsound jetton implementation and, yes, it has lost the transfer. (reply to 65814)
+
+&rey: By the time receiver jw failed, transaction on sender jw had long ended and committed the decreased balance.
+
+Nerses: what means unsound in this context ? I just used jetton minter for minting test tokens. Also I suspect that smth fails in this step.                 message(MessageParameters {                 to: senderJettonwallet,                 value: 0,                 bounce: false,                 mode: SendPayFwdFeesSeparately | SendIgnoreErrors,                 body: TokenTransfer {                     queryId: 0x7583,                     amount: amount,                     destination: srcReceiver,                     responseDestination: ctx.sender,                     customPayload: null,                     forwardTonAmount: 1,                     forwardPayload: beginCell().storeUint(1, 1).storeRef(beginCell()                         .storeUint(0, 32)                         .storeSlice("HI!".asSlice())                         .endCell()).endCell().asSlice(),                 }.toCell(),             }); I use this code for jetton transfer from smart contract (reply to 65816)
+
+Nerses: sorry I have mistaken,actually fails senders jetton wallet (reply to 65817)
+
+Nerses: In my Tact contract’s message handler I send two TokenTransfer messages to the same jetton wallet:  Both use mode: SendPayFwdFeesSeparately | SendIgnoreErrors with value: 0 , and then I send a` SendRemainingBalance` back to ctx.sender with value: 0 . Both jetton transfers immediately fail with “no gas.”  What’s the recommended way to make the two token transfers, while still correctly returning any leftover TON?  message(MessageParameters {                     to: JettonWalletAddress,                     value: 0,                     bounce: false,                     mode: SendPayFwdFeesSeparately | SendIgnoreErrors,                     body: TokenTransfer {                         queryId: 0x7585,                         amount: amount,                         destination: receiver,                         responseDestination: ctx.sender,                         customPayload: null,                         forwardTonAmount: 1,                         forwardPayload: null,                     }.toCell(),                 });                 message(MessageParameters {                     to: JettonWalletAddress,                     value: 0,                     bounce: false,                     mode: SendPayFwdFeesSeparately | SendIgnoreErrors,                     body: TokenTransfer {                         queryId: 0xdb90,                         amount: amount2,                         destination: receiver2,                         responseDestination: ctx.sender,                         customPayload: null,                         forwardTonAmount: 1,                         forwardPayload: null,                     }.toCell(),                 });                 message(MessageParameters {                     to: ctx.sender,                     value: 0,                     bounce: false,                     mode: SendRemainingBalance | SendIgnoreErrors,                     body: "Excess".asComment(),                 });
+
+maksim: You can check this example, this contract sends 1-2 messages (reply to 65821)
+
+Nerses: Yeah previously I was using that approach,but what is the reason that SendPayFwdFeesSeparately isnt working as expected (reply to 65822)
+
+maksim: In provided code example you try to send message with zero value attached, it is expected to fail
+
+Nerses: so in case attaching 1 nanoToncoin and using mode SendPayFwdFeesSeparately  should work ? (reply to 65824)
+
+Nerses: As if I understood you correctly it fails from the 0 amount transfer
+
+&rey: Jetton wallet needs some TON provided in incoming message to handle everything. How much, depends on the exact jetton you use. (reply to 65825)

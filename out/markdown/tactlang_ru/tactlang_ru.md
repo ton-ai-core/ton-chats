@@ -2879,3 +2879,35 @@ fruitful-l: Если у меня есть контракт, который де�
 Андрей: Да, с модом  SendRemainingBalance + SendDestroyIfZero  https://docs.tact-lang.org/book/message-mode/
 
 fruitful-l: Спасибо! (reply to 2558)
+
+— 2025-06-23 —
+
+Nikita: Привет! Кто-нибудь сталкивался с такой ошибкой? В чем может быть причина ошибки компиляции?  Compiling...   > Contract: tact compiler    > Contract: func compiler FunC compilation error: C:/Users/.../build/Contract/tact_Contract.fc:1027:470: error: return type of an assembler built-in function must have a well-defined fixed width   ... slice, int, int, int), (int, int, int, int, int, int, int, int, (int), slice, slice, int, cell)) v) asm "NOP"; 💥 Compilation failed. Skipping packaging Error: Could not compile tact
+
+/B4ckSl4sh\: скорее всего есть какая-то функция которая принимает слишком много аргументов (reply to 2562)
+
+/B4ckSl4sh\: хотя такого быть всё равно не должно
+
+/B4ckSl4sh\: Если можете поделиться экзамплом - будет круто, мы посмотрим, и либо исправим либо нормальное сообщение об ошибке сделаем
+
+Artem: Коллеги, привет. Задолбался вокруг ошибки ходить. Делаю через ide.ton.org.  Misti execution failed: Syntax error: JettonProfitDistributor.tact:5:17: Expected "<" or not identifier character   4 |     // Правильное объявление map с указанием типов ключей и значений для текущей версии Misti/Fantom > 5 |     holders: map[Int, Address];                       ^   6 |     holdersCount: Int;  19:02:51 Misti execution failed: Syntax error: JettonProfitDistributor.tact:6:17: Expected "<" or not identifier character   5 |     // Объявление map с указанием типов ключей и значений через "::" > 6 |     holders: map::Int => Address;                       ^   7 |     holdersCount: Int;
+
+Petr: Привет, нужно map<Int, Int>, а не map[Int, Int]
+
+Petr: А это вообще не то: holders: map::Int => Address;
+
+Artem: спасибо, сделал так:      // Объект с типом 'map' и явной инициализацией     holders: map;     balances: map;      holdersCount: Int;     totalJettons: Int;      init(ownerAddress: Address) {         self.owner = ownerAddress;                  // Явная инициализация map с типами ключей и значений через .make()         self.holders = map.make:<Int, Address>();         self.balances = map.make<Address, Int>(); (reply to 2570)
+
+Petr: Вот это тоже неверно: map.make:<Int, Address>, нужно emptyMap()
+
+Ivan: не мое дело конечно, но судя по названию полей, коллекции это не то что тут нужно =)) (reply to 2572)
+
+Artem: я уже просто пробую тупа через нейросеть все варианты... (reply to 2574)
+
+Artem: так?     mapping(address => uint128) holders; (reply to 2571)
+
+Petr: https://docs.tact-lang.org/book/maps/
+
+Андрей: В тоне токены иначе устроены (стандарт называется жетон), можно посмотреть здесь:  https://docs.tact-lang.org/cookbook/jettons/  https://github.com/tact-lang/jetton (reply to 2572)
+
+Artem: Ребят, а есть кто может отрефакторить мой код. Напишите в личку пожалуйста, а то я уже плавлюсь.
