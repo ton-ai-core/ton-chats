@@ -1875,3 +1875,125 @@ NPA120: You can purchase it from auction site (reply to 151975)
 — 2025-06-24 —
 
 praxis: Hi team, I face this problem during the whole time of working with the indexer, regularly once a day/two days, the worker just hangs on one value and in this state it will stay exactly until I do not restart it, whether it is a week/month.
+
+Lase: hello guys. just starting out here 😊.  When I created a Telegram wallet on Tonkeeper... i get a W5 account. Documentation even advised working with WalletVersion5. But using verson4 gives me the correct and matching address whilst version 5 doesn't.     const mnemonic =     "...";   const key = await mnemonicToWalletKey(mnemonic.split(" "));   const wallet = WalletContractV4.create({ publicKey: key.publicKey, workchain: 0 });   const wallet2 = WalletContractV5R1.create({ publicKey: key.publicKey, workchain: 0 });     // print wallet address    console.log(wallet.address.toString({ testOnly: true, bounceable: false }));  //found on tonscan   console.log(wallet2.address.toString({ testOnly: true, bounceable: false })); //not found on tonscan and doesn't match my current tonkeeper address
+
+Aman Aman: Any experience token developers here?
+
+NPA120: on Ton? (reply to 152005)
+
+Aman Aman: Should’ve clarified, pump-fun token developers
+
+NPA120: Dm  me (reply to 152008)
+
+Freezy: Dm (reply to 152008)
+
+Ice: GM everyone.
+
+Ice: How do I get ton faucets? The ones I've tried so far hasn't yield any results.
+
+&rey: Use @testgiver_ton_bot, it is kinda the faucet. (reply to 152020)
+
+Ice: Alright thanks. (reply to 152022)
+
+Nerses: Building a cross-chain Jetton swap on TON that parses TokenNotification for intent—how can I ensure notifications only come with real Jetton transfers and block spam? Is there a more reliable deposit pattern?
+
+Rudro: Subject: Request Refund for Rejected Ad (20 TON)  Hello Telegram Ads Team,  I deposited 20 TON and submitted an ad. However, after review, the ad was rejected, and no TON has been used for impressions.  As the funds were not spent, I kindly request a refund or re-credit of the 20 TON to my Telegram Ads account.  Payment: Ref#j57EGXVbF  Recipient address:UQBeab7D38RIwypegbN7YZgQzwDbb8QfMMwY8ouJc3qPl4CJ  Account id : ACC125101 Ton Wallet address:UQCxLSmujUZbQhiMg_BhVpQTI7-Kr0NW1yCXs2ScRcJNQ2FI  Thank you for your support.
+
+L30n1d: You need to make a white list of jetton wallet addresses for your contract (reply to 152038)
+
+Nerses: Isn't there better approach ? (reply to 152055)
+
+ARCH | Basti: hey guys, can you help me, I got an api key from the toncenter bot, however when I try to deploy from the jetton-contract repo I get 401, api key does not exists
+
+Teers k 🐾: I guess it's not telegram ads team chat and there is low chance there is any of tg ad agent is there (reply to 152054)
+
+Teers k 🐾: Make sure that you writed api key perfectly and request is going fully. Or just do request manually without programming like curl (reply to 152058)
+
+Igor: Those agents don’t even exist to begin with ) (reply to 152060)
+
+&rey: Does not have anything to do with this chat. (reply to 152054)
+
+ARCH | Basti: I'm just using blueprint instructions:  npx blueprint run --custom <rpc_endpoint> --custom-version v2 --custom-type testnet --custom-key <API_KEY>
+
+ARCH | Basti: the api key I generated is for testnet..
+
+ARCH | Basti: I also pasted the api key in the existing openapi docs for json rpc v2 and got the same error
+
+pictro: I'm looking for a partner to work with. (🥇Please don't have any Ukraine connections, and please connect me with a lot of people who know a bit about code.) What I'm offering is a partnership where I handle all my work and client communication through an Upwork account that I open in your name. You don't have to manage or hire anyone. Just provide me with a verified account and I'll handle the rest.  In return, you get a percentage of the revenue without having to directly participate in the project itself. It's kind of like passive income.  I totally understand if you don't want to do this, but I wanted to make this clear in case things change. Please DM me in any way you can. Thanks so much for your time!  Thank you.
+
+— 2025-06-25 —
+
+DeFi: Why can't you have your own UpWork account? This just sounds like you want to use someone else's identity to scam people (reply to 152075)
+
+Roj: You are talking to a frozen account. (reply to 152076)
+
+我不上你的当: 死胖子真猛 (reply to 10)
+
+草长莺飞: 这个小姨子好美 (reply to 9)
+
+Combot: Combot has warned 草长莺飞 (1/3) Reason: 1 reports (reply to 152081)
+
+Andrii: @admin
+
+pictro: what is it??? (reply to 152080)
+
+pictro: It looks so smooth, why did you upload something like this? (reply to 152080)
+
+我不上你的当: 这个视频太畜生了 (reply to 7)
+
+草长莺飞: 同学会太乱了 (reply to 8)
+
+我不上你的当: 同学会太乱了 (reply to 8)
+
+草长莺飞: 死胖子真猛 (reply to 10)
+
+草长莺飞: 这个小姨子好美 (reply to 9)
+
+草长莺飞: 死胖子真猛 (reply to 10)
+
+我不上你的当: 同学会太乱了 (reply to 8)
+
+我不上你的当: 这个视频太畜生了 (reply to 7)
+
+草长莺飞: 死胖子真猛 (reply to 10)
+
+pictro: I never thought of that... My account got blocked... Some bad guy said something he shouldn't have said in the conversation and got blocked.. But I have to work... So I have no choice but to use someone else's account and pay every month. (reply to 152076)
+
+DeFi: Ok well anyone who accepts your offer is stupid for doing so. They will have all the liability and zero benefit. They will have to pay taxes on your earnings. (reply to 152099)
+
+我不上你的当: 死胖子真猛 (reply to 10)
+
+pictro: Of course I know this is hard work.. but I have to do it. And I don't do crooks... (reply to 152100)
+
+DeFi: You're completely missing my points (reply to 152102)
+
+pictro: I just need to submit the account usage fee... If you guarantee the conditions well and are friendly, I can pay more.. I don't want to work with a difficult person like you.. (reply to 152103)
+
+草长莺飞: 这个小姨子好美 (reply to 9)
+
+DeFi: Still completely missing the point. What about taxes? What about liability? (reply to 152104)
+
+pictro: That's not for me to worry about... that's up to the person lending me their account... (reply to 152106)
+
+DeFi: Exactly, so then what percentage are you offering someone to take on the tax liability, criminal liability if you scam people, etc.? (reply to 152107)
+
+pictro: First of all, you have to follow the rules... Secondly, it's not for me to think about. (reply to 152108)
+
+DeFi: You are the one required to follow the rules. If you scam someone, that falls on the account owner, not you.  So let's say I give you an account to work under... if my tax rate is 45% with state and federal income taxes, and then I'm also going to be liable if you scam people or don't finish jobs, how much of the revenue percentage are you going to give me? (reply to 152109)
+
+pictro: If you can provide me with a good working environment and be friendly and approach me as a friend, I will be happy to help you... (reply to 152110)
+
+DeFi: Why aren't you answering the question? It's very specific.
+
+我不上你的当: 死胖子真猛 (reply to 10)
+
+草长莺飞: 这个小姨子好美 (reply to 9)
+
+pictro: It depends on your actions... Of course I can compensate you for it... Depending on your attitude... (reply to 152112)
+
+DeFi: Answer the question. What percentage are you willing to give the account holder who loans you their account?!?!? (reply to 152115)
+
+pictro: oh,mmm 25% (reply to 152116)
+
+DeFi: lol that doesn't even cover taxes dude (reply to 152117)

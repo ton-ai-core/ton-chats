@@ -9281,3 +9281,37 @@ Combot: weeng has been banned! Reason: CAS ban.
 — 2025-06-24 —
 
 Combot: 发 has been banned! Reason: CAS ban.
+
+G: sendBoc 接口privateKey，publicKey  这个两个钱包如何导出来呢
+
+G: sendBoc 接口privateKey，publicKey  这两个在钱包如何导出来呢
+
+Leo: 从钱包导出助记词生成
+
+Leo: helloworld.tonstudio.io
+
+G: tonweb-mnemonic
+
+G: 要用这个来导吗
+
+losingle: 这个应该是你JavaScript代码在iOS webview上处理的问题，cloudstorage和终端平台没有关系 (reply to 93446)
+
+Andrew: 💻 使用 TONAPI 一起打造 — YouTube 影片创作竞赛  我们诚挚邀请开发者制作技术类 YouTube 影片，展示如何透过 TONAPI (https://tonapi.io/) —— 我们强大的 SaaS 工具 —— 来开发 dApp、整合智能合约，或打造定制化的区块链解决方案，并实现真实世界的应用场景。  TONAPI 服务让开发者能够在 TON 区块链上建构去中心化应用，无需面对复杂的底层技术。目前 TON 生态系中已有超过 80% 的项目选择使用 TONAPI。  欢迎提交以下类型的影片：  - 即时编码或操作导览 - 深度技术教学 - 专案展示 - 与其他工具的比较  🏆 我们将选出前 5 名影片，总奖金为 5,000 USDT（以 Bitrefill 礼品卡形式发送）。  获奖作品还将获得在 Tonkeeper 社群频道曝光、TONAPI 专属折扣码、潜在的 dApp 浏览器整合机会，以及参与我们专属导师计划的邀请。  👉参赛方式：请发送至 contest@tonkeeper.com，邮箱主题请注明「TONAPI Contest」  📆 截止日期：7 月 18 日 📋 参赛详情与指引 (http://www.figma.com/proto/qfB3c0rg9uCsWjeCNe4cm6/TONAPI-Contest?page-id=0%3A1&node-id=1-69&viewport=402%2C249%2C0.27&t=00lGGFj7OEhgdiTf-1&scaling=contain&content-scaling=fixed)
+
+Andrew: 👨‍💻 Telegram 正在招聘一名 Android 开发者 —— 税后年薪 100 万美元。  🥇 唯一的入场券就是赢下我们的编程比赛，截止日期为 7 月 11 日。 任务是什么？在我们的开源 Android 应用中实现这个动效原型的动画。🤖  详细信息 👉 https://t.me/contest/420 (forwarded from TON East Asia Hub)
+
+Hu: 兄弟们，发起TON转账后，如何确认这笔交易上链成功呢？
+
+wikig: 这样的吗？ 目前的环境是 ts-next-js / react . 使用的是   "@telegram-apps/sdk-react": "^3.3.1"   我的理解是，既然是通用包和通用手脚架，我好像也没有办法针对IOS访问下做特殊处理？ 或者说应该怎么处理？ (reply to 93827)
+
+losingle: 没有那么智能，有些平台差异需要你自己处理。我们没有用sdk，Tg 的能力是通过telegram-web-app.js注入你的程序，所以你看TG的文档就行了 (reply to 93895)
+
+losingle: 第三方客户端或者其他UI客户端的问题会让你陷入到框架本身的复杂度中
+
+losingle: 这么好拿么？这个动画不难哇 (reply to 93847)
+
+— 2025-06-25 —
+
+Combot: Lin has been banned! Reason: CAS ban.
+
+Combot: 哦 has been banned! Reason: CAS ban.

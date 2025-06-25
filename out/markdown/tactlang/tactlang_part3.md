@@ -8145,3 +8145,39 @@ Nerses: so in case attaching 1 nanoToncoin and using mode SendPayFwdFeesSeparate
 Nerses: As if I understood you correctly it fails from the 0 amount transfer
 
 &rey: Jetton wallet needs some TON provided in incoming message to handle everything. How much, depends on the exact jetton you use. (reply to 65825)
+
+— 2025-06-24 —
+
+Yoviar▪️: contract Donation with Ownable {     owner: Address;     campaigns: map<Int as uint23, Campaign>;     numOfCampaign: Int as uint32;      init(owner: Address) {         self.owner = owner;         self.campaigns = emptyMap();         self.numOfCampaign = 0;     }      receive() { cashback(sender()) } }  i deploy this contract, why contract state is inactive?
+
+Yoviar▪️: import { Address, OpenedContract, toNano } from '@ton/core'; import { Donation } from '../wrappers/Donation'; import { NetworkProvider } from '@ton/blueprint'; import { ownerAddress } from '../utils/environment';  export async function run(provider: NetworkProvider) {     const owner: Address = Address.parse(ownerAddress!);     const donation: OpenedContract<Donation> = provider.open(await Donation.fromInit(owner));      await donation.send(         provider.sender(),         {             value: toNano('0.05'),         },         null,     );      await provider.waitForDeploy(donation.address); }  i use this script for deploy
+
+Yoviar▪️: all contracts cannot be deployed, even I only want to deploy the first contract that has been created by default by tact, it still cannot and returns an error: Sent Transaction Error: Contract not deployed. Check your wallet transactions at NetworkProviderImpl.waitForDeploy (C:\Users\yoviar\Documents\smartcontract\FirstContract\node_modules\@ton\blueprint\dist\network\createNetworkProvider.js:185:15) at async Object.run (C:\Users\yoviar\Documents\smartcontract\FirstContract\scripts\deployFirstContract.ts:16:5) at asynchronous run (C:\Users\yoviar\Documents\smartcontract\FirstContract\node_modules\@ton\blueprint\dist\cli\run.js:26:5) at async main (C:\Users\yoviar\Documents\smartcontract\FirstContract\node_modules\@ton\print blue\dist\cli\cli.js:113:5)
+
+maksim: Can you please provide tx link? (reply to 65866)
+
+Yoviar▪️: https://testnet.tonviewer.com/transaction/9a25f5956f89def4d4c9aca69dcbe6d5289e5a33c78bb62bb1626c9ef1ef30bc
+
+Yoviar▪️: Always like this
+
+Yoviar▪️: This is default code from tact, I didn't change anything
+
+maksim: Contract is already deployed and correctly works  You get an error because of either the blueprint issues or the fact that you try to await deploy tx that already happened
+
+Yoviar▪️: does that mean i have to initialize my project from scratch or what?
+
+maksim: This means that deploy works as expected  Contract from tx link that you've send is correctly deployed and you can use it however you want (reply to 65873)
+
+Yoviar▪️: which means this is the contract address: kQCeOPKxVLPf0tr4MbvoIn7I0VvSWxnEPDOKk61MWwUPsAdJ
+
+Yoviar▪️: because the terminal results do not return the contract address but instead return an error
+
+Nerses: Building a cross-chain Jetton swap on TON that parses TokenNotification for intent—how can I ensure notifications only come with real Jetton transfers and block spam? Is there a more reliable deposit pattern?
+
+Michaelzy: hey guys please is there an official multisig implementation on tact?
+
+Michaelzy: i checked this but it's showing 404 (reply to 54145)
+
+Öçüğ: Всем хай! я питон разраб, в такте на гпт эксприенсе пару недель, возможно ли сделать максимально тупую монету, которая будет отображаться в кошельках, при деплое все возможные монеты начислятся овнеру, а из функций только переводы от пользователя к пользователю с текстом а-ля id1234 —— Hi everyone! I'm a python developer, in Tact on the gpt experience for a couple of weeks.  Is it possible to make the most dumb coin, that will be displayed in wallets(eg. Telegram wallet), when deployed, all possible coins will be credited to the owner, and the only functions are transfers from user to user w text?
+
+Алексей: https://minter.ton.org solves the problem (reply to 65908)
