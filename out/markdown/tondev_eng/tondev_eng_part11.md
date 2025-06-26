@@ -1997,3 +1997,39 @@ DeFi: Answer the question. What percentage are you willing to give the account h
 pictro: oh,mmm 25% (reply to 152116)
 
 DeFi: lol that doesn't even cover taxes dude (reply to 152117)
+
+Lase: help is needed (reply to 151999)
+
+S: const key = await mnemonicToWalletKey(mnemonic); const wallet5 = WalletContractV5R1.create({     publicKey: key.publicKey,     workchain: 0,   }); const walletContract = client.open(wallet5);  await walletContract.sendTransfer({}); hey, not sure. this is my code using wallet contract v5. maybe you can check your wallet version is V5. (reply to 152154)
+
+Lase: Thanks (reply to 152174)
+
+S: yw. (reply to 152175)
+
+&rey: There is no such thing as "Telegram Wallet on Tonkeeper". (reply to 151999)
+
+Lase: Sorry, ton wallet account (reply to 152178)
+
+&rey: Then, you should check version + settings. Also, if there were funds on v4, TK detects that and uses it first. (reply to 152180)
+
+Lase: Everything works for v5 perfectly (reply to 152181)
+
+Lase: But they said beginners should start from v5, which is what i am doing
+
+Lase: I used different mnemonic . But would get a different address for w5 compared wot whats on tonkeeper
+
+Lase: I would try out all the advices and give a report. Thank you all😍👋
+
+Carlos: Hi, why am i getting this on toncenter api, my api really exists  {   "ok": false,   "error": "API key does not exist",   "code": 401 }
+
+Carlos: if api_key param is removed, it would return 429 (rate limit) instead of 401. Toncenter by default allows request if not limited, if rate limit is present then it checks for api key param/header (which is the case) so it keeps returning 401 for me (reply to 152191)
+
+Joseph: Help me understand the difference between Ton space wallet V4R2 and V5?
+
+&rey: v3r2: base wallet which can send up to 4 messages in a single transfer order v5: advanced wallet with up to 255 messages an order, support from providing gas outside ("gasless transactions"), support for plugins  v4r2: as of now, kinda base wallet, similar to v3r2 but more expensive in fees (though supports plugins too) (reply to 152202)
+
+Joseph: Thanks for your explanation (reply to 152208)
+
+TON Bounty Bridge: ​ی عنوان جدید دیگه  Created by Hesami0084
+
+Ice: GM boss, I tried this out but I'm yet to receive the faucet. 😕 (reply to 152022)

@@ -8181,3 +8181,15 @@ Michaelzy: i checked this but it's showing 404 (reply to 54145)
 Öçüğ: Всем хай! я питон разраб, в такте на гпт эксприенсе пару недель, возможно ли сделать максимально тупую монету, которая будет отображаться в кошельках, при деплое все возможные монеты начислятся овнеру, а из функций только переводы от пользователя к пользователю с текстом а-ля id1234 —— Hi everyone! I'm a python developer, in Tact on the gpt experience for a couple of weeks.  Is it possible to make the most dumb coin, that will be displayed in wallets(eg. Telegram wallet), when deployed, all possible coins will be credited to the owner, and the only functions are transfers from user to user w text?
 
 Алексей: https://minter.ton.org solves the problem (reply to 65908)
+
+— 2025-06-25 —
+
+Nerses: @pcrafter , quick question: do all "official" Jettons support the ProvideWalletAddress message? In our last discussion, you mentioned the only way to confirm a Jetton deposit into the escrow contract is by hard-coding its wallet address. To make this more flexible, I’m thinking I could have users supply the Jetton’s master address when they want escrow to add support for certain Jetton. My contract would then send a ProvideWalletAddress call to that Jetton master, and upon receiving the response, automatically store the returned Jetton wallet address. This approach would also eliminate hacks where someone supplies incorrect escrow Jetton wallet address. Does that make sense?
+
+maksim: ProvideWalletAddress is a separate standard, TEP-89 (reply to 65917)
+
+Nerses: Thanks for correction.I just was investigating the code . There wasnt mentioned about any standard so that was reason I though it is standard Jetton. Anyway does that make sense for TEP 89 Jettons ? (reply to 65918)
+
+maksim: https://github.com/tact-lang/jetton/blob/main/README.md?plain=1#L31 (reply to 65919)
+
+Georgiy: 🎉Misti 0.9 has just landed on NPM!  ⚡️ More Detectors: New Tact detectors: DuplicatedImport, TransitiveImport, RedundantBooleanExpression, UnusedMethodArgument and PreferGlobalFunction.  🖥 Improved Github Actions integration: Better user experience via SARIF output format support.  🛠 Custom Tools: Misti now enables users to write Custom Tools, just like Custom Detectors.  🔧Fixes & Enhancements: Check out the full changelog. (forwarded from nowarp | TON Security)

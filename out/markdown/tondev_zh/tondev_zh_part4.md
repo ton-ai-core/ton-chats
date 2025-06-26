@@ -9315,3 +9315,15 @@ losingle: 这么好拿么？这个动画不难哇 (reply to 93847)
 Combot: Lin has been banned! Reason: CAS ban.
 
 Combot: 哦 has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎第七课 Live Coding Course：TG Gifts & NFT Dev workshop  📅 6.26号 20:00 (UTC+8)  🌐 YouTube & X 同步直播 🔗 活动注册 (进入TON生态人才库)：https://lu.ma/4ntclmlb 📺 无需注册，观看直播：https://www.youtube.com/watch?v=Y0IVWGYe0EA  跟随 TON EA DevRel Andrew，手把手教你从零发布 Telegram Stickers，升级 Collectible，再到链上铸造 NFT，完整覆盖创作、打包、上链全流程。  课程中你还将学会： • 如何关联 Emoji 与贴图，提升用户互动体验 • 使用 Bot API 自动发送与升级 Gifts • 将限量版礼物转成可交易的 NFT，打开新的业务模式  🔥立即报名，一起动手上线你的首个贴纸和 NFT！ (forwarded from TON East Asia Hub)
+
+wikig: 主要还是我们用的包是官方提供的标准SDK  https://docs.telegram-mini-apps.com/packages/telegram-apps-sdk-react/1-x  然后我们根据官方提供的template没看到多端用法差异相关的文档或提及？ https://github.com/Telegram-Mini-Apps/reactjs-template  所以还是比较迷惑的。  主要还是telegram-web-app.js没有办法直接在主流react框架体系下使用。导致最终Telegram official不得不封装了一个react版本的sdk。 但是怪就怪在好像react-sdk下 IOS 适配有大问题 (reply to 93899)
+
+losingle: React集成tg webapp js很容易哈 (reply to 93953)
+
+losingle: 你正确的Initializing Mini Apps 他会在你的window 中出现，类似window.Telegram.WebApp所以与你使用什么前端框架没有直接关系，仔细看官方文档，不要迷失在框架中😘
+
+— 2025-06-26 —
+
+Combot: Liza has been banned! Reason: CAS ban.
