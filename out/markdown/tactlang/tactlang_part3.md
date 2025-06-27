@@ -8193,3 +8193,41 @@ Nerses: Thanks for correction.I just was investigating the code . There wasnt me
 maksim: https://github.com/tact-lang/jetton/blob/main/README.md?plain=1#L31 (reply to 65919)
 
 Georgiy: 🎉Misti 0.9 has just landed on NPM!  ⚡️ More Detectors: New Tact detectors: DuplicatedImport, TransitiveImport, RedundantBooleanExpression, UnusedMethodArgument and PreferGlobalFunction.  🖥 Improved Github Actions integration: Better user experience via SARIF output format support.  🛠 Custom Tools: Misti now enables users to write Custom Tools, just like Custom Detectors.  🔧Fixes & Enhancements: Check out the full changelog. (forwarded from nowarp | TON Security)
+
+— 2025-06-26 —
+
+Nerses: Are there any known examples of reentrancy attacks on TON, or does TON’s asynchronous execution model inherently prevent them?
+
+maksim: There is no "reentrancy" attacks in TON in an EVM sense (repeat contract execution inside the same tx), however it is still possible to have vulnerabilities in TVM based on this principles, but executed in a different way  Check this set of articles on security (reply to 65949)
+
+Nerses: did you mean this course https://stepik.org/course/176754/promo  ? As in that page couldnt find any article (reply to 65951)
+
+maksim: I mean this
+
+/B4ckSl4sh\: I'd also recommend https://docs.tact-lang.org/book/security-best-practices/ (reply to 65952)
+
+Nerses: What tools are recommended to use for gas estimation of certain receivers in contract ?
+
+maksim: At the moment there are no standalone tools that could estimate all branches and give single result, however there are few libs/examples that can help  - gas.ts that can help with compute phase gas consumption - gasUtils.ts (developed by ton-core for usdt) that can help with fwd and storage fees  Here you can find usage examples for both  Also there is tsa tool, https://tonan.tech/ that is ton symbolic analyzer, you can keep an eye on it, since they might implement some tooling for this
+
+Nerses: Thanks for the thorough answer—and for your huge dedication to TACT devrel! (reply to 65956)
+
+Nerses: So what is the best practise to estimate gas ? as in previous article that you sent I saw it is recommended to fix gas usage and always require more than that amount in every receiver (reply to 65956)
+
+maksim: depends on what gas we are speaking about  - compute -> get maximum possible via emulation and add tests that the actual gas is always smaller than hardcoded (hardcode gas, not it cost in ton, it can change in future)  - fwd fees -> either use fair cell/bits check in runtime, tvm has helper opcodes for this (check gov jettons for ref); or use estimates based on user-paid fwd fees before you (again, check jettons for this)  - storage fees -> there is huge post from me somehere here in chat about those (i think keyword for seach is dedust) (reply to 65958)
+
+Nerses: were you speaking about this ? (reply to 64889)
+
+Nerses: I just cant figure out which cost of gas I need to fix so I will escape from partial execution as I have cascade of txs (reply to 65959)
+
+maksim: that is very protocol specifix, so I can only wish gl with debugging those, maybe you can use TonDevWallet to visualize those tx trace (reply to 65961)
+
+Nerses: will try.Thanks a lot (reply to 65962)
+
+Shhh Toshi: Where can I find the best staking contract for Ton blockchain
+
+— 2025-06-27 —
+
+Gg: Pls suggest me best resources to learn ton and tact language 🙏
+
+Gg: Iam new here

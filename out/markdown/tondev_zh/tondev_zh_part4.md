@@ -9327,3 +9327,19 @@ losingle: 你正确的Initializing Mini Apps 他会在你的window 中出现，�
 — 2025-06-26 —
 
 Combot: Liza has been banned! Reason: CAS ban.
+
+Kellen: 佬们，想问一下ton测试链这里这些自动调用的合约是干什么的，而且这些合约自动执行完成后账户balance还会有一点点减少。
+
+Leo: 只是没初始化，别人转账失败退回去扣除消息费用
+
+Kellen: 是要自己发起一笔转账后才会把账户状态变成active是吗？
+
+Combot: H has been banned! Reason: CAS ban.
+
+Leo: 差不多，直接部署也行
+
+Katiya｜TON: 💎第6课 Live Coding Course：TG Gifts & NFT Dev workshop  学会如何发布Telegram贴纸，升级collectible，链上铸造NFT!  • 如何关联 Emoji 与贴图，提升用户互动体验 • 使用 Bot API 自动发送与升级 Gifts • 将限量版礼物转成可交易的 NFT，打开新的业务模式  🔗直播开始啦，赶紧加入：https://x.com/i/broadcasts/1zqJVjlbRpLJB (forwarded from TON East Asia Hub)
+
+— 2025-06-27 —
+
+Combot: Liza has been banned! Reason: CAS ban.

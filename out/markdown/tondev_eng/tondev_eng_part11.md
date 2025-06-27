@@ -2033,3 +2033,87 @@ Joseph: Thanks for your explanation (reply to 152208)
 TON Bounty Bridge: ​ی عنوان جدید دیگه  Created by Hesami0084
 
 Ice: GM boss, I tried this out but I'm yet to receive the faucet. 😕 (reply to 152022)
+
+— 2025-06-26 —
+
+Mojisola🍅 🍅: I have always had same issue. different address in code and in tonkeeper but same mnemonics. So I simply use it like that. the issue must have come from the tonkeeper implementation (reply to 152185)
+
+Никита: Hi all, I understand correctly that telegram Mini App doesn't support .ton domains yet?
+
+Кирилл: Yes (reply to 152267)
+
+Никита: Are there any plans to implement support or is it easier for me to add support myself in clients and submit a pull request?
+
+ARCH | Basti: hey guys, how can I test wallet connection in development if I have to specify a production url in the manifest? lol
+
+ARCH | Basti: are there any docs regarding this
+
+&rey: Host your development app too. At least, manifest HAS to be accessible from wallet app. (reply to 152304)
+
+&rey: Have you already tried using tonsite:// scheme? I do not think anyone here can speak for what Telegram decides to do. (reply to 152267)
+
+Taras: How do they do it?  EQDJakAgQijtjkq3XIYmqmFNlPnYdI-gxztMOIf-88q_BLUM
+
+Taras: 716$B. mcap
+
+&rey: Price gets lower the instant anyone sells some token to DEX. (reply to 152310)
+
+&rey: Because of DEX mechanics, of course. Basically, this is achievable with extremely low liquidity.
+
+Taras: how make address with token ticer ?? (reply to 152313)
+
+&rey: Some bruteforce on dummy part of data, so that hash would match. (reply to 152314)
+
+&rey: It's not an evidence to token being good vs scam.
+
+Taras: maybe have more info? (reply to 152316)
+
+Taras: all top ton token have token ticer  not, dogs, cats... (reply to 152317)
+
+&rey: USDT does not. I advise to reconsider your heuristic. (reply to 152319)
+
+&rey: Address is base-64 encoded (tag byte + workchain byte + hash part + checksum). End characters you'd highlighted are something of hash part and then checksum. Hash part is cell representation hash of StateInit. (reply to 152318)
+
+Taras: ok usdt not  if i need with "_magic"   how do it? (reply to 152320)
+
+&rey: "vanity-contract". I don't remember where to find it, though chat history might help. (reply to 152322)
+
+Teers k 🐾: You mine specific address like you mine bitcoin (reply to 152322)
+
+Никита: I tested using window.location.href = 'tonsite://{url}', but it's not loading. I've already made changes in my fork of the Telegram-iOS repository to support .ton sites (reply to 152308)
+
+Combot: Combot has warned Teers k 🐾 (1/3) Reason: Word ******** is not allowed (reply to 152310)
+
+Taras: 🥲 (reply to 152329)
+
+Broki: I'm a dev from solana bridging to TON, what's cooking
+
+&rey: Depends on what you want to be bringing, of course. (reply to 152336)
+
+Ricardo: Hey guys, i am receiving this error from @ton/sandbox when attempting to send a transaction: Error while executing transaction: Emulate transaction failed: [Error : -701 : cannot run message on account inbound external message rejected by account 2F4D96632F06F5AA79EE3F5B336C82F2432653DB3A52457FC1C3E7E1E0EF50A2 before smart-contract execution]    Blockchain logs:     [ 4][t 0][2025-06-26 19:54:16.249000][transaction.cpp:4006] block random seed set to 0000000000000000000000000000000000000000000000000000000000000000    [ 4][t 0][2025-06-26 19:54:16.249000][transaction.cpp:807]  storage paid for a message: 24 cells, 5441 bits     [ 4][t 0][2025-06-26 19:54:16.249000][transaction.cpp:821]  computed fwd fees = 3536400 + 0    [ 4][t 0][2025-06-26 19:54:16.249000][transaction.cpp:829]  cannot pay for importing this external message  its kinda cryptic, i don't know what it means
+
+&rey: see last seven words: "cannot pay for importing this external message" (reply to 152338)
+
+Broki: Whatever is useful for the community mate, we see potential here (reply to 152337)
+
+Ricardo: what does this mean?, the address from which i am sending the funds has funds
+
+&rey: In sandbox too? Have you set up RemoteBlockchainStorage right? (reply to 152341)
+
+&rey: Infrastructure (offchain interfaces) would be useful thanks. (reply to 152340)
+
+Ricardo: this is all sandbox, in mainnet it works fine (reply to 152342)
+
+Ricardo: i am funding the address like this: await treasury.send({ to: ACCOUNT.address, value: 500_000_000 }) (reply to 152342)
+
+Ricardo: do i need RemoteBlockchainStorage if simply want to simulate sending TON from A to B? (reply to 152342)
+
+&rey: Either something is wrong with init / beforeAll / beforeEach, or sandbox got broken. (reply to 152345)
+
+Ricardo: this is my before each:   beforeEach(async () => {     blockchain = await Blockchain.create()     treasury = await blockchain.treasury('treasury');      tonClient = new TonClientStub(blockchain)     deployer = await blockchain.treasury('deployer');     jettonMinter = blockchain.openContract(JettonMinter.createFromConfig({       admin: deployer.address,       content: beginCell().storeStringTail('USDT').endCell()     }));      const deployResult = await jettonMinter.sendDeploy(deployer.getSender(), toNano(0.05));     expect(deployResult.transactions).toHaveTransaction({       from: deployer.address,       on: jettonMinter.address,       deploy: true,       success: true,     })      account = new WalletAccountTon(SEED_PHRASE, "0'/0/0", {       tonClient     })   })
+
+Ricardo: I finally fixed, the state of my contract was not initialized and i had no clue how to do it (reply to 152347)
+
+— 2025-06-27 —
+
+Bill: Is there any way for me to allow the customer to pay with Creditcard and apple/google pay directly from my app. I mean to buy TON token as this is what I want to accept but I want to set it up so the user pays with creditcard for the TON and then the ton token will be sent to my walet address directly. Trying to find the easiest way possible for the users to pay. Want to attract also non crypto users so it would be grat if they can just click pay from my app and then choose payment method and then I receive the TON token. Preferably a system where the user does not haver to sign up to moonpay or something similar?

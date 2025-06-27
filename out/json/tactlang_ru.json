@@ -12384,6 +12384,158 @@
       "from": "Artem",
       "from_id": "user129896295",
       "text": "Ребят, а есть кто может отрефакторить мой код. Напишите в личку пожалуйста, а то я уже плавлюсь."
+    },
+    {
+      "id": 2593,
+      "type": "message",
+      "date": "2025-06-26T13:29:23.000Z",
+      "date_unixtime": "1750944563",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "всем привет. \nне могу настроить уведомления при сжигании токенов.\nя вызываю JettonBurn, он вызывает JettonBurnNotification\nтокены просто исчезают с кошелька, а в истории транзакций ничего нет.\nкак это устроено вообще?"
+    },
+    {
+      "id": 2594,
+      "type": "message",
+      "date": "2025-06-26T13:29:58.000Z",
+      "date_unixtime": "1750944598",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "привет, уведомления куда?"
+    },
+    {
+      "id": 2595,
+      "type": "message",
+      "date": "2025-06-26T13:33:01.000Z",
+      "date_unixtime": "1750944781",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Можно транзакцию, пожалуйста",
+      "reply_to_message_id": 2593
+    },
+    {
+      "id": 2596,
+      "type": "message",
+      "date": "2025-06-26T13:33:03.000Z",
+      "date_unixtime": "1750944783",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "модифицирую стандартный код жетона\nbase версию\nhttps://github.com/tact-lang/jetton\n\nтам есть \nJettonTransferInternal увеличивает баланс\nJettonBurn сжигает токены"
+    },
+    {
+      "id": 2598,
+      "type": "message",
+      "date": "2025-06-26T13:33:24.000Z",
+      "date_unixtime": "1750944804",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "вот эту историю транзакций",
+      "reply_to_message_id": 2597
+    },
+    {
+      "id": 2599,
+      "type": "message",
+      "date": "2025-06-26T13:33:46.000Z",
+      "date_unixtime": "1750944826",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "https://testnet.tonviewer.com/transaction/76f4abcdf83aa406bb595fddff1fc09b8a81e0c578cdf47395a8d8cc2b155d23",
+      "reply_to_message_id": 2595
+    },
+    {
+      "id": 2600,
+      "type": "message",
+      "date": "2025-06-26T13:34:36.000Z",
+      "date_unixtime": "1750944876",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "я здесь заминтил, и затем сжег.\nминт видно в истории транзакций,а сжигание не видно, как будто просто токены уменьшились на балансе",
+      "reply_to_message_id": 2598
+    },
+    {
+      "id": 2601,
+      "type": "message",
+      "date": "2025-06-26T19:07:03.000Z",
+      "date_unixtime": "1750964823",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "все получилось, в JettonBurn в customPayload отправляешь сообщение, а в самом ресивере уже отправляешь если есть customPayload это сообщение. тогда и токены сжигаются и дальнейшая логика при сжигании работает."
+    },
+    {
+      "id": 2602,
+      "type": "message",
+      "date": "2025-06-26T19:07:29.000Z",
+      "date_unixtime": "1750964849",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "я тут столкнулся совсем непонятной и странной банальной ошибкой.\nнемного не по теме, но может кто знает.\nкак сжигать токены в pytonconnect?\nэто python фреймворк для подключения кошелька\n\nчерез скрипт на typescript отправляю сообщение JettonBurn на свой адрес и все нормально, токены сжигаются, а если через pytonconnect, то он не видит жетоны и предлагает какой то непонятный сжечь UKWNAM9c"
+    },
+    {
+      "id": 2604,
+      "type": "message",
+      "date": "2025-06-26T19:08:12.000Z",
+      "date_unixtime": "1750964892",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "может кто знает как сжигать сообщения через python?\nбуду безмерно благодарен за информацию"
+    },
+    {
+      "id": 2605,
+      "type": "message",
+      "date": "2025-06-26T19:16:25.000Z",
+      "date_unixtime": "1750965385",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "скорее всего неправильно просто собрали пейлоад",
+      "reply_to_message_id": 2602
+    },
+    {
+      "id": 2606,
+      "type": "message",
+      "date": "2025-06-26T19:17:27.000Z",
+      "date_unixtime": "1750965447",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "разницы нет через что именно. Нужно просто правильное сообщение собирать. Рекомендую просто перепроверить логику ts <=> python",
+      "reply_to_message_id": 2602
+    },
+    {
+      "id": 2607,
+      "type": "message",
+      "date": "2025-06-26T19:18:34.000Z",
+      "date_unixtime": "1750965514",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Можете подсказать, какие есть ключевые аспекты, в которых FunC превосходит tact, есть ли что-то не реализуемое на такте, но возможное на funC?"
+    },
+    {
+      "id": 2608,
+      "type": "message",
+      "date": "2025-06-26T19:19:08.000Z",
+      "date_unixtime": "1750965548",
+      "from": "fruitful-l",
+      "from_id": "user1035885335",
+      "text": "Понимаю что и то, и то делает одно и то же, но явно ведь что-то жертвуется ради удобства такта"
+    },
+    {
+      "id": 2609,
+      "type": "message",
+      "date": "2025-06-26T19:20:02.000Z",
+      "date_unixtime": "1750965602",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "благодарю, но собрано именно так как описано в офиц документации\nhttps://docs.ton.org/ru/v3/guidelines/ton-connect/guidelines/preparing-messages#%D1%81%D0%B6%D0%B8%D0%B3%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B6%D0%B5%D1%82%D0%BE%D0%BD%D0%BE%D0%B2-1",
+      "reply_to_message_id": 2606
+    },
+    {
+      "id": 2610,
+      "type": "message",
+      "date": "2025-06-26T19:20:31.000Z",
+      "date_unixtime": "1750965631",
+      "from": "kai",
+      "from_id": "user44296578",
+      "text": "перепроверю, спасибо",
+      "reply_to_message_id": 2606
     }
   ]
 }
