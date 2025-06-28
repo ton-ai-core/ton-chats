@@ -1990,6 +1990,19 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "💬 Infrastructure Time\n\nWhat Infrastructure do you need to ship faster on TON?\n\nWe’re gathering feedback from the community about what’s missing, what’s needed, and what could unlock more building in the TON ecosystem! Fill out the short form:\n\nhttps://forms.gle/9MMMXDxWha1R6qxN6\n\nPlease, take this survey seriously: your input will shape TON Foundation infrastructure strategy priorities for this year."
+    },
+    {
+      "id": 221,
+      "type": "message",
+      "date": "2025-06-27T18:00:28.000Z",
+      "date_unixtime": "1751047228",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "📣 TON Developers — we need your feedback!\n\nHelp us shape the future of TON development. We’ve prepared a detailed survey to understand your experience with:\n🧠 Smart contract languages (Tact, Func, Tolk)\n📚 Documentation and education\n🛠 SDKs, IDEs, and tools\n🤖 Telegram Mini Apps\n💬 Developer support and pain points\n\n💎 As a thank you, we’ll issue an SBT (Soulbound Token) to your wallet as proof of contribution to the ecosystem.\n\n👉 Take the survey here:\nhttps://docs.google.com/forms/d/e/1FAIpQLSfDm85Z7YxDw96nMeV9T-b2kmd2qAe8xt0_iag8ZqrgqKuCRw/viewform\n\n🕐 Takes 5 minutes. Every voice matters.\nLet’s build a better TON together.",
+      "media_type": "photo",
+      "file": "photos/photo_221.jpg",
+      "width": 1179,
+      "height": 1177
     }
   ]
 }

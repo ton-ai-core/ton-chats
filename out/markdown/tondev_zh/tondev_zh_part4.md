@@ -9343,3 +9343,13 @@ Katiya｜TON: 💎第6课 Live Coding Course：TG Gifts & NFT Dev workshop  学�
 — 2025-06-27 —
 
 Combot: Liza has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎Coding Challenge 6💎 🚀 在 昨晚TON Live 编程课第六课中，你已经学会了如何发布Telegram贴纸，升级collectible，链上铸造NFT，如何关联 Emoji 与贴图，使用 Bot API 自动发送与升级 Gifts，提升用户互动体验！  现在，是时候用代码证明你的实力了！  🎁本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！     🔗课程回顾：  - Notion 精华笔记：https://ton-org.notion.site/VI-Telegram-Stickers-Gifts-NFT-21d5274bd2cf803f8ae9cc749713594d - YouTube 视频回放：https://www.youtube.com/watch?v=iJIGQd9yp00 - X直播回放：https://x.com/TONEastAsia/status/1938204719253704869  ⬇️立即参与挑战  🔗报名链接（注册可进入TON生态人才库）：https://lu.ma/52m1awbb 🔗点击此处提交你的代码：https://github.com/ton-builders/ton-coding-challenge-25-round-6 (forwarded from TON East Asia Hub)
+
+Katiya｜TON: 快来参加最新的编程比赛！
+
+James: Hi
+
+— 2025-06-28 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

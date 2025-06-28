@@ -8231,3 +8231,11 @@ Shhh Toshi: Where can I find the best staking contract for Ton blockchain
 Gg: Pls suggest me best resources to learn ton and tact language 🙏
 
 Gg: Iam new here
+
+Nerses: Yeah more technical description would help (reply to 65990)
+
+&rey: Bounced, as in "creating the next transaction returning funds". (reply to 65990)
+
+&rey: Well if you use a bounceable address (EQ / kQ) and destination contract is unable to process your message (and when it is not deployed, it is unable to do so), TONs bounce.
+
+&rey: It would be best if you provided StateInit with the message to deploy the new wallet, though you can also send TON in unbounceable mode.

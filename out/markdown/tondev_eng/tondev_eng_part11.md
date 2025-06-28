@@ -2117,3 +2117,33 @@ Ricardo: I finally fixed, the state of my contract was not initialized and i had
 — 2025-06-27 —
 
 Bill: Is there any way for me to allow the customer to pay with Creditcard and apple/google pay directly from my app. I mean to buy TON token as this is what I want to accept but I want to set it up so the user pays with creditcard for the TON and then the ton token will be sent to my walet address directly. Trying to find the easiest way possible for the users to pay. Want to attract also non crypto users so it would be grat if they can just click pay from my app and then choose payment method and then I receive the TON token. Preferably a system where the user does not haver to sign up to moonpay or something similar?
+
+Anastasiia: Tonkeeper is hosting a $5,000 developer contest!  Objective: Create an educational video (tutorial, project demo, live coding, comparison—any format!) about tonapi.io. The five coolest videos will each receive a reward (total prize pool: $5,000).  Evaluation criteria & rules: here  👉 Deadline: July 18 👈
+
+&rey: This is kinda out of scope for this chat... (reply to 152376)
+
+Dmitry: From TON Help: - Hello! In order to start an auction for an expired domain, you need to send a special technical message. Detailed information on how to send this message is in the developer chat. Use the chat search or ask a question.  Which "special technical message" i need to send to start an auction for an expired TON DNS domain? How can i do this?
+
+Always Polite: Its different contract address not official (reply to 152310)
+
+&rey: To obtain an expired TON DNS domain (actually, start a week-long auction on it), you must:  Obtain NFT address — e.g. by entering <domain>.ton.resolve-contract.ton in an explorer. Obtain required amount in nanoTON, perhaps checking current price for a same-length domain. Send message ton://transfer/<domain-nft-address>?bin=te6ccsEBAQEADgAAABhO0UtlAAAAAAAAAACvkFQ4&amount=<amount-nanoton>. Binary payload is always same.
+
+Tony: Hi everyone, do anyone have an idea about this?
+
+Tony: There is an ongoing work on a new language to develop on TON. It that an upgrade to TACT or another language altogether?
+
+&rey: Tolk? Another one. (reply to 152429)
+
+Tony: yes Tolk I think, not tact
+
+Combot: Combot has warned Hehe Bella (1/3) Reason: Word ******* is not allowed
+
+Mzharfan: Can I find out when the bot will start distributing TON again? It seems to have run out of them? This one — testgiver_ton_bot.
+
+Corgi: Hello is it allow to post job here ?
+
+&rey: Could you run it by me please? (reply to 152445)
+
+shalor1k: Hi, I have a problem, I am using tonconnect/ui-react:2.2.0 and tonconnect/sdk: 3.2.0, and intermittently after confirming a transaction in telegram wallet, judging from the console, I don't get the transaction results and boc, what could this be related to?
+
+Emirhan: Hey guys! Does TonKeeper tonconnect ui sdk support sign data method for ledgers?

@@ -5433,3 +5433,9 @@ Haстя zargates: And what to choose.. no options for support
 Yaroslaw: Hello guys  Will there be more contests? On what platforms and where will the announcements be made?
 
 spirit: whenever there's any contest, the announcement will be made here (reply to 4812)
+
+— 2025-06-27 —
+
+Vladimir: 📣 TON Developers — we need your feedback!  Help us shape the future of TON development. We’ve prepared a detailed survey to understand your experience with: 🧠 Smart contract languages (Tact, Func, Tolk) 📚 Documentation and education 🛠 SDKs, IDEs, and tools 🤖 Telegram Mini Apps 💬 Developer support and pain points  💎 As a thank you, we’ll issue an SBT (Soulbound Token) to your wallet as proof of contribution to the ecosystem.  👉 Take the survey here: https://docs.google.com/forms/d/e/1FAIpQLSfDm85Z7YxDw96nMeV9T-b2kmd2qAe8xt0_iag8ZqrgqKuCRw/viewform  🕐 Takes 5 minutes. Every voice matters. Let’s build a better TON together. (forwarded from TON Dev News)
+
+X1ag: тут небольшой баг в форме или мне кажется? Должен быть текст как будто (reply to 4821)
