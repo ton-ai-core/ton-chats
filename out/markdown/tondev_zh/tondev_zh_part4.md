@@ -9353,3 +9353,23 @@ James: Hi
 — 2025-06-28 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 发 has been banned! Reason: CAS ban.
+
+Kellen: 测试链水龙头突然领不到代币什么情况呀。
+
+Kellen: 堵车了吗。但是上午的一笔也没到 我看链上机器人在发币
+
+Combot: 看 has been banned! Reason: CAS ban.
+
+Combot: 去 has been banned! Reason: CAS ban.
+
+Combot: trung trung idol has been banned! Reason: CAS ban.
+
+Combot: Manhdu has been banned! Reason: CAS ban.
+
+Combot: 人 has been banned! Reason: CAS ban.
+
+Combot: Bi Bibi has been banned! Reason: CAS ban.
+
+Combot: 和 has been banned! Reason: CAS ban.

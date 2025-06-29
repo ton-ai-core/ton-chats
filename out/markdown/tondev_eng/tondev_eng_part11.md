@@ -2147,3 +2147,13 @@ Corgi: Hello is it allow to post job here ?
 shalor1k: Hi, I have a problem, I am using tonconnect/ui-react:2.2.0 and tonconnect/sdk: 3.2.0, and intermittently after confirming a transaction in telegram wallet, judging from the console, I don't get the transaction results and boc, what could this be related to?
 
 Emirhan: Hey guys! Does TonKeeper tonconnect ui sdk support sign data method for ledgers?
+
+— 2025-06-28 —
+
+Combot: Combot has warned M$L (1/3) Reason: Word ******* is not allowed
+
+— 2025-06-29 —
+
+Luiz Henrique: Hi everyone 👋  I'm launching a Brazilian stablecoin called “Real Brasileiro”, pegged 1:1 to BRL (Brazilian Real).  ✅ The smart contract (TIP-3) is already written with mint/burn/transfer functions and owner-only permissions.   ✅ I have the symbol/logo designed.   ✅ Ticker: REAL   ✅ Decimals: 9   ✅ Minting will be manual, based on PIX deposits in Brazil.  I just need help compiling and deploying the contract on TON.   I can provide the .fc file and a simple deployment guide.   I have no budget for now, but if anyone can help out of goodwill or as a community partner, I’ll be very grateful 🙏  Thanks in advance!
+
+Farhan | SatoshiPump.fun: hey, is there a way I can listen to account address changes in js? Websocket fashion, not pooling.

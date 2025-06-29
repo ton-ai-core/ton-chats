@@ -8239,3 +8239,35 @@ Nerses: Yeah more technical description would help (reply to 65990)
 &rey: Well if you use a bounceable address (EQ / kQ) and destination contract is unable to process your message (and when it is not deployed, it is unable to do so), TONs bounce.
 
 &rey: It would be best if you provided StateInit with the message to deploy the new wallet, though you can also send TON in unbounceable mode.
+
+— 2025-06-28 —
+
+fruitful-l: Any Idea where I should be looking at to fix Cell Underflow in this message? send(SendParameters {             to: self.id_mint.get(msg.project)!!,             value: ton("0.1"), // Adjust the amount in future             mode: SendRemainingValue | SendBounceIfActionFail,             body: Mint {                 queryId: 0,                 receiver: sender(),                 mintMessage: JettonTransferInternal {                     queryId: 0,                     amount: 100, // Adjust the amount in future, ref to value                     sender: myAddress(),                     responseDestination: sender(),                     forwardTonAmount: ton("0.015"),                     forwardPayload: rawSlice("F"),                 },              }.toCell(),         }) I'm using sharding Jetton contract from this repo
+
+&rey: forwardPayload is quite suspicious here. (reply to 66036)
+
+fruitful-l: Isn’t it supposed to be anything bigger then null? Or should it be Cell to work? (reply to 66037)
+
+&rey: In all probability (TokenTransferInternal is not standardized), first bit of payload slice is interpreted as "is forward payload inline or in reference". (reply to 66038)
+
+fruitful-l: I'm trying to send it with additional bit,tried both 0 and 1, but I guess I'm missing something forwardPayload: beginCell().storeBit(true)                                     .storeUint(1,32)                                     .endCell()                                     .beginParse()  The minter check looks like this: asm fun checkEitherForwardPayload(forwardPayload: Slice) {     LDDICT // Throws 9 if Either bit = 1 and ref is not present     SWAP     ISNULL     <{         DROP     }> PUSHCONT     <{         ENDS // Also throws 9 if slice is not empty     }> PUSHCONT     IFELSE }  Should I create asm NEWDICT function to load dict in the payload? (reply to 66039)
+
+&rey: You tried beginCell().storeUint(0, 1).endCell().beginParse()? (reply to 66042)
+
+fruitful-l: I'm pretty sure I did but I'll try once more (reply to 66043)
+
+fruitful-l: Yeah, now I'm getting invalid address, I'm not sure if it's talking about the contract recipient address, isn't it? (reply to 66043)
+
+fruitful-l: It's getting a bit weird cause with this I'm getting this result, but I do not have any throw or require related to 37629   Message sent: Invest, from EQCO..hAsa, to EQDQ..-een, value 1, not bounced 16:29:28 Transaction executed: success, exit_code: 0 (Normal termination), action_result_code: 0, gas: 0.0038652 16:29:28  Message sent: empty, from EQDQ..-een, to EQAa..6Vzm, value 1.0957348, not bounced 16:29:28 Message sent: Mint, from EQDQ..-een, to EQBJ..3MRG, value 0.095238, not bounced 16:29:28  Transaction executed: success, exit_code: 0 (Normal termination), action_result_code: 0, gas: 0.000796 16:29:28 Transaction executed: error, exit_code: 37629 , action_result_code: 0, gas: 0.0015208 16:29:28  Message sent: error, from EQBJ..3MRG, to EQDQ..-een, value 0.0933172, bounced 16:29:28 Transaction executed: success, exit_code: 0 (Normal termination), action_result_code: 0, gas: 0.000478 16:29:28 (reply to 66043)
+
+fruitful-l: full receive function receive(msg: Invest) {         let projectAddress = self.id_proj.get(msg.project);         require(projectAddress != null, "Project not found");                    send(SendParameters {             to: projectAddress!!,             value: ton("0.1"), // Adjust the amount as needed             mode: SendRemainingValue | SendBounceIfActionFail,         });                  send(SendParameters {             to: self.id_mint.get(msg.project)!!,             value: ton("0.1"), // Adjust the amount in future             mode: SendRemainingValue | SendBounceIfActionFail,             body: Mint {                 queryId: 0,                 receiver: sender(),                 mintMessage: JettonTransferInternal {                     queryId: 0,                     amount: 100, // Adjust the amount in future, ref to value                     sender: myAddress(),                     responseDestination: sender(),                     forwardTonAmount: ton("0.30"),                     forwardPayload: beginCell().storeUint(0, 1).endCell().beginParse()                  },              }.toCell(),         })     }
+
+&rey: do you really have this mode on both messages? (reply to 66047)
+
+fruitful-l: I left them as this because I copy-pasted them and decided not to change it during testing. Is that gonna have any effect on them now? (reply to 66048)
+
+fruitful-l: Can you please elaborate on the thumb up 😢 Also sorry for a bit of missinformation. I guess there were no problems in the code, but the Sandbox for some reason didn't let me run it. In testnet everything seems to work without any issues (reply to 66049)
+
+— 2025-06-29 —
+
+Ferdous: receive(msg: Invest) {         let projectAddress = self.id_proj.get(msg.project);         require(projectAddress != null, "Project not found");                    send(SendParameters {             to: projectAddress!!,             value: ton("0.1"), // Adjust the amount as needed             mode: SendRemainingValue | SendBounceIfActionFail,         });                  send(SendParameters {             to: self.id_mint.get(msg.project)!!,             value: ton("0.1"), // Adjust the amount in future             mode: SendRemainingValue | SendBounceIfActionFail,             body: Mint {                 queryId: 0,                 receiver: sender(),                 mintMessage: JettonTransferInternal {                     queryId: 0,                     amount: 100, // Adjust the amount in future, ref to value                     sender: myAddress(),                     responseDestination: sender(),                     forwardTonAmount: ton("0.30"),                     forwardPayload: beginCell().storeUint(0, 1).endCell().beginParse()                  },              }.toCell(),         })     }
