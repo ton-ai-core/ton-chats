@@ -2157,3 +2157,7 @@ Combot: Combot has warned M$L (1/3) Reason: Word ******* is not allowed
 Luiz Henrique: Hi everyone 👋  I'm launching a Brazilian stablecoin called “Real Brasileiro”, pegged 1:1 to BRL (Brazilian Real).  ✅ The smart contract (TIP-3) is already written with mint/burn/transfer functions and owner-only permissions.   ✅ I have the symbol/logo designed.   ✅ Ticker: REAL   ✅ Decimals: 9   ✅ Minting will be manual, based on PIX deposits in Brazil.  I just need help compiling and deploying the contract on TON.   I can provide the .fc file and a simple deployment guide.   I have no budget for now, but if anyone can help out of goodwill or as a community partner, I’ll be very grateful 🙏  Thanks in advance!
 
 Farhan | SatoshiPump.fun: hey, is there a way I can listen to account address changes in js? Websocket fashion, not pooling.
+
+&rey: And how TIP-3 is related to TON? Here, jetton standard is TEP-74. (reply to 152560)
+
+Combot: Combot has warned -𝗘𝘀𝗶 (1/3) Reason: 1 reports (reply to 152619)

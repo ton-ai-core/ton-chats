@@ -12536,6 +12536,19 @@
       "from_id": "user44296578",
       "text": "перепроверю, спасибо",
       "reply_to_message_id": 2606
+    },
+    {
+      "id": 2612,
+      "type": "message",
+      "date": "2025-06-29T19:43:22.000Z",
+      "date_unixtime": "1751226202",
+      "from": "Roman",
+      "from_id": "user7197127123",
+      "text": "Привет, объясните пожалуйста, почему здесь 8 cell overflow?",
+      "media_type": "photo",
+      "file": "photos/photo_2612.jpg",
+      "width": 624,
+      "height": 546
     }
   ]
 }
