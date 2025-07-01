@@ -8271,3 +8271,87 @@ fruitful-l: Can you please elaborate on the thumb up 😢 Also sorry for a bit o
 — 2025-06-29 —
 
 Ferdous: receive(msg: Invest) {         let projectAddress = self.id_proj.get(msg.project);         require(projectAddress != null, "Project not found");                    send(SendParameters {             to: projectAddress!!,             value: ton("0.1"), // Adjust the amount as needed             mode: SendRemainingValue | SendBounceIfActionFail,         });                  send(SendParameters {             to: self.id_mint.get(msg.project)!!,             value: ton("0.1"), // Adjust the amount in future             mode: SendRemainingValue | SendBounceIfActionFail,             body: Mint {                 queryId: 0,                 receiver: sender(),                 mintMessage: JettonTransferInternal {                     queryId: 0,                     amount: 100, // Adjust the amount in future, ref to value                     sender: myAddress(),                     responseDestination: sender(),                     forwardTonAmount: ton("0.30"),                     forwardPayload: beginCell().storeUint(0, 1).endCell().beginParse()                  },              }.toCell(),         })     }
+
+— 2025-06-30 —
+
+Yoviar▪️: Why error 500?
+
+Yoviar▪️: const client = new TonClient({   endpoint: "https://testnet.toncenter.com/api/v2/jsonRPC",   apiKey: "apikey", }); this is my code
+
+Yoviar▪️: yesterday i felt fine
+
+Yoviar▪️: this is work while not include apiKey, why?
+
+Nerses: what pattern can be used in test for testing if contract emitted event ? I used this one but it ifails         expect(tx.transactions).toHaveTransaction({             from: contract.address,             success: true,             op: 0x71f9f7,         }); although I am sure that event is emitted
+
+Royal: Can someone teach me how it is done
+
+Riccardo: GM, I have a question. It was announced that TON was going to be integrated with telegram and on Telegram is now possible to use Stickers NFT. I was curious to understand how this work but I cannot find any information on how an NFT / sticker is owned on TON and how it is validated on Telegram. Do you have any suggest on who I should ask?
+
+Андрей: The correct value is to: contract.address as the execution happens within the contract (reply to 66119)
+
+Nerses: so from and to both should be same in case of testing emit ? (reply to 66122)
+
+Андрей: No, a contract only executes upon receiving a message (external or internal), which means the recipient in this case is your contract. The from field will be set to the owner, deployer, or similar — depending on your code. (reply to 66123)
+
+Nerses: It was misunderstood. I have tested that incoming message was successful, so now I want to test if it really triggered the emit event, and i want to do that part (reply to 66124)
+
+ADM: hi guys, i need help to deploy a contract
+
+&rey: It will not show up in tx.transactions. (reply to 66125)
+
+Nerses: https://ide.ton.org/ you can use this (reply to 66127)
+
+Nerses: yeah but it doesnt show in events as well (reply to 66128)
+
+&rey: Well, then... have you checked transaction's outMsgs?
+
+Андрей: You need to turn on "external" in tact.config, and it isn't transaction, you can find it in trx.externals (reply to 66130)
+
+ADM: yes, but i cant deploy, my code are incorrect, anyone have smart contracts exemples to send me? (reply to 66129)
+
+Nerses: I think it is the same that mentioned @myakount as well. I can detect external messages but there isnt opcode in that info which is very confusing. So while testing you cant be sure is it the correct msg emitted or not (reply to 66131)
+
+&rey: Well you should test whole body of external message I think? (reply to 66135)
+
+Nerses: It would be great if it is possible but for now detecting that correct msg is emitted is also good (reply to 66136)
+
+Андрей: Opcode is first 32 bits, you can parse manually    const opcode = body.beginParse().loadUint(32) (reply to 66135)
+
+Nerses: will try now (reply to 66138)
+
+Nerses: yeah that approach worked (reply to 66138)
+
+Nerses: thanks
+
+Royal: Can someone teach me how to do it
+
+Royal: Pls anybody
+
+Nerses: can you share your code ? (reply to 66142)
+
+Royal: What code
+
+Royal: How do I get the code
+
+Sergey: Usually we write the code. Sometimes using ChatGPT to generate (reply to 66146)
+
+Royal: Ok how do I ask chatGPT (reply to 66152)
+
+Royal: And what does the code look like
+
+Royal: And what question will I ask chatGPT
+
+&rey: Stop and think: what do you want to achieve? (reply to 66142)
+
+Royal: Ok I want to achieve money and other and bring people to the light (reply to 66156)
+
+&rey: How would you distinguish the so-called light from the dark? Are you doing useful work so that wealth could be achieved? (reply to 66157)
+
+Royal: Ok so I can help people  through my wealth (reply to 66158)
+
+Royal: So can you teach me
+
+— 2025-07-01 —
+
+Treasure: Good day, I have an issue. I have a transaction code (main net) and it works for desktop but when I test it on mobile, it tells me bad request. Is there a particular reason why it doesn’t work? I tried using Tonkeeper mobile and telegram inbuilt wallet

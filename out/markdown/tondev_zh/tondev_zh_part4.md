@@ -9383,3 +9383,13 @@ Jo hn Mike: HMU，如果您需要贴纸（静态/动画）NFT、徽标、海报�
 Andrew: 领到测试币了吗？ 没有的话我转一些给你 (reply to 94186)
 
 Kellen: 领到了  就是有点慢，等了一天 (reply to 94302)
+
+FUN-Gu: 让我们聊聊，一起搞点有意思的事情吧！ 我们联系一下，一起实现点什么！ (reply to 94253)
+
+FUN-Gu: 如果你是视频动画师、NFT 创作者，或者你能在我的网站上集成 TON 钱包连接， 请私信我。
+
+Andrew: 📣 TON Developers — we need your feedback!  Help us shape the future of TON development. We’ve prepared a detailed survey to understand your experience with: 🧠 Smart contract languages (Tact, Func, Tolk) 📚 Documentation and education 🛠 SDKs, IDEs, and tools 🤖 Telegram Mini Apps 💬 Developer support and pain points  💎 As a thank you, we’ll issue an SBT (Soulbound Token) to your wallet as proof of contribution to the ecosystem.  👉 Take the survey here: https://docs.google.com/forms/d/e/1FAIpQLSfDm85Z7YxDw96nMeV9T-b2kmd2qAe8xt0_iag8ZqrgqKuCRw/viewform  🕐 Takes 5 minutes. Every voice matters. Let’s build a better TON together. (forwarded from TON Dev News)
+
+— 2025-07-01 —
+
+Combot: Fevercas has been banned! Reason: CAS ban.

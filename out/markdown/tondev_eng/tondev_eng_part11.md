@@ -2161,3 +2161,79 @@ Farhan | SatoshiPump.fun: hey, is there a way I can listen to account address ch
 &rey: And how TIP-3 is related to TON? Here, jetton standard is TEP-74. (reply to 152560)
 
 Combot: Combot has warned -𝗘𝘀𝗶 (1/3) Reason: 1 reports (reply to 152619)
+
+— 2025-06-30 —
+
+Lase: If anyone is facing issues with the balance/address not matching. Try using a totally different wallet  Tonkeeper doesn't work well for w5 yet, but MyTonWallet does it well ✅.  You are welcome. (reply to 151999)
+
+Combot: Combot has warned Dan Mark (2/3) Reason: Word **** is not allowed
+
+Denis: No. Mytonwallet creates security problem for you and I hope they are going to fix it. Tonkeeper works correctly. (reply to 152667)
+
+Denis: You SHOULD have different subwallet_id in testnet and mainnet for avoid transactions replaying from testnet to mainnet
+
+Lase: How? (reply to 152698)
+
+Denis: Trust me - I invented wallet v5 :)
+
+Lase: Oh really? (reply to 152696)
+
+Lase: Damn🔥 (reply to 152701)
+
+FUN-Gu: Hello I am working on a project on Ton  Any one interested in working with me    Ps I already created the token and it visible already on chain
+
+Denis: https://github.com/ton-blockchain/wallet-contract-v5?tab=readme-ov-file#known-security-issues (reply to 152702)
+
+几把哥: I want to know how to promote a real-name wallet.
+
+几把哥: 1 (reply to 152705)
+
+FUN-Gu: I want to know how to create a mini app
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 16 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 36  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+&rey: Docs at https://docs.ton.org/v3/guidelines/dapps/tma/overview. Not this chat though, join https://t.me/devs instead. (reply to 152721)
+
+Vladimir: 📣 TON Developers — we need your feedback!  Help us shape the future of TON development. We’ve prepared a detailed survey to understand your experience with: 🧠 Smart contract languages (Tact, Func, Tolk) 📚 Documentation and education 🛠 SDKs, IDEs, and tools 🤖 Telegram Mini Apps 💬 Developer support and pain points  💎 As a thank you, we’ll issue an SBT (Soulbound Token) to your wallet as proof of contribution to the ecosystem.  👉 Take the survey here: https://docs.google.com/forms/d/e/1FAIpQLSfDm85Z7YxDw96nMeV9T-b2kmd2qAe8xt0_iag8ZqrgqKuCRw/viewform  🕐 Takes 5 minutes. Every voice matters. Let’s build a better TON together. (forwarded from TON Dev News)
+
+Lase: i went back to tonkeeper and i have been on it for hours. (reply to 152705)
+
+Lase: Could you give me a code example, please? Thank you
+
+Denis: code example for what?
+
+Lase: they way you use tonkeeper mnemonic and it works well with WalletContractV5R1. Since i am not to use MyTonWallet (reply to 151999)
+
+Denis: better ask someone who can write js code (reply to 152741)
+
+Lase: see the main issue here.  I generated the mnemonic on Tonkeeper. Used it in the code.  But Tonkeeper doesn't match whilst the MyTonWallet does. (reply to 152740)
+
+Lase: Thank you so much 😊 (reply to 152742)
+
+&rey: const walletV5 = provider.open(         WalletV5.createFromConfig(             {                 signatureAllowed: true,                 seqno: 0,                 walletId: new WalletId({ networkGlobalId: -3 }).serialized, // testnet                 publicKey: keyPair.publicKey,                 extensions: Dictionary.empty() as any             },             Cell.fromBase64('te6cck...code...')         )     ); (reply to 152741)
+
+Lase: thanks (reply to 152748)
+
+ARCH | Basti: Hey guys, found a bug in the @ton/ton library, the client.getTransactions method doesn't work properly because it attempts to make a post to the rpc route handling that, but this endpoint only accepts get method so its crashing
+
+Riccardo: GM, I have a question. It was announced that TON was going to be integrated with telegram and on Telegram is now possible to use Stickers NFT. I was curious to understand how this work but I cannot find any information on how an NFT / sticker is owned on TON and how it is validated on Telegram. Do you have any suggest on who I should ask?
+
+Ricardo: Hey guys, do you know if its possible to call this endpoint on toncenter v3, using the TonClient from @ton/ton library or do i have to do something like an axios, fetch, regular http call? https://toncenter.com/api/v3/index.html#/blockchain/api_v3_get_transactions_by_message
+
+Spyder: I have ton in Solana chain. How to exchnage them to USDT ?
+
+Spyder: Please help
+
+Michaelzy: what library is WalletV5 from? the @ton/ton library is WalletContractV5R1 (reply to 152748)
+
+&rey: That might be better. (reply to 152784)
+
+Michaelzy: i believe the WalletContractV5R1 equivalent of the code Rey dropped would be    const wallet = WalletContractV5R1.create({         publicKey: key.publicKey,           walletId: {            networkGlobalId: -3,   //-3 is testnet, -239 is mainnet             context: {                 workchain: workchain,                 walletVersion: 'v5r1',                 subwalletNumber: 0,             }         }     }) (reply to 152749)
+
+&rey: So which version worked? (reply to 152749)
+
+— 2025-07-01 —
+
+Zhing Richard: If anyone needs to develop telegram mini-apps, trading bots for TON blockchain and various other products! dm me.
+
+Devsyn: Guys... Is it possible to integrate Ton Wallet or other Ton ecosystem wallet to a mobile app so? 🤔
