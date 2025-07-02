@@ -9393,3 +9393,17 @@ Andrew: 📣 TON Developers — we need your feedback!  Help us shape the future
 — 2025-07-01 —
 
 Combot: Fevercas has been banned! Reason: CAS ban.
+
+Mason: 大哥们，这个按钮要怎么设置才能出现
+
+Mason: 感谢
+
+大大怪: 这个群可以出售NFT吗
+
+大大怪: 爱因斯坦  @aiyinsitan
+
+— 2025-07-02 —
+
+Yves: 搶佔 Mars2049 空投——立即加入領取您的份額！
+
+Combot: 戀上x50 has been banned! Reason: CAS ban.

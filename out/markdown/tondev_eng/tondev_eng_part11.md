@@ -2237,3 +2237,57 @@ Michaelzy: i believe the WalletContractV5R1 equivalent of the code Rey dropped w
 Zhing Richard: If anyone needs to develop telegram mini-apps, trading bots for TON blockchain and various other products! dm me.
 
 Devsyn: Guys... Is it possible to integrate Ton Wallet or other Ton ecosystem wallet to a mobile app so? 🤔
+
+&rey: They already are compatible with mobile. (reply to 152794)
+
+Anastasiia: UP 🤏 (reply to 152401)
+
+Devsyn: Does TonConnect turn this possible? 🤔 (reply to 152801)
+
+Devsyn: I mean, I would like to give the user the ability to create or import a wallet inside the app, so the user can aprove transactions and interact with the blockchain.
+
+&rey: So you want to create a wallet app. (reply to 152812)
+
+Devsyn: Not necessary 😂, but if I don't find a way I think I'll need to handle the situation this way. (reply to 152813)
+
+&rey: Your requirements sound exactly like a wallet application. What is the difference, then? (reply to 152814)
+
+Devsyn: Because I wouldn't like to create all the logic for a wallet software. I don't want to recreate the wheel. I noticed if I use TonConnect, the user would be redirected to confirm a transaction on the wallet he connected. I would like to let he do confirmations etc inside my app.
+
+Devsyn: But I don't know if there is something that turns this possible on TON
+
+Devsyn: Otherwise I'll need to create a logic like a wallet
+
+&rey: Perhaps you want that user confirms requests of your app inside that app itself? (reply to 152816)
+
+Devsyn: Yes, exactly hahaha (reply to 152820)
+
+&rey: Then you would be best removing TC2 and creating your own module, @ton/ton-based, providing sendTransaction method.  DO NOT import existing mnemonics for users, in name of security. Generate a new wallet, store its keypair on frontend (preferably with some recovery option but I'm not sure which) and make user deposit a bit there; then, your app will be able to spend with JS. (reply to 152821)
+
+&rey: Or perhaps you want a payment channel? It is very similar in nature.
+
+Devsyn: Ok (reply to 152822)
+
+Devsyn: Maybe, I'm still exploring TON ecosystem (reply to 152823)
+
+Devsyn: I don't know how payment channels works yet
+
+Devsyn: But the thing is: I want the user to confirm transactions without the need to leave the app, otherwise it would break all the UX
+
+Devsyn: I think the only way to turn this possible is letting the user import/create a wallet. But I am not sure yet 🥲 (reply to 152827)
+
+&rey: Please DO NOT import. Generate a new keypair using @ton/crypto. (reply to 152828)
+
+Devsyn: Yes, I think I'm going to use this method. (reply to 152830)
+
+Devsyn: Thanks for your help! 🫶
+
+M: Hey ! I'm trying to understand bounced messages and when does a message produces a bounce. If it can do it in every phase (compute phase , action phase )??  Let's suppose I'm sending jettons from jeton-wallet A to jetton-wallet B. If the message fails in the first compute phase, ie in wallet A execution of the code there will be a bounce message to the originating sender address  if the internal message was marked as bounceable??  If the message fails in action phase in wallet A (when sending raw message to wallet B ) there will be a bounce message to the originating sender address if the message was marked as bounceable? or to wallet A?   Once the message arrives to jetton- wallet B and the transaction fails in compute phase that message will bounce if the original message was marked as bounceable?  thanks in advance
+
+M: my understanding is that bounces only happen in compute phase but there's a special case where they can happen in action phase when using  SEND_MODE_BOUNCE_ON_ACTION_FAIL  as mode is that correct?
+
+— 2025-07-02 —
+
+Mary: Hello I made a nft collection that uses the 0062-nft-standard on ton testnet network(for now) What i want to make is a smart contract using tact language (using blueprint (npm create ton@latest)) That will take a fee from the user + mint a nft on that collection with the data i need and send the nft to the user (and send the remaining amount to my wallet) But i cant figure out how to mint nft on the collection It seems like the smart contract should be the owner of the nft collection which i can do But even after that, i cant mint a working nft_item on the collection using tact language and the smart contract I have done some stuff on the testnet and i can provide the transaction links to you in your direct if you want to check them Can you guide me? Or at least tell me where can i find a good source to help me accomplish my goal Thanks a lot for your time (reply to 152830)
+
+Devsyn: I tried this and got a bunch of problems with react native. Any examples I can follow along? (reply to 152830)

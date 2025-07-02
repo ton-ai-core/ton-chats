@@ -611,3 +611,7 @@ Unknown: 💬 Infrastructure Time  What Infrastructure do you need to ship faste
 — 2025-06-27 —
 
 Unknown: 📣 TON Developers — we need your feedback!  Help us shape the future of TON development. We’ve prepared a detailed survey to understand your experience with: 🧠 Smart contract languages (Tact, Func, Tolk) 📚 Documentation and education 🛠 SDKs, IDEs, and tools 🤖 Telegram Mini Apps 💬 Developer support and pain points  💎 As a thank you, we’ll issue an SBT (Soulbound Token) to your wallet as proof of contribution to the ecosystem.  👉 Take the survey here: https://docs.google.com/forms/d/e/1FAIpQLSfDm85Z7YxDw96nMeV9T-b2kmd2qAe8xt0_iag8ZqrgqKuCRw/viewform  🕐 Takes 5 minutes. Every voice matters. Let’s build a better TON together.
+
+— 2025-07-01 —
+
+Unknown: https://github.com/gobicycle/bicycle/releases/tag/v0.10.1  Important update!  Changes will soon be applied to the Mainnet that will disrupt some services (including Bicycle). A new version v0.10.1 has been released to support these changes. To maintain the functionality of bicycle, it is recommended to update as soon as possible. (forwarded from gobicycle)

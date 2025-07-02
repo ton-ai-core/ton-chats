@@ -8355,3 +8355,33 @@ Royal: So can you teach me
 — 2025-07-01 —
 
 Treasure: Good day, I have an issue. I have a transaction code (main net) and it works for desktop but when I test it on mobile, it tells me bad request. Is there a particular reason why it doesn’t work? I tried using Tonkeeper mobile and telegram inbuilt wallet
+
+Nerses: I’m trying to use the utility functions from this file to estimate storage fees and gas used, so I can require the incoming value in a smart contract to be greater than that and avoid partial execution. However, when I fetch data for the storage phase, I get something like:  {   storageFeesCollected: 0n,   storageFeesDue: undefined,   statusChange: 'unchanged' }  which doesn’t give me any info. For the same transaction, the compute phase returns: {   type: 'vm',   success: true,   messageStateUsed: false,   accountActivated: false,   gasFees: 15017000n,   gasUsed: 15017n,   gasLimit: 1000000n,   gasCredit: undefined,   mode: 0,   exitCode: 0,   exitArg: undefined,   vmSteps: 263,   vmInitStateHash: 0n,   vmFinalStateHash: 0n }  What’s the best practice for estimating storage fees and gas in this context? Also, could it be that I’m not using storageGeneric correctly? Any advice or examples would be appreciated!
+
+maksim: If your storage fees are unchanged or inconsistent, this is probably related to sandbox being different from the actual net for this cases. Honestly my best advise is just leave 0.1 ton after deployment on balance and thus ensure that in future all amounts won't be affected by storage fee at all  here is snippet for how you would want to test fees with this approach   // deploy amount is 0.1 ton, other is up to test         expect(contractBalanceAfterLocks.balance).toBeGreaterThanOrEqual(totalFunds + totalLockEarn - 1n);         expect(contractBalanceAfterLocks.balance).toBeLessThanOrEqual(totalFunds + totalLockEarn + deployAmount); (reply to 66172)
+
+Nerses: I am using a lil bit similar approach, my contract is escrow so except the storage reserve I also have some deposited balance on it. So for deposit I reserve the amount + 0.0001TON . and for every incoming msg just 0.0001TON. What you think of this approach ? Also I am not sure that my current approach will ensure not having partial execution of contract (reply to 66173)
+
+&rey: What do you even mean by "partial execution of contract"? (reply to 66174)
+
+&rey: That isn't feasible unless you commit current state, and you would notice that.
+
+Nerses: in contract I am sending more than  2 msgs, in case of insufficient funds part of msgs can be sent while other part remain unsent (reply to 66175)
+
+&rey: If you don't want that, remove flag SendIgnoreErrors. (reply to 66177)
+
+Nerses: Got it! thanks, will change it. What about resreving 0.0001TON for each incoming msg as storage fee ? (reply to 66178)
+
+&rey: May I also recommend reading through TON whitepapers? They would provide a nice basis how to think of your contracts and design them to particular requirements.
+
+Nerses: I have seen different approaches on topic of storage fees. So there isnt one unified best approach thats why I just asked for an advice or opinion. (reply to 66180)
+
+&rey: I'm sure it can be worked out to specific requirements. If you figure a new option and want it to get into the book, you can contact me! (reply to 66181)
+
+Nerses: some of the docs are dated to 2020 or 2021. are they outdated ? also could you point which one to investigate for my issue ? (reply to 66182)
+
+&rey: They aren't too far off (most changes of blockchain relative to their scope are late 2024). I am recommending them for self-education, not for this issue specifically. (reply to 66183)
+
+Nerses: How blueprint tests should be run so result fees and used gas be comparable to mainnet and testnet ? as for running in sandbox they are extra differnt
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)

@@ -2003,6 +2003,18 @@
       "file": "photos/photo_221.jpg",
       "width": 1179,
       "height": 1177
+    },
+    {
+      "id": 223,
+      "type": "message",
+      "date": "2025-07-01T08:35:11.000Z",
+      "date_unixtime": "1751358911",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "https://github.com/gobicycle/bicycle/releases/tag/v0.10.1\n\nImportant update! \nChanges will soon be applied to the Mainnet that will disrupt some services (including Bicycle). A new version v0.10.1 has been released to support these changes. To maintain the functionality of bicycle, it is recommended to update as soon as possible.",
+      "forwarded_from": "gobicycle",
+      "forwarded_from_id": "channel1332450080",
+      "forwarded_date": "2025-07-01T08:34:26.000Z"
     }
   ]
 }
