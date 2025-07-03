@@ -2291,3 +2291,31 @@ M: my understanding is that bounces only happen in compute phase but there's a s
 Mary: Hello I made a nft collection that uses the 0062-nft-standard on ton testnet network(for now) What i want to make is a smart contract using tact language (using blueprint (npm create ton@latest)) That will take a fee from the user + mint a nft on that collection with the data i need and send the nft to the user (and send the remaining amount to my wallet) But i cant figure out how to mint nft on the collection It seems like the smart contract should be the owner of the nft collection which i can do But even after that, i cant mint a working nft_item on the collection using tact language and the smart contract I have done some stuff on the testnet and i can provide the transaction links to you in your direct if you want to check them Can you guide me? Or at least tell me where can i find a good source to help me accomplish my goal Thanks a lot for your time (reply to 152830)
 
 Devsyn: I tried this and got a bunch of problems with react native. Any examples I can follow along? (reply to 152830)
+
+gag: Hi  I build dapp with tonconnect in web and mini app.  The mini app can connect to the telegram build in wallet, but when execute a transaction the wallet could not popup. It works fine in web browser.   The dev console has no error and warnings.  Anyone has similar problem? How to fix this?  Thanks.
+
+meomeocoj | Mike: Hi admin could i share our journey in bulding the AMM in TON here ? It is simply X Post
+
+meomeocoj | Mike: https:// x.com/orbiton_fi/status/1940338208056955376?s=46&t=a9paN49UqE_RUR7cL1phOw  We could not continue to implement a CLMM in TON. But if you interesting we have openSource all the code from contract, indexer, smartrouter and TMA in the github link.
+
+meomeocoj | Mike: If any question please DM me, we will answer question about the source.
+
+Devsyn: Does anyone has ever worked with react native while implementing TON dapps? I'm trying and lot of errors are showing up when installing @ton/core @ton/crypto @ton/ton
+
+Mary: Anyone familiar with smart contracts and tact language And familiar with nft collection and nft item minting using 0062-nft-standard? I need help
+
+Spyder: What is wrapped Ton
+
+&rey: The name for any TEP-74 jetton which can be interconverted with TON 1:1 modulo fees. Used to unify asset handling in complex systems, and so that actual value cannot be burned for computation.  If you received a jetton, even calling itself "wrapped TON", unprompted, then it might be scam. (reply to 152927)
+
+EnCryptoknight ⚔️: review the documents you might be installing wrong packages https://docs.telegram-mini-apps.com/packages  verify packages   https://www.npmjs.com/package/@ton/core (reply to 152915)
+
+— 2025-07-03 —
+
+TON Bounty Bridge: ​Ayuda  🏷 Developer Tool  Summary:Aaaa  Created by axell2180
+
+pursue: /stat@combot
+
+Combot: Total messages: 152943
+
+You may: https://receive-sms.com?share=free_credit

@@ -9407,3 +9407,17 @@ Mason: 感谢
 Yves: 搶佔 Mars2049 空投——立即加入領取您的份額！
 
 Combot: 戀上x50 has been banned! Reason: CAS ban.
+
+NickYan: 请问 微信小程序 转成 TG小程序 目前有没有什么好的方案呀
+
+Louis: 我们的mini app 上线2周，目前月活 25k+, 欢迎大家合作啊 👀 官方支持的crypto card 项目@RedotPay_bot
+
+Andrew: 你们的小程序可以变成一个纯Web服务网页版本，就可以配置到 TG (reply to 94507)
+
+Andrew: TG 小程序就是一个纯 Web，如果要用 TG 的一些信息或者交互，可以再接 TG 的JavaScript/TypeScript SDK
+
+— 2025-07-03 —
+
+NickYan: 我又来了，我们支持星星支付，这个Telegram Star有官方icon 下载地址吗🧐
+
+Combot: 给 has been banned! Reason: CAS ban.
