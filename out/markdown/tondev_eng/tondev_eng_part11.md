@@ -2319,3 +2319,57 @@ pursue: /stat@combot
 Combot: Total messages: 152943
 
 You may: https://receive-sms.com?share=free_credit
+
+Axror: Does anyone know in which library and version the following functions are available?  import_wallet, get_jetton_transactions, transfer_jetton  If you know, please let me know. Thanks in advance.
+
+&rey: tonutils perhaps? (reply to 152954)
+
+Антон: maybeee
+
+Vetch: Hi, does anyone know why the toncenter API doesn't return data of the two USDT deposit that happened before the first TON deposit of this address?  curl -X 'GET' \   'https://toncenter.com/api/v2/getTransactions?address=UQBcUOVngVSHr4dmf2hFa4u4pFm7b4wji5ZBTE1A8C0hi5iQ&limit=100&to_lt=0&archival=true' \   -H 'accept: application/json'
+
+&rey: With this API, you are viewing transactions as they happened on blockchain; you must be seeing transfer notifications originating from USDT transfers. (reply to 152968)
+
+Nerses: Can someone give a hint how i can get public key of wallet in tests where the wallet is just instance of SandboxContract<TreasuryContract> ?
+
+&rey: How would you use it if it existed? (reply to 152972)
+
+Nerses: In my smart contract I am doing signature check (using checkSignature) and thus validate the action. (reply to 152975)
+
+&rey: That key does not have to match wallet key IMO. (reply to 152976)
+
+Nerses: Then how should be done tests for checkSignature  ? (reply to 152977)
+
+&rey: import { keyPairFromSeed, getSecureRandomBytes } from "@ton/crypto"; (reply to 152978)
+
+Gene: Hi, Is there any deployment document for ton-indexer? The deployment failed with v1.1.8, which seemed to be a database initialization failure, but it was successfully deployed with v1.0.2
+
+Prashant: How to withdraw
+
+Emirhan: Every wallet works, but Tonkeeper stucks like that after connecting to my website
+
+&rey: What do you mean? Please don't enter/send secrets anywhere except your wallet app. (reply to 152982)
+
+Vetch: Yes, is there a way to obtain these USDT transfer notification in toncenter API? It seems they only return those that happens after the first TON transfer (reply to 152970)
+
+&rey: Idk about to_lt=0, have you tried removing that parameter? (reply to 152988)
+
+Vetch: Tried without the to_lt, didn't affect the result (reply to 152989)
+
+&rey: > tonConnectUI.sendTransaction takes a very long time to respond or does not send boc at all Probably depends on specific wallet app users are in.
+
+&rey: (your message got deleted because of a mention)
+
+Никита: they use tg wallet and there were no problems with the answer before
+
+Никита: It's like there's something wrong with the servers
+
+&rey: Bridges are prone to collapse, and I don't think anyone except Telegram can fix theirs. (reply to 153003)
+
+Khosro: Greetings to all. I'm looking for a list of current "library cells" on the Ton network  Can someone point me in the right direction?
+
+— 2025-07-04 —
+
+&rey: Perhaps https://dton.io/graphql can help you. (reply to 153016)
+
+Combot: Hello CiaoAI William1! Click on the button below so that we understand that you are not a bot who came to tell us about how Durov is giving away bitcoins as a gift.

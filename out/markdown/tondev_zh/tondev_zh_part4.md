@@ -9421,3 +9421,15 @@ Andrew: TG 小程序就是一个纯 Web，如果要用 TG 的一些信息或者�
 NickYan: 我又来了，我们支持星星支付，这个Telegram Star有官方icon 下载地址吗🧐
 
 Combot: 给 has been banned! Reason: CAS ban.
+
+csx: hello
+
+Andrew: TON Liquid Staking  👨‍💻 特邀嘉宾：KTON 工程师 Philip  议程预览 1️⃣ LST 市场增长概览 2️⃣ TONX 在生态中的五年积累 3️⃣ KTON：Toncore LST V2 —— 前沿 & 安全 4️⃣ KTON 在 TON DeFi 项目的深度覆盖 5️⃣ 开发者无缝集成 KTON 6️⃣ 总结与展望  🔗直播开始啦： https://x.com/i/broadcasts/1mrxmPEQeeLJy
+
+— 2025-07-04 —
+
+ٰ: Hi
+
+Combot: 哦 has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

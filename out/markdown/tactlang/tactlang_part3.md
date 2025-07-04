@@ -8413,3 +8413,11 @@ Cornelius: Hello,  I'm looking for some guidance regarding NFTs. I have a few qu
 — 2025-07-03 —
 
 Shendy Yudha: /
+
+Noname: Hi everyone! I’m new to Tact and blockchain. Can anyone guide me on how to create a crypto coin using Tact that is also tradable on TON using Jetton? I’ve searched but couldn’t find a proper tutorial. Any help or links would be really appreciated. Thanks! 🙏
+
+Royal: Hi everyone! I’m new to Tact and blockchain. Can anyone guide me on how to create a crypto coin using Tact that is also tradable on TON using Jetton? I’ve searched but couldn’t find a proper tutorial. Any help or links would be really appreciated. Thanks! 🙏
+
+Boris: You can use Ton minter with testnet for Jetton  If you want receive toncoins you can use testgiver bot (reply to 66261)
+
+Blueworker: how do I start
