@@ -8421,3 +8421,25 @@ Royal: Hi everyone! I’m new to Tact and blockchain. Can anyone guide me on how
 Boris: You can use Ton minter with testnet for Jetton  If you want receive toncoins you can use testgiver bot (reply to 66261)
 
 Blueworker: how do I start
+
+— 2025-07-04 —
+
+CrazyIsland: hi, I have tried the following code to fix :    const calculatedOpcode = this.crc32("Add") & 0x7fffffff;     console.log('calculate opcode for "Add":', '0x' + calculatedOpcode.toString(16));          // use opcode for "Add" - 0x45573507     const body = beginCell()       .storeUint(0x45573507, 32)        .storeUint(amount, 32)        .endCell();     —— but it is not working, could you please advice how to fix it? (reply to 66226)
+
+fruitful-l: I’m pretty sure you need crc for full message, not just “Add” (reply to 66298)
+
+&rey: Do you know what a TL-B scheme is? If you don't, then just don't calculate opcodes automatically. Tact already creates wrappers to serialize each message. (reply to 66298)
+
+fruitful-l: I’m pretty sure tact also generates a tlb scheme with crc32 of the message (reply to 66300)
+
+CrazyIsland: ok, is there any documentation about it? could please provide it. Thanks (reply to 66300)
+
+&rey: I advise to drop the matter. https://docs.ton.org/v3/documentation/data-formats/tlb/tl-b-language (reply to 66302)
+
+CrazyIsland: is it something like this :     const tlbSchema1 = "Add amount:uint32 = InternalMsgBody";     const opcode1 = this.crc32(tlbSchema1) & 0x7fffffff; (reply to 66303)
+
+CrazyIsland: what is the right code to do it? help please)
+
+fruitful-l: After building you project you’ll have .md file in your build repository. There you can find every TL-B instruction. It should be something like  TL-B: add, then crc32 of this instruction, like #87a53ba3, and the rest of the instruction (reply to 66304)
+
+Devialle: Hello @ft_rm_bot Is there anyone here who wrote the contract for this project or knows this person

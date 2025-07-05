@@ -2373,3 +2373,79 @@ Khosro: Greetings to all. I'm looking for a list of current "library cells" on t
 &rey: Perhaps https://dton.io/graphql can help you. (reply to 153016)
 
 Combot: Hello CiaoAI William1! Click on the button below so that we understand that you are not a bot who came to tell us about how Durov is giving away bitcoins as a gift.
+
+kevin: https://github.com/cmingxu/dedust  Hey, I decide to opensource my MEV bot for dedust project which took me 5 months and almost 1000 TON , if it can provide any form of help to you,  I would be happy.
+
+Princewill Tor-Anyiin: Good morning   I dropped a message here about a project I'm building on TON for Africans.  Unfortunately seems the admin deleted it.  I'm sorry if I violated certain rules here by talking about a regional centered project.  I'll like to know the rules, so as not to violate them 🙏  I was actually told I'll meet all the support I need here.  Thanks.
+
+FUN-Gu: Good morning can you message me ? (reply to 153047)
+
+FUN-Gu: Not concerning this (reply to 153047)
+
+&rey: That 'call' was pretty much full of buzzwords. It would be better if you explained what you actually needed of the devs (how many smcs), what kind of compensation is there, and so on. (reply to 153047)
+
+Litinski: Hi everyone! Guys, please tell me if anyone has encountered a similar problem the essence is that when focusing on input the whole page is re-rendered and it happens only on IOS  I bet that this is somehow related to the fact that I use "reactive" libs like rxjs and at the moment when the keyboard should appear the viewport is triggered which causes the re-rendering of components that are the pipelines for streams which in turn triggers the re-rendering of everything else, but why is this happening? keyboard should appear, the viewport is triggered which causes the re-rendering of the components that are bundling for streams which in turn triggers the re-rendering of everything else but why this works for androids I don't understand  any ideas would be appreciated.
+
+&rey: Unfortunately I don't think this chat is related unless you get the redraw from TON UI libs; https://t.me/devs may know. (reply to 153051)
+
+Princewill Tor-Anyiin: Alright chief (reply to 153050)
+
+Princewill Tor-Anyiin: CALL FOR TON DEV TEAM: AFRO-NODE MVP & Grant Momentum  Hey TON Devs 👋 My project, AFRO-NODE, a Pan-African Web3 dual ecosystem on TON, has just been shortlisted for the second stage of a Grant! Now, I need skilled FunC and Tact smart contract developers to build out our MVP. My foundational contracts are ready (via prompt engineering), but I need expert hands to enhance security and build the full Jetton Master Contract and core DApp logic. This is a bootstrapped project, and I'll be offering Pre-TGE $ANODE utility tokens of AFRO-NODE as payment for early contributors. If you're passionate about African tech and want to join a project with real momentum, let's connect! DM me.
+
+Nerses: While testing smart contract transfers in Blueprint tests, I observe that the transferred amount is lower than the expected fixed value. However, on testnet, it works as expected. Has anyone encountered this issue before, or is this a known difference between the Blueprint sandbox and testnet environments?
+
+Khosro: Do you know how to find a deployed jetton wallet's lib hash on blockchain? (reply to 153033)
+
+Andrey: dton.io => go to jetton wallet => disassembler => hash will be on top (reply to 153064)
+
+Khosro: Thank you very much !!! (reply to 153066)
+
+Veto: i have a question about telegram web widget which  provide us to show telegram post in other webssite
+
+&rey: It is not for this chat. (reply to 153074)
+
+Zaidu: Hello everyone, please can anyone guide me in setting the environment for building smart contracts on GitHub using Func?.
+
+Zaidu: I have tried multiple approach, downloading manually, creating a dev container...but whenever I try to initialize the toncli it always gives the error of not having a path for the executables.
+
+mikail: what library on python can i use to automate stars buying on fragment?
+
+&rey: Well you should put the downloaded executables on PATH. If Windows, don't forget OpenSSL 1.1.1. (reply to 153101)
+
+ᅠ: hey guys, new here, have a wild idea of doing some nfts tonight, some advices or a contract sample please?
+
+︎ ︎: Not unfolding?
+
+︎ ︎: ton
+
+ᅠ: have experience in other blockchains, think it would be nice to try, some specifics, and why github sdk dont work?
+
+High/or: hello !  dton-magic.org seems down do you have other mirrors for .ton?  Foundation.ton dont works on telegram browser and i mean telegram browser use dton-magic.org
+
+High/or: 😢
+
+Vesting: down access (reply to 153114)
+
+High/or: Do you know another bridge for .ton sites than dton-magic.org and ton.run which are both currently out of service (reply to 153116)
+
+Vesting: I dont know (reply to 153117)
+
+Vesting: maybe this https://rubic.exchange/bridge/ton (reply to 153117)
+
+fruitful-l: Hi! Does anyone by any chance know the reference of setting on-chain metadata for NFT and Jettons?
+
+High/or: It’s a bridge for crypto.  I’m looking for a bridge to visit .ton sites (reply to 153119)
+
+Vesting: I dk (reply to 153122)
+
+High/or: I mean a gateaway / resolver http (reply to 153123)
+
+High/or: how can I create a .ton public gateway on my own domain ?   example to make all .ton sites with a .highor.com suffix accessible.  e.g foundation.ton would be accessible on foundation.ton-highor.com for example (reply to 153114)
+
+— 2025-07-05 —
+
+Roj: https://en.wikipedia.org/wiki/Proxy_server (reply to 153125)
+
+High/or: Thanks I created my own .ton gateaway  But foundation.ton still dont works (all my .ton sites works) (reply to 153127)
+
+GG: What's up with TON?  Can't bridge from other networks, and withdrawals from exchanges are blocked.

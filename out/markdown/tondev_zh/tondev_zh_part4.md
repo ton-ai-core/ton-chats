@@ -9433,3 +9433,17 @@ Andrew: TON Liquid Staking  👨‍💻 特邀嘉宾：KTON 工程师 Philip  �
 Combot: 哦 has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+kevin: 兄弟们， 去年一直在研究 Dedust 的 MEV bot，结果收益一直没法做到收敛， 一直有大神广播做的比我好， 入链的速度比我快。 后来因为其他事情没有继续， 现在把代码/合约都放出来， 看哪位有缘可以用上。    https://github.com/cmingxu/dedust
+
+FENG: 又是一張4倍單😱 兄弟們這個合約群還不錯啊  感興趣的兄弟 點上面直接就可以加入 (reply to 519)
+
+Marcello: Hi guys, does anyone know what could be the issue when the mini app show to the user this error when he opens some sections of it?😊
+
+Andrew: https://docs.telegram-mini-apps.com/platform/debugging  Open the debug console to check for any JavaScript error messages. (reply to 94676)
+
+— 2025-07-05 —
+
+Combot: 的 has been banned! Reason: CAS ban.
+
+Combot: 在 has been banned! Reason: CAS ban.
