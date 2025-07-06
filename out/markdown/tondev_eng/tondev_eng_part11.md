@@ -2449,3 +2449,37 @@ Roj: https://en.wikipedia.org/wiki/Proxy_server (reply to 153125)
 High/or: Thanks I created my own .ton gateaway  But foundation.ton still dont works (all my .ton sites works) (reply to 153127)
 
 GG: What's up with TON?  Can't bridge from other networks, and withdrawals from exchanges are blocked.
+
+Kirill: Hello everyone, what could have happened to liteserver that it's now giving -256 responses?
+
+Алина: I started experiencing a problem with my lite client, it won't run getAccountState on some accounts failing with Error: No more references
+
+&rey: Update the binaries to the newest version. (reply to 153180)
+
+Алина: What binaries? (reply to 153181)
+
+&rey: Liteserver apparently also has to update the binaries to the newest version. (reply to 153167)
+
+Kirill: How I can update?
+
+&rey: Liteclient's ones. If you use pytoniq, you will instead have to update some TL-B schemes (of Account structs) but I haven't looked how exactly. (reply to 153182)
+
+&rey: I don't think you can, if you do not manage that exact liteserver. (reply to 153184)
+
+Kirill: Why were there no announcements anywhere?
+
+Kirill: I have access to the server (reply to 153186)
+
+&rey: Here you are: https://t.me/tonstatus/169 (reply to 153187)
+
+Kirill: Thanks
+
+&rey: REPEAT ANNOUNCEMENT if you host a node, a custodial service (exchange / deposits / like)  The blockchain structures have been updated and are now incompatible with past versions of software verifying all the proofs (whether those are liteservers, cpp liteclients or pytoniq liteclients). Please do the upgrade as outlined in https://t.me/tonstatus/169.
+
+Алина: I have little clue :( I use https://github.com/ton-core/ton-lite-client/blob/master/src/schema.tl, did these get updated? (reply to 153185)
+
+Алина: Thanks to Tim! If you use ton-lite-client you have to now update @ton/core package
+
+— 2025-07-06 —
+
+Axror: Hello. I'm using a macbook. I'm getting errors when installing the pytonlib library in python. Does anyone know how to install it correctly? Does pythonlib have this function (import_wallet,get_jetton_transactions,transfer_jetton)?

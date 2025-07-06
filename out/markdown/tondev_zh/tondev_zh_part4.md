@@ -9447,3 +9447,27 @@ Andrew: https://docs.telegram-mini-apps.com/platform/debugging  Open the debug c
 Combot: 的 has been banned! Reason: CAS ban.
 
 Combot: 在 has been banned! Reason: CAS ban.
+
+Combot: Ruthallen272 Patok has been banned! Reason: CAS ban.
+
+Combot: Sarah Hughes has been banned! Reason: CAS ban.
+
+Combot: Vo Nghia has been banned! Reason: CAS ban.
+
+Combot: kihoang kihoang has been banned! Reason: CAS ban.
+
+Combot: 吧 has been banned! Reason: CAS ban.
+
+Combot: Sk Srey has been banned! Reason: CAS ban.
+
+Combot: 给 has been banned! Reason: CAS ban.
+
+Combot: Ba Ba has been banned! Reason: CAS ban.
+
+— 2025-07-06 —
+
+Combot: 有 has been banned! Reason: CAS ban.
+
+6666feile: lite-server 有问题吗？全是失败，retry 20了都
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

@@ -8443,3 +8443,7 @@ CrazyIsland: what is the right code to do it? help please)
 fruitful-l: After building you project you’ll have .md file in your build repository. There you can find every TL-B instruction. It should be something like  TL-B: add, then crc32 of this instruction, like #87a53ba3, and the rest of the instruction (reply to 66304)
 
 Devialle: Hello @ft_rm_bot Is there anyone here who wrote the contract for this project or knows this person
+
+— 2025-07-05 —
+
+Abraham: What happens (reply to 66323)

@@ -12691,6 +12691,36 @@
       "file": "photos/photo_2633.jpg",
       "width": 852,
       "height": 513
+    },
+    {
+      "id": 2635,
+      "type": "message",
+      "date": "2025-07-05T16:29:20.000Z",
+      "date_unixtime": "1751732960",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Да, правильно понимаете",
+      "reply_to_message_id": 2634
+    },
+    {
+      "id": 2636,
+      "type": "message",
+      "date": "2025-07-05T16:30:05.000Z",
+      "date_unixtime": "1751733005",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "В sandbox можно вычислить точное значение. В тестах в том же репозитории был пример",
+      "reply_to_message_id": 2634
+    },
+    {
+      "id": 2637,
+      "type": "message",
+      "date": "2025-07-05T17:46:30.000Z",
+      "date_unixtime": "1751737590",
+      "from": "Roman",
+      "from_id": "user7197127123",
+      "text": "Нашел, спасибо)) \nДля истории здесь нужно сбилдить, запустить тесты, посмотреть вывод и от этого плясать.\nhttps://github.com/tact-lang/jetton/tree/main",
+      "reply_to_message_id": 2636
     }
   ]
 }
