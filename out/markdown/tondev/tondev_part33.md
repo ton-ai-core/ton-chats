@@ -9511,3 +9511,179 @@ BIN: Или как в мтв открыть в4р2
 User: https://ton-community.github.io/ton/ — JS/TS  https://github.com/nessshon/tonutils/blob/main/examples/wallet/create_wallet.py — Python (reply to 312477)
 
 BIN: Та уже создал, спасибо. А как открыть V4R2 в MyTonWallet, если на той же мнемонике есть V5R1?
+
+$ danbesy. 🦣 //: могу сказать только за тонкипер) (reply to 312480)
+
+BIN: Та там и просто мне мтв больше нравится, но они мне уже сами сказали, что у них это нельзя :(
+
+Max: А чего в тонкипере не хватает, если не секрет? (reply to 312484)
+
+$ danbesy. 🦣 //: о, ты мне нужен, в лс) (reply to 312486)
+
+BIN: майтонваллет (reply to 312486)
+
+BIN: Мои месседжи бот удаляет, хотя они не несут в себе запрет слов :/
+
+$ danbesy. 🦣 //: мб прем эмодзи юзаешь, из-за них удаляет (reply to 312494)
+
+BIN: И без них удаляло :D
+
+BIN: Вообщем не суть, просто душа к мтв лежит, привык за время пользования.
+
+BIN: Очень печально, что он не умеет в казалось бы базовые функции(-ю) (reply to 312497)
+
+Denis: Просто список запретных слов внезапный. Например бес<антибот>платно (reply to 312494)
+
+fruitful-l: Подскажите, может кто-то увидит что не так? Передаю метадату в таком формате export type NFTCollectionConfig = {     owner: Address;     collectionContent: Cell;     commonContent: Cell;     itemCode: Cell;     royaltyFactor: bigint;     royaltyBase: bigint; };  export function NFTCollectionConfigToCell(config: NFTCollectionConfig): Cell {     return beginCell()         .storeAddress(config.owner)         .storeUint(0, 64)         .storeRef(beginCell().storeRef(config.collectionContent).storeRef(config.commonContent).endCell())         .storeRef(config.itemCode)         .storeRef(             beginCell()                 .storeUint(config.royaltyFactor, 16)                 .storeUint(config.royaltyBase, 16)                 .storeAddress(config.owner)                 .endCell(),         )         .endCell(); } Следовательно скрипт выглядит таким образом export async function run(provider: NetworkProvider) {     const owner = provider.sender().address!!;     const colMeta = {     name: 'On-chain Zombies',     description: 'TEP ZomBos',     image: 'https://i.postimg.cc/9CRgYzJk/Chat-GPT-Image-5-2025-19-33-37.png'   };      const metadataCell = metadataToCell(colMeta);      const itemCode = await compile('NftItem');      const collectionCode = await compile('NftCollection');      const nftCollection = provider.open(      NFTCollection.createFromConfig({       owner,       collectionContent: metadataCell,       commonContent: metadataCell,  // если у каждого токена своё — формируйте отдельно       itemCode,       royaltyFactor: 1000n,  // 10%       royaltyBase:    10000n // 100%     }, collectionCode)   );    await nftCollection.sendDeploy(provider.sender(), toNano('0.05'));    await provider.waitForDeploy(nftCollection.address); } Но метадата не отображается в сети, просто пустое поле
+
+&rey: А вы точно не хотите v3r2? (reply to 312477)
+
+fruitful-l: Вспоиогательные функции для формирования словаря (metadataToCell). Возможно где-то в них проблема function bufferToChunks(buf: Buffer, chunkSize = 127): Buffer[] {   const chunks: Buffer[] = [];   for (let i = 0; i < buf.length; i += chunkSize) {     chunks.push(buf.slice(i, i + chunkSize));   }   return chunks; }  export function makeSnakeCell(data: Buffer): Cell {   const chunks = bufferToChunks(data, 127);   let cell = beginCell().storeUint(0, 8);    let cur = cell;   for (let i = 0; i < chunks.length; i++) {     cur = cur.storeBuffer(chunks[i]);     if (i + 1 < chunks.length) {       const next = beginCell();       cur = cur.storeRef(next);       cur = next;     }   }   return cell.endCell(); }  export function metadataToCell(obj: Record<string, string>): Cell {   let dictCell = beginCell();   for (const [key, value] of Object.entries(obj)) {     const keyHash = createHash('sha256').update(key).digest();     const valBuf = Buffer.from(value, 'utf8');     const snake = makeSnakeCell(valBuf);     dictCell = dictCell       .storeBuffer(keyHash)             .storeRef(snake);             }   return beginCell()     .storeUint(0, 8)                   .storeRef(dictCell.endCell())     .endCell(); } (reply to 312507)
+
+sd: попробуй этот способ https://docs.tact-lang.org/cookbook/nfts/#onchain-metadata-nft-collection (reply to 312509)
+
+fruitful-l: Он разве не то же самое делает? (reply to 312510)
+
+sd: Он работает
+
+fruitful-l: На такте?) (reply to 312512)
+
+fruitful-l: Логи метадаты, которая создается локально для передачи в параметр collectionContent для меня выглядят вполне нормальными LOCAL metadataCell: x{00}  x{82A3537FF0DBCE7EEC35D69EDC3A189EE6F17D82F353A553F9AA96CB0BE3CE89C9046F7A37AD0EA7CEE73355984FA5428982F8B37C8F7BCEC91F7AC71A7CD1046105D6CC76AF400325E94D588CE511BE5BFDBB73B437DC51ECA43917D7A43E3D}   x{004F6E2D636861696E205A6F6D62696573}   x{00544550205A6F6D426F73}   x{0068747470733A2F2F692E706F7374696D672E63632F39435267597A4A6B2F436861742D4750542D496D6167652D352D323032352D31392D33332D33372E706E67} (reply to 312509)
+
+Nikolas: Ребята а что ton site втихаря отменили?
+
+Михаил Керимов (762rev+)|Гарант: Ребят,помогите
+
+Михаил Керимов (762rev+)|Гарант: Мне скинули вроде их на тон спецс,а обменять нигде не могу их
+
+Михаил Керимов (762rev+)|Гарант: мне пишет что они недоступны для обмена
+
+User: Что скинули вам? Можете нажать на скрытые токены и скинуть скриншот (reply to 312525)
+
+Михаил Керимов (762rev+)|Гарант: Через @wallet
+
+XT: Это не настоящий тон (reply to 312528)
+
+User: Вам пополнили скам токен $TON. Будьте бдительны в следующий раз (reply to 312528)
+
+Михаил Керимов (762rev+)|Гарант: Я так и понял
+
+Михаил Керимов (762rev+)|Гарант: А как это?
+
+XT: Любой может создать свой токен, кто-то сделал токен с $ в начале
+
+Андрей: Если вы про то что перестало открываться в телеграмме - то в телеграмме и переводчик перестал работать Надо бы им в репу ПР сделать с добавлением локального тон-прокси и локального переводчика Зачем они сделали централизованно через свой единственный сервер - непонятно (reply to 312519)
+
+Alexander: Скажите а как вытаскивать состояние контракта в конкретный момент времени (блок/блок мастерчейна) не используя TonClient4 (https://mainnet-v4.tonhubapi.com/block/...)  А например с помощью tonapi? Я подозревал что надо вызывать что-то вроде getRawAccountState но оно у меня ничего кроме ошибки 500 не возвращает. Потому что TonClient4 что-то со вчера очень плохо.
+
+Nikolas: Да я так и понял что они полюбили. Интересно они починят или надо что то менять. Сейчас 502 ошибка (reply to 312540)
+
+XT: Кто-то может помочь сделать отправку транзакции NFT с комментарием через tonweb и tonconnect?
+
+Bohdan: Ребята у меня перестал коннектится tonkeeper web extension к проекту, когда ввожу пароль для подключения кошелька оно показывает done и на этом зависает, то есть окно tonkeeper extension не закрывается. Кто то сталкивался с таким?
+
+XT: document.getElementById('transfer-nft-button').addEventListener('click', async () => {     if (!tonConnectUI.wallet) {         alert('Please connect your wallet first');         return;     }          const nftAddress = document.getElementById('nft-address').value.trim();     const newOwner = document.getElementById('nft-new-owner').value.trim();     const forwardAmount = document.getElementById('nft-forward-amount').value.trim();     const comment = document.getElementById('nft-comment').value.trim();     console.log('comment', comment);     console.log(comment ? new TextEncoder().encode(comment) : null);          if (!nftAddress || !newOwner || !forwardAmount) {         alert('Please fill all required fields');         return;     }          try {         // Создаем payload для передачи NFT         const nftItem = new TonWeb.token.nft.NftItem(tonweb.provider, {             address: new TonWeb.utils.Address(nftAddress)         });                  const payload = await nftItem.createTransferBody({             newOwnerAddress: new TonWeb.utils.Address(newOwner),             forwardAmount: tonweb.utils.toNano(forwardAmount).toString(),             forwardPayload: comment ? new TextEncoder().encode(comment) : null,             responseAddress: new TonWeb.utils.Address(tonConnectUI.wallet.account.address)         });                  const payloadBoc = await payload.toBoc();         const payloadBase64 = TonWeb.utils.bytesToBase64(payloadBoc);                  // Создаем транзакцию         const transaction = {             validUntil: Math.floor(Date.now() / 1000) + 300,             messages: [                 {                     address: nftAddress,                     amount: tonweb.utils.toNano('0.1').toString(),                     payload: payloadBase64                 }             ]         };                  const result = await tonConnectUI.sendTransaction(transaction);                  showTransactionResult(`             <h3>NFT Transfer Initiated</h3>             <p><strong>NFT Address:</strong> ${nftAddress}</p>             <p><strong>New Owner:</strong> ${newOwner}</p>             <p><strong>Forward Amount:</strong> ${forwardAmount} TON</p>             <p><strong>Comment:</strong> ${comment || 'None'}</p>             <p><strong>Transaction Hash:</strong> ${result.boc}</p>         `);              } catch (error) {         console.error("NFT Transfer error:", error);         alert('NFT Transfer failed: ' + error.message);     } }); (reply to 312549)
+
+XT: Вместо комментария у меня вставляется Call 0x74657374
+
+Oleg: Не знаю, я вижу слово test) (reply to 312552)
+
+XT: Как? (reply to 312553)
+
+Oleg: Таблица ascii прошита в мозгу (reply to 312554)
+
+XT: А как сделать чтобы сразу текстом отображалось?
+
+Oleg: Могу предположить, что кошелек не умеет отображать.
+
+XT: Нет, в блокчейне тоже не test
+
+Oleg: а транзу можете предоставить?
+
+XT: Да (reply to 312559)
+
+Oleg: В текстовом виде хеш, желательно
+
+XT: te6ccsEBAQEAXQAAALVfzD0UAAAAAAAAAACAHYMU6AT/BpKf6r3czoHqy7yLp75r8PRBiDNqFUBml3mQA7BinQCf4NJT/Ve7mdA9WXeRdPfNfh6IMQZtQqgM0u8wgF9eEAdGVzdDEyM4tzXs1w== (reply to 312563)
+
+Oleg: Это не поможет
+
+XT: Хеш транзакции в блокчейне дать?
+
+XT: Отправил в личку
+
+XT: Вот так выглядит
+
+Oleg: 0074657374313233 Здесь у вас всего 8 нулевых бит, а должно быть 32
+
+User: Покажите как вы комментарий формируете  Если вы просто вставляете текст, попробуйте вставить ячейку:  beginCell().storeUint(0, 32).storeStringTail("Test") (reply to 312552)
+
+XT: Вот так я формируй транзакцию. Как она там при помощи tonweb.js формируется, я не вижу (reply to 312551)
+
+Oleg: Где нулевой опкод? (reply to 312573)
+
+XT: Вот сейчас я пытаюсь document.getElementById('transfer-nft-button').addEventListener('click', async () => {     if (!tonConnectUI.wallet) {         alert('Подключите кошелек сначала');         return;     }          const nftAddress = document.getElementById('nft-address').value.trim();     const newOwner = document.getElementById('nft-new-owner').value.trim();     const forwardAmount = document.getElementById('nft-forward-amount').value.trim();     const commentText = document.getElementById('nft-comment').value.trim();          if (!nftAddress || !newOwner || !forwardAmount) {         alert('Заполните все обязательные поля');         return;     }          try {         // 1. Формируем комментарий (если есть)         let forwardPayload = null;         if (commentText) {             const commentCell = new TonWeb.boc.Cell();             commentCell.bits.writeUint(0, 32); // 32 нулевых бита             commentCell.bits.writeString(commentText); // Текст комментария             forwardPayload = commentCell;         }                  // 2. Создаем payload для передачи NFT         const nftItem = new TonWeb.token.nft.NftItem(tonweb.provider, {             address: new TonWeb.utils.Address(nftAddress)         });                  const payload = await nftItem.createTransferBody({             newOwnerAddress: new TonWeb.utils.Address(newOwner), // Исправлено: Address, а не Address             forwardAmount: tonweb.utils.toNano(forwardAmount).toString(),             forwardPayload: forwardPayload, // Передаем ячейку с комментарием             responseAddress: new TonWeb.utils.Address(tonConnectUI.wallet.account.address)         });                  // 3. Конвертируем payload в base64         const payloadBoc = await payload.toBoc();         const payloadBase64 = TonWeb.utils.bytesToBase64(payloadBoc);                  // 4. Формируем транзакцию         const transaction = {             validUntil: Math.floor(Date.now() / 1000) + 300,             messages: [                 {                     address: nftAddress,                     amount: tonweb.utils.toNano('0.05').toString(), // 0.05 TON обычно достаточно                     payload: payloadBase64                 }             ]         };                  // 5. Отправляем транзакцию         const result = await tonConnectUI.sendTransaction(transaction);                  showTransactionResult(`             <h3>NFT успешно отправлен!</h3>             <p><strong>NFT Адрес:</strong> ${nftAddress}</p>             <p><strong>Новый владелец:</strong> ${newOwner}</p>             <p><strong>Сумма пересылки:</strong> ${forwardAmount} TON</p>             <p><strong>Комментарий:</strong> ${commentText || 'Нет'}</p>         `);              } catch (error) {         console.error("Ошибка:", error);         alert('Ошибка: ' + (error.message || 'Проверьте данные и попробуйте снова'));     } });
+
+XT: Не знаю. Как его найти/посмотреть? (reply to 312574)
+
+User: https://t.me/tondev/78158  Вот ответ на ваш вопрос. Полистайте чуть ниже от сообщения, там все расписано (reply to 312576)
+
+Oleg: Вы сами его должны вставить перед текстом (reply to 312576)
+
+Bohdan: Ребята, а как это получается, я создал кошелёк на тонкиппер, закинул туда тон, потом копирую сид фразу и импортирую кошелёк в mytonwallet и вижу что там совсем другой адрес и нету тех тонов которые через тонкиппер заводил. Разве при импорте не должно было подтянуть старый адрес с балансом?
+
+Just1k $BC: Разнятся в версии (reply to 312579)
+
+Just1k $BC: И импортируешь в V4
+
+Just1k $BC: Я сейчас ботом торговым занимаюсь. Тоже самое.
+
+Just1k $BC: Фраза одна и та же, но из-за разных версий, разные адреса и балансы
+
+Just1k $BC: Тебе надо Тон Китано зайти, и добавь версию 4 туда кинуть Тон и уже попробовать импорт
+
+Bohdan: Да вот глянул, версии там и там v5r1 (reply to 312580)
+
+Bohdan: Так показывает в тонвивере
+
+Bohdan: Но адреса разные)
+
+Just1k $BC: Странно очень
+
+Just1k $BC: А в МайТонВаллет тоже версия в5 пишет ?
+
+Bohdan: А как там глянуть? И забыл добавить что это тестнет (reply to 312590)
+
+XT: Ну если EQ и UQ, то это один адрес может быть (reply to 312588)
+
+XT: В разном формате просто
+
+fruitful-l: Был бы баланс одинаковый тогда мне кажется (reply to 312593)
+
+XT: Да, одинаковый будет (reply to 312595)
+
+User: Проверьте правильно-ли вы ввели сид фразу (reply to 312586)
+
+Denis: майтонволлет кривой адрес для v5 в тестнете делает. (reply to 312591)
+
+Bohdan: понял, принял (reply to 312598)
+
+XT: Вот так получилось по итогу document.getElementById('transfer-nft-button').addEventListener('click', async () => {     if (!tonConnectUI.wallet) {         alert('Please connect your wallet first');         return;     }      const nftAddress = document.getElementById('nft-address').value.trim();     const newOwner = document.getElementById('nft-new-owner').value.trim();     const forwardAmount = document.getElementById('nft-forward-amount').value.trim();     const comment = document.getElementById('nft-comment').value.trim();      if (!nftAddress || !newOwner || !forwardAmount) {         alert('Please fill all required fields');         return;     }      try {         const nftItem = new TonWeb.token.nft.NftItem(tonweb.provider, {             address: new TonWeb.utils.Address(nftAddress)         });          let forwardPayload = null;         if (comment) {             const cell = new TonWeb.boc.Cell();             cell.bits.writeUint(0, 32);              const encoder = new TextEncoder();             const commentBytes = encoder.encode(comment);             for (let byte of commentBytes) {                 cell.bits.writeUint8(byte);             }              const remainingBits = cell.bits.getFreeBits();             if (remainingBits > 0 && remainingBits < 8) {                 cell.bits.writeUint(0, remainingBits);             }              forwardPayload = cell;         }          const payload = await nftItem.createTransferBody({             newOwnerAddress: new TonWeb.utils.Address(newOwner),             forwardAmount: tonweb.utils.toNano(forwardAmount).toString(),             forwardPayload: forwardPayload,             responseAddress: new TonWeb.utils.Address(tonConnectUI.wallet.account.address)         });          const payloadBoc = await payload.toBoc();         const payloadBase64 = TonWeb.utils.bytesToBase64(payloadBoc);          const transaction = {             validUntil: Math.floor(Date.now() / 1000) + 300,             messages: [                 {                     address: nftAddress,                     amount: tonweb.utils.toNano('0.1').toString(),                     payload: payloadBase64                 }             ]         };          const result = await tonConnectUI.sendTransaction(transaction);          showTransactionResult(`             <h3>NFT Transfer Initiated</h3>             <p><strong>NFT Address:</strong> ${nftAddress}</p>             <p><strong>New Owner:</strong> ${newOwner}</p>             <p><strong>Forward Amount:</strong> ${forwardAmount} TON</p>             <p><strong>Comment:</strong> ${comment || 'None'}</p>             <p><strong>Transaction Hash:</strong> ${result.boc}</p>         `);      } catch (error) {         console.error("NFT Transfer error:", error);         alert('NFT Transfer failed: ' + error.message);     } }); (reply to 312551)
+
+— 2025-07-07 —
+
+Just1k $BC: Товарищи, доброй ночи. Для ТонФан данные в документации только для тестовой сети.  Где найти для Майн нет ?
+
+Vladimir: Что такое тонфан? (reply to 312615)
+
+Just1k $BC: Это проток для создания мемов в тоне.  Свапы, покупки продажи
+
+Just1k $BC: В документации только тестовые  данные
+
+Roj: Привет всем.  В блокчейне TON есть или нет транзакций с ID начинающимися с 00?
+
+&rey: С хешем? Должны быть, среди тысячи уж точно найдутся. (reply to 312621)
+
+&rey: Канонический идентификатор транзакции, конечно, это (адрес, хеш, логическое время).
+
+Roj: Да, хекс-версия хешах. (reply to 312622)

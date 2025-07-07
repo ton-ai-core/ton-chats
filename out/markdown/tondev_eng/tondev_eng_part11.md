@@ -2483,3 +2483,51 @@ Kirill: Thanks
 — 2025-07-06 —
 
 Axror: Hello. I'm using a macbook. I'm getting errors when installing the pytonlib library in python. Does anyone know how to install it correctly? Does pythonlib have this function (import_wallet,get_jetton_transactions,transfer_jetton)?
+
+User: Currently, the library works for Windows, Mac and Linux only on Intel CPUs (reply to 153244)
+
+Bohdan: did you solve this issue? because I have the same one, tonkeeper stucks in connecting (reply to 152984)
+
+Emirhan: Yes, I deployed the program and it's fixed. Tonkeeper blocks localhost requests i guess (reply to 153275)
+
+Bohdan: Do you mean deploy to the server? (reply to 153289)
+
+Emirhan: Yes (reply to 153290)
+
+Emirhan: I use Vercel, published it there. But a server should fix it too.
+
+Bohdan: I also noticed that it works on the server but not on the localhost. So, you're right
+
+Emirhan: Yeah, it's stupid but it is what it is (reply to 153294)
+
+&rey: By the way it would not work with mobile Tonkeeper either (since localhost would mean a different device) so that might be deliberate. (reply to 153289)
+
+Sofija Moris: No you can try it
+
+Ivan: Hello everyone! Tell me, please, does anyone have a TON Proof checker on Python?
+
+EnCryptoknight ⚔️: it's not stupid, it's called policy (reply to 153295)
+
+EnCryptoknight ⚔️: Did anyone noticed telegram is getting very low MAUs lately?
+
+Mr. Ants: Yes. Looks like fewer bots are using it. (reply to 153318)
+
+EnCryptoknight ⚔️: until you have project or building project on telegram (reply to 153320)
+
+ANDY: Any Ton Developer here ?
+
+ANDY: Someone who understands the Programming language of Ton.
+
+Codora: I'm ton dev. Let's contact. I can help you. (reply to 153325)
+
+EnCryptoknight ⚔️: you mean Tact, Tolk or FunC? (reply to 153325)
+
+User: Be aware of prepayments, there is a lot of scammers, who will just take money and block you (reply to 153325)
+
+NPA120: can we discuss further? (reply to 153325)
+
+— 2025-07-07 —
+
+Root: https://tonviewer.com/transaction/b7f6c68e4b44d0a21e6ddba3a5b547e28e8d7072f03bb50a9bafc5c50a909e25 Why this tx bounced.
+
+Mojisola🍅 🍅: localhost is only understood by the PC not external.  so this is normal (reply to 153294)

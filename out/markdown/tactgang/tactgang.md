@@ -1393,3 +1393,9 @@ Petr: define true false
 /B4ckSl4sh\: #define receive external
 
 maksim: #define sender() mintmachine
+
+— 2025-07-06 —
+
+Anton: там мерж конфликты есть + сейчас доделываем Такт 1.7, в котором это должно вроде бы быть решено (reply to 770)
+
+Danil: Конфликты решу (reply to 771)

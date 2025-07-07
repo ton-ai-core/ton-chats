@@ -8447,3 +8447,13 @@ Devialle: Hello @ft_rm_bot Is there anyone here who wrote the contract for this 
 — 2025-07-05 —
 
 Abraham: What happens (reply to 66323)
+
+— 2025-07-06 —
+
+wencaniretire: Does anyone know which TON wallet tracker bots are still operating currently? It seems they have all shut down.
+
+&rey: I would expect that Tonkeeper still works for the same purpose. (reply to 66365)
+
+wencaniretire: what? tonapi shut down too? (reply to 66366)
+
+Shayan: Subject: Request for Step-by-Step Guidance on Creating a Verified Token on TON  Dear TON Support Team,  I have created a token on the TON network and would like it to be verified from the start so that the "Unverified Token" yellow label does not appear. Could you please provide step-by-step guidance on how to achieve this during the token creation process?  Additionally, I have some tokens that already show the "Unverified Token" label. Could you explain what this label means and provide detailed steps to resolve it and get them verified?  Thank you for your assistance!  Best regards, Behzad.K.M.T

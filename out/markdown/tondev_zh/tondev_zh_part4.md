@@ -9471,3 +9471,25 @@ Combot: 有 has been banned! Reason: CAS ban.
 6666feile: lite-server 有问题吗？全是失败，retry 20了都
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Mason: 大佬们，telegram的webapp怎么做静默登录，进入webapp就可以直接获取到账号信息
+
+Leo: 注入的object发给服务器验证就行了
+
+6666feile: 解析initData，然后验签就行了 (reply to 94786)
+
+6666feile: 没人处理吗？官方全挂 (reply to 94780)
+
+6666feile: 总共18个节点，全是失败
+
+Leo: 公共节点没有sla的 (reply to 94790)
+
+Leo: 求稳还是自建或者用付费吧
+
+Combot: Просто Чел has been banned! Reason: CAS ban.
+
+Combot: Даня has been banned! Reason: CAS ban.
+
+— 2025-07-07 —
+
+Combot: Santhosh Rockas has been banned! Reason: CAS ban.

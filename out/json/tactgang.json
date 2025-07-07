@@ -6366,6 +6366,26 @@
       "from": "maksim",
       "from_id": "user964514710",
       "text": "#define sender() mintmachine"
+    },
+    {
+      "id": 771,
+      "type": "message",
+      "date": "2025-07-06T14:51:07.000Z",
+      "date_unixtime": "1751813467",
+      "from": "Anton",
+      "from_id": "user328585584",
+      "text": "там мерж конфликты есть + сейчас доделываем Такт 1.7, в котором это должно вроде бы быть решено",
+      "reply_to_message_id": 770
+    },
+    {
+      "id": 772,
+      "type": "message",
+      "date": "2025-07-06T14:52:31.000Z",
+      "date_unixtime": "1751813551",
+      "from": "Danil",
+      "from_id": "user396568465",
+      "text": "Конфликты решу",
+      "reply_to_message_id": 771
     }
   ]
 }
