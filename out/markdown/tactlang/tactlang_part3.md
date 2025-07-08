@@ -8457,3 +8457,11 @@ wencaniretire: Does anyone know which TON wallet tracker bots are still operatin
 wencaniretire: what? tonapi shut down too? (reply to 66366)
 
 Shayan: Subject: Request for Step-by-Step Guidance on Creating a Verified Token on TON  Dear TON Support Team,  I have created a token on the TON network and would like it to be verified from the start so that the "Unverified Token" yellow label does not appear. Could you please provide step-by-step guidance on how to achieve this during the token creation process?  Additionally, I have some tokens that already show the "Unverified Token" label. Could you explain what this label means and provide detailed steps to resolve it and get them verified?  Thank you for your assistance!  Best regards, Behzad.K.M.T
+
+— 2025-07-07 —
+
+Sanjarbek: Hi everyone, I'm trying to install Tact but I'm facing some issues. I'm new to this field and not sure where to find clear and up-to-date installation instructions.  I have access to Windows (with WSL) and a MacBook. Can anyone please guide me or share resources to help me install Tact properly?  Thank you in advance!
+
+Blueworker: Please who can teach me am new too this
+
+Cornelius: The problem I see so far is that the documentation is scarce, it is useful for the basics but not so much for more advances issues. Besides, there are not many tutorials on youtube, I don't know if there are on other platforms 😅 (reply to 66407)

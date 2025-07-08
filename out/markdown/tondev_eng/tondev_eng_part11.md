@@ -2531,3 +2531,65 @@ NPA120: can we discuss further? (reply to 153325)
 Root: https://tonviewer.com/transaction/b7f6c68e4b44d0a21e6ddba3a5b547e28e8d7072f03bb50a9bafc5c50a909e25 Why this tx bounced.
 
 Mojisola🍅 🍅: localhost is only understood by the PC not external.  so this is normal (reply to 153294)
+
+maple: hello, I created an order using a multi-signature wallet in a multi-signature dapp, but it failed, as shown above. I don’t know which step went wrong. Can anyone help me?
+
+Kasra: how can i do this : .storeStringTail('string') inside a cell using tact language? it doesnt support the storeStringTail method i know i have to make the string using      let string: StringBuilder = beginTailString(); and then append the string i want to it but how do i store it in a cell so that it acts the same way is storeStringTail does in .ts files
+
+Denis: Compute Phase Skipped: true Skip Reason: cskip_no_state (reply to 153347)
+
+Denis: You should send messages without bounce to uninited contracts or add valid state_init
+
+Denis: Give us a link (reply to 153351)
+
+maple: https://tonscan.org/tx/c69fe87f1f2aa69576aaf5d555692aab250ef6e50ef8947b45ea512d29773a39 (reply to 153356)
+
+Denis: Interesting. Message was parsed according to scheme but contract says "cell underflow"
+
+Root: https://testnet.tonviewer.com/transaction/0344b8ca2e9f5d56e35c4d9cdb71d73ec9d8c049897d1c03a079632437abcaf5  I tried sending a bounceable=true transaction to an uninitialized address, but found that it did not actually bounce. (reply to 153355)
+
+Leo: Obviously there's not enough fund to bounce
+
+Root: I just sent a larger amount, but it still didn’t bounce. I saw that other transactions sent to the same recipient address were bounced.
+
+CRYPTO BANGAA: Hello everyone
+
+Root: You are right.I’ve changed transaction params to bounce=false.Thanks a lot (reply to 153361)
+
+Denis: You don't have library in masterchain for your own compiled contract (reply to 153357)
+
+Nerses: Is here anyone from Blueprint team ? Wanna discuss some unexpected behaviors using tests
+
+Mojisola🍅 🍅: I hope you are doing bounce correctly? (reply to 153362)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 11 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 35  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Leona: Hello any API to help download TON Waller transactions.
+
+&rey: A few terabytes of them, you surely mean? (reply to 153379)
+
+maple: What do I need to do (reply to 153373)
+
+MoFR: I'm new here. What's up? I want a learning roadmap to become a TON developer (reply to 153382)
+
+Doggetti: Start with docs and TOLK lang
+
+Robb: hey
+
+&rey: This chat is about how to develop on TON. (reply to 153393)
+
+Robb: Okey thanks (reply to 153394)
+
+Robb: Is there maybe chat for TON where we can talk about bringing TON to real world asset? (reply to 153394)
+
+&rey: Do you have a technical solution? (reply to 153396)
+
+Nerses: I have tried to use that approach,but there were some bottlenecks.When I create wallet using keyPairFromSeed I should also specify provider for doing txs,so what is the provider for blueprint sandbox and also the workchain ? (reply to 152979)
+
+Robb: wait can i send u message in DM? (reply to 153397)
+
+&rey: Workchain? Zero probably, if you want to use basechain. I don't remember how to wrap sandbox to get a provider. (reply to 153399)
+
+Антон: Not norm
+
+М: Hi guys! Do you know the api from where to get .tgs animation files for telegram gifts?
