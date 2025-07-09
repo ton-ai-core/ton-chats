@@ -2593,3 +2593,39 @@ Robb: wait can i send u message in DM? (reply to 153397)
 Антон: Not norm
 
 М: Hi guys! Do you know the api from where to get .tgs animation files for telegram gifts?
+
+— 2025-07-08 —
+
+orlimors: telegram tonsite proxy broken?
+
+orlimors: all ton websites dont open on telegram anymore and give error 502
+
+Zom: Hi, please give me a link to the api for this pool EQDPLWHkkQtlb28MX4WUnNNFkCEU9pcJaofKQsCmNg8nM5JS . It is through your service
+
+Mojisola🍅 🍅: hey. what's that. (reply to 153448)
+
+Fardin: Hello 👋
+
+Fardin: Some attackers find a way to get stars which are paid by users out of the bot  But i don't understand how ?
+
+&rey: This is not relevant to TON and thus to this chat;  please see "Refund" label. Whoever originally provides fiat currency to get the stars, requests the refund and claws the stars back. (reply to 153456)
+
+&rey: You mean https://docs.ston.fi/. Point of order: it is not "our service", it is maintained by a separate org. (reply to 153452)
+
+Combot: Combot has warned Zom (1/3) Reason: 1 reports (reply to 153454)
+
+Fardin: Gotcha, let me check this out (reply to 153457)
+
+Princewill Tor-Anyiin: Hi
+
+Mojisola🍅 🍅: ??? (reply to 153464)
+
+Nerses: Is it secure to use OwnableTransferable of stdlib in production code ?
+
+Nerses: Why does the JettonWallet instance’s send method in Blueprint’s sandbox not include a forwardPayload argument for Jetton transfers? Is it possible to achieve sending a forwardPayload with the current implementation, or is this functionality not yet supported?
+
+— 2025-07-09 —
+
+High/or: .magic gateaway isnt working Getting-started.ton  But u can use .sc :  Getting-started.ton.sc (reply to 153449)
+
+High/or: u can also create ur own  You need to set up your ton proxy and then redirect it to your web2 domain  https://github.com/xssnick/Tonutils-Proxy (reply to 153450)
