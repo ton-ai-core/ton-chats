@@ -9519,3 +9519,19 @@ Andrew: Google 搜索一下，都有的 (reply to 94912)
 Combot: 人 has been banned! Reason: CAS ban.
 
 wushi: 今天的山寨包赚单（市价🥚）  速来上车 直接点我的头xiang 查看
+
+Dan: 大哥们最近查询ton上合约的一个方法，怎么一直抱着错，有知道原因的么
+
+Dan: 用的这个
+
+Andrew: 在浏览器查询下这个合约看看，是不是冻结了之类的 (reply to 95022)
+
+Dan: 破案了，合约一直是激活的， 这个库@orbs-network/ton-access提供的节点有问题 (reply to 95026)
+
+Dan: 换成toncent的就ok了
+
+— 2025-07-10 —
+
+Combot: Sheldon has been banned! Reason: CAS ban.
+
+Combot: Owen has been banned! Reason: CAS ban.

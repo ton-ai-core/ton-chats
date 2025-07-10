@@ -2629,3 +2629,67 @@ Nerses: Why does the JettonWallet instance’s send method in Blueprint’s sand
 High/or: .magic gateaway isnt working Getting-started.ton  But u can use .sc :  Getting-started.ton.sc (reply to 153449)
 
 High/or: u can also create ur own  You need to set up your ton proxy and then redirect it to your web2 domain  https://github.com/xssnick/Tonutils-Proxy (reply to 153450)
+
+Noname: Hi everyone! I’m new to Tact and blockchain. Can anyone guide me on how to create a crypto coin using Tact that is also tradable on TON using Jetton? I’ve searched but couldn’t find a proper tutorial. Any help or links would be really appreciated. Thanks!
+
+Mojisola🍅 🍅: hi, can you chat (reply to 153511)
+
+0xtitn: pls dm me (reply to 153511)
+
+Alice: Hi everyone, I’m running into an issue when querying data from a contract on TON. This error started appearing recently — previously, the same request worked fine.  The request returns code: 500 error:"VALIDATE ACCOUNT STATEFailed to unpack Account" ok: false  Could someone help me understand why this is happening now, and how to resolve it? Is it possible the contract was deleted, redeployed, or its balance drained? Any suggestions on how to check this or handle it gracefully would be appreciated.
+
+&rey: Those nodes neglected to update and are now incompatible with blockchain. (reply to 153532)
+
+Alice: Could you please recommend which nodes to use, or point me to where I can find the most up-to-date ones? (reply to 153533)
+
+&rey: Toncenter, or take your pick from https://tonstat.us (reply to 153534)
+
+Alice: Thank you so much! Let me try if that works! (reply to 153536)
+
+Amir 🧡: Hi,  we want to launch a project called BABY DOGS and we need skilled developers to develop mini apps like DOGS.
+
+DeFi: What is your budget for development? (reply to 153551)
+
+Amir 🧡: 120,000$
+
+0xtitn: He’s covering the dev costs with his token (reply to 153553)
+
+Yar: A lot! For this you can make a really great app and buy a bunch of ads and infs (reply to 153553)
+
+Amir 🧡: Yes
+
+Tech🧑‍💻🐾: Yes I can make something like this  Mind if you hit me up for some demo and for further discussions on how to execute this project successfully (reply to 153551)
+
+Ehsan: Pv check (reply to 153557)
+
+DeFi: Seems he wants someone to build him his project for him then wait a month to get paid lol (reply to 153555)
+
+Ehsan: Scammer (reply to 153557)
+
+Ehsan: Be careful.
+
+Amir 🧡: Ok
+
+Ehsan: Scammer
+
+Amir 🧡: I blocked you and now you're jealous. (reply to 153565)
+
+Ehsan: No, I'm not jealous I'm asking what you suggest to build trust? You say you'll pay after the 12th of next month. (reply to 153567)
+
+Ehsan: You remain silent when it comes to prepayment
+
+Ehsan: Does a scam get any more obvious than this?😂😂
+
+DeFi: Half upfront, half upon approval. The golden rule in development.
+
+Ehsan: Thats right 👍🏽 (reply to 153571)
+
+Ehsan: But he says he will pay after the 12th of next month (reply to 153571)
+
+DeFi: That means either 1) He doesn't have the money upfront and thinks his app will generate $120k in a month; or 2) He's planning to rug after 3 weeks and disappear. (reply to 153573)
+
+DeFi: And if #1 is his intention, he will do #2 when it fails.
+
+Ehsan: 👍🏽 (reply to 153574)
+
+Samuel: Anyone should recommend a ton blockchain launchpad for Ido please

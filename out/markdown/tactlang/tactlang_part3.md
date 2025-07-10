@@ -8465,3 +8465,13 @@ Sanjarbek: Hi everyone, I'm trying to install Tact but I'm facing some issues. I
 Blueworker: Please who can teach me am new too this
 
 Cornelius: The problem I see so far is that the documentation is scarce, it is useful for the basics but not so much for more advances issues. Besides, there are not many tutorials on youtube, I don't know if there are on other platforms 😅 (reply to 66407)
+
+— 2025-07-09 —
+
+Nerses: How can I send a JettonTransfer message from a regular Wallet contract to a Jetton Wallet in the Blueprint sandbox, including a custom forwardPayload in the message field?
+
+Samuel: Me too (reply to 66369)
+
+— 2025-07-10 —
+
+Henry: How to use TON cions
