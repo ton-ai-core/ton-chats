@@ -8475,3 +8475,29 @@ Samuel: Me too (reply to 66369)
 — 2025-07-10 —
 
 Henry: How to use TON cions
+
+Nerses: What problem solves paying storage fees in TON ? Is it just feature of TON architecture or it is done for certain purpose ?
+
+&rey: That's not Tact-specific, is it?  If there was none, it would be easy to create contracts storing gigabytes of data onchain. That is costly to validators. (reply to 66497)
+
+Nerses: No it isn't tact specific.just community here is more responsive. But anyway contracts are limited to have less than 30000 key pair in context of mappings, so how paying storage fees solve that problem in case it was already solved by size limitation ? (reply to 66498)
+
+maksim: Why I need to pay to amazon to store videos if I could break it into chunks and store for free on TON? So basically this anwsers why validators won't keep your data for free (reply to 66499)
+
+Nerses: I accept it,but can't figure out why technically it couldn't be done with ordinary tx fees which can be paid to validators and instead of it is created another type of fees (reply to 66500)
+
+fruitful-l: What if the contract stores huge data, but rarely does any tx's? (reply to 66501)
+
+Nerses: the contract will freeze and when the tx is done the accumulated storage fees will paid and contract again will be active, so I guess the data and code of contract is stored and kept no matter how long it hasnt been used, so I dont think it makes sense to pay storage fees in that case (reply to 66502)
+
+fruitful-l: The contract is not gonna be freezed when being used time to time, and isn’t what you just said a bit contradictory? (reply to 66503)
+
+Nerses: I meant when contract hasnt been used for a long time and hasnt enough balance for storage fees it will be freezed (reply to 66504)
+
+fruitful-l: I guess you’re missing the point. The whole point is about storage fees, and you have just said what their purpose is (reply to 66503)
+
+Nerses: okay,thanks I will think about it again (reply to 66506)
+
+Amir 🧡: Hi, I want to start a new project called Baby Dogs. Can you help?
+
+Dmitry: You just need two dogs and a bit of luck

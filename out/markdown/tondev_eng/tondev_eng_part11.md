@@ -2693,3 +2693,29 @@ DeFi: And if #1 is his intention, he will do #2 when it fails.
 Ehsan: 👍🏽 (reply to 153574)
 
 Samuel: Anyone should recommend a ton blockchain launchpad for Ido please
+
+— 2025-07-10 —
+
+Combot: Combot has warned IMAN (2/3) Reason: Word **** is not allowed
+
+M.K: Any customer support
+
+DeFi: What exactly are you launching? (reply to 153577)
+
+M.K: For TON foundation as I got a complaint (reply to 153593)
+
+&rey: You could send an email to some box at ton.org, but in most probability you are not a customer for TON Foundation? (reply to 153595)
+
+M.K: What do u mean by not a customer for TON foundation? (reply to 153614)
+
+&rey: First, what project or event would you complain about? Second, are you aware that TON stands for The Open Network? (reply to 153615)
+
+Magomed: Hi guys where can I get ton testnet coins
+
+Oleg: here  its username testgiver_ton_bot (reply to 153656)
+
+Robb: Anyone here who handles irl collabs? Just need 5 mins with the right person(maybe call). Thanks!
+
+Samuel: Presale (reply to 153594)
+
+Samuel: Also anyone know how to mint V2 jetton using dapp?

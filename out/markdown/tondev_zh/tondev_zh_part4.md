@@ -9535,3 +9535,29 @@ Dan: 换成toncent的就ok了
 Combot: Sheldon has been banned! Reason: CAS ban.
 
 Combot: Owen has been banned! Reason: CAS ban.
+
+Combot: Times has been banned! Reason: CAS ban.
+
+Sahib: Hi I am new in TON and want to know where to get started?
+
+Andrew: https://tondevdoc.fun/ (reply to 95087)
+
+Combot: 傻瓜 has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🚀 Live Coding Course 8：TON 多签实战，直播开始啦！  🎙️ 演讲人： Andrew，TON基金会东亚区开发者关系  议程速览： - 多签原理深度剖析 - 多签在真实场景的应用 - 多签 v1 合约实战 - 多签 v2 合约进阶 - 总结 & 课后编程实战作业  🔥直播链接： https://x.com/i/broadcasts/1mrxmPaovjgJy (forwarded from TON East Asia Hub)
+
+Andrew: 🚀 Live Coding Course 8：TON 多签实战，直播开始啦！  🎙️ 演讲人： Andrew，TON基金会东亚区开发者关系  议程速览： - 多签原理深度剖析 - 多签在真实场景的应用 - 多签 v1 合约实战 - 多签 v2 合约进阶 - 总结 & 课后编程实战作业  🔥直播链接： https://x.com/i/broadcasts/1mrxmPaovjgJy (forwarded from TON East Asia Hub)
+
+Lucky: 请查看私信，谢谢。 (reply to 95104)
+
+Katiya｜TON: 回复你啦 (reply to 95106)
+
+Amir 🧡: 你好， 我想启动一个名为“BABY DOGS”的新项目。你能帮忙吗？
+
+Combot: Pearlyrui Pie has been banned! Reason: CAS ban.
+
+Combot: Nhat Nhat0311 has been banned! Reason: CAS ban.
+
+— 2025-07-11 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
