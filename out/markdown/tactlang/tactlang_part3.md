@@ -8501,3 +8501,9 @@ Nerses: okay,thanks I will think about it again (reply to 66506)
 Amir 🧡: Hi, I want to start a new project called Baby Dogs. Can you help?
 
 Dmitry: You just need two dogs and a bit of luck
+
+— 2025-07-11 —
+
+Nerses: Can someone give a link to jetton sandbox tests ? I have find some implementations but they were deprecated I suppose so as sendTransfer method is used while in current version there isnt such method. https://github.com/ton-blockchain/token-contract/blob/main/sandbox_tests/JettonWallet.spec.ts#L372  and https://github.com/ton-blockchain/stablecoin-contract/blob/main/sandbox_tests/JettonWallet.spec.ts#L247
+
+Андрей: You can find it in https://github.com/tact-lang/jetton (reply to 66564)

@@ -9561,3 +9561,17 @@ Combot: Nhat Nhat0311 has been banned! Reason: CAS ban.
 — 2025-07-11 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Katiya｜TON: 💎Coding Challenge 8 - TON多签实战编程挑战赛  📅 7月10日-7月18日  🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  🎥 课程回顾：  - Notion 精华笔记：https://ton-org.notion.site/8-TON-MultiSign-2295274bd2cf808fa878eec6db717160 - YouTube 视频回放：https://www.youtube.com/watch?v=_l1qrhSjVi0 - X 直播回放：https://x.com/i/broadcasts/1mrxmPaovjgJy  🔗点击此处参赛，提交你的代码：https://github.com/ton-builders/ton-coding-challenge-25-round-8 (forwarded from TON East Asia Hub)
+
+Aber: hello,各位dev，有个问题想请教一下，TON SignData 这个东西，我看只有tonkeeper fork的tonconnect 版本里面支持了 官方的ton connect现在支持对数据进行签名嘛？
+
+Andrew: 🙏 Getgems Public API is here (Beta)  The Getgems team is launching its first public API — now available in beta and free to use during this phase!  With this API, you can: - Mint NFT collections programmatically - Upload media directly to the TON blockchain and Getgems.io - Integrate NFT minting into bots, tools, or other products  🔒 Note: In this initial release, the API supports only NFTs created by the user’s own wallet. Access to global TON NFT data may be introduced in future versions.  If you're building with NFTs on TON, this is a great time to start experimenting and shaping the future with your feedback.  📘 Docs & full instructions: Getgems API - GitHub  💬 Feedback, bugs, or ideas? Join Getgems' dev chat: @GetgemsTech (forwarded from TON Dev News)
+
+Combot: Ph has been banned! Reason: CAS ban.
+
+EnCryptoknight ⚔️: exactly you're following script (reply to 95116)
+
+Combot: DCF has been banned! Reason: CAS ban.
+
+Andrew: 应该都支持的，你用最新版的代码看下 (reply to 95156)

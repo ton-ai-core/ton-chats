@@ -5439,3 +5439,13 @@ spirit: whenever there's any contest, the announcement will be made here (reply 
 Vladimir: 📣 TON Developers — we need your feedback!  Help us shape the future of TON development. We’ve prepared a detailed survey to understand your experience with: 🧠 Smart contract languages (Tact, Func, Tolk) 📚 Documentation and education 🛠 SDKs, IDEs, and tools 🤖 Telegram Mini Apps 💬 Developer support and pain points  💎 As a thank you, we’ll issue an SBT (Soulbound Token) to your wallet as proof of contribution to the ecosystem.  👉 Take the survey here: https://docs.google.com/forms/d/e/1FAIpQLSfDm85Z7YxDw96nMeV9T-b2kmd2qAe8xt0_iag8ZqrgqKuCRw/viewform  🕐 Takes 5 minutes. Every voice matters. Let’s build a better TON together. (forwarded from TON Dev News)
 
 X1ag: тут небольшой баг в форме или мне кажется? Должен быть текст как будто (reply to 4821)
+
+— 2025-07-11 —
+
+MoFR: Hi
+
+— 2025-07-12 —
+
+Paxton: Hi (reply to 4665)
+
+Enemali.BTC: How are you? (reply to 4840)

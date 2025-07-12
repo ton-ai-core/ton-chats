@@ -2719,3 +2719,15 @@ Robb: Anyone here who handles irl collabs? Just need 5 mins with the right perso
 Samuel: Presale (reply to 153594)
 
 Samuel: Also anyone know how to mint V2 jetton using dapp?
+
+— 2025-07-11 —
+
+Nerses: While doing Jetton transfer in Blueprint sandbox can forwardPayload be specified ?
+
+&rey: You should construct the message yourself. Please refer to TEP-74 over existing examples since they have fragile behavior over forwardPayload's tag bit.  ... forward_ton_amount:(VarUInteger 16) forward_payload:(Either Cell ^Cell) = ...  means that, after specifying the amount, you must store either 0 (and then forward payload inline, if any), or 1 and a reference. (reply to 153751)
+
+MoFR: Hi guys  I want to learn how to develop smart contracts and mini apps on TON.
+
+— 2025-07-12 —
+
+TON Bounty Bridge: ​Ayzu  🏷 Developer Tool  Summary:Nice convresponsible  Created by ayzu47

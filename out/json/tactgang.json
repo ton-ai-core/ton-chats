@@ -6386,6 +6386,55 @@
       "from_id": "user396568465",
       "text": "Конфликты решу",
       "reply_to_message_id": 771
+    },
+    {
+      "id": 774,
+      "type": "message",
+      "date": "2025-07-11T22:11:23.000Z",
+      "date_unixtime": "1752271883",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "Кажется он закрытым не был",
+      "reply_to_message_id": 773
+    },
+    {
+      "id": 775,
+      "type": "message",
+      "date": "2025-07-11T22:11:49.000Z",
+      "date_unixtime": "1752271909",
+      "from": "Danil",
+      "from_id": "user396568465",
+      "text": "Кхм, я почему-то думал что тут система как в func gang по инвайтам",
+      "reply_to_message_id": 774
+    },
+    {
+      "id": 776,
+      "type": "message",
+      "date": "2025-07-11T23:00:30.000Z",
+      "date_unixtime": "1752274830",
+      "from": "Yar",
+      "from_id": "user402323402",
+      "text": "Не, всегда был  Open)",
+      "reply_to_message_id": 775
+    },
+    {
+      "id": 777,
+      "type": "message",
+      "date": "2025-07-11T23:15:04.000Z",
+      "date_unixtime": "1752275704",
+      "from": "Brave",
+      "from_id": "user5316965624",
+      "text": "не волнуйся\n\nчерез годик мб это изменится",
+      "reply_to_message_id": 776
+    },
+    {
+      "id": 778,
+      "type": "message",
+      "date": "2025-07-11T23:15:51.000Z",
+      "date_unixtime": "1752275751",
+      "from": "Alexey",
+      "from_id": "user108781922",
+      "text": "надо уже tolk gang заводить"
     }
   ]
 }
