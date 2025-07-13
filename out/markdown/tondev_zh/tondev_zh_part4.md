@@ -9575,3 +9575,27 @@ EnCryptoknight ⚔️: exactly you're following script (reply to 95116)
 Combot: DCF has been banned! Reason: CAS ban.
 
 Andrew: 应该都支持的，你用最新版的代码看下 (reply to 95156)
+
+— 2025-07-12 —
+
+6666feile: tonweb去年就没更新了，不可能支持的
+
+6666feile: 这个是官方的不？
+
+6666feile: @andrew_cong
+
+6666feile: 我也是看支持度不高暂时放弃了
+
+Andrew: 用这个  https://docs.ton.org/v3/guidelines/dapps/apis-sdks/sdk (reply to 95198)
+
+Leo: 他问的不是tonconnect么 (reply to 95198)
+
+Leo: 最新版支持的
+
+Combot: Blystonep Mcalanen has been banned! Reason: CAS ban.
+
+Combot: uk has been banned! Reason: CAS ban.
+
+— 2025-07-13 —
+
+Combot: Pumpfun has been banned! Reason: CAS ban.

@@ -8507,3 +8507,11 @@ Dmitry: You just need two dogs and a bit of luck
 Nerses: Can someone give a link to jetton sandbox tests ? I have find some implementations but they were deprecated I suppose so as sendTransfer method is used while in current version there isnt such method. https://github.com/ton-blockchain/token-contract/blob/main/sandbox_tests/JettonWallet.spec.ts#L372  and https://github.com/ton-blockchain/stablecoin-contract/blob/main/sandbox_tests/JettonWallet.spec.ts#L247
 
 Андрей: You can find it in https://github.com/tact-lang/jetton (reply to 66564)
+
+— 2025-07-12 —
+
+arabella’s: Hello! Can anyone please help me, i wanna integrate my tact smart contract into the web application, but blueprint doesn’t create the “wrappers” folder, so i can’t get typescript. I know that blueprint documentation said that wrappers folder is available for all contracts, except Tact, but i’ve seen some people on youtube creating tact contracts with blueprint and they,ve had wrappers folder installed.
+
+fruitful-l: I’m pretty sure you can find it in build folder or smth like this, anyway the wrapper should be somewhere in the project folder (reply to 66580)
+
+arabella’s: oh, well, ive found it, thanks a lot!! (reply to 66581)

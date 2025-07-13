@@ -2731,3 +2731,59 @@ MoFR: Hi guys  I want to learn how to develop smart contracts and mini apps on T
 — 2025-07-12 —
 
 TON Bounty Bridge: ​Ayzu  🏷 Developer Tool  Summary:Nice convresponsible  Created by ayzu47
+
+&rey: Hi. https://docs.ton.org will help. (reply to 153785)
+
+Albert: I can train you (reply to 153785)
+
+MoFR: Did you start by learning JavaScript or TypeScript? (reply to 153800)
+
+Albert: Learning JavaScript first (reply to 153804)
+
+MoFR: First JavaScript, then TypeScript, then Tact — is that correct? How many years of experience do you have in the field?
+
+Always Polite: Not necessary (reply to 153808)
+
+Always Polite: Typescript can be wrote by mern stack (reply to 153808)
+
+MoFR: Do you have a learning roadmap? (reply to 153809)
+
+Always Polite: You can learn from books or there are plenty of resources online (reply to 153812)
+
+&rey: Well TON programming has element of fundamental system thinking but I don't think any nice book has been published yet. (reply to 153813)
+
+Алина: Fundamental "system thinking" or "fundamental system" thinking? (reply to 153814)
+
+Алина: Do you mean you have to be familiar with C-like meticulous memory management and alignment? 🙂
+
+MoFR: What should I learn first? (reply to 153816)
+
+&rey: The former. Not as in "operating system" though: pointer arithmetic is useless here, but ability to see the system you build on different levels (down to the bits and message queues) is nice to have. (reply to 153815)
+
+Ironic: Hey guys, is google oauth not supported inside telegram mini apps? getting weird errors
+
+Ironic: i was using some of the google api for some services
+
+Ackermann: Hello
+
+Ackermann: I need help with a part of my contract      receive(msg: TestSendMinedTokens){         require(msg.amount <= self.rewardTokenBalance, "Insufficient reward token balance");          require(self.rewardTokenWallet != newAddress(0,0), "Reward token Jetton wallet not set");                      let amount: Int = msg.amount;         let recipient: Address = msg.recipient;          let body: Cell = JettonTransfer {             queryId: 0,             amount: msg.amount,             destination: msg.recipient,             responseDestination: myAddress(),             customPayload: emptyCell(),             forwardTonAmount: ton("0.05"),             forwardPayload: beginCell().endCell().beginParse()         }.toCell();          send(SendParameters {                     to: self.rewardTokenWallet,             value: ton("0.15"),             mode: SendRemainingValue + SendIgnoreErrors,             bounce: true, // ✅ Must be true for Jetton Wallet             body: body     });
+
+Ackermann: can anybody help, the contract isn't sending any message to the jetton wallet to send the jetton to the recipient
+
+&rey: I recommend that you do not use whatever suggested you the current SendParameters, and I'll now send a better option.  I assume you do not need a comment in forward payload? (reply to 153840)
+
+Ackermann: No I do not (reply to 153842)
+
+&rey:         let body: Cell = JettonTransfer {             queryId: 0,             amount: msg.amount,             destination: msg.recipient,             responseDestination: myAddress(),             customPayload: null,             forwardTonAmount: ton("0.05"),             forwardPayload: beginCell().storeUint(0, 1).endCell().beginParse()         }.toCell();          send(SendParameters {                     to: self.rewardTokenWallet,             value: 0,             mode: SendRemainingValue,             body: body         }); (reply to 153840)
+
+Ackermann: Thank you (reply to 153844)
+
+Ackermann: Let me implement and get back to you
+
+Trevor: Hey guys, we are building an RWA protocol and would like to integrate TON Chain ... who do i talk to
+
+&rey: It is The Open Network; if you want it, you do it. Documentation is at https://docs.ton.org, something in chat history. Do you have any further questions on how to develop a project? (reply to 153849)
+
+Ackermann: Thanks, it worked (reply to 153850)
+
+Kasra: Hey I have a tact contract i wrote If i send it to you in dm can you check it for any security problems? Or you dont have the time (reply to 153850)
