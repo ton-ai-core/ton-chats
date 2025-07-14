@@ -2787,3 +2787,73 @@ Trevor: Hey guys, we are building an RWA protocol and would like to integrate TO
 Ackermann: Thanks, it worked (reply to 153850)
 
 Kasra: Hey I have a tact contract i wrote If i send it to you in dm can you check it for any security problems? Or you dont have the time (reply to 153850)
+
+— 2025-07-13 —
+
+Syv: Greetings everybody
+
+Ackermann: Please I need help, does anyone know how to convert a pubkey to a uint256 pub key. I want to integrate payload for my contract abd that's needed
+
+&rey: You could probably just storeBuffer? (reply to 153954)
+
+Ackermann: I do not understand (reply to 153955)
+
+&rey: Which language, what's the type of public key you have, which type do you want to get? (reply to 153956)
+
+Ackermann: tact (reply to 153958)
+
+&rey: (TypeScript, Buffer, Builder) –> builder.storeBuffer(k) (reply to 153958)
+
+&rey: (Tact, ?, ?) (reply to 153959)
+
+Ackermann: i have a ED25519 Public-Key   trying to convert to uint256
+
+&rey: But Tact does not have "ED25519PublicKey" type. What's the type which you have, in a variable that is?  If you haven't decided, you can store publicKey: Int as uint256 and then it won't be problem on Tact side. (reply to 153963)
+
+Ackermann: I know tact doesn't
+
+Ackermann: It's off chain, i neeed it to sign payload and send to the contract in order to use the check_signature() method
+
+Ackermann: This is how i want to store it, now how do i generate a uint256 pub key (reply to 153964)
+
+Dolce: Hi there, I’m looking for a group or a contact at The Open Platform for a partnership with TON.   Thanks for your advice 🙏
+
+&rey: Do you have two TypeScript Buffers, for secret and for public key? (reply to 153969)
+
+Ackermann: No (reply to 153973)
+
+&rey: mnemonicToKeyPair from @ton/crypto. (reply to 153974)
+
+Ackermann: Okay (reply to 153975)
+
+Ackermann: Or I could just generate a new keypair
+
+Syv: Hi, does ton currently have a social thats fully blockchain based like zora yet?
+
+&rey: I don't know of such, if https://ton.app/social does not contain one. (reply to 153983)
+
+Syv: they are fake, they all use central servers. maybe ton for auth and thats it (reply to 153984)
+
+&rey: Well TON whitepaper contained a whole section saying that implementing a social app inside blockchain is too costly therefore all the other infrastructure parts are justified too. (reply to 153985)
+
+Syv: i think that being costly is part of being immune to bots (reply to 153986)
+
+&rey: More costly than that. After all, you would replicate all the social network mechanisms — either on client, which has ultimately limited vision into blockchain (because of network bandwith), or on four hundred validators. The load is increasing hundredfold over what networks do. (reply to 153987)
+
+Syv: Yeah your absolutely right on that one, scalability is a big issue here
+
+K: Who can parse the complete content of boc? If you can do it, please contact me, I am willing to pay
+
+ili: Please share some group chats for job searching, Web3, and Web2 topics.
+
+&rey: https://t.me/tonhunt; TON Society (region-based); no (this isn't place to answer that). (reply to 153996)
+
+Syv: so im thinking, what Dapp should i build on ton?
+
+∆Максим: What will happen to this?
+
+Dmitry: They have “contact us” button on top of their website index page (reply to 153972)
+
+Combot: Combot has warned Leo (1/3) Reason: Word **** is not allowed (reply to 153993)
+
+Leo: You can parse a boc only if you know what it's used for. I can help you with simple cases, forfree (reply to 153993)

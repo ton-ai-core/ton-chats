@@ -9599,3 +9599,19 @@ Combot: uk has been banned! Reason: CAS ban.
 — 2025-07-13 —
 
 Combot: Pumpfun has been banned! Reason: CAS ban.
+
+K: 咨询一下，关于区块数据有什么办法最快的获取到？
+
+K: 目前有尝试api，ws，都感觉不够快，好像上链的nfts会被确认之后才会封装出来
+
+非小号: good
+
+Sandra: hi
+
+K: 升级api等级可以补差价升级吗？
+
+Combot: Pumpfun has been banned! Reason: CAS ban.
+
+Combot: Pumpfun has been banned! Reason: CAS ban.
+
+Elbert: 👉 It's time to change the rules of the game 🔝  TAKE $PENGU  👉 The $PENGU team values every holder - you no longer need to complete meaningless tasks to prove your worth.  👉 Large-scale distribution of $PENGU tokens: the number of rewards is limited 🔝  👉 Your support is the basis of great achievements! 🔝  TAKE $PENGU TAKE $PENGU TAKE $PENGU (forwarded from $PENGU)

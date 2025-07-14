@@ -8515,3 +8515,27 @@ arabella’s: Hello! Can anyone please help me, i wanna integrate my tact smart 
 fruitful-l: I’m pretty sure you can find it in build folder or smth like this, anyway the wrapper should be somewhere in the project folder (reply to 66580)
 
 arabella’s: oh, well, ive found it, thanks a lot!! (reply to 66581)
+
+— 2025-07-13 —
+
+Codora: 1. The blueprint CLI **doesn't generate TypeScript wrappers for Tact contracts only for FunC contracts. 2. To get wrappers for Tact, you need to use the tact CLI directly: 3. This will generate a wrappers/ or build/ folder with TypeScript classes you can use in your web app. 4. You can then copy the wrappers/ folder into your web project or Blueprint project manually. 5. Some YouTubers showing Tact wrappers likely used this exact method (not just `blueprint`).  If you don't mind, we can discuss about it in more detail by dm. Thank you. (reply to 66580)
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+Fardin: I need your advice guys  I'm coding a tact smart contract and want to access data in the frontend.  What's the best method for accessing data in the frontend based on the bellow options? 1) Using the emit function and setting the event listener? 2) Using get functions and fetching data via limit offset?  3) Is there a better way?
+
+/B4ckSl4sh\: It depends on your exact usecase (reply to 66614)
+
+Fardin: Well, it's a payment contract which processes the Jetton and Ton payments Being realtime could help us a lot but i didn't find any websocket for the Ton (reply to 66615)
+
+/B4ckSl4sh\: good approarch is to have one contract per user check it's TON and Jetton balance offchain  Check out similar project: https://github.com/gobicycle/bicycle (reply to 66616)
+
+Fardin: Sounds interesting, Looks like it was developed for a cex (reply to 66618)
+
+&rey: Is there any chance that you could do further processing onchain? (reply to 66616)
+
+Fardin: Well, we planned to do it one time. The process is simple: 1) Jetton came in 2) Will be swapped to Ton 3) Will be transferred to a multi sign wallet (reply to 66621)
+
+&rey: I believe this can be constructed onchain. Don't remember if all swap parameters (router address, that is) can be obtained onchain or not. (reply to 66623)
+
+Fardin: Ston supports such a thing (reply to 66624)
