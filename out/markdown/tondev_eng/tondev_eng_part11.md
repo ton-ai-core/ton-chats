@@ -2857,3 +2857,63 @@ Dmitry: They have “contact us” button on top of their website index page (re
 Combot: Combot has warned Leo (1/3) Reason: Word **** is not allowed (reply to 153993)
 
 Leo: You can parse a boc only if you know what it's used for. I can help you with simple cases, forfree (reply to 153993)
+
+— 2025-07-14 —
+
+Nerses: Yeah I know that so i did same for testnet and it works fine,problem arises in sandbox where I cant mimic same. I have looked for such cases in jetton tests, but mainly they use sendTransfer https://github.com/ton-blockchain/token-contract/blob/main/sandbox_tests/JettonWallet.spec.ts#L275   which I guess is deprecated as I cant  find the same method in sanbox jetton wallet instance (reply to 153781)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 11 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 34  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+MoFR: Guys, I’m a beginner. I’ll start with TypeScript and then move on to Tact. Is that a good approach ؟
+
+Syv: yes, its a great approach. (reply to 154029)
+
+&rey: They are different languages for different purposes, you'll be unable to move offchain to onchain. (reply to 154029)
+
+MoFR: I believe in TON what do you recommend I start with? (reply to 154031)
+
+Syv: let me know if you guys are interested in me sharing a github repo containing a basic startup on ton with simple wallet connect (frontend only - react vite typescript / ton connect)
+
+&rey: With exploring what it really means – what happens as transactions vs offchain. (reply to 154032)
+
+MoFR: What do you recommend I should do? (reply to 154034)
+
+Noname: Hello everyone, i created a coin from Ton Minter website on testnet. Can anyone help me to write mint/burn functions in nodejs/nextjs. ChatGPT not helping! Any repo or tutorial would be hepful. Thanks
+
+Mojisola🍅 🍅: is already part of the code (reply to 154036)
+
+Noname: I need to make APIs for minting/burning
+
+Mojisola🍅 🍅: you just write code that does minting or burning. what is the api for?
+
+Mojisola🍅 🍅: will it be frontend based on terminal based
+
+&rey: Only owner of a bunch of jettons can burn them. Only owner of jetton master, normally, can mint them. They are different people. (reply to 154038)
+
+Noname: i just created coin from https://minter.ton.org/?testnet=true, now i want to make a webpage where users can mint the token which is just created from ton minter website. Also, users can also burn the tokens from my website
+
+Alex: Why did you delete my message? No advert, only question in it
+
+&rey: That question is off topic. (reply to 154048)
+
+Alex: Ok, sorry, maybe anyone know where i ask? (reply to 154049)
+
+&rey: TON Society runs various sessions on this I heard. (reply to 154050)
+
+Alex: Thnx, i appreciate it (reply to 154051)
+
+Alex: Maybe have a link to group? (reply to 154051)
+
+&rey: TON Hubs at https://ton.org/en/community. (reply to 154053)
+
+Alex: Thx a lot) (reply to 154054)
+
+Andrey: Hey guys, Some time ago I participated in tact competition, where I needed to dive deep into TVM assembly, and I didn't find a good tooling to experiment with. To address that I created an app where you can compile Fift, and see how instructions are executed step by step. It may be useful if you wish to learn how things are working on the low level. The feedback is always appreciated
+
+ANDY: Hello guys
+
+&rey: (first few hours do not allow to post links) (reply to 154064)
+
+Andrey: Yeah, I noticed that
+
+Andrey: I guess I'll post it tomorrow then 🙂

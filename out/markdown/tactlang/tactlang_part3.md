@@ -8539,3 +8539,15 @@ Fardin: Well, we planned to do it one time. The process is simple: 1) Jetton cam
 &rey: I believe this can be constructed onchain. Don't remember if all swap parameters (router address, that is) can be obtained onchain or not. (reply to 66623)
 
 Fardin: Ston supports such a thing (reply to 66624)
+
+— 2025-07-14 —
+
+Nerses: is internal used in this test deprecated now ? https://github.com/tact-lang/jetton/blob/main/src/tests/base/jetton.spec.ts#L624 (reply to 66565)
+
+&rey: It isn't.  It would be x100 faster if you just copied the sequence of stores into your project; it isn't exactly needed to know why some libs do not have it. (reply to 66642)
+
+fabriregu: Hello, I have deployed a smart contract for NFT Minting. In tests i have this:  message Mint {     owner: Address;     action: String; }   await nftCollection.send(         provider.sender(),         {             value: toNano('0.3') + NFT_PRICE,         },         {             $$type: 'Mint',             owner: owner,             action: 'Mint',         },     );  I want to create a NFT collection with NFT price = 0. For some users I want that they will mint the NFT for free including transaction fees that I want to pay. For other users, they will mint the NFT for free but have to pay transaction fees.  Now, how can I send the correct transaction (with amount, sender and new owner for the next NFT)?
+
+&rey: Your wallet must come into play in some form, necessitating that this is done from your backend. (reply to 66656)
+
+fabriregu: Yes. Ok. I open my wallet from mnemonic. But the question is how to create the correct transaction message

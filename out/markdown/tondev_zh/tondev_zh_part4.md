@@ -9615,3 +9615,31 @@ Combot: Pumpfun has been banned! Reason: CAS ban.
 Combot: Pumpfun has been banned! Reason: CAS ban.
 
 Elbert: 👉 It's time to change the rules of the game 🔝  TAKE $PENGU  👉 The $PENGU team values every holder - you no longer need to complete meaningless tasks to prove your worth.  👉 Large-scale distribution of $PENGU tokens: the number of rewards is limited 🔝  👉 Your support is the basis of great achievements! 🔝  TAKE $PENGU TAKE $PENGU TAKE $PENGU (forwarded from $PENGU)
+
+— 2025-07-14 —
+
+K: 谁能告诉我boc 数据到底要如何解析呀
+
+Combot: Pumpfun has been banned! Reason: CAS ban.
+
+Andrew: 解析 BoC 没有捷径，你知道怎么构造的，就知道怎么解析。 (reply to 95304)
+
+Andrew: 如果不是你写的合约消息，就是标准协议，根据协议定义解析。
+
+K: 目前只能获取到boc内容的hash ，没办法解析出更详细内容 (reply to 95315)
+
+K: 有偿解决boc 解析问题，熟悉相关知识的大哥联系一下😱
+
+Aber: 是的，新版的支持，看到啦 (reply to 95203)
+
+Leo: 只有hash 肯定是不够的 (reply to 95320)
+
+Leo: 可以提供下场景和代码帮你看看
+
+Combot: Pumpfun has been banned! Reason: CAS ban.
+
+Combot: ВC GАМE has been banned! Reason: CAS ban.
+
+Combot: Vinokurovarais Ly has been banned! Reason: CAS ban.
+
+Combot: Pumpfun has been banned! Reason: CAS ban.
