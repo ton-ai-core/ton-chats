@@ -26157,6 +26157,66 @@
       "from_id": "user5664234710",
       "text": "i'm good",
       "reply_to_message_id": 4665
+    },
+    {
+      "id": 4850,
+      "type": "message",
+      "date": "2025-07-15T12:08:07.000Z",
+      "date_unixtime": "1752581287",
+      "from": "Anatoly",
+      "from_id": "user380343706",
+      "text": "Can some one explain to me what the difference between all for languages: tact, tolk, fift, funC? Why there are so many? What i have to choose?)\n\nWhat i understand with my dyor:\nfunC - first language, efficient for gas, not very strict, bad syntax\ntact - easy to write, easy to learn, not efficient for gas\ntolk - it's next funC, more efficient  for gas, with better syntax and typization \nfift - have no idea what this is for",
+      "reply_to_message_id": 4659
+    },
+    {
+      "id": 4851,
+      "type": "message",
+      "date": "2025-07-15T12:12:48.000Z",
+      "date_unixtime": "1752581568",
+      "from": "E2BIG",
+      "from_id": "user113983840",
+      "text": "fift - ассемблер\nfunc - си\ntact - джава\ntolk - котлин (хипстерский джавазаменитель)",
+      "reply_to_message_id": 4850
+    },
+    {
+      "id": 4852,
+      "type": "message",
+      "date": "2025-07-15T12:13:02.000Z",
+      "date_unixtime": "1752581582",
+      "from": "Andrey",
+      "from_id": "user254443208",
+      "text": "Choose as high level as possible, then dive deep if necessary.\nfift is for preparing TVM instructions. Use if you want to have control over exactly what’s getting executed.",
+      "reply_to_message_id": 4850
+    },
+    {
+      "id": 4853,
+      "type": "message",
+      "date": "2025-07-15T12:39:21.000Z",
+      "date_unixtime": "1752583161",
+      "from": "Vladimir",
+      "from_id": "user7399540343",
+      "text": "You’re right about the general concepts\n\nFift is similar to assembly and is one of the first languages for TVM \n\nFunC is also an old language but operates at a higher level (similar to C). It has poor syntax and compiles into Fift. Many ecosystem contracts were written in FunC, but it’s gradually becoming a rudiment with the release of Tolk 1.0\n\nTact is a good language to start with, as its team has created great docs and tooling. It generally relies on FunC under the hood. With its clean syntax and resent updates, it has become more optimized. However, due to its nature, it’s not so native to TVM. In future it might change\n\nTolk is a new language designed to replace FunC and become the primary language for the ecosystem. It features clear syntax, is native to the TVM, and offers many useful features that other languages lack. It’s essentially what FunC should have been. In my opinion, all future development will be around exactly this language (and contract interfaces is proof fro this). So, I recommend to think about it. But for now its docs is not very comprehensive, especially for newcomers\n\nCurrently, Tolk lacks the same level of documentation and tooling that Tact offers. If you’re completely new to TON smart contracts and find Tolk difficult, Tact would be a perfect starting point. It has solid docs, some courses, and is easier to learn. But keep in mind that if you aim to work on serious projects in the future, you’ll eventually need to learn Tolk",
+      "reply_to_message_id": 4850
+    },
+    {
+      "id": 4854,
+      "type": "message",
+      "date": "2025-07-15T14:54:45.000Z",
+      "date_unixtime": "1752591285",
+      "from": "Anatoly",
+      "from_id": "user380343706",
+      "text": "Thanks, guys. Yours explanations very helpful and useful. 🙏\nI wonder what the best practices to implement a subscription model via ton. I did course on stepik about ton blockchain there is mentioned and Grok told me something about wallet v4 subscription plugin, but there no details how to use it what actual use case. Is there some documentation about it, that i can not find?",
+      "reply_to_message_id": 4659
+    },
+    {
+      "id": 4855,
+      "type": "message",
+      "date": "2025-07-15T15:25:32.000Z",
+      "date_unixtime": "1752593132",
+      "from": "Andrey",
+      "from_id": "user254443208",
+      "text": "As far as I understand the flow:\n1. User can install subscription plugin to their wallet\n2. The plugin is authorized to withdraw certain amount of funds with specified period\n3. You can call this plugin to collect payment\n\nI haven’t tried it myself though. Best would be to read the source: https://github.com/ton-blockchain/wallet-contract/blob/main/func/simple-subscription-plugin.fc\nIt may also help to draw diagrams to understand messaging flow",
+      "reply_to_message_id": 4854
     }
   ]
 }

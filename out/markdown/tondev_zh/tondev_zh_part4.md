@@ -9643,3 +9643,21 @@ Combot: ВC GАМE has been banned! Reason: CAS ban.
 Combot: Vinokurovarais Ly has been banned! Reason: CAS ban.
 
 Combot: Pumpfun has been banned! Reason: CAS ban.
+
+— 2025-07-15 —
+
+hany: Az😔l😂😄☺️😝😂😜😞☺️🙈😞😏☺️😂🙈😞☺️😔☺️🙈😄
+
+Andrew: Hack THE TON — 基于TON的首个wargame平台！  Ethereum拥有传奇的wargame，比如Ethernaut和Damn Vulnerable DeFi，这些工具帮助数千名开发者进入智能合约安全领域。  TON此前没有类似的平台。幸好我们的社区创造了它。  它是如何运作的？ Hack THE TON 是一系列挑战关卡，每个关卡有一个用Tact或Tolk编写的智能合约。  你的目标是通过触发其隐藏条件来破解合约。  利用你对TVM的知识，分析逻辑，挖掘漏洞，并取得胜利！ 在此过程中，你将学会： 深入理解TVM和TON架构   阅读和理解Tact/Tolk合约  分析TON智能合约的漏洞  编写攻击合约和exploits 完成关卡将提升你在生态系统中的个人资料和声誉。 第一波关卡现已上线。  加入TON黑客社区的核心——证明你的实力！   立即开始：https://www.hacktheton.com/   加入讨论：https://t.me/hacktheton 新挑战即将来临。
+
+Andrew: IdeaTON Mini 黑客松工作坊圆满收官！🎉是时候提交你的项目想法了💡  从 Yuki 解读2025TON重点发展方向并现场Q&A答疑，十余位小伙伴提问积极交流，Andrew分享黑客松规则和开发干货，到Katia深入拆解生态扶持计划，再到 ShareX、Tradoor、Tonbit创始人分享实体经济与crypto结合的创业经验、DeFi、审计实战经验，满满干货点燃全场🔥  接下来，就是你的舞台了⬇️💎  🔗 提交项目创意参与路演：https://forms.gle/kQ8sVrpvNVcCeeKX9 📑 工作坊资料速览：https://ton-org.notion.site/IdeaTON-Tech-Workshop-2185274bd2cf8027a701f5ff011d6b0f (forwarded from TON East Asia Hub)
+
+Andrew: 只要有想法，都可以提交创意，期待后续交流 (reply to 95390)
+
+Combot: Вс Gаmе Маnаger has been banned! Reason: CAS ban.
+
+Combot: M86583 Ngitld has been banned! Reason: CAS ban.
+
+Combot: Pumpfun has been banned! Reason: CAS ban.
+
+Combot: Ethan Somar has been banned! Reason: CAS ban.

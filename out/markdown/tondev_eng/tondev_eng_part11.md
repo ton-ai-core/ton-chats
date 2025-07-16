@@ -2917,3 +2917,75 @@ ANDY: Hello guys
 Andrey: Yeah, I noticed that
 
 Andrey: I guess I'll post it tomorrow then 🙂
+
+— 2025-07-15 —
+
+Noname: import {     TonClient,     WalletContractV4,     internal,     Address,     toNano,     beginCell,     SendMode, } from 'ton'; import {mnemonicToPrivateKey} from '@ton/crypto'; import 'dotenv/config';  const ENDPOINT =     process.env.TON_RPC || 'https://testnet.toncenter.com/api/v2/jsonRPC';  export async function mint(toAddrStr, jettonAmount) {     const client = new TonClient({endpoint: ENDPOINT});      // keys & wallet     const keyPair = await mnemonicToPrivateKey(         process.env.MNEMONIC.trim().split(' ')     );     const wallet = WalletContractV4.create({         publicKey: keyPair.publicKey,         workchain: 0,     });     const sender = client.open(wallet);      // build payload     const body = beginCell()         .storeUint(0x77a676b, 32) // opcode – adjust to your contract         .storeUint(jettonAmount, 64)         .storeAddress(Address.parse(toAddrStr))         .endCell();      // get current seqno     const seqno = await sender.getSeqno();      // send transfer ­‑‑ note `messages: [ … ]`     await sender.sendTransfer({         secretKey: keyPair.secretKey,         seqno,         sendMode: SendMode.PAY_GAS_SEPARATELY, // or 3         messages: [             internal({                 to: Address.parse(process.env.CONTRACT_ADDRESS),                 value: toNano('0.05'),                 bounce: true,                 body,             }),         ],     });      console.log('mint tx sent'); }  mint('0QARq2E6Vl9dZIcxKBcXgmXVMfUhw-wnq4Bqm6v_ozp66H9j', 10n);
+
+Noname: I have this mint file in nodejs, i wanted to mint coin which i created from ton minter website, but it's always giving me "429 Rate limited Error". Can anyone help me in this
+
+Noname: This is token  https://testnet.tonscan.org/jetton/kQAktPK_EWqvO2bLxYbYtudynAIGPjaTClaW3EZwptaCx3G0
+
+&rey: 1.1s delay between getSeqno  and sendTransfer, or an API key. (reply to 154087)
+
+Vladimir: 🛡Hack THE TON — the first wargame platform built on TON!  Ethereum has legendary wargames like Ethernaut and Damn Vulnerable DeFi — tools that have onboarded thousands of developers into smart contract security. TON had nothing like this. So the community built it.  🎮 How does it work? Hack THE TON is a series of challenge levels, each represented by a smart contract written in Tact or Tolk. Your goal is to hack the contract by triggering its hidden condition. Use your knowledge of the TVM, analyze the logic, exploit vulnerabilities, and win!  🔧 Along the way, you'll learn to:  *️⃣Deepen your understanding of the TVM and TON architecture *️⃣Read and understand Tact/Tolk contracts *️⃣Analyze smart contract vulnerabilities in TON *️⃣Write attack contracts and exploits  🏆 Completing levels contributes to your profile and reputation in the ecosystem.  👾 The first wave of levels is already live. Join the core of TON’s hacker community — and prove what you're capable of.  👉 Start now: https://www.hacktheton.com/ 💬 Join the chat: https://t.me/hacktheton  🚧 New challenges are coming soon. (forwarded from TON Dev News)
+
+&rey: Fails to sign in for me. More precisely, the wallet doesn't show TC2 sign in confirmation, and frontend logs { event: "connect_error", id: ..., payload: { code: 0, message: "timeout" } }. (reply to 154097)
+
+Robb: Morning everyone
+
+Dmitry: Which wallet? (reply to 154099)
+
+&rey: TK mobile. (reply to 154101)
+
+Tim: V P N (reply to 154102)
+
+Dmitry: Hm, works fine for me (reply to 154102)
+
+Andrey: Link to the app: https://tvm-explorer.netlify.app/ (reply to 154064)
+
+nhlaka: Good afternoon. Toncenter api/v3/pendingTransactions/ how long after sending a transaction for processing can I see the transaction via the api? Does anyone know?
+
+Ackermann: Hello  Please, I don't understand why I'm getting this error : contracts/hubb.tact:39:16: Static function "inMsg" does not exist Line 39, col 16:   38 |    receive() { > 39 |     let body = inMsg();                       ^~~~~~~   40 |     let intent = body.loadUint(32);      receive() {     let body = inMsg();     let intent = body.loadUint(32); }
+
+&rey: receive(body: Slice), and it's finally time to toss that LLM into garbage can. (reply to 154113)
+
+Ackermann: I checked tact docs and they had this there    receive() {         let body = inMsg();         body.bits(); // 0     } (reply to 154115)
+
+Ackermann: same error :contracts/hubb.tact:39:16: Static function "inMsg" does not exist Line 39, col 16:   38 |    receive(body: Slice) { > 39 |     let body = inMsg();                       ^~~~~~~   40 |     let intent = body.loadUint(32);
+
+&rey: Oh, interesting. Available since Tact 1.6.7 (reply to 154116)
+
+&rey: this line becomes unnecessary as you might have noticed (reply to 154117)
+
+Ackermann: done, so I can't use inMsg() again in the new tact update?? (reply to 154119)
+
+crypvolk: AYO, hi everyone!
+
+crypvolk: I need some help with a very specific issue regarding my TON balance in the Telegram app.
+
+crypvolk: In My Settings > My TON, I see a balance with a transaction ID like stx1****
+
+crypvolk: I'm trying to figure out how to actually use this TON balance
+
+Mojisola🍅 🍅: as in? (reply to 154146)
+
+crypvolk: withdraw it, transfer it, or spend it on something else, given that it's not appearing on the advertising platform? (reply to 154158)
+
+Mojisola🍅 🍅: may be move it to tonkeeper
+
+crypvolk: So, how can it be used, then? Is it even possible to move it in any way? Please tell me, how? (reply to 154160)
+
+crypvolk: this is TON in my Telegram settings (My TON), and not in the wallet app, just to clarify
+
+&rey: There is no one in this chat who can help you with custodial services like Telegram Wallet. Please mind that people who would DM you are most often scam. (reply to 154161)
+
+crypvolk: didn't refer to you as custodial support, nor is it necessary? (reply to 154165)
+
+&rey: If there is some amount of TON and they are not in blockchain on your wallet contract, then they are held by a custodian. Telegram, apparently. And then we go to step one, which is, only Telegram can say what to do with those. (reply to 154163)
+
+crypvolk: Telegram support hasn't replied to me for 15 days, so I highly doubt they'd suddenly initiate a DM. This is nonsense
+
+— 2025-07-16 —
+
+0x: As a developer, I am very interested in the Ton Network.

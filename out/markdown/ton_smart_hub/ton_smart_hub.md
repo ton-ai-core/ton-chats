@@ -5453,3 +5453,17 @@ Enemali.BTC: How are you? (reply to 4840)
 — 2025-07-13 —
 
 Paxton: i'm good (reply to 4665)
+
+— 2025-07-15 —
+
+Anatoly: Can some one explain to me what the difference between all for languages: tact, tolk, fift, funC? Why there are so many? What i have to choose?)  What i understand with my dyor: funC - first language, efficient for gas, not very strict, bad syntax tact - easy to write, easy to learn, not efficient for gas tolk - it's next funC, more efficient  for gas, with better syntax and typization  fift - have no idea what this is for (reply to 4659)
+
+E2BIG: fift - ассемблер func - си tact - джава tolk - котлин (хипстерский джавазаменитель) (reply to 4850)
+
+Andrey: Choose as high level as possible, then dive deep if necessary. fift is for preparing TVM instructions. Use if you want to have control over exactly what’s getting executed. (reply to 4850)
+
+Vladimir: You’re right about the general concepts  Fift is similar to assembly and is one of the first languages for TVM   FunC is also an old language but operates at a higher level (similar to C). It has poor syntax and compiles into Fift. Many ecosystem contracts were written in FunC, but it’s gradually becoming a rudiment with the release of Tolk 1.0  Tact is a good language to start with, as its team has created great docs and tooling. It generally relies on FunC under the hood. With its clean syntax and resent updates, it has become more optimized. However, due to its nature, it’s not so native to TVM. In future it might change  Tolk is a new language designed to replace FunC and become the primary language for the ecosystem. It features clear syntax, is native to the TVM, and offers many useful features that other languages lack. It’s essentially what FunC should have been. In my opinion, all future development will be around exactly this language (and contract interfaces is proof fro this). So, I recommend to think about it. But for now its docs is not very comprehensive, especially for newcomers  Currently, Tolk lacks the same level of documentation and tooling that Tact offers. If you’re completely new to TON smart contracts and find Tolk difficult, Tact would be a perfect starting point. It has solid docs, some courses, and is easier to learn. But keep in mind that if you aim to work on serious projects in the future, you’ll eventually need to learn Tolk (reply to 4850)
+
+Anatoly: Thanks, guys. Yours explanations very helpful and useful. 🙏 I wonder what the best practices to implement a subscription model via ton. I did course on stepik about ton blockchain there is mentioned and Grok told me something about wallet v4 subscription plugin, but there no details how to use it what actual use case. Is there some documentation about it, that i can not find? (reply to 4659)
+
+Andrey: As far as I understand the flow: 1. User can install subscription plugin to their wallet 2. The plugin is authorized to withdraw certain amount of funds with specified period 3. You can call this plugin to collect payment  I haven’t tried it myself though. Best would be to read the source: https://github.com/ton-blockchain/wallet-contract/blob/main/func/simple-subscription-plugin.fc It may also help to draw diagrams to understand messaging flow (reply to 4854)

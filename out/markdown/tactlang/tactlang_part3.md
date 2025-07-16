@@ -8551,3 +8551,13 @@ fabriregu: Hello, I have deployed a smart contract for NFT Minting. In tests i h
 &rey: Your wallet must come into play in some form, necessitating that this is done from your backend. (reply to 66656)
 
 fabriregu: Yes. Ok. I open my wallet from mnemonic. But the question is how to create the correct transaction message
+
+— 2025-07-15 —
+
+Anton: 🛡Hack THE TON — the first wargame platform built on TON!  Ethereum has legendary wargames like Ethernaut and Damn Vulnerable DeFi — tools that have onboarded thousands of developers into smart contract security. TON had nothing like this. So the community built it.  🎮 How does it work? Hack THE TON is a series of challenge levels, each represented by a smart contract written in Tact or Tolk. Your goal is to hack the contract by triggering its hidden condition. Use your knowledge of the TVM, analyze the logic, exploit vulnerabilities, and win!  🔧 Along the way, you'll learn to:  *️⃣Deepen your understanding of the TVM and TON architecture *️⃣Read and understand Tact/Tolk contracts *️⃣Analyze smart contract vulnerabilities in TON *️⃣Write attack contracts and exploits  🏆 Completing levels contributes to your profile and reputation in the ecosystem.  👾 The first wave of levels is already live. Join the core of TON’s hacker community — and prove what you're capable of.  👉 Start now: https://www.hacktheton.com/ 💬 Join the chat: https://t.me/hacktheton  🚧 New challenges are coming soon. (forwarded from TON Dev News)
+
+Zurcher: I am having issues with a newly created address that is stuck on "Uninit" Anyone knows how I can fix please?
+
+Daniel: If you have uninit state on the specific address it means that the contract isn’t deployed (reply to 66686)
+
+Zurcher: How do I fix this? (reply to 66688)

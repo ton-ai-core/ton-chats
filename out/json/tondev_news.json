@@ -2027,6 +2027,19 @@
       "forwarded_from": "TOLK lang",
       "forwarded_from_id": "channel2203874215",
       "forwarded_date": "2025-07-07T09:12:02.000Z"
+    },
+    {
+      "id": 227,
+      "type": "message",
+      "date": "2025-07-15T08:37:11.000Z",
+      "date_unixtime": "1752568631",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🛡Hack THE TON — the first wargame platform built on TON!\n\nEthereum has legendary wargames like Ethernaut and Damn Vulnerable DeFi — tools that have onboarded thousands of developers into smart contract security.\nTON had nothing like this. So the community built it.\n\n🎮 How does it work?\nHack THE TON is a series of challenge levels, each represented by a smart contract written in Tact or Tolk.\nYour goal is to hack the contract by triggering its hidden condition.\nUse your knowledge of the TVM, analyze the logic, exploit vulnerabilities, and win!\n\n🔧 Along the way, you'll learn to:\n\n*️⃣Deepen your understanding of the TVM and TON architecture\n*️⃣Read and understand Tact/Tolk contracts\n*️⃣Analyze smart contract vulnerabilities in TON\n*️⃣Write attack contracts and exploits\n\n🏆 Completing levels contributes to your profile and reputation in the ecosystem.\n\n👾 The first wave of levels is already live.\nJoin the core of TON’s hacker community — and prove what you're capable of.\n\n👉 Start now: https://www.hacktheton.com/\n💬 Join the chat: https://t.me/hacktheton\n\n🚧 New challenges are coming soon.",
+      "media_type": "photo",
+      "file": "photos/photo_227.jpg",
+      "width": 724,
+      "height": 204
     }
   ]
 }
