@@ -2989,3 +2989,39 @@ crypvolk: Telegram support hasn't replied to me for 15 days, so I highly doubt t
 — 2025-07-16 —
 
 0x: As a developer, I am very interested in the Ton Network.
+
+Kasra: Hello Im using checkSignature in tact and giving it a hash, a signature,  and a public key to check But its returning true for any signature,  even those i signed with a different key
+
+&rey: Code example? (reply to 154198)
+
+Kasra: when i change the privateKey in my backend, but use the old public key in tact, it still says "sig good"
+
+Kasra: i can provide the full code if you want, i removed most of the code for sending it here
+
+Leo: Just provide full code
+
+Leo: And are you testing with sandbox or on-chain?
+
+Kasra: on testnet (reply to 154206)
+
+Kasra: its too much can i send you im dm? (reply to 154205)
+
+Leo: you can first send the tx id on testnet so we can check (reply to 154208)
+
+Kasra: ok wait (reply to 154209)
+
+Kasra: it got fixed, no worries bro thanks for trying to help there was a bug in tonkeeper it was showing sig good in the preview  when i sent the transaction on tonviewer its correct (reply to 154209)
+
+&rey: It is not a bug. It allows to emulate what you will send to the chain without actually signing that potentially-malicious transaction. (reply to 154211)
+
+Kasra: ooh thats good to know thanks bro and sorry for taking your time (reply to 154212)
+
+Nazrawi: Hey there guys, I'm Nazrawi. Can I share what I'm building?
+
+Maaz: is the repo correct and official ?
+
+&rey: https://github.com/ton-blockchain/ton is, indeed. You are welcome to check files on VirusTotal. Windows might complain because of absence of MS-offered certificate. (reply to 154258)
+
+Maaz: ah sad I need to turn off the settings .thanks btw! (reply to 154260)
+
+Artem: Hi! Are there any simple ways to quickly set up a DAO or multisig in Telegram using TON? Like a web app where you gather people in a couple of clicks and manage a shared wallet together. How realistic is this technically — and what do you think of the idea in general?

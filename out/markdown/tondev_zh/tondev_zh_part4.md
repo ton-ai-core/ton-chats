@@ -9661,3 +9661,13 @@ Combot: M86583 Ngitld has been banned! Reason: CAS ban.
 Combot: Pumpfun has been banned! Reason: CAS ban.
 
 Combot: Ethan Somar has been banned! Reason: CAS ban.
+
+— 2025-07-16 —
+
+Jacky: 我们有个Launchhub的项目以及基于此的ip-rwa项目打算参加黑客松，招募团队成员，特别需要有ton mini app/bot开发经验的小伙伴，欢迎有兴趣的小伙伴联系我
+
+— 2025-07-17 —
+
+Combot: 菜雞 has been banned! Reason: CAS ban.
+
+Andrew: Hi @EgbertWebb ，看一下私信

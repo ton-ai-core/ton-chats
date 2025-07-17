@@ -1171,3 +1171,159 @@ s: если перефразировать вопрос более нормал�
 Nick: Кто нибудь знает, как подключиться к тестнету TAC, он уже запущен?
 
 s: спойлер, будет отображаться (reply to 313826)
+
+— 2025-07-16 —
+
+Combot: Combot выдал(а) предупреждение N (1/3) Reason: 1 reports (reply to 313857)
+
+Viacheslav: привет. у меня контракт(банк) выдает токены по интернал транзакции от orderid контракта(аналооия жетонмастер и walletы).  как можно запретить одному адресу выводить токены чаще чем раз в сутки? если у нас нет централизованного хранения данных(мапинга) как в  evm?
+
+SweetJesus: Если я правильно понял, то первое в голову приходит - пусть админ дергает сообщением метод который и делает эти ограничения. (reply to 313862)
+
+Viacheslav: а если админ насоздавал скажем кучу order контрактов. это как бы для подстраховки бэка (reply to 313863)
+
+/B4ckSl4sh\: Запоминать в отдельном контракте время последнего клейма для каждого юзера (reply to 313862)
+
+Viacheslav: памяти не хватит же.. если юзеров много (reply to 313866)
+
+/B4ckSl4sh\: Так в отдельном контракте для каждого юзера (reply to 313868)
+
+/B4ckSl4sh\: Ровно так же, как в жетонах хранится например баланс для каждого юзера (reply to 313869)
+
+Viacheslav: ааа (reply to 313869)
+
+Viacheslav: юзер кстати сам свой ордер контракт деплоит(за свой счет) и кладет в него подпись с бэка и она проверяется уже в центральном контракте.  получается юзер деплоит ордер контракт, идет запрос в контракт с lasttime и оттуда в главный уже..
+
+web-assist 🧀: При работе с данными заказчиками берите предоплату и не отдавайте исходники до полной оплаты. Денег потом за свой труд вы не увидите @igorm1212 @samvelinz
+
+&rey: А в Толке lazy с адресами предполагает, что они всегда 267 бит, или нет?
+
+maksim: что значит предполагает? (reply to 313875)
+
+fruitful-l: А разве есть разница? Он же любые структуры любого размера сам достает (reply to 313875)
+
+maksim: +, до момента матча/доступа к полю он ничего не предполагает, а там уже смотрит по факту что есть (reply to 313877)
+
+fruitful-l: Кстати матч возможно настроить не под опкод? Чтобы он условно под любой тип данных работал, не обязательно uint (reply to 313878)
+
+L30n1d: можно (reply to 313879)
+
+maksim: матч работает не по опкоду а в целом по любом префиксу, если такого нет он сам строит префикс дерево, так что да, можно (reply to 313879)
+
+fruitful-l: Спасибо
+
+&rey: Ну, при uint64 uint32 uint64 он может сам пропустить 160 бит, так вот чтобы с адресом было то же. (reply to 313876)
+
+maksim: в случае с адресом загрузит и не будет использовать (reply to 313884)
+
+maksim: ну и с другими типами мутабельной длинны тоже самое
+
+maksim: нельзя делать assumptions без загрузки ведь может сломаться
+
+&rey: Запрашиваю, значит, simple_address) Который всегда 267 бит. (reply to 313885)
+
+maksim: ахах да так прокатит если прям очень экономить хочется (reply to 313889)
+
+Petr: Пишешь slice а потом делаешь когда нужно msg.slice as address, вроде так можно (reply to 313889)
+
+Petr: А ой, bits257, у слайса же нет длины
+
+s: подскажите, почему выдает ошибку 9  при это в некоторых случаях есть ошибка, в некоторых нет       const feesCell = beginCell()         .storeAddress(Address.parse(marketplaceFeeAddress))         .storeUint(marketplaceFactor, 32)         .storeUint(marketplaceBase, 32)         .storeAddress(Address.parse(royaltyAddress))         .storeUint(royaltyFactor, 32)         .storeUint(royaltyBase, 32)         .endCell();      return beginCell()         .storeBit(isComplete ? 1 : 0)         .storeUint(createdAt, 32)         .storeUint(finishAt, 32)         .storeAddress(Address.parse(marketplaceAddress))         .storeAddress(Address.parse(nftAddress))         .storeAddress(Address.parse(offerOwnerAddress))         .storeCoins(fullPrice)         .storeRef(feesCell)         .storeBit(1) // can_deploy = true         .endCell();
+
+⛰️ Roman ⛰️: значит из ячейки ты пытаешься прочитать то, чего нет, либо пытаешься прочитать не тот тип (reply to 313899)
+
+⛰️ Roman ⛰️: было бы хорошо, если бы фоткой скинул код деплоя и код контракта (reply to 313899)
+
+User: Проверьте через дебаггер или console.log все-ли данные передаются адекватно, потому-что в плане составления ячейки все ок и логика не может изменяться и условно не деплоиться, как это произошло с вами, что указывает на проблему именно во входящих данных.  Для лучшего понимая, сравните ячейку которую вы отправили и она подтвердилась, с ячейкой которая выкинула cell underflow (reply to 313899)
+
+⛰️ Roman ⛰️: я посмотрел через тонвьювер, тот контракт что задеплоился удачно, был задеплоен им 18ч назад и почему то обозреватель не отмечает его как nft_offer_contract. За это время он мог что то изменить в коде (reply to 313903)
+
+s: контракт гетгемс я только иннит дату передаю (reply to 313902)
+
+&rey: А опкод и query ID где-то в другом месте? (reply to 313899)
+
+⛰️ Roman ⛰️: я чекнул контракт, при деплое в его случае не обязательно добавлять op и query id (reply to 313906)
+
+User: return (     ds~load_uint(1), ;; is_complete 1     ds~load_uint(32), ;; created_at 32     ds~load_uint(32), ;; finish_at 32     ds~load_uint(32), ;; finish_at 32     ds~load_msg_addr(), ;; marketplace_address  267     ds~load_msg_addr(), ;; nft_address 267     ds~load_msg_addr(), ;; offer_owner_address 267     ds~load_coins(), ;; full_price 127     ds~load_ref(), ;; fees_cell     ds~load_uint(1)     ;; can_deploy   );  Попробуйте еще store_uint(finish_at, 32) выставить. В исходниках почему-то их два (reply to 313899)
+
+⛰️ Roman ⛰️: после не хватает swap_at (reply to 313899)
+
+s: https://testnet.tonviewer.com/transaction/dc579abacb0982018c7999abe52c1a0f8db9c6de861075a6fc37fb0e237e4de9  ты лучший спасибо ! ❤️ (reply to 313907)
+
+s: видимо в комментарии просто ошиблись с именем (reply to 313908)
+
+s: у них в гитхабе неверная структура
+
+⛰️ Roman ⛰️: можешь в issues отправить сообщение (reply to 313914)
+
+⛰️ Roman ⛰️: обновили расширение для IDE https://t.me/toncore/69
+
+s: а для вебшторма?( (reply to 313916)
+
+Petr: Есть плагин для JB IDE: https://plugins.jetbrains.com/plugin/23382-ton (reply to 313917)
+
+RootTon: Всем привет, делал ли кто то бота который грамотно управляет ликвидностью токена ? Чтобы пропорционально докидывались X и Y (по амм) и при этом цена Y стабилизировалась и не падала ? Если да то скиньте плиз мат формулы кому не жалко
+
+fruitful-l: Если нужен стейблкоин у дедаста есть формула, а так все стандартную используют без хитростей (reply to 313922)
+
+RootTon: Принял, а как тогда защищаются от арбитража и прочих криптофриков ? (reply to 313925)
+
+fruitful-l: Ну арбитражить же будут в разных дексах? Мне кажется на это никак не повлиять (reply to 313926)
+
+RootTon: А можно ссыль? (reply to 313925)
+
+Оскар: если ты про стейлбсвоп, то не нужно путать его со стейблкоинами, стейблсвоп нужен для монет, которые имеют около-одинаковую ценность (USDT-USDC, TON-stTON, etc) (reply to 313925)
+
+#: https://retracer.ton.org/?tx=4a8401c811051d06561356c9bcdb2adf0ad2cd5b4db5640b3370993277987785&testnet=true  можете пожалуйста сказать почему 7 ошибка? что он пытается сделать?
+
+fruitful-l: Да, перепутал (reply to 313929)
+
+Alexey: ого, а на чём контракт написан? это похоже на баг компилятора, если он такое выдал (reply to 313931)
+
+#: func (reply to 313933)
+
+Alexey: ну если вы используете асмблерные вставки, то ошибка в наверняка в них, если не используете то вы что-то очень необычное делаете (reply to 313934)
+
+rends_east: скорее всего вы забыли лоаднуть storage (reply to 313931)
+
+#: я просто хочу сделать домен, но добавил туда больше данных (reply to 313935)
+
+rends_east: Бага компилятора нет, рантайм ошибка Вы пытаетесь достать глобальную переменную, она не выставлена, получаете null, пытаетесь сделать STSLICE, выходит ошибка 7
+
+rends_east: продебажьте ~strdump и ~dump, увидьте, где ошибка  она на строчке, где вы используете глобальную переменную (reply to 313937)
+
+rends_east: а, ну вы в тестнете тестите тогда, конечно, земля пухом
+
+#: ` ;; Storage global variables global int storage::index; global slice storage::collection_address; global slice storage::owner_address; global cell storage::content; global cell storage::domain; global cell storage::auction; global int storage::last_fill_up_time; global int storage::dns_price_other; global int storage::dns_price_minimum; global int storage::percent; global int storage::min_dns_len; global int storage::max_dns_len; global int storage::auction_end_duration; global int storage::auction_prolongation;  (slice, int, int) unpack_auction(cell auction) {     if (cell_null?(auction)) {         return (null(), 0, 0);     } else {         slice ds = auction.begin_parse();         return (ds~load_msg_addr(), ds~load_coins(), ds~load_uint(64));     } }  cell pack_auction(slice max_bid_address, int max_bid_amount, int auction_end_time) {     return begin_cell()             .store_slice(max_bid_address)             .store_coins(max_bid_amount)             .store_uint(auction_end_time, 64)             .end_cell(); }  () load_data() impure inline {     slice ds = get_data().begin_parse();     storage::index = ds~load_uint(256);     storage::collection_address = ds~load_msg_addr();     if (ds.slice_bits() > 0) {         storage::owner_address = ds~load_msg_addr();         storage::content = ds~load_ref();         storage::domain = ds~load_ref();         storage::auction = ds~load_dict();         storage::last_fill_up_time = ds~load_uint(64);         storage::dns_price_other = ds~load_coins();         storage::dns_price_minimum = ds~load_coins();         storage::percent = ds~load_uint(8);         storage::auction_end_duration = ds~load_uint(16);         storage::auction_prolongation = ds~load_uint(16);         storage::min_dns_len = ds~load_uint(8);         storage::max_dns_len = ds~load_uint(8);     } else {         storage::owner_address = null();         storage::content = null();         storage::domain = null();         storage::auction = null();         storage::last_fill_up_time = 0;         storage::dns_price_other = 0;         storage::dns_price_minimum = 0;         storage::percent = 0;         storage::auction_end_duration = 0;         storage::auction_prolongation = 0;         storage::min_dns_len = 0;         storage::max_dns_len = 0;     }     ds.end_parse(); }  () save_data() impure inline {     set_data(         begin_cell()             .store_uint(storage::index, 256)             .store_slice(storage::collection_address)             .store_slice(storage::owner_address)             .store_ref(storage::content)             .store_ref(storage::domain)             .store_dict(storage::auction)             .store_uint(storage::last_fill_up_time, 64)             .store_coins(storage::dns_price_other)             .store_coins(storage::dns_price_minimum)             .store_uint(storage::percent, 8)             .store_uint(storage::auction_end_duration, 16)             .store_uint(storage::auction_prolongation, 16)             .store_uint(storage::min_dns_len, 8)             .store_uint(storage::max_dns_len, 8)         .end_cell()     ); }
+
+#: () recv_internal(int msg_value, cell in_msg_full, slice in_msg_body) impure {     int my_balance = pair_first(get_balance());     slice cs = in_msg_full.begin_parse();     int flags = cs~load_uint(4);     if (flags & 1) { ;; ignore all bounced messages         return ();     }     slice sender_address = cs~load_msg_addr();     cs~load_msg_addr(); ;; skip dst     cs~load_coins(); ;; skip value     cs~skip_bits(1); ;; skip extracurrency collection     cs~load_coins(); ;; skip ihr_fee     int fwd_fee = cs~load_coins(); ;; we use message fwd_fee for estimation of forward_payload costs     load_data();     if (cell_null?(storage::content)) { ;; initialization         throw_unless(405, equal_slices_bits(storage::collection_address, sender_address));         slice from_address = in_msg_body~load_msg_addr();         storage::domain = in_msg_body~load_ref();         cell onchain_content = in_msg_body~load_dict();         storage::content = begin_cell().store_uint(0, 8).store_dict(onchain_content).end_cell();         storage::dns_price_other = in_msg_body~load_coins();         storage::dns_price_minimum = in_msg_body~load_coins();         storage::percent = in_msg_body~load_uint(8);         storage::auction_end_duration = in_msg_body~load_uint(16);         storage::auction_prolongation = in_msg_body~load_uint(16);         storage::min_dns_len = in_msg_body~load_uint(8);         storage::max_dns_len = in_msg_body~load_uint(8);          int seconds = now() - auction_start_time;         int months = seconds / one_month;         if (months > 12) {             months = 12;         }         int duration = auction_start_duration - (auction_start_duration - storage::auction_end_duration) * months / 12;         int auction_end_time = now() + duration;         storage::auction = pack_auction(from_address, msg_value, auction_end_time);         storage::last_fill_up_time = now();         save_data();         return ();     }     if (equal_slices_bits(storage::collection_address, sender_address)) {         slice from_address = in_msg_body~load_msg_addr();         send_msg(from_address, 0, 0, cur_lt(), null(), 64); ;; carry all the remaining value of the inbound message         return ();     }
+
+rends_east: вот на этой строчке падает (reply to 313941)
+
+rends_east: потому что вы выставляете в null (reply to 313941)
+
+rends_east: Дарю, пользуйтесь Больше не выставляйте адреса в null slice null_addr() asm "b{00} PUSHSLICE"; (reply to 313945)
+
+#: спасибо (reply to 313946)
+
+#: можете сказать почему в контракте dns-item  при change_dns_record , если обрабатывается случай :  else {             keyvalue_map~udict_delete?(256, key);         }  то обновляется last_fill_up_time? то есть происходит продление
+
+&rey: Потому что продление при любом подтверждении, что владелец всё ещё там и ему этот домен нужен. (reply to 313951)
+
+#: то есть при продлении теряется dns smc address: и прочее что кладется в value после key?
+
+#: или оно останется
+
+#: я в тестнете вызвал продление домена и у меня last fill up time не поменялся. может стоит явно переопределить его значение через now() в блоке else (reply to 313952)
+
+Artem: Как писать в этот чат?
+
+Artem: Если сообщение просто удаляется
+
+Никита: а ты всякую бяку не пиши (reply to 313960)
+
+Artem: Да я и не писал, я спросить хотел  Есть ли готовые решения для быстрого создания частного дао или мультисиг кошелька? Чтоб пару кнопок нажал и у тебя "свой" фонд (reply to 313962)
+
+Artem: В виде вебаппы, например (reply to 313963)
+
+&rey: Ну, можно изучить https://multisig.ton.org/ (reply to 313963)
