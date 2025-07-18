@@ -9671,3 +9671,11 @@ Jacky: 我们有个Launchhub的项目以及基于此的ip-rwa项目打算参加�
 Combot: 菜雞 has been banned! Reason: CAS ban.
 
 Andrew: Hi @EgbertWebb ，看一下私信
+
+Combot: Ufufxh has been banned! Reason: CAS ban.
+
+Combot: Deneke Key has been banned! Reason: CAS ban.
+
+Rolla: Ton新项目上线，求合作,随时可DM
+
+Combot: ECLIPS PROMO has been banned! Reason: CAS ban.

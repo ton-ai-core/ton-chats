@@ -3025,3 +3025,29 @@ Maaz: is the repo correct and official ?
 Maaz: ah sad I need to turn off the settings .thanks btw! (reply to 154260)
 
 Artem: Hi! Are there any simple ways to quickly set up a DAO or multisig in Telegram using TON? Like a web app where you gather people in a couple of clicks and manage a shared wallet together. How realistic is this technically — and what do you think of the idea in general?
+
+— 2025-07-17 —
+
+TON Bounty Bridge: ​Educational material: Understanding nativeReserve with TACT examples and tests  🏷 Education  Summary:Create simple and clear educational material that explains hownativeReserveworks on the TON blockcha...  Created by nerses-asaturyan
+
+Энд'и: Can someone tell me where in fragment you can see that someone wants to buy my nickname?
+
+ᅠ ︎ ︎ ᅠ ︎ ︎ ︎ ︎ ᅠ ︎ ︎ ᅠ: I need 20 urgently TON Test coins
+
+ᅠ ︎ ︎ ᅠ ︎ ︎ ︎ ︎ ᅠ ︎ ︎ ᅠ: Help
+
+ᅠ ︎ ︎ ᅠ ︎ ︎ ︎ ︎ ᅠ ︎ ︎ ᅠ: Where to get 20
+
+Anonymous: For what
+
+&rey: They are offered in tonconsole.com if it's that urgent. (reply to 154352)
+
+— 2025-07-18 —
+
+Zin.TON: How can I get some grants for my Community?
+
+Kasra: I didnt find any option to get testnet ton on this website (reply to 154360)
+
+&rey: It should be accessible. tonconsole.com/faucet, more precisely. By the way you would've accumulated those 20 testnet TON by now from the common faucet. (reply to 154376)
+
+TON Bounty Bridge: ​Meta5  🏷 Resource  Summary:آموزش  Created by maj88

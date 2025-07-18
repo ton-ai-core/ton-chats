@@ -12775,6 +12775,35 @@
       "from": "Кит среди рыб",
       "from_id": "user455918699",
       "text": "Здравствуйте"
+    },
+    {
+      "id": 2656,
+      "type": "message",
+      "date": "2025-07-17T18:42:46.000Z",
+      "date_unixtime": "1752777766",
+      "from": "Punk",
+      "from_id": "user6571083523",
+      "text": "Всем хелоу! Есть какая-нить роадмапа по изучению Tact?"
+    },
+    {
+      "id": 2657,
+      "type": "message",
+      "date": "2025-07-17T18:43:14.000Z",
+      "date_unixtime": "1752777794",
+      "from": "Андрей",
+      "from_id": "user512815414",
+      "text": "https://docs.tact-lang.org/book/learn-tact-in-y-minutes/",
+      "reply_to_message_id": 2656
+    },
+    {
+      "id": 2658,
+      "type": "message",
+      "date": "2025-07-17T18:46:08.000Z",
+      "date_unixtime": "1752777968",
+      "from": "Punk",
+      "from_id": "user6571083523",
+      "text": "Сенк ю",
+      "reply_to_message_id": 2657
     }
   ]
 }
