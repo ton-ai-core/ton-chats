@@ -3051,3 +3051,47 @@ Kasra: I didnt find any option to get testnet ton on this website (reply to 1543
 &rey: It should be accessible. tonconsole.com/faucet, more precisely. By the way you would've accumulated those 20 testnet TON by now from the common faucet. (reply to 154376)
 
 TON Bounty Bridge: ​Meta5  🏷 Resource  Summary:آموزش  Created by maj88
+
+Andrey: Good day to all. I have connected a TG Analytics SDK to tg mini app. Can someone advise where this analytics can be checked by users? any cabinet or maybe telegram bot where analytics will be received?
+
+Ad: Hey, i have a difficult time understanding the doc to compute a msg fwd-fee based on the message Boc. can someone point to some code or article?
+
+Alex: I personally didn’t find it 😄 (reply to 154387)
+
+Andrey: so am I (( did you add custom events on buttons? I have read documentation but not clear if this SDK has integrated methods for events call inside components. In example user click on button and some custom event has been sent. (reply to 154392)
+
+Alex: Nope, I just use it because it was required by telegram app catalog (reply to 154393)
+
+EnCryptoknight ⚔️: does telegram allows multichain wallet creation on miniapp
+
+Jimmy: No, Telegram Mini Apps cannot directly create multichain wallets. Telegram's integration with Web3 is primarily focused on the TON (The Open Network) blockchain. While Mini Apps can integrate blockchain features like cryptocurrency transactions and wallet connections, they are restricted to using the TON blockchain and TON Connect for interactions with other apps. (reply to 154396)
+
+EnCryptoknight ⚔️: But OKX and bitget operates regardless of this policy (reply to 154397)
+
+tete: Hey there, I'm trying to use TON lib for Python bit can't get a LiteServer to respond. Any hints?
+
+tete: Tried to run examples in GitHub's TonDevStudy repo.
+
+&rey: Try different ls indices. Some of them will not answer indeed. (reply to 154408)
+
+tete: Tried all indices and ridicule timeouts but had no luck. For the record, using testnet config.
+
+tete: Is it expected to have some failing and some not?
+
+Defi Fomo: Hi everyone I decided to write a dapp with translation of nft item to contract. Can you tell me if it's possible to translate nft item inside dapp? https://docs.tonconsole.com/tonapi/cookbook/working-with-nfts I didn't find it in ton api.
+
+Daniel: What do you mean by translation? (reply to 154464)
+
+Anonymous: Greetings programmers! Can someone help me send ton transactions through python?
+
+tete: Already asked it today but there doesn't seem to be much room for those questions... (reply to 154466)
+
+tete: Search this repo, you'll find examples, but I can't make them work. (reply to 154411)
+
+&rey: Basically, await wallet_contract.transfer(destination=..., amount=..., body=..., state_init=...) from pytoniq, or something like that from TonUtils. (reply to 154466)
+
+tete: Tried that but no LiteServer replies back. At least in testnet.
+
+Anonymous: Should I get a webhook in ton console if my telegram bot is running on a server/ webhook?
+
+Андрей: I’m the developer of the Go SDK for TON Connect 2.0 (can’t share the link there, but it’s the Cameo Engineering repository).  Just a warning: there are two GitHub repos out there copying our code but with obfuscated functions that download suspicious binaries from shady .icu domains.  Make sure you know what you’re installing. To my knowledge, there aren’t any other reliable public libraries like ours available right now.  I’m banned from the main Russian community, so please help spread this warning there.

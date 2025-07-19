@@ -9679,3 +9679,19 @@ Combot: Deneke Key has been banned! Reason: CAS ban.
 Rolla: Ton新项目上线，求合作,随时可DM
 
 Combot: ECLIPS PROMO has been banned! Reason: CAS ban.
+
+— 2025-07-18 —
+
+Combot: Б⃨е⃨л⃨о⃨ч⃨к⃨а⃨🐿️🐾 has been banned! Reason: CAS ban.
+
+A: 大家好！我们正在开发一个基于 TON 的创新游戏项目，目标是推出全球首个体量子稳定币，挑战 USDT。我们寻找有经验的推广者或影响者，帮助我们在 TON 社区吸引投资。如果您有兴趣合作，请私信我了解更多详情。期待与您共同打造未来
+
+Lazhuzhu？: #這群三周23連勝無損單，一開單就是翻倍，每天主流幣分析也很准，已經翻倉  持續佈局中…點擊加入，跟上吃肉🥩🥩 (reply to 9401)
+
+Combot: K Lay🔥 has been banned! Reason: CAS ban.
+
+Combot: 迷鹿 has been banned! Reason: CAS ban.
+
+— 2025-07-19 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
