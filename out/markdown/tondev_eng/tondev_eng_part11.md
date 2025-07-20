@@ -3095,3 +3095,11 @@ tete: Tried that but no LiteServer replies back. At least in testnet.
 Anonymous: Should I get a webhook in ton console if my telegram bot is running on a server/ webhook?
 
 Андрей: I’m the developer of the Go SDK for TON Connect 2.0 (can’t share the link there, but it’s the Cameo Engineering repository).  Just a warning: there are two GitHub repos out there copying our code but with obfuscated functions that download suspicious binaries from shady .icu domains.  Make sure you know what you’re installing. To my knowledge, there aren’t any other reliable public libraries like ours available right now.  I’m banned from the main Russian community, so please help spread this warning there.
+
+— 2025-07-20 —
+
+Code: I just heard of Tolk… so there’s now both Tolk and Tact?   Which one do you guys recommend I use as a new TON dev?
+
+Gustavo: So many attackers I'm also suffering a scam 🥹 (reply to 154494)
+
+&rey: IMHO Tolk is better in that does not mask the blockchain-related parts. Tact does, and it works until it comes back to bite you (e.g. if you forget that you cannot call get-methods of other contracts). (reply to 154558)

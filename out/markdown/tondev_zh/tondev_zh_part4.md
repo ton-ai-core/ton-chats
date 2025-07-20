@@ -9695,3 +9695,11 @@ Combot: 迷鹿 has been banned! Reason: CAS ban.
 — 2025-07-19 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Chaincode: 要不要技术方面的合作 (reply to 95541)
+
+A: 是的，如果我们能合作的话我会非常高兴。您能在哪些方面帮助这个项目？ (reply to 95567)
+
+— 2025-07-20 —
+
+Chaincode: DM Me (reply to 95590)

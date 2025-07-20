@@ -8565,3 +8565,9 @@ Zurcher: How do I fix this? (reply to 66688)
 — 2025-07-16 —
 
 Nerses: What lib do you use for testing contracts which interact with Jettons ? I tried to use ton-community/asset-sdk but got such error   Invalid address. Got EQBGhqLAZseEqRXz4ByFPTGV7SVMlI4hrbs-Sps_Xzx01x8G        85 |         };       86 |     > 87 |         jettonMaster = blockchain.openContract(JettonMinter.createFromConfig(jettonMinterconfig, minterCode));          |                                                             ^       88 |       89 |         const jettonMinterDeployResult = await jettonMaster.sendDeploy(deployer.getSender(), toNano('0.05'));       90 |         expect(jettonMinterDeployResult.transactions).toHaveTransaction({        at BitBuilder.writeAddress (../../node_modules/@ton/core/dist/boc/BitBuilder.js:256:15)       at Builder.storeAddress (../../node_modules/@ton/core/dist/boc/Builder.js:237:20)       at ../../node_modules/@ton-community/assets-sdk/dist/jetton/types/JettonMinterContent.js:7:17       at Builder.storeWritable (../../node_modules/@ton/core/dist/boc/Builder.js:338:13)       at Builder.store (../../node_modules/@ton/core/dist/boc/Builder.js:362:14)       at jettonMinterConfigToCell (../../node_modules/@ton-community/assets-sdk/dist/jetton/JettonMinter.js:16:36)       at Function.createFromConfig (../../node_modules/@ton-community/assets-sdk/dist/jetton/JettonMinter.js:33:22) , although I have used same code as sample from this project
+
+— 2025-07-19 —
+
+МОЛОДОЙ КРИПТО №1: Good night guys, I wanted to ask you how to write a smart contract that accepts: payload & amount (wallet replenishment amount), wallet_address  The smart contract must send all funds to wallet A, on wallet A tones transfer to wallet B (wallet_address) with the specified payload & amount
+
+&rey: It has no authority over A for that wallet/contract to transfer anything. (reply to 66886)
