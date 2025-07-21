@@ -8571,3 +8571,7 @@ Nerses: What lib do you use for testing contracts which interact with Jettons ? 
 МОЛОДОЙ КРИПТО №1: Good night guys, I wanted to ask you how to write a smart contract that accepts: payload & amount (wallet replenishment amount), wallet_address  The smart contract must send all funds to wallet A, on wallet A tones transfer to wallet B (wallet_address) with the specified payload & amount
 
 &rey: It has no authority over A for that wallet/contract to transfer anything. (reply to 66886)
+
+— 2025-07-20 —
+
+Moaad: hello everyone i have a problem with compiling  I have followed the recommended steps to create a new Tact project and configure it to compile my smart contracts. Unfortunately, the compilation is still failing with the same error: the compiler is not able to find the standard library (@stdlib).

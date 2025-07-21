@@ -9703,3 +9703,21 @@ A: 是的，如果我们能合作的话我会非常高兴。您能在哪些方�
 — 2025-07-20 —
 
 Chaincode: DM Me (reply to 95590)
+
+Troy: 大家好！我们在开发一款基于Ton的流支付协议，支持代币解锁、空投、订阅、薪酬发放等功能
+
+Troy: 希望有兴趣的Ton开发小伙伴，加入团队
+
+Troy: 可直接私信我😊
+
+wikig: Payment  ? (reply to 95631)
+
+Troy: yes (reply to 95634)
+
+Troy: streaming payment protocol on Ton
+
+wikig: 有问题or有兴趣的话可以问 刚好以前做过这块 https://github.com/tonspay (reply to 95635)
+
+Troy: 好嘞 (reply to 95637)
+
+Combot: Rush Casino has been banned! Reason: CAS ban.

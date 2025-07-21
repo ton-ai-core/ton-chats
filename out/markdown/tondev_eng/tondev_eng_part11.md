@@ -3103,3 +3103,31 @@ Code: I just heard of Tolk… so there’s now both Tolk and Tact?   Which one d
 Gustavo: So many attackers I'm also suffering a scam 🥹 (reply to 154494)
 
 &rey: IMHO Tolk is better in that does not mask the blockchain-related parts. Tact does, and it works until it comes back to bite you (e.g. if you forget that you cannot call get-methods of other contracts). (reply to 154558)
+
+yo boy izu: Hi , I'm a Ton user and would love to test your games .I can report bugs and give feedback . please let me know if you need beta tester
+
+H1Xploit: How to decrypt to produce public key?  {"deviceEncryptionPublicKey":"30820222300d06092a864886f70d01010105000382020f003082020a0282020100eac29afcc11310df7d885fa09e6c3b3412335f9d2cf0c4b280225f0d8e92470ee2d77378d1d33bdd527f6823b6d9b132d77309ee1e9d328262338c889b84b90ba19404832d5e55328a391ee96e1046c042864ab21ec09b1ca4a736f8f89c847c55f21db1066738fc6a28c20e6ea8171f4c11f2ec373e9c3f9040b595966a0188283472d7d94d9c38cf77cd9db5a2b6c02da1b1fc09ee5645243c06cecad9958d44ee54130cb4d3f63dab2b30a436c8285308ed181921646936c9a442a6d4ea6b5fc3e3c9b3a6c06e561c5038422995a8d33e7c1b1b06c1f5d1604eb11555db8a3ef7c3cf57a74611be263306ad0594e090959f1d45007a411241128b5f505345953034a6ffebe59fa35d5a74f2d6fb85de3d60211d2645557b37b5b5063587cdbb3092dce83fa011ca5b568cf31634f23e65c75692ce8e7cbc90be596c19ec98b7adb7b4df311ac91e41a3d7ea7b01bd52e8c59b7ec175103d3be8d116040a1de2b14a642c62b625fea83b457e6fb53f480c65ca352e8eb4172140238e1ab899bbd8f9177e7ac02bc01738f1a73e7e4b2e553a152b5c2781157b54a50816b01549ceb91cd2ce3cc1af706e035d3cc1410475c984651e69ada9702b8a80cf776136d7772600c14ede4e01ebe63d0febb65562de2faa5f91e5c29e2c5e9f85e426bea1b6b916f2caaad441a92bfebb993f2956efcc4481e1e355a7453f881eaa6d0203010001","externalId":"tonspace-yLNvXpXbHfoyMedo"}
+
+Gleb: Hi guys. Func, tact, tolk - what is the point of making so many programming languages for one blockchain? why can't we just focus on one option?🤦‍♂️
+
+5b 44 43 54 5d: func ❤️ (reply to 154587)
+
+Not: func is more high level or something (reply to 154587)
+
+🐱: More info please (reply to 154494)
+
+Erfan: Each exist for a purpose and a point, with specific benefits and drawbacks. (reply to 154587)
+
+&rey: FunC is not receiving further features. It will be soft-deprecated in favor of Tolk. (reply to 154587)
+
+Robb: Man do you maybe know was Snoops drop meant to be a one-time promo thing or is he planning to stay involved with TON in any real long-term way? (reply to 154596)
+
+Vinh: /stat@combot
+
+Combot: Total messages: 154617
+
+— 2025-07-21 —
+
+DARK ANGEL: Advise what language to learn after Python (I want to write backend for web applications, api, etc.)
+
+jennifer: golang (reply to 154627)
