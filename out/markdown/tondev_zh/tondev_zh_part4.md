@@ -9721,3 +9721,19 @@ wikig: 有问题or有兴趣的话可以问 刚好以前做过这块 https://gith
 Troy: 好嘞 (reply to 95637)
 
 Combot: Rush Casino has been banned! Reason: CAS ban.
+
+— 2025-07-21 —
+
+Combot: 菜雞 has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🏆 MyTonWallet 正式启动公开开发者大赛  我们坚信，最好的产品源自社区协作。因此，诚邀所有开发者参与测试 MyTonWallet Air —— 我们全新的原生 iOS & Android 应用。  这一里程碑式的升级，实现了原生 App 与设备操作系统的深度整合，借助系统原生组件与功能，大幅提升运行速度和响应流畅度，让钱包真正成为你手机体验的一部分。  现推出两大激动人心的竞赛⚡️  1. MyTonWallet Air QA 大赛 以真实用户视角深度探索 App：寻找 BUG、界面缺陷、流程中断或意外表现。 🏆 奖金池：最高 1 万美元 🔗 https://t.me/MyContests/18  2. MyTonWallet Air 安全赏金计划 面向道德黑客与安全研究员，挖掘可能危及用户资产与隐私的核心安全漏洞。 🏆 奖金池：最高 5 万美元 🔗 https://t.me/MyContests/19  了解详情并报名参赛，请加入我们的 Telegram 频道 @ mycontests——最佳作品将赢取丰厚奖励！👨‍💻  ❤ 祝各位参赛者好运！ (forwarded from TON East Asia Hub)
+
+Combot: Victor has been banned! Reason: CAS ban.
+
+Combot: Yanamuravyeva Harardwerd has been banned! Reason: CAS ban.
+
+Combot: Gxuf has been banned! Reason: CAS ban.
+
+AnonymousScriptt007: Hello Devs
+
+v我50: #這群已四周26連勝無損單，一開單就是翻倍，每天主流幣分析也很准，已經翻倉  持續佈局中…點擊加入，跟上吃肉🥩🥩 (reply to 9412)

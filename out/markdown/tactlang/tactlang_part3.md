@@ -8575,3 +8575,19 @@ Nerses: What lib do you use for testing contracts which interact with Jettons ? 
 — 2025-07-20 —
 
 Moaad: hello everyone i have a problem with compiling  I have followed the recommended steps to create a new Tact project and configure it to compile my smart contracts. Unfortunately, the compilation is still failing with the same error: the compiler is not able to find the standard library (@stdlib).
+
+— 2025-07-21 —
+
+Yoviar▪️: Why my dapps while connecting to wallet error is unsupported wallet version
+
+Mitzy: I'm having the same issue with my wallet
+
+Vinh: @xskill_bot
+
+S: Maybe update your dependencies (reply to 66927)
+
+S: You'll have to be more specific than that, sir (reply to 66929)
+
+Adera: message(0xf8a7ea5) JettonTransfer {     query_id: Int as uint64;     amount: Int as coins;     destination: Address;     response_destination: Address;     custom_payload: Cell?;     forward_ton_amount: Int as coins;     forward_payload: Cell?; }
+
+Adera: message(0xf8a7ea5) JettonTransfer {     query_id: Int as uint64;     amount: Int as coins;     destination: Address;     response_destination: Address;     custom_payload: Cell?;     forward_ton_amount: Int as coins;     forward_payload: Cell?; }

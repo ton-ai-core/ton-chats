@@ -3131,3 +3131,111 @@ Combot: Total messages: 154617
 DARK ANGEL: Advise what language to learn after Python (I want to write backend for web applications, api, etc.)
 
 jennifer: golang (reply to 154627)
+
+kevin: Golang +
+
+Mojisola🍅 🍅: use python. have you heard of flask, Django (reply to 154627)
+
+Ivan: Hello. Where can I see the docs for deploying the Highload Wallet V3 contract? The official TON Docs has the bare minimum of information, maybe someone has a ready-made solution
+
+Daniel: https://github.com/ton-blockchain/highload-wallet-contract-v3 (reply to 154636)
+
+Алина: Does it matter, transaction-duration-vise, if I use TON from Japan? There're some nodes here, are they going to produce blocks in a lagging-behind-way because of the big ping with Europe where most nodes are located?
+
+5b 44 43 54 5d: C# (reply to 154627)
+
+&rey: Other than some milliseconds to receive your external message, it will work the same. After all, connection to you is no longer required to compute all the transactions. (reply to 154638)
+
+&rey: if you know the list of features beforehand, you should also check out Rust (reply to 154627)
+
+Алина: The miliseconds you're talking about are the ping from me to the closest validator/liteserver? (reply to 154640)
+
+&rey: To the main bulk of them, I would say. If you're sending the external to a Japanese server, it still has to be broadcasted in the overlay. (reply to 154642)
+
+&rey: Essentially, the external needs to meet collator/validator producing one of the next blocks. More often than not, this node will be in Europe as the main bunch of them is.
+
+Алина: From my observations, the collator is queued in a first-in-first-out way so I get a sense that it'd suck to send externals from Japan
+
+&rey: Did you check message stats in practice, though?
+
+Алина: message stats? (reply to 154646)
+
+&rey: Time to mempool (though that is imprecise because Tonapi only checks at their nodes which are not in Japan), time to inclusion (even less precise because of block interval), drop rate. (reply to 154647)
+
+Алина: Sounds like a good idea to test these, will do probably! (reply to 154648)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 11 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 35  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+DARK ANGEL: Yes, of course I know, but Python is quite slow and I decided to learn a more complex and faster language (reply to 154635)
+
+Алина: javascript is the most powerful language ever (reply to 154656)
+
+Mojisola🍅 🍅: python is not slow.  have you reasoned why python is popular In AI, machine learning (reply to 154656)
+
+&rey: because it merely invokes C or GPU-bound code which does the computations at hand.  That's somewhat off topic, isn't it? (reply to 154658)
+
+&rey: We do not have a project bringing GPUs to TON after all.
+
+DARK ANGEL: In AI, the speed of the language is not important, and python is used because of its simplicity (reply to 154658)
+
+E_crypt: Hello guys
+
+E_crypt: GM, so happy to be here with you all. Am Floki
+
+E_crypt: Am writing a smart contract to mint a solbound nft   Please is there any tool that can help me for easy debugging?
+
+&rey: Perhaps retracer.ton.org? (reply to 154673)
+
+E_crypt: Thanks sir (reply to 154675)
+
+E_crypt: Please am still learning the ton language, and have been failing most of the test scripts I wrote. Can any here personally help me? I will really appreciate 🙏 thanks
+
+Teers k 🐾: https://docs.ton.org/v3/guidelines/web3/ton-proxy-sites/how-to-run-ton-site  Alternatively, you can run the proxy in simple mode with an .adnl domain if you do not have a .ton or .t.me domain:  Is that means i can use name. t.me as TON html5 site or nah?
+
+Teers k 🐾: if user opens "name. t. me" to open a website, is this possible?
+
+Teers k 🐾: In simple i wanna use "name.t .me" as domain for my website
+
+&rey: Yes, if that username is an NFT (as converted via Fragment). (reply to 154680)
+
+Teers k 🐾: Is this command enough? ./tonutils-reverse-proxy-linux-amd64 --domain name.t.me (reply to 154684)
+
+Teers k 🐾: Or another way to .tme
+
+&rey: It should be, though I don't remember. Does it output any error? (reply to 154685)
+
+Teers k 🐾: Let me try (reply to 154687)
+
+Teers k 🐾: It works but i have no idea where put html
+
+Teers k 🐾: tonsite://xxxatom.t.me
+
+&rey: Telegram should open such link. (reply to 154693)
+
+Дима: Hey! Need a quick favor 🙏 I'm listing a Telegram username on Fragment for 4600 TON — serious buyer is ready, but I’m short on the 5% listing fee (~230 TON). Happy to return it immediately after sale, even with a small bonus or fee 💸 DM if you can help — everything transparent. Thanks in advance!
+
+DeFi: thats a scam (reply to 154700)
+
+Дима: realy? (reply to 154701)
+
+DeFi: Of course. Why would anyone pay that amount for that name?!?!
+
+DeFi: listing on fragment doesn't require paying the commission in advance
+
+Non Certain: Bro you are the scammer here. You just want to get the money and block him. (reply to 154703)
+
+Дима: This person recently wrote to me and everything looks quite convincing
+
+Oleg: Check url (reply to 154714)
+
+Tolqin.rs: 100% scam . Fee will be taken from amount of deal (reply to 154714)
+
+DeFi: Its not convincing at all. You should never have to pay a commission upfront. That's the scam. You pay the money then you never get the rest. (reply to 154712)
+
+Teers k 🐾: That url never loads (reply to 154751)
+
+Teers k 🐾: Looks good
+
+Teers k 🐾: It only works in telegram browser tonsite:// url not in normal browser or while sending message
+
+Teers k 🐾: tonsite://xxxatom.t.me  This url non clickable telegram should work on it
