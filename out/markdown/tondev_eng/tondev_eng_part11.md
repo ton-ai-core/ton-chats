@@ -3239,3 +3239,23 @@ Teers k 🐾: Looks good
 Teers k 🐾: It only works in telegram browser tonsite:// url not in normal browser or while sending message
 
 Teers k 🐾: tonsite://xxxatom.t.me  This url non clickable telegram should work on it
+
+— 2025-07-22 —
+
+Teers k 🐾: Is that ton domains works in telegram bot webapps?
+
+Combot: Combot has warned Maxey Liu (1/3) Reason: Word **** is not allowed
+
+Maxey: Hi TON developers! 👋 I recently built a Role Authority System for TON smart contracts using Tolk, and I’d love to get your feedback!  💡 Key Features: - Supports up to 256 roles for permission control, using efficient bitmask operations (inspired by Solmate)  - Permission check passes if any of the following is true:     1. The opcode is public (Public Capability)     2. The caller has the required role (Role Capability)     3. The caller is the contract owner  - Two-step ownership transfer with a built-in timelock for added security  ❓ Why I built this: Since 2023, I’ve been building on TON and found myself rewriting similar permission logic and tests again and again.   This module aims to solve that by making permission control more standardized, efficient, and secure.  ⭐️ GitHub Repo: https://github.com/ipromise2324/tolk-auth  Happy to chat more if you have questions 💬
+
+Somyaditya: Hi guys, I need some help creating a transaction monitoring system for my application. I want to monitor smart contracts and wallets that initiate transactions from my platform. Is there any alternative to Tenderly?
+
+&rey: The commonly suggested system is https://github.com/gobicycle/bicycle. Actually, I did not know of the one you mentioned. (reply to 154805)
+
+MBA: Hey guys I am trying to create a LiteClientApi using c# the only resources I found was TonSdk.Net and I think they don't support trust checks for liteservers. I wanted to know is it necessary to do trust checks and proof checks for different adnl responses from liteservers or I can trust official liteservers (https://ton .org/global.config .json) and their responses?  And how can I be sure that account state and list of transactions a liteserver is giving to me can be trusted?
+
+&rey: Generally speaking, you should not. What if key got leaked? (reply to 154852)
+
+&rey: The easiest way IMO would be by reimplementing pytoniq.
+
+MBA: So what is the best way to trace an account on blockchain and be sure that the data I am getting is 100% correct? I want to trace events being emitted in tact contracts and also some other transactions to check if I really received x amount of y token/ton. (reply to 154854)

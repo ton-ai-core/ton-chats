@@ -9737,3 +9737,15 @@ Combot: Gxuf has been banned! Reason: CAS ban.
 AnonymousScriptt007: Hello Devs
 
 v我50: #這群已四周26連勝無損單，一開單就是翻倍，每天主流幣分析也很准，已經翻倉  持續佈局中…點擊加入，跟上吃肉🥩🥩 (reply to 9412)
+
+— 2025-07-22 —
+
+Combot: Katherinnasaqak Ridererilllvic has been banned! Reason: CAS ban.
+
+Maxey: 嗨 TON 的開發者大家好！👋 最近用 Tolk 為 TON 智能合約做了一個 Role Authority System，想聽聽你們的意見！  💡 核心特色： - 最多支援 256 個角色來管理權限，使用高效的 Bitmask 操作（參考 Solmate 的實作）  - 權限檢查條件（任一符合即可通過驗證）：     1. 該操作是公開的（Public Capability）     2. 呼叫者擁有對應的角色（Role Capability）     3. 呼叫者是合約的擁有者（Owner）  - 兩階段 Ownership 轉移，並加入時間鎖機制，增強安全性  ❓ 為什麼做這個？ 從 2023 年起開發 TON 合約，發現權限邏輯總是很類似每次重寫很麻煩。這個系統希望解決這個問題，提升開發效率與安全性。  ⭐️ GitHub Repo： https://github.com/ipromise2324/tolk-auth  有什麼想法或問題都可以留言或直接私訊我！
+
+Combot: CASINO RUSH has been banned! Reason: CAS ban.
+
+— 2025-07-23 —
+
+Combot: 開心最重要 has been banned! Reason: CAS ban.
