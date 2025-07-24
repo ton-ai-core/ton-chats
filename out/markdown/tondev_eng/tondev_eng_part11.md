@@ -3259,3 +3259,39 @@ MBA: Hey guys I am trying to create a LiteClientApi using c# the only resources 
 &rey: The easiest way IMO would be by reimplementing pytoniq.
 
 MBA: So what is the best way to trace an account on blockchain and be sure that the data I am getting is 100% correct? I want to trace events being emitted in tact contracts and also some other transactions to check if I really received x amount of y token/ton. (reply to 154854)
+
+— 2025-07-23 —
+
+Code: Will there be docs for TOLK soon?
+
+Code: Actually why did TON announce Tolk without proper docs
+
+Dmitry: Check several litesavers and compare their responses? (reply to 154856)
+
+Punk: Maybe they need more time to actualised their docs (reply to 154876)
+
+Code: doesnt answer question - i mean why launch if its not ready
+
+Punk: Idk, sorry
+
+&rey: Would there be any benefit to waiting? Now, big teams are already able to rewrite their contracts into Tolk to demonstrate its effectiveness, there is just enough information; otherwise, core team would have to do all the examples. (reply to 154904)
+
+Artur: Hello everyone! How can I calculate init state of a contract in FunC? In Tact I need to import that contract and do smth like let init: StateInit = initOf ContractName(...)
+
+&rey: begin_cell()   .store_uint(6, 5)   .store_ref(<code cell imported in some way>)   .store_ref(<serialized initial data cell>) .end_cell() (reply to 154966)
+
+yo boy izu: Does anyone to coding here I'm new to it
+
+&rey: This is chat about development on TON, yes. https://docs.ton.org/ is docs about same. (reply to 154969)
+
+Artur: Sorry for a stupid question, but how do I import contract code in FunC? I have this layout:/contracts   ├── contract_1.fc   └── contract_2.fc I want contract_1 to be able to deploy contract_2, but I’m not sure how to get access to the code of contract_2 from inside contract_1. In Tact, I’d just writeimport "./contract_2"; … let init_of_contract_2: StateInit = initOf Contract2(); What’s the FunC way to do this? (reply to 154967)
+
+&rey: You would compile contract2 on its own, obtain .boc binary file, encode it as HEX... (reply to 154971)
+
+&rey: then create a function cell contract2code() asm   "B{B5E9...}"   "B>boc PUSHREF";
+
+Artur: Thank you! (reply to 154973)
+
+— 2025-07-24 —
+
+Combot: Combot has warned Kam G (1/3) Reason: Word **** is not allowed

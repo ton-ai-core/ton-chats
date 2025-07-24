@@ -8607,3 +8607,9 @@ Blueworker: 1 alpha ton =50 ton
 Md: 6974614707
 
 Md: https://t.me/just/85
+
+— 2025-07-23 —
+
+5b 44 43 54 5d: Hello everyone! Tell me, is it possible to check inside a smart contract which Jetton was received in a message? That is, to get the address of its Master contract.
+
+L30n1d: Hey Unfortunately, no. The best you can do is calculate the JettonWallet address for your contract and verify that you receive the JettonNotify from this address. (reply to 67041)

@@ -9749,3 +9749,21 @@ Combot: CASINO RUSH has been banned! Reason: CAS ban.
 — 2025-07-23 —
 
 Combot: 開心最重要 has been banned! Reason: CAS ban.
+
+Rolla: 请教大家个问题，我们昨天在频道内用官方自带的助推发star的抽奖，发了两次但频道都没有弹出抽奖的程序，有知道这是啥问题不？😭
+
+Combot: $DEGE Airdrop, $DEGE Airdrop have been banned! Reason: CAS ban.
+
+Combot: Adam Folta has been banned! Reason: CAS ban.
+
+Combot: Total messages: 95778
+
+Combot: $DEGE Airdrop has been banned! Reason: CAS ban.
+
+Combot: Liza has been banned! Reason: CAS ban.
+
+— 2025-07-24 —
+
+User<7744298707>: 原來的大群廣告太多了 現在換一個群 以後策略 都放在這裏面 (reply to 346)
+
+User<7744298707>: 原來的大群廣告太多了 現在換一個群 以後策略 都放在這裏面 (reply to 346)
