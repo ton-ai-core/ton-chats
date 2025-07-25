@@ -3295,3 +3295,83 @@ Artur: Thank you! (reply to 154973)
 — 2025-07-24 —
 
 Combot: Combot has warned Kam G (1/3) Reason: Word **** is not allowed
+
+Devsyn: Does anyone here knows how to scan qr codes inside telegram mini apps?
+
+Devsyn: I want to create a feature that the user can scan a qr code
+
+Devsyn: I tried using conventional libs like html5-qrcode, react,-qr-scanner but they crashes when try opening inside the mini app
+
+&rey: I believe that is https://t.me/devs/125953. (reply to 154998)
+
+Devsyn: I'll try this
+
+Devsyn: Thank you
+
+Maxey: Has anyone successfully used LayerZero to send messages between TON and Ethereum?
+
+Devsyn: It didnt work for me (reply to 155000)
+
+Devsyn: Im using react
+
+&rey: It seems seriously wrong. Have you already tried to debug your miniapp, opening its console?  The appropriate chat for this is, as it happens, not this one but https://t.me/devs. (reply to 155006)
+
+phuoc: Hello everyone, I need to get the jetton transaction history of an address, but currently I can only get the TON transaction history and the jetton transaction fee.
+
+phuoc: Does anyone have a link to this tutorial or sample code in javascript? Thank you very much.
+
+Lase: So guys
+
+Lase: I have finally understood building smart contracts with TACT and i am integrating it with react.  Whilst testing with jest, i could check transactions and verify them, see dump or emits.  But in the real client (the max i get is hash or an unclear message)
+
+Lase: My main question: How do i verify that a transaction went through or failed. Or is still pending? (reply to 155022)
+
+Lase: The best i could think of was using a getter and polling for 10s. Seems bad to me.  What do you all think i should do? (reply to 155023)
+
+&rey: For backend or frontend? (reply to 155023)
+
+Lase: I am trying to do it on frontend (reply to 155034)
+
+&rey: Well the common way is to send transactions which never fail dynamically.
+
+Lase: How? (reply to 155037)
+
+&rey: Check invariants before sending.
+
+&rey: Generally, you could track down all actions from the external. That is complicated if user sent 255 requests to your contracts at once.
+
+Lase: Exactly (reply to 155040)
+
+Lase: Did this (reply to 155039)
+
+Lase: However, in frontend. My goal is to tell user: loading, failed or successfully here
+
+&rey: TC2 returns an external. You can obtain its normalized hash.  Until that hash appeared onchain, the result is "loading"/"pending". When it appeared, "will complete sometime".
+
+Lase: Nice (reply to 155045)
+
+&rey: Then, you have to define what effect you're looking for, to even say what "success" is – e.g. if jetton transfer notification is not handled, is it OK?
+
+Lase: So. I should get hash before transaction.  Wait for it to appear on the list of transactions,  Then check the contract if my jettonWalletChild was deployed
+
+Lase: This correct/possible? (reply to 155048)
+
+Pavlo: Hi everyone, I’m trying to figure out how to send a Gift to another user using gram.js.  Specifically, I want the sent message to contain MessageActionStarGift in the message.action. If anyone has an example or can explain the correct way to do this (possibly using CustomMessage), I’d really appreciate the help!  Thanks in advance!
+
+&rey: Wrong chat. (reply to 155054)
+
+best: why wrong? (reply to 155055)
+
+&rey: This chat is about development on TON: smart contracts and related services.  Sending gifts via custodial-like interfaces is out of scope because TON does not occur there in any way.
+
+Anthony: 🚀 Tolk 1.0 – The New Standard for Smart Contracts on TON Blockchain!  Are you wondering which language to use for building on TON? 🤔 Tolk is TON Foundation’s recommended choice, and it’s here to elevate your smart contract game!  🔹 What’s New? Tolk 1.0 combines modern syntax and a streamlined experience with the performance and control that TON developers demand. It builds on FunC’s foundations, making smart contract development cleaner, more expressive, and more efficient.  🔹 Why Tolk? • Primary language for TON smart contracts • Modern syntax + cleaner structure • 40% less gas compared to FunC – cheaper deployments! • 🛠 Full tooling, IDE support, and migration from FunC  Tolk brings you better performance, easier coding, and lower costs while keeping the control you need. Whether you’re new to TON or scaling a complex app, Tolk is the go-to choice for TON development.  Start coding with Tolk today and build the future of TON! 🧑‍💻 (forwarded from TON Dev News)
+
+TON Bounty Bridge: ​Jetton + Vesting Factory in Tolk (TON Launchpad Tooling)  🏷 Developer Tool  Summary:Develop a smart contract factory using Tolk, TON's new contract language, to deploy Jettons with bui...  Created by 0xfdbu
+
+Vadim: Hi, could someone please advise on the quickest way to detect when a transaction is completed? I tried using the TON Center API (/getTransaction), but there seems to be a 5–10 second delay after the transaction actually completes before it's returned.
+
+— 2025-07-25 —
+
+Леша: Parse all incoming blocks (reply to 155106)
+
+Vadim: Thanks. I’ll check, but suppose /getTransaction does the same. (reply to 155126)

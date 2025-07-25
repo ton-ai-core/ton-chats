@@ -9767,3 +9767,19 @@ Combot: Liza has been banned! Reason: CAS ban.
 User<7744298707>: 原來的大群廣告太多了 現在換一個群 以後策略 都放在這裏面 (reply to 346)
 
 User<7744298707>: 原來的大群廣告太多了 現在換一個群 以後策略 都放在這裏面 (reply to 346)
+
+Combot: 活动捐款 McGlynn has been banned! Reason: CAS ban.
+
+Jacky: 大家好，我是Jacky，我们正在参加TON黑客松，目前做的项目是Onelaunch。  OneLaunch—— -An all-in-one Telegram + TON launchpad to:  ✅ Mint customizable TIP-3 tokens ✅ Raise community funds via smart crowdfunding ✅ Auto-list tokens with DEX liquidity ✅ Enable governance through Telegram-based DAO voting ✅ Distribute airdrops, red packets, and rewards via bots and Mini Apps  欢迎有ton合约经验的小伙伴加入，也欢迎商务运营人员参与进来。
+
+Jacky: 有兴趣小伙伴联系我🤝
+
+Jacky: 我们参与的项目都是要落地的，通过参与项目为大家搭建了很好的技术交流平台，共同进步
+
+Anthony: 🚀 Tolk 1.0 – The New Standard for Smart Contracts on TON Blockchain!  Are you wondering which language to use for building on TON? 🤔 Tolk is TON Foundation’s recommended choice, and it’s here to elevate your smart contract game!  🔹 What’s New? Tolk 1.0 combines modern syntax and a streamlined experience with the performance and control that TON developers demand. It builds on FunC’s foundations, making smart contract development cleaner, more expressive, and more efficient.  🔹 Why Tolk? • Primary language for TON smart contracts • Modern syntax + cleaner structure • 40% less gas compared to FunC – cheaper deployments! • 🛠 Full tooling, IDE support, and migration from FunC  Tolk brings you better performance, easier coding, and lower costs while keeping the control you need. Whether you’re new to TON or scaling a complex app, Tolk is the go-to choice for TON development.  Start coding with Tolk today and build the future of TON! 🧑‍💻 (forwarded from TON Dev News)
+
+Combot: Zarinabondarev Spmph has been banned! Reason: CAS ban.
+
+— 2025-07-25 —
+
+Combot: 离我远一点。 Orn has been banned! Reason: CAS ban.

@@ -8613,3 +8613,31 @@ Md: https://t.me/just/85
 5b 44 43 54 5d: Hello everyone! Tell me, is it possible to check inside a smart contract which Jetton was received in a message? That is, to get the address of its Master contract.
 
 L30n1d: Hey Unfortunately, no. The best you can do is calculate the JettonWallet address for your contract and verify that you receive the JettonNotify from this address. (reply to 67041)
+
+— 2025-07-24 —
+
+Yoviar▪️: Does anyone have the contact of the ton developer? I would like to contact them to request ton for my final assignment research needs.
+
+Lase: I have finally understood building smart contracts with TACT and i am integrating it with react.  Whilst testing with jest, i could check transactions and verify them, see dump or emits.  But in the real client (the max i get is hash or an unclear message)
+
+Lase: My main question:  How do i verify that a transaction went through or failed. Or is still pending?
+
+Lase: The best i could think of was using a getter and polling for 10s. Seems bad to me.  What do you all think i should do?
+
+Riccardo: I am not sure how the library on the client work (if there is even any) but polling is probably your best go. You can wrap it in a promise and resolve once the transaction is confermed (or rejected) and set a timeout of e.g. 1 minutes that throw an error of "unconfirmed". It is quite normal to handle the behaviour this way given that blockchain doesn't provide finality (reply to 67104)
+
+Lase: Thanks (reply to 67105)
+
+&rey: I hope that's sloppy wording? (reply to 67105)
+
+Riccardo: it was not, it only provides probabilistic or eventual finality (reply to 67108)
+
+Riccardo: You can have a tx that is confirmed and reverted hours after
+
+&rey: TON has immediate finality in fact. (Regarding onchain actions, that is, not any custodials). (reply to 67116)
+
+Riccardo: this is true only if: * All validators are honest forever. * There are no software bugs. (reply to 67117)
+
+Riccardo: In any way, you are not guaranteed any timefram of finality (as said, eventual) so if you have to write code you MUST take that into consideration.   For reference, this is the full sentence to which you decided to quote only a subordinate of it  It is quite normal to handle the behaviour this way given that blockchain doesn't provide finality
+
+&rey: The issue is, given 2/3+epsilon honest validators TON does guarantee that each produced and signed block is final.  It does not specify timeframe for processing messages other than 'eventual', that much is true. (reply to 67119)

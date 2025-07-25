@@ -2040,6 +2040,15 @@
       "file": "photos/photo_227.jpg",
       "width": 724,
       "height": 204
+    },
+    {
+      "id": 229,
+      "type": "message",
+      "date": "2025-07-24T11:57:06.000Z",
+      "date_unixtime": "1753358226",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🚀 Tolk 1.0 – The New Standard for Smart Contracts on TON Blockchain!\n\nAre you wondering which language to use for building on TON? 🤔 Tolk is TON Foundation’s recommended choice, and it’s here to elevate your smart contract game!\n\n🔹 What’s New?\nTolk 1.0 combines modern syntax and a streamlined experience with the performance and control that TON developers demand. It builds on FunC’s foundations, making smart contract development cleaner, more expressive, and more efficient.\n\n🔹 Why Tolk?\n• Primary language for TON smart contracts\n• Modern syntax + cleaner structure\n• 40% less gas compared to FunC – cheaper deployments!\n• 🛠 Full tooling, IDE support, and migration from FunC\n\nTolk brings you better performance, easier coding, and lower costs while keeping the control you need. Whether you’re new to TON or scaling a complex app, Tolk is the go-to choice for TON development.\n\nStart coding with Tolk today and build the future of TON! 🧑‍💻"
     }
   ]
 }
