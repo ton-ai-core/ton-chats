@@ -9783,3 +9783,11 @@ Combot: Zarinabondarev Spmph has been banned! Reason: CAS ban.
 — 2025-07-25 —
 
 Combot: 离我远一点。 Orn has been banned! Reason: CAS ban.
+
+Combot: Fahad | Drops💧 has been banned! Reason: CAS ban.
+
+Combot: Ruthparke Joturrd has been banned! Reason: CAS ban.
+
+Combot: Saba Khan has been banned! Reason: CAS ban.
+
+Combot: 🖤 has been banned! Reason: CAS ban.

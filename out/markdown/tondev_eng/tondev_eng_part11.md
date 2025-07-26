@@ -3375,3 +3375,63 @@ Vadim: Hi, could someone please advise on the quickest way to detect when a tran
 Леша: Parse all incoming blocks (reply to 155106)
 
 Vadim: Thanks. I’ll check, but suppose /getTransaction does the same. (reply to 155126)
+
+Teers k 🐾: Is it possible to add my own .tlds to tonsite:// ?
+
+&rey: That could be delay for block to be signed after generation, and then sent to Toncenter's liteservers. (reply to 155106)
+
+Vadim: I see, thanks. Is there any way to mitigate this delay? For example, is it possible to get a block that has been created but not yet signed? (reply to 155139)
+
+&rey: That's a risk in terms that an alternative block-candidate might be signed then. Anyway, it probs requires you to be one of the validators. (reply to 155141)
+
+Vadim: Thanks a lot for your answers. (reply to 155142)
+
+Алина: How is overlay sped up in the latest TON updates?  Are these updates only for the private overlay or do they affect the public overlay too?  Is there's anything the client listeners of the overlay must change in their code?
+
+Heydar: Why do some addresses (contracts) in tonviewer have code (like func) but some don't! And something like rawData is ByeCode.  Can I see their code too?! In func? So how can I be sure what their code was?!!!!
+
+Леша: Coz not all contracts published their code. (reply to 155164)
+
+Heydar: so I dont trust so many Services on TON , is not that right?! (reply to 155165)
+
+Леша: Its your choice (reply to 155167)
+
+Heydar: and it's not a blockchain's goal. (or better to say: not contract's goal)
+
+Леша: It isnt problem of ton blockchain
+
+Леша: Every smartcontract in every blockchain have right to dont publish their code
+
+Heydar: Absolutely your right sir, thanks Im saying that, because so many DEXs, and other platforms have this road ... and they are hiding their smart contract codes :)) (reply to 155171)
+
+Andrey: When smart contract is executed there is no func code. If you really want to verify a smart contract code you must inspect their bytecode. Most reliable way is to decompile it yourself, however you can use tools like ton verifier: https://verifier.ton.org/Ef9P69sU4AgSWniwHUGts1BYTIyYPVlUCN-2Vb1BmeRxW1sl, or view disassembled code in tonviewer (reply to 155164)
+
+Heydar: is that an official way to detect the real code(Open source project?), or it's just some tools by third party invented? (reply to 155181)
+
+Andrey: If you look at their github, they’re part of ton-blockchain org. I guess this makes them official. The most reliable way is to still validate smart contract yourself before sending money to it (reply to 155184)
+
+Heydar: thanks, I dont think so, Im looking ...  but how by myself?! I cant understand that part, how I can be sure that bytecode is correctly that smart contract I need!  because I just understand FunC or Tact (reply to 155188)
+
+Andrey: If you can contact author you can request source code, compile and ensure that it matches whatever is stored on chain. Otherwise the only way is to learn bytecode. You can search for fift and TVM instructions (reply to 155189)
+
+Juan: Hi guys! is anyone deploying and adding liquidity contracts into STON FI router in TESTNET? I’m having a lot of problems to test they
+
+Heydar: after so many years we have not well-decompiler for OS's byte codes 😐  so the only way is to having the source code, or using some low-precision third party tools. thank you so much for the link (reply to 155190)
+
+Andrey: No, having source code is one of possible ways. There are others, for example you can hire an expert to run security checks on smart contract. This is about estimating risk of smart contract being malicious and choosing a way to mitigate it. (reply to 155192)
+
+Heydar: it's not 100%, you just just have to writing tests , and it's never 100% proofing even on clear source codes you forgot some edge cases too. (reply to 155195)
+
+Albert: Yes ping me (reply to 155191)
+
+Juan: Take care with this guy is a scammer (reply to 155202)
+
+Albert: You're the scammer (reply to 155203)
+
+Albert: He is a scammer
+
+Combot: Combot has warned Albert (1/3) Reason: Word **** is not allowed
+
+Juan: Yes a guy to say ping me judging a guy who make a technical question, take care guys (reply to 155204)
+
+Juan: Dont talk with him on private.

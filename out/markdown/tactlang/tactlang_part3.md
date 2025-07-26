@@ -8641,3 +8641,19 @@ Riccardo: this is true only if: * All validators are honest forever. * There are
 Riccardo: In any way, you are not guaranteed any timefram of finality (as said, eventual) so if you have to write code you MUST take that into consideration.   For reference, this is the full sentence to which you decided to quote only a subordinate of it  It is quite normal to handle the behaviour this way given that blockchain doesn't provide finality
 
 &rey: The issue is, given 2/3+epsilon honest validators TON does guarantee that each produced and signed block is final.  It does not specify timeframe for processing messages other than 'eventual', that much is true. (reply to 67119)
+
+— 2025-07-25 —
+
+Good: Hello. Is there quick way to calculate consumption of gas from incoming message for a contract‘s receiver?
+
+Good: Manually
+
+Good: Detected: Manually iterate through the testnet
+
+大卫-Dawei: Hi I'm new here
+
+大卫-Dawei: How to deploy contract on Ton?
+
+Ricardo: Hey guys, i am using dedust sdk to swap assets, i am wondering how do i get a message body hash to track the transaction with?, the `tonVault.sendSwap`doesn't return anything.
+
+0xAnthony: When I develop the launchpad, I faced that problem, so you can get dedust vault address, then track recent transaction on there (reply to 67214)
