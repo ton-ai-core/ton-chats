@@ -3435,3 +3435,37 @@ Combot: Combot has warned Albert (1/3) Reason: Word **** is not allowed
 Juan: Yes a guy to say ping me judging a guy who make a technical question, take care guys (reply to 155204)
 
 Juan: Dont talk with him on private.
+
+— 2025-07-26 —
+
+LowKey: GM. Who can I contact regarding the main TON website?. We would like to include Gem Wallet on the page about USDT transfers.
+
+LowKey: I cannot share links, but it is the page about "USDT on TON"  Gem Wallet is already in the list of wallets. Just want to be included on this page too.
+
+Mahrukh: My bridge transaction stuck t No one is help me or resolving issue
+
+woogieboogie: Hey guys - new to TON here. heard tolk will be the futureproof language so decided to start ton language learning w/ Tolk. But the problem is - How and where do I learn tolk? is the official doc only documentation available to learn this?
+
+Juan: hello! im using Tact now, but i have the same question :) (reply to 155227)
+
+Juan: after 2 days with problems, first automated LP <3
+
+woogieboogie: did some testing & learned the language tbh - think it's a good language and feels comfortable if you've tinckered around w/ typescript & rust - but simply don't have resources to learn from
+
+Andrey: Could you please clarify which topics do you think should be covered, on top of these? https://docs.ton.org/v3/documentation/smart-contracts/tolk/language-guide (reply to 155227)
+
+woogieboogie: language-wise has everything there but lacks - examples other than the counter example. Wish there were example contracts to follow along
+
+Andrey: You can try contracts here: https://github.com/ton-blockchain/tolk-bench (reply to 155237)
+
+LowKey: Reposting my question:   Who can I contact regarding the main TON website?. We would like to include Gem Wallet on the page about USDT transfers.   I cannot share links, but it is the page about "USDT on TON"  Gem Wallet is already in the list of wallets. Just want to be included on this page too.
+
+&rey: Probably email someone... I do not remember the mailboxes beyond partnership@ton.org. (reply to 155214)
+
+LowKey: ok thanks
+
+Devsyn: I found a solution! Thanks for everyone who helped me. (reply to 154997)
+
+— 2025-07-27 —
+
+Mahrukh: No reply (reply to 155218)

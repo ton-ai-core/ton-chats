@@ -8657,3 +8657,9 @@ Good: Detected: Manually iterate through the testnet
 Ricardo: Hey guys, i am using dedust sdk to swap assets, i am wondering how do i get a message body hash to track the transaction with?, the `tonVault.sendSwap`doesn't return anything.
 
 0xAnthony: When I develop the launchpad, I faced that problem, so you can get dedust vault address, then track recent transaction on there (reply to 67214)
+
+— 2025-07-26 —
+
+FxDrill: hey guys am stuck somewhere, ..   trying to sign withdrawal automatically, like the program will sign for withdrawal on my wallet contract. but it still giving errors upon errors.   anybody having same challenge before and how did you solve it   my wallet contract create wallet for users. but users cant withdraw
+
+Adam: Hey guys If anyone needs a tact smart contact dev or a tg miniapp maker(UI, smart contracts for the app) contact me
