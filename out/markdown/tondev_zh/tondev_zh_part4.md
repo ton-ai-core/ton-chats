@@ -9791,3 +9791,15 @@ Combot: Ruthparke Joturrd has been banned! Reason: CAS ban.
 Combot: Saba Khan has been banned! Reason: CAS ban.
 
 Combot: 🖤 has been banned! Reason: CAS ban.
+
+— 2025-07-27 —
+
+Neo: [RedisSeqnoManager]  链上seqno: 172, 缓存seqno: 173, 分配seqno: 173 2025-07-27T23:28:55.013+08:00 [1103] 分配seqno: 173 2025-07-27T23:28:55.216+08:00 [1103] 交易发送失败, 错误信息: LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted 2025-07-27T23:28:55.216+08:00 Cannot run message on account: inbound external message rejected by transaction 41338000B8C46FB1AAEB3C08CD1D6154B5D9FBA8576FFCBB6F1BE8CD321E1CD8:  Cannot run message on account: inbound external message rejected by transaction 41338000B8C46FB1AAEB3C08CD1D6154B5D9FBA8576FFCBB6F1BE8CD321E1CD8: 2025-07-27T23:28:55.216+08:00 exitcode=33, steps=23, gas_used=0  请教一个问题， 提交交易时设置的seqno 和 链上实际的seqno 不一致时会报错，即使提交的seqno 大于链上的seqno都不行， 必须要与链上的seqno一致才行么？
+
+Combot: حسین حمیدی has been banned! Reason: CAS ban.
+
+Leo: 是的必须一致，有并发需求可以选择highload钱包 (reply to 96010)
+
+— 2025-07-28 —
+
+Neo: 选择highload钱包就不需要自己处理seqno保证一致性么？ (reply to 96076)
