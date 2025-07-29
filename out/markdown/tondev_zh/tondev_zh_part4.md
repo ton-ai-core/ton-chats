@@ -9803,3 +9803,23 @@ Leo: 是的必须一致，有并发需求可以选择highload钱包 (reply to 96
 — 2025-07-28 —
 
 Neo: 选择highload钱包就不需要自己处理seqno保证一致性么？ (reply to 96076)
+
+keisy: 这里有人可以和我一起玩 3d/samsungpay 频道吗？
+
+Spark: 你好，黑客松路演对英语口语的要求高么？ (reply to 95392)
+
+Andrew: 在亚洲区域比赛的时候，一般是用中文的。 如果最终参加全球范围的黑客松，是要英文表述的。 (reply to 96170)
+
+Spark: 谢谢 (reply to 96176)
+
+Leo: highload没有seqno，靠query id防止重放，id不同即可 (reply to 96105)
+
+Neo: 有demo么 (reply to 96193)
+
+Combot: Ly Hour has been banned! Reason: CAS ban.
+
+Leo: https://github.com/ton-blockchain/Highload-wallet-contract-v3
+
+— 2025-07-29 —
+
+Combot: S has been banned! Reason: CAS ban.

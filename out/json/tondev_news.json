@@ -2049,6 +2049,22 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "🚀 Tolk 1.0 – The New Standard for Smart Contracts on TON Blockchain!\n\nAre you wondering which language to use for building on TON? 🤔 Tolk is TON Foundation’s recommended choice, and it’s here to elevate your smart contract game!\n\n🔹 What’s New?\nTolk 1.0 combines modern syntax and a streamlined experience with the performance and control that TON developers demand. It builds on FunC’s foundations, making smart contract development cleaner, more expressive, and more efficient.\n\n🔹 Why Tolk?\n• Primary language for TON smart contracts\n• Modern syntax + cleaner structure\n• 40% less gas compared to FunC – cheaper deployments!\n• 🛠 Full tooling, IDE support, and migration from FunC\n\nTolk brings you better performance, easier coding, and lower costs while keeping the control you need. Whether you’re new to TON or scaling a complex app, Tolk is the go-to choice for TON development.\n\nStart coding with Tolk today and build the future of TON! 🧑‍💻"
+    },
+    {
+      "id": 231,
+      "type": "message",
+      "date": "2025-07-28T08:49:13.000Z",
+      "date_unixtime": "1753692553",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🏆 MyTonWallet Launches Public Developer Contests\n\nWe believe the best products are born from collaboration with the community, so we invite everyone to participate in testing MyTonWallet Air—our new native app for iOS and Android.\n\nThis is a significant milestone for our wallet—native app integrates deeply with your device's operating system, using its standard elements and capabilities. The result is an app that runs significantly faster, feels more responsive, and becomes an integral part of your smartphone experience.\n\nWe're happy to launch two exciting contests ⚡️\n\n1. MyTonWallet Air QA Contest\n\nExplore the app through real user eyes: find bugs, glitches, broken user flows, or unexpected behavior.\n\nPrize pool: up to $10,000.\n\n2. MyTonWallet Air Security Bounty Program\n\nFor ethical hackers and security researchers interested in uncovering critical vulnerabilities that could compromise user assets, data privacy, or overall security.\n\nPrize pool: up to $50,000.\n\nLearn more and join the contests in our Telegram channel @mycontests—the best submissions will receive worthy rewards 👨‍💻\n\n❤ Best of luck to all the participants!\n\nNews • 𝕏 • Mini App • Download",
+      "forwarded_from": "MyTonWallet · News",
+      "forwarded_from_id": "channel1729567684",
+      "forwarded_date": "2025-07-18T11:51:01.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_231.jpg",
+      "width": 1280,
+      "height": 1280
     }
   ]
 }

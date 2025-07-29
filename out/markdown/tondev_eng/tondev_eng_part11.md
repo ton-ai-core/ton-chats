@@ -3473,3 +3473,83 @@ Mahrukh: No reply (reply to 155218)
 woogieboogie: this works. thanks (reply to 155238)
 
 Kosta: Someone please tell me how to use this thing? Ton hub
+
+— 2025-07-28 —
+
+丂卂丂ㄩҜ乇: I was trying to add paayment to my Telegram mini app.  Does someone know how to integrate ton payment and star payment to telegram mini apps plz help
+
+🇵🇸: you need to use https://core.telegram.org/bots/api#createinvoicelink and call  window.Telegram.WebApp.openLink(invoice_link); (reply to 155288)
+
+丂卂丂ㄩҜ乇: Thank you but can you give me example code for the star payment Please or can I ask you in dm (reply to 155289)
+
+🇵🇸: also you need to answer pre_checkout_query update  otherwise payment will not succeed.  https://core.telegram.org/bots/api#answerprecheckoutquery (reply to 155289)
+
+丂卂丂ㄩҜ乇: Okay bro thank you 🙏 I'll try it now (reply to 155291)
+
+MemoryGrinder: Hello, I try to use the getTransactions endpoint of the rpc http api While it does give me the latest transaction, I can't manage to get it working when passing a hash, LT and to_lt parameters Can you please explain what values should I input ?   I used the transaction hash of a tx before the one that I try to retrieve and a to_lt way after However I get this error :     "ok": false,     "error": "LITE_SERVER_UNKNOWN: cannot locate transaction in block with specified logical time",     "code": 500 }
+
+Danila: Hey guys. Probably you can help me. Why bounced incoming transaction decreases my balance?  Steps to reproduce: 1. Deposit 0.03 TON to a new address A 2. Get spam incoming transaction to address A 3. The transaction is bounced 4. Balance of address A is decreased by 0.000000002 TON  Address: UQDQJ7vS5zl-vfAGzmVeoKtI9dbeARnZr7GwJQIKE8RUog1r
+
+Gyorgy: If you look at the transaction, it makes it seem like you sent it and the explorer is showing the fee being deducted from you. But it’s actually a smart contract execution.  I think it's just an indexer / explorer display error.   It’s a tricky payload, and looks like you started a transaction that bounced and failed, while the same incoming tx also had an outgoing payload injected, which failed. (reply to 155301)
+
+Sad Bun 🐇: hi! need help  i'm calling jetton get_wallet_data for tether jetton wallet  toncenter returns this string as a cell bytes for jetton wallet code - te6cckEBAQEAIwAIQgKPRS16Tf10BmtoI2UXclntBXNENb52tf1L1divK3w9aCBrv3Y=  request below  curl -L -X POST 'https://toncenter.com/api/v2/runGetMethod' -H 'Content-Type: application/json' -d '{"address":"EQDiX6BVd5iV3RTUg_ZkgijPH9vABFTF4bqb3eYs0ZfaTxRo","method":"get_wallet_data","stack":[]}'  but explorers return slightly different cells  this is from tonviwer - te6ccgEBAQEAIwAIQgKPRS16Tf10BmtoI2UXclntBXNENb52tf1L1divK3w9aA== https://tonviewer.com/EQDiX6BVd5iV3RTUg_ZkgijPH9vABFTF4bqb3eYs0ZfaTxRo?section=code  and from tonscan - te6ccgEBAQEAIwAIQgKPRS16Tf10BmtoI2UXclntBXNENb52tf1L1divK3w9aA== https://tonscan.org/jetton-wallet/EQDiX6BVd5iV3RTUg_ZkgijPH9vABFTF4bqb3eYs0ZfaTxRo#source  is it ok? perhaps, encoding issues or some other boc nuances that i don't get  or is it a toncenter's bug?
+
+Никита: Hello everyone! Please tell me how to fix the error in @ton/crypto. When generating a mnemonic, an error occurs  TypeError: Cannot read property 'derive' of null react-native-fast-pbkdf2 is installed, and the Buffer polyfill is enabled  (Expo, React native)
+
+Madara: Hi guys
+
+Madara: Tonkwallet added usdt trc20. I want to leave some deposit there so I need to know what is the commission for transfer generally?
+
+&rey: Nothing easier: that's storage fee. (reply to 155301)
+
+&rey: It is paid from contract's balance, not from transaction carried value, as this option is most seamless for contracts: bounced messages have a fixed value, while contract's total due including its next transaction remains constant as well.
+
+Willy: https://tonviewer.com/UQDQJ7vS5zl-vfAGzmVeoKtI9dbeARnZr7GwJQIKE8RUog1r  I believe it really IS an explorer problem. Tonviewer seems to calculate correctly and does not subtract 0.0000002 from receiver balance (reply to 155301)
+
+&rey: Raw blockchain happenings: (reply to 155318)
+
+Willy: Can you explain, please, how this happens?  You mean if you spam enough you can drain any walletW5? That does not seem right. I thought gas fees must be subtracted from incoming TONs in this scenario. As in smart contract code you can see, is there enough TONs or not. In this case it is sure to be enough TONs for SC gas fee (reply to 155319)
+
+&rey: First of all, you have an uninit address with some balance. It does not mean you have a claim to 0.03 TON. It means that you have a claim to 0.03 TON minus (storage fee rate) * (time since deposit). (reply to 155320)
+
+Willy: Oh  You mean that the owner did not use his wallet for a long time and now his wallet needs to pay the system an additional 0.00002 fee? (and it doesn't matter who was the initiator of TX, just that time passes -> more storage fee. Just in this case it is the spam bot who was the initiator of system fees being subtracted.) (reply to 155321)
+
+&rey: Exactly! (reply to 155323)
+
+Willy: Thank you so much! (reply to 155324)
+
+Willy: Really appreciate what you're doing in this chat ;) (reply to 155324)
+
+Ackermann: receive(msg: SendOnboardingReward) {         require(msg.zipp <= self.zippBalance, "Insufficient zipp token balance");         require(msg.oreva <= self.orevaBalance, "Insufficiant oreva to claim" );          require(self.zippWallet != newAddress(0, 0), "zipp token Jetton wallet not set");           require(self.orevaWallet != newAddress(0, 0), "oreva token Jetton wallet not set");          let zippBody: Cell = JettonTransfer {             queryId: 0,             amount: msg.zipp,             destination: msg.recipient,             responseDestination: myAddress(),             customPayload: null,             forwardTonAmount: ton("0.05"),             forwardPayload: beginCell().storeUint(0, 1).endCell().beginParse(),         }.toCell();          let orevaBody: Cell = JettonTransfer {             queryId: 0,             amount: msg.oreva,             destination: msg.recipient,             responseDestination: myAddress(),             customPayload: null,             forwardTonAmount: ton("0.05"),             forwardPayload: beginCell().storeUint(0, 1).endCell().beginParse(),         }.toCell();          send(SendParameters {             to: self.zippWallet,             value: 0,             mode: SendRemainingValue,             body: zippBody,         });         self.zippBalance -= msg.zipp;           send(SendParameters {             to: self.orevaWallet,             value: 0,             mode: SendRemainingValue,             body: orevaBody,         });         self.orevaBalance -= msg.oreva;          send(SendParameters {             to: sender(),             value: ton("0.05"),             mode: SendRemainingValue,             body: SentOnboardingReward{ recipient: msg.recipient }.toCell(),         });     }   Whenever i send a message to this receiver, I send 0.3 and i still get exit code 37 : Insufficient Ton. can anybody help?
+
+&rey: 1. You cannot use SendRemainingValue more than once. 2. Sending value: ton("0.05"), mode: SendRemainingValue is even more suspicious.  Please write down how much TON do you want to be sent each route. (reply to 155327)
+
+Ackermann: each route is a jetton transfer of two different tokens to the same recipient, I think 0.1 ton should do for each route?
+
+Willy: I have an additional question, if you don't mind.  Does this work almost the same with initialized contracts?  I mean if I have walletW5 and I don't use it for 1 year and then someone sends me msg -> my contract will pay some storage fee itself, right? (reply to 155321)
+
+&rey: It might, yes. So you can write  — nativeReserve(0, 4); — value: ton("0.1"), mode: 0 — value: ton("0.1"), mode: 0 — value: 0, mode: SendRemainingBalance (reply to 155330)
+
+Ackermann: It didn't work (reply to 155333)
+
+&rey: Hash of transaction, or are you checking in sandbox? (reply to 155341)
+
+Ackermann: https://testnet.tonscan.org/tx/dec607bae745f5fa01d64d6f63b5347f2ea0d91e7435f519f2f7eeba6c3b4606
+
+&rey: SendRemainingBalance in the last message, not SendRemainingValue. (reply to 155347)
+
+Ackermann: Okay then (reply to 155348)
+
+Ackermann: worked
+
+Madara: Question
+
+Madara: Tonkwallet added usdt trc20. I want to leave some deposit there so I need to know what is the commission for transfer generally?
+
+&rey: What app exactly? The thing built in to Telegram, https://wallet.ton.org or something other? (reply to 155359)
+
+Moaad: I'm working on project i want to launch on Ton Blockchain i need to partner up with Ton Blockchain who should i contact?
+
+&rey: There is no such thing as "partner with the blockchain", it is The Open Network for a reason.  You can contact TON Foundation at partnership@ton.org. (reply to 155364)
+
+Moaad: Thanks 🤍 (reply to 155365)

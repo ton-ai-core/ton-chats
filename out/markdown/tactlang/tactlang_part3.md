@@ -8663,3 +8663,63 @@ Ricardo: Hey guys, i am using dedust sdk to swap assets, i am wondering how do i
 FxDrill: hey guys am stuck somewhere, ..   trying to sign withdrawal automatically, like the program will sign for withdrawal on my wallet contract. but it still giving errors upon errors.   anybody having same challenge before and how did you solve it   my wallet contract create wallet for users. but users cant withdraw
 
 Adam: Hey guys If anyone needs a tact smart contact dev or a tg miniapp maker(UI, smart contracts for the app) contact me
+
+— 2025-07-28 —
+
+akki: Hey guys  in jetton minter we have mint method & in jetton wallet transfer method  they both call JettonTransferInternal method in wallet contract my question is: Is there a way to know which method(mint from master or transfer from wallet) called internalTransfer I need this to apply separate logic in each case.
+
+maksim: if sender is minter, then it's mint (reply to 67297)
+
+akki: but in my contract anyone can mint (reply to 67300)
+
+5b 44 43 54 5d: Do you mean deploy JettonWallet? (reply to 67301)
+
+akki: No. Master(that auto deploys wallet) but minting is done by wallet contract also(measures are taken to ensure wallets can mint fixed amount to one address once only) (reply to 67302)
+
+akki: So, master+wallet both mints but logic is separate based on who called internalTransfer
+
+maksim: create separate internalTransfers, different opcodes
+
+akki: So there's no way to know the caller method I was trying to avoid separate methods can I use comment or memo to achieve this? how? (reply to 67305)
+
+&rey: On a lower level, changing comment/bool field is equivalent to changing opcode. (reply to 67317)
+
+&rey: It will be best to factor out common mint logic to a function which is not a receiver.
+
+raul0ligma: hi while working with jettons, i would want to dynamically get the jetton code and the jetton master while recieveing the jettongTransferNotification for example. what is the expected flow to achieve this  - async message sending between the wallet and then back to the notified contract  - store the wallet and their code ?
+
+Adam: You can query the jetton wallet for these
+
+raul0ligma: can do this from within a contract ? i thoug get_wallet_details was a get method (reply to 67331)
+
+&rey: Store. Remember that jettons will not have same data layout either. (reply to 67328)
+
+raul0ligma: so if i have to interact with mutliple jettons, i sotre a mapping of master: Cell ? and in the notif hwo do i know which jetton to pick ? (reply to 67333)
+
+&rey: jetton wallet —> (master, whatever else you need) (reply to 67334)
+
+&rey: I haven't caught yet what you need jetton's code for.
+
+raul0ligma: need to deploy another escrow type contract and was planning to forward the tokens direct from the notif, but i don't think so a gud design, would deploy escrow seprately and then make jetton transfer (reply to 67336)
+
+&rey: JW code seems useless still. (reply to 67337)
+
+raul0ligma: hmm very true, i don't need it, so when escrow itself moves tokens out, it needs to knwo it's jetton wallet address, but thisn i can compute offchain and always pass as param (reply to 67338)
+
+Adam: But make for each token deploy an escrow (reply to 67339)
+
+Adam: For exemple someone starts a trade make an escrow for that token
+
+Adam: It costs nothing
+
+— 2025-07-29 —
+
+Timi: hey man, this is @toluwalase_dev (reply to 67338)
+
+Timi: if anyone knows how to get telegram to stop banning me for trying to reply with code examples. I would be glad (reply to 67104)
+
+Timi: So, back to tact
+
+Timi: @pcrafter @bloody_bit check this out.  this may also help: @raul0ligma  👇
+
+Timi: So, I was trying to build an escrow. And my main worry initially was how do i manage  -user wallets,  -the escrow,  - the main contract -use cases, UI changes on the client and security.  Here is how i did most of them.
