@@ -3553,3 +3553,35 @@ Moaad: I'm working on project i want to launch on Ton Blockchain i need to partn
 &rey: There is no such thing as "partner with the blockchain", it is The Open Network for a reason.  You can contact TON Foundation at partnership@ton.org. (reply to 155364)
 
 Moaad: Thanks 🤍 (reply to 155365)
+
+— 2025-07-29 —
+
+Heydar: How its possible to encrypt message while just on both sides (sender, receiver) can decrypt!? I mean is the core using private keys to encrypt!?
+
+Mojisola🍅 🍅: I think the receiver public address is used to encrypt so only the reciever can decrypt the message or so (reply to 155374)
+
+ANDY: Hello guys
+
+Anthony: ✈️ TON Connect v2.2.0 — Sign Data Support  We're excited to announce that Sign Data is now officially supported in TON Connect v2.2.0! This feature allows dApps to request signatures on arbitrary data — ideal for authentication, message signing, and more.  We kindly encourage all developers to explore and integrate this powerful capability into their dApps.  🛡 New method: signData • Supports text, binary, and cell data types • Enables secure off-chain data signing  📁 New package versions   • @tonconnect/protocol 2.3.0   • @tonconnect/sdk 3.3.0   • @tonconnect/ui 2.2.0   • @tonconnect/ui-react 2.2.0  🖌 Example usage  const result = await tonConnectUI.signData({   type: "text",   text: "Confirm new 2fa number: +1 234 567 8901" });  console.log('Signed:', result);  ⬇ To update, run npm install @tonconnect/ui-react@latest or npm install @tonconnect/ui@latest  💡 Further reading • SignData request/response specification • SignData documentation  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-connect/sdk/issues.  🎁 Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! Special thanks for Tonkeeper Team to helping with this update. (forwarded from TonTech)
+
+H1Xploit: Is there any documentation for the deeplink list? Specifically for tonkeeper. (reply to 155381)
+
+Kiba: You can check this https://docs.tonconsole.com/tonkeeper/deep-linking, but it’s not widely supported (reply to 155383)
+
+Sad Bun 🐇: could you tell please  does sender's jetton wallet attach state init to all its Jetton Internal Transfer 0x178d4519 internal out messages to reciever's jetton wallets?  and that's how jetton wallets are deployed automatically?
+
+H1Xploit: Thanks! (reply to 155386)
+
+&rey: Commonly, a shared symmetric key is derived from peer's public and your secret key, and then used for decryption/encryption. (reply to 155374)
+
+Heydar: Thank you sir Is not that dangerous!??? Can you please refer me the code of TON core(mono c++) for this part? (reply to 155397)
+
+&rey: But blockchain has absolutely nothing to do with that? It's client's app which determines how to encrypt and what binary comment to attach to message.  See: https://docs.ton.org/v3/documentation/smart-contracts/message-management/internal-messages/#messages-with-encrypted-comments (reply to 155398)
+
+Heydar: I was wondering that share something like my prv keys to the receiver  Thank you for the guide. (reply to 155399)
+
+&rey: Public-key cryptography makes that absolutely unnecessary. You may be interested in details of ECDH (Elliptic-curve Diffie-Hellman protocol for key agreement). (reply to 155400)
+
+Mojisola🍅 🍅: got that. (reply to 155397)
+
+Combot: Combot has warned tutanhamon (1/3) Reason: Word **** is not allowed

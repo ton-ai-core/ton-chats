@@ -8723,3 +8723,35 @@ Timi: So, back to tact
 Timi: @pcrafter @bloody_bit check this out.  this may also help: @raul0ligma  👇
 
 Timi: So, I was trying to build an escrow. And my main worry initially was how do i manage  -user wallets,  -the escrow,  - the main contract -use cases, UI changes on the client and security.  Here is how i did most of them.
+
+Ansar: hi, is there any way to estimate gas of tact smart contract function?
+
+CARL: Hi, I send some tokens to my testing contract, is there any way to withdraw them from the contract?
+
+0xAnthony: on the contract, you have to specify the jetton withdraw function so that you can call when you want (reply to 67374)
+
+CARL: So, if I forget to add the function my tokens are gone? (reply to 67375)
+
+0xAnthony: Maybe... yes (reply to 67376)
+
+CARL: OK then😢 (reply to 67377)
+
+0xAnthony: I am not sure on tact, cause I almost do with Func, but anyway when develop, it's good habit to write code about update the contract code any time by owner. so even you forgot to implement jetton withdraw function, you can update that function after deploy (reply to 67378)
+
+CARL: Yeah, thx (reply to 67379)
+
+CARL: So jettons cannot withdraw, can ton withdraw? (reply to 67379)
+
+0xAnthony: that part, also you should implement with code. all is possible with only code as far as I know (reply to 67381)
+
+&rey: No. You would be most disappointed if someone withdrew anything from your wallet contract. (reply to 67381)
+
+&rey: (And yes, wallets are smart contracts too.)
+
+Hehe: hii
+
+Adam: Hii? (reply to 67396)
+
+— 2025-07-30 —
+
+akki: is there a fixed fee for contract's txns or adjusted time to time. I mean if fee is fixed then project is against its own success. Let's say I launch a jetton coin, it becomes popular, no. of txn increases, demand for toncoin hence price increase, so do we pay same amount of toncoin as fee?

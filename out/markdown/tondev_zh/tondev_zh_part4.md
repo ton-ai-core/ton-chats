@@ -9823,3 +9823,13 @@ Leo: https://github.com/ton-blockchain/Highload-wallet-contract-v3
 — 2025-07-29 —
 
 Combot: S has been banned! Reason: CAS ban.
+
+Combot: 🖤 has been banned! Reason: CAS ban.
+
+Anthony: ✈️ TON Connect v2.2.0 — Sign Data Support  We're excited to announce that Sign Data is now officially supported in TON Connect v2.2.0! This feature allows dApps to request signatures on arbitrary data — ideal for authentication, message signing, and more.  We kindly encourage all developers to explore and integrate this powerful capability into their dApps.  🛡 New method: signData • Supports text, binary, and cell data types • Enables secure off-chain data signing  📁 New package versions   • @tonconnect/protocol 2.3.0   • @tonconnect/sdk 3.3.0   • @tonconnect/ui 2.2.0   • @tonconnect/ui-react 2.2.0  🖌 Example usage  const result = await tonConnectUI.signData({   type: "text",   text: "Confirm new 2fa number: +1 234 567 8901" });  console.log('Signed:', result);  ⬇ To update, run npm install @tonconnect/ui-react@latest or npm install @tonconnect/ui@latest  💡 Further reading • SignData request/response specification • SignData documentation  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-connect/sdk/issues.  🎁 Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! Special thanks for Tonkeeper Team to helping with this update. (forwarded from TonTech)
+
+Mr.Lightcode: 🎁 VolyaGift Mini App – Earn TON and NFT inside Telegram!  Spin and win! Mini Telegram app for crypto projects and NFT marketing.  🔹 Spin-to-Win | 🔹 Shop NFT | 🔹 Full admin panel 🔹 Connect to TON wallet with TonConnect  📺 Demo video: https://youtu.be/XQBT0QlLKRI  🛒 Get full source: https://mrlightcode.shop/product/telegram-mini-app-earn-ton-nfts/   DoDo you have any questions? 👇  📪 contact me: @MrLightcodeDM 📪 contact me: @MrLightcodeDM 📪 contact me: @MrLightcodeDM (forwarded from Mr.Lightcode)
+
+Combot: crimson1023 has been banned! Reason: CAS ban.
+
+Combot: Urbanobles Swy has been banned! Reason: CAS ban.
