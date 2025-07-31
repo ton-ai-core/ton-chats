@@ -3585,3 +3585,51 @@ Heydar: I was wondering that share something like my prv keys to the receiver  T
 Mojisola🍅 🍅: got that. (reply to 155397)
 
 Combot: Combot has warned tutanhamon (1/3) Reason: Word **** is not allowed
+
+— 2025-07-30 —
+
+Russia: const walletClass = tonweb.wallet.all["v4R2"];         const walletTon = new walletClass(tonweb.provider, {             publicKey: walletInfo.keys.publicKey,         });  const transfer = await walletTon.methods.transfer({             secretKey: walletInfo.keys.secretKey,             toAddress: new TonWeb.utils.Address(addressStr),             amount: TonWeb.utils.toNano("0.1"),             seqno: oldSeqno,             payload: await jettonWallet.createTransferBody({                 tokenAmount: TonWeb.utils.toNano("79"),                 toAddress: new TonWeb.utils.Address(data.recipients_address),                 queryId: oldSeqno,                 // forwardAmount: TonWeb.utils.toNano("0.1"),                 responseAddress: new TonWeb.utils.Address(                     "UQCwemKHD0mC0hnOYXvLuftnkq4FatjsNSY-0Qyx-oBYVHwI"                 ),             }),             sendMode: 3,         });         console.log("transfer: ", transfer.send);         await transfer.send();
+
+Russia: I want to transfer JETTON from one address to another in TON, however the amount of jetton I want to transfer is 79 GRAM, but on the transaction I see it transferred successfully, but only 0 GRAM. Anyone who knows how to support me with this problem?
+
+&rey: Shouldn't it be jettonAmount: ...? (reply to 155443)
+
+Russia: yes, I want to transfer jetton, token amount is the number of GRAM tokens I want to transfer, i want transfer 79 GRAM, (reply to 155448)
+
+RoDiN: Why?
+
+Akash: Hello everyone! I am looking for an assistant to help me develop smart contracts and, in general, with tasks related to development! I look forward to talking to everyone!
+
+𝕿𝖇𝖍𝖐𝖆𝖗: Hi bro (reply to 13813)
+
+Nick: Issue with TON Payments Integration (Frontend-Side Problem Suspected) Hi! We're integrating TON payments into our Telegram app and have been stuck on a frustrating issue for about two weeks. Sometimes in-app purchases via TON Keeper complete successfully, but sometimes they don’t get confirmed in the app, even though the TON tokens are always deducted from the user and correctly received on our wallet.  We’ve surrounded everything with logs, but the root cause is still unclear. We're now suspecting the problem is on the frontend side. We’d really appreciate if you could connect us with an experienced developer familiar with TON integrations for a consultation.  🧩 Payment System Evolution & Current Flow 🧱 Initial Architecture: Frontend sends a request to backend.  Backend loops through user transactions via toncenter and compares tx hashes.  If the expected transaction is found → success is returned to frontend.  🛑 Problems:  Fully synchronous status check.  Inefficient search logic.  No normalized payloads, no transaction history.  Often the retry would fire before the tx appeared in toncenter, so the transaction was missed, and the purchase status was never updated.  🔁 Then We Rebuilt the Flow: Switched from toncenter to tonapi.  Normalized payloads on frontend.  Introduced async processing using WebSockets.  Built out transaction history with statuses.  📦 New Flow:  Frontend sends normalized payload to backend.  Backend fetches user transaction using tonapi.  Then fetches events from that transaction.  Verifies tx details (amount, sender, recipient).  Updates purchase status.  Sends result to frontend.  🛑 New Issue:  tonapi was slow in parsing transaction events.  Retry would hit timeout before events were parsed, so again, processing was aborted.  📍 Current Setup (as of now): Dropped the event-parsing step.  Flow is now:  Frontend sends normalized payload to backend.  Backend fetches user transaction using tonapi.  Verifies basic tx data (amount, sender, recipient).  Updates purchase status.  Sends confirmation to frontend.  Despite this simplification, we're still occasionally seeing purchases not processed, even though the TON is received. We're looking for someone who deeply understands the TON ecosystem, especially TON Keeper flows, tonapi, and tx indexing delays, to help us audit and fix this integration.  Let me know if you're available or can recommend someone.
+
+Mannie: Check your dm (reply to 155467)
+
+Odd: Can you be clear? (reply to 155467)
+
+Mojisola🍅 🍅: hello, can I hear about tasks and projects you want to do (reply to 155467)
+
+Adam: Dm me, and I can help you with that integration. There are better ways to confirm transactions than just using tonapi. We can confirm the hash returned by tonconnect on the chain to verify the value. Alternatively, the simplest yet most effective solution is to create a new contract for each transaction, which will never fail. However, I can audit the current flow and fix any issues if you’d like. The current flow is good, but it heavily relies on verifying payloads using tonapi. There are some improvements that can be made. One of them is to use liteserver on TON to verify transactions. It’s more efficient than using tonapi each time to verify the external message (payload). (reply to 155477)
+
+Adam: For further audits contact me (reply to 155477)
+
+0xAnthony: you can use webhook instead of send request to backend. Yeah, I faced that problem too. sometimes send request to backend is not happening. so Instead of that, on backend, you can hear all txs on certain address (reply to 155477)
+
+龙💎FollowDragons: {   "url": "https://t.me/holdzillabot",   "name": "Holdzilla",   "iconUrl": "https://save.followdragons.monster/holdzilla/logo.jpg" }  Guys what is the problem with this manifest? On android ton connect is working fine while on IOS - Tonkeeper just opens but nothing happens, and sometimes it gives an error "invalid manifest"...  What could possibly be wrong with a manifest that was made according to the instructions?
+
+Always Polite: Its simple to implement  Use webhook (reply to 155477)
+
+Mojisola🍅 🍅: iOS can be restrictive, if it works well on android, then ensure the url to manifest is available and active (reply to 155497)
+
+龙💎FollowDragons: Its not a problem of the url url is available and active (reply to 155502)
+
+Kiba: Try using a different url, maybe it will work (reply to 155497)
+
+龙💎FollowDragons: Will try, thanks (reply to 155505)
+
+&rey: Also, there might be privacyPolicy or termsOfUse field expected. (reply to 155497)
+
+龙💎FollowDragons: But its not obligatory... (reply to 155508)
+
+Ackermann: Anybody experiencing slow transactions on ton??

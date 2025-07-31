@@ -9833,3 +9833,27 @@ Mr.Lightcode: 🎁 VolyaGift Mini App – Earn TON and NFT inside Telegram!  Spi
 Combot: crimson1023 has been banned! Reason: CAS ban.
 
 Combot: Urbanobles Swy has been banned! Reason: CAS ban.
+
+— 2025-07-30 —
+
+Combot: Арани Тимершова has been banned! Reason: CAS ban.
+
+Leo: 这是tron不是ton
+
+Kellen: 哈哈哈哈哈哈哈
+
+Cary: 这。。
+
+Combot: Vjjh has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🧑‍💻 Live Coding Course——TON 的下一代智能合约语言 Tolk  📅 7月31号，周四晚上8:00 (UTC+8) 🔗 注册获得提醒：https://lu.ma/8ac8x6aa 📺 代码直播课会同步在YouTube & X进行：https://www.youtube.com/watch?v=uzPuazi2qIs 🎙️ 主讲： Andrew, TON东亚区Dev Rel  Tolk 于 2024 年 11 月在迪拜的 TON Gateway 上首次公开，目的是解决“FunC”太难学和难写的问题，我们可以将 Tolk 视为“下一代 FunC”。Tolk 编译器实际上是 FunC 编译器的一个分支，引入了类似于 TypeScript 的熟悉语法，但保留了所有低级优化。  经过大半年的不断迭代，Tolk 语言的正式版终于发布，本次课程给大家介绍 Tolk 语言的特性和FunC合约的迁移，Let's Tolk! (forwarded from TON East Asia Hub)
+
+Combot: Zpatriciaz Barman has been banned! Reason: CAS ban.
+
+Combot: 🖤 has been banned! Reason: CAS ban.
+
+— 2025-07-31 —
+
+Andrew: 🚀 TON Dev Bootcamp - 杭州站  📅 8月3日（周日）| 📍杭州 🔗 链接：https://lu.ma/7bjnivfv
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

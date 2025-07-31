@@ -3049,3 +3049,95 @@ Complex: Добрый вечер.  Вы бы хотели принимать п�
 RootTon: Народ а есть кто с битком работал ? Есть ли какие то комьюнити чаты
 
 [P]rivanbi: Напишите , поможем. (reply to 315962)
+
+𝕿𝖇𝖍𝖐𝖆𝖗: hi bro (reply to 315610)
+
+𝕿𝖇𝖍𝖐𝖆𝖗: https://github.com/ton-blockchain/stablecoin-contract/issues/82
+
+User: С какой именно проблемой вы столкнулись? (reply to 315983)
+
+𝕿𝖇𝖍𝖐𝖆𝖗: After deploying the contract, I can't mint the token. Now on another device, I can't deploy the contract at all, and it has various bugs. (reply to 315991)
+
+Андрей: t.me/tondev_eng (reply to 315994)
+
+𝕿𝖇𝖍𝖐𝖆𝖗: Can you answer me here please (reply to 315996)
+
+Combot: Combot выдал(а) предупреждение 𝕿𝖇𝖍𝖐𝖆𝖗 (1/3) Reason: 1 reports (reply to 315997)
+
+Nick: Issue with TON Payments Integration (Frontend-Side Problem Suspected) Hi! We're integrating TON payments into our Telegram app and have been stuck on a frustrating issue for about two weeks. Sometimes in-app purchases via TON Keeper complete successfully, but sometimes they don’t get confirmed in the app, even though the TON tokens are always deducted from the user and correctly received on our wallet.  We’ve surrounded everything with logs, but the root cause is still unclear. We're now suspecting the problem is on the frontend side. We’d really appreciate if you could connect us with an experienced developer familiar with TON integrations for a consultation.  🧩 Payment System Evolution & Current Flow 🧱 Initial Architecture: Frontend sends a request to backend.  Backend loops through user transactions via toncenter and compares tx hashes.  If the expected transaction is found → success is returned to frontend.  🛑 Problems:  Fully synchronous status check.  Inefficient search logic.  No normalized payloads, no transaction history.  Often the retry would fire before the tx appeared in toncenter, so the transaction was missed, and the purchase status was never updated.  🔁 Then We Rebuilt the Flow: Switched from toncenter to tonapi.  Normalized payloads on frontend.  Introduced async processing using WebSockets.  Built out transaction history with statuses.  📦 New Flow:  Frontend sends normalized payload to backend.  Backend fetches user transaction using tonapi.  Then fetches events from that transaction.  Verifies tx details (amount, sender, recipient).  Updates purchase status.  Sends result to frontend.  🛑 New Issue:  tonapi was slow in parsing transaction events.  Retry would hit timeout before events were parsed, so again, processing was aborted.  📍 Current Setup (as of now): Dropped the event-parsing step.  Flow is now:  Frontend sends normalized payload to backend.  Backend fetches user transaction using tonapi.  Verifies basic tx data (amount, sender, recipient).  Updates purchase status.  Sends confirmation to frontend.  Despite this simplification, we're still occasionally seeing purchases not processed, even though the TON is received. We're looking for someone who deeply understands the TON ecosystem, especially TON Keeper flows, tonapi, and tx indexing delays, to help us audit and fix this integration.  Let me know if you're available or can recommend someone.
+
+Алексей: ребята, нужна помощь у меня почему-то не видно метадату у нфт, а у коллекции видно я с этой проблемой уже двое суток не могу разобраться  nft: kQBRmJVk6iIAAQK3ObhdOYP6X6HJHa7XYif1vfRNi4FtLttj коллекция: kQCreg2lYOBNQSPJq2ht735bWHVx1WMYqJTb4hELTC6AMmo8  помогите, пожалуйста, я на месте уже топчусь очень долго...
+
+Denis: Ipfs?
+
+Алексей: да, я пробовал и Pinata и через свой сервер раздавать, все равно не видно (reply to 316020)
+
+[P]rivanbi: Тестнет? (reply to 316022)
+
+Оскар: у тебя ячейка с контентом неверно собрана, у тебя там только урл на мету коллекции, но нет common_content для нфт, даже если ты в каждую нфт пропихнул полный урл, нужно чтобы была хоть бы пустая ячейка, иначе индексеры похоже на этом и валятся (reply to 316019)
+
+Алексей: то есть мне нужно добавить в контракт коллекции поле common_content типа string и сделать его просто пустым? (reply to 316025)
+
+Оскар: скинь код как ты собираешь дату для коллекции (reply to 316026)
+
+Vladislav: Всем доброго времени суток, не могу инициализировать кошелёк руками, код приложил, вот сама ошибка при транзакциях: admin wallet deployed zaglot wallet is not deployed wait for transaction wait for transaction wait for transaction wait for transaction zaglot seq: 0 AxiosError: Req LITE_SERVER_UNKNOWN: cannot apply external message to current state : Failed to unpack account state',
+
+Andrey: В ton storage загружайте) (reply to 316022)
+
+Избранное🤍🔵🤍: Всем здравствуйте, пишу скрипт на python который должен покупать мне звезды через split. tg От api сплита мне приходят  tr.addres=EQBxBqmJdR0v9Wv5NMrKrtuJcmQZaxoQqmCFNswrKp8M6dEp tr.amount=237346000  tr.payload=te6ccgECBwEAAdkAA1MAAAABgBCkiH8LM/zUu0afyGCTWJwX1mDjdlf2rMa9UoQlD4UHSBqbhgEBAgQASgAAAAA1MCBUZWxlZ3JhbSBTdGFycyAKClJlZiNtN05lOWRZcXQBiFqJrNkv+8o3KzgBrpihDDWvtYIPEieSQZep9UC/iwTcePnnHZml8iphTzpDnTZL/xZCOWC0W0tUHkiGDhyjSAxoihDDAwBjATEtADuaygCACirC8eo/eV0UI980KAsAPbL94S6s3d1q9BE5NDi9kVrAAAAAB3NZQAQB/kp79unGyOW8mqyLztlKcXpBxQRR1U0TS5CGC55CwHUMBSf0VkIZHOHVKGzd7VW2WufIHj6JD2Vzoo9mIUjSxene4KucJDp9UrHbKs+rhocFBVBwWbmaY44LKt9Pi8XhOQp64bzjqRdHjQgjn77z/QAerkjDi45cPixL3bQJSagFAf5rx/7Hku1EWxisHTx3S0T7L1NOwauW99Tx7Vdokik64xEkwW1PjCbOZywq8bHCpNTmZF2oYP/4B5DMp2XxmR2zQVidoJ7nzSHkjewbpyaBUUqLrYSfb4U75ViGNFmOE9FV1hW33MJlFpDw33N2KtlKIrE2IrcKrZ83Qq6q6E2UBgAEoy0=  Уже пытался сделать много чего, но ничего не работает
+
+User: Я не копался в апишке split, но судя по всему нужно перевести 237346000 NANOTON на адресс {addres}, с payload, который вам предоставили  На python вам поможет pytoniq На TS/JS @ton/ton (reply to 316040)
+
+Избранное🤍🔵🤍: я перевел с nanoton. Chat GPT сказал что длинная  строка это зашифрованый смарт контракт, если декодировать ее в base64 то в ней будет текст 50 Telegram Stars Ref...  Думаю ее надо как-то декодировать или использовать как смарт контракт
+
+User: https://github.com/split-tg/split-bot/tree/main  Посмотрите пример реализации тут, это официальный бот сплита для покупки tg stars (reply to 316053)
+
+Избранное🤍🔵🤍: спасибо (reply to 316055)
+
+Алексей: receive(msg: GetStaticData) {         throwUnless(NotInit, self.owner != null);          sendMsg(             sender(),             0,             ReportStaticData {                 collection: self.collectionAddress,                 index: self.itemIndex,                 queryId: msg.queryId,             }.toCell(),             msg.queryId,             beginCell()                 .storeUint(self.itemIndex, 256)                 .storeAddress(self.collectionAddress),             SendRemainingValue,         ); // implementation detail     }  message(0x8b771735) ReportStaticData {     queryId: Int as uint64;     index: Int as uint256;     collection: Address; }  Cannot pass an expression of type "Cell" to the parameter "op" of type "Int"tact-compiler(tact-compiler-errors)  ребята, что не так?
+
+Алексей: я просто скопировал код с гитхаба ReportStaticData собирал сам, так как там его не было в should do
+
+X1ag: отправь транзакцию и скинь сюда ссылку на нее (reply to 316067)
+
+pluшak: всё уже пофиксил, спасибо (reply to 316075)
+
+pluшak: проблема была что я скидывал джеттон не тот, нужно было получить адресс юсдт токена у пользователя в кошельке через тонцентер, и его в транзакцию вставить
+
+pluшak: ну и наигрался я с этим😅
+
+Flyheck: Все привет. Подскажите, пожалуйста. При деплое выкидывает такую ошибку. В чем может быть проблема?
+
+Vladislav: В кошельке что пишет когда сканишь? Invalid metadata? (reply to 316081)
+
+Flyheck: Кошелек успешно подключился, это при попытке отправить транзу (не доходит до кошелька) (reply to 316082)
+
+Flyheck: до этого впервые такое возникло аж после успешной отправки транзы
+
+Vladislav: TonClient4 судя по стейкиейсу, мб обычный юзать? TonClient?
+
+Vladislav: Тут могу ошибаться если что, сам не так давно начал разбираться с этим всем
+
+DDD: Подскажите пожалуйста... Отправил nft на свой адрес обычного кошелька в телеге 3 версии. Там он не отображается. Как отправить обратно на правильный адрес 4 версии инфу не нашел. В тонкипере и в майтоне переключение на v3 нет. Что можно сделать?🙏🙏🙏
+
+Dmitry: В смысле «обычного в телеге»? Ton space? А если посмотрите на адрес через tonviewer.com или tonscan.org - там будет видно нфт? А то может она и не отправилась. (reply to 316087)
+
+— 2025-07-31 —
+
+🏆: как понять для чего используется платёжный шлюз l2 в тон?
+
+Андрей ⁴² 🦴 🐾: подскажите пожалуйста какой то вебхук или типо того чтоб чекать новые пополнения тон кошелька в тонах и джеттонах , чтоб на большие объемы и быстро было. например в ттб или в кб там буквально через 10сек после пополнения приходит меседж о пополнении, что можете посоветовать чтоб такое повторить
+
+Vladimir: https://docs.tonconsole.com/tonapi/webhooks-api (reply to 316095)
+
+Vladimir: https://docs.ton.org/v3/documentation/faq#is-there-a-need-for-l2-on-the-ton (reply to 316093)
+
+Андрей ⁴² 🦴 🐾: суть первой ссылки понял а второй нет (reply to 316097)
+
+User: Это на другой вопрос ответили (reply to 316098)
+
+Vladimir: Так вторая не Вам. (reply to 316098)
+
+Андрей ⁴² 🦴 🐾: ой извините
+
+Андрей ⁴² 🦴 🐾: спасибо
