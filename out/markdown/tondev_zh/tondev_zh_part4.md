@@ -9857,3 +9857,19 @@ Combot: 🖤 has been banned! Reason: CAS ban.
 Andrew: 🚀 TON Dev Bootcamp - 杭州站  📅 8月3日（周日）| 📍杭州 🔗 链接：https://lu.ma/7bjnivfv
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Katiya｜TON: 🧑‍💻 Live Coding Course 9——TON 的下一代智能合约语言 Tolk 🎙️ 主讲： Andrew, TON东亚区Dev Rel  Tolk 于 2024 年 11 月在迪拜的 TON Gateway 上首次公开，目的是解决“FunC”太难学和难写的问题，我们可以将 Tolk 视为“下一代 FunC”。 经过大半年的不断迭代，Tolk 语言的正式版终于发布，本次课程给大家介绍 Tolk 语言的特性和FunC合约的迁移，Let's Tolk!  🔗直播开始啦： https://x.com/i/broadcasts/1OdJrDXjWwkKX (forwarded from TON East Asia Hub)
+
+Combot: Naylinsann has been banned! Reason: CAS ban.
+
+iron Man: 谁能帮我代开下tel会员 1ton作为报酬
+
+Combot: Blystonep Mcalanen has been banned! Reason: CAS ban.
+
+Combot: Matin M86 has been banned! Reason: CAS ban.
+
+Combot: 🖤 has been banned! Reason: CAS ban.
+
+— 2025-08-01 —
+
+Combot: 🖤 has been banned! Reason: CAS ban.

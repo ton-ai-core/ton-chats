@@ -3633,3 +3633,19 @@ Kiba: Try using a different url, maybe it will work (reply to 155497)
 龙💎FollowDragons: But its not obligatory... (reply to 155508)
 
 Ackermann: Anybody experiencing slow transactions on ton??
+
+— 2025-07-31 —
+
+Aru: Hi everyone!! I have a question.  What are the best practices for NFTs? On the TON blockchain, how is the permanence of NFTs ensured, and who is responsible for paying the storage fees to maintain that permanence?  For example, how long a period of storage fees does the issuer typically pay for at the time of minting? And after that period ends, is it common for users to take over the cost?  I’d like to understand the generally adopted approaches regarding this.
+
+Combot: Combot has warned •matin• (3/3) Reason: Word **** is not allowed
+
+Combot: Combot has kicked •matin•
+
+XXll: Please send me chats for communication
+
+&rey: 0.1 TON is a typical amount. Whether that is enough for several years depends mainly on NFT code complexity. (reply to 155549)
+
+— 2025-08-01 —
+
+Aru: Thank you!! (reply to 155567)
