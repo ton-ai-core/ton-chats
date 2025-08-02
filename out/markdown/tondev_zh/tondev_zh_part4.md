@@ -9873,3 +9873,21 @@ Combot: 🖤 has been banned! Reason: CAS ban.
 — 2025-08-01 —
 
 Combot: 🖤 has been banned! Reason: CAS ban.
+
+Cary: 大佬们问下，群组聊天窗下面的菜单要怎么加
+
+Anthony: Introducing the Jetton 2.0 Smart Contract  Transfers and operations with Jetton 2.0 are up to 3 times faster under heavy network load compared to jettons of the previous version.  This improvement was achieved thanks to new shardchain optimizations—the jetton-wallet holding a user’s token balance is now always deployed in the same shardchain as the owner’s wallet. This became possible after the TON node introduced functionality to deploy smart contracts into a specific shardchain (StateInit.fixed_prefix_length).  The smart contract is a direct successor of Jetton 1.2—used for popular tokens like $NOT—written by the TON Core team and covered by unit tests.  We would like to thank Andrew G Kiba, a community developer who made a contribution to the contract’s design.  A Tolk-language version of the smart contract will be released later.  https://github.com/ton-blockchain/jetton-contract/tree/jetton-2.0 (forwarded from TON Core)
+
+Andrew: 可以看这 2 个文档  https://core.telegram.org/bots/features#keyboards https://grammy.dev/plugins/keyboard#custom-keyboards (reply to 96418)
+
+Lucy: 有没有在ton上面创业的大佬
+
+Hao: 怎么了 (reply to 96454)
+
+— 2025-08-02 —
+
+Lucy: 一起创业😂 (reply to 96455)
+
+Combot: Ill has been banned! Reason: CAS ban.
+
+Dmytro: 大家好！我需要关于TON智能合约的想法帮助。项目中会筹集一笔资金（比如100 TON），然后需要按比例给多名参与者付款，有时多达一万人。问题是批量支付时（batch payment，且每次调用最多800人限制），手续费非常高，比如给1000人付款可能需要15到50 TON的手续费，这大大压缩了预算。  问题是：怎样能降低这些手续费？有没有什么有效的方式能更高效地做这些付款？有没有遇到过类似问题的，能分享经验或建议的？谢谢

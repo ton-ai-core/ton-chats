@@ -8755,3 +8755,11 @@ Adam: Hii? (reply to 67396)
 — 2025-07-30 —
 
 akki: is there a fixed fee for contract's txns or adjusted time to time. I mean if fee is fixed then project is against its own success. Let's say I launch a jetton coin, it becomes popular, no. of txn increases, demand for toncoin hence price increase, so do we pay same amount of toncoin as fee?
+
+— 2025-08-01 —
+
+Lols Anti Spam: Stormy Sins, you were blocked (CAS)  ⚠ Ads: Check out the date of your account registration ➡️ When Joined Bot
+
+Lols Anti Spam: Jessica Gonzales, you were blocked (CAS)  ⚠ This message can be disabled in /config
+
+FxDrill: Hey I need help with my Tact Wallet contract.  I build a simple wallet contract that received  jetton and send it automatically to external wallet ..   But am stuck ...   The contract will receive jetton but doesn't send out to external wallet ..   Please help I don't know what I have done wrong

@@ -3649,3 +3649,39 @@ XXll: Please send me chats for communication
 — 2025-08-01 —
 
 Aru: Thank you!! (reply to 155567)
+
+DexfLo: Hello.  does anybody know the approx cost to mint a soulbound token?
+
+Sviatoslav: Transaction fee (gac) ~0.0025TON (less than $0.01)  Reserve deposit by service up to ~1TON (≈$4) (reply to 155590)
+
+DexfLo: thank you very much.
+
+DexfLo: what do u mean by reserve deposit by service?
+
+DexfLo: ah... i looked that up.  thanks
+
+DexfLo: are there any bulk mint "deals"?
+
+Combot: Combot has warned kmao (1/3) Reason: Word **** is not allowed
+
+Akash: Hello everyone! I am looking for an assistant to help me develop smart contracts and, in general, with tasks related to development! I look forward to talking to everyone! dm https://t.me/saykmadhash
+
+&rey: The latter is for compressed NFTs only, IIRC? (reply to 155592)
+
+Anthony: Introducing the Jetton 2.0 Smart Contract  Transfers and operations with Jetton 2.0 are up to 3 times faster under heavy network load compared to jettons of the previous version.  This improvement was achieved thanks to new shardchain optimizations—the jetton-wallet holding a user’s token balance is now always deployed in the same shardchain as the owner’s wallet. This became possible after the TON node introduced functionality to deploy smart contracts into a specific shardchain (StateInit.fixed_prefix_length).  The smart contract is a direct successor of Jetton 1.2—used for popular tokens like $NOT—written by the TON Core team and covered by unit tests.  We would like to thank Andrew G Kiba, a community developer who made a contribution to the contract’s design.  A Tolk-language version of the smart contract will be released later.  https://github.com/ton-blockchain/jetton-contract/tree/jetton-2.0 (forwarded from TON Core)
+
+.none: Hello everyone! Please tell me if there is a convenient way to parse a cell where the data is not known how it is arranged or what its types are.
+
+&rey: Look how it is loaded through Retracer.ton.org, perhaps? (reply to 155633)
+
+.none: maybe, but I don't understand it. (reply to 155636)
+
+&rey: I do not think there is any hope otherwise, especially given FunC++ or whatever your contract is written in. (reply to 155637)
+
+.none: That's also true (reply to 155638)
+
+— 2025-08-02 —
+
+TON Bounty Bridge: ​Airdrop  🏷 Developer Tool  Summary:Airdrop  Created by alirezashayian-max
+
+TON Bounty Bridge: ​TON Portfolio Auto-Tracker Bot (Telegram + Web)  🏷 Developer Tool  Summary:A Telegram + web bot that automatically tracks user portfolio across TON DEXes (STON.fi, Blum Termin...  Created by Smilzo0

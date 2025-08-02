@@ -2065,6 +2065,30 @@
       "file": "photos/photo_231.jpg",
       "width": 1280,
       "height": 1280
+    },
+    {
+      "id": 233,
+      "type": "message",
+      "date": "2025-08-01T11:54:12.000Z",
+      "date_unixtime": "1754049252",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Introducing the Jetton 2.0 Smart Contract\n\nTransfers and operations with Jetton 2.0 are up to 3 times faster under heavy network load compared to jettons of the previous version.\n\nThis improvement was achieved thanks to new shardchain optimizations—the jetton-wallet holding a user’s token balance is now always deployed in the same shardchain as the owner’s wallet. This became possible after the TON node introduced functionality to deploy smart contracts into a specific shardchain (StateInit.fixed_prefix_length).\n\nThe smart contract is a direct successor of Jetton 1.2—used for popular tokens like $NOT—written by the TON Core team and covered by unit tests.\n\nWe would like to thank Andrew G Kiba, a community developer who made a contribution to the contract’s design.\n\nA Tolk-language version of the smart contract will be released later.\n\nhttps://github.com/ton-blockchain/jetton-contract/tree/jetton-2.0",
+      "forwarded_from": "TON Core",
+      "forwarded_from_id": "channel2336510893",
+      "forwarded_date": "2025-08-01T10:45:38.000Z"
+    },
+    {
+      "id": 234,
+      "type": "message",
+      "date": "2025-08-01T12:14:23.000Z",
+      "date_unixtime": "1754050463",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🔬 TON data on Dune Advanced Guide\n\nShared some advanced sql magic for fellow analysts.\n\n🔹 How to analyze authentic users (excluding contracts and custodial wallets)\n🔹 How to calculate TVL using balance tables\n🔹 How to calculate USD volumes flowing through addresses\n🔹 How to track Telegram Stars volumes on TON Blockchain\n🔹 How to analyze both on-chain and estimated off-chain NFT trading volumes\n\nRead the article:\n🔗 blog.ton.org/how-to-analyze-ton-users-and-token-flows-on-dune\n\nIf you are new to TON data or Dune, read the first part: blog.ton.org/ton-on-chain-data-analysis-dune",
+      "forwarded_from": "📀 TON Data Hub",
+      "forwarded_from_id": "channel2332281877",
+      "forwarded_date": "2025-07-31T15:49:01.000Z"
     }
   ]
 }
