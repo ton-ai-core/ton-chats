@@ -9891,3 +9891,51 @@ Lucy: 一起创业😂 (reply to 96455)
 Combot: Ill has been banned! Reason: CAS ban.
 
 Dmytro: 大家好！我需要关于TON智能合约的想法帮助。项目中会筹集一笔资金（比如100 TON），然后需要按比例给多名参与者付款，有时多达一万人。问题是批量支付时（batch payment，且每次调用最多800人限制），手续费非常高，比如给1000人付款可能需要15到50 TON的手续费，这大大压缩了预算。  问题是：怎样能降低这些手续费？有没有什么有效的方式能更高效地做这些付款？有没有遇到过类似问题的，能分享经验或建议的？谢谢
+
+Dmytro: 这样的话，成本会很高，而且用户也可能根本不会领取他们的款项。 (reply to 96465)
+
+Leo: 单个tx转255次，每个.0004ton 千用户也才0.4ton啊 (reply to 96466)
+
+Leo: gas分散到每个用户就更低了
+
+Combot: 🖤 has been banned! Reason: CAS ban.
+
+Dmytro: 谢谢！ (reply to 96469)
+
+Jacky: 直接用我们产品 (reply to 96464)
+
+Jacky: 我们有个众筹红包的产品，带有二次裂变激励功能
+
+Jacky: @D_Kropiva
+
+Dmytro: 谢谢，但那样我会失去对流程的控制，也不了解具体会发生什么，不过还是谢谢你。 (reply to 96473)
+
+Jacky: 创建者可以看到所有参与众筹的地址，参与金额数据的，也能实时看到完成比率。并且可以随时分享，后续甚至能看到二次裂变的数据。 @D_Kropiva
+
+Jacky: 二次裂变功能能帮你更快完成募集资金。
+
+Jacky: 创建者通过仪表盘可以看到所有众筹数据，掌控进展
+
+Jacky: 你甚至可以设置参与众筹获得代币的解锁机制
+
+Jacky: 欢迎dm我聊细节
+
+Jacky: 其他有需求的小伙伴也可以dm我
+
+Combot: Ahmed Alfituri has been banned! Reason: CAS ban.
+
+Combot: 3482 has been banned! Reason: CAS ban.
+
+Zhang: 请问广播交易时报错：LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted\nCannot run message on account: inbound external message rejected by transaction DC7E25D798327122BAE211479D93B3860FB77258E2EB4AF0D4BDE8B4DB5B4EE1:\nexitcode=36, steps=13, gas_used=0\nVM Log (truncated):\n...CTPUSHCONST 19 (xC_,1)\nexecute DICTIGETJMPZ\nexecute PUSHPOW2 9\nexecute LDSLICEX\nexecute DUP\nexecute LDU 32\nexecute LDU 32\nexecute LDU 32\nexecute XCHG s2\nexecute NOW\nexecute LEQ\nexecute THROWIF 36\ndefault exception handler, terminating vm with exit code 36\n 是怎么回事
+
+Leo: 估计是签名过期了
+
+TON: 你创啥业？ (reply to 96456)
+
+Combot: 星野逐光 has been banned! Reason: CAS ban.
+
+Combot: Shohail Rana Shohel has been banned! Reason: CAS ban.
+
+— 2025-08-03 —
+
+Combot: Alina Alina has been banned! Reason: CAS ban.

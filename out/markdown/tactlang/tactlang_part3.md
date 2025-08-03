@@ -8763,3 +8763,9 @@ Lols Anti Spam: Stormy Sins, you were blocked (CAS)  ⚠ Ads: Check out the date
 Lols Anti Spam: Jessica Gonzales, you were blocked (CAS)  ⚠ This message can be disabled in /config
 
 FxDrill: Hey I need help with my Tact Wallet contract.  I build a simple wallet contract that received  jetton and send it automatically to external wallet ..   But am stuck ...   The contract will receive jetton but doesn't send out to external wallet ..   Please help I don't know what I have done wrong
+
+— 2025-08-02 —
+
+akki: Share the contract (reply to 67595)
+
+Алексей: Hi all! Who can suggest where and how to use the Getgems sales contract in their application? I'm still a beginner, I need help😭

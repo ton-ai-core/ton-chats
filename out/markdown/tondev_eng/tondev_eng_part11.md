@@ -3685,3 +3685,11 @@ Anthony: Introducing the Jetton 2.0 Smart Contract  Transfers and operations wit
 TON Bounty Bridge: ​Airdrop  🏷 Developer Tool  Summary:Airdrop  Created by alirezashayian-max
 
 TON Bounty Bridge: ​TON Portfolio Auto-Tracker Bot (Telegram + Web)  🏷 Developer Tool  Summary:A Telegram + web bot that automatically tracks user portfolio across TON DEXes (STON.fi, Blum Termin...  Created by Smilzo0
+
+Hossein: Hi guys, can anyone help me with that why documents say workchain id is a 32-bit integer but it just has 8-bits length on address scheme?
+
+Combot: Combot has warned Hart Pennyworth (1/3) Reason: 1 reports (reply to 155649)
+
+E_crypt: Were do I learn how to start writing funC smart contract code? Please any link? That can help ? Am solely a beginner who's a C programmer   I'd love to write my first nft smart contract with funC, I need a guild pls   Thanks
+
+Mojisola🍅 🍅: docs.ton.org
