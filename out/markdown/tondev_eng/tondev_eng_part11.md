@@ -3693,3 +3693,27 @@ Combot: Combot has warned Hart Pennyworth (1/3) Reason: 1 reports (reply to 1556
 E_crypt: Were do I learn how to start writing funC smart contract code? Please any link? That can help ? Am solely a beginner who's a C programmer   I'd love to write my first nft smart contract with funC, I need a guild pls   Thanks
 
 Mojisola🍅 🍅: docs.ton.org
+
+— 2025-08-03 —
+
+Hossein: If you're getting started with smart contract development on the TON blockchain, the slide below might save you from reading at least 50 pages of docs and code!
+
+Juan: I think It will be easy for you, if you learn Tolk. (reply to 155670)
+
+E_crypt: Were do I start learning that ? Any docs or link? (reply to 155713)
+
+Juan: Here (reply to 155671)
+
+&rey: *4 bits + a differently-sized suffix with those nanoTONs. (reply to 155712)
+
+E_crypt: The video guides I saw back then was referencing funC. Or has it been updated? (reply to 155715)
+
+&rey: It is generally not worth it to learn writing FunC now. Reading — perhaps, since most old contracts use it, but Tolk has lots of useful and optional abstractions. (reply to 155719)
+
+E_crypt: Ok sir (reply to 155720)
+
+E_crypt: But most of the video explanations here are referencing funC or is it TOLk? Am I the one confusing them to be funC? (reply to 155671)
+
+S: Can a solo dev thrive in the TON community? I'm only asking because of the obsession on teams when filling forms for help or grant
+
+Mubaraak: some help me with writing codes and ton swap

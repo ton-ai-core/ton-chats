@@ -9939,3 +9939,15 @@ Combot: Shohail Rana Shohel has been banned! Reason: CAS ban.
 — 2025-08-03 —
 
 Combot: Alina Alina has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Neo: message WithdrawToken{     to: Address;     amount: Int as coins;     value: Int as coins;     order: Int as uint128;     query_id: Int as uint64;     timeout: Int as uint32; }  receive(msg: WithdrawToken){        send(SendParameters{         to: self.MyJettonWallet,         value: 0,         mode: (SendRemainingValue + SendIgnoreErrors),         bounce: true,         body: TokenTransfer{             queryId: msg.query_id,             amount: msg.amount,             destination: msg.to,             response_destination: sender(),             custom_payload: msg.toCell(),             forward_ton_amount: ton("0.0001"),             forward_payload: beginCell().storeBool(false).endCell().asSlice(),         }.toCell()     }); }  请教一下，以上是ton合约中提现Jetton的方法，如何使用highload v3 钱包 调用合约的WithdrawToken 方法 ？
+
+— 2025-08-04 —
+
+Combot: 1110 has been banned! Reason: CAS ban.

@@ -8769,3 +8769,7 @@ FxDrill: Hey I need help with my Tact Wallet contract.  I build a simple wallet 
 akki: Share the contract (reply to 67595)
 
 Алексей: Hi all! Who can suggest where and how to use the Getgems sales contract in their application? I'm still a beginner, I need help😭
+
+— 2025-08-03 —
+
+Codora: Is there anyone looking for the developer?
