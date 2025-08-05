@@ -3717,3 +3717,45 @@ E_crypt: But most of the video explanations here are referencing funC or is it T
 S: Can a solo dev thrive in the TON community? I'm only asking because of the obsession on teams when filling forms for help or grant
 
 Mubaraak: some help me with writing codes and ton swap
+
+— 2025-08-04 —
+
+Sad Bun 🐇: hi! could you tell please  is the order of messages preserved when sending transfers in batch via v3/v4 wallets?  i mean suppose my external message body cell consists of 3 internal messages  can i rely on that the first will get the smallest created_lt, and the last will get the greatest created_lt? or there's no garantee and the wallet can send batched messages in any order?
+
+&rey: It will. If your wallet app works correctly, of course. (reply to 155744)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 10 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 40  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+yo boy izu: I can help and volunteer in your project (reply to 155729)
+
+nhlaka: Guys does anyone know why I get undefined for almost all requests to this api?
+
+&rey: Perhaps because transactions upon said wallet had already completed? (reply to 155758)
+
+nhlaka: it's possible, but I don't think so, because the console.log('Unexpected API response format:', pending.data); statement in the if statement takes another 6-7 seconds (reply to 155763)
+
+S: What's your stack (reply to 155751)
+
+&rey: Perhaps you use axios wrong and need something like JSON.parse? (reply to 155764)
+
+nhlaka: Thank y! (reply to 155766)
+
+Kamran: Hi 👋
+
+Kamran: I want to buy a domain but its not for sale even though its expires why? Any idea
+
+Dmitry: DNS site doesn’t support buy-expired-domain feature. Check dns nft source code and send payment “manually”, or look for tg bot that can do it for you (reply to 155776)
+
+— 2025-08-05 —
+
+yo boy izu: Experience and if u project does well u can give me a little thank u (reply to 155765)
+
+S: Experience in..? (reply to 155785)
+
+yo boy izu: Community management game testing  and I want to learn new things (reply to 155786)
+
+Zerox: hey, do you need developer? (reply to 155786)
+
+S: Probably, but not now (reply to 155791)
+
+Zerox: okay, lmk if you need, I know func, ts enough (reply to 155795)

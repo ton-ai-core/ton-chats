@@ -9951,3 +9951,49 @@ Neo: message WithdrawToken{     to: Address;     amount: Int as coins;     value
 — 2025-08-04 —
 
 Combot: 1110 has been banned! Reason: CAS ban.
+
+Combot: Htoo Min has been banned! Reason: CAS ban.
+
+Andrew: 你不应该使用highload v3 来调用合约的WithdrawToken 方法来提现 Jetton 吧。  你应该用普通的 V5 合约钱包来发这个消息。 (reply to 96548)
+
+Andrew: 这个提现也不是什么高频的操作
+
+Neo: 我之前用的是V4的普通钱包来提现的，但是1分钟内有5笔提现的话，后面的4笔seqno 获取到的是一样的（第一笔的交易还没广播），导致后面的4笔交易会被丢弃，也不上链，也不报错， 出现过好多次这种情况了，所有才想着用highload v3 来提现，（避免seqno 的问题） (reply to 96583)
+
+Andrew: 也就是说你这个提现确实是高频的？ 如此频繁的提现不浪费 gas fee 吗 (reply to 96585)
+
+Andrew: 还是说你是频繁地给不同用户发 jetton？
+
+Neo: 给不同的用户发 jetton
+
+Andrew: wallet 合约 v5 版本，一个外部消息可以包含 255 个内部消息，应该也足够了 (reply to 96589)
+
+Combot: 嗯啊 has been banned! Reason: CAS ban.
+
+Neo: 这样的话，得系统先等一分钟（比如），将这1分钟内的提现记录，一并通过一个外部消息发送出去对吧 (reply to 96591)
+
+Leo: 不用等这么久吧
+
+Neo: v5 是不是也有seqno 并发的问题
+
+Neo: highload v3 已经走通了，我研究下 wallet 合约 v5 版本看看
+
+p: tonapi查询的数据 刚刚产生块时 我查询区块交易数量为3 ，过一段时间后查询到的交易为9，是不是ton异步消息的原因导致的？
+
+p: @andrew_cong 可以帮忙解答下吗？
+
+Combot: Htet Myat, زكرياء دحماني have been banned! Reason: CAS ban.
+
+Andrew: 你记录下有疑问的 block id，打印具体日志，然后再在浏览器比如 tonviewer 之类的查询确认下。 有具体数据看下就知道了 (reply to 96599)
+
+Combot: Thaqif has been banned! Reason: CAS ban.
+
+Combot: Mitzi Hill has been banned! Reason: CAS ban.
+
+— 2025-08-05 —
+
+Combot: Osvaldo Freitas has been banned! Reason: CAS ban.
+
+Nei: 问下各位大佬,tonveiwer或tonkeeper怎么把地址加上Name  有相关的渠道吗,不是买ton dns的那套
+
+Combot: Alex has been banned! Reason: CAS ban.

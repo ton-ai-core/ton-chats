@@ -8773,3 +8773,23 @@ akki: Share the contract (reply to 67595)
 — 2025-08-03 —
 
 Codora: Is there anyone looking for the developer?
+
+— 2025-08-04 —
+
+Олег: Hello everyone, has anyone implemented an oracle for verification from external resources in tone contracts?
+
+/B4ckSl4sh\: https://docs.ton.org/v3/documentation/dapps/oracles/pyth (reply to 67805)
+
+Chris: Hey, I wish to ask for your help. I have a problem with operating on Arrays from https://docs.tact-lang.org/cookbook/data-structures/#array  When I operate on array created in function, then everything works. But, when I try to modify global array variable it just doesn't change anything. usersArray is not changed after deleteIdx()(the "dump()" place in code).  How to modify global arrays?  Here is a sample code: message ClearUser { }  struct User {     points: Int; }  struct UsersArray {     m: map<Int, User>;     length: Int = 0; }  contract UsersContract{     users: map<Int, UsersArray>;      init() {         let user : User = User {             points: 100,         };         let userArray: UsersArray = emptyArray();         userArray.append(user);         self.users.set(0, userArray);     }      receive(msg: ClearUser) {         let usersArray: UsersArray? = self.users.get(0);         usersArray!!.deleteIdx(0);         dump(usersArray!!.getIdx(0).points); // Problem here: it displays old User's data, but should be empty          self.users.replace(0,usersArray);     }      receive() {         cashback(sender());     } }  // Function from https://docs.tact-lang.org/cookbook/data-structures/#array extends fun getIdx(self: UsersArray, idx: Int): User {     require(self.length > 0, "No items in the array!");     require(idx >= 0, "Index of the item cannot be negative!");     require(idx < self.length, "Index is out of array bounds!");      // Note that we use the !! operator, as we know for sure the value would be there     return self.m.get(idx)!!; } // Function from https://docs.tact-lang.org/cookbook/data-structures/#array extends mutates fun deleteIdx(self: UsersArray, idx: Int): User {     require(self.length > 0, "No items in the array to delete!");     require(idx >= 0, "Index of the item cannot be negative!");     require(idx < self.length, "Index is out of array bounds!");      // Remember the value that is going to be deleted     let memorized: User = self.m.get(idx)!!;      // Move all items from idx onwards to the left     let i: Int = idx;     while (i + 1 < self.length) {         // Note that we use the !! operator, as we know for sure the value would be there         self.m.set(i, self.m.get(i + 1)!!);         i += 1;     }      self.m.set(self.length - 1, null); // delete the last entry     self.length -= 1; // decrease the length field      return memorized; } // Function from https://docs.tact-lang.org/cookbook/data-structures/#array fun emptyArray(): UsersArray {     return UsersArray { m: emptyMap(), length: 0 }; // length defaults to 0 } // Function from https://docs.tact-lang.org/cookbook/data-structures/#array extends mutates fun append(self: UsersArray, item: User) {     require(self.length + 1 <= 1000, "No space in the array left for new items!");      self.m.set(self.length, item); // set the entry (key-value pair)     self.length += 1; // increase the length field }
+
+akki: maybe u r using msg.userId but msg has stakeId field (reply to 67808)
+
+Chris: Thank, but it's typo creating a example. I've updated code sample to make simpler case. (reply to 67815)
+
+Chris: I found the problem. "Optionals" have to me unwrapped to another variable before operating on them. So here is the fix: let usersArray: UsersArray? = self.users.get(0); unwrappedUsersArray = usersArray!!; unwrappedUsersArray.deleteIdx(0);
+
+Олег: hi, can anyone show a simple code example of how to use oracels redstone in ton? xbnf. I read the documentation and can't understand how they work, I would be very grateful if you show how to get external data from a contract
+
+Олег: thanks but there is nothing clear how to use it (reply to 67806)
+
+Jiego: What do you mean? Just call the same functions (getPriceUnsafe) from your smart contract (reply to 67829)
