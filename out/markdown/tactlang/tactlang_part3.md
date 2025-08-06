@@ -8793,3 +8793,19 @@ Chris: I found the problem. "Optionals" have to me unwrapped to another variable
 Олег: thanks but there is nothing clear how to use it (reply to 67806)
 
 Jiego: What do you mean? Just call the same functions (getPriceUnsafe) from your smart contract (reply to 67829)
+
+— 2025-08-05 —
+
+akki: how can i deliberately bounce a message?
+
+&rey: Finish contract execution with error. (reply to 67863)
+
+akki: in wallet apps like tonkeeper do we have state/data info from jettonWallet/minter contract or from v4 wallet (which in turn gets data like balance and sending txns to and from jettonWallet/minter contracts?
+
+akki: how does txn flow works in token transfer?
+
+Amoah: Ok
+
+Amoah: Good members
+
+&rey: Circles denote transactions, arrows are corresponding internal messages. (reply to 67866)

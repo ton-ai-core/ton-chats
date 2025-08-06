@@ -9997,3 +9997,19 @@ Combot: Osvaldo Freitas has been banned! Reason: CAS ban.
 Nei: 问下各位大佬,tonveiwer或tonkeeper怎么把地址加上Name  有相关的渠道吗,不是买ton dns的那套
 
 Combot: Alex has been banned! Reason: CAS ban.
+
+Combot: Alex has been banned! Reason: CAS ban.
+
+Katiya｜TON: Coding Challenge 9 - Tolk 合约合约编程    📅7月31日-8月10日  🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！   📒课程回顾：  - Notion 精华笔记：https://ton-org.notion.site/Tolk-2385274bd2cf80db9deac2717ac17bf1 - YouTube 视频回放：https://www.youtube.com/watch?v=uzPuazi2qIs - X 直播回放：https://x.com/i/broadcasts/1OdJrDXjWwkKX  👉点击此处参赛，提交你的代码：https://github.com/ton-builders/ton-coding-challenge-25-round-9/blob/main/README.md (forwarded from TON East Asia Hub)
+
+Combot: mm has been banned! Reason: CAS ban.
+
+Combot: Ko San has been banned! Reason: CAS ban.
+
+Combot: 1442 has been banned! Reason: CAS ban.
+
+Combot: Faye Houston has been banned! Reason: CAS ban.
+
+— 2025-08-06 —
+
+Combot: Sαra has been banned! Reason: CAS ban.

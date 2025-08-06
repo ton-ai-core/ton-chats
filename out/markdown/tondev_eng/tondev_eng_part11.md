@@ -3759,3 +3759,41 @@ Zerox: hey, do you need developer? (reply to 155786)
 S: Probably, but not now (reply to 155791)
 
 Zerox: okay, lmk if you need, I know func, ts enough (reply to 155795)
+
+Stas: Hello, for some reason we can't pay via TG Wallet, but for example from Tonkiper the payment goes through, what could be the problem?
+
+𝘿𝙊𝙏𝙉𝙀𝙏: The TonWeb RPC Provides a method called getTransaction which returns all the transactions of an address. How do I differentiate between sent and recieved transactions.  I am using testnet in here  Also what is the smallest unit of TON, like for TRX it is sun
+
+Tim: InMsg.dest === your address (reply to 155825)
+
+Tim: 1e-9 (reply to 155825)
+
+Precursor: Hi, we created and launched our token on Gaspump Lunchpad, after Dedust listing it shows as FAKE in Ton keeper wallet.  The ownership has been renounced and liquidity burnt by Gaspump team, Please how can I get the FAKE out? And verify the token?
+
+𝘿𝙊𝙏𝙉𝙀𝙏: I mean in Number, I clearly don't understand this (reply to 155827)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Okay Will Check it (reply to 155826)
+
+Tony: Gm fam, my friend has a question: What data providers would you recommend for better performance than Toncenter, especially for transaction history queries?
+
+TON Bounty Bridge: ​ElizaOS V2 Integration with TON Blockchain  🏷 Developer Tool  Summary:SummaryElizaOS - plugin for handling TON (The Open Network) blockchain operations, providing wallet ...  Rewards: • 2000 USD  Created by fivestarsfi
+
+tete: Does anyone know where to get news about this?: https://dorahacks.io/hackathon/ton-payments-hackathon/team
+
+Precursor: I need help 👆 (reply to 155829)
+
+&rey: Pull request to https://github.com/tonkeeper/ton-assets. (reply to 155829)
+
+Victor: Why is p2p trading not available in my region. This has greatly limited my use of the tg wallet. Could anyone please help me or at least direct me to where I can make this complain. Thank you
+
+DeFi: What country are you in? Not all countries will have access to p2p trading (reply to 155857)
+
+Ksan: Hi, devs. I am looking for a telegram game and TON developer. Please ping me.
+
+— 2025-08-06 —
+
+Precursor: Okay thank you (reply to 155849)
+
+Einar: Expired deadline? (reply to 155847)
+
+tete: Yes, but there's no communication channel to know what happened with submitted projects.
