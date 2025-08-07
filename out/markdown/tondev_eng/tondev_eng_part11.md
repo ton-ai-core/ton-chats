@@ -3797,3 +3797,41 @@ Precursor: Okay thank you (reply to 155849)
 Einar: Expired deadline? (reply to 155847)
 
 tete: Yes, but there's no communication channel to know what happened with submitted projects.
+
+DeFi: Hey builders on TON, guess what? https://x.com/TokenOS_AI/status/1952955396832043038
+
+E_crypt: Really? I might as well reach out (reply to 155797)
+
+Patrick: Does anyone know how to transfer the entire wallet balance in tonutils-go?  I tried to transfer like this, but it fails:  balance, err := w.GetBalance(ctx, master) if err != nil {   log.Fatalln("get balance err: ", err.Error())   return }  transfer, err := w.BuildTransfer(dstAddr, balance, bounce, "")  I think the fee needs to be subtracted from the amount I'm trying to send. I'm wondering if there's a way for the fee to be automatically deducted from the amount being sent, so I don't have to manually calculate and subtract it myself.
+
+Dmitry: use amount=0 and message mode 128 (Carry all the remaining balance of the current smart contract). don't know exact tonutils-go code, but it should not be very complex (reply to 155906)
+
+Dmitry: usually mode=0 does exactly the same, while mode=1 means "Pay transfer fees separately from the message value". I dont' see mode=1 in your code, but maybe it's somewhere in defaults.... (reply to 155906)
+
+Patrick: default mode is 3 (reply to 155908)
+
+&rey: Except storage fee which messes everything up, of course. (reply to 155908)
+
+Aran: balance, err := w.GetBalance(ctx, master) if err != nil {   log.Fatalln("get balance err: ", err.Error())   return }  transfer, err := w.BuildTransfer(dstAddr, balance, bounce, "")
+
+Yuri: Hi guys! I have problem with calculating smart-contract address with StateInit (code and data). this is my code async function fetchStateInitBoc() {     let address = 'EQDr1yCktbp69_8uYOcE44_3bK0qazthAS028rzJqFve6BZe';     const ton = new TonApiClient({         baseUrl: 'https://tonapi.io',     });     let nftAddress = address     const addr = Address.parse(nftAddress);     const resp = await ton.blockchain.getBlockchainRawAccount(addr);      let si: StateInit = {         code: resp.code,         data: resp.data     };     let calculatedAddress = contractAddress(0, si)     console.log('nftAddress', calculatedAddress);     console.log('calculatedAddress', calculatedAddress);     console.log("check", calculatedAddress.toString() == Address.parse(nftAddress).toString()); }
+
+&rey: Because the state you obtain is not initial one. It is not StateInit. (reply to 155915)
+
+Yuri: thx! Can I obtain correct StateInit? (reply to 155918)
+
+E_crypt: Clean code (reply to 155915)
+
+Yuri: So you think it should work properly? (reply to 155920)
+
+𝓢𝓪𝓶𝓾𝓮𝓵: Hi everyone! Does anyone know if it's possible to deploy the .ton DNS domain on WordPress (.org)?
+
+&rey: It isn't. It requires special software and thus a VPS at least. (reply to 155922)
+
+Tony: .ton is not a tld i think
+
+Tony: crypto wallets, smart contracts yes websites no
+
+Tony: .ton domains are not recognized by standard DNS resolvers and won’t resolve in normal browsers without plugins or support for TON.
+
+Tony: maybe in the future durov can register it on ICANN

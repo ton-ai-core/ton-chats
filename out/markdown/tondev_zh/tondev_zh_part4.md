@@ -10013,3 +10013,13 @@ Combot: Faye Houston has been banned! Reason: CAS ban.
 — 2025-08-06 —
 
 Combot: Sαra has been banned! Reason: CAS ban.
+
+Combot: Freeflin_G has been banned! Reason: CAS ban.
+
+Combot: Cuvd has been banned! Reason: CAS ban.
+
+Combot: Bitsplay has been banned! Reason: CAS ban.
+
+Combot: Bitsplay has been banned! Reason: CAS ban.
+
+Combot: Antonio J. Chirino has been banned! Reason: CAS ban.

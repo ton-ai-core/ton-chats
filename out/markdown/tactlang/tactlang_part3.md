@@ -8809,3 +8809,31 @@ Amoah: Ok
 Amoah: Good members
 
 &rey: Circles denote transactions, arrows are corresponding internal messages. (reply to 67866)
+
+— 2025-08-06 —
+
+akki: in what cases a message can bounce; Low ton attached or something else? (reply to 67896)
+
+fruitful-l: Any execution of the recipient contract with exit code other than 0 will try to bounce the message, considering it’s internal and bounce flag is set to true (reply to 67922)
+
+&rey: * exit code not 0 and not 1 ("alternative success code") + there must be enough TON to handle the bounce (reply to 67923)
+
+akki: don't we have type aliases in tact like type WalletMsg = Mint | JettonTransfer;
+
+akki: on high level  what are distinguishing features of several kinds of jetton contracts in tact: base governance feature-rich shard what extra benefit/features each provides?
+
+&rey: That's feature Tolk has and Tact does not. (reply to 67941)
+
+akki: yeah but i need to work with collections like maps and array and unfortunately tolk doesn't provides high level apis for those yet i think (reply to 67943)
+
+/B4ckSl4sh\: that will be in Tact 1.7 (reply to 67941)
+
+/B4ckSl4sh\: And that will be in next Tolk version (reply to 67944)
+
+akki: isn't there some nightly/beta/unstable release? (reply to 67946)
+
+Petr: nope (reply to 67947)
+
+Эмир: Hello, guys may we help me? I'm 0 in tact programming, please give me good YouTube channels for Tact from 0 maybe you also have started from they
+
+Nazar: For me too. Same case (reply to 67974)
