@@ -8837,3 +8837,19 @@ Petr: nope (reply to 67947)
 Эмир: Hello, guys may we help me? I'm 0 in tact programming, please give me good YouTube channels for Tact from 0 maybe you also have started from they
 
 Nazar: For me too. Same case (reply to 67974)
+
+— 2025-08-07 —
+
+Baran Battal: I hadn't known anything about tact language till tact battle 1 hold on the codeforces, i make a lot of searches in one week, and i learn a lot about it, so i advice you to participate in this contest in virtual mode, and try to do your best to reach top places on scoreboard
+
+Baran Battal: This is link of the contest :  https://codeforces.com/contest/2105
+
+akki: how to upgrade the code + data of a child contract like jettonWallet after deployment? will upgrade also happen in already existing wallets or just the ones that'll be deployed from now on?
+
+Anatoly: hello. can someone explain me why this emits only 10 messages? Seems like it's evaluate only the last loop 🤔 does talk work with nested loops?         while (countA < 11) {             while (countB < 11) {                 while (countC < 11) {                     while (countD < 11) {                         let msg = Unlock { a: countA, b: countB, c: countC, d: countD };                         emit(beginString().concat(countA.toString()).concat(countB.toString()).concat(countC.toString()).concat(countD.toString()).toString().asComment());                          countD += 1;                     }                     countC += 1;                 }                 countB += 1;             }             countA += 1;         }
+
+Slava: Each contract must be manually called to change the code/data. And you must have a special predefined op to do this inside the contract. If the contract doesn't provide an upgrade logic, its code can't be changed.  There are libraries too, but this is an advanced topic. (reply to 67999)
+
+cubby: is anyone looking for a developer?
+
+akki: share link to libs & docs (reply to 68001)

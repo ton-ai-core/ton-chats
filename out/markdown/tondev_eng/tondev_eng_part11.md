@@ -3835,3 +3835,43 @@ Tony: crypto wallets, smart contracts yes websites no
 Tony: .ton domains are not recognized by standard DNS resolvers and won’t resolve in normal browsers without plugins or support for TON.
 
 Tony: maybe in the future durov can register it on ICANN
+
+— 2025-08-07 —
+
+Andrey: US intelligence agencies (the main sponsor of the TOR network) also did not register the .onion domain, I think they have much more opportunities than Durov in terms of agreements with ICANN (reply to 155929)
+
+Alberto: Can’t point directly to WordPress - needs a TON proxy or bridge. (reply to 155922)
+
+Sam: hola ! can someone please explain what is "jetton 2.0 standard" ? there are no TEPs published and I don't see any major changes in the published func code  what exact changes to the original func code makes it "2.0" ?
+
+Sam: oh - I was looking at the wrong branch  if its production ready why isn't it published at main ? oO  https://github.com/OpenBuilders/notcoin-contract/compare/main...ton-blockchain:jetton-contract:jetton-2.0
+
+Sam: is there explanation how these prefix shards are working and how to use them for contracts optimization ?
+
+&rey: Basically, now contract's address may be not exactly equal to its StateInit hash. (reply to 155950)
+
+&rey: If you find a critical vulnerability of chain itself, it is more suitable for https://github.com/ton-blockchain/bug-bounty than this chat.
+
+𝓢𝓪𝓶𝓾𝓮𝓵: I understand! I'd need a VPS then. I saw that it worked with Linux and Go, in addition to C++, but I didn't see anything that allowed hosting, much less WordPress. Out of curiosity, is this limitation due to security flaws in WordPress' public directories, or just incompatibility? I imagine both 🤔 (reply to 155925)
+
+𝓢𝓪𝓶𝓾𝓮𝓵: Too bad! I thought about using a subdomain for it :'D (reply to 155934)
+
+iAbdurahmon: Hello How to create v3r2 wallet?
+
+𝓢𝓪𝓶𝓾𝓮𝓵: Excuse my ignorance 😅🤣 I just found out about ICANN's processes! (reply to 155929)
+
+&rey: IIRC you can set version in Tonkeeper dev settings (in common settings, click logo five times). (reply to 155959)
+
+&rey: The common Wordpress hosters accept TLS(HTTPS) or HTTP requests and dispatch them to the service in question. TON Sites are behind ADNL instead, which is not well-known and therefore not supported. (reply to 155957)
+
+Hossein: Can you see this missing part there or I am wrong? Can anyone explain this? (reply to 155948)
+
+Sam: the missing part is included in state init
+
+Hossein: Oh MSG_INFO_REST_BITS! Now I see it! 😅 Thank you! (reply to 155970)
+
+Sam: you may find this useful https://github.com/OpenBuilders/notcoin-contract/compare/main...ton-blockchain:jetton-contract:jetton-2.0 click on files changed and check func files
+
+— 2025-08-08 —
+
+Root: My TON/Jetton transaction was broadcast successfully, but I cannot find it on the blockchain. What could be the possible reasons for this?
