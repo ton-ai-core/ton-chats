@@ -10041,3 +10041,9 @@ Combot: Doron Paons has been banned! Reason: CAS ban.
 Root: 交易广播成功后,,链上查不到一般是什么原因导致的
 
 Combot: Tun Win has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎开发者年中考💎2天倒计时！  2025进度条已过半，Web3开发者请注意！！  ✅ 新年Flag完成度：____%   ✅ 解锁技术栈：______ / 6大核心赛道  ✅ 技术变现收入：$____ U  系统提示： 若答案≈“不回答/不清楚”，请速接受本次任务！  🔥总奖池1000U！还有SafePal钱包 + 30份Telegram大会员！速来挑战：https://openbuild.xyz/quiz/2025071901 (forwarded from TON East Asia Hub)
+
+— 2025-08-09 —
+
+Combot: Alex has been banned! Reason: CAS ban.

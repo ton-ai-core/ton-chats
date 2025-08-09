@@ -8853,3 +8853,19 @@ Slava: Each contract must be manually called to change the code/data. And you mu
 cubby: is anyone looking for a developer?
 
 akki: share link to libs & docs (reply to 68001)
+
+— 2025-08-08 —
+
+K:paradox: i deployed a contract and i am even able to mint in it but i am gerttin exit_code:9 when i am trying to reazd any state variable any idea?
+
+Gsaomfets: The function returns the price for holding the current contract for a given period in seconds.     fun getCurrentStorageFee(sec:Int){         //how to write?      }
+
+maksim: https://docs.tact-lang.org/ref/core-contextstate/#mystoragedue (reply to 68084)
+
+Я̨kov: If you just want to know the storage debt, use myStorageDue() function.  But if you really want to have a function for computing the storage fee as you've asked, I can give the rough idea, but it will be gas-expensive, so brace yourself: 1. Use myCode() to obtain the Cell with code, and self.toCell() to obtain the Cell with data 2. For each of those, use Cell.computeDataSize() 3. Finally, use the getStorageFee() function, passing it the combined cells & bits data from the 2nd step, and the sec as seconds (reply to 68084)
+
+&rey: That's not exactly precise. 1) shared cells between code and data (which used to happen with jettons in old times, but also can sometimes happen on its own) 2) additional account information (balance, last transaction) as stored in blockchain outside of code and data (reply to 68086)
+
+— 2025-08-09 —
+
+akki: acc to docs contract Example {     fizz: map<Int, Int>; // Int keys to Int values     init() {         self.fizz = emptyMap(); // redundant and can be removed!     } } how it works? in newer/efficient syntax : contract Example(     fizz: map<Int, Int>, // i need this to be nullable      bizz: map<Int, Int>, // enforce this to be non-null ) { // contract code }

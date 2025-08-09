@@ -3875,3 +3875,55 @@ Sam: you may find this useful https://github.com/OpenBuilders/notcoin-contract/c
 — 2025-08-08 —
 
 Root: My TON/Jetton transaction was broadcast successfully, but I cannot find it on the blockchain. What could be the possible reasons for this?
+
+misha: How you know that your transaction was send successfully? (reply to 155979)
+
+Root: The server returned a Hash. (reply to 155983)
+
+&rey: Any transaction can be accidentally lost from mempool. (reply to 155984)
+
+&rey: You do not know that it will come to pass until the external message is accepted in the source shardchain.
+
+misha: May be you can check transaction in ton wallet (reply to 155984)
+
+&rey: What would be the underlying mechanism? Blockchain's transactions are public, how a wallet app would show more? (reply to 155990)
+
+misha: If man send transaction from native lib like @ton/core, he can authorise in wallet by private key and look full info (reply to 155991)
+
+Root: I know that a transaction might be dropped from the mempool. Apart from that, are there any other reasons on the TON blockchain that could cause a successfully broadcast transaction to fail to be included on-chain? (reply to 155991)
+
+&rey: No other reasons. In particular, once the external message is accepted, each transaction in the tree will eventually be done. (reply to 155993)
+
+Root: Ok,Thank you. (reply to 155994)
+
+misha: Is there any way to protect send transaction method from mitm attack? I’m worried that attack can replace recipient address. I’m use default ton js lib for send trx
+
+&rey: Your wallet contract will not accept message with replaced recipient because signature is invalid for such message.  There is no method to protect against someone else sending message from their own wallet, though. "Frontrunning", they name it. (reply to 155996)
+
+misha: Ok, thanks (reply to 155997)
+
+Clash: There is any compiler for coding my pc is out dated
+
+Mojisola🍅 🍅: meaning? (reply to 156011)
+
+Clash: Ton support Func language so there is any compiler online ide where I can do coding (reply to 156014)
+
+Clash: I am a one and only developer who is building on my phone
+
+Clash: I cannot afford laptop but I want to become a dev as soon as possible that's why I am asking there is any online ide where I can start journey on phone
+
+𝘿𝙊𝙏𝙉𝙀𝙏: vscode[.]dev (reply to 156017)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: G*thub C*despaces
+
+Clash: Can you provide link? (reply to 156018)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: that is the link bro, just search Google I guess (reply to 156022)
+
+&rey: One at https://ide.ton.org. (reply to 156015)
+
+&rey: Perhaps you'll be interested in https://docs.ton.org. (reply to 156031)
+
+&rey: Which "this" of the many technologies available? (reply to 156034)
+
+Combot: Combot has warned JT | Museigen.io (1/3) Reason: Word **** is not allowed
