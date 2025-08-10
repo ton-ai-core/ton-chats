@@ -3927,3 +3927,47 @@ Clash: Can you provide link? (reply to 156018)
 &rey: Which "this" of the many technologies available? (reply to 156034)
 
 Combot: Combot has warned JT | Museigen.io (1/3) Reason: Word **** is not allowed
+
+— 2025-08-09 —
+
+Sam: hola ! I'm interested what are the usage cases for TVM libraries ? besides storing entire smart contract code in them ( like jetton wallets ) ? as I understand the library code can't be updated without changing all the references to it ? so it can't be used for contract upgrade or to manage state of multiple other contracts ?
+
+Mahrukh: I want to mint or unlock token in ethereum network how can I mint via coding
+
+Mahrukh: Token already burn in ton jetton
+
+[P]rivanbi: 😁
+
+Combot: Combot has warned [P]rivanbi (1/3) Reason: 1 reports (reply to 156101)
+
+&rey: https://t.me/and37_bot you are hereby banned for a week.
+
+Victor: Any developer in the house who is ready to collaborate on a project. I'm out to create a telegram mini app and I need a web developer who is ready to collaborate on this. Do well to send me a message
+
+DeFi: Are you offering to pay for development? (reply to 156107)
+
+Blaze: You need to create and deploy the token smart contract (reply to 156091)
+
+Mahrukh: Can u guide (reply to 156112)
+
+Blaze: Yeah   Are you experienced in solidity? (reply to 156113)
+
+Mahrukh: I have done coding in node js (reply to 156114)
+
+Blaze: DM (reply to 156115)
+
+&rey: Please be mindful of possible scam coming through direct messages. Validate your actions before sending any funds. EVM networks might require even more verification. (reply to 156113)
+
+Mahrukh: Can u pls help me (reply to 156117)
+
+&rey: I do not have relevant expertise (in EVM, that is). Did some project / bridge fail on you? (reply to 156118)
+
+Mahrukh: Yes I did bridge transaction from ton to Ethereum burn in ton but not receive in Ethereum (reply to 156119)
+
+&rey: Please contact the official support for those, https://t.me/ton_help_bot (reply to 156120)
+
+Mahrukh: No response from bot since last 25 days (reply to 156121)
+
+— 2025-08-10 —
+
+Leo: libraries can be used to store duplicate data or code, significantly reducing contract storage fees (reply to 156086)

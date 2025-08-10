@@ -26217,6 +26217,84 @@
       "from_id": "user254443208",
       "text": "As far as I understand the flow:\n1. User can install subscription plugin to their wallet\n2. The plugin is authorized to withdraw certain amount of funds with specified period\n3. You can call this plugin to collect payment\n\nI haven’t tried it myself though. Best would be to read the source: https://github.com/ton-blockchain/wallet-contract/blob/main/func/simple-subscription-plugin.fc\nIt may also help to draw diagrams to understand messaging flow",
       "reply_to_message_id": 4854
+    },
+    {
+      "id": 4875,
+      "type": "message",
+      "date": "2025-08-09T22:25:34.000Z",
+      "date_unixtime": "1754778334",
+      "from": "𝔏𝔬𝔞𝔡𝔢𝔡",
+      "from_id": "user714973553",
+      "text": "ало приём",
+      "media_type": "photo",
+      "file": "photos/photo_4875.jpg",
+      "width": 1080,
+      "height": 1268
+    },
+    {
+      "id": 4876,
+      "type": "message",
+      "date": "2025-08-09T22:25:50.000Z",
+      "date_unixtime": "1754778350",
+      "from": "𝔏𝔬𝔞𝔡𝔢𝔡",
+      "from_id": "user714973553",
+      "text": "напоминаю, уже август"
+    },
+    {
+      "id": 4877,
+      "type": "message",
+      "date": "2025-08-09T22:26:09.000Z",
+      "date_unixtime": "1754778369",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Почему ты пишешь сюда об этом ?)",
+      "reply_to_message_id": 4875
+    },
+    {
+      "id": 4878,
+      "type": "message",
+      "date": "2025-08-09T22:27:58.000Z",
+      "date_unixtime": "1754778478",
+      "from": "𝔏𝔬𝔞𝔡𝔢𝔡",
+      "from_id": "user714973553",
+      "text": "это единственное место куда можно написать, если не затруднит можете поделиться профилями организаторов👌"
+    },
+    {
+      "id": 4879,
+      "type": "message",
+      "date": "2025-08-09T22:28:11.000Z",
+      "date_unixtime": "1754778491",
+      "from": "𝔏𝔬𝔞𝔡𝔢𝔡",
+      "from_id": "user714973553",
+      "text": "с удовольствием лично свяжусь и пообщаюсь"
+    },
+    {
+      "id": 4880,
+      "type": "message",
+      "date": "2025-08-09T22:28:31.000Z",
+      "date_unixtime": "1754778511",
+      "from": "𝔏𝔬𝔞𝔡𝔢𝔡",
+      "from_id": "user714973553",
+      "text": "извините за беспокойство 😂"
+    },
+    {
+      "id": 4881,
+      "type": "message",
+      "date": "2025-08-09T22:28:47.000Z",
+      "date_unixtime": "1754778527",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Ничего, просто аж испугался от первого сообщения )",
+      "reply_to_message_id": 4880
+    },
+    {
+      "id": 4882,
+      "type": "message",
+      "date": "2025-08-09T22:29:09.000Z",
+      "date_unixtime": "1754778549",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Напишите в лс мне: @veetma"
     }
   ]
 }

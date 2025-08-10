@@ -10047,3 +10047,7 @@ Katiya｜TON: 💎开发者年中考💎2天倒计时！  2025进度条已过半
 — 2025-08-09 —
 
 Combot: Alex has been banned! Reason: CAS ban.
+
+K: Qcode 0 (reply to 96855)
+
+Howard: 有地址嗎 (reply to 94663)

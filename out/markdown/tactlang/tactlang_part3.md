@@ -8869,3 +8869,9 @@ maksim: https://docs.tact-lang.org/ref/core-contextstate/#mystoragedue (reply to
 — 2025-08-09 —
 
 akki: acc to docs contract Example {     fizz: map<Int, Int>; // Int keys to Int values     init() {         self.fizz = emptyMap(); // redundant and can be removed!     } } how it works? in newer/efficient syntax : contract Example(     fizz: map<Int, Int>, // i need this to be nullable      bizz: map<Int, Int>, // enforce this to be non-null ) { // contract code }
+
+akki: my question is in new syntax, is fizz ok or do i need to place ? to make it nullable  & I want to force bizz to be non-null if I don't pass bizz during initialisation then contact deployment should fail (reply to 68134)
+
+Alessandro: Is anyone looking for a smart contract dev?
+
+CodeMaker: Hello!!! I’m a Senior Developer looking for someone from the United States or Europe who’s ready to join forces! No need to be a coding wizard—just bring your good vibes, a collaborative spirit, and the drive to help each other out.  I’ll take care of the heavy lifting with my dev skills, and you’ll chip in where you can. Got a great idea? Let’s chat and see where it takes us! 🤓✨  Let’s create something awesome together! Got an idea? Drop me a DM

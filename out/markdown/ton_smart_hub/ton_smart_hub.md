@@ -5467,3 +5467,21 @@ Vladimir: You’re right about the general concepts  Fift is similar to assembly
 Anatoly: Thanks, guys. Yours explanations very helpful and useful. 🙏 I wonder what the best practices to implement a subscription model via ton. I did course on stepik about ton blockchain there is mentioned and Grok told me something about wallet v4 subscription plugin, but there no details how to use it what actual use case. Is there some documentation about it, that i can not find? (reply to 4659)
 
 Andrey: As far as I understand the flow: 1. User can install subscription plugin to their wallet 2. The plugin is authorized to withdraw certain amount of funds with specified period 3. You can call this plugin to collect payment  I haven’t tried it myself though. Best would be to read the source: https://github.com/ton-blockchain/wallet-contract/blob/main/func/simple-subscription-plugin.fc It may also help to draw diagrams to understand messaging flow (reply to 4854)
+
+— 2025-08-09 —
+
+𝔏𝔬𝔞𝔡𝔢𝔡: ало приём
+
+𝔏𝔬𝔞𝔡𝔢𝔡: напоминаю, уже август
+
+Unknown: Почему ты пишешь сюда об этом ?) (reply to 4875)
+
+𝔏𝔬𝔞𝔡𝔢𝔡: это единственное место куда можно написать, если не затруднит можете поделиться профилями организаторов👌
+
+𝔏𝔬𝔞𝔡𝔢𝔡: с удовольствием лично свяжусь и пообщаюсь
+
+𝔏𝔬𝔞𝔡𝔢𝔡: извините за беспокойство 😂
+
+Unknown: Ничего, просто аж испугался от первого сообщения ) (reply to 4880)
+
+Unknown: Напишите в лс мне: @veetma
