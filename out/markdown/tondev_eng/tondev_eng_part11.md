@@ -3971,3 +3971,35 @@ Mahrukh: No response from bot since last 25 days (reply to 156121)
 — 2025-08-10 —
 
 Leo: libraries can be used to store duplicate data or code, significantly reducing contract storage fees (reply to 156086)
+
+Victor: Yes, I got some great ideas I believe can bring in money. I can share this idea with a developer after we've come into an agreement on how to go about it and I've weighed if he / she could be trusted and is down for a deal. We would share the cost of development and hosting afterwards we will split profits based on percentage of investment. Note every agreement Will be duly signed by both parties and effected in court. Only serious people should DM me please. (reply to 156108)
+
+DeFi: You just have an idea. The developer has the skill. In fact, they could just take your idea, build it, and cut you out, because ideas aren't protectable IP.  As such, if you want competent development, you need to pay for it. 50% upfront and 50% on completion. No competent dev is going build your idea for you and only take a percentage of "profit" (reply to 156133)
+
+DeFi: Your idea probably isn't unique or going to be successful either, btw. No offense, its just the statistical truth.
+
+ytiruces: Hi! Please tell me, maybe there is a clear explanation somewhere on how to work with dictionaries in tolk with examples, besides the documentation?
+
+Slava: Hey. The same as in FunC, just take into account library function name changes. There's a table in the docs with the mappings. (reply to 156139)
+
+Philipp Toth: TON
+
+Slava: I'm not sure but there can be examples in the benchmarks repo I guess. (reply to 156139)
+
+ytiruces: Yes, I was given a link in the tondev chat to standard contract implementations in Tolk on github /ton-blockchain/tolk-bench/tree/master/contracts_Tolk. TY
+
+David: Does any of you have these icons in PNG format or just one of them?
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Make it yourself (reply to 156148)
+
+Victor: Okay thanks. I am a developer too tho not professional, I need to work with someone who can be committed to the cause. My idea is as unique as the word is. I know you won't believe it until I tell you but am not going to do that. I've already been able to complete 40% of this project but I can't do everything alone and I don't want to be a sole proprietor. If there's a developer competent in React. I'd appreciate you reaching out (reply to 156134)
+
+Code: I know a guy called Claude (reply to 156154)
+
+&rey: Now if you'd kindly return to discussing how to build specific things on TON...
+
+Hans: Is this aap legit?
+
+DeFi: No, of course not (reply to 156184)
+
+professor x: It was reported as scam (reply to 156184)
