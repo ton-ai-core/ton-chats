@@ -8875,3 +8875,23 @@ akki: my question is in new syntax, is fizz ok or do i need to place ? to make i
 Alessandro: Is anyone looking for a smart contract dev?
 
 CodeMaker: Hello!!! I’m a Senior Developer looking for someone from the United States or Europe who’s ready to join forces! No need to be a coding wizard—just bring your good vibes, a collaborative spirit, and the drive to help each other out.  I’ll take care of the heavy lifting with my dev skills, and you’ll chip in where you can. Got a great idea? Let’s chat and see where it takes us! 🤓✨  Let’s create something awesome together! Got an idea? Drop me a DM
+
+— 2025-08-11 —
+
+akki: inline fun getJettonWalletInit(address: Address): Cell {     let init = initOf JettonWallet(address, myAddress(), self.jettonWalletCode);      return beginCell().storeShardedStateInit(init).endCell(); } what is the purpose of three params in initof JettonWallet is it to create uniqueness in address calculation? or also for setting state for a new wallet during deployment(do i need to pass balance and other parameters also of my jettonwallet state)
+
+maksim: it is literally "calculate state init for this contract with such init fields"
+
+maksim: if you are wondering about why these params and what they mean - check dedicated jetton tep docs
+
+akki: i just want to know  whether i have to provide all fields of my wallet contract  when deploying new wallet account (as in transfer receiver deploy method does) or just enough fields/data to make sure unique data for each address calculation (reply to 68288)
+
+&rey: Those arguments must match parameters of init(...) function of JettonWallet, that's all. (reply to 68291)
+
+Zaki: Afaan oroomo na jijjira
+
+Zaki: Hy
+
+— 2025-08-12 —
+
+akki: so we need to know value of all params in advance,  and if we change any one param(balance for example)then it's gonna deploy a separate contract even for same owner and minter and code/contract but I don't want to deploy separate contract for same owner even if balance value is different at init  how do I do that? (reply to 68292)

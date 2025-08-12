@@ -4003,3 +4003,19 @@ Hans: Is this aap legit?
 DeFi: No, of course not (reply to 156184)
 
 professor x: It was reported as scam (reply to 156184)
+
+— 2025-08-11 —
+
+&rey: This question is off topic for the chat. (reply to 156211)
+
+Daniil: oh. I just had a call with some1 who wanted to help me, but call accidently interrupted =( and looks like my message has been deleted. I'm looking for experienced unity/web developer to ask for help. If there are any please contact with me and I'll describe my issues
+
+Patrick: what is the problem? send transaction with ton connect to my wallet and i get this
+
+TON Bounty Bridge: ​Tool for vibe-coding applications on TON  🏷 Developer Tool  Summary:The goal is a no-code/low-code platform for quickly building applications and services in the TON ec...  Created by quialorraine
+
+TON Bounty Bridge: ​Tool for searching wallets with win rate on memecoins  🏷 Developer Tool  Summary:A tool designed to search and analyze cryptocurrency wallets based on their win rate trading memecoi...  Created by quialorraine
+
+— 2025-08-12 —
+
+Satoshi: Hey all.  I’m currently developing a mini game that performs well on the desktop version of the Telegram Mini App. However, on Android devices, performance is significantly slower. The webview appears to have limited animation support, causing noticeable glitches during gameplay. I’m looking for solutions to address this issue.

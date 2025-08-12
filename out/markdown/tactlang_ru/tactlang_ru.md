@@ -3011,3 +3011,7 @@ Punk: Всем хелоу! Есть какая-нить роадмапа по и
 Андрей: https://docs.tact-lang.org/book/learn-tact-in-y-minutes/ (reply to 2656)
 
 Punk: Сенк ю (reply to 2657)
+
+— 2025-08-11 —
+
+Nikita: Всем привет! Подскажите, в тестнете есть USDT? Как их получить?
