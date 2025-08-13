@@ -8895,3 +8895,11 @@ Zaki: Hy
 — 2025-08-12 —
 
 akki: so we need to know value of all params in advance,  and if we change any one param(balance for example)then it's gonna deploy a separate contract even for same owner and minter and code/contract but I don't want to deploy separate contract for same owner even if balance value is different at init  how do I do that? (reply to 68292)
+
+Nikita: Which address I have to use to add TON to the map?
+
+adb: where can i see the emit messages?
+
+— 2025-08-13 —
+
+Nazar: Blueprint Script Issue - Need Help My TON Blueprint scripts execute successfully (transactions appear on blockchain, wallet balance decreases) but hang indefinitely in terminal - never show completion messages or contract addresses.  Question: How to make Blueprint scripts show results and exit properly? Need to capture deployed contract addresses.

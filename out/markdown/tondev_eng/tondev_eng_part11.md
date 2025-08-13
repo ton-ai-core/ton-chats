@@ -4019,3 +4019,77 @@ TON Bounty Bridge: ​Tool for searching wallets with win rate on memecoins  �
 — 2025-08-12 —
 
 Satoshi: Hey all.  I’m currently developing a mini game that performs well on the desktop version of the Telegram Mini App. However, on Android devices, performance is significantly slower. The webview appears to have limited animation support, causing noticeable glitches during gameplay. I’m looking for solutions to address this issue.
+
+Chris: Hey, I guess, we need more details to be able to help. Like what technology it's written. (reply to 156266)
+
+Satoshi: Hi Chris, I used react for the application
+
+Satoshi: and animation is not performing smooth as like as on desktop version.
+
+Chris: Hmm, with react it supposed to work well. I had problems with WebGL, but never with JS. Let's move to DM to continue (reply to 156273)
+
+Oleg: Guys, hi, who was the one who rolled out the flash loan “ flash swap” contract?
+
+Oleg: Here is an example of implementing a flash loan contract on the TON blockchain using FunC. Keep in mind that flash loans in TON are more difficult to implement due to the asynchronous architecture, and this example demonstrates a basic approach: #include "stdlib.func";  ;; Constants const int FLASH_LOAN_OP = 0x67f4e0; ;; Unique OP-code of the operation const int FEE_RATE = 30;             ;; 0.3% fee (30 = 0.3%)  ;; Contract data structure struct Data {     slice owner_address;     int total_liquidity;     int fee_balance; }  ;; Loading data from persistent storage Data load_data() {     slice ds = get_data().begin_parse();     return [ds~load_msg_addr(), ds~load_uint(128), ds~load_uint(128)] as Data; }  ;; Saving data void save_data(Data data) {     begin_cell()         .store_slice(data.owner_address)         .store_uint(data.total_liquidity, 128)         .store_uint(data.fee_balance, 128)     .end_cell()     .set_data(); }  ;; Main function for processing incoming messages () recv_internal(slice in_msg) impure {     slice sender = in_msg~load_msg_addr();     int msg_value = in_msg~load_coins();     int op = in_msg~load_uint(32); ;; Загружаем OP-код      if (op == FLASH_LOAN_OP) {         handle_flash_loan(in_msg, sender, msg_value);     } else {         ;; Другие операции...     } }  ;; Обработка flash loan () handle_flash_loan(slice in_msg, slice borrower, int msg_value) impure {     Data data = load_data();          int loan_amount = in_msg~load_uint(128);     cell callback = in_msg~load_ref(); ;; Callback contract          ;; Checking liquidity availability     throw_if(101, loan_amount > data.total_liquidity);          int fee = (loan_amount * FEE_RATE) / 10000;     int total_repayment = loan_amount + fee;          ;; Calculate the new balance     data.total_liquidity -= loan_amount;     save_data(data);          ;; Send the loan to the borrower     send_raw_message(         begin_cell()             .store_uint(0x10, 6) ;; mode             .store_slice(borrower)             .store_coins(loan_amount)             .store_uint(0, 1)             .store_ref(callback) ;; Callback in the message body         .end_cell(),         0     );          ;; Check for refund (should be done in the callback)     ;; TON requires a separate verification mechanism }  ;; Callback for refund () repay_loan(slice sender) impure {     Data data = load_data();     int returned_amount = in_msg_body~load_coins() - get_fee();           ;; Verification of refund     throw_unless(102, returned_amount >= data.expected_repayment);          data.total_liquidity += loan_amount;     data.fee_balance += fee;     save_data(data); }  ;; Helper functions int compute_fee(int amount) method_id {     return (amount * FEE_RATE) / 10000; }  ### Key components: 1. Lending mechanism: - The borrower sends a request specifying the amount and the callback contract - The contract checks the availability of liquidity - The funds are sent to the borrower in a single transaction  2. Fees: - Fixed rate of 0.3% (FEE_RATE) - Calculated automatically when the loan is issued - Stored separately in fee_balance  3. Security: - Liquidity verification before issuance - Verification of refund in callback - Overflow protection (128-bit numbers)  ### Features of implementation in TON: 1. Asynchronous model: - No guarantee of atomicity of transactions - Requires explicit verification of return via callback - The entire loan cycle may take several blocks  2. Restrictions: - The borrower must be a contract (for handling the callback) - Pre-liquidity in the pool is required - Gas complexity is higher than in EVM  3. Return mechanism: - The callback contract must call repay_loan - Checking the amount of the return, taking into account the commission - Automatic replenishment of the liquidity pool  ### Recommendations for production: 1. Add: - Temporary restrictions on the return - White list mechanism - Pool insurance - Support for Jetton tokens  2. Test the scenarios: - Failed return of funds - Repeated login attacks - Commission calculation errors - Price changes in liquidity pools
+
+&rey: Frankly, that code is garbage; have you even tried to test it? (reply to 156278)
+
+Code: For my own learning, would you be able to elaborate what the flaws of it are? (reply to 156280)
+
+&rey: It does not even compile, much less guarantee anything is returned by the borrower. (The latter, no contract can.) (reply to 156286)
+
+MoFR: Brother, if I have no programming knowledge and I want to learn smart contracts, where should I start? (reply to 156287)
+
+Code: learn programming first, do a python tutorial (reply to 156288)
+
+MoFR: And after that, what should I learn? But I heard that you should start with JavaScript first (reply to 156289)
+
+&rey: For smart contracts, some fundamental knowledge is useful, like "know where data (like jetton balance) is, and where it must be delivered to complete your action". (reply to 156288)
+
+MoFR: What should I start learning with? (reply to 156291)
+
+akki: Is tps/throughput for jettons transfer is same as native ton coin?
+
+&rey: One jetton transfer incurs around five transactions so throughput could temporarily decrease. Until shards split, that is. (reply to 156293)
+
+akki: shard split automatic? or need to write specific code in contract what's that sharded jetton contract about in tact repo? (reply to 156294)
+
+&rey: Automatic.  "Sharded jetton" is a tool to hinder TON's sharding (based on experimental config), rewriting a few first bits of jetton wallet address to be in the same shard to its owner. (reply to 156296)
+
+akki: so  if I expect my jetton project to scale to billions of wallets/users should I avoid sharded jetton? if not, how this contradiction is helpful? (reply to 156297)
+
+akki: and owner here means minter? or V4/w5 contract (reply to 156297)
+
+&rey: Sharded jetton moves its jetton wallets towards V3R2/w5, i.e. user's wallet. (reply to 156302)
+
+Slava: Using this optimization won't hinder scalability of your project, because user wallets are already randomly distributed between shards. (reply to 156301)
+
+akki: now I see (reply to 156304)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: How to generate a wallet using TonWeb, I am having some difficulties (reply to 156305)
+
+Slava: Use this instead. (reply to 156312)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Yeah I am using it (reply to 156313)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Wait let me show you what I am doing
+
+Slava: No need. Just see the link. It's basically the code for what you are trying to do.
+
+𝘿𝙊𝙏𝙉𝙀𝙏: const createTonWallet = async ()=>{     try {         const wallet = tonweb.wallet.create({publicKey});  const address = await wallet.getAddress();  const nonBounceableAddress = address.toString(true, true, false);  const seqno = await wallet.methods.seqno().call();  await wallet.deploy(secretKey).send();         console.log(wallet);     } catch (error) {         return error.message;     } }  createTonWallet(); (reply to 156316)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Returns nothing No console log not even undefined
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Anything wrong in this (reply to 156317)
+
+Slava: ^ (reply to 156313)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: I am using https://www.npmjs.com/package/tonweb (reply to 156321)
+
+Slava: As a person who forked and totally rewritten tonweb in TypeScript, fixed many bugs and made many performance optimizations in it, I recommend you to use this instead.
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Far better (reply to 156324)
+
+— 2025-08-13 —
+
+akki: can I use this comment field in wallet app to pass some data(location coordinates) then acces them in contract and store in persistent storage? How?

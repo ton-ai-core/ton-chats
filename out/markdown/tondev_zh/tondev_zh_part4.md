@@ -10081,3 +10081,13 @@ Combot: 💕 has been banned! Reason: CAS ban.
 Combot: Jay has been banned! Reason: CAS ban.
 
 Katiya｜TON: 💻 Live Coding Course #10 — TON API 开发入门实战  📅 8月14日 周四 20:00 (UTC+8) 🔔 注册提醒：https://lu.ma/hq4uidz3 📺 同步直播：YouTube & X  https://www.youtube.com/watch?v=JpwOVBnsc9Y 👨‍💻 主讲：Andrew · TON 东亚区 Dev Rel  ✨ 课程亮点 - 从零上手 TON API 查询与智能合约交互 - 开发一个简单可运行的 TON DApp 原型 - TON 官方专家现场授课 & 实时答疑 (forwarded from TON East Asia Hub)
+
+Денис: Hey Guys. Any possibility to find such community in Eng/Rus languages. Maybe you know by any chance?
+
+kevin: @combot
+
+— 2025-08-13 —
+
+Andrew: t.me/addlist/1r5Vcb8eljk5Yzcy (reply to 97075)
+
+Combot: Douzi Jhina has been banned! Reason: CAS ban.
