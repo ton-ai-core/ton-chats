@@ -10091,3 +10091,13 @@ kevin: @combot
 Andrew: t.me/addlist/1r5Vcb8eljk5Yzcy (reply to 97075)
 
 Combot: Douzi Jhina has been banned! Reason: CAS ban.
+
+Денис: Thanks brother 🫡 (reply to 97152)
+
+— 2025-08-14 —
+
+Combot: Саид has been banned! Reason: CAS ban.
+
+Combot: Nelson Chami, Khairul Ilzam have been banned! Reason: CAS ban.
+
+Katiya｜TON: 🔥 Roast Session #5 — $TON 线上路演开放报名！  🚀 面向想法 / 开发 / MVP阶段项目 🎯 想获得产品反馈 & 不同赛道专家建议 🎤 训练 Pitch 技能 & 直通 TON Nest 官方孵化营  📅 时间：8月20日 20:00 (UTC+8) 🔗 立即报名 (注册项目后选择"East Asia东亚")：https://builders.ton.org/opportunities/roast-session  👩‍⚖️ 评委阵容： Yuki: TON East Asia Lead Andrew: TON East Asia Dev Rel Ela: Partnerships at OKX Dex Bode: AWS Web3 BD Manager (forwarded from TON East Asia Hub)

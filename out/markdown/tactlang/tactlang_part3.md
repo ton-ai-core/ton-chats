@@ -8903,3 +8903,17 @@ adb: where can i see the emit messages?
 — 2025-08-13 —
 
 Nazar: Blueprint Script Issue - Need Help My TON Blueprint scripts execute successfully (transactions appear on blockchain, wallet balance decreases) but hang indefinitely in terminal - never show completion messages or contract addresses.  Question: How to make Blueprint scripts show results and exit properly? Need to capture deployed contract addresses.
+
+Anton: https://github.com/ton-org/blueprint/issues (reply to 68440)
+
+Nazar: You meant I need to create my own issue or solution already there? (reply to 68452)
+
+Anton: generally you look for an existing issue with your problem (making sure you are on the most recent version) and if there is no similar issue, open a new one describing the problem and providing a minimal reproducible example
+
+Vincent: I want to get jetton wallet balance from myContract. How to do it? pls help
+
+5b 44 43 54 5d: I don't think it's possible (reply to 68469)
+
+Aliaksandr: You could use     await provider.waitForDeploy(contract.address); to wait for deploy (reply to 68440)
+
+Vincent: opps, thank you (reply to 68470)

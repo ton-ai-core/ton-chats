@@ -4093,3 +4093,81 @@ Slava: As a person who forked and totally rewritten tonweb in TypeScript, fixed 
 — 2025-08-13 —
 
 akki: can I use this comment field in wallet app to pass some data(location coordinates) then acces them in contract and store in persistent storage? How?
+
+&rey: If you want to reveal user's location to the whole blockchain, then sure. The contract will receive in_msg_body starting with 0x00000000 (32 zero bits) then the provided text in UTF-8. (reply to 156380)
+
+akki: how to access in tact? (reply to 156427)
+
+&rey: receive(publicly_visible_information_comment: String) { ... } (reply to 156428)
+
+akki: no not in separate receiver  I need access in JettonTransfer receiver so I can pass info alongwith tokens transfer (reply to 156429)
+
+ytiruces: Hi. After deploying the NFT, the metadata content is empty {} , and the item shows as UNVERIFIED. Why?
+
+ytiruces: Contract deployed at address kQD7klJB1XgprMxPUr-nG3r4-tYHIPhJwm_hEKEzIIajJoPu You can view it at https://testnet.tonscan.org/address/kQD7klJB1XgprMxPUr-nG3r4-tYHIPhJwm_hEKEzIIajJoPu ID {   isInitialized: -1,   index: 100n,   collectionAddress: EQAbCslPPFGOuWP3xnUbKE44s4g0dyVJFe54SzghkYMyjYml,   ownerAddress: EQCEYXYZEqk3MROTR4adieUhWmw-E9ebrFqGkmOSAahSL0Vz,   individualContent: x{}    x{017B226E616D65223A2257222C226465736372697074696F6E223A2257222C22696D616765223A2268747470733A2F2F696D672E6672656570696B2E636F6D2F667265652D766563746F722F68616E642D647261776E2D6E66742D7374796C652D6170652D696C6C757374726174696F6E5F32332D32313439363232303231}     x{2E6A7067227D} }
+
+ytiruces: import { Address, Cell, beginCell, toNano } from '@ton/core'; import { NFTItem } from '../wrappers/NFTItem'; import { compile, NetworkProvider } from '@ton/blueprint';  function nftContentToCell(content: any): Cell {   const contentString = JSON.stringify(content);   return beginCell()         .storeRef(             beginCell()                 .storeUint(0x01, 8) // Content type (off-chain)                 .storeStringTail(contentString)                 .endCell()         )         .endCell(); }      const content = {    "name": "W",    "description": "W",    "image": "https://img.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_23-2149622021.jpg", };  const contentCell = nftContentToCell(content); export async function run(provider: NetworkProvider) {      const createnft = provider.open(         NFTItem.createFromConfig({         index: 100,         collectionAddress: Address.parse('kQAbCslPPFGOuWP3xnUbKE44s4g0dyVJFe54SzghkYMyjTIv'),         ownerAddress: Address.parse('0QCEYXYZEqk3MROTR4adieUhWmw-E9ebrFqGkmOSAahSL6M8'),         individualContent: contentCell || null         //ownerAddress: null,         //content: null     }, await compile('NFTItem')));      await createnft.sendDeploy(provider.sender(), toNano('0.05'));      await provider.waitForDeploy(createnft.address);      // run methods on `createnft`     console.log('ID', await createnft.getNftData()); } (reply to 156436)
+
+Leo: 1. remove the outer cell in nftContentToCell 2. contentString must be a url to json file for off-chain format
+
+ytiruces: Do you have an example of this json, stored somewhere. I can try this link for test (reply to 156448)
+
+ytiruces: I have find it https://s.getgems.io/nft/b/c/62fba50217c3fe3cbaad9e7f/1/meta.json
+
+ytiruces: I think I dont understand this. Not working ( (reply to 156448)
+
+ytiruces: function nftContentToCell(content: any): Cell {   return beginCell()             .storeUint(0x01, 8) // Content type (off-chain)             .storeStringTail(content)         .endCell() }  const contentUrl = 'https://s.getgems.io/nft/b/c/62fba50217c3fe3cbaad9e7f/1/meta.json' const contentCell = nftContentToCell(contentUrl);  export async function run(provider: NetworkProvider) {      const createnft = provider.open(         NFTItem.createFromConfig({         index: 100,         collectionAddress: Address.parse('kQAbCslPPFGOuWP3xnUbKE44s4g0dyVJFe54SzghkYMyjTIv'),         ownerAddress: Address.parse('0QCEYXYZEqk3MROTR4adieUhWmw-E9ebrFqGkmOSAahSL6M8'),         individualContent: contentCell     }, await compile('NFTItem'))); (reply to 156448)
+
+Leo: What not working? And links? (reply to 156454)
+
+ytiruces: This code not working. Still UNVERIFIED and empty metadata (reply to 156455)
+
+Leo: link?
+
+ytiruces: https://testnet.tonviewer.com/kQAtbEBYPPPRZh2a4eCp3eOBiAwULNb2zEs4Gf_KEAOBqvac (reply to 156460)
+
+Leo: Typically the NFT contract is deployed with empty owner and individual content, which are controlled by the collection contract
+
+Leo: try get_nft_address_by_index in the collection contract with the specified index and you'll get a different address
+
+Leo: https://testnet.tonviewer.com/kQAbCslPPFGOuWP3xnUbKE44s4g0dyVJFe54SzghkYMyjTIv?section=method
+
+Leo: You cannot arbitrarily deploy a nft contract and say it belongs to some collection
+
+ili: Who can help me connect ton + asterisk?
+
+Mojisola🍅 🍅: are you sure this is not possible?  I think ton is flexible and A Dev can do anything they want to do on TON.   I can say my nft belongs to a collection but the collection may not know my nft, lol😀😊🤣 (reply to 156466)
+
+EnCryptoknight ⚔️: your request is quite tricky bro. asterisk doesn't speak blockchain.  so there will never be a connection (reply to 156476)
+
+ili: If i pay in crypto I will get a call 📞 (reply to 156491)
+
+</MØHÆMÐ>: Hi guys 👋
+
+</MØHÆMÐ>: How do I write an API to query the wallet transaction list and an API to transfer TONcoin? Can anyone help?
+
+𝘿𝙊𝙏𝙉𝙀𝙏: https://github.com/ton-org/ton?tab=readme-ov-file#usage (reply to 156520)
+
+</MØHÆMÐ>: Thanks a lot! (reply to 156534)
+
+𝘿𝙊𝙏𝙉𝙀𝙏: Thank this guy who wrote it (reply to 156536)
+
+</MØHÆMÐ>: Thanks a lot!
+
+</MØHÆMÐ>: Is there any documentation for PHP as well?
+
+</MØHÆMÐ>: Or python
+
+EnCryptoknight ⚔️: no connection can be made as you mentioned but a middleware can be used to interact (reply to 156513)
+
+&rey: tonutils or pytoniq. (reply to 156544)
+
+Slava: I didn't write it. You are mistaken. (reply to 156537)
+
+Slava: The list of contributors can be found here.
+
+Tatum: I'm trying to find the staking rewards payout for the network for each reward period / epoch. Is this data avilable via API ?
+
+&rey: For which staking exactly? There are many services doing it. (reply to 156578)
+
+Tatum: I'm trying to build my own solution using calls to an RPC node but I havent been able to find an enpoint that makes available the total staked / total rewards paid out...
