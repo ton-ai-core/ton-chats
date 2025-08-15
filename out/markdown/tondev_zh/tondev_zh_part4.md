@@ -10101,3 +10101,19 @@ Combot: Саид has been banned! Reason: CAS ban.
 Combot: Nelson Chami, Khairul Ilzam have been banned! Reason: CAS ban.
 
 Katiya｜TON: 🔥 Roast Session #5 — $TON 线上路演开放报名！  🚀 面向想法 / 开发 / MVP阶段项目 🎯 想获得产品反馈 & 不同赛道专家建议 🎤 训练 Pitch 技能 & 直通 TON Nest 官方孵化营  📅 时间：8月20日 20:00 (UTC+8) 🔗 立即报名 (注册项目后选择"East Asia东亚")：https://builders.ton.org/opportunities/roast-session  👩‍⚖️ 评委阵容： Yuki: TON East Asia Lead Andrew: TON East Asia Dev Rel Ela: Partnerships at OKX Dex Bode: AWS Web3 BD Manager (forwarded from TON East Asia Hub)
+
+Combot: Si Thu has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💻 Live Coding Course #10 — TON API 开发入门实战  ✨ 课程亮点 - 从零上手 TON API 查询与智能合约交互 - 开发一个简单可运行的 TON DApp 原型 - TON 官方专家现场授课 & 实时答疑  🔗直播开始啦： https://x.com/i/broadcasts/1PlKQOvEDwMJE  直播已开始，打开电脑开始coding！ (forwarded from TON East Asia Hub)
+
+Combot: Akunterhapus has been banned! Reason: CAS ban.
+
+Combot: Alex has been banned! Reason: CAS ban.
+
+Combot: everett Jeremy has been banned! Reason: CAS ban.
+
+Combot: Jack Sporow has been banned! Reason: CAS ban.
+
+— 2025-08-15 —
+
+Combot: N Hazel Mai Ra has been banned! Reason: CAS ban.

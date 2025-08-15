@@ -4171,3 +4171,33 @@ Tatum: I'm trying to find the staking rewards payout for the network for each re
 &rey: For which staking exactly? There are many services doing it. (reply to 156578)
 
 Tatum: I'm trying to build my own solution using calls to an RPC node but I havent been able to find an enpoint that makes available the total staked / total rewards paid out...
+
+— 2025-08-14 —
+
+𝘿𝙊𝙏𝙉𝙀𝙏: ☺️☺️ (reply to 156324)
+
+Leo: that's why he got UNVERIFIED (reply to 156478)
+
+Slava: I was talking about this one. (reply to 156622)
+
+Dark Star: Hi everyone,  Is anyone else experiencing issues with the toncenter.com RPC today? I ve started getting a 500 error with the message "cannot locate transaction in block with specified logical time" when trying to fetch a list of transactions.
+
+Slava: Try using the archival flag. (reply to 156626)
+
+Dark Star: thx, its worked (reply to 156627)
+
+sattu: Hi everyone 👋 I’m mainly a marketing guy, but together with my team we’re building an investment app. The product will let users allocate money into staking, crypto ETFs, and stablecoin FDs (fixed deposits). My question is: Is there any reputed / reliable app, protocol, or service we can integrate with (or re-route user funds to) for these kinds of allocations? Ideally something that is already audited, has good liquidity, and can be used programmatically (API / smart contract).
+
+Combot: Combot has warned D🕷️V (1/3) Reason: 1 reports (reply to 156634)
+
+— 2025-08-15 —
+
+Al: Hello, trying to setup a full node and getting Error 651: no nodes. I have waited hours and have checked firewall. Any idea on what is causing this issue?
+
+hussein: 0QCSES0TZYqcVkgoguhIb8iMEo4cvaEwmIrU5qbQgnN8fo2A
+
+hussein: 0QCEYXYZEqk3MROTR4adieUhWmw-E9ebrFqGkmOSAahSL6M8
+
+hussein: /stat@combot
+
+Combot: Total messages: 156683

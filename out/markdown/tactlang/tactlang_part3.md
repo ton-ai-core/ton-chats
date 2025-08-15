@@ -8917,3 +8917,29 @@ Vincent: I want to get jetton wallet balance from myContract. How to do it? pls 
 Aliaksandr: You could use     await provider.waitForDeploy(contract.address); to wait for deploy (reply to 68440)
 
 Vincent: opps, thank you (reply to 68470)
+
+— 2025-08-14 —
+
+Nariman: Hi Can someone tell me how to implement the logic in a smart contract that keeps a certain amount of TON in its balance, and returns the rest to the sender? For example, we send 1 TON to a smart contract, then the smart contract takes 0.5 TON for itself, and sends the rest back.
+
+Chris: You have to calculate how much you want to send back and then use send(), here is exactly how to use this function: https://docs.tact-lang.org/book/send/#send-message (reply to 68562)
+
+Nariman: but how can I calculate it if I don't know how much gas it will take to complete the transaction? (reply to 68586)
+
+Nariman: myBalance() - ton("0.5")? (reply to 68596)
+
+Lase: Use a different send mode: e.g  PayFwdFeeSeperately (reply to 68562)
+
+Lase: Also, ton doesn't use more than 0.01 to complete it's transactions most times
+
+Lase: Also: you can do this.  The do Cashback(sender ()),  So that: the excess ton from the transaction is sent back.  Ps:  Do this only is you know that where you are sending the money to would return the excess ton (reply to 68597)
+
+Nariman: thanks for your reply! Can you please write a simple contract that leaves 0.5 ton on its balance and sends the rest back? (reply to 68598)
+
+fruitful-l: Could anyone help me understand why this check in Feature-Rich Jetton happens only when custom payload is null?  https://github.com/tact-lang/jetton/blob/a15f508cc78e8d946d7707db3c29a47c38f7175b/src/contracts/feature-rich/jetton-wallet.tact#L31
+
+— 2025-08-15 —
+
+Gsaomfets: is exist function stopUsedGasFromMessage()? receive(msg: Slice){         stopUsedGasFromMessage();//start use balance for gas         cashback();         //next to perform at one's own expense....  }
+
+Gsaomfets: apparently this function is for the standard forward Payload (reply to 68620)
