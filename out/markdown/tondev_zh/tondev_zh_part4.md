@@ -10117,3 +10117,15 @@ Combot: Jack Sporow has been banned! Reason: CAS ban.
 — 2025-08-15 —
 
 Combot: N Hazel Mai Ra has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎Coding Challenge 10 - TON API  📅8月14日-8月24日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/TON-API-24f5274bd2cf80418e55d6be494c72ee - YouTube 视频回放： https://www.youtube.com/watch?v=JpwOVBnsc9Y - X 直播回放： https://x.com/i/broadcasts/1PlKQOvEDwMJE  👉点击此处pull requests参赛，提交你的代码: https://github.com/ton-builders/ton-coding-challenge-25-round-10/blob/main/README.md (forwarded from TON East Asia Hub)
+
+Combot: Mohammad hosein Rashadi, ITZLI • have been banned! Reason: CAS ban.
+
+Combot: MD Tuhin Ahmed 2, LELE ASLI, Aakash Babu, 雨中眠` Martinez, Andi have been banned! Reason: CAS ban.
+
+Combot: Leo Alques has been banned! Reason: CAS ban.
+
+— 2025-08-16 —
+
+Combot: Phyo Nay Wun has been banned! Reason: CAS ban.

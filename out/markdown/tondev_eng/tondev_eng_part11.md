@@ -4201,3 +4201,41 @@ hussein: 0QCEYXYZEqk3MROTR4adieUhWmw-E9ebrFqGkmOSAahSL6M8
 hussein: /stat@combot
 
 Combot: Total messages: 156683
+
+Defi Fomo: Hello, everyone. Are there any developers here with experience working with Eliza on the ton plugin?
+
+c: https://tonapi.io/v2/traces/{trace_id} Has the data structure of this interface changed?
+
+Dmitry: Hi. I am currently creating an overview project for NFT collections with TG gifts. Does the community already have ready-made lists with all NFTs + Lottie animations of TG gifts, or does everyone download them themselves? Maybe there is some kind of API from some platform? I don't want to reinvent the wheel, but I couldn't find anything. If there isn't one, let me know, and I'll think about making one for everyone
+
+Sauberr: Hi, I'm writing a crypto exchanger now and I need ton coins for testing. I'll be very grateful if you send as much as you can to this wallet 0QB6B3_azSTKuDr9Mivhl0hifQ0jg48PzfYiLLv_wCYBG-Fe
+
+Robb: Hey
+
+Robb: Can somone suggest me good and safe developer on TON? Thank you
+
+Mojisola🍅 🍅: hi, I have issue with my code, if I  run a jetton transfer with js and putting 0.15ton, it runs successfully, but on wallet apps like tonkeeper, it is unable to proceed due to unable to calculate gas estimate
+
+Mojisola🍅 🍅: can I add extra message into TokenTransfer receiver and also on TokenTransferInternal, this 2 additions is what is causing wallet app unable to estimate gas fee or so. but works when I use a javascript and set 0.15 ton for example,
+
+Cryptiko: Need for what? (reply to 156737)
+
+Cryptiko: I can suggest Nikolai Durov
+
+Robb: For an miniapp (reply to 156743)
+
+— 2025-08-16 —
+
+Hon. Festus: What are you building? (reply to 156746)
+
+&rey: Optimize the code. Why would users choose your jetton if it's that expensive to handle? How would it be placed in DEX? (reply to 156742)
+
+Mojisola🍅 🍅: those are my worries actually.  thanks for the response.   Dex will be exempted or so. I am just not comfortable tonkeeper will just disallow a transfer cos of a little high gas fee. noticed tonkeeper for example usually use 0.05ton for jetton transfers, don't know if it does that for all jetton or go higher for some other jetton eg usdt (reply to 156759)
+
+Mojisola🍅 🍅: all excess is actually returned back to sender at the end of the transaction anyways
+
+&rey: How do you exempt DEXes given that some of them will appear after you deploy the jetton? After all, stonfi and dedust are only two of the bunch.  FYI, TON validators have voted and so made USDT transfers cheaper than a common jetton. (reply to 156760)
+
+Mojisola🍅 🍅: what do you suggest I do to optimise. cos I need to check a variable from another contract before continuing other part of transaction.
+
+Mojisola🍅 🍅: or bounce the transaction (reply to 156764)
