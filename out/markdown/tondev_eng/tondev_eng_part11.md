@@ -4239,3 +4239,49 @@ Mojisola🍅 🍅: all excess is actually returned back to sender at the end of 
 Mojisola🍅 🍅: what do you suggest I do to optimise. cos I need to check a variable from another contract before continuing other part of transaction.
 
 Mojisola🍅 🍅: or bounce the transaction (reply to 156764)
+
+Leo: why your jetton consume so much gas?
+
+Mojisola🍅 🍅: I added extra message inside jettontransfer (reply to 156770)
+
+Mojisola🍅 🍅: I am using Tact language for this jetton contract
+
+Leo: you add many messages or you implement it wrong? One more message won't make so much difference. (reply to 156773)
+
+Mojisola🍅 🍅: will share the code portion soon
+
+Teemu | 機器人🪽: hey guys, is there any workaround for wallet deployment? Wallets created on tonkeeper are instadeployed, but if i create them on my app, they need to deploy manually?
+
+&rey: They aren't instadeployed in the sense "recorded onchain as soon as it is created". If you speak of deployment on the first outgoing transfer, it should be already supported in all libraries. (reply to 156809)
+
+Teemu | 機器人🪽: i just dont understand how can i do an outgoing transfer when the wallet bounces all the funds i send out 😅
+
+&rey: You should provide unbounceable address (the one which starts with UQ rather than EQ) to senders. (reply to 156811)
+
+Teemu | 機器人🪽: So, no utility? (reply to 156817)
+
+Combot: Combot has warned Shiv Kumar (2/3) Reason: Word ******** is not allowed
+
+Teemu | 機器人🪽: what word? (reply to 156822)
+
+&rey: Is this relevant to the chat topic, which is development on TON? (reply to 156825)
+
+Shiv: Bot, restricts without giving the word!?
+
+leo: not really (reply to 156826)
+
+Shiv: Well, have planned, utilities, for game, nft, staking and more!! I would love to share more but bot keeps removing the posts!
+
+&rey: It is nothing new at this point, unfortunately, and still not relevant to development on TON so I have removed that post. (reply to 156831)
+
+&rey: Concerning staking... well there are different services: 1) providing TON for a validator to run, and it shares part of what it earns 2) providing some jettons for DEX liquidity, with all the "permanent/impermanent/whatever losses" 3) other services which are kind enough or trying to become popular
+
+Shiv: Well, i have set those things, and the token is live but how do i share this with the dev community without project intro!?
+
+Shiv: Well, can I share links here!?
+
+&rey: You do not. (reply to 156835)
+
+Al: bump on this, anyone know how to fix this? (reply to 156667)
+
+Teemu | 機器人🪽: Its not like dev community would be interested on one more shitcoin. You need to shill to the people buying that one-click crap (reply to 156835)

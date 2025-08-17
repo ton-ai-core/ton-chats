@@ -2089,6 +2089,18 @@
       "forwarded_from": "📀 TON Data Hub",
       "forwarded_from_id": "channel2332281877",
       "forwarded_date": "2025-07-31T15:49:01.000Z"
+    },
+    {
+      "id": 236,
+      "type": "message",
+      "date": "2025-08-16T06:39:16.000Z",
+      "date_unixtime": "1755326356",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Bot API 9.2\n\n📭 Direct Messages in Channels\n• Introduced Channel Direct Messages Chats, allowing bots to send and detect Direct Messages in channels they manage.\n• Bots can now identify direct messages chats and their parent channel.\n• Bots now additionally receive topic metadata for direct messages.\n\n⭐️ Suggested Posts\n• Introduced full support for Suggested Posts in channels, unlocking granular automations via bots with sufficient rights.\n• Bots can now detect, send, approve and decline suggested posts, with detailed price and date options.\n• All relevant service messages are supported – including approvals, errors, declines, successful payments and refunds.\n\n☑️ Checklists\n• Bots can now reply directly to individual checklist tasks.\n\n🎁 Gifts\n• Gifts can now expose their publisher chat for attribution.\n\n• And more, see the full changelog for details:\n\nhttps://core.telegram.org/bots/api-changelog#august-15-2025",
+      "forwarded_from": "BotNews",
+      "forwarded_from_id": "channel1004276399",
+      "forwarded_date": "2025-08-15T21:13:41.000Z"
     }
   ]
 }

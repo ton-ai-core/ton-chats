@@ -10129,3 +10129,15 @@ Combot: Leo Alques has been banned! Reason: CAS ban.
 — 2025-08-16 —
 
 Combot: Phyo Nay Wun has been banned! Reason: CAS ban.
+
+Combot: Jill Silva has been banned! Reason: CAS ban.
+
+Combot: Khaerul Anwar has been banned! Reason: CAS ban.
+
+Combot: Fa Jar has been banned! Reason: CAS ban.
+
+Combot: Yaw Opoku has been banned! Reason: CAS ban.
+
+— 2025-08-17 —
+
+Combot: Hayat Gelsin has been banned! Reason: CAS ban.
