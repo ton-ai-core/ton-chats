@@ -10141,3 +10141,15 @@ Combot: Yaw Opoku has been banned! Reason: CAS ban.
 — 2025-08-17 —
 
 Combot: Hayat Gelsin has been banned! Reason: CAS ban.
+
+Combot: budi irawan has been banned! Reason: CAS ban.
+
+— 2025-08-18 —
+
+Combot: Hector Arias has been banned! Reason: CAS ban.
+
+Katiya｜TON: TON 开发者招募：分享你对 Tolk 1.0 的反馈！  TON 基金会正在收集意见，以改进 Tolk 1.0 —— 一门专为 TON 智能合约设计的新编程语言。🔧✨  这份简短的调查问卷（⏰不到 6 分钟）将帮助塑造 TON 的开发工具、文档和开发者体验。  💡分享你的想法，指出不足之处，并直接影响 TON 智能合约的发展。  ⬇️立即填写问卷： 链接：https://forms.gle/c8ac1Fv8dPPCf5zb8 (forwarded from TON East Asia Hub)
+
+Andrew: TON 开发者招募：分享你对 Tolk 1.0 的反馈！  TON 基金会正在收集意见，以改进 Tolk 1.0 —— 一门专为 TON 智能合约设计的新编程语言。🔧✨  这份简短的调查问卷（⏰不到 6 分钟）将帮助塑造 TON 的开发工具、文档和开发者体验。  💡分享你的想法，指出不足之处，并直接影响 TON 智能合约的发展。  ⬇️立即填写问卷： 链接：https://forms.gle/c8ac1Fv8dPPCf5zb8 (forwarded from TON East Asia Hub)
+
+Combot: Len bitt has been banned! Reason: CAS ban.

@@ -4285,3 +4285,19 @@ Shiv: Well, can I share links here!?
 Al: bump on this, anyone know how to fix this? (reply to 156667)
 
 Teemu | 機器人🪽: Its not like dev community would be interested on one more shitcoin. You need to shill to the people buying that one-click crap (reply to 156835)
+
+— 2025-08-17 —
+
+Mojisola🍅 🍅: what is that
+
+Mojisola🍅 🍅: this has been resolved. thanks. (reply to 156778)
+
+Mojisola🍅 🍅: had a working jetton transfer custom code but tonkeeper and even tonviewer says failed transaction
+
+Mojisola🍅 🍅: even though the transfer was successful, sender debited and receiver credited, no gas shortage, nothing.  just because the path of transaction isn't the usual path of jetton.
+
+— 2025-08-18 —
+
+Combot: Combot has warned Hans Hansen (2/3) Reason: Word ***** is not allowed
+
+ili: lets guess? (reply to 156894)
