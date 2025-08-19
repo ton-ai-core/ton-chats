@@ -10153,3 +10153,21 @@ Katiya｜TON: TON 开发者招募：分享你对 Tolk 1.0 的反馈！  TON 基�
 Andrew: TON 开发者招募：分享你对 Tolk 1.0 的反馈！  TON 基金会正在收集意见，以改进 Tolk 1.0 —— 一门专为 TON 智能合约设计的新编程语言。🔧✨  这份简短的调查问卷（⏰不到 6 分钟）将帮助塑造 TON 的开发工具、文档和开发者体验。  💡分享你的想法，指出不足之处，并直接影响 TON 智能合约的发展。  ⬇️立即填写问卷： 链接：https://forms.gle/c8ac1Fv8dPPCf5zb8 (forwarded from TON East Asia Hub)
 
 Combot: Len bitt has been banned! Reason: CAS ban.
+
+叶师傅: 🥹 花20分钟写的，大家可能用得上，觉得不错，麻烦来点个赞  https://t.me/betaclub/5
+
+Combot: Scout Albashir has been banned! Reason: CAS ban.
+
+Combot: Sultan, ảⱳ๓ ¦💇‍♀🥀" من have been banned! Reason: CAS ban.
+
+Combot: tavernario690 has been banned! Reason: CAS ban.
+
+Combot: Jimmy Portuguez, Cloud Cloud have been banned! Reason: CAS ban.
+
+Combot: Trading has been banned! Reason: CAS ban.
+
+Combot: Desalegn Tamrat has been banned! Reason: CAS ban.
+
+— 2025-08-19 —
+
+Combot: Aj 🐾 has been banned! Reason: CAS ban.

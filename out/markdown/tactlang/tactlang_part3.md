@@ -8943,3 +8943,7 @@ fruitful-l: Could anyone help me understand why this check in Feature-Rich Jetto
 Gsaomfets: is exist function stopUsedGasFromMessage()? receive(msg: Slice){         stopUsedGasFromMessage();//start use balance for gas         cashback();         //next to perform at one's own expense....  }
 
 Gsaomfets: apparently this function is for the standard forward Payload (reply to 68620)
+
+— 2025-08-19 —
+
+Gsaomfets: How to get  usedValues and getRemainingBalanceFromMessage?  receive(str: String){         let startValue = context().value;         self.runCode();         let endValue = getRemainingBalanceFromMessage();         let usedValues = startValue - endValue;              }

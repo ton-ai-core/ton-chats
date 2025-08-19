@@ -4301,3 +4301,97 @@ Mojisola🍅 🍅: even though the transfer was successful, sender debited and r
 Combot: Combot has warned Hans Hansen (2/3) Reason: Word ***** is not allowed
 
 ili: lets guess? (reply to 156894)
+
+ytiruces: Hi! Why getSeqno() fail? const wallet = await openWallet(process.env.MNEMONIC!.split(" "), true); wallet.contract.getBalance();  // work fine, I get balance wallet.contract.getSeqno(); // Fail => [Error : 0 : Unexpected string end]
+
+Adam: Make sure it’s the right wallet version (reply to 156901)
+
+ytiruces: Problems on testnet.toncenter.com side?   error: '[Error : 0 : Unexpected string end]',       code: 503,
+
+Adam: And sometimes 0 on seqno shows as error (reply to 156903)
+
+ytiruces: Yesterday worked fine, no changes (reply to 156903)
+
+Adam: Some make an exception if it’s an error then sqno is 0
+
+ytiruces: Trying to retrace trx on retracer.ton.org. I think there is a problem with toncenter
+
+Mojisola🍅 🍅: still no answer satisfactory   many times when tonkeeper generates mnemonic, and used in js script, the wallet address are different but when mnemonic is generated with js script and imported to tonkeeper, the address usually align.
+
+Charles: Hello, how can I submit a project application for the foundation? Thank you
+
+&rey: On testnet or on mainnet? That is important. (reply to 156910)
+
+Thitirat: Hello, anyone experiencing 'Unable to verify transaction' on testnet via telegram wallet? I was able to make a transaction with mytonwallet and tonkeeper.
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 10 ✅ Approved bounties: 1 🔄 Bounties seeking suggestions: 15  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Mojisola🍅 🍅: both. so I resolve to generate my mnemonics and import to tonkeeper for consistency (reply to 156913)
+
+Mojisola🍅 🍅: so I don't have issue when need to use for js codes
+
+&rey: Wallet versions? (reply to 156918)
+
+Mojisola🍅 🍅: v4 and v5
+
+&rey: There is effectively no reason to use v4 over v5 or v3r2, is there? (reply to 156921)
+
+Mojisola🍅 🍅: I have js code that produce wallet address for v4 and v5
+
+Mojisola🍅 🍅: so I use it and crosscheck with what tonkeeper will show me
+
+Mojisola🍅 🍅: I feel the error or issue is from tonkeeper
+
+&rey: And what wallet version did you set in Tonkeeper dev settings? (reply to 156924)
+
+Mojisola🍅 🍅: u don't set version of tonkeeper
+
+Mojisola🍅 🍅: so I usually use v4 or v5
+
+Mojisola🍅 🍅: tonkeeper need to check it codebase. I think the issue from their side not my js code at all. can even share my js code
+
+&rey: Do share. (reply to 156932)
+
+Mojisola🍅 🍅: ```   import { WalletContractV5R1, WalletContractV4 } from '@ton/ton'  import { mnemonicToWalletKey, mnemonicNew, mnemonicValidate } from "@ton/crypto"    //function a(v){console.log(v)}    async function zoomy56(){        const mnemonics = (await mnemonicNew()).join(" ")        const a = v => console.log(v)            const key = await mnemonicToWalletKey(mnemonics.trim().split(' '))      const isValid = await mnemonicValidate(mnemonics.trim().split(' '))        if(isValid){          a(mnemonics)            const walletv4 = WalletContractV4.create({publicKey: key.publicKey, workchain: 0})          const walletv5 = WalletContractV5R1.create({publicKey: key.publicKey, workchain: 0})            a(Wallet V4: ${walletv4.address.toString({bounceable: false})} or ${walletv4.address.toString({bounceable: true})} )          a(Wallet V5: ${walletv5.address.toString({bounceable: false})} or ${walletv5.address.toString({bounceable: true})})          a(Tesnet Wallet V5: ${walletv5.address.toString({bounceable: false, testOnly:true})}\n)      }        /*setTimeout(() => {          zoomy56()      }, 500)*/  }    zoomy56()  ```
+
+&rey: This line is false. (reply to 156943)
+
+&rey: You have to set wallet's network when creating it, for v5.
+
+&rey: const wallet = WalletContractV5R1.create({     publicKey: key.publicKey,     workchain: 0,     walletId: {         networkGlobalId: -3,   //-3 is testnet, -239 is mainnet     }, }); if I remember correctly.
+
+Mojisola🍅 🍅: it really doesn't matter
+
+Mojisola🍅 🍅: the only difference this produce is the beginning 3 or 2 characters and the ending 2 or 3 characters that the address produces
+
+Mojisola🍅 🍅: EQ UQ 0Q or so
+
+1XSEC -: Hello i want to ask about getting many ton’s on testnet like 5000 or more if there is any way
+
+Leo: they are different representations of the same address
+
+1XSEC -: Instead of public faucet
+
+&rey: Message https://t.me/f_closer stating the purpose.  If you do not want to reveal the purpose, you can buy some testnet TON from https://tonconsole.com. (reply to 156954)
+
+Colonel: Hi Guys, any one knows why the grant program is not accepting applications anymore?
+
+Anthony: Let me check (reply to 156964)
+
+Colonel: Thank you 😊 (reply to 156965)
+
+наз: What endpoints can be substituted into TonClientV4 besides tonhub or orbs?
+
+&rey: Toncenter v4, I guess? (reply to 156978)
+
+наз: give me link pls (reply to 156979)
+
+Biblical: Hey, my team wants to build a Pump.fun-style launchpad on TON. Looking for a team that can take the contract (we are flexible; equity/salary/fixed). Interested, or can you point me to the right core team?
+
+DeFi: What is your budget for this build? (reply to 156982)
+
+Biblical: We’re working with a pretty good budget; 50k+, a lot of channels involved that are proven to bring volume, we also are very interested in building this alongside a mini-app, prepared on the costs side of things
+
+DeFi: sent a DM (reply to 156985)
+
+&rey: I probably misremembered, cannot find Toncenter v4 indeed. (reply to 156980)
