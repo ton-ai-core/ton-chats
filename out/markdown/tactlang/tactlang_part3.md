@@ -8947,3 +8947,17 @@ Gsaomfets: apparently this function is for the standard forward Payload (reply t
 — 2025-08-19 —
 
 Gsaomfets: How to get  usedValues and getRemainingBalanceFromMessage?  receive(str: String){         let startValue = context().value;         self.runCode();         let endValue = getRemainingBalanceFromMessage();         let usedValues = startValue - endValue;              }
+
+Chris: To return these you can try to use "reply()": https://docs.tact-lang.org/cookbook/single-communication/#how-to-make-a-basic-reply (reply to 69092)
+
+Gsaomfets: You need to know how much money has been written off at the current moment. (reply to 69094)
+
+Gsaomfets: Can I write something similar?   receive(str: String){         if (str == "run") {             while (true) {                 //The balance of the message balance                 let remainingBalanceFromMessage=self.getRemainingBalanceFromMessage();                 if (remainingBalanceFromMessage >= ton("0.1")) {                     //there is still gas                     self.run();                 } else {                     break;                 }             }         }     } (reply to 69094)
+
+Chris: There are 2 functions to accomplish this: 1. Read how much gas was sent in transaction from context: https://docs.tact-lang.org/ref/core-contextstate/#context 2. Check used gas so far with gasConsumed() [https://docs.tact-lang.org/ref/core-contextstate/#gasconsumed].  Then subtract and you have remainingBalanceFromMessage (reply to 69098)
+
+akki: is zero adddress default if i don't pass it in contract init ?(out of threee iprovide only two fields minter and balance 0 ) & do i need to explicitly pass 0 for balance or it's also default?
+
+Gsaomfets: 🤷‍♂️ (reply to 69101)
+
+akki: that's what i was asking https://docs.tact-lang.org/book/contracts/#parameters (reply to 69128)

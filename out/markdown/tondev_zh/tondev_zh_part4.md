@@ -10171,3 +10171,7 @@ Combot: Desalegn Tamrat has been banned! Reason: CAS ban.
 — 2025-08-19 —
 
 Combot: Aj 🐾 has been banned! Reason: CAS ban.
+
+— 2025-08-20 —
+
+Combot: Asad Uzzaman chowdury, SMOKER have been banned! Reason: CAS ban.

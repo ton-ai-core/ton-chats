@@ -4395,3 +4395,15 @@ Biblical: We’re working with a pretty good budget; 50k+, a lot of channels inv
 DeFi: sent a DM (reply to 156985)
 
 &rey: I probably misremembered, cannot find Toncenter v4 indeed. (reply to 156980)
+
+— 2025-08-19 —
+
+Rahul: What all things can get me banned here ?
+
+&rey: This chat is moderated to be the best knowledge source explaining how to program for TON (that is, smart contracts, interfaces to it, sound backend checks, etc). An exhaustive list of offences was never needed. You may ask us the moderators about individual messages you want to send, about whether they are fine! (reply to 157037)
+
+— 2025-08-20 —
+
+Rahul: I want to hire a dev. Can I do it here ? By posting a message or not. Thank you. (reply to 157044)
+
+DeFi: Yes, what are you needing developed? (reply to 157060)
