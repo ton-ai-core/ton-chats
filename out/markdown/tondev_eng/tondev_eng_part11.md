@@ -4407,3 +4407,79 @@ Rahul: What all things can get me banned here ?
 Rahul: I want to hire a dev. Can I do it here ? By posting a message or not. Thank you. (reply to 157044)
 
 DeFi: Yes, what are you needing developed? (reply to 157060)
+
+Colonel: Did you find anything? :) (reply to 156965)
+
+Mojisola🍅 🍅: hello. tell about it (reply to 157060)
+
+наз: how can i compare with null address in tests?    expect(oldState.admin).toEqualAddress()
+
+&rey: .toEqual(null) probably. (reply to 157078)
+
+Slava: If you use loadMaybeAddress() then it will be null. (reply to 157078)
+
+наз: doesnt works (reply to 157079)
+
+наз: need smth like    let nullAddress = new Address(beginCell().storeUint(0, 257).endCell().beginParse)) (reply to 157080)
+
+Slava: Just create a "zero" address instance and compare to it then.
+
+наз: this works   new Address(0, Buffer.alloc(32, 0))  and this works  Address.parse('0:0000000000000000000000000000000000000000000000000000000000000000') (reply to 157084)
+
+Sergei: Hello!  I am trying to calculate bits and cells count for an address with deployed wallet explorer gives such values   I am parsing fields "code" and "data" from getAddressInformation endpoint as cells and traversing these cells recursively. But i am getting 19 cells and 5409 bits. Seems I am missing one cell somewhere. Could someone help with it?
+
+Leo: storage_stat counts AccountStorage, not only code and data
+
+Sergei: How could I get AccountStorage using TON HTTP API? Just can not find how to construct cell for accountStorage (reply to 157091)
+
+Vova: Hello everyone. Please help me with my problem I have a Telegram Gift (collectible gift) that is displayed in my Telegram Wallet under "Collections", but I can't access it via the TON blockchain API. What is the exact collection address for Telegram Gifts (those with Model, Backdrop, Symbol attributes)? Is there a special API endpoint for receiving Telegram Gifts? Could it be that Telegram Gifts use a different NFT standard that is not supported by standard APIs? Does anyone have a working code for receiving Telegram Gifts via API?
+
+Leo: account_storage$_ last_trans_lt:uint64     balance:CurrencyCollection state:AccountState    = AccountStorage;  CurrencyCollection is the Coins balance followed by a zero bit and AccountState is a one bit followed by StateInit for active contracts (reply to 157092)
+
+Sergei: Thanks a lot, will try (reply to 157098)
+
+TON Bounty Bridge: ​Integrate TON Blockchain and AI-Trading into Alpha Signal Trade dApp  🏷 Developer Tool  Summary:Alpha Signal Trade is a decentralized trading platform delivering AI-driven forex strategies to bloc...  Rewards: • Milestone 5 – SBT Issuance & Recognition  Created by TeSharma
+
+&rey: This is not a null address, it is a zero address of workchain 0. I don't remember it having any special meaning. (reply to 157085)
+
+Sergei: I've built AccountStorage cell which contain last_trans_lt, balance,  and ActiveState(StateInt with code and data) but now i am getting 20 cells (which is correct) and 5516 bits. explorer return 5522 bits.  Maybe you have some ideas what should I also check? (reply to 157098)
+
+TON Bounty Bridge: ​Integrate TON Blockchain And AI-Trading into Alpha Signal Trade dApp  🏷 Developer Tool  Summary:Alpha Signal Trade is a decentralized trading platform that brings AI-driven Forex currency pair str...  Rewards: • Milestone 5 – SBT Issuance and Recognition  Created by TeSharma
+
+Sharma: hello I'm trying to submit this issue on GitHub but its failing (reply to 157112)
+
+Sharma: i'll be happy to get help on how to go about it
+
+&rey: Stop this abuse. (reply to 157117)
+
+Sharma: what do you mean by this (reply to 157119)
+
+>_: why something proceeds deleting my messages 😢
+
+&rey: A tip: if a message is deleted, there is no sense in sending the exact same text again.  Well some liteservers might be unavailable from your computer. There should be two or more working, though. (reply to 157140)
+
+>_: I've tried truncating the config to just one server that works fine, but it feels like it returns outdated info (reply to 157159)
+
+>_: i call get_account_state each 5sec and last_transaction_id is always the same, even though tonviewer says that there is newer transactions
+
+&rey: Bump your tonlib-rs to the latest version which is 0.26.1 then say if it still fails.
+
+>_: it does
+
+>_: [dependencies] tonlib-core = "0.26.1" tonlib-client = "0.26.1"
+
+&rey: Any network complications like provider terminating whatever connections they want?
+
+>_: Nope, even tried with vpn - same result
+
+&rey: Well even toncli (the official tool for loading raw chain data, which is packaged with func, fift and other executables) fails on most liteservers apparently.  Tonviewer runs their own nodes and does not suffer from the same problem.
+
+>_: So its just servers being down rn?
+
+— 2025-08-21 —
+
+TON Bounty Bridge: ​1  Created by baht98683-tech
+
+Rich: How i can change the linked address within my app? I forgot phrase ton wallet on telegram? I deleted by accident
+
+Mojisola🍅 🍅: ??? (reply to 157186)

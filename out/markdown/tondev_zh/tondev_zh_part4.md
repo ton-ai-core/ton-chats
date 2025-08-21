@@ -10175,3 +10175,25 @@ Combot: Aj 🐾 has been banned! Reason: CAS ban.
 — 2025-08-20 —
 
 Combot: Asad Uzzaman chowdury, SMOKER have been banned! Reason: CAS ban.
+
+Combot: Tesee Grekee, Jones Tiger have been banned! Reason: CAS ban.
+
+Combot: Lasith Bhagya has been banned! Reason: CAS ban.
+
+Andrew: 💎 Roast Session #5 | TON 线上路演  🔥 TON 生态最新、最热、最具盈利潜力的项目登场！第五期线上路演即将开启，别错过第一手项目情报和投资灵感！  📅 时间：8月20日 · 今天晚上8点 (UTC+8) 🔔 一键注册提醒：https://lu.ma/cg34ydov 📺 YouTube直播：https://www.youtube.com/watch?v=lUQXgcftAqc  🌟 路演项目介绍 - TripBooking：Telegram 内的 OTA 小程序，可使用 TON 预订全球酒店。  - Castout：《Fishing Hunter》是一款人人皆宜的 3D 真实钓鱼放松游戏，与数千名玩家一起潜入惊心动魄的钓鱼狂潮！  - IMPGameFi：IMPGameFi 是一款基于 Telegram 与 TON 生态的即时 Web3 & GameFi 游戏，融合 RPG 角色扮演、AI、NFTs、策略玩法和公平竞技等元素，让所有参与平台游戏的用户在长期中都能获益。  - Bounty Legends：在《Bounty Legend》中开启史诗般的 RPG 之旅！作为一名手持双枪的牛仔，你将用强力的子弹风暴横扫一切敌人。  - TGNavigator: TG Navigator 是一个专注于 Telegram 生态的导航与分析工具。  - AIDR Protocol：GroupGo 是下一代社交电商平台，将红包、拼团、阶梯定价、多重支付等元素融合为一个原生 Web3 产品，我们正在打造新一代 Web3 电商的病毒式增长引擎。 (forwarded from TON East Asia Hub)
+
+Combot: kaung yan, jingyu have been banned! Reason: CAS ban.
+
+RainZapp: Hello everyone. Please help me with my problem I have a Telegram Gift (collectible gift) that is displayed in my Telegram Wallet under "Collections", but I can't access it via the TON blockchain API. What is the exact collection address for Telegram Gifts (those with Model, Backdrop, Symbol attributes)? Is there a special API endpoint for receiving Telegram Gifts? Could it be that Telegram Gifts use a different NFT standard that is not supported by standard APIs? Does anyone have a working code for receiving Telegram Gifts via API?
+
+RainZapp: What I tried: APIs tested: TonAPI v2, TonCenter, GetGems - all return 0 NFT Technical details: Using Node.js + TypeScript Tried endpoints: https://tonapi.io/v2/accounts/{wallet}/nfts https://tonapi.io/v2/accounts/%7Bwallet%7D/nfts https://toncenter.com/api/v2/getAccountNftItems https://api.getgems.io/api/v1/accounts/{wallet}/nfts https://api.getgems.io/api/v1/accounts/%7Bwallet%7D/nfts All APIs return an empty array for Telegram Gifts
+
+Andrew: Collectible gift is offchain (reply to 97838)
+
+Combot: chaocheng has been banned! Reason: CAS ban.
+
+Combot: إمام has been banned! Reason: CAS ban.
+
+— 2025-08-21 —
+
+Combot: Sié Palenfo, lesyoung🍅, Patricia Sackey have been banned! Reason: CAS ban.

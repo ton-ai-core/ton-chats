@@ -8961,3 +8961,9 @@ akki: is zero adddress default if i don't pass it in contract init ?(out of thre
 Gsaomfets: 🤷‍♂️ (reply to 69101)
 
 akki: that's what i was asking https://docs.tact-lang.org/book/contracts/#parameters (reply to 69128)
+
+— 2025-08-20 —
+
+akki: init(root: Address as Address, owner: Address, deployer: self.owner) {         self.balance = ton("1");         self.owner = owner;         self.root = root;         self.deployer = sender()      } i need deployer info in init  will this be ok or it will just give contractAddress of deployer and not v4 address of user but if i pass that as init params then (i think) it will deploy seperate contract for same user by separate deployer(user) [is self even accesable in init?] i don't want a separate contr based on deployer but need deployer in init , how do i do that?
+
+Nariman: If I send a TON in a smart contract and then the process is interrupted due to an error, will the transfer that was made before be canceled?
