@@ -4483,3 +4483,75 @@ TON Bounty Bridge: ​1  Created by baht98683-tech
 Rich: How i can change the linked address within my app? I forgot phrase ton wallet on telegram? I deleted by accident
 
 Mojisola🍅 🍅: ??? (reply to 157186)
+
+🌋Prô: The link to join
+
+>_: Thanks Rey. Seems like today it works much better (hovewer some servers still fail) (reply to 157172)
+
+>_: Btw, im trying to make a tracer, and have no idea how to correctly fetch messages to build a trace. Currently what im doing is getting out_msg, iterating it and trying to find a message on destination account where in_msg isnt empty and has the same time and hash. Guess this behaviour is incorrect as sometimes it works and sometimes it doesnt. (Ik there are indexers, but my goal is to create a simplified version without external services)
+
+&rey: Are you perhaps trying to find transaction that might not exist yet? (reply to 157207)
+
+>_: probably
+
+&rey: There is a guarantee that it will happen eventually, and not much beyond that.
+
+&rey: By the way you should not compare "time and hash" but instead "source address and logical time of generation".
+
+>_: so what should i do? track every further transaction and saturate previous traces? (reply to 157210)
+
+&rey: Well that totally depends on what service you want to build. Something like that, yes. (reply to 157212)
+
+&rey: For the reference, 1. during inscriptions epoch, there were lots of individual messages which took hours to cross shardchains 2. I have built TON Timer, working onchain, and its transactions trace can span hours.
+
+>_: okay, will rework the approach entirely then. thank you once again!
+
+Leo: probably you built it wrong, e.g. do you store the five flag bits in StateInit? (reply to 157107)
+
+Leo: show the code with all details if still confused
+
+Sergei: Yep. Maybe you have a link to the source code which calculates bits, cells usage? I think reverse engineering is my way) (reply to 157221)
+
+Leo: I think that's waste of time, but can find if you insist (reply to 157223)
+
+Sergei: Nope, not really, thank you) (reply to 157224)
+
+Code: Where can we report out-of-date docs? E.g. Tolk is missing from this page: https://docs.ton.org/v3/documentation/smart-contracts/overview
+
+Mahdi: Hey guys I'm looking for TAC team,  Have a proposition for them, any one from TAC team here?  Do you know anyone from this team?
+
+15: I deposited one night ago but it hasn't arrived yet...  I deposited TON 1.017 IT HASN'T ARRIVED UNTIL NOW.. PLEASE HELP ME, SIR.
+
+DeFi: Deposited where? (reply to 157249)
+
+15: Ton maining
+
+&rey: That's a scam. TON Foundation does not hold such events. (reply to 157253)
+
+DeFi: thats a scam app (reply to 157259)
+
+Andi: Hi! I’d like to request SCAM label removal for our token on the TON blockchain.  We’re building a transparent, community-driven project with utility and long-term vision.    We’ve revoked ownership, the token has transparent utility and public presence.  This is our first project, we’re not here to scam.   We’re open to provide any info — liquidity, tokenomics, KYC if needed.  Can we proceed with a review or appeal?  Thank you!
+
+Mojisola🍅 🍅: So made a custom jetton with Tact days ago, doesn't follow the usual flow for jetton transfers, so tonkeeper and probably other wallet apps wont allow me transfer, "unable to calculate jetton transfer fee error" or so, but if I use js script to run it, it transfer successfully but on tonviewer, it mark as transaction failed even though it cannot state specifically what part is error 😊😀🤣
+
+Mojisola🍅 🍅: will share some code portion and a sample transfer on tonviewer
+
+&rey: Pull request to https://github.com/tonkeeper/ton-assets. (reply to 157281)
+
+Andi: Thank you (reply to 157284)
+
+Mojisola🍅 🍅: https://testnet.tonviewer.com/transaction/05273f6d786ece491f01377b4806eaa5277737bd684ddee4883abdc60dd7d286#details (reply to 157283)
+
+Mojisola🍅 🍅: sample with this error even though all see fine wit the transaction.  the flow is like.  from user wallet => user jetton wallet => jetton master(check some conditions) => if true => jetton wallet now sends to receiver wallet (reply to 157289)
+
+Mojisola🍅 🍅: if false, transaction halts
+
+Mojisola🍅 🍅: receive(msg: TokenTransfer) { // 0xf8a7ea5 or 0x0f8a7ea5         let ctx: Context = context(); // Check sender         require(ctx.sender == self.owner, "Invalid sender234");          let final: Int = ctx.readForwardFee() * 2 +                                                      2 * self.gasConsumption +                                                      self.minTonsForStorage +                                                      msg.forward_ton_amount;   // Gas checks, forward_ton = 0.152                  require(ctx.value > final, "Invalid value");          //let init: StateInit = initOf JettonDefaultWallet(msg.sender, self.master);           //let wallet_address: Address = contractAddress(init);          // Update balance         //self.balance = self.balance - msg.amount;          //require(self.balance >= 0, "Invalid balance");          send(SendParameters{             to: self.master,             value: 0, //ton("0.01"), //ton("0.015"),//0,             mode: SendRemainingValue, //SendPayGasSeparately, // + SendIgnoreErrors,             body: CheckStatus{                 query_id: msg.query_id,                 amount: msg.amount,                 receiver: msg.sender, //self.owner,                 sender_jetton_wallet: myAddress(),                 sender_wallet_address: self.owner,                 response_destination: msg.response_destination,                 forward_ton_amount: msg.forward_ton_amount,                 forward_payload:  msg.forward_payload             }.toCell()         });     }'''
+
+Teemu | 機器人🪽: So what project are you copying to be flagged? Maybe add a name on message? (reply to 157281)
+
+Albert: Do you find help or ping me to help. (reply to 157255)
+
+— 2025-08-22 —
+
+Andi: I think I can’t advertise the product here (reply to 157293)
