@@ -10241,3 +10241,23 @@ Combot: Pratik, Patience Leyla have been banned! Reason: CAS ban.
 Combot: S has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: Nadezhda Bontso has been banned! Reason: CAS ban.
+
+Combot: Anonimity has been banned! Reason: CAS ban.
+
+Neo: @andrew_cong 你好，知道如何验证tact 合约么？ https://verifier.ton.org/ 不支持验证tact写的合约，
+
+Combot: skuyyy 🐈‍⬛ has been banned! Reason: CAS ban.
+
+Combot: Yee Mon has been banned! Reason: CAS ban.
+
+— 2025-08-23 —
+
+Andrew: 支持的 (reply to 98008)
+
+Combot: Cv Form Service has been banned! Reason: CAS ban.
+
+Combot: JoRgE has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

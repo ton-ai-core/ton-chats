@@ -8973,3 +8973,39 @@ Nariman: If I send a TON in a smart contract and then the process is interrupted
 Timi: If its within that contract. Yes (reply to 69243)
 
 Nariman: Thanks (reply to 69336)
+
+— 2025-08-22 —
+
+Neo: https://verifier.ton.org/  hi everyone , who know's how to verify contract with tact, there's only accept .func, .tolk, not accept tact contract ?
+
+Anton: it’s definitely possible (reply to 69402)
+
+maksim: tact compiler outputs .pkg files that can be used there (reply to 69402)
+
+Neo: if i just upload .pkg file , can't verify success (reply to 69405)
+
+Neo: all file ? except .pkg file , need other files? and what orders ?
+
+Rekha: Yes
+
+/B4ckSl4sh\: Hm, looks strange. Only pkg is needed (reply to 69419)
+
+/B4ckSl4sh\: Do you mind sharing your contract? We will check it
+
+Neo: import "@stdlib/deploy";  message(0xd53276db) JettonExcesses {     queryId: Int as uint64; }  message(0xf8a7ea5) JettonTransfer {     queryId: Int as uint64;     amount: Int as coins;     destination: Address;     responseDestination: Address?;     customPayload: Cell? = null;     forwardTonAmount: Int as coins;     forwardPayload: Slice as remaining; }  // 添加highload钱包到白名单 message AddHighloadWallet {     wallet: Address; }  // 从白名单移除highload钱包 message RemoveHighloadWallet {     wallet: Address; }  // 设置Jetton钱包地址 message SetMyJettonWallet {     wallet: Address; }  // 设置提现限制 message SetWithdrawLimit {     limit: Int as coins; }  // 设置合约配置参数 message SetContractConfig {     maxTimeoutHours: Int as uint16;      // 最大timeout时间（秒）     maxStorageRecords: Int as uint16;    // 存储记录上限     maxCleanupPerCall: Int as uint8;     // 每次最多清理数量 }   // 提现消息 - 增加 query_id 和 timeout 防重放攻击 message WithdrawToken {     to: Address;     amount: Int as coins;     order: Int as uint128;     queryId: Int as uint64;     timeout: Int as uint32; }   contract DzTonV2 with Deployable {     owner: Address;     myJettonWallet: Address;     highloadWallets: map<Address, Bool>;     processedQueryTimeouts: map<Int as uint64, Int as uint32>;  // query_id -> timeout     processedQueryCount: Int as uint8;           // 使用uint8节省存储（最大255）          // 可动态调整的配置参数     withdrawLimit: Int as coins;                 // 提现限制     maxTimeoutHours: Int as uint16;              // 最大timeout时间（秒）     maxStorageRecords: Int as uint16;            // 存储记录上限     maxCleanupPerCall: Int as uint8;             // 每次最多清理数量      init() {         self.owner = sender();         self.myJettonWallet = newAddress(0, 0);         self.highloadWallets = emptyMap();         self.processedQueryTimeouts = emptyMap();         self.processedQueryCount = 0;                  self.withdrawLimit = 10000000000;           // 默认10000 Jetton         self.maxTimeoutHours = 600;                 // 默认10分钟（600秒）         self.maxStorageRecords = 100;               // 默认100条记录         self.maxCleanupPerCall = 50;                // 默认每次清理50条     }      // 空接收器 - 接收TON     receive() {}      // 接收JettonExcesses消息     receive(msg: JettonExcesses) {}      // 添加highload钱包到白名单     receive(msg: AddHighloadWallet) {         require(sender() == self.owner, "Not authorized");         self.highloadWallets.set(msg.wallet, true);     }      // 从白名单移除highload钱包     receive(msg: RemoveHighloadWallet) {         require(sender() == self.owner, "Not authorized");         self.highloadWallets.del(msg.wallet);     }      // 设置Jetton钱包地址     receive(msg: SetMyJettonWallet) {         require(sender() == self.owner, "Not authorized");         self.myJettonWallet = msg.wallet;     }      // 设置提现限制     receive(msg: SetWithdrawLimit) {         require(sender() == self.owner, "Not authorized");         self.withdrawLimit = msg.limit;     }      // 设置合约配置参数     receive(msg: SetContractConfig) {         require(sender() == self.owner, "Not authorized");         // 更新配置         self.maxTimeoutHours = msg.maxTimeoutHours;         self.maxStorageRecords = msg.maxStorageRecords;         self.maxCleanupPerCall = msg.maxCleanupPerCall;     }
+
+Neo: // 提现     receive(msg: WithdrawToken) {         let currentTime = now();                  require(msg.queryId != 0, "Invalid queryId");         require(msg.amount > 0, "Invalid amount");         require(msg.timeout > currentTime, "Tx expired");         require(msg.timeout <= currentTime + self.maxTimeoutHours, "Timeout too far in future");         require(msg.to != newAddress(0, 0), "Invalid address");                  self.requireWithdrawPermission();         require(msg.amount <= self.withdrawLimit, "Exceeds limit");                  require(self.processedQueryTimeouts.get(msg.queryId) == null, "QueryId already processed");                  // 触发清理：如果达到配置的存储上限，清理过期记录（但继续提现流程）         if (self.processedQueryCount >= self.maxStorageRecords) {             self.performStrictCleanup(); // 达到上限触发         }                  // 存储新的 query_id         self.processedQueryTimeouts.set(msg.queryId, msg.timeout);         self.processedQueryCount += 1;          // 发送Jetton转账消息到我们的Jetton钱包         send(SendParameters{             to: self.myJettonWallet,             value: 0,             mode: SendRemainingValue + SendIgnoreErrors,             bounce: true,             body: JettonTransfer{                 queryId: msg.order,                 amount: msg.amount,                 destination: msg.to,                 responseDestination: sender(),                 customPayload: null,                 forwardTonAmount: ton("0.0001"),                 forwardPayload: beginCell().storeBool(false).endCell().beginParse(),             }.toCell()         });      }      // 检查提现权限     fun requireWithdrawPermission() {         let isOwner: Bool = sender() == self.owner;         let isHighloadWallet: Bool = self.highloadWallets.get(sender()) == true;         require(isOwner || isHighloadWallet, "Not authorized!");     }      // 智能清理过期query_id     fun performStrictCleanup() {         let deletedCount: Int = 0;         let currentTime = now();                  // 只删除真正过期的记录（timeout < 当前时间）         foreach (queryId, timeout in self.processedQueryTimeouts) {             if (deletedCount < self.maxCleanupPerCall && timeout < currentTime) {                 self.processedQueryTimeouts.del(queryId);                 deletedCount += 1;             }         }         // 更新记录数量         self.processedQueryCount -= deletedCount;     }       // ============ 查询接口 ============      get fun queryMyJettonWallet(): Address {         return self.myJettonWallet;     }      get fun queryOwner(): Address {         return self.owner;     }      get fun queryIsQueryProcessed(queryId: Int): Bool {         return self.processedQueryTimeouts.get(queryId) != null;     }      get fun queryHighloadWallets(): map<Address, Bool> {         return self.highloadWallets;     }      // 查询是否需要清理     get fun queryNeedsCleanup(): Bool {         return self.processedQueryCount >= self.maxStorageRecords;     }  }
+
+Neo: @@B4ckSl4sh  my contract code (reply to 69425)
+
+/B4ckSl4sh\: We will investigate this
+
+&rey: Try changing the "Directory" field, either to empty or "dist". (reply to 69418)
+
+Neo: can't work
+
+Neo: on ide.ton.org verify also failed
+
+— 2025-08-23 —
+
+Rh: 373235

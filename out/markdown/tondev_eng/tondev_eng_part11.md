@@ -4555,3 +4555,37 @@ Albert: Do you find help or ping me to help. (reply to 157255)
 — 2025-08-22 —
 
 Andi: I think I can’t advertise the product here (reply to 157293)
+
+Code: Where can I find an example NFT contract in tolk?
+
+Code: Update: I found this https://github.com/ton-blockchain/tolk-bench/tree/master/contracts_Tolk/02_nft (reply to 157301)
+
+Vasiliy: Why I can't send messages with links?
+
+akki: how can I migrate en existing Jetton project whole(alongwith jettonWallets) live on testnet to mainnet. Can I ?
+
+🐱: The address is easy with workchain, code, init data but the state itself is tricky. Couldn’t think of a way to migrate them properly (reply to 157315)
+
+Mojisola🍅 🍅: I don't think so.  U just have to deploy on mainnet. mainnet and testnet are different (reply to 157315)
+
+akki: can't I export current state of wallet? (reply to 157322)
+
+Leo: you can do this by replaying all related transactions on testnet, if you have control of all holder accounts
+
+&rey: Mainnet is a blockchain on its own, why would it import anything (contract states and balances) from another one? (reply to 157323)
+
+akki: well I was thinking it would be a good ux  if I have some project on testnet with custom minting logic  and no serious exploits happens  then I export same contract to mainnet I think tokens can be minted on mainnet by locking on test but other state replication could be tricky (reply to 157327)
+
+&rey: No. Or, at least, that requires a full TVM-TVM bridge between blockchains. (reply to 157330)
+
+Michele: Hello devs, i am looking for some help with telethon. I need to call a function for retrieving telegram stickers info. First of all where can i get the api keys if i don't want to build an app on telegram?  from telethon import TelegramClient from telethon.tl.functions.messages import GetStickerSetRequest from telethon.tl.types import InputStickerSetShortName import asyncio # Inserisci le tue credenziali api_id = 'TUO_API_ID' # Sostituisci con il tuo api_id api_hash = 'TUO_API_HASH' # Sostituisci con il tuo api_hash phone = 'TUO_NUMERO_DI_TELEFONO' # Es. '+393331234567' client = TelegramClient('session_name', api_id, api_hash) async def get_sticker_info(sticker_name): await client.start(phone=phone) try: stickerset = await client(GetStickerSetRequest( stickerset=InputStickerSetShortName(short_name=sticker_name) )) print(f"Nome del set: {stickerset.set.title}") print(f"ID del set: {stickerset.set.id}") print(f"Conteggio sticker: {stickerset.set.count}") print(f"Creatore: {stickerset.set.official}") # True se ufficiale, False altrimenti # Nota: l'ID del creatore non è sempre disponibile direttamente except Exception as e: print(f"Errore: {e}") async def main(): # Sostituisci 'HotCherry' con il nome del set di sticker (es. preso da t.me/addstickers/HotCherry) await get_sticker_info('HotCherry') if __name__ == '__main__': with client: client.loop.run_until_complete(main())   Would this script work for me?
+
+&rey: Off topic for this chat. This one is about TON not Telegram. (reply to 157334)
+
+D.k: Hello everyone, Am looking for backend developer who are very familiar with ton Blockchain and smart contract  We are building a playable game think Subway surfers on telegram   If have have the qualifications and wants to collaborate  Please Dm
+
+— 2025-08-23 —
+
+Saalisharafu: /pls?
+
+Кирилл: /pls
