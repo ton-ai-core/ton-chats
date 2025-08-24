@@ -10261,3 +10261,19 @@ Combot: Cv Form Service has been banned! Reason: CAS ban.
 Combot: JoRgE has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: ENOS Bashirian has been banned! Reason: CAS ban.
+
+Combot: Yfy has been banned! Reason: CAS ban.
+
+Neo: 你好，我解决了tact合约验证的问题了，应该是版本的问题 (reply to 98070)
+
+Combot: Des Jones, K have been banned! Reason: CAS ban.
+
+Combot: niudu has been banned! Reason: CAS ban.
+
+Mr.Lightcode: 嘿，Web3 家族👋 需要定制 Telegram 机器人、代币脚本或预售网站吗？我全都写好了——快速、简洁，并且根据你的项目量身定制。 📩 给我发邮件 @MrLightcodeDM
+
+— 2025-08-24 —
+
+Combot: Memoi Mem has been banned! Reason: CAS ban.

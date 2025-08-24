@@ -12813,6 +12813,35 @@
       "from": "Nikita",
       "from_id": "user7851517854",
       "text": "Всем привет!\nПодскажите, в тестнете есть USDT? Как их получить?"
+    },
+    {
+      "id": 2940,
+      "type": "message",
+      "date": "2025-08-23T12:07:28.000Z",
+      "date_unixtime": "1755950848",
+      "from": "Vladislav Krasotkin",
+      "from_id": "user5887696138",
+      "text": "доброго дня! хочу создать смарт-контракт , но в powershell не дает установить tact. сталкивался кто с такой проблемой?"
+    },
+    {
+      "id": 2941,
+      "type": "message",
+      "date": "2025-08-23T13:16:28.000Z",
+      "date_unixtime": "1755954988",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Если ты новичек попробуй + Cursor / Windsurf\nhttps://github.com/ton-ai-core/contract-knowledge\n\nПроведёт от и до по созданию контрактов\n\nНу и мнение свое потом отпиши))",
+      "reply_to_message_id": 2940
+    },
+    {
+      "id": 2942,
+      "type": "message",
+      "date": "2025-08-23T13:18:47.000Z",
+      "date_unixtime": "1755955127",
+      "from": "Vladislav Krasotkin",
+      "from_id": "user5887696138",
+      "text": "Спасибо!",
+      "reply_to_message_id": 2941
     }
   ]
 }

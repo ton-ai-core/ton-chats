@@ -4589,3 +4589,47 @@ D.k: Hello everyone, Am looking for backend developer who are very familiar with
 Saalisharafu: /pls?
 
 Кирилл: /pls
+
+Mojisola🍅 🍅: hi. here (reply to 157350)
+
+Connor: Hi
+
+grachzy: hello everyone, Is it worth leaving Tact for Tolk? What are the advantages of Tolk compared to Tact?
+
+Arman: Hello everyone, is there any Flutter developer here?
+
+Freed: I work with Flutter and Dart (reply to 157397)
+
+Arman: did you work with Ton on flutter projects? (reply to 157398)
+
+Freed: I worked with ton and dart (reply to 157399)
+
+&rey: Ability to drop down to lower level when you need it, and high level otherwise. Think Rust's analogue. (reply to 157392)
+
+Arman: Can you share a bit about your experience? (reply to 157400)
+
+Freed: I used to create custom backends using Dart that signed transactions, transformed them into boc and were sending them to ton api (reply to 157402)
+
+Freed: Also the other way around to parse contract getters
+
+Arman: i want to have a wallet in my Flutter app and support balance and transactions for in-app purchases. Do you have any suggestions on where I should start? (reply to 157404)
+
+Freed: Platform? (reply to 157405)
+
+Arman: IOS and Android of course (reply to 157406)
+
+Freed: It sucks for that because there are no packages for it yet
+
+Freed: There is a limited ton package that support android and web, idk about ios
+
+Freed: I used external dlls to sign transactions on desktop platform
+
+Freed: You can try to integrate it using webview as node supports any kind of ton manipulations
+
+Arman: i think using external wallets like tonkeeper is much eaiser to handle the transaction - no need complicated code to sign and other things (reply to 157411)
+
+— 2025-08-24 —
+
+Adam: Even for that you need tonweb sdk which is not in flutter (reply to 157412)
+
+akki: when map<> support /collections/ next version is coming? where to watch the day2day progress of lang? opensource? (reply to 157401)

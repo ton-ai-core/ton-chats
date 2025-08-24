@@ -9009,3 +9009,91 @@ Neo: on ide.ton.org verify also failed
 — 2025-08-23 —
 
 Rh: 373235
+
+Alessandro: I dont know what you mean by these « fields », fields are made like this for contract making , for exemple a staking dapp would be useful to a forward playload of the date of staking , queryid can serve you to identify transactions if you want, these are for your needs (reply to 69484)
+
+akki: so in a jetton token say usdt how/why r they used (reply to 69485)
+
+Gundo: So in the Jackpot token
+
+Alessandro: queryId: Helps detect duplicate or replayed messages. - Lets a sender know which specific transfer a response or refund corresponds to.  amount: Int as coins - Purpose: Amount of tokens being sent (you already noticed this is always used).  destination: Address - Purpose: Address receiving the tokens  responseDestination: Address? - Purpose: Optional address where a response (acknowledgement or error/refund) should be sent. - Real-life use:   - If you are a dApp contract sending tokens, you want the Jetton wallet to call you back with success/failure info.  forwardTonAmount: Int as coins - Purpose: Amount of native TON coins that should be forwarded to the destination contract along with the token. - Real-life use:   - Lets you cover gas for the receiving contract so it can handle the incoming token without needing its own TON balance.  forwardPayload: Slice as remaining - Purpose: Arbitrary payload passed along to the destination contract. - Real-life use:   - Similar to customPayload, but specifically intended for the final receiver.   - E.g., a smart contract might need instructions like: “Deposit these tokens into liquidity pool X” — this payload carries those instructions. (reply to 69486)
+
+Alessandro: Stonfi for exemple uses these fields for swaps
+
+Alessandro: It helps telling the contract your slippage etc
+
+— 2025-08-24 —
+
+Alessandro: Hey guys if anyone needs tact dev contact me
+
+akki: How to get jettonWallet owner address(user address) from wallet contract address i.e owner from sender()
+
+Alessandro: You mean from jetton wallet (reply to 69537)
+
+akki: Yes
+
+Alessandro: The method is get_wallet_data
+
+Alessandro: It returns  Balance Owner Jetton_master Jetton_wallet_code
+
+akki: No no I need it inside contract
+
+Alessandro: What do you mean?
+
+Alessandro: Explain your situation and ill help you
+
+akki: like we get wallet address from owner/receiver address contractAddress(initOf jettonWallet(owner, self.minter) I need reverse of it owner from jettonWallet
+
+Alessandro: Explain a situation
+
+Alessandro: Oh I get you (reply to 69545)
+
+akki: I need this inside init() to set it as invitor of deployed contract If inside init I use sender() then it'll give me jetton address of deployed but I need owner who deployed that to set as invitor of this new jettonWallet
+
+Alessandro: Got you
+
+akki: Also how to represent zero or null address as default? using emptyAddress() gives compilation error that it's a assembly func so can't use
+
+Alessandro: Let me reread the jetton contract real quick
+
+Alessandro: You want to get the owner on which part
+
+akki: when contract is deployed for the very first time  in init use sender() to calculate owner of sender() and set it as self.invitor = owner (reply to 69552)
+
+Alessandro: For the jetton master right?
+
+Alessandro: Or for the jetton wallet
+
+Alessandro: I still dont get what you want to do exactly (reply to 69553)
+
+Alessandro: How the contract is deployed first?
+
+akki: Wallet (reply to 69555)
+
+Alessandro: Owner address you want to calculate it ? (reply to 69545)
+
+Alessandro: Like how we caculate owner address right?
+
+akki: Yes (reply to 69560)
+
+Alessandro: What you dont get is that jetton wallet dont need to get calculated
+
+Alessandro: Because it’s always stored on every jetton wallet
+
+Alessandro: Beause actually how the contracts works
+
+Alessandro: Each contracts has initial states and they determine it’s address and hash
+
+akki: so can I use just  invitor= self.owner inside init
+
+Alessandro: But owner wallet it’s an initial states you cant predict it
+
+Alessandro: Exactly (reply to 69566)
+
+akki: is this going to deploy exactly one contract for one receiver? (reply to 69568)
+
+Alessandro: Yes when you receive the token
+
+Alessandro: It will deploy it for you
+
+Alessandro: But with another variable invitor

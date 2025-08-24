@@ -6213,3 +6213,53 @@ Daniel: Исправил (reply to 319195)
 — 2025-08-23 —
 
 no name: Всем привет. Подскажите, пожалуйста, сейчас через какой-нибудь клиент кошелька можно получить доступ к wallet v4r1? (кошелек активирован и на нем есть активы)
+
+Нилой | Money Bux: Доброе утро, как вывести этот баланс Ton, кто-нибудь может помочь, пожалуйста?
+
+Denzel': а чем trace от event отличается в тонапи?  и чем action от trace отличается в тонцентре?
+
+Denzel': event состоит из трейсов в тонапи, верно? (reply to 319212)
+
+Denis: Не (reply to 319213)
+
+Denzel': как тогда? (reply to 319216)
+
+Fabri: Всем привет. Тут можно искать разработчиков?
+
+Denis: ну могу дать недописанную статью прочитать (reply to 319221)
+
+Denzel': спасибо! (reply to 319227)
+
+/B4ckSl4sh\: Служебные транзакции в тоне) (reply to 319229)
+
+Denis: есть каждую секунду
+
+Denis: https://tonviewer.com/last
+
+/B4ckSl4sh\: Да, я знаю, они в статье просто Tick Tack а не Tick Tock (reply to 319233)
+
+Denis: ну я ж говорю недописанная
+
+Sviatoslav: Нужно не выводить, а наооборот ещё пополнять (reply to 319211)
+
+AL Pamblus: здравствуйте чат.  есть готовый к запуску NFT код? создание NFT.   GitHub.
+
+Оскар: https://github.com/ton-blockchain/token-contract/blob/main/nft/nft-item.fc  там же контракт нфт коллекции  если не нужно его редактировать, то для ноукод решения есть замечательный сайт https://ton-collection-edit.vercel.app/deploy-collection (reply to 319248)
+
+Combot: Combot выдал(а) предупреждение Seymo (1/3) Reason: 1 reports (reply to 319261)
+
+Evgenius_pmpemius: Посоветуйте с чего начать изучение тон СДК, никак не могу найти никаких источников, вообще пусто
+
+Evgenius_pmpemius: Может что-то почитать есть, или посмотреть
+
+Evgenius_pmpemius: Может по+-де литесь как это вообще можно учить
+
+5b 44 43 54 5d: https://docs.ton.org/ (reply to 319269)
+
+Evgenius_pmpemius: Там конкретно по СДК вроде ничего нету, не уверен что эта дока может помочь (reply to 319270)
+
+Evgenius_pmpemius: Может плохо ищу
+
+Evgenius_pmpemius: Нашел, в доке есть
+
+Evgenius_pmpemius: https://docs.ton.org/ru/v3/guidelines/dapps/apis-sdks/sdk

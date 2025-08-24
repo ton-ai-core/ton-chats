@@ -3015,3 +3015,11 @@ Punk: Сенк ю (reply to 2657)
 — 2025-08-11 —
 
 Nikita: Всем привет! Подскажите, в тестнете есть USDT? Как их получить?
+
+— 2025-08-23 —
+
+Vladislav Krasotkin: доброго дня! хочу создать смарт-контракт , но в powershell не дает установить tact. сталкивался кто с такой проблемой?
+
+Skuli: Если ты новичек попробуй + Cursor / Windsurf https://github.com/ton-ai-core/contract-knowledge  Проведёт от и до по созданию контрактов  Ну и мнение свое потом отпиши)) (reply to 2940)
+
+Vladislav Krasotkin: Спасибо! (reply to 2941)
