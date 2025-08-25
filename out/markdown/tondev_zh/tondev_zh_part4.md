@@ -10277,3 +10277,13 @@ Mr.Lightcode: 嘿，Web3 家族👋 需要定制 Telegram 机器人、代币脚�
 — 2025-08-24 —
 
 Combot: Memoi Mem has been banned! Reason: CAS ban.
+
+Combot: Gresel esteven has been banned! Reason: CAS ban.
+
+Combot: Abdo El has been banned! Reason: CAS ban.
+
+Торрр: 00
+
+— 2025-08-25 —
+
+Combot: One Pise has been banned! Reason: CAS ban.

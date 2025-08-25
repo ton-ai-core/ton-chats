@@ -9097,3 +9097,45 @@ Alessandro: Yes when you receive the token
 Alessandro: It will deploy it for you
 
 Alessandro: But with another variable invitor
+
+akki: ? (reply to 69550)
+
+Alessandro: Both determine the address (reply to 69573)
+
+Alessandro: To compute the contract you need the body and init param
+
+Alessandro: But one contract code if you give it same init param will always give same contract so same address
+
+Alessandro: And that’s how it’s each owner have it’s jetton wallet and no one cant usurpate it
+
+Alessandro: Because if you change the owner it changed the contract therefore the address
+
+Alessandro: You cant if it’s an necessary init param (reply to 69550)
+
+akki: so i can't do this init(owner: Address, minter: Address) {          self.balance = ton("1");         self.owner = owner;         self.minter = minter;         self.invitor = sender();         self.nominee = self.owner; //from deployer } it will result in new contract with every interaction/msg send
+
+Johnric: init(owner: Address, minter: Address) {          self.balance = ton("1");         self.owner = owner;         self.minter = minter;         self.invitor = sender();         self.nominee = self.owner; //from deployer }
+
+Alessandro: 🤔 normally the sender is the jetton wallet not the wallet it self (reply to 69583)
+
+Alessandro: I advice you to use forward payload to passe the owner
+
+Alessandro: Or use a message querry to query for owner
+
+Alessandro: Because the jetton wallet receive messages when it receives jetton from jetton wallet
+
+Alessandro: Basically
+
+Alessandro: Wallet    │    ▼ Jetton Wallet (associated with the user’s wallet)    │    ▼ Jetton Wallet (receiver’s jetton wallet)    │    ▼ Notifications (for both sender & receiver)
+
+Alessandro: So if it saves sender it will save the jetton wallet address not the wallet
+
+Alessandro: Second thing
+
+Alessandro: That’s not how you do it you must get sender from the message of jetton transfer (reply to 69583)
+
+Black Panther: Why TON opt for partial execution? Why not do it like evm?
+
+/B4ckSl4sh\: Why EVM don't do partial execution? Why don't do it like TON? (reply to 69633)
+
+/B4ckSl4sh\: In all seriousness, it's just another blockchain and that's it

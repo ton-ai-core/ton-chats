@@ -4633,3 +4633,13 @@ Arman: i think using external wallets like tonkeeper is much eaiser to handle th
 Adam: Even for that you need tonweb sdk which is not in flutter (reply to 157412)
 
 akki: when map<> support /collections/ next version is coming? where to watch the day2day progress of lang? opensource? (reply to 157401)
+
+Code: is there another testnet faucet? I just got trolled by the testgiver TG bot 😭
+
+&rey: It is in the TON monorepo, https://github.com/ton-blockchain/ton that is. (reply to 157417)
+
+Dmitry: Scroll the page down to “edit this page” link and you’ll get to GitHub. (reply to 157227)
+
+&rey: *TON Connect SDK rather than Tonweb. The latter is not very usable for anything. (reply to 157415)
+
+Adam: Sorry ton connect i wanted to say (reply to 157434)
