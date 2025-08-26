@@ -4643,3 +4643,53 @@ Dmitry: Scroll the page down to “edit this page” link and you’ll get to Gi
 &rey: *TON Connect SDK rather than Tonweb. The latter is not very usable for anything. (reply to 157415)
 
 Adam: Sorry ton connect i wanted to say (reply to 157434)
+
+— 2025-08-25 —
+
+Sunil: We are building a internal payments router with in our campus, and we are mapping each student with their userid "UGR07A678" and the user is mapped with a wallet id. And any payment done on this should be routed to the associated wallet,  We are looking for a contract on ton where users map their wallets with their userid , and the userid and wallet address are stored in contract. While sending funds and payments to the userid the funds are to be routed to student wallet, posibully add features to set wallet and studentid, also get the wallet address mapped for student id,  and a final method which takes student id as argument and ton to sent, this will internally send ton to the user wallet,  Deliverable: working contract code and a sandbox demo on the complete flow as specified in sandbox.
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 10 ✅ Approved bounties: 1 🔄 Bounties seeking suggestions: 15  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+&: DM me (reply to 157458)
+
+TON Bounty Bridge: ​test  Created by TONEcosupport
+
+Scilef🦉: Hello everyone! Please help me to deploy a smartcontract to the testnet 🙏  I am trying to do this, but providerDOTopen causes an error Invalid address Here are some few logs: Connected to wallet at address: 0QA92aKlFvyuT8nb7TH_l3KBzC0FzBipDmjXsjNEIABKLYTo Collection created at: EQAjQtkaYDTT1Q9u-zK9I90rFOGxqxZsv6doZNhRirCqxqPO Error: Invalid address
+
+&rey: Versions of libraries? (reply to 157471)
+
+Scilef🦉: I am afraid of sending strings with dots for now :D (reply to 157472)
+
+&rey: Looks right though. If you create an environment from scratch and copy only your contract, does that work? (reply to 157473)
+
+Scilef🦉: What do you mean sir? I am not the proficient developer, sorry (reply to 157474)
+
+&rey: Take a blank directory with no npm modules installed, and start a new blueprint project. (reply to 157475)
+
+Scilef🦉: By this command npm create ton@latest? (reply to 157476)
+
+Scilef🦉: It's an NFT contract, so it's not only one file there - is it ok sir? (reply to 157474)
+
+Scilef🦉: I should copy wrapper as well, should't I? (reply to 157474)
+
+Scilef🦉: I suppose I can't deploy without a wrapper So I need to copy the whole project, not only contract itself I'll try and come back sir thank you
+
+Zerox: my msg was deleted, did I spam?
+
+ㅤ: same issue, any updates? (reply to 27141)
+
+&rey: This is not related to TON in any way. (reply to 157485)
+
+Alessandro: Better use ton ide (reply to 157471)
+
+Alessandro: Suffered same issue moved to ton IDE more intuitive and easy
+
+Scilef🦉: Can you please share more info in pm? (reply to 157487)
+
+Daniil: guys, is there a token management solution for creating cliff/vesting contracts on TON?  just like streamflow.finance or sablier.com?
+
+Teemu | 機器人🪽: Ton inu has a token locker (reply to 157497)
+
+Teemu | 機器人🪽: Ton raffles too, i think
+
+Patwary: Hi I need help
