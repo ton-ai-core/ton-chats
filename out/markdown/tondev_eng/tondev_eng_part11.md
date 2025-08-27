@@ -4693,3 +4693,33 @@ Teemu | 機器人🪽: Ton inu has a token locker (reply to 157497)
 Teemu | 機器人🪽: Ton raffles too, i think
 
 Patwary: Hi I need help
+
+— 2025-08-26 —
+
+JERRY: Ton raffle (reply to 157497)
+
+🐱: tonsend (reply to 157497)
+
+Zerox: Are you working at Paycio? (reply to 157458)
+
+Lase: I have done something like this. DM (reply to 157458)
+
+Daniil: do you have a link? (reply to 157521)
+
+🐱: https://tonsend.io/token-vesting https://testnet.tonsend.io/token-vesting Disclaimer: I contributed to this but it's not heavily tested so you should test first (mainnet and testnet) just to be sure. (reply to 157527)
+
+Daniil: thanks
+
+X: /stat@combot
+
+Combot: Total messages: 157532
+
+TON Bounty Bridge: ​TON Developer Experience Mega Toolkit (TACT-first): TonConnect SDK Revamp (Dart/Swift), Testnet Faucet Bot v2, VS Code TACT Suite, and Docs/TLB/TMA Upgrades  🏷 Developer Tool  Summary:Goal: deliver a comprehensive bundle to improve developer experience around TON with a TACT-first fo...  Rewards: • Requested reward (raw): 30000 USD  Created by DevNebulaX
+
+TON Bounty Bridge: ​TON Connect for Telegram Mini Apps — Starter Kit and Documentation  🏷 Developer Tool  Summary:Goal: provide a starter kit and clear documentation for integrating TON Connect 2.0 into Telegram Mi...  Created by DevNebulaX
+
+Scilef🦉: Well, the error is different, but still exists and I can't debug it (because there is even no stacktrace in web ide) Can anybody please help me to fight all the deployment issues? I just can't handle it anymore, my butt is burning too much 🥲 (reply to 157490)
+
+— 2025-08-27 —
+
+Chris: Have you tried to deploy different contract using thr same setup? It would give as a hint whether there is a problem with the setup or with the contract itself.  Maybe you can try to deploy example contract, like a jetton. (reply to 157565)

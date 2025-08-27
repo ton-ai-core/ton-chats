@@ -10293,3 +10293,21 @@ Connor: I am looking for a front-end developer,
 — 2025-08-26 —
 
 Combot: Qaf has been banned! Reason: CAS ban.
+
+Combot: 客服小易 has been banned! Reason: CAS ban.
+
+Combot: Alpesh has been banned! Reason: CAS ban.
+
+Combot: Jj, Narvesen Helper have been banned! Reason: CAS ban.
+
+Combot: Tguuggu has been banned! Reason: CAS ban.
+
+Combot: 玄霄` Alina has been banned! Reason: CAS ban.
+
+Ali: Hi
+
+Combot: Lyndsey Jemell has been banned! Reason: CAS ban.
+
+— 2025-08-27 —
+
+Combot: V. Shen has been banned! Reason: CAS ban.
