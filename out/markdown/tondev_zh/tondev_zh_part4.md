@@ -10311,3 +10311,13 @@ Combot: Lyndsey Jemell has been banned! Reason: CAS ban.
 — 2025-08-27 —
 
 Combot: V. Shen has been banned! Reason: CAS ban.
+
+Combot: Mohammed Suli, Kathryn have been banned! Reason: CAS ban.
+
+Combot: Anjan Kumar, KT have been banned! Reason: CAS ban.
+
+Combot: Mary Simoneaux has been banned! Reason: CAS ban.
+
+— 2025-08-28 —
+
+Combot: Bradosty, MT have been banned! Reason: CAS ban.

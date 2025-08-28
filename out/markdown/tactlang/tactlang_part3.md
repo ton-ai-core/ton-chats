@@ -9139,3 +9139,43 @@ Black Panther: Why TON opt for partial execution? Why not do it like evm?
 /B4ckSl4sh\: Why EVM don't do partial execution? Why don't do it like TON? (reply to 69633)
 
 /B4ckSl4sh\: In all seriousness, it's just another blockchain and that's it
+
+— 2025-08-27 —
+
+akki: is this okay guys? bounced(msg: bounced<JettonBurnNotification>) {         //TODO: send again         MessageParameters {             to: self.minter,             value: 0,             mode: SendRemainingValue,             bounce: true,             body: JettonBurnNotification {                 queryId: msg.queryId,                 amount: msg.amount,                 sender: self.owner,                 responseDestination: msg.responseDestination,             }.toCell(),         }.send();         //self.balance += msg.amount;     }
+
+akki: also, can i use -ve sign for msg.amount if i want to reuse this notify msg for minting purposes? after changing type of amount field from Int as coins to just Int. (reply to 69766)
+
+/B4ckSl4sh\: I didn't get the question.   In any case if message is bounced on contract A, than contract A didn't change its state (reply to 69767)
+
+akki: no bounced on b but instead of reverting state(it's complex) what if i want to resend it how do i do that? (reply to 69773)
+
+/B4ckSl4sh\: Like you showed above (reply to 69774)
+
+/B4ckSl4sh\: But it makes no sense
+
+/B4ckSl4sh\: If state didn't change, resending same message will have the same result
+
+akki: state changed in both sender and receiver but I don't want notif to bounce to keep total supply updated so I resend notif instead of bounce (reply to 69777)
+
+akki: will it definitely bounce again? (reply to 69787)
+
+&rey: Receiver bounced the message, therefore its data remained unchanged. (reply to 69787)
+
+akki: don't we manually do that like this bounced(msg: bounced<JettonBurnNotification>) {         self.balance += msg.amount;     } (reply to 69789)
+
+&rey: Those actions are done on the sender of original message only, though. (reply to 69790)
+
+CodeByConte: Gm , il y’a des developper français ici ?
+
+Alessandro: Bonjour frère, je suis français. (reply to 69815)
+
+🏆: bonvoy (reply to 69817)
+
+CodeByConte: Bonjour alors vous developer quoi comme projet sur ton ?
+
+Alessandro: Des raffles, jackpot , systems de vesting and staking bref tout ; smart contract et dapp (reply to 69819)
+
+CodeByConte: Merci frère , je viens de de commencer à développer sur la blockchain ton si jamais j’ai des question je peut t’envoyer message ? (reply to 69820)
+
+𝕸𝖚𝖍𝖆𝖒𝖒𝖆𝖉🍋: def ton():      print ("fraud") # code_like_this (reply to 66988)

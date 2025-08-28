@@ -4723,3 +4723,15 @@ Scilef🦉: Well, the error is different, but still exists and I can't debug it 
 — 2025-08-27 —
 
 Chris: Have you tried to deploy different contract using thr same setup? It would give as a hint whether there is a problem with the setup or with the contract itself.  Maybe you can try to deploy example contract, like a jetton. (reply to 157565)
+
+Scilef🦉: Since I have to write a wrapper and a deployment script, there is a few chances the problem is on the contract level. And I've deployed this contract before, it's fine (reply to 157577)
+
+Scilef🦉: It calculates the address and after that it says this address is invalid I suppose there is a mess with networks somewhere, I try to deploy to testnet but maybe somehow script calculate address for mainnet
+
+Mojisola🍅 🍅: what exactly is the issue you are having with your contract code or script
+
+Chris: Did you deployed a few times the same contract? It would not work this way. Each deployment must have a slightly different code or parameters (therefore there is often "id" parameter in contract's constructor, to increase it with each deploy). It's because deployment address is calculated based on code and parameters. (reply to 157586)
+
+Scilef🦉: package DOT json
+
+Scilef🦉: I don't know why then Well, everything is solved by latest dependencies and removing conflicts between blueprint and other ones
