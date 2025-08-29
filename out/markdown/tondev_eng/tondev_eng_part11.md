@@ -4735,3 +4735,9 @@ Chris: Did you deployed a few times the same contract? It would not work this wa
 Scilef🦉: package DOT json
 
 Scilef🦉: I don't know why then Well, everything is solved by latest dependencies and removing conflicts between blueprint and other ones
+
+— 2025-08-28 —
+
+Lemon: Hello everyone! I was looking into setting up a regular TON Full node based on the official docs.  The specs say "With validator" and especially the monthly expected traffic (64-100TB/mo) caught my eye. If one runs a full node that is NOT a validator node, does it affect the required CPU/RAM/Monthly traffic?
+
+Mirka: It supposed to be synchronized with the current blockchain state so if you want to have up-to-date data you need a server with good specs (reply to 157647)

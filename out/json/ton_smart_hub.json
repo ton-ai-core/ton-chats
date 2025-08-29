@@ -26295,6 +26295,25 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "Напишите в лс мне: @veetma"
+    },
+    {
+      "id": 4900,
+      "type": "message",
+      "date": "2025-08-28T12:04:36.000Z",
+      "date_unixtime": "1756382676",
+      "from": "Alexandra",
+      "from_id": "user400327836",
+      "text": "Всем привет! Хотим попробовать бота в комьюнити хабе  Upscale, подскажите как стартовать его? уже добавлен как админ"
+    },
+    {
+      "id": 4901,
+      "type": "message",
+      "date": "2025-08-28T12:37:14.000Z",
+      "date_unixtime": "1756384634",
+      "from": "Vladimir",
+      "from_id": "user260316435",
+      "text": "Отписал в лс",
+      "reply_to_message_id": 4900
     }
   ]
 }

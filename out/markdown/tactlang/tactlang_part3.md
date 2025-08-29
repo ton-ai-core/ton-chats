@@ -9179,3 +9179,19 @@ Alessandro: Des raffles, jackpot , systems de vesting and staking bref tout ; sm
 CodeByConte: Merci frère , je viens de de commencer à développer sur la blockchain ton si jamais j’ai des question je peut t’envoyer message ? (reply to 69820)
 
 𝕸𝖚𝖍𝖆𝖒𝖒𝖆𝖉🍋: def ton():      print ("fraud") # code_like_this (reply to 66988)
+
+— 2025-08-28 —
+
+akki: inline fun unInvite(receiver: Address, msg: JettonTransfer) {         throwUnless(NOT_INVITOR, self.invited.del(receiver));         let amount = self.invited.get(receiver)!!;         self.burnInternal(receiver, amount)     }
+
+akki: is this ok or already deleted from store by throwUnless? (reply to 69845)
+
+akki: how much is contract size limit, if any? how to check size?
+
+Anton: https://docs.tact-lang.org/book/exit-codes/#50 (reply to 69849)
+
+𝕸𝖚𝖍𝖆𝖒𝖒𝖆𝖉🍋: so which AI chatbot/ assistant gives you the most efficient codes for Tact?
+
+Lase: any (reply to 69914)
+
+Lase: most of them have basic knowledge on it. If you don't understand what you are doing and read the docs well.  You would just keep on wasting time trying to get AI to do most stuffs for you.
