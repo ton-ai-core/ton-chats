@@ -10325,3 +10325,23 @@ Combot: Bradosty, MT have been banned! Reason: CAS ban.
 — 2025-08-29 —
 
 healthy: hello，thanks
+
+Combot: Hla has been banned! Reason: CAS ban.
+
+Combot: 浩然 has been banned! Reason: CAS ban.
+
+Combot: Mor Ndiaye has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #11 — TG Bot API for Gifts 教你手把手抢Telegram礼物🎁  ✨ 课程亮点   - 如何开发一个监听可售礼物的 bot   - 如何配置 Business Account 来自动管理 Gifts 和 Stars  🔗直播开始啦： https://x.com/i/broadcasts/1YqxolMqnnvKv (forwarded from TON East Asia Hub)
+
+Combot: Klaradani Won has been banned! Reason: CAS ban.
+
+Combot: Erma, احمد عبدالرحمن have been banned! Reason: CAS ban.
+
+Combot: Mahmoud Boushy has been banned! Reason: CAS ban.
+
+Combot: Вікторія Дудар has been banned! Reason: CAS ban.
+
+— 2025-08-30 —
+
+Combot: Mialy Ramiliarihaingo has been banned! Reason: CAS ban.

@@ -9195,3 +9195,7 @@ Anton: https://docs.tact-lang.org/book/exit-codes/#50 (reply to 69849)
 Lase: any (reply to 69914)
 
 Lase: most of them have basic knowledge on it. If you don't understand what you are doing and read the docs well.  You would just keep on wasting time trying to get AI to do most stuffs for you.
+
+— 2025-08-29 —
+
+𝕸𝖚𝖍𝖆𝖒𝖒𝖆𝖉🍋: Not all are equally efficient for complex tasks (reply to 69934)

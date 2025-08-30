@@ -4741,3 +4741,65 @@ Scilef🦉: I don't know why then Well, everything is solved by latest dependenc
 Lemon: Hello everyone! I was looking into setting up a regular TON Full node based on the official docs.  The specs say "With validator" and especially the monthly expected traffic (64-100TB/mo) caught my eye. If one runs a full node that is NOT a validator node, does it affect the required CPU/RAM/Monthly traffic?
 
 Mirka: It supposed to be synchronized with the current blockchain state so if you want to have up-to-date data you need a server with good specs (reply to 157647)
+
+— 2025-08-29 —
+
+bluechip: Hi guys….
+
+bluechip: So…. I’m trying to get TON payment transactions to be monitored via my bot
+
+bluechip: But it doesn’t seem To be working - what’s the best doc repo for me to use?
+
+Mojisola🍅 🍅: have done something related for a client. (reply to 157764)
+
+bluechip: So what methodology do you use to identify the received payment? (reply to 157772)
+
+Mojisola🍅 🍅: bot listen for valid deposit to your address ad process it
+
+bluechip: invoicing and websockets?
+
+Mojisola🍅 🍅: what language are using
+
+Mojisola🍅 🍅: let me refer you to webpage guide
+
+Mojisola🍅 🍅: https://docs.ton.org/v3/guidelines/dapps/asset-processing/payments-processing
+
+Code: Does anybody have any examples of burning a NFT in Tolk that I could look at?
+
+Code: Would you mind sharing? (reply to 157782)
+
+Code: Then this is not an "example project" Nazar haha
+
+Ashees: Hello Ton community, I was developing a smart contract in funC to check the BLS verification in Ton blockchain. I completed the contract and deployed it but when I am running the verify(), it is failing.   If possible, can someone please check and suggest the changes that I have to make in my contract.  This is my code   #include "imports/stdlib.fc";      (int) bls_verify(slice pk, slice msg, slice sgn) asm "BLS_VERIFY";    (slice, slice, slice) load_data() inline {      slice ds = get_data().begin_parse();      cell c1 = ds~load_ref();        slice pk1 = c1.begin_parse();      cell cm = ds~load_ref();        slice msg = cm.begin_parse();      cell cs = ds~load_ref();        slice sig = cs.begin_parse();      return (pk1, msg, sig);  }    () save_data(slice pk1, slice msg, slice sig) impure {      set_data(          begin_cell()              .store_ref(begin_cell().store_slice(pk1).end_cell()) ;; public_key 1              .store_ref(begin_cell().store_slice(msg).end_cell()) ;; message              .store_ref(begin_cell().store_slice(sig).end_cell()) ;; signature              .end_cell()      );  }    (int) verify() {      (slice pk1, slice msg, slice sig) = load_data();      int res1 = bls_verify(pk1, msg, sig);      return res1;  }      ;; Get verification result as integer (1 for success, 0 for failure)  (int) get_verification_result() method_id {      return verify() ? -1 : 0;  }    () send_response(slice dest, int result, int query_id) impure {      var msg = begin_cell()          .store_uint(0x18, 6)          .store_slice(dest)          .store_coins(0)          .store_uint(0, 1 + 4 + 4 + 64 + 32 + 1 + 1)          .store_uint(0x12345678, 32)  ;; response op code          .store_uint(query_id, 64)          .store_uint(result, 32)          .end_cell();      send_raw_message(msg, 64);  }    () recv_internal(int msg_value, cell in_msg_full, slice in_msg_body) impure {       ;; Parse message info      var cs = in_msg_full.begin_parse();      var flags = cs~load_uint(4);            ;; Ignore bounced messages      if (flags & 1) {           return ();       }            ;; Get sender address      slice sender_address = cs~load_msg_addr();            ;; Handle empty message body      if (in_msg_body.slice_empty?()) {           return ();       }            ;; Parse operation code      int op = in_msg_body~load_uint(32);      int query_id = in_msg_body~load_uint(64);            ;; Op 1: Set BLS data (public keys, message, signature)      if (op == 1) {          slice pk1 = in_msg_body~load_ref().begin_parse();          slice msg = in_msg_body~load_ref().begin_parse();          slice sig = in_msg_body~load_ref().begin_parse();                    save_data(pk1, msg, sig);                    ;; Send confirmation          send_response(sender_address, -1, query_id);          return ();      }            ;; Op 2: Perform BLS verification      if (op == 2) {          int verification_result = verify();          int result = verification_result ? -1 : 0;                    ;; Send verification result back to sender          send_response(sender_address, result, query_id);          return ();      }            ;; Op 3: Get current verification result without changing state      if (op == 3) {          int result = get_verification_result();          send_response(sender_address, result, query_id);          return ();      }  }
+
+&rey: Failing in which way? (reply to 157790)
+
+&rey: Please note you can't store -1 with .store_uint method.
+
+Ashees: After deployment, when I am running the verification script, it's calling the verify(), but the transaction is failing. Here is the transaction link  https://testnet.tonscan.org/tx/f20bcf26217b043f782a2cdae7486a2750cfcff05d79d5d7d0db3231a0509f2a
+
+Ashees: I am storing that in int not in uint (reply to 157794)
+
+&rey: This line is in question. (reply to 157790)
+
+&rey: Insufficient TON to complete the computations. BLS verification has very high cost assigned. (reply to 157795)
+
+Ashees: Thanks, let me update it and see
+
+Ashees: Currently I am sending 0.002 Ton. How much shall I send?    async sendVerify(provider: ContractProvider, via: Sender) {          const queryId = Date.now();          const messageBody = beginCell()              .storeUint(2, 32) // op code = 2 (verify)              .storeUint(queryId, 64)              .endCell();          await provider.internal(via, {              value: "0.002", // send 0.002 TON for gas              body: messageBody          });      } (reply to 157798)
+
+&rey: 0.200 should be sufficient. (reply to 157800)
+
+Ashees: Ok
+
+Ashees: It is still failing, I redeployed the contract and also changed store_uint to store_int. But still it's failing.  https://testnet.tonscan.org/tx/97d684f78cfc874ecd53fd023f1acdc7903989a23dd34fe45293a25808adf9d2
+
+Ashees: This is my wrapper file   import { Address, beginCell, Cell, Contract, contractAddress, ContractProvider, Sender, SendMode, Slice } from '@ton/core';    export type BlsVerificationConfig = {};    export function blsVerificationConfigToCell(config: BlsVerificationConfig): Cell {      return beginCell().endCell();  }    export class BlsVerification implements Contract {      constructor(readonly address: Address, readonly init?: { code: Cell; data: Cell }) { }        static createFromAddress(code: Cell, pk1: Slice, msg: Slice, sig: Slice) {          const data = beginCell()              .storeRef(beginCell().storeSlice(pk1).endCell()) // pk1              .storeRef(beginCell().storeSlice(msg).endCell()) // msg              .storeRef(beginCell().storeSlice(sig).endCell()) // sig              .endCell();          const workchain = 0; // deploy to workchain 0          const calculatedAddress = contractAddress(workchain, { code, data });          return new BlsVerification(calculatedAddress, { code, data });      }        static createFromConfig(config: BlsVerificationConfig, code: Cell, workchain = 0) {          const data = blsVerificationConfigToCell(config);          const init = { code, data };          return new BlsVerification(contractAddress(workchain, init), init);      }        async sendDeploy(provider: ContractProvider, via: Sender) {          await provider.internal(via, {              value: "0.8",              bounce: false,          });      }        async sendVerify(provider: ContractProvider, via: Sender) {          const queryId = Date.now();          const messageBody = beginCell()              .storeUint(2, 32) // op code = 2 (verify)              .storeUint(queryId, 64)              .endCell();          await provider.internal(via, {              value: "0.4", // send 0.002 TON for gas              body: messageBody          });      }  }
+
+&rey: You did not fill BLS data with opcode 1, did you? (reply to 157804)
+
+Ashees: I am providing it while I am deploying the contract using my deployment script (reply to 157805)
+
+&rey: This does not seem right then. (reply to 157804)
+
+Ashees: Ok, I will look into it and get back to you (reply to 157807)
