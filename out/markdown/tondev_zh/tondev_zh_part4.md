@@ -10345,3 +10345,17 @@ Combot: Вікторія Дудар has been banned! Reason: CAS ban.
 — 2025-08-30 —
 
 Combot: Mialy Ramiliarihaingo has been banned! Reason: CAS ban.
+
+Combot: N Paul has been banned! Reason: CAS ban.
+
+Combot: RU Saimon has been banned! Reason: CAS ban.
+
+Combot: N P has been banned! Reason: CAS ban.
+
+🐖: #SOL   EP：192.1-188📈  TP：197.5-202-208-215  SL：182.3 (forwarded from Leo-加密貨幣頻道)
+
+— 2025-08-31 —
+
+Combot: 玄霄` Alina, Evranio Wagdy have been banned! Reason: CAS ban.
+
+Combot: Abu muhammad has been banned! Reason: CAS ban.

@@ -4803,3 +4803,15 @@ Ashees: I am providing it while I am deploying the contract using my deployment 
 &rey: This does not seem right then. (reply to 157804)
 
 Ashees: Ok, I will look into it and get back to you (reply to 157807)
+
+— 2025-08-30 —
+
+M: How can I speed up getting a bar on the bot about the number of users.My bot uses telegram mini ap
+
+&rey: English-speaking TON Developers Chat. (reply to 157851)
+
+M: What are you trying to tell me? The question is in English. (reply to 157852)
+
+&rey: Your question is not related to TON at all. It has no place in this chat. (reply to 157851)
+
+M: Telegram not connect to TON? (reply to 157854)
