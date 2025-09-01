@@ -10420,6 +10420,106 @@
       "from_id": "user348244666",
       "text": "Пост про высоколиквидные активы, несколько раз упоминается именно TON/USDT\nДа, на TON пока из высоколиквидных активов только TON:)\nКстати, TAC мы тоже недавно залистили, и там в соотношении с tvl хорошие объёмы",
       "reply_to_message_id": 1139
+    },
+    {
+      "id": 1142,
+      "type": "message",
+      "date": "2025-08-31T09:19:53.000Z",
+      "date_unixtime": "1756631993",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Так сообщение с send_mode 128 может быть только одно\nОно же весь баланс отправляет",
+      "reply_to_message_id": 1141
+    },
+    {
+      "id": 1143,
+      "type": "message",
+      "date": "2025-08-31T09:21:26.000Z",
+      "date_unixtime": "1756632086",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "Ну да, я себе это представляю так, контракт Raffle отправляет весь баланс в контракт RaffleCandidate, затем RaffleCandidate отправляет весь баланс обратно в Raffle или я вообще не врубаюсь как это работает",
+      "reply_to_message_id": 1142
+    },
+    {
+      "id": 1144,
+      "type": "message",
+      "date": "2025-08-31T09:24:17.000Z",
+      "date_unixtime": "1756632257",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Все правильно \nВ рамках одного контракта происходит 2 сообщение с 128?",
+      "reply_to_message_id": 1143
+    },
+    {
+      "id": 1145,
+      "type": "message",
+      "date": "2025-08-31T09:40:29.000Z",
+      "date_unixtime": "1756633229",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "ну вообще да но в разных ветках сценариев, я слежу за тем чтобы последний отправлял 128, по крайней мере я так думаю.\n\nя закинул в репу текущее состояние, бегло прошелся вроде везде убрал свои эксперименты, если не затруднит, может быть я явно где то косячу?\n\nhttps://github.com/cemeheeb/zifretta-raffle-contracts/blob/master/onchain/contracts/raffle-candidate.tolk",
+      "reply_to_message_id": 1144
+    },
+    {
+      "id": 1146,
+      "type": "message",
+      "date": "2025-08-31T09:43:02.000Z",
+      "date_unixtime": "1756633382",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "А сколько в сообщении ты посылаешь?",
+      "reply_to_message_id": 1145
+    },
+    {
+      "id": 1147,
+      "type": "message",
+      "date": "2025-08-31T09:43:11.000Z",
+      "date_unixtime": "1756633391",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "0",
+      "reply_to_message_id": 1146
+    },
+    {
+      "id": 1148,
+      "type": "message",
+      "date": "2025-08-31T09:43:24.000Z",
+      "date_unixtime": "1756633404",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Нене, во входящем сообщении",
+      "reply_to_message_id": 1147
+    },
+    {
+      "id": 1149,
+      "type": "message",
+      "date": "2025-08-31T09:43:46.000Z",
+      "date_unixtime": "1756633426",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "тэкс... а может быть что обилие dump ов съедали баланс?\nпотому что я сейчас их все убрал для того чтобы мусор не лить в репу, и о чудо, тесты начали выполняться",
+      "reply_to_message_id": 1146
+    },
+    {
+      "id": 1150,
+      "type": "message",
+      "date": "2025-08-31T09:44:41.000Z",
+      "date_unixtime": "1756633481",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Да, вполне",
+      "reply_to_message_id": 1149
+    },
+    {
+      "id": 1151,
+      "type": "message",
+      "date": "2025-08-31T09:46:05.000Z",
+      "date_unixtime": "1756633565",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "Ну получается, все ок, а я зря шум поднял.\nНо это конечно неочевидно было.\n\nСпасибо большое за отзывчивость, я думал я все выходные потеряю на этом.",
+      "reply_to_message_id": 1150
     }
   ]
 }

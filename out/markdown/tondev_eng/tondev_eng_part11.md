@@ -4815,3 +4815,23 @@ M: What are you trying to tell me? The question is in English. (reply to 157852)
 &rey: Your question is not related to TON at all. It has no place in this chat. (reply to 157851)
 
 M: Telegram not connect to TON? (reply to 157854)
+
+— 2025-08-31 —
+
+Healer: Did you check the verify function on test scripts via sandbox ?   That's before you deployed? (reply to 157790)
+
+Александр: Hey all. How I can make withelist for my getgems collection ?
+
+&rey: What is the most gas-optimal highload wallet to date? Usage profile: sending a sequence of messages to a fixed address, one at a time, with as much throughput as possible.
+
+Александр: I use telegram wallet, but if I see- getgems hevent WL functionality (reply to 157899)
+
+Code: let me know if you decide on one, I'm also curious to know (reply to 157899)
+
+Combot: Combot has warned Sunny ☀️ (1/3) Reason: 1 reports
+
+Pem: Hi everyone. I am new to TON dev and I'm working on a dApp idea, which requires to send a message from my TON contract to SecretNetwork (Cosmos) chain, I need my Secret contract to publish a private key when and only when a specific TON contract tells it to. I have researched this a lot but the easiest way with Axelar has not been implemented with TON yet (or I could not found any doc on it) and using a third EVM chain seems like a big hassle and gas headache for me. Any insights, examples, or pointers would be really appreciated. 🤲🙏
+
+Mojisola🍅 🍅: what does this mean??? (reply to 157916)
+
+Pem: I am looking for examples or guides on how to call a Secret contract from a TON contract. (reply to 157918)

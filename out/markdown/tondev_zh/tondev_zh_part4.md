@@ -10359,3 +10359,23 @@ Combot: N P has been banned! Reason: CAS ban.
 Combot: 玄霄` Alina, Evranio Wagdy have been banned! Reason: CAS ban.
 
 Combot: Abu muhammad has been banned! Reason: CAS ban.
+
+Combot: Alex Adhikary has been banned! Reason: CAS ban.
+
+Combot: Mya Theingi has been banned! Reason: CAS ban.
+
+Combot: N has been banned! Reason: CAS ban.
+
+Combot: Off SOBHIY has been banned! Reason: CAS ban.
+
+Combot: Van Debeek Nanu has been banned! Reason: CAS ban.
+
+Combot: Abdelbasset BELFEDDAL has been banned! Reason: CAS ban.
+
+Combot: Avis has been banned! Reason: CAS ban.
+
+— 2025-09-01 —
+
+Combot: Speed black has been banned! Reason: CAS ban.
+
+Combot: May Lay has been banned! Reason: CAS ban.

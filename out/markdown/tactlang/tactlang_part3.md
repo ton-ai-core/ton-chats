@@ -9199,3 +9199,11 @@ Lase: most of them have basic knowledge on it. If you don't understand what you 
 — 2025-08-29 —
 
 𝕸𝖚𝖍𝖆𝖒𝖒𝖆𝖉🍋: Not all are equally efficient for complex tasks (reply to 69934)
+
+— 2025-08-31 —
+
+Healer: I wanna learn, am new. AI have been helping me, but I don't have real time devs will you be willing to assist me personally?   Am a newbie , I just wanna grow (reply to 67242)
+
+Healer: Write a code to allow a specific admin to mint or the deployer (reply to 67301)
+
+Healer: Then check for it on test to ensure it passes before deploying
