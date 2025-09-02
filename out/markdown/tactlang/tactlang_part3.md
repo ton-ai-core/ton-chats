@@ -9207,3 +9207,25 @@ Healer: I wanna learn, am new. AI have been helping me, but I don't have real ti
 Healer: Write a code to allow a specific admin to mint or the deployer (reply to 67301)
 
 Healer: Then check for it on test to ensure it passes before deploying
+
+— 2025-09-01 —
+
+akki: is it always true and automatic that "account_id is a hash of the contract’s initial code and state" or can we manually use just initial state for address generation? should we do that? vulnerabilities? is this (address generation or compare) happens when we  contractAddress(initOf JettonWallet(msg.receiver, self.minter, myCode())) here should we always supposed to pass myCode()?
+
+akki: what this pipe operator means here?  mode: SendRemainingBalance | SendIgnoreErrors, what happens when mode: SendRemainingBalance + SendIgnoreErrors,
+
+Anton: bitwise or (reply to 70120)
+
+Anton: just addition  since it is just bitmasks, the end result is the same (reply to 70120)
+
+akki: in layman terms how it affects msg sending (reply to 70121)
+
+akki: what mode should i use if a receiver sends a lot of outgoing say full capacity 255
+
+&rey: a) use SendIgnoreErrors on anything you request from outside the blockchain b) other flags determine how much TON is actually sent, relative to the value/amount indicated in the message (reply to 70123)
+
+akki: if we change op codes for msg like JettonTransferInternal etc will affect its metadata recognition (or even may not recognise as a Jetton token )by tools like explorers and wallet apps?
+
+&rey: JettonTransferInternal is not part of standard, the other ones are.  Metadata is only dependent on get-methods though. (reply to 70160)
+
+akki: outside Blockchain? or also for outside jetton contract  or basically for which we don't have bounced handlers? what's difference in  bounce: true field and SendBounceOnActionFail mode? (reply to 70125)

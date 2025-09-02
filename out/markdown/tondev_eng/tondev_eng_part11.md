@@ -4835,3 +4835,15 @@ Pem: Hi everyone. I am new to TON dev and I'm working on a dApp idea, which requ
 Mojisola🍅 🍅: what does this mean??? (reply to 157916)
 
 Pem: I am looking for examples or guides on how to call a Secret contract from a TON contract. (reply to 157918)
+
+— 2025-09-01 —
+
+Devmustee💎: Kindly check TAC SDK (reply to 157916)
+
+Code: Which RPC provider do people use?
+
+&: Visit Toncenter.com. create your api key
+
+Code: You misunderstood my question - "which" means explain your choice (reply to 157947)
+
+Deeks: What are your biggest struggles developing on TON?

@@ -10379,3 +10379,17 @@ Combot: Avis has been banned! Reason: CAS ban.
 Combot: Speed black has been banned! Reason: CAS ban.
 
 Combot: May Lay has been banned! Reason: CAS ban.
+
+Combot: U Kyaw Gyi has been banned! Reason: CAS ban.
+
+Combot: G23 平平 pingping has been banned! Reason: CAS ban.
+
+Combot: OA has been banned! Reason: CAS ban.
+
+Combot: Coolboyt25 has been banned! Reason: CAS ban.
+
+Combot: 尘世` Houston has been banned! Reason: CAS ban.
+
+— 2025-09-02 —
+
+Combot: Moses Wamundila has been banned! Reason: CAS ban.
