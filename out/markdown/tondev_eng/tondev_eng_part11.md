@@ -4847,3 +4847,47 @@ Code: Which RPC provider do people use?
 Code: You misunderstood my question - "which" means explain your choice (reply to 157947)
 
 Deeks: What are your biggest struggles developing on TON?
+
+— 2025-09-02 —
+
+●▬۩Mohsen۩▬●: Hi there 👋 I want send a jetton automatically to some address  I need use what library for that ? There is any examples?  I want use mnemonic not a wallet like ton keeper (for backend)
+
+&rey: tonutils. (reply to 157984)
+
+●▬۩Mohsen۩▬●: Thankkkk you (reply to 157985)
+
+T: Could someone point me in the director of the smart contract address for the elector smart contract?
+
+&rey: It is -1:3333333333333333333333333333333333333333333333333333333333333333. (reply to 157997)
+
+Code: Does anybody know about deleting smart contracts? Does it refund all gas?
+
+&rey: Refund what, sorry? There was no special fee for deployment, and contract cannot be deleted if it has TON remaining. (reply to 158001)
+
+Code: Imagine there is TON stuck in the contract but no instruction available to withdraw it, then I was hoping delete would cover that too (reply to 158002)
+
+&rey: If there is no instruction to withdraw, then no instruction to delete either. (reply to 158003)
+
+Code: then what is this thing Im reading in the docs (reply to 158001)
+
+Code: but seems docs are incomplete
+
+&rey: 160 = 128 + 32 (reply to 158006)
+
+Code: Another Q, does anybody have any examples of how to make a Tolk contract upgradable?
+
+T: Thank you! Do you know where I can find doccumentation on the methods avilable? I am trying to get data from the contract using a getRunMethod RPC call (reply to 157998)
+
+Tamagoshi: Andrew G Kiba is here?
+
+Anurag: Ohh, yeah live in TON space so forgot this is telegram stars My mistake sir (reply to 158023)
+
+&rey: Please choose a thematic chat instead of continuing offtop here.
+
+&rey: Thematic chat for TMAs is https://t.me/devs, and they may already have an answer.
+
+IDRegistry: Thnx i joined,should i raise my idea there? (reply to 158035)
+
+biomechanic: How quickly is the token verified after creating a yasm file?
+
+Anurag: Thanks for sharing, I wasn't aware of that community. (reply to 158035)

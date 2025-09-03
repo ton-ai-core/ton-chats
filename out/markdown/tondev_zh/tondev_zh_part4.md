@@ -10393,3 +10393,37 @@ Combot: 尘世` Houston has been banned! Reason: CAS ban.
 — 2025-09-02 —
 
 Combot: Moses Wamundila has been banned! Reason: CAS ban.
+
+bf: 大佬们 我想问下现在ton 发送的交易bounce 回弹了 节点已经是查询不到了么 我看浏览器显示变成Failed Transfer 了
+
+Andrew: 发一下钱包地址或者交易 id 之类的看看 (reply to 98750)
+
+bf: https://testnet.tonscan.org/tx/3488088bcdb0159704a8cbfcd5ac7008aa844356ee54a3dcfa443cb7017b02d8
+
+bf: https://testnet.toncenter.com/api/v3/transactionsByMasterchainBlock?seqno=17844537&limit=250&offset=0   从节点查这个区块已经查不到了  是加了安全措施么 (reply to 98751)
+
+Andrew: tonapi.io 的接口比较好查询一点，在浏览器点击这个六边形就可以看到使用哪个接口  https://testnet.tonviewer.com/transaction/8a3318d990cbf992e4102f917417e7fd432274a4fca483650dba8ed4f62f3c84
+
+Andrew: 已经上链的数据不可能查不到，应该是参数问题 (reply to 98753)
+
+bf: 是的 我其实是想确认下 是不是升级了啥的 最近我们系统在重构  我这边是搞区块链安全的 如果是升级了 就不关注这里了 😂 (reply to 98758)
+
+Andrew: 代码和接口肯定会升级，那要具体看了 (reply to 98760)
+
+bf: 好的 谢谢 (reply to 98763)
+
+Leo: 这个接口要提供mc seqno，参数都不对 (reply to 98753)
+
+Katiya｜TON: 💎Coding Challenge 11 - TG Bot API for Gifts  📅9月2日- 9月16日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/TG-Bot-API-for-Gifts-25a5274bd2cf80d7a642c7cf28a00d34 - X 直播回放： https://x.com/TONEastAsia/status/1961390161805414463 👉点击此处pull requests参赛，提交你的代码: https://github.com/ton-builders/ton-coding-challenge-25-round-11 (forwarded from TON East Asia Hub)
+
+Combot: Eloisasvrcekn Klllear has been banned! Reason: CAS ban.
+
+Combot: Tony Stark has been banned! Reason: CAS ban.
+
+Combot: Dương Hỷ has been banned! Reason: CAS ban.
+
+Combot: Abdul. H has been banned! Reason: CAS ban.
+
+Combot: 尘世` Houston has been banned! Reason: CAS ban.
+
+Combot: whendy has been banned! Reason: CAS ban.
