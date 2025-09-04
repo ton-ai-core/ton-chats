@@ -4891,3 +4891,53 @@ IDRegistry: Thnx i joined,should i raise my idea there? (reply to 158035)
 biomechanic: How quickly is the token verified after creating a yasm file?
 
 Anurag: Thanks for sharing, I wasn't aware of that community. (reply to 158035)
+
+— 2025-09-03 —
+
+Alex: Hi everyone, does anyone know how to remove 'suspicious' mark in transactions on my token?
+
+Mojisola🍅 🍅: what wallet is this? (reply to 158077)
+
+Mojisola🍅 🍅: new token may be marked at first but later removed
+
+Alex: This is Telegram wallet (reply to 158078)
+
+Mojisola🍅 🍅: may be due to the amount of token recieved or may be the name of token
+
+Alex: there may be several reasons for the mark to appear, but it disappear for the future? (reply to 158081)
+
+Mojisola🍅 🍅: yea. it do many times disappear (reply to 158083)
+
+Alex: Great, thnx a lot (reply to 158084)
+
+Jimmy: Yo yo, chill (reply to 158089)
+
+Ruslan: Why do my messages get deleted?
+
+Combot: Combot has warned Ruslan (1/3) Reason: Word **** is not allowed
+
+&rey: Payment mention, basically.  What's the kind and complexity of smart contract? Pchan, wallet, DEX router, something else? (reply to 158099)
+
+Ruslan: Utility NFT collection. Essentially it’s set of 3 smart contracts (reply to 158100)
+
+Pelle: Please how can I earn from ton coin?
+
+Teemu | 機器人🪽: Buy low, sell high (reply to 158105)
+
+&rey: Earning examples: completing bounties, creating new projects, participating in contests. (reply to 158105)
+
+T: Where can i find doccumentation for smart contract methods, specifially looking for the elector smart contract
+
+T: Like what methods are avilable to call on it uising the GetRunMethod
+
+&rey: Like, you can see its code, it is written in FunC and supplied with comments?  ;; returns active election id or 0 int active_election_id() method_id {...} ;; checks whether a public key participates in current elections int participates_in(int validator_pubkey) method_id {...} ;; returns the list of all participants of current elections with their stakes _ participant_list() method_id {...} ;; returns the list of all participants of current elections with their data _ participant_list_extended() method_id {...} ;; computes the return stake int compute_returned_stake(int wallet_addr) method_id {...} ;; returns the list of past election ids tuple past_election_ids() method_id {...} tuple past_elections() method_id {...} tuple past_elections_list() method_id {...} cell get_past_complaints(int election_id) inline_ref method_id {...} _ show_complaint(int election_id, int chash) method_id {...} tuple list_complaints(int election_id) method_id {...} int complaint_storage_price(int bits, int refs, int expire_in) method_id {...} (reply to 158115)
+
+Sunny ☀️: Could anyone unban a tg gc?
+
+&rey: This is not a relevant chat. Go to Telegram support. (reply to 158121)
+
+— 2025-09-04 —
+
+Jimmy: /stat@combot
+
+Combot: Total messages: 158140

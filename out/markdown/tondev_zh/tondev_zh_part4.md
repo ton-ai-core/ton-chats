@@ -10427,3 +10427,33 @@ Combot: Abdul. H has been banned! Reason: CAS ban.
 Combot: 尘世` Houston has been banned! Reason: CAS ban.
 
 Combot: whendy has been banned! Reason: CAS ban.
+
+— 2025-09-03 —
+
+n: TON 归档节点怎么搭建，有人知道吗
+
+Collie: 私 (reply to 98824)
+
+Dr. Awesome Doge: 其實現在已經規劃到很簡單了 (reply to 98824)
+
+Dr. Awesome Doge: 基本上 mytonctrl 一步一步走完就可以了
+
+Dr. Awesome Doge: 主要是這邊
+
+Dr. Awesome Doge: https://github.com/ton-blockchain/mytonctrl
+
+Combot: Amour BONGBELE has been banned! Reason: CAS ban.
+
+Combot: Gilberto Domingos has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🚨 TON 生态 8 月社区大会直播开始啦！  本月议程精彩预告： - Telegram Gaming Day回顾  - WebX 回顾 - 生态最新动态 & Tolk 语言更新  🔗 直播开始啦： https://x.com/i/broadcasts/1lPKqvQrWoEGb (forwarded from TON East Asia Hub)
+
+Combot: Mostakim Tarafdar has been banned! Reason: CAS ban.
+
+Combot: 😛😛 has been banned! Reason: CAS ban.
+
+— 2025-09-04 —
+
+Combot: Ja ck, Fhduu have been banned! Reason: CAS ban.
+
+Combot: Nunu, Musthafa Mustha, 紙人 have been banned! Reason: CAS ban.
