@@ -10457,3 +10457,29 @@ Combot: 😛😛 has been banned! Reason: CAS ban.
 Combot: Ja ck, Fhduu have been banned! Reason: CAS ban.
 
 Combot: Nunu, Musthafa Mustha, 紙人 have been banned! Reason: CAS ban.
+
+Combot: Sugarplum has been banned! Reason: CAS ban.
+
+Combot: فوزي صقر has been banned! Reason: CAS ban.
+
+Combot: John Martin has been banned! Reason: CAS ban.
+
+Combot: Youssef Hamidi has been banned! Reason: CAS ban.
+
+Combot: Robert Perez has been banned! Reason: CAS ban.
+
+Combot: Riyaz Islam has been banned! Reason: CAS ban.
+
+TWO: If some one interested in buying our project @swiftgifts | @swiftgifts_official_bot   Contact me in pm: @web3_shark  Interested in offers
+
+Combot: Feghh has been banned! Reason: CAS ban.
+
+Combot: 绵扇` Гладких has been banned! Reason: CAS ban.
+
+Combot: Maksim Martinov, Nethertonka Kne have been banned! Reason: CAS ban.
+
+— 2025-09-05 —
+
+Combot: Thanakrit Wattananukit has been banned! Reason: CAS ban.
+
+Combot: Hooghkirka God has been banned! Reason: CAS ban.

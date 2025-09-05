@@ -4941,3 +4941,35 @@ Sunny ☀️: Could anyone unban a tg gc?
 Jimmy: /stat@combot
 
 Combot: Total messages: 158140
+
+TECG • Elchapo: hi how can i claim my ton coin gift?
+
+Keep: Withdraw via Fragment? 👀 (reply to 158145)
+
+Dmitry: Looks like a scam attempt. What is the source of this screenshot? Why do you think this app is legit? (reply to 158145)
+
+TECG • Elchapo: yes (reply to 158149)
+
+TECG • Elchapo: lol that telegram (reply to 158150)
+
+Keep: It looks legit (reply to 158150)
+
+Keep: Download Tonkeeper wallet, open fragment via link and connect your wallet, claim your ton (reply to 158152)
+
+TECG • Elchapo: i have bro (reply to 158155)
+
+Keep: Just connect it to fragment and claim your ton, it will be added automatically to your wallet. Sometimes fragment requires KYC (reply to 158156)
+
+TECG • Elchapo: but not reflect (reply to 158158)
+
+Dmitry: It just looks like telegram, no specific info on screenshot. If this is scam - then signing anything it gives to you in tonkeeper may lead to losing all your wallet content (reply to 158152)
+
+Keep: Try using telegram internal wallet (reply to 158159)
+
+Igor: Where and how you get it ? (reply to 158159)
+
+TECG • Elchapo: i dont know how i can get (reply to 158166)
+
+TECG • Elchapo: until now i didnt claim
+
+SanjarSupport: Hello! I want to try to make an analogue of send (crypto wallet) for a start, at least the function of sending and receiving crypto and connecting stores. I myself am still a beginner in programming, I want to do it for the portfolio, I know it is not an easy project and that it will not be ready to go into production, but I think it is worth trying, to gain knowledge and experience What could you advise? Well, to connect ton for a start
