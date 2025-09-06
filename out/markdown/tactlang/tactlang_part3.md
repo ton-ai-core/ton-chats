@@ -9249,3 +9249,11 @@ Es Ist Das: Does somebody knows, how to read map<Int, Int> from Cell?  // Works 
 Anton: you can do an unsafe cast using an empty-body `asm`-function:   asm extends fun unsafeCastToMap(self: Cell): map<Int, Int> { }   … let fromMap = self.storage.unsafeCastToMap(); (reply to 70438)
 
 Es Ist Das: Thanks! Should be enough for my usecase (reply to 70440)
+
+— 2025-09-05 —
+
+Sorry: Hi (reply to 70542)
+
+Sorry: 101997649 (reply to 70542)
+
+Sorry: 🙏🙏 (reply to 70542)

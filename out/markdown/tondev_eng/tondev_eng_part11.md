@@ -4973,3 +4973,13 @@ TECG • Elchapo: i dont know how i can get (reply to 158166)
 TECG • Elchapo: until now i didnt claim
 
 SanjarSupport: Hello! I want to try to make an analogue of send (crypto wallet) for a start, at least the function of sending and receiving crypto and connecting stores. I myself am still a beginner in programming, I want to do it for the portfolio, I know it is not an easy project and that it will not be ready to go into production, but I think it is worth trying, to gain knowledge and experience What could you advise? Well, to connect ton for a start
+
+— 2025-09-05 —
+
+Ted: We're hosting a little MCP Hackathon this weekend If you want to build on TON using only your LLM its now possible. 😎  💰 $1,000 prize pool + Tatum plan for grabs ⏰ Runs all weekend  All online, details & how to join: https://tatum.io/mcp-hackathon  Hope to see you there.
+
+Ashees: Hello, I wanted to ask something related to Ton blockchain.  Is there any library which we can use for implementing merkle proof in tact language?
+
+Nick: Hello everyone,  Quick post: I'm a senior Web3 Product Manager and ex-founder with some immediate availability this evening. I'm offering quick, high-impact support for projects that need an expert second opinion.  This can be a 1-hour live strategy session OR an asynchronous review of your materials. My areas of focus include:  Whitepaper / Litepaper review & editing Tokenomics model feedback Product roadmap critique Go-to-Market (GTM) strategy  My background: https://nicksaperov.xyz  If your team needs to solve a problem in one of these areas tonight, send me a DM.
+
+pid | ton: has anyone tried configuring tolk lsp in helix?

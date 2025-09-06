@@ -10483,3 +10483,15 @@ Combot: Maksim Martinov, Nethertonka Kne have been banned! Reason: CAS ban.
 Combot: Thanakrit Wattananukit has been banned! Reason: CAS ban.
 
 Combot: Hooghkirka God has been banned! Reason: CAS ban.
+
+Combot: 杏雨眠眠` Lin has been banned! Reason: CAS ban.
+
+Combot: Hossain siyam🇧🇩 has been banned! Reason: CAS ban.
+
+Katiya｜TON: ⏰ 距离 2025 香港 WOW 峰会的 TON Zone 只剩几天啦 🌏✨  🎟️🔥 使用代码 WOWTONEA 即可申请 免费标准票！  ⚡ 名额仅限 100 个，先到先得！  由 TONEastAsia 主办，这是你与正在塑造 Telegram 集成 Web3 未来 的 TON 项目面对面的绝佳机会： 🔹 ZARGATES 🔹 FinTax 🔹 TorchTon 🔹 Bobatea 🔹 IMPGameFi  📅 2025 年 9 月 9–10 日 📍 香港 👉 立即注册：https://lu.ma/wow (forwarded from TON East Asia Hub)
+
+Combot: Rhudy has been banned! Reason: CAS ban.
+
+沙灘: QuBitDEX 總冠名首屆台灣區塊鏈線上峰會 (TBOS)，打造亞洲最大線上產業盛會！今天登場！
+
+Combot: Soben has been banned! Reason: CAS ban.
