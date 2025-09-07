@@ -2255,3 +2255,9 @@ f⁧g⁧o⁧d⁧t⁧a: хаха (reply to 1154)
 Ilya: Ну не, не считово Аква уже закрылась (reply to 1154)
 
 Denis: А такт и фанси не закрылись чтоли? (reply to 1154)
+
+— 2025-09-06 —
+
+meowearmuff: бидаск наверное (reply to 1154)
+
+The Open Dev Blog: Думаешь? (reply to 1166)

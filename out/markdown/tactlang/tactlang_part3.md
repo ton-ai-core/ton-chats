@@ -9257,3 +9257,35 @@ Sorry: Hi (reply to 70542)
 Sorry: 101997649 (reply to 70542)
 
 Sorry: 🙏🙏 (reply to 70542)
+
+— 2025-09-06 —
+
+Alex: I’m wondering how to properly use math? I have python function like this one  f=1 / math.sqrt(1 + self.alpha * ton_amount / max_amount) python works with floating numbers, abvoiously we can’t use floats in tact. I can use fixed point calcs but it looks very error prone in more complex calcs. is there any other better ways ?
+
+Shemhamforash: if am not mistaken since its not in python, but in low-level languages (like Tact, Solidity, etc.) you usually don’t have floating-point support, so you need to simulate it (reply to 70562)
+
+Shemhamforash: am pretty sure if you communicate with grok or any other LLM, it can help you simulate your code to a low level (like tact) and you can try that? 🥹
+
+Alex: Yep, I know that floats are not supported. Solution is to use fixed points, eg 1 = 10000 and so on. But it’s very error prone, easy to forget to multiply/divide by fp. So ai wondered if there are other approaches (reply to 70564)
+
+akki: is there any wallet app that allows to send custom ton amount for fees?
+
+akki: coz i have changed logic of receivers and now they are gonna take lots more than standard fees
+
+akki: and out of gas errors are not handled by default ?
+
+&rey: There is no one to handle them, since contract execution terminates at that point. (reply to 70583)
+
+akki: that's why we have this check let ctx = context();         let fwdCount = 1 + sign(msg.forwardTonAmount); // msg.forwardTonAmount is coins, so it's positive         throwUnless(             703,             ctx.value >             msg.forwardTonAmount +             fwdCount * ctx.readForwardFee() +             getForwardFee(walletStateInitCells, walletStateInitBits, false) +             (2 * getComputeFee(gasForTransfer, false) + minTonsForStorage),         ); but isn't it redundant? i mean all wallet apps know (how much value to attach with txn) for popular/standard contracts (reply to 70584)
+
+Shemhamforash: Hmmm can you share the part of the code with me ? (reply to 70567)
+
+&rey: Any do, when connected via TON Connect 2. (reply to 70580)
+
+akki: allows users  Not devs (reply to 70596)
+
+— 2025-09-07 —
+
+大雄: I'm from China and want to make foreign friends.
+
+Alex: there is no tact code yet. I have python calcs I need to migrate following python calcs to tack:   f_early = total_ton / (total_ton + self.K) if total_ton > 0 else 0.0  votes_weighted_sum = sum(v ** self.beta for v in votes) f_balance = math.log2(     1 + votes_weighted_sum / (votes_i ** self.beta + votes_weighted_sum * 0.5)) if votes_weighted_sum > 0 else 1  max_amount = min(total_ton + 1.0, self.max_ton_amount) f_stake = 1 / math.sqrt(1 + self.alpha * ton_amount / max_amount)  vpt = 1 + f_early * f_balance * f_stake   beta and alpha are floats in range 0.5 - 2.0, votes in integers TON like (reply to 70595)

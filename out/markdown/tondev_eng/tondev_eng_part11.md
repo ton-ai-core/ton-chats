@@ -4983,3 +4983,11 @@ Ashees: Hello, I wanted to ask something related to Ton blockchain.  Is there an
 Nick: Hello everyone,  Quick post: I'm a senior Web3 Product Manager and ex-founder with some immediate availability this evening. I'm offering quick, high-impact support for projects that need an expert second opinion.  This can be a 1-hour live strategy session OR an asynchronous review of your materials. My areas of focus include:  Whitepaper / Litepaper review & editing Tokenomics model feedback Product roadmap critique Go-to-Market (GTM) strategy  My background: https://nicksaperov.xyz  If your team needs to solve a problem in one of these areas tonight, send me a DM.
 
 pid | ton: has anyone tried configuring tolk lsp in helix?
+
+— 2025-09-06 —
+
+Combot: Combot has warned Mostafa (1/3) Reason: 1 reports (reply to 158271)
+
+nxrix: I know it's not related to the group topic but does anyone know where I must report an address to get labeled in tonviewer?
+
+nxrix: It's already added to tonscan (reply to 158288)

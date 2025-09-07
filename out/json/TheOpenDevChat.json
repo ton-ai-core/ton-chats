@@ -10584,6 +10584,26 @@
       "from_id": "user2131318261",
       "text": "А такт и фанси не закрылись чтоли?",
       "reply_to_message_id": 1154
+    },
+    {
+      "id": 1166,
+      "type": "message",
+      "date": "2025-09-06T20:42:45.000Z",
+      "date_unixtime": "1757191365",
+      "from": "meowearmuff",
+      "from_id": "user7052198566",
+      "text": "бидаск наверное",
+      "reply_to_message_id": 1154
+    },
+    {
+      "id": 1167,
+      "type": "message",
+      "date": "2025-09-06T21:14:48.000Z",
+      "date_unixtime": "1757193288",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Думаешь?",
+      "reply_to_message_id": 1166
     }
   ]
 }

@@ -10495,3 +10495,13 @@ Combot: Rhudy has been banned! Reason: CAS ban.
 沙灘: QuBitDEX 總冠名首屆台灣區塊鏈線上峰會 (TBOS)，打造亞洲最大線上產業盛會！今天登場！
 
 Combot: Soben has been banned! Reason: CAS ban.
+
+— 2025-09-06 —
+
+Combot: Shanaka Pubudu has been banned! Reason: CAS ban.
+
+Combot: Dj has been banned! Reason: CAS ban.
+
+Combot: GTzeed has been banned! Reason: CAS ban.
+
+Combot: Mike has been banned! Reason: CAS ban.
