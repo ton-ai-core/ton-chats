@@ -10505,3 +10505,17 @@ Combot: Dj has been banned! Reason: CAS ban.
 Combot: GTzeed has been banned! Reason: CAS ban.
 
 Combot: Mike has been banned! Reason: CAS ban.
+
+— 2025-09-07 —
+
+Combot: Ariadna Fabarino has been banned! Reason: CAS ban.
+
+Combot: Alexandra has been banned! Reason: CAS ban.
+
+Combot: Ei Ei Khaing has been banned! Reason: CAS ban.
+
+Combot: Jr Bacs has been banned! Reason: CAS ban.
+
+Combot: 314 has been banned! Reason: CAS ban.
+
+Combot: 杏雨眠眠` Lin has been banned! Reason: CAS ban.

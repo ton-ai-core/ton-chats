@@ -4991,3 +4991,21 @@ Combot: Combot has warned Mostafa (1/3) Reason: 1 reports (reply to 158271)
 nxrix: I know it's not related to the group topic but does anyone know where I must report an address to get labeled in tonviewer?
 
 nxrix: It's already added to tonscan (reply to 158288)
+
+— 2025-09-07 —
+
+ytiruces: Hi! Why NFT Purchase Failed  here -> https://testnet.tonviewer.com/kQBAl7gdi6jpGG027hx1ah3HA3K_Fjc71lwinEuXK1m3FSLY ?
+
+Combot: Combot has warned Dawn Fronk (2/3) Reason: Word **** is not allowed
+
+fade: Archival dump is no longer available on https://archival-dump.ton.org/dumps/ anyone know where to get it?
+
+— 2025-09-08 —
+
+NANA KOJO: Ok
+
+NANA KOJO: Can someone help me
+
+NANA KOJO: I have been doing ton ads but it’s two weeks now they haven’t started running my ads
+
+NANA KOJO: Any help
