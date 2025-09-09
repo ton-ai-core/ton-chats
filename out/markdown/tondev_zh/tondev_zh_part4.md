@@ -10519,3 +10519,17 @@ Combot: Jr Bacs has been banned! Reason: CAS ban.
 Combot: 314 has been banned! Reason: CAS ban.
 
 Combot: 杏雨眠眠` Lin has been banned! Reason: CAS ban.
+
+— 2025-09-08 —
+
+Combot: M.V.4 has been banned! Reason: CAS ban.
+
+Combot: R has been banned! Reason: CAS ban.
+
+Combot: Luis Armando has been banned! Reason: CAS ban.
+
+Combot: Htoo Nanda has been banned! Reason: CAS ban.
+
+— 2025-09-09 —
+
+Combot: Ohh has been banned! Reason: CAS ban.

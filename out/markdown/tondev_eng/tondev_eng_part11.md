@@ -5009,3 +5009,25 @@ NANA KOJO: Can someone help me
 NANA KOJO: I have been doing ton ads but it’s two weeks now they haven’t started running my ads
 
 NANA KOJO: Any help
+
+F: Since recently the archive dump is only available in TON Storage. Here is the list of BAG's: https://archival-dump.ton.org/index/mainnet.json (reply to 158323)
+
+fade: I wasn't aware about the changes, what is BAG and where can i learn more about them? Thank you (reply to 158336)
+
+F: This is something like torrents, I suggest you take a look at TON Torrent, which implements TON Storage: https://github.com/xssnick/TON-Torrent  But if you are asking for installing your own archive node, MyTonCtrl can now install it itself - you just need to select the block from which you want to synchronize during installation, and MTC will download these archive blocks from TON Storage (reply to 158337)
+
+Ashees: This is my test file,     import { Blockchain, SandboxContract, TreasuryContract } from '@ton/sandbox';  import { toNano } from '@ton/core';  import { MerkleProof } from '../build/MerkleProof/MerkleProof_MerkleProof';  import '@ton/test-utils';    describe('MerkleProof', () => {      let blockchain: Blockchain;      let deployer: SandboxContract<TreasuryContract>;      let merkleProof: SandboxContract<MerkleProof>;        beforeEach(async () => {          blockchain = await Blockchain.create();              const merkleProofContract = await MerkleProof.fromInit();          merkleProof = blockchain.openContract(merkleProofContract);             deployer = await blockchain.treasury('deployer');                    const deployResult = await merkleProof.send(              deployer.getSender(),              {                  value: toNano('0.05'),              },              {                  $$type: 'Deploy',                  queryId: 0n,              }          );             expect(deployResult.transactions).toHaveTransaction({              from: deployer.address,              to: merkleProof.address,              deploy: true,              success: true,          });        });        it('should verify proof', async () => {      const root = BigInt("0x68203f90e9d07dc5859259d7536e87a6ba9d345f2552b5b9de2999ddce9ce1bf");      const leaf = BigInt("0x3ac225168df54212a25c1c01fd35bebfea408fdac2e31ddd6f80a4bbf9a5f1cb");      const proof = {          m: new Map([              [0n, BigInt("0xb5553de315e0edf504d9150af82dafa5c4667fa618ed0a6f19c69b41166c5510")],              [1n, BigInt("0xd253a52d4cb00de2895e85f2529e2976e6aaaa5c18106b68ab66813e14415669")],          ]),          length: 2n      };        const result = await (merkleProof as any).getVerify(proof, root, leaf);      expect(result).toBe(true);  });    });    While running it I am getting this error      ● MerkleProof › should verify proof        TypeError: dict.storeDirect is not a function          645 | export function storeTupleIntArray(source: IntArray) {        646 |     const builder = new TupleBuilder();      > 647 |     builder.writeCell(source.m.size > 0 ? beginCell().storeDictDirect(source.m, Dictionary.Keys.BigInt(257), Dictionary.Values.BigInt(257)).endCell() : null);            |                                                       ^        648 |     builder.writeNumber(source.length);        649 |     return builder.build();        650 | }          at Builder.storeDictDirect (node_modules/@ton/core/dist/boc/Builder.js:434:14)        at storeTupleIntArray (build/MerkleProof/MerkleProof_MerkleProof.ts:647:55)        at MerkleProof.getVerify (build/MerkleProof/MerkleProof_MerkleProof.ts:1030:28)        at Proxy.<anonymous> (node_modules/@ton/sandbox/dist/blockchain/Blockchain.js:494:51)        at Object.<anonymous> (tests/MerkleProof.spec.ts:53:47)     Does anyone have any idea to solve it?
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 10 ✅ Approved bounties: 1 🔄 Bounties seeking suggestions: 5  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Aziz: Hello everyone! I'm writing a small Backend service for a TON smart contract delpoyment, I'm trying to inject BOC from a simple Counter script (via Blueprint)  It works fine by using npx blueprint run  But when I generate BOC to run it by using TonConnnect on Web, it somehow makes an error said that something get wrong  Thank for help
+
+fade: Do you know what happened to the public archive node 135.181.177.59:53312, it has been down for serveral months (reply to 158338)
+
+fade: The bot is so broken (reply to 158352)
+
+Combot: Combot has warned fade (3/3) Reason: Word **** is not allowed
+
+Combot: Combot has kicked fade
+
+..: Do public lite-servers have a rate limit?
