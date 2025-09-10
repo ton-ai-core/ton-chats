@@ -5031,3 +5031,7 @@ Combot: Combot has warned fade (3/3) Reason: Word **** is not allowed
 Combot: Combot has kicked fade
 
 ..: Do public lite-servers have a rate limit?
+
+— 2025-09-10 —
+
+Ton: Hi all…. I notice that .ton domains that have expired have no option for me to bid for them. I have raised this with ton support who replied saying “To make the first bid on such a domain, the transaction must contain special data. Unfortunately, there is no ready interface for this. You can try to search for information or ask in the developers' chat:”

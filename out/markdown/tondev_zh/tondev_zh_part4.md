@@ -10533,3 +10533,13 @@ Combot: Htoo Nanda has been banned! Reason: CAS ban.
 — 2025-09-09 —
 
 Combot: Ohh has been banned! Reason: CAS ban.
+
+Combot: Xander Marudo has been banned! Reason: CAS ban.
+
+TON: nobady？
+
+Combot: Mir Sabbir has been banned! Reason: CAS ban.
+
+— 2025-09-10 —
+
+Combot: 杏雨眠眠` Whitley has been banned! Reason: CAS ban.
