@@ -10543,3 +10543,61 @@ Combot: Mir Sabbir has been banned! Reason: CAS ban.
 — 2025-09-10 —
 
 Combot: 杏雨眠眠` Whitley has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #12 — NFT 2.0   📅 9月11日 周四 19:00 (UTC+8)   🔗 注册获得提醒： https://luma.com/mnr0a75r 📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=8ZlDn2PL-OE  👨‍💻 主讲：Andrew · TON 东亚区 Dev Rel      ✨ 课程亮点   - NFT 2.0 在 TON 上引入“版权保护”机制，解决创作者版税难以保障的问题 - 通过链下可变元数据字段（如 royalty_violation）来标记并限制违规交易 - 生态产品（钱包、市场、浏览器）会识别并限制这些违规 NFT 的展示与功能 (forwarded from TON East Asia Hub)
+
+Combot: P P has been banned! Reason: CAS ban.
+
+NFT: Is anyone interested in buying a web3 app?🙂
+
+Combot: Jerierlana Men has been banned! Reason: CAS ban.
+
+Combot: 梦玲珑` Sykes has been banned! Reason: CAS ban.
+
+— 2025-09-11 —
+
+Combot: Yenny has been banned! Reason: CAS ban.
+
+Root: https://tonviewer.com/transaction/22b4b8f9435aa8ecb89831c578a48c628fc8104ccbe64aa8b223762dc9935dc5  怎么知道这笔交易为什么失败了的
+
+Andrew: 当时钱包没有足够的 TON 了 ，忽略后续消息 (reply to 99302)
+
+Root: 好的 谢谢 (reply to 99303)
+
+Root: 当时应该是有0.1ton在的,是不是地址本身还需要留有一定数量,这个数量是怎么来的 (reply to 99303)
+
+Andrew: TVM 执行时候动态计算的 (reply to 99305)
+
+Root: 如果我想在类似情况下保证不会上链失败,我需要保留至少多少余额 (reply to 99307)
+
+Andrew: 你可以定期检查余额，钱包余额不要低于 2 TON 吧 (reply to 99308)
+
+Root: 嗯 我每一笔交易之前都会检查,但是没有设置保留余额 (reply to 99309)
+
+Root: 谢谢
+
+Leo: 应该不是余额的问题 (reply to 99310)
+
+Leo: 你mode别用2就能显示具体错误了
+
+Root: 啊 mode?是啥,创建交易时候的参数嘛? (reply to 99313)
+
+Leo: 对啊 你用代码发的吧 构造交易的参数
+
+Root: 是的用代码发的,我找找这个参数
+
+Root: 应该是WalletMessage 有个mode参数? 我看到我这里默认给的3 (reply to 99315)
+
+Leo: 3 = 2+1 2的位置要clear (reply to 99317)
+
+Root: 如果想保持现有mode的业务逻辑,但是像你说的输出错误,我现在改成1? (reply to 99318)
+
+Root: GPT关于MODE的说明,正确不
+
+Leo: 错的 看官方文档吧
+
+Leo: 先改成1 然后根据错误信息去改你代码的bug 完了mode可以改回去 看业务需要 (reply to 99321)
+
+Root: 好的 谢谢 (reply to 99326)
+
+Combot: 荷露嘟嘟` Moreno has been banned! Reason: CAS ban.

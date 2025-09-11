@@ -5035,3 +5035,29 @@ Combot: Combot has kicked fade
 — 2025-09-10 —
 
 Ton: Hi all…. I notice that .ton domains that have expired have no option for me to bid for them. I have raised this with ton support who replied saying “To make the first bid on such a domain, the transaction must contain special data. Unfortunately, there is no ready interface for this. You can try to search for information or ask in the developers' chat:”
+
+Daniil: is there any vesting/token management solution on TON which I could trust?
+
+Dmitry: You can check domain contract source code https://github.com/ton-blockchain/dns-contract/blob/main/func/nft-item.fc to find correct opcode and msg structure to restart auction on expired domain. I guess you need to read carefully around line 242 (reply to 158435)
+
+Code: https://docs.ton.org/v3/documentation/smart-contracts/contracts-specs/vesting-contract (reply to 158437)
+
+Ton: Thank you for this … I will look into it.  :𝗼) (reply to 158445)
+
+T: Is the source code for this avilable somewhere https://1ixi1.github.io/elector/?
+
+T: I'm trying to see how they decoded the data from the elector smart contract
+
+T: Wait actually better question
+
+T: Can someone point me in the direction of the Ton support chat
+
+&rey: Match against https://tonscan.org/address/Ef8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM0vF#source. (reply to 158474)
+
+&rey: I'm not sure which chat you mean, but your question above is appropriate for https://t.me/tondev_eng . (reply to 158476)
+
+Калыван: Hello everyone, can you see such a project that generates wallets with a beautiful ending? Tell me how I can seal it. I can't do it.... I spent the whole evening on this. I'll get you some coffee for help
+
+— 2025-09-11 —
+
+Root: https://tonviewer.com/transaction/22b4b8f9435aa8ecb89831c578a48c628fc8104ccbe64aa8b223762dc9935dc5  How could I know why this transacion failed?

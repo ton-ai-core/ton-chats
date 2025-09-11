@@ -9289,3 +9289,33 @@ akki: allows users  Not devs (reply to 70596)
 大雄: I'm from China and want to make foreign friends.
 
 Alex: there is no tact code yet. I have python calcs I need to migrate following python calcs to tack:   f_early = total_ton / (total_ton + self.K) if total_ton > 0 else 0.0  votes_weighted_sum = sum(v ** self.beta for v in votes) f_balance = math.log2(     1 + votes_weighted_sum / (votes_i ** self.beta + votes_weighted_sum * 0.5)) if votes_weighted_sum > 0 else 1  max_amount = min(total_ton + 1.0, self.max_ton_amount) f_stake = 1 / math.sqrt(1 + self.alpha * ton_amount / max_amount)  vpt = 1 + f_early * f_balance * f_stake   beta and alpha are floats in range 0.5 - 2.0, votes in integers TON like (reply to 70595)
+
+— 2025-09-10 —
+
+akki: hey we have state, like balance and maxBalance etc and code, like logic of transer if i have some constant state : maxBalance these consts can be upgraded by minter should i store them as state or as consts ? can we partially upgrade state like maxBalance only without affecting balance of users
+
+&rey: Jetton balance of users is not even in the master contract for it to be changeable. (reply to 70759)
+
+akki: that was just hypothetical bro the question is can we partially upgrade state (reply to 70769)
+
+&rey: If you're speaking of data cells, you can change just one variable indeed. If you're speaking of code upgrade, you always have to a) compile a new contract from the scratch, b) ensure its storage is same (technically, cell-ABI-compatible) as the old contract used. (reply to 70773)
+
+akki: so upgrades are just like evm  can't even change the order of state variables up or down in code (reply to 70774)
+
+Amy: f_early = total_ton / (total_ton + self.K) if total_ton > 0 else 0.0  votes_weighted_sum = sum(v ** self.beta for v in votes) f_balance = math.log2(     1 + votes_weighted_sum / (votes_i ** self.beta + votes_weighted_sum * 0.5)) if votes_weighted_sum > 0 else 1  max_amount = min(total_ton + 1.0, self.max_ton_amount) f_stake = 1 / math.sqrt(1 + self.alpha * ton_amount / max_amount)  vpt = 1 + f_early * f_balance * f_stake
+
+Amin Zarei: hi  "I'm sending TON via code, but I can't track the transaction using the TON API. How can I monitor it on-chain?"
+
+Lase: Polling (reply to 70799)
+
+Amin Zarei: its my code  import { WalletContractV5R1, internal, SendMode, Address } from "@ton/ton";   // create internal message     const msg = internal({         to: destinationAddress,         value: amountTON.toString(),         body: beginCell().storeUint(0, 32).storeStringTail(memo).endCell(),     });      // create transfer     const transfer = await contract.createTransfer({         seqno,         secretKey: keyPair.secretKey,         sendMode: SendMode.PAY_GAS_SEPARATELY + SendMode.IGNORE_ERRORS,         messages: [msg],     });  await contract.send(transfer);
+
+Alexander: are you talking about about smth like you are expecting some kind of tx hash from contract.send? (reply to 70801)
+
+Amin Zarei: yes (reply to 70804)
+
+Alexander: there are some kind of topic about how you can generate predictable hash and track it via tonapi
+
+Alexander: https://docs.tonconsole.com/academy/transaction-tracking#how-external-in-normalization-works
+
+Amin Zarei: thanks .but I tested different ways. and it  my message is internal-out . this way for external-in messages its ok . (reply to 70807)
