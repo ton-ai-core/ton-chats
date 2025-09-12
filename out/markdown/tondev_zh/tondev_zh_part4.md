@@ -10601,3 +10601,29 @@ Leo: 先改成1 然后根据错误信息去改你代码的bug 完了mode可以�
 Root: 好的 谢谢 (reply to 99326)
 
 Combot: 荷露嘟嘟` Moreno has been banned! Reason: CAS ban.
+
+Cary: 兄弟们，点这个start会发送一个文本，这个怎么实现的
+
+Andrew: https://ton-org.notion.site/I-TG-Bot-1b25274bd2cf80bfac10ecac014d34f5 (reply to 99334)
+
+Combot: 七巷` has been banned! Reason: CAS ban.
+
+Cary: @andrew_cong 文档看了好久，没找到怎么实现 (reply to 99338)
+
+Andrew: 那你详细看这个 https://grammy.dev/ 吧 (reply to 99344)
+
+Katiya｜TON: Live Coding Course #12 — NFT 2.0直播开始啦！  ✨ 课程亮点   - NFT 2.0 在 TON 上引入“版权保护”机制，解决创作者版税难以保障的问题 - 通过链下可变元数据字段（如 royalty_violation）来标记并限制违规交易 - 生态产品（钱包、市场、浏览器）会识别并限制这些违规 NFT 的展示与功能  🔗直播开始啦： https://x.com/i/broadcasts/1mnGeNbmzBrJX (forwarded from TON East Asia Hub)
+
+Combot: C, Brooklyn Meleene, NISHAAN have been banned! Reason: CAS ban.
+
+Combot: Athalla N. R. Y has been banned! Reason: CAS ban.
+
+iiDuYe ® （奥斯卡·赌爷）: 兄弟们   我需要知道 我有初创的 Telegram基建项目 应该如何找到ton生态的投资人 或者投融顾问
+
+iiDuYe ® （奥斯卡·赌爷）: 我很需要
+
+Combot: nouran mohamed has been banned! Reason: CAS ban.
+
+Combot: rasta has been banned! Reason: CAS ban.
+
+Combot: Kelvious Shadrack has been banned! Reason: CAS ban.

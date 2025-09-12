@@ -5061,3 +5061,15 @@ T: Can someone point me in the direction of the Ton support chat
 — 2025-09-11 —
 
 Root: https://tonviewer.com/transaction/22b4b8f9435aa8ecb89831c578a48c628fc8104ccbe64aa8b223762dc9935dc5  How could I know why this transacion failed?
+
+Denis: sending messages also required some fee. so i just don't have enough ton (reply to 158499)
+
+Root: Thank you (reply to 158508)
+
+Combot: Combot has warned Maller🆓 🦊🦊 (3/3) Reason: Word **** is not allowed
+
+Combot: Combot has kicked Maller🆓 🦊🦊
+
+Don capu: Test coins are different from Flash coins please know that and be specific for what you need before PM
+
+glasderg: hello, this is not really a technical question as per say, but I am looking for a little history lesson on the sticker packs. Is there someone I can email or reach out to to talk about this? Thanks so much! ❤️

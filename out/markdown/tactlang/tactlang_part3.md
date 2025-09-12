@@ -9319,3 +9319,7 @@ Alexander: there are some kind of topic about how you can generate predictable h
 Alexander: https://docs.tonconsole.com/academy/transaction-tracking#how-external-in-normalization-works
 
 Amin Zarei: thanks .but I tested different ways. and it  my message is internal-out . this way for external-in messages its ok . (reply to 70807)
+
+— 2025-09-11 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3) (reply to 70860)
