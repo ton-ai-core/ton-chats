@@ -9323,3 +9323,19 @@ Amin Zarei: thanks .but I tested different ways. and it  my message is internal-
 — 2025-09-11 —
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3) (reply to 70860)
+
+— 2025-09-12 —
+
+akki: now() returns unix time in sec or millisec?
+
+akki: i'm getting exit code 5(range check error) storing result of now() in uint32 ok?
+
+Anton: it’s seconds (reply to 70912)
+
+akki: should i always store token balance related data as Int as coins?
+
+/B4ckSl4sh\: It's a preferable way (reply to 70922)
+
+akki: ?  or choose bigger encoding (reply to 70913)
+
+akki: so encoding is just to save contract storage space  and it should be ok to add two storage variables with different encodings  coz all are treated as int257 during runtime am i correct? (reply to 70924)

@@ -10627,3 +10627,25 @@ Combot: nouran mohamed has been banned! Reason: CAS ban.
 Combot: rasta has been banned! Reason: CAS ban.
 
 Combot: Kelvious Shadrack has been banned! Reason: CAS ban.
+
+— 2025-09-12 —
+
+Katiya｜TON: 💎Coding Challenge 12 - NFT 2.0  📅9月12日- 9月21日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记：https://ton-org.notion.site/TON-NFT-2-0-2655274bd2cf807291edda0280c42e59 - 直播视频： https://www.youtube.com/watch?v=8ZlDn2PL-OE 👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-12/tree/main (forwarded from TON East Asia Hub)
+
+Combot: Flawless Wiltord has been banned! Reason: CAS ban.
+
+Combot: Moni has been banned! Reason: CAS ban.
+
+Combot: Ko Ray has been banned! Reason: CAS ban.
+
+Combot: 陈春梅 has been banned! Reason: CAS ban.
+
+Combot: THAN MYINT has been banned! Reason: CAS ban.
+
+Combot: Naeem islam, Fred Bowens, Chasarae Wheaten have been banned! Reason: CAS ban.
+
+— 2025-09-13 —
+
+Combot: 杏雨眠眠` Whitley has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

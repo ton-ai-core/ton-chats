@@ -5073,3 +5073,35 @@ Combot: Combot has kicked Maller🆓 🦊🦊
 Don capu: Test coins are different from Flash coins please know that and be specific for what you need before PM
 
 glasderg: hello, this is not really a technical question as per say, but I am looking for a little history lesson on the sticker packs. Is there someone I can email or reach out to to talk about this? Thanks so much! ❤️
+
+— 2025-09-12 —
+
+bharath: how someone could add more tokens to liquidity than total supply?? https://tonviewer.com/transaction/c9df6aac005f9d635773b306dd7fc9173210bd43157de0a6c2389db60070fb13
+
+Mojisola🍅 🍅: mint new tokens (reply to 158578)
+
+bharath: But if they mint the totalsupply should increase right??
+
+bharath: And if you look closer the mint authority is revoked
+
+Mojisola🍅 🍅: thought you are deploying new token?
+
+Mojisola🍅 🍅: no way to know this thigh without checking the source code whether funC or Tact code. (reply to 158584)
+
+&rey: That is possible with non-compliant jettons. You are advised not to touch them. (reply to 158578)
+
+bharath: There are many token  deployed via stonkspump which behaves like this
+
+مصطفى محمد: I created a Mini App, but after connecting the wallet and trying to make a deposit, it shows me: “Transaction failed – please check your wallet connection and try again.”
+
+— 2025-09-13 —
+
+Unlimited CHiDON ❣️: Please can someone help me on mini app on ton
+
+Manoj: Ton ka wallet kaise banaaye
+
+Manoj: Koi link ho to share mare 🙏
+
+Manoj: Mai ton Stak karna chahta hu . kaise karu ?
+
+Alex: Hi all. I have a domain mytoken.ton, it is linked to a wallet. How can I make it visible in transactions like here?
