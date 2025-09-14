@@ -5105,3 +5105,31 @@ Manoj: Koi link ho to share mare 🙏
 Manoj: Mai ton Stak karna chahta hu . kaise karu ?
 
 Alex: Hi all. I have a domain mytoken.ton, it is linked to a wallet. How can I make it visible in transactions like here?
+
+Code: Anybody have any examples of upgradable contracts in Tolk?
+
+Mojisola🍅 🍅: why?  can somebody educate on that (reply to 158655)
+
+TECG • Elchapo: it is really hard to claim bro (reply to 158160)
+
+TECG • Elchapo: anyone can help me to how claim this? (reply to 158666)
+
+&rey: The language of this chat is English. (reply to 158611)
+
+Obinna: How do I start
+
+Виконт vangaard: Fragment requires KYC before you can use it (reply to 158669)
+
+TECG • Elchapo: how bro (reply to 158700)
+
+Виконт vangaard: Connect your Telegram to Fragment, complete KYC on Fragment and proceed to withdraw. (reply to 158701)
+
+Виконт vangaard: But last I checked Durov hadn't made TON withdrawal possible, no? (reply to 158702)
+
+Mojisola🍅 🍅: yes. this is correct (reply to 158700)
+
+TECG • Elchapo: i already KYC but i cant withdraw (reply to 158702)
+
+TECG • Elchapo: yes i check but im not sure (reply to 158703)
+
+&rey: This is chat about how to develop on TON, not about what features Telegram offers or does not offer at the moment.

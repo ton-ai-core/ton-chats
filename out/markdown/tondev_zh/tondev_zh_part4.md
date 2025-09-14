@@ -10649,3 +10649,19 @@ Combot: Naeem islam, Fred Bowens, Chasarae Wheaten have been banned! Reason: CAS
 Combot: 杏雨眠眠` Whitley has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Daniel: Halo 我想了解下TON的archive节点如何搭建的 有资料吗 官方文档我看得不是很明白 总是有报错
+
+Combot: Lindsayfaler Lapaced has been banned! Reason: CAS ban.
+
+dkdn: 兄弟们搞技术滴滴，有个AI项目付费很高，有兴趣滴滴AI项目找技术合作方
+
+Combot: 梨涡浅浅` Lin has been banned! Reason: CAS ban.
+
+Combot: Hịu Huỳnh has been banned! Reason: CAS ban.
+
+— 2025-09-14 —
+
+Combot: 云外雁行斜` Bavarly has been banned! Reason: CAS ban.
+
+Combot: 璃芊` has been banned! Reason: CAS ban.

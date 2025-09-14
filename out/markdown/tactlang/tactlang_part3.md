@@ -9339,3 +9339,7 @@ akki: should i always store token balance related data as Int as coins?
 akki: ?  or choose bigger encoding (reply to 70913)
 
 akki: so encoding is just to save contract storage space  and it should be ok to add two storage variables with different encodings  coz all are treated as int257 during runtime am i correct? (reply to 70924)
+
+— 2025-09-14 —
+
+akki: hey  in this SendBounceOnActionFail mode action = ?  a) sending this message (bounce sent to previous/sender() contract)   or  b) processing it in sent contract(bounce sent to this contract)
