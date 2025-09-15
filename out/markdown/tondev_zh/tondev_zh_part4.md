@@ -10665,3 +10665,41 @@ Combot: Hịu Huỳnh has been banned! Reason: CAS ban.
 Combot: 云外雁行斜` Bavarly has been banned! Reason: CAS ban.
 
 Combot: 璃芊` has been banned! Reason: CAS ban.
+
+非小号: 我可以给ton社区的中文项目方，免费做宣传，包括快讯、文章、公众号和推特发布。
+
+非小号: 给ton社区以最大的支持
+
+Combot: 幕黑染琉璃` Smith has been banned! Reason: CAS ban.
+
+ネф̶イω靓号/海外卡: 有api可以查询NFT礼物吗
+
+ネф̶イω靓号/海外卡: 就是某NFT用户名的 收藏品  ton余额  等
+
+Combot: S.A. SOJIB has been banned! Reason: CAS ban.
+
+Combot: Svetlanasokolova0 Shn has been banned! Reason: CAS ban.
+
+Combot: Aung Poe Oo has been banned! Reason: CAS ban.
+
+Combot: C has been banned! Reason: CAS ban.
+
+Mr: Hello, is there anyone in charge here?
+
+Combot: Frederick has been banned! Reason: CAS ban.
+
+Combot: abel superior has been banned! Reason: CAS ban.
+
+Combot: Ilyes Los has been banned! Reason: CAS ban.
+
+— 2025-09-15 —
+
+Combot: Fazel, Maxie have been banned! Reason: CAS ban.
+
+Andrew: - [API V2](https://toncenter.com/api/v2/)：最基本的 TON HTTP API ，以**`/api/v2/*` 开头，**数据由 Liteserver 提供。 - [API V3](https://toncenter.com/api/v3/index.html)：在 V2 版本上新增一些接口，以**`/api/v3/*` 开头，**数据基于 [TON Indexer](https://toncenter.com/api/v2/) 系统。 - 第三方商业 API     - [TON Console API](https://tonapi.io/)：提供更丰富的 API 支持，返回的数据结构类似于 Tonviewer 浏览器 (reply to 99572)
+
+Andrew: english dev group @tondev_eng (reply to 99612)
+
+Combot: 木梳` has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

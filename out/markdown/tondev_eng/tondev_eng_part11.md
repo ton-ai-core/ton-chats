@@ -5133,3 +5133,61 @@ TECG • Elchapo: i already KYC but i cant withdraw (reply to 158702)
 TECG • Elchapo: yes i check but im not sure (reply to 158703)
 
 &rey: This is chat about how to develop on TON, not about what features Telegram offers or does not offer at the moment.
+
+— 2025-09-14 —
+
+Edison: Please help me
+
+Edison: My address was called by the contract to tamper with the auction proceeds address
+
+&rey: What resulted? (reply to 158779)
+
+Edison: Changed the beneficiary address and auctioned my NFT
+
+Edison: He forged a website that looked just like Frogment's, even the domain name was the same.
+
+Edison: please
+
+Edison: Can someone help me?
+
+&rey: That's scam. If auction started that's not recoverable. Sending more money will serve just to lose more. (reply to 158786)
+
+&rey: Report the user to https://t.me/notoscam . (reply to 158792)
+
+Edison: Can't I freeze this scammer's address? I checked his address and he has cheated many people.
+
+&rey: The Open Network is "open" for a reason; as the supermajority of blockchains, it does not support blocking active addresses. No one except Telegram can help you. (reply to 158795)
+
+Великий: Hi guys, can I ask you to give me some test tones for one test?
+
+Mojisola🍅 🍅: Telegram can help block user address? (reply to 158799)
+
+&rey: No. (reply to 158813)
+
+Mr: Hello, I would like to report a fraud committed by a member of the TON team. (reply to 158822)
+
+Mr: He introduced himself as an intern on the TON team, thus instilling trust in people. Then, Solana also came up with a project and pulled the rug.
+
+Mr: He removed his Twitter posts.
+
+Андрей: you shouldn't trust the words of different users (reply to 158837)
+
+Mr: He has the title of approved TON intern team worker. (reply to 158846)
+
+Андрей: is there any confirmation of this on the official websites of the TON? if someone tells me that he is a member of some team, then it is usually a lie. You should always be careful when handling any information (reply to 158847)
+
+&rey: There is confirmation of X's internal systems of who's running which account, in fact. (reply to 158848)
+
+Mr: Dude, the guy has a TON of verified account signs on his Twitter account. (reply to 158848)
+
+Андрей: I don't understand how X works, but I am generally skeptical about all information and recommend double-checking in different sources and on different platforms. (reply to 158849)
+
+Mr: You're right, but I think being approved by TON is a huge source of confidence, my friend. (reply to 158851)
+
+simo: How ican add telegram stars
+
+simo: On mini app
+
+&rey: Off topic for this chat. Please contact https://t.me/devs . (reply to 158856)
+
+simo: Thanks (reply to 158859)

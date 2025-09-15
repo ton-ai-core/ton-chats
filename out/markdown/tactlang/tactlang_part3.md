@@ -9343,3 +9343,15 @@ akki: so encoding is just to save contract storage space  and it should be ok to
 — 2025-09-14 —
 
 akki: hey  in this SendBounceOnActionFail mode action = ?  a) sending this message (bounce sent to previous/sender() contract)   or  b) processing it in sent contract(bounce sent to this contract)
+
+akki: nativeReserve(max(tonBalanceBeforeMsg, minTonsForStorage), ReserveAtMost);         // 0xd53276db -- Cashback to the original Sender         if (msg.responseDestination != null && msgValue > 0) {             MessageParameters {                 to: msg.responseDestination!!,                 value: msgValue,                 mode: SendRemainingBalance | SendIgnoreErrors,                 bounce: false,                 body: JettonExcesses { queryId: msg.queryId }.toCell(),             }.send();         } why do we need to send value: msgValue when we are using SendRemainingBalance? what happens if value: 0
+
+&rey: a. Sending this message. (reply to 71015)
+
+/B4ckSl4sh\: We don't. When SendRemainingBalance is used, value field is ignored (reply to 71022)
+
+akki: this snippet is from official tact jetton contract in JETTONTRANSFERINTERNAL receiver and this msgValue is calculated and changes are tracked/updated so a fix could save little gas (reply to 71048)
+
+/B4ckSl4sh\: Yeah, I know, that will be fixed in https://github.com/tact-lang/jetton/pull/180, we will soon merge that (reply to 71049)
+
+Олег: hi, tact plugin doesn't work with the latest versions of Jetbrain IDEs. Are you going to update it in the near future?
