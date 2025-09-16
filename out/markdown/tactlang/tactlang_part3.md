@@ -9355,3 +9355,17 @@ akki: this snippet is from official tact jetton contract in JETTONTRANSFERINTERN
 /B4ckSl4sh\: Yeah, I know, that will be fixed in https://github.com/tact-lang/jetton/pull/180, we will soon merge that (reply to 71049)
 
 Олег: hi, tact plugin doesn't work with the latest versions of Jetbrain IDEs. Are you going to update it in the near future?
+
+— 2025-09-15 —
+
+/B4ckSl4sh\: good catch thx, I will update the plugin (reply to 71065)
+
+Олег: thx (reply to 71134)
+
+/B4ckSl4sh\: Updated. 0.1.2 version is released, also it features a couple new functions (reply to 71065)
+
+Es Ist Das: Hi! Can we somehow set anycast section as in MsgAddressInt tlb schema, and then parse it to StdAddress?  Originally, I need to set first bits to make consistent shard selection on-chain
+
+/B4ckSl4sh\: I think you are looking for this  https://github.com/tact-lang/jetton/blob/main/src/contracts/shard/jetton-wallet.tact#L49 (reply to 71151)
+
+Es Ist Das: Yes! Thanks a lot! (reply to 71155)

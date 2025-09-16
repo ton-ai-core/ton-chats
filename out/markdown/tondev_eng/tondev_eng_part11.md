@@ -5191,3 +5191,43 @@ simo: On mini app
 &rey: Off topic for this chat. Please contact https://t.me/devs . (reply to 158856)
 
 simo: Thanks (reply to 158859)
+
+— 2025-09-15 —
+
+Виконт vangaard: He has been fired 🤣 (reply to 158852)
+
+Великий: Hi guys, can I ask you to give me some test tones for one test?
+
+Super: Anyone working with RPC? If any dev are in to blockchain data infrastructure connect
+
+&rey: Most projects are calling Toncenter-like RPCs.
+
+Eugene: Yes we at Chainstack offer RPCs for TON and 70+ other networks (reply to 158899)
+
+Super: Appreciate the reply! We’re building Roboton a decentralized marketplace powered by Telegram MiniApps. Real-time analytics, RPC modules, and mempool logic are core to our backend. Would love to sync with anyone working on TON infra or RPC scaling
+
+Code: use this bot: @testgiver_ton_bot (reply to 158892)
+
+Super: Would love to learn more about Chainstack’s setup for TON  especially around WebSocket support, throughput flexibility, and regional endpoint options. We’re onboarding fast and preparing to offer RPC modules to builders in our ecosystem (reply to 158901)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 5  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Super: That’s true  Toncenter RPCs are widely used. We’re building Roboton with modular RPC logic, and looking to support TON with enhanced features like mempool signals, WSS, and region pinned endpoints. Curious if you or anyone here has scaled beyond Toncenter’s setup  especially for high throughput or real time UX (reply to 158900)
+
+Eugene: Here you go: docs.chainstack.com/reference/getting-started-ton (reply to 158905)
+
+Super: I will look and see how to collaborate (reply to 158910)
+
+Super: Can’t you give end point RPC without running node?
+
+&rey: Would that scale at all? (reply to 158914)
+
+&rey: You might be looking for service like Orbs' TON Access, but it degraded silently.
+
+Super: When I have end point it’s easy to request data from blockchain node so we can utilize the data to build our relevant module
+
+Manao: Hey everyone is there someone building a launchpad rn ?
+
+Combot: Combot has warned Chris G (1/3) Reason: Word **** is not allowed
+
+Chris: Hello Everyone I’m Chris CEO of NØBANK. The IdeaTon winner for SSEAHub and we are looking for a TON Blockchain Developer.   Must-Have Skills & Experience  Deep TON expertise: Wallet contracts (v3/v4/v5), TL-B/Cells/BOC, seqno/valid_until, send modes, jettons (TIP-3), DEX routers/liquidity, LiteServer/RPC.  TypeScript expert (modern TS, strict types); comfortable in Next.js/React environments for client-side signing (and/or Node for backend helpers).  Hands-on with ton/ton, ton/core, ton/crypto, TonWeb (or equivalents).  Proven experience building native signing flows (no TonConnect) and direct TX pipelines.  Prior work integrating DEX/DeFi SDKs (ideally STON.fi) and yield protocols.   Security-first mindset: key lifecycle, encryption, biometrics/PIN, phishing-resistant confirmations.  Strong product sensibility: can translate protocol details into a smooth, intuitive swap/stake UI.

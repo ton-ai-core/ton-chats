@@ -10703,3 +10703,23 @@ Andrew: english dev group @tondev_eng (reply to 99612)
 Combot: 木梳` has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 梨涡浅浅` Lin has been banned! Reason: CAS ban.
+
+ネф̶イω靓号/海外卡: 谢谢 (reply to 99636)
+
+Hu: 这么赚钱，为啥还要卖呢
+
+Combot: NAYMUR RAHMAN, - - have been banned! Reason: CAS ban.
+
+Combot: Marcien Mobara has been banned! Reason: CAS ban.
+
+Combot: PR has been banned! Reason: CAS ban.
+
+Combot: Salem has been banned! Reason: CAS ban.
+
+Combot: Aaaaaaaz MM, Lielina have been banned! Reason: CAS ban.
+
+— 2025-09-16 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
