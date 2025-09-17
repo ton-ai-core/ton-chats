@@ -5231,3 +5231,25 @@ Manao: Hey everyone is there someone building a launchpad rn ?
 Combot: Combot has warned Chris G (1/3) Reason: Word **** is not allowed
 
 Chris: Hello Everyone I’m Chris CEO of NØBANK. The IdeaTon winner for SSEAHub and we are looking for a TON Blockchain Developer.   Must-Have Skills & Experience  Deep TON expertise: Wallet contracts (v3/v4/v5), TL-B/Cells/BOC, seqno/valid_until, send modes, jettons (TIP-3), DEX routers/liquidity, LiteServer/RPC.  TypeScript expert (modern TS, strict types); comfortable in Next.js/React environments for client-side signing (and/or Node for backend helpers).  Hands-on with ton/ton, ton/core, ton/crypto, TonWeb (or equivalents).  Proven experience building native signing flows (no TonConnect) and direct TX pipelines.  Prior work integrating DEX/DeFi SDKs (ideally STON.fi) and yield protocols.   Security-first mindset: key lifecycle, encryption, biometrics/PIN, phishing-resistant confirmations.  Strong product sensibility: can translate protocol details into a smooth, intuitive swap/stake UI.
+
+— 2025-09-16 —
+
+Wayfs: Hello, can anyone tell me how to connect a bot to TON, I want my p2p platform to have USDT, Bitcoin, Ethereum, Ton, BNB, SOL cryptocurrencies and Ton, TRC20, BEP20, ERC20, SPL networks in my Wallet
+
+Dmitry: TG bot is a program that runs on your server, so start from https://docs.ton.org/ and learn how to integrate your server-side programming language with corresponding TON SDK (reply to 158962)
+
+Xunibird: I can help you. (reply to 158962)
+
+Adam: Hello Ton, can I complain?
+
+&rey: This is chat about how to develop projects on TON. (reply to 158971)
+
+Anthony: Intellij TON v3.0.0 is the biggest update of the plugin ever.  We have improved every part of the plugin, every supported language. The list of supported languages has expanded, and now the plugin also supports TASM, the future assembler standard in the Tolk language, and Fift assembly has received its improved support as part of Fift support. BoC files are no longer just opaque binary files, you can open them and see the disassembled code! In this version, we also supported the latest release of Tolk 1.1.  Available on JetBrains Marketplace  Read full change-log: https://github.com/ton-blockchain/intellij-ton/releases/tag/v3.0.0 (forwarded from IntelliJ TON Development)
+
+Code: Will there be a VSCode equivalent? Not sure who is using IntelliJ in 2025 haha (reply to 158973)
+
+Anthony: Sure, this is a plugin for VSCode https://docs.ton.org/v3/documentation/smart-contracts/getting-started/ide-plugins#visual-studio-code (reply to 158977)
+
+Anthony: It will be also updated soon
+
+TON Bounty Bridge: ​Swap limit fee  🏷 Developer Tool  Summary:The amount of ton that is needed to swap on ton ecosystem is high so i suggest the cost to be lower ...  Created by saulcarer

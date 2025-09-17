@@ -10723,3 +10723,17 @@ Combot: Aaaaaaaz MM, Lielina have been banned! Reason: CAS ban.
 — 2025-09-16 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 朝暮醉相思` Plyler has been banned! Reason: CAS ban.
+
+Combot: Lê Bảo, 寒烟` Martinez have been banned! Reason: CAS ban.
+
+Combot: Dvoxd has been banned! Reason: CAS ban.
+
+Anthony: Intellij TON v3.0.0 is the biggest update of the plugin ever.  We have improved every part of the plugin, every supported language. The list of supported languages has expanded, and now the plugin also supports TASM, the future assembler standard in the Tolk language, and Fift assembly has received its improved support as part of Fift support. BoC files are no longer just opaque binary files, you can open them and see the disassembled code! In this version, we also supported the latest release of Tolk 1.1.  Available on JetBrains Marketplace  Read full change-log: https://github.com/ton-blockchain/intellij-ton/releases/tag/v3.0.0 (forwarded from IntelliJ TON Development)
+
+Combot: 墨影 has been banned! Reason: CAS ban.
+
+— 2025-09-17 —
+
+Combot: 七巷` Edmonds has been banned! Reason: CAS ban.
