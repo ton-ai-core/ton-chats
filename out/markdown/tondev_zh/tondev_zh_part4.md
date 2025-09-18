@@ -10737,3 +10737,31 @@ Combot: 墨影 has been banned! Reason: CAS ban.
 — 2025-09-17 —
 
 Combot: 七巷` Edmonds has been banned! Reason: CAS ban.
+
+Katiya｜TON: GM, 编程挑战赛第12期你提交了吗？👀还剩下4天Deadline就结束了！  📅9月11日- 9月21日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记：https://ton-org.notion.site/TON-NFT-2-0-2655274bd2cf807291edda0280c42e59 - 直播视频： https://www.youtube.com/watch?v=8ZlDn2PL-OE 👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-12/tree/main (forwarded from TON East Asia Hub)
+
+X: 卡佳，不好意思，9、10轮编程的奖励到现在还没有发放。您能帮忙看一下，这两轮的奖励是否计划发放吗？（只是已经过去一个多月了）🙏 (reply to 99757)
+
+Katiya｜TON: 我刚刚看流程已经结束啦，付款大概会在这周完成～～感谢等待 (reply to 99759)
+
+X: 非常感谢您的回复 (reply to 99760)
+
+Combot: 幕黑染琉璃` Smith has been banned! Reason: CAS ban.
+
+Combot: Al Mamun has been banned! Reason: CAS ban.
+
+Combot: Ja1nagu1 has been banned! Reason: CAS ban.
+
+Combot: Md Mintu has been banned! Reason: CAS ban.
+
+Combot: lyla has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+— 2025-09-18 —
+
+Combot: Max Delgado has been banned! Reason: CAS ban.
+
+Combot: 七巷` has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

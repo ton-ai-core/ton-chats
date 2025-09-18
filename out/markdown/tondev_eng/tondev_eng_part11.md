@@ -5253,3 +5253,37 @@ Anthony: Sure, this is a plugin for VSCode https://docs.ton.org/v3/documentation
 Anthony: It will be also updated soon
 
 TON Bounty Bridge: ​Swap limit fee  🏷 Developer Tool  Summary:The amount of ton that is needed to swap on ton ecosystem is high so i suggest the cost to be lower ...  Created by saulcarer
+
+— 2025-09-17 —
+
+Lee: Hi everyone, does anyone know how to get the USDT for the testnet?
+
+&rey: There is no "the USDT" there. You mint a new jetton, with decimals 6 if needed. (reply to 159017)
+
+Lee: understand. Thank you. i'm try it
+
+Slava: Can you adjust the indentation now? 😅 (reply to 158973)
+
+Petr: yep (reply to 159023)
+
+Slava: Does it respect EditorConfig though? (reply to 159024)
+
+Petr: It should (reply to 159026)
+
+OzzieCrypt: Hey everyone i'm searching for USDT on Testnet but couldn't find it
+
+OzzieCrypt: Is there a faucet for it? can someone help please
+
+&rey: See https://t.me/tondev_eng/159018 (reply to 159032)
+
+OzzieCrypt: Oh okay
+
+OzzieCrypt: I'm trying to mint my token but i get  not enough balance errors although i have ton testnet tokens (reply to 159034)
+
+Dogersen: Hello builders 👋  I’m looking for an experienced TON blockchain developer to collaborate on a new project:  NFT marketplace on TON with auctions and escrow  Smart contracts (FunC/Tact) for offers, auctions, dispute handling  NFT support (TIP-4): minting, selling, reselling  Wallet integration via TON Connect  Mini App (WebApp) interface with social login and notifications  Backend (Node.js or similar) for indexing and APIs   🎯 Goal: build an MVP (smart contracts + Mini App + basic backend) and then continue with long-term development (UI/UX, analytics, premium features, anti-fraud).  If you’re interested, please DM me with your experience and examples of TON projects.  Thanks
+
+「Ж」 VXK PROD: Hello TON friends, What’s the best way to fetch a token price on the TON network? I’m looking for a reliable approach (API, SDK, or on-chain method). Any recommendations?
+
+— 2025-09-18 —
+
+Code: Does anybody have a good method for finding out TX results from a highload wallet? all the docs are for regular wallets only :/, and I cant just call .getTransactions() because there could be hundreds
