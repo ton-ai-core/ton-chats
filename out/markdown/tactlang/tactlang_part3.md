@@ -9375,3 +9375,7 @@ Es Ist Das: Yes! Thanks a lot! (reply to 71155)
 akki: what will happen to any errors if we use neither SendIgnoreErrors nor SendBounceOnActionFail
 
 &rey: Contract's state will remain unchanged, with no outgoing messages either, with the incoming message being silently consumed. (reply to 71246)
+
+— 2025-09-18 —
+
+Lols Anti Spam: Senteego Merten, you were blocked (CAS)  ⚠ This message can be disabled in /config [hide]

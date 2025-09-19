@@ -10765,3 +10765,21 @@ Combot: Max Delgado has been banned! Reason: CAS ban.
 Combot: 七巷` has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+dkdn: 做技术滴滴  搞个项目  web3
+
+Combot: atma Ziyaaaa, nedaa have been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎 Roast Session #6 | TON 线上路演开始啦！  🌟项目介绍：  Capybobo：正在打造新一代 Web3 原生潮玩 IP —— 在这里，游戏、收藏品与现实世界的设计融为一体，带来无缝衔接的体验。  IPFLOW：一个专门的多链 IP 代币收益结算层 —— TON 将作为多链开发的主要链之一。该结算层能够实现内容 IP（如电影、小说）的代币化收益结算与跨链流通，为 IP 持有者提供自动化的收益分配，并为用户提供低门槛的跨链 IP 代币使用体验。  BubbleHeroes：一款 RPG 团队作战解谜游戏。  Bobatea： BobaTea 是首个在 GameFi 网络上采用 共同收益（co-earn）模式 的游戏。游戏中不同水平的玩家都能找到适合自己的游戏代币收益模式。  🔗加入直播间： https://x.com/TONEastAsia/status/1968645232016376217 (forwarded from TON East Asia Hub)
+
+Combot: Awesome Sophia has been banned! Reason: CAS ban.
+
+Combot: Orel Khallaad has been banned! Reason: CAS ban.
+
+Combot: Ellinabarano Pr has been banned! Reason: CAS ban.
+
+Combot: Bulldog, The Unknown A, Stacy Crews, Emeline Williams have been banned! Reason: CAS ban.
+
+— 2025-09-19 —
+
+Combot: Lawsonvogezudul Milman has been banned! Reason: CAS ban.

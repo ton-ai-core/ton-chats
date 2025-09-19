@@ -5287,3 +5287,35 @@ Dogersen: Hello builders 👋  I’m looking for an experienced TON blockchain d
 — 2025-09-18 —
 
 Code: Does anybody have a good method for finding out TX results from a highload wallet? all the docs are for regular wallets only :/, and I cant just call .getTransactions() because there could be hundreds
+
+Code: its also not a reliable pattern because the destination address could be very hot (reply to 159074)
+
+Code: im shocked there isnt a guide for this, confirming TX result is very basics of chain 🙁
+
+&rey: First we need to understand: what do you consider to be the token price? (reply to 159061)
+
+&rey: Not precisely; it will all happen eventually. (reply to 159077)
+
+&rey: Consider Toncenter's /tryLocateSourceTx and /tryLocateResultTx. (reply to 159073)
+
+fade: Im trying to setup an archive node, after downloading blocks using mytonctrl and successfully started the validator, it says this in mytonctrl status Local validator initial sync status: Syncing blocks, last known block was 176496866 s ago Local validator last state serialization: 200 blocks ago Liteserver queries for the past 241 sec (success/error): 0/0 Local validator database size: 7994.7 Gb, 23.1% Based on the current speed, the syncing will take a whoping 9-10 days to finish, is this normal, and is there something I can do to improve the db import performance? Also, in the last 10 hours my database size is smaller by ~15Gb, is it a problem?
+
+OzzieCrypt: Is there a documentattion for payment in telegram? i'm having issues with testnet
+
+OzzieCrypt: i mean for common issues
+
+&rey: Please elaborate where you mean "TON" and where you mean "Telegram", exactly. (reply to 159112)
+
+●▬۩Mohsen۩▬●: I want a .ts or a .js code to continue mined in getgems  Can anyone help ?
+
+fade: can anyone help me with this? (reply to 159111)
+
+Super: Why don’t you use RPC so many provider available it’s easy and not time consuming (reply to 159111)
+
+fade: I needed to do low-level indexing of the entire chain, and using RPC or even dton's private node with a 20 RPS limit just isn't practical (reply to 159142)
+
+F: Yes, it's normal. Such a low speed is associated with some narrow implementation in the node. (reply to 159111)
+
+— 2025-09-19 —
+
+BACKPACKER: Hey, everyone! It's a pleasure to join! We're running a mini app on Telegram for a rewards program. Glad to meet you all here as one of Dev. teams :)
