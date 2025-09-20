@@ -5319,3 +5319,67 @@ F: Yes, it's normal. Such a low speed is associated with some narrow implementat
 — 2025-09-19 —
 
 BACKPACKER: Hey, everyone! It's a pleasure to join! We're running a mini app on Telegram for a rewards program. Glad to meet you all here as one of Dev. teams :)
+
+Code: Pretty sure most people are using Cursor/VSCode/Windsurf (reply to 159160)
+
+Code: These are only IntelliJ products - of course IntelliJ plugin would only be downloaded into IntelliJ apps?
+
+Andrey: Extension for vscode has a little bit less downloads (all time), than IntelliJ plugin downloads for last month (reply to 159162)
+
+Code: Ok just realized VSCode is blocked in Russia (reply to 159165)
+
+Code: probably why, TON community has large Russian population I think - do you have stats on users/devs per region? (just curious)
+
+Andrey: Jetbrains also blocked in Russia, you can’t directly download from marketplace, only from github releases (or using vpn/proxy) (reply to 159167)
+
+Andrey: A recent survey in this chat asked which IDEs developers use. The parity between IntelliJ IDEA and VScode is roughly equal, but the download numbers show different results. I'm not saying VScode is "bad." This is simply a response to the question "Who will use IntelliJ IDEA in 2025?" The answer: at least half of the developers. (reply to 159162)
+
+Code: Understood, thanks for the data, interesting that TON doesn't match my personal social circles (reply to 159170)
+
+Combot: Combot has warned Super Vision (1/3) Reason: Word **** is not allowed (reply to 159143)
+
+Jeffsay: hi guys, can we get usdt on ton testnet? i was looking around for the faucet but i didnt find one
+
+&rey: You can find it at https://t.me/tondev_eng/159018. (reply to 159175)
+
+Jeffsay: i see, thanks mate.   anyway for this v3 api get message does it require the token to be verified to get indexed by the network?
+
+Jeffsay: im trying to find by the body_hash but it seems only transaction from TON that are indexed
+
+&rey: Not 'verified', since the blockchain has no such concept...  Well are you aware of what a jetton is? (reply to 159177)
+
+Jeffsay: something like  ERC-20 standard for tokens and smartcontracts?  hmm actually, ill just play around for now. Im kinda new on this, thank you for the answer..
+
+Super: When I talk about RPC why the message deleted I am a blockchain data analytics and I specially work with RPC it’s easy and fast
+
+Bl0rm: same shit bro have you tried github pages? (reply to 120672)
+
+Anthony: 🫧 Tolk v1.1: built-in map<K,V>, enums, private and readonly fields, method overloads  Two months have passed — maybe you even started to worry about the silence. The reason is simple: I worked on features that are "nice to have" but complex and time-consuming to implement — and they've only just been finished.  ✅ Notable changes in Tolk v1.1:  1. map<K, V> — a convenient zero-overhead wrapper over TVM dictionaries 2. enum — group numeric constants into a distinct type 3. private and readonly fields in structures 4. Overload resolution and partial specialization  PR on GitHub with detailed info.  ✔ Built-in maps  Forget about uDictSetBuilder, sDictGetFirstAsRef, and the endless boilerplate of low-level dict helpers. A universal map<K, V> now fully replaces them.   var m: map<int8, int32> = createEmptyMap(); m.set(1, 10); m.addIfNotExists(9, -90); m.delete(9);   // now: [ 1 => 10 ] m.exists(1);   // true m.isEmpty();   // false   Just m.get() — no need to care about cells and slices under the hood:  val r = m.get(1); if (r.isFound) {   // true     val v = r.loadValue();  // 10 }  // or if the key 100% exists val v = m.mustGet(1);  // 10   Easily iterate forward and backward:  var r = m.findFirst(); while (r.isFound) {     // use r.getKey() and r.loadValue()     r = m.iterateNext(r); }   Any serializable keys and values — it just works:  map<address, Point> map<Point, Cell<Extra>> map<int32, map<int64, bool>> ...   All in all: - self-explanatory methods, nicely suggested by IDEs - DICTISETREF, DICTREPLACE, DICTUREPLACEGET, ... — 100+ asm instructions covered by the type system - all deserialization to/from cells perfectly hidden by high-level API - absolutely zero overhead compared to low-level TVM dictionaries  ✔ Enums  A long-awaited syntax feature for grouping constants.   // will be 0 1 2 enum Color {     Red     Green     Blue }   Being integers at runtime, enums have their own place in the type system. They resemble TypeScript/C++ enums. (Unlike Rust, where each variant may have its own shape. In Tolk we have union types — a more powerful solution)   struct Gradient {     from: Color     to: Color? = null }  var g: Gradient = { from: Color.Blue }; g.from == Color.Red;    // false   Compatible with all language features: auto-serialization, exhaustive pattern matching, generics, etc.  ✔ Private and readonly fields  Fields can now have modifiers: * private — accessible only within methods * readonly — immutable after object creation   struct PosInTuple {     private readonly t: tuple     curIndex: int }  fun PosInTuple.last(mutate self) {     // `t` is visible only in methods     // and cannot be modified     self.curIndex = self.t.size() - 1; }   ✔ Partial specialization  Now it's possible to overload methods for "more specific" implementations:   // general implementation fun Iterator<T>.next(self) { ... }  // a more specific one fun Iterator<Cell<T>>.next(self) { ... }   In complex scenarios, this feature lets you adjust the behavior of specific types while keeping a common interface. It "just works", but internally the compiler was enhanced with shape of types, structural depth, type dominators, and several heuristics.  🌳 After Tolk v1.0 release, many people and companies started migrating from FunC to Tolk. I have received a lot of feedback and requests (and almost zero bug reports, huh). Meanwhile, a bigger roadmap is already in motion. In the near future I'll also try to close long-standing questions around TypeScript wrappers, and deliver proper from-scratch documentation. (forwarded from TOLK lang)
+
+Ryúk: How can I acquire an expired TON domain?
+
+Super: Can I get a assistance regarding ton node or if there is any built in end point rpc I will be looking into this because we are working in blockchain data analysis so we need real time on chain data
+
+&: why don't you use tonconsole?(tonapi)? (reply to 159197)
+
+Super: I can fetch limited less data using toncomsole  tonpai?
+
+&: check out their doc. you can fetch any specific data from there.
+
+&: Why don't you check their doc first? (reply to 159202)
+
+Super: If you don’t know how to works end point why you comments  We are not looking for advice such type
+
+&: Bro this is ETH and we are on TON. ETH is differ from TON. IDK what kinds of data you require. but do not rely on only endpoint. check api services and websockets also. (reply to 159202)
+
+Super: Sorry to share the bot  maybe they not allow if you like we can show more advance information that working on chain data potential
+
+&: you can dm me
+
+Super: As I said I am working  with multiple blockchain so Ton is one of them
+
+Super: I will like to get any advance developer from Ton I will be only discussing regarding ton blockchain topic
+
+Anthony: ✈ TON Connect UI 2.3.1 — PLEASE UPDATE  This continues our push to improve reliability and success rates across the TON ecosystem.  📁 @tonconnect/sdk v3.3.1 📁 @tonconnect/ui v2.3.1 📁 @tonconnect/ui-react v2.3.1  👥 What changed   • BREAKING: ton_proof limits: payload ≤ 128 bytes, domain ≤ 128 bytes, payload + domain ≤ 222 bytes. If you exceed these limits, the connection will fail.   • BREAKING: sendTransaction & signData: requests are now strictly validated against the spec. Non-conformant requests will fail.   • stateInit, payload, and cell now accept both Base64 and Base64URL, auto-converted to Base64 per spec.   • Migrated wallet list URL to https://config.ton.org/wallets-v2.json for improved reliability   • Updated fallback wallets list to match https://config.ton.org/wallets-v2.json   • Client ID added to all deeplinks to allow better UX on the wallet side.   • Improved overall package quality and stability, increased test coverage.  🗒 What to test   • Connect (ton_proof only): ensure your payload and domain sizes are within limits. Typical failure causes: the payload or domain does not meet the limits.   • Send transactions: verify that the request shape, required fields, types, encodings exactly match the spec. Typical failure causes: invalid address format, amount not a string, bad payload/stateInit encoding, unknown fields.   • Sign data: verify the request type and fields are correct. Typical failure causes: wrong type and field combination, bad encoding.  ⬇ To update, run npm install @tonconnect/sdk@3.3.1 @tonconnect/ui@2.3.1 @tonconnect/ui-react@2.3.1  🔗 Specification https://github.com/ton-blockchain/ton-connect/blob/main/requests-responses.md#methods  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-connect/sdk/issues.  ❤ Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! (forwarded from TonTech)
+
+grachzy: Does it make sense to switch from Tact to Tolk? Is there a significant gas saving when using Tolk instead of Tact?

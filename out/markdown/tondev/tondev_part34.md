@@ -8865,3 +8865,123 @@ NFT: Ты можешь распарсить BOC с помощью библиот
 Arsen: да, я это и делаю:     serialized_boc = base64.b64decode(front_boc)     cell = Cell.one_from_boc(serialized_boc) использую Cell из  tonsdk.boc В качестве клиента использую: from tonutils.client import ToncenterV3Client (reply to 322330)
 
 NFT: Щас) (reply to 322331)
+
+— 2025-09-19 —
+
+zeroxxx: алгоритм решения: 1. парсишь BoC, получаешь hash транзакции 2. с помощью tonapi, получаешь данные транзакции, валидируешь ее статус (reply to 322327)
+
+Arsen: А boc распарить с помощью ton api? Просто нигде не нашел инфы, как из boc хэш транзакции достать (reply to 322335)
+
+zeroxxx: через tonutils, сейчас скину вам пример кода
+
+zeroxxx: from tonutils.utils import Cell import httpx  client = httpx.AsyncClient(headers={"Authorization": f"Bearer {TONAPI_KEY}"}, timeout=5)   def get_hash_tx_by_boc(boc: bytes | str):     cell = Cell.one_from_boc(boc)     return cell.hash.hex()   async def validate_top_up_tx(         hash_tx: str,         source: str,         amount: int ) -> bool:     response = await client.get(         f"https://tonapi.io/v2/traces/{hash_tx}")     tx_data = response.json()['transaction']     if tx_data["action_phase"]["total_actions"] > tx_data["action_phase"]["skipped_actions"]:         tx_source = tx_data['account']['address']         tx_amount = int(tx_data["in_msg"]["decoded_body"]["actions"][0]["msg"]["message_internal"]["value"]["grams"])         if amount == tx_amount and source == tx_source:             return True     return False  простая реализация, проверяет был ли совершен перевод с N кошелька на N тон
+
+Arsen: И правда простая! Благодарю Вас! 🤝🤝🤝Сегодня попробую (reply to 322338)
+
+Arsen: Не подскажете, source можно откуда в таком случае достать? Адрес кошелька-отправиьеля.
+
+Denis: Мммм. А где вы так проверяете, если не секрет?  Чтоб знать где можно не платить (reply to 322338)
+
+Denis: Не берите этот код (reply to 322340)
+
+zeroxxx: if tx_data["action_phase"]["total_actions"] > tx_data["action_phase"]["skipped_actions"]:         tx_source = tx_data['account']['address']         tx_amount = int(tx_data["in_msg"]["decoded_body"]["actions"][0]["msg"]["message_internal"]["value"]["grams"])         if amount == tx_amount and source == tx_source:             return True  вот тут проверяю сколько всего было действий, сколько пропустилось, то есть если транзакция не дошла, то вернем False, если дошла, сверяем отправителей и сумму транзакции, если нашли - возвращаем True и делаем перевод средств) (reply to 322338)
+
+zeroxxx: проверьте код самостоятельно, если транзакция будет отменена, функция вернет False, в коде не должно быть логических ошибок
+
+zeroxxx: tx_source = tx_data['account']['address'] в этой строчке мы получаем адрес отправителя (reply to 322340)
+
+&rey: О, да там много проблем! Не считая использования трейса, конечно. (reply to 322342)
+
+X1ag: Вот это разве не всегда True будет? (reply to 322338)
+
+Denis: Ну главная проблема что вообще пытается проверяться что-то кроме транзакций на получателе (reply to 322347)
+
+Denis: Лучше скажите где работаете (reply to 322346)
+
+Arsen: Такая реализация не подойдет для моих целей ? (reply to 322350)
+
+Denzel': То есть транзакции нужно проверять только на том кошельке который их получает? (reply to 322349)
+
+&rey: Могут начислить несколько тысяч тон в сервисе при том, что на вашем кошельке они не появятся. (reply to 322351)
+
+Denzel': а это проверка? if amount == tx_amount and source == tx_source: (reply to 322353)
+
+МОЛОДОЙ КРИПТО №1: да, только измените строчку  if tx_data["action_phase"]["total_actions"] > tx_data["action_phase"]["skipped_actions"]: на if tx_data["action_phase"]["skipped_actions"] == 0: (reply to 322354)
+
+Denzel': if amount == tx_amount and source == tx_source: это же проверяет на то какой адрес и сколько тон, как то это можно подделать?
+
+МОЛОДОЙ КРИПТО №1: Как это можно подделать? Вы же будете брать кол-во TON и аддрес отправителя с БД и передавать эти данные в функцию, так же советую Вам добавить валидацию что тип транзакции - обычный перевод TON (reply to 322357)
+
+МОЛОДОЙ КРИПТО №1: конечно же такой ни где не работает (reply to 322350)
+
+&rey: Адрес назначения можно же поставить другой, вместо вашего сервиса. (reply to 322357)
+
+BIN: Не соглашайся (reply to 322362)
+
+Denzel': Ну а сравнение с source есть же. Если не попало, то падает с False. Или я что то не понимаю? (reply to 322360)
+
+&rey: source, если что, это откуда отправили. (reply to 322365)
+
+Denzel': Ааа, тогда понятно)))) (reply to 322366)
+
+Arsen: Кто-то может адекватное решение подсказать, пожалуйста?
+
+&rey: Можно взять bicycle, наверно. (reply to 322369)
+
+Arsen: Просто я нашел реализацию в доке на JS, и там как будто бы всё так легко выглядит
+
+МОЛОДОЙ КРИПТО №1: async def validate_top_up_tx(         hash_tx: str,          source: str,          amount: int ) -> bool:     resp = await _client.get(f"https://tonapi.io/v2/traces/{hash_tx}")     data = resp.json().get('transaction', {})      if not data.get('success'):         return False      compute = data.get('compute_phase', {})     if compute.get('skipped') or not compute.get('success'):         return False      action = data.get('action_phase', {})     if action.get('skipped_actions', 0) > 0 or action.get('result_code', -1) != 0:         return False      if data.get('transaction_type') != 'TransOrd':         return False      in_msg = data.get('in_msg', {})     if not in_msg:         return False      decoded = in_msg.get('decoded_body', {})     actions = decoded.get('actions', [])      if not actions:         return False      action_data = actions[0]     msg = action_data.get('msg', {})     internal = msg.get('message_internal', {})      dest_addr = internal.get('dest', '')     if dest_addr != SERVICE_WALLET_ADDRESS:         return False      tx_source = data['account']['address']     tx_amount = int(internal.get('value', {}).get('grams', 0))      return tx_source == source and tx_amount == amount гуры веб3, поправьте если что то не так сделал
+
+&rey: Осуждаем. А если кошелёк отправил вам 255 депозитов из одной транзакции? (reply to 322375)
+
+&rey: И если Денис поменяет структуру возвращаемого трейса?
+
+МОЛОДОЙ КРИПТО №1: а он же не будет это делать, мы будем формировать транзакцию на стороне клиента, там будет пользователь выполнять обычный трансфер TON со своего кошелька на SERVICE_WALLET_ADDRESS
+
+&rey: По своему примеру говорю: с пятого раза я уже дапп открывать не буду, а просто повторю платёж из кошелька, если коммент один и тот же был. (reply to 322378)
+
+Arsen: Благодарю, сегодня попробую! (reply to 322375)
+
+NFT: Делай на js, наф тебе питон 😂 (reply to 322373)
+
+МОЛОДОЙ КРИПТО №1: Решил человек сервер на питоне написать, какая разница, на каком ЯП пишешь backend?) (reply to 322385)
+
+NFT: import asyncio import base64 from copy import deepcopy from tonsdk.boc import Cell, CellBuilder from tonutils.client import ToncenterV3C lient async def parse_and_check_transaction(front_boc_base64: str, api_key: str) -> dict:     """     Парсит BOC external message, ищет соответствующую транзакцию и возвращает её статус.     """     client = ToncenterV3Client(api_key=api_key, is_testnet=False)     # --- 1. Декодируем BOC ---     raw_boc = base64.b64decode(front_boc_base64)     cell = Cell.one_from_boc(raw_boc)     # --- 2. Парсим external message ---     slice_ = cell.begin_parse()     msg_info, state_init, body = slice_.load_msg()     if not msg_info:         return {"error": "invalid external message BOC"}     address_str = msg_info.dest.to_string(True, True, True)     print(f"Адрес назначен ия: {address_str}") # --- 3. Нормализуем сообщение для хэша --- norm_info = deepcopy(msg_info) norm_info.src = None norm_info.ihr_fee = 0 norm_info.import_fee = 0 builder = CellBuilder() builder.store_external_message(norm_info, None, body) norm_cell = builder.end_cell() target_hash = norm_cell.hash() print(f"Хэш external message: {target_has h.hex()}") # --- 4. Ищем транзакцию по адресу --- lt, tx_hash = None, None found_tr = None for _ in range(10): # до 100 tx trs = await client.get_transactions(address_str, limit=10, lt=lt, hash=tx_hash, archival=True) if not trs: break for tr in trs: if tr.in_msg and tr.in_msg.is_external: tr_cell = tr.in_msg.to_cell() tr_info, tr_state_init, tr_body = tr_cell.begin_parse().load_msg() # нормализация входящего сообщения tr_norm = deepcopy(tr_info) tr_norm.src = None tr_norm.ihr_fee = 0 tr_norm.import_fee = 0 b = CellBuilder() b.store_external_message(tr_norm, None, tr_body) tr_norm_cell = b. end_cell() if tr_norm_cell.hash() == target_hash: found_tr = tr break if found_tr: break # пагинация lt = trs[-1].lt tx_hash = trs[-1].hash.hex() if not found_tr: return {"status": "not_found", "address": address_str, "msg_hash": target_hash.hex()} # --- 5. Определяем статус --- compute_ph = getattr(found_tr.description, "compute_ph", None) action_ph = getattr(found_tr.description, "action", None) exit_code = compute_ph.exit_code if compute_ph else None action_success = getattr(action_ph, "success", False) status = "success" if exit_code == 0 and action_success else "failed" return { "status": status, "address": address_str, "msg_hash": target_hash.hex(), "details": { "tx_hash": found_tr.hash.hex(), "exit_code": exit_code, "action_success": action_success, "value_coins": (found_tr.in_msg.value_coins / 1e9) if found_tr.in_msg else 0 } } async def main(): # Пример BOC от фронтенда front_boc = ( ) api_key = " " result = await parse_and_check_transaction(front_boc, api_key) print(result) if name == "main": asyncio.run(main()) (reply to 322383)
+
+&rey: Это что-то странное и опять даёт мне, если я отправлю 1к тон себе, получить столько же в сервисе. (reply to 322387)
+
+fruitful-l: Интересно, bicycle так называется потому что его все переизобрести хотят? (reply to 322397)
+
+Denis: да (reply to 322398)
+
+NFT: import asyncio import base64 from copy import deepcopy  from tonsdk.boc import Cell, CellBuilder from tonutils.client import ToncenterV3Client   async def check_payment(front_boc_base64: str, expected_sender: str, api_key: str) -> dict:     client = ToncenterV3Client(api_key=api_key, is_testnet=False)      # 1. Декодируем BOC     raw_boc = base64.b64decode(front_boc_base64)     cell = Cell.one_from_boc(raw_boc)      # 2. Парсим external message     slice_ = cell.begin_parse()     msg_info, state_init, body = slice_.load_msg()     if not msg_info:         return {"status": "error", "reason": "invalid BOC"}      dest_address = msg_info.dest.to_string(True, True, True)      # 3. Нормализуем для хэша     norm_info = deepcopy(msg_info)     norm_info.src = None     norm_info.ihr_fee = 0     norm_info.import_fee = 0     builder = CellBuilder()     builder.store_external_message(norm_info, None, body)     norm_cell = builder.end_cell()     target_hash = norm_cell.hash()      # 4. Ищем транзакцию     lt, tx_hash = None, None     found_tr = None     for _ in range(10):  # до 100 транзакций         trs = await client.get_transactions(dest_address, limit=10, lt=lt, hash=tx_hash, archival=True)         if not trs:             break          for tr in trs:             if tr.in_msg and tr.in_msg.is_external:                 tr_cell = tr.in_msg.to_cell()                 tr_info, tr_state_init, tr_body = tr_cell.begin_parse().load_msg()                  tr_norm = deepcopy(tr_info)                 tr_norm.src = None                 tr_norm.ihr_fee = 0                 tr_norm.import_fee = 0                 b = CellBuilder()                 b.store_external_message(tr_norm, None, tr_body)                 tr_norm_cell = b.end_cell()                  if tr_norm_cell.hash() == target_hash:                     found_tr = tr                     break         if found_tr:             break          lt = trs[-1].lt         tx_hash = trs[-1].hash.hex()      if not found_tr:         return {"status": "not_found", "msg_hash": target_hash.hex()}      # 5. Проверка отправителя     sender = found_tr.in_msg.src.to_string(True, True, True) if found_tr.in_msg and found_tr.in_msg.src else None     if sender != expected_sender:         return {             "status": "wrong_sender",             "expected": expected_sender,             "actual": sender         }      # 6. Проверка статуса транзакции     compute_ph = getattr(found_tr.description, "compute_ph", None)     action_ph = getattr(found_tr.description, "action", None)      exit_code = compute_ph.exit_code if compute_ph else None     action_success = getattr(action_ph, "success", False)      status = "success" if exit_code == 0 and action_success else "failed"      return {         "status": status,         "msg_hash": target_hash.hex(),         "details": {             "tx_hash": found_tr.hash.hex(),             "sender": sender,             "dest": dest_address,             "exit_code": exit_code,             "action_success": action_success,             "amount": (found_tr.in_msg.value_coins / 1e9) if found_tr.in_msg else 0         }     }   async def main():     front_boc = "..."  # BOC из фронта     api_key = "..."    # API-ключ toncenter     expected_sender = "..."  # Адрес кошелька клиента      result = await check_payment(front_boc, expected_sender, api_key)     print(result)   if name == "main":     asyncio.run(main()) (reply to 322397)
+
+Anthony: 🫧 Tolk v1.1: built-in map<K,V>, enums, private and readonly fields, method overloads  Two months have passed — maybe you even started to worry about the silence. The reason is simple: I worked on features that are "nice to have" but complex and time-consuming to implement — and they've only just been finished.  ✅ Notable changes in Tolk v1.1:  1. map<K, V> — a convenient zero-overhead wrapper over TVM dictionaries 2. enum — group numeric constants into a distinct type 3. private and readonly fields in structures 4. Overload resolution and partial specialization  PR on GitHub with detailed info.  ✔ Built-in maps  Forget about uDictSetBuilder, sDictGetFirstAsRef, and the endless boilerplate of low-level dict helpers. A universal map<K, V> now fully replaces them.   var m: map<int8, int32> = createEmptyMap(); m.set(1, 10); m.addIfNotExists(9, -90); m.delete(9);   // now: [ 1 => 10 ] m.exists(1);   // true m.isEmpty();   // false   Just m.get() — no need to care about cells and slices under the hood:  val r = m.get(1); if (r.isFound) {   // true     val v = r.loadValue();  // 10 }  // or if the key 100% exists val v = m.mustGet(1);  // 10   Easily iterate forward and backward:  var r = m.findFirst(); while (r.isFound) {     // use r.getKey() and r.loadValue()     r = m.iterateNext(r); }   Any serializable keys and values — it just works:  map<address, Point> map<Point, Cell<Extra>> map<int32, map<int64, bool>> ...   All in all: - self-explanatory methods, nicely suggested by IDEs - DICTISETREF, DICTREPLACE, DICTUREPLACEGET, ... — 100+ asm instructions covered by the type system - all deserialization to/from cells perfectly hidden by high-level API - absolutely zero overhead compared to low-level TVM dictionaries  ✔ Enums  A long-awaited syntax feature for grouping constants.   // will be 0 1 2 enum Color {     Red     Green     Blue }   Being integers at runtime, enums have their own place in the type system. They resemble TypeScript/C++ enums. (Unlike Rust, where each variant may have its own shape. In Tolk we have union types — a more powerful solution)   struct Gradient {     from: Color     to: Color? = null }  var g: Gradient = { from: Color.Blue }; g.from == Color.Red;    // false   Compatible with all language features: auto-serialization, exhaustive pattern matching, generics, etc.  ✔ Private and readonly fields  Fields can now have modifiers: * private — accessible only within methods * readonly — immutable after object creation   struct PosInTuple {     private readonly t: tuple     curIndex: int }  fun PosInTuple.last(mutate self) {     // `t` is visible only in methods     // and cannot be modified     self.curIndex = self.t.size() - 1; }   ✔ Partial specialization  Now it's possible to overload methods for "more specific" implementations:   // general implementation fun Iterator<T>.next(self) { ... }  // a more specific one fun Iterator<Cell<T>>.next(self) { ... }   In complex scenarios, this feature lets you adjust the behavior of specific types while keeping a common interface. It "just works", but internally the compiler was enhanced with shape of types, structural depth, type dominators, and several heuristics.  🌳 After Tolk v1.0 release, many people and companies started migrating from FunC to Tolk. I have received a lot of feedback and requests (and almost zero bug reports, huh). Meanwhile, a bigger roadmap is already in motion. In the near future I'll also try to close long-standing questions around TypeScript wrappers, and deliver proper from-scratch documentation. (forwarded from TOLK lang)
+
+&rey: И вот, https://config.ton.org/wallets-v2.json уже готов! (reply to 322273)
+
+Kiba: Удивительные события происходят (reply to 322414)
+
+Tim: Шокирующие новости! (reply to 322414)
+
+cb: Красота 🎉 (reply to 322414)
+
+Denis: ну после ведь :) (reply to 311716)
+
+cb: Тренировочка до отказа вышла 😁
+
+Anthony: ✈ TON Connect UI 2.3.1 — PLEASE UPDATE  This continues our push to improve reliability and success rates across the TON ecosystem.  📁 @tonconnect/sdk v3.3.1 📁 @tonconnect/ui v2.3.1 📁 @tonconnect/ui-react v2.3.1  👥 What changed   • BREAKING: ton_proof limits: payload ≤ 128 bytes, domain ≤ 128 bytes, payload + domain ≤ 222 bytes. If you exceed these limits, the connection will fail.   • BREAKING: sendTransaction & signData: requests are now strictly validated against the spec. Non-conformant requests will fail.   • stateInit, payload, and cell now accept both Base64 and Base64URL, auto-converted to Base64 per spec.   • Migrated wallet list URL to https://config.ton.org/wallets-v2.json for improved reliability   • Updated fallback wallets list to match https://config.ton.org/wallets-v2.json   • Client ID added to all deeplinks to allow better UX on the wallet side.   • Improved overall package quality and stability, increased test coverage.  🗒 What to test   • Connect (ton_proof only): ensure your payload and domain sizes are within limits. Typical failure causes: the payload or domain does not meet the limits.   • Send transactions: verify that the request shape, required fields, types, encodings exactly match the spec. Typical failure causes: invalid address format, amount not a string, bad payload/stateInit encoding, unknown fields.   • Sign data: verify the request type and fields are correct. Typical failure causes: wrong type and field combination, bad encoding.  ⬇ To update, run npm install @tonconnect/sdk@3.3.1 @tonconnect/ui@2.3.1 @tonconnect/ui-react@2.3.1  🔗 Specification https://github.com/ton-blockchain/ton-connect/blob/main/requests-responses.md#methods  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-connect/sdk/issues.  ❤ Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! (forwarded from TonTech)
+
+Anthony: 🎆Tolk: новый язык смарт-контрактов в TON  В новом видео — выступление Александра Кирсанова, разработчика и создателя языка Tolk. Он рассказывает, как новый, более простой и эффективный язык приходит на смену FunC и помогает разработчикам экономить до 50% газа.  Вы узнаете: — Почему FunC был сложным для больших команд и реальных проектов. — Как Tolk решает эти проблемы, делая код чище и понятнее. — О ключевых фичах Tolk: от типизации и структур до умного компилятора.  → Перейти к просмотру на YouTube  Новостной Канал | Сообщество | Форум билдеров | Twitter | VK | YouTube | Twitch (forwarded from TON CIS Hub)
+
+&rey: Ловите пулл реквест) (reply to 322427)
+
+.: все привет
+
+.: кто нибудь пользовался sse от tonapi
+
+Ivan: Добрый вечер! Подскажите, пожалуйста, какой метод использовать для отправки нескольких message в одной транзакции в tonutils?
+
+NFT: Если хочешь максимальный уонтроль над транзакцией (подписать отдельно, проверить, посчитать fee, потом отправить)  используй create_and_send. Если тебе нужно просто сделать несколько переводов разом бери batch_transfer_messages (reply to 322451)
+
+Ivan: спасибо! (reply to 322454)
