@@ -5383,3 +5383,51 @@ Super: I will like to get any advance developer from Ton I will be only discussi
 Anthony: ✈ TON Connect UI 2.3.1 — PLEASE UPDATE  This continues our push to improve reliability and success rates across the TON ecosystem.  📁 @tonconnect/sdk v3.3.1 📁 @tonconnect/ui v2.3.1 📁 @tonconnect/ui-react v2.3.1  👥 What changed   • BREAKING: ton_proof limits: payload ≤ 128 bytes, domain ≤ 128 bytes, payload + domain ≤ 222 bytes. If you exceed these limits, the connection will fail.   • BREAKING: sendTransaction & signData: requests are now strictly validated against the spec. Non-conformant requests will fail.   • stateInit, payload, and cell now accept both Base64 and Base64URL, auto-converted to Base64 per spec.   • Migrated wallet list URL to https://config.ton.org/wallets-v2.json for improved reliability   • Updated fallback wallets list to match https://config.ton.org/wallets-v2.json   • Client ID added to all deeplinks to allow better UX on the wallet side.   • Improved overall package quality and stability, increased test coverage.  🗒 What to test   • Connect (ton_proof only): ensure your payload and domain sizes are within limits. Typical failure causes: the payload or domain does not meet the limits.   • Send transactions: verify that the request shape, required fields, types, encodings exactly match the spec. Typical failure causes: invalid address format, amount not a string, bad payload/stateInit encoding, unknown fields.   • Sign data: verify the request type and fields are correct. Typical failure causes: wrong type and field combination, bad encoding.  ⬇ To update, run npm install @tonconnect/sdk@3.3.1 @tonconnect/ui@2.3.1 @tonconnect/ui-react@2.3.1  🔗 Specification https://github.com/ton-blockchain/ton-connect/blob/main/requests-responses.md#methods  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-connect/sdk/issues.  ❤ Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! (forwarded from TonTech)
 
 grachzy: Does it make sense to switch from Tact to Tolk? Is there a significant gas saving when using Tolk instead of Tact?
+
+— 2025-09-20 —
+
+Artur: Hi! Does minter.ton.org support the Jetton 2.0 standard?
+
+Khosro: Hey everyone,  I'm trying to run an entry proxy on my remote server using the rldp-http-proxy tool, and I have a couple of important questions:  1. Is the generated ADNL address tied to my remote server's IP address? In other words, if my server's IP changes, will I lose my proxy completely?  2. How can I change my server or its IP address without having to update the ADNL address in the .ton domain's DNS records?  https://docs.ton.org/v3/guidelines/web3/ton-proxy-sites/running-your-own-ton-proxy
+
+&rey: If I remember correctly, ADNL address is not bound to IP by itself, and proxy will rebroadcast each IP through DHT. (reply to 159279)
+
+Khosro: I thought the same, but I needed the reassurance you gave me (reply to 159280)
+
+Petr: How is 625 + 331 less than 440 for IntelliJ in September, based on your previous screenshots? 😁 (reply to 159165)
+
+Petr: Survey from ~November 2024 (reply to 159170)
+
+Petr: Tolk is officially recommended for development on TON, and most likely all future contracts will be written in Tolk (reply to 159225)
+
+Code: Would love some help with making a Tolk contract upgradeable please  https://github.com/ton-blockchain/ton/issues/1807
+
+Petr: Check this article as a reference https://docs.tact-lang.org/cookbook/upgrades/#_top  setCode is key here (reply to 159291)
+
+&rey: Especially for developers who are new to the ecosystem and are likely to make mistakes in their first contract(s).  I think this is wrong mechanism to suggest to beginners, rather than redeploying contracts from scratch.
+
+&rey: You missed Tolk vs Tact. (reply to 159292)
+
+Petr: The principles are the same (reply to 159294)
+
+Code: Quite seperate things, a new contract isn't possible sometimes (e.g. NFT contract)  lets say I want to add freezing functionality to my NFT contract in the future, I cant just deploy new contract (reply to 159293)
+
+Code: Thanks Petr I will take a look, but would be nice for the dev team to improve Tolk docs in general (reply to 159295)
+
+Petr: This is definitely planned, see the Tolk 1.1 release post (reply to 159298)
+
+&rey: First, the NFTs you provided to users are contracts (here meaning as in "legal contracts" and not "smart contracts"): they say what can happen to them and users can rely on it. When you add freeze functionality, you are unilaterally walking back on that contract and changing it to be something else.  Upgrading is sometimes convenient, but not in all applications. There are more general solutions of exchanging old tokens to new 1:1. (reply to 159296)
+
+&rey: Having a security bug in upgradeable contract also increases variance of outcomes.
+
+Code: NFTs are not legal contracts lol, and also this is dev chat not legal chat, also you have no idea what im building, and it was just an example for general functionality that is very basic. All mainstream chains let you upgrade contracts and have clear guides (reply to 159300)
+
+&rey: Well each project has choice on their relation to tokens, indeed. (It is best when it is laid out to users clearly as well.)  You sure noticed that I agree that a guide on upgrading is needed? (reply to 159302)
+
+Code: yes yes we should just be more supportive of eachother and not attack each other haha, TON development is hard enough  I have wrote smart contracts on Both EVM and SVM and this is by far the hardest
+
+grachzy: And what about gas? Is there a significant difference with Tact? (reply to 159290)
+
+Petr: Yeah, it's actually much better than FunC, and Tact in some tasks is on par with FunC, in some tasks Tact a bit faster and in some a bit slower, so Tolk is better than Tact in gas 😄  Check this repo: https://github.com/ton-blockchain/tolk-bench
+
+Lekcv |🐾: Gm to all dev in the house. Who is active building and already shipping a project that's still in its early stage and also trying to onboard non tech team members and all should signify.

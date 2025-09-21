@@ -10803,3 +10803,21 @@ Combot: Leonel Quintero has been banned! Reason: CAS ban.
 — 2025-09-20 —
 
 Combot: Aaron Leon has been banned! Reason: CAS ban.
+
+Combot: 七巷` Moseley has been banned! Reason: CAS ban.
+
+Rasoulhabibi: 电子存多少送多少，无私彩日出亿U (reply to 7)
+
+非小号: @tsivarev 有人打广告
+
+Combot: Rasel Ahmed has been banned! Reason: CAS ban.
+
+Combot: Andrea Hernández has been banned! Reason: CAS ban.
+
+Combot: хап has been banned! Reason: CAS ban.
+
+Combot: RrRr has been banned! Reason: CAS ban.
+
+— 2025-09-21 —
+
+Combot: S has been banned! Reason: CAS ban.

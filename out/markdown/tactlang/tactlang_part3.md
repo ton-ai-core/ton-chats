@@ -9379,3 +9379,17 @@ akki: what will happen to any errors if we use neither SendIgnoreErrors nor Send
 — 2025-09-18 —
 
 Lols Anti Spam: Senteego Merten, you were blocked (CAS)  ⚠ This message can be disabled in /config [hide]
+
+— 2025-09-20 —
+
+akki: can i use try catch like if else ? try {             self.burn(msg.amount);         } catch (_e) {             self.debt += msg.amount;         }
+
+Ягор: so it's not a good practice at any language) (reply to 71456)
+
+&rey: Well it all requires that success or failure of burn is determined locally, without messages to other contracts. (reply to 71456)
+
+akki: yeah it's local will it be more efficient than if (self.balance >= msg.amount) {           self.burn(msg.amount);// this throws if balance is less than amount        } else {             self.debt += msg.amount;        } (reply to 71459)
+
+&rey: No, generally. Throwing an exception incurs a fixed additional cost. (reply to 71460)
+
+akki: but i'm handling it using try won't that "not throw exception" (reply to 71461)
