@@ -5431,3 +5431,41 @@ grachzy: And what about gas? Is there a significant difference with Tact? (reply
 Petr: Yeah, it's actually much better than FunC, and Tact in some tasks is on par with FunC, in some tasks Tact a bit faster and in some a bit slower, so Tolk is better than Tact in gas 😄  Check this repo: https://github.com/ton-blockchain/tolk-bench
 
 Lekcv |🐾: Gm to all dev in the house. Who is active building and already shipping a project that's still in its early stage and also trying to onboard non tech team members and all should signify.
+
+— 2025-09-21 —
+
+Harut: Hi everyone. I have a short question. I have smart contracts written in solidity. I want to integrate everything on TON network but I know only solidity. Are there any tools or compilers for compiling from solidity to TON bytecode for deployment? So the main question is how can I deploy or integrate my smart contracts in TON ecosystem.
+
+Teemu | 機器人🪽: Nope (reply to 159347)
+
+Harut: So it is not possible in any way?
+
+Teemu | 機器人🪽: Im pretty sure, but im not a pro
+
+&rey: Automated? Most contracts cannot be transformed in automated way. (reply to 159349)
+
+&rey: You're missing the point that TON is a blockchain of its own and even has different design principles from EVM-compatibles. (reply to 159347)
+
+Harut: Ok. Thanks for answers. I got you
+
+Saulcarer: Hello am saul i want to give a suggestion on ton blockchain change but don't know where right to do so, can i get help here
+
+nxrix: Hello I'm making an app that uses ton connect  I need to verify and generate a secret key for the wallet connected in the app ( offline generated not server side ) but don't know if that's possible and does ton connect give enough info to do that
+
+&: why not. (reply to 159364)
+
+&rey: @ton/crypto plus @ton/ton do offer that, without any need for TON Connect 2. (reply to 159364)
+
+nxrix: I mean the secret key must be unique and only for that wallet so I can also verify the public key to be for that wallet (reply to 159366)
+
+&rey: The frontend will not, ever, obtain secret key for the specific wallet user connected. (reply to 159367)
+
+Saulcarer: Hello on ton blockchain is there a usdt payload or
+
+Teers k 🐾: If there is any ton community developers, please add AI inkeep tool to TON docs website. It would be very useful to learn and understand
+
+Teers k 🐾: Solana and BNB Chain already have that (reply to 159370)
+
+— 2025-09-22 —
+
+&: Why don't you ask here? if it's concerned with TON. (reply to 159372)

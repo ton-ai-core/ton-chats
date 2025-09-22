@@ -10821,3 +10821,11 @@ Combot: RrRr has been banned! Reason: CAS ban.
 — 2025-09-21 —
 
 Combot: S has been banned! Reason: CAS ban.
+
+Combot: EL_NEGRO has been banned! Reason: CAS ban.
+
+Combot: Genesis Mccormick has been banned! Reason: CAS ban.
+
+— 2025-09-22 —
+
+Combot: C has been banned! Reason: CAS ban.
