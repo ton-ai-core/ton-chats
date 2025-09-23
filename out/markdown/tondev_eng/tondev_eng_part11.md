@@ -5469,3 +5469,49 @@ Teers k 🐾: Solana and BNB Chain already have that (reply to 159370)
 — 2025-09-22 —
 
 &: Why don't you ask here? if it's concerned with TON. (reply to 159372)
+
+Howie: where to get coin verified??
+
+𝕠𝕩𝕥𝕙𝕣𝕠𝕨-𝕦𝕟𝕝𝕖𝕤𝕤: Hi devs! 👋 Two Vault standard proposals are shaping TON's DeFi future - your input matters!  📋 TEP-524: Tokenized Vaults Standard for TON Blockchain  Implementation: https://github.com/torch-core/tep-vault-standard  PR: https://github.com/ton-blockchain/TEPs/pull/524  Related Article: https://tonresear.ch/t/tep-524-tokenized-vaults-standard-for-ton-blockchain/42209  📋 TEP-525: Tokenized Vaults  PR: https://github.com/ton-blockchain/TEPs/pull/525  Join the discussion in the PRs and help build the best vault standard for TON!
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 5  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+&rey: Neither standard actually says clearly what a Vault is meant to be. (reply to 159397)
+
+&rey: Thus, scope of applicability is very unclear for coders. Like... would DEX developers need to read the standard? vesting contract developers? who else?
+
+&rey: not to forget HTLC (hash/time lock contracts used for atomic crosschain swaps) (reply to 159400)
+
+Margarita: Hi! I need testnet USDT Jetton for testing. Is there a faucet or can someone send me some test Jettons?
+
+&rey: See https://t.me/tondev_eng/159176 please (reply to 159405)
+
+Marcovaldo: Hi, what about the validators vote that took place on 16 September on BTC teleport? Is there any platform to see vote results?
+
+Vsevolod: TON Connect is a tool to connect wallets, private keys are stored on the local device or custodially (reply to 159364)
+
+Vsevolod: Generation of private keys is connected with wallet creation. That process is connected more to the wallet side, not ton connect
+
+Vsevolod: If you'd like create a wallet for user, should do that having solution for storing key
+
+Vsevolod: Keys storage can be conducted both server and user side
+
+Petra: Hello I'm looking to create a bot that detects token buy and sells Is there any open source project to get started or API that can make my work easier? I don't know where I must start from.
+
+Anthony: https://tonapi.io/ or https://toncenter.com/ (v3) + https://www.privy.io/ or own smart contract + https://ston.fi/ or https://dedust.io/ DEX Aggregator SDK (reply to 159420)
+
+&: I have already developed which monitors mempool and outputs json style data. about known transactions including token transfer. ton transfer. swap(stonfi v1, v2 dedust). etc.. (reply to 159420)
+
+Petra: Is it a public API, bot or open source project? (reply to 159423)
+
+&: I have developed not a "public" or "source" (reply to 159428)
+
+Petra: can I have the code or know how it works? (reply to 159429)
+
+— 2025-09-23 —
+
+Angel: Hello, does anyone know or have a repo that allows you to send two jettons in a single transaction?
+
+Angel: The truth is, I don't know how to do that thing of sending two jettons in a single transaction.
+
+kevin: If you mean in a single external message, that will do

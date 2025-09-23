@@ -10829,3 +10829,19 @@ Combot: Genesis Mccormick has been banned! Reason: CAS ban.
 — 2025-09-22 —
 
 Combot: C has been banned! Reason: CAS ban.
+
+Combot: Michiko Clayton has been banned! Reason: CAS ban.
+
+Combot: Michiko Clayton has been banned! Reason: CAS ban.
+
+𝕠𝕩𝕥𝕙𝕣𝕠𝕨-𝕦𝕟𝕝𝕖𝕤𝕤: 嗨開發者們！👋 兩個 Vault 標準提案正在為 TON DeFi 的未來努力 邀請大家一起來給意見!  📋 TEP-524: Tokenized Vaults Standard for TON Blockchain  Implementation: https://github.com/torch-core/tep-vault-standard  PR: https://github.com/ton-blockchain/TEPs/pull/524  Related Article: https://tonresear.ch/t/tep-524-tokenized-vaults-standard-for-ton-blockchain/42209  📋 TEP-525: Tokenized Vaults  PR: https://github.com/ton-blockchain/TEPs/pull/525  歡迎加入 PR 討論，一起協助打造 TON 最佳的 Vault 標準！
+
+Combot: Reuquenburrou Fuchordosongge has been banned! Reason: CAS ban.
+
+Combot: 忆江南` Howard has been banned! Reason: CAS ban.
+
+Combot: C, C have been banned! Reason: CAS ban.
+
+— 2025-09-23 —
+
+Combot: C has been banned! Reason: CAS ban.
