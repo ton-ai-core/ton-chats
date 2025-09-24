@@ -5515,3 +5515,25 @@ Angel: Hello, does anyone know or have a repo that allows you to send two jetton
 Angel: The truth is, I don't know how to do that thing of sending two jettons in a single transaction.
 
 kevin: If you mean in a single external message, that will do
+
+&: Why not. wallet v5 can send several tx at one time. (reply to 159438)
+
+&rey: Where are you sending from? 1. TON Connect 2: pass multiple messages to sendTransaction. 2. your favorite library handling secret key: it also defines how to create transfer order with multiple messages. 3. smart contract: call send_raw_message multiple times.  For 2 and 3, take care about mode which determines how much TON goes into each message. (reply to 159438)
+
+Anthony: 🔨 Simplifying code coverage in Blueprint  The new update introduces command, which collects coverage reports from all tests into the coverage directory. Update your packages and try it out now!   blueprint test --coverage  📁 @ton/blueprint v0.41.0 – 2025-09-23 📁 @ton/sandbox v0.37.2 – 2025-09-23  ⬇ To update, run npm install @ton/blueprint@latest @ton/sandbox@latest  💡To learn more, visit GitHub pages: https://github.com/ton-org/blueprint, https://github.com/ton-org/sandbox.  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-org/blueprint/issues.  🎁 Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! (forwarded from TonTech)
+
+Steel: Hire someone if you are not knowledgeable enough to do it on your own (reply to 159420)
+
+✶ 𝐀 𝐑 𝐆 𝐎: how can i change my old dns domain, and associate the new one, i tried to contact tonkeep support, but i still haven't received a response after a day.  i associated my wally address with the new DNS domain but the old one still appears.
+
+TON Bounty Bridge: ​Json  🏷 Developer Tool  Summary:{"name": "p2eNFTGame","version": "1.0.0","keywords": ["util", "functional", "server", "client", "bro...  Created by Abdul-cyber147
+
+TON Bounty Bridge: ​Request for additional information to complete draft issue  Created by Abdul-cyber147
+
+— 2025-09-24 —
+
+Nurlan: HI Guys !
+
+Nurlan: I discovered this channel from "Wallet in Telegram" company
+
+Brave: https://github.com/braveltd/fragment-api  :)

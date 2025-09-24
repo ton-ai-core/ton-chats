@@ -10845,3 +10845,31 @@ Combot: C, C have been banned! Reason: CAS ban.
 — 2025-09-23 —
 
 Combot: C has been banned! Reason: CAS ban.
+
+Combot: Hill has been banned! Reason: CAS ban.
+
+Combot: Nann Nann has been banned! Reason: CAS ban.
+
+8767837: 各位大佬 请问下为什么这样写还是能进到exists==0的if里面
+
+Leo: 应该是 (dict, old_value) = ..
+
+8767837: 试过 调用的时候exit code 9 然后试的这个
+
+Leo: cs就一个uint，没有ref当然报错
+
+8767837: 确实可以了 感谢大佬
+
+Combot: Sofya42 Ror has been banned! Reason: CAS ban.
+
+Combot: 而奋斗 has been banned! Reason: CAS ban.
+
+Anthony: 🔨 Simplifying code coverage in Blueprint  The new update introduces command, which collects coverage reports from all tests into the coverage directory. Update your packages and try it out now!   blueprint test --coverage  📁 @ton/blueprint v0.41.0 – 2025-09-23 📁 @ton/sandbox v0.37.2 – 2025-09-23  ⬇ To update, run npm install @ton/blueprint@latest @ton/sandbox@latest  💡To learn more, visit GitHub pages: https://github.com/ton-org/blueprint, https://github.com/ton-org/sandbox.  💬 Encountered issues? Please report them on GitHub at https://github.com/ton-org/blueprint/issues.  🎁 Your feedback and usage examples are crucial. Share your experiences to help us evolve the SDK! (forwarded from TonTech)
+
+Combot: P has been banned! Reason: CAS ban.
+
+— 2025-09-24 —
+
+Andrew: 歡迎來本週六 TON Dev Bootcamp - 澳門站  https://luma.com/7nyhla7y?tk=ids7QA
+
+Katiya｜TON: Live Coding Course #13 — Tolk 1.1 Update   📅 9月25日 周四 19:00 (UTC+8)   📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=roOxHK7eGZM 👨‍💻 主讲：Andrew· TON 东亚区 Dev Rel      ✨ 课程亮点：Tolk 1.1 语法更新 上周 Tolk 发布了最新的 1.1 版本， 更新了 map、枚举、私有和只读标识符等， 大大增强了 Tolk 的可编程性，欢迎参加我们的在线课程了解详情！ (forwarded from TON East Asia Hub)
