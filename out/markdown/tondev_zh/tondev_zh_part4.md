@@ -10873,3 +10873,19 @@ Combot: P has been banned! Reason: CAS ban.
 Andrew: 歡迎來本週六 TON Dev Bootcamp - 澳門站  https://luma.com/7nyhla7y?tk=ids7QA
 
 Katiya｜TON: Live Coding Course #13 — Tolk 1.1 Update   📅 9月25日 周四 19:00 (UTC+8)   📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=roOxHK7eGZM 👨‍💻 主讲：Andrew· TON 东亚区 Dev Rel      ✨ 课程亮点：Tolk 1.1 语法更新 上周 Tolk 发布了最新的 1.1 版本， 更新了 map、枚举、私有和只读标识符等， 大大增强了 Tolk 的可编程性，欢迎参加我们的在线课程了解详情！ (forwarded from TON East Asia Hub)
+
+Combot: 666 has been banned! Reason: CAS ban.
+
+匿名交易平台: 😁😁
+
+Combot: Elvira Ingram has been banned! Reason: CAS ban.
+
+Combot: Anderson Muammar has been banned! Reason: CAS ban.
+
+Combot: C has been banned! Reason: CAS ban.
+
+Combot: Mohammed El MASSAIDI has been banned! Reason: CAS ban.
+
+— 2025-09-25 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

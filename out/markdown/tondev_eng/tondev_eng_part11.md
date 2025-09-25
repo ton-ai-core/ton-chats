@@ -5537,3 +5537,87 @@ Nurlan: HI Guys !
 Nurlan: I discovered this channel from "Wallet in Telegram" company
 
 Brave: https://github.com/braveltd/fragment-api  :)
+
+Mojisola🍅 🍅: grab tutorials (reply to 159420)
+
+Unction: Hi Everyone. I want to create a dex. I don't know how to start. Url is a bit of a problem for me now
+
+A.B.M: Hi, am I allowed to share my X space for calling influencers and promoters?
+
+Code: is it related to TON engineering (reply to 159514)
+
+Code: How is Url a problem (reply to 159510)
+
+A.B.M: Yes, it's a TON project but right now I need promoters to introduce it (reply to 159515)
+
+Code: sounds not related to engineering, so no (reply to 159518)
+
+A.B.M: Okay 🙏🏻
+
+nxrix: How can I get the address of wallet connected using ton connect or provide it a function to be called after connection?
+
+&rey: You are not allowed to do so. (reply to 159514)
+
+nxrix: any idea how to fix these error for ton connect?
+
+Mhdi khosravi: Hello I have a token on mainnet and verified the source from the verify tools of ton network. But still tonkeeper show my token unverified. anyone knows how i must fix it?
+
+&: Did you imported cors module? (reply to 159533)
+
+&rey: Tonkeeper's definition refers to their repository https://github.com/tonkeeper/ton-assets. (reply to 159537)
+
+&rey: Bridge failures are issues of the corresponding wallets. So if those bottom errors bother you, you can report them to, as far as I see, the CEXes. You can also verify if you can or cannot connect the CEX wallet to your own dApp. (reply to 159533)
+
+&rey: The first one, for loading wallets list... ISP is blocking or shadow-blocking the domain perhaps?
+
+Ateeb: Hi team I want to verify my ton reward on explorer which I have earned through staking how can I do that
+
+Ateeb: Or any api which can help me
+
+&rey: That totally depends on which staking service you used. Let's hope that they do have developer docs at all. (reply to 159552)
+
+Ateeb: Let's say I am staking through bitgo platform and whatever they are telling me I have earned as reward   I want to reconcile at my end
+
+Ateeb: Also isn't there any public explorer which can give me the exact details on reward what I have earned
+
+&rey: It is kinda impossible to create because you cannot know what any given contract (and public explorer does not have anything beyond interaction patterns, data and code cell) does. (reply to 159557)
+
+Ateeb: Got it then then how can I reconcile this independently
+
+&rey: They do not seem to publish the interface for TON staking state on Github. The most certain solution would now be to take your transaction hash and trace where the funds went, and if that is a well-known contract type. (reply to 159559)
+
+&rey: And the faster option is, of course, to ask them directly "what is the relevant smart contract and get-method name" then go verifying with that. (reply to 159552)
+
+Ateeb: hello
+
+Ateeb: Hi afaik there is no native way to get rewards data with smart contracts on TON. You'll need to check the difference between the amount that the pool recovers from from the elector at the end of the epoch and the amount that the pool sends at the start of the epoch. This difference is the amount earned.  this i what they have replied
+
+Ateeb: can you help me what this mean
+
+&rey: They are saying that their contract is a nominator pool, supporting an unspecified validator. It is quite complex but possible to calculate the reward by querying, in particular, The Elector; you'd need to know the chosen validator though.
+
+Ateeb: can you help me with this or any formula which can help me
+
+Shahboz: I need to create such a smart contract: If someone sends MyToken (MT) to the wallet → the contract automatically mints sMyToken (sMT) for them.  If someone sends sMT → the contract burns the sMT and sends back the equivalent amount of MT   In both cases, the sender must also include some TON to cover the gas fees   Is there any guide or ready-made example for this?
+
+&: You looks like make a pumpfun style token launchpad smart contract.  DM me for more details. (reply to 159578)
+
+Shahboz: Can you help me with this here? What exactly needs to be done to make it the way I asked? (reply to 159583)
+
+&: I think there's no public repo. bcz there's no standard in this field.  ready-made example??? I don't think so (reply to 159584)
+
+&: code_cowboy. I have developed the platform before and I have researched. Some TON launchpads are using  Shahboz's way to implement token buy/sell action on pumpfun.
+
+Ateeb: They are saying that their contract is a nominator pool, supporting an unspecified validator. It is quite complex but possible to calculate the reward by querying, in particular, The Elector; you'd need to know the chosen validator though.   Can someone help me on this ?
+
+kevin: what is Shahboz's way, can you elaborate ? (reply to 159587)
+
+— 2025-09-25 —
+
+Vinh: hi
+
+BACKPACKER: gm :) (reply to 159625)
+
+Vinh: “Who can help me?”
+
+Vinh: hi bro (reply to 159626)
