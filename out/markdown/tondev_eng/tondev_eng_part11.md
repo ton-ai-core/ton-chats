@@ -5621,3 +5621,23 @@ BACKPACKER: gm :) (reply to 159625)
 Vinh: “Who can help me?”
 
 Vinh: hi bro (reply to 159626)
+
+&rey: For a quick fix, roll version back a bit, it will download the list from Github. (reply to 159632)
+
+Kiba: There no need to roll back, the current version will load wallets from fallback.  DevOps will check the endpoint with wallets list. (reply to 159640)
+
+Seal: Dm (reply to 159652)
+
+grachzy: How can we implement a system where a transaction is confirmed once and can then proceed without requiring further confirmations?
+
+Mojisola🍅 🍅: is that not what TON ecosystem does.  confirmation is only once unlike other networks like ethereum and others
+
+&rey: A subscription plugin: docs contain information on it. (AFAIK it is not installable via any user-centred wallet. Reasons of that people tend to forget, or might not bother to check plugins which later take everything. Your frontend must establish a separate wallet and handle it.)  Please also don't reuse term "transaction" for this, because there is a clearer and more appropriate "payment plan". (reply to 159714)
+
+Code: embedded wallet (reply to 159714)
+
+— 2025-09-26 —
+
+Jimmy: Good night ray (reply to 159716)
+
+MOHAMED LAMINE: https://t.me/Dogiators_bot/game?startapp=HUfNZd2Lm6g71SkG Join me for the hottest game in the Telegram, fight with others, become famous Dogiator, have a chance to make real money and maybe something more.

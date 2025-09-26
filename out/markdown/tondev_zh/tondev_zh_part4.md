@@ -10889,3 +10889,23 @@ Combot: Mohammed El MASSAIDI has been banned! Reason: CAS ban.
 — 2025-09-25 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 木梳` has been banned! Reason: CAS ban.
+
+8767837: 请问一下随机数怎么获取 我按照文档上的写法 结果每次返回的是固定值
+
+Leo: sandbox测的么 可以设置下随机种子
+
+8767837: 测试网测的  我试一下 (reply to 100302)
+
+Leo: 测试网要等下个区块
+
+8767837: 多谢 明天查一查
+
+Katiya｜TON: Live Coding Course #13 — Tolk 1.1 Update直播开始啦！  👨‍💻 主讲：Andrew· TON 东亚区 Dev Rel      ✨ 课程亮点：Tolk 1.1 语法更新 上周 Tolk 发布了最新的 1.1 版本， 更新了 map、枚举、私有和只读标识符等， 大大增强了 Tolk 的可编程性，欢迎参加我们的在线课程了解详情！  🔗直播开始啦： https://x.com/i/broadcasts/1ynJOMXQYmZKR (forwarded from TON East Asia Hub)
+
+Combot: Edwardcarter Flen has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: Richard Proo has been banned! Reason: CAS ban.

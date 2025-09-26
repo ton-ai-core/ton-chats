@@ -9403,3 +9403,13 @@ okolo: Hi there! i have have an init in the contract that takes variables. When 
 — 2025-09-24 —
 
 MARIUSZ: 0x21c103831802A50C3589E8ABc284DAb865A44449
+
+— 2025-09-25 —
+
+akki: will address of contract change when I upgrade its code ?
+
+Lase: When you deploy again. yes (reply to 71726)
+
+Mark: If you want to update an already deployed contract, the address will remain the same. If you are going to redeploy the contract, the address will be changed. (reply to 71726)
+
+###fA: ✋
