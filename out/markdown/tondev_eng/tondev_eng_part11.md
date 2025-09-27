@@ -5641,3 +5641,25 @@ Code: embedded wallet (reply to 159714)
 Jimmy: Good night ray (reply to 159716)
 
 MOHAMED LAMINE: https://t.me/Dogiators_bot/game?startapp=HUfNZd2Lm6g71SkG Join me for the hottest game in the Telegram, fight with others, become famous Dogiator, have a chance to make real money and maybe something more.
+
+Anthony: Hey! JFYI, you can also post your vacancy on https://jobs.ton.org/companies (reply to 90487)
+
+Ateeb: lets say. i have the pool address with me how can i calculate the rewards i have earned as styaking ?
+
+Morellog 🐾: Good afternoon, could you help me generate an address that is the same as the one in the Tonkeeper app with 24 phrases?   /**  * Generates a wallet from a mnemonic (12 or 24 words).  */ const generateWalletFromMnemonic = async ({ mnemonic, cluster, walletVersion = 'v4R2' }: GenerateWalletFromMnemonicPayload): Promise<IResponse> => {   const WalletClass = WALLET_VERSIONS[walletVersion];   if (!WalletClass) throw new Error(`Unsupported wallet version: ${walletVersion}`);    const mnemonics = Array.isArray(mnemonic) ? mnemonic : mnemonic.trim().split(/\s+/);    let keyPair;    if (mnemonics.length === 12) {     const seed = await mnemonicToSeed(mnemonics.join(' '));     const derived = derivePath("m/44'/607'/0'", seed.toString('hex'));     keyPair = keyPairFromSeed(derived.key);   } else if (mnemonics.length === 24) {      // TODO: Fix address inconsistent with Tonkeeper wallet     const seed = await mnemonicToHDSeed(mnemonics);     const derived = await deriveEd25519Path(seed, [44, 607, 0]);     keyPair = keyPairFromSeed(derived);   } else {     throw new Error('Mnemonic must be 12 or 24 words');   }    const wallet = WalletClass.create({ publicKey: keyPair.publicKey, workchain: 0 });   const address = wallet.address.toString({     testOnly: cluster !== 'mainnet',     bounceable: false,     urlSafe: true   });    return successResponse({     address,     privateKey: keyPair.secretKey.toString('hex'),     mnemonic: mnemonics.join(' ')   }); };    Tonkeeper/Bitget web3  W5 : UQBh77kXMw-M-kg4L6EzP_6Jlx5xTh7mRbkM-zDjngphEgOW V4: UQBG61c4TjKqyiELE3CrxqSVHL6Lkl4D28K1A9oB8G13sctM  From SDK: W5: UQBE3lK-iSK9cjpPKyjuJ8J7hj6dNKzR7VnzSTcFvEQnCHz2 V4: UQDqKthJYJT-pkaXUu1jXPzKK-684pQLIU5hgos2oo2yRVg2
+
+&rey: TON wallets do not use such an algorithm at all. (reply to 159760)
+
+&rey: Just keyPair = await mnemonicToKeyPair(mnemonics);
+
+Code: honestly I use the solana wallet generator lol (reply to 159760)
+
+Code: its a dumb solution, but its just what I do, but you can use any bip39 generator
+
+Morellog 🐾: Thank you, sir. Yes, the address now matches the one in Tonkeeper with 24 phrases. keyPair = await mnemonicToPrivateKey(mnemonics); (reply to 159762)
+
+Morellog 🐾: yes if 12 prhrase i use bip39 match on trustwallet/bitget wallet (reply to 159765)
+
+— 2025-09-27 —
+
+TON Bounty Bridge: ​Wewww  Created by moustafamahmoud10

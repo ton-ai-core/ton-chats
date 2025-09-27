@@ -10909,3 +10909,31 @@ Combot: Edwardcarter Flen has been banned! Reason: CAS ban.
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
 
 Combot: Richard Proo has been banned! Reason: CAS ban.
+
+— 2025-09-26 —
+
+yan: 这个多签钱包，只能转账，不能参与DEFI等活动吗
+
+yan: 这个多签的钱包，是不是只能转账
+
+Combot: 木梳` has been banned! Reason: CAS ban.
+
+Combot: Akoch Augustine, Killian have been banned! Reason: CAS ban.
+
+Combot: 幕黑染琉璃` Smith has been banned! Reason: CAS ban.
+
+Andrew: 我这个文章里面有描述，官方 demo 预设了 10 几种消息类型，同时还支持“任意格式(Arbitray Order)”， 但是从安全和易用性角度，大部分商业多签方案暂不会支持复杂的消息格式   https://ton-org.notion.site/8-TON-MultiSign-2295274bd2cf808fa878eec6db717160?source=copy_link (reply to 100336)
+
+Katiya｜TON: 💎Coding Challenge 13 - Tolk 1.1 Update  📅9月26日- 10月5日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/Tolk-1-1-Update-2765274bd2cf80e38633c4c325052c95 - 直播视频： https://x.com/TONEastAsia/status/1971166668908122222 👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-13 (forwarded from TON East Asia Hub)
+
+Combot: Jhon Filipiak, M49 have been banned! Reason: CAS ban.
+
+Joe: ton 怎么一直跌啊 草
+
+可愛又迷人的 ¿: 正常
+
+Combot: Md Shohel Rana has been banned! Reason: CAS ban.
+
+— 2025-09-27 —
+
+jijimarketplace: https://t.me/toncoin

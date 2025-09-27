@@ -9413,3 +9413,7 @@ Lase: When you deploy again. yes (reply to 71726)
 Mark: If you want to update an already deployed contract, the address will remain the same. If you are going to redeploy the contract, the address will be changed. (reply to 71726)
 
 ###fA: ✋
+
+— 2025-09-26 —
+
+okolo: oh i ve got - i just have to remove 'build' dir, and build again (reply to 71606)
