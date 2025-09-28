@@ -5663,3 +5663,15 @@ Morellog 🐾: yes if 12 prhrase i use bip39 match on trustwallet/bitget wallet 
 — 2025-09-27 —
 
 TON Bounty Bridge: ​Wewww  Created by moustafamahmoud10
+
+Elvis B: /stat
+
+Combot: Total messages: 159811
+
+&: why not. you can store jetton in your contract. (reply to 90442)
+
+Harshit: I am trying to deploy the telegram mini app but it show me "You are using too old Telegram client to run this application" Can you please tell how can I deploy the latest telegram mini app
+
+&rey: This is off topic therefore there will be no further responses.   So do you understand that "client" means "the part which is NOT the TMA"? (reply to 159838)
+
+Harshit: yepp

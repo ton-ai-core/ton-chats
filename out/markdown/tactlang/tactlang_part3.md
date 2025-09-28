@@ -9417,3 +9417,9 @@ Mark: If you want to update an already deployed contract, the address will remai
 — 2025-09-26 —
 
 okolo: oh i ve got - i just have to remove 'build' dir, and build again (reply to 71606)
+
+— 2025-09-27 —
+
+akki: hey this throwUnless(ACCOUNT_INACTIVE, self.active  || amount == ton("0.1") || amount == ton("0.23") || amount == ton("0.98")); is throwing when I send 0.23 tokens but not on 0.1  what could be cause?
+
+akki: 😔  I've changed the amount before it reaches this throwUnless check  Actually project have grown large so little silly bugs are arising every now and then and I'm solo and not even a good dev(no formal coding education, never worked any professional projects)  So I have uploaded project to GitHub and I'd appreciate any pull requests  It's a project about making a  decentralised fiat currency i.e best of both worlds (freedom of fiat and trustlessness of crypto) cloned from tact official jetton repo and modified Shard project only  🔗 (GitHub)[https://github.com/ankitgahlyan/phosphate.git] (reply to 71804)

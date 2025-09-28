@@ -10937,3 +10937,9 @@ Combot: Md Shohel Rana has been banned! Reason: CAS ban.
 — 2025-09-27 —
 
 jijimarketplace: https://t.me/toncoin
+
+Combot: Taylor Sophia has been banned! Reason: CAS ban.
+
+Combot: Frederick Hutchison has been banned! Reason: CAS ban.
+
+Combot: Big has been banned! Reason: CAS ban.
