@@ -5675,3 +5675,7 @@ Harshit: I am trying to deploy the telegram mini app but it show me "You are usi
 &rey: This is off topic therefore there will be no further responses.   So do you understand that "client" means "the part which is NOT the TMA"? (reply to 159838)
 
 Harshit: yepp
+
+— 2025-09-28 —
+
+Jzuss ┌( ಠ_ಠ)┘: Hi! When trying to implement shard optimization (similarly https://github.com/ton-blockchain/jetton-contract/blob/jetton-2.0/contracts/jetton-utils .fc) catching cell underflow during deployment. I tried paddings, but it didn't help. What's wrong?

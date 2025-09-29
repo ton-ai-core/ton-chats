@@ -10943,3 +10943,37 @@ Combot: Taylor Sophia has been banned! Reason: CAS ban.
 Combot: Frederick Hutchison has been banned! Reason: CAS ban.
 
 Combot: Big has been banned! Reason: CAS ban.
+
+— 2025-09-28 —
+
+peter: 其他的是不是都结束了，只有 13 还是开启的
+
+Andrew: 是的，以时间为准，到时间后我会统计名单 (reply to 100445)
+
+peter: 想问问，胜利的评判标准是什么 (reply to 100450)
+
+peter: 我发现 从0开始学 tolk 好像比较麻烦，是不是得先学其他语言再过渡过来
+
+Combot: C has been banned! Reason: CAS ban.
+
+Andrew: 提交的时间，提交的答案准确度，账号如果有开源活动加分 (reply to 100451)
+
+peter: 以13为例子，这个答案就是文件名➕代码，对吗 (reply to 100454)
+
+Andrew: 是的，目前 Tolk 的文档不够完善，可以配合 Tact 交叉学习 (reply to 100455)
+
+peter: 有计划出个完整的 tolk 教程吗
+
+peter: 这也太麻烦了，还得学个老语言
+
+Andrew: 当然会有系统性的文档的，正在编写的 (reply to 100457)
+
+Combot: Alex Hermawan, Jackson have been banned! Reason: CAS ban.
+
+Combot: Roberto Rodriguez has been banned! Reason: CAS ban.
+
+Combot: Nasir Uddin has been banned! Reason: CAS ban.
+
+— 2025-09-29 —
+
+Combot: De Wise King has been banned! Reason: CAS ban.

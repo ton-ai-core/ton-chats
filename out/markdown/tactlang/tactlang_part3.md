@@ -9423,3 +9423,15 @@ okolo: oh i ve got - i just have to remove 'build' dir, and build again (reply t
 akki: hey this throwUnless(ACCOUNT_INACTIVE, self.active  || amount == ton("0.1") || amount == ton("0.23") || amount == ton("0.98")); is throwing when I send 0.23 tokens but not on 0.1  what could be cause?
 
 akki: 😔  I've changed the amount before it reaches this throwUnless check  Actually project have grown large so little silly bugs are arising every now and then and I'm solo and not even a good dev(no formal coding education, never worked any professional projects)  So I have uploaded project to GitHub and I'd appreciate any pull requests  It's a project about making a  decentralised fiat currency i.e best of both worlds (freedom of fiat and trustlessness of crypto) cloned from tact official jetton repo and modified Shard project only  🔗 (GitHub)[https://github.com/ankitgahlyan/phosphate.git] (reply to 71804)
+
+— 2025-09-28 —
+
+Shahboz: I need to create such a smart contract: If someone sends MyToken (MT) to the wallet → the contract automatically mints sMyToken (sMT) for them.  If someone sends sMT → the contract burns the sMT and sends back the equivalent amount of MT   In both cases, the sender must also include some TON to cover the gas fees   Is there any guide or ready-made example for this?
+
+— 2025-09-29 —
+
+akki: how to generate StateInit manually instead of initof JettonWallet(owner, minter, 0) i need this to keep wallet addresses same after upgrades
+
+akki: right now same wallet gets a new jetton wallet deployed after i upgrade the jettonwallet code
+
+MARIUSZ: Po polsku
