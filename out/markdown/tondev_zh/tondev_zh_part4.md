@@ -10977,3 +10977,7 @@ Combot: Nasir Uddin has been banned! Reason: CAS ban.
 — 2025-09-29 —
 
 Combot: De Wise King has been banned! Reason: CAS ban.
+
+Combot: 皮皮 has been banned! Reason: CAS ban.
+
+Combot: Maybell Lees has been banned! Reason: CAS ban.

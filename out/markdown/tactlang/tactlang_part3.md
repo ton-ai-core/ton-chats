@@ -9435,3 +9435,17 @@ akki: how to generate StateInit manually instead of initof JettonWallet(owner, m
 akki: right now same wallet gets a new jetton wallet deployed after i upgrade the jettonwallet code
 
 MARIUSZ: Po polsku
+
+/B4ckSl4sh\: How do you plan to upgrade all jetton wallets? By sending messages to all of them directly from master? (reply to 71896)
+
+akki: no, every internal receiver (JettonTransferInternal) has version field  sent by sender contract and checked against receiver version throw if not same(later I'll add notification to inform receiver) then receiver can manually query minter for upgrades  I'll automate this later by sending stateinit/codeOnly like in feature rich jetton contract and upgrades will happen p2p (reply to 71911)
+
+maksim: it's the same object as the one returned from initOf
+
+maksim: be careful with this approach, its sounds error-prone (different gas constraints, storage migration to new code, etc) (reply to 71916)
+
+&rey: The feature of TON is that initial code matches address (modulo workchain and a few rewritable bits for shardchain) always. (reply to 71895)
+
+akki: yeah already done that  I just needed data field  wondering if there's way to create just data field (reply to 71918)
+
+akki: now I'm using initial code(stored as state in wallet contract on init) to calculate jetton address of receiver  it's working and not creating separate jetton wallets after upgrade anymore (reply to 71920)

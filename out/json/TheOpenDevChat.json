@@ -10706,6 +10706,20 @@
       "from_id": "channel2154553559",
       "text": "Мы готовы выполнять заказы))",
       "reply_to_message_id": 1178
+    },
+    {
+      "id": 1182,
+      "type": "message",
+      "date": "2025-09-29T22:05:35.000Z",
+      "date_unixtime": "1759183535",
+      "from": "User<7829617359>",
+      "from_id": "user7829617359",
+      "text": "Hurry claim $nub tokens",
+      "reply_to_message_id": 1172,
+      "media_type": "photo",
+      "file": "photos/photo_1182.jpg",
+      "width": 496,
+      "height": 497
     }
   ]
 }

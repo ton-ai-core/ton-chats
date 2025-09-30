@@ -5679,3 +5679,31 @@ Harshit: yepp
 — 2025-09-28 —
 
 Jzuss ┌( ಠ_ಠ)┘: Hi! When trying to implement shard optimization (similarly https://github.com/ton-blockchain/jetton-contract/blob/jetton-2.0/contracts/jetton-utils .fc) catching cell underflow during deployment. I tried paddings, but it didn't help. What's wrong?
+
+— 2025-09-29 —
+
+IDRegistry: Hey guys ,i trying for my first time to make my bot able to receive stars.  The main goal: I deposit stars into the bot. The bot send stars to other users. I will be more than grateful to helpers 🫱🏽‍🫲🏼
+
+&rey: This remains off topic. (reply to 159926)
+
+IDRegistry: Sorry what does it’s mean? (reply to 159928)
+
+Dmitry: Wrong chat, this one is about TON blockchain. Ask in https://t.me/devs. (reply to 159929)
+
+IDRegistry: Thank you (reply to 159930)
+
+IDRegistry: Just for me to know ,what scope this group for? Thnx for answering (reply to 159930)
+
+&rey: About development on The Open Network. All around smart contracts, that is. (reply to 159932)
+
+IDRegistry: And no need SC to provide the bot to be able to receive payments/stars? And thank you for clarifying (reply to 159935)
+
+Combot: Combot has warned Teracoin Official (1/3) Reason: Word ******* is not allowed
+
+Alchi: Hi community. Quesion. Transaction A is submitted and is found on mempool. Transaction B is submitted then. Can B confirm faster than A? Even in accidently?
+
+&rey: Yes. (reply to 159977)
+
+— 2025-09-30 —
+
+Alchi: Thanks for the reply. But if Transaction B takes longer time than transaction A. Is it still possible? (reply to 159978)
