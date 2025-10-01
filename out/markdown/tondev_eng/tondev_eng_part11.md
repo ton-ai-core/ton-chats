@@ -5707,3 +5707,41 @@ Alchi: Hi community. Quesion. Transaction A is submitted and is found on mempool
 — 2025-09-30 —
 
 Alchi: Thanks for the reply. But if Transaction B takes longer time than transaction A. Is it still possible? (reply to 159978)
+
+Mojisola🍅 🍅: that is why I think you have to do whatever you want to do in each transaction cos waiting for tx B to finish before A is not guaranteed (reply to 159977)
+
+Alchi: You misunderstood. Tx B and A is from different wallet or contract. (reply to 159984)
+
+&rey: What do you mean by "longer"? One transaction, which is one contract execution, is as fast as another. (reply to 159981)
+
+&rey: There is no happens-before between two transactions on different contracts, in general. (reply to 159987)
+
+Sergey: Hello everyone.   I have a problem with activating my TON wallet (generated from PHP application), I don't understand what the network wants from me.  It all starts well — I create a wallet on a node using the ton/ton library. I generated a wallet with Multisig, sent 0.15 TON there via wallet. But it doesn't go any further.  The wallet has 'Details: inactive', and money doesn't leave it.  I tried the toncenter/tonweb example with await wallet.deploy(secretKey).send(); — still no luck.  Please advise on how to activate it?
+
+&rey: Do you happen to have this new wallet's StateInit? (reply to 159995)
+
+Sergey: Thank you for answer.   I tried to use private key + BOC + other address + some amount to deploy state-init, but ❌ Error: Failed to deploy wallet with StateInit: StateInit deployment failed: ❌ Error: AxiosError [AggregateError]: Error     at AxiosError.from (.../node_modules/axios/dist/node/axios.cjs:905:14) (reply to 159996)
+
+&rey: What code did you use? (reply to 160006)
+
+Sergey: For communication with TON: — Node.js + TON SDK - for TON blockchain interaction — TON Center API - for TON network communication  Used SDKs and Libraries: — @ton/ton - modern TON SDK for Node.js — @ton/core - core TON components — @ton/crypto - cryptographic functions  Plan:  1. Wallet Creation — Creates private/public key pair — Calculates wallet address — Generates StateInit BOC for deployment — Outputs TONScan explorer link  2. Wallet Funding — Manual funding 0.1 TON from Telegram Wallet to cover transaction fees  3. Wallet Initialization Bypass private key + BOC + other address + some amount  But something goes wrong on 3rd step (reply to 160007)
+
+Sergey: Sorry, didn't understand well for the first time. Code is   async function initWallet(privateKey, toAddress, amount, stateInitBoc, network = 'mainnet') {     try {         console.log('🚀 Initializing TON wallet...');         console.log('Private key:', privateKey);         console.log('To address:', toAddress);         console.log('Amount:', amount);         console.log('Network:', network);          // Setup client         const endpoint = network === 'mainnet'             ? 'https://toncenter.com/api/v2/jsonRPC'             : 'https://testnet.toncenter.com/api/v2/jsonRPC';          const apiKey = network === 'mainnet'             ? (process.env.TON_MAINNET_API_KEY || process.env.TONCENTER_API_KEY || '')             : (process.env.TON_TESTNET_API_KEY || process.env.TONCENTER_API_KEY || '');          console.log('Using endpoint:', endpoint);         console.log('API Key:', apiKey ? 'Present' : 'Missing');          const client = new TonClient({             endpoint: endpoint,             apiKey: apiKey,             timeout: 60000         });          // Create key from private key         const secretKey = Buffer.from(privateKey, 'hex');         const publicKeyBuffer = secretKey.slice(-32);          const keyPair = {             publicKey: publicKeyBuffer,             secretKey: secretKey         };          console.log('Public key:', keyPair.publicKey.toString('hex'));          // Create wallet contract         const wallet = WalletContractV4.create({             workchain: 0,             publicKey: keyPair.publicKey         });          const address = wallet.address;         const addressString = address.toString({ urlSafe: false });          console.log('Sender address:', addressString);          // Check wallet balance         console.log('🔍 Checking wallet balance...');         try {             const balance = await client.getBalance(address);             console.log('Wallet balance:', balance.toString());         } catch (error) {             console.log('Balance check failed (wallet may be uninitialized):', error.message);         }          // Create StateInit from BOC         const stateInitCell = Cell.fromBase64(stateInitBoc);         console.log('StateInit BOC loaded successfully');          // Create correct transaction for initialization         console.log('🔄 Creating initialization transaction...');          // For initialization wallet need to create transfer with deploy: true         const transfer = wallet.createTransfer({             to: Address.parse(toAddress),             value: toNano(amount),             seqno: 0,             secretKey: keyPair.secretKey,             messages: [                 internal({                     to: Address.parse(toAddress),                     value: toNano(amount),                     body: beginCell()                         .storeUint(0, 32) // op                         .storeStringTail('TON transfer from Brix')                         .endCell(),                     bounce: false                 })             ],             stateInit: stateInitCell,             deploy: true         });          console.log('📤 Sending initialization transaction...');          const boc = transfer.toBoc();         const result = await client.sendFile(boc);          console.log('✅ Transaction sent successfully!');         console.log('Transaction hash:', result);          return {             success: true,             message: 'Wallet initialized successfully',             address: addressString,             to_address: toAddress,             amount: amount,             transaction_hash: result         };      } catch (error) {         console.error('❌ Error:', error);         return {             success: false,             error: error.message         };     } } (reply to 160007)
+
+&rey: StateInit has to be in the message you are sending, by the way.   I also recommend against using AIs in TON as they tend to produce garbage. (reply to 160069)
+
+Sergey: Yeah, a lot of problems with it. Would you recommend something to read about? Like some good examples as how to work correctly: create, check balance, send (reply to 160071)
+
+&rey: If you are able to use Python for your tasks, then tonutils is a good choice. (reply to 160072)
+
+Sergey: I'll look, thanks (reply to 160073)
+
+Ilya: For JS/TS you can check some examples here: • TON Console Cookbook - https://docs.tonconsole.com/tonapi/cookbook • Official TON Cookbook - https://docs.ton.org/v3/guidelines/dapps/cookbook (reply to 160072)
+
+Alonso: Hello (reply to 160074)
+
+— 2025-10-01 —
+
+Combot: Combot has warned Derrick Hubbard (1/3) Reason: Word **** is not allowed
+
+𝓚𝓪𝓶𝓻𝓪𝓷: Guys, this bot will give you tons based on your Telegram age and you can withdraw it right away. How much did you get?  Tonreaward_bot  Try to use your oldest Telegram account.

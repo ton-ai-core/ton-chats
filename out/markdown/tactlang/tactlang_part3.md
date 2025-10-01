@@ -9449,3 +9449,7 @@ maksim: be careful with this approach, its sounds error-prone (different gas con
 akki: yeah already done that  I just needed data field  wondering if there's way to create just data field (reply to 71918)
 
 akki: now I'm using initial code(stored as state in wallet contract on init) to calculate jetton address of receiver  it's working and not creating separate jetton wallets after upgrade anymore (reply to 71920)
+
+— 2025-09-30 —
+
+Quantum🧠: Who can help me finish set up my ton wallet?

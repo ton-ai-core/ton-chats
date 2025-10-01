@@ -10981,3 +10981,15 @@ Combot: De Wise King has been banned! Reason: CAS ban.
 Combot: 皮皮 has been banned! Reason: CAS ban.
 
 Combot: Maybell Lees has been banned! Reason: CAS ban.
+
+— 2025-09-30 —
+
+Combot: C has been banned! Reason: CAS ban.
+
+Combot: Gilberto Arredondo Castillo has been banned! Reason: CAS ban.
+
+— 2025-10-01 —
+
+Combot: K has been banned! Reason: CAS ban.
+
+Combot: Карамон, ZEROXXX's Husband♡ have been banned! Reason: CAS ban.
