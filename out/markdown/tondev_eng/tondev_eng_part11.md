@@ -5745,3 +5745,37 @@ Alonso: Hello (reply to 160074)
 Combot: Combot has warned Derrick Hubbard (1/3) Reason: Word **** is not allowed
 
 𝓚𝓪𝓶𝓻𝓪𝓷: Guys, this bot will give you tons based on your Telegram age and you can withdraw it right away. How much did you get?  Tonreaward_bot  Try to use your oldest Telegram account.
+
+DeFi: Hey, long time no see, brother! (reply to 160099)
+
+Sergey: Wondering why TON doesn't have just a simplest client version on github to have anybody generate, send and check balance? In any language, no matter because everybody might use console.  For now need to collect by pieces to make it work  Or maybe somebody did that stuff?
+
+Princewill Tor-Anyiin: I'm building a DApp and my choice Blockchain is TON.  I'm about to launch the Testnet phase of the DApp, and also deploy the token Jetton on TON Testnet.  Necessary documentations, please.  PS: I'm currently raising, can you give me break down of Blockchain service costs for this phase?   PS2: Massive Validation:   • Recently matched with the Open Start Program-open innovation Program   • Ranking #68 among over 2 million global startups (F6S) and Top 100 AI startups in Nigeria.  _ This addition is for ; just in case TON Blockchain is awarding Grant funds for validated projects like mine 👍
+
+..: Can I have some advice. I have ton in my wallet ready to withdraw from a mini app. I tried to withdraw it says 30-60 days so I paid to skip it then it now says 7 days withdrawal time. Can anybody explain this to me and how will know when it’s ready to be withdrawn?
+
+Андрей: You need to ask in your app's chat or contact your app's support team. However, the presence of a feature to speed up withdrawals for an additional fee suggests to me that you're unlikely to receive your coins. (reply to 160302)
+
+Combot: Combot has warned Alonso 👀💟 (1/3) Reason: Word **** is not allowed
+
+Alonso: Ok
+
+..: Where do I find the apps support team? (reply to 160303)
+
+DeFi: That sounds like a scam app (reply to 160302)
+
+Андрей: in the same place where you found the app) (reply to 160308)
+
+..: I have already withdrawn from it before though.. ive had around 5ton out before into a diffrent wallet so I know it does payout. I don’t have the 20 ton or I would. It means risking more £££ 😂
+
+Teemu | 機器人🪽: Yea the point is to give a little out, so they get more in. Those were very popular a while back, eventually they raise the APY so much that the ponzis die very fast (reply to 160318)
+
+..: Horrible people. To much time on there hands Does anybody have any advice on where the best place is to buy ton and the best wallet to store it?
+
+&rey: Such things are scam. Please don't grow attached to the values app shows, and be vigilant (i.e. check that any received assets are genuine instead of similarly-named jettons). Disengaging is recommended. (reply to 160302)
+
+&rey: The https://ton.org/ has pages on wallet applications and purchasing TON. Look for custodial/non-custodial markers according to your needs.  And that is, by the way, off topic for this chat. (reply to 160320)
+
+— 2025-10-02 —
+
+Code: Does anybody know why this transaction's Jetton Notify failed "out of gas" - even though there was Excess TON in the transaction?  https://testnet.tonviewer.com/transaction/8a39aa3d7e201a55a45fb0060617fea3d6bdfe60541639fe59fef59aa0a3689d

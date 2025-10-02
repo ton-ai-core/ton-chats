@@ -9453,3 +9453,7 @@ akki: now I'm using initial code(stored as state in wallet contract on init) to 
 — 2025-09-30 —
 
 Quantum🧠: Who can help me finish set up my ton wallet?
+
+— 2025-10-01 —
+
+akki: what's this -ve sign indicator in state variables returned from contract?

@@ -10720,6 +10720,20 @@
       "file": "photos/photo_1182.jpg",
       "width": 496,
       "height": 497
+    },
+    {
+      "id": 1186,
+      "type": "message",
+      "date": "2025-10-02T01:49:32.000Z",
+      "date_unixtime": "1759369772",
+      "from": "Jvjguu",
+      "from_id": "user8282173659",
+      "text": "Don't miss it and claim $ME tokens",
+      "reply_to_message_id": 1183,
+      "media_type": "photo",
+      "file": "photos/photo_1186.jpg",
+      "width": 326,
+      "height": 571
     }
   ]
 }

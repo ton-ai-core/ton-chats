@@ -2289,3 +2289,7 @@ The Open Dev Blog: Мы готовы выполнять заказы)) (reply to
 — 2025-09-29 —
 
 User<7829617359>: Hurry claim $nub tokens (reply to 1172)
+
+— 2025-10-02 —
+
+Jvjguu: Don't miss it and claim $ME tokens (reply to 1183)

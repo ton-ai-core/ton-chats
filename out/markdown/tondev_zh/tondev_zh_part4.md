@@ -10993,3 +10993,23 @@ Combot: Gilberto Arredondo Castillo has been banned! Reason: CAS ban.
 Combot: K has been banned! Reason: CAS ban.
 
 Combot: Карамон, ZEROXXX's Husband♡ have been banned! Reason: CAS ban.
+
+Combot: кица has been banned! Reason: CAS ban.
+
+Kuo: 中文
+
+Kuo: 中文包
+
+Combot: mhmd ari has been banned! Reason: CAS ban.
+
+Combot: C has been banned! Reason: CAS ban.
+
+Combot: C, Екатерина have been banned! Reason: CAS ban.
+
+Combot: Юлия, Валентина have been banned! Reason: CAS ban.
+
+Combot: Ghj588 has been banned! Reason: CAS ban.
+
+A6elakitabo: 🎊 聚光灯下的橙色狂潮，邀你一起创造历史！ (reply to 24)
+
+Combot: Wirawan WTM has been banned! Reason: CAS ban.
