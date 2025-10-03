@@ -9457,3 +9457,11 @@ Quantum🧠: Who can help me finish set up my ton wallet?
 — 2025-10-01 —
 
 akki: what's this -ve sign indicator in state variables returned from contract?
+
+— 2025-10-02 —
+
+Gambit: hi, I'm new in TacT using, just created my smart contract and want to add some tests. I want to check that all my parameters which I passed in my init method assigned correclty. But I faceed problem with parsing contract internal state. I don't want to add extra getter methods in my contract, so try to just read state and parse it. I tried to add parsing methods by myself, butafter some failed attempts I try to use loader method generated in my wrapper. But looks like order of parsing my contract state parameters inside of generated code is wrong and tried to parse some field in wrong places of cell, but I don't understand why. How it possible and may be someone know best approach to read deployed contract internal state?
+
+Gambit: UPD, if someone will face same problem. Problem was in extra 1 bit which tact compiler added into the beggining of the root data cell, because of I have some Optional contract state parameters. I skiped this 1 bit and do the same thing I tried before and everything is fine (reply to 72085)
+
+Timi: So I’m seeing some changes in Ton Center API.  Can we now verify transactions or easily see pending ones?

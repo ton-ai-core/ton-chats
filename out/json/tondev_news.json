@@ -2125,6 +2125,18 @@
       "forwarded_from": "TonTech",
       "forwarded_from_id": "channel1764902466",
       "forwarded_date": "2025-09-18T18:50:17.000Z"
+    },
+    {
+      "id": 241,
+      "type": "message",
+      "date": "2025-10-02T08:43:21.000Z",
+      "date_unixtime": "1759394601",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "✈ TON Connect Enhancement — Domain Verification\n\nWe're introducing enhanced verification features to provide users with better transparency and trust indicators. Rollout to wallets is starting — please review your manifests to ensure optimal user experience.\n\n👥 What changed\n  • Your app's hosting domain should match the domain specified in your manifest.json → url parameter\n  • No SDK changes required, existing integrations continue working\n  • Feature is being deployed to wallets progressively\n\n🗒 What to test\n  • Domain alignment: ensure your app domain matches the domain in manifest.json url parameter. Typical issue: url parameter contains different domain than app hosting domain.\n  • Manifest accessibility: verify your manifest.json is accessible. Typical issues: CORS issues, manifest not found.\n\n🔨 Examples\n👍 Correct:\nApp hosted on: https://myapp.ton.org  \nmanifest.json: { \"url\": \"https://myapp.ton.org\", ... }\n\n👎 Incorrect:\nApp hosted on: https://myapp.ton.org  \nmanifest.json: { \"url\": \"https://another.myapp.ton.org\", ... }\n\n🔗 Specification https://github.com/ton-blockchain/ton-connect/pull/91\n\n💬 Have suggestions on the standard? Please contribute at https://github.com/ton-blockchain/ton-connect/pull/91\n\n❤ Your feedback helps us improve the TON Connect ecosystem!",
+      "forwarded_from": "TonTech",
+      "forwarded_from_id": "channel1764902466",
+      "forwarded_date": "2025-09-30T11:12:26.000Z"
     }
   ]
 }

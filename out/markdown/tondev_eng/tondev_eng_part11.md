@@ -5779,3 +5779,73 @@ Teemu | 機器人🪽: Yea the point is to give a little out, so they get more i
 — 2025-10-02 —
 
 Code: Does anybody know why this transaction's Jetton Notify failed "out of gas" - even though there was Excess TON in the transaction?  https://testnet.tonviewer.com/transaction/8a39aa3d7e201a55a45fb0060617fea3d6bdfe60541639fe59fef59aa0a3689d
+
+&: Do you think this ton amount is enough?
+
+Code: TON wallet does same, is it because it has a message?
+
+&: If it's goes error. then is sth wrong? The jetton disappered? or sth else? (reply to 160335)
+
+Code: the jetton transfer is successful, but the notification fails
+
+&: Do you think that means "transfer failed"? No totally no. It's just "gas is not enough". not a "jetton transfer failed". (reply to 160337)
+
+Code: ? there are 2 parts to the trace  1 is jetton transfer - which is fine 2. is the notification - which has out of gas error, which I'm trying to solve
+
+&: Have you ever developed contract on TON? (reply to 160339)
+
+Code: no
+
+&: I think so. Gas optimization is necessary for ton development. Check official doc of ton.org (reply to 160341)
+
+Code: I am following this guide https://docs.ton.org/v3/guidelines/dapps/cookbook#how-to-construct-a-message-for-a-jetton-transfer-with-a-comment
+
+Code: is it really necessary to send 0.02 TON? that's 6 cents - it doubles the cost of the transaction for the notification
+
+&: Bro. check document. study gas optimization. It's necessary for ton development. you don't have basic understanding on it. (reply to 160344)
+
+Code: that's what I'm asking - you're not being helpful lol
+
+Code: this one worked (reply to 160334)
+
+Виконт vangaard: Short answer is you've been scammed. The long withdrawal time and paying to reduce withdrawal time is a classic scam technique. (reply to 160302)
+
+&rey: Any message equal or over 0.00001 TON launches TVM to handle the incoming message. Sometimes wallet's checks are more expensive than that. (reply to 160347)
+
+Code: I see  1. Do you think notification messages are even necessary? Tonkeeper does 1 nanoton for them, and the indexing seems to work fine 2. How can I ensure in my code that my messages have enough gas for the notification? And will the remainder be refunded? (reply to 160351)
+
+&rey: 1. I'm of opinion that no notification is needed and that's job of wallet application to check. (reply to 160352)
+
+Code: thanks &rey 2ne:v
+
+Aldric: Hi guyz, I have a question. Can I modify the swap fee in Stonfi? For example, I want to take 10% of the swap from the user. Is that possible now?
+
+Teemu | 機器人🪽: At least tokens launched from stonkspump have a fee mechanism (reply to 160366)
+
+kevin: you can do that with two internal tx , say one for stonfi swap, one is to transfer certain amount of ton to you predefined wallet (reply to 160366)
+
+kevin: https://tonviewer.com/transaction/e2aa6ef54624257c06d4e1bc2ef2b38f75818d40d99df959ddc71a836f47d960  like this tx for example (reply to 160366)
+
+Aldric: Nah if tx failed I take fee and not return to user (reply to 160370)
+
+Aldric: I need after swapprotocol will take fee
+
+Aldric: Gimme the link thank you 🙏 (reply to 160367)
+
+kevin: it seems you need a customized wallet protocol  https://tonviewer.com/transaction/48eb67c6fa842396f418bda063203f39a026997d3bd251c704e30ba39da28045  - I got source code for this one (reply to 160371)
+
+Teemu | 機器人🪽: Stonkslabs.com (reply to 160373)
+
+Anthony: Yes, it’s possible. Example: https://x.com/giftsfomo/status/1972647598965325882?s=46&t=3-S72XwY8iBay1Oa0SPUAQ (reply to 160366)
+
+Aldric: the token contract doesn't verify (reply to 160378)
+
+Aldric: But it’s work for fee. Thank you sir (reply to 160378)
+
+Ilya: The notify message is important because it allows anyone who is monitoring only the inbound messages to your wallet contract to detect that an event occurred on the jetton wallet. Without a notify, if some new arbitrary token is credited to the wallet, it would be impossible to track that balance change using just a lightserver. For this reason, the notify is highly recommended. (reply to 160352)
+
+Ilya: However, the transaction that carries the notify does not need to succeed. Even a failed transaction still provides the required signal, and no changes on the wallet are expected after it. That’s why the approach of sending a notify with just 1 nanoton, which inevitably fails, is considered a normal and acceptable practice. (reply to 160401)
+
+Code: Thank you so much Ilya for the info!
+
+Ilya: That said, most wallets do not rely purely on light servers but on indexed blockchain. So if you skip the notify, it won’t be critical, although it’s still undesirable (reply to 160402)
