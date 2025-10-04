@@ -5849,3 +5849,51 @@ Ilya: However, the transaction that carries the notify does not need to succeed.
 Code: Thank you so much Ilya for the info!
 
 Ilya: That said, most wallets do not rely purely on light servers but on indexed blockchain. So if you skip the notify, it won’t be critical, although it’s still undesirable (reply to 160402)
+
+— 2025-10-03 —
+
+Axel Feg: Hi
+
+Axel Feg: How to apply for ton verification?
+
+&rey: Hold right there. Do you mean jetton verification, contract code 'verification' (upload)? (reply to 160492)
+
+Axel Feg: Yes (reply to 160496)
+
+Axel Feg: For cupko project
+
+&rey: This is repo for jetton verification: https://github.com/tonkeeper/ton-assets/. (reply to 160499)
+
+Axel Feg: How to do that? (reply to 160500)
+
+Axel Feg: And how to do tonkeeper verification?
+
+&rey: Please read at the provided link. That is Tonkeeper verification indeed. (reply to 160501)
+
+Axel Feg: Ok ty (reply to 160503)
+
+Coin Wallet: Hi all, Does someone know how to publish wallet to the main website? I noticed that a lot of new wallets have appeared. The page for builders is not suitable for us
+
+Mhdi khosravi: Hello Anyone knows how i can add a label to my public address? i need when someone see my wallet in explorer like tonscan  instead of public address my label for the address shows.
+
+Mirka: dns.ton.org (reply to 160522)
+
+Mhdi khosravi: how i must set it for an public address? (reply to 160524)
+
+&rey: 1) the domain NFT resolves to that address 2) address owns the domain NFT (reply to 160525)
+
+Mhdi khosravi: aha i have 7 different wallet which i want to have domain for all, each wallet must have the NFT and assign it at the address? or can i have all NFTs in one wallet and assign them to other wallets? (reply to 160526)
+
+&rey: Each must have its NFT to be shown as name. (reply to 160527)
+
+Mhdi khosravi: and do you know about tonkeeper rules of verification tokens? (reply to 160528)
+
+TON Bounty Bridge: ​UQDzYqzqut57qZq4wSfQHPmWs7TwIWIZBs_o7-gocbA4Zoyc  🏷 Resource  Summary:Biena  Created by hejdhf
+
+Joni: Hola, quería saber si la aplicación de Telegram "TON mine app" es rentable? Vengo teniendo problemas para realizar una extracción. Ya que me pide un deposito del 20% del valor total de lo supuestamente minado (231 TON). No puedo retirar y tengo miedo de seguir ingresando dinero, creo que podría ser una estafa piramidal y me gustaría que me ayuden.
+
+&rey: That app is scam. Disengage. This is chat in English, about developing smart contract systems on TON. (reply to 160535)
+
+— 2025-10-04 —
+
+Joni: Gracias por la información proporcionada (reply to 160536)

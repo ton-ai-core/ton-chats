@@ -11017,3 +11017,7 @@ Combot: Wirawan WTM has been banned! Reason: CAS ban.
 — 2025-10-02 —
 
 kevin: 好久没回来， 兄弟们还在这条链上么， 我一身 TON 的本事快要荒废了， 有什么项目dddd
+
+— 2025-10-03 —
+
+Combot: C. Rithvik has been banned! Reason: CAS ban.

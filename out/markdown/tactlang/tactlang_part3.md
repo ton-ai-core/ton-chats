@@ -9465,3 +9465,7 @@ Gambit: hi, I'm new in TacT using, just created my smart contract and want to ad
 Gambit: UPD, if someone will face same problem. Problem was in extra 1 bit which tact compiler added into the beggining of the root data cell, because of I have some Optional contract state parameters. I skiped this 1 bit and do the same thing I tried before and everything is fine (reply to 72085)
 
 Timi: So I’m seeing some changes in Ton Center API.  Can we now verify transactions or easily see pending ones?
+
+— 2025-10-03 —
+
+Lols Anti Spam: Ellie19191900, you were blocked (CAS)  ⚠ This message can be disabled in /config [hide]
