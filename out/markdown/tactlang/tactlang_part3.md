@@ -9469,3 +9469,27 @@ Timi: So I’m seeing some changes in Ton Center API.  Can we now verify transac
 — 2025-10-03 —
 
 Lols Anti Spam: Ellie19191900, you were blocked (CAS)  ⚠ This message can be disabled in /config [hide]
+
+— 2025-10-04 —
+
+akki: receive(msg: Upgrade) {         throwUnless(INCORRECT_SENDER, sender() == self.owner); // incorrect sender         if (msg.newCode != null) {             setCode(msg.newCode!!);             self.version += 1;         }          if (msg.newWalletCode != null) {             self.jettonWalletCode = msg.newWalletCode!!;             self.walletVersion += 1;              MessageParameters { // bounce for collecting fees back             to: self.getJettonBasechainWalletByOwner(self.owner),             mode: SendRemainingValue | SendIgnoreErrors,             bounce: false,             value: 0,             body: UpgradeCode {                 sender: myAddress(),  OPTION A        version:self.walletVersion,                 newCode:self.jettonWalletCode  OPTION B        version:self.walletVersion + 1,                                               newCode:msg.newWalletCode,             }.toCell(),         }.send();              // auto upgrade owner jetton wallet code TODO:             //self.sendUpgrade(getJettonBasechainWalletByOwner(self.owner));         }
+
+akki: which is correct ? does storage changes instantly or after txn completion?
+
+我太想进步了: 中文包
+
+Lase: Is this a security issue with my address?  Am I being hacked by testnet faucet bot?
+
+&rey: The mentioned thing is scam, and it is not related to the official faucet. (reply to 72177)
+
+VAT: 🙌🔓
+
+Lase: But it keeps calling my contract and bouncing (reply to 72178)
+
+Lase: There is no way to prevent that yeah?
+
+&rey: Anyone is able to send whatever messages they want (regardless of the contents being false or true, in particular), limited by the relevant asset amount. (reply to 72181)
+
+Lase: It’s the blockchain for a reason 🫡 (reply to 72183)
+
+Lase: Ok, thanks

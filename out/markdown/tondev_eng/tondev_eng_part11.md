@@ -5897,3 +5897,7 @@ Joni: Hola, quería saber si la aplicación de Telegram "TON mine app" es rentab
 — 2025-10-04 —
 
 Joni: Gracias por la información proporcionada (reply to 160536)
+
+IDRegistry: Be ware TON coin total supply already mined at 2022. Any platform related to ton mining is a scam. (reply to 160535)
+
+???: Are there any good solutions for AML for TON addresses?
