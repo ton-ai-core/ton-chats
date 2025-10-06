@@ -5901,3 +5901,75 @@ Joni: Gracias por la información proporcionada (reply to 160536)
 IDRegistry: Be ware TON coin total supply already mined at 2022. Any platform related to ton mining is a scam. (reply to 160535)
 
 ???: Are there any good solutions for AML for TON addresses?
+
+— 2025-10-05 —
+
+AccreDeFi: sumsub (reply to 160595)
+
+MoFR: Is there a real Ton developer here?
+
+&: Looking for TON dev in TON dev channel? (reply to 160652)
+
+MoFR: I mean I'm looking for an experienced developer I have some questions I’d like to ask him (reply to 160653)
+
+&rey: The customary thing to do is to ask development-related questions right here. (reply to 160655)
+
+&: why don't you ask here? (reply to 160655)
+
+MoFR: I started learning smart contract programming on TON, but I feel like I didn’t really understand it Is there something I should learn before that? (reply to 160656)
+
+&: Did you checked sterik videos? (reply to 160659)
+
+MoFR: No, from the documentation (reply to 160661)
+
+MoFR: Do you have any learning resources? (reply to 160661)
+
+Combot: Combot has warned & Borealis (1/3) Reason: Word ******* is not allowed (reply to 160662)
+
+&rey: To newcomers, I would introduce something about microcontrollers first, as an analogous thing: one has really limited resources, and even memory is mostly external.  Speaking of TON... smart contract is just a public program with persistent storage, which can manage some assets. (reply to 160659)
+
+&rey: Those ones? https://docs.ton.org/v3/concepts/educational-resources (reply to 160663)
+
+MoFR: Do you have any videos? (reply to 160667)
+
+&rey: Have you visited the link I sent? (reply to 160669)
+
+MoFR: Ok (reply to 160670)
+
+MoFR: I was going to learn about Ethereum smart contracts, but I believe in Pavel Durov's vision for TON and Telegram (reply to 160670)
+
+Princewill Tor-Anyiin: You're not really purposeful about your goal.  You wanted to learn Solidity, but you changed your mind because Durov's vision?   TON Blockchain achieves massive scalability, high transaction speeds, and low fees through its multi-blockchain architecture with dynamic sharding and a Proof-of-Stake consensus mechanism.  The above qualities is why you should learn FunC and Tact languages -Not because of some else's vision that you don't fully grasp.  Good luck tho. (reply to 160674)
+
+MoFR: Thanks, bro, for the info
+
+&rey: And may truth be your guide. If someone's statements happen not to match reality, follow reality, for you cannot build a project otherwise.  TON can be well-suited to some applications and uniquely bad-suited to others like, say, flash loans.
+
+Princewill Tor-Anyiin: Flash loans originate from EVM, there's no way it will work well in an asynchronous environment as TON.  The easiest and cheapest Blockchain Network for especially us from Africa is TON. It is cheaper and faster.  I don't refer to myself as a Developer -but I know this.
+
+Meta: Hi everyone!  I’m Dhaval Bhatti, founder of Clash Warriors, a PvP battle game on TON. We’re actively developing the game and would love feedback from experienced TON developers. Specifically, we’re looking for insights on gameplay mechanics, matchmaking, and challenge mechanics Any advice, suggestions, or critiques would be greatly appreciated!
+
+Meta: Can we share the link than i will share link to our app
+
+Meta: Clash Warriors: The Future of On-Chain PvP Gaming  Clash Warriors is a skill-driven, strategy-focused real-time PvP battle game on TON, fully on-chain and live on Telegram.  Players own their in-game assets on the blockchain and can engage in solo, duo, and squad battles, participate in clan tournaments, and enjoy NFT integrations for in-game upgrades and trading.  The game emphasizes strategy, skill, and fair competition, with all battles and rewards recorded on-chain to prevent manipulation. Players can truly compete, earn, and trade their assets in a decentralized environment.  Core features include:  Solo / Duo / Squad Battles – Engage in competitive PvP matches.  Clan Tournaments – Team up with friends and compete in structured events.  NFT Assets & Marketplace – Own, upgrade, and trade cards and items with on-chain verifiable ownership.  Clash Warriors aims to create a fully decentralized, skill-driven PvP ecosystem where players have true ownership, transparent gameplay, and a path to competitive growth.
+
+Parham: Hi everyone. Will be there a hac-ton-berfest this year?
+
+Hk: Hi anybody alive , im new here
+
+&rey: Hello. This is chat about how to develop software on TON. (reply to 160794)
+
+Hk: TON? What is That? (reply to 160795)
+
+Hk: Im a begginer
+
+&rey: The Open Network (aka https://ton.org). Its core TON Blockchain is a system for public decentralized activity. (reply to 160796)
+
+&rey: If you happen to be uninterested in development-related discussion, you can start at beginners' post https://t.me/toncoin/483. (reply to 160798)
+
+Hk: Nah its ok , but that TON look so cool
+
+Alonso 👀💟: Hi (reply to 160801)
+
+— 2025-10-06 —
+
+Spsp: Hi (reply to 160811)

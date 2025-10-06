@@ -9493,3 +9493,9 @@ Lase: There is no way to prevent that yeah?
 Lase: It’s the blockchain for a reason 🫡 (reply to 72183)
 
 Lase: Ok, thanks
+
+— 2025-10-05 —
+
+thug: Hello everyone, We’re looking for a service that offers an API to automatically check TON wallet addresses (including those from our internal list) against a comprehensive blacklist to identify links with fraudulent or flagged wallets. If you know of such a solution or have experience integrating one, please share the name or a link. Thank you in advance!
+
+maksim: some of TonConsole wallet fetch methods return "isScam" checkmark, but it's their internal semantic and I'm not sure that you can get any guarantees using it (reply to 72195)

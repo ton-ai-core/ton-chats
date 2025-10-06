@@ -11029,3 +11029,9 @@ Combot: chongque has been banned! Reason: CAS ban.
 — 2025-10-05 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 维维🥈可视频验证 has been banned! Reason: CAS ban.
+
+Combot: 酥酥酱🥭🍹 兼职 has been banned! Reason: CAS ban.
+
+Combot: Абидин Илязов has been banned! Reason: CAS ban.
