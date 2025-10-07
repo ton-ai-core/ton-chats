@@ -11035,3 +11035,19 @@ Combot: 维维🥈可视频验证 has been banned! Reason: CAS ban.
 Combot: 酥酥酱🥭🍹 兼职 has been banned! Reason: CAS ban.
 
 Combot: Абидин Илязов has been banned! Reason: CAS ban.
+
+— 2025-10-06 —
+
+Combot: Karim Kayssi has been banned! Reason: CAS ban.
+
+Combot: Neldawitte Lammpan has been banned! Reason: CAS ban.
+
+Combot: Fffi has been banned! Reason: CAS ban.
+
+Combot: Yuettejeffir Hods has been banned! Reason: CAS ban.
+
+— 2025-10-07 —
+
+Katiya｜TON: 💎 TON Hubs 反馈问卷  💬 花几分钟帮助我们改进 TON Hubs 的支持吧！ 你的反馈将直接影响下一阶段的 Hub 活动——包括每个月的Builders Day、线上直播、开发者课程、工作坊、黑客松以及导师计划等。  👉 请选择你所在的区域 Hub，并回答几个简单的问题，全程不超过 3 分钟！🔗 https://bit.ly/TONHub (forwarded from TON East Asia Hub)
+
+Combot: ជា ចេនឡា, FREELANCER PARVEJ have been banned! Reason: CAS ban.

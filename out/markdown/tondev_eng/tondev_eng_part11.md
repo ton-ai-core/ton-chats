@@ -5973,3 +5973,41 @@ Alonso 👀💟: Hi (reply to 160801)
 — 2025-10-06 —
 
 Spsp: Hi (reply to 160811)
+
+Code: is SETCODE possible in Tolk?
+
+&rey: contract.setCodePostponed. Ahead of time, think of what you'll do to data cell, and to those messages which are inbound but not arrived yet. (reply to 160830)
+
+Иброхим: Building a Stripe-like SDK for Telegram bots to accept USDT (TRON) & TON. Just 5 lines of code, built-in webhooks.  I’m validating the idea — if you build Telegram bots or Web3 mini-apps, I’d love your input.
+
+Иброхим: why are they deleting the link
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 8  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Princewill Tor-Anyiin: Hi, what's happening to the TON project registration portal?  I tried throughout last night the "Register" button to load & finalize reg doesn't click into action.
+
+&rey: What project, exactly? What are you registering to? (reply to 160923)
+
+Princewill Tor-Anyiin: The guys at TON SSEA have given me a clue.   Sorry I got my documentations and resource gateway to launch Testnet phase of my AFRO-NODE DApp project from them - not here (reply to 160926)
+
+&rey: Is https://github.com/gobicycle/bicycle unfitting for your purposes somehow? (reply to 160942)
+
+Иброхим: Oh but this is only for TON
+
+Иброхим: I wanted build something which can accept including TRON (usdt) too
+
+&rey: I do not think it is that relevant to this chat. (Also, the list is somewhat strange in that you are omitting USDT[TON].)
+
+Gh0stn3t1: Hello 👋   I'm Al-ameen Muhammad Idris. Skills on HTML, CSS, JavaScript, PHP, MySQL, NodeJs,  Reactjs and basic to move and solidity.  A computer Science student, I like to know more on this Group.  Thank you!
+
+&rey: I recommend checking out our introductory post to learn the basics about TON Blockchain — https://t.me/toncoin/483, or https://docs.ton.org. (reply to 160955)
+
+Gh0stn3t1: Thank you 👍 (reply to 160956)
+
+MoFR: Bro, thanks for the help. I started learning smart contract programming on TON today (reply to 160956)
+
+— 2025-10-07 —
+
+Whoami: is there a "standard" business manual for ton, i.e. legal entity, marketing, etc.?
+
+Radhe Radhe: I provide complete interview assistance and on job work support to help you secure offers and perform confidently.

@@ -9499,3 +9499,11 @@ Lase: Ok, thanks
 thug: Hello everyone, We’re looking for a service that offers an API to automatically check TON wallet addresses (including those from our internal list) against a comprehensive blacklist to identify links with fraudulent or flagged wallets. If you know of such a solution or have experience integrating one, please share the name or a link. Thank you in advance!
 
 maksim: some of TonConsole wallet fetch methods return "isScam" checkmark, but it's their internal semantic and I'm not sure that you can get any guarantees using it (reply to 72195)
+
+— 2025-10-06 —
+
+akki: tact-fmt  —write is adding the highlighted commented line on top of every function in whole contract
+
+akki: where to get updates for ton plugins from?
+
+Petr: This is a bug, plugins are still available 🙂 (reply to 72232)
