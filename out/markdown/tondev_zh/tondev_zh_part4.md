@@ -11051,3 +11051,17 @@ Combot: Yuettejeffir Hods has been banned! Reason: CAS ban.
 Katiya｜TON: 💎 TON Hubs 反馈问卷  💬 花几分钟帮助我们改进 TON Hubs 的支持吧！ 你的反馈将直接影响下一阶段的 Hub 活动——包括每个月的Builders Day、线上直播、开发者课程、工作坊、黑客松以及导师计划等。  👉 请选择你所在的区域 Hub，并回答几个简单的问题，全程不超过 3 分钟！🔗 https://bit.ly/TONHub (forwarded from TON East Asia Hub)
 
 Combot: ជា ចេនឡា, FREELANCER PARVEJ have been banned! Reason: CAS ban.
+
+0x: https://zh.surveymonkey.com/r/QJXTBWC，您好，这是针对一款全新AI产品的市场调研，如果各位感兴趣的话可以看看。
+
+Combot: Moussa Diarra has been banned! Reason: CAS ban.
+
+Combot: Love AGOSSOU has been banned! Reason: CAS ban.
+
+Anthony: ✈️ New Proposal: Scaled UI Standard for TON  The Scaled UI standard introduces a unified way for wallets and dApps to display token amounts using a scaling factor — enabling advanced token models such as rebasing and yield accrual, while preserving full on-chain accuracy.  This ensures consistent and transparent balance representation across the TON ecosystem.  💬 We invite developers to review the draft and share feedback before adoption.  📎 https://github.com/ton-blockchain/TEPs/pull/526 (forwarded from TonTech)
+
+Combot: Serwah has been banned! Reason: CAS ban.
+
+Combot: Syazwan Shafie, مودة have been banned! Reason: CAS ban.
+
+Combot: Gu has been banned! Reason: CAS ban.

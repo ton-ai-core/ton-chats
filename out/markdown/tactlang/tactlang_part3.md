@@ -9507,3 +9507,7 @@ akki: tact-fmt  —write is adding the highlighted commented line on top of ever
 akki: where to get updates for ton plugins from?
 
 Petr: This is a bug, plugins are still available 🙂 (reply to 72232)
+
+— 2025-10-07 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)

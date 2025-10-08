@@ -1241,3 +1241,55 @@ Viacheslav: в wallet v5 похоже так  var msg = AllowedExternalMessageTo
 — 2025-10-07 —
 
 Combot: Combot выдал(а) предупреждение Антон_official (1/3) Reason: 1 reports (reply to 324376)
+
+Aleksei: От 100$ час (reply to 324200)
+
+Л: async def send_ton(to_addr: str, amount_ton: float) -> bool:     wallet_addr = wallet.address.to_string(False, False, False)     amount_nanoton = int(round(amount_ton * 1e9))      async with httpx.AsyncClient(timeout=15) as client:         resp = await client.get(f"https://toncenter.com/api/v2/getWalletInformation", params={"address": wallet_addr})         if resp.status_code != 200:             print(f"Ошибка получения seqno: {resp.text}")             return False         data = resp.json()         if not data.get("ok") or "result" not in data:             print(f"Неверный ответ при получении seqno: {data}")             return False         seqno = data["result"]["seqno"]          try:             msg = wallet.create_transfer_message(                 to_addr=to_addr,                 amount=amount_nanoton,                 seqno=seqno,                 send_mode=3             )         except Exception as e:             print(f"Ошибка создания транзакции: {e}")             return False                  boc_b64 = base64.b64encode(msg["message"].to_boc()).decode()                   send_resp = await client.post(f"https://toncenter.com/api/v2/sendBoc", json={"boc": boc_b64})         if send_resp.status_code == 200:             resp_data = send_resp.json()             if resp_data.get("ok"):                 return True             else:                 print(f"Ошибка отправки BOC: {resp_data}")         else:             print(f"HTTP ошибка при отправке BOC: {send_resp.status_code} {send_resp.text}")      return False   че не так, хэлп, особо не шарю, надо одну функцию сделать
+
+Victor: struct ExternalSignedRequest { validUntil: uint32;           // unix timestamp deadline     seqno: uint32;                // anti-replay sequence number     extraActions: Cell<ExtraAction>; // typed cell with one of ExtraAction variants     // ends with a signature (512 bits), but it's parsed and compared separately }  struct (0x1bb0465) AddLiquidityExt {     contractJettonWallet: address; // user jetton wallet address     value: coins;                  // TONs to attach for fees     jettonAmount: coins;           // amount of jettons to transfer     routerAddress: address;        // target DEX router     forwardTonAmount: coins;        // forward TONs to router     additionalData: Cell<AdditionalDataForAddLiquidityExt>; }  type ExtraAction = AddLiquidityExt | WithdrawLiquidityExt | SwapJettonExt    var msg = lazy ExternalSignedRequest.fromSlice(signedSlice);   val extraAction: ExtraAction = lazy msg.extraActions.load();  match (extraAction) {         AddLiquidityExt => {             return addLiquidity(extraAction);         }          else => {             throw ERROR_UNKNOWN_OP;         } }   Как правильно работать с lazy, а то у меня не работает match и все время выдает ошибку ERROR_UNKNOWN_OP. Просто, не совсем понимаю как правильно сделать правильно.
+
+Anthony: ✈️ New Proposal: Scaled UI Standard for TON  The Scaled UI standard introduces a unified way for wallets and dApps to display token amounts using a scaling factor — enabling advanced token models such as rebasing and yield accrual, while preserving full on-chain accuracy.  This ensures consistent and transparent balance representation across the TON ecosystem.  💬 We invite developers to review the draft and share feedback before adoption.  📎 https://github.com/ton-blockchain/TEPs/pull/526 (forwarded from TonTech)
+
+gena: ребята, а что такое библиотеки в смарт контрактах на тоне? можно почитать где-нибудь про это?
+
+Anthony: https://docs.ton.org/v3/documentation/data-formats/cells/library (reply to 324409)
+
+gena: спасибо (reply to 324410)
+
+Just1k|Джастик $BC: Товарищи, кто подключал свапы Ston.fi DEDUST - отпишите пожалуйста, нужна помощь.
+
+Vladimir: А чего только 1 звезда сообщение? Надо больше ставить. (reply to 324434)
+
+Remu: Доброго времени суток чат. Подскажите, а можно в blueprint одной транзакцией с подключением tonconnect сразу несколько сообщений кидать? Чтото не нашел. Через provider..send только одно.
+
+Tim: Можно самому без блупринта. (reply to 324438)
+
+Remu: Спасибо  а по блупринту жаль :) было бы удобно и ему эту фичу на борт взять (reply to 324439)
+
+Ed: Привет. Такой вопрос появился. Возможно ли создать ссылку на перевод, без тонконнекта ?  Что-то типо ton://transfer. Наподобие этого. Хочу например просто выставить счёт, или прислать qr код на оплату, но так, чтобы пользователь не мог менять данные при отправке перевода ?
+
+Vladimir: https://docs.tonconsole.com/tonkeeper/deep-linking (reply to 324443)
+
+blitzbyte: но пользователь при желании сможет изменять данные, так что либо одно, либо другое (reply to 324444)
+
+Ed: А других вариантов тогда нет? Если использовать тон коннект, то там в любом случае нужно просить пользователя авторизоваться? Или так можно выставить тоже ? (reply to 324445)
+
+Denis: эм. это в какой версии? (reply to 324445)
+
+Denis: по идее при приложеном эмаунте и боди не должен
+
+blitzbyte: ссылку поменять перед запуском? (reply to 324447)
+
+Denis: ну ссылку отредактировать может конечно. но так и он через тонконнект может скопировать адрес получателя из эмуляции и отправить руками
+
+Ed: Я как-то раз такое пытался сделать с тонкипером, ну эт было давно прям, там можно было прямо перед переводом изменить все. Хотя и сумму указывал и коммент А если не привязываться к кошельку, а делать ton://transfer/{ADDRESS}?amount={AMOUNT}&bin={BINARY_DATA}, оно поидеи на всех кошельках работать будет? Допустим я генерирую qr код с этой ссылкой и он просто сканирует его в своей кошельке и делает перевод. (reply to 324448)
+
+Just1k|Джастик $BC: Это от сваперов и мошенников, чтобы не флудили. Ама сессиями англоязычними и рекламкой. (reply to 324435)
+
+Just1k|Джастик $BC: this.router = this.tonClient.open(DEX.v2_1.Router.CPI.create('kQALh-JBBIKK7gr0o4AVf9JZnEsFndqO0qTCyT-D-yBsWk0v'));        const proxyTon = pTON.v2_1.create('kQACS30DNoUQ7NfApPvzh7eBmSZ9L4ygJ-lkNWtba8TQT-Px'); // pTON v2.1.0  Правильно для свапов ? Подскажите пожалуйста)
+
+Denis: работает на тонкипере/mytonwallet/tonhub. safepal ton:// ссылки перехватывает, но он воспринимает значение как decimal а не как numeric (тоесть попытка отправить 1 тон они воспримут как попытку отправить милиард). но им пользуется полторы калеки. и по слухам трастволлет поддержал причем криво. но их некому отпиздить (reply to 324451)
+
+Ed: Понял. А так еще способов нету кроме этого получается ? Ладно, надо пробовать, мб пофиксили ))
+
+Ed: Вроде нельзя изменить именно при переводе ))) кайф )) (reply to 324454)

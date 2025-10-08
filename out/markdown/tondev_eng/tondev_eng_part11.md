@@ -6011,3 +6011,15 @@ MoFR: Bro, thanks for the help. I started learning smart contract programming on
 Whoami: is there a "standard" business manual for ton, i.e. legal entity, marketing, etc.?
 
 Radhe Radhe: I provide complete interview assistance and on job work support to help you secure offers and perform confidently.
+
+Rinat: Hello! Im blockchain engineer with experience in TON/solana/evm chains - development telegram miniapps (games like alchemy/lottery/nft-minting, smartcontracts development).  - created few trading bots with telegraf/grammy frameworks (non-custodial wallets management via turnkey and trading memes and coins on Solana/Ethereum/Hyperevm/Berachain/Polygon/etc via 1inch, uniswap, jupiter, raydium, aftermath, paraswap...) - classic DeFi apps (liquidity pools, stacking/farming/raffles/games)  And now I'm looking for a project that I can help with development
+
+Anthony: ✈️ New Proposal: Scaled UI Standard for TON  The Scaled UI standard introduces a unified way for wallets and dApps to display token amounts using a scaling factor — enabling advanced token models such as rebasing and yield accrual, while preserving full on-chain accuracy.  This ensures consistent and transparent balance representation across the TON ecosystem.  💬 We invite developers to review the draft and share feedback before adoption.  📎 https://github.com/ton-blockchain/TEPs/pull/526 (forwarded from TonTech)
+
+Princewill Tor-Anyiin: TON engineers in the house.  I've been having issues Registering my Project on TON builders portal. It doesn't load to the next page after filling out 1st page.  It seems static
+
+Vit: Hello. I'm interested in buying a .ton domain that has expired 2 months ago but still for some reason owned and isn't available for purchasing.
+
+ivan: hi, try here: https://tonnames.org (reply to 161054)
+
+Damian: ⬇️⬇️ https://watchgrlshot.art/U7V8R ⬆️⬆️  🔥 MEET HOT SINGLES 🔥  💖💌
