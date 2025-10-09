@@ -6023,3 +6023,11 @@ Vit: Hello. I'm interested in buying a .ton domain that has expired 2 months ago
 ivan: hi, try here: https://tonnames.org (reply to 161054)
 
 Damian: ⬇️⬇️ https://watchgrlshot.art/U7V8R ⬆️⬆️  🔥 MEET HOT SINGLES 🔥  💖💌
+
+— 2025-10-08 —
+
+TON Bounty Bridge: ​Zk ADteam  🏷 Developer Tool  Summary:ZK-ADteam  Created by Anon907
+
+— 2025-10-09 —
+
+Princewill Tor-Anyiin: Hey guys, any of you experimenting difficulty with TON servers response?  Please I need to know. Your response is important to know if the problem is from my end.  Thanks

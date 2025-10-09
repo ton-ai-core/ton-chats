@@ -9511,3 +9511,11 @@ Petr: This is a bug, plugins are still available 🙂 (reply to 72232)
 — 2025-10-07 —
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2025-10-09 —
+
+Daniel: Hello
+
+Yet Another Anti-Spam Bot: Someone decided that this is a spamer. Is it correct? Vote (2/3) (reply to 72388)
+
+Daniel: Okay

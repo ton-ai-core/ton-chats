@@ -11065,3 +11065,13 @@ Combot: Serwah has been banned! Reason: CAS ban.
 Combot: Syazwan Shafie, مودة have been banned! Reason: CAS ban.
 
 Combot: Gu has been banned! Reason: CAS ban.
+
+— 2025-10-08 —
+
+Katiya｜TON: Live Coding Course #14 — Telegram Userbot    📅 10月9日 周四 19:00 (UTC+8)   🔗 注册获得提醒： https://luma.com/2mnwb9vw 📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=DwDiOcAJkoo 👨‍💻 主讲：Andrew · TON 东亚区 Dev Rel      ✨ 课程亮点：Telegram Userbot  Telegram Userbot 是一个运行在 Telegram 平台上的自动化程序，使用用户账号（而不是 Bot API）来执行各种任务，以编程方式控制你的 Telegram 账号，实现自动化功能。  课程将带你掌握主流框架的实战用法，可实现自动回复、群组管理、消息转发、数据采集等多种功能。 (forwarded from TON East Asia Hub)
+
+Combot: Hedy Marttolarderow has been banned! Reason: CAS ban.
+
+Combot: Olesyakirillov Colanll has been banned! Reason: CAS ban.
+
+Combot: Nhon Chamrouen, Stephany have been banned! Reason: CAS ban.
