@@ -1437,3 +1437,195 @@ Alexey: не знаю, мне кажется, много неожиданных 
 ᕤᗩᕤs: я делаю так https://t.me/catgeowild/10 (reply to 324438)
 
 Insider: всем привет, кто может посоветовать разрабов кто в мини апп биржи-ботов пишет ?
+
+Combot: Combot выдал(а) предупреждение Таня (1/3) Reason: 1 reports (reply to 324640)
+
+Donatello: Всем привет, нужен бэкендер в команду, с опытом вебсокетов, так же желательно с геймдев опытом, пишите в личку 🤝🏼
+
+sd: Так и надо, это рекламный бот (reply to 324669)
+
+/B4ckSl4sh\: set_c3 буквально сетает c3, который не совсем "код" контракта. Если говорить конкретно, то изменится словарь селектор функций, и функции, которые в нём лежат (в funC это все, не являющиеся inline / inline_ref), будут вызываться из нового дикта, то есть текущее исполнение после set_c3 продолжится, пока вы явно не вызовите такую функцию   Из высокоуровневой аналогии можете думать об этом примерно как о том, что будет если переписать vtable в c++ объекте, если ваш контракт - объект   (немного корявая аналогия, но возможно добавит понимания) (reply to 324627)
+
+fruitful-l: Хмм, а как в контексте написания кода работает выполнение новых функций из continuation? Функции вызываются по id? (reply to 324671)
+
+/B4ckSl4sh\: из дикта они вызываются по id (reply to 324676)
+
+/B4ckSl4sh\: Формально в c3 лежит continuation, который ожидает один аргумент - id. Ожидается, что этот континуейшн возьмёт этот id, найдёт функцию соответствующую id и передаст управление в неё
+
+fruitful-l: Как понять какой у функции будет id? Кроме зарезервированных значений типа recv_internal
+
+/B4ckSl4sh\: Насколько я помню они назначаются по-порядку, но гарантировать не буду (reply to 324679)
+
+fruitful-l: я так понимаю простого решения для вызова выборочной функции по id тоже нет? (reply to 324680)
+
+&rey: Ну как нет? Асм-вставку сделать несложно. Сложнее туда аргументы засунуть. (reply to 324682)
+
+Seitaro: method_id(<ID>)  Гетметоды ровно такие же функции как все остальные (их можно вызывать изнутри контракта), по дефолту method_id модификатор значит, что id вычисляется из имени, но можно и явно указать (reply to 324682)
+
+Seitaro: Пример применения https://github.com/ton-blockchain/ton/blob/master/crypto%2Fsmartcont%2Fconfig-code.fc#L97 (reply to 324686)
+
+Petr: Для толка это соответственно @method_id(..) fun ...
+
+fruitful-l: Как раз то, что хотел найти, спасибо большое! (reply to 324686)
+
+Anthony: TON x Ignyte Hackathon: Building the Web3 SuperApp Economy  TON Foundation and Ignyte invite innovators worldwide to create Web3 payment, gig economy, and creator tools on Telegram, making digital payments faster and more useful for everyday life.  🗓 Key Dates  ▪️Launch: Oct 8, 2025 ▪️Deadline: Nov 17, 2025 ▪️Finalists: Nov 21, 2025 ▪️Pitch & Awards: Nov 29, 2025  Who Can Apply?   Students, early-stage startups, and scale-ups (Seed to Pre-Series A)  💰 Prizes (30,000 USD Total) 🥇 15,000 | 🥈 10,000 | 🥉 5,000  The Challenge  Build solutions that bring Web3 payments and experiences to Telegram, from instant pay for gig workers to token-gated creator tools.  Winners gain mentorship, access to TON’s Ecosystem, and a chance to pilot their projects globally.  Apply here (forwarded from Toncoin)
+
+.: окак (reply to 324724)
+
+P: Всем привет. как решить эту проблему при отправке тона? error: 'LITE_SERVER_UNKNOWN: cannot apply external message to current state : failed to parse external message: external message must begin with ext_in_msg_info$10',
+
+Оскар: в ошибке так и написано, вместо экстернала в сеть отправляется какой то богус, нужно посмотреть как месседж собирается (reply to 324731)
+
+P: const transfer = wallet.createTransfer({     secretKey: Buffer.from(childKeypair.secretKey),     sendMode: SendMode.NONE,     seqno: seqno,     messages: [       internal({         to: "addr",         value: 10000n,       }),     ],   });    const extMsg = external({     to: "addr",     body: transfer,   });    const extMsgCell = beginCell().store(storeMessage(extMsg)).endCell();    const boc = Buffer.from(extMsgCell.toBoc()).toString("base64");
+
+🐼 Sild: вот у человека все заработало (reply to 287496)
+
+&rey: Наличие этих строк в документации не означает, что они нужны для отправки))) (reply to 324733)
+
+P: И что делать? (reply to 324739)
+
+&rey: const boc = Buffer.from(transfer.toBoc()).toString("base64"); (reply to 324740)
+
+P: LITE_SERVER_UNKNOWN: cannot apply external message to current state : failed to parse external message: external message must begin with ext_in_msg_info$10 (reply to 324742)
+
+&rey: А что вы с этим боком делаете, кстати? (reply to 324744)
+
+P: const response = await axiosClient.post("/sendBoc", {       boc,   }); (reply to 324745)
+
+P: Как я понимаю нет вариантов? (reply to 324745)
+
+Андрей: Варианты зависят от того что вы хотите получить (reply to 324748)
+
+P: Да просто тон хочу отправить на другой кошелек (reply to 324749)
+
+&rey: sendTransfer попробуйте.
+
+P: Так мне аксиосом отправить надо (reply to 324751)
+
+P: Вероятно это ни у кого еще не получалось? (reply to 324751)
+
+Оскар: есть больше информации? попробуй залогать base64 бок и отправить сюда, потому что по идее всё нормально по сборке месседжа судя по коду что выше (reply to 324753)
+
+P: te6cckEBBAEAkwABoXNpZ25///8RaOgBswAAAAKYx2ho9XNyqGglfD/7Ch6CdswMWoiX6qaZxcszpanl9t2wYX0IkniZYlw0QV8H0eP1KLqkpEgn7eheKF0M0RbB4AECCg7DyG0CAgMAAABkYn/bWSkUsN7fesUf3YH/ZeytmVxZmSItDx4zZeqaR9TM8xE4gAAAAAAAAAAAAAAAAACxnujo (reply to 324754)
+
+&rey: Очень странный бок, с "sign" начинается, это не трансфер. (reply to 324755)
+
+Pavel: А как это проверить можно? (reply to 324756)
+
+&rey: pytoniq.Cell.one_from_boc(кинутое).begin_parse() и посмотреть глазами или .load_string(4). (reply to 324757)
+
+&rey: А вы же используете @ton/ton, @ton/core? (Понял, что да.) (reply to 324755)
+
+Pavel: const transfer = wallet.createTransfer({     secretKey: Buffer.from(childKeys.secretKey),     sendMode: SendMode.NONE,     seqno: seqno,     messages: [       internal({         to: "Ef-2slIpYb2-9Yo_uwP-y9lbMrizMkRaHjxmy9U0j6mZ5tcW",         value: 10000n,       }),     ],   });    console.log("Transfer:", transfer);    const extMsg = external({     body: transfer,     to: "Ef-2slIpYb2-9Yo_uwP-y9lbMrizMkRaHjxmy9U0j6mZ5tcW",   });    const extMsgCell = beginCell().store(storeMessage(extMsg)).endCell();    const boc = Buffer.from(extMsgCell.toBoc()).toString("base64");   console.log("Boc:", boc);    const data = Cell.fromBoc(Buffer.from(boc, "base64"));   console.log("Data:", data);
+
+Mikle: Здравствуйте, в тма ссылку на подарок открывает через браузер. Как сделать чтобы открывал прямо в телеге?
+
+&rey: Вам transfer здесь только и нужен. (reply to 324765)
+
+Pavel: Seqno: 2 Transfer: x{7369676E7FFFFF1168E805BE000000029973302846E11D510651C916AF692F94001D5214A6C35907E3412319484729CE06930C63B3ECB690659B077AECBB3FD258630A1FF52D7331A4951D19281836802_}  x{0EC3C86D02}   x{}   x{627FDB592914B0DEDF7AC51FDD81FF65ECAD995C5999222D0F1E3365EA9A47D4CCF311388000000000000000000000000000} Boc: te6cckEBBAEAtQAB5Yn/bWSkUsN7fesUf3YH/ZeytmVxZmSItDx4zZeqaR9TM8wDm0s7c///+ItHQC3wAAAAFMuZgUI3COqIMo5ItXtJfKAA6pClNhrIPxoJGMpCOU5wNJhjHZ9ltIMs2DvXZdn+ksMYUP+pa5mNJKjoyUDBtAEBAgoOw8htAgIDAAAAZGJ/21kpFLDe33rFH92B/2XsrZlcWZkiLQ8eM2XqmkfUzPMROIAAAAAAAAAAAAAAAAAAsNY8CA== Data: [   x{89FF6D64A452C37B7DEB147F7607FD97B2B66571666488B43C78CD97AA691F5333CC039B4B3B73FFFFF88B47402DF000000014CB9981423708EA88328E48B57B497CA000EA90A5361AC83F1A0918CA42394E703498631D9F65B4832CD83BD765D9FE92C31850FFA96B998D24A8E8C940C1B401_}    x{0EC3C86D02}     x{}     x{627FDB592914B0DEDF7AC51FDD81FF65ECAD995C5999222D0F1E3365EA9A47D4CCF311388000000000000000000000000000} ] (reply to 324767)
+
+&rey: А wallet как определён? (reply to 324768)
+
+Pavel: const wallet: WalletContractV5R1 = WalletContractV5R1.create({     workchain: -1,     publicKey: childKeys.childPublicKey,   }); (reply to 324770)
+
+Mikle: Я в очереди (reply to 324770)
+
+&rey: Оффтоп. (reply to 324769)
+
+Оскар: нет, насколько я помню createTransfer создаёт просто тело трансфера, не заворачивает его в экстернал (reply to 324767)
+
+Mikle: Почему оф топ. В тма нужно правильно обработать ссылку) (reply to 324773)
+
+&rey: Да, кстати, если обёртку добавляет await contract.sendExternal или как там оно называлось. (reply to 324774)
+
+Mikle: Неделю назад открывались правильно. Что они там обновили не понятно)
+
+&rey: В описании: > Чат русскоязычного сообщества разработчиков на TON.  TMA — это не тон. Это телеграмные мини-приложения. (reply to 324775)
+
+Mikle: Понял) ладно (reply to 324778)
+
+Оскар: бок действительно очень странный, у него первый бит 0, что соответствует интерналу, но там даже не структура интернала, а бог пойми что (reply to 324755)
+
+User: Вам могут помочь в чате @ devs) Напишите лучше туда (reply to 324779)
+
+Mikle: Спасибо (reply to 324782)
+
+P: Transfer: x{7369676E7FFFFF1168E8091300000002A704C50E4E13FB8F76C922FE91BE88DED4DFD0D2E66DDF496F1EBF96645A9C2322607B894C453B0EE04C08E3FA29E38E4BCE86460DCBDCD297A4EC67B35824826_}  x{0EC3C86D02}   x{}   x{627FDB592914B0DEDF7AC51FDD81FF65ECAD995C5999222D0F1E3365EA9A47D4CCF311388000000000000000000000000000}  Это бок для трансфера,но он вызывает ошибку LITE_SERVER_UNKNOWN: cannot apply external message to current state : failed to parse external message: external message must begin with ext_in_msg_info$10 (reply to 324781)
+
+Оскар: это понятно, но будучи завернутым в экстернал префикс (2 бита) должен быть 10 (reply to 324784)
+
+P: А экстернал если отправляю то эту LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted\n' +         'Cannot run message on account: inbound external message rejected by transaction B6B2522961BDBEF58A3FBB03FECBD95B32B8B332445A1E3C66CBD5348FA999E6:\n' +         'exitcode=0, steps=0, gas_used=0 (reply to 324781)
+
+Оскар: во, это уже прогресс (reply to 324786)
+
+Оскар: а контракт задеплоен? (reply to 324786)
+
+&rey: На аккаунте нет средств. Мастерчейн, к тому же, дороже бейсчейна. (reply to 324786)
+
+P: Да, в тестнете, и через библиотеку уже отправлял тон (reply to 324787)
+
+Оскар: а можно адрес кошелька с которого идут попытки отправить транзу? (reply to 324790)
+
+P: Ef_TfIV8f7y-BVmEgWcXIIAcUmbZv7AnBupiRBzR8uoUcXDF (reply to 324791)
+
+Оскар: то что выше - на нём нет денег + не задеплоен, к экстерналу надо ещё стейт инит прикрепить (reply to 324792)
+
+P: Это на который отправляю? (reply to 324793)
+
+Оскар: с которого средства отправляются, надо добавить init где оборачиваем в экстернал с помощью external({...}) (reply to 324794)
+
+P: А не подскажите что туда добавлять? (reply to 324795)
+
+Оскар: по памяти   const extMsg = external({     init: wallet.init,     body: transfer,     to: "Ef-2slIpYb2-9Yo_uwP-y9lbMrizMkRaHjxmy9U0j6mZ5tcW",   }); (reply to 324796)
+
+P: Спасибо, но ничего не изменилось  LITE_SERVER_UNKNOWN: cannot apply external message to current state : External message was not accepted\n' +         'Cannot run message on account: inbound external message rejected by transaction B6B2522961BDBEF58A3FBB03FECBD95B32B8B332445A1E3C66CBD5348FA999E6:\n' +         'exitcode=0, steps=0, gas_used=0 (reply to 324797)
+
+Оскар: а тоны на кошелек закинули? (reply to 324798)
+
+&rey: Это другой контракт. (reply to 324800)
+
+Оскар: можно еще раз код в текущем состоянии? (reply to 324800)
+
+P: Тот же просто почему то он по другому отображается тут https://testnet.tonviewer.com/kf_TfIV8f7y-BVmEgWcXIIAcUmbZv7AnBupiRBzR8uoUcctP (reply to 324801)
+
+&rey: Этот адрес — точно не kf_TfIV8f7y-BVmEgWcXIIAcUmbZv7AnBupiRBzR8uoUcctP, какие преобразования тегов ни делай. (reply to 324797)
+
+P: const transfer = wallet.createTransfer({     secretKey: Buffer.from(childKeys.secretKey),     sendMode: SendMode.NONE,     seqno: seqno,     messages: [       internal({         to: "Ef-2slIpYb2-9Yo_uwP-y9lbMrizMkRaHjxmy9U0j6mZ5tcW",         value: 10000n,       }),     ],   });    console.log("Transfer:", transfer);    const extMsg = external({     body: transfer,     to: "Ef-2slIpYb2-9Yo_uwP-y9lbMrizMkRaHjxmy9U0j6mZ5tcW",     init: wallet.init,   });    const extMsgCell = beginCell().store(storeMessage(extMsg)).endCell();    const boc = Buffer.from(extMsgCell.toBoc()).toString("base64");   console.log("Boc:", boc);    await sendBoc(boc); (reply to 324802)
+
+Оскар: ну да, а коде адрес не тот (reply to 324805)
+
+Оскар: если что, в external надо писать не куда тоны отправляете, а с какого кошелька отправляете (reply to 324805)
+
+Оскар: экстернал приходит на отправителя и уже получателю отправляет internal
+
+P: https://testnet.tonviewer.com/transaction/e5e23559ee90359207e8962cb6e46b1265292b3ae461fccbb161d8432c29a232  Есть ощутимый прогресс (reply to 324808)
+
+P: Одно не понятно почему падает (reply to 324808)
+
+Оскар: да вот компьют фаза проходит, но экшен на отправку скипается, и я если честно не особо понимаю почему
+
+Оскар: а, понял, ты интернал отправляешь с сенд модом 0, wallet.createTransfer за тебя дописывает +2 чтобы v5 воллет не упал так как у него идёт валидация на +2 мод, а из-за того что нет 1 (pay fees separately), то трансфер скипается так как 10000 нанотон очень мало для отправки  в общем при сборке интернала в коде нужно sendMode: 3 вместо sendMode: SendMode.NONE, если честно по памяти не подскажу как через enum этот сделать, но что-то из разряда sendMode: SendMode.IGNORE_ERRORS | SendMode.PAY_FEES_SEPARATELY (reply to 324810)
+
+P: SendMode.PAY_GAS_SEPARATELY  Тон с одного кошелька ушел, на другой пришел, но всеравно ошибка https://testnet.tonviewer.com/transaction/1191ae9314659f09cbb29e207cbe11128382da2eb51d40362ab92618fedbf2ed (reply to 324812)
+
+P: Странно это все
+
+&rey: Ну, всё нормально, да. Мало отправляете для мастерчейна-то. (reply to 324814)
+
+Оскар: эта ошибка абсолютно нормальная для получателя-воллета, обычно там месседж скипается, но тут хватило газа на запуск твм и особо больше то ни на что не хватило (reply to 324814)
+
+P: Спасибо! (reply to 324816)
+
+Viacheslav: Интересно, какое отношение infura.io имеет к ton, если тона нет в списке поддерживаемых сетей.. https://www.infura.io/networks
+
+Denis: ipfs провайдер
+
+Viacheslav: а что означает cons в func?  int n = 261119911; builder string = begin_cell(); tuple chars = null(); do {     int r = n~divmod(10);     chars = cons(r + 48, chars); <-----
+
+fruitful-l: в tuple добавляет элемент в начало вроде (reply to 324833)
+
+fruitful-l: forall X -> tuple cons(X head, tuple tail) asm "CONS";
+
+Oleg: Это не только в func, это из функциональных языков пошло, конструктор списка (reply to 324833)
+
+Viacheslav: при использовании GETSTORAGEFEE, мне нужно посчитать помимо количества ячеек, сколько данные занимают бит?  int get_storage_fee(int is_mc, int seconds, int bits, int cells) asm(cells bits seconds is_mc) "GETSTORAGEFEE";  вот например:  begin_cell() .store_uint(5,32) .store_ref(begin_cell()                  .store_uint(6,64)                  .end_cell()) .end_cell()  будет: get_storage_fee(-1, 60*60*24*365,  32+64, 2) - правильно?

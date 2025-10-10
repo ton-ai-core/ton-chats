@@ -11075,3 +11075,27 @@ Combot: Hedy Marttolarderow has been banned! Reason: CAS ban.
 Combot: Olesyakirillov Colanll has been banned! Reason: CAS ban.
 
 Combot: Nhon Chamrouen, Stephany have been banned! Reason: CAS ban.
+
+— 2025-10-09 —
+
+Combot: Lucio Palacios has been banned! Reason: CAS ban.
+
+Z: 这人被盗号了 大家不要理哈
+
+Combot: Seang has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🚀 $TON 消费级应用加速器 · Workshop #2 「为什么跳过 Ecosupport（生态支持）是扼杀你应用最快的方式？」  💡 聆听 TON 生态战略经理 Sahil 的独家分享—— 了解 Ecosupport 如何成为项目 加速增长的关键杠杆，以及你该如何正确利用它！  📅 10 月 13 日 20:00 (UTC+8) 🔗 注册提醒并观看直播： https://luma.com/qyvynixp 📺 YouTube & X 同步直播： https://www.youtube.com/watch?v=rpGXPZI_9j8 💬 语言：英文  嘉宾： Sahil，TON生态战略经理 (forwarded from TON East Asia Hub)
+
+eric: 对接ton链 有golang的sdk吗
+
+Katiya｜TON: Live Coding Course #14 — Telegram Userbot直播开始啦！  ✨ 课程亮点：Telegram Userbot  Telegram Userbot 是一个运行在 Telegram 平台上的自动化程序，使用用户账号（而不是 Bot API）来执行各种任务，以编程方式控制你的 Telegram 账号，实现自动化功能。  课程将带你掌握主流框架的实战用法，可实现自动回复、群组管理、消息转发、数据采集等多种功能。  🔗直播开始啦： https://x.com/TONEastAsia/status/1976239822995095827 (forwarded from TON East Asia Hub)
+
+Combot: Qistina has been banned! Reason: CAS ban.
+
+Anthony: TON x Ignyte Hackathon: Building the Web3 SuperApp Economy  TON Foundation and Ignyte invite innovators worldwide to create Web3 payment, gig economy, and creator tools on Telegram, making digital payments faster and more useful for everyday life.  🗓 Key Dates  ▪️Launch: Oct 8, 2025 ▪️Deadline: Nov 17, 2025 ▪️Finalists: Nov 21, 2025 ▪️Pitch & Awards: Nov 29, 2025  Who Can Apply?   Students, early-stage startups, and scale-ups (Seed to Pre-Series A)  💰 Prizes (30,000 USD Total) 🥇 15,000 | 🥈 10,000 | 🥉 5,000  The Challenge  Build solutions that bring Web3 payments and experiences to Telegram, from instant pay for gig workers to token-gated creator tools.  Winners gain mentorship, access to TON’s Ecosystem, and a chance to pilot their projects globally.  Apply here (forwarded from Toncoin)
+
+Combot: Hà Ngân has been banned! Reason: CAS ban.
+
+Rose: Yeah, I don't like your flooding. Zaw Oo has been muted.
+
+Combot: ahmed salah, Ibrahim Hatem have been banned! Reason: CAS ban.

@@ -2137,6 +2137,22 @@
       "forwarded_from": "TonTech",
       "forwarded_from_id": "channel1764902466",
       "forwarded_date": "2025-09-30T11:12:26.000Z"
+    },
+    {
+      "id": 243,
+      "type": "message",
+      "date": "2025-10-09T11:54:14.000Z",
+      "date_unixtime": "1760010854",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "TON x Ignyte Hackathon: Building the Web3 SuperApp Economy\n\nTON Foundation and Ignyte invite innovators worldwide to create Web3 payment, gig economy, and creator tools on Telegram, making digital payments faster and more useful for everyday life.\n\n🗓 Key Dates\n\n▪️Launch: Oct 8, 2025\n▪️Deadline: Nov 17, 2025\n▪️Finalists: Nov 21, 2025\n▪️Pitch & Awards: Nov 29, 2025\n\nWho Can Apply? \n\nStudents, early-stage startups, and scale-ups (Seed to Pre-Series A)\n\n💰 Prizes (30,000 USD Total)\n🥇 15,000 | 🥈 10,000 | 🥉 5,000\n\nThe Challenge\n\nBuild solutions that bring Web3 payments and experiences to Telegram, from instant pay for gig workers to token-gated creator tools.\n\nWinners gain mentorship, access to TON’s Ecosystem, and a chance to pilot their projects globally.\n\nApply here",
+      "forwarded_from": "Toncoin",
+      "forwarded_from_id": "channel1233043722",
+      "forwarded_date": "2025-10-08T13:03:00.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_243.jpg",
+      "width": 1024,
+      "height": 1280
     }
   ]
 }

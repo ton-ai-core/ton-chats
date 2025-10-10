@@ -6031,3 +6031,29 @@ TON Bounty Bridge: ​Zk ADteam  🏷 Developer Tool  Summary:ZK-ADteam  Created
 — 2025-10-09 —
 
 Princewill Tor-Anyiin: Hey guys, any of you experimenting difficulty with TON servers response?  Please I need to know. Your response is important to know if the problem is from my end.  Thanks
+
+bharath: Does anyone can explain how virtuallp by stonkspump works??
+
+Anthony: TON x Ignyte Hackathon: Building the Web3 SuperApp Economy  TON Foundation and Ignyte invite innovators worldwide to create Web3 payment, gig economy, and creator tools on Telegram, making digital payments faster and more useful for everyday life.  🗓 Key Dates  ▪️Launch: Oct 8, 2025 ▪️Deadline: Nov 17, 2025 ▪️Finalists: Nov 21, 2025 ▪️Pitch & Awards: Nov 29, 2025  Who Can Apply?   Students, early-stage startups, and scale-ups (Seed to Pre-Series A)  💰 Prizes (30,000 USD Total) 🥇 15,000 | 🥈 10,000 | 🥉 5,000  The Challenge  Build solutions that bring Web3 payments and experiences to Telegram, from instant pay for gig workers to token-gated creator tools.  Winners gain mentorship, access to TON’s Ecosystem, and a chance to pilot their projects globally.  Apply here (forwarded from Toncoin)
+
+Drew: How do I get an expired ton domain?
+
+שרואל: hey ton community i am doing project about ton and i will love to have more knowledge about the project by asking questions, one of the questions is about the minimal amount of staking to be a validator, its not something that can hurt the decenterlized network?
+
+&rey: Having too many validators with low stakes (i.e. can try colluding to sign something invalid) can indeed hurt the decentralized network, thank you for asking. (reply to 161338)
+
+A: Hello guys! I'm trying to use TonCenter Streaming WebSocket API (wss://toncenter.com/api/streaming/v1/ws). Connection works, but all methods return "unknown operation" error. Is there any documentation or code example for this API? Specifically interested in subscribing to account transactions and mempool monitoring.
+
+Unction: I want to create a defi telegram mini app But I want ppl to work with. We will share the app revenue in percentage. This is sth that will change the whole Defi space bringing an interactive space with new non technical users onboard. I just need assistance in creating the web app. So if you are interested. You could react on this message or reach out to me  Have a nice day
+
+Combot: Combot has warned DeFi Degen (3/3) Reason: Word **** is not allowed (reply to 161361)
+
+Combot: Combot has kicked DeFi Degen
+
+Unction: Hello
+
+— 2025-10-10 —
+
+simo: Hi
+
+Big Bang: 👋
