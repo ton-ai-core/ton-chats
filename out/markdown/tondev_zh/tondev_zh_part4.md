@@ -11099,3 +11099,33 @@ Combot: Hà Ngân has been banned! Reason: CAS ban.
 Rose: Yeah, I don't like your flooding. Zaw Oo has been muted.
 
 Combot: ahmed salah, Ibrahim Hatem have been banned! Reason: CAS ban.
+
+— 2025-10-10 —
+
+Katiya｜TON: 💎Coding Challenge 14 - Telegram Userbot  📅10月10日- 10月19日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/Telegram-Userbot-2865274bd2cf80d887eeed93d22cc5e8 - 直播视频： https://x.com/i/broadcasts/1mnxeNwobwoKX  👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-14 (forwarded from TON East Asia Hub)
+
+Combot: Rodrigo Padilla, Bijoy🍅 Chakma🐈🐾▪️ have been banned! Reason: CAS ban.
+
+Anthony: ✈️ New Proposal: Tokenized Vaults Standard for TON  The Tokenized Vaults standard, created by the Torch Finance team, introduces a unified interface for vaults on TON, enabling seamless deposits, withdrawals, and balance queries while ensuring compatibility with dApps and protocols across the ecosystem.  Adapted from ERC-4626 and tailored for TON’s asynchronous architecture, it provides a consistent foundation for yield strategies, liquidity products, and composable DeFi applications.  💬 We invite developers to review the draft and share feedback before adoption.  📎 https://github.com/ton-blockchain/TEPs/pull/524 (forwarded from TonTech)
+
+Combot: Koreli Miranda has been banned! Reason: CAS ban.
+
+Andrew: 💎Coding Challenge 14 - Telegram Userbot  📅10月10日- 10月19日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/Telegram-Userbot-2865274bd2cf80d887eeed93d22cc5e8 - 直播视频： https://x.com/i/broadcasts/1mnxeNwobwoKX  👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-14 (forwarded from TON East Asia Hub)
+
+Katiya｜TON: 🚀 TON Co-working Day · 线下共同办公日  召集所有 TON Builders！ 加入专属于构建者的一天，让灵感与效率齐飞 ⚡️ 面对面与 TON 生态的优秀 Builder 交流、协作、共创，让你的想法快速落地！  📅 10 月 18 日 · 1PM–6PM 🔗 报名链接：https://luma.com/gngw5p4q 💡 极速 Wi-Fi｜🥤 免费饮品小食｜🤝 高效协作氛围  无论你正在准备 TON 消费级应用加速器计划，还是已在积极构建自己的产品，这都是一次实干 + 交流 + 拓展人脉的完美机会💙 (forwarded from TON East Asia Hub)
+
+Katiya｜TON: 在深圳哦！欢迎来一起办公！ (reply to 101147)
+
+Combot: Le Vy has been banned! Reason: CAS ban.
+
+Combot: Eislerweyopoxe Vanar has been banned! Reason: CAS ban.
+
+Combot: Qistina has been banned! Reason: CAS ban.
+
+Combot: Tj has been banned! Reason: CAS ban.
+
+— 2025-10-11 —
+
+Demi: 比特幣暴跌真實原因？  想知道的兄弟點上面就能看到 (reply to 848)
+
+Joe: ton 才是暴跌

@@ -9519,3 +9519,21 @@ Daniel: Hello
 Yet Another Anti-Spam Bot: Someone decided that this is a spamer. Is it correct? Vote (2/3) (reply to 72388)
 
 Daniel: Okay
+
+— 2025-10-10 —
+
+Nikitos: Hey guys! Recently, Toncoin announced a hackoton. Is there anyone willing to participate?
+
+zayvenio: Hey everyone, is there anyone experienced with TON smart contracts who could help me out? What’s the best way to verify payments made to a smart contract off-chain? I’m currently using TON API’s webhook, but I’m not fully confident about it — if TON API fails to send a request to my server for some reason, the payment might go unnoticed. If anyone here has used this service or knows a more reliable solution, I’d really appreciate your help.
+
+Slava: Hey 👋  Set up your own node and fetch data from it directly if you want perfect reliability. (reply to 72555)
+
+zayvenio: Hey, thanks for your answer. I thought that but i don't have enough budget to do this (reply to 72556)
+
+Gaddzoooks: webhooks fail  i mean i guess you could implement the polling service on a schedule but otherwise node (reply to 72555)
+
+Slava: Then use multiple methods/sources of obtaining this data. (reply to 72557)
+
+zayvenio: @Gaddzoooks @slavafomin thanks for your helps
+
+Slava: In any case, you can't rely only on webhooks, because your service can be down, or there can be other communication issues.  You would always need a second method of polling for transactions for such cases. Ideally they should work in parallel. (reply to 72561)

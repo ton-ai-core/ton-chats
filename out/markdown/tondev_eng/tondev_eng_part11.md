@@ -6057,3 +6057,39 @@ Unction: Hello
 simo: Hi
 
 Big Bang: 👋
+
+Sergey: If it's all true the owners of this "company" will sell everything they have and earn without telling anybody else. Lol  Money is not a flowers, which just grows.
+
+Sergey: And I know how it works. Then they will throw those who stayed and did not withdraw the money. How else can it work? This is complicity in sin (reply to 161392)
+
+🐱: Please ban this guy. (reply to 161375)
+
+A: Guys could anybody help me?  I'm trying to use TonCenter Streaming WebSocket API (wss://toncenter.com/api/streaming/v1/ws). Connection works, but all methods return "unknown operation" error. Is there any documentation or code example for this API? Specifically interested in subscribing to account transactions and mempool monitoring.
+
+Anthony: ✈️ New Proposal: Tokenized Vaults Standard for TON  The Tokenized Vaults standard, created by the Torch Finance team, introduces a unified interface for vaults on TON, enabling seamless deposits, withdrawals, and balance queries while ensuring compatibility with dApps and protocols across the ecosystem.  Adapted from ERC-4626 and tailored for TON’s asynchronous architecture, it provides a consistent foundation for yield strategies, liquidity products, and composable DeFi applications.  💬 We invite developers to review the draft and share feedback before adoption.  📎 https://github.com/ton-blockchain/TEPs/pull/524 (forwarded from TonTech)
+
+A: admins! User sent me malicious wallet bruteforce code disguised as mempool monitoring solution. The code generates random mnemonics in infinite loop, checks if wallets are active with funds, and saves them to file for stealing. This is clear scam/phishing attempt and resource abuse. Please ban this user (reply to 161408)
+
+Code: this doesn't work lol (reply to 161413)
+
+שרואל: So its a problem that the minimum stake is very high to be a validator this is somhthing that you put in mind to solve (reply to 161341)
+
+&rey: If you want to set other consensus rules, sure, but they have worse network properties. As of now, try explaining to 3/4 of validators WHY they would suddenly need to trust more nodes. (reply to 161420)
+
+&rey: AI-generated comments there are really disappointing, though. (reply to 161409)
+
+&rey: Also, to this day it is not determined what a 'vault' even is = what ecosystem impact is proposed.
+
+Combot: Combot has warned Иброхим (3/3) Reason: Word **** is not allowed
+
+Combot: Combot has kicked Иброхим
+
+Ricardo: hey guys i am getting: data: {       ok: false,       error: 'LITE_SERVER_UNKNOWN: cannot locate transaction in block with specified logical time',       code: 500     }  },   st atus: 500  When fetching a fresh transaction, why is it the case that i need to set the archival flag for this if the transaction is fresh?
+
+Grigorii: Hey, Maybe question not about Smart Contract, but i dont know where i can asc this question Maybe somebody know?  where can i find api with all collections? I want to find all characteristics about all collections  More info in api, then better
+
+&rey: That's issues with API you are using (a balancer, plus some nodes not as synchronized as other ones). (reply to 161438)
+
+Ricardo: what do you mean?, i am using https://toncenter.com/api/v2/jsonRPC (reply to 161440)
+
+A: Can someone help me with this? Toncenter announced in August that mempool streaming is now available to everyone, but there is no documentation and I don't understand how to use it (reply to 161406)
