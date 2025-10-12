@@ -9537,3 +9537,9 @@ Slava: Then use multiple methods/sources of obtaining this data. (reply to 72557
 zayvenio: @Gaddzoooks @slavafomin thanks for your helps
 
 Slava: In any case, you can't rely only on webhooks, because your service can be down, or there can be other communication issues.  You would always need a second method of polling for transactions for such cases. Ideally they should work in parallel. (reply to 72561)
+
+— 2025-10-11 —
+
+&rey: Is that deposit-like (could be repeated) or invoice-like (paid once)?  For invoice-like, you'd add a route like /api/inspectIncoming?normalizedExtHash=... and look if that has messages directed at you. (And deduplicate them with what webhook gives.) (reply to 72555)
+
+adb: hey guys, what is the best way to store address list in the smart contract. i.e. i want lets say receive TON from a list of addresses (pre-defined) thought, it can be quite large. is there a general approach to this?  i don't think map is a good idea, as I can't effectively search there

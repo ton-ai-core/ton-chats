@@ -11129,3 +11129,45 @@ Combot: Tj has been banned! Reason: CAS ban.
 Demi: 比特幣暴跌真實原因？  想知道的兄弟點上面就能看到 (reply to 848)
 
 Joe: ton 才是暴跌
+
+eric: 钱包地址W5版本在SDK里面没有定义，最大是V4R2
+
+Andrew: 哪个语言的 SDK， 升级一下 SDK？ (reply to 101195)
+
+eric: golang的 已经是最新的版本了
+
+Leo: go两个sdk都有v5吧
+
+Andrew: https://github.com/xssnick/tonutils-go/tree/master/ton/wallet
+
+eric: 这个地址对应的是哪个版本？sdk里面拿个版本定义？
+
+Andrew: 浏览器里面看一下对应的合约版本 (reply to 101203)
+
+eric: 在哪里看
+
+eric: 我们钱包加入ton，支持ton币 有项目方的人吗
+
+eric: 给点支持
+
+Andrew: https://tonviewer.com/ (reply to 101208)
+
+Andrew: https://tondevdoc.xyz/
+
+eric: 0QCdUMxM7fU9oluDrKUyRuQRVoptO00TBxxK-dQMmxj5briG
+
+eric: 给这个地址转点TON测试币和USDT的测试币
+
+eric: 非常感谢！
+
+one: Ton爆跌是啥情况
+
+one: 有大佬知道吗
+
+Unknown: 中國跟川普，全crypto 都重跌，但Ton今年只跟別人一起跌但沒有一起漲😅 (reply to 101230)
+
+Combot: Ahmed Amer has been banned! Reason: CAS ban.
+
+Combot: E88142 Nods has been banned! Reason: CAS ban.
+
+Combot: B312 Vaman has been banned! Reason: CAS ban.
