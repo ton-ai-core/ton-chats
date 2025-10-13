@@ -11171,3 +11171,25 @@ Combot: Ahmed Amer has been banned! Reason: CAS ban.
 Combot: E88142 Nods has been banned! Reason: CAS ban.
 
 Combot: B312 Vaman has been banned! Reason: CAS ban.
+
+— 2025-10-12 —
+
+Combot: Victoriabeloze Beraziontkn has been banned! Reason: CAS ban.
+
+Combot: Qistina has been banned! Reason: CAS ban.
+
+Combot: 幕黑染琉璃` Smith has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: PC Acc has been banned! Reason: CAS ban.
+
+Combot: Mario has been banned! Reason: CAS ban.
+
+— 2025-10-13 —
+
+Combot: SEKKKuu has been banned! Reason: CAS ban.
+
+peter: 为什么这个从公开市场买，对币价一点影响都没有...
+
+Combot: baoxia has been banned! Reason: CAS ban.

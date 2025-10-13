@@ -6127,3 +6127,29 @@ J2: What's up, bro? I have experience in building project on Ton (reply to 16065
 J2: Hello, I am a full-stack and blockchain developer with strong experience building on TON (The Open Network), including smart contracts in FunC and Tact, NFT/Jetton standards, and Telegram Mini App integrations.   Beyond TON, I have also delivered production-ready solutions across Solana (Rust, Anchor), Stellar/Soroban, Sui & Aptos (Move), and XRPL (Hooks, sidechains). This cross-chain experience allows me to bring best practices for secure, efficient, and user-friendly smart contract architectures.  Key areas I can support you with: * TON smart contracts using FunC or Tact * TonConnect / Wallet API implementations * Tokenomics, Jetton/NFT design, and on-offchain synchronization * Security reviews and deployment optimization  I’d be happy to show how my experience across TON and other ecosystems can help you bring it to production smoothly.
 
 Micky: Hey devs 👋 I’m working on a TON-based project called TON MicroPay a lightweight SDK for micro-transactions and in-app payments on the TON blockchain.  We’re currently testing on TON testnet and need a bit of test TON to deploy and benchmark our smart contracts. If anyone can share a few test coins, it’ll help us move the preview phase forward.   Testnet address:  0QDBmB_avtVLIuwGfJszGKmUy6Mymg_0kzSIfZlv-bpEgzT1  I’ll share repo links and deployment logs once testing starts. Appreciate any support from the TON dev community! (reply to 161576)
+
+— 2025-10-12 —
+
+kidogb: Hi, I'm trying to use ton/ton and ton/crypto to generate wallet from 12 words seedphrase. But the wallet address generated is difference with the ton keeper. I tried to import new wallet from the same seed phrase and use v5 wallet.  This is only happened with 12 words, 24 words still working normal
+
+kidogb: Does anyone facing this issue before?
+
+Tim: You probably need bip39 derivation to get address from 12 words (reply to 161657)
+
+Tim: https://github.com/TonDevWallet/TonDevWallet/blob/f48211599949803786b254e41435d424941c9379/src/components/NewWalletPage/FromMnemonic.tsx#L18 Try to use function like this   https://github.com/TonDevWallet/TonDevWallet/blob/f48211599949803786b254e41435d424941c9379/src/components/NewWalletPage/FromMnemonic.tsx#L18 (reply to 161656)
+
+Fake: I also thought about this problem a lot, I even contacted a psychologist, he recommended to use notion and keep track of long periods of bad psychological feelings, and this helped me track the beginning of burnout. (reply to 161575)
+
+שרואל: some one could help me to better know the project about this topic🙏🏽 (reply to 161563)
+
+透街二裤: I used the tonutils library in Python to import the wallet using a mnemonic phrase. Then, I called the transfer interface to transfer funds to a specified address and obtained the transaction hash. However, I couldn't find out the transaction status and the transaction hash didn't match the actual transaction either. Anyone know why this is happening (using a non-test network)?
+
+kidogb: thanks Tim, you saved my day!
+
+Princewill Tor-Anyiin: Damn, you dismissed that man too casually. As a medical student I have seen people spiralled badly from burnouts into depression and sometimes becomes suicidal. (reply to 161576)
+
+Princewill Tor-Anyiin: Hey, please talk to Your doctor. Don't self-help.  ❤️ (reply to 161575)
+
+&rey: You are hereby warned not to continue offtopic discussion in the chat regardless of how right you may be. (reply to 161695)
+
+Princewill Tor-Anyiin: Oh I remember you! The conceited man I met here in the earliest days of my startup project 😁  You said to me: "you are not qualified enough for this project you want to do".   It became my greatest motivation (reply to 161697)
