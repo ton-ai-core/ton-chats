@@ -9543,3 +9543,47 @@ Slava: In any case, you can't rely only on webhooks, because your service can be
 &rey: Is that deposit-like (could be repeated) or invoice-like (paid once)?  For invoice-like, you'd add a route like /api/inspectIncoming?normalizedExtHash=... and look if that has messages directed at you. (And deduplicate them with what webhook gives.) (reply to 72555)
 
 adb: hey guys, what is the best way to store address list in the smart contract. i.e. i want lets say receive TON from a list of addresses (pre-defined) thought, it can be quite large. is there a general approach to this?  i don't think map is a good idea, as I can't effectively search there
+
+— 2025-10-13 —
+
+Rouzbeh: How can i get some testnet USDT ?
+
+Rouzbeh: why there is not a single clear example of how to transfer jettons on TON ?
+
+Rouzbeh: every example and code is buggy and not working
+
+Cyberwon: I just came here to say the same thing, saw beginParse() in the github, tried it, didn't work... (reply to 72720)
+
+Lase: Use wallet v4 if v5 is not working well (reply to 72721)
+
+Rouzbeh: Can you help me too bro ? (reply to 72722)
+
+Lase: @testgiver_ton_bot (reply to 72717)
+
+Rouzbeh: this is my send jetton transfer code is it ok ? even if i dont have enough USDT it returns txId why is that ?  public async transferJetton(         asset: string,         amount: number,         destination: string     ): Promise<string> {         if (!Jetton[asset]) {             throw new Error(`Unsupported asset: ${asset}`);         }          const jettonMasterAddress = Jetton[asset].address;         const decimals = Jetton[asset].decimals;         const jettonAmount = BigInt(Math.floor(amount * 10 ** decimals));          const senderAddress = this.wallet.address.toString();         const jettonWalletAddress = await this.getUserJettonWalletAddress(senderAddress, jettonMasterAddress);          const messageBody = beginCell()             .storeUint(0x0f8a7ea5, 32)             .storeUint(0, 64)             .storeCoins(jettonAmount)             .storeAddress(Address.parse(destination))             .storeAddress(this.wallet.address)             .storeBit(0)             .storeCoins(0)              .storeBit(0)             .endCell();          const internalMessage = internal({             to: Address.parse(jettonWalletAddress.toString()),             value: toNano(TON_FEE_AMOUNT),             bounce: true,             body: messageBody,         });          const seqno = await this.contract.getSeqno();          await this.contract.sendTransfer({             seqno,             secretKey: this.keypair.secretKey,             messages: [internalMessage],         });          const transferBody = this.wallet.createTransfer({             seqno,             secretKey: this.keypair.secretKey,             messages: [internalMessage],         });          const externalMessage = beginCell()             .storeUint(0b10, 2)             .storeAddress(this.wallet.address)             .storeAddress(null)             .storeCoins(0)             .storeBit(0)             .storeBit(1)             .storeRef(transferBody)             .endCell();          const txHash = externalMessage.hash().toString('hex');          return txHash;     }
+
+Lase: Where are you facing an issue (reply to 72723)
+
+Rouzbeh: I just want to send USDT or any other jetton to another address  - how can i get some testnet jettons ? - why even when i dont have enough USDT this doesnt return error - how can i make sure transfer confirmed on chain ?
+
+Cyberwon: Not related to wallet, trying to parse msg from cells... (reply to 72722)
+
+&rey: — minter.ton.org/?testnet=true, or find a jetton you like — why would it even error? — documentation must have explained that, though that's more complex  Also, have you considered in TON Dev Chat (ENG) since that's not about Tact? (reply to 72727)
+
+Rouzbeh: thank you, TON is really confusing for me, i dont have this problems with other chains   but thansk for your help can i have that group id ? (reply to 72729)
+
+&rey: That's tondev_eng. (reply to 72730)
+
+AO: is it possible to integrate trust wallet into miniapps or does this go against telegram rules?
+
+Lase: So firstly are you using a custom jetton usdt or you are using the verified contract one? (reply to 72725)
+
+Rouzbeh: I read the documentations and now im fine .... thanks. But god .... TON Foundation should clean up the SDKs and Documents .... It's sooooooo confusing (reply to 72735)
+
+Rouzbeh: Outdated documents, codes, SDKs are everywhere
+
+Anton: There is a new documentation effort going on as we speak. Stay tuned, we will announce something very very soon (reply to 72736)
+
+Lase: I’ll like to hop on this (reply to 72739)
+
+Lase: Also, i wanted to do a tutorial on TON using tact.  Especially using tact and react/nextjs

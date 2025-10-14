@@ -11266,6 +11266,479 @@
       "from_id": "user740786058",
       "text": "а есть вообще транзакция о которой речь идет?",
       "reply_to_message_id": 1213
+    },
+    {
+      "id": 1249,
+      "type": "message",
+      "date": "2025-10-13T18:04:25.000Z",
+      "date_unixtime": "1760378665",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "а там маркет шоле есть?",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1250,
+      "type": "message",
+      "date": "2025-10-13T18:04:30.000Z",
+      "date_unixtime": "1760378670",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "я ток тапалку с заданиями видел",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1251,
+      "type": "message",
+      "date": "2025-10-13T18:04:31.000Z",
+      "date_unixtime": "1760378671",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "и сууууун",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1253,
+      "type": "message",
+      "date": "2025-10-13T18:07:08.000Z",
+      "date_unixtime": "1760378828",
+      "from": "Alexey",
+      "from_id": "user108781922",
+      "text": "оо, отправляли без SendIgnoreErrors походу и сами себя сдрейнили",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1254,
+      "type": "message",
+      "date": "2025-10-13T18:07:30.000Z",
+      "date_unixtime": "1760378850",
+      "from": "Mamedali",
+      "from_id": "user425242625",
+      "text": "Я подозреваю с action phase связано?",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1255,
+      "type": "message",
+      "date": "2025-10-13T18:07:38.000Z",
+      "date_unixtime": "1760378858",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Да",
+      "reply_to_message_id": 1254
+    },
+    {
+      "id": 1256,
+      "type": "message",
+      "date": "2025-10-13T18:07:41.000Z",
+      "date_unixtime": "1760378861",
+      "from": "Mamedali",
+      "from_id": "user425242625",
+      "text": "37: Not enough Toncoin\nIf all funds of the inbound message with mode 64 had been already consumed and there's not enough funds to pay for the failed action, or the TL-B layout of the provided value (CurrencyCollection) is invalid, or there are not enough funds to pay forward fees or not enough funds after deducting fees, an error with exit code 37 is thrown: Not enough Toncoin.",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1257,
+      "type": "message",
+      "date": "2025-10-13T18:07:55.000Z",
+      "date_unixtime": "1760378875",
+      "from": "P Jes",
+      "from_id": "user278277014",
+      "text": "solidity gang не смог в func  🆒",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1258,
+      "type": "message",
+      "date": "2025-10-13T18:08:35.000Z",
+      "date_unixtime": "1760378915",
+      "from": "Mamedali",
+      "from_id": "user425242625",
+      "text": "Не надо обижать нас)",
+      "reply_to_message_id": 1257
+    },
+    {
+      "id": 1259,
+      "type": "message",
+      "date": "2025-10-13T18:09:18.000Z",
+      "date_unixtime": "1760378958",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "Сразу видно не на Толке написано",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1260,
+      "type": "message",
+      "date": "2025-10-13T18:09:31.000Z",
+      "date_unixtime": "1760378971",
+      "from": "Mamedali",
+      "from_id": "user425242625",
+      "text": "Я пошёл вникать глубже🤓",
+      "reply_to_message_id": 1256
+    },
+    {
+      "id": 1261,
+      "type": "message",
+      "date": "2025-10-13T18:09:39.000Z",
+      "date_unixtime": "1760378979",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "как бы это весь их зависший кошелек",
+      "reply_to_message_id": 1248,
+      "media_type": "photo",
+      "file": "photos/photo_1261.jpg",
+      "width": 1146,
+      "height": 380
+    },
+    {
+      "id": 1262,
+      "type": "message",
+      "date": "2025-10-13T18:09:50.000Z",
+      "date_unixtime": "1760378990",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "и там все транзы именно с этим одним кошельком",
+      "reply_to_message_id": 1261
+    },
+    {
+      "id": 1263,
+      "type": "message",
+      "date": "2025-10-13T18:10:22.000Z",
+      "date_unixtime": "1760379022",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "это слегка не похоже на прод решение для вывода средств с маркета",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1264,
+      "type": "message",
+      "date": "2025-10-13T18:10:57.000Z",
+      "date_unixtime": "1760379057",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "и плюс я вообще не могу найти на их чудо маркете способы получения тонов на внутренний балик",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1265,
+      "type": "message",
+      "date": "2025-10-13T18:11:36.000Z",
+      "date_unixtime": "1760379096",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "только подключение кошелька и депозит который не работает",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1266,
+      "type": "message",
+      "date": "2025-10-13T18:12:36.000Z",
+      "date_unixtime": "1760379156",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "короче говоря это цепочка из шизы, где чел вкинул фейк про зависание транзакций, потом ещё кто-то подхватил, и потом ещё и вы подхватили",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1267,
+      "type": "message",
+      "date": "2025-10-13T18:13:03.000Z",
+      "date_unixtime": "1760379183",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "проще говоря у них в принципе нельзя ни депать ни выводить)",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1268,
+      "type": "message",
+      "date": "2025-10-13T18:13:15.000Z",
+      "date_unixtime": "1760379195",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "А чего подхватили то, не надо писать про зависания блокчейна))",
+      "reply_to_message_id": 1266
+    },
+    {
+      "id": 1269,
+      "type": "message",
+      "date": "2025-10-13T18:13:16.000Z",
+      "date_unixtime": "1760379196",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Но ведь никто не обвинял блокейн",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1270,
+      "type": "message",
+      "date": "2025-10-13T18:13:31.000Z",
+      "date_unixtime": "1760379211",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "ну ладно тут справедливо",
+      "reply_to_message_id": 1268
+    },
+    {
+      "id": 1271,
+      "type": "message",
+      "date": "2025-10-13T18:14:00.000Z",
+      "date_unixtime": "1760379240",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Чел вывел средства, и потом начал циклично выдавать ошибки, опустошив свой баланс",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1272,
+      "type": "message",
+      "date": "2025-10-13T18:14:20.000Z",
+      "date_unixtime": "1760379260",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Это кстати не он, это блокчейн ретраит до потери баланса",
+      "reply_to_message_id": 1271
+    },
+    {
+      "id": 1273,
+      "type": "message",
+      "date": "2025-10-13T18:14:39.000Z",
+      "date_unixtime": "1760379279",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Средства зависли, а к тому моменту когда я выпустил публикацию, там было уже 0 ТОН",
+      "reply_to_message_id": 1271
+    },
+    {
+      "id": 1274,
+      "type": "message",
+      "date": "2025-10-13T18:14:46.000Z",
+      "date_unixtime": "1760379286",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Так работает ретрай external месаджей",
+      "reply_to_message_id": 1271
+    },
+    {
+      "id": 1275,
+      "type": "message",
+      "date": "2025-10-13T18:14:54.000Z",
+      "date_unixtime": "1760379294",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "То есть это ошибка не в их контракте ?",
+      "reply_to_message_id": 1272
+    },
+    {
+      "id": 1276,
+      "type": "message",
+      "date": "2025-10-13T18:15:19.000Z",
+      "date_unixtime": "1760379319",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Нене, ошибка у них, но она так проявляется из-за работы блокчейна с external транзами",
+      "reply_to_message_id": 1275
+    },
+    {
+      "id": 1277,
+      "type": "message",
+      "date": "2025-10-13T18:15:44.000Z",
+      "date_unixtime": "1760379344",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Мы аналогичный баг находили у webdom:\n\nhttps://t.me/TheOpenDevTeam/15"
+    },
+    {
+      "id": 1278,
+      "type": "message",
+      "date": "2025-10-13T18:16:02.000Z",
+      "date_unixtime": "1760379362",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Я просто уточнить тебе, что я чейн так то и не обвинял. Был деп - для теста вывели - и кош опустошился",
+      "reply_to_message_id": 1276
+    },
+    {
+      "id": 1279,
+      "type": "message",
+      "date": "2025-10-13T18:16:21.000Z",
+      "date_unixtime": "1760379381",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "ну формулировка в таком случае плохая) все подумали про блокчейн",
+      "reply_to_message_id": 1278
+    },
+    {
+      "id": 1280,
+      "type": "message",
+      "date": "2025-10-13T18:17:06.000Z",
+      "date_unixtime": "1760379426",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Да неудачно написано, но я ещё трезвый и адекват, не подумайте, просто не так поняли",
+      "reply_to_message_id": 1279
+    },
+    {
+      "id": 1281,
+      "type": "message",
+      "date": "2025-10-13T18:17:36.000Z",
+      "date_unixtime": "1760379456",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "там контракта нет)",
+      "reply_to_message_id": 1275
+    },
+    {
+      "id": 1282,
+      "type": "message",
+      "date": "2025-10-13T18:17:46.000Z",
+      "date_unixtime": "1760379466",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "ну кроме дефолтного контракта кошелька",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1283,
+      "type": "message",
+      "date": "2025-10-13T18:18:17.000Z",
+      "date_unixtime": "1760379497",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Это их кастодиал кош поломанный, он и должен быть пустым",
+      "reply_to_message_id": 1282
+    },
+    {
+      "id": 1284,
+      "type": "message",
+      "date": "2025-10-13T18:18:23.000Z",
+      "date_unixtime": "1760379503",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "а",
+      "reply_to_message_id": 1283
+    },
+    {
+      "id": 1285,
+      "type": "message",
+      "date": "2025-10-13T18:18:24.000Z",
+      "date_unixtime": "1760379504",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "ааааа",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1286,
+      "type": "message",
+      "date": "2025-10-13T18:18:25.000Z",
+      "date_unixtime": "1760379505",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "окак",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1287,
+      "type": "message",
+      "date": "2025-10-13T18:18:33.000Z",
+      "date_unixtime": "1760379513",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "а как он тоны получил?",
+      "reply_to_message_id": 1283
+    },
+    {
+      "id": 1288,
+      "type": "message",
+      "date": "2025-10-13T18:18:47.000Z",
+      "date_unixtime": "1760379527",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "кнопка депозита не воркает",
+      "reply_to_message_id": 1287
+    },
+    {
+      "id": 1289,
+      "type": "message",
+      "date": "2025-10-13T18:18:55.000Z",
+      "date_unixtime": "1760379535",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Через тма бро, кнопка депозита",
+      "reply_to_message_id": 1287
+    },
+    {
+      "id": 1290,
+      "type": "message",
+      "date": "2025-10-13T18:19:05.000Z",
+      "date_unixtime": "1760379545",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Вырубили мб",
+      "reply_to_message_id": 1288
+    },
+    {
+      "id": 1291,
+      "type": "message",
+      "date": "2025-10-13T18:19:17.000Z",
+      "date_unixtime": "1760379557",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "зачем вообще её врубать это конечно тот ещё вопрос тогда",
+      "reply_to_message_id": 1290
+    },
+    {
+      "id": 1292,
+      "type": "message",
+      "date": "2025-10-13T18:19:26.000Z",
+      "date_unixtime": "1760379566",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "ладно проехали я не совсем угадал",
+      "reply_to_message_id": 1248
+    },
+    {
+      "id": 1293,
+      "type": "message",
+      "date": "2025-10-13T18:20:37.000Z",
+      "date_unixtime": "1760379637",
+      "from": "Rengev",
+      "from_id": "user922702907",
+      "text": "Многие ещё упрекали меня в том, что я опубликовал ошибку от слившейся аппки, но есть нюанс. Это прилку «слитую» начали продвигать уже ребята из тф",
+      "reply_to_message_id": 1291
+    },
+    {
+      "id": 1294,
+      "type": "message",
+      "date": "2025-10-13T18:21:23.000Z",
+      "date_unixtime": "1760379683",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "(((",
+      "reply_to_message_id": 1293
+    },
+    {
+      "id": 1295,
+      "type": "message",
+      "date": "2025-10-13T18:21:39.000Z",
+      "date_unixtime": "1760379699",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "мне не нравится сун с элементами тапалки",
+      "reply_to_message_id": 1294
+    },
+    {
+      "id": 1296,
+      "type": "message",
+      "date": "2025-10-13T18:21:57.000Z",
+      "date_unixtime": "1760379717",
+      "from": "Pavlik",
+      "from_id": "user543844245",
+      "text": "и не нравится то шо его продвигают челы из тф ужас",
+      "reply_to_message_id": 1295
     }
   ]
 }

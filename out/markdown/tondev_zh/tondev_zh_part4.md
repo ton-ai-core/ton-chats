@@ -11193,3 +11193,15 @@ Combot: SEKKKuu has been banned! Reason: CAS ban.
 peter: 为什么这个从公开市场买，对币价一点影响都没有...
 
 Combot: baoxia has been banned! Reason: CAS ban.
+
+Combot: Maryam has been banned! Reason: CAS ban.
+
+Combot: صالح العبدالرضا has been banned! Reason: CAS ban.
+
+Combot: Not Me has been banned! Reason: CAS ban.
+
+Combot: Noman Mohammad Joha has been banned! Reason: CAS ban.
+
+— 2025-10-14 —
+
+Combot: Mahim Mahim has been banned! Reason: CAS ban.

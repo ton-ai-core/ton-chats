@@ -6153,3 +6153,51 @@ Princewill Tor-Anyiin: Hey, please talk to Your doctor. Don't self-help.  ❤️
 &rey: You are hereby warned not to continue offtopic discussion in the chat regardless of how right you may be. (reply to 161695)
 
 Princewill Tor-Anyiin: Oh I remember you! The conceited man I met here in the earliest days of my startup project 😁  You said to me: "you are not qualified enough for this project you want to do".   It became my greatest motivation (reply to 161697)
+
+— 2025-10-13 —
+
+J2: Hello, I am a full-stack and blockchain developer with strong experience building on TON (The Open Network), including smart contracts in FunC and Tact, NFT/Jetton standards, and Telegram Mini App integrations.   Beyond TON, I have also delivered production-ready solutions across Solana (Rust, Anchor), Stellar/Soroban, Sui & Aptos (Move), and XRPL (Hooks, sidechains). This cross-chain experience allows me to bring best practices for secure, efficient, and user-friendly smart contract architectures.  Key areas I can support you with: * TON smart contracts using FunC or Tact * TonConnect / Wallet API implementations * Tokenomics, Jetton/NFT design, and on-offchain synchronization * Security reviews and deployment optimization  I’d be happy to show how my experience across TON and other ecosystems can help you bring it to production smoothly.
+
+Mojisola🍅 🍅: I have complained about this in the past. I later figured it out and shared it here also some months ago. (reply to 161656)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 13  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Princewill Tor-Anyiin: Hi, I need clarification.  I'm committed to building AFRO-NODE DApp as an entirely decentralized and stand-alone DApp and not integrated in any Web2 architecture like Telegram.  A full Web3 experience.  But as I'm getting fully into TON structure. I realized that it's core vision is to integrate fully with Telegram.  Can I achieve a full stand-alone DApp on TON Blockchain outside Telegram.  If yes, then please all my guidance should be in that direction. Because most of my registration keeps emphasizing on Telegram miniApp (TMA)
+
+Slava: There is a difference between "integration" and "dependency". You can integrate your dApp with Telegram without depending on it. And this is probably a good idea. (reply to 161830)
+
+&rey: That's also called a "website" or "mobile-adapted website", common programming practices apply to it) (reply to 161830)
+
+Abhilash: Bro getting freelancing projects in ton is easy or difficult
+
+&rey: It is most certainly possible.  Please be kind and stand your ground against scam at the same moment; many people are wary, and many messages are scam. I would suggest to negotiate important details (like prepayment possibility) first. Remember that those opportunities are not by TON Foundation (in particular, admins never write first) and not our responsibility. (reply to 161844)
+
+OD: Hi! Is there any deadline for the 4ebd741 mainnet update? How urgent is it to upgrade the validator node — is it required before a specific cycle?
+
+Cyberwon: I need help pls, this github was from Ton official website, and the code isn't really working....
+
+&rey: Please consider abandoning TonWeb in favor of @ton/core. (reply to 161868)
+
+Cyberwon: Images aren't allowed in this group?
+
+&rey: Messages are rate limited. Please also have a caption to images. (reply to 161873)
+
+Cyberwon: Okay, but is there any specific reasons? aside that the code don't work?, and why does Ton still direct Developers to that repo? (reply to 161872)
+
+Rouzbeh:     public async transferJetton(         asset: string,         amount: number,         destination: string     ): Promise<string> {         if (!Jetton[asset]) {             throw new Error(`Unsupported asset: ${asset}`);         }          const jettonMasterAddress = Jetton[asset].address;         const decimals = Jetton[asset].decimals;         const jettonAmount = BigInt(Math.floor(amount * 10 ** decimals));          const senderAddress = this.wallet.address.toString();         const jettonWalletAddress = await this.getUserJettonWalletAddress(senderAddress, jettonMasterAddress);          const messageBody = beginCell()             .storeUint(0x0f8a7ea5, 32)             .storeUint(0, 64)             .storeCoins(jettonAmount)             .storeAddress(Address.parse(destination))             .storeAddress(this.wallet.address)             .storeBit(0)             .storeCoins(0)              .storeBit(0)             .endCell();          const internalMessage = internal({             to: Address.parse(jettonWalletAddress.toString()),             value: toNano(TON_FEE_AMOUNT),             bounce: true,             body: messageBody,         });          const seqno = await this.contract.getSeqno();          await this.contract.sendTransfer({             seqno,             secretKey: this.keypair.secretKey,             messages: [internalMessage],         });          const transferBody = this.wallet.createTransfer({             seqno,             secretKey: this.keypair.secretKey,             messages: [internalMessage],         });          const externalMessage = beginCell()             .storeUint(0b10, 2)             .storeAddress(this.wallet.address)             .storeAddress(null)             .storeCoins(0)             .storeBit(0)             .storeBit(1)             .storeRef(transferBody)             .endCell();          const txHash = externalMessage.hash().toString('hex');          return txHash;     }      private async getUserJettonWalletAddress(userAddress: string, jettonMasterAddress: string): Promise<Address> {         const userAddressCell = beginCell().storeAddress(Address.parse(userAddress)).endCell();          const response = await this.client.runMethod(Address.parse(jettonMasterAddress), 'get_wallet_address', [             { type: 'slice', cell: userAddressCell },         ]);          return response.stack.readAddress();     }  This is my transfer jetton function  - I deployed my own jetton on testnet to test this - I pass amount that i have in my wallet and nothing happends without any error - I pass some big amount that i dont have in my wallet and still no error   What im doing wrong ? im confused by the documents and examples
+
+&rey: The thing you are doing wrong is treating TON as something like other chains. It is really another spin on blockchain technology. (reply to 161878)
+
+&rey: Those two calls can be different because of embedded deadline value, which is determined from current time. (reply to 161878)
+
+&rey: Misnamed a bit, hash of external message is nothing but hash of external message. Not of transaction (though the explorers will happily process it as well). (reply to 161878)
+
+Rouzbeh: Thanks for your helping, my code just works fine now i see amount deduction from my wallet  I see that the returned txId from my function is not as same as txId i see in my tonkeeper, so as you said that TON is different  1- how can i make sure transaction confirmed or rejected ? 2- how can i get true transaction id ? (reply to 161881)
+
+&rey: Recall that TON transaction only involves one contract.  1,2. https://docs.ton.org/v3/guidelines/dapps/transactions/hash-based-tracking (reply to 161882)
+
+&rey: Some documentation is that old, indeed. (reply to 161876)
+
+— 2025-10-14 —
+
+🐱: If you tx involves multiple messages and you are expecting the behavior of full confirmation, you might need to get verbose and check some more boc, not just the your in message. TON messages are asynchronous. (reply to 161882)
