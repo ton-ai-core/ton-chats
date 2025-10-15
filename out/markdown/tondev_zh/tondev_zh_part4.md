@@ -11205,3 +11205,17 @@ Combot: Noman Mohammad Joha has been banned! Reason: CAS ban.
 — 2025-10-14 —
 
 Combot: Mahim Mahim has been banned! Reason: CAS ban.
+
+Combot: Mehedi Hasan has been banned! Reason: CAS ban.
+
+Combot: Moussa Bourezgue, natanael Gondim have been banned! Reason: CAS ban.
+
+Combot: 高盛代发409, Phumlani Mthembu have been banned! Reason: CAS ban.
+
+Combot: Sbs Investigators has been banned! Reason: CAS ban.
+
+— 2025-10-15 —
+
+n: 1
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

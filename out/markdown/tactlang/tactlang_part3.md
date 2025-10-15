@@ -9587,3 +9587,11 @@ Anton: There is a new documentation effort going on as we speak. Stay tuned, we 
 Lase: I’ll like to hop on this (reply to 72739)
 
 Lase: Also, i wanted to do a tutorial on TON using tact.  Especially using tact and react/nextjs
+
+— 2025-10-14 —
+
+Lase: Its seems I should do this first. Alright guys... I would send an update on this when I do it (reply to 72741)
+
+Slava: You should really change your mindset about TON. Read the docs, study the concepts. TON is very different from EVM-like chains. Your previous experience may not apply here. (reply to 72730)
+
+Rouzbeh: Cool (reply to 72801)

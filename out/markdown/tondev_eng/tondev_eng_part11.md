@@ -6201,3 +6201,43 @@ Rouzbeh: Thanks for your helping, my code just works fine now i see amount deduc
 — 2025-10-14 —
 
 🐱: If you tx involves multiple messages and you are expecting the behavior of full confirmation, you might need to get verbose and check some more boc, not just the your in message. TON messages are asynchronous. (reply to 161882)
+
+Ton21: Hi everyone 👋 I’m currently working on a Jetton project called Ton21, and I’m integrating automatic balance tracking and transaction confirmation. Could someone share the best practice for verifying TON transaction status via Toncenter API or lite client?
+
+Rouzbeh: in @ton/ton project there is a method called getTransactions how can i get hash of the transaction there is  - hash() function that reaturns a hash - stateUpdate.oldHash - stateUpdate.newHash  none of above hashes are equal to the one i see in tonKeeper   how can i get the transaction hash of my simple jetton transfer that ? (reply to 161898)
+
+&rey: Which transaction, specifically, out of 3-5 composing a jetton transfer? (reply to 161924)
+
+Rouzbeh: Ok let me explain i wrote a code for transfering jetton (USDT) from my wallet to another wallet      public async transferJetton(         asset: string,         amount: number,         destination: string     ) {         if (!Jetton[asset]) {             throw new Error(`Unsupported asset: ${asset}`);         }          const jettonMasterAddress = Jetton[asset].address;         const decimals = Jetton[asset].decimals;         const jettonAmount = BigInt(Math.floor(amount * 10 ** decimals));          const senderAddress = this.wallet.address.toString();         const jettonWalletAddress = await this.getUserJettonWalletAddress(senderAddress, jettonMasterAddress);          const messageBody = beginCell()             .storeUint(0x0f8a7ea5, 32)             .storeUint(0, 64)             .storeCoins(jettonAmount)             .storeAddress(Address.parse(destination))             .storeAddress(this.wallet.address)             .storeBit(0)             .storeCoins(0)              .storeBit(0)             .endCell();          const internalMessage = internal({             to: Address.parse(jettonWalletAddress.toString()),             value: toNano(TON_FEE_AMOUNT),             bounce: true,             body: messageBody,         });          const seqno = await this.contract.getSeqno();          await this.contract.sendTransfer({             seqno,             secretKey: this.keypair.secretKey,             messages: [internalMessage],         });     }  now i have one question - How can i track this transfer and see if its failed or confirmed ? - i tried multiple methods to create hash from my transfer method but none of them was equal to anything and i cant find that in tonviewer too (404) - i tried to use getTransactions method to get list of my wallet transactions but there are 3 or 4 hashes in that and none of was equal to the one i see in tonkeeper history  How can i have the transaction id of my transfer so i can see if its confirmed or not ? (reply to 161925)
+
+Rouzbeh: im looking for any method, any function any way to give me the transaction id of my transfer so i can just track it :( (confirmed or failed) (reply to 161926)
+
+Tim: Look into normalised external tep (reply to 161926)
+
+&rey: plus also need to wait for actual transaction on jetton wallet, at least sender's (reply to 161934)
+
+Rouzbeh: Hey guys i wan to do transfer jetton In a another wallet its ok but in the second one i get this error  LITE_SERVER_UNKNOWN: cannot apply external message to current state : Failed to unpack account state  the only difference is that the second one is fresh wallet
+
+&rey: So do you have TON in the second wallet?  TON is the native network token, someone must supply it for transactions to take place. (reply to 161978)
+
+Rouzbeh: no no i dont have TON in it so the error is for not having enough balance right ? (reply to 161979)
+
+&rey: Yes. To be more precise: there is no balance, so the TON shard's map of addresses to account states does not even have that address set, therefore there is no "account state" to unpack, thus the error. (reply to 161981)
+
+Rouzbeh: Thanks, this was really helpful (reply to 161982)
+
+שרואל: שרואל V: Hey there i have a question about the structure of the amount of validatiors what if they now gathering all together and decide to take control of the system this is not something that bothers you and should raise for us some concerns?  Im asking to know and learn
+
+&rey: The validators pretty much are the system and it is ultimately their decisions which determine how it shall work (and always been this way). They appear to work with TON Core team though, in regards to upgrades at least. (reply to 161995)
+
+שרואל: Thank u, do we know the identity of the validators?
+
+&rey: You can resolve ADNL addresses from https://tonviewer.com/config#34 with toncli to obtain their IP addresses. There is absolutely no requirement to identify further for a validator.  As a reminder, TON does not make any guarantees about fitness to your particular use case and so on. The distrust always remains a valid option (but then, why here?) (reply to 161999)
+
+שרואל: Just to better understand the project and the structure, i believe in ton and the ideology behind it, i just want to know better so i can explain and answer people that dont know
+
+&rey: They might be interested in https://docs.ton.org/v3/concepts/dive-into-ton/introduction which is one step closer. (reply to 162003)
+
+שרואל: 👍 (reply to 162004)
+
+שרואל: I have another question if its okay, what is the main blocks/problems that the project is struggling this days?
