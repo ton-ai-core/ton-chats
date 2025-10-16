@@ -11219,3 +11219,21 @@ Combot: Sbs Investigators has been banned! Reason: CAS ban.
 n: 1
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 梦玲珑` Sykes has been banned! Reason: CAS ban.
+
+Combot: Annagorbachev Clen has been banned! Reason: CAS ban.
+
+Combot: Soe Thandar Linn has been banned! Reason: CAS ban.
+
+Combot: Mario, S A22 have been banned! Reason: CAS ban.
+
+Combot: Mario has been banned! Reason: CAS ban.
+
+iiDuYe ®: 什么年代了  怎么还能被盗号 很奇怪 (reply to 101023)
+
+— 2025-10-16 —
+
+Combot: J阿德 has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

@@ -6241,3 +6241,7 @@ Rouzbeh: Thanks, this was really helpful (reply to 161982)
 שרואל: 👍 (reply to 162004)
 
 שרואל: I have another question if its okay, what is the main blocks/problems that the project is struggling this days?
+
+— 2025-10-16 —
+
+CashboxGame: Hello, I getting a reminder that the SDK isn’t installed correctly. My SDK token and appName are both fine, any idea what might be causing this? Who can I reach out to for help?

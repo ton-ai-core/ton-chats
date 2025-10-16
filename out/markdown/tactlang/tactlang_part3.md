@@ -9595,3 +9595,11 @@ Lase: Its seems I should do this first. Alright guys... I would send an update o
 Slava: You should really change your mindset about TON. Read the docs, study the concepts. TON is very different from EVM-like chains. Your previous experience may not apply here. (reply to 72730)
 
 Rouzbeh: Cool (reply to 72801)
+
+— 2025-10-15 —
+
+许: Hello 👋
+
+许: Are you programmer bro? (reply to 72725)
+
+Rouzbeh: I guess ... (reply to 72847)
