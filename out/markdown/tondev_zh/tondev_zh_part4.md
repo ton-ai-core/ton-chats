@@ -11237,3 +11237,19 @@ iiDuYe ®: 什么年代了  怎么还能被盗号 很奇怪 (reply to 101023)
 Combot: J阿德 has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+bolo: ton官方号都能被盗？
+
+可愛又迷人的 ¿: 不是 (reply to 101552)
+
+可愛又迷人的 ¿: 那是騙子偽造的圖片，是上面的發話人被盜
+
+Combot: 幕黑染琉璃` Smith has been banned! Reason: CAS ban.
+
+Combot: TON Dev Chat (中文) 💬 101565
+
+Combot: Noodles has been banned! Reason: CAS ban.
+
+Combot: Finn Green has been banned! Reason: CAS ban.
+
+Combot: Munayeem Al Ragib has been banned! Reason: CAS ban.

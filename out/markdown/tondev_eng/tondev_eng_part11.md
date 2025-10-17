@@ -6245,3 +6245,33 @@ Rouzbeh: Thanks, this was really helpful (reply to 161982)
 — 2025-10-16 —
 
 CashboxGame: Hello, I getting a reminder that the SDK isn’t installed correctly. My SDK token and appName are both fine, any idea what might be causing this? Who can I reach out to for help?
+
+Sachin: DM me, If you need help with it. (reply to 162147)
+
+Code: Why does everybody say DM instead of just discussing solutions here? Are they trying to scam/hack or charge for helping? What's the deal
+
+phex: how can someone discuss the issue without looking at the code base? (reply to 162165)
+
+Code: Looking at code base is not always necessary, and you can share minimum repro as well (reply to 162168)
+
+phex: sure, Go ahead, create a "Repro" and help them (reply to 162169)
+
+Code: its on the reporter to repro, also its not always necessary, can share symptoms or error messages to aid in debugging... no successful dev communities work in DMs... otherwise how do others learn? You are being silly
+
+Alex: 🚀 First beta release of the new TON documentation is now live! 🗺 Jump ahead to beta-docs.ton.org or stay here to learn about the project's backstory, current achievements, and future plans.  For quite some time, developers shared the same feedback: TON documentation is too scattered, difficult to navigate, and has obvious gaps and inconsistencies.  We at TON Studio took that seriously and initiated the TON Docs Revamp project in late July. It is focused on the following four goals:  • To introduce a streamlined, discoverable structure that would be easy to navigate and search • To make documentation welcoming to all developers, from newcomers to seasoned professionals • To introduce and maintain stricter quality checks from humans and AIs to ensure proof-read, up-to-date, consistent, and clear content • And, finally, to set up documentation release pipelines for major TON builders, while making community contributions straightforward and approachable  🏆 Today, with the help and suggestions from various developer teams, including Zengo, RSquad, TonTech, TON API team, and TON Core, the TON Studio is proud to present the first public version of this documentation. It already fulfills the first goal of comprehensive structure and rapidly moves towards achieving the third goal of content.  🦄 That said, this is a beta release: many pages await their contents, some pages require secondary reviews, while infrastructure, pipelines, and processes are only nourishing, not mature yet. All constructive feedback is appreciated.  So, what's in store already? We've got:  • Flat, easy-to-navigate structure • Hands-on articles with real examples whenever we can provide them • Visuals and diagrams, including various Mermaid diagrams • Smart AI search and summaries • Automatic CI spell checks and AI reviews based on the growing style guide • ...and much, much more!  🏠 TON Docs Revamp features an engaging landing page that guides users through their TON journey, whether they're first exploring TON, building smart contracts, integrating wallets, or just want to access and navigate the documentation quickly.  📝 Re-written or brand new content includes pages for: mytonctrl, mylocalton, development setups with Sandbox and Blueprint (with major help from TonTech), IDEs and SDKs, gas estimation, analytics, oracles, bridges, TMAs, TON Connect, standard wallet contracts, Jettons, NFTs, TVM instructions (with proper search and discovery), TL-B, FunC and other TON-specific programming languages, web versions of whitepapers (with cross-links and solid AI summaries), and even a "Coming from Ethereum" guide!  📈 And this is just the beginning. Plans ahead and for the next month include:  - Release pipelines and assignments of relevant technical owners - Docs, infrastructure, and processes for approachable community contributions - More playgrounds, interactive components, and interactivity - Much more content - Stronger AI-based assistance as documentation grows  🎯 The main goals of this beta release are to show preliminary progress, willingness to make things right, and to collect feedback from the developer community before the full release, which is tentatively scheduled for November 17th.  We are nothing without the feedback from the community. If something is missing or confusing, let us know by filing a GitHub issue. Furthermore, help review new content whenever you or someone you know is deeply familiar with the topic. TON is vast, and there is always something to know or be aware of.  Prominent ecosystem projects are invited to host, co-own, and maintain their documentation with us. Keeping things in one place will enrich the user experience and AI responses.   💪 Let's make the best documentation for TON. Together.  → Beta release URL: beta-docs.ton.org → GitHub repository: github.com/ton-org/docs → Future milestones: github.com/ton-org/docs/milestone/3 (forwarded from TON Dev News)
+
+Code: yay! (reply to 162174)
+
+Combot: Combot has warned Code Cowboy (2/3) Reason: Word **** is not allowed
+
+Code: Let's start with the following:  * How did you install the SDK? Via script tag or npm package? * Check the network tab of your telegram mini-app (if you dont know how, look up how to debug telegram mini apps)     * Inside the network tab, do you see any analytics requests for telegram? Are they successful? (reply to 162147)
+
+Code: Because it's actually not about TON, its TMA, and this channel is for TON (reply to 162188)
+
+— 2025-10-17 —
+
+Tharun Tej: I created testnet wallet, and requested 2TONs from telegram bot. How much will it take for execution?
+
+Code: It says it takes 2 hours but its usually nearly instant for me (reply to 162272)
+
+J2: Hello, I am a full-stack and blockchain developer with strong experience building on TON (The Open Network), including smart contracts in FunC and Tact, NFT/Jetton standards, and Telegram Mini App integrations.   Beyond TON, I have also delivered production-ready solutions across Solana (Rust, Anchor), Stellar/Soroban, Sui & Aptos (Move), and XRPL (Hooks, sidechains). This cross-chain experience allows me to bring best practices for secure, efficient, and user-friendly smart contract architectures.  Key areas I can support you with: * TON smart contracts using FunC or Tact * TonConnect / Wallet API implementations * Tokenomics, Jetton/NFT design, and on-offchain synchronization * Security reviews and deployment optimization  I’d be happy to show how my experience across TON and other ecosystems can help you bring it to production smoothly.

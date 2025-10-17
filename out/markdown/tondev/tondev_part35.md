@@ -2171,3 +2171,97 @@ Denis: норм. я сегодня ребенка 10 лет учил шифро�
 Teers k 🐾: .onion тоже очень медленный. Хотя более скрытый и анонимный (reply to 325572)
 
 Swag Dogs scroted.t.me: Нет (reply to 325681)
+
+— 2025-10-16 —
+
+Hqx5: Надеюсь не рандомного у школы подкараулил?) (reply to 325667)
+
+Stork: Подскажите пожалуйста, что означает параметр ret= ?
+
+Vladimir: return? (reply to 325696)
+
+Stork: Как его настроить? (reply to 325697)
+
+Vladimir: https://github.com/ton-blockchain/ton-connect/blob/main/bridge.md#universal-link (reply to 325698)
+
+ytiruces: Доброе утро, подскажите, пожалуйста, как сделать так, чтобы при передаче NFT новому владельцу, NFT отскакивала(bounce) обратна при условиях. А то у меня деньги транзакции отскакивают, а nft остается там, от куда должна отскочить.
+
+&rey: Переписать нфт так, чтобы она ловила баунс transfer notification и переписывалась обратно... (reply to 325700)
+
+&rey: Только вам надо немного подождать, пока на чейн завезут доставку полного сообщения при bounce вместо первых 256 бит.
+
+ytiruces: А где-то об этом можно почитать подробнее? (reply to 325701)
+
+ytiruces: В доке пока не попалось
+
+&rey: Что именно? Как ловить bounce, там было. (reply to 325704)
+
+&rey: Ну, при переходе в тк ваш мини-апп же становится неактивным, телефон даже обсчитывать его не будет. (reply to 325720)
+
+&rey: Вообще-то бэк должен отдельно сам слушать, а отдельно принимать подсказки от клиента "посмотри вот это сообщение этой транзакции". (reply to 325722)
+
+RootTon: народ кто знает в чем может быть трабл, локально на фронте транза отправляется и все оки  а на проде получает ошибку  Uncaught (in promise) a: [TON_CONNECT_SDK_ERROR] a SendTransactionRequest validation failed: Wrong 'address' format in message at index 0     at eB.<anonymous> (https://gamler.online/_next/static/chunks/9e84c5da-3ac1137071819e2d.js:1:61895)     at Generator.next (<anonymous>)     at https://gamler.online/_next/static/chunks/9e84c5da-3ac1137071819e2d.js:1:1032     at new Promise (<anonymous>)     at o (https://gamler.online/_next/static/chunks/9e84c5da-3ac1137071819e2d.js:1:781)     at eB.sendTransaction (https://gamler.online/_next/static/chunks/9e84c5da-3ac1137071819e2d.js:1:60039)     at https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1190:24453     at new Promise (<anonymous>)     at sB.<anonymous> (https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1190:24020)     at Generator.next (<anonymous>)     at https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1:981     at new Promise (<anonymous>)     at A (https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1:801)     at sB.waitForSendTransaction (https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1190:23989)     at sB.<anonymous> (https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1190:18991)     at Generator.next (<anonymous>)     at l (https://gamler.online/_next/static/chunks/6809c4f0-5d4011aa36ab2355.js:1:839)   и при всем при этом транза формируется не мной вообще, а swap coffee так что вариант в котором я криво транзу собрал отпадает
+
+🐼 Sild: слышал тонконнект недавно (2-3 недели назад) включил валидацию сообщенек, предположу что прод подтянул что-то свежее - а локалхост нет
+
+RootTon: а даже если так че ему не нравится ? сообщение собирают умные люди, но за идею спс ща проверю (reply to 325753)
+
+🐼 Sild: умные люди по разным причинам могут обосраться, например если пустая строка и отсутствие строки стали обрабатываться по-разному
+
+🐼 Sild: + умные люди могут не обновляться на новый тонконнект и не быть в курсе что там что-то не по плану
+
+RootTon: да трабл в тон коннекте (reply to 325756)
+
+Kiba: Адреса в сообщениях должны быть во френдли формате   Это приходит из api swap coffee? (reply to 325751)
+
+RootTon: да там raw формат (reply to 325758)
+
+User: 🚀 First beta release of the new TON documentation is now live! 🗺 Jump ahead to beta-docs.ton.org or stay here to learn about the project's backstory, current achievements, and future plans.  For quite some time, developers shared the same feedback: TON documentation is too scattered, difficult to navigate, and has obvious gaps and inconsistencies.  We at TON Studio took that seriously and initiated the TON Docs Revamp project in late July. It is focused on the following four goals:  • To introduce a streamlined, discoverable structure that would be easy to navigate and search • To make documentation welcoming to all developers, from newcomers to seasoned professionals • To introduce and maintain stricter quality checks from humans and AIs to ensure proof-read, up-to-date, consistent, and clear content • And, finally, to set up documentation release pipelines for major TON builders, while making community contributions straightforward and approachable  🏆 Today, with the help and suggestions from various developer teams, including Zengo, RSquad, TonTech, TON API team, and TON Core, the TON Studio is proud to present the first public version of this documentation. It already fulfills the first goal of comprehensive structure and rapidly moves towards achieving the third goal of content.  🦄 That said, this is a beta release: many pages await their contents, some pages require secondary reviews, while infrastructure, pipelines, and processes are only nourishing, not mature yet. All constructive feedback is appreciated.  So, what's in store already? We've got:  • Flat, easy-to-navigate structure • Hands-on articles with real examples whenever we can provide them • Visuals and diagrams, including various Mermaid diagrams • Smart AI search and summaries • Automatic CI spell checks and AI reviews based on the growing style guide • ...and much, much more!  🏠 TON Docs Revamp features an engaging landing page that guides users through their TON journey, whether they're first exploring TON, building smart contracts, integrating wallets, or just want to access and navigate the documentation quickly.  📝 Re-written or brand new content includes pages for: mytonctrl, mylocalton, development setups with Sandbox and Blueprint (with major help from TonTech), IDEs and SDKs, gas estimation, analytics, oracles, bridges, TMAs, TON Connect, standard wallet contracts, Jettons, NFTs, TVM instructions (with proper search and discovery), TL-B, FunC and other TON-specific programming languages, web versions of whitepapers (with cross-links and solid AI summaries), and even a "Coming from Ethereum" guide!  📈 And this is just the beginning. Plans ahead and for the next month include:  - Release pipelines and assignments of relevant technical owners - Docs, infrastructure, and processes for approachable community contributions - More playgrounds, interactive components, and interactivity - Much more content - Stronger AI-based assistance as documentation grows  🎯 The main goals of this beta release are to show preliminary progress, willingness to make things right, and to collect feedback from the developer community before the full release, which is tentatively scheduled for November 17th.  We are nothing without the feedback from the community. If something is missing or confusing, let us know by filing a GitHub issue. Furthermore, help review new content whenever you or someone you know is deeply familiar with the topic. TON is vast, and there is always something to know or be aware of.  Prominent ecosystem projects are invited to host, co-own, and maintain their documentation with us. Keeping things in one place will enrich the user experience and AI responses.   💪 Let's make the best documentation for TON. Together.  → Beta release URL: beta-docs.ton.org → GitHub repository: github.com/ton-org/docs → Future milestones: github.com/ton-org/docs/milestone/3
+
+Hqx5: Первую итерацию ton . org с вайтперером не превзойти. (reply to 325764)
+
+Daniil: Всем привет Впервые сталкиваюсь с платформой fragment и поэтому нужна помощь Предложили продать никнейм тг не через аукцион на фрагменте, а через якобы смарт контракт на этой же платформе, и там при подключении кошелька для получения средств, идет бесконечная подготовка транзакции, в поддержке (не знаю реальной или нет) пишут должен быть обеспечительный депозит на этом кошельке, в размере 5% от суммы сделки, который спишут а по завершению вернут обратно  Подскажите, пожалуйста, что это такое и может ли вообще такое быть?
+
+User: Все что вам предлагают в обход fragment.com - все скам. Конкретно в вашем случае это 100% скам (reply to 325787)
+
+Daniil: Что странно, но в кошельке подключенное приложение - fragment.com
+
+.: Это Скам. Потом не плачьте. Есть три площадки нормальные, fragment, getgems.io  marketapp.ws  И не по каким ссылкам не переходить, даже если она визуально нужного ресурса
+
+Daniil: Понял, спасибо
+
+blitzbyte: в манифесте тонконекта можно написать что угодно (reply to 325789)
+
+Андрей: Про третий марктеапп.вс первый раз слышу, поэтому лично для меня не вызывает доверия (reply to 325791)
+
+P: Привет всем!
+
+P: Подскажите пожалуйста как можно достать транзакцию из ноды по ее хэшу без какого-то lt
+
+Konstantin: Привет, никак. Для этого нужен индексатор, и если его бд собрана, то по ней можно искать без lt/account_id. (reply to 325801)
+
+P: А есть какой-то общедоступный в тестнете? (reply to 325807)
+
+Konstantin: https://tonapi.io//api-v2  Выбери здесь сверху эндпоинт тестнета, по идее должно работать (reply to 325809)
+
+P: Спасибо! (reply to 325810)
+
+P: Как можно проэстимировать транзакцию? Я пробовал через эндпоинт estimateFee, но он возвращает в полтора раза меньше, чем потом в транзакции получается. Можно это как-то пофиксить, или есть другой метод?
+
+blitzbyte: умножить на полтора   отправлять транзакцию с модом PayGasSeparately (1) + IgnoreErrors (2), комиссия спишется с кошелька отдельно от самой транзакции (reply to 325826)
+
+Василий: Только за пересылку сообщения, но не за само исполнение. И скорее всего проблема связана с тем же. Человек ждёт что ему посчитают исполнение всей транзы, а получает комсу за отправку сообщения (reply to 325827)
+
+Pavel: Так и делал, и разница огромная (reply to 325827)
+
+P: Да, хотелось бы как в эфире реальное значение получить (reply to 325828)
+
+Василий: Тогда только эмулировать цепочку (reply to 325830)
+
+&rey: Ну, здесь вообще value flow нужен, по-хорошему... (reply to 325830)
+
+P: А это как? (reply to 325831)
+
+&rey: А это к ton/sandbox. (reply to 325833)
+
+P: Ок, спасибо, попробую (reply to 325834)
