@@ -11253,3 +11253,25 @@ Combot: Noodles has been banned! Reason: CAS ban.
 Combot: Finn Green has been banned! Reason: CAS ban.
 
 Combot: Munayeem Al Ragib has been banned! Reason: CAS ban.
+
+— 2025-10-17 —
+
+Combot: K22 has been banned! Reason: CAS ban.
+
+Combot: N Paul has been banned! Reason: CAS ban.
+
+Combot: Sylvester Amoako has been banned! Reason: CAS ban.
+
+海峰: 专业查档，❤️流程同步警务标准❤️，高效获取所需信息❤️ (reply to 4045)
+
+海峰: 查档如警方规范❤️，严谨流程❤️，为您精准调取档案❤️ (reply to 4046)
+
+Combot: Moussa Bourezgue has been banned! Reason: CAS ban.
+
+Combot: Sacha Jamie, Ahmed ELGIASH, Kerry Cortez have been banned! Reason: CAS ban.
+
+— 2025-10-18 —
+
+Combot: Selome has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

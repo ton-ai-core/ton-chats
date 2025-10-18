@@ -6275,3 +6275,13 @@ Tharun Tej: I created testnet wallet, and requested 2TONs from telegram bot. How
 Code: It says it takes 2 hours but its usually nearly instant for me (reply to 162272)
 
 J2: Hello, I am a full-stack and blockchain developer with strong experience building on TON (The Open Network), including smart contracts in FunC and Tact, NFT/Jetton standards, and Telegram Mini App integrations.   Beyond TON, I have also delivered production-ready solutions across Solana (Rust, Anchor), Stellar/Soroban, Sui & Aptos (Move), and XRPL (Hooks, sidechains). This cross-chain experience allows me to bring best practices for secure, efficient, and user-friendly smart contract architectures.  Key areas I can support you with: * TON smart contracts using FunC or Tact * TonConnect / Wallet API implementations * Tokenomics, Jetton/NFT design, and on-offchain synchronization * Security reviews and deployment optimization  I’d be happy to show how my experience across TON and other ecosystems can help you bring it to production smoothly.
+
+Shinobi: Hi, I noticed that the domain maleficent.ton has expired on 16.09.2025, but it’s currently not available for purchase. Could you please check why it’s still locked and when it will be released for registration again?
+
+Tharun Tej: It's been 7hrs and I didn't get it (reply to 162281)
+
+Alireza: Hi every one😊
+
+Artem: GM! We’re actively seeking promising Web3 projects at the Pre-Seed, Seed, and Early Series A stages that could benefit from funding. Whether you’re building in DeFi, infrastructure, AI x blockchain, or other areas of decentralization, we’d be excited to connect and discuss how we can help accelerate your growth 🚀
+
+TON Bounty Bridge: ​Ohg  Created by Abrahim4567
