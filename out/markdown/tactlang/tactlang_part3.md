@@ -9615,3 +9615,7 @@ Rouzbeh: Thanks really appreciate it (reply to 72857)
 akki: how to construct this param for contract deployment using v5r1 testnet subwallet id  coz by default it deploys using mainnet id and i can't open/import that wallet in tonkeeper
 
 Lols Anti Spam: Madeleine, you were blocked (CAS)  ⚠ Free antispam for groups ➡️ Lols Bot [hide]
+
+— 2025-10-19 —
+
+Messiah: /

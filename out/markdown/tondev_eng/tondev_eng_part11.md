@@ -6285,3 +6285,33 @@ Alireza: Hi every one😊
 Artem: GM! We’re actively seeking promising Web3 projects at the Pre-Seed, Seed, and Early Series A stages that could benefit from funding. Whether you’re building in DeFi, infrastructure, AI x blockchain, or other areas of decentralization, we’d be excited to connect and discuss how we can help accelerate your growth 🚀
 
 TON Bounty Bridge: ​Ohg  Created by Abrahim4567
+
+— 2025-10-18 —
+
+Andy: Hey guys, need some help 😅    I'm doing this:  const keyPair = await mnemonicToPrivateKey(SEED);  const wallet = WalletContractV5R1.create({     workchain: 0,     publicKey: keyPair.publicKey });  console.log(wallet.address);  But the address I get here is totally different from the one I see in Tonkeeper / MyTonWallet.   Seed is 100% correct, I double-checked like 20 times.   Tried V3, V4, V5 wallets — none of them give me the same address.  Any idea what’s going on? 🤔
+
+&rey: Testnet or mainnet? (reply to 162430)
+
+Hossein: Each address can be represented in various formats: https://docs.ton.org/v3/documentation/smart-contracts/addresses/address-formats (reply to 162430)
+
+Tharun Tej: What difference do you see in them? Is that EQ and UQ? (reply to 162430)
+
+Andy: mainnet (reply to 162431)
+
+Andy: I checked it using ton org address, it doesn’t match. (reply to 162432)
+
+Mojisola🍅 🍅: hello, hope you solved already?? incase not yet solved, this is how I solved similar issue:  I generate the mnemonics and address from code, then import into tonkeeper. the address always the same. this is my code to generate mnemonics  below (reply to 162430)
+
+Mojisola🍅 🍅: import { WalletContractV5R1, WalletContractV4 } from '@ton/ton' import { mnemonicToWalletKey, mnemonicNew, mnemonicValidate } from "@ton/crypto"  //function a(v){console.log(v)}  async function zoomy56(){      const mnemonics = (await mnemonicNew()).join(" ")      const a = v => console.log(v)          const key = await mnemonicToWalletKey(mnemonics.trim().split(' '))     const isValid = await mnemonicValidate(mnemonics.trim().split(' '))      if(isValid){         a(mnemonics)          const walletv4 = WalletContractV4.create({publicKey: key.publicKey, workchain: 0})         const walletv5 = WalletContractV5R1.create({publicKey: key.publicKey, workchain: 0})          a(`Wallet V4: ${walletv4.address.toString({bounceable: false})} or ${walletv4.address.toString({bounceable: true})} `)         a(`Wallet V5: ${walletv5.address.toString({bounceable: false})} or ${walletv5.address.toString({bounceable: true})}`)         a(`Tesnet Wallet V5: ${walletv5.address.toString({bounceable: false, testOnly:true})}\n`)     }      setTimeout(() => {         zoomy56()     }, 500) }  zoomy56() (reply to 162446)
+
+Andy: 🙏  Thanks, that helped. It’s strange that my seed is detected as invalid, even though everything works fine in Tonkeeper. (reply to 162449)
+
+Mojisola🍅 🍅: glad it helped.  the issue might have been a bug somewhere in the ton codebase.
+
+Arcyx: Guys, do we have any info about this ?
+
+&rey: Only for students of said institution, apparently. (reply to 162531)
+
+CryptoHunter.World: We're looking for a team to rebrand and operate the Cryptid Hunter Telegram mini-dApp game. If you're interested, please contact us. The game system is fully developed, and it's an idle card collection game.  cryptidHunterBot
+
+&rey: Amend the message to include compensation nature (does it include assets/share of your project, does it include external valuables) please. (reply to 162537)

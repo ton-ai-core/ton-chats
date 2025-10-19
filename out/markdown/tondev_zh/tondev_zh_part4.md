@@ -11275,3 +11275,15 @@ Combot: Sacha Jamie, Ahmed ELGIASH, Kerry Cortez have been banned! Reason: CAS b
 Combot: Selome has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 狄仁杰 has been banned! Reason: CAS ban.
+
+Combot: Karim Ben, 🖤 have been banned! Reason: CAS ban.
+
+Combot: Xonzoda has been banned! Reason: CAS ban.
+
+— 2025-10-19 —
+
+Combot: Mbah Meki has been banned! Reason: CAS ban.
+
+Combot: Andres R., Ko Zin Ko have been banned! Reason: CAS ban.
