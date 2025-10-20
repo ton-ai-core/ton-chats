@@ -9619,3 +9619,5 @@ Lols Anti Spam: Madeleine, you were blocked (CAS)  ⚠ Free antispam for groups 
 — 2025-10-19 —
 
 Messiah: /
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)

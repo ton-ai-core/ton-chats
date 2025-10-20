@@ -6315,3 +6315,19 @@ Arcyx: Guys, do we have any info about this ?
 CryptoHunter.World: We're looking for a team to rebrand and operate the Cryptid Hunter Telegram mini-dApp game. If you're interested, please contact us. The game system is fully developed, and it's an idle card collection game.  cryptidHunterBot
 
 &rey: Amend the message to include compensation nature (does it include assets/share of your project, does it include external valuables) please. (reply to 162537)
+
+— 2025-10-19 —
+
+Combot: Combot has warned Mohammed Zaid (1/3) Reason: 1 reports (reply to 162564)
+
+Tharun Tej: Hey guys! I have a problem, if I created my own ton wallet, then how to make it eligible for tonconnect to accept transactions and signs.
+
+&rey: Stop right there. In particular, stop following the instructions some site is feeding you. (reply to 162570)
+
+&rey: 1. The wallet can always accept assets, without any need for onchain activation. Use UQ... address and it will be fine.
+
+&rey: 2. Signing is also always available, though some services may require that your wallet is initialized in some way to read public key.
+
+Tharun Tej: No I mean, I created a wallet of my own. If I scan from my app to tonconnect in any dapp. I need to make a wallet to be able to connect with it. (reply to 162572)
+
+&rey: Create the bridge, or choose an existing one like TonDevWallet does. (reply to 162574)

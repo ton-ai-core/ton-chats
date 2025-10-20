@@ -11287,3 +11287,9 @@ Combot: Xonzoda has been banned! Reason: CAS ban.
 Combot: Mbah Meki has been banned! Reason: CAS ban.
 
 Combot: Andres R., Ko Zin Ko have been banned! Reason: CAS ban.
+
+Combot: Ahmed Osama has been banned! Reason: CAS ban.
+
+Combot: Rachida Charyate has been banned! Reason: CAS ban.
+
+Combot: Abu Yousuf has been banned! Reason: CAS ban.
