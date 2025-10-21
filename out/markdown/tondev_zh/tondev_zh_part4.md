@@ -11293,3 +11293,23 @@ Combot: Ahmed Osama has been banned! Reason: CAS ban.
 Combot: Rachida Charyate has been banned! Reason: CAS ban.
 
 Combot: Abu Yousuf has been banned! Reason: CAS ban.
+
+— 2025-10-20 —
+
+Combot: Xerfanc has been banned! Reason: CAS ban.
+
+AGT: 有没有可以外包开发dapp的团队，ton链的，请联系我
+
+Combot: kana has been banned! Reason: CAS ban.
+
+Combot: 28 has been banned! Reason: CAS ban.
+
+Combot: Wailedx1 has been banned! Reason: CAS ban.
+
+小貓咪: 川普川
+
+Combot: Streaming plus has been banned! Reason: CAS ban.
+
+— 2025-10-21 —
+
+Combot: Isabelle Janettie Tajem has been banned! Reason: CAS ban.

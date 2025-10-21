@@ -6331,3 +6331,23 @@ Tharun Tej: Hey guys! I have a problem, if I created my own ton wallet, then how
 Tharun Tej: No I mean, I created a wallet of my own. If I scan from my app to tonconnect in any dapp. I need to make a wallet to be able to connect with it. (reply to 162572)
 
 &rey: Create the bridge, or choose an existing one like TonDevWallet does. (reply to 162574)
+
+— 2025-10-20 —
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 5  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Combot: Combot has warned Павел (2/3) Reason: Word **** is not allowed
+
+Павел: What the word...
+
+Павел: Hi everyone! I need to verify on the backend that a user has successfully sent a specific amount of tokens from their wallet to the company’s wallet. Am I right that I’ll need to keep monitoring the company wallet using some blockchain indexer (any one you can recommend?), store all transactions in the database, and then search through them?
+
+— 2025-10-21 —
+
+Esteban: ☹️ my ads are being rejected with no real explanation of what is wrong. I wrote the most amazing bot, and now Im stuck because someone is not allow my ads
+
+Esteban: so frustrated and tired, worked so hard and cant get an answer from the ads platform team
+
+Esteban: Is there any good soul here with contacts on the Ton Ads team so that I can try to scalate my request with someone? I have checked so much the ads, cant find anyting wrong with them :( heart breaking to work so hard and then get stop on something like this
+
+:): Check on x maybe they’re on there
