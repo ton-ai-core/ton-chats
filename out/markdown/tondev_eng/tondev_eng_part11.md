@@ -6351,3 +6351,41 @@ Esteban: so frustrated and tired, worked so hard and cant get an answer from the
 Esteban: Is there any good soul here with contacts on the Ton Ads team so that I can try to scalate my request with someone? I have checked so much the ads, cant find anyting wrong with them :( heart breaking to work so hard and then get stop on something like this
 
 :): Check on x maybe they’re on there
+
+Mhdi khosravi: Hello Can anyone give me some testnet TON? 0QAoSo5Ow7wUajdCYaTMiGhY7kzU3YlEDvJ4D3Du2pRXv7CS Thank you
+
+Liam: Hello, I am interested in dApp game develop. Could you tell me about it more details (reply to 162537)
+
+Tharun Tej: If I want to convert my username to collectible, how days old it should be?
+
+Tim: You can’t use other wallet bridges for production wallets. (reply to 162575)
+
+Tharun Tej: What is the use of bridge? I mean what does it actually do? (reply to 162757)
+
+Tim: Passes messages between dapp and wallet (reply to 162761)
+
+Tim: Are you developing wallet solo?
+
+Tharun Tej: yeah (reply to 162767)
+
+Tim: https://github.com/ton-blockchain/wallets-list  https://github.com/ton-blockchain/ton-connect  You can start by reading ton connect standard and look at process of integrating with ton for other wallets (reply to 162773)
+
+Gentle: Hi, great devs!
+
+&rey: You say this like you are not one?  This is chat about development on TON. (reply to 162797)
+
+Gentle: Can I work with this development?
+
+&rey: This is The Open Network for a reason. What are you seeking to work on, specifically? Have you explored the provided learning resources? (reply to 162799)
+
+— 2025-10-22 —
+
+Boka: Hey guys, wanted to reach out about developing using the ton/sandbox sdk.  I found two open Issues on the issue in the Ton Sandbox repo: Issue 70 Issue 55  We are trying to get the total fee using const fee = blockchain.lastTransaction.totalFees.coins  As seen in the issues above, the amount does not match with the total fees taken when comparing balances. Mainly import fees seem to always show zero, even with outgoing messages.  So my question: Is there any way to get the total fee without comparing balances? Also are there any plans on potential fixing this issue?
+
+Boka: I had to get rid of the links to post it seems. But those issues are on the sandbox repo
+
+Billy: Hi Ton team, I've upgraded my toncenter/ton-indexer to v1.2.3 along with my ton-node on 2025.10, but I'm getting this error on my indexer-api:  2025/10/22 01:40:38 failed to ping database: failed to load type 'tonaddr': ERROR: type "tonaddr" does not exist (SQLSTATE 42704)   Has anyone else come across this and do we know how to resolve it? Thanks in advance 🙏
+
+Billy: I managed to bypass this error with an older version of indexer-api: (toncenter/ton-indexer-api:v1.2.0-rc.3-amd64) But I'm not sure if it'll cause any issues down the line
+
+Combot: Hello Shekufhe! Click on the button below so that we understand that you are not a bot who came to tell us about how Durov is giving away bitcoins as a gift.

@@ -11313,3 +11313,15 @@ Combot: Streaming plus has been banned! Reason: CAS ban.
 — 2025-10-21 —
 
 Combot: Isabelle Janettie Tajem has been banned! Reason: CAS ban.
+
+Combot: Selle Bryan has been banned! Reason: CAS ban.
+
+Combot: استاذ علي has been banned! Reason: CAS ban.
+
+Combot: Shafan King has been banned! Reason: CAS ban.
+
+— 2025-10-22 —
+
+Combot: ivan has been banned! Reason: CAS ban.
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

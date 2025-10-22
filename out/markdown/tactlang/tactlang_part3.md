@@ -9621,3 +9621,21 @@ Lols Anti Spam: Madeleine, you were blocked (CAS)  ⚠ Free antispam for groups 
 Messiah: /
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2025-10-21 —
+
+Игорь: Hello! Please help! How to create sender in nodejs backend server? I have my address, but I dont know how to create sender const mapContract = client.open(MapContract.fromAddress(contractAddress)); mapContract.send(); // need sender in args
+
+maksim: That depends on the method you want to send message, rpc client you've chosen (reply to 73088)
+
+maksim: If you want to use your wallet you can use library @ton/ton and take a look at this example  https://github.com/tact-lang/jetton/blob/main/src/scripts/base.deploy.ts
+
+Игорь: In the example above, there's no sender being retrieved. For example, in deploy code, the sender is apparently taken from Blueprint export async function run(provider: NetworkProvider) {     const mapContract = provider.open(await MapContract.fromInit()); provider.sender() , but it's unclear how to create a sender on the nodejs. Grok says you can do it this way: const wallet = WalletContractV4.create({     workchain: 0, // Основной     publicKey: keyPair.publicKey,   });    const sender = wallet.getSender(); but the wallet doesn't have such a method.  maybe its possible create like contract? Somthing like this? const contractAddress = Address.parse(CONTRACT_ADDRESS); const mapContract = client.open(MapContract.fromAddress(contractAddress));  const sender = client.createSender(DEPLOYER_ADDRESS) (reply to 73090)
+
+Игорь: I just want to use Tact wrapper classes because it's convenient and has typing: mapContract.send();
+
+Игорь: Yes, that's better..thanks, but it looks like the wrapper class needs a different type.  MapContract.ts (wrapper) async send(provider: ContractProvider, via: Sender, args: { value: bigint, bounce?: boolean| null | undefined }, message: null | "inc" | "dec") {  --- export interface ContractProvider {     getState(): Promise<ContractState>;     get(name: string | number, args: TupleItem[]): Promise<ContractGetMethodResult>;     external(message: Cell): Promise<void>;     internal(via: Sender, args: {         value: bigint | string;         extracurrency?: ExtraCurrency;         bounce?: Maybe<boolean>;         sendMode?: SendMode;         body?: Maybe<Cell | string>;     }): Promise<void>;     open<T extends Contract>(contract: T): OpenedContract<T>;     getTransactions(address: Address, lt: bigint, hash: Buffer, limit?: number): Promise<Transaction[]>; } (reply to 73093)
+
+Игорь: in Mapcontract.ts send method use await provider.internal(via, { ...args, body: body });
+
+Игорь: It works! Everything is ok now. Thanks (reply to 73093)
