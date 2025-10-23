@@ -6389,3 +6389,37 @@ Billy: Hi Ton team, I've upgraded my toncenter/ton-indexer to v1.2.3 along with 
 Billy: I managed to bypass this error with an older version of indexer-api: (toncenter/ton-indexer-api:v1.2.0-rc.3-amd64) But I'm not sure if it'll cause any issues down the line
 
 Combot: Hello Shekufhe! Click on the button below so that we understand that you are not a bot who came to tell us about how Durov is giving away bitcoins as a gift.
+
+Mhdi khosravi: Hello I need to buy 7 domains for my wallets, should i do it one by one by each wallet or can i buy them by one wallet and send them to other wallets?
+
+Mirka: You can buy them by one wallet and then send but you will pay small blockchain fee for each transfer (reply to 162875)
+
+&rey: Either one works. After purchase, they are just owned NFTs. (reply to 162876)
+
+Mhdi khosravi: thank you (reply to 162876)
+
+Mirka: Of course, I thought the question was about abillity to send them (reply to 162877)
+
+Mhdi khosravi: can i point a domain to a real site on a host? like normal domains
+
+&rey: Nope. 1. ICANN has not assigned .ton zone, so real DNS will not see it.  2. TON proxies do not define any fields for real sites either. (reply to 162880)
+
+Mhdi khosravi: is there any kind of sites which i can assign my domain to? (reply to 162881)
+
+Mhdi khosravi: i see there is a dns manager for ton address, what is point of that? making subdomains?
+
+&rey: TON Sites (aka "a server accepting ADNL connections instead of HTTPS"), and Storage (aka "someone else storing a static bag of your files, and their server accepting ADNL requests"). (reply to 162882)
+
+Bus: Hello. Is it possible to store a small html site on ton blockchain and view it in the telegram browser? (without using a server) Or is something like that in development?
+
+&rey: Very unfortunately, no. (reply to 162923)
+
+Андрей: It's not in the blockchain itself, but it's available in ton-storage providers (reply to 162923)
+
+Boka: If this isn't the right chat, can someone guide to me a channel where I can find some support? (reply to 162810)
+
+&rey: This is the right chat. The issue is another thing: it's not like many people understand what is even stored in totalFees field. (reply to 162944)
+
+Boka: Yeah I'm not super familiar myself, new to the TON ecosystem but we need something we can rely on. Which is why I am reaching out here (reply to 162945)
+
+&rey: I do not know what is stored in totalFees either. I always try using value flow, which is a finer description of what happens.

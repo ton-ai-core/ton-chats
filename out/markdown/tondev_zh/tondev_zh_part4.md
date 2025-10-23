@@ -11325,3 +11325,17 @@ Combot: Shafan King has been banned! Reason: CAS ban.
 Combot: ivan has been banned! Reason: CAS ban.
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: Robert Siewert has been banned! Reason: CAS ban.
+
+Combot: 假如 假如 has been banned! Reason: CAS ban.
+
+Combot: 胖 has been banned! Reason: CAS ban.
+
+Combot: សុខបុណ្ណារដ្ថ has been banned! Reason: CAS ban.
+
+— 2025-10-23 —
+
+Combot: Noah Forstin has been banned! Reason: CAS ban.
+
+Lori: #SOPH 翻倍🌈 (forwarded from 幣圈Buffett_kama)

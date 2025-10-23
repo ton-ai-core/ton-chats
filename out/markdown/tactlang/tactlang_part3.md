@@ -9639,3 +9639,15 @@ maksim: If you want to use your wallet you can use library @ton/ton and take a l
 Игорь: in Mapcontract.ts send method use await provider.internal(via, { ...args, body: body });
 
 Игорь: It works! Everything is ok now. Thanks (reply to 73093)
+
+— 2025-10-22 —
+
+Malone: Hello, I have a question for you: is it possible to give TMA permanent access to the microphone? We have a mini app that uses voice messages. However, every time you click to record a voice message, you are prompted to use the microphone. Is there a way to bypass this? Perhaps a workaround could be implemented.
+
+Anton: sorry but this is out of scope for this chat (reply to 73111)
+
+Malone: I just don't know who to ask for help anymore ( (reply to 73113)
+
+maksim: @ devs is a chat for tma related stuff I think (reply to 73114)
+
+Ruben: Hi Malone, we have the same problem. In every app run it asks for permissions again (reply to 73111)
