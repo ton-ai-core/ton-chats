@@ -6423,3 +6423,109 @@ Boka: If this isn't the right chat, can someone guide to me a channel where I ca
 Boka: Yeah I'm not super familiar myself, new to the TON ecosystem but we need something we can rely on. Which is why I am reaching out here (reply to 162945)
 
 &rey: I do not know what is stored in totalFees either. I always try using value flow, which is a finer description of what happens.
+
+— 2025-10-23 —
+
+Billy: Hi dev team, would really appreciate if we could get some information on this error from ton-indexer 🙏 2025/10/22 01:40:38 failed to ping database: failed to load type 'tonaddr': ERROR: type "tonaddr" does not exist (SQLSTATE 42704)
+
+Sen: Hi why "ADDING NOMINATOR-POOL TO THE WHITELIST IS PROHIBITED!" while I am adding a nomintaor pool address to a vesting contract's whitelist in testnet?
+
+&rey: Perhaps nominator pool is incapable of sending correct messages to get its share? (reply to 162961)
+
+F: Try this: @toncenter_help_bot (reply to 162959)
+
+Combot: Combot has warned Hemant Agarwal (1/3) Reason: Word **** is not allowed
+
+Slava: Your validator's wallet must have enough test coins to participate in the elections. Gas is paid in test coins automatically. (reply to 163061)
+
+献人: Dear brothers, I use the Windows system to open the Telegram applet on my computer. What is the reason for this error?
+
+Megavrse: Sir, can u dm me?, i cant dm u bcs only mutual contact, i need this (reply to 64540)
+
+&rey: Moderators NEVER initiate direct message. Not even when asked. (reply to 163073)
+
+Megavrse: How can i get like this, sir? (reply to 64540)
+
+&rey: Resolve <domain-you-want>.ton.resolve-contract.ton in an explorer like Tonscan/Tonviewer, and put this address into the link.  Look up how large the first bid should be (perhaps by checking an unused domain of the same length), convert it into nanoTON and put it into amount field.  Keep bin field unchanged. (reply to 163075)
+
+Megavrse: Okey, sir, thank you 🫰 (reply to 163076)
+
+Talent: Hello. I hope you are doing well. Am a Fullstack and Blockchain engineer and looking for an opportunity to work with you. Thanks. (reply to 161657)
+
+Miles: Hey mates! Backing next-gen founders in AI, blockchain, HealthTech & Web3 — from Pre-Seed to Series A. $50M+ deployed and 4.6K+ investors strong. Who’s building or raising right now?
+
+&rey: This is chat about TON. (reply to 163099)
+
+Miles: I understand, I wish that founders here could find my offer interesting (reply to 163100)
+
+OzzieCrypt: hi everyone i need a asist for transcation verification
+
+&rey: Stop right there. "Verification" might be a common scam. (reply to 163109)
+
+OzzieCrypt: what you mean?
+
+OzzieCrypt: i'm building an application on ton, user will send money to each other and i need to verify it on backend side
+
+&rey: Ah, that one. A few seconds. (reply to 163112)
+
+OzzieCrypt: which ton doc i need to read i couldn't find
+
+OzzieCrypt: yes thank you
+
+&rey: This one, https://docs.ton.org/v3/guidelines/dapps/asset-processing/payments-processing/. Add "Mastering transactions" section for a good measure. (reply to 163117)
+
+ÄMÌR: Hello, how can I deploy a static website on TON DNS? (reply to 163120)
+
+&rey: Well, there are two options — choosing a storage provider which would host it, or running a reverse proxy plus static file server on your side. (reply to 163121)
+
+OzzieCrypt: for example sometimes there is no payment, user will call contract and contract status will change and i will take some fees. For this step i need to verify status changed (reply to 163120)
+
+ÄMÌR: What is the first solution? (reply to 163122)
+
+OzzieCrypt: should i use this for that purpose
+
+OzzieCrypt: should i use webhook?
+
+&rey: Couldn't the fees be sent by your contract automatically, without any backend involvement? (reply to 163123)
+
+&rey: Choose according to your requirements and provider's guarantees. (reply to 163126)
+
+OzzieCrypt: fees are sent by users who is interact with contract and change the status i just want confirm it (reply to 163127)
+
+ÄMÌR: Do you know any hosting service where I can upload my HTML file and get a BagID? (reply to 163122)
+
+&rey: Documentation knows. As in, https://docs.ton.org/v3/guidelines/web3/ton-storage/storage-faq, plus you may be interested in https://ton-storage.org/. (reply to 163130)
+
+— 2025-10-24 —
+
+ÄMÌR: On ton-storage.o rg, there is no section for uploading files and obtaining a BagID. (reply to 163132)
+
+&rey: Now, please read the links in the order I sent them. (reply to 163138)
+
+ÄMÌR: Yes, I have studied it; it says to create a BagID using TON Storage, but the problem is at this step. (reply to 163139)
+
+ÄMÌR: There is no section on the site to create a BagID. (reply to 163139)
+
+&rey: How would one even create it there?  You may have missed https://docs.ton.org/v3/guidelines/web3/ton-storage/storage-daemon#creating-a-bag-of-files. (reply to 163142)
+
+ÄMÌR: The required program needs a private key. Where can I obtain it? (reply to 163143)
+
+&rey: "These are auto-generated on first daemon startup" (reply to 163145)
+
+ÄMÌR: In which path? I can’t find it. (reply to 163146)
+
+ÄMÌR: Where can I get the global.config.json file? (reply to 163146)
+
+Yumn: Hello
+
+TON Bounty Bridge: ​Adreilito  Created by ceocrypto
+
+&rey: At https://ton.org/global.config.json (reply to 163149)
+
+OzzieCrypt: implemeted but BOC transcation not found on blockchain (reply to 163120)
+
+OzzieCrypt: because it is testnet?
+
+&rey: Are you searching it immediately after frontend's message? (reply to 163154)
+
+&rey: The message appears, or does not, kinda later (one or two blocks before you see it at least).

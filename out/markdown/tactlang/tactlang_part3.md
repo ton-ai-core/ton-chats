@@ -9651,3 +9651,15 @@ Malone: I just don't know who to ask for help anymore ( (reply to 73113)
 maksim: @ devs is a chat for tma related stuff I think (reply to 73114)
 
 Ruben: Hi Malone, we have the same problem. In every app run it asks for permissions again (reply to 73111)
+
+— 2025-10-23 —
+
+Игорь: Hello! How reliable is the Upgradable mechanism? https://docs.tact-lang.org/cookbook/upgrades/ Should it be used on the mainnet? Grock initially suggested a proxy mechanism: separating the logic from an immutable proxy contract that contains the mutable address of the logic contract. Question: Upgradable or Proxy?  And when I try to use the Upgradable trait from docs, it complains about a missing setData (since 1.7.0 ? but last version is 1.6), even though the setCode is in the example in the documentation.
+
+Игорь: Upgrade data via setData seems unsafe. As I understand it, when sending an upgrade transaction, a cell with the data needs to be created in the order it appears in the contract as fields. So, there's a version, so we have to write some value (even 1000) into the cell, and then, receive(msg: Confirm){  ... self._version +=1 ... }  will be executed. That's odd. Isn't it possible to do this: message Upgrade {     /// New code of the contract.     /// Defaults to `null`, which keeps the previous code.     code: Cell? = null;      // only the fields we want to update     counter: Int      /// Delay in seconds before upgrade can be confirmed.     /// Defaults to zero, which means the upgrade can be confirmed immediately.     /// Unused in `Upgradable` trait.     timeout: Int = 0; } receive(msg: Confirm) { //setData(data) self.counter = self.upgradeInfo.counter } And even if we want to change other fields...we can change the code again along with the Upgrade structure and change the other fields as well. Am I right? I don't quite understand...I just started learning TON and TACT
+
+&rey: Someone just bought that exact domain, nothing surprising there. (reply to 73175)
+
+&rey: But that does not involve any 0.ton domains in the slightest. The whole address got bought. (reply to 73178)
+
+Тарас: What does it mean? (reply to 73179)

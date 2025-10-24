@@ -11339,3 +11339,13 @@ Combot: សុខបុណ្ណារដ្ថ has been banned! Reason: CAS ban
 Combot: Noah Forstin has been banned! Reason: CAS ban.
 
 Lori: #SOPH 翻倍🌈 (forwarded from 幣圈Buffett_kama)
+
+Tom: 请问电脑上tg的高度更改事件怎么用代码触发的？就是当我们手动去拉伸tg游戏窗口的时候，tg会打印的日志：[Telegram.WebView] < receiveEvent viewport_changed  {height: 603, is_state_stable: true, is_expanded: true}
+
+Tom: 游戏设计分辨率是750*1334，但是tg打开后默认高度总是有点短，会遮住部分ui，经常要做很多的自适应组件去适配，很麻烦的
+
+Tom: 所以想着能不能直接在小程序窗口打开时 直接设定分辨率
+
+준허 /👨🏻‍💻 @Junhe.ETH: Exciting times ahead - we're growing our TON ecosystem team and looking for a passionate Web3 builder to join us. 💥  If you're open to new challenges or building a Web3 startup that's raising - let's connect! 🤝
+
+Combot: Gg has been banned! Reason: CAS ban.
