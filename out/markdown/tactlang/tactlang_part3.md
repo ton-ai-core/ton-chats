@@ -9663,3 +9663,17 @@ Ruben: Hi Malone, we have the same problem. In every app run it asks for permiss
 &rey: But that does not involve any 0.ton domains in the slightest. The whole address got bought. (reply to 73178)
 
 Тарас: What does it mean? (reply to 73179)
+
+— 2025-10-24 —
+
+szansky: hi bros I got question did devs on TON have been created jetton with tax for a jetton owner? I mean sell / buy tax with reward for an owner
+
+maksim: yeah, there are many of them but I am not sure they are open source (reply to 73192)
+
+szansky: Okay, did you see in da past any jetton with tax ? Maybe the code of the contract is open Thank you a lot for you respony maksim! (reply to 73193)
+
+maksim: Open code no, but here is Jetton Master for tax jetton, you can research logic from it (reply to 73194)
+
+szansky: wow thank you bro (reply to 73195)
+
+L30n1d: Here   https://tonviewer.com/EQBxXPpF-vjwcOGELzKaBbG5UjyCy9YDIeL-qNynvBxA_ATL?section=code (reply to 73192)

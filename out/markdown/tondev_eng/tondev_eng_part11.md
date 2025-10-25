@@ -6529,3 +6529,25 @@ OzzieCrypt: because it is testnet?
 &rey: Are you searching it immediately after frontend's message? (reply to 163154)
 
 &rey: The message appears, or does not, kinda later (one or two blocks before you see it at least).
+
+szansky: hi bros I got question did devs on TON have been created jetton with tax for a jetton owner?
+
+szansky: sell / buy tax I mean
+
+Teemu | 機器人🪽: Can deploy them from stonkspump
+
+szansky: I know but I want to do it for a test (reply to 163185)
+
+ÄMÌR: Hello, where can I get storage space to set up a website on TON DNS?
+
+Combot: Combot has warned Liza Chernyagina (1/3) Reason: Word **** is not allowed
+
+— 2025-10-25 —
+
+BkingTechPrince: If someone need a senior ton blockchain , full stack engineer, pls message me
+
+BkingTechPrince: I already have built many dapps
+
+Tharun Tej: What is a minimum withdrawal of ton in telegram.
+
+A: t.me/Meathdev

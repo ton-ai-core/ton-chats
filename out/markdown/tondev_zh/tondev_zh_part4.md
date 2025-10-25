@@ -11349,3 +11349,31 @@ Tom: 所以想着能不能直接在小程序窗口打开时 直接设定分辨�
 준허 /👨🏻‍💻 @Junhe.ETH: Exciting times ahead - we're growing our TON ecosystem team and looking for a passionate Web3 builder to join us. 💥  If you're open to new challenges or building a Web3 startup that's raising - let's connect! 🤝
 
 Combot: Gg has been banned! Reason: CAS ban.
+
+— 2025-10-24 —
+
+Combot: Ryan Hardy has been banned! Reason: CAS ban.
+
+Combot: Santacru Gon has been banned! Reason: CAS ban.
+
+cegedo: 这两家接口靠谱吗？有用过的吗？ https://tonconsole.com/ https://getblock.io/
+
+Combot: Df has been banned! Reason: CAS ban.
+
+Daniel: It’s so quiet here. I’m a blockchain dev on TON, happy to have a discussion
+
+hans: 我用EVAA连接多签钱包地址时，总是出现以下问题，有人帮忙看下吗
+
+Combot: Eislerweyopoxe Vanar has been banned! Reason: CAS ban.
+
+Combot: Hnin Hnin has been banned! Reason: CAS ban.
+
+Combot: 梦玲珑` Sykes has been banned! Reason: CAS ban.
+
+— 2025-10-25 —
+
+Andrew: TON 的多签合约并不是钱包合约， 你可以先看下这个文章。   https://ton-org.notion.site/8-TON-MultiSign-2295274bd2cf808fa878eec6db717160?source=copy_link (reply to 102054)
+
+Andrew: 你不能把多签合约当成钱包合约那样去做钱包连接，然后多签合约默认并不支持很多 DeFi 协议消息。
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

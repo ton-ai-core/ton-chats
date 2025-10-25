@@ -11749,6 +11749,200 @@
       "from_id": "user8349726942",
       "text": "+send 0.005 ton",
       "reply_to_message_id": 1206
+    },
+    {
+      "id": 1303,
+      "type": "message",
+      "date": "2025-10-24T16:56:38.000Z",
+      "date_unixtime": "1761324998",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Удобно)",
+      "reply_to_message_id": 108
+    },
+    {
+      "id": 1305,
+      "type": "message",
+      "date": "2025-10-24T16:57:14.000Z",
+      "date_unixtime": "1761325034",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "благодарю хахахаха",
+      "reply_to_message_id": 1303
+    },
+    {
+      "id": 1307,
+      "type": "message",
+      "date": "2025-10-24T17:00:21.000Z",
+      "date_unixtime": "1761325221",
+      "from": "P Jes",
+      "from_id": "user278277014",
+      "text": "not work 😅",
+      "reply_to_message_id": 1302,
+      "media_type": "photo",
+      "file": "photos/photo_1307.jpg",
+      "width": 716,
+      "height": 1017
+    },
+    {
+      "id": 1308,
+      "type": "message",
+      "date": "2025-10-24T17:00:24.000Z",
+      "date_unixtime": "1761325224",
+      "from": "Vladimir",
+      "from_id": "user100391207",
+      "text": "Как в привычном банкинге.",
+      "reply_to_message_id": 1303
+    },
+    {
+      "id": 1309,
+      "type": "message",
+      "date": "2025-10-24T17:00:52.000Z",
+      "date_unixtime": "1761325252",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "чиним.",
+      "reply_to_message_id": 1307
+    },
+    {
+      "id": 1310,
+      "type": "message",
+      "date": "2025-10-24T17:01:14.000Z",
+      "date_unixtime": "1761325274",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "не свапается",
+      "reply_to_message_id": 1302,
+      "media_type": "photo",
+      "file": "photos/photo_1310.jpg",
+      "width": 1506,
+      "height": 970
+    },
+    {
+      "id": 1311,
+      "type": "message",
+      "date": "2025-10-24T17:01:27.000Z",
+      "date_unixtime": "1761325287",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "чиним",
+      "reply_to_message_id": 1310
+    },
+    {
+      "id": 1312,
+      "type": "message",
+      "date": "2025-10-24T17:13:13.000Z",
+      "date_unixtime": "1761325993",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "заработало вроде",
+      "reply_to_message_id": 1302
+    },
+    {
+      "id": 1313,
+      "type": "message",
+      "date": "2025-10-24T17:26:42.000Z",
+      "date_unixtime": "1761326802",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "вы тонапи что ли уронили) или как всегда мне повезло с интернетом)) именно сейчас не приходят транзы на своп",
+      "reply_to_message_id": 1302
+    },
+    {
+      "id": 1314,
+      "type": "message",
+      "date": "2025-10-24T17:28:23.000Z",
+      "date_unixtime": "1761326903",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "тонконнект хотел написать",
+      "reply_to_message_id": 1302
+    },
+    {
+      "id": 1315,
+      "type": "message",
+      "date": "2025-10-24T17:28:38.000Z",
+      "date_unixtime": "1761326918",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "ВАЖНО: DAMM пулы не залисчены никуда, всё впереди. Если покупать, то только на @bidask, все остальные пулы — вероятный скам. Будьте осторожны, не ведитесь.",
+      "forwarded_from": "The Open Dev Blog",
+      "forwarded_from_id": "channel2154553559",
+      "forwarded_date": "2025-10-24T17:28:35.000Z"
+    },
+    {
+      "id": 1316,
+      "type": "message",
+      "date": "2025-10-24T17:56:53.000Z",
+      "date_unixtime": "1761328613",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "а можете объяснить что за контракт - жетон мастер \nhttps://tonviewer.com/EQA8u9g9plH_jGlF0c4QImsn5Zk219xohJZ-SfunKTdUHCFJ?section=tokens\nа судя по истории транзакций выглядит как пул, чет я не догоняю",
+      "reply_to_message_id": 1315
+    },
+    {
+      "id": 1317,
+      "type": "message",
+      "date": "2025-10-24T17:57:08.000Z",
+      "date_unixtime": "1761328628",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Это DAMM pool, отображение в будущем пофиксим",
+      "reply_to_message_id": 1316
+    },
+    {
+      "id": 1318,
+      "type": "message",
+      "date": "2025-10-24T17:57:29.000Z",
+      "date_unixtime": "1761328649",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "а есть посты как они работают? или может планируется рассказать?",
+      "reply_to_message_id": 1317
+    },
+    {
+      "id": 1319,
+      "type": "message",
+      "date": "2025-10-24T17:59:04.000Z",
+      "date_unixtime": "1761328744",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "расскажем в будущем",
+      "reply_to_message_id": 1318
+    },
+    {
+      "id": 1320,
+      "type": "message",
+      "date": "2025-10-24T17:59:59.000Z",
+      "date_unixtime": "1761328799",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "крутяк, зарекался больше мемы не покупать, но как будто bidask === иксы полюбому)",
+      "reply_to_message_id": 1319
+    },
+    {
+      "id": 1321,
+      "type": "message",
+      "date": "2025-10-24T18:16:48.000Z",
+      "date_unixtime": "1761329808",
+      "from": "🐈‍⬛",
+      "from_id": "user1120774342",
+      "text": "Вылезает ошибка вот такая",
+      "reply_to_message_id": 1315,
+      "media_type": "photo",
+      "file": "photos/photo_1321.jpg",
+      "width": 576,
+      "height": 1280
+    },
+    {
+      "id": 1322,
+      "type": "message",
+      "date": "2025-10-24T18:17:01.000Z",
+      "date_unixtime": "1761329821",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "обнови) такое случается",
+      "reply_to_message_id": 1321
     }
   ]
 }
