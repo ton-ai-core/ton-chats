@@ -12926,6 +12926,16 @@
       "from": "Big Bang",
       "from_id": "user8319003446",
       "text": "Могём, лс"
+    },
+    {
+      "id": 3246,
+      "type": "message",
+      "date": "2025-10-25T09:11:24.000Z",
+      "date_unixtime": "1761383484",
+      "from": "Skuli",
+      "from_id": "user5499168023",
+      "text": "Что за реклама ?",
+      "reply_to_message_id": 3245
     }
   ]
 }

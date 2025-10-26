@@ -11377,3 +11377,23 @@ Andrew: TON 的多签合约并不是钱包合约， 你可以先看下这个文�
 Andrew: 你不能把多签合约当成钱包合约那样去做钱包连接，然后多签合约默认并不支持很多 DeFi 协议消息。
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: Cobb, Dilafroz Manse, Smith Isabella, Ignacio Flores have been banned! Reason: CAS ban.
+
+hans: 但是evaa有连接多签钱包的选项 (reply to 102083)
+
+hans: 如果 他不能连接多签钱包，保留这个选项的意义是什么呢
+
+hans: 误导用户？？
+
+lllline: 用着还行 (reply to 102040)
+
+Combot: Anderson Muammar has been banned! Reason: CAS ban.
+
+Combot: Ganidu Theekshana has been banned! Reason: CAS ban.
+
+Combot: Belle Osvaldo has been banned! Reason: CAS ban.
+
+— 2025-10-26 —
+
+Combot: Zen, Ibyy have been banned! Reason: CAS ban.

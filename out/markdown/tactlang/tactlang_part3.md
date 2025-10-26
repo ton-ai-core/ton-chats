@@ -9677,3 +9677,23 @@ maksim: Open code no, but here is Jetton Master for tax jetton, you can research
 szansky: wow thank you bro (reply to 73195)
 
 L30n1d: Here   https://tonviewer.com/EQBxXPpF-vjwcOGELzKaBbG5UjyCy9YDIeL-qNynvBxA_ATL?section=code (reply to 73192)
+
+— 2025-10-25 —
+
+Игорь: Is it true that a smart contract has a storage limit of 65,000 cells (from tact docs about maps)?  For example, Grok says that storing this amount of information is no problem at all...even more is possible. Specifically, I need to store information on approximately 90,000 elements (1 element has {ID, owner, price} data ). Perhaps with such a volume of data there could be problems with storage costs or transaction costs? It's not entirely clear.
+
+&rey: That storage limit exists indeed. (reply to 73246)
+
+&rey: If an LLM answer disagrees with the docs on any technical matters, disregard the LLM. They know almost nothing about TON.
+
+&rey: Depending on access pattern, you might shard that to 3/8/256/90000 contracts. (reply to 73246)
+
+Игорь: I didn't find any documentation on data storage limits in contracts. (reply to 73248)
+
+Игорь: This will certainly be difficult) (reply to 73249)
+
+Игорь: Thanks for answer! (reply to 73249)
+
+— 2025-10-26 —
+
+Unknown_21: Good morning all friends

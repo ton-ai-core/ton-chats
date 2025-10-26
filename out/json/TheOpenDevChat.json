@@ -11943,6 +11943,26 @@
       "from_id": "channel2154553559",
       "text": "обнови) такое случается",
       "reply_to_message_id": 1321
+    },
+    {
+      "id": 1324,
+      "type": "message",
+      "date": "2025-10-25T15:03:00.000Z",
+      "date_unixtime": "1761404580",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "у автора, и тех кто в него поверил)",
+      "reply_to_message_id": 1323
+    },
+    {
+      "id": 1325,
+      "type": "message",
+      "date": "2025-10-25T15:05:23.000Z",
+      "date_unixtime": "1761404723",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Я ничего не заработал, только вложил)",
+      "reply_to_message_id": 1324
     }
   ]
 }

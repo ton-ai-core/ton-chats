@@ -6551,3 +6551,41 @@ BkingTechPrince: I already have built many dapps
 Tharun Tej: What is a minimum withdrawal of ton in telegram.
 
 A: t.me/Meathdev
+
+final: like which ones? (reply to 163271)
+
+Megavrse: where do i get resolve-contract.ton?
+
+&rey: This is a contract I hold, with a special subresolver to point at TON DNS (.t.me and .ton domains, that is).  If you want to see the domain NFT itself, you can go to resolve-contract.ton.resolve-contract.ton. (reply to 163321)
+
+&rey: Like this. https://t.me/tondev_eng/163076 (reply to 163324)
+
+Megavrse: If I want to make it like this, how do I do it? (reply to 64540)
+
+Megavrse: where do i get the bin? (reply to 64540)
+
+Combot: Combot has warned GYAN GAMING (1/3) Reason: Word **** is not allowed
+
+🇵🇸: beginCell().storeUint(0x4ed14b65,32).storeUint(0,64).endCell().toBoc().toString('base64')  this is constant for all expired domains.  just pay attention to the amount of ton being sent as it varies to length of domain. (reply to 163334)
+
+1shot: Is this where I can raise my issue with Ton's transaction?
+
+1shot: Sorry, i'm newbie on Ton blockchain
+
+&rey: Well you can ask here why a given transaction chain unrolled the way it did. (reply to 163357)
+
+1shot: Sorry, i'm talking with moderator on Community chat already!
+
+Tharun Tej: What is the minimum withdrawal of the TON in telegram?
+
+Megavrse: ton://transfer/EQDyMSIU8_uPFhiRAIlPTNkLzOm-lwNBPtkGtJ-P1hLrRQIV?bin=te6ccsEBAQEADgAAABhO0UtlAAAAAAAAAACvkFQ4&amount=40000000000  is this correct? (reply to 71518)
+
+Megavrse: is this what it looks like?
+
+&rey: Yes. That sum is your first bid in the newly started auction. (reply to 163372)
+
+Megavrse: is it safe? because the price there is like spam (reply to 163374)
+
+Игорь: Is it true that a smart contract has a storage limit of 65,000 cells (from tact docs about maps)?  For example, Grok says that storing this amount of information is no problem at all...even more is possible. Specifically, I need to store information on approximately 90,000 elements (1 element has {ID, owner, price} data ). Perhaps with such a volume of data there could be problems with storage costs or transaction costs? It's not entirely clear.
+
+&rey: It does not matter what Grok, Deepseek, etc say about technical TON matters, since they do not remember it precisely.  The limit of 65535 cells is indeed there. (reply to 163420)
