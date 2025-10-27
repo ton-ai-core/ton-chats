@@ -11397,3 +11397,13 @@ Combot: Belle Osvaldo has been banned! Reason: CAS ban.
 — 2025-10-26 —
 
 Combot: Zen, Ibyy have been banned! Reason: CAS ban.
+
+Combot: Tristan akashi has been banned! Reason: CAS ban.
+
+Combot: Os has been banned! Reason: CAS ban.
+
+— 2025-10-27 —
+
+Combot: Khadar cabdi has been banned! Reason: CAS ban.
+
+Combot: B B has been banned! Reason: CAS ban.
