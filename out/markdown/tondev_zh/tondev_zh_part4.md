@@ -11407,3 +11407,17 @@ Combot: Os has been banned! Reason: CAS ban.
 Combot: Khadar cabdi has been banned! Reason: CAS ban.
 
 Combot: B B has been banned! Reason: CAS ban.
+
+Combot: Ninaandreeva Dez has been banned! Reason: CAS ban.
+
+Combot: Rylan Jimmie has been banned! Reason: CAS ban.
+
+Combot: .. Nn has been banned! Reason: CAS ban.
+
+Combot: . has been banned! Reason: CAS ban.
+
+Combot: Quyên Trần has been banned! Reason: CAS ban.
+
+— 2025-10-28 —
+
+Combot: Noreen Adan has been banned! Reason: CAS ban.

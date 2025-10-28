@@ -2166,6 +2166,15 @@
       "file": "photos/photo_245.jpg",
       "width": 1280,
       "height": 645
+    },
+    {
+      "id": 247,
+      "type": "message",
+      "date": "2025-10-27T11:28:30.000Z",
+      "date_unixtime": "1761564510",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🦀 ton-rs — Idiomatic Rust toolkit for TON builders\n\nWrite TON dApps the Rust way with a modern crate family: ton_core, ton, and ton_macros.\n\n✨ Why devs will love it\n• Type-safe TON primitives: Cells/BOCs, addresses, TL-B parsing/serialization  \n• Zero-boilerplate TL-B: derive layouts with #[derive(TLB)] from ton_macros  \n• Two network clients:\n  – TLClient (behind the tonlibjson feature) using TON’s TonLib API  \n  – Built-in lite client (always available) using ADNL + Lite API  \n• Block.TLB coverage: a large set of predefined block.tlb types in ton/src/block_tlb/  \n  – tx.rs (transactions), msg.rs (messages), tvm_stack.rs (TVM stack) — parse raw chain data & traces out of the box  \n• Practical examples to get you shipping fast\n\nRepo:\nhttps://github.com/ston-fi/ton-rs\n\n#TON #Rust #TONBlockchain #OpenSource"
     }
   ]
 }

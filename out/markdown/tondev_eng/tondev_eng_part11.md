@@ -6589,3 +6589,55 @@ Megavrse: is it safe? because the price there is like spam (reply to 163374)
 Игорь: Is it true that a smart contract has a storage limit of 65,000 cells (from tact docs about maps)?  For example, Grok says that storing this amount of information is no problem at all...even more is possible. Specifically, I need to store information on approximately 90,000 elements (1 element has {ID, owner, price} data ). Perhaps with such a volume of data there could be problems with storage costs or transaction costs? It's not entirely clear.
 
 &rey: It does not matter what Grok, Deepseek, etc say about technical TON matters, since they do not remember it precisely.  The limit of 65535 cells is indeed there. (reply to 163420)
+
+— 2025-10-27 —
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 5  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Kenady: How to bid name in ton domain web site If it already expired  There no button to place a bid or smth like that
+
+Galiks: Same question, guys. Is there a way to take over an expired domain? (reply to 163588)
+
+Виконт vangaard: @ tondns  Expired domains are sent here and you can claim them as you normally would mint a new domain (reply to 163588)
+
+Galiks: What is @ tondns? If its the official ton dns website, then there is no UI on bidding expired domains (reply to 163596)
+
+Виконт vangaard: It is a Telegram channel. It has a bot that automatically compiles expired domains and displays them there and you can then claim them (reply to 163597)
+
+Galiks: Thanks a lot! It seems that the starting price for the auction is higher than on the official dns ton website, is that right? (reply to 163599)
+
+🇵🇸: It varies according to length of the domain. (reply to 163601)
+
+Galiks: Yeah I get that. But 8 char domain is starting with 20ton on dns ton website. In the group it starts at 40ton (reply to 163602)
+
+Виконт vangaard: I just checked and it costs 20 TON. 6 characters cost 40 (reply to 163603)
+
+Виконт vangaard: It is actually the same price as it interacts with the TON domain smart contract same as on the site (reply to 163604)
+
+&rey: Please do your own research that calls are actually done to restart bids on domains and, more importantly, that they are done in your name.  I prefer https://t.me/tondev_eng/152421.
+
+Galiks: Oh I see on the recently expired ones its indeed 20ton. But older ones that expired like in 2023 are 40ton i think.. (reply to 163604)
+
+Galiks: On ton dns 8 char should start with 20ton (reply to 163604)
+
+Kenady: Пасиба (reply to 163596)
+
+Galiks: I just checked. All domains that expired before approximately april 2024 where priced higher on the auction.  Maybe because of the lower price of ton.   Is there any way to fix this? Because smart contract still stores those old prices (reply to 163604)
+
+Galiks: If you look around early 2023 its 2x higher and more..
+
+Виконт vangaard: . (reply to 152421)
+
+Виконт vangaard: You can try doing it manually then (reply to 163616)
+
+Galiks: Im not so handy with code :(
+
+&rey: This happens to be the English-speaking chat of TON Dev Chats family. Russian is in https://t.me/tondev. (reply to 163613)
+
+&rey: But it has zero code? Probably could be done from phone even. (reply to 163618)
+
+&rey: For reference: nope, outer price has nothing to do with it; the initial bid requirements progressively decayed down until April 2024.  For reference: smart contract? No, it's just that payment link was generated in channel so long ago that it reflects old prices. (reply to 163614)
+
+Kenady: Its not russian (reply to 163620)
+
+Andrey: Its russian (reply to 163623)
