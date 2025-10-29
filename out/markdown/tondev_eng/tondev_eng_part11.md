@@ -6641,3 +6641,25 @@ Galiks: Im not so handy with code :(
 Kenady: Its not russian (reply to 163620)
 
 Andrey: Its russian (reply to 163623)
+
+— 2025-10-28 —
+
+Willy: Maybe you can contact someone there and they will unban me?👀  I got banned almost immediately after joining:( (Did nothing wrong, only dev questions, I think it's because of premium emoji)  If you could help me, it would be great! I tried contacting the admins, but no feedback:( (reply to 163620)
+
+George: How can I get in touch with Blum team?
+
+&rey: It doesn't relate to development on TON at all. (reply to 163737)
+
+&rey: The purpose of this chat is to advance understanding how to develop in The Open Network.  Vacancy post rules are in working, but they never allow for non-TON-related job suggestions. (reply to 163740)
+
+Игорь: Hello! Are there examples of NFT implementations with next_item_index = -1? Or real existing collections, for example on GetGems? I need the ability to create NFTs by their ID, for example, first create with ID=0, then with ID=30, then ID=10, etc. I haven't found such examples. Maybe there are some pitfalls? My collection has ids from 0 to 90000
+
+&rey: See TON DNS collection, as the first example that comes to mind. (reply to 163753)
+
+Игорь: In the documentation, it says that I have to come up with enumeration.... I don't understand what that means in the context of NFT... PS: when all elements are created, I  can replace -1 with 90000 (reply to 163753)
+
+Игорь: tthanks!🙏 (reply to 163754)
+
+X100: Can TMA check if a user has passed KYC in their wallet? I don't need any data, just a "yes" or "no" response from the wallet.
+
+X100: for example, to avoid storing user data while maintaining a certain level of security

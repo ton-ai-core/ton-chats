@@ -11421,3 +11421,19 @@ Combot: Quyên Trần has been banned! Reason: CAS ban.
 — 2025-10-28 —
 
 Combot: Noreen Adan has been banned! Reason: CAS ban.
+
+Combot: Aa has been banned! Reason: CAS ban.
+
+Combot: Lanellhansenqr Hey has been banned! Reason: CAS ban.
+
+Combot: CoinRush CASINO has been banned! Reason: CAS ban.
+
+Combot: Baumanpulq Froy has been banned! Reason: CAS ban.
+
+Combot: Ek Ran has been banned! Reason: CAS ban.
+
+Combot: Cassandra Cabrera has been banned! Reason: CAS ban.
+
+— 2025-10-29 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
