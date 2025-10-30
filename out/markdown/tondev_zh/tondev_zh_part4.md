@@ -11437,3 +11437,17 @@ Combot: Cassandra Cabrera has been banned! Reason: CAS ban.
 — 2025-10-29 —
 
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
+
+Combot: 梦玲珑` Sykes has been banned! Reason: CAS ban.
+
+Combot: Jampi Ramos has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #15 — Telegram Userbot实战  📅 10月30日 周四 19:00 (UTC+8) 🔗 注册获得提醒： https://luma.com/3mdzo773 📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=Na7PNE1o0Q8 👨‍💻 主讲：Andrew· TON 东亚区 Dev Rel  ✨ 课程亮点：Telegram Userbot 实战 Telegram Stars作为通过 Apple/Google Pay 购买的虚拟商品，用户在一定周期内可以进行退款，为了进一步降低退款风险，项目方可以通过 Userbot 分析用户 Profile 的 Stars Rating，做 Stars 退款预警。 (forwarded from TON East Asia Hub)
+
+Combot: Coy Raymond has been banned! Reason: CAS ban.
+
+Combot: Valentin has been banned! Reason: CAS ban.
+
+Combot: May Myat Kyal has been banned! Reason: CAS ban.
+
+Combot: Charles Nolan has been banned! Reason: CAS ban.

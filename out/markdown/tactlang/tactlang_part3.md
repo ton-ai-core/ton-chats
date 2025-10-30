@@ -9699,3 +9699,7 @@ L30n1d: Here   https://tonviewer.com/EQBxXPpF-vjwcOGELzKaBbG5UjyCy9YDIeL-qNynvBx
 Unknown_21: Good morning all friends
 
 Andrey: Storing a lot of information is bad anti-pattern. You should shard information in separate contracts. 1 Entity = 1 contract (reply to 73246)
+
+— 2025-10-29 —
+
+Gsaomfets: Nop (reply to 17884)

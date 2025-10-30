@@ -6663,3 +6663,43 @@ George: How can I get in touch with Blum team?
 X100: Can TMA check if a user has passed KYC in their wallet? I don't need any data, just a "yes" or "no" response from the wallet.
 
 X100: for example, to avoid storing user data while maintaining a certain level of security
+
+— 2025-10-29 —
+
+Alex: 💬 We’d love your feedback!  Help us improve support in the @tondev_eng chat. Please share your experience and suggestions in the form below: 👉 Feedback form
+
+Mojisola🍅 🍅: you can make nft with custom features with the code in Tact or FunC or others. (reply to 163753)
+
+Mojisola🍅 🍅: kyc from which platform? you have to clarify (reply to 163769)
+
+Игорь: Yes, I code in tact (reply to 163784)
+
+Mojisola🍅 🍅: then make the feature you want with your Tact code/program
+
+Игорь: I decided to make next_item_index=90000 as a constant, because when all the nft items are created, everything will be ok... But I don’t know what problems there will be with this solution)) (reply to 163787)
+
+Mojisola🍅 🍅: can you explain what you want again, I don't seem to understand it yet.  will be able to advise how the code should look like (reply to 163788)
+
+Code: Ton DNS is indeed a good example for this, I also have an unordered collection contract, but i did mine in Tolk so I had to change some stuff, but the TON DNS example is good if you can find that code (reply to 163788)
+
+Игорь: I need the ability to create NFT items by ID and not by index. By index, in my case, it's impossible to do. That is, in the collection it will be like this.  message Mint{ id:Int as uint uint20; } receive(msg:Mint) { //maxIndex = 90000 require(msg.id >= 0 && msg.id <= self.maxIndex, "wrong id"); let nft_init: StateInit = self.getNftItemInit(msg.id);  ... //send for create nft }  get fun get_collection_data(): CollectionData {         let b: StringBuilder = beginString();         b.append(self.uri);         return CollectionData {             next_item_index: self.maxIndex,             collection_content: b.toCell(),             owner_address: self.owner,         };     } (reply to 163793)
+
+Игорь: I found it, but it's hard to understand the low-level language FunC. I'm a beginner and I'm writing code on Tact. and I dont understand how to implement enumeration logic (reply to 163795)
+
+Code: I actually found an example in Tact or Tolk I think, give me a second*
+
+Code: sorry I think I was hallucinating, I think I did use the funC example for how to handle unordered, just gonna have to take extra time reading it (reply to 163798)
+
+Mojisola🍅 🍅: this looks simple thing to do.  where exactly is hard in this project (reply to 163796)
+
+Игорь: 1. In the NFT standard, it's written about enumeration. Probably so that other platforms (GetGems) can find all items? I decided to simply return maxIndex = 90000 in get_collection_data (next_item_index: self.maxIndex) in the hope that someday all items will be created and the collection will become valid. I'm not sure about this solution.  Also, it's not very clear to me how the collection itself can determine if an NFT item has been created or not? I solved the problem like this:   send(SendParameters {       to: contractAddress(nft_init),       value: cleanValue,       bounce: false,       mode: SendIgnoreErrors,       body: transferData,       code: nft_item_code,       data: nft_init.data,   });   That is, it is assumed that if the NFT item already exists, the initialization of nft item will be skipped and in the NFT item only receive(msg:Transfer) will occur. But I'm not sure about this either. (reply to 163814)
+
+&rey: You are exactly right; kinda no need to do anything special. (reply to 163816)
+
+&rey: it isn't its job, it is job of the item itself (reply to 163816)
+
+Bosco: Announcement meant Wednesday the 5th of November right?
+
+GORO: Hi!  Anyone have any ideas on how AI can help blockchains?
+
+X100: @ wallet (reply to 163785)
