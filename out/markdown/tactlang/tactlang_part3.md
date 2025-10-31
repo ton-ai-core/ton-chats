@@ -9703,3 +9703,19 @@ Andrey: Storing a lot of information is bad anti-pattern. You should shard infor
 — 2025-10-29 —
 
 Gsaomfets: Nop (reply to 17884)
+
+— 2025-10-30 —
+
+chuhan: hello to everyone who can suggest an API or where to parse the history of the owners of an NFT gift in tg
+
+Александр: hello i think maybe @kingportals he can help you (reply to 73378)
+
+chuhan: thank you and really help (reply to 73386)
+
+Fadi: Hello there Can I mine using this bot? Is it real? Please answer.
+
+Fadi: And how can I transfer money from it to my wallet? It tells me there needs to be an active transfer or something like that. Can anyone please guide me?
+
+— 2025-10-31 —
+
+&rey: Looks like scam really. If you don't have instructions how to use it, you should not touch it at all. (reply to 73421)

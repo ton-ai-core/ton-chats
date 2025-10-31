@@ -11451,3 +11451,29 @@ Combot: Valentin has been banned! Reason: CAS ban.
 Combot: May Myat Kyal has been banned! Reason: CAS ban.
 
 Combot: Charles Nolan has been banned! Reason: CAS ban.
+
+— 2025-10-30 —
+
+Combot: 长不过执念` has been banned! Reason: CAS ban.
+
+Anthony: Welcome to Cocoon — the Confidential Compute Open Network  Cocoon is a decentralized network for executing AI inference securely and privately.  In this network, app developers reward GPU owners with TON for processing inference requests.  Telegram will be the first major customer to use Cocoon for confidential AI queries — and will invest heavily in promoting the network across its global ecosystem.  🔨 App developers who want to run inference through Cocoon are invited to contact us via DMs to this channel.  Please specify which model architecture you plan to use (e.g., DeepSeek, Qwen), along with your expected daily query volume and average input/output token size.  💡 GPU owners who want to earn TON by contributing compute power can also message this channel using the 💬 button below.  Please indicate how many GPUs you can provide and include details such as type (e.g., H200), VRAM, and expected uptime.  Cocoon is ready — launching in November, once we’ve gathered your applications. (forwarded from Cocoon)
+
+Combot: Mercado_01 has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #15 — Telegram Userbot实战  👨‍💻 主讲：Andrew· TON 东亚区 Dev Rel  ✨ 课程亮点：Telegram Userbot 实战 Telegram Stars作为通过 Apple/Google Pay 购买的虚拟商品，用户在一定周期内可以进行退款，为了进一步降低退款风险，项目方可以通过 Userbot 分析用户 Profile 的 Stars Rating，做 Stars 退款预警。  🔗直播开始啦： https://x.com/i/broadcasts/1mrxmBAgepQKy (forwarded from TON East Asia Hub)
+
+Combot: Joseph Suki has been banned! Reason: CAS ban.
+
+Combot: Elver M.Q has been banned! Reason: CAS ban.
+
+Combot: Cesar Zapata has been banned! Reason: CAS ban.
+
+Combot: Orion Pax, M R have been banned! Reason: CAS ban.
+
+Combot: Elijah Van has been banned! Reason: CAS ban.
+
+— 2025-10-31 —
+
+Combot: Rania Rania has been banned! Reason: CAS ban.
+
+Combot: Vivian Amy has been banned! Reason: CAS ban.

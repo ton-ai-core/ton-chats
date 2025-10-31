@@ -6703,3 +6703,49 @@ Bosco: Announcement meant Wednesday the 5th of November right?
 GORO: Hi!  Anyone have any ideas on how AI can help blockchains?
 
 X100: @ wallet (reply to 163785)
+
+— 2025-10-30 —
+
+Jason 🆙 UXUY $ETN: Just a quick question does anyone in here happen to know when and if the ton storage  bag ID resolution to turn DNS will be resolved ?
+
+Combot: Combot has warned Jason 🆙 UXUY $ETN (1/3) Reason: Word ******** is not allowed
+
+Андрей: You can already make a resolution in the TON DNS for the BAG ID (reply to 163919)
+
+Jason 🆙 UXUY $ETN: Yes I did
+
+Jason 🆙 UXUY $ETN: Bag resolutions of not worked on the turn blockchain for more than 6 months (reply to 163929)
+
+&rey: Hope you are talking of TON ecosystem and not some "turn blockchain"?  That might be on the entry point though. Have you tried another, like MyTonWallet's builtin proxy or tonp.io? (reply to 163932)
+
+Anthony: Welcome to Cocoon — the Confidential Compute Open Network  Cocoon is a decentralized network for executing AI inference securely and privately.  In this network, app developers reward GPU owners with TON for processing inference requests.  Telegram will be the first major customer to use Cocoon for confidential AI queries — and will invest heavily in promoting the network across its global ecosystem.  🔨 App developers who want to run inference through Cocoon are invited to contact us via DMs to this channel.  Please specify which model architecture you plan to use (e.g., DeepSeek, Qwen), along with your expected daily query volume and average input/output token size.  💡 GPU owners who want to earn TON by contributing compute power can also message this channel using the 💬 button below.  Please indicate how many GPUs you can provide and include details such as type (e.g., H200), VRAM, and expected uptime.  Cocoon is ready — launching in November, once we’ve gathered your applications. (forwarded from Cocoon)
+
+chuhan: hello to everyone who can tell me the API or where to parse the history of the owners of an NFT gift in tg
+
+murder @ruchenick: How do I host a website on the ton domain? I have a file and a domain, but I don't know what to do.
+
+Виконт vangaard: Would technical details be made public? (reply to 163938)
+
+Hashirama: hello could anyone tell me the structure of webdev, how can we link front to back to database
+
+Code: No sorry, you can google this, this chat is for TON-specific development only (reply to 164002)
+
+Hashirama: TON???
+
+Hashirama: what is it (reply to 164003)
+
+Виконт vangaard: TON Blockchain (reply to 164005)
+
+Hashirama: related to crypto?
+
+Виконт vangaard: Yes, The Open Network supported by Telegram. (reply to 164009)
+
+Hashirama: i need to learn about this
+
+&rey: Have you seen https://ton.org already? (I assume you have because otherwise what would lead you here?) (reply to 164011)
+
+TON Bounty Bridge: ​Visual Guide: Understanding TON ID for Creators  🏷 Education  Summary:A short, visual learning resource explaining how creators and non-technical users can set up and use...  Created by spacejulesofficial-max
+
+— 2025-10-31 —
+
+Frank: Looking for python developers, willing to pay $10k for a project, DM me
