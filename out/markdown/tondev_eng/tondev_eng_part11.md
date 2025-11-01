@@ -6749,3 +6749,81 @@ TON Bounty Bridge: ​Visual Guide: Understanding TON ID for Creators  🏷 Educ
 — 2025-10-31 —
 
 Frank: Looking for python developers, willing to pay $10k for a project, DM me
+
+cr4all: Please dm me (reply to 164085)
+
+Mr M.G animation: hlo
+
+Combot: Combot has warned Mr M.G animation (1/3) Reason: Word **** is not allowed
+
+Mr M.G animation: looking for TON dm me I will give
+
+Samyar: has anybody experienced this with tonconnect button on desktop that the model wont open when clicking on the connect wallet button ?
+
+Samyar: this only happens in telegram mini apps (reply to 164116)
+
+Code: I did before but I had a console error that helped me fix - is there nothing in your console? (reply to 164116)
+
+Samyar: no nothing at all even when i click it (reply to 164119)
+
+Samyar: how did you fix it?
+
+Janessa: Good morning guys
+
+Samyar: i found out that when i use the react sdk button this issue occurs this works: new TonConnectUI({       manifestUrl: "someurl",       buttonRootId: "connect_button_id }); (reply to 164116)
+
+Samyar: I posted the solution here https://github.com/ton-connect/sdk/issues/230 (reply to 164116)
+
+Samyar: can't believe i spend 3 hours to fix this small issue 😕😕
+
+Code: Sorry to hear that brother but glad you fixed it (reply to 164131)
+
+Samyar: by extraCurrrency it means jetons?
+
+Code: no (reply to 164133)
+
+Code: its potentially upcoming feature, doesnt exist yet
+
+Samyar: I see thanks (reply to 164136)
+
+Abdulrahim: Hello Everyone 👋  I am Abdul, the founder of Bloctopia, a telegram strategy game. I look forward to learning from everyone here as well as making amazing collaborations.  I'm currently seeking collaborations for Bloctopia, Dm me if you're interested. Thank you.
+
+&rey: Please amend your message to include compensation composition (presence of assets of your project, and presence of other valuables). (reply to 164141)
+
+Abdulrahim: Sorry, I don't understand what you mean by "compensation composition'. (reply to 164143)
+
+&rey: Whether your pay includes the one and the other components, or is entirely zero (seeking voluntary contributions). (reply to 164144)
+
+Abdulrahim: Oh, the collaborations I'm seeking are of a mutual benefit. For example if you currently have a TMA or any other project here on TG, we'll figure out how to form a partnership that benefits is both. (reply to 164145)
+
+Jithin: Can bounced messages be created by malicious actors? Should I add validation in the bounced() function to check if bounced message is actually from the intended message recipient?
+
+&rey: No, validators guarantee that any bounced message is from message sent by your contract. (reply to 164148)
+
+&rey: Moreover, if you got a bounce, then the destination contract performed no changes and actions. (Except that it was charged the storage fee.)
+
+Jithin: Ok thankyou
+
+Jason 🆙 UXUY $ETN: Yeah sorry that was a typo I was talking about the ton blockchain there are people that are in the ton foundations team who's ton domains also don't even resolve this is not something specific that I'm having a problem with this has been happening since August (reply to 163934)
+
+Jason 🆙 UXUY $ETN: As for tonp.io that also has not worked in some time (reply to 163934)
+
+Jason 🆙 UXUY $ETN: And the same goes for ton run as well as tonski (reply to 163934)
+
+Андрей: try foundation.ton.sc (reply to 164167)
+
+Jason 🆙 UXUY $ETN: The index is always sha256 (reply to 163797)
+
+Jason 🆙 UXUY $ETN: That one works (reply to 164171)
+
+Jason 🆙 UXUY $ETN: But it's working for only the foundations on site and that which is a site that I'm assuming is reverse proxy not a ton torrent
+
+Jason 🆙 UXUY $ETN: Anything that's hosted on ton storage which is not reverse proxied does not resolve
+
+Jason 🆙 UXUY $ETN: Including through web 2 entry proxies
+
+Игорь: Dont understand again😔 (reply to 164172)
+
+— 2025-11-01 —
+
+Yumn: Hello

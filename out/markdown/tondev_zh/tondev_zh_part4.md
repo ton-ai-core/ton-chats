@@ -11477,3 +11477,21 @@ Combot: Elijah Van has been banned! Reason: CAS ban.
 Combot: Rania Rania has been banned! Reason: CAS ban.
 
 Combot: Vivian Amy has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎Coding Challenge 15 - Telegram Userbot实战  📅10月31日- 11月9日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/Telegram-Userbot-In-Action-29b5274bd2cf8071964dea517d891cbe - 直播视频： https://x.com/i/broadcasts/1mrxmBAgepQKy  👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-15 (forwarded from TON East Asia Hub)
+
+Combot: Loli has been banned! Reason: CAS ban.
+
+Combot: J has been banned! Reason: CAS ban.
+
+Combot: Alex Fox has been banned! Reason: CAS ban.
+
+Combot: Ayomiposi has been banned! Reason: CAS ban.
+
+Combot: Starrb Mamp has been banned! Reason: CAS ban.
+
+Combot: sara has been banned! Reason: CAS ban.
+
+— 2025-11-01 —
+
+Combot: Đồng Đinh has been banned! Reason: CAS ban.
