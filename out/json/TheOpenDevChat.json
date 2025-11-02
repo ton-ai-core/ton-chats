@@ -12443,6 +12443,180 @@
       "from": "Нподирд",
       "from_id": "user8349726942",
       "text": "Хочешь золота мешок?\nЧитай посты TheOpenDevBlog дружок!"
+    },
+    {
+      "id": 1383,
+      "type": "message",
+      "date": "2025-11-01T08:21:45.000Z",
+      "date_unixtime": "1761985305",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Coinbase",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1384,
+      "type": "message",
+      "date": "2025-11-01T08:21:59.000Z",
+      "date_unixtime": "1761985319",
+      "from": "dk",
+      "from_id": "user272185904",
+      "text": "Pizdec",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1385,
+      "type": "message",
+      "date": "2025-11-01T08:22:01.000Z",
+      "date_unixtime": "1761985321",
+      "from": "Petr",
+      "from_id": "user966423984",
+      "text": "TolkC",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1386,
+      "type": "message",
+      "date": "2025-11-01T08:22:07.000Z",
+      "date_unixtime": "1761985327",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "cbBTC 🙏",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1387,
+      "type": "message",
+      "date": "2025-11-01T08:22:13.000Z",
+      "date_unixtime": "1761985333",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "🤔",
+      "reply_to_message_id": 1383,
+      "media_type": "photo",
+      "file": "photos/photo_1387.jpg",
+      "width": 225,
+      "height": 47
+    },
+    {
+      "id": 1388,
+      "type": "message",
+      "date": "2025-11-01T08:22:26.000Z",
+      "date_unixtime": "1761985346",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Я сначала место занял",
+      "reply_to_message_id": 1387
+    },
+    {
+      "id": 1389,
+      "type": "message",
+      "date": "2025-11-01T08:23:22.000Z",
+      "date_unixtime": "1761985402",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "CBDC :)",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1390,
+      "type": "message",
+      "date": "2025-11-01T08:23:49.000Z",
+      "date_unixtime": "1761985429",
+      "from": "Аль Робин",
+      "from_id": "user6732150362",
+      "text": "funC++ ждем",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1391,
+      "type": "message",
+      "date": "2025-11-01T08:24:03.000Z",
+      "date_unixtime": "1761985443",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Такое нам не нужно, пусть откатывают",
+      "reply_to_message_id": 1389
+    },
+    {
+      "id": 1392,
+      "type": "message",
+      "date": "2025-11-01T08:24:10.000Z",
+      "date_unixtime": "1761985450",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "Так уже. На нем лэерзеро написан",
+      "reply_to_message_id": 1390
+    },
+    {
+      "id": 1393,
+      "type": "message",
+      "date": "2025-11-01T08:24:22.000Z",
+      "date_unixtime": "1761985462",
+      "from": "Аль Робин",
+      "from_id": "user6732150362",
+      "text": "я знаю",
+      "reply_to_message_id": 1392
+    },
+    {
+      "id": 1394,
+      "type": "message",
+      "date": "2025-11-01T08:26:12.000Z",
+      "date_unixtime": "1761985572",
+      "from": "Аль Робин",
+      "from_id": "user6732150362",
+      "text": "обещали же в 2022 году стейбл для Камеруна и Конго на тоне 🤷‍♂️",
+      "reply_to_message_id": 1389
+    },
+    {
+      "id": 1395,
+      "type": "message",
+      "date": "2025-11-01T08:26:42.000Z",
+      "date_unixtime": "1761985602",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "а обещанного как раз 3 года ждут!\n\nвсе сходится",
+      "reply_to_message_id": 1394
+    },
+    {
+      "id": 1396,
+      "type": "message",
+      "date": "2025-11-01T08:27:27.000Z",
+      "date_unixtime": "1761985647",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "Оба кстати тоже на C",
+      "reply_to_message_id": 1395
+    },
+    {
+      "id": 1397,
+      "type": "message",
+      "date": "2025-11-01T08:46:48.000Z",
+      "date_unixtime": "1761986808",
+      "from": "Аль Робин",
+      "from_id": "user6732150362",
+      "text": "Будет 3 С, если добавить демократическую республику Конго к Конго и Камеруну)",
+      "reply_to_message_id": 1396
+    },
+    {
+      "id": 1398,
+      "type": "message",
+      "date": "2025-11-01T08:48:23.000Z",
+      "date_unixtime": "1761986903",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "THC",
+      "reply_to_message_id": 1382
+    },
+    {
+      "id": 1399,
+      "type": "message",
+      "date": "2025-11-01T09:49:42.000Z",
+      "date_unixtime": "1761990582",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "сасун",
+      "reply_to_message_id": 1382
     }
   ]
 }

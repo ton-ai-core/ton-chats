@@ -6827,3 +6827,91 @@ Jason 🆙 UXUY $ETN: Including through web 2 entry proxies
 — 2025-11-01 —
 
 Yumn: Hello
+
+Jason 🆙 UXUY $ETN: Item index is converted to sha256 (reply to 164178)
+
+Jason 🆙 UXUY $ETN: You see the number +88807684929 ? That's human readable (reply to 164178)
+
+&rey: Is not universally true. (reply to 164233)
+
+Jason 🆙 UXUY $ETN: You see the long string of numbers here in the index that is that exact number +888074929 converted to sha256
+
+Jason 🆙 UXUY $ETN: For most non sequential (reply to 164235)
+
+&rey: You are confusing the person who wants just to mint their thousands of NFTs out of order, not to have a procedurally generated list, though. (reply to 164237)
+
+Jason 🆙 UXUY $ETN: There's many different kinds of nfg collections ordered or not ordered meaning if it's a sequential collection then it knows that after 001 then 002 needs to be minted if you go and you see in a collection that the next item count is -1 it means that that collection is a non-sequential or not in chronological order collection this would be true for most ton dns, telegram anonymous numbers, and or usernames (reply to 164178)
+
+Jason 🆙 UXUY $ETN: Oh I'm sorry I didn't know what kind of nft collection he was trying to create (reply to 164238)
+
+Jason 🆙 UXUY $ETN: What is your nft collection bro is it standard or individual content ? (reply to 164178)
+
+Jason 🆙 UXUY $ETN: Now I'm confused I went up and I looked up at his messages he's trying to do exactly that meant out of sequence and IDs instead of index (reply to 164238)
+
+Игорь: I just want to create my own NFT collection (I don't know if it's standard or individual). It will have 90,000 items, and they can be created lazily (not minting all 90,000 at once) in arbitrary order by ID. That is, when minting in the collection, the NFT ID will be passed to create it. (reply to 164241)
+
+Игорь: example (reply to 163796)
+
+Jason 🆙 UXUY $ETN: 1.So user minted not admin minted  2. 90,000 total   3. Unique ID number or something   I get that all right?  Individual or standard means does the image and metadata of the nfts change (reply to 164291)
+
+Jason 🆙 UXUY $ETN: Like this this
+
+Jason 🆙 UXUY $ETN: Meaning each NFT would have an image that somehow reflects it's id # or something or we'll all have the same image
+
+Игорь: 1. Not only the admin can mint, but also ordinary users. 2. yes 3. Unique ID number - yes  It is assumed that the metadata does not change (just JSON URL: https://mydomain.com/meta/nft123.json). However, initially, I might implement an upgradable mechanism in case of bug fixes, as well as editable for changing the URL: https://otherdomain.com/meta/nft123.json. But probably upgradable and editable are not relevant to my question here. (reply to 164332)
+
+Игорь: There will be an image displaying the ID I think (reply to 164339)
+
+Jason 🆙 UXUY $ETN: Ok so you will need a metadata generator API something like this https://cdn-numbers.etnecosystem.org/docs
+
+Jason 🆙 UXUY $ETN: It will generate individual metadata and image on the fly
+
+Jason 🆙 UXUY $ETN: The meta data URLs are encoded into the nft with BOC with the {baseurl} {Itemsuffix} {File extension}  To clearly understand this the closest smart contract which exists to what you're looking for would be the telemint contract you would replace the tokenName field with ID. In order to ensure the same ID is not minted more than once the token name would be encoded into sha256 so every time a new item was going to be minted the premium flight check would be to check if that same index has been minted previously if it has it would not allow minting duplicates
+
+Jason 🆙 UXUY $ETN: Telegram Anonymous Number NFT, serialized as a TON Bag of Cells (BOC).    This is a great example of how off-chain metadata pointers work on-chain.    ### Decoding the Hex String    Here is a breakdown of the data you provided:    b5ee9c720101010100330000620168747470733a2f2f6e66742e667261676d656e742e636f6d2f6e756d6265722f38383830393136323730362e6a736f6e    We can split this into two main parts: the BOC Header and the Data Payload.    1.  BOC Header & Cell Descriptors:      b5ee9c72010101010033000062      This is standard TON serialization boilerplate. It essentially says: "What follows is a Bag of Cells, containing one root cell, which holds 51 bytes of data and has no references to other cells."    2.  Data Payload:      0168747470733a2f2f6e66742e667261676d656e742e636f6d2f6e756d6265722f38383830393136323730362e6a736f6e      This is the important part. According to the TEP-64 token data standard, the first byte tells us how to interpret the rest of the data.        * **Prefix (01):** This byte is a marker that signifOff-Chain Contentnt**. It tells any wallet or explorer that the rest of the data is a URL pointing to the NFT's metadata file.      URL (Hex Encoded):):** The remainder of the string is the UTF-8 URL, encoded in hexadecimal. If we convert it back to ASCII, we get:          * 6874747073... -> https          * 3a -> :          * 2f2f -> //          * 6e66742e667261676d656e742e636f6d -> nft.fragment.com          * 2f6e756d6265722f -> /number/          * 3838383039313632373036 -> 88809162706          * 2e6a736f6e -> .json    ### The Decoded Result    Putting it all together, the on-chain individual_content cell is simply a pointer to the following URL:    **https://nft.fragment.com/number/88809162706.json**    When your wallet or an explorer reads this on-chain data, it knows to fetch this JSON file to get the NFT's name, description, and image URL.
+
+Jason 🆙 UXUY $ETN: if I'm confusing you more or I'm making this more complicated for you just tell me and it's better that I just keep quiet there are people in here that are way more experienced than me and I am a very very poor coder
+
+Jason 🆙 UXUY $ETN: Step 1: Off-Chain Preparation (The Minter Backend's Job) This is the most critical step. Before touching the blockchain, Fragment's server receives the string "badaren" and uses it as the single source of truth to deterministically generate everything it needs:  Calculate the On-Chain Index: The backend immediately runs the exact same function we discovered.  sha256("badaren") -> 0282d338f08f1b1a770c0683e6015582236359f1f0e42d76472d7335e9854  Construct the Metadata URL: The backend uses a simple rule to build the URL.  "https://nft.fragment.com/username/" + "badaren" + ".json" -> https://nft.fragment.com/username/badaren.json  Prepare the On-Chain Content Cell: The backend now builds the individual_content cell. It takes the URL it just constructed and serializes it into a TON Cell according to the TEP-64 standard (the 0x01 prefix followed by the URL).  At this moment, the Minter Backend has all three pieces of information, all derived from your single input, "badaren".  Step 3: The Mint Transaction (Going On-Chain) The Minter Backend now constructs and sends a transaction to the Collection Smart Contract on the TON blockchain. This transaction contains a message with the data it just prepared:  Target Function: mint (or a similar internal function)  Parameter 1 (index): The calculated hash: 0282d338f08f1b1a770c0683e6015582236359f1f0e42d76472d7335e9854 Parameter 2 (owner_address): Your wallet address, JP.  Parameter 3 (individual_content): The serialized cell containing the metadata URL.  Step 4: On-Chain Execution (The Link is Finalized) The Collection Contract receives this transaction and executes its logic:  Check for Duplicates: It looks up the index hash in its internal dictionary. If it already exists, the transaction fails.  Deploy New Contract: If the index is unique, it deploys a brand new NFT Item Smart Contract.  Populate the NFT: It sets the data for this new contract: It sets the owner_address to your wallet.  It stores the individual_content (the cell with the URL) inside the new contract.  Crucially, it records the index hash (0282...) inside the new contract as well, so the item knows its own ID.  Update Registry: The Collection Contract updates its own internal dictionary, creating the final, permanent link: dictionary["0282...9854"] = <address_of_new_nft_item_contract>.  The Link in Summary The link is established because the same raw input string ("badaren") is used by the Minter Backend to create both the on-chain index and the off-chain metadata URL.
+
+Jason 🆙 UXUY $ETN: Again please take this all with a pinch of salt I'm pretty dumb
+
+Игорь: All of the above is quite interesting. I'll read it more carefully later. Thank you! However, I didn't understand about SHA256 — how does it work? How does SHA256 protect against duplicate NFT items?Here's my code... and I assume it's protected against duplicates. I couldn't think of ways to duplicate an NFT item. //nft-collection.tact send(SendParameters {             to: contractAddress(nft_init),             value: cleanValue,             mode: SendIgnoreErrors,             body: Transfer { query_id: 0, new_owner: sender(), response_destination: self.owner, forward_amount: 0, forward_payload: emptySlice() }.toCell(),             code: nft_init.code,             data: nft_init.data,         });  // nft-item.tact - only one time init is called in nft item instance init(data: InitData) {         require(sender() == data.collection_address, "Sender must be a collection");         self.owner = data.owner;         self.collection_address = data.collection_address;         self.item_index = data.item_index; // item id     } receive(msg: Transfer) {         require(sender() == self.owner, "Not owner");        // change owner here } (reply to 164358)
+
+Jason 🆙 UXUY $ETN: If you ever seen when you download files they're usually a sha256 which basically uses an input to create a cryptographic checkpoint kind of or signature rather that signature could only be recreated by putting in the exact input so ton will have a sha256 string output that no other word can generate you already have to worry about what exactly it is I was just there for you to understand cuz it took me a while to figure it out the ton core library handles it for you (reply to 164376)
+
+&rey: You are SURE that's related? (reply to 164377)
+
+Jason 🆙 UXUY $ETN: So if it's ID '001' that item 001 will have a sha256 hash that's no other number can produce so when someone tries to go and mint and it has the human readable input area of 001 it checks if the sha256 for 001 is already in the dictionary
+
+Jason 🆙 UXUY $ETN: Like I said I'm pretty dumb so probably not (reply to 164378)
+
+&rey: Then you are welcome to stop babbling. (reply to 164380)
+
+Jason 🆙 UXUY $ETN: Ok (reply to 164381)
+
+Abdulrahim: Hello everyone,   I'm currently at a loss on how to implement a daily reminder feature in my TMA that adapts to a user's timezones so that of a reminder is sent by 9:00AM, all users receive it at 9:00AM in their local time.
+
+&rey: Not related to topic of this chat which is TON. (reply to 164393)
+
+amir: Hey guys I have a question. I am a simple programmer with relatively little experience. How can I contribute to the existing repos and be able to fix a bug or issue? This has always been a big question for me and I would like to use your guidance.
+
+&rey: Improvements on https://beta-docs.ton.org, mainly. (reply to 164409)
+
+amir: Wonderful.  Thanks bro🙏🏻 (reply to 164413)
+
+Anton: Are you sure it works like that? (reply to 164413)
+
+Anton: My understanding is that only pretty experienced programmers have contributed so far
+
+Hashirama: no i just typed dev channels for telegram on google (reply to 164019)
+
+Mark: Hi there   I’ve built Tonabigen — an open-source tool that generates Go types directly from Tact contracts. The generated code includes ready-to-use methods for encoding and decoding messages from TON cells, following the same logic as the Tact compiler — making it much easier for Go developers to integrate with TON smart contracts.  Check it out on GitHub:   https://github.com/MarkCherepovskyi/Tonabigen
+
+&rey: I'm sure that we are having lots of wonderful big contributions in the next few months, whether from the new core team or officially supported projects, and smaller contributions could overlap those. (reply to 164431)
+
+Anton: Sure. We probably should warn everyone the new docs have a pretty strict review process now (reply to 164437)
+
+&rey: And it might be painful to see that your work was already done by someone and in larger scope. Therefore, I'm pointing to new docs at the moment. (reply to 164437)
+
+TON Bounty Bridge: ​0961756892  Created by sutthiphong2596

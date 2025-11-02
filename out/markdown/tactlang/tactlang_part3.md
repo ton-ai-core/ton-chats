@@ -9719,3 +9719,15 @@ Fadi: And how can I transfer money from it to my wallet? It tells me there needs
 — 2025-10-31 —
 
 &rey: Looks like scam really. If you don't have instructions how to use it, you should not touch it at all. (reply to 73421)
+
+— 2025-11-01 —
+
+Mark: Hi there   I’ve built Tonabigen — an open-source tool that generates Go types directly from Tact contracts. The generated code includes ready-to-use methods for encoding and decoding messages from TON cells, following the same logic as the Tact compiler — making it much easier for Go developers to integrate with TON smart contracts.  Check it out on GitHub:   https://github.com/MarkCherepovskyi/Tonabigen
+
+Anton: Thanks  We will check it out (reply to 73596)
+
+CryptoMessiah23: Hi guys, not sure if im in the right place 🤔 but im looking to bring on a TON dev who is able to write smart contracts on TON and BE side   Dms open   Thanks and please delete if this is not the correct chat
+
+Mark: I would like to learn more about the project at DM. Could you chat me? (reply to 73598)
+
+CryptoMessiah23: Feel free to dm me (reply to 73603)

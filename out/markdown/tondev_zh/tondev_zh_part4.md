@@ -11495,3 +11495,25 @@ Combot: sara has been banned! Reason: CAS ban.
 — 2025-11-01 —
 
 Combot: Đồng Đinh has been banned! Reason: CAS ban.
+
+Combot: Steven has been banned! Reason: CAS ban.
+
+Combot: arni alcantara has been banned! Reason: CAS ban.
+
+Combot: Jvjv has been banned! Reason: CAS ban.
+
+Combot: Carl Freeman, Dagim Esayas, Maria De Los Angeles Mojica Guerrero have been banned! Reason: CAS ban.
+
+Combot: Rylan Jimmie has been banned! Reason: CAS ban.
+
+Combot: +20 | 1 год has been banned! Reason: CAS ban.
+
+Combot: Raj, 梦玲珑` Sykes have been banned! Reason: CAS ban.
+
+Combot: Ewoenam has been banned! Reason: CAS ban.
+
+— 2025-11-02 —
+
+Combot: Jonathan Darman has been banned! Reason: CAS ban.
+
+Combot: 墨汐` Kumar. has been banned! Reason: CAS ban.
