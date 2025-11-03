@@ -11517,3 +11517,23 @@ Combot: Ewoenam has been banned! Reason: CAS ban.
 Combot: Jonathan Darman has been banned! Reason: CAS ban.
 
 Combot: 墨汐` Kumar. has been banned! Reason: CAS ban.
+
+Combot: Sam has been banned! Reason: CAS ban.
+
+Rose: Yeah, I don't like your flooding. Cuchvvjib has been muted.
+
+Combot: Vikas Smart SparkChain.AI has been banned! Reason: CAS ban.
+
+Combot: Pepatojb Ry has been banned! Reason: CAS ban.
+
+Combot: Foudady فؤادي has been banned! Reason: CAS ban.
+
+Combot: derb asef2 has been banned! Reason: CAS ban.
+
+Combot: アリ ベンサレ has been banned! Reason: CAS ban.
+
+— 2025-11-03 —
+
+Combot: n, Horace Kimberly have been banned! Reason: CAS ban.
+
+黃: BTC又又又翻倍了兄弟們！😱😱  這群真的有點東西，還有很多新策略兄弟們趕緊進來看看 (reply to 947)

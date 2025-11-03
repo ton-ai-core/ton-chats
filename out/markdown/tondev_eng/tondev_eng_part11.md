@@ -6915,3 +6915,33 @@ Anton: Sure. We probably should warn everyone the new docs have a pretty strict 
 &rey: And it might be painful to see that your work was already done by someone and in larger scope. Therefore, I'm pointing to new docs at the moment. (reply to 164437)
 
 TON Bounty Bridge: ​0961756892  Created by sutthiphong2596
+
+— 2025-11-02 —
+
+Игорь: Is there a way to quickly get tones for testing on Tesnet? The bot only has 2 ton for 1 hour, which is very small and inconvenient. I need 1000 tons
+
+&rey: Please confirm if you tested through ton/sandbox already. (reply to 164497)
+
+Игорь: Yes, of course. I created about 10 jest tests to check for various vulnerabilities, gas leaks, etc. (reply to 164498)
+
+Faisal: Hey 👋
+
+Combot: Combot has warned Faisal Falalu Saadu ꘜ (1/3) Reason: Word **** is not allowed
+
+Faisal: Any open TON dev available to contribute on a project?
+
+Abdulrahim: I'm available (reply to 164503)
+
+&: DM (reply to 164503)
+
+Unction: I’m looking for developers interested in joining a startup project at the idea stage. There’s no upfront pay yet, but early contributors will have equity or priority roles once funding comes in.
+
+cr4all: I am interesting your startup project and I no need upfront. dm me. (reply to 164582)
+
+— 2025-11-03 —
+
+Me: Hey guys  Is there cocoon coin on ton?
+
+Me: I think that project needs more update. Lack of information about that :(
+
+cr4all: what do you mean cocoon?

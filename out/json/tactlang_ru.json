@@ -12936,6 +12936,39 @@
       "from_id": "user5499168023",
       "text": "Что за реклама ?",
       "reply_to_message_id": 3245
+    },
+    {
+      "id": 3295,
+      "type": "message",
+      "date": "2025-11-02T19:38:19.000Z",
+      "date_unixtime": "1762112299",
+      "from": "Rorschach",
+      "from_id": "user685181380",
+      "text": "Да все печально братан. Тут нечего фитбечить.",
+      "reply_to_message_id": 574,
+      "media_type": "photo",
+      "file": "photos/photo_3295.jpg",
+      "width": 576,
+      "height": 1280
+    },
+    {
+      "id": 3296,
+      "type": "message",
+      "date": "2025-11-02T19:49:40.000Z",
+      "date_unixtime": "1762112980",
+      "from": "Daniel(\"\")",
+      "from_id": "user6916647123",
+      "text": "Оперативненько"
+    },
+    {
+      "id": 3297,
+      "type": "message",
+      "date": "2025-11-02T20:25:34.000Z",
+      "date_unixtime": "1762115134",
+      "from": "devouring darkness",
+      "from_id": "user7255836423",
+      "text": "Фух успеееел",
+      "reply_to_message_id": 3295
     }
   ]
 }
