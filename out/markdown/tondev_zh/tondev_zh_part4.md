@@ -11537,3 +11537,21 @@ Combot: アリ ベンサレ has been banned! Reason: CAS ban.
 Combot: n, Horace Kimberly have been banned! Reason: CAS ban.
 
 黃: BTC又又又翻倍了兄弟們！😱😱  這群真的有點東西，還有很多新策略兄弟們趕緊進來看看 (reply to 947)
+
+Combot: Gordon Peterson has been banned! Reason: CAS ban.
+
+Combot: ethan has been banned! Reason: CAS ban.
+
+Andrew: $TON 消费级应用加速器 · Workshop #4  主题内容： 1. TON小程序裂变经验分享 2. TaskOn 助力初创项目高效用户增长与留存 3. TON 生态技术指南  📅 11 月 3 日 20:00 (UTC+8) 📺 YouTube & X 同步直播： https://www.youtube.com/watch?v=4u8U-Dej1gU  嘉宾： Jack，KapKap制作人 Donald， @taskonxyz CEO Andrew，TON East Asia Dev Rel (forwarded from TON East Asia Hub)
+
+Combot: Deĵą has been banned! Reason: CAS ban.
+
+Combot: Maraam Vivaan has been banned! Reason: CAS ban.
+
+Combot: Ak RAYHAN has been banned! Reason: CAS ban.
+
+Combot: SAK has been banned! Reason: CAS ban.
+
+— 2025-11-04 —
+
+Combot: Clea S has been banned! Reason: CAS ban.

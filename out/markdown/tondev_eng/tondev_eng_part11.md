@@ -6945,3 +6945,35 @@ Me: Hey guys  Is there cocoon coin on ton?
 Me: I think that project needs more update. Lack of information about that :(
 
 cr4all: what do you mean cocoon?
+
+idkravitz: the new ton based chain P. Durov announced recently (reply to 164598)
+
+Виконт vangaard: Not a blockchain. It's a network for running decentralized AI (like Bittensor) (reply to 164615)
+
+Me: Then we should not expect releasing coin from cocoon right? (reply to 164618)
+
+Виконт vangaard: Most of the $cocoon tokens you'll see are just meme tokens and not supported by the official team. (reply to 164619)
+
+Виконт vangaard: Cocoon would use TON (reply to 164619)
+
+Blato: that sounds interesting. dm me (reply to 164582)
+
+Blato: https://www.linkprofit.ie/l/ton-foundation-backs-cocoon/ (reply to 164619)
+
+Игорь: Hello! Is it possible to make transactions to smart contracts on behalf of the user NOT on the frontend (via tonconnectUI), but on the backend?  For example:  1. Authorization (apparently via ton_proof) on the server. 2. Then a transaction on behalf of the user to the smart contract?
+
+&rey: Pass the TON Connect session to backend; now, backend would ask user to kindly send a particular list of messages. (reply to 164632)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 8  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Игорь: Can you show me some code on how to do this? I don't understand where to get this session. I looked in the tonUI object, but I didn't find it. const tonUI = new TonConnectUI({ manifestUrl: MANIFEST_URL }); (reply to 164634)
+
+&rey: Not this very moment (reply to 164648)
+
+Mark: Ban it pls (reply to 164719)
+
+127.0.0.1: Which library dose support v5r1  wallets
+
+127.0.0.1: Anyone know? (reply to 164726)
+
+Anton: Try asking the AI assistant here: https://beta-docs.ton.org (reply to 164729)
