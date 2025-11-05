@@ -6977,3 +6977,39 @@ Mark: Ban it pls (reply to 164719)
 127.0.0.1: Anyone know? (reply to 164726)
 
 Anton: Try asking the AI assistant here: https://beta-docs.ton.org (reply to 164729)
+
+— 2025-11-04 —
+
+Mojisola🍅 🍅: does this mean, a ton connect session exist on a user browser and attacker can probably steal it or so and then use it to perform transaction, thought everything lies on the TON wallet and nothing sensitive is stored on user browser (reply to 164634)
+
+Mojisola🍅 🍅: import { WalletContractV5R1, SendMode, internal, TonClient, Address, toNano, WalletContractV4 } from '@ton/ton' (reply to 164726)
+
+cr4all: who can give me a very simple project for TON? I wanna learn from it .
+
+&rey: No. Only to kindly ask user that they perform transaction. (reply to 164762)
+
+Mojisola🍅 🍅: I kind of saw publickey and secretkey on the browser while trying to connect some days ago, I didn't expect to see such at all.
+
+&rey: Yes. Does that contradict anything? (reply to 164769)
+
+Mojisola🍅 🍅: okay. may be I don't understand it well.  thought those two can be used by unauthorized person to make transaction of a wallet
+
+Mojisola🍅 🍅: especially the secretkey
+
+127.0.0.1: I hate Javascript (reply to 164763)
+
+Игорь: I'm running test project from localhost with code const tonUI = new TonConnectUI({ manifestUrl: MANIFEST_URL }); //... init store  console.log('tonUI.onStatusChange'); const unsubscribe = tonUI.onStatusChange(async (wallet) => {   console.log('STATUS CHANGE wallet: ', wallet);   await store.updateWallet(wallet); });  When calling  await tonUI.openModal(); // open modal and connect wallet over QR OR await tonUI.disconnect();   tonUI.onStatusChange event doesn't always fire..  Also, after a disconnect, even if the event fires (with null value), an error occurs when I try to connect again  Should I create a GitHub issue? Or maybe I'm doing something wrong?
+
+спичка |: Who knows how it works and how to repeat it?
+
+&rey: It must be working by this really clever scheme:  the Major's backend is performing functions of a wallet app, to allow TON Connect-ing to it but to discard any transaction requests. (reply to 164895)
+
+&rey: Therefore, the user does not hold any keys and cannot take the NFT they do not own.
+
+r: Are all telegram apps a ton app?
+
+&rey: Not mandatorily. Only if they decide to use some blockchain, then it must be TON indeed.  (And that does not make discussion of project's TMA part match topic of this chat.) (reply to 164899)
+
+Игорь: What about tons for testnet? Is it possible? (reply to 164498)
+
+&rey: Uh, yes. Message https://t.me/f_closer with explanation of purpose of so much coins, and they shall be given. Alternatively, you can change real TON to testnet ones (the rate I do not remember) via https://tonconsole.com. (reply to 164901)

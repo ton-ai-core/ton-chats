@@ -11555,3 +11555,25 @@ Combot: SAK has been banned! Reason: CAS ban.
 — 2025-11-04 —
 
 Combot: Clea S has been banned! Reason: CAS ban.
+
+Combot: 墨汐` Kumar. has been banned! Reason: CAS ban.
+
+peter: 纳斯达克已发出警告称，上市公司 TON Strategy 未经股东批准便进行了股票私募配售，并购买了价值数亿美元的 Toncoin。
+
+Combot: Htet Wai Yan has been banned! Reason: CAS ban.
+
+Katiya｜TON: $TON 消费级应用加速器 · Workshop #5  🔥 主题内容： TON 生态开发指南 本次workshop会覆盖TON 生态所有技术栈的介绍和分析，帮你快速了解 TON 生态技术全景，敏捷开发不迷路！  📅 11 月 6 日 19:00 (UTC+8) 📺 YouTube & X 同步直播： https://www.youtube.com/watch?v=CbNCqTUExG4  嘉宾： Andrew ，TON East Asia Dev Rel (forwarded from TON East Asia Hub)
+
+Combot: Ran Dy has been banned! Reason: CAS ban.
+
+Combot: DeffStream | Payment Processing💳 has been banned! Reason: CAS ban.
+
+Combot: Ali Asadullah Roman has been banned! Reason: CAS ban.
+
+Combot: Vannda Lim has been banned! Reason: CAS ban.
+
+— 2025-11-05 —
+
+Combot: Rayllon has been banned! Reason: CAS ban.
+
+Combot: Claudio Muñoz has been banned! Reason: CAS ban.
