@@ -12969,6 +12969,49 @@
       "from_id": "user7255836423",
       "text": "Фух успеееел",
       "reply_to_message_id": 3295
+    },
+    {
+      "id": 3318,
+      "type": "message",
+      "date": "2025-11-05T22:04:35.000Z",
+      "date_unixtime": "1762380275",
+      "from": "Nikita",
+      "from_id": "user7851517854",
+      "text": "Всем привет! Подскажите, если контракт A требует импорта трейтов B и C, и трейт B требует импорта трейта C, то в контракте A нужно делать:\nimport B;\nimport C;\nили только import B, тк в трейте B уже есть import C?"
+    },
+    {
+      "id": 3319,
+      "type": "message",
+      "date": "2025-11-05T22:23:47.000Z",
+      "date_unixtime": "1762381427",
+      "from": "Daniel",
+      "from_id": "user307291324",
+      "text": "Скорее всего, только импортировать B в A, по крайней мере, так работает в FunC",
+      "reply_to_message_id": 3318
+    },
+    {
+      "id": 3320,
+      "type": "message",
+      "date": "2025-11-05T22:28:49.000Z",
+      "date_unixtime": "1762381729",
+      "from": "Nikita",
+      "from_id": "user7851517854",
+      "text": "Тоже думаю, что так логичнее, но компилятор жёлтым подчеркивает, когда так делаешь",
+      "reply_to_message_id": 3319
+    },
+    {
+      "id": 3321,
+      "type": "message",
+      "date": "2025-11-05T22:37:12.000Z",
+      "date_unixtime": "1762382232",
+      "from": "Daniel",
+      "from_id": "user307291324",
+      "text": "Да, так и есть. Нужно только b в a\n\nhttps://docs.tact-lang.org/book/import/",
+      "reply_to_message_id": 3318,
+      "media_type": "photo",
+      "file": "photos/photo_3321.jpg",
+      "width": 589,
+      "height": 1280
     }
   ]
 }

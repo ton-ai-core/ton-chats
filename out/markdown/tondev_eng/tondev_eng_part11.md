@@ -7013,3 +7013,57 @@ r: Are all telegram apps a ton app?
 Игорь: What about tons for testnet? Is it possible? (reply to 164498)
 
 &rey: Uh, yes. Message https://t.me/f_closer with explanation of purpose of so much coins, and they shall be given. Alternatively, you can change real TON to testnet ones (the rate I do not remember) via https://tonconsole.com. (reply to 164901)
+
+— 2025-11-05 —
+
+Tharun Tej: To connect the wallet to a dapp, what packages should I need to install?
+
+Code: tonconnect (reply to 164992)
+
+Tharun Tej: I mean tonconnect/sdk or tonconnect/protocol? Can anyone share me the best docs where I can get the information about these in detail? (reply to 164994)
+
+Code: i think the docs are good, what part are you struggling with?  (https://docs.ton.org/v3/guidelines/ton-connect/guidelines/developers) (reply to 164999)
+
+r: Is there an API for subdomain minting?
+
+Teemu | 機器人🪽: I asked chatgpt and Replit, they are very helpful 😁 (reply to 164999)
+
+Tharun Tej: If I have a tc:// link, how to use it to connect my wallet to that dapp. This is where I got strucked. (reply to 165000)
+
+Tharun Tej: I asked ChatGPT, but the response was not helpful (reply to 165002)
+
+&rey: Show it as a QR code and scan via wallet application. (reply to 165007)
+
+&rey: First, what API could even be there? (reply to 165001)
+
+r: Is there a smart contract available for Devs for .ton subdomain minting?
+
+r: I own Vanity.ton and want to list it for public subdomain minting on Vanitydotbox
+
+Андрей: https://howtorunsite.ton.sc/subdomains (reply to 165017)
+
+r: Do you know of any Telegram Mini Apps for .ton subdomains? (reply to 165025)
+
+Tharun Tej: I have my own wallet app. Now how connect it to that dapp? (reply to 165010)
+
+&rey: Check out https://github.com/ton-blockchain/ton-connect. (reply to 165030)
+
+Kiba: We have WalletKit for TON and TON Connect in closed beta for Web, iOS, Android, and React Native. DM me and we'll connect your developers with ours, plus share docs and access. (reply to 165007)
+
+Tharun Tej: Sorry, I can't DM you! (reply to 165034)
+
+M: Good day, dear communities. I am not an expert in development, I created a crypto coin and accidentally published it. After that, he revoked the administrator rights. For some reason, they began to buy it. But I have the vast majority of coins in my wallet. Except for the ones I put into the liquidity pool. Token holders recommend freezing some of the coins. I'm afraid to trust random recommendations in the coin group in Telegram. I do not advertise it and do not name it. Tell me, with the help of which service to freeze coins and for how long?
+
+&rey: Well it is generally on whoever traded to take any risks but to be polite to them... and not to give a financial recommendation...  Burning jettons irrevocably is always a choice. Not "transfer" but "burn", a built-in TEP-74 mechanism. Your wallet app should have button for that. (reply to 165062)
+
+M: I figured out the incineration. I want to freeze it. So that they come back in 10 years, for example, when there may not be enough coins (reply to 165064)
+
+ad: Why don't I see the rental
+
+&rey: What do you expect to see specifically? (reply to 165073)
+
+ad: I want to rent it out to people. (reply to 165074)
+
+&rey: Only few services support that, and I don't remember which from the top of my head. It's possible that said marketapp.ws does not yet. (reply to 165076)
+
+ad: Problem (reply to 165077)

@@ -9735,3 +9735,15 @@ CryptoMessiah23: Feel free to dm me (reply to 73603)
 — 2025-11-02 —
 
 Dixon: Salut
+
+— 2025-11-05 —
+
+X: I am a fullstack dev working on a mini app. I'm new to ton and blockchain. I want to use nfts, sbts, and tokens in my app. Where do i start?
+
+TheBrainAir: https://docs.ton.org/ (reply to 73889)
+
+TheBrainAir: you can find all info here
+
+— 2025-11-06 —
+
+Anton: you can also check the new docs, currently in beta release: https://beta-docs.ton.org/ (reply to 73889)

@@ -12617,6 +12617,66 @@
       "from_id": "user533881104",
       "text": "сасун",
       "reply_to_message_id": 1382
+    },
+    {
+      "id": 1401,
+      "type": "message",
+      "date": "2025-11-05T20:02:44.000Z",
+      "date_unixtime": "1762372964",
+      "from": "Vudi",
+      "from_id": "user218709297",
+      "text": "Гуд Джоб. Мой контракт посмотрите?)",
+      "reply_to_message_id": 1400
+    },
+    {
+      "id": 1402,
+      "type": "message",
+      "date": "2025-11-05T20:03:07.000Z",
+      "date_unixtime": "1762372987",
+      "from": "TheOpenDevTeam",
+      "from_id": "channel2428769296",
+      "text": "Заходи в личку @rends_east",
+      "reply_to_message_id": 1401
+    },
+    {
+      "id": 1403,
+      "type": "message",
+      "date": "2025-11-05T20:20:20.000Z",
+      "date_unixtime": "1762374020",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "а мне можно?)",
+      "reply_to_message_id": 1402
+    },
+    {
+      "id": 1404,
+      "type": "message",
+      "date": "2025-11-05T20:20:30.000Z",
+      "date_unixtime": "1762374030",
+      "from": "TheOpenDevTeam",
+      "from_id": "channel2428769296",
+      "text": "yep",
+      "reply_to_message_id": 1403
+    },
+    {
+      "id": 1405,
+      "type": "message",
+      "date": "2025-11-05T20:20:46.000Z",
+      "date_unixtime": "1762374046",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "кидай я посмотрю)",
+      "reply_to_message_id": 1401
+    },
+    {
+      "id": 1406,
+      "type": "message",
+      "date": "2025-11-05T20:52:16.000Z",
+      "date_unixtime": "1762375936",
+      "from": "Yury",
+      "from_id": "user354877194",
+      "text": "Функционал вебдома на несколько лет опережает потребности пользователей нашего блокчейна 👍",
+      "reply_to_message_id": 1400
     }
   ]
 }

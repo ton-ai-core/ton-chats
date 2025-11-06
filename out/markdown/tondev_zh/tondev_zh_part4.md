@@ -11577,3 +11577,19 @@ Combot: Vannda Lim has been banned! Reason: CAS ban.
 Combot: Rayllon has been banned! Reason: CAS ban.
 
 Combot: Claudio Muñoz has been banned! Reason: CAS ban.
+
+Combot: 瑾瑜` Varma has been banned! Reason: CAS ban.
+
+Combot: Niaama Yamato has been banned! Reason: CAS ban.
+
+Combot: Sadif has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🚀 TON Dev Bootcamp｜香港   想掌握 TG 小程序 + TON 智能合约开发，做出能触达 10亿用户的 Web3 应用？这场 Bootcamp，就是你的起点。  👨‍💻 你将收获： • 实操上手：Bot机器人、Mini App、Jetton、TON Connect • 0→1 打造原型，与伙伴现场组队构建产品 • TON 核心团队 Andrew & Yuki 全程指导 • 获得进入 TON 生态与未来加速/资助机会  📍 香港 AWS 办公室 📅 11月15日，下午1-6点 🔗 报名：https://luma.com/0dgdf646 (forwarded from TON East Asia Hub)
+
+Combot: Gradysearchqat Brn has been banned! Reason: CAS ban.
+
+Combot: Anonim van, farrish have been banned! Reason: CAS ban.
+
+— 2025-11-06 —
+
+Combot: Narendra Devram Ubhe, M 💲BLM have been banned! Reason: CAS ban.
