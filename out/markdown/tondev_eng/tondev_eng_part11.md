@@ -7067,3 +7067,29 @@ ad: I want to rent it out to people. (reply to 165074)
 &rey: Only few services support that, and I don't remember which from the top of my head. It's possible that said marketapp.ws does not yet. (reply to 165076)
 
 ad: Problem (reply to 165077)
+
+— 2025-11-06 —
+
+Code: btw does anybody know why testnet is so much slower than mainnet? Like what's the technical reason (obviously less resources - but what specifically?)
+
+Code: For example on testnet sending a jetton for me can take 20 seconds, but on mainnet its usually 1s
+
+@smart_contract_dev: I also often encounter delays, which complicates the development process. There is monitoring at tonstat-us, but there is no testnet monitoring there. (reply to 165137)
+
+Игорь: Why is wallet.connectItems maybe empty? Could it be because I'm testing the frontend on localhost? const tonUI = new TonConnectUI({ manifestUrl: MANIFEST_URL }); const payload = await AuthService.generatePayload(); tonUI.setConnectRequestParameters({ state: 'ready', value: { tonProof: payload } }); // this line is also called  ... const unsubscribe = tonUI.onStatusChange(async (wallet) => { console.log('wallet?.connectItems?.tonProof', wallet?.connectItems?.tonProof); });
+
+Игорь: This code is running on my test server https://github.com/liketurbo/demo-dapp-backend-js/blob/main/src/index.ts
+
+Игорь: yes, the problem is localhost
+
+Tim: Because testnet is always running atleast 4 shards so hops take time (reply to 165138)
+
+— 2025-11-07 —
+
+Francesco: Hello, i have a provlem with hosting on .ton domain with ton reverse proxy. I’m using flask and ngix
+
+Francesco: I have tryied everything but website on ton not responding
+
+Francesco: How can i fix?
+
+Rahman: Hello Everyone,  I'm seeking the opportunity to contribute with the early stage project which will be developed in the TON blockchain network to bring a large number of targeted audiences and potential investors.   Specifically, I have skills in social media content writing, organic social media marketing, effective campaigns and events strategy development and community management to build accessible community network.   I would be grateful to share the details by discussion, please dm me. Thanks!

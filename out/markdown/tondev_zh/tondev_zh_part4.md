@@ -11593,3 +11593,33 @@ Combot: Anonim van, farrish have been banned! Reason: CAS ban.
 — 2025-11-06 —
 
 Combot: Narendra Devram Ubhe, M 💲BLM have been banned! Reason: CAS ban.
+
+Combot: Funny Dog, Crazy Monkey have been banned! Reason: CAS ban.
+
+Combot: 346婉晴代发/强拉/群发器, 347婉晴代发/强拉/群发器 have been banned! Reason: CAS ban.
+
+Rose: Reported Pok [8452898791] to admins.​​​​​​​​​​​​ (reply to 102963)
+
+Katiya｜TON: $TON 消费级应用加速器 · Workshop #5  🔥 主题内容： TON 生态开发指南 本次workshop会覆盖TON 生态所有技术栈的介绍和分析，帮你快速了解 TON 生态技术全景，敏捷开发不迷路！  嘉宾： Andrew ，TON East Asia Dev Rel  🔗 直播开始啦： https://x.com/i/broadcasts/1lDxLBVgnqmGm (forwarded from TON East Asia Hub)
+
+Combot: Antonio Ruiz has been banned! Reason: CAS ban.
+
+Combot: Melissa Bansíl has been banned! Reason: CAS ban.
+
+Sadegh: Hello! I want to implement a watcher service which read blocks and if find transfer/jetton transfer for watched wallets notify me. is there any opensource implementation for this?
+
+Emil: No but you can build script for it (reply to 102999)
+
+Sadegh: I tried but reading and parsing transactions + find wallet jetton addresses is challenging! (reply to 103002)
+
+Emil: It is a bit complex but you can do it
+
+Emil: Just watch for transactions and use a notification service
+
+Combot: Dwayne Gallagher has been banned! Reason: CAS ban.
+
+Combot: ￶ has been banned! Reason: CAS ban.
+
+— 2025-11-07 —
+
+Combot: elene eyeshe has been banned! Reason: CAS ban.
