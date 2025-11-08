@@ -7093,3 +7093,47 @@ Francesco: I have tryied everything but website on ton not responding
 Francesco: How can i fix?
 
 Rahman: Hello Everyone,  I'm seeking the opportunity to contribute with the early stage project which will be developed in the TON blockchain network to bring a large number of targeted audiences and potential investors.   Specifically, I have skills in social media content writing, organic social media marketing, effective campaigns and events strategy development and community management to build accessible community network.   I would be grateful to share the details by discussion, please dm me. Thanks!
+
+Abdulrahim: That's great, I'll send you a dm (reply to 165209)
+
+Rahman: Thank you. (reply to 165211)
+
+Alex: 💬 We’d love your feedback!  Help us improve support in the @tondev_eng chat. Please share your experience and suggestions in the form below: 👉 Feedback form
+
+Altaïr: GM, I have my NFT collection on Getgems but now i see there is some glitch on every NFT it is due to the merging layers which was designed in Figma to Illustrator to AE. Earlier it was good now i think lottie did changes to their player. Can anyone let me know what can be done other than modifying everything and giving the files to getgems so they can change it later internally.
+
+CashboxGame: Hi, I followed the official documentation to install the analytics SDK, but I ran into this issue. Could you please tell me how to fix it?
+
+&rey: Is that related to TON? (reply to 165237)
+
+Abdulrahim: I think this means that the token you're trying to use to set up the analytics SDK doesn't match the domain it was registered for. (reply to 165237)
+
+CashboxGame: How do I link it to TON? I might’ve forgotten, do you have the setup guide or documentation for that? (reply to 165238)
+
+CashboxGame: I’ve been trying to figure this out too. I created the SDK token in TON Builder, could you tell me where to set the domain? (reply to 165239)
+
+Abdulrahim: When setting up the Sdk, there are two methods. Either use the script tag method or the npm package method, which method are you using. This will let us know how to better approach the problem. (reply to 165241)
+
+CashboxGame: Please hold on, I’m contacting the developers right now. Can I DM you? Just in case more messages pop up in the group. (reply to 165242)
+
+CashboxGame: We did not use npm, it is: <script async src="https://tganalytics.xyz/index.js">" (reply to 165242)
+
+CashboxGame: script tag method
+
+&rey: Ah so that IS off topic. Please not in this group. (reply to 165258)
+
+CashboxGame: Hello. Which group should I go to? (reply to 165260)
+
+CashboxGame: I found this group on TON builder😂
+
+Combot: Combot has warned Abdulrahim (1/3) Reason: Word **** is not allowed (reply to 165243)
+
+Alex: Hello, TON Developers!  There is an issue with code highlighting in the new TON documentation (https://beta-docs.ton.org/), which has been pending for quite a while on the Mintlify side. We believe massive reaction may help force solution for our documentation.  We kindly ask you, if you have a GitHub account, help us push this issue with ↑ reaction.
+
+Sahar: Hello to everyone. I want to implement watcher service that listen on new blocks (or get new blocks in interval) and parse it's data to find out 1. Normal ton transfers and 2. Jetton transfers for listened addresses (+10k)  I tried to implement it but I confused to determined Jetton transfers,  I want to ask is anyone implement something like this that I could use their code or open source solution.
+
+Sahar: What is the best way to implement it? it will be use to credit users and handle edge cases are a little tricky for me
+
+&rey: The https://t.me/devs. Please see if that's in chat history already. (reply to 165261)
+
+&rey: Generally, you're looking for https://docs.ton.org/v3/guidelines/dapps/asset-processing/jettons/ and https://github.com/gobicycle/bicycle in particular. (reply to 165267)

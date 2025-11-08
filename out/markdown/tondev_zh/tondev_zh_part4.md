@@ -11623,3 +11623,11 @@ Combot: ￶ has been banned! Reason: CAS ban.
 — 2025-11-07 —
 
 Combot: elene eyeshe has been banned! Reason: CAS ban.
+
+Combot: Brad Hughes has been banned! Reason: CAS ban.
+
+Combot: Kara Coleman has been banned! Reason: CAS ban.
+
+Combot: Michelle Lamb has been banned! Reason: CAS ban.
+
+Combot: Selim Ahiadzro has been banned! Reason: CAS ban.

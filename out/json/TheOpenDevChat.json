@@ -12771,6 +12771,129 @@
       "file": "photos/photo_1417.jpg",
       "width": 1226,
       "height": 1280
+    },
+    {
+      "id": 1420,
+      "type": "message",
+      "date": "2025-11-07T08:02:38.000Z",
+      "date_unixtime": "1762502558",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "👀\nОбсудим? \n\n@TheOpenDevBlog",
+      "reply_to_message_id": 184,
+      "forwarded_from": "The Open Dev Blog",
+      "forwarded_from_id": "channel2154553559",
+      "forwarded_date": "2025-11-07T08:02:35.000Z"
+    },
+    {
+      "id": 1421,
+      "type": "message",
+      "date": "2025-11-07T08:04:08.000Z",
+      "date_unixtime": "1762502648",
+      "from": "Maxim",
+      "from_id": "user6048023974",
+      "text": "Что же к нам прийдет?",
+      "reply_to_message_id": 1420
+    },
+    {
+      "id": 1422,
+      "type": "message",
+      "date": "2025-11-07T08:05:23.000Z",
+      "date_unixtime": "1762502723",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Из поста чессказать не ясно, это само по себе название такое Major Regulated Stablecoin, или это все таки USDC.",
+      "reply_to_message_id": 1421
+    },
+    {
+      "id": 1423,
+      "type": "message",
+      "date": "2025-11-07T08:05:33.000Z",
+      "date_unixtime": "1762502733",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Ура, $A7A5, наконец-то!",
+      "reply_to_message_id": 1420
+    },
+    {
+      "id": 1424,
+      "type": "message",
+      "date": "2025-11-07T08:06:56.000Z",
+      "date_unixtime": "1762502816",
+      "from": "Maxim",
+      "from_id": "user6048023974",
+      "text": "спасибо",
+      "reply_to_message_id": 1422
+    },
+    {
+      "id": 1425,
+      "type": "message",
+      "date": "2025-11-07T08:15:32.000Z",
+      "date_unixtime": "1762503332",
+      "from": "Эльдар",
+      "from_id": "user740786058",
+      "text": "1 вопрос на обсуждение, почему не tolk?\nhttps://github.com/ton-blockchain/ton/blob/master/crypto/smartcont/config-with-ownable-params.fc",
+      "reply_to_message_id": 1420
+    },
+    {
+      "id": 1426,
+      "type": "message",
+      "date": "2025-11-07T08:19:27.000Z",
+      "date_unixtime": "1762503567",
+      "from": "maksim",
+      "from_id": "user964514710",
+      "text": "непроаудированный компилятор для контракта такой важности",
+      "reply_to_message_id": 1425
+    },
+    {
+      "id": 1427,
+      "type": "message",
+      "date": "2025-11-07T08:26:51.000Z",
+      "date_unixtime": "1762504011",
+      "from": "Victor",
+      "from_id": "user487961820",
+      "text": "Николай Дуров писал 😂",
+      "reply_to_message_id": 1425
+    },
+    {
+      "id": 1428,
+      "type": "message",
+      "date": "2025-11-07T08:30:18.000Z",
+      "date_unixtime": "1762504218",
+      "from": "ʀᴇᴀʟ",
+      "from_id": "user6830875100",
+      "text": "USDC?",
+      "reply_to_message_id": 1420
+    },
+    {
+      "id": 1429,
+      "type": "message",
+      "date": "2025-11-07T08:51:01.000Z",
+      "date_unixtime": "1762505461",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "роксман запускает еще и стейбл теперь? :)",
+      "reply_to_message_id": 1422
+    },
+    {
+      "id": 1430,
+      "type": "message",
+      "date": "2025-11-07T08:51:16.000Z",
+      "date_unixtime": "1762505476",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "а представь да",
+      "reply_to_message_id": 1429
+    },
+    {
+      "id": 1431,
+      "type": "message",
+      "date": "2025-11-07T10:11:30.000Z",
+      "date_unixtime": "1762510290",
+      "from": "BigPump Live",
+      "from_id": "channel2340751910",
+      "text": "Страшный мем",
+      "reply_to_message_id": 1429
     }
   ]
 }
