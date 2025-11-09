@@ -9747,3 +9747,17 @@ TheBrainAir: you can find all info here
 — 2025-11-06 —
 
 Anton: you can also check the new docs, currently in beta release: https://beta-docs.ton.org/ (reply to 73889)
+
+— 2025-11-08 —
+
+Ben Vu: where can i post my mini-app to get some feedback from other developers?  i want to know if my jetton rewards are working. I keep getting kicked out of other TON Dev chats just for asking for feedback. I'm a real developer with a large user base I am trying to bring to TON.
+
+Smooking: Todavía no me llegó la transferencia de mis Ton enviados supuestamente desde Ton ecosystem network
+
+Smooking: Que hago? Hace dos días estoy esperando
+
+— 2025-11-09 —
+
+Luna: Hello everyone
+
+Luna: Hi everyone my name is Luna

@@ -7137,3 +7137,9 @@ Sahar: What is the best way to implement it? it will be use to credit users and 
 &rey: The https://t.me/devs. Please see if that's in chat history already. (reply to 165261)
 
 &rey: Generally, you're looking for https://docs.ton.org/v3/guidelines/dapps/asset-processing/jettons/ and https://github.com/gobicycle/bicycle in particular. (reply to 165267)
+
+— 2025-11-08 —
+
+Игорь: I wanted to ask a question, but the bot deleted it, saying that some word was not allowed, but which one is unknown. Now I don't know how to ask a question.😁
+
+Combot: Combot has warned Tefferi Mekonnen (1/3) Reason: 1 reports (reply to 165387)

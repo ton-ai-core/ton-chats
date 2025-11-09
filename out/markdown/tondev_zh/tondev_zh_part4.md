@@ -11631,3 +11631,13 @@ Combot: Kara Coleman has been banned! Reason: CAS ban.
 Combot: Michelle Lamb has been banned! Reason: CAS ban.
 
 Combot: Selim Ahiadzro has been banned! Reason: CAS ban.
+
+— 2025-11-08 —
+
+Combot: 10 has been banned! Reason: CAS ban.
+
+Combot: Abdou Babou has been banned! Reason: CAS ban.
+
+Combot: verse has been banned! Reason: CAS ban.
+
+Combot: odies has been banned! Reason: CAS ban.
