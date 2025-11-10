@@ -11641,3 +11641,7 @@ Combot: Abdou Babou has been banned! Reason: CAS ban.
 Combot: verse has been banned! Reason: CAS ban.
 
 Combot: odies has been banned! Reason: CAS ban.
+
+— 2025-11-09 —
+
+Combot: Vu Tan, Ley have been banned! Reason: CAS ban.

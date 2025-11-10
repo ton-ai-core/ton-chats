@@ -7143,3 +7143,43 @@ Sahar: What is the best way to implement it? it will be use to credit users and 
 Игорь: I wanted to ask a question, but the bot deleted it, saying that some word was not allowed, but which one is unknown. Now I don't know how to ask a question.😁
 
 Combot: Combot has warned Tefferi Mekonnen (1/3) Reason: 1 reports (reply to 165387)
+
+— 2025-11-09 —
+
+Code: that approach works, another one is to use TonAPI's webhook service (reply to 165374)
+
+Code: Here https://docs.tonconsole.com/tonapi/webhooks-api
+
+Combot: Combot has warned SubbotinGPT (1/3) Reason: Word ******* is not allowed (reply to 165438)
+
+SubbotinGPT: Lol (reply to 165443)
+
+Игорь: As far as I understand, it won't be possible to receive events for all NFTs, of which there are quite a lot (reply to 165441)
+
+Code: you can batch the NFT mints into groups of like 10,000, then make 1 webhook per 10,000 NFTs (reply to 165445)
+
+Игорь: It will probably be expensive. And it will probably be difficult? I have the ability for users to create NFTs themselves as needed. There's no need to do them all at once. (reply to 165446)
+
+Code: I am doing it right now, i don't think its too difficult. When a new NFT gets created you add it to a webhook subscription (The API allows you to add 1 address to an existing webhook for example)  And I don't think its expensive, you only get charged for actual events which is great, you want to track 90,000 items its gonna cost something
+
+Mhdi khosravi: Hello, How i can get list of transactions of a wallet? like what i can see in tonscan history section
+
+Tharun Tej: I have created my own wallet app. Sending transactions were working in testnet but not in mainnet, funds are getting out but not receiving to "to address" why so?
+
+Hades: Let me have a look at it (reply to 165453)
+
+Johnny Bravo: Dm let me check (reply to 165453)
+
+Tharun Tej: Only first transactions are getting fail, mentioning it as contract deploy (reply to 165453)
+
+Hades: Share the contract code (reply to 165456)
+
+Tharun Tej: I can't send full code here (reply to 165457)
+
+nkr: share adress of contract (reply to 165465)
+
+Tharun Tej: It's problem in code not in contract (reply to 165466)
+
+nkr: if you can't send the code here send adress to see the code
+
+Tharun Tej: UQDXOXD1BgavyOsjFy1aaAamjlkTj2i_T8ti9eh6ROkZeL3B (reply to 165468)
