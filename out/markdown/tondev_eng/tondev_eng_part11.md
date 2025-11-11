@@ -7183,3 +7183,57 @@ Tharun Tej: It's problem in code not in contract (reply to 165466)
 nkr: if you can't send the code here send adress to see the code
 
 Tharun Tej: UQDXOXD1BgavyOsjFy1aaAamjlkTj2i_T8ti9eh6ROkZeL3B (reply to 165468)
+
+— 2025-11-10 —
+
+Jithin: I am trying to understand the various message modes in tact. There is this mode SendBounceIfActionFail (+16) which explains that this mode helps to create a bounced message even if failure occurs in the action phase.  However I am confused about who receives this bounce. Lets assume a contract A sends a message to contract B, and this B will send another message to C. During the action phase of B, an error occurs while trying to send to C(maybe due to insufficient fund). By default, this silently fails while persisting the state changes already made in contract B during its compute phase, right? But what exactly happens when we give the SendBounceIfActionFail(+16) flag? Will contract A recieve a bounce message from B or is it B itself getting a bounce so that it we might be able to write the rollback logic in case of action phase fail
+
+Игорь: I wondered about this too. And as far as I understand, contract A won't receive a bounce message from B(only B will receive bounce from C). You need to take care of the full rollback yourself. (reply to 165534)
+
+Jithin: Ok. Just to clarify, in my example, i meant a situation where the action phase of B itself failed and the message never reached C.   So when you say 'only B will receive bounce from C', you are saying if we have the +16 flag, B will get a bounce for the message in this case..?
+
+欣: Hello I am trying to record all the nfts last sold out price of the current for sale nfts does anyone know any easy way to achieve it?
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 8  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Leo: When B fails to send to C with flag +16 but not +2 and the input message is bounceable it generates a bounce message to A (reply to 165534)
+
+Игорь: Will there be an automatic bounce message from B to A? Or need custom logic to send message to A? (reply to 165546)
+
+Leo: all bounces are automatic; you cannot send bounce messages on your own (reply to 165550)
+
+&rey: B will not get a bounced message most certainly, since there was no B–>B message to start with. (reply to 165534)
+
+Игорь: From B to B? Is it possible? (reply to 165552)
+
+Slava: Why not? (reply to 165554)
+
+Игорь: For what? What are the possible cases for doing this?  I now understand that I don't understand anything. I need clear flowcharts for different message modes. (reply to 165555)
+
+&rey: E.g. sending more than 255 messages per one trigger. One transaction has at most 255 actions. (reply to 165557)
+
+Slava: You can also split execution into multiple transactions when you are hitting the gas limits.
+
+Игорь: hmm. It's theoretically clear, but there are practically without examples or flowcharts - no. And in the question above there was a chain A->B->C, but you answered about B->B...and my head started to hurt😱 (reply to 165558)
+
+Slava: When the bounce happens only the contract that initiated the inbound message receives the bounce. There is no automatic propagation of messages. You need to implement your own rollback strategy if you need one.
+
+Roman: Hey folks, did anybody face with "Liteserver crashed with 502 code. Message: backend node timeout"? This error started to appear few hours ago  Liteservers are picked from mainnet
+
+Jithin: Yeah makes sense. I was thinking about the whole revert logic. If I understand correctly, whatever state changes that occur in the compute phase will persist even if the action phase fails, right? And bounced messages, by default, are created only when compute phase errors occur. (Please correct me if I am wrong)  If that is the case, in the example of A->B->C, where the action phase of B fails, you said A can get bounce with flag +16. But then what about B? How can B revert its state changes? I mean that should be possible if A is going to revert using the bounce but is kindof illogical if B cannot revert (reply to 165552)
+
+&rey: If bounce happens, for B it is as no message ever arrived (no data, code, libs change). (reply to 165563)
+
+&rey: Except that storage fee was exacted, that is.
+
+@A49752: Hey all, Is the DevRel of TON is in this group?
+
+&: You can track real-time txs from tonconsole.  Just find out NFT sale messages from there and record infos into your preferred db. (reply to 165543)
+
+Ruslan: Does anyone know, how Cocoon inference will look like?   Will there be ways to host/fine-tune own models?  Also is it going to be compatible with OpenAI libraries or will it be different?
+
+Виконт vangaard: Read on Bittensor, it'll probably be quite similar. (reply to 165572)
+
+Blato: well, I don't think so, in my opinion the Cocoon is working like a GPU provider like Runpod or the other GPU servers. (reply to 165582)
+
+Виконт vangaard: Well i figured you'll be running inference on decentralized models (from GPU providers) instead of deploying your own models on these GPUs. But taking a second look at Cocoon's post, your explanation seems more plausible. (reply to 165583)

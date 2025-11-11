@@ -11645,3 +11645,15 @@ Combot: odies has been banned! Reason: CAS ban.
 — 2025-11-09 —
 
 Combot: Vu Tan, Ley have been banned! Reason: CAS ban.
+
+— 2025-11-10 —
+
+Combot: 静曦` Ramana has been banned! Reason: CAS ban.
+
+Combot: R Weed has been banned! Reason: CAS ban.
+
+Combot: ACV has been banned! Reason: CAS ban.
+
+Combot: O A has been banned! Reason: CAS ban.
+
+Combot: Mr J has been banned! Reason: CAS ban.
