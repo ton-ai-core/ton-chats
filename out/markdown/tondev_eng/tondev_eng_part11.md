@@ -7237,3 +7237,29 @@ Ruslan: Does anyone know, how Cocoon inference will look like?   Will there be w
 Blato: well, I don't think so, in my opinion the Cocoon is working like a GPU provider like Runpod or the other GPU servers. (reply to 165582)
 
 Виконт vangaard: Well i figured you'll be running inference on decentralized models (from GPU providers) instead of deploying your own models on these GPUs. But taking a second look at Cocoon's post, your explanation seems more plausible. (reply to 165583)
+
+— 2025-11-11 —
+
+Blake: When I try to deploy my contact the wallet sends and refunds 0.05 ton, what's the issue
+
+&rey: Are you attaching StateInit to that message? (reply to 165713)
+
+Blake: Yesx everything is perfect (reply to 165714)
+
+Blake: Only the wallet keeps sending and refund 0.05 ton / 0.04
+
+Slava: Does the transaction fail execution? (reply to 165731)
+
+Blake: This (reply to 165732)
+
+&rey: What code do you use to send TON? Including the specific parameters of stateInit and payload (init and bin) you use. (reply to 165733)
+
+Slava: You need to open the address of the contract in explorer and a. see if contract is deployed and b. check the result of contract execution. (reply to 165733)
+
+Combot: Combot has warned James (3/3) Reason: Word **** is not allowed
+
+Combot: Combot has kicked James
+
+&: Your contract might unable to process normal TON transfer. When you deploy contract, your wallet sends 0.05TON into your new contract(some of them is used for deployment fee). extra is sent to your contract. If your contract don't have any part to handle normal TON transfer part, then your contract will revert  your tx, then 0.0487... TON will be back to your wallet,  Anyway Your contract may succesfuly deployed with no balance. you can check via tonviewer. (reply to 165733)
+
+Zachary: Hi devs! Sharing my open-source project for TON/Telegram integration: telegram-payment-gateway is a payment gateway SDK for Node.js/TypeScript. It lets you accept Telegram Stars, $TON, and fiat payments (with built-in conversion and webhook API). MIT license. npm package: telegram-payment-gateway Install: npm install github:toxzak-svg/telegram-payment-gateway Docs and source: GitHub.com/toxzak-svg/telegram-payment-gateway Happy to get feedback or help other TON/Telegram builders connect—just reply here! (Admins: please let me know if there’s a better format for this post.)

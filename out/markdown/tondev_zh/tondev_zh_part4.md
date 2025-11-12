@@ -11657,3 +11657,15 @@ Combot: ACV has been banned! Reason: CAS ban.
 Combot: O A has been banned! Reason: CAS ban.
 
 Combot: Mr J has been banned! Reason: CAS ban.
+
+— 2025-11-11 —
+
+Combot: . has been banned! Reason: CAS ban.
+
+Andy: Stars 怎么集成？
+
+Andrew: 看这个   https://ton-org.notion.site/Telegram-Star-1b95274bd2cf81a381f7da81c96d4baf?source=copy_link (reply to 103243)
+
+— 2025-11-12 —
+
+Combot: 363 高盛代发 裙發器 has been banned! Reason: CAS ban.

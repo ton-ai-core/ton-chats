@@ -13090,6 +13090,66 @@
       "from_id": "user6139012291",
       "text": "Если тон по 10$ , то поздравляем всех нас , мы выдержали",
       "reply_to_message_id": 1451
+    },
+    {
+      "id": 1464,
+      "type": "message",
+      "date": "2025-11-11T19:24:52.000Z",
+      "date_unixtime": "1762889092",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "Что за опрос ниже был?",
+      "reply_to_message_id": 1433
+    },
+    {
+      "id": 1465,
+      "type": "message",
+      "date": "2025-11-11T19:25:01.000Z",
+      "date_unixtime": "1762889101",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Удалён",
+      "reply_to_message_id": 1464
+    },
+    {
+      "id": 1466,
+      "type": "message",
+      "date": "2025-11-11T19:25:28.000Z",
+      "date_unixtime": "1762889128",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "Почему зачем и как",
+      "reply_to_message_id": 1465
+    },
+    {
+      "id": 1467,
+      "type": "message",
+      "date": "2025-11-11T19:47:21.000Z",
+      "date_unixtime": "1762890441",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "Ну хоть на оригиналы ссылки дайте.\nЯ успел почитать только https://t.me/inetovsky а кто там ещё был?",
+      "reply_to_message_id": 1465
+    },
+    {
+      "id": 1468,
+      "type": "message",
+      "date": "2025-11-11T19:47:59.000Z",
+      "date_unixtime": "1762890479",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "еще был Кисель и Ник \n@iamtemporary\n@resistance17",
+      "reply_to_message_id": 1467
+    },
+    {
+      "id": 1469,
+      "type": "message",
+      "date": "2025-11-11T19:51:51.000Z",
+      "date_unixtime": "1762890711",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "Так. Я нихуя не понял. Все там асинхронно что-то по своим чатегам пишут и надо строить трейсы",
+      "reply_to_message_id": 1468
     }
   ]
 }

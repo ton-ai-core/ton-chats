@@ -4653,3 +4653,31 @@ Viacheslav: 4 - v4, а v5  не хочет
 Viacheslav: аа нашел
 
 Viacheslav: const wallets = {     v1r1: ton_1.WalletContractV1R1,     v1r2: ton_1.WalletContractV1R2,     v1r3: ton_1.WalletContractV1R3,     v2r1: ton_1.WalletContractV2R1,     v2r2: ton_1.WalletContractV2R2,     v3r1: ton_1.WalletContractV3R1,     v3r2: ton_1.WalletContractV3R2,     v4: ton_1.WalletContractV4,     v5r1: ton_1.WalletContractV5R1, };
+
+— 2025-11-11 —
+
+ytiruces: Я не очень понял о каком блоке идет речь. Сколько нфт сделаю, столько участников и может быть. (reply to 329287)
+
+༄༅ Nursultan: напиши в лс (reply to 329218)
+
+TON Moderator: Привет, Type! Прочти правила и нажми кнопку ниже.
+
+.none: Этот способ помог Подклбчаюсь к тем же самым приватным нодам dton, но теперь всё работает стабильно Спасибо! (reply to 329093)
+
+Jzuss ┌( ಠ_ಠ)┘: Всем привет. Какой, по вашему опыту, самый простой способ для трансфера жетонов из тона в эфириум (erc20)?
+
+Viacheslav: https://bridge-v3.ton.org/ (reply to 329327)
+
+Forma.operator: Всем привет! Если кому нужен дизайн для проекта, обращайтесь в личку. Имеем большой опыт и хорошее портфолио. Удачи в реализации проектов!
+
+Kirill: Всем привет, подскажите пожалуйста, а у кого то есть рабочий вариант mintless-jetton на tact? или может у кого то есть идее, почему данный код не хочет работать? Падает на с кодом 7 (Type check error) на строчке  let getOpt: GetOpt = dictGetOpt(proof, ADDRESS_SLICE_LENGTH, owner);    struct ParsedExotic {     s: Slice;     isExotic: Int; }  struct GetOpt {     data: Slice;     found: Int; }  struct MerkleProof {     inner: Cell;     hash: Int; }  struct ProofParam {     amount: Int;     startFrom: Int;     expiredAt: Int; }  asm fun beginParseExotic(x: Cell): ParsedExotic { XCTOS }  asm fun dictGetOpt(dict: Cell, key_len: Int, index: Slice): GetOpt {      DICTGET      NULLSWAPIFNOT  }  const notExotic : Int = 103; const notMerkleProof : Int = 104; const wrongHash : Int = 105; const leafNotFound : Int = 108; const proofNotFound : Int = 109; const cellTypeMerkleProof : Int = 3;  const ADDRESS_SLICE_LENGTH : Int = 2 + 1 + 8 + 256; const TIMESTAMP_SIZE : Int = 48;  fun extractMerkleProof(proof: Cell): MerkleProof {     let parsedExotic: ParsedExotic  = beginParseExotic(proof);     throwUnless(notExotic, parsedExotic.isExotic != 0);      let ty: Int = parsedExotic.s.loadInt(8);     throwUnless(notMerkleProof, ty == cellTypeMerkleProof);      return MerkleProof{         inner: parsedExotic.s.loadRef(),          hash: parsedExotic.s.loadUint(256)     }; }  fun checkMerkleProof(proof: Cell, expectedHash: Int): Cell {     let merkleProof: MerkleProof = extractMerkleProof(proof);     throwUnless(wrongHash, merkleProof.hash == expectedHash);     return merkleProof.inner; }  fun getProofParams(submittedProof: Cell, proofRoot: Int, owner: Slice): ProofParam {     let proof: Cell = checkMerkleProof(submittedProof, proofRoot);     let getOpt: GetOpt = dictGetOpt(proof, ADDRESS_SLICE_LENGTH, owner);     throwUnless(proofNotFound, getOpt.found != 0);      let amount: Int = getOpt.data.loadCoins();     let startFrom: Int = getOpt.data.loadUint(TIMESTAMP_SIZE);     let expiredAt: Int = getOpt.data.loadUint(TIMESTAMP_SIZE);      return ProofParam{         amount: amount,         startFrom: startFrom,         expiredAt: expiredAt     }; }
+
+&rey: Параметры точно в таком порядке должны идти? (reply to 329359)
+
+Kirill: Сейчас пробую поменять, но в примере на func так идут (reply to 329360)
+
+Kirill: Не помогло( (reply to 329360)
+
+&rey: index: Slice, dict: Cell, key_len: Int
+
+Kirill: Просто лучший!!!! Я не на тот порядок смотрел, но на самом деле и не знал как правильно) Спасибо большое! (reply to 329363)
