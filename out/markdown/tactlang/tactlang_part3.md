@@ -9761,3 +9761,17 @@ Smooking: Que hago? Hace dos días estoy esperando
 Luna: Hello everyone
 
 Luna: Hi everyone my name is Luna
+
+— 2025-11-12 —
+
+Николай: Hello! I am deploying Tact contracts via TonClient (testnet).  I am using a paid TonCenter token (Plus plan, 25 rps).  Requests such as getMasterchainInfo by key go through, but any sendBoc returns 429 “Ratelimit exceed”.  Example: POST https://testnet.toncenter.com/api/v2/jsonRPC (sendBoc method, cf-ray 99d0420859ffc659-WAW).  Key: fe6bc4cfcc4aeb8f353490e79dc.......  Does anyone have experience with why TonCenter continues to cut sendBoc even on a paid subscription and how to get around it (another endpoint, private lite-server, etc.)?
+
+maksim: toncenter has distinct paid plans for testnet and mainnet, maybe you need to check that you either paid the correct one or that you use correct api key  given this, I didn't have any troubles using paid toncenter, if you are not really breaking ratelimit it should be fine  /sendBoc is just a liteserver method, you don't really need paid api to use it, you can either:  - use public liteserver (slow + unreliable) - rent raw liteserver (check dton or ton-console for this) (reply to 74150)
+
+Николай: Got it. Can you recommend any new TON-based projects for cross-posts or mentions?
+
+— 2025-11-13 —
+
+Anonymous: _layout.tsx
+
+Anonymous: App

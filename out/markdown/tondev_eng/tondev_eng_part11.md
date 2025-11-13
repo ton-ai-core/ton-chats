@@ -7263,3 +7263,37 @@ Combot: Combot has kicked James
 &: Your contract might unable to process normal TON transfer. When you deploy contract, your wallet sends 0.05TON into your new contract(some of them is used for deployment fee). extra is sent to your contract. If your contract don't have any part to handle normal TON transfer part, then your contract will revert  your tx, then 0.0487... TON will be back to your wallet,  Anyway Your contract may succesfuly deployed with no balance. you can check via tonviewer. (reply to 165733)
 
 Zachary: Hi devs! Sharing my open-source project for TON/Telegram integration: telegram-payment-gateway is a payment gateway SDK for Node.js/TypeScript. It lets you accept Telegram Stars, $TON, and fiat payments (with built-in conversion and webhook API). MIT license. npm package: telegram-payment-gateway Install: npm install github:toxzak-svg/telegram-payment-gateway Docs and source: GitHub.com/toxzak-svg/telegram-payment-gateway Happy to get feedback or help other TON/Telegram builders connect—just reply here! (Admins: please let me know if there’s a better format for this post.)
+
+— 2025-11-12 —
+
+🇵🇸: How can I scan the whole blockchain to build an indexer for NFTs? Could anyone suggest a robust architecture design?
+
+Johnny Bravo: Research for it (reply to 165762)
+
+2⃟ꋪꀎ꒒ꍟ: Hey how I found my TON_PLATFORM_PRIVATE_KEY help me
+
+&rey: Exact name of software you are using. (reply to 165775)
+
+2⃟ꋪꀎ꒒ꍟ: I’m developing a website with the help of an AI that’s compatible with The Open Network (TON) smart contracts. It asked me for two private keys — one from Toncenter, which I obtained through a Telegram bot, and another related to Tonkeeper, which I haven’t been able to find. (reply to 165776)
+
+&rey: You know that AIs are not compatible with TON at all, right? They know little of it. (reply to 165777)
+
+2⃟ꋪꀎ꒒ꍟ: I actually found a sample that works about 90% with TON. (reply to 165778)
+
+2⃟ꋪꀎ꒒ꍟ: I almost only need the Tonkeeper API now.
+
+2⃟ꋪꀎ꒒ꍟ: TON_PLATFORM_PRIVATE_KEY
+
+&rey: There wasn't any when I last checked. (reply to 165780)
+
+Антон: Hey everyone! Why are my messages being instantly deleted? I couldn't find the rules for this community, so I don't understand what's wrong.
+
+🇵🇸: Check tonapi.io tonconsole.com that's what used in tonkeeper (reply to 165780)
+
+Антон: I attached a screenshot of my question because it was deleted.
+
+Tim: You can only parse such things from onchain data by yourself, no public api returns nft history
+
+Code: i also dont know, I agree its a bit annoying. Any custom emojis => insta-delete, some banned words (i dont know list), or some links also result in same (reply to 165786)
+
+🇵🇸: For specific collection do we need to preload nft item list data into db? Then scan each block and check address is available in db? (reply to 165791)
