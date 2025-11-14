@@ -2175,6 +2175,18 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "🦀 ton-rs — Idiomatic Rust toolkit for TON builders\n\nWrite TON dApps the Rust way with a modern crate family: ton_core, ton, and ton_macros.\n\n✨ Why devs will love it\n• Type-safe TON primitives: Cells/BOCs, addresses, TL-B parsing/serialization  \n• Zero-boilerplate TL-B: derive layouts with #[derive(TLB)] from ton_macros  \n• Two network clients:\n  – TLClient (behind the tonlibjson feature) using TON’s TonLib API  \n  – Built-in lite client (always available) using ADNL + Lite API  \n• Block.TLB coverage: a large set of predefined block.tlb types in ton/src/block_tlb/  \n  – tx.rs (transactions), msg.rs (messages), tvm_stack.rs (TVM stack) — parse raw chain data & traces out of the box  \n• Practical examples to get you shipping fast\n\nRepo:\nhttps://github.com/ston-fi/ton-rs\n\n#TON #Rust #TONBlockchain #OpenSource"
+    },
+    {
+      "id": 249,
+      "type": "message",
+      "date": "2025-11-13T14:36:51.000Z",
+      "date_unixtime": "1763044611",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "✈️ TEP-526: Scaled UI Standard Adopted for TON\n\nThe Scaled UI standard has been officially adopted, introducing a unified way for wallets and dApps to display token amounts using a scaling factor — enabling advanced token models such as rebasing and yield accrual, while preserving full on-chain accuracy.\n\nThis ensures consistent and transparent balance representation across the TON ecosystem.\n\n❤️ Thanks to the community and early adopters — all teams working with jettons are encouraged to implement this standard for consistent user experience.\n\n📎 https://github.com/ton-blockchain/TEPs/blob/master/text/0526-scaled-ui-jettons.md",
+      "forwarded_from": "TonTech",
+      "forwarded_from_id": "channel1764902466",
+      "forwarded_date": "2025-11-13T14:32:34.000Z"
     }
   ]
 }

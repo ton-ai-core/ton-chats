@@ -7297,3 +7297,15 @@ Tim: You can only parse such things from onchain data by yourself, no public api
 Code: i also dont know, I agree its a bit annoying. Any custom emojis => insta-delete, some banned words (i dont know list), or some links also result in same (reply to 165786)
 
 🇵🇸: For specific collection do we need to preload nft item list data into db? Then scan each block and check address is available in db? (reply to 165791)
+
+— 2025-11-13 —
+
+Combot: Combot has warned Alex (1/3) Reason: 1 reports (reply to 165876)
+
+Albert: I can help (reply to 165449)
+
+Zachary: Hi devs! Sharing my open-source project for TON/Telegram integration: telegram-payment-gateway is a payment gateway SDK for Node.js/TypeScript. It lets you accept Telegram Stars, $TON, and fiat payments (with built-in conversion and webhook API). MIT license. npm package: telegram-payment-gateway Install: npm install github:toxzak-svg/telegram-payment-gateway Docs and source: GitHub.com/toxzak-svg/telegram-payment-gateway Happy to get feedback or help other TON/Telegram builders connect—just reply here! (Admins: please let me know if there’s a better format for this post.)
+
+Zachary: It's about 75% complete.
+
+Гриф: P. S. be aware that there are four errors that the +2 flag does not handle.  That is mentioned at the end of this article. (reply to 165546)

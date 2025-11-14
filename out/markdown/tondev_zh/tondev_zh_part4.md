@@ -11671,3 +11671,7 @@ Andrew: 看这个   https://ton-org.notion.site/Telegram-Star-1b95274bd2cf81a381
 Combot: 363 高盛代发 裙發器 has been banned! Reason: CAS ban.
 
 Combot: Abd Abilash has been banned! Reason: CAS ban.
+
+— 2025-11-13 —
+
+Combot: Dipal has been banned! Reason: CAS ban.

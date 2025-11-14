@@ -4713,3 +4713,37 @@ Viacheslav: аа точно.. оно же исполняется в другой
 Viacheslav: а резервирование должно быть по идее перед самым первым action да? даже если оно не SEND_MODE_CARRY_ALL_REMAINING_MESSAGE_VALUE ?
 
 &rey: Ну, резервирование тоже action... сложно придумать, зачем его между сообщениями ставить, но почему нет. (reply to 329457)
+
+— 2025-11-13 —
+
+Айбек: Спасибо огромное, не знал, что у них есть публичная API (reply to 329406)
+
+Stork: Как в ton keeper сменить язык интерфейса?
+
+Angelina: Через настройки айфона > приложения > tonkeeper > язык (reply to 329478)
+
+Mikle: Предлагаю изменить приветствие (reply to 329480)
+
+zeroxxx: Как в @tonconnect/ui-react при совершении транзакции/подключении кошелька перебрасывать обратно на сайт?
+
+Daniel: <TonConnectUIProvider     manifestUrl="https://ton-connect.github.io/demo-dapp-with-wallet/tonconnect-manifest.json"     uiPreferences={{ theme: THEME.DARK }}     actionsConfiguration={{         twaReturnUrl: 'https://t.me/WebAppWalletBot/myapp'     }} ></TonConnectUIProvider>  twaReturnUrl (reply to 329501)
+
+zeroxxx: благодарю (reply to 329504)
+
+zeroxxx: const result = await tonConnectUI.sendTransaction(transaction, {         returnStrategy: 'back' }); Почему-то до сих пор не перекидывает после удачной транзакции обратно на сайт, может кто-то сталкивался с этим?
+
+Kiba: TON Connect автоматически обрабатывает переходы, и это работает там, где технически возможно.   Не могли бы вы уточнить, между какими платформами у вас не работают переходы? Укажите, пожалуйста: название приложения в Telegram Mini App, название кошелька, версию операционной системы — проверим. (reply to 329515)
+
+zeroxxx: Safari, платформа iOS 18, Tonkeeper v4r2 (reply to 329517)
+
+Kiba: iOS не поддерживает возврат в safari, поэтому там это не работает (reply to 329518)
+
+zeroxxx: спасибо большое
+
+Stork: https://ton.diamonds/ не работают больше ?
+
+zeroxxx: уже давно не работают (reply to 329526)
+
+Аrif: А как сюда попасть? (reply to 324695)
+
+Аrif: Apply here - вписал маил но ничего и не происходит
