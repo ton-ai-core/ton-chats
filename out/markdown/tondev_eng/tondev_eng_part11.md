@@ -7309,3 +7309,41 @@ Zachary: Hi devs! Sharing my open-source project for TON/Telegram integration: t
 Zachary: It's about 75% complete.
 
 Гриф: P. S. be aware that there are four errors that the +2 flag does not handle.  That is mentioned at the end of this article. (reply to 165546)
+
+— 2025-11-14 —
+
+miami: i see that there’s an opportunity for automation engineer in wallets
+
+miami: anyone here can assist ?
+
+miami: i hate the normal form filling route. i just want to talk to someone in charge, show them what im capable of and be judged instantly
+
+miami: 5 years in blockchain  3 years ts/js 2 years ML 1 year AI and automations
+
+final: What can you suggest? (reply to 165920)
+
+final: And what do you hate, pasting address and typing amount to transfer? (reply to 165920)
+
+miami: no i meant job application (reply to 165930)
+
+final: What is your suggestion to replacing it? (reply to 165959)
+
+0xSupersmart_kid: FunC vs Tolk ?  Which is most gas saving and has greater dev resources ?
+
+&rey: Tolk supersedes FunC; it also happens to have more optimizations = more gas saving. (reply to 165972)
+
+0xSupersmart_kid: Thank you. I previously worked with FunC. Was wondering it about time to pick up Tolk (reply to 165973)
+
+Anthony: 🫧 Tolk v1.2: rich bounced messages, cheap deployment, and a breaking change that you'll love  Tolk v1.2 is here, aligned with TVM 12 — bringing new assembler instructions that make contracts cheaper and cleaner.  This update introduces one breaking change, several powerful new capabilities, and a few quality-of-life improvements across the compiler.  ✅ Notable changes in Tolk v1.2:  1. Breaking change: address is now "internal only" 2. Rich bounces: not 256 bits, but the full body on bounce 3. Cheap builder-to-slice, StateInit, and address composition 4. Improved compilation errors 5. Anonymous functions (lambdas) 6. Borrow checker to catch undefined behavior  PR on GitHub with detailed info.  ✔ `address` is now "internal only"  Before: * address meant internal/external/none  Now: * address — internal only * address? (nullable) — internal/none, exactly like "maybe address" in @ton/core * any_address — internal/external/none  In 99% of contracts only internal addresses are used. External ones are rare, and "none" can be expressed as nullable.   struct Storage {     // internal, checked automatically     owner: address }   With new TVM 12 instructions, addresses are validated automatically during (de)serialization without extra gas — no more manual isInternal() checks.  So yes, it's technically a breaking change, but it removes a ton of noise.  A short migration guide, as well as technical details, available here.  ✔ Rich bounced messages  Historically, a bounced message only returned the first 256 bits of the original body.  Now TVM 12 supports rich bounces — which lets you obtain the entire body instead.   createMessage({     bounce: BounceMode.RichBounce,     ... })   In onBouncedMessage, you get access to the original body, exit code, gas used, and more.  Old true/false bounce flags still work for backward compatibility.  Rich bounces simplify complex message flows and inter-contract communication — one of the most painful aspects of TON until now.  ✔ Cheap builder-to-slice and address composition  Previously, converting a builder to a slice (endCell + beginParse) consumed a lot of gas because cells are expensive. Now there's a new instruction — BTOS (builder-to-slice) — without intermediate cell creation.  - b.endCell().beginParse() is now cheap: auto-optimized to BTOS - "builder-to-address" is the same BTOS; hacks around "return a builder with a valid address" can be removed - cheaper StateInit hashing and address calculations  Just update to Tolk v1.2 + TVM 12, and you'll immediately save gas.  ✔ Anonymous functions (lambdas)  Can be used in general-purpose frameworks, perfectly integrated with the type system:   fun customRead(reader: (slice) -> int) { ... }  customRead(fun(s) {     return s.loadUint(32) })   ✔ Low-level compiler enhancements  Also included: better diagnostics with precise ranges, new peephole optimizations, tuple ↔ object conversions, and multiple small fixes. A lightweight borrow checker prevents undefined behavior on concurrent mutations.  As always, all additions are carefully described in a PR.  🌳 We've also started improving TVM itself — new assembler instructions are designed specifically to fit the Tolk type system and optimizer. I have always said: the language is just the beginning. Perfect developer experience requires improving every layer of TON's stack. The road may be sharp and curvy — but we're definitely heading in the right direction. (forwarded from TOLK lang)
+
+&rey: how so? STB is still cheaper than BTOS STSLICE (reply to 165991)
+
+LowKey: GM. Who can I contact regarding the main TON website?. We would like to include Gem Wallet on the page about USDT transfers.   I cannot share links, but it is the page about "USDT on TON"  Gem Wallet is already in the list of wallets. Just want to be included on this page too.
+
+LowKey: I already tried to send an email to partnership but no one has responded for months now.
+
+LowKey: If this is not the correct channel to ask, please someone let me know where I should direct my question to.
+
+Anthony: Hey! Use this link to reach the marketing team https://builders.ton.org/opportunities/marketing (reply to 166003)
+
+LowKey: Thank you! (reply to 166008)

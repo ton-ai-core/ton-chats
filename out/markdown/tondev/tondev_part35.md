@@ -4747,3 +4747,91 @@ zeroxxx: уже давно не работают (reply to 329526)
 Аrif: А как сюда попасть? (reply to 324695)
 
 Аrif: Apply here - вписал маил но ничего и не происходит
+
+— 2025-11-14 —
+
+SubbotinGPT: Есть менее трудозатратные способы совершить каминг-аут (reply to 329549)
+
+User: Откройте контракт жетона и условного stonfi и посмотрите как они между друг-другом взаимодействуют. Вы должны будете примерно сразу понять, что нужно будет вшить opcode во внутрь контракта жетона, с помощью которого вы будете определять свап и снимать комиссию.   Из минусов, это поведение жетонов не будет правильно отображаться в эскплорерах, потому-что не понятно что именно нужно выводить - сумму свапа или ту сумму которая дошла до кошелька юзера (reply to 329549)
+
+Anthony: Join Now -> После он попросит пройти регистрацию на платформе -> А дальше уже вступить в Challenge (reply to 329534)
+
+Anthony: 🫧 Tolk v1.2: rich bounced messages, cheap deployment, and a breaking change that you'll love  Tolk v1.2 is here, aligned with TVM 12 — bringing new assembler instructions that make contracts cheaper and cleaner.  This update introduces one breaking change, several powerful new capabilities, and a few quality-of-life improvements across the compiler.  ✅ Notable changes in Tolk v1.2:  1. Breaking change: address is now "internal only" 2. Rich bounces: not 256 bits, but the full body on bounce 3. Cheap builder-to-slice, StateInit, and address composition 4. Improved compilation errors 5. Anonymous functions (lambdas) 6. Borrow checker to catch undefined behavior  PR on GitHub with detailed info.  ✔ `address` is now "internal only"  Before: * address meant internal/external/none  Now: * address — internal only * address? (nullable) — internal/none, exactly like "maybe address" in @ton/core * any_address — internal/external/none  In 99% of contracts only internal addresses are used. External ones are rare, and "none" can be expressed as nullable.   struct Storage {     // internal, checked automatically     owner: address }   With new TVM 12 instructions, addresses are validated automatically during (de)serialization without extra gas — no more manual isInternal() checks.  So yes, it's technically a breaking change, but it removes a ton of noise.  A short migration guide, as well as technical details, available here.  ✔ Rich bounced messages  Historically, a bounced message only returned the first 256 bits of the original body.  Now TVM 12 supports rich bounces — which lets you obtain the entire body instead.   createMessage({     bounce: BounceMode.RichBounce,     ... })   In onBouncedMessage, you get access to the original body, exit code, gas used, and more.  Old true/false bounce flags still work for backward compatibility.  Rich bounces simplify complex message flows and inter-contract communication — one of the most painful aspects of TON until now.  ✔ Cheap builder-to-slice and address composition  Previously, converting a builder to a slice (endCell + beginParse) consumed a lot of gas because cells are expensive. Now there's a new instruction — BTOS (builder-to-slice) — without intermediate cell creation.  - b.endCell().beginParse() is now cheap: auto-optimized to BTOS - "builder-to-address" is the same BTOS; hacks around "return a builder with a valid address" can be removed - cheaper StateInit hashing and address calculations  Just update to Tolk v1.2 + TVM 12, and you'll immediately save gas.  ✔ Anonymous functions (lambdas)  Can be used in general-purpose frameworks, perfectly integrated with the type system:   fun customRead(reader: (slice) -> int) { ... }  customRead(fun(s) {     return s.loadUint(32) })   ✔ Low-level compiler enhancements  Also included: better diagnostics with precise ranges, new peephole optimizations, tuple ↔ object conversions, and multiple small fixes. A lightweight borrow checker prevents undefined behavior on concurrent mutations.  As always, all additions are carefully described in a PR.  🌳 We've also started improving TVM itself — new assembler instructions are designed specifically to fit the Tolk type system and optimizer. I have always said: the language is just the beginning. Perfect developer experience requires improving every layer of TON's stack. The road may be sharp and curvy — but we're definitely heading in the right direction. (forwarded from TOLK lang)
+
+Аrif: Да спасибо, но на маил ничего не приходит (reply to 329571)
+
+Anthony: А если через gmail oauth зарегистрироваться? (reply to 329575)
+
+Аrif: Попробую
+
+Аrif: Спасибо
+
+Grigorii: Победа!! (reply to 329572)
+
+&rey: Давайте теперь сделаем жетон' с сенд-модами и баунсом от нотификейшна)))
+
+Tim: а со старыми что (reply to 329583)
+
+Grigorii: Теперь новые стандарты делаем (reply to 329582)
+
+&rey: Мигрировать можно, хотя и не обязательно. (reply to 329584)
+
+Viacheslav: https://github.com/ton-blockchain/tolk-bench/tree/master/contracts_Tolk/01_jetton а вот уже вроде обновили. но bounce не рич, а 256бит поставили  val deployMsg = createMessage({                 bounce: BounceMode.Only256BitsOfBody, (reply to 329584)
+
+Viacheslav: а internal/external адреса - в описании новой версии - имеется в виду internal адрес - это когда он в том же  workchain?
+
+Viacheslav: или это не про то
+
+Anton: можно вот тут поспрашивать у ллмки: https://beta-docs.ton.org (reply to 329588)
+
+&rey: Ну, это как раз традиционный вариант. (reply to 329587)
+
+Viacheslav: да,читаю pr - там все подробно написано.  Документация в ton не успевает за обновлениями и приходится читать prы)
+
+&rey: А всё потому, что документацию надо делать внутри самого кода) (reply to 329592)
+
+maksim: как? (reply to 329586)
+
+maksim: блок для новых стандартов жеттонов - невозможность миграции старых
+
+&rey: Выпустить под обеспечение этих старых жетонов. Сжигать те или нет, зависит от каждого конкретного жетона, конечно. (reply to 329595)
+
+Viacheslav: Почему в стандартной имплементации жетона на tolk не используется шардирование при калькуляции нового wallet  адреса? https://github.com/ton-blockchain/tolk-bench/blob/master/contracts_Tolk/01_jetton/jetton-utils.tolk  только в sharded_tgbtc..  есть какие то минусы мб от этого подхода? если нет - то почему по умолчанию такое не сделано в контракте жетона ?
+
+Seitaro: на тот момент главная задача "стандартной имплементации жетона" было не стандарт новый сделать, а переписать старый жетон на толк и сравнить по стоимости с фанси и тактом. поэтому было важно в точности повторить функционал. (reply to 329604)
+
+haha: Всем привет, как можно исправить эту ошибку? {'status': 'error', 'message': 'Liteserver crashed with 651 code. Message: cannot load block (0,8000000000000000,58917009):45D624CABF6750EE8B227BFBA08129F 526B7408123A6FD97457BB87712AAD694:A125CFB75D22769A5657C03D281CAB6DBEBE96BCB0B1421568F9DE66BEC83083 : block (0,8000000000000000,58917009) is not in db (pos sibly out of sync: shard_client_seqno=53958539 ls_seqno=53958539)'}  async def _transfer_procces(self, destination: str, nano_amount: int, payload: str, seed_phrase: str) -> None:         wallet = await WalletV4R2.from_mnemonic(self.provider, seed_phrase)         old_seqno = await wallet.get_seqno()          await wallet.transfer(destination, nano_amount, Builder().one_from_boc(payload))          new_seqno = await wallet.get_seqno()         while new_seqno == old_seqno:             await asyncio.sleep(0.5)             new_seqno = await wallet.get_seqno() self.provider = LiteBalancer.from_mainnet_config(trust_level=2) upd: ошибка появилась после обновления валидаторов
+
+&rey: Подключиться к какому-нибудь лайтсерверу (какой даст) по индексу. (reply to 329619)
+
+haha: как? (reply to 329620)
+
+GafarSky: ребят всем привет ,  может кто подскажет  какой надежный индикатор того , что операция прошла успешно в блокчейне TON  seqno меняется в любом случае , не понимаю как получив данные от api TON понять , что операция прошла успешно.
+
+SubbotinGPT: самая надежная это проверить что поменялось то что должно поменяться
+
+maksim: вот тут можно почитать про модель исполнения на тоне - тк каждая транзакция асинхронна относительно других, нужно дождаться конца цепочки и проверить результат который хочется увидеть (reply to 329633)
+
+SubbotinGPT: например если у вас должен был увеличиться баланс что он увеличился (ну или входящий трансфер дошёл). если задеплоиться контракт что контракт задеплоен. если нфт поменять владельца что владелец новый
+
+GafarSky: да я уже что только не пытался.. вообще это очень странно когда в данных операции нет какого ни-будь банального суккесс: тру/фолс
+
+F: Если время ошибки примерно совпадает со временем вашего сообщения - Нода ушла в рассинхрон, нужно смотреть статус мтк, логи ноды (reply to 329619)
+
+SubbotinGPT: https://t.me/tondev/123723 (reply to 329637)
+
+GafarSky: ну то есть ни как.. =) (reply to 329639)
+
+haha: это паблик нода (reply to 329638)
+
+Hqx5: А не каминг-аут) (reply to 123723)
+
+匿名科技-王也: who can help me? i want the for example,use privetekey to transfer ton and usdt,python3
+
+Mirka: https://github.com/nessshon/tonutils (reply to 329646)
+
+zeroxxx: парни какие флаги проверить что бы удостовериться что транзакция (ext_in_msg, обычный перевод TON) была выполнена успешна? будет ли достаточно получить изменился ли баланс кошелька и проверка bounced=false? https://tonapi.io/api-v2#operations-Traces-getTrace
+
+— 2025-11-15 —
+
+Tim: Там какой то хакатон большой запустили? (reply to 329649)
