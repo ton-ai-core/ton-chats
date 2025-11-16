@@ -7347,3 +7347,55 @@ LowKey: If this is not the correct channel to ask, please someone let me know wh
 Anthony: Hey! Use this link to reach the marketing team https://builders.ton.org/opportunities/marketing (reply to 166003)
 
 LowKey: Thank you! (reply to 166008)
+
+— 2025-11-15 —
+
+●▬۩Mohsen۩▬●: Hi there  How can make a mintable nft items ? Need specific contract for collection and items ?
+
+&rey: You mean, items mintable by users? (reply to 166052)
+
+●▬۩Mohsen۩▬●: yes  exactly... (reply to 166068)
+
+&rey: For one user to mint as many as they want, or at most one? Is image and other metadata configurable by user? (reply to 166069)
+
+●▬۩Mohsen۩▬●: No  Each user mint a single nft  Cost + gas  The images in im my host not ipfs (reply to 166070)
+
+&rey: Does everyone (every single blockchain address) count as a potential user? If so, then person could hold as many blockchain accounts as they want, and your intent "a single nft" is for naught. (reply to 166071)
+
+●▬۩Mohsen۩▬●: Hmm i think yes  i want Each user can mint only one single nft (reply to 166072)
+
+&: Why is this tx skipped? Even TON balance is enough. The next step will be jetton transfer with 0.2TON (reply to 166072)
+
+&: Sometimes it works ok but accidently this error. Which skip actions
+
+Leo: Probably out of fee when sending a message with mode +2
+
+&: out of fee? more detail plz (reply to 166076)
+
+Leo: insufficient message forward fees (reply to 166077)
+
+&: ok then what do you think about this example. which skips action. (reply to 166078)
+
+Leo: didn't get what you mean (reply to 166079)
+
+&: So you mean New Tx's forward fee is bigger than sending TON amount ? (reply to 166078)
+
+Leo: after subtracting storage and compute fees (reply to 166081)
+
+&: You mean for next contract? (reply to 166082)
+
+&: Which B  plan to send tx?
+
+&: ok then to fix this issue. what sould I do? (reply to 166082)
+
+Leo: increase TON amount sent to the contract which skipped the action, of course
+
+&: so should I increase this?
+
+&: Hi can you plz help me with my issue? (reply to 166072)
+
+&rey: Open that last transaction in txtracer and see logs of action phase first. (reply to 166088)
+
+&: this one is issue?
+
+&rey: Apparently the contract wants to send 19.3 TON; it's on you to know what it does with them. (reply to 166091)
