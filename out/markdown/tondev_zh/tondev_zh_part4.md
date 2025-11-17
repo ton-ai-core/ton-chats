@@ -11691,3 +11691,9 @@ Combot: C has been banned! Reason: CAS ban.
 — 2025-11-16 —
 
 Combot: Вакансии has been banned! Reason: CAS ban.
+
+Combot: C has been banned! Reason: CAS ban.
+
+— 2025-11-17 —
+
+Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。

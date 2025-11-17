@@ -7399,3 +7399,7 @@ Leo: increase TON amount sent to the contract which skipped the action, of cours
 &: this one is issue?
 
 &rey: Apparently the contract wants to send 19.3 TON; it's on you to know what it does with them. (reply to 166091)
+
+— 2025-11-17 —
+
+r: Can this be integrated into my app? (reply to 165020)
