@@ -9775,3 +9775,7 @@ maksim: toncenter has distinct paid plans for testnet and mainnet, maybe you nee
 Anonymous: _layout.tsx
 
 Anonymous: App
+
+— 2025-11-17 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)

@@ -7403,3 +7403,37 @@ Leo: increase TON amount sent to the contract which skipped the action, of cours
 — 2025-11-17 —
 
 r: Can this be integrated into my app? (reply to 165020)
+
+Johnny Bravo: Yes
+
+BLUEWAVE: pls I need assistance I'm developing a good project on ton  but the telegram webapp init I'm finding it difficult to connect it properly to the mini app
+
+Abdulrahim: Nice idea, tho your README is currently a mess and hard to read (from the project structure part). Kindly fix it (reply to 165882)
+
+Abdulrahim: Explain your problem clearly (reply to 166229)
+
+BLUEWAVE: ok thank you very much  let me put everything together so you'll understand me (reply to 166243)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 6  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Abdulrahim: Okay (reply to 166251)
+
+Abdulrahim: Please is fragment.com an official telegram website and does it have a public API?
+
+&rey: Kinda is (Telegram might not legally endorse that description), and no publicly documented API. (reply to 166257)
+
+&rey: Regardless, this is off topic of this chat.
+
+レオン: Hello. I want to set up my own storage node. And I followed the docs.ton.org guide. I do have extracted the linux x86_64 binaries from the auto build app images. I do have following problem:   Nov 17 15:26:55 ton-1 storage-daemon[2577]: [ 2][t 4][2025-11-17 15:26:55.394443267][TonlibClient.cpp:845][!GetAccountState]        Unknown code hash: kb7+lEsdl0rqD7aiFaw0BGM+MjCtlj/prp0kkRG1Kuo=  Any ideas why the tonlib doesnt recognizes the deployed contract( has been deployed yesterday with the same binaries)
+
+ＡλＩ: Hi Are there any APIs to directly invoke to buy Telegram Premium or Stars via TON (on chain maybe?!)? Without needing to convert to Stars and use bot libraries.
+
+ＡλＩ: If no... How does https://marketapp.ws, or other similar services, work? (reply to 166311)
+
+Виконт vangaard: I believe such services automatically buy directly from Fragment to the user's account (reply to 166317)
+
+ＡλＩ: So they're using some tricks of scraping and web-automation?! That seems inefficient on large scale... (reply to 166318)
+
+babymoon: Hi TON devs! Hiring freelance for TON Mini App: USDT escrow marketplace (posts, chat, admin panel)  Budget: $350-500 USDT Timeline: 7-10 days MVP  Key: TON-native USDT payment, i18n 17 langs, simple backend (Firebase)  Code in my GitHub private repo, daily push 30% upfront USDT  DM with: - Past TON projects (links) - Quote + timeline  Prefer VN/ID/PH devs for cost/time! Tony (HK)
+
+Виконт vangaard: On-chain data of addresses belonging to third-party stars services show Stars purchases from Fragment almost every second. Such services use their KYC verified account on Fragment to purchase stars on behalf of their users most likely via a Fragment API (reply to 166320)

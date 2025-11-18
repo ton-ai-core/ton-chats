@@ -5217,3 +5217,115 @@ I: Добрый вечер. Никто неполадок с отправкой 
 — 2025-11-17 —
 
 RootTon: Если ты из Рф возможно из за этого (reply to 329919)
+
+I: Да, смена ip на обоих концах моста помогла (
+
+ili: Эх этот блокчейн который не работает((( (reply to 329937)
+
+RootTon: https://igroman787.github.io/global.config.json ру ls (reply to 329941)
+
+RootTon: на всякий скинул)
+
+RootTon: блокчейн работает, рунет мешает, как я понял прочитав пару сообщений в "mytonprovider chat" ркн со своей шизой локают весь трафик который идет за пределы рф, из за чего у меня таким образом к примеру дока тонапи, кофи дексы не робят (reply to 329942)
+
+наз: всем ку, может кто подсказать почему я тут ловлю 9 exit code? (на строке где вытаскиваю opCode)   type ForwardPayloadRemainder = RemainingBitsAndRefs  struct (0x7362d09c) TransferNotificationForRecipient {     queryId: uint64     jettonAmount: coins     transferInitiator: address     forwardPayload: ForwardPayloadRemainder }  var msg = lazy AllowedMessage.fromSlice(in.body);  match (msg) {     TransferNotificationForRecipient => {         var opCode: int = msg.forwardPayload.loadMessageOp();     } }  в форвард пейлоаде лежит число 32 бит
+
+&rey: Так forward payload может лежать по ссылке. Там целый 1 бит есть после sender: address, который говорит, сразу ли вложен payload или по ссылке. (reply to 329949)
+
+наз: мне казалось что там сразу должен распаршенный слайс рефа лежать, там лежит с слайс с битом, а продолжение все что лежит в рефе? (reply to 329950)
+
+&rey: А кто его парсить будет? RemainingBitsAndRefs означает для толка "выдать всё, что там осталось, даже не изучая". (reply to 329951)
+
+наз: понял, пасиб (reply to 329952)
+
+ili: Ппц ркн вонючий((( (reply to 329947)
+
+наз: а как в толке слайс в инт перевести, или как инт в слайс, надо сравнить слайс с интом
+
+Tim: loadUint?
+
+наз: точно, пасиб (reply to 329957)
+
+Danil: тогда терпим? (reply to 329913)
+
+Petr: Все будет, главное не раскачивать лодку (reply to 329984)
+
+/B4ckSl4sh\: Вы ребятки молодые, шутливые, вам бы ещё жить и жить а не сендбокс обновлять (reply to 329985)
+
+Seitaro: 0.39.0 от 29 октября должен поддерживать (reply to 329887)
+
+Danil: Отец знакомого работает в ТОНе. Сегодня срочно вызвали на совещание. Вернулся поздно и ничего не объяснил. Сказал лишь собирать коммиты и бежать в GitHub обновлять сендбокс. Не знаю что происходит, но мне кажется началось... (reply to 329986)
+
+/B4ckSl4sh\: Он поддерживает, но там во вшитом конфиге судя по всему global version 11 (reply to 329987)
+
+Aliaksandr: Перепроверил сейчас, там новый эмулятор и 12 версия в конфиге, так что поддержка всех новых опкодов должна быть
+
+Tim: видишь новые опкоды? а они есть (reply to 329993)
+
+Tim: fadd5a2d53a26c4e8694e9e992c4f53f981655593b24847f19727c1140a255be Дублирую проблемную транзакцию (reply to 329993)
+
+Aliaksandr: а можешь поделится кодом который ты используешь? И версиями tolk/sandbox/blueprint. Не могу воспроизвести Успешная транзакция с деплоем в тестнет 7d7114f7ee8453111ef16ac1100e21698f211b3638806ccfa6f1bd33aa214c02 example в гите https://github.com/Alejandbel/tvm-12-stdaddr (reply to 329879)
+
+fruitful-l: Мой контракт задеплоен без проблем. Я пытаюсь отправить external, и во время его исполнения появляется ошибка (reply to 330000)
+
+Mikle: Твой контракт задеплоен без проблем. Ты пытаешься отправить external, и вовремя его исполнения появляется ошибка
+
+Danya: packItemCode = await myCompile(numericFolder, 'PackNFTItem');  packCollection = blockchain.openContract(                 PackNFTCollection.createFromConfig(                     {                         ownerAddress: owner.address,                         royaltyParams: royaltyParams,                         nftItemCode: packItemCode,                         maxSupply: maxSupply,                         packBuyDict: packBuyDict,                         packUnpackDict: packUnpackDict,                     },                     packCollectionCode                 )             );    Invalid argument        49 |             .storeUint(config.nextItemIndex ?? 0, 64)       50 |             .storeRef(config.content ?? Cell.EMPTY)     > 51 |             .storeRef(config.nftItemCode)          |              ^       52 |             .storeRef(royaltyCell)       53 |             .storeUint(config.maxSupply, 64)       54 |             .storeRef(        at Builder.storeRef (node_modules/@ton/core/dist/boc/Builder.js:258:19)       at Function.configToCell (wrappers/PackNFTCollection.ts:51:14)       at Function.createFromConfig (wrappers/PackNFTCollection.ts:75:40)       at Object.<anonymous> (tests/NftCollection.spec.ts:419:35)  почему Invalid argument? Тесты взяты из репозитория tolk-bench и контракты нфт чуть обновлены.
+
+Viacheslav: Привет.  Какой лучше подход использовать? 1. При получении транзакции проверять что in.valueCoins > in.originalForwardFee + gasForCompute и отправлять остатки юзеру через mode 64 2. Резервировать на контракте сумму достаточную для стораджа на год и после этого отправлять все что есть с контракта юзеру через mode 128
+
+Slava: Только вы сами можете ответить на этот вопрос. (reply to 330014)
+
+Alexey: мне второй подход нравится (reply to 330014)
+
+Alexey: вообще в первом подходе, вроде бы не нужно делать проверки никакие чаще всего, достаточно 64 сенд мода (reply to 330014)
+
+Viacheslav: если не делать проверку, то контракт постепенно потеряет свой баланс, если он будет вызываться с 1 нанотон например. Контракт потратит на  compute phase больше этого -> съест часть собственного баланса. А с проверкой мы это исключаем (reply to 330019)
+
+&rey: Контракт не может потратить на compute phase больше баланса входящего сообщения, если не вызывает accept_message()... (reply to 330020)
+
+Danya: accept_message же вызывается только при external? (reply to 330021)
+
+Viacheslav: это в tvm так прописано? (reply to 330021)
+
+&rey: А здесь интересный факт, который в вайтпеперах только и можно найти.  Что именно значит "принять экстернал"? (reply to 330022)
+
+Viacheslav: согласится платить за compute phase со своего баланса (reply to 330024)
+
+&rey: Да. gas_credit скинуть в ноль и оплатить вычисления с баланса контракта.  У интерналов то же самое. gas_credit там нет, конечно, но изначально газ ограничен суммой входящего сообщения.
+
+/B4ckSl4sh\: Это ненадолго) Статья в бета доках уже есть, это пока PR, но к релизу будет (через несколько дней) (reply to 330024)
+
+Viacheslav: ок, а что насчет action phase?  например in.valueCoins = 100 и мы истратили 99 на compute. И после этого контракт хочет отправить 1 назад юзеру и для этого нужно оплатить forwardFee, actionFee
+
+Viacheslav: получается: actionFee, computedFee и forwardFee для отправки тон назад - все оплачивается из in.valueCoins.  если не хватит на что-то транзакция упадет, а если мы делаем првоерку в начале - то просто может отдать юзеру знакомый ему error code например 123 и в документации у себя написать что если 123 - то добавит ton   правильно?
+
+Viacheslav: все в кучу смешал?)
+
+Viacheslav: вообщем gpt говорит что лучше не допускать VM-fail тк это дороже и будет красивее и понятнее для юзера,если транзакция упадет с понятным юзеру exit code
+
+Viacheslav: Если tolk сам "пасит" входящии транзакции, почему он не может сам пропустить bounce prefix?  fun onBouncedMessage(in: InMessageBounced) {     in.bouncedBody.skipBouncedPrefix();  <------------      val msg = lazy BounceOpToHandle.fromSlice(in.bouncedBody);  получается in.bouncedBody.skipBouncedPrefix нужно писать всегда в первой строке onBouncedMessage функции?
+
+fruitful-l: А 37 почему не понятный? (reply to 330036)
+
+Viacheslav: м.. не знаю) если vm-fail случится в самом конце, то будет типа дороже для юзера тк идет отказ всех action, storage fee И так далее, а так- сделали проверку в начале - хотя.. она тоже забирает тон за свое  compute (reply to 330038)
+
+GafarSky: Всем привет. Подскажите при массовой отправке смена seqno говорит о том, что отправка прошла успешно и если достаточно газа и всего, что необходимо, то все гарантировано дойдет до адресата?  Меня интересует именно момент смены seqno как индикатор, что все Ок. Так ли это?
+
+Slava: Нельзя оценивать результат операции по косвенным данным. (reply to 330040)
+
+GafarSky: А как тогда оценить? У меня нет доступа к документации и только дип сик помощник. Может подскажете? (reply to 330041)
+
+Slava: Это как? (reply to 330042)
+
+Slava: Конкретно смотреть что должно произойти по каждой операции и проверять. (reply to 330042)
+
+GafarSky: Ни чего не открывается со всеми впн которые у меня стоят (их у меня  5 штук) (reply to 330043)
+
+&rey: Вы же пытаетесь открыть https://docs.ton.org, да?
+
+GafarSky: да (reply to 330046)
+
+&rey: Открывается с самого обычного интернета. (reply to 330047)
+
+GafarSky: а вы где территориально находитесь? (reply to 330048)
