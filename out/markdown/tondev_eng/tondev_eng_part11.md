@@ -7437,3 +7437,23 @@ Abdulrahim: Please is fragment.com an official telegram website and does it have
 babymoon: Hi TON devs! Hiring freelance for TON Mini App: USDT escrow marketplace (posts, chat, admin panel)  Budget: $350-500 USDT Timeline: 7-10 days MVP  Key: TON-native USDT payment, i18n 17 langs, simple backend (Firebase)  Code in my GitHub private repo, daily push 30% upfront USDT  DM with: - Past TON projects (links) - Quote + timeline  Prefer VN/ID/PH devs for cost/time! Tony (HK)
 
 Виконт vangaard: On-chain data of addresses belonging to third-party stars services show Stars purchases from Fragment almost every second. Such services use their KYC verified account on Fragment to purchase stars on behalf of their users most likely via a Fragment API (reply to 166320)
+
+— 2025-11-18 —
+
+Ⲧⲟⳑⲁⲛⲃⲟⲩⲉⳳ |: Is there any PHP sample code?
+
+The: Dm (reply to 166321)
+
+Gab: Man .. i will sound like a newbie but i have a problem . When i try to verify one of my contracts on tronscan.org.. i have the famous ,,please confirm the correct parameters and try again,,
+
+Gab: Tf..there is a bug or something ? You guys had already this?
+
+&rey: You're in the wrong chat; this one is about TON. (reply to 166384)
+
+nxrix: Is it possible to get price of a token for an specific pool based on the contract? https://tonviewer.com/EQAvtGe8Nep_XncmQYJrqzWjjdsTaygzL17bvH_8Rjryz1xu?section=method
+
+&rey: It is. Call get_reserves, and then (locally) you need a pool-defined implementation which shows price given liquidity pool size. (reply to 166421)
+
+— 2025-11-19 —
+
+Yumn: Hello

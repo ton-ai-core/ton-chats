@@ -11699,3 +11699,19 @@ Combot: C has been banned! Reason: CAS ban.
 Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的資訊，並遵守群組規則。
 
 Combot: 拉拉 嘟 has been banned! Reason: CAS ban.
+
+— 2025-11-18 —
+
+babymoon: 我需要做一个mini app，报价300-500美元，可以做的dev请私信我
+
+masum: 中文
+
+— 2025-11-19 —
+
+Theressia: 开发TON智能合约的技术员这里有吗?
+
+Theressia: 来一个合作的  价格可以谈。
+
+Andy: 要开发什么类型的，可以聊下 (reply to 103505)
+
+Theressia: 已经@你了 (reply to 103508)
