@@ -11715,3 +11715,15 @@ Theressia: 来一个合作的  价格可以谈。
 Andy: 要开发什么类型的，可以聊下 (reply to 103505)
 
 Theressia: 已经@你了 (reply to 103508)
+
+Combot: 于雨 iatunlL has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #16 — Tolk 1.1 Update  📅 11月20日 周四 19:00 (UTC+8) 🔗 注册获得提醒：https://luma.com/z8mq18nh 📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=5PXxRDwaPKc 👨‍💻 主讲：Andrew · TON 东亚区 Dev Rel  ✨ 课程亮点：Tolk 1.1 Update 上周 Tolk 发布了最新的 1.2 版本，本次基于 TVM 12 引入的新汇编指令集，对内部和外部 adress 进行了明确区分，同时支持 完整的 rich bounces，而不仅仅是 bounce 默认的 256 位，同时还有更多底层功能更新。 (forwarded from TON East Asia Hub)
+
+Combot: 晴天引流-私信-群发-拉人43 shahsavan pour has been banned! Reason: CAS ban.
+
+Anthony: 📚 New TON Documentation is Live  We rebuilt the entire documentation from scratch based on community feedback.  What's new:  ▪️ AI Assistant - Ask questions in plain language and get instant answers from the entire documentation  ▪️ Easier Navigation - Flat structure rewritten by blockchain engineers  ▪️ Comprehensive Guides - New content for blockchain foundations, TON Connect, mytonctrl, Sandbox, Blueprint, smart contracts, and more  ▪️ Dr. Durov's Whitepapers - Now in web format with AI summaries and cross-links  Built with feedback from Zengo, RSquad, TonTech, TON API team, TON Core, and shaped and delivered by TON Studio.  Try it: docs.ton.org   👉 Read more (forwarded from Toncoin)
+
+— 2025-11-20 —
+
+Combot: Louis Louis has been banned! Reason: CAS ban.

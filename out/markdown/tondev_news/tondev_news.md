@@ -667,3 +667,7 @@ Unknown: 🦀 ton-rs — Idiomatic Rust toolkit for TON builders  Write TON dApp
 — 2025-11-13 —
 
 Unknown: ✈️ TEP-526: Scaled UI Standard Adopted for TON  The Scaled UI standard has been officially adopted, introducing a unified way for wallets and dApps to display token amounts using a scaling factor — enabling advanced token models such as rebasing and yield accrual, while preserving full on-chain accuracy.  This ensures consistent and transparent balance representation across the TON ecosystem.  ❤️ Thanks to the community and early adopters — all teams working with jettons are encouraged to implement this standard for consistent user experience.  📎 https://github.com/ton-blockchain/TEPs/blob/master/text/0526-scaled-ui-jettons.md (forwarded from TonTech)
+
+— 2025-11-19 —
+
+Unknown: 📚 New TON Documentation is Live  We rebuilt the entire documentation from scratch based on community feedback.  What's new:  ▪️ AI Assistant - Ask questions in plain language and get instant answers from the entire documentation  ▪️ Easier Navigation - Flat structure rewritten by blockchain engineers  ▪️ Comprehensive Guides - New content for blockchain foundations, TON Connect, mytonctrl, Sandbox, Blueprint, smart contracts, and more  ▪️ Dr. Durov's Whitepapers - Now in web format with AI summaries and cross-links  Built with feedback from Zengo, RSquad, TonTech, TON API team, TON Core, and shaped and delivered by TON Studio.  Try it: docs.ton.org   👉 Read more (forwarded from Toncoin)

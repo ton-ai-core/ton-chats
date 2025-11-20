@@ -7457,3 +7457,17 @@ nxrix: Is it possible to get price of a token for an specific pool based on the 
 — 2025-11-19 —
 
 Yumn: Hello
+
+Leo: How can I claim the usdt coin on testnet? The bot testgiver_ton_usdt_bot does not work now.
+
+Mirka: You can deploy jetton with decimal=6. That's would be enough for 99% of tests (reply to 166443)
+
+Leo: Thanks, I will do it. (reply to 166473)
+
+Jacob: How do I change the wallet used to deploy projects in toncli? I created a token using toncli, but I don't have access to the wallet I minted from.  Is there any way to get the seed phrase or change it to my own?
+
+Anthony: 📚 New TON Documentation is Live  We rebuilt the entire documentation from scratch based on community feedback.  What's new:  ▪️ AI Assistant - Ask questions in plain language and get instant answers from the entire documentation  ▪️ Easier Navigation - Flat structure rewritten by blockchain engineers  ▪️ Comprehensive Guides - New content for blockchain foundations, TON Connect, mytonctrl, Sandbox, Blueprint, smart contracts, and more  ▪️ Dr. Durov's Whitepapers - Now in web format with AI summaries and cross-links  Built with feedback from Zengo, RSquad, TonTech, TON API team, TON Core, and shaped and delivered by TON Studio.  Try it: docs.ton.org   👉 Read more (forwarded from Toncoin)
+
+Code: Really awesome, thanks a lot to the team for this (reply to 166487)
+
+Mehrdad: awsome (reply to 166487)

@@ -2187,6 +2187,22 @@
       "forwarded_from": "TonTech",
       "forwarded_from_id": "channel1764902466",
       "forwarded_date": "2025-11-13T14:32:34.000Z"
+    },
+    {
+      "id": 251,
+      "type": "message",
+      "date": "2025-11-19T16:24:52.000Z",
+      "date_unixtime": "1763569492",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "📚 New TON Documentation is Live\n\nWe rebuilt the entire documentation from scratch based on community feedback.\n\nWhat's new:\n\n▪️ AI Assistant - Ask questions in plain language and get instant answers from the entire documentation\n\n▪️ Easier Navigation - Flat structure rewritten by blockchain engineers\n\n▪️ Comprehensive Guides - New content for blockchain foundations, TON Connect, mytonctrl, Sandbox, Blueprint, smart contracts, and more\n\n▪️ Dr. Durov's Whitepapers - Now in web format with AI summaries and cross-links\n\nBuilt with feedback from Zengo, RSquad, TonTech, TON API team, TON Core, and shaped and delivered by TON Studio.\n\nTry it: docs.ton.org \n\n👉 Read more",
+      "forwarded_from": "Toncoin",
+      "forwarded_from_id": "channel1233043722",
+      "forwarded_date": "2025-11-19T14:42:48.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_251.jpg",
+      "width": 1280,
+      "height": 1276
     }
   ]
 }

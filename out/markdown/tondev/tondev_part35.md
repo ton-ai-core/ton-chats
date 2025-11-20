@@ -5449,3 +5449,101 @@ Danya: а, ну да, вы правы. Спасибо (reply to 330170)
 Sarah: Ever just look at your bills and think, "I need a side hustle that actually works"?  I was there too. Then I started with ATC from home. In one year, I've generated over $70,000 just by participating in daily trades. The platform offers 2% hourly for six days (144 hours)  it's a verified company you can look up. They have great reviews on Trustpilot, and you can withdraw your earnings whenever you want (I get mine weekly).  I'm sharing this because it worked for me. If you're interested, send me a DM with "GROUP" and I'll help you get started.
 
 TON Moderator: Привет, Rasmus Khoon! Прочти правила и нажми кнопку ниже.
+
+RRK KHASAN: Осуждаю (reply to 330211)
+
+RRK KHASAN: Такое
+
+GafarSky: всем привет  я опять с тем же самым вопросом  как можно проверить конкретную  транзакцию выполнена она или нет  в транзакции сообщения с массовыми выплатами   без вэб хуков и прочих подписок   если есть конкретный код на js (пример)  буду благодарен  для получения данных использую ТОН ЦЕНТР v2
+
+maksim: что является критерием успешности? зачисление денег при выплате? про пейменты с тоном можно почитать https://docs.ton.org/payments/toncoin, там в примерах как раз есть ts код с тонцентром вторым
+
+Kirill: Всем привет, подскажите пожалуйста, кто шарит в merkle tree. Правильно ли я понимаю что proof может быть сгенерирован один на все кошельки?
+
+&rey: Как раз нет. (reply to 330233)
+
+&rey: Словарь, кому сколько, один на все кошельки. Но он слишком большой, чтобы пихать его ончейн, и для каждого пользователя берётся одна веточка — пруф.
+
+Kirill: generateMerkleProof а почему этот метод принимает массив адресов?
+
+SubbotinGPT: Ну это философский вопрос. Так то все дерево аккаунтов это и есть пруф на все аккаунты (reply to 330234)
+
+Kirill: Ну это видимо и ответ на мой вопрос (reply to 330235)
+
+&rey: Но если дерево размера такого, что ончейн нормально хранится, то проще его и хранить вместо pruned tree. (reply to 330237)
+
+GafarSky: критерий успешности это кода я через апи получил данные в которых указано , что доставка жетона выполнена успешно (reply to 330230)
+
+Kirill: Сколько не понятных слов) А дерево на 80 тыс это большое? (reply to 330239)
+
+maksim: мапа >1k значений уже небезопасна (reply to 330241)
+
+Kirill: Просто я вот думал заранее для каждого сгеренировать пруф и хранить его в бд, но если конечно хранить один на всех, было бы проще
+
+maksim: для жеттонов вот)  https://docs.ton.org/payments/jettons (reply to 330240)
+
+Kirill: Это как понять? Что именно не безопасно? (reply to 330244)
+
+maksim: большой пруф может не поместится в лимит сообщения просто, так что лучше генерить на каждый кошелек отдельно (reply to 330245)
+
+Kirill: А, ну это аргумент
+
+maksim: ну ончейн, можно упереться в лимит размера аккаунта (reply to 330247)
+
+Kirill: Спасибо
+
+Kirill: Ну условно если я буду генерировать пруф для 100 адресов, это ж будет норм
+
+Kirill: Как будто просто быстрее это сгенерируется
+
+maksim: один из юзкейсов меркла - проверка пруфа за O(1) по памяти и времени, если также генерить его линейно от колва аккаунтов то теряется весь смысл
+
+maksim: зависит от логики, не могу придумать такого юзкейса, но может в твоем контракте и норм (reply to 330253)
+
+Kirill: Понял, спасибо за помощь)
+
+наз: получилось переписать генерацию с тс? (reply to 330258)
+
+Jacob: Как изменить кошелёк с которого деплоятся проекты в toncli? Я создал токен через toncli, но у меня нет доступа к кошельку с которого сминтили
+
+Jacob: Можно как-то получить сид фразу или изменить на свой? (reply to 330272)
+
+&rey: А нет в папках build/ или вроде того? (reply to 330272)
+
+Jacob: Есть папке wallet/build, но там хз как заменить. Ни ключа ни сидки нет (reply to 330275)
+
+&rey: Тогда, должно быть, где-то в AppData. (reply to 330279)
+
+Jacob: Взять .boc который скомпилировал toncli и задеплоить другим способом через свой кошелек возможно?
+
+&rey: Вроде бы да, но у вас в initial data будет не тот кошелёк всё равно. (reply to 330281)
+
+Jacob: Если в тонвивере смотреть, то это даже не кошелёк, нат надписи типо v4r2 итд Там просто пусто (reply to 330280)
+
+Jacob: Это не кошелёк похоже, просто контракт который деплоит (reply to 330283)
+
+&rey: Ну или очень старый кошелёк) (reply to 330284)
+
+Jacob: В toncli можно же изменять адрес владельца токена, или нфт? Допустим, чтобы с кошелька-деплоера минтилось нфт, но появлялось у меня в кошельке
+
+Jacob: Если да то где-то это изменить (reply to 330292)
+
+Anthony: 📚 New TON Documentation is Live  We rebuilt the entire documentation from scratch based on community feedback.  What's new:  ▪️ AI Assistant - Ask questions in plain language and get instant answers from the entire documentation  ▪️ Easier Navigation - Flat structure rewritten by blockchain engineers  ▪️ Comprehensive Guides - New content for blockchain foundations, TON Connect, mytonctrl, Sandbox, Blueprint, smart contracts, and more  ▪️ Dr. Durov's Whitepapers - Now in web format with AI summaries and cross-links  Built with feedback from Zengo, RSquad, TonTech, TON API team, TON Core, and shaped and delivered by TON Studio.  Try it: docs.ton.org   👉 Read more (forwarded from Toncoin)
+
+Kirill: не пробовал, но видимо надо (reply to 330262)
+
+404: здраствуйте, если не сложно скажите что значит uninit у адреса? не могу понять скаманули меня или нет. спасибо!
+
+SubbotinGPT: Значит что адрес не инициализирован. Хз правда чем вам это знание поможет в таком вопросе (reply to 330322)
+
+Виктор 👺: Опробовал новые доки тона) (reply to 330324)
+
+404: понял спасибо !
+
+Planetary engineer: Hello. I would like to report an ongoing issue with the exchange Poloniex regarding TON withdrawals.  Poloniex has been claiming for a long time that “the TON network wallet is under maintenance / upgrade,” however this statement appears to be false. The TON network has no such upgrades that would prevent withdrawals for weeks or months, and other exchanges are operating normally.  As a result, Poloniex has been blocking TON withdrawals for an extended period, while providing only generic template responses. Many users are reporting the same problem across Google Play, social media and crypto forums. This looks like a systematic issue, not an individual case.  Currently I cannot withdraw my TON from Poloniex, and the exchange refuses to provide: - any technical explanation of the issue, - a real timeline, - an official announcement, - or proof that any upgrade is actually taking place.  This situation harms the reputation of TON and creates serious concerns for users. Please take a look at this issue or forward it to the appropriate team inside TON Foundation.  Thank you.
+
+Oleg: Why? CEX exchanges can do whatever they want with you funds, it has nothing to do with TON network and reputation (reply to 330333)
+
+— 2025-11-20 —
+
+Planetary engineer: Is this the official response from the developer? (reply to 330347)
