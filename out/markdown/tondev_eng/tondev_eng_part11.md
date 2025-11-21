@@ -7471,3 +7471,51 @@ Anthony: 📚 New TON Documentation is Live  We rebuilt the entire documentation
 Code: Really awesome, thanks a lot to the team for this (reply to 166487)
 
 Mehrdad: awsome (reply to 166487)
+
+— 2025-11-20 —
+
+Planetary engineer: Hello. I would like to report an ongoing issue with the exchange Poloniex regarding TON withdrawals.  Poloniex has been claiming for a long time that “the TON network wallet is under maintenance / upgrade,” however this statement appears to be false. The TON network has no such upgrades that would prevent withdrawals for weeks or months, and other exchanges are operating normally.  As a result, Poloniex has been blocking TON withdrawals for an extended period, while providing only generic template responses. Many users are reporting the same problem across Google Play, social media and crypto forums. This looks like a systematic issue, not an individual case.  Currently I cannot withdraw my TON from Poloniex, and the exchange refuses to provide: - any technical explanation of the issue, - a real timeline, - an official announcement, - or proof that any upgrade is actually taking place.  This situation harms the reputation of TON and creates serious concerns for users. Please take a look at this issue or forward it to the appropriate team inside TON Foundation.  Thank you.
+
+&rey: It's interesting that you make this demand of TF who has no control over Poloniex, nor over any other inhabitants of TON Blockchain. (reply to 166638)
+
+&rey: Poloniex technical team is welcome to this chat if they have any issues regarding node operation, since the network itself works normally.  If they don't solve it... the worst possibility about Poloniex status should always be held in mind. (reply to 166639)
+
+Planetary engineer: Is this the official response from the developer? (reply to 166639)
+
+&rey: From whom sorry?  The things I've said above are true regardless. (reply to 166643)
+
+Planetary engineer: I thought the same when I was 14 (reply to 166645)
+
+Planetary engineer: In any case, I believe it is my responsibility to warn TON community. The exchange POLONIEX registered in the Seychelles is using a false claim about a “TON network upgrade” to mislead users and remove TON coins from freshly credited deposits. This exchange has already received fines and warnings in the past.  Users from the United States can file complaints with their regulator (FinCEN), and users in the United Kingdom have their own regulator (the FCA) protecting them from this exchange.  The TON founders and the TON Foundation can also react, issue a warning, or take measures, because this exchange is using the TON network as a tool for deception. (reply to 166638)
+
+&rey: If you've been wronged you are welcome to contact the relevant authorities: the domain registrars, regulators, so on.  This chat is about how to develop on TON, and such technical knowledge. (Knowing it shows why TF is not an authority, in particular.) (reply to 166648)
+
+Planetary engineer: Thanks for your opinion, boy, with your permission I'll wait for an official response (reply to 166649)
+
+Combot: F has permanently banned Planetary engineer (reply to 166650)
+
+Ricardo: Hello guys
+
+Ricardo: i am having an issue with v3 transactionsByMessage endpoint
+
+Ricardo: has something changed?
+
+Ricardo: i am getting "failed to validate request: lt and hash should be used together"
+
+F: @toncenter_help_bot (reply to 166689)
+
+Stalooshu: any ton testnet faucet i can use?
+
+Code: @ testgiver_ton_bot (remove space, otherwise it delete my message) (reply to 166713)
+
+Stalooshu: thanks!
+
+Stalooshu: i'm trying to run a testnet single nominator pool
+
+Stalooshu: after having the node up and enabling the single nominator mode, i can't activate the pool as the validator wallet is in an uninit phase
+
+Andrea: How can i run my own node of Ton Storage?
+
+&rey: Instructions are currently at https://old-docs.ton.org/v3/guidelines/web3/ton-storage/storage-provider. (reply to 166721)
+
+&rey: 1) the wallet is deployed during sending something from it (may even send TON to it back) 2) you won't be able to run a testnet validator on low level of TON (reply to 166719)

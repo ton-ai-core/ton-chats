@@ -11727,3 +11727,17 @@ Anthony: 📚 New TON Documentation is Live  We rebuilt the entire documentation
 — 2025-11-20 —
 
 Combot: Louis Louis has been banned! Reason: CAS ban.
+
+Combot: UU5 has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #16 — Tolk 1.1 Update直播开始啦  👨‍💻 主讲：Andrew · TON 东亚区 Dev Rel  ✨ 课程亮点：Tolk 1.1 Update 上周 Tolk 发布了最新的 1.2 版本，本次基于 TVM 12 引入的新汇编指令集，对内部和外部 adress 进行了明确区分，同时支持 完整的 rich bounces，而不仅仅是 bounce 默认的 256 位，同时还有更多底层功能更新。  🔗 直播开始啦： https://x.com/i/broadcasts/1eaJbjmYYyaJX (forwarded from TON East Asia Hub)
+
+TON: 888號現在多少錢一個？
+
+Andrew: https://nums888.io/ (reply to 103603)
+
+BacardiSharma: guys any resources for developing mini apps from scratch tried opening the mini app resource via given links in dorahacks it aint opening
+
+— 2025-11-21 —
+
+Andrew: https://docs.ton.org/ecosystem/tma/overview  https://ton-org.notion.site/2-TG-Mini-App-Development-Guide-2185274bd2cf8047a767faa3c95b3027 (reply to 103645)

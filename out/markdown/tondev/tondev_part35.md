@@ -5547,3 +5547,101 @@ Oleg: Why? CEX exchanges can do whatever they want with you funds, it has nothin
 — 2025-11-20 —
 
 Planetary engineer: Is this the official response from the developer? (reply to 330347)
+
+Planetary engineer: In any case, I believe it is my responsibility to warn the Russian-speaking TON community. The exchange registered in the Seychelles is using a false claim about a “TON network upgrade” to mislead users and remove TON coins from freshly credited deposits. This exchange has already received fines and warnings in the past.  Users from the United States can file complaints with their regulator (FinCEN), and users in the United Kingdom have their own regulator (the FCA) protecting them from this exchange. But people from Russian-speaking CIS countries—who can they turn to? I think this community is exactly the right place to raise this issue.  The TON founders and the TON Foundation can also react, issue a warning, or take measures, because this exchange is using the TON network as a tool for deception.  Here is what they write, literally, word for word: Ton(Ton network) находится на техническом обслуживании. В настоящее время депозиты и снятие средств запрещены. (reply to 330333)
+
+F: @tondev_eng (reply to 330333)
+
+SubbotinGPT: Да поди ноду поднять не могут. Я помню okx как-то две недели чинили и не могли осилить упавшую ноду и потом отставший индекс (reply to 330333)
+
+Андрей: И спросить в общем чате тоже не могут) (reply to 330364)
+
+SubbotinGPT: Не могут кстати (reply to 330365)
+
+Skuli: Напиши мне змейку на питоне (reply to 330366)
+
+Orfield: Ребят привет всем. Может кто посоветовать хорошего маркетолога под нфт проект? Чтобы мог донести ценность проекта грамотным языком и знал инструменты для продвижения?
+
+Oleg: Среди цыган надо искать (reply to 330375)
+
+Kirill: И снова всем привет. Я все так же продолжаю мучать тему с merkletree и теперь у меня появился вопрос как передать пользователю proof. Условно у меня в airdrop учавcтвует 100к пользователей. Как одна из идей нагенерировать все заранее, но если это записывать в бд, то это ужас, это займет примерно 200 мб, можно каждому нагенерировать файл boc и хранить их на s3, но в таком случае я сначала их буду генерировать 100 лет а потом туда их загружать столько же. Так вот, может я что то не понимаю, но выглядит как то не радужно, большие объемы данных и не понятно что с ними делать
+
+Aleksei: Привет. подскажите какие смарт контракты можно написать что бы их потом продать как готовое решение?
+
+Ivan: Давайте считать что 200мб это не много и ничего страшного  тогда проблемы не будет (reply to 330390)
+
+Kirill: Но они генерируются тоже не супер быстро, так как большое дерево
+
+Kirill: типо на 100к кошельков как будто я буду генерировать вечность
+
+Tim: Генерируйте пруф в js на клиенте
+
+Tim: С бека отдавайте полное дерево
+
+Andrey: Как вариант сделать через подписи а не пруфы (reply to 330390)
+
+Kirill: А что за подписи?
+
+Ivan: вам все пруфы по отдельности не нужны надо только дерево сохранить  достать пруф из дерева — легко и быстро (reply to 330393)
+
+Kirill: а 6 мб это не большой файл для фронта, плюс еще надо сгенерировать этот пруф (reply to 330395)
+
+Kirill: Так же доставать пруф const proof = merkleData.generateMerkleProof([addr]); ? (reply to 330399)
+
+Ivan: типа того (reply to 330401)
+
+Kirill: Ну оно работает не быстро)
+
+Kirill: когда дерево из 100к листьев
+
+Freez: Здравствуйте программисты
+
+Василий: Реализация из @ton/core в чистом виде на таком размере вообще не работает. Но есть вот эта штука:https://github.com/Trinketer22/proof-machine Она сыроватая, но может собирать деревья в сотни тысяч записей, при этом потребляя меньше памяти чем если бы вы собирали словарь такого размера в лоб используя плюсовое апи из ton-blockchain. Но работает, естественно, медленнее чем плюсовая реализация. (reply to 330404)
+
+Kirill: Спасибо, а что за реализация на плюсах? (reply to 330407)
+
+Kirill: Это которая от tonkeeper
+
+Tim: Работает. Я даже миллион вроде складывал (reply to 330407)
+
+Василий: https://github.com/ton-blockchain/ton/blob/master/crypto/util/mintless-proof-generator.cpp  Я имел в виду вот эту, но они близкие по сути. Берётся словарь и в лоб на плюсах собирается. (reply to 330409)
+
+Василий: А, пардон. 100K работает конечно. Я 100KK прочитал. (reply to 330410)
+
+Kirill: Жесть, наверно до сих у тебя генерится) (reply to 330410)
+
+Василий: В районе 1KK нода начнёт упираться в лимиты памяти. Пруф машиной собирал 200KK в районе 5 часов, но там от кол-ва потоков зависит. Потребление памяти было в районе 6-8Gb, если я правильно помню. Для сравнения лобовая реализация потребляет в районе 100Gb+ на такой размер. (reply to 330410)
+
+Kirill: Воспользовался генератором на c++, все нагенирировал за 2 минуты, но есть одно но, hash и proof не сходятся с тем что получал в ton/core, это норма или нет?
+
+maksim: не норма, вероятно не туда/не то смотришь
+
+Kirill: Беру один boc файл что выводит c++ [ 3][t 1][2025-11-20 11:30:47.942368][mintless-proof-generator.cpp:250][!proofs] Root hash = 37688FEEDA07A51C54C4F8F24A59DC25B89B3EDD0725AA70B5F0185884E789C4  что выводит js RootHash 37688feeda07a51c54c4f8f24a59dc25b89b3edd0725aa70b5f0185884e789c4  мой код  const bocBuffer = fs.readFileSync(inputPath); const cell = Cell.fromBoc(bocBuffer)[0]; const loadedDict = cell.beginParse().loadDictDirect(     Dictionary.Keys.Address(),     merkleTreeValue );  const merkleRoot = beginCell().storeDictDirect(loadedDict).endCell().hash(0); console.log('RootHash', merkleRoot.toString('hex'))
+
+Tim: В чем отличие?
+
+Kirill: видно что root hash разный
+
+Tim: А что в них разного
+
+Kirill: А блин
+
+&rey: эти два шестнадцатеричных значения равны (reply to 330424)
+
+Kirill: секунду
+
+Kirill: Извиняюсь, я перегрелся
+
+Kirill: С ton/core очень долго как будто, я даже не ждал
+
+Kirill: А на c++ 1-2  минуты
+
+Kirill: Очень быстро
+
+Kirill: Советую
+
+— 2025-11-21 —
+
+Forma.operator: Привет если кому нужен сайт для вашего бизнеса или смм/дизайн, смело обращайтесь ко мне в лс
+
+Aleksei: Привет если кому нужен проект под ключ, или смарт контракты - живо ко мне!
