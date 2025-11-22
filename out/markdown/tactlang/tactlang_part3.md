@@ -9779,3 +9779,9 @@ Anonymous: App
 — 2025-11-17 —
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2025-11-21 —
+
+Princewill Tor-Anyiin: What's happening at TON Web IDE? It keeps giving error message against it's own import "@stdlib/ownable"  Thought it was browser bit not
+
+Dmitrii: 🤔 Извините, я сейчас обдумываю ваше сообщение... (reply to 74517)

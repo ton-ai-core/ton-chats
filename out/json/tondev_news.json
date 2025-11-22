@@ -2203,6 +2203,18 @@
       "file": "photos/photo_251.jpg",
       "width": 1280,
       "height": 1276
+    },
+    {
+      "id": 253,
+      "type": "message",
+      "date": "2025-11-21T16:17:06.000Z",
+      "date_unixtime": "1763741826",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "✈️ We Need Your Feedback on TON \n\nTON teams across the ecosystem are refreshing the strategy, and builders’ input is a key part of that process.\n\nThis is a short 3-question form about real blockers and opportunities you see.\n\nYour feedback may help inform the discussions and priorities across the ecosystem.\n\n📎 https://walletresearch.typeform.com/to/IwFt5CSL",
+      "forwarded_from": "TonTech",
+      "forwarded_from_id": "channel1764902466",
+      "forwarded_date": "2025-11-21T15:15:05.000Z"
     }
   ]
 }

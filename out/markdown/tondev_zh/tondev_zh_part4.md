@@ -11741,3 +11741,11 @@ BacardiSharma: guys any resources for developing mini apps from scratch tried op
 — 2025-11-21 —
 
 Andrew: https://docs.ton.org/ecosystem/tma/overview  https://ton-org.notion.site/2-TG-Mini-App-Development-Guide-2185274bd2cf8047a767faa3c95b3027 (reply to 103645)
+
+Katiya｜TON: 💎Coding Challenge 16 - Tolk 1.1 Update  📅11月21日- 11月30日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记： https://ton-org.notion.site/Tolk-1-2-Update-2b05274bd2cf8018a535c5e917274e03  - 直播视频： https://x.com/TONEastAsia/status/1991460490602770777  👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-16 (forwarded from TON East Asia Hub)
+
+Blackie: 🚀 TON GameFi 开发者，我们需要你！ 你的见解将直接影响 TON GameFi 生态的未来发展。  📝 不到 10 分钟的问卷 👉 https://forms.gle/QbT2ZCPtyVZnLCHXA  感谢你的参与！
+
+Combot: dxcg has been banned! Reason: CAS ban.
+
+Combot: 望 has been banned! Reason: CAS ban.

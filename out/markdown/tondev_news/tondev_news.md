@@ -671,3 +671,7 @@ Unknown: ✈️ TEP-526: Scaled UI Standard Adopted for TON  The Scaled UI stand
 — 2025-11-19 —
 
 Unknown: 📚 New TON Documentation is Live  We rebuilt the entire documentation from scratch based on community feedback.  What's new:  ▪️ AI Assistant - Ask questions in plain language and get instant answers from the entire documentation  ▪️ Easier Navigation - Flat structure rewritten by blockchain engineers  ▪️ Comprehensive Guides - New content for blockchain foundations, TON Connect, mytonctrl, Sandbox, Blueprint, smart contracts, and more  ▪️ Dr. Durov's Whitepapers - Now in web format with AI summaries and cross-links  Built with feedback from Zengo, RSquad, TonTech, TON API team, TON Core, and shaped and delivered by TON Studio.  Try it: docs.ton.org   👉 Read more (forwarded from Toncoin)
+
+— 2025-11-21 —
+
+Unknown: ✈️ We Need Your Feedback on TON   TON teams across the ecosystem are refreshing the strategy, and builders’ input is a key part of that process.  This is a short 3-question form about real blockers and opportunities you see.  Your feedback may help inform the discussions and priorities across the ecosystem.  📎 https://walletresearch.typeform.com/to/IwFt5CSL (forwarded from TonTech)

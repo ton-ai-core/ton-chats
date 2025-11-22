@@ -7519,3 +7519,35 @@ Andrea: How can i run my own node of Ton Storage?
 &rey: Instructions are currently at https://old-docs.ton.org/v3/guidelines/web3/ton-storage/storage-provider. (reply to 166721)
 
 &rey: 1) the wallet is deployed during sending something from it (may even send TON to it back) 2) you won't be able to run a testnet validator on low level of TON (reply to 166719)
+
+— 2025-11-21 —
+
+ENCODER: Hello everyone! Do we have already have decentralized VPS solutions for our TON?
+
+&rey: I think you could find them somewhere at https://ton.app, it's not like it is novel idea. (Check if the project still works prior to sending any assets, and DYOR in general.) (reply to 166757)
+
+ENCODER: I wasn’t able to find anything what might relate… Only a few bots with servers based only in Russia 😅
+
+ENCODER: There’s still no decentralized VPS on TON that feels like a normal server (simple Docker/SSH-style deploy, stable endpoint) but runs on a node network, as I understand.  The core challenge is combining familiar dev UX with strong isolation/security for node providers and on-chain billing/slashing.
+
+Mirka: What do you mean by "decentralized VPS"? I don't understand the concept (reply to 166769)
+
+Bus: Something like AO network? (reply to 166771)
+
+ENCODER: Omg now I have to guess what was the **** word, even though I was polite….
+
+&rey: Strong language (under professional bounds) is rarely the issue; rather, some words used in spam are.  Hint: it stood for "w/o any charge" (reply to 166781)
+
+ENCODER: I can, of course, write up a full concept if there’s interest, but the core idea in short is this: at some point BitTorrent became a revolution of the open internet. It gave us the ability to share petabytes of data without renting servers for millions of dollars, in a decentralized way.  At the same time, the internet today still remains centralized because of centralized VPS infrastructure, and no TON DNS can save us from that yet. As far as I understand, the best we currently have is redirecting traffic to an available node, and even their number is usually limited. Even if someone has built a more reliable system for a specific company, there is still no unified solution for everyone.  The goal is bulletproof resource availability when several major servers fail, and true independence and decentralization of the internet. All of this, of course, built on TON, its cryptocurrency and its community. Aren’t we here to build the internet of the future?  It would be great if every volunteer with a home PC could contribute to resource availability and receive rewards from the fees paid for VPS rental. I’d like to see a world where a data center going down in Hamburg or Moscow is no longer a problem, where every element in the network is useful, and where important resources on the internet can’t just be shut down just because someone “at the top” doesn’t like them.
+
+ENCODER: Thank you, helped to pass through 🙏 (reply to 166783)
+
+Blackie: 🚀 TON GameFi Devs, We Need You!  Your insights can directly shape the future of TON's GameFi vertical.  < 10-minute questionnaire  👉https://forms.gle/QbT2ZCPtyVZnLCHXA  Thank you for your input!
+
+Dhiya Ulhaq: Hi there, I'm software engineer but this is my first time learning blockchain, and I choose TON blockchain and Telegram ecosystem. Nice to meet you all !
+
+Princewill Tor-Anyiin: What's happening at TON Web IDE import error against it's own standard deployable trait. I can't type the import here cause it auto deletes
+
+Free: hello
+
+Slava: How can such a server operate securely? How do you manage secrets? (reply to 166784)
