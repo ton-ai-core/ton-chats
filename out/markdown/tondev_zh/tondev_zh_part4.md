@@ -11749,3 +11749,11 @@ Blackie: 🚀 TON GameFi 开发者，我们需要你！ 你的见解将直接影
 Combot: dxcg has been banned! Reason: CAS ban.
 
 Combot: 望 has been banned! Reason: CAS ban.
+
+— 2025-11-22 —
+
+Combot: Gxfzufx has been banned! Reason: CAS ban.
+
+— 2025-11-23 —
+
+Combot: ابو مرسل has been banned! Reason: CAS ban.

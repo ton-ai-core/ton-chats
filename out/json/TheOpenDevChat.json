@@ -13150,6 +13150,110 @@
       "from_id": "user2131318261",
       "text": "Так. Я нихуя не понял. Все там асинхронно что-то по своим чатегам пишут и надо строить трейсы",
       "reply_to_message_id": 1468
+    },
+    {
+      "id": 1472,
+      "type": "message",
+      "date": "2025-11-22T12:38:28.000Z",
+      "date_unixtime": "1763815108",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "Почему-то Tonviewer не хочет показывать историю адреса из мастерчейна в примере с tgBTC",
+      "reply_to_message_id": 1470
+    },
+    {
+      "id": 1473,
+      "type": "message",
+      "date": "2025-11-22T12:38:55.000Z",
+      "date_unixtime": "1763815135",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "всм?",
+      "reply_to_message_id": 1472
+    },
+    {
+      "id": 1474,
+      "type": "message",
+      "date": "2025-11-22T12:40:28.000Z",
+      "date_unixtime": "1763815228",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "Его любимый способ отображать нулевой адрес и высоко нагруженные транзакциями - не отображать ничего. Но тут почему?",
+      "reply_to_message_id": 1473,
+      "media_type": "photo",
+      "file": "photos/photo_1474.jpg",
+      "width": 707,
+      "height": 1280
+    },
+    {
+      "id": 1475,
+      "type": "message",
+      "date": "2025-11-22T12:41:03.000Z",
+      "date_unixtime": "1763815263",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "у тебя баг, все отображается",
+      "reply_to_message_id": 1474,
+      "media_type": "photo",
+      "file": "photos/photo_1475.jpg",
+      "width": 1142,
+      "height": 738
+    },
+    {
+      "id": 1476,
+      "type": "message",
+      "date": "2025-11-22T12:41:13.000Z",
+      "date_unixtime": "1763815273",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "все ок работает",
+      "reply_to_message_id": 1474
+    },
+    {
+      "id": 1478,
+      "type": "message",
+      "date": "2025-11-22T18:13:14.000Z",
+      "date_unixtime": "1763835194",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "И @bidask явится. Ставить на бой можно будет у нас.\n\n\n@TheOpenDevBlog x @bidask",
+      "forwarded_from": "The Open Dev Blog",
+      "forwarded_from_id": "channel2154553559",
+      "forwarded_date": "2025-11-22T18:13:10.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_1478.jpg",
+      "width": 251,
+      "height": 40
+    },
+    {
+      "id": 1479,
+      "type": "message",
+      "date": "2025-11-22T18:38:17.000Z",
+      "date_unixtime": "1763836697",
+      "from": "Müxā⁸⁴",
+      "from_id": "user154347548",
+      "text": "Предмет маркеты на тон, не новы. Какой УТП будет у bidask?",
+      "reply_to_message_id": 1478
+    },
+    {
+      "id": 1480,
+      "type": "message",
+      "date": "2025-11-22T19:03:06.000Z",
+      "date_unixtime": "1763838186",
+      "from": "Alex",
+      "from_id": "user6139012291",
+      "text": "Так газ не взымается за системные действия tgBTC !? А если пользователь переводит tgBTC другому пользователю газ взымается как за обычную жеттон транзакцию?",
+      "reply_to_message_id": 1470
+    },
+    {
+      "id": 1481,
+      "type": "message",
+      "date": "2025-11-22T19:04:40.000Z",
+      "date_unixtime": "1763838280",
+      "from": "Alex",
+      "from_id": "user6139012291",
+      "text": "Также очень интересно, в коде моста , есть предусмотрено добавление моста, но чтобы стать ещё одним мостом нужно голосование валидаторов!?",
+      "reply_to_message_id": 1470
     }
   ]
 }

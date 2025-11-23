@@ -7551,3 +7551,13 @@ Princewill Tor-Anyiin: What's happening at TON Web IDE import error against it's
 Free: hello
 
 Slava: How can such a server operate securely? How do you manage secrets? (reply to 166784)
+
+— 2025-11-22 —
+
+TON Bounty Bridge: ​t.me/my-bot/tonconnect-manifest.json:  Created by rasoulnouri78
+
+BacardiSharma: guys where to get ton testnet
+
+&rey: In https://t.me/testgiver_ton_bot (reply to 166954)
+
+Shinobi: Hi, I noticed that the domain maleficent.ton has expired on 16.09.2025, but it’s currently not available for purchase. Could you please check why it’s still locked and when it will be released for registration again? (reply to 166955)
