@@ -11757,3 +11757,11 @@ Combot: Gxfzufx has been banned! Reason: CAS ban.
 — 2025-11-23 —
 
 Combot: ابو مرسل has been banned! Reason: CAS ban.
+
+Combot: Benjamin Kbg has been banned! Reason: CAS ban.
+
+Combot: samir zekary has been banned! Reason: CAS ban.
+
+— 2025-11-24 —
+
+Combot: Tanuky00 has been banned! Reason: CAS ban.

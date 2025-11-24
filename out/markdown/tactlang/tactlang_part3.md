@@ -9785,3 +9785,9 @@ Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vot
 Princewill Tor-Anyiin: What's happening at TON Web IDE? It keeps giving error message against it's own import "@stdlib/ownable"  Thought it was browser bit not
 
 Dmitrii: 🤔 Извините, я сейчас обдумываю ваше сообщение... (reply to 74517)
+
+— 2025-11-23 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+Ivan: Hello everyone. How can I test USDT transactions? Based on the documentation, the structure is different

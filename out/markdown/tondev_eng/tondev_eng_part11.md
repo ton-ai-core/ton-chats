@@ -7561,3 +7561,45 @@ BacardiSharma: guys where to get ton testnet
 &rey: In https://t.me/testgiver_ton_bot (reply to 166954)
 
 Shinobi: Hi, I noticed that the domain maleficent.ton has expired on 16.09.2025, but it’s currently not available for purchase. Could you please check why it’s still locked and when it will be released for registration again? (reply to 166955)
+
+— 2025-11-23 —
+
+Mirka: https://t.me/tondev_eng/152421 (reply to 166970)
+
+Free: Hello everyone ! I have a school in tanzania and our students have created a gamified wall for art. can anyone help us verify the contracts. Is there a way to Verify contracts via cli that are working ? Thanks sorry for the newb Questions
+
+Каролина: Is it possible to mint to the NFT wallet somehow, so that the tonkeeper sends a push?
+
+&rey: "Verify" meaning "publish source code which Orbs would attest to match contract bytecode", use "npx blueprint verify". (reply to 167030)
+
+TATAY: Please tell me, I have an NFT chest 'CheQUEs Chests: The Purge'. What should I do with it?
+
+TON Bounty Bridge: ​This issue may have been opened accidentally. I'm going to close it now, but feel free to open a new issue with a more descriptive title!  Created by rasoulnouri78
+
+Mr. Helper: Hello guys.  I am trying to make a telegram bot which is able to process automatic ton withdrawals.  But i keep on receiving this error
+
+Mr. Helper: (node:14512) ExperimentalWarning: Custom ESM Loaders is an experimental feature. This feature could change at any time (Use node.EXE --trace-warnings ... to show where the warning was created) ADDR_NB UQBoe9NE6SwtY4MjtuNz7iRdKN8aaITQ-lWiOolj_REBJiJj ADDR_B EQBoe9NE6SwtY4MjtuNz7iRdKN8aaITQ-lWiOolj_REBJn-m TypeError: HighloadQueryId.from is not a function     at file:///C:/Users/91735/Desktop/twitter_phase_two/services/ton_hlv3/send_hlv3_payment.js:160:27
+
+JOBIANS TECHIE: Where is your code (reply to 167089)
+
+Mr. Helper: In my laptop (reply to 167091)
+
+JOBIANS TECHIE: Ai can help you solve this (reply to 167089)
+
+Emin: hey guys, Emin here from San Francisco. Im getting into TON contracts and was wondering if you have any examples of Tolk written smart contracts other than the counter example on the offical docs page
+
+Mirka: Take a look at https://github.com/ton-blockchain/tolk-bench (reply to 167100)
+
+ToxZak: Anyone want to collaborate on my project or talk about it or anything? I'm new to this but have built a pretty cool thing....
+
+ToxZak: I keep getting banned and please let me know if something isn't allowed. I'm not trying to break any rules or be annoying...
+
+Slava: Probably use TypeScript. (reply to 167089)
+
+Harper: Don’t chase a coin that already exploded; look for the next good opportunity.
+
+Emin: lol, TON is just getting started. there has not been an explosion yet (reply to 167110)
+
+— 2025-11-24 —
+
+Vigen: Amen
