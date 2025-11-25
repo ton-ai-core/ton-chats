@@ -11765,3 +11765,19 @@ Combot: samir zekary has been banned! Reason: CAS ban.
 — 2025-11-24 —
 
 Combot: Tanuky00 has been banned! Reason: CAS ban.
+
+Katiya｜TON: 🎮 招募 GameFi 开发者：一起打造 TON 上的下一代游戏！  TON Foundation 正在向游戏开发者收集一手意见，希望更深入了解当前的 GameFi 生态，找出哪些地方运作良好、哪些地方还需要优化。🚀  这份问卷（⏱️不到 10 分钟）是你提供真实反馈的机会，你的声音将直接影响 TON 在 GameFi 方向的支持、工具与生态建设。  💡 我们欢迎任何建设性的意见，帮助我们为游戏开发者打造更友好的环境。  👉 填写问卷：https://docs.google.com/forms/d/e/1FAIpQLSduFzn-d3UK5SnGsG572Y7PphwM-4BANATlBAPfZkpn1xpq3g/viewform (forwarded from TON East Asia Hub)
+
+Theressia: 来一个能写TON智能合约
+
+Combot: Akram has been banned! Reason: CAS ban.
+
+Combot: M has been banned! Reason: CAS ban.
+
+Combot: Butterfly has been banned! Reason: CAS ban.
+
+Combot: Martin Wieser has been banned! Reason: CAS ban.
+
+— 2025-11-25 —
+
+Combot: 晴天引流-私信-群发-拉人51 Varma has been banned! Reason: CAS ban.
