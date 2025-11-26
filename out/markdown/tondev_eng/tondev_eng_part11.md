@@ -7607,3 +7607,41 @@ Vigen: Amen
 Free: yeah bro dm me same here . (reply to 167104)
 
 TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 6  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+— 2025-11-25 —
+
+Aleksandr: Hi, we are developing mini-app, to allow users split their group bills. You can see MVP in my bio (there is NO referral program). We want to collaborate with Telegram Wallet. Is it possible to discuss this?
+
+&rey: We do not control nor influence ecosystem application "Telegram Wallet" unfortunately. (reply to 167377)
+
+G.Rahimi99: Hello,   How can I contact the TON Station support team?
+
+Mr. Helper: Can I give you code? You can fix? (reply to 167107)
+
+Seamus: Theres not a way to code a button that automatically open the built in ton wallet and pre fills payment details for customer to approve?
+
+Seamus: Deeplinks not working
+
+Tim: Deep links do work, maybe you tried some wrong format? (reply to 167405)
+
+Seamus: They open the wallet but cannot input payment info
+
+Seamus: Interestingly they can put in payment info for ton wallet, but not telegram built in wallet
+
+Tim: Have you tried with Tonkeeper?
+
+Seamus: Tonkeeper deeplinks work 100%
+
+Tim: You can use tonconnect to pass tx data reliably, but it takes more redirects to confirm
+
+Seamus: but users want ton wallet in telegram
+
+Tim: There should be deep link format for wallet in telegram too (reply to 167412)
+
+Thokozani: Hey please , i bought a mining machine on telegram mini apps now they want me to invite friends to withdraw please help me
+
+&rey: That's scam application most probably. Disengage immediately. (reply to 167433)
+
+Thokozani: I first deposited promising immediate payment  after say i should invite friends
+
+&rey: The scheme is well known really and no need to continue describing it. You will most certainly see no money from them whatever you do. (reply to 167435)
