@@ -7645,3 +7645,45 @@ Thokozani: Hey please , i bought a mining machine on telegram mini apps now they
 Thokozani: I first deposited promising immediate payment  after say i should invite friends
 
 &rey: The scheme is well known really and no need to continue describing it. You will most certainly see no money from them whatever you do. (reply to 167435)
+
+— 2025-11-26 —
+
+Nikita: Hey TON devs! 👋  We’re preparing to launch TON Cloud — the first full-featured cloud provider built specifically for the TON ecosystem.  What we’re bringing: • Cloud VM — instantly deployable virtual servers (flexible CPU/RAM, SSD, full API, real-time monitoring) • Floating IP — zero-downtime IP reassignment (perfect for HA and migrations) • Cloud DB & S3-compatible Cloud Storage — coming very soon • Future native integration with TON Storage (decentralized layer) • Payments in TON, USDT, BTC, NOT, MOJAR, GOLD etc directly on-chain  Currently Amsterdam location is prepare to start, Frankfurt & New York coming next.  We’re opening early access for developers and projects.  If you want to be among the first to try TON-native cloud infrastructure (and maybe help us shape the roadmap), sign up here → TON Cloud  Looking forward to your feedback and ideas! 🚀  https://theopennetwork.cloud
+
+&rey: Have you ran that name by... never mind actually. Your legal team at least? (reply to 167493)
+
+Nikita: Yep, we checked it. There’s no registered trademark conflict for ‘TON Cloud’ at the moment, but we’re keeping an eye on it and consulting with legal to stay on the safe side (reply to 167494)
+
+&rey: A nice feature to have IMO would be a TON liteserver hosted nearby, which the virtual servers could contact very quickly.  I wish you the best of luck on this project!
+
+Nikita: Thanks! We actually have a lot of plans aimed at making life easier for TON developers — including developer-focused tooling, server-side solutions, and full platforms built specifically for TON workflows. A hosted TON liteserver is definitely on our radar, along with several features that will help projects deploy, scale, monitor, and secure their TON infrastructure with minimal friction. Really appreciate the feedback — it helps us shape the roadmap! (reply to 167496)
+
+Andrey: Hey, thanks for the project, it sounds interesting. Could you also please provide some use case examples, where this TON Cloud outperforms regular clouds? (reply to 167493)
+
+Nikita: Thanks! Great question  TON Cloud is a full-fledged cloud provider built right inside the TON ecosystem. It handles everything a modern cloud does: 1. blazing-fast VMs 2. floating IPs 3. metrics & monitoring  But on top of that, we add native TON superpowers: 1. One-click deploy for TON-ready setups (node + validator, liteserver, indexer, TON Storage gateways) 2. On-chain billing straight from your wallet (TON, USDT, BTC, NOT, MOJAR, etc.) — no cards, minimal KYC (only when required) 3. Optimized network paths tuned specifically for TON  Result: for any TON-related project it’s faster and smoother than traditional clouds, while working just as great for regular workloads as AWS/GCP/Hetzner.  Basically, a universal cloud with TON superpowers built-in (reply to 167499)
+
+Andrey: Thanks for the reply. I understand the benefits for foundational services (like validator, liteserver, etc.), but I also wonder if you have some examples of TON cloud benefits for the projects like token exchanges (basically not foundational but user-level projects). I guess right now the most of the benefit would come from optimized network paths?  Not trying to be harsh, just want to understand. There’s definitely a value in having a TON-specific cloud, but some aspects looks like a library-level, meaning you can potentially achieve these benefits using a regular cloud. That may unlock new areas without forcing users to switch cloud providers (reply to 167500)
+
+&rey: I'd really hope token exchanges are decentralized (i.e. without ANY servers). (reply to 167503)
+
+Slava: Are these deployed per-project or shared? Do you have pricing details? (reply to 167500)
+
+Nikita: Great questions!   For the one-click TON-ready setups (node + validator, liteserver, indexer, TON Storage gateways), we’ll provide shared nodes hosted by TON Cloud as part of our infrastructure.  At the same time, developers will also have the option to deploy private nodes dedicated to their project, giving full control and isolation. (reply to 167506)
+
+Slava: Also, how do you handle HA? Do you have multi-region/intra-region availability zones? What about SLA?
+
+Nikita: Thanks for the questions!   Here’s how we approach reliability and HA in TON Cloud: 1. High Availability (HA): All core TON services (nodes, liteservers, indexers) can be deployed in redundant setups. If one instance goes down, traffic automatically fails over to another instance. 2. Multi-region & intra-region availability: We’re building TON Cloud with multiple regions in mind. You’ll be able to deploy services across different locations (e.g., Amsterdam, Frankfurt, New York) and even distribute them across intra-region zones for minimal latency and higher resilience. 3. SLA: Our goal is to provide a strong SLA for uptime and performance. Exact numbers are being finalized, but we plan to offer competitive guarantees comparable to mainstream cloud providers while still supporting TON-native features. (reply to 167508)
+
+Slava: I hope you are just copying responses from LLM for convenience and not actually a bot 😅 (reply to 167509)
+
+Nikita: Haha, fair point 😅 In the AI era we really do rely on LLMs a lot — for support, for automation, for faster responses, and it genuinely helps. But no worries: I’m not a bot myself )
+
+F: I would recommend that in your message, as well as in the future, for better understanding by users, you clearly indicate that you are an independent organization (not part of TF). (reply to 167493)
+
+BLUEWAVE: nice project (reply to 167377)
+
+Aleksandr: thanks (reply to 167514)
+
+BLUEWAVE: I looked through it and would love to discuss more further on it (reply to 167516)
+
+Aleksandr: Open to discussion bro (reply to 167517)

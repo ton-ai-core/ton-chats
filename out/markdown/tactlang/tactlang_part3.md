@@ -9791,3 +9791,9 @@ Dmitrii: 🤔 Извините, я сейчас обдумываю ваше со
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
 
 Ivan: Hello everyone. How can I test USDT transactions? Based on the documentation, the structure is different
+
+— 2025-11-26 —
+
+FeedTheChicken 🐟: @CryptoTestnetBot
+
+FeedTheChicken 🐟: This is a test crypto bot (reply to 74594)

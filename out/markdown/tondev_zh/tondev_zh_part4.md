@@ -11783,3 +11783,15 @@ Combot: Martin Wieser has been banned! Reason: CAS ban.
 Combot: 晴天引流-私信-群发-拉人51 Varma has been banned! Reason: CAS ban.
 
 Combot: exequiel jasper tapia has been banned! Reason: CAS ban.
+
+— 2025-11-26 —
+
+Combot: Joege has been banned! Reason: CAS ban.
+
+Steven: bubble butter cup 🍜
+
+Steven: yes no soup just 🧃
+
+Combot: Victoria Thornton has been banned! Reason: CAS ban.
+
+Combot: ฟิล์ม has been banned! Reason: CAS ban.
