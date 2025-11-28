@@ -9797,3 +9797,11 @@ Ivan: Hello everyone. How can I test USDT transactions? Based on the documentati
 FeedTheChicken 🐟: @CryptoTestnetBot
 
 FeedTheChicken 🐟: This is a test crypto bot (reply to 74594)
+
+— 2025-11-27 —
+
+Solify: hi
+
+Solify: I need help
+
+Solify: While I build tact contract, this error occurred. Please help me how to fix it. I'm using Tact-compiler 1.6.13  Error: contracts/evo_mems_collection.tact:45:12: Expected ":"   44 |  > 45 |     struct Item {                         ^   46 |         owner: Address;

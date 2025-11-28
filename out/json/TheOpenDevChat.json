@@ -13254,6 +13254,219 @@
       "from_id": "user6139012291",
       "text": "Также очень интересно, в коде моста , есть предусмотрено добавление моста, но чтобы стать ещё одним мостом нужно голосование валидаторов!?",
       "reply_to_message_id": 1470
+    },
+    {
+      "id": 1483,
+      "type": "message",
+      "date": "2025-11-27T15:05:14.000Z",
+      "date_unixtime": "1764255914",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "А где шард своего валлета чекнуть",
+      "reply_to_message_id": 338
+    },
+    {
+      "id": 1484,
+      "type": "message",
+      "date": "2025-11-27T15:05:50.000Z",
+      "date_unixtime": "1764255950",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "первый символ hex представления вашего воллета (0:adb452719...)",
+      "reply_to_message_id": 1483
+    },
+    {
+      "id": 1485,
+      "type": "message",
+      "date": "2025-11-27T15:06:52.000Z",
+      "date_unixtime": "1764256012",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "А как понять это 1000 или нет",
+      "reply_to_message_id": 1484
+    },
+    {
+      "id": 1486,
+      "type": "message",
+      "date": "2025-11-27T15:07:02.000Z",
+      "date_unixtime": "1764256022",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "не понял вопроса",
+      "reply_to_message_id": 1485
+    },
+    {
+      "id": 1487,
+      "type": "message",
+      "date": "2025-11-27T15:07:10.000Z",
+      "date_unixtime": "1764256030",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "Прост я не догоняю как поставить pton",
+      "reply_to_message_id": 338
+    },
+    {
+      "id": 1490,
+      "type": "message",
+      "date": "2025-11-27T15:09:12.000Z",
+      "date_unixtime": "1764256152",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "Что с этим делать"
+    },
+    {
+      "id": 1491,
+      "type": "message",
+      "date": "2025-11-27T15:09:38.000Z",
+      "date_unixtime": "1764256178",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "с этой сидкой у вас будет кошелек в том же шарде, что и введенный адрес",
+      "reply_to_message_id": 1490
+    },
+    {
+      "id": 1492,
+      "type": "message",
+      "date": "2025-11-27T15:10:44.000Z",
+      "date_unixtime": "1764256244",
+      "from": "Alexey",
+      "from_id": "user108781922",
+      "text": "(не самая актуальная темка пока в тоне один шард)"
+    },
+    {
+      "id": 1493,
+      "type": "message",
+      "date": "2025-11-27T15:10:49.000Z",
+      "date_unixtime": "1764256249",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "Жетоны быстрее будут обмениваться через этот кошелёк?",
+      "reply_to_message_id": 338
+    },
+    {
+      "id": 1494,
+      "type": "message",
+      "date": "2025-11-27T15:10:52.000Z",
+      "date_unixtime": "1764256252",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "тсссс",
+      "reply_to_message_id": 1492
+    },
+    {
+      "id": 1495,
+      "type": "message",
+      "date": "2025-11-27T15:10:55.000Z",
+      "date_unixtime": "1764256255",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "сейчас нет",
+      "reply_to_message_id": 1493
+    },
+    {
+      "id": 1496,
+      "type": "message",
+      "date": "2025-11-27T15:11:33.000Z",
+      "date_unixtime": "1764256293",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "А смысл тогда делать это"
+    },
+    {
+      "id": 1497,
+      "type": "message",
+      "date": "2025-11-27T15:11:42.000Z",
+      "date_unixtime": "1764256302",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "сейчас никакого смысла",
+      "reply_to_message_id": 1496
+    },
+    {
+      "id": 1498,
+      "type": "message",
+      "date": "2025-11-27T15:12:30.000Z",
+      "date_unixtime": "1764256350",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "А когда будет)"
+    },
+    {
+      "id": 1499,
+      "type": "message",
+      "date": "2025-11-27T15:13:31.000Z",
+      "date_unixtime": "1764256411",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "когда в тоне станет больше 1 шарда\nво время флешкраша так было например",
+      "reply_to_message_id": 1498
+    },
+    {
+      "id": 1500,
+      "type": "message",
+      "date": "2025-11-27T15:13:47.000Z",
+      "date_unixtime": "1764256427",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "А"
+    },
+    {
+      "id": 1501,
+      "type": "message",
+      "date": "2025-11-27T15:13:54.000Z",
+      "date_unixtime": "1764256434",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "Ну вы гении"
+    },
+    {
+      "id": 1502,
+      "type": "message",
+      "date": "2025-11-27T15:14:08.000Z",
+      "date_unixtime": "1764256448",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "на момент написания поста в тоне было 4 шарда",
+      "reply_to_message_id": 1501
+    },
+    {
+      "id": 1503,
+      "type": "message",
+      "date": "2025-11-27T15:14:39.000Z",
+      "date_unixtime": "1764256479",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "Ааа",
+      "reply_to_message_id": 1502
+    },
+    {
+      "id": 1504,
+      "type": "message",
+      "date": "2025-11-27T15:14:56.000Z",
+      "date_unixtime": "1764256496",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "А щас есть какой нибудь способ ниже всех покупать/снайпить?"
+    },
+    {
+      "id": 1505,
+      "type": "message",
+      "date": "2025-11-27T15:15:06.000Z",
+      "date_unixtime": "1764256506",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "есть, но мы вам не скажем",
+      "reply_to_message_id": 1504
+    },
+    {
+      "id": 1506,
+      "type": "message",
+      "date": "2025-11-27T15:15:23.000Z",
+      "date_unixtime": "1764256523",
+      "from": "ꘜ Krutoy",
+      "from_id": "user6324128695",
+      "text": "Эх",
+      "reply_to_message_id": 1505
     }
   ]
 }

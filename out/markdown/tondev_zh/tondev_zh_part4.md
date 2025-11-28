@@ -11795,3 +11795,7 @@ Steven: yes no soup just 🧃
 Combot: Victoria Thornton has been banned! Reason: CAS ban.
 
 Combot: ฟิล์ม has been banned! Reason: CAS ban.
+
+— 2025-11-28 —
+
+ا: https://t.me/rinagamingchatgp/192911

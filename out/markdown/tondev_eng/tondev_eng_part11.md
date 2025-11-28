@@ -7687,3 +7687,49 @@ Aleksandr: thanks (reply to 167514)
 BLUEWAVE: I looked through it and would love to discuss more further on it (reply to 167516)
 
 Aleksandr: Open to discussion bro (reply to 167517)
+
+— 2025-11-27 —
+
+🇵🇸: who can tell me how these shard ids are computed ?
+
+&rey: Each shard contains a range of addresses; the first in your screenshot is responsible for <0000000000000000 - shardable 64 bits><any 192-bit ID down there> to 4000000000000000... not inclusive.  The identifier you see is the middle of that range. (reply to 167595)
+
+🇵🇸: i am trying to parse raw masterchain block i want to find all shards unfortunately  i dont know how to produce shard id from shardhashes binTree dict. can you help me this way? (reply to 167596)
+
+🇵🇸: here https://github.com/ton-blockchain/ton/blob/master/crypto/block/block.tlb#L543
+
+Tim: https://github.com/ton-core/ton-lite-client/blob/master/src/client.ts (reply to 167598)
+
+Tim: If you need to parse block to js object - you can generate parser using block.tlb and https://github.com/ton-community/tlb-codegen (reply to 167598)
+
+Tim: https://ton-community.github.io/tlb-editor/ - online option to experiment
+
+&rey: No indication either way. Please keep safe but reasonable; even the most trusted accounts might get broken into, sometimes. (reply to 167612)
+
+Celestial Being: scam?
+
+&rey: Also no indication. It is kinda not right to ask in this chat, though. Off topic. (reply to 167617)
+
+Celestial Being: where should i ask
+
+&rey: That depends on whether you have your suspicions, or something to prove a scam possibly, or just asking? (reply to 167620)
+
+Celestial Being: I'm discussing a collaboration with them on development, so I need to confirm if they are a scam. (reply to 167622)
+
+&rey: You might ask for their portfolio/credentials (make sure to check if it's actually theirs achievement). Mind that number of accounts might not reflect org size. Some respect should be there because they cannot know your trustworthiness beforehand as well. (reply to 167623)
+
+&rey: There is not an official registry of scammers, but if you occur across some you can notify https://t.me/notoscam and/or Tonviewer. (reply to 167623)
+
+Celestial Being: ok, thank you
+
+Tim | unvariant.io: Hey!  I would like to talk to smn related to fragment about a phishing scheme I found and my view on mitigating it partially (spoiler: very nasty scam and very easy fix)
+
+&rey: And this falls out of scope of this chat too. This one is about how to develop one's services for (or, rather, on) TON. (reply to 167631)
+
+Tim | unvariant.io: Pls send me in the right direction if you know it. Sorry for offtop then (reply to 167634)
+
+/godmode: Hi everyone.  I’m looking for a developer who can explain and implement the contracts and the token claim mechanism directly to the user’s wallet in a mini-app (so that Tonkeeper shows “+x jetton_name”), as well as sending 0.1 TON to compensate for the transaction fee when deploying the wallet.  DM me.
+
+Johnny Bravo: Dm (reply to 167641)
+
+&rey: A fixed list of users, or subject to be expanded from backend? (reply to 167641)
