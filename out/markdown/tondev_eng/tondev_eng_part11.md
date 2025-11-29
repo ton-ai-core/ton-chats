@@ -7733,3 +7733,23 @@ Tim | unvariant.io: Pls send me in the right direction if you know it. Sorry for
 Johnny Bravo: Dm (reply to 167641)
 
 &rey: A fixed list of users, or subject to be expanded from backend? (reply to 167641)
+
+— 2025-11-28 —
+
+Seamus: Is there a page to submit ton projects?
+
+Code: "Submit" meaning what? You can checkout https://builders.ton.org/ and http://ton.app/ (reply to 167663)
+
+Seamus: Just a place to list it, so people looking for apps can find it with other projects
+
+𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: How can i create a finance telegram mini app ? , is there any templates or guidelines for it ?
+
+Code: you'll need to be more specific, what does 'finance app' mean? (reply to 167686)
+
+𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: Digital wallet (reply to 167688)
+
+𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: Crypto-related wallet
+
+Code: This one is open-source you could copy but I don't recommend creating a wallet by yourself, they are very hard  https://github.com/mytonwallet-org/mytonwallet
+
+𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: That is alright it is a big project (reply to 167692)

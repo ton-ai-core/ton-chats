@@ -11799,3 +11799,9 @@ Combot: ฟิล์ม has been banned! Reason: CAS ban.
 — 2025-11-28 —
 
 ا: https://t.me/rinagamingchatgp/192911
+
+Logan 🐯: 最近部署合约的教程有嘛
+
+Logan 🐯: 现在部署合约报MailFormed
+
+Combot: Susu has been banned! Reason: CAS ban.
