@@ -26351,6 +26351,15 @@
       "from": "Gloria",
       "from_id": "user8028633988",
       "text": "Good evening everyone"
+    },
+    {
+      "id": 4950,
+      "type": "message",
+      "date": "2025-11-29T18:26:53.000Z",
+      "date_unixtime": "1764440813",
+      "from": "Baran Battal",
+      "from_id": "user1255589151",
+      "text": "Hello everyone\nDoes anyone know of any software companies that hire graduates inspired by programming competitions? Even if they don't have experience in other areas like web development."
     }
   ]
 }

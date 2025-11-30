@@ -5505,3 +5505,7 @@ Baraan Barruu Horan😊: /
 Gloria: Hello
 
 Gloria: Good evening everyone
+
+— 2025-11-29 —
+
+Baran Battal: Hello everyone Does anyone know of any software companies that hire graduates inspired by programming competitions? Even if they don't have experience in other areas like web development.

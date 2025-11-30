@@ -7753,3 +7753,21 @@ Code: you'll need to be more specific, what does 'finance app' mean? (reply to 1
 Code: This one is open-source you could copy but I don't recommend creating a wallet by yourself, they are very hard  https://github.com/mytonwallet-org/mytonwallet
 
 𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: That is alright it is a big project (reply to 167692)
+
+— 2025-11-29 —
+
+Seva: I would, people's weared a wallet centuries ago, so they do now, so they would in the future, some wallets adapt, some appear, that's all about fashion, style n' user's comfort.
+
+&rey: I cannot make any idea of what you meant. What would you like to contribute to exploration of how to develop on TON? (reply to 167849)
+
+Seva: What is your particular question 🙂
+
+Ijeoma chidiebere 🍅: Please I'm new here and I want to learn about Tact programming language
+
+Seva: Check out docs, use better tolk already
+
+Yumn: Hello
+
+— 2025-11-30 —
+
+𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: Hey

@@ -11805,3 +11805,7 @@ Logan 🐯: 最近部署合约的教程有嘛
 Logan 🐯: 现在部署合约报MailFormed
 
 Combot: Susu has been banned! Reason: CAS ban.
+
+— 2025-11-29 —
+
+Andrew: https://docs.ton.org/contract-dev/first-smart-contract (reply to 103952)

@@ -9805,3 +9805,7 @@ Solify: hi
 Solify: I need help
 
 Solify: While I build tact contract, this error occurred. Please help me how to fix it. I'm using Tact-compiler 1.6.13  Error: contracts/evo_mems_collection.tact:45:12: Expected ":"   44 |  > 45 |     struct Item {                         ^   46 |         owner: Address;
+
+— 2025-11-29 —
+
+Ijeoma chidiebere 🍅: Please I'm interested (reply to 72741)
