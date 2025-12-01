@@ -11809,3 +11809,15 @@ Combot: Susu has been banned! Reason: CAS ban.
 — 2025-11-29 —
 
 Andrew: https://docs.ton.org/contract-dev/first-smart-contract (reply to 103952)
+
+— 2025-11-30 —
+
+Combot: Rafael Cannady has been banned! Reason: CAS ban.
+
+iiPay联合创始人—杜爷: 大家对cocoon的到来有什么看法
+
+iiPay联合创始人—杜爷: 大家对cocoon的到来有什么看法
+
+— 2025-12-01 —
+
+Combot: B Rus has been banned! Reason: CAS ban.

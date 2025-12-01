@@ -7771,3 +7771,39 @@ Yumn: Hello
 — 2025-11-30 —
 
 𝖢𝖤𝖮. 𝖭𝖺𝖽𝖾𝗋: Hey
+
+Su_Darshan: Hello 👋, i am trying connect tonkeeper wallet it fails on load manifest, while manifest generation url is fine, can anyone help me on this?
+
+Su_Darshan: this (url:http://localhost:3000/api/tonconnect-manifest)
+
+TON Bounty Bridge: ​Glitch-Styled TON Developer Guide for Smart Contract On  🏷 Resource  Summary:I propose creating a beginner-friendly developer guide for TON smart contracts, styled with glitch o...  Created by Cripster-16
+
+Slava: Hey! The manifest should be publicly available and probably on https. (reply to 167944)
+
+Slava: https://zrok.io/
+
+馬特維: Try to throw a manifest on GitHub and pull it through raw url and everything will work (reply to 167946)
+
+Matt: Hi, I’m Kanotsu. I’m a Full-Stack & Blockchain Engineer with experience across EVM, Stellar, MultiversX, Polkadot, and Web3 integrations.  I’ve worked on wallets, DeFi components, browser extensions, and game logic, focusing on stable delivery and long-term maintenance.  Recent work: • MyKobo – Developing and maintaining a Stellar-integrated EURC wallet (frontend + service integration) • Commune AI – Built the Commune wallet (web + Chrome extension) and integrated multiple chains • Dragonz Land – Implemented task-based reward logic and referral token distribution • OneDex – Worked as lead developer on DEX features and ecosystem components • Polinate – Frontend for a Web3 crowdfunding platform • Ecolab – Web development using React, Angular, Node, and Laravel  If you need help with smart contracts, wallets, Web3 features, frontend/backend development, or maintaining live systems, I’m available for tasks.
+
+&rey: How is this relevant for TON? (reply to 167986)
+
+Aliaksandr: Hey everyone, if you use Raycast, I built an extension to quickly convert TON addresses and resolve .ton domain names. It’s very handy for day-to-day work.  p.s. If you don’t know what Raycast is, I highly recommend checking it out 🙂
+
+ANDY. ꘜ: Hello everyone
+
+𝖣𝖾𝗌𝗂𝗀𝗇𝖾𝗋 𝖣𝖾𝗏 𝖭𝖺𝖽𝖾𝗋: Hey (reply to 167995)
+
+𝖣𝖾𝗌𝗂𝗀𝗇𝖾𝗋 𝖣𝖾𝗏 𝖭𝖺𝖽𝖾𝗋: Hey guys , i have 4.5 ton in my wallet after i sold an nft for 5 ton and a 4.5 ton after tax , but when i want to withdraw it it says an error occurred please try again later , help !
+
+𝖣𝖾𝗌𝗂𝗀𝗇𝖾𝗋 𝖣𝖾𝗏 𝖭𝖺𝖽𝖾𝗋: I tried different VPNs and different devices but it still prompts me with the error occurred please try again later
+
+Mr: /stat@combot
+
+Combot: Total messages: 168008
+
+Seva: https://cocoon.org/
+
+Ammar: 🚀🚀 (reply to 168014)
+
+&rey: I would remind that TDX cannot be trusted except very specific configurations, and until that is verified one can't assume that computations are really hidden. (reply to 168014)
