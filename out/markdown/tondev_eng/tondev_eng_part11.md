@@ -7807,3 +7807,41 @@ Seva: https://cocoon.org/
 Ammar: 🚀🚀 (reply to 168014)
 
 &rey: I would remind that TDX cannot be trusted except very specific configurations, and until that is verified one can't assume that computations are really hidden. (reply to 168014)
+
+— 2025-12-01 —
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 7  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+JC: hello, how are you ?  guys i got this message .. but i already intergrading the app
+
+Mr X | ByteLords ⚡: hi guys, I've just received a message from TONID about action required to integrate analyticsSDK, but is an automate message or do i need to take action as in my project I can see the analytics in there and updated on the TON ID website....
+
+Mr X | ByteLords ⚡: same bro!! welcome in the club (reply to 168060)
+
+JC: haha yeah same ..  what should i do ? (reply to 168062)
+
+Mr X | ByteLords ⚡: lets wait for some big dev to answer ahah (reply to 168064)
+
+JC: okii
+
+Blackie: If you have already integrated the TG Analytics SDK, no action required 😊 (reply to 168062)
+
+Mr X | ByteLords ⚡: Ok thanks! ❤️ (reply to 168071)
+
+Combot: Total messages: 168077
+
+OzzieCrypt: Hi everyone
+
+OzzieCrypt: I have an webapp in telegram, it's on testnet rn i tested transactions on desktop everything was ok but when i tried on mobile i get transcation verification errors
+
+OzzieCrypt: Did anyone faced this issue before
+
+Mr X | ByteLords ⚡: Hey guys, do you know if I need to switch my bot on business mode to unlock the monthly user view?
+
+&rey: Not related to topic of this chat. (reply to 168113)
+
+Mr X | ByteLords ⚡: Ops sorry wrong group 😅 (reply to 168115)
+
+OzzieCrypt: hey test giver bot is not working (reply to 168115)
+
+OzzieCrypt: is there a alternative for it?

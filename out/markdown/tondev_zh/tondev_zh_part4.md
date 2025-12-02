@@ -11821,3 +11821,9 @@ iiPay联合创始人—杜爷: 大家对cocoon的到来有什么看法
 — 2025-12-01 —
 
 Combot: B Rus has been banned! Reason: CAS ban.
+
+Combot: Cokaly has been banned! Reason: CAS ban.
+
+Combot: Id 7 has been banned! Reason: CAS ban.
+
+Combot: Abi Abizar has been banned! Reason: CAS ban.

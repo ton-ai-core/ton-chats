@@ -9809,3 +9809,13 @@ Solify: While I build tact contract, this error occurred. Please help me how to 
 — 2025-11-29 —
 
 Ijeoma chidiebere 🍅: Please I'm interested (reply to 72741)
+
+— 2025-12-02 —
+
+BSE: Hey Guys, does anybody know a solution to wrap/implement our code written in angular to telegram? We're currently exploring options to use telegram/ton ecosystem for our Onchain Proptrading company. Happy for suggestions!
+
+BSE: Would love to have a telegram mini app or something like that, but after a quick check, it seems we would have to rewrite everything.
+
+Slava: TMA is just a regular web app (mostly), you can definitely use Angular to implement TMA.
+
+Slava: However, this is off-topic for this chat.
