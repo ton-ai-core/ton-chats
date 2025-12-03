@@ -9819,3 +9819,7 @@ BSE: Would love to have a telegram mini app or something like that, but after a 
 Slava: TMA is just a regular web app (mostly), you can definitely use Angular to implement TMA.
 
 Slava: However, this is off-topic for this chat.
+
+BSE: Thanks (reply to 75011)
+
+Oliver: hello is there an official MCP for tact ?

@@ -11827,3 +11827,11 @@ Combot: Cokaly has been banned! Reason: CAS ban.
 Combot: Id 7 has been banned! Reason: CAS ban.
 
 Combot: Abi Abizar has been banned! Reason: CAS ban.
+
+— 2025-12-02 —
+
+Combot: Md. Yousuf Ali has been banned! Reason: CAS ban.
+
+Combot: Md Atharul Islam has been banned! Reason: CAS ban.
+
+Combot: E. Kmer has been banned! Reason: CAS ban.

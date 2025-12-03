@@ -7845,3 +7845,51 @@ Mr X | ByteLords ⚡: Ops sorry wrong group 😅 (reply to 168115)
 OzzieCrypt: hey test giver bot is not working (reply to 168115)
 
 OzzieCrypt: is there a alternative for it?
+
+— 2025-12-02 —
+
+Young: Desktop vs. Mobile: On desktop, Telegram Web Apps usually run in a full browser environment with fewer restrictions. On mobile, the app runs inside the Telegram WebView, which has limited support for certain APIs and may handle storage/session differently.  Testnet issues: Mobile WebView might handle network requests differently, especially if your app relies on localStorage or sessionStorage for temporary keys. (reply to 168082)
+
+OzzieCrypt: Thank you for the feedback (reply to 168180)
+
+OzzieCrypt: The issue is transactional verification is never successful on mobile although everything is okay with desktop
+
+Mojisola🍅 🍅: hi, is this no more working for testnet
+
+Mojisola🍅 🍅: testgiver_ton_bot
+
+&rey: Apparently up again. Temporary problems are a persistent feature of testnet installations... (reply to 168189)
+
+&rey: Any chance you could hook console.error and like, or catch exceptions, to display them on screen in toast popups? (reply to 168082)
+
+Code: I use web.telegram.org for debugging - it has console (reply to 168199)
+
+Edmond: Telegram web is pretty neat (reply to 168201)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Hey GM all. How I can have my subdomains NFT display in getgems ? Only collection infos are shown
+
+&rey: To understand better: so you have NFT item contracts, and those don't display somehow? (reply to 168210)
+
+Sent Σ: Hello guys ,  we just integrated  the analytics  sdk into our mini-app  please  how do we know  if its  working
+
+&rey: Wrong chat. I believe https://t.me/devs is about that. (reply to 168227)
+
+XI: Can someone explain how Cocoon from Durov currently works in terms of providing GPU power?  If I have my own GPUs: — what do I need to do to connect them? — where do I apply / register? — how are rewards/payments calculated?  Also, is there any calculator or tool where I can roughly estimate how much computing power I can provide and what it could earn?
+
+El: I built a web app that brings AMM + Limit Orders (STON.fi compatible). UI loads, logic works, but needs expert corrections. Looking for feedback or someone interested in improving it.
+
+&rey: Detailed on the project's site, https://cocoon.org (reply to 168229)
+
+A: Hey I’m looking into spinning up an H100 node on Cocoon and was wondering: where can I see the live earnings or reward ratios for active nodes?   Is there any dashboard or explorer that shows what current node operators are making?
+
+A: I mean dose anybody know the average return per hour?
+
+&rey: Don't quote me on this but someone said 130 TON/day at today's loads. (reply to 168239)
+
+Stalooshu: I'm looking for a single nominator pool contract that is deployed and working properly on testnet, anyone have an example?
+
+Draco: You need a graphics card of the H100 series or higher (reply to 168229)
+
+— 2025-12-03 —
+
+TON Bounty Bridge: ​[Education] How to Set Up Tonkeeper & Buy TON – Beginner Tutorial in English  🏷 Education  Summary:5–10 minute beginner video tutorial (screen recording + English voice-over) showing how to install T...  Rewards: • 150–300 TON (this is fair and almost always accepted for this type of video)  Created by janicegrech1-hash
