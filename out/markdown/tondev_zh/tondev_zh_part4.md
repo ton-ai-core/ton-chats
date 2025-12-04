@@ -11835,3 +11835,19 @@ Combot: Md. Yousuf Ali has been banned! Reason: CAS ban.
 Combot: Md Atharul Islam has been banned! Reason: CAS ban.
 
 Combot: E. Kmer has been banned! Reason: CAS ban.
+
+— 2025-12-03 —
+
+Rose: Heya :) PM me if you have any questions on how to use me! (reply to 104168)
+
+Combot: Ygvu has been banned! Reason: CAS ban.
+
+Combot: Farxc00 has been banned! Reason: CAS ban.
+
+Combot: Farxc00 has been banned! Reason: CAS ban.
+
+Combot: Yuko has been banned! Reason: CAS ban.
+
+— 2025-12-04 —
+
+Combot: Mehdy Aboali has been banned! Reason: CAS ban.

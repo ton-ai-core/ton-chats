@@ -7893,3 +7893,19 @@ Draco: You need a graphics card of the H100 series or higher (reply to 168229)
 — 2025-12-03 —
 
 TON Bounty Bridge: ​[Education] How to Set Up Tonkeeper & Buy TON – Beginner Tutorial in English  🏷 Education  Summary:5–10 minute beginner video tutorial (screen recording + English voice-over) showing how to install T...  Rewards: • 150–300 TON (this is fair and almost always accepted for this type of video)  Created by janicegrech1-hash
+
+Jay: Hello if there are any available smart contract or full stack devs here please DM have a couple of questions
+
+Blackie: https://docs.tganalytics.xyz/faq/how-can-i-check-the-integration-status-of-the-sdk this will help (reply to 168227)
+
+&: why not explain here? (reply to 168287)
+
+Pavel: Hi, can you recommend a wallet connection or authentication provider that supports both EVM chains and TON? I know WalletConnect is planning to integrate TON, but it doesn't seem to be live yet.
+
+JC: NOWPayments . io    i use this (reply to 168332)
+
+— 2025-12-04 —
+
+Yumn: Hello
+
+Vincent: Hi 👋 I’m trying to get some TON for testnet. I used @testgiver_ton_bot . The menu is working. I send my testnet wallet address. The bot says it’s queued but i didn’t receive anything yet. Two days I’m trying. Am i doing something wrong ? Thanks
