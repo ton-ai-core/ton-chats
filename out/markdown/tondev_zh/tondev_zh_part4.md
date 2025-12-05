@@ -11851,3 +11851,15 @@ Combot: Yuko has been banned! Reason: CAS ban.
 — 2025-12-04 —
 
 Combot: Mehdy Aboali has been banned! Reason: CAS ban.
+
+Katiya｜TON: Live Coding Course #17 — Cocoon架构分析  📅 12月4日 周四 20:00 (UTC+8) 🔗 注册获得提醒：https://luma.com/0fnd6kgp 📺 X & YouTube 同步直播：https://www.youtube.com/watch?v=8y4CQhpbFso 👨‍💻 主讲：Andrew · TON 东亚区 Dev Rel ✨ 课程亮点：Cocoon架构分析  在 10 月底在迪拜举行的 Blockchain Life 2025 大会上，Telegram 创始人兼TON生态系统创始人 Pavel Durov 宣布将推出了一个名为 Cocoon 的新平台。Cocoon 是一个基于 TON 区块链的去中心化 AI 推理平台，旨在让 GPU 所有者提供计算资源，用于隐私敏感的 AI 模型执行应用。 本次会给大家介绍 Cocoon 的架构和合约设计。 (forwarded from TON East Asia Hub)
+
+Combot: Hc has been banned! Reason: CAS ban.
+
+Combot: Isfaque Jahan Plabon has been banned! Reason: CAS ban.
+
+Combot: Jennifer Johnson has been banned! Reason: CAS ban.
+
+— 2025-12-05 —
+
+Combot: Djo has been banned! Reason: CAS ban.

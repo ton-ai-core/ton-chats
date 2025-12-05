@@ -7909,3 +7909,117 @@ JC: NOWPayments . io    i use this (reply to 168332)
 Yumn: Hello
 
 Vincent: Hi 👋 I’m trying to get some TON for testnet. I used @testgiver_ton_bot . The menu is working. I send my testnet wallet address. The bot says it’s queued but i didn’t receive anything yet. Two days I’m trying. Am i doing something wrong ? Thanks
+
+Андрей: The bot sending test coins: https://testnet.tonscan.org/address/kQCSES0TZYqcVkgoguhIb8iMEo4cvaEwmIrU5qbQgnN8ftBF (reply to 168409)
+
+Code: yea its a bit annoying becauase it doesnt tell you if it succeeds or not, but usually I get it within a minute or so (reply to 168409)
+
+Vincent: Thanks 🙏 it was actually my bad because I was checking the value in $ and not the transactions on the wallet.
+
+&: Testnet faucet bot will be run 24/7 but  at around GMT 00:00.it can be sometimes stop. anyway it's really short time (few minutes or less) so don't worry or ask on testnet faucet problem. (reply to 168409)
+
+Ackermann: Need help, wrote this contract it works while testing with blueprint but fails when integrated  and called from frontend .  And when I send ton to the contract the state still remains inactive
+
+Ackermann: @pcrafter (reply to 168455)
+
+&: why don't you deploy on testnet and perform test? (reply to 168455)
+
+Ackermann: That’s what I’m doing but it keeps bouncing and the account state doesn’t change (reply to 168458)
+
+Ackermann: But when I try deploying to testnet using blueprint it works
+
+Ackermann: But when I connect to frontend to use with ton connect it doesn’t
+
+&rey: Attach contract's StateInit to the message as well. (reply to 168455)
+
+&: share address
+
+Ackermann: I did (reply to 168462)
+
+Ackermann: import {   Address,   beginCell,   type OpenedContract,   toNano, } from "@ton/core"; import { JettonMinterStandard } from "../contract/jettonStandard"; import { useAsyncInitialze } from "./useAsyncInitialize"; import { useTonClient } from "./useTonClient"; import { useTonConnect } from "./useTonConnect";  // import { useEffect, useState } from "react";  // const sleep = (ms: number) => { //   return new Promise((resolve) => setTimeout(resolve, ms)); // };  export type JettonMinterContent = {   type: 0 | 1;   uri: string; };  function jettonContentToCell(content: JettonMinterContent) {   return beginCell()     .storeUint(content.type, 8)     .storeStringTail(content.uri) //Snake logic under the hood     .endCell(); }  export function useJettonMinterStandard(jettonContent: JettonMinterContent, tokenSupply: string) {   const { sender, userAddress } = useTonConnect();   const { client } = useTonClient();   const jettonMinterStandardContract = useAsyncInitialze(     async () => {       if (!client) return;        const contract = await JettonMinterStandard.fromInit(         toNano("0"),         Address.parse(userAddress),         jettonContentToCell(jettonContent),         true       );       return client.open(contract) as OpenedContract<JettonMinterStandard>;     },     [client, userAddress, jettonContent.type, jettonContent.uri]   );    return {     deployStandard: async()=>{       const result = await jettonMinterStandardContract?.send(         sender,         {           value: toNano("0.03")         },         null       )       return result;     },      mintTokens: async()=>{       const result = await jettonMinterStandardContract?.send(         sender,         {           value: toNano("0.03"),         },         {           $$type: "Mint",           queryId: 1n,           receiver: Address.parse(userAddress),           tonAmount: toNano('0.01'),           mintMessage: {             $$type: "JettonTransferInternal",             queryId: 2n,             amount: toNano(tokenSupply),             sender: Address.parse(userAddress),             responseDestination: Address.parse(userAddress),             forwardTonAmount: toNano("0"),             forwardPayload: beginCell().endCell().asSlice(),           },         }       );       return result;     },     tokenAddress: jettonMinterStandardContract?.address,   }; }
+
+Ackermann: Here’s my code
+
+&: return {     deployStandard: async()=>{       const result = await jettonMinterStandardContract?.send(         sender,         {           value: toNano("0.03")         },         null       )       return result;     }, this code part will deploys smart contract?
+
+Ackermann: yes? (reply to 168467)
+
+&: ok then plz use blueprint CLI to deploy smart contract. It's much easier and clear
+
+Ackermann: The goal is to have each user on our platform deploy their minter contract (reply to 168469)
+
+&: ok then you have to include compiled code + stateinit in the deploy tx message. Sending only TON is not the solution. Check TON document.
+
+&rey: Apparently some blueprint-specific magic here. (reply to 168468)
+
+Ackermann: So whats the best way to fix this???
+
+&rey: { value: toNano('0.01'), stateInit: ... }
+
+&: you have to include compiled code + stateinit in the deploy tx message. Sending only TON is not the solution. Check TON document. (reply to 168473)
+
+&: Your current code is TON transfer. not a deploy (reply to 168465)
+
+Ackermann: This throws error (reply to 168474)
+
+&rey: What error? (reply to 168478)
+
+Ackermann: deployStandard: async()=>{       const result = await jettonMinterStandardContract?.send(         sender,       { value: toNano('0.01'), stateInit: jettonMinterStandardContract.init!},         null       )       return result;     },
+
+Ackermann: can you point me to documentation referencing this, so It's easy??
+
+&rey: What is the full error text? (reply to 168480)
+
+Ackermann: Object literal may only specify known properties, and 'stateInit' does not exist in type '{ value: bigint; bounce?: boolean | null | undefined; }'.ts(2353) ⌘+click to open in new tab (property) stateInit: {     code: Cell;     data: Cell; }
+
+&rey: Got it. You can simply use await client.sendTransaction then. (reply to 168484)
+
+Ackermann: deployStandard: async (jettonContent: JettonMinterContent) => {       const result = await client?.sendExternalMessage(         jettonMinterStandardContract as OpenedContract<JettonMinterStandard>,         jettonContentToCell(jettonContent)       );       return result;     },
+
+Ackermann: You mean like this??
+
+&rey: I don't. (reply to 168489)
+
+&rey: I mean abandoning client.open(contract) at all and using await client.sendTransaction({     validUntil: Math.floor(+Date.now() + 60),     messages: [ { ..., stateInit: ... } ] });
+
+Ackermann: Property 'sendTransaction' does not exist on type 'TonClient'. Did you mean 'getTransaction'?ts(2551) TonClient.d.ts(105, 5): 'getTransaction' is declared here.
+
+&rey: On sender then
+
+Ackermann: it worked @pcrafter
+
+Ackermann: Now I'm getting exit code 40 when its calling the mint message
+
+Ackermann: mintTokens: async () => {       console.log("[useJettonMinterStandard] mintTokens start", {         tokenSupply,         userAddress,       });        if (!userAddress) {         throw new Error(           "User address is not available. Please connect your wallet."         );       }        if (!tonConnectUI) {         throw new Error("TonConnect UI is not initialized.");       }              const { address: contractAddress } = await getContractStateInit();       console.log(         "[useJettonMinterStandard] Minting to contract",         contractAddress       );        const receiverAddress = Address.parse(userAddress);       const mintAmount = toNano(tokenSupply || "0");             const mintMessage: JettonTransferInternal = {         $$type: "JettonTransferInternal",         queryId: BigInt(Date.now()),         amount: mintAmount,         sender: receiverAddress,         responseDestination: receiverAddress,         forwardTonAmount: 0n,         forwardPayload: beginCell().endCell().asSlice(),       };               const mintPayload: Mint = {         $$type: "Mint",         queryId: BigInt(Date.now()),         receiver: receiverAddress,         tonAmount: toNano("0.01"),          mintMessage: mintMessage,       };               const mintBody = beginCell().store(storeMint(mintPayload)).endCell();        console.log("[useJettonMinterStandard] Mint message prepared", {         receiver: receiverAddress.toString(),         amount: mintAmount.toString(),       });        const mintResult = await tonConnectUI.sendTransaction({         messages: [           {             address: contractAddress,             amount: toNano("0.08").toString(),              payload: mintBody.toBoc().toString("base64"),           },         ],         validUntil: Math.floor(Date.now() / 1000) + 360,       });        console.log("[useJettonMinterStandard] mintTokens tx result", mintResult);       return mintResult;     },
+
+Ackermann: I tried increasing amount of ton to send with message but it still didn't work
+
+&rey: 1. Tried increasing mintPayload.tonAmount already? 2. Transaction hash? (reply to 168500)
+
+Ackermann: https://testnet.tonviewer.com/transaction/86baba2d88b4a99d8c5b2b07499d0fccab705c74da4e7976ad299275d98ed320 (reply to 168504)
+
+&rey: Your code is somewhy trying to send 0 TON with mode 0. (reply to 168506)
+
+&rey: Fix that in the contract.
+
+Ackermann: deploy(DeployParameters {             value: 0,             mode: SendRemainingValue,             bounce: true,             body: JettonTransferInternal {                 queryId: msg.queryId,                 amount: msg.amount,                 sender: self.owner,                 responseDestination: msg.responseDestination,                 forwardTonAmount: msg.forwardTonAmount,                 forwardPayload: msg.forwardPayload,             }.toCell(),             init: initOf JettonWallet(0, msg.destination, self.minter, self.timeLapse, self.minterOwner, self.dedustVaultAddress, self.dedustRouterAddress, self.poolAddress, self.liquidityDepositAddress),         });
+
+Ackermann: This is the place
+
+Ackermann: @pcrafter
+
+Ackermann: Fixed it
+
+Ackermann: Thanks
+
+М0хамм4д: However, Pavel and the larger TON team could have implemented — and still can implement — a secure recovery option for TON tokens, such as verification through the connected account or other safe methods, to prevent users from encountering issues like this.
+
+Edmond: Exactly (reply to 168521)
+
+&rey: You already have that design out in the banking system. Blockchain is built on other ideas; some TON, for example, are intentionally left inaccessible. (reply to 168521)
+
+М0хамм4д: About 5 days ago, my ID listed on Fragment was sold, and the TON was sent to my old TONKEEPER wallet, which I haven’t used for over a year. I no longer have access to the private key, so I cannot access the funds.  I fully respect the rules and want to resolve this issue legally. I understand some TON tokens are intentionally inaccessible, but I hope a safe recovery option could help in cases like mine.  I would greatly appreciate any guidance or assistance you can provide. Thank you for your time and support. (reply to 168523)
+
+DeFi: As you were already told in the other chat, there is no support that can help you. No one else has access to your private keys or your seed phrase. You were supposed to save those yourself and keep them safe and secure. (reply to 168524)
+
+Mirka: If you remember some words, you can try brute-forcing, but 99% it won't work.   Duplicating your seed phrase (private key) in multiple places is the best way to secure your funds and keep the blockchain secure. There is no mechanism to return your funds if you don't have the key for now. (reply to 168524)
