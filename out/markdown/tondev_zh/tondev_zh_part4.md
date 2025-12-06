@@ -11863,3 +11863,15 @@ Combot: Jennifer Johnson has been banned! Reason: CAS ban.
 — 2025-12-05 —
 
 Combot: Djo has been banned! Reason: CAS ban.
+
+Katiya｜TON: 💎Coding Challenge 17 - Cocoon架构分析  📅12月5日- 12月14日 🏆 本轮编程挑战的优胜者将获得 1 年 Telegram Premium 会员奖励！  📒课程回顾： - Notion 精华笔记：https://ton-org.notion.site/Cocoon-2bd5274bd2cf80cbadcac29208639b0f - 直播视频： https://x.com/TONEastAsia/status/1996549054642426307 👉点击此处pull requests参赛，提交你的代码： https://github.com/ton-builders/ton-coding-challenge-25-round-17 (forwarded from TON East Asia Hub)
+
+Combot: Kyaw Htet Naing has been banned! Reason: CAS ban.
+
+Andrew: 🫧 Tolk documentation — now complete and available for learning from scratch  From now on, Tolk has full, structured, from-scratch documentation — not just "Tolk vs FunC", but a complete language guide that lets developers approach Tolk directly, without any FunC background.  This is a major milestone. Tolk is the recommended language for TON, and now it finally has documentation that matches this role.  Read →  ↓ What's inside  The documentation covers the entire language:  ❶ Type system. Every type on its own page: numbers, addresses, structures, generics, etc. — plus overall explanations for TVM layout and serialization.  ❷ Syntax details. Functions, conditions, loops, exceptions, and more — with minimal descriptions and clear examples.  ❸ Language features. Everything needed for smart-contract development: message sending, contract storage, automatic serialization, etc.  ❹ Migration from FunC. A complete guide for FunC builders — including the mindset shift Tolk encourages.  ... And several articles for experienced divers. They reveal compiler internals and the language philosophy. My favourite — Stop thinking in TL-B.  ㉈ Hundreds of examples  Every distinct aspect is covered with usage examples — properly highlighted in both light and dark mode.  No matter whether you are new to TON or have been here for years — you'll definitely find a few tricks you've never seen before.  ∞ This documentation in numbers  All together, the new Tolk documentation contains:   • 46 pages   • 480 snippets   • 40000 words   • 280000 characters  I invested ~200 hours developing the text and picking every word. I hope that, cumulatively, this documentation will save noticeably more time for all TON developers.  → Start reading  https://docs.ton.org/languages/tolk  🌳 Thanks to everyone who reviewed the pull request and pointed out occasional mistakes or misprints. Just imagine the amount of content they had to deal with. (forwarded from TOLK lang)
+
+Combot: Vjbj has been banned! Reason: CAS ban.
+
+Combot: Chahine has been banned! Reason: CAS ban.
+
+Combot: Natasha Alexander has been banned! Reason: CAS ban.

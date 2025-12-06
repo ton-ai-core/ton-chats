@@ -2215,6 +2215,18 @@
       "forwarded_from": "TonTech",
       "forwarded_from_id": "channel1764902466",
       "forwarded_date": "2025-11-21T15:15:05.000Z"
+    },
+    {
+      "id": 255,
+      "type": "message",
+      "date": "2025-12-05T09:13:43.000Z",
+      "date_unixtime": "1764926023",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🫧 Tolk documentation — now complete and available for learning from scratch\n\nFrom now on, Tolk has full, structured, from-scratch documentation — not just \"Tolk vs FunC\", but a complete language guide that lets developers approach Tolk directly, without any FunC background.\n\nThis is a major milestone. Tolk is the recommended language for TON, and now it finally has documentation that matches this role.\n\nRead →\n\n↓ What's inside\n\nThe documentation covers the entire language:\n\n❶ Type system.\nEvery type on its own page: numbers, addresses, structures, generics, etc. — plus overall explanations for TVM layout and serialization.\n\n❷ Syntax details.\nFunctions, conditions, loops, exceptions, and more — with minimal descriptions and clear examples.\n\n❸ Language features.\nEverything needed for smart-contract development: message sending, contract storage, automatic serialization, etc.\n\n❹ Migration from FunC.\nA complete guide for FunC builders — including the mindset shift Tolk encourages.\n\n... And several articles for experienced divers. They reveal compiler internals and the language philosophy. My favourite — Stop thinking in TL-B.\n\n㉈ Hundreds of examples\n\nEvery distinct aspect is covered with usage examples — properly highlighted in both light and dark mode.\n\nNo matter whether you are new to TON or have been here for years — you'll definitely find a few tricks you've never seen before.\n\n∞ This documentation in numbers\n\nAll together, the new Tolk documentation contains:\n  • 46 pages\n  • 480 snippets\n  • 40000 words\n  • 280000 characters\n\nI invested ~200 hours developing the text and picking every word.\nI hope that, cumulatively, this documentation will save noticeably more time for all TON developers.\n\n→ Start reading\n\nhttps://docs.ton.org/languages/tolk\n\n🌳 Thanks to everyone who reviewed the pull request and pointed out occasional mistakes or misprints. Just imagine the amount of content they had to deal with.",
+      "forwarded_from": "TOLK lang",
+      "forwarded_from_id": "channel2203874215",
+      "forwarded_date": "2025-12-05T09:12:01.000Z"
     }
   ]
 }

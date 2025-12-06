@@ -8023,3 +8023,39 @@ Edmond: Exactly (reply to 168521)
 DeFi: As you were already told in the other chat, there is no support that can help you. No one else has access to your private keys or your seed phrase. You were supposed to save those yourself and keep them safe and secure. (reply to 168524)
 
 Mirka: If you remember some words, you can try brute-forcing, but 99% it won't work.   Duplicating your seed phrase (private key) in multiple places is the best way to secure your funds and keep the blockchain secure. There is no mechanism to return your funds if you don't have the key for now. (reply to 168524)
+
+— 2025-12-05 —
+
+Anthony: 🫧 Tolk documentation — now complete and available for learning from scratch  From now on, Tolk has full, structured, from-scratch documentation — not just "Tolk vs FunC", but a complete language guide that lets developers approach Tolk directly, without any FunC background.  This is a major milestone. Tolk is the recommended language for TON, and now it finally has documentation that matches this role.  Read →  ↓ What's inside  The documentation covers the entire language:  ❶ Type system. Every type on its own page: numbers, addresses, structures, generics, etc. — plus overall explanations for TVM layout and serialization.  ❷ Syntax details. Functions, conditions, loops, exceptions, and more — with minimal descriptions and clear examples.  ❸ Language features. Everything needed for smart-contract development: message sending, contract storage, automatic serialization, etc.  ❹ Migration from FunC. A complete guide for FunC builders — including the mindset shift Tolk encourages.  ... And several articles for experienced divers. They reveal compiler internals and the language philosophy. My favourite — Stop thinking in TL-B.  ㉈ Hundreds of examples  Every distinct aspect is covered with usage examples — properly highlighted in both light and dark mode.  No matter whether you are new to TON or have been here for years — you'll definitely find a few tricks you've never seen before.  ∞ This documentation in numbers  All together, the new Tolk documentation contains:   • 46 pages   • 480 snippets   • 40000 words   • 280000 characters  I invested ~200 hours developing the text and picking every word. I hope that, cumulatively, this documentation will save noticeably more time for all TON developers.  → Start reading  https://docs.ton.org/languages/tolk  🌳 Thanks to everyone who reviewed the pull request and pointed out occasional mistakes or misprints. Just imagine the amount of content they had to deal with. (forwarded from TOLK lang)
+
+JC: hello guys , i got this message   can please someone explain to me   App: https://t.me/fanstatgames_bot Submission status update: Additional info requested.  Thank you for the update. Could you please explain what is TON Connect used for in the app? Also, please let the users to pay for subscription using TON Connect.  Also, we have to decline the app because the Telegram Mini Apps Analytics SDK is not integrated, or is integrated incorrectly. Also, make sure you have not misspelled the analytics ID — it is case-sensitive. Please follow this link for further instructions: https://github.com/Telegram-Mini-Apps/analytics. You can check your integration using this guide: https://docs.tganalytics.xyz/faq/how-can-i-check-the-integration-status-of-the-sdk.
+
+JC: what should i do ? not to put only ton payment ?
+
+Emin: would have been cool to see Cocoon written in Tolk. but they didnt LOL (reply to 168561)
+
+Ben: Hello Team  who can help me reach @roggg for a quick fix in the Ton ecosystem
+
+Johnny Bravo: Why not reach him yourself? (reply to 168591)
+
+Ben: good question
+
+Ben: he is not very responsive on TG so obviously i tried but he didn't reply  so if you internally can pin him i will appreciate it
+
+&rey: They did, why you think otherwise? (reply to 168589)
+
+&rey: See: https://github.com/TelegramMessenger/cocoon-contracts/tree/main/contracts_tolk
+
+Emin: i swear that wasnt there when i checked. it was all C, they must have added it recently (reply to 168595)
+
+&rey: It's adjacent repository actually) (reply to 168597)
+
+Emin: https://github.com/TelegramMessenger/cocoon
+
+Emin: i was checking this
+
+M A N E K I 🎖🎖🎖🎖🎖: hello
+
+Edmond: Any business ideas around this? (reply to 168600)
+
+Emin: i guess if you buy an H1000 you can get your money back in a year with cocoon (assuming demand) (reply to 168610)

@@ -7347,3 +7347,141 @@ Andrey: Действительно, добавил else пустой и зара
 Andrey: Success к деплою не относится контракта, можно проверять deploy: true (reply to 332311)
 
 Andrey: Да это по дефолту blueprint генерирует тест, и success и deploy (reply to 332314)
+
+— 2025-12-05 —
+
+Anthony: 🫧 Tolk documentation — now complete and available for learning from scratch  From now on, Tolk has full, structured, from-scratch documentation — not just "Tolk vs FunC", but a complete language guide that lets developers approach Tolk directly, without any FunC background.  This is a major milestone. Tolk is the recommended language for TON, and now it finally has documentation that matches this role.  Read →  ↓ What's inside  The documentation covers the entire language:  ❶ Type system. Every type on its own page: numbers, addresses, structures, generics, etc. — plus overall explanations for TVM layout and serialization.  ❷ Syntax details. Functions, conditions, loops, exceptions, and more — with minimal descriptions and clear examples.  ❸ Language features. Everything needed for smart-contract development: message sending, contract storage, automatic serialization, etc.  ❹ Migration from FunC. A complete guide for FunC builders — including the mindset shift Tolk encourages.  ... And several articles for experienced divers. They reveal compiler internals and the language philosophy. My favourite — Stop thinking in TL-B.  ㉈ Hundreds of examples  Every distinct aspect is covered with usage examples — properly highlighted in both light and dark mode.  No matter whether you are new to TON or have been here for years — you'll definitely find a few tricks you've never seen before.  ∞ This documentation in numbers  All together, the new Tolk documentation contains:   • 46 pages   • 480 snippets   • 40000 words   • 280000 characters  I invested ~200 hours developing the text and picking every word. I hope that, cumulatively, this documentation will save noticeably more time for all TON developers.  → Start reading  https://docs.ton.org/languages/tolk  🌳 Thanks to everyone who reviewed the pull request and pointed out occasional mistakes or misprints. Just imagine the amount of content they had to deal with. (forwarded from TOLK lang)
+
+Kirill: Подскажите пожалуйста, а почему bounce сообщение ушло такое, а не как пришло?
+
+Oleg: Ограничение bounce по объему? (reply to 332346)
+
+S: https://docs.ton.org/foundations/messages/internal#bounces (reply to 332346)
+
+Kirill: то есть не каждое сообщение может быть bounce? (reply to 332348)
+
+Oleg: Вам прислали подробную доку, но вот тот момент, что я говорил: body is replaced with the concatenation of 32 bits equal to one (0xffffffff) and the first 256 bits of the old body (reply to 332350)
+
+Kirill: спасибо
+
+Kirill: а подскажите пожалуйста, как со slice вытащить op code
+
+Andrey: load_uint(32) (reply to 332356)
+
+Kirill: Вот так?
+
+&rey: Вроде нет. Там же был в толке какой-то способ на структурах. (reply to 332359)
+
+Kirill: а это tact))
+
+Andrey: Попробуйте используйть толк :) (reply to 332361)
+
+Anton: а через bounced(msg: bounced<SpecialStruct>) нельзя? чтоб руками не парсить  https://docs.tact-lang.org/book/bounced/#bounced-message-receiver (reply to 332359)
+
+Kirill: Так почему то не работает
+
+Anton: а что именно не работает? (reply to 332368)
+
+Kirill: Ну сообщение пришло, но оно никак не обработалось, должен был флаг стать false, а он так и остался true
+
+Kirill: bounced(msg: bounced<ClaimPassive>) {         self.isClaimed = false;     }
+
+Kirill: я написал изначально так
+
+Anton: какое определение у ClaimPassive? (reply to 332371)
+
+Kirill: message(0xe84d6ac5) ClaimPassive {     receiver: Address;     proof: Cell; }
+
+DDS: Оплатил gpu сервера на 10млн для подключения к проекту cocoon, не могу подать заявку @cocoon не отвечают на сообщ. через форму на сайте отправлял, подскажите  пожалуйста как связаться с ними, сорри за оффтоп от безисходности просто...
+
+Андрей: А там уже можно арендовать карточки других? Помнится такого не было в последний раз. Единственная связь наверное как раз через их канал, но точно ли вы не нарвались на скам при покупке? (reply to 332378)
+
+DDS: Не много не так...я  физические серверы купил железо , хочу подключится для сдачи в аренду как владелец GPU.
+
+Andrey: А для чего заявка? Там вроде бы уже можно напрямую подключаться? (reply to 332378)
+
+Andrey: https://cocoon.org/gpu-owners
+
+S: заявки собирались до публичного релиза, сейчас просто по ссылке выше самостоятельно устанавливаете и оно работает без ответов в чате (reply to 332378)
+
+DDS: Спасибо за ответы, оборудование в пути немного перебдел. Дай вам здоровья всем.
+
+username: Это очень в стиле экосистемы TON (reply to 332378)
+
+Andrey: Почему контракт нфт-коллекции может не определяться на эксплорере? Get_collection_data работает, дает валидную ссылку с 0x01 префиксом
+
+Andrey: Спецификации соответствует
+
+Andrey: Непонятно
+
+Andrey: https://testnet.tonviewer.com/kQDp7ISNRGFGbV89N4lY5fM_VvHloqapjvVfPrFDn7JHw8vg
+
+fruitful-l: Он же по гет методам проверяет? Я не уверен в этом ли проблема, но может из-за того, что нет гет метода royalty_params? (reply to 332392)
+
+Andrey: Так это другой стандарт уже, он же не обязателен для нфт (reply to 332397)
+
+Andrey: TEP-62 реализован
+
+fruitful-l: А, это же 66 уже, точно (reply to 332398)
+
+Viacheslav: Привет. Почему может быть в тестах exit code 6, хотя blueprint build отлично компилирует контракт?
+
+S: кажется дефолтный конфиг последнего блюпринта устанавливает 11 версию твм . А уже есть контракты использующие 12ю. Надо вручную устанавливать (это 8й конфиг). (reply to 332408)
+
+Viacheslav: export interface Config { ... plugins?: Plugin[]; network?: 'mainnet' | 'testnet' | CustomNetwork; separateCompilables?: boolean; requestTimeout?: number; recursiveWrappers?: boolean; manifestUrl?: string;  И все.. (reply to 332409)
+
+fruitful-l: blockchain.setConfig(setGlobalVersion(blockchain.config, 12)); (reply to 332410)
+
+Артем: всем ку, есть ли тут кто с троном и трастваллетом работал? Нужна помощь
+
+Viacheslav: Cannot find name 'setGlobalVersion'.ts(2304) (reply to 332412)
+
+fruitful-l: Отсюда нужное скопируйте всё https://github.com/ton-blockchain/tolk-bench/blob/0ecec1934760550c68cfb4aa89746bc5873a1aba/tests/my-compile.ts (reply to 332415)
+
+fruitful-l: Либо просто поменять в package версию sandbox с 0.37.0 до 0.39.0
+
+Yan: Привет, в общем ситуацию не могу разрулить, это был обмен через Best change ton на trx, обменник пишет что их нету, обращайтесь в свой кошелек, какой, у меня холодный кошелек и они мало чем уже мне помогут, но если честно обменник просто игноририт, и ссылается на то что вы отправили на другой адрес, я если честно хз что делать, уже наверное ничего не сделаешь? (reply to 332278)
+
+ᅠ: Чат русскоязычного сообщества разработчиков на TON. (reply to 332413)
+
+fruitful-l: А самый эффективный и красивый способ cell? в slice записать это все еще  beginCell().storeMaybeRef(cell?).endCell().beginParse()  ? Или с новыми инструкциями можно как-то красивее придумать?
+
+Никита: как открыть приложение на весь экран
+
+&rey: А где вам нужен slice? (reply to 332436)
+
+fruitful-l: Forward payload: remaining bits and refs. В него нужно положить значение из структуры типа cell? (reply to 332438)
+
+Оскар: в твм12 появился опкод BTOS, который позволяет билдер сразу в слайс превратить, тут не только косметический фактор, но и газа гораздо меньше ест, ибо ENDC весьма дорогая операция по газу (reply to 332436)
+
+fruitful-l: То что я описал компилятор и так будет делать через BTOS, поэтому скорее всего тут только косметический вопрос (reply to 332440)
+
+fruitful-l: More precisely, the following peephole optimizations introduced: ENDC + CTOS => BTOS
+
+Оскар: ну разве что просто добавить свою функцию которая заменит .endCell().beginParse() напрямую в BTOS (reply to 332441)
+
+fruitful-l: Понятно, спасибо (reply to 332443)
+
+Robert: гайз кто знает почему еррор?
+
+&rey: Из-за отсутствия ссылки, наверно? (reply to 332445)
+
+A: выключи впн (reply to 332445)
+
+Robert: обнимаю тебя друже (reply to 332448)
+
+Yehor: Привет ребят, Хочу поделиться Web3 проектом. Пока на тестнете, собираю фидбек перед мейннетом.  Суть: стилизованные NFT с реальными координатами города.  Фишка: Половина вторичных роялти автоматически делятся между всеми холдерами + голосования за развитие.  TMA проекта: https://t.me/UrbanDreamsBot/Explorer  вопросы:  - Насколько интуитивна навигация?  - Какие уязвимости/проблемы видите?  - Кому бы порекомендовали этот проект?  Критика приветствуется — проект живой и дорабатывается!
+
+&rey: А разве нельзя в сериализуемой структуре сделать на этом месте builder? (reply to 332439)
+
+&rey: А, там же подсчёт размера с ума сходит... ладно
+
+Dmitry GoodLuckCoin proof-of-fortune: Привет, всем, добрый вечер а кто нибудь знает что такое ton cis hub? Там постоянно активновности проводят и оффлайн встречи для разработчиков ton
+
+Stork: В short name введи 5 любых цифр и не используй впн (reply to 332445)
+
+— 2025-12-06 —
+
+LIZA: это где такое видел? (reply to 332457)
+
+Alex: в cis чат не судьба зайти 😁 (reply to 332457)
