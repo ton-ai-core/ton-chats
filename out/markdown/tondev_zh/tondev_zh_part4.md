@@ -11875,3 +11875,7 @@ Combot: Vjbj has been banned! Reason: CAS ban.
 Combot: Chahine has been banned! Reason: CAS ban.
 
 Combot: Natasha Alexander has been banned! Reason: CAS ban.
+
+— 2025-12-06 —
+
+Combot: Hello and thank you for adding Combot to TON Dev Chat (中文)! Explore more options for your group by logging in.
