@@ -8059,3 +8059,45 @@ M A N E K I 🎖🎖🎖🎖🎖: hello
 Edmond: Any business ideas around this? (reply to 168600)
 
 Emin: i guess if you buy an H1000 you can get your money back in a year with cocoon (assuming demand) (reply to 168610)
+
+— 2025-12-07 —
+
+Niloy: Hi
+
+Niloy: How can I get support from ton for blockchain development
+
+Emin: any idea when they are gonna add Tolk on https://ide.ton.org/ ?
+
+&rey: Now that you say it, it's a good idea. Eventually. (reply to 168733)
+
+Aຮhrαfบl: 1 hours over but ton blockchain not complete my withdraw
+
+Aຮhrαfบl: Admin please response 😑
+
+DeFi: What are you withdrawing from? (reply to 168738)
+
+Aຮhrαfบl: Cwallet   Network Ton blockchain
+
+DeFi: You likely need to ask cwallet support (reply to 168741)
+
+Aຮhrαfบl: Withdraw processing  Blockchain (reply to 168743)
+
+DeFi: No one here can help you. Reach out to cwallet support if needed. (reply to 168744)
+
+TON Bounty Bridge: ​Tonhub  🏷 Developer Tool  Summary:Ton is The best way to ...  Created by shahramhekmaty
+
+— 2025-12-08 —
+
+MoFR: I’m going to work on an NFT stickers project on TON. What do you think?
+
+Niloy: I have a revulationary idea (reply to 168747)
+
+MoFR: What is it (reply to 168748)
+
+Niloy: But I don't want release it like that in public (reply to 168749)
+
+Niloy: I'm looking for Ton Support for my Idea
+
+Niloy: You can dm me, we will continue further
+
+MoFR: Come to the DMs so we can talk then (reply to 168750)

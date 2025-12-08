@@ -11879,3 +11879,7 @@ Combot: Natasha Alexander has been banned! Reason: CAS ban.
 — 2025-12-06 —
 
 Combot: Hello and thank you for adding Combot to TON Dev Chat (中文)! Explore more options for your group by logging in.
+
+— 2025-12-08 —
+
+dd: 大家好，请问各位大佬+888的号码存量13万，以后会有增加+999号段，或者增加其他号段的可能性吗？
