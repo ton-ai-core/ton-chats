@@ -11883,3 +11883,11 @@ Combot: Hello and thank you for adding Combot to TON Dev Chat (中文)! Explore 
 — 2025-12-08 —
 
 dd: 大家好，请问各位大佬+888的号码存量13万，以后会有增加+999号段，或者增加其他号段的可能性吗？
+
+wikig: 看你老杜想不想赚这笔吧，+888也没赚多少吧，13w个号，也就几千万U (reply to 104420)
+
+Iryna: gm everyone,  We have deployed a new Pyth oracle contract on Telegram TON.  This new contract sees much needed performance improvements, mostly around the costs required to verify prices onchain (10-20x cheaper).  The contract addresses are available here: https://docs.pyth.network/price-feeds/core/contract-addresses/ton  If you were to have any questions, do let us know. (forwarded from Pyth Dev Updates)
+
+胖墩墩: 来一个会开发TON智能合约的
+
+Andrey: what are you planning to develop? (reply to 104447)

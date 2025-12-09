@@ -9845,3 +9845,21 @@ Shyzik: Слышиш у меня вошли медернезаторы вьеб�
 — 2025-12-06 —
 
 Text me i added group: Text me I added in group
+
+— 2025-12-08 —
+
+ㅤmhmd: Hi everyone! Happy to join this group.  I’m working on an NFT project on TON and need to implement the standard NFT Collection + NFT Item contracts using Tact v1.6.13.  I’ve read the docs, Book, Cookbook, and examples — but some older samples don’t compile anymore with the latest version.  Is there an up-to-date template or recommended example for NFT Collection + Item in Tact 1.6.13+? Any guidance would be greatly appreciated. Thanks!
+
+Andrey: Hello, the latest example of NFT available on https://github.com/tact-lang/tact/tree/main/src/benchmarks/nft/tact (reply to 75542)
+
+:): I’ve been enjoying developing on ton but Tact lang keep throwing errors, even for the slightest  punctuation misplacement.
+
+:): Skill issue? Maybe (reply to 75548)
+
+Lase: Fair 🫠 (reply to 75550)
+
+:): It’d be amazing to get an update to improve syntax autocorrection.
+
+— 2025-12-09 —
+
+Lols Anti Spam: ⛔️ id8513002823, forwarded messages is prohibited in this chat.

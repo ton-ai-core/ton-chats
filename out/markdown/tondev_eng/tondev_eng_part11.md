@@ -8101,3 +8101,13 @@ Niloy: I'm looking for Ton Support for my Idea
 Niloy: You can dm me, we will continue further
 
 MoFR: Come to the DMs so we can talk then (reply to 168750)
+
+&rey: You might be looking for https://builders.ton.org/founder/support-programs. (reply to 168751)
+
+Oxlead: gm ser
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 9  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Iryna: gm everyone,  We have deployed a new Pyth oracle contract on Telegram TON.  This new contract sees much needed performance improvements, mostly around the costs required to verify prices onchain (10-20x cheaper).  The contract addresses are available here: https://docs.pyth.network/price-feeds/core/contract-addresses/ton  If you were to have any questions, do let us know. (forwarded from Pyth Dev Updates)
+
+Lemon: I see there have been quite a few TON mainnet and testnet upgrades where it's mentioned that validators need to upgrade. Could I get a confirmation on what's the latest required version for liteservers at the moment, and whether that's going to change any time soon?  Thanks!
