@@ -7597,3 +7597,29 @@ Andrey: Ну он же подписывает в любом случае, раз
 Andrey: А если конкретный кошелек известен на бэке, условно v5, то тогда можно получить?
 
 &rey: Можно пропатчить библиотеку; можно написать свой TonConnectProvider, который будет через промис возвращать, что он там подписал. (reply to 332682)
+
+— 2025-12-09 —
+
+NFT: Всем привет никак не могу настроить депозиты jetton, подскажите доки какие-то почитать что-ли 🙄
+
+ᅠ: я писал парсер как раз для такого, пошли в лс обсудим (reply to 332726)
+
+maksim: https://docs.ton.org/payments/jettons (reply to 332726)
+
+NFT: async function monitorTransactions() {     try {         const addressesToMonitor = [             TON_PAYMENT_ADDRESS,             ...Object.keys(MY_JETTON_WALLETS)         ];          for (const address of addressesToMonitor) {             const tokenSymbol = MY_JETTON_WALLETS[address] || 'TON';                         let transactions = [];             try {                 transactions = await tonweb.provider.getTransactions(address, 100);             } catch (err) {                 console.error([TON_API_ERROR] Failed to fetch txs for ${tokenSymbol}:, err.message);                 continue;             }              for (const tx of transactions) {                 const lt = tx.transaction_id.lt;                 const hash = tx.transaction_id.hash;                 const ltKey = ${address}_${lt};                                                  if (lastProcessedLt?.[ltKey]) continue; if (tokenSymbol === 'TON' && tx.in_msg?.value && BigInt(tx.in_msg.value) > 0n) {                                                           const comment = parseCommentFromTx(tx);                                                         const match = comment.match(/P:([a-f0-9]{32})/i);                     if (match) {                         const paymentId = match[1].toLowerCase();                         console.log([DEPOSIT FOUND] TON detected! ID: ${paymentId});                         await processDeposit(paymentId, tx.in_msg.source, tx.in_msg.value, hash, 'TON');                     }                 }                               if (tokenSymbol !== 'TON' && tx.in_msg?.body) {                     try {                         const bodyCell = TonWeb.boc.Cell.fromBoc(TonWeb.utils.base64ToBytes(tx.in_msg.body))[0];                         const slice = bodyCell.beginParse();                          const op = slice.loadUint(32);                                                                       if (op.toString(16) === '7362d09c') {                             slice.loadUint(64); // query_id                             const amount = slice.loadCoins();                             const sender = slice.loadAddress(); // sender                             const forwardPayload = slice.loadBit() ? slice.loadRef() : null;                                                           let memo = '';                             if (forwardPayload) {                                 const payloadSlice = forwardPayload.beginParse();                                                              if (payloadSlice.remainingBits >= 32 && payloadSlice.loadUint(32).eq(0)) {                                     memo = payloadSlice.loadString().trim();                                 }                             }                                                       else if (slice.remainingBits >= 32) {                                                    try {                                     const tempSlice = slice.clone();                                     if(tempSlice.loadUint(32).eq(0)) {                                          memo = tempSlice.loadString().trim();                                     }                                 } catch(e){}                             }                              // console.log([JETTON TX] ${tokenSymbol} | Amount: ${fromNano(amount.toString())} | Memo: "${memo}");                              if (memo && /P:[a-f0-9]{32}/i.test(memo)) {                                 const match = memo.match(/P:([a-f0-9]{32})/i);                                 const paymentId = match[1].toLowerCase();                                 console.log([DEPOSIT FOUND] ${tokenSymbol} detected! ID: ${paymentId});                                 await processDeposit(paymentId, tx.in_msg.source, amount.toString(), hash, tokenSymbol);                             } (reply to 332726)
+
+NFT: }                     } catch (e) {                         console.error([JETTON PARSE ERROR] ${tokenSymbol}:, e.message);                     }                 } if (!lastProcessedLt) lastProcessedLt = {};                 lastProcessedLt[ltKey] = true;             }         }          await db.query(             INSERT INTO app_state (key, value) VALUES ('last_processed_lt', $1)              ON CONFLICT (key) DO UPDATE SET value = $1,             [JSON.stringify(lastProcessedLt)]         );      } catch (err) {         console.error('[TON_MONITOR] Critical error:', err.message);     } } (reply to 332726)
+
+Complex: депозиты или оплату инвойсов? (reply to 332726)
+
+&rey: Но это же не гарантирует приход к вам именно искомого токена, а не всякого мусора. (reply to 332730)
+
+— 2025-12-10 —
+
+Dz: /start@boosteambot
+
+Dz: /@rootton_dev
+
+Dz: /help@boosteambot
+
+Dz: /start@boosteambot

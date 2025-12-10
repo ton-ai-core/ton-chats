@@ -8111,3 +8111,19 @@ TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bo
 Iryna: gm everyone,  We have deployed a new Pyth oracle contract on Telegram TON.  This new contract sees much needed performance improvements, mostly around the costs required to verify prices onchain (10-20x cheaper).  The contract addresses are available here: https://docs.pyth.network/price-feeds/core/contract-addresses/ton  If you were to have any questions, do let us know. (forwarded from Pyth Dev Updates)
 
 Lemon: I see there have been quite a few TON mainnet and testnet upgrades where it's mentioned that validators need to upgrade. Could I get a confirmation on what's the latest required version for liteservers at the moment, and whether that's going to change any time soon?  Thanks!
+
+— 2025-12-09 —
+
+Игорь: HELLO! I have several additional parameters (3–6, not decided yet) in my NFT item contract. What is the best way to return them in get-methods? 1. One getter per parameter. Drawback: if the frontend needs all of them, it will require 3–6 separate RPC calls instead of one. 2. Add all my extra parameters to the existing get fun get_nft_data(): GetNftData. Are there any pitfalls here? For example, will it break the standard (https://github.com/ton-blockchain/TEPs/blob/master/text/0062-nft-standard.md) if get_nft_data returns not only the required fields but also my own custom ones?
+
+TON Bounty Bridge: ​"Tolk-Flow" (Viral Subscription & Attribution Protocol)  🏷 Developer Tool  Created by toxzak-svg
+
+&rey: It will. Define your own getter which returns everything as you wish; you can even pack it in tuples.  Or use a third alternative, letting frontend read contract's data cell and parse it on its own. (reply to 168840)
+
+&rey: This also leads to another drawback: if you forget to pin all the requests to a single block, they become non-atomic. After all, a transaction could happen between the reads. (reply to 168840)
+
+Игорь: Grok, Gemini and ton docs assistant said it wouldn't break the standard. The assistant said you can add your own parameters at the end after the main parameters.🤷‍♂ (reply to 168851)
+
+&rey: You're welcome to test how Tonviewer, Tonscan, Getgems and plenty other services react to the unexpected stack elements. Hint: some of them are bound to decide this is not NFT. (reply to 168854)
+
+Игорь: Thanks🙏 (reply to 168855)

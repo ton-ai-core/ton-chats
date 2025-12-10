@@ -11891,3 +11891,7 @@ Iryna: gm everyone,  We have deployed a new Pyth oracle contract on Telegram TON
 胖墩墩: 来一个会开发TON智能合约的
 
 Andrey: what are you planning to develop? (reply to 104447)
+
+— 2025-12-09 —
+
+Katiya｜TON: 🚀 TON × Cocoon｜AI 在 Telegram 的真正爆发点  🔗直播开始啦：https://x.com/TONEastAsia/status/1998362131843166224 (forwarded from TON East Asia Hub)
