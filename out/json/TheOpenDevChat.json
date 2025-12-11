@@ -13467,6 +13467,45 @@
       "from_id": "user6324128695",
       "text": "Эх",
       "reply_to_message_id": 1505
+    },
+    {
+      "id": 1511,
+      "type": "message",
+      "date": "2025-12-10T16:26:22.000Z",
+      "date_unixtime": "1765383982",
+      "from": "Alexey",
+      "from_id": "user108781922",
+      "text": "Это что-то про TONDEV??",
+      "reply_to_message_id": 1510
+    },
+    {
+      "id": 1512,
+      "type": "message",
+      "date": "2025-12-10T17:43:50.000Z",
+      "date_unixtime": "1765388630",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "Серьёзно? А может, сразу отправить деньги?",
+      "reply_to_message_id": 1510
+    },
+    {
+      "id": 1513,
+      "type": "message",
+      "date": "2025-12-10T17:44:19.000Z",
+      "date_unixtime": "1765388659",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "спасибо чет я во всей суматохе не увидел"
+    },
+    {
+      "id": 1514,
+      "type": "message",
+      "date": "2025-12-10T18:40:51.000Z",
+      "date_unixtime": "1765392051",
+      "from": "Нподирд",
+      "from_id": "user8349726942",
+      "text": "+send 0.01 usdt",
+      "reply_to_message_id": 1513
     }
   ]
 }

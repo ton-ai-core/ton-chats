@@ -9863,3 +9863,7 @@ Lase: Fair 🫠 (reply to 75550)
 — 2025-12-09 —
 
 Lols Anti Spam: ⛔️ id8513002823, forwarded messages is prohibited in this chat.
+
+— 2025-12-11 —
+
+J: I’m new here

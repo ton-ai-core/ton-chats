@@ -8127,3 +8127,63 @@ TON Bounty Bridge: ​"Tolk-Flow" (Viral Subscription & Attribution Protocol)  �
 &rey: You're welcome to test how Tonviewer, Tonscan, Getgems and plenty other services react to the unexpected stack elements. Hint: some of them are bound to decide this is not NFT. (reply to 168854)
 
 Игорь: Thanks🙏 (reply to 168855)
+
+— 2025-12-10 —
+
+Evgeniy: hey there i am exploring tolk currently, what is the most feasible way of raising to the fraction power on tvm?  let’s say x^(1/1.28)
+
+&rey: Some floating-point or fixed-point software implementation is in order. I haven't seen an open-source one. (reply to 168881)
+
+MoFR: I want to become a developer. (reply to 168882)
+
+BLUEWAVE: Does TON currently have any protocol or primitive that verifies real human presence using behavioral signals, not just static identity like TON ID? Or is Proof-of-Human-Presence still an open, unsolved layer in the TON stack?
+
+Андрей: It's impossible to verify in any way whether the wallet owner is a real person and not a bot. Even KYC doesn't provide such a guarantee, although it does improve it. Only a government can provide the highest guarantee, but it won't create such a capability on any blockchain that isn't its own. (reply to 168897)
+
+BLUEWAVE: True — I agree that no blockchain can guarantee real identity at a government level.  But I’m actually thinking about something different (reply to 168899)
+
+BLUEWAVE: Not identity, but behavioral proof
+
+BLUEWAVE: On Telegram Mini Apps, bots behave very differently from real humans. patterns like interaction timing, micro-delays, streak consistency, mission behaviour, error patterns, etc. all form a kind of presence fingerprint 🫆 that can't be easily faked by scripts.   So my question is more about whether TON has any protocol or tooling for detecting or scoring human-like interaction patterns at the application level.  Not for KYC-level identity, but for:   preventing farming   distinguishing scripts from humans   scoring consistent presence   improving mini-app reward fairness   reducing bot inflation   This feels like a missing piece of infrastructure for the ecosystem.  Has anyone explored this direction on TON ?
+
+&rey: TMA construction is out of scope of this chat actually (reply to 168904)
+
+BLUEWAVE: Totally understood, am not referring to mini-app construction itself.  I'm asking at a more general layer.  Does TON have any infrastructure or primitives for distinguishing human Vs scripted activity at the protocol / ecosystem level ? (reply to 168905)
+
+Emin: honest to God i have no idea what you’re on about (reply to 168906)
+
+BLUEWAVE: Many TON apps (not only TMAs) rely heavily on users actions, missions, retention, farming resistance, etc.  so I'm trying to understand whether TON already provides any tools or recommended patterns for:  bot-resistant activity scoring   presence verification   behavioural anti-farming models  human-interaction heuristics (reply to 168905)
+
+&rey: Not really.  It is not widely applicable in fact. Imagine a DEX would decide it only serves human swap orders; such a system would not be composable (like a chain of swaps across different DEXes). (reply to 168906)
+
+BLUEWAVE: It’s okay, let me simplify the question. I’m basically asking whether TON has any recommended way to distinguish real user actions from automated/bot actions. Not identity, not KYC just behavioral validation.  Because many TON apps depend on missions, farming resistance, daily tasks, etc, and it feels like an unsolved but important problem for the ecosystem. (reply to 168908)
+
+BLUEWAVE: Makes sense, I definitely agree that at the DEX / liquidity / infra level, human-only flows would break composability. (reply to 168910)
+
+BLUEWAVE: My question is more specific to the application layer, especially SocialFi, quest systems, gaming loops, Telegram mini-apps, and reward models.  Those rely heavily on:  user presence  non-farmed missions  anti-cheat  activity scoring  streak-based engagement   So I’m trying to understand whether TON provides any primitives that apps in these verticals can build on top of or whether every project must invent its own behavioral verification model from scratch. (reply to 168910)
+
+&rey: I have understood you clearly, thanks. Invent, I believe.  You can fill out a bounty request (see: https://t.me/tondev_eng/168770), and should TON Society fund it there might be a public solution developed. (reply to 168913)
+
+BLUEWAVE: Thanks, really appreciate the direction. I'll review the bounty framework.  For context, we're already experimenting with presence-based scoring inside a live TMA (Bluewave), with early signals from 180+ users across multiple countries.  So we're in a good position to prototype a generalized, reusable model that other TON apps can adopt.  if TON Society sees value in this direction, we'd be open to formalizing it as a public good and collaborating on a standardized approach. (reply to 168914)
+
+BLUEWAVE: bot is not replying (reply to 168914)
+
+&rey: see https://github.com/ton-society/grants-and-bounties/issues then (reply to 168917)
+
+Андрей: As soon as a service that identifies human behavior appears, developers will immediately be able to customize the behavior of their bots to appear human. (reply to 168906)
+
+BLUEWAVE: That's a valid point, any behavioral model will be eventually be mimicked once it becomes public and predictable.  what I'm exploring is a different angle: not a single universal "human detector" but an adaptive scoring system where each app defines it's own multi-signal presence criteria, mixed with unpredictable variables, time-based patterns, and context-specific heuristics.   in such a model, even if bots learn one pattern, they can't generalize across apps because each ecosystem defines presence differently. (reply to 168919)
+
+Evgeniy: in this case i think you are subject to manipulation from app owners who set up the policies since they are incevitized to push the presence metric higher than it actually is (reply to 168920)
+
+BLUEWAVE: That's a fair concern,  if app owners could freely tune the scoring rules, they would naturally try to inflate their presence metrics.  In the model I'm exploring, app owners wouldn't control the scoring logic directly.  The scoring engine would remain standardized at the SDK/core layer, while apps only define the 'context' of the action eg. "this mission requires reading X content" or "minimum engagement time =Y".  The actual detection logic, the heuristics, randomness, timing distribution, anti-farming rules, and behavioural checks, would remain validated and cryptographically signed by the presence engine itself.  So app owners can't arbitrarily boost metrics, and bots can't generalize the patterns, but apps still get flexibility for their use-cases.  Think of it as :  Apps define 'what' counts as an action, the presence engine defines 'how' that action is validated. (reply to 168921)
+
+Daniel: It’s a tough one, for example that’s one part of the code to do it in FunC:   ;; _x and _y should have 18 decimals -> returns with 18 decimals int math::fp::pow(int _x, int _y) impure inline {     if _y == 0 { return __math::ONE_18; }     if _x == 0 { return 0; }     if _x == __math::ONE_18 { return __math::ONE_18; }      throw_unless(math::error::x_out_of_bounds, _x >> 256 == 0);     throw_unless(math::error::y_out_of_bounds, _y < __math::MILD_EXPONENT_BOUND);      int logx_times_y = 0;     if (__math::LN_36_LOWER_BOUND < _x) & (_x < __math::LN_36_UPPER_BOUND) {         int ln_36_x = __fp_math::ln_36(_x);         logx_times_y = (ln_36_x / __math::ONE_18) * _y + muldiv(ln_36_x % __math::ONE_18, _y, __math::ONE_18);     } else {         logx_times_y = __fp_math::ln(_x) * _y;     }     logx_times_y /= __math::ONE_18;     throw_unless(math::error::product_out_of_bounds,         (__math::MIN_NATURAL_EXPONENT <= logx_times_y) & (logx_times_y <= __math::MAX_NATURAL_EXPONENT));      return math::fp::exp(logx_times_y); } (reply to 168881)
+
+Xatte: Hi everyone. I created a token and I want to add metadata. But I've never been able to enter it, I just can't. I'm incredibly exhausted mentally. Who can help me?
+
+&rey: Wait, doesn't that just mean _x < 0? (reply to 168938)
+
+— 2025-12-11 —
+
+ALEXANDER: hello
