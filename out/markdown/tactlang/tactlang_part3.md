@@ -9867,3 +9867,9 @@ Lols Anti Spam: ⛔️ id8513002823, forwarded messages is prohibited in this ch
 — 2025-12-11 —
 
 J: I’m new here
+
+Ethan: I’d like to ask the experts in the group a question: I deployed a contract on the testnet and minted tokens to my wallet address, but my Tonkeeper wallet (already switched to the testnet) doesn’t show the token. What could be the reason?
+
+manojna: If your Jetton master contract doesn’t correctly return metadata using:  get_jetton_data  get_jetton_wallet_address  Or   maybe you minted tokens but didn’t send them to your testnet jetton wallet (reply to 75698)
+
+Руслан: https://testnet.tonviewer.com/  check you jetton address. Does it even exist, has the system identified it as a token, and who owns it? If your wallet owns it, you'll need to wait a bit, and after a while, the token will appear in your TonKeeper. (reply to 75698)

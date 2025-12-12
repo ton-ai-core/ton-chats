@@ -8187,3 +8187,37 @@ Xatte: Hi everyone. I created a token and I want to add metadata. But I've never
 — 2025-12-11 —
 
 ALEXANDER: hello
+
+Mojisola🍅 🍅: check the guide on ton jetton, Vladimir alefman (reply to 168950)
+
+Xatte: I operate in a highly lucrative sector. My meta-ads and workflow are excellent. However, due to limited technical knowledge, even though I can create tokens, I can't set a price for them. I'm experiencing technical difficulties and am looking for a business partner to assist me. If you have expertise in this area, please send me a message.
+
+Zerox: I am a fullstack developer, and familiar with ton ecosystem, if you have any plan or need dev to update your current project, let's build together
+
+Slava: Please refrain from arguing in the public chat.
+
+Sam: hola ! I have a quick question imagine I have a contract (A) that owns some jettons like USDT at some point I want to transfer jettons somewhere else so I send a transfer message to contract's A jetton wallet how does the contract (A) knows that the transfer was successful ?
+
+&rey: It usually knows (beforehand) that there are no reasons for transfer to fail. (reply to 169060)
+
+&rey: And yes USDT requires some trust in the ones with power to ban specific jetton wallets.
+
+Sam: hmm I see thanks
+
+Sam: so if the jetton wallet is blocked the contract (A) will think that the transfer was ok however it was not ? (reply to 169062)
+
+&rey: Bounce might happen IIRC. (reply to 169064)
+
+Sam: so you need to store the list of some latest transfers in order to roll them back if the bounce happens ?
+
+&rey: Advanced bounce (which can return the whole message instead of 256 bits only) might help perhaps? (reply to 169066)
+
+Sam: can we use excesses message (response ) as a success notification ?
+
+&rey: You don't really know if it comes from your jetton transfer rather than someone who reused the same query_id, so I would recommend to tread carefully. (reply to 169069)
+
+Sam: and the bounced message cant be spoofed right ? so we can trust all data in it ?
+
+Sam: if i need to track the jettons balance i should just add "amount" value from the bounced transfer message to the balance ? and decrease it when sending the transfer ofc
+
+*Ⱥղʂհ: hi
