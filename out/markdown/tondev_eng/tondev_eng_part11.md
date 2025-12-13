@@ -8221,3 +8221,23 @@ Sam: and the bounced message cant be spoofed right ? so we can trust all data in
 Sam: if i need to track the jettons balance i should just add "amount" value from the bounced transfer message to the balance ? and decrease it when sending the transfer ofc
 
 *Ⱥղʂհ: hi
+
+— 2025-12-12 —
+
+Ben: My DApp is being flagged with a “⚠️ Scam Detected” warning. Who should I contact, or where can I submit a support ticket?
+
+Mojisola🍅 🍅: "jetton processing on ton  webpage" should answer some of this (reply to 169060)
+
+Sam: that page explains receiving jetton payments not sending them (reply to 169170)
+
+Mojisola🍅 🍅: I think your question have to do with jetton processing
+
+Mojisola🍅 🍅: you simply send transfer message to the concerned address that holds the usdt
+
+Sam: the question was about confirming the outgoing transfer on the smc side
+
+Mojisola🍅 🍅: is it not the receiver that check if they received what is expected.
+
+Mojisola🍅 🍅: wallet v4, v5 and others are all contract themselves
+
+TON Bounty Bridge: ​Visual Smart Contract Builder for TON: No-Code/Low-Code Development Platform  🏷 Developer Tool  Summary:A drag-and-drop visual interface that enables non-technical builders to create, deploy, and manage T...  Created by Timi16

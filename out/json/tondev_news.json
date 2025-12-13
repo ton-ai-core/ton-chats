@@ -2227,6 +2227,15 @@
       "forwarded_from": "TOLK lang",
       "forwarded_from_id": "channel2203874215",
       "forwarded_date": "2025-12-05T09:12:01.000Z"
+    },
+    {
+      "id": 257,
+      "type": "message",
+      "date": "2025-12-12T14:17:05.000Z",
+      "date_unixtime": "1765549025",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Hello everyone,\n\nThe Pyth oracle contract addresses have now been updated in the TON docs. \n\nThe new contract brings several performance improvements, including significantly reduced on-chain price verification costs (10-20x cheaper).\n\n\nhttps://docs.ton.org/ecosystem/oracles/pyth"
     }
   ]
 }
