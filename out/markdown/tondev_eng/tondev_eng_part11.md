@@ -8241,3 +8241,7 @@ Mojisola🍅 🍅: is it not the receiver that check if they received what is ex
 Mojisola🍅 🍅: wallet v4, v5 and others are all contract themselves
 
 TON Bounty Bridge: ​Visual Smart Contract Builder for TON: No-Code/Low-Code Development Platform  🏷 Developer Tool  Summary:A drag-and-drop visual interface that enables non-technical builders to create, deploy, and manage T...  Created by Timi16
+
+— 2025-12-13 —
+
+Stalooshu: Anyone experiencing restaking half the balance for a single nominator pool?
