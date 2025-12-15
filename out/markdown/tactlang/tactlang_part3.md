@@ -9877,3 +9877,37 @@ manojna: If your Jetton master contract doesn’t correctly return metadata usin
 — 2025-12-14 —
 
 Elizabeth P. Smith: .
+
+Aloeidae: Anyone know of any reliable and fairly priced TON smart contract auditing services?
+
+Ethan: SlowMist (reply to 75946)
+
+Ethan: @voin_nevsky @Manu0XC  Thank you very much！I implemented the get_jetton_wallet_address method but named it walletAddress instead.🫡🫡🫡
+
+Assaf (behind on messages): is there someone here that moved from TACT/FunC to TOLK and can give us a feedback?
+
+— 2025-12-15 —
+
+Ethan: If you are coming from FunC, it will feel like "upgrading from Assembly to C." The experience is a massive leap forward. (reply to 75951)
+
+Ethan: If you are coming from Tact, this is more of a "paradigm shift" rather than a simple upgrade.
+
+Ethan: Tact is a high-level language (like Solidity or TypeScript). It performs a lot of "magic" for you (auto-handling message parsing, serialization, Traits, etc.).  Tolk is a low-level language (like Rust or C). You need to handle more logic yourself, such as manually managing Cell construction and parsing.
+
+Assaf (behind on messages): thanks, i'm actually starting my journey in TON, i have a lot of experience from solidity and now trying to choose the right language to build my dapps
+
+Assaf (behind on messages): it seems like TACT will be the simpler choice but the official TON docs recommends highly of TOLK
+
+Ethan: Trying a new language in a new environment is no small challenge, but it will only bring you great rewards. However, it is important to note that
+
+Ethan: Early Ecosystem: Compared to Tact's massive Standard Library (Stdlib) and community examples, Tolk's documentation and ready-made codebases are relatively scarce. You may need to "reinvent the wheel" occasionally.
+
+Ethan: Learning Curve: While the syntax is better, you still need a deep understanding of how the TVM works (Cell, Slice, Builder, Stack). Tact abstracts these away, but Tolk requires you to understand them.
+
+Assaf (behind on messages): mmm i get it thanks!, i will try to move faster with developing with TACT and learning the fundementals in parallel  on another note, i'm trying to find examples or something regarding LayerZero implementation on TON do you know some references? i saw the support post but didn't find something besides that
+
+Petr: This is not true, you can use structs with auto serialization, see https://docs.ton.org/languages/tolk/idioms-conventions#auto-serialization-instead-of-slices/builders (reply to 75955)
+
+Petr: Maybe this one: https://github.com/LayerZero-Labs/LayerZero-v2/tree/main/packages/layerzero-v2/ton/src (reply to 75961)
+
+Ethan: This is a very good question that touches on a key aspect of TOLK's evolution This is not a contradiction; rather, TOLK utilizes a hybrid model:  It retains low-level capabilities: If you need extreme optimization, you still have the power to manipulate Cells manually.  It offers high-level convenience: When you don't need manual bit-level control, you can use structs and auto-serialization to build contracts quickly.  Therefore, while TOLK provides the power of low-level logic, it also allows you to avoid the manual labor of that logic via structs, making it a language that is both powerful and modern. (reply to 75962)

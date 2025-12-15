@@ -8245,3 +8245,13 @@ TON Bounty Bridge: ​Visual Smart Contract Builder for TON: No-Code/Low-Code De
 — 2025-12-13 —
 
 Stalooshu: Anyone experiencing restaking half the balance for a single nominator pool?
+
+— 2025-12-14 —
+
+Anarion: Please unban me from the Russian chat. I was blacklisted last April for some unknown reason.
+
+— 2025-12-15 —
+
+Code: Hey guys, what is fastest way to confirm a TX? I'm using ton API?s /traces/hash endpoint but I feel like it still takes too long, is there anything faster?
+
+Code: (Yes I am not waiting until full trace completes, I do recursively analyze the parts I care about) (reply to 169321)
