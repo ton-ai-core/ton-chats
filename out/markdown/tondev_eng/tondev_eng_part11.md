@@ -8255,3 +8255,91 @@ Anarion: Please unban me from the Russian chat. I was blacklisted last April for
 Code: Hey guys, what is fastest way to confirm a TX? I'm using ton API?s /traces/hash endpoint but I feel like it still takes too long, is there anything faster?
 
 Code: (Yes I am not waiting until full trace completes, I do recursively analyze the parts I care about) (reply to 169321)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 11  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+mnemotiv: hi, your TG analytics were never compliant with GDPR, git issues have been open for months.. fix this, thank you
+
+mnemotiv: tl;dr — TG user ID is PII according to GDPR — you cannot use it for analytics, so just "hash" it
+
+&rey: Off topic for this chat by the way. (reply to 169372)
+
+mnemotiv: on-topic: read last post on @tonbuild (reply to 169374)
+
+mnemotiv: p.s. non-profit organizations can also be fined due to GDPR violations
+
+Blackie: Will revert! (reply to 169372)
+
+Андрей: Other sources can write whatever they want and provide links anywhere. However, this chat is only for development on the TON blockchain. (reply to 169375)
+
+Alex: At TON, we're experimenting with an AI bot to handle common support questions (documentation links, setup, basic troubleshooting).  Here are the key features of our bot, @TONSupportDeskBot:  - Trained on official TON developer documentation. - Understands and answers common setup, configuration, and integration questions - Responds only within the relevant conversation thread (maintains reply context) - Maintains the conversation - if you need further clarifications, just reply to the bot's message - Provides direct links to the correct documentation pages - Learns from reported issues to improve accuracy in future versions  We know it won't replace deep technical discussions or nuanced debugging, and we're not trying to replace human support.  We're sharing it now because we'd rather get your feedback early than build the wrong thing.
+
+Alex: can we use excesses message (response ) as a success notification ?
+
+TON Support: An `Excesses` message is sent if there are remaining Toncoin after paying fees. While it includes a `query_id`, its primary purpose is to return excess gas to the sender.  It is not designed to be a reliable success notification for general operations.  For reliable success notifications, you should implement your own custom mechanisms within your smart contracts. This typically involves:  *   **Custom Internal Messages:** Define specific internal messages that your contract sends upon successful completion of an operation. These messages can contain relevant data to confirm success. *   **On-chain State Changes:** Update the contract's state to reflect the successful operation, which can then be queried by off-chain services. *   **Event Emitting (if applicable):** While TON doesn't have a direct "event" concept like some other blockchains, you can simulate it by sending specially formatted internal messages that off-chain indexers can listen for.  Using an `Excesses` message as a success notification would be unreliable because it only gets sent if there's leftover gas, which isn't directly tied to the logical success of an operation.  You can find more details on how internal messages work in the TON documentation: [How it works - TON Docs](https://docs.ton.org/standard/tokens/jettons/how-it-works#:~:text=that%20meet%20the,A%20regular%20wallet.) (reply to 169405)
+
+Anarion: I forgot how to find the edit page for an issued token.
+
+Anarion: Hey guys, I understand you're very busy here. I'm looking for a community of like-minded people. For 15 years, I've been tinkering with the dream of developing a peer-to-peer economic system of co-ownership, co-creation, and mutual learning. It involves tokenizing services and goods and quickly calculating proportional values ​​for barter exchanges of tokens (which are tied to real-world products). If anyone is also working on this, please let me know, and let's team up.
+
+Anarion: When updating https://minter.ton.org/jetton - in wallets (@wallet, tonkeeper) the icon is not updated (symbols, token name are updated). Is there some way, like @WebpageBot, to refresh the cache?
+
+TON Support: I checked our internal documentation but couldn't find a specific answer for this query. I have flagged this request for our Moderator Team, and a technical expert will get back to you shortly. (reply to 169417)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Is there any devs building on TON Network ? Or yall are focused only on the blockchain and financial part ?   Im building things on TON Network about TON storage, TON proxy, TON sites, TON payment (offchain) Etc for example I built a TON storage indexer inspired by the Pirate Bay   I would like to connect with like-minded people building things (censorship-resistant, free/open source culture, privacy first etc)   I believe TON was build to become TOR 2.0 but on-chain; not just another blockchain with TON for ticker.
+
+TON Support: You can join the official TON Developers chat on Telegram at t.me/tondev_eng. There is also a Russian-speaking developers chat at t.me/tondev. For general support, you can ask the community of TON developers, builders, and enthusiasts.   It sounds like you're doing some really interesting work with TON Storage, TON Proxy, and TON Sites! You're definitely not alone in building on the TON Network. Many developers are focused on creating censorship-resistant, open-source, and privacy-first applications, aligning with the vision of TON as a platform for decentralized services. Your inspiration from the Pirate Bay for a TON storage indexer is a great example of this innovative spirit.  You can also find more resources and connect with other builders through the [TON Builders portal](https://builders.ton.org) and [TON Hubs](https://builders.ton.org/opportunities/hubs) for regional communities.  For more technical discussions and community engagement, I recommend exploring the official developer chats and resources mentioned above. (reply to 169419)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Gm bro let’s work together (reply to 166784)
+
+TWO: Hello mates!  Can I share my update in inline bot function?
+
+Faylen: Hey guys, what are the best RPC providers for TON right now, and which ones are you using in production?
+
+TON Support: For production environments, it is recommended to integrate at least two providers for reliability. Some RPC providers for TON include TON Center, Chainstack, Ankr, QuickNode, Tatum, GetBlock, Chainbase, and NowNodes.   APIs | The Open Network Toncoin payments processing - TON Docs (reply to 169424)
+
+Anarion: @tolyayanot How can I go back to the Russian chat? I was banned for some reason on April 22, 2024. I don't know why. Could you help pls?
+
+TON Support: ⚠️ Friendly Reminder: Please keep the conversation respectful and professional. Let’s maintain a positive environment for everyone by avoiding profanity or any form of harassment. (reply to 169426)
+
+Abdulrahim: Please how do I use the below documentation for transaction verification.  import { TonClient } from '@ton/ton';  const client = new TonClient({ endpoint: 'https://toncenter.com/api/v2/jsonRPC' });  const [tonConnectUI, setOptions] = useTonConnectUI();  // Obtain ExternalInMessage BoC const { boc } = await tonConnectUI.sendTransaction({     messages: [         {             address: "UQBSzBN6cnxDwDjn_IQXqgU8OJXUMcol9pxyL-yLkpKzYpKR",             amount: "20000000"         }     ] });  const tx = await waitForTransaction(     boc,     client,     10, // retries     1000, // timeout before each retry );  if (tx) {     console.log('Found transaction:', tx); } else {     console.log('Transaction not found'); }
+
+TON Support: To verify a transaction, you can use the `waitForTransaction` function, which polls the blockchain for the corresponding transaction by its incoming external message. This function takes the external-in message BoC (Bag of Cells), a `TonClient` instance, and optional retry and timeout parameters. If the transaction is found, it returns a `Transaction` object; otherwise, it returns `undefined`.   The code you provided already demonstrates how to use the `waitForTransaction` function for transaction verification.  Here's a breakdown of the code and how it works:  1.  **Initialize TonClient:**     ```typescript     import { TonClient } from '@ton/ton';     const client = new TonClient({ endpoint: 'https://toncenter.com/api/v2/jsonRPC' });     ```     This sets up a connection to the TON blockchain using `toncenter.com` as the RPC endpoint.  2.  **Obtain ExternalInMessage BoC:**     ```typescript     const [tonConnectUI, setOptions] = useTonConnectUI();     const { boc } = await tonConnectUI.sendTransaction({         messages: [             {                 address: "UQBSzBN6cnxDwDjn_IQXqgU8OJXUMcol9pxyL-yLkpKzYpKR",                 amount: "20000000"             }         ]     });     ```     This part assumes you're using `@ton/ton-connect-ui` to send a transaction. After the user approves the transaction, `tonConnectUI.sendTransaction` returns a `boc` (Bag of Cells) which represents the external incoming message of the transaction. This `boc` is crucial for `waitForTransaction` to identify the transaction on the blockchain.  3.  **Wait for Transaction:**     ```typescript     const tx = await waitForTransaction(         boc,         client,         10, // retries         1000, // timeout before each retry     );     ```     The `waitForTransaction` function (which would need to be imported or defined in your code) continuously checks the blockchain for a transaction associated with the provided `boc`.     *   `boc`: The external incoming message BoC you obtained from `tonConnectUI.sendTransaction`.     *   `client`: The `TonClient` instance.     *   `10`: The number of times it will retry checking for the transaction.     *   `1000`: The timeout in milliseconds between each retry.  4.  **Handle Transaction Result:**     ```typescript     if (tx) {         console.log('Found transaction (reply to 169428)
+
+Abdulrahim: How do I import the waitForTransaction function?
+
+TON Support: I checked our internal documentation but couldn't find a specific answer for this query. I have flagged this request for our Moderator Team, and a technical expert will get back to you shortly. (reply to 169430)
+
+Abdulrahim: Okay, I'll look forward to hearing from the technical expert (reply to 169431)
+
+TON Support: Okay, is there anything else I can help you with in the meantime? (reply to 169432)
+
+FullBRO: Personally I save lt of source wallet at the time of transaction, wait for seqno to change, then pull 5 latest transactions and search for lt greater then one I saved and destination wallet matching the one I sent to. Now that I wrote it down it is overcomplicated. And it only works as long as all your transactions are sequential. But you are not relying on messages as some wallets (Binance for example) identify users by specific memo (reply to 169428)
+
+Slava: @alexgton this is getting out of hand :)
+
+Alex: Yes, that may take extra time before we configure its behaviour perfectly, we are working on this right now. (reply to 169439)
+
+Игорь: Hi everyone! let maxMessages = 4; const feature = tonUI.wallet?.device.features.find((f) => typeof f === 'object' && 'maxMessages' in f); if (feature) maxMessages = feature.maxMessages Could you please advise — is this code reliable for successful transactions? For example, my wallet has feature.maxMessages = 255, but in the test demo https://ton-connect.github.io/demo-dapp-with-react-ui/ sending 255 messages didn't work — the wallet seemed to freeze. Maybe it would be safer to change the code to: if (feature) maxMessages = Math.min(feature.maxMessages, 10) // no more than 10 messages per transaction
+
+Mr: Hi everyone! let maxMessages = 4; const feature = tonUI.wallet?.device.features.find((f) => typeof f === 'object' && 'maxMessages' in f); if (feature) maxMessages = feature.maxMessages Could you please advise — is this code reliable for successful transactions? For example, my wallet has feature.maxMessages = 255, but in the test demo https://ton-connect.github.io/demo-dapp-with-react-ui/ sending 255 messages didn't work — the wallet seemed to freeze. Maybe it would be safer to change the code to: if (feature) maxMessages = Math.min(feature.maxMessages, 10) // no more than 10 messages per transaction (forwarded from Игорь)
+
+TON Support: The maxMessages value depends on the TON wallet used, as different wallets handle varying numbers of messages. For example, Wallet v5r1 can handle up to 255 messages, while Wallet v4r2 handles up to 4 messages.   Your approach of using feature.maxMessages to determine the maximum number of messages is generally correct, as it queries the wallet's capabilities. However, if you are experiencing issues with a specific wallet (like the one in the demo) freezing when sending a high number of messages, it suggests that the wallet might have practical limitations or bugs that are not perfectly reflected in its reported maxMessages feature.  It's a good practice to be conservative, especially if you're encountering freezing issues. Capping maxMessages to a lower, more reliable number (like 10 in your suggestion Math.min(feature.maxMessages, 10)) is a reasonable defensive programming strategy to ensure a higher success rate for transactions across a wider range of wallets, even if some wallets report a higher theoretical limit.  The documentation on TON Connect manifests confirms that maxMessages indicates the maximum number of messages a wallet can sign in a single transaction.  Here's an example of how a wallet might declare its maxMessages capability: "features": [   {     "name": "SendTransaction",     "maxMessages": 4, // 4 is standard for many wallets     "extraCurrencySupported": false   } ]  For more details, you can refer to the TON Connect manifests documentation. (reply to 169451)
+
+JAHID: Hi why my message was deleted. Im sending it again. Please don't delete it.  Hii, im having a critical problem while solving a issues to automate telegram user account to send users telegram unique gift's automatically.  Example -   "Giftbot (my own miniapp)"   "giftrelyar (user account used as a giftbank)"  When a user send gift into "giftrelayer". It credit into users account in "giftbot".   And users can play in our miniapp or convert it in ton. But some users wants to withdraw so they can click on withdrawal of the gift from the miniapp bot. And i manually send this gift to user through "Giftrelayer" I just wanted to ask if it's possible to automate  the user account to send the gift to a telegram users.  Like user make an withdrawal of his gift in "miniappbot" And "giftrelayer" will spend the star automatically in his own and send the gift to a telegram users.   I have everything ready. Since telegram business bot can't acsess users gift and star a temporary restrictions is displaying for a several months. Im unable to understand how other projects is doing it still having a restrictions. I'll be really happy if anyone understand my probably and help me.   I just need the users account (giftbank of telegram unique gift to spend the star and send the gift to a telegram users automatically)  Thank you.
+
+TON Support: 📂 I couldn't find a specific answer in the docs. I've flagged this for our Moderator Team 👨‍💻, and an expert will reply shortly! (reply to 169460)
+
+&rey: Your question continues to be off topic for this chat. (reply to 169460)
+
+JAHID: I was refereed here to contact from TON ecosystem official team. (reply to 169463)
+
+Андрей: You were misdirected. Everything you described in the message above occurs within the Telegram system, not in the TON blockchain. (reply to 169465)
+
+JAHID: Okay, thank you. (reply to 169468)
+
+Yumn: Hello
+
+— 2025-12-16 —
+
+ʀᴇꜱɪꜱᴛᴏʀ: TON isn’t just another blockchain. It’s the financial layer of The Open Network.   TOR and IPFS Network already have tens of millions of active users :   Your NFTs metadata’s on every blockchain, Pirates sharing the movies you stream for free, war reporters sharing things governments don’t want you to see on TV, whistleblowers like Snowden alerting the world about mass surveillance, citizens under authoritarian governments talking freely and sharing what’s happening in their countries with the world, free marketplaces where you can buy anything like forbidden natural seeds of fruits and vegetables (yes real natural seeds of some fruits are illegal in some countries DYOR), etc and much more.   What’s known as the “dark web” is simply the decentralized, unindexed internet beyond Google’s reach, beyond government control. It’s Digital Resistance.  What do these users need?  Real decentralization. Community ownership. Censorship resistance. Freedom.  They use Monero, Bitcoin, whatever works. But it’s slow, often expensive, not native. These networks were built to move information, not value.  The Open Network changes that. Native blockchain. Off-chain txs. Gasless. Anonymous. instant. A blockchain built from the ground up for exactly this use case. Digital Resistance. That’s exactly why the Durovs brother built it.  The real utilities, tools, and users of TON haven’t arrived yet.  That’s why I’m feeling early & bullish. (reply to 169419)

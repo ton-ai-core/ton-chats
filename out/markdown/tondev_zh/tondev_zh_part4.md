@@ -11933,3 +11933,13 @@ screenshot1021: 意思是加入这个，还得每个月亏钱？
 Tom: 😂😂
 
 Yūhabahha: ​💎 TON 极品用户名出售 (Premium Username) 💎 ​🆔 @APPBB ​🚀 为什么它很有价值？(Why is it valuable?) 1️⃣ 顶级前缀 "APP": 它是开发者、机器人(Bot) 和 Mini-App 的完美选择。 2️⃣ 稀有 5 字母: 短小精悍，易于记忆。 3️⃣ 巨大的商业潜力: 适合作为项目官方账号。 ​📩 有兴趣？请私信出价 (Interested? DM me your offer) 💬 私聊详谈 (DM for details) ​#TON #Fragment #NFT #Username #APP
+
+— 2025-12-15 —
+
+Ethan: 支持Fragment交易吗
+
+maple: 有没有搞过Ton多签的大佬，我想找个指导
+
+— 2025-12-16 —
+
+Leo: 可以在群里发具体问题
