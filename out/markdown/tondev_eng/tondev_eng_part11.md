@@ -8343,3 +8343,33 @@ Yumn: Hello
 — 2025-12-16 —
 
 ʀᴇꜱɪꜱᴛᴏʀ: TON isn’t just another blockchain. It’s the financial layer of The Open Network.   TOR and IPFS Network already have tens of millions of active users :   Your NFTs metadata’s on every blockchain, Pirates sharing the movies you stream for free, war reporters sharing things governments don’t want you to see on TV, whistleblowers like Snowden alerting the world about mass surveillance, citizens under authoritarian governments talking freely and sharing what’s happening in their countries with the world, free marketplaces where you can buy anything like forbidden natural seeds of fruits and vegetables (yes real natural seeds of some fruits are illegal in some countries DYOR), etc and much more.   What’s known as the “dark web” is simply the decentralized, unindexed internet beyond Google’s reach, beyond government control. It’s Digital Resistance.  What do these users need?  Real decentralization. Community ownership. Censorship resistance. Freedom.  They use Monero, Bitcoin, whatever works. But it’s slow, often expensive, not native. These networks were built to move information, not value.  The Open Network changes that. Native blockchain. Off-chain txs. Gasless. Anonymous. instant. A blockchain built from the ground up for exactly this use case. Digital Resistance. That’s exactly why the Durovs brother built it.  The real utilities, tools, and users of TON haven’t arrived yet.  That’s why I’m feeling early & bullish. (reply to 169419)
+
+Daniil: Hello everyone.   Could you please tell me if there is already an API solution from any TON team/third-party TON service for decoding transactions? I'm mainly interested in decoding DeFi transactions, swaps. So that when a swap occurs, split into parallel transactions and internal additional tokens in certain paths, we can see the percentage of completion, errors, statuses, etc., for each sub-path.
+
+TON Support: TON-ETL performs decoding to provide a unified view of on-chain activity, with a focus on decoding DEX activity and verifying swap authenticity. You can retrieve transaction data from the blockchain using TON's API services.   When a transaction fails, an exit code other than 0-127 indicates an exception. For instance, an exit code of 401 in an NFT transaction might mean the sender is not the owner. Since everything in TON happens asynchronously, the success of one transaction doesn't guarantee the success of an entire chain of related transactions.  You can find more details on analytics and data providers here and API-based retrieval here. (reply to 169506)
+
+Dmitry: >percentage of completion Can be obtained for the whole trace via /api/v3/pendingActions or /api/v3/pendingTraces (reply to 169506)
+
+Daniil: via what API? (reply to 169508)
+
+Dmitry: toncenter, press a link (reply to 169509)
+
+Daniil: oh, yeah) thanks (reply to 169510)
+
+Daniil: well, i used them before, they are good at showing total percent of swap (tonscan use them), but i need a quite another thing (reply to 169510)
+
+Daniil: like is there any a very simple, user-friendly transaction decoder? I ​​mean, a method that immediately returns all the transaction details, exactly as it was originally intended. Something like: the user sent token A through token B to get token C, here are the details of each step, here's what happened at each step. Because, for example, https://tonapi.io/api-v2#operations-Jettons-getJettonsEvents doesn't return exactly that. I entered a transaction where the PX token didn't swap for the desired coin in the middle of the process, but in the end I can't see what I exchanged for PX at the beginning, and what the expected output should have been. This doesn't allow for a good and clear user interface where the user can be shown: "You exchanged A for C through B, and this is what happened." (reply to 169507)
+
+TON Support: You can use Tonviewer to explore transaction traces, which are directed acyclic graphs where transactions are nodes and messages are edges between addresses. Tonviewer's UI allows you to hover over nodes for account details and over edges to inspect message contents, or use "Show details" for full transaction and message information. Additionally, TxTracer is a code playground that allows you to trace and analyze TON Blockchain transactions, visualize execution, and debug smart contracts.   While TonAPI's getJettonsEvents might not provide the exact level of detail you're looking for in a swap, tools like Tonviewer are designed to give a comprehensive, step-by-step view of what happened in a transaction, which can help you understand the full flow of tokens (A to B to C) and identify where an expected outcome might have deviated.  Using Tonviewer - TON Docs TxTracer - TON Docs (reply to 169514)
+
+&rey: Follow-up questions (to our support bot) do not always work well; the work to fix that is starting soon. (reply to 169514)
+
+&rey: That means you want some mechanism like Tonapi's events. Note that as Tonapi decides how to parse the transaction trees and display them, you'll have localization issues once they expand the list and rename some items. (reply to 169514)
+
+&rey: Btw TON's typical term is transaction tree, because transaction stands for handling one message on exactly one account. (reply to 169514)
+
+Daniil: all right, thank you (reply to 169518)
+
+Zachary: I posted an issue for the bounty program if anyone wants to check it out. Project Name: Tolk-Flow: The Recurring Revenue & Viral Attribution Protocol Category: Dev Tooling / Smart Contract Standards for TON & Telegram Mini Apps.
+
+Emmanel: Where (reply to 169537)
