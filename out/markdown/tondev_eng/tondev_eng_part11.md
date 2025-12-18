@@ -8373,3 +8373,11 @@ Daniil: all right, thank you (reply to 169518)
 Zachary: I posted an issue for the bounty program if anyone wants to check it out. Project Name: Tolk-Flow: The Recurring Revenue & Viral Attribution Protocol Category: Dev Tooling / Smart Contract Standards for TON & Telegram Mini Apps.
 
 Emmanel: Where (reply to 169537)
+
+— 2025-12-17 —
+
+TON Bounty Bridge: ​ZK Proof Verification Tooling for TON (Groth16, Circom, Arkworks, Gnark, Noname Compatibility)  🏷 Developer Tool  Summary:Reusable developer tooling that enables verification of Groth16 zero-knowledge proofs on TON smart c...  Created by mysteryon88
+
+Zachary: ​"Tolk-Flow" (Viral Subscription & Attribution Protocol)  🏷 Developer Tool 🔸 Open  Assignees: no assignees Created by toxzak-svg (forwarded from TON Bounty Bridge)
+
+Sergey: Hi everyone 👋    I’d like to share a ZK stack I’ve been building for integrating zero-knowledge proofs into TON, and I’d really appreciate feedback from the community. What started as a small experiment has grown into a set of practical tools for ZK in TON, which I plan to continue maintaining and expanding.  What’s available so far:  - An npm package for generating Groth16 verifier smart contracts for TON (FunC, Tolk, and Tact) - Support for proofs from multiple ZK ecosystems: Circom, Noname, Arkworks, and Gnark - Bridges/exporters that convert proofs and verification keys from Arkworks and Gnark into snarkjs-compatible JSON, which can then be consumed by TON contracts  Tools: https://github.com/mysteryon88/export-ton-verifier https://github.com/mysteryon88/gnark-to-snarkjs https://github.com/mysteryon88/ark-snarkjs  Examples repository: https://github.com/zk-examples/zk-ton-examples  I’ve also contributed ZK guides to the official documentation: - TON: https://docs.ton.org/contract-dev/zero-knowledge - Tact: https://docs.tact-lang.org/cookbook/zk-proofs/  I’d be happy to hear any feedback, questions, or suggestions — especially from those who’ve already explored ZK or tried using it in TON.
