@@ -11955,3 +11955,15 @@ Rose: TON Dev Chat (中文) 歡迎你的到來，請多加利用下方按鈕的�
 🥜🔩🌰: 有人试过Cocoon提供的开发者接口吗？
 
 🥜🔩🌰: 是真的很便宜？
+
+Dr. Awesome Doge: 怎麼了 (reply to 104890)
+
+Dr. Awesome Doge: 模型目前沒有公開 的樣子 (reply to 105173)
+
+Dr. Awesome Doge: 現在還沒有人大量的 部署 (reply to 104780)
+
+CocoaDaily: 要等明年春季durov把哈萨克超级电脑群拉上船
+
+Son of a Dog: 嘿，大家好！我们正在打造一个 Agents 框架和 AI 平台，可以把群聊变成一个开发环境。  起合作会很棒 👋
+
+Son of a Dog: 正在寻找想参与进来的开发者：  测试代码生成器（Web 应用、游戏），  探索 agent 工具包，并参与开源项目贡献。  如果你想获得真实的实践经验，深入了解 AI agents 的工作方式，并通过参与开源项目来提升你的 GitHub，这会非常适合你。 (reply to 105273)
