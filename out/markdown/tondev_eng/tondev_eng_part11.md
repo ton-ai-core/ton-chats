@@ -8387,3 +8387,39 @@ Sergey: Hi everyone 👋    I’d like to share a ZK stack I’ve been building 
 &: At the tonconsole API. there's one for  mempool. You can real-time monitor mempool transactions. BUT THAT GIVES YOU ONLY BOC, NOT A USER_FRIENDLY JSON. if you have deep understanding, then you can build boc parser for TON transfer, swaps for ston.fi and dedust  and etc...  If you need parser, you can contact me. (reply to 169519)
 
 TON Support: To integrate TON payments for verifying your Telegram channel on a Shopify website, you can use TON Connect, the standard wallet connection protocol for TON. TON Connect facilitates secure communication between wallets and decentralized applications, allowing users to authorize transactions. It supports over 30 wallets and connects to hundreds of applications within the TON ecosystem.   TON Connect overview (reply to 169657)
+
+— 2025-12-19 —
+
+Nawal Maqdisi♥️♥️❤️❤️: Hello
+
+Daniil: Hello. Is it correct way to set returning back to TMA from tonconnect? const tc = new TonConnectUI({       manifestUrl: `${import.meta.env.VITE_API_BASE_URL}/tonconnect-manifest.json`,       buttonRootId: 'ton-connect-placeholder',       actionsConfiguration: {         twaReturnUrl: 'https://t.me/my_app_bot',         returnStrategy: 'back'       }     }); I don't know why, but it works unstable. For example, sometimes when I do "Connect Wallet", let's say, via Tokneeper, when I established connection in Tonkeeper's app and got redirected back to my TMA, I got "Snap" error inside TMA.  But sometimes, this error simply does not appear. It is weird. Maybe I did something wrong?
+
+TON Support: To redirect the user to a specific page after wallet connection, you can use the useTonConnectUI hook and customize your return strategy. The twaReturnUrl parameter is used for the return URL, and returnStrategy defines how the return is handled.   Your current setup: const tc = new TonConnectUI({       manifestUrl: `${import.meta.env.VITE_API_BASE_URL}/tonconnect-manifest.json`,       buttonRootId: 'ton-connect-placeholder',       actionsConfiguration: {         twaReturnUrl: 'https://t.me/my_app_bot',         returnStrategy: 'back'       }     });   This configuration for twaReturnUrl and returnStrategy: 'back' is generally correct for returning to a Telegram Mini App (TMA). The returnStrategy: 'back' indicates that the wallet should navigate back to the app that initiated the connection. The twaReturnUrl provides a specific URL to return to in case the 'back' strategy isn't sufficient or for certain wallet behaviors.  The instability and "Snap" error you're experiencing, while using a correct setup, might be due to several factors:  1.  Wallet Implementation Variations: Different wallets might handle the return process slightly differently. While Tonkeeper generally adheres to the TonConnect protocol, subtle variations or timing issues could lead to an inconsistent experience. 2.  Telegram Mini App Lifecycle: TMAs have their own lifecycle management within Telegram. Rapid switching between Telegram and an external wallet app, and then back to the TMA, can sometimes cause the TMA's state to be lost or reloaded in an unexpected way, leading to errors like "Snap". This could be related to how Telegram manages webviews and their history stack. 3.  Timing Issues/Race Conditions: If the TMA tries to access connection data immediately upon return, but the data hasn't been fully synchronized or processed by TonConnectUI, it could lead to errors. 4.  Deep Linking vs. Browser Tab: When Tonkeeper opens, it might use a deep link or open a new browser tab. The return mechanism depends on how the wallet is configured to handle the return to the calling application. returnStrategy: 'back' usually tries to use the browser history, but if a new tab was opened, it might not work as expected. 5.  TonConnectUI State Management: Ensure that the TonConnectUI instance and its state are properly managed throughout the TMA's lifecycle. If the TonConnectUI instance is being re-initialized or its state is getting corrupted upon returning to the TMA, it could (reply to 169695)
+
+Anarion: Guys, I need some advice from experienced developers. In 2013, the FPT (free price torrent) project was developed as an elegant solution to the problem of piracy for digital products. I couldn't get my head around it because I didn't know how to encode a torrent file so that only its owners could open it. In 2018, Vitalik came up with smart contracts and NFTs, but I still haven't gotten around to implementing it. Last April, I almost figured out how to implement it on TON-Storage, tested the network, and wanted to issue an FPT token, but instead released an FPP (free price product) because FPT was busy. Recently, I rashly renamed it back, wanting to at least update the icon cache (which isn't happening, and no one has yet answered why). I need help from the TON developers, a partnership, and possibly help with funding. This project also has other components regulating the sale of non-digital products. I have the keys to a new world where everything is shared and free, and you have the technology. Write to me, PLEASE. @tsivarev @opensource @TrueCarry @slavafomin @ somebody
+
+Code: Does anybody here run an embedded wallet solution? If so what provider do you use? (or library). (If you built it yourself that's cool, respect, but wondering if there's any good prexisting solutions out there)
+
+TON Support: TON Connect WalletKit is an open-source SDK designed to integrate custodial or non-custodial wallets with TON securely. It is suitable for institutions, non-custodians, and custodians who need control over key management, signing, and access without compromising user experience or compliance. (reply to 169710)
+
+&rey: Have you tried https://github.com/gobicycle/bicycle ? (reply to 169710)
+
+Code: hmm I dont think is related at all, I'm talking about custodial wallet solution  Like Privy, dynamic XYZ (reply to 169713)
+
+Code: E.g. you come to my TMA -> I already have user TG token so sign them in -> Then create wallet for them
+
+Michael: so new developer here i wanted to know how to get started
+
+TON Support: To get started as a new developer, you can write and deploy your first smart contract on TON. The process involves six steps: setting up the Blueprint toolkit, understanding contract architecture, writing the contract in Tolk, compiling it to bytecode, deploying it to the testnet, and interacting with the contract.   You can find a detailed tutorial here: Your first smart contract - TON Docs (reply to 169720)
+
+Hillary: Hello everyone 🤠
+
+Hillary: I'm new here
+
+Tim: There’s no available solution for this right now, but I hope some will emerge in coming months (reply to 169714)
+
+Anthony: Privy.io supports TON  https://docs.privy.io/recipes/use-tier-2#ton (reply to 169710)
+
+Code: If I use privy, am I still eligible to be listed in App Store? Even though it’s not using TON connect? (reply to 169727)
+
+Anthony: Yep

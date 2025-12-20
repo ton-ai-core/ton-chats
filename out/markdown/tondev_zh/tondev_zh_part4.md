@@ -11967,3 +11967,11 @@ CocoaDaily: 要等明年春季durov把哈萨克超级电脑群拉上船
 Son of a Dog: 嘿，大家好！我们正在打造一个 Agents 框架和 AI 平台，可以把群聊变成一个开发环境。  起合作会很棒 👋
 
 Son of a Dog: 正在寻找想参与进来的开发者：  测试代码生成器（Web 应用、游戏），  探索 agent 工具包，并参与开源项目贡献。  如果你想获得真实的实践经验，深入了解 AI agents 的工作方式，并通过参与开源项目来提升你的 GitHub，这会非常适合你。 (reply to 105273)
+
+— 2025-12-19 —
+
+达达: 00
+
+amir: /stat@combot
+
+Combot: TON Dev Chat (中文) 💬 105407

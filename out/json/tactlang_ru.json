@@ -13039,6 +13039,39 @@
       "from": "Андрей",
       "from_id": "user1442305280",
       "text": "Доброго времени!\nИщу шарящего дева для доработки и внесения правок в смарт контракт"
+    },
+    {
+      "id": 3375,
+      "type": "message",
+      "date": "2025-12-19T12:16:49.000Z",
+      "date_unixtime": "1766146609",
+      "from": "Block",
+      "from_id": "user6010018272",
+      "text": "приветствую. расширение на vscodium не распознает ошибки которые вылазят при blueprint build есть ли среда которая сразу распознает все ошибки в коде контракта?"
+    },
+    {
+      "id": 3376,
+      "type": "message",
+      "date": "2025-12-19T12:23:52.000Z",
+      "date_unixtime": "1766147032",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "Насколько я помню там нужно в опциях расширения поставить галочку \"errors from Tact compiler\"",
+      "reply_to_message_id": 3375
+    },
+    {
+      "id": 3377,
+      "type": "message",
+      "date": "2025-12-19T12:25:02.000Z",
+      "date_unixtime": "1766147102",
+      "from": "/B4ckSl4sh\\",
+      "from_id": "user527968971",
+      "text": "вот тут последняя",
+      "reply_to_message_id": 3375,
+      "media_type": "photo",
+      "file": "photos/photo_3377.jpg",
+      "width": 1280,
+      "height": 728
     }
   ]
 }
