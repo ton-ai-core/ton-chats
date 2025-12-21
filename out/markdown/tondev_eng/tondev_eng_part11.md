@@ -8423,3 +8423,27 @@ Anthony: Privy.io supports TON  https://docs.privy.io/recipes/use-tier-2#ton (re
 Code: If I use privy, am I still eligible to be listed in App Store? Even though it’s not using TON connect? (reply to 169727)
 
 Anthony: Yep
+
+— 2025-12-20 —
+
+Code: Is it possible for me to sponsor gas on NFT transfers for my users? Or let them pay gas with USDT?
+
+TON Support: You can sponsor gas for NFT transfers by sending the required Toncoin amount for commission fees, with any excess returned. However, paying gas fees directly with USDT is not supported; gas is fixed in gas units and paid in Toncoin.   NFT transfer Estimate gas usage in TON contracts (reply to 169768)
+
+Code: bot answer is OK but I want one of admins to chime in if you dont mind 🙏 (thanks in advance ❤️ ) (reply to 169769)
+
+&rey: Both are theoretically possible if they have a v5 wallet (you'd be the "battery" then). I doubt any wallet app supports side batteries instead of developers' though, and no message will be signed without that support. (reply to 169768)
+
+Code: so I plan to use Privy managed wallets (https://docs.privy.io/recipes/use-tier-2#ton)  My app uses USDT and NFTs, I am happy to be the battery, here is the problem I am trying to solve if you can think of any better solutions  * Web3 noob comes to my app, uses fiat on-ramp to get some USDT (My app only uses USDT, not TON) * User adds USDT to a new wallet managed by privy, but doesn't have any TON * User spends USDT (I heard USDT fees for USDT transfers might be possible), and then gets an NFT * ... but they cant transact with the NFT further because they don't have any TON  🤔
+
+TON Support: You've accurately identified a common challenge in the TON ecosystem for new users: the need for a small amount of TON to cover network fees, even when transacting with other tokens like USDT or NFTs. This is a fundamental aspect of how the TON blockchain operates, similar to how gas fees are required on Ethereum.  Even if you manage to abstract away the initial USDT transfer fees (which some services like Wallet in Telegram do by sponsoring them), the user will still eventually need TON to interact with their NFTs (transferring, listing, or any other on-chain operation). NFTs on TON are smart contracts, and any interaction with them requires a transaction that consumes a small amount of TON for gas.  Here are a few solutions to consider, ranging from user-friendly to more technically involved:  1.  **Sponsor the First Few Transactions (Most User-Friendly):**     *   **How it works:** Your application could act as a "sponsor" for the initial transactions of new users. When a new user needs to make their first transaction (e.g., spending USDT, receiving an NFT, or their first NFT transfer), your backend could programmatically send a tiny amount of TON to their Privy-managed wallet.     *   **Pros:** Seamless user experience, removes the immediate friction of acquiring TON.     *   **Cons:** Your app incurs the cost of these small TON transfers. You'd need a system to manage this and prevent abuse.     *   **Implementation:** You would need a TON wallet on your backend with a sufficient TON balance. When a new user is onboarded or attempts their first transaction requiring TON, you'd trigger a transfer to their address.  2.  **"Faucet" or Claim Mechanism:**     *   **How it works:** Instead of automatically sponsoring, provide a clear button or prompt in your UI that says "Get Free TON for Fees" (or similar). When the user clicks it, your backend sends a small amount of TON.     *   **Pros:** User is aware they are receiving TON, gives them a sense of control. Less prone to abuse than fully automatic sponsorship if you add rate limits.     *   **Cons:** Still requires your app to cover the cost and manage the faucet.     *   **Implementation:** Similar to sponsoring, but user-initiated.  3.  **On-Ramp for TON within your App:**     *   **How it works:** If your app already integrates with fiat (reply to 169773)
+
+ʀᴇꜱɪꜱᴛᴏʀ: GM thanks for sharing (reply to 169601)
+
+ʀᴇꜱɪꜱᴛᴏʀ: GM bro i built a TON storage indexer inspired by the pirate bay (tonsite ://piracy .ton) lets connect and built together (reply to 169704)
+
+ʀᴇꜱɪꜱᴛᴏʀ: i also built a github like on TON network , tonsite:// open-source-code .ton where projects are stored on TON storage + each project have his own TON subdomain   would love to connect with mind-like dev building things on TON Network related to TON sites, proxy, storage, payment offchain. (reply to 169704)
+
+🇵🇸: Who can help me build an indexer for NFT?
+
+TON Support: For analytical queries and dashboards, Dune Analytics is a platform that integrates with TON and supports SQL queries, or you can use its AI prompt engine. Alternatively, you can use TON-ETL, which is built on the TON Center indexer and allows data extraction from TON Node into formats suitable for MPP engines.   Analytics and data providers - TON Docs (reply to 169788)

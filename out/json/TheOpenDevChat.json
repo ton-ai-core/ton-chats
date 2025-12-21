@@ -13922,6 +13922,26 @@
       "from_id": "user116213489",
       "text": "Я. въезжаю. в стройку (в ТОН)",
       "reply_to_message_id": 1549
+    },
+    {
+      "id": 1569,
+      "type": "message",
+      "date": "2025-12-20T08:49:33.000Z",
+      "date_unixtime": "1766220573",
+      "from": "Шамиль",
+      "from_id": "user370131224",
+      "text": "Инструмент открытый? Можно поглядеть?",
+      "reply_to_message_id": 1538
+    },
+    {
+      "id": 1570,
+      "type": "message",
+      "date": "2025-12-20T08:53:58.000Z",
+      "date_unixtime": "1766220838",
+      "from": "SubbotinGPT",
+      "from_id": "user2131318261",
+      "text": "Ну на базе tongo. Вероятно какие-то свои хелперы у него есть",
+      "reply_to_message_id": 1569
     }
   ]
 }

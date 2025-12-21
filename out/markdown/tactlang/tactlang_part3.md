@@ -9911,3 +9911,9 @@ Petr: This is not true, you can use structs with auto serialization, see https:/
 Petr: Maybe this one: https://github.com/LayerZero-Labs/LayerZero-v2/tree/main/packages/layerzero-v2/ton/src (reply to 75961)
 
 Ethan: This is a very good question that touches on a key aspect of TOLK's evolution This is not a contradiction; rather, TOLK utilizes a hybrid model:  It retains low-level capabilities: If you need extreme optimization, you still have the power to manipulate Cells manually.  It offers high-level convenience: When you don't need manual bit-level control, you can use structs and auto-serialization to build contracts quickly.  Therefore, while TOLK provides the power of low-level logic, it also allows you to avoid the manual labor of that logic via structs, making it a language that is both powerful and modern. (reply to 75962)
+
+— 2025-12-20 —
+
+pluшak: why I don't have wrappers folder?
+
+Andrey: Maybe they’re in temp folder, you can change wrapper destination https://docs.tact-lang.org/book/config/ (reply to 76270)

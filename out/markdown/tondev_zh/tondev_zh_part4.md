@@ -11975,3 +11975,7 @@ Son of a Dog: 正在寻找想参与进来的开发者：  测试代码生成器�
 amir: /stat@combot
 
 Combot: TON Dev Chat (中文) 💬 105407
+
+— 2025-12-20 —
+
+amir: /async for message in app.get_chat_history(GROUP_ID, limit=500):     if message.topic_id == TOPIC_ID:         print(message.text)
