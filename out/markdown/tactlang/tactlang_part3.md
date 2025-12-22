@@ -9917,3 +9917,15 @@ Ethan: This is a very good question that touches on a key aspect of TOLK's evolu
 pluшak: why I don't have wrappers folder?
 
 Andrey: Maybe they’re in temp folder, you can change wrapper destination https://docs.tact-lang.org/book/config/ (reply to 76270)
+
+— 2025-12-21 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3) (reply to 76335)
+
+Игорь: Hello! Is there a detailed explanation of fees available anywhere? For example, I don't understand why the standard nft-item.fc example uses mode 1 for sending to response_destination instead of mode 64? https://github.com/ton-blockchain/token-contract/blob/1182ad99413242f09925d50e70ccb7e0e09f94d4/nft/nft-item.fc  My nft_item has logic that sends 1-4 outbound messages to other addresses. The flow is as follows: 1. A user mints an nft_item (sending extra TON to cover fees). 2. The collection creates the nft_item. 3. The nft_item sets the sender as the owner and sends 1-3 messages. 4. Finally, it sends the cashback back to the owner.  The question is: How can I return the entire remaining value to the owner, while keeping exactly 0.4 TON for storage? Could someone provide the Tact code for this scenario? For example..is the following approach safe? https://docs.tact-lang.org/book/send/#outbound-message-processing nativeReserve(ton("0.4"), ReserveExact);  send(SendParameters {     to: sender(),     value: 0,     mode: SendRemainingBalance,      body: "Refund".asComment(), });
+
+— 2025-12-22 —
+
+Ethan: mode: SendRemainingBalance, // Mode 128 Use SendRemainingBalance to return remaining value. Yes,its safe. (reply to 76348)
+
+Ethan: This is the explanation for your question. https://docs.ton.org/contract-dev/gas

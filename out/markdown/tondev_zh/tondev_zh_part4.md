@@ -11979,3 +11979,11 @@ Combot: TON Dev Chat (中文) 💬 105407
 — 2025-12-20 —
 
 amir: /async for message in app.get_chat_history(GROUP_ID, limit=500):     if message.topic_id == TOPIC_ID:         print(message.text)
+
+— 2025-12-21 —
+
+胖墩墩: 来一个会开发TON智能合约的  骗子太多，建议建议走担保。能走担保的请联系我
+
+amir: /stat@combot
+
+Combot: TON Dev Chat (中文) 💬 106038

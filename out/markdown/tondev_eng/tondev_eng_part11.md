@@ -8447,3 +8447,43 @@ TON Support: You've accurately identified a common challenge in the TON ecosyste
 🇵🇸: Who can help me build an indexer for NFT?
 
 TON Support: For analytical queries and dashboards, Dune Analytics is a platform that integrates with TON and supports SQL queries, or you can use its AI prompt engine. Alternatively, you can use TON-ETL, which is built on the TON Center indexer and allows data extraction from TON Node into formats suitable for MPP engines.   Analytics and data providers - TON Docs (reply to 169788)
+
+— 2025-12-21 —
+
+TON Support: Hello! I'm here to help you with your TON development questions. Feel free to ask me anything related to TON, and I'll do my best to assist you.
+
+🇵🇸: Who can help me build an indexer for NFT? (reply to 169875)
+
+🇵🇸: The Open Network is no longer truly open. Marketplaces such as Getgems deliberately hide sales from other marketplaces, despite using the same standard sales contract. There should be an open-source NFT indexer project to address this monopoly or duopoly.   who can help me build an indexer for NFT?
+
+TON Support: You can build an indexer for NFTs by running your own TON node, launching ton-etl, and setting up ton-index-worker. An indexer maintains its own database from blockchain data for richer queries, including NFTs, beyond raw liteserver RPC.   You can find more information on the TON documentation: Overview - TON Docs and Analytics and data providers - TON Docs. (reply to 169886)
+
+&rey: (unfortunately bot's best is not much as you see) (reply to 169881)
+
+L: Don't Getgems have their own sales contract which differs from other marketplaces? (reply to 169886)
+
+L: Besides, every NFT on TON has their own individual smart contract so won't indexing be difficult?
+
+TON Support: No, indexing will not be difficult. The distributed approach, where each NFT is its own smart contract, ensures that NFT operations remain efficient and scalable even with millions of individual tokens.  This architecture allows each NFT to operate independently while maintaining a connection to its collection, which helps in efficient and scalable operations.  For more details, you can refer to the NFT: Non-fungible token - TON Docs and NFT 2.0 - TON Docs. (reply to 169901)
+
+🇵🇸: Getgems opensourced their sale contract other marketplaces adopted it. So it become universal sale contract. (reply to 169900)
+
+🇵🇸: Getgems used to list items for sale from other market places until last month, Now they don't want to. Because they think other will become competitor in some day so they want to suppress others.
+
+TON Support: ⚠️ Gentle Reminder: This chat is focused on TON technology. To keep the space helpful for everyone, let’s avoid political or sensitive topics and stay on-topic. Thank you! (reply to 169906)
+
+🇵🇸: Ok let's discuss how to build indexer for NFT (reply to 169907)
+
+TON Support: An indexer is a service that maintains its own database derived from blockchain data for richer queries, including those for NFTs. To get full NFT metadata, you can resolve the NFT item address by index from the collection using get_nft_address_by_index(index) and then get the item's individual content from the item contract using get_nft_data().   For more details on NFT metadata and how to retrieve it, you can refer to the TON Docs on NFT Metadata. (reply to 169908)
+
+&rey: is there some current problem with Tonapi, or to be on the safe side? (reply to 169886)
+
+🇵🇸: tonapi correctly giving .sale data just these marketplaces won't show it. (reply to 169910)
+
+Игорь: Hello! Is there a detailed explanation of fees available anywhere? For example, I don't understand why the standard nft-item.fc example uses mode 1 for sending to response_destination instead of mode 64? https://github.com/ton-blockchain/token-contract/blob/1182ad99413242f09925d50e70ccb7e0e09f94d4/nft/nft-item.fc  My nft_item has logic that sends 1-4 outbound messages to other addresses. The flow is as follows: 1. A user mints an nft_item (sending extra TON to cover fees). 2. The collection creates the nft_item. 3. The nft_item sets the sender as the owner and sends 1-3 messages. 4. Finally, it sends the cashback back to the owner.  The question is: How can I return the entire remaining value to the owner, while keeping exactly 0.4 TON for storage? Could someone provide the Tact code for this scenario? For example..is the following approach safe? https://docs.tact-lang.org/book/send/#outbound-message-processing nativeReserve(ton("0.4"), ReserveExact);  send(SendParameters {     to: sender(),     value: 0,     mode: SendRemainingBalance,      body: "Refund".asComment(), });
+
+TON Support: The provided Tact code snippet `nativeReserve(ton("0.4"), ReserveExact); send(SendParameters { to: sender(), value: 0, mode: SendRemainingBalance, body: "Refund".asComment(), });` is a safe approach to return the remaining value to the owner while reserving exactly 0.4 TON for storage. The `nativeReserve` function with `ReserveExact` ensures a specific amount is kept. The `SendRemainingBalance` mode sends all remaining funds after fees are deducted.   Regarding your other questions:  ### Detailed Explanation of Fees TON's fee structure is comprehensive. It includes: *   **Storage Fees:** Charged for keeping data on-chain. *   **Gas Fees (Computation Fees):** For executing smart contract code. *   **Forwarding Fees:** For relaying messages between smart contracts.  You can find more detailed information on transaction fees [here](https://docs.ton.org/foundations/fees).  ### `nft-item.fc` Send Mode 1 vs. 64 In FunC, message sending modes are crucial for controlling how value and fees are handled. *   **Mode 1 (`SEND_MODE_PAY_FEES_SEPARATELY`):** This mode instructs the blockchain to deduct transaction fees from the message's value *before* sending. If the message value is insufficient to cover the fees, the transaction will fail. This is often used when you want to send a specific amount of TON, and the fees should come from that amount. *   **Mode 64 (`SEND_MODE_CARRY_ALL_REMAINING_BALANCE` or `out_action_send_msg + 64`):** This mode sends all the remaining balance of the contract along with the message, *after* deducting all fees. This means the contract will be left with zero balance (or the minimum required for storage). This mode is useful for clearing out a contract's balance or when the exact amount to send is not known beforehand, but you want to send everything available.  The choice between mode 1 and mode 64 in `nft-item.fc` depends on the specific logic and desired outcome. If the intention is to return a specific amount or to ensure a minimum balance remains in the contract, mode 1 might be used. If the goal is to send almost all remaining funds (after fees and a potential storage reserve), then a mode like 64 (or in Tact `SendRemainingBalance`) is appropriate.  ### Returning Remaining Value to Owner with 0.4 TON Reserve Your proposed Tact code is indeed the correct and safe way to achieve this. 1.  `nativeReserve(ton("0.4"), ReserveExact);`: This line ensures that exactly 0.4 TON is reserved in the contract's balance for storage. The contract will not send out any funds that would cause its balance to drop below this amount (reply to 169936)
+
+Игорь: >then a mode like 64 (or in Tact SendRemainingBalance) is appropriate. okay, but SendRemainingBalance=128  😁
+
+TON Support: SendRemainingBalance is mode 128, which sends all remaining balance of the account. This mode can be combined with flags like SendDestroyIfZero (+32).   Sending modes (reply to 169938)
