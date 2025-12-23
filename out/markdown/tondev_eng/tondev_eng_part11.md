@@ -8487,3 +8487,43 @@ TON Support: The provided Tact code snippet `nativeReserve(ton("0.4"), ReserveEx
 Игорь: >then a mode like 64 (or in Tact SendRemainingBalance) is appropriate. okay, but SendRemainingBalance=128  😁
 
 TON Support: SendRemainingBalance is mode 128, which sends all remaining balance of the account. This mode can be combined with flags like SendDestroyIfZero (+32).   Sending modes (reply to 169938)
+
+— 2025-12-22 —
+
+🇵🇸: how we can get an account's state ( balance, contract data ) before and after a transaction?
+
+TON Support: The account status at the beginning and end of a transaction is recorded in the `orig_status` and `end_status` fields of the corresponding TL-B block. The `account_state_before` and `account_state_after` fields include the account state hash, code, data, and TON balance. An account's balance is part of its `AccountStorage`.   You can find more details in the official TON documentation: *   [Account status - TON Docs](https://docs.ton.org/foundations/status) *   [Transactions | The Open Network](https://docs.ton.org/v3/guidelines/dapps/transactions/explore-transactions) *   [Foundations of blockchain | The Open Network](https://docs.ton.org/v3/guidelines/dapps/transactions/foundations-of-blockchain) (reply to 170021)
+
+🇵🇸: can you explain more? (reply to 170022)
+
+TON Support: When a transaction occurs on the TON blockchain, the state of an account can change. To understand these changes, the TON architecture records the account's state both before and after the transaction within the transaction's TL-B (Tagged-Lisp-like Binary) block.  Here's a breakdown:     `orig_status` and `end_status`: These fields within the transaction's TL-B block indicate the account's overall status (e.g., active, uninitialized, frozen) at the beginning (`orig_status`) and end (`end_status`) of the transaction.     account_state_before and account_state_after: These fields provide a more detailed snapshot of the account's state:        Account State Hash: A cryptographic hash representing the entire state of the account.        Code: The smart contract code deployed on the account, if any.        Data: The persistent data stored by the smart contract.        TON Balance: The amount of TON held by the account.        ExtraCurrency balance (if applicable): Any additional tokens or currencies held by the account.     AccountStorage: The account's balance (both TON and other currencies) is part of its AccountStorage structure, which is a key component of the overall account state.  By examining these fields within a transaction's data, you can precisely determine what an account looked like before a transaction and how it changed afterward. This is crucial for debugging, auditing, and understanding the flow of assets and logic on the blockchain.  For instance, if you want to see how an account's balance changed, you would look at the TON balance within the account_state_before and account_state_after fields. If you're interested in how a smart contract's internal data was modified, you'd compare the data field.  This detailed recording of state changes is a fundamental aspect of TON's design, ensuring transparency and enabling comprehensive analysis of all on-chain activity. (reply to 170023)
+
+TON Support: What is the purpose of TEP-74?
+
+TON Support: What is the current version of the FunC compiler? 2
+
+Code: Why is bot asking and answering it's own questions haha
+
+🇵🇸: can anyone point me where should i look at in block.tlb? https://raw.githubusercontent.com/ton-blockchain/ton/refs/heads/master/crypto/block/block.tlb (reply to 170024)
+
+🇵🇸: i want full account state before and after a transaction not just hash.
+
+TON Support: The account status before and after a transaction is recorded in the orig_status and end_status fields within the corresponding TL-B block. These fields allow developers to view the account's status before sending a message and to restore the history of its status changes. The full account state before and after a transaction can be found in the account_state_before and account_state_after fields.   You can find more details in the TON Documentation and API-based retrieval guidelines. (reply to 170034)
+
+Thomas: are you a automated bot / (reply to 170035)
+
+&rey: It is, indeed. (reply to 170036)
+
+🇵🇸: how can i do it? (reply to 170034)
+
+&rey: Unfortunately the chain does not store all of those states, only those before and after the block. (reply to 170034)
+
+Kazba: I am looking for part time/gig phyton dev that would have experience with Ton, dont mind dm me.
+
+TON Support: ⚠️ Gentle Reminder: This chat is focused on TON technology. To keep the space helpful for everyone, let’s avoid political or sensitive topics and stay on-topic. Thank you! (reply to 170042)
+
+🇵🇸: Then how market place like getgems maintains states of all NFT? (reply to 170039)
+
+&rey: Do they actually need states internal to a block? No one can use them anyway, because a new state is there. (reply to 170045)
+
+&rey: Otherwise, emulating those specific transactions.
