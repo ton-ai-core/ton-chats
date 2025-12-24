@@ -8527,3 +8527,57 @@ TON Support: ⚠️ Gentle Reminder: This chat is focused on TON technology. To 
 &rey: Do they actually need states internal to a block? No one can use them anyway, because a new state is there. (reply to 170045)
 
 &rey: Otherwise, emulating those specific transactions.
+
+— 2025-12-23 —
+
+TON Support: NFT marketplaces may not display .sale data for items marked as royalty violated. This occurs when a user or service doesn't follow the collection's royalty policy, and the NFT item is then flagged with royalty_violation set to true in its off-chain metadata.   Source: NFT 2.0 - TON Docs (reply to 169914)
+
+🇵🇸: I am aware of nft 2.0 but this case is not about royalty. It's their fees, market places trying to duopoly market by coordinating fees structure and not show listing from other sources although same standard sale contract is used. It should be competitive otherwise they will set any amount as fees in future. (reply to 170070)
+
+Code: @TONSupportDeskBot how can I sponsor gas for NFT transfer
+
+Teemu | 機器人🪽: Like, donate gas for someone else? (reply to 170081)
+
+Code: yes, i want my users to be able to send NFT and I pay
+
+TON Support: To transfer an NFT, the current owner sends a transfer message to the NFT item contract. The message should include the amount of nanotons to be sent to the destination address and optional custom data. The NFT item contract then updates its owner field.   For a detailed explanation of the NFT transfer mechanism and the relevant API, you can refer to the official TON documentation:     [NFT: How it works - TON Docs](https://docs.ton.org/standard/tokens/nft/how-it-works)    NFT: Non-fungible token - TON Docs    [API - TON Docs](https://docs.ton.org/standard/tokens/nft/api)    How to transfer an NFT - TON Docs  If you're looking for a client-side SDK example to implement this, please let me know which language (e.g., TypeScript, Python) you prefer. (reply to 170084)
+
+TON Bounty Bridge: ​MCP server for Tolk compiler  🏷 Developer Tool  Summary:Implement Model Context Protocol for Tolk compiler, to make its functions available for call from a ...  Created by ProgramCrafter
+
+TON Bounty Bridge: ​Telegram Bot API Vulnerability  🏷 Developer Tool  Created by 4eckd
+
+Dmitry: @code_cowboy you can check how gasless TXs work here. There're no ready-to-use solutions for your request, but it's probably possible to cooperate with tonapi team to make it happen. (reply to 170084)
+
+Code: thanks! (reply to 170108)
+
+Teemu | 機器人🪽: Kinda lame to call it gasless when the gas just changes its form ?
+
+TON Support: "Gasless" transactions do not require native currency to pay network fees. Instead, an off-chain service pays the gas fees in TON, and the user can compensate the service with Jettons.   This means that while the user isn't directly paying with TON, the gas fees are still being paid, just by a third-party service that is then reimbursed by the user with a different token (Jettons). It's a way to abstract away the direct TON payment from the user experience, but not to eliminate the concept of gas entirely.  You can find more details on how this works in the TON Docs on Signing Messages and Wallet V5. (reply to 170110)
+
+Nutty: Hello TON Dev community 👋 I'm the founder of Nutty.  Nutty is a SocialFi ecosystem built natively on TON, focused on Proof of Engagement.  We connect real audiences with content creators: - Earners complete tasks, surveys, and engage with content to earn NUT tokens - Creators get 100% organic, bot-free traffic for their videos, music, or links  What makes Nutty different: - No fake engagement or bot farms - Real human interaction, verified through offerwalls (CPX, ayeT-Studios, TheoremReach, TimeWall) - Gamified experience with 105 collectible badges and leveling system  We're currently: - Live on TON mainnet - Submitted to Telegram Apps Center (waiting for review)  Happy to be part of the TON builder ecosystem. Would love feedback from fellow builders - bot link in my profile. 🐿
+
+&rey: What part does TON have in your project? (Also, is your channel a fair reflection of the ecosystem's capabilities?) (reply to 170113)
+
+Nutty: Thanks for the question. TON is used for wallet connection and withdrawals - users connect via TON Connect and withdraw their earned NUT tokens on-chain. We're MVP/Beta stage now, focusing on smooth Web2 → Web3 onboarding first. Planning to expand on-chain features as we grow. Open to suggestions. (reply to 170115)
+
+ʀᴇꜱɪꜱᴛᴏʀ: How should I find this answer here ?   Are yall responsive for what’s the official channel is sharing
+
+TON Support: The TON Foundation offers support for custodians, which includes providing technical documentation, sharing reference implementations, and offering consulting and troubleshooting assistance. They are committed to supporting custodians throughout their TON Connect integration journey.   Custodian integration for native and web wallets - TON Docs (reply to 170123)
+
+TON Support: TON Payments enable instant payments without committing all transactions to the blockchain, making them suitable for off-chain applications. This platform utilizes payment channels built on smart contracts within the TON Blockchain.   You can find more information on TON Payments in the official documentation: *   [Web3 services - TON Docs](https://docs.ton.org/foundations/services) *   [TON Payments | The Open Network](https://docs.ton.org/develop/dapps/defi/ton-payments) *   [Payment processing overview - TON Docs](https://docs.ton.org/payments/overview)
+
+&rey: They apparently do not use TON payment channels. You are advised to do your own research; it will show, for instance, that the guarantees on privacy here are very limited. (reply to 170123)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Thank you for the reply. Already doing my own research, but even in the project’s gc, I haven’t found an answer. Weird TON shares such project if it’s just another bridge from other chains imo (reply to 170133)
+
+ʀᴇꜱɪꜱᴛᴏʀ: update : they deleted my question (in Houdini group chat)   I guess the answers is no :) (reply to 170135)
+
+d1zz: hello everyone, has anyone encountered integrating ton sdk into a mobile Android application on Kotlin? could you help me?
+
+TON Support: To integrate the TON Connect's WalletKit into an Android application using Kotlin, you need to add the io.ton:walletkit:0.1.0 dependency to your build.gradle.kts file and ensure Maven Central is included in your repositories. You also need to add the android.permission.INTERNET permission to your AndroidManifest.xml.   Here's how you can do it:  1.  Add the dependency to your app's build.gradle.kts file:         dependencies {         implementation("io.ton:walletkit:0.1.0")     }       2.  Ensure Maven Central is included in your repository list:         repositories {         google()         mavenCentral()     }       3.  Add the internet permission to your AndroidManifest.xml:         <manifest xmlns:android="http://schemas.android.com/apk/res/android">         <uses-permission android:name="android.permission.INTERNET" />     </manifest>       You can also explore a complete demo wallet with WalletKit integration on GitHub.  Source: How to install the TON Connect's WalletKit on the Android platform (reply to 170152)
+
+d1zz: Failed to resolve: io.ton:walletkit:0.1.0 (reply to 170152)
+
+— 2025-12-24 —
+
+TON Support: Hello! I'm the TON Support Agent. How can I assist you with TON development today?
