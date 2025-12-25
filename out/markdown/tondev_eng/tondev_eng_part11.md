@@ -8581,3 +8581,49 @@ d1zz: Failed to resolve: io.ton:walletkit:0.1.0 (reply to 170152)
 — 2025-12-24 —
 
 TON Support: Hello! I'm the TON Support Agent. How can I assist you with TON development today?
+
+Andrey: Hey guys 👋  Working on a security tool for wallets (Python/Aiogram + GPT-4o) to help non-tech users understand txs. Basically, it parses on-chain data to detect risks (dusting, spam, sus contracts) instead of just showing raw numbers.  Just deployed the MVP: @Ton_Guard_V1_Bot  Need a sanity check: — Does the latency feel okay? (running on TonAPI websockets) — Do the AI risk alerts actually make sense for DeFi stuff?  Planning to open-source the scoring module if the community finds it useful. Any feedback or roast is welcome 🛡
+
+Andrey: Thanks for the support @anthonytsivarev! 🔥 It really motivates us to push TonGuard further. Our goal is to make the ecosystem safer for everyone. Huge updates coming soon! (reply to 170196)
+
+Daniil: use some newer model, please (reply to 170196)
+
+Vincedebrit.sol: I have (reply to 170152)
+
+Andrey: Fair point regarding the model version.  We are intentionally sticking with GPT-4o for the MVP for one reason: Latency. When handling WebSocket streams, we need sub-200ms inference time to alert the user before the block is fully finalized.  Newer models (5.x) are smarter but currently add overhead we can't afford in real-time monitoring. But we are testing GPT-5.1-Instant for the Premium tier deep analysis.  Do you think the trade-off 'Speed vs Intelligence' is wrong here? (reply to 170242)
+
+Daniil: Use 5.2 with reasoning effort “minimal” or something like this. There’s also a special feature in OpenAI API allowing to decrease the latency for additional cost (reply to 170245)
+
+Andrey: Thanks, valid point. I actually missed that reasoning_effort='minimal' could bring 5.2 latency down to 4o levels.  I was worried about the unit economics (cost per scan) since the bot is currently free, but if it improves accuracy for complex contract interactions, it's worth the extra cost.  I’ll spin up a test branch with 5.2-minimal tonight to benchmark the speed. If it fits the <200ms window, I'll push it to prod. Appreciate the tip! 🤝 (reply to 170246)
+
+TON Support: I can only communicate in English. Could you please provide your query in English?
+
+Andrey: Thanks for the nudge, Daniil! @Gusarich Coming from an AI Research Engineer at Ton Studio, that feedback means a lot.  We didn't want to wait. Hotfix v1.1 is live. ⚡️  We migrated the core to GPT-5.2. To solve the latency issue you mentioned, we implemented reasoning_effort="minimal" via the API.  Now it matches the speed of the old stack (<200ms) but with 5.2's logic. Also added a fallback to 4o just in case.  Would appreciate your verdict if you have a minute to test the speed now! (reply to 170246)
+
+&rey: wait, are you alerting user after they submitted transaction to network and it can't be undone (only accidentally lost by validators) anymore? (reply to 170245)
+
+Andrey: Yeah, valid point. Post-factum alerts are kinda useless against instant drainers.  I'm actually testing a 'Pre-Sign' feature right now — basically running a dry-run (emulation) via lite-client before the user signs anything. Like, you forward the address/contract to the bot, and it tells you if your balance is gonna get wiped.  But I'm worried about the UX. Do you think users will actually bother copy-pasting addresses to the bot every time? Or is that too much friction? (reply to 170259)
+
+&rey: too much, and already covered by wallet app's emulation, and not guaranteed to reflect true results in any way (reply to 170260)
+
+Megavrse: Is ton.website official?
+
+TON Support: The domain ton.website is not an official website for The Open Network. The official TON website is ton.org. (reply to 170264)
+
+Andrey: Guys, thanks for the brutal honesty earlier. We took a step back to rethink the value prop without the bad UX.  Here is the new direction (Sprint 4): Instead of 'Pre-Sign Emulation' (which creates friction), we are building a 'Passive Exposure Map'.  How it works: You connect the wallet once. The bot scans all your Jettons and dApp connections via TonAPI to answer one question: 'Who has admin keys to my assets?'  It highlights: — Jettons with mutable code (admin can freeze you). — Contracts with infinite minting allowed. — Connected apps with excessive permissions.  No copy-pasting. Just a 'Security Health Score' that updates daily.  Technically, this is static analysis of contract state/interfaces. Much lighter than emulation, zero user friction. Thoughts on this approach? (reply to 170261)
+
+&rey: I really hope my wallet app did not leak that list (reply to 170270)
+
+Andrey: Haha, poor phrasing on my side! 😅 No, I’m not exploiting a zero-day in Tonkeeper to read local storage.  By 'exposure' I strictly mean Public On-Chain State:  Asset Risk: Parsing JettonMaster contracts for tokens the user already holds. (Is the code mutable? Can the admin blackhole the balance?).  Interaction History: Analyzing past TX targets. (Did this wallet interact with a contract flagged as a mixer/drainer in our DB?).  You are absolutely right — active TON Connect sessions are off-chain and invisible to us (thankfully for privacy). (reply to 170273)
+
+Adel: Hi Andrey, I wish you very good luck with your project!  Just to mention, the naming of  the v1 bot copies existing project Tonguard https://tonguard.org/ @tonguard_bot, so it might be a thing to consider about in future releases 👍 (reply to 170196)
+
+Andrey: Hi! Wow, thank you so much for the heads up! 🙏  I honestly missed that there is an existing project with this exact name. That’s my bad for not doing enough due diligence on the naming.  Since we are currently in the MVP/Alpha stage, I will definitely rebrand the bot in the next release (Sprint 4) to avoid any confusion or disrespect to the original TonGuard team.  Really appreciate your support and feedback! You just saved me a lot of headache in the future. 🤝  Thanks to your feedback, we officially rebranded! The new, improved bot is here: @TonWise_Bot. Check it out, huge update coming soon! (reply to 170275)
+
+dachb: Hello, hot to send tx using tonapi?
+
+TON Support: You can send a transaction using TonAPI by utilizing the tonConnectUI.sendTransaction(transaction) function. This function is part of the TON Connect JS SDKs and can be used for regular TON transfers.   Here's an example using @tonconnect/ui-react:  import { useTonConnectUI } from '@tonconnect/ui-react';  export const Settings = () => {     const [tonConnectUI, setOptions] = useTonConnectUI();      const transaction = {         validUntil: Math.floor(Date.now() / 1000) + 300,         messages: [             {                 address: tonConnectUI.account.address,                 amount: '200000000' // 0.2 TON (in nanotons)             },             {                 // Bounceable address                 address: 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c',                 amount: '100000000'             },             {                 // Non-bounceable address                 address: 'UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJKZ',                 amount: '100000000'             }         ]     }      return (         <div>             <button onClick={() => tonConnectUI.sendTransaction(transaction)}>                 Send transaction             </button>         </div>     ); };   For more details, you can refer to the official documentation on TON transfer. (reply to 170296)
+
+— 2025-12-25 —
+
+TON Support: I cannot process that request. My purpose is to provide technical assistance related to TON development. Please ask your questions in English and ensure they are related to the TON blockchain.

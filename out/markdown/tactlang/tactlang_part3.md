@@ -9929,3 +9929,7 @@ Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vot
 Ethan: mode: SendRemainingBalance, // Mode 128 Use SendRemainingBalance to return remaining value. Yes,its safe. (reply to 76348)
 
 Ethan: This is the explanation for your question. https://docs.ton.org/contract-dev/gas
+
+— 2025-12-24 —
+
+GT: Чтобы авторизоваться, открой мини-приложение MINES внутри Telegram и нажми кнопку запуска.
