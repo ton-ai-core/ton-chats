@@ -8627,3 +8627,27 @@ TON Support: You can send a transaction using TonAPI by utilizing the tonConnect
 — 2025-12-25 —
 
 TON Support: I cannot process that request. My purpose is to provide technical assistance related to TON development. Please ask your questions in English and ensure they are related to the TON blockchain.
+
+Anthony: On Fragment (reply to 170314)
+
+Mojisola🍅 🍅: I think fragment is for buying Star using TON. (reply to 170314)
+
+L: Create a channel, enable Stars reaction and make a post, then use your Stars as reactions. In the channel settings, you can then withdraw via Fragment to your wallet. It's a neat trick (reply to 170314)
+
+L: Do well to take note of the minimum amount indicated in the channel settings. (reply to 170332)
+
+Виконт vangaard: N.B: (reply to 170332)
+
+&rey: FYI it is off topic for this chat, which is about how to develop on TON.
+
+TON Support: Hello! I'm here to help you with TON development. Please feel free to ask me any technical questions you have about building on the TON blockchain. I can assist with smart contracts, SDKs, and other development-related topics. (reply to 170336)
+
+Torit: Can someone tell me through which APIs I can do automatic ton swap to USDT? I receive payments in TON, but I want them to be converted to USDT at once.
+
+Torit: What kind of DEXs can be used? I tried STONE FI and DEDUST, but they don't give the api that is needed for automated swap (reply to 170360)
+
+TON Support: DeDust DEX allows retrieving pool information on-chain using an internal message with a specific TL-B schema. There is no established solution for real-time Jetton swap market data.   While many TON DEXs like STON.fi and DeDust are excellent for manual swaps, their primary interfaces are often designed for direct user interaction rather than extensive programmatic trading or automated swap APIs in the traditional sense (like those found on centralized exchanges). The "API" they might offer could be more for retrieving on-chain data or interacting with their smart contracts directly, rather than a high-level endpoint for automated swaps.  This often means that for automated swaps on a DEX, you might need to:  1.  Interact Directly with Smart Contracts: This involves understanding the DEX's smart contract architecture (e.g., how to call swap functions with the correct parameters) and crafting transactions to execute swaps. This requires a deeper technical understanding and careful handling of transaction fees and potential slippage. 2.  Use a Third-Party Aggregator (if available): Some platforms might emerge that aggregate liquidity from various TON DEXs and offer a unified API for programmatic access, but this is an evolving space. 3.  Consider Centralized Exchanges (CEXs): If your primary goal is automated conversion and you're comfortable with the trade-offs of CEXs (custodial risk, KYC), then a CEX that supports TON and USDT and offers robust trading APIs (like Binance, OKX, Bybit, etc.) would likely be a more straightforward solution for automation. You would still need to manage deposits and withdrawals between your TON wallet and the CEX.  Given that DeDust provides ways to retrieve pool information on-chain, you might be able to build a solution that interacts with its smart contracts for automated swaps, but it would require significant development effort to handle transaction construction, signing, and monitoring. (reply to 170361)
+
+&rey: No API can pull money from your wallet. Instead, you might collect money to your smart contract which would automatically request a swap. (reply to 170359)
+
+Mojisola🍅 🍅: this should be easy to do with dedust or stonfi api. Just have a script that swap ton to usdt,   this should be easy. ton usdt pool is one of the liquid pool available. (reply to 170359)
