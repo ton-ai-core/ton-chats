@@ -9933,3 +9933,9 @@ Ethan: This is the explanation for your question. https://docs.ton.org/contract-
 — 2025-12-24 —
 
 GT: Чтобы авторизоваться, открой мини-приложение MINES внутри Telegram и нажми кнопку запуска.
+
+— 2025-12-26 —
+
+Jiego: Hello! Out here in TONland, what's the most gas efficient language? Have seem some stuff about tolk but I have used tact before
+
+Jiego: Some insights on usage? Func was deprecated for all I knew, but I'm guessing it is still a powerhouse
