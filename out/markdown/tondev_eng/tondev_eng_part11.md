@@ -8679,3 +8679,53 @@ Andrey: Hey guys 👋  Back with the update I promised. Huge thanks to @Gusarich
 Slava: Hey! How robust is this decoder? Is there a source code to see? (reply to 170533)
 
 Andrey: Hey Slava! 👋 Great question.  Regarding Robustness: Right now, the Decoder covers about ~95% of standard user flows.  Standards: It natively parses TEP-74 (Jettons), TEP-62 (NFTs), and TEP-81 (DNS).  DeFi: We mapped CRC32 op_codes for major protocols (STON.fi, DeDust, EVAA, etc) to show "Swap", "Add Liquidity", etc.  Fallback: For unknown contracts, it tries to decode the body as UTF-8 text (for comments) or returns the raw op_code if parsing fails.  It’s definitely not a "full-blown VM tracer" yet (that would kill our <200ms latency goal), but it’s much better than raw hex.  Regarding Source Code: The backend core (DB, Watchtower logic) is closed for now as we are iterating fast on the anti-scam heuristics.  HOWEVER: We are planning to decouple the Semantic Decoder module and open-source it as a standalone Python library for the community next week. We believe human-readable transactions should be a standard, not a premium feature.  If you find a tx that it parses weirdly, DM me the hash! I’d love to add it to our test cases. 🛡 (reply to 170534)
+
+— 2025-12-27 —
+
+Andrey: Yo guys 👋  Pushed a small update to @TonWise_Bot today. Added a 'Share' button to the scan report. Trying to make security a bit more viral/social, especially with the Trust Wallet drama happening right now.  Could someone do a quick check? Just run /scan and hit the Share button. I want to make sure the referral deep link (?start=ref_ID) is generating correctly and doesn't break on mobile.  Thanks!
+
+Mirka: I've just tried the scan command and the bot gave me a list of active scam links. Maybe it is worth making them inactive(ton.org instead of ton.org)? (reply to 170569)
+
+Michael: Okay moving on I am a web dev so I wanted to work on a ton security system that is included on a broader wallet project I haven't even started it yet but ton support please tell me where to start on the wallet and also real people if you don't mind
+
+Andrey: Great catch! 🤝 You are absolutely right. Sending clickable scam links in a security report is definitely a UX hazard.  I will add a sanitizer in the next hotfix to 'defang' them (something like ton[.]org or ton .org).  Thanks for testing this! This is exactly why I posted here. (reply to 170584)
+
+TON Support: To start building a web3 wallet on TON, you can follow the step-by-step guide on "How to make a wallet on TON". For support and to discuss best practices, you can join the TON community channels on Telegram.   You can find a step-by-step guide on How to make a wallet on TON. (reply to 170590)
+
+Michael: Is there any kind of way to use it with react maybe dedicated packages for it and also js instead of ts because I am not that strict I just fix errors on the fly
+
+TON Support: Yes, you can integrate with React using the @tonconnect/ui-react package, which is the recommended option for React applications. For Vanilla JS, a single-file HTML example is available for quick testing.   You can find more details in the TON Connect for React documentation. (reply to 170593)
+
+Michael: Bknd integration?
+
+TON Support: Backend integration involves handling TON Connect protocol, managing wallet connections, listening for messages from dApps, and disconnecting from dApps. The @tonconnect/protocol package is recommended for managing the TON Connect protocol.   You can find more details on custodian integration for in-wallet browsers and browser extensions here or for native and web wallets here. (reply to 170595)
+
+Michael: Thanks
+
+TON Support: Hi there! I'm here to help with your TON technical questions. How can I assist you today? (reply to 170597)
+
+TON Support: You're welcome! Do you have any specific questions about TON development or anything else I can help you with? (reply to 170597)
+
+Michael: As a preference I would like a YT video instead of text (reply to 170592)
+
+TON Support: I can only provide information based on text documentation and cannot directly link to or search for YouTube videos. However, the TON documentation often includes helpful visual aids and code examples that can guide you.  Is there anything specific in the "How to make a wallet on TON" guide that you'd like me to elaborate on, or perhaps a particular aspect of wallet development you'd like to discuss? (reply to 170600)
+
+Michael: Oh oh reading the article that thing connects to other wallets but I meant make my own
+
+&rey: (And none of those answers were about creating a wallet app, as it happens.)
+
+TON Support: I apologize if my previous responses did not directly address your interest in creating a wallet app. Could you please clarify what specifically you'd like to know or achieve regarding wallet app development on TON? For example, are you interested in:     Integrating TON Space into your app?    Building a custom wallet from scratch?    Understanding the protocols involved in TON wallets?    Or something else entirely?  The more details you provide, the better I can assist you. (reply to 170604)
+
+Michael: Custom wallet from scratch
+
+🇵🇸: Which service are you using to pull all transactions? Speed is extremely high. (reply to 170569)
+
+红队: Is this is the only way to validate checksum? pytoniq_core.crypto.keys.mnemonic_is_valid
+
+TON Support: The pytoniq_core.crypto.keys.mnemonic_is_valid function is a specific method within the pytoniq_core library designed to validate mnemonics, which includes checking their checksum.  However, it's not the only way to validate checksums in the broader context of TON. Checksum validation is a general cryptographic concept, and different parts of the TON ecosystem might use various methods for different data types (e.g., wallet addresses, smart contract data, etc.).  If you're asking specifically about validating the checksum of a mnemonic phrase in Python, then using a function like mnemonic_is_valid from a reputable library like pytoniq_core is a correct and recommended approach.  Could you clarify what kind of checksum validation you're interested in beyond just mnemonic phrases? (reply to 170630)
+
+..: I was heard. Nice (reply to 159370)
+
+TON Support: I am the TON Support Agent. My objective is to maintain a high-quality, focused developer environment on Telegram. I prioritize chat safety and signal-to-noise ratio by strictly enforcing moderation policies (filtering spam, price talk, and politics) and categorizing non-technical noise (greetings, mentions) before providing accurate, sourced technical assistance to legitimate inquiries. How can I help you with TON development today? (reply to 170644)
+
+Andrey: Hey! 👋 Thanks, glad you noticed the performance.  We are strictly powered by TonAPI.io. To keep latency minimal, we rely on their infrastructure combined with a highly optimized lightweight Python decoder (we stripped down all heavy libraries to keep inference <200ms).  Huge respect for the +888 collection, absolute gems! 💎🫡 (reply to 170626)

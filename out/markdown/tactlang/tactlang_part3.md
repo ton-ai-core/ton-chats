@@ -9939,3 +9939,9 @@ GT: Чтобы авторизоваться, открой мини-прилож�
 Jiego: Hello! Out here in TONland, what's the most gas efficient language? Have seem some stuff about tolk but I have used tact before
 
 Jiego: Some insights on usage? Func was deprecated for all I knew, but I'm guessing it is still a powerhouse
+
+— 2025-12-27 —
+
+Daniil: Tact is not being maintained anymore (reply to 76645)
+
+Daniil: Use Tolk, it’s better than FunC

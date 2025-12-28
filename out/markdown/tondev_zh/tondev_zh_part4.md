@@ -11987,3 +11987,7 @@ amir: /async for message in app.get_chat_history(GROUP_ID, limit=500):     if me
 amir: /stat@combot
 
 Combot: TON Dev Chat (中文) 💬 106038
+
+— 2025-12-27 —
+
+Onno Stienen: Gm everyone! We're kicking off a New Year recruitment for our QA Team at Nexora, a leading DeFi platform from Finland! The recruitment will close mid-January.  The hourly rate is $80/hour.  Key tasks include: evaluating smart contracts, analyzing blockchain interactions, ensuring seamless decentralized features, collaborating on bug fixes, optimizing workflows, and ensuring security and quality standards with developers.  If you have strong experience and are interested in this opportunity, feel free to get in touch with me.
