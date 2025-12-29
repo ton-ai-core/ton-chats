@@ -8729,3 +8729,41 @@ TON Support: The pytoniq_core.crypto.keys.mnemonic_is_valid function is a specif
 TON Support: I am the TON Support Agent. My objective is to maintain a high-quality, focused developer environment on Telegram. I prioritize chat safety and signal-to-noise ratio by strictly enforcing moderation policies (filtering spam, price talk, and politics) and categorizing non-technical noise (greetings, mentions) before providing accurate, sourced technical assistance to legitimate inquiries. How can I help you with TON development today? (reply to 170644)
 
 Andrey: Hey! 👋 Thanks, glad you noticed the performance.  We are strictly powered by TonAPI.io. To keep latency minimal, we rely on their infrastructure combined with a highly optimized lightweight Python decoder (we stripped down all heavy libraries to keep inference <200ms).  Huge respect for the +888 collection, absolute gems! 💎🫡 (reply to 170626)
+
+— 2025-12-28 —
+
+Amin Zarei: hi i want check ton transfer isSuccess or Not in blockchain  how check this ?
+
+TON Support: You can check if a TON transfer is successful by monitoring payments, which involves polling for new blocks and filtering transactions that affect your addresses. For Toncoin, you would check for incoming messages to your wallet address. Once a transaction appears in a masterchain block, it becomes irreversible, typically within 5 seconds.   Would you like an example of how to do this using an SDK, or are you interested in monitoring Jetton transfers?  Source: Payment processing overview, Hash-based tracking (reply to 170666)
+
+Michael: hello? is there any tutorial for this thing (reply to 170606)
+
+Michael: i remember you sending me a link to docs that say something about the @ton/ton package link it again
+
+TON Support: The @ton/ton package is used for wallet integrations and transaction signing implementation. You can install it using npm i @ton-community/assets-sdk @ton/ton @ton/core.   Here's the link to the documentation that mentions it:  [Custodian integration for in-wallet browsers and browser extensions - TON Docs](https://docs.ton.org/ecosystem/ton-connect/walletkit/browser-extension)  How to integrate a decentralized application (dApp) - TON Docs (reply to 170673)
+
+Michael: not ton connect smthing from scratch
+
+Michael: i want to create a w3 wallet from scratch using JS and react
+
+TON Support: To create a Web3 wallet from scratch using JavaScript and React, you can follow a step-by-step guide on how to make a wallet on TON. This involves setting up dependencies like Node.js 18+ or TypeScript environment and installing `@ton/ton`, `@ton/core`, and `@ton/crypto` packages. You will also need to generate a 24-word mnemonic phrase and calculate the wallet address.   Here's an overview of the process:  1.  **Prerequisites:**     *   Node.js 18+ or TypeScript environment     *   Install `@ton/ton`, `@ton/core`, `@ton/crypto` packages.  2.  **Wallet Creation Steps:**     *   Generate a 24-word mnemonic phrase (seed phrase).     *   Calculate the wallet address from the mnemonic phrase.     *   Note that creating a wallet calculates its future address but does not deploy it on-chain yet.  For more details, you can refer to the [How to create Highload Wallet v3 guide](https://docs.ton.org/standard/wallets/highload/v3/create).  If you are building a Web3 wallet, you might also be interested in [TON Connect](https://docs.ton.org/ecosystem/ton-connect/overview) for connecting dApps to wallets, and the [TON Connect for React](https://docs.ton.org/v3/guidelines/ton-connect/frameworks/react/) guide. (reply to 170677)
+
+&rey: You still have to implement TON Connect, just the other side of it (otherwise, your app will be unusable in DEXes and most dApps).  <no bot assistance required, thank you TON Support> (reply to 170675)
+
+Michael: yeah yeah i meant the bot was considering me as a dapp and not a wallet (reply to 170679)
+
+&rey: Apparently the page (https://docs.ton.org/ecosystem/ton-connect/wallet) is not totally ready.  It is rare to see new wallet applications in our ecosystem. After all, each of them requires trust that everything was done securely.  <no bot assistance required, thank you TON Support> (reply to 170680)
+
+Michael: thank you for the info i will scavenge the web for information and ask here if i have problems (reply to 170681)
+
+Maaz: is there any bounty platform in ton ecosystem ?
+
+TON Support: Yes, the TON ecosystem has a bug bounty program to enhance security, encouraging security researchers and developers to participate. There is also a TON Bounties program where individuals can receive rewards for contributions like writing tutorials.      [Security Audits](https://docs.ton.org/v3/concepts/security-measures)    Contribution Guide (reply to 170683)
+
+Maaz: normal bounty platform like for content creation and all (reply to 170684)
+
+TON Support: The TON Bounties program rewards individuals for contributions such as writing tutorials, which can include a special TON Bounty NFT or Toncoin for high-quality materials. To participate, you can find issues on TON Docs GitHub with a tutorial label or propose your own idea using a tutorial template.   You can find more details in the Contribution Guide. (reply to 170685)
+
+龙💎FollowDragons: Hey, do we have sources on how to deploy a site on TON DNS to make it absolutely based on TON (hosted on TON Storage, etc.)?
+
+TON Support: To host a static site on TON Storage, create a bag from your website folder, ensuring it includes an index.html file. Upload this bag to the network and copy its ID. Then, go to dns.ton.org, open your domain, and paste the bag ID into the "Site" field, select "Host in TON Storage," and save.   For more details, you can refer to the TON Storage FAQ. (reply to 170690)

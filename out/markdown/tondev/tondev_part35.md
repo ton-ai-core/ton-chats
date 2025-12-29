@@ -8311,3 +8311,29 @@ Tim: В определенных очень редких кейсах некот
 🐼 Sild: хз на сколько ок оно будет работать в вакууме, но для чтения/записи тапла или работы со стеком - выглядит работающим (reply to 334350)
 
 🐼 Sild: в с7 13 походу нужно не VmTuple передавать, а vm_stk_tuple =/
+
+— 2025-12-28 —
+
+кзс: у кого то есть хотя бы примерный код как билдить сообщение сжигания жетона?
+
+кзс: структура хоть
+
+&rey: у https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md#2-burn есть  burn#595f07bc query_id:uint64 amount:(VarUInteger 16)               response_destination:MsgAddress custom_payload:(Maybe ^Cell)               = InternalMsgBody; (reply to 334531)
+
+Yuri: Всем привет, сорри за оффтоп, я маркетолог в tech стартапах и web3 энтузиаст, ищу проект в экосистеме TON, может кто ищет человека в команду, был бы рад законнектиться
+
+кзс: я бы с таким био боялся из дома выходить (reply to 334534)
+
+кзс: на работу тебя ещё ближайшие лет 5 не будут брать
+
+Oleg: я маркетолог в теч стартапах еще веб3 энтузиаст ищу проект в экосистеме вас выручу еще не раз)
+
+— 2025-12-29 —
+
+Holly: Hi TON team, urgent hack recovery:  Victim wallet: UQCjWFX1N1VaNaycLEhxx7W8WFkb4P-d58quu5qBYcS_Y_Bp (x0123456789. ton)  Hack chain: - Tx1: 6054a8130ad64f05842844f793b7302ebfaad0f36d502797329d62fc571ba269 → EQDa4VOnTYlLvDJ0gZjNYm5PXfSmmtL6Vs6A_CZEtXCNICq_ (mergesort.t. me) - Tx2: 0ffc045e28c0b8025b7be51657b44b5d7849b227cfb9f3aa8ffe470021cf171a - Tx3: a827dd6c481065dd298d0322164caa9a8b47e99da34c35413f82da4a44c4c81f → EQDsNaCJKcg_QX0DbUc52mdes1jlGgUiApWhRKhdD8Faw_Ka (DORMANT 30+ days, no txs)  DeDust DEX laundering proof attached (USDG deposits).  Please freeze & recover! Screenshots/tonscan links attached.
+
+Oleg: This is russian chat and your msg is offtopic (reply to 334550)
+
+Holly: Sure, sorry. Im frosted 🫩🤕 should I delete it? (reply to 334551)
+
+Alex: Hello! This is the TON development chat. Please, address your question to @tonchathq. (reply to 334552)
