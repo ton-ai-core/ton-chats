@@ -9945,3 +9945,7 @@ Jiego: Some insights on usage? Func was deprecated for all I knew, but I'm guess
 Daniil: Tact is not being maintained anymore (reply to 76645)
 
 Daniil: Use Tolk, it’s better than FunC
+
+— 2025-12-30 —
+
+qwerty: Can this be done in C#: async sendConfirmAttendance(provider: ContractProvider, via: Sender, opts: { value: bigint }) {         await provider.internal(via, {             value: opts.value,             sendMode: SendMode.PAY_GAS_SEPARATELY,             body: beginCell()                 .storeUint(Opcodes.ConfirmAttendance, 32)                 .endCell(),         }); } const Contract = provider.open(Contract.createFromAddress(CONTRACT_ADDRESS)); await Contract.sendConfirmAttendance(provider.sender(), {         value: toNano('0.01'),  });  With the provider taken from .env as WALLET_MNEMONIC? LLMs threw all kinds of nonsense at me and concluded that the C# SDK is garbage because it's impossible to get v5r1 from 24 words, only lower version wallets work.  p.s only second day working with TON
