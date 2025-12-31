@@ -9949,3 +9949,25 @@ Daniil: Use Tolk, it’s better than FunC
 — 2025-12-30 —
 
 qwerty: Can this be done in C#: async sendConfirmAttendance(provider: ContractProvider, via: Sender, opts: { value: bigint }) {         await provider.internal(via, {             value: opts.value,             sendMode: SendMode.PAY_GAS_SEPARATELY,             body: beginCell()                 .storeUint(Opcodes.ConfirmAttendance, 32)                 .endCell(),         }); } const Contract = provider.open(Contract.createFromAddress(CONTRACT_ADDRESS)); await Contract.sendConfirmAttendance(provider.sender(), {         value: toNano('0.01'),  });  With the provider taken from .env as WALLET_MNEMONIC? LLMs threw all kinds of nonsense at me and concluded that the C# SDK is garbage because it's impossible to get v5r1 from 24 words, only lower version wallets work.  p.s only second day working with TON
+
+Andrey: Try to use sdk from dzeta.tech https://github.com/Dzeta-tech/Ton.Net. There is wallet v5 in it. Or use my tonapi client package. I used wallet v5 from dzeta.tech with several extensions https://github.com/apashintsev/TonapiClient (reply to 76780)
+
+RN: Hey guys  Is anyone here who can help me with my smart contract i have some problem minting my jetton  Whoever is interested please text me in my pv
+
+last: Wassup (reply to 76815)
+
+RN: Have problem minting i got repo from github (reply to 76816)
+
+RN: I need a good guide
+
+RN: https://github.com/qope/simple-jetton-token
+
+RN: That's it
+
+RN: That's my problem
+
+RN: I really appreciate some good guidance
+
+— 2025-12-31 —
+
+Craig: I've been looking for a reference implementation of an NFT contract in Tolk. I know this is the Tact chat, but... 😅 Does anyone know if there is a good reference in Tolk?

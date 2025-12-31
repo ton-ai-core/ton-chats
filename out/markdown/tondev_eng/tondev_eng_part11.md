@@ -8831,3 +8831,73 @@ TON Support: The cNFT claiming process prevents double-claiming by checking if t
 Craig: if an NFT was minted and runs out of toncoin. Will the contract eventually be garbage collected? Is there any way for a user to recover from such an incident?
 
 TON Support: The Architectural Preamble: On TON, smart contracts, including those for NFTs, require a minimum balance to cover storage fees. If an NFT contract's balance falls to zero, it is indeed susceptible to "garbage collection," meaning it can be removed from the blockchain.  Here's how this works and how users can recover or prevent it:  Why Contracts Get Garbage Collected:     Storage Fees: TON charges storage fees for keeping contract data on the blockchain. These fees are periodically deducted from the contract's balance.    Zero Balance: If a contract's Toncoin balance drops to zero, it can no longer pay these storage fees and becomes eligible for garbage collection.  Recovery and Prevention:     Maintaining a Reserve: The most crucial step is to ensure that all contracts, especially NFT contracts, maintain a positive Toncoin balance. This balance acts as a reserve for storage fees. Each time there's an interaction with the contract (e.g., a transfer), the reserve can be replenished.    Developer Responsibility: Developers typically account for storage fees when deploying contracts. They often reserve enough Toncoin to cover these fees for an extended period (e.g., 5 or 10 years) by calculating the maximum possible storage fees based on the contract's size (number of cells and bits it occupies).    Verifying Incoming Messages: When a contract receives an incoming message, it should verify that the message carries enough Toncoin to cover all fees associated with the transaction, including potential storage fees.    Calculating Storage Costs: You can use functions like getStorageFee() to estimate storage costs based on parameters like maxCells, maxBits, and the desired duration.  For Users:     Top-Up: If you own an NFT and notice its contract balance is low, you might be able to "top up" its balance by sending Toncoin to the contract address. However, this depends on the contract's design and whether it allows arbitrary deposits.    Developer Support: In many cases, it's the responsibility of the NFT project or creator to ensure their contracts are adequately funded. If you encounter such an issue, it's best to reach out to the project's developers for assistance. They might have mechanisms in place to revive or secure the NFT contract.  In summary: Yes, an NFT contract can be garbage collected if it runs out of Toncoin (reply to 170782)
+
+w0th3u: hi. i use tganalytics  where dashboard?   where i can see dau mau retantion?
+
+TON Support: Dune Analytics is a platform for running analytical queries and building dashboards, including those for TON data. You can find examples of dashboards like "Application Activity" and "Telegram Gifts Dashboard" for inspiration. To get started with Dune, you can check out articles such as "TON data quick start".   For more information, you can refer to the Analytics and data providers section in the TON Docs. (reply to 170953)
+
+w0th3u: not see in docs docs.tganalytics.xyz (reply to 170953)
+
+&rey: Off topic for this chat. (reply to 170953)
+
+w0th3u: haha https://x.com/toncommunityhq/status/2000508404373102711  Support: https://t.me/tondev_eng (reply to 170956)
+
+&rey: Thank you for highlighting a typo in a social media post. (It's unfortunate it cannot be corrected at X.)  That doesn't mean this chat has information on how to configure your TMAs. https://t.me/devs is better suited. (reply to 170957)
+
+Nima: Hey guys  Is anyone here who can help me with my smart contract i have some problem minting my jetton  Whoever is interested please text me in my pv
+
+Dang: Hi everyone, I am developing a game on TON using Tact. I am trying to test a specific message call using the TonViewer, but the transaction keeps failing with Exit Code 130. Could someone explain why this payload structure causes an error and what the correct cell construction should be for this Tact message? Thanks for your help!
+
+TON Support: Exit Code 130, or 0xffff, typically indicates that the received opcode is unknown to the contract because no receivers were expecting it. This exit code is set by developers, not by TVM or the Tolk compiler.   To help you with the correct cell construction for your Tact message, could you please provide: 1.  The Tact code for the message you are trying to send. 2.  The payload structure you are currently using in TonViewer that is causing the error.  This will allow me to analyze the expected message format and suggest the correct cell construction. (reply to 170967)
+
+Slava: Consider migrating to Tolk. As I'm aware Tact is (sadly) no longer maintained. (reply to 170967)
+
+Nima: No one??? (reply to 170962)
+
+&rey: So what is the problem? (reply to 170962)
+
+Nima: I got this repo from github when i try to mint my token it give me a error i don't know what to do with
+
+Nima: provider.api(...).getLastBlock is not a function
+
+&rey: AFAIK that left part needs to be cast, either to TonClient or TonClient4. (reply to 170978)
+
+&rey: Do you want to have a custom or a common jetton in the end, actually?
+
+Nima: Custom
+
+&rey: Have you checked out the latest commit of jetton-contract repository? (reply to 170978)
+
+Nima: I don't think so Where is it
+
+Nima: Where should I look? (reply to 170982)
+
+&rey: Then clone https://github.com/ton-blockchain/jetton-contract anew (into an empty directory), do npm i and it should work. (reply to 170983)
+
+Nima: This is what I'm using actually (reply to 170985)
+
+&rey: Clone it anew, because you might have an outdated version. (reply to 170986)
+
+Nima: I will do it tnx for your time (reply to 170987)
+
+Slava: @alexgton the bot is getting crazy :)
+
+TON Support: Hello @alexgton! I'm here to help with any technical questions you have about TON development. How can I assist you today? (reply to 170999)
+
+— 2025-12-31 —
+
+Craig: Is there a Tolk NFT example 🤔
+
+TON Support: Yes, there are Tolk NFT examples. For instance, an example contract snippet written in Tolk demonstrates handling royalties for NFTs. Additionally, there are examples showing how NFT item storage can be implemented in Tolk, including handling initialized and uninitialized states.   You can find more details and code snippets on the TON Docs:    [Contract storage](https://docs.ton.org/languages/tolk/features/contract-storage)    NFT 2.0 (reply to 171009)
+
+Craig: Is there a full contract example or just snippets? (reply to 171010)
+
+TON Support: Yes, there is a complete smart contract example available for Tolk, not just snippets. You can find the full working code for a counter contract in the TON Docs GitHub repository.  While this example is for a counter, it demonstrates the full structure of a Tolk contract, including storage, message handlers, and getter functions.  You can view the complete contract on GitHub via the TON Docs: Your first smart contract - TON Docs)%20throw%200xFFFF,Storage.save(self)%20%7B%20contract.setData(self.) (reply to 171011)
+
+Craig: Apologies I meant is there a full NFT example in Tolk, not just snippets. (reply to 171012)
+
+TON Support: There are Tolk contract snippets demonstrating royalty handling and NFT item storage implementation. However, a full, complete NFT example written in Tolk is not available in the provided sources.   Would you like me to look for snippets or examples in FunC? (reply to 171013)
+
+Dang: Thanks! I'll check out Tolk later. But I'm too deep into Tact to switch right now. Any idea what triggers Exit Code 130? (reply to 170970)
+
+TON Support: Exit Code 130, or 65535 (0xffff), typically means the contract received an unknown opcode because no receivers were expecting it. This exit code is set by developers, not by TVM or the Tolk compiler.   You can find more details about exit codes in the TON Docs. (reply to 171015)
