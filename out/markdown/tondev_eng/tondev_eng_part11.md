@@ -8901,3 +8901,129 @@ TON Support: There are Tolk contract snippets demonstrating royalty handling and
 Dang: Thanks! I'll check out Tolk later. But I'm too deep into Tact to switch right now. Any idea what triggers Exit Code 130? (reply to 170970)
 
 TON Support: Exit Code 130, or 65535 (0xffff), typically means the contract received an unknown opcode because no receivers were expecting it. This exit code is set by developers, not by TVM or the Tolk compiler.   You can find more details about exit codes in the TON Docs. (reply to 171015)
+
+Aliaksandr: https://github.com/ton-blockchain/tolk-bench/tree/master/contracts_Tolk/02_nft (reply to 171013)
+
+Craig: Wow! Thank you! (reply to 171026)
+
+Amirali: Hi everyone, glad to be here. I’m AmirAli  currently building BehLand on TON. BehLand is an education focused platform centered on recording real learning effort using a Proof of Human Work approach, without signals, trading advice, or financial promises. I’m part of TON Nest and currently working on the early product and infrastructure. Looking forward to learning from the community and contributing where I can Thanks🌷🙏
+
+TON Support: Hi AmirAli, welcome to the TON community! It's great to have you here, and BehLand sounds like a fascinating and valuable project. The concept of Proof of Human Work for recording learning effort is very innovative, especially in the education space.  We're always excited to see builders like you contributing to the ecosystem. Feel free to ask any technical questions you might have or share your progress. We're here to help and learn alongside you.  Looking forward to seeing BehLand flourish on TON! (reply to 171038)
+
+Amirali: Thanks a lot for the warm welcome, really appreciate it. Happy to be part of the TON community. We’re still in an early building phase, and I’ll definitely reach out when technical questions come up or when there’s something valuable to share with the dev community. Looking forward to learning and contributing here 🙏 (reply to 171039)
+
+TON Support: That's fantastic, AmirAli! We're excited to see what you build and are here to support you every step of the way. Don't hesitate to reach out. Happy building! (reply to 171040)
+
+Tharun Tej: My chats from August to yesterday have disappeared. But I can see them in Telegram X, not on Android and on the web. How can I resolve this issue?
+
+&rey: Off topic for this chat. (Jumping to a pinned/forwarded message might help.) (reply to 171043)
+
+Nima: I tried what you said today still have problem of minting the jetton  Contract seems to have method called getLastBlock which is not defined as function  I tried 6 more repo and haven't been lucky enough to find one that actually go through minting (reply to 171045)
+
+Teemu | 機器人🪽: Write it yourself? (reply to 171046)
+
+Nima: Unfortunately I don't know how Do you know where can i learn? (reply to 171047)
+
+Teemu | 機器人🪽: AI
+
+&rey: At https://github.com/ton-blockchain/tolk-bench/tree/master/contracts_Tolk/01_jetton. (reply to 171048)
+
+Nima: It just cause more error (reply to 171049)
+
+Teemu | 機器人🪽: Not that AI 😂
+
+&rey: No AI really knows TON, in fact. (reply to 171053)
+
+Teemu | 機器人🪽: I query 5 different AIs so they fix each others fuckupd
+
+Nima: Which do you mean (reply to 171053)
+
+Teemu | 機器人🪽: Yea, they screw up a lot (reply to 171054)
+
+Nima: That's nice (reply to 171055)
+
+Teemu | 機器人🪽: That way can use their free subs
+
+Teemu | 機器人🪽: And yes, you need to know a bit of basic coding
+
+TON Support: Hello! I'm here to help you with the TON ecosystem. Feel free to ask me any technical questions you have about building on TON, and I'll do my best to provide accurate and sourced information.  Do you have a specific coding question or a topic you'd like to discuss? (reply to 171060)
+
+Nima: I know some basic but not enough (reply to 171060)
+
+Nima: Do you have more ??? (reply to 171051)
+
+Nima: I haven't seen anywhere the ready to mint smart contract or anything about how to write one all there is are theories and hackers If you guys know a well structured guide or anything that can help it would mean a lot to me if you share
+
+TON Support: To write a smart contract, you can follow a step-by-step guide that covers development environment setup, understanding smart contract architecture, writing the contract (defining storage, implementing message handlers, adding getter functions), compiling, and deploying to a testnet. There are also tutorials for NFT collection minting and minting new jettons.   You can find a comprehensive guide on writing your first smart contract on the TON Docs: Your first smart contract - TON Docs (reply to 171064)
+
+Amirali: hey nima👋 what you want exactly? and for which project? (reply to 171064)
+
+Nima: I want to develop a jetton and mint it that's all
+
+TON Support: To mint new jettons, the specific Jetton must be mintable. Minting is not a specified operation in existing TEPs, so its implementation is up to the developer. You should use a test wallet and testnet RPC before using mainnet.   For a code example, I can provide a TypeScript example based on the minting implementation in the Notcoin jetton minter contract, which shows the manual assembly of necessary messages. Would you like to see that? (reply to 171067)
+
+Nima: Of course (reply to 171068)
+
+TON Support: To mint new Jettons, the Jetton must be mintable. Only the admin can mint by sending a message to the Jetton master contract.  Here are the key steps:  1.  Build a `mint` message (opcode `0x642b7d07`) containing the receiver address, TON amount for the Jetton wallet, and an internal transfer message. 2.  Send it to the Jetton master contract from the admin wallet.  You can mint using:  *   **TypeScript SDK** with `@ton/ton` and `@ton/crypto` (manual message assembly). *   **Assets SDK** (`@ton-community/assets-sdk`) for simpler implementation. *   **Web tools** like [TON MINTER](https://minter.ton.org/) (no code required).  The mint message structure is not specified in TEPs and varies by implementation. The example in the docs uses the Notcoin jetton minter contract format.  You can find a detailed guide on [Minting jettons](https://docs.ton.org/standard/tokens/jettons/mint). (reply to 171069)
+
+Nima: Hi i want to develop a jetton and mint it... (reply to 171066)
+
+Mirka: Default jetton or do you want some extra logic? (reply to 171071)
+
+Nima: Let's start with default then I can customize it later on (reply to 171073)
+
+Mirka: You can't customize the logic of jetton after deployment. If you want to create a default jetton you can use minter.ton.org (reply to 171074)
+
+Amirali: Before I give you a detailed answer, I just want to clarify one thing so I can respond properly. Are you a developer who plans to write or modify the smart contract yourself, or a project  product manager who wants to mint a jetton using existing tools or templates? Knowing this helps me adjust the explanation to your level of familiarity with smart contracts and the TON jetton standard (reply to 171071)
+
+Nima: I want to develop basic one for the start (reply to 171075)
+
+Amirali: im a iranian dev if i can help you, its great to me (reply to 171077)
+
+Amirali: Great, that helps 👍 When you say “develop a basic one”, I just need to confirm one technical detail before going further  Do you plan to write the jetton smart contract yourself (using FunC or similar?  or do you want to deploy a minimal standard jetton based on existing open source templates and focus mainly on minting and configuration? Both are valid starting points, but the steps, tools, and risks are quite different
+
+TON Support: I'm ready to help with either approach! Please let me know if you plan to:  1.  Write the Jetton smart contract yourself (using FunC, Tact, or another low-level language). 2.  Deploy a minimal standard Jetton using existing open-source templates, focusing on configuration and minting.  Your choice will determine the next steps, tools, and considerations. (reply to 171079)
+
+Mirka: There is no reason to create basic jetton yourself except you want to learn TVM programming. Existing contracts are gas optimized and tested in production (reply to 171077)
+
+Nima: yes i want to write and modify the smart contract myself (reply to 171076)
+
+Amirali: this bot is great (reply to 171080)
+
+Nima: Using tolk and i want to do it myself but i haven't been able to yet (reply to 171079)
+
+Mirka: So maybe it's better to start with something easier? (reply to 171084)
+
+Amirali: Perfect, you should be comfortable with the following before minting anything on mainnet (reply to 171082)
+
+Amirali: Understanding the TON Jetton standard master contract vs wallet contract, mint logic, total supply rules
+
+Nima: Well i always say if you want something done have to do it yourself and the only way to do it is to first develop basic smart contract on testnet then move on to more and moreee (reply to 171081)
+
+TON Support: The Jetton master contract acts as a central registry, storing metadata and tracking the total supply of a Jetton. It has an owner who can mint new tokens, close minting, change metadata, or transfer admin rights. Jetton master contracts also adjust the total supply when tokens are burned.  Jetton wallet smart contracts are used to transfer, receive, and burn Jettons, storing the wallet balance for a specific user and the Jetton master contract's address. Each Jetton type has one master contract and separate wallet contracts for every holder.   The main difference is that the master contract manages the overall Jetton and its supply, while individual wallet contracts manage specific users' balances and facilitate transfers. This architecture enhances scalability and reduces congestion.  You can find more information on the TON Docs:    [How it works - TON Docs](https://docs.ton.org/standard/tokens/jettons/how-it-works)    Jettons payments processing - TON Docs    [Overview - TON Docs](https://docs.ton.org/standard/tokens/jettons/overview)    Payment processing overview - TON Docs (reply to 171088)
+
+Amirali: Writing contracts in FunC (storage layout, message handling, internal vs external messages) (reply to 171088)
+
+Nima: Like what? (reply to 171085)
+
+&rey: Like, counter contract. (reply to 171092)
+
+Amirali: Deploying and testing on testnet before even thinking about mainnet To avoid assumptions, let me check your baseline first:  Have you already written or deployed any smart contracts on TON? Are you familiar with FunC syntax and message-based architecture? (reply to 171091)
+
+Kon: Maybe the next year happened ours advanced
+
+Nima: All that i have done : see the docs on ton.org and used github repo to deploy a contract and get called contract on my testnet wallet (reply to 171094)
+
+Nima: I have done that (reply to 171093)
+
+Mirka: Improve it, try to make a calculator contract. Create a basic nft sell contract (reply to 171097)
+
+Nima: By the way happy 2026🥳
+
+Nima: Where do i start? (reply to 171098)
+
+Mirka: Add logic to calculate a+b, a-b, a*b. That's not really important, you just need to practice on something simple, improve your skills (reply to 171101)
+
+Nima: I will thank you  I will get back to you guys tomorrow  Thank you all
+
+Nima: I sure will  till later on (reply to 171102)
