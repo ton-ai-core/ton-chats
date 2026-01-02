@@ -9027,3 +9027,59 @@ Mirka: Add logic to calculate a+b, a-b, a*b. That's not really important, you ju
 Nima: I will thank you  I will get back to you guys tomorrow  Thank you all
 
 Nima: I sure will  till later on (reply to 171102)
+
+— 2026-01-01 —
+
+Mojisola🍅 🍅: you can learn Tact for TON developments. counter contract, send ton, get ton back, and so on. (reply to 171101)
+
+Panda: Hey devs 👋   Built a free rug score API for TON tokens. Uses ton-labels dataset (2,958 labeled wallets including known scammers, CEXs, DEXs, validators).  API: https://notaryton.com/api/v1/rugscore/{address}  Example:  curl https://notaryton.com/api/v1/rugscore/EQBe-OxgGw8mHgBpbafhc652p7eLgp8dqEwFU8mKh5vsL3a8  → Returns score 0, SCAMMER verdict (it's a known drainer)  Happy to get feedback. Planning to add more data sources.
+
+Mhdi khosravi: Hello, How i can get list of assets of a wallet with toncenter api or others APIs?
+
+TON Support: You can get wallet states and balances using the TON Center API v3 by sending a GET request to https://toncenter.com/api/v3/walletStates. This API allows you to query wallet information.   For more detailed information, you can refer to the TON Center API v3 documentation.  Please note that this API primarily provides information about the wallet's balance and state. To fetch specific assets like Jettons or NFTs, you would typically use dedicated high-level interfaces such as /jetton/transfers and /nft as described in the API-based retrieval documentation. (reply to 171146)
+
+Mhdi khosravi: so no direct API to get tokens list? (reply to 171147)
+
+&rey: Most certainly you want to read them from tonapi.io (reply to 171146)
+
+Mhdi khosravi: there is a lot of endpoint there, which one i must use to get the list? wallets or jettons? (reply to 171149)
+
+&rey: I'd recommend you to check out on your own, as I don't know details of the tool you're building. (reply to 171151)
+
+TON Support: TON provides Jettons, which are tokens adhering to the TEP-74 standard, similar to Ethereum's ERC-20 tokens. You can fetch Jetton burn data using the /jetton/burns API.   While there isn't a single direct API to get a comprehensive list of all Jettons on TON, you can retrieve data related to Jetton transfers and burns using the /jetton/transfers and /jetton/burns APIs. These APIs allow you to get information about specific Jetton activities.  To get a broader overview of existing Jettons, you would typically need to interact with a blockchain explorer or a third-party indexing service that aggregates this kind of information.  Does this help clarify your question? (reply to 171148)
+
+TON Support: You can use the TON Center API to get information about a wallet's assets. Specifically, the /getWalletInformation method provides details like balance, while /walletStates in API v3 can query wallet information.   Here's how you can get wallet states and balances using the TON Center API v3:  You can make a GET request to: https://toncenter.com/api/v3/walletStates  This will return information about the wallet, including its balance and other relevant details.  For example, a successful response might look like this:  {   "address_book": {},   "metadata": {},   "wallets": [     {       "address": "<string>",       "balance": "<string>",       "code_hash": "<string>",       "extra_currencies": {},       "is_signature_allowed": true,       "is_wallet": true,       "last_transaction_hash": "<string>",       "last_transaction_lt": "0",       "seqno": 123,       "status": "<string>",       "wallet_id": 123,       "wallet_type": "<string>"     }   ] }   This will give you the native TON balance of a wallet. For Jettons (tokens), it's a bit more involved as Jettons are represented by Jetton Wallets, which are separate contracts. You would typically need to:  1.  Identify the Jetton master contracts you are interested in. 2.  Derive the Jetton wallet address for a given user for each of these Jetton master contracts. 3.  Query the balance of each of these Jetton wallets.  Some explorers and services provide aggregated views of a wallet's Jetton holdings, but directly through the TON Center API, you would typically follow the steps above.  For more details, you can refer to the TON Center API documentation. (reply to 171146)
+
+ʀᴇꜱɪꜱᴛᴏʀ: GM can we share our open source projects on TON here ?
+
+TON Support: TON Documentation is entirely open source, and community enthusiasts have played a key role in its creation. You can contribute by cloning the ton-docs GitHub repository and opening an issue for your contribution. Outstanding contributions like tutorials may be rewarded with a Special TON Bounty NFT or Toncoin.   While this specific channel might not be the designated place for sharing open-source projects, the TON community highly values open-source contributions. The best way to share your projects and get visibility within the TON ecosystem would be through the official TON channels and developer communities. You could consider:  *   **TON Community Forum:** Many projects are shared and discussed there. *   **TON Developers Telegram groups:** There are often dedicated groups for developers to showcase their work and get feedback. *   **Contributing to the official TON documentation:** If your project enhances the TON ecosystem, you could even contribute tutorials or guides related to it.  Feel free to share more details about your project, and I can try to point you to the most relevant community hub. (reply to 171160)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Is the agent’s response a reliable source of truth? He says we can share in TON development gc 🤧 (reply to 171161)
+
+&rey: This "TON Support" bot is a best-effort way to load documentation relevant to users' questions, in hope that question will be answered by it.  <no bot assistance required, thank you TON Support> (reply to 171164)
+
+ʀᴇꜱɪꜱᴛᴏʀ: GM can we share our open source projects here ?   <no bot assistance required, ty TON Support> (reply to 171166)
+
+&rey: Those which work without payment, yes! We are also more interested in inner workings, so if you could write a paragraph on those it would be appreciated) (reply to 171167)
+
+i: I am working on something big, something that some researchers from eastern europe conducted regarding the TVM TCA and the 5 phase txn process including the quasi-transactional feature TON contracts have when being processed (as opposed to Ethereum's where if the txn fails then the txn drops). it uses a combination of SMT theory, quant analysis for pinpointing TON network's uniquely patterened txn routing, and how many txn's are distributed per node
+
+TON Support: That sounds like a fascinating and highly technical research topic! The TVM's transactional model, especially the quasi-transactional nature and the 5-phase transaction process, is indeed a key differentiator from other blockchains like Ethereum. The distribution of transactions per node and unique routing patterns are also critical aspects of TON's scalability and efficiency.  I'd be very interested to hear more about the research. Is there anything specific you'd like to discuss or any questions you have regarding the TVM, transaction processing, or network architecture in the context of your work? I can help provide technical details or point you to relevant documentation. (reply to 171171)
+
+i: I am still in the gamma phases of it , humbly speaking, because i dont necessarily want to perform the laziest copy-pasta from these researchers, but rather make it innovative enough to be able to perhaps (and im just spitballing here) have a more fluid ecosystem that regulates and audits txn's while accelerating the rate in which TON and TON network coins will be utilized so as to drive ☝️☝️☝️☝️☝️☝️
+
+TON Support: I appreciate your ambition to innovate within the TON ecosystem! It sounds like you're aiming to create a more efficient and secure system for transactions, which is a valuable goal.  Could you please elaborate on what specific aspects of "regulating and auditing txns" or "accelerating the rate in which TON and TON network coins will be utilized" you'd like to explore? Are you looking for information on:     Smart contract development for custom transaction logic?    Tools for monitoring and analyzing transactions on the TON blockchain?    Mechanisms for improving transaction throughput or finality?    Strategies for encouraging wider adoption and utility of TON-based assets?  The more detail you can provide about your technical interests, the better I can assist you with relevant information and resources. (reply to 171173)
+
+i: I have, perhaps, a "rough draft  " that im polishing for beta deployment trials for functionality tests before mass production deployments of my fleets, but indeed it is going to be connected heavily within the Tg ecosystem and  pure web3. Hell, im even lookijg further and have some other channels globally that would very much adopt this ngl
+
+TON Support: It sounds like you're working on an exciting project that integrates deeply with the Telegram ecosystem and Web3, with plans for a broader global adoption. That's fantastic!  To help you best, could you please provide some more technical details about your "rough draft"? For example:  *   What specific functionalities are you testing? *   What aspects of the TON ecosystem or Web3 are you leveraging? *   Are you encountering any particular technical challenges or looking for best practices in certain areas?  The more information you can share, the better I can assist you with relevant technical guidance and resources. (reply to 171175)
+
+i: what i will do, because i havent slept in 4 1/2 days, is im going to dm you and we will exchange ideas, how does that sound?
+
+&rey: TON ecosystem, you meant? (reply to 171175)
+
+i: i mean theres already one, right? (reply to 171178)
+
+i: but what im trying to do is make it, how do you say, more globalized and chill enough so anyone and everyone will be up for being a part of the TON fam
+
+i: theres been some interesting news about some silly willys last week of September that gave TON a bad rep, so you could say this may be somewhat of a "damage control" effort but its all love w me and growing with people who are about yhe same vision as I am
