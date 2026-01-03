@@ -9083,3 +9083,31 @@ i: i mean theres already one, right? (reply to 171178)
 i: but what im trying to do is make it, how do you say, more globalized and chill enough so anyone and everyone will be up for being a part of the TON fam
 
 i: theres been some interesting news about some silly willys last week of September that gave TON a bad rep, so you could say this may be somewhat of a "damage control" effort but its all love w me and growing with people who are about yhe same vision as I am
+
+— 2026-01-02 —
+
+i: Greetings , I am back
+
+TON Support: Hello! How can I help you today? (reply to 171221)
+
+i: I've dm'd &rey 2ne:v and  RESISTOR for further collaborations. I am resuming my portions.
+
+ʀᴇꜱɪꜱᴛᴏʀ: Wrote a long text then the bot deleted it. Max pain   please can you check the recent activities and send me back 🥺 ? Maybe the video wasnt allowed (reply to 171169)
+
+&rey: Please note that moderators never DM first, thank you!  So one might say you're building TON TOR? (reply to 171227)
+
+ʀᴇꜱɪꜱᴛᴏʀ: I believe TON is more than just a blockchain; it’s a complete network comparable to Tor and BitTorrent, combined with an on-chain economic layer.  The technology is there, but it seems there’s a lack of action off-chain and still too few tools to encourage developers to build tonsites and users to explore it   So I built a TON browser, based on chromium with electron, available on Mac Win Linux and Android.   The interesting part is I also build a TON proxy/TON relayer CLI with garlic routing 3 hop circuit rotations.   For now, I’ve bootstrapped the network with 4 community servers in a directory on GitHub. (Anyone can PR to add servers)   In the future, I’ll need to add at least some gossip discovery and entry guards directories.   I also would like to implement TON payment to incentivize relayers with TON through nano-transactions in virtual offchain channels   The projects are entirely open source
+
+&rey: I must respectfully express my doubts that building a tech parallel to Tor has good effects on privacy. After all, it is visible which of the two networks is used. (reply to 171230)
+
+ʀᴇꜱɪꜱᴛᴏʀ: I want to clarify, my project does not use TOR  I built TON proxy with garlic routing (reply to 171232)
+
+i: Challenge accepted to incorporate Tor in my project
+
+ʀᴇꜱɪꜱᴛᴏʀ: Freeman already did it He closed it fast I mean he made a tonsites gateway to go on .onion (reply to 171234)
+
+i: i will check out this Freeman's attempt
+
+Lase: So how do we verify transactions with latest api
+
+TON Support: You can verify transactions using high-level interfaces like GET /actions, GET /traces, GET /jetton/transfers, GET /jetton/burns, and GET /nft. For greater security, processing transactions block by block independently is recommended.   These interfaces allow you to fetch transaction data without needing to parse the contents of individual transactions yourself.  For more details, you can refer to the official documentation on API-based retrieval. (reply to 171243)
