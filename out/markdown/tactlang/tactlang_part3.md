@@ -9971,3 +9971,7 @@ RN: I really appreciate some good guidance
 — 2025-12-31 —
 
 Craig: I've been looking for a reference implementation of an NFT contract in Tolk. I know this is the Tact chat, but... 😅 Does anyone know if there is a good reference in Tolk?
+
+— 2026-01-03 —
+
+Najah: Happy New Year 🍇🍒

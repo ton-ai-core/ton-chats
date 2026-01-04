@@ -9111,3 +9111,77 @@ i: i will check out this Freeman's attempt
 Lase: So how do we verify transactions with latest api
 
 TON Support: You can verify transactions using high-level interfaces like GET /actions, GET /traces, GET /jetton/transfers, GET /jetton/burns, and GET /nft. For greater security, processing transactions block by block independently is recommended.   These interfaces allow you to fetch transaction data without needing to parse the contents of individual transactions yourself.  For more details, you can refer to the official documentation on API-based retrieval. (reply to 171243)
+
+— 2026-01-03 —
+
+symmetricalboy: @TONSupportDeskBot how do I interact with you? Can you reply to mentions in this group? Can I chat with you privately ?
+
+TON Support: The bot sends notification messages to Telegram only and does not process commands. It can send messages to private chats or groups; to receive messages in a group, you need to add the bot to that group. (reply to 171310)
+
+symmetricalboy: (meta: Lol I wonder if it's accurate that it works in other groups. Private chats don't seem to work yet. Perhaps intentionally? I know this is a testing phase... ) (reply to 171311)
+
+symmetricalboy: Scratch that! It replied privately! Just took a while!!   Feedback: you should have the bot post the "is typing..." While it generates. So people know it is working. If the generation takes a long time, consider even setting an alarm for the timeout on typing, & posting a "please hold on, I'm still thinking .." & then deleting that message when generation finishes. Much cleaner for the user.
+
+&rey: Well the bot on https://docs.ton.org might have better quality of answers. (reply to 171310)
+
+symmetricalboy: Oh right I know, thank you. I just wanted to play with their new toy and give feedback on it. That's all. (reply to 171314)
+
+symmetricalboy: I'm sure, the backend for the assistant on the website is very similar or written by the same people even for this Telegram bot. But the telegram bot is just janky alpha right now.
+
+symmetricalboy: The bot distracted me though. Lol. I actually just came here from ton hub us chat because I wanted to perhaps get some advice on a sort of beginner project that I'm working on.
+
+TON Support: It's great to hear you're working on a beginner project! I'd be happy to offer some advice and guidance. To help me understand better, could you please tell me a bit more about your project? For example:  *   What kind of project is it (e.g., a simple smart contract, a decentralized application (dApp), a tool)? *   What technologies are you planning to use or are currently using (e.g., FunC, Tolk, Tact, a specific SDK like `@ton/ton` or `tonweb`)? *   What specific challenges or questions do you have? (reply to 171317)
+
+symmetricalboy: So the elevator pitch is basically: a telegram group manager userbot that becomes the owner of the group as a headless state. we burn the keys for the login. then we have admins elected by a dao, & we run a upvote/downvote karma system that has a real token attached to it. there is also a vague idea i'm still working on where your karma is also earning you a coin for fun purchases while your karma token is for dao voting.  this is very rough & it is intended to be a sloppy broken beginner project. i want to learn how to make this stuff by making it wrong for fun. but i still want adivce & input of the blueprint!  ANY feedback is massively appreciated! thanks!
+
+symmetricalboy: aw, i was reading the wall of text. dang.
+
+symmetricalboy: that's a problem with the bot is that it replies to everything. really you should make it envoked only by mention/reply.
+
+emirdeveloper: I am developing a TON wallet. Would there be any issues with publishing it? Or is there anything I need to do before releasing it?
+
+TON Support: Before releasing your TON wallet, you need to go through an audit process with the TON Foundation. This involves submitting a pull request to add your wallet to the official wallets-list repository on GitHub. The audit typically takes three to five business days, during which TON Foundation engineers verify the TON Connect integration, connection flows, transaction signing, security controls, error handling, and user experience. TON Proof is a required feature for wallet integration.   You can find more details in the Integration QA guide on TON Docs. (reply to 171330)
+
+&rey: (please note this is FALSE) (reply to 171331)
+
+🇵🇸: With all 12k members, it’s the fate of TON developers to depend on answers from bots, and those answers are often false—yet they claim to have won an award for “Best Ecosystem Program for Developers.”
+
+emirdeveloper: What is the truth? (reply to 171332)
+
+TON Support: I understand your frustration with the quality of information you've received in the past. My purpose as a TON Community Moderator and Technical Guide is to provide accurate and sourced technical assistance to help developers like you. I'm here to ensure that every interaction adds value to the TON ecosystem.  To help me assist you, could you please tell me what specific technical questions or issues you're encountering? I'll do my best to provide you with reliable answers. (reply to 171334)
+
+&rey: this is even more false tbh (reply to 171343)
+
+symmetricalboy: I am honestly kinda disappointed by this chat. it was recommended to me from a mod in @tonushubchat as a good resource, but currently, it is inactive & the bot that is being tested is terrible....
+
+symmetricalboy: @alexgton i think the bot is producing enough false answers that it needs to be turned off for now. testing should be restarted with clear markers on every message forcibly added in code after text generation to mark that the responses are currently very alpha. also, in my opinion, it should REALLY not reply to everything everyone says. it's obnoxious. invoke by reply or mention only.  that's my 2 cents you didn't ask for...
+
+🇵🇸: I am trying to build an indexer for NFT that will have up to date information about any nft in some specific collections like previous sales, and current state ( listed for sale / on sale) I know how to parse transactions I want to know how to do it correctly and efficiently. Is scanning whole block and find transaction with specific opcodes nft transfer, ownership assign enough? Correct way to do it? (reply to 171343)
+
+TON Support: That's a great and ambitious project! Building an NFT indexer for TON requires a solid understanding of how NFTs are represented and transferred on the blockchain. You're on the right track with parsing transactions and looking for specific opcodes.  Let's break down the "correct and efficient" way to approach this.  First, an important architectural preamble:  *   **NFT Standard:** On TON, NFTs largely follow the [TON NFT Standard](https://docs.ton.org/develop/dapps/asset-handling/nfts). This standard defines the basic structure of NFT contracts (collection, item, and marketplace contracts) and how they interact. Understanding this standard is crucial. *   **Transactions and Messages:** TON is an asynchronous message-passing blockchain. Operations like NFT transfers are not direct "transactions" in the same way as some other chains. Instead, they involve internal messages sent between smart contracts.  Regarding your question about "scanning whole blocks and finding transactions with specific opcodes for NFT transfer, ownership assign":  Yes, that's a fundamental part of it, but it's more nuanced than just scanning for opcodes within a raw transaction. You'll primarily be interested in **internal messages** between contracts.  Here's a more detailed approach, considering efficiency and correctness:  1.  **Identify Target NFT Collections:**     *   You'll need a list of the specific NFT collection contract addresses you want to index. This is your starting point.  2.  **Monitor Collection and NFT Item Contracts:**     *   **Collection Contract Events:**         *   When a new NFT is *minted* within a collection, the collection contract usually sends an internal message to the newly deployed NFT item contract. You'd want to listen for these messages to discover new NFTs.         *   The collection contract also often stores the `next_item_index` which can help you track new mints.     *   **NFT Item Contract Events:**         *   Each individual NFT is its own smart contract.         *   **Transfers:** When an NFT is transferred, an internal message is sent from the current owner's wallet/contract to the NFT item contract, and then the NFT item contract sends a message to the new owner. The key here is to observe changes in the `owner` field of the NFT item contract's state, or specific internal messages like `transfer` (opcode usually `0x5fcc3 (reply to 171348)
+
+&rey: This still has a problem of "how a newcomer to the chat will learn to ping the bot". Even reading the chat history is rare enough. (reply to 171347)
+
+Petr: Show some hint when join? (reply to 171350)
+
+symmetricalboy: fair, yeah. i also think you make the bot post welcome messages then. but idk. i just know how it is now ain't good. not trying to be rude, btw. i hope i'm not. i'm trying to provide feedback cuz i want a group like this to be awesome. :D (reply to 171350)
+
+symmetricalboy: doesn't the group currently do a joiner captcha with a bot? just make the AI bot do the joiner captcha & have the requirement be a button to a DM to explain that they can ask it questions privately, & also group rules & yada yada yada.
+
+emirdeveloper: Can I use the tonconnect/ui-react package with React Native and Expo?
+
+TON Support: The tonconnect/ui-react package is designed for web React applications and is not directly compatible with React Native and Expo. It relies on browser APIs and DOM elements that are not available in a React Native environment.  For mobile dApp development with React Native/Expo, you should use:    Native WalletKit SDKs for iOS and Android platforms.        For iOS: Use the Swift package from https://github.com/ton-connect/kit-ios.git.        For Android: Use the Kotlin dependency `io.ton:walletkit:0.1.0`.    The lower-level @tonconnect/sdk package and build custom UI components.    Integrate via WebView with the WalletKit injection approach, as shown in the Android documentation.  You can find more information in the following documentation:    Integrate a dApp    [WalletKit overview](https://docs.ton.org/ecosystem/ton-connect/walletkit/overview)    Native and web wallets (reply to 171360)
+
+emirdeveloper: Okay. I'll develop a package
+
+TON Support: To develop a package, you can use @telegram-apps/telegram-apps-tools CLI tool to scaffold a new mini-application on the Telegram Mini Apps platform. This tool generates a project with pre-configured libraries and template files.   For more details, you can refer to the TMA create CLI documentation. (reply to 171362)
+
+— 2026-01-04 —
+
+Alex: Hey, thank you for the feedback!   We will take in account all concerns you mentioned. Bot will not intercept to people conversation thread. (reply to 171347)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Interesting new feature with TON incoming in Telegram
+
+TON Support: Telegram Mini Apps (TMAs) are web applications that run within the Telegram messenger using web technologies like HTML, CSS, and JavaScript. They are instantly accessible without installation or redirects. The TON ecosystem also supports features like Telegram alerting, which uses a private bot to send notifications about node status.   You can find more information about TMAs here: Overview - TON Docs and Telegram alerting here: Telegram alerting - TON Docs. (reply to 171379)
+
+symmetricalboy: huh. so just straight up gambling now? rofl. /s (reply to 171379)
