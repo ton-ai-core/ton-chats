@@ -9185,3 +9185,159 @@ Alex: Hey, thank you for the feedback!   We will take in account all concerns yo
 TON Support: Telegram Mini Apps (TMAs) are web applications that run within the Telegram messenger using web technologies like HTML, CSS, and JavaScript. They are instantly accessible without installation or redirects. The TON ecosystem also supports features like Telegram alerting, which uses a private bot to send notifications about node status.   You can find more information about TMAs here: Overview - TON Docs and Telegram alerting here: Telegram alerting - TON Docs. (reply to 171379)
 
 symmetricalboy: huh. so just straight up gambling now? rofl. /s (reply to 171379)
+
+symmetricalboy: ugh. why did you delete my message. 😑
+
+TON Support: I did not delete your message. As an AI, I do not have the ability to delete messages. My purpose is to assist with technical questions related to the TON ecosystem. (reply to 171385)
+
+symmetricalboy: So I had a bit of trouble understanding your last sentence there, Alex. I decided to ask Gemini to help me interpret. I think it was quite informative & incredibly interesting, so I just had to share. I find it so fascinating that Gemini was able to see the reason behind the quirks & teach me something new here: Given the context of your original feedback—specifically where you said the bot shouldn't "reply to everything" and is being "obnoxious"—Alex is almost certainly promising to implement exactly what you asked for.  Here is the translation of **"Bot will not intercept to people conversation thread"**:  > **"The bot will no longer interrupt conversations between humans."**  ### Why the English is "failing" (The Russian Angle)  You are likely spot on about him being a Russian speaker. Here is how that phrasing probably happened:  1. **"Intercept" vs. "Interrupt/Interfere":** In Russian, the concept of "cutting in" or "breaking into" a conversation can be translated in a few ways. He likely picked "intercept" (thinking of "intercepting a message") when he really meant **"interrupt"** or **"interfere with."** 2. **"To people conversation thread":** Russian doesn't use articles (a/the), so they are missing here. Also, the preposition "to" is often misused when translating verbs of motion or direction. He is trying to say the bot won't insert itself *into* the threads where people are talking.  ### The Takeaway  He is agreeing with you. He is saying they are fixing the bot so it stops hijacking threads where two real people are trying to talk to each other. He's confirming that the "invoke by reply or mention only" rule (or something very similar) is being turned on. Interesting, no? Anyway, cheers, & good luck with the bot! (reply to 171378)
+
+symmetricalboy: custom emoji. the answer is i ended it with an animated cheers/2 beer mugs emoji. that's a fun rule you don't explain. 🙄 (reply to 171385)
+
+Jake ~: Telegram would force the KYC only for gamblers, rather I think that a lot of users would arrive just to play and this could lead to a rotting of the platform. (reply to 171382)
+
+symmetricalboy: ugh. idk.... it's definitely something to watch. (reply to 171382)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Yes make sense u right, probably just need to have @ wallet KYCd (reply to 171389)
+
+Andrey: Guys, we've cracked W5... to protect you. 🛡 TonWise v2.0 release.  While everyone is chasing memecoins, we solved the #TON ecosystem's fundamental problem: Blind Signing.  Drainers now use the W5 standard to pack up to 255 messages in one transaction. They show you a "Login" button, but hide an NFT Transfer in the 254th message. Your wallet doesn't see it. We do.  Today we present the "Glass Box" engine.  What's under the hood: 1. W5 Batch Unpacker: We recursively parse the transaction tail to find hidden asset transfers. 2. Intent Decoder: We intercept 'ton://' deep links and decode the binary payload (BOC) BEFORE you sign. We show you the exact outcome (e.g., "-500 USDT"). 3. Manifest Guard: Anti-phishing origin check.  No guessing. Just simulation.  Try the Live Demo: 1. Go to @TonWise_Bot on Telegram. 2. Click "📱 Open App". 3. Paste any transaction link — see what really happens.  #TON #Web3Security #CryptoScams #DeFiSafety #BuildOnTON
+
+Amirali: Hi, I don’t have deep technical expertise, but blind signing is a well known systemic challenge across most blockchain ecosystems. If your approach truly enables clear pre signing simulation, that’s a meaningful step forward  curious to see how it holds up in real world usage👌 (reply to 171402)
+
+Jay: If there any avaliable full-stack or smart contract devs dm
+
+2⃟ꋪꀎ꒒ꍟ: Who is Dev?
+
+symmetricalboy: u iz dev! 🎉 (reply to 171410)
+
+symmetricalboy: 😂 sorry, just messin' with ya. are you looking for some help on a specific thing? (reply to 171410)
+
+2⃟ꋪꀎ꒒ꍟ: I think it's interesting😅 to be honest, I'm looking for information about the TEP-74 standard for exchangeable Jetton and creating decentralized transactions. I found Ton coin libraries on GitHub, but I couldn't find much for jettons except for some APIs in the Open Network project documentation (reply to 171412)
+
+symmetricalboy: i am very very new myself to these concepts, so i do hope someone can step in & give ya a link to somethin'. :D is there something cool you're aiming to build? (reply to 171414)
+
+2⃟ꋪꀎ꒒ꍟ: In fact, I plan to set up a decentralized network of multiple chain stores along with a delivery service and transportation system, as well as a virtual city. This will include insurance systems and everything that can be done with real money in a decentralized manner. I think that currently, Open Network main jetton Ton Coin initial models may work with tokens, but I intend to add my Jetton, which I minted using the TEP-74 standard. However, transactions are not being created, and I haven't found any sample sources for reference. (reply to 171415)
+
+symmetricalboy: that sounds really ambitious! (reply to 171416)
+
+&rey: Typo, bad assistant response or translation issues?  Jettons are defined in TEP-74 https://github.com/ton-blockchain/TEPs/blob/master/text/0074-jettons-standard.md. (reply to 171416)
+
+2⃟ꋪꀎ꒒ꍟ: Where I live, escaping from inflation and the corrupt financial system of banks can also be called that (reply to 171417)
+
+&rey: 1) Do you know what a TON smart contract is? (reply to 171416)
+
+2⃟ꋪꀎ꒒ꍟ: Yes, but the decentralized payment and payment with reputable wallets seem to require a separate code for the Jetton (reply to 171420)
+
+&rey: The blockchain does not define the term "decentralized payment". What do you call by this name? (reply to 171421)
+
+2⃟ꋪꀎ꒒ꍟ: The term "decentralized payment" refers to systems where transactions are conducted directly between users without the need for a central authority or intermediary, such as a bank or payment processor. In my system, the store uploads its own products, and the buyer makes the payment. The delivery fee is handled by the store with one click. This can be done using Toncoin sources. However, for my own token, which I might call YOYO based on the TEP-74 standard, it seems that a separate API is needed, and I'm not quite sure how to understand this. (reply to 171422)
+
+2⃟ꋪꀎ꒒ꍟ: If anyone can provide guidance, I would appreciate it!
+
+ʀᴇꜱɪꜱᴛᴏʀ: Not sure I understand what you want to do.  You minted it, you have the supply in your wallet and now you try to send it to another wallet but it’s not working, correct ? (reply to 171423)
+
+2⃟ꋪꀎ꒒ꍟ: I minted a Jetton TEP-74 and I want to design a decentralized payment link for it, similar to the decentralized payment gateway Getgems , which reduces fees buy sales. However, this interaction with Toncoin has been prepared and is extendable for developers, but I haven't found a solution for my own Jetton😵‍💫 (reply to 171425)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Why do I feel like I’m talking to an Ai (reply to 171426)
+
+2⃟ꋪꀎ꒒ꍟ: I don't know
+
+2⃟ꋪꀎ꒒ꍟ: I just example for U
+
+ʀᴇꜱɪꜱᴛᴏʀ: I think you are overcomplicating everything (reply to 171428)
+
+ʀᴇꜱɪꜱᴛᴏʀ: For example, you called a .ton “a open network blockchain username”. It’s just a TON dns.
+
+ʀᴇꜱɪꜱᴛᴏʀ: What do you mean by decentralized payment link ?  Do you mean TON connect ? (reply to 171426)
+
+2⃟ꋪꀎ꒒ꍟ: Maybe but that is about a project (reply to 171431)
+
+2⃟ꋪꀎ꒒ꍟ: Yes 🤦‍♂ (reply to 171432)
+
+ʀᴇꜱɪꜱᴛᴏʀ: https://docs.ton.org/ecosystem/ton-connect/overview (reply to 171434)
+
+2⃟ꋪꀎ꒒ꍟ: I know how connect how fixed with my jetton (reply to 171435)
+
+symmetricalboy: i think what you're sniping @EWu808 for there is actually non-native english speaker who is inexperienced but trying to sound professional. don't yell at the new kids. try to find the bridge between the communication styles & provide clear directions in simple language. (reply to 171427)
+
+symmetricalboy: that being said, you are NOT being very clear in what you're describing, @EWu808 .....
+
+ʀᴇꜱɪꜱᴛᴏʀ: Sure! This is what I did I try to understand what he’s meaning and help as much as I can (reply to 171437)
+
+&rey: If you want to get help you must talk code at least somewhat. To help that, I will delete any messages which are only words upon more words but no code.  What have you already tried? (reply to 171436)
+
+Andrey: We just deployed the Sandbox update. Check it now (reply to 171403)
+
+Ataxdi: Hey guys. Working on a PvP heist game on TON (Node.js backend). No clicking, just stealing mechanics. Looking for feedback on the raid loop. Can I drop a quick demo video here?
+
+Mr: What is the difference between a transaction Hash and an In-Msg Hash?
+
+TON Support: A transaction hash uniquely identifies an entire transaction, encompassing all data including incoming and outgoing messages, state changes, and fees. An incoming message hash, on the other hand, is the hash of a message received by a contract.   For more details, you can refer to the TON documentation on Hash-based tracking and Messages overview. (reply to 171444)
+
+symmetricalboy: *finds my own way to the video posted on your x account.... 👀* (reply to 171443)
+
+symmetricalboy: feedback: you should make the screen where you're tapping the bottom button to start the raid repeatedly fit on the screen without scrolling. it should be a full screen panel that fits the viewport without scrolling at all times. it would feel cleaner & people could basically do it mindlessly. (reply to 171446)
+
+Ataxdi: haha, nice recon work (reply to 171446)
+
+Ataxdi: good feedback 💎🤩 (reply to 171447)
+
+symmetricalboy: otherwise it looks pretty danged cool! & i like the token $DIRTY a lot. xDDD (reply to 171451)
+
+Ataxdi: deploying $TON wallet connect tonight. need 3-5 people to stress test it. you in?
+
+symmetricalboy: ok! (reply to 171454)
+
+2⃟ꋪꀎ꒒ꍟ: I am developing a web application using React, TypeScript, and tonconnect/ui-react to interact with the TON blockchain. My application allows users to view their TON and Jetton balances and initiate transfers.  Currently, I am experiencing an issue specifically with initiating Jetton transfers through Tonkeeper via tonConnectUI.sendTransaction(). While direct TON transfers (when isTon: true in my code, sending to a basic address with an amount) work flawlessly and open Tonkeeper correctly, Jetton transfers (following the TEP-74 standard) consistently fail to trigger Tonkeeper or result in an error in the wallet when attempting to send.  ▎Technical Details:  The core of the problem appears to be in the construction of the payload for the Jetton transfer message, which is sent as a 'comment' or internal message to the user's Jetton Wallet contract.   Here's how the Jetton transfer payload is currently constructed in my TransferModal.tsx component, following the TEP-74 standard for transfer #f8a7ea5:  // Inside handleSend function, for Jetton transfers // jetton.walletAddress is the user's jetton wallet address for the specific jetton // recipientAddress is the destination address // jettonAmount is the amount of jettons to send (BigInt, already scaled by decimals)  const body = beginCell()   .storeUint(0xf8a7ea5, 32) // TEP-74 jetton::transfer op-code   .storeUint(0, 64) // query_id: uint64 (using 0 for simplicity)   .storeCoins(jettonAmount) // amount: VarUInteger 16   .storeAddress(recipientAddress) // destination: MsgAddress (parsed recipient)   .storeAddress(recipientAddress) // response_destination: MsgAddress (set to recipient for now)   .storeBit(false) // custom_payload: Maybe ^Cell (false indicates no custom payload)   .storeCoins(1) // forward_TON_amount: VarUInteger 16 (1 nanoton, minimum for forward)   .storeBit(false) // forward_payload: Either Cell ^Cell (false indicates no forward payload)   .endCell();  const transaction = {   validUntil: Math.floor(Date.now() / 1000) + 360,   messages: [     {       address: jetton.walletAddress, // This is the address of the sender's Jetton Wallet       amount: toNano('0.05').toString(), // TON amount to cover gas fees for the internal message       payload: body.toBoc().toString('base64')     }   ] };  await tonConnectUI.sendTransaction(transaction);   ▎Observation:  • TON Transfers: When isTon is true, transaction.messages[0].address is the direct recipient, and the payload is omitted. Tonkeeper opens as expected. • Jetton Transfers: When isTon is false, transaction.messages[0].address is jetton.walletAddress (the sender's Jetton Wallet), and the payload contains the body as described above. Tonkeeper does not open or fails silently/with an error.  ▎Hypothesis:  The issue likely lies in one of the following areas: 1. Incorrect payload structure or serialization: Despite following TEP-74, there might be a subtle error in the order, type, or value encoding of the fields within the beginCell() construction that Tonkeeper's parsing expects differently. 2. Handling of response_destination or forward_payload: Perhaps storeBit(false) is not the exact expected representation for Maybe ^Cell or Either Cell ^Cell when they are empty, and Tonkeeper expects a null or explicitly empty Cell reference instead. 3. query_id: While using 0 is standard, some implementations might have specific requirements for query_id. 4. Validity of jetton.walletAddress: The jetton.walletAddress obtained from tonapi.io is expected to be correct.  Any guidance on how Tonkeeper specifically interprets TEP-74 Jetton transfer payloads or common pitfalls in constructing these messages with ton/core for TonConnectUI would be greatly appreciated. I am using the latest versions of tonconnect/ui-react and related libraries.  Thank you for your time and assistance. (reply to 171438)
+
+2⃟ꋪꀎ꒒ꍟ: This way, it's easier to explain @pcrafter (reply to 171465)
+
+🇵🇸: try this instead.  .storeUint(260734629, 32) (reply to 171465)
+
+2⃟ꋪꀎ꒒ꍟ: Thanks for the suggestion about changing the op_code to 260734629. That value is correct and does match the Jetton transfer specification (TEP-74), so the change itself was technically valid. However, updating the op_code alone didn’t resolve the issue because it wasn’t the actual cause of Tonkeeper failing to open. The problem with that approach is that it assumes the op_code was the blocking factor, while in practice Tonkeeper validates the entire transaction before opening. If any other part of the request is malformed, the wallet will silently reject it regardless of the op_code. This includes the overall transaction object passed to tonConnectUI.sendTransaction, the exact structure of the Jetton transfer body, correct address handling for destination and response destination, forward amount and payload flags, and especially the correctness of the serialized payload (body.toBoc().toString('base64')). Because of this, fixing only the op_code ends up being a false fix: it corrects a value that was already valid or not responsible for the failure. The issue is much more likely related to how the transaction or payload is constructed as a whole, or how it’s being validated by the TonConnect UI layer before Tonkeeper is invoked. To move forward, the focus should be on inspecting console errors and validating the full transaction structure rather than isolating the problem to the op_code field alone 😵‍💫🫩 (reply to 171467)
+
+ʀᴇꜱɪꜱᴛᴏʀ: .storeBit(false), maybe better : .storeBit(0)  .storeRef(beginCell().endCell())
+
+TON Support: I'm not sure I understand your question. It seems like you're asking about FunC/Tact cell building methods like .storeBit() and .storeRef(). Let me search for relevant documentation.Based on the search results, I can help clarify the cell building methods you're asking about.  In TypeScript with @ton/core, both approaches work for .storeBit():  - .storeBit(false) - stores a boolean false as 0 - .storeBit(0) - stores the integer 0 as a single bit  Both are equivalent and valid. The method accepts either a boolean or a number (0 or 1).  For .storeRef(beginCell().endCell()), this stores a reference to an empty cell. This is useful when you need a placeholder cell reference.  Example from the docs: const cell = beginCell()     .storeUint(1, 256)     .storeRef(beginCell().storeUint(3, 256).endCell())     .endCell();   The choice between storeBit(false) vs storeBit(0) is mostly stylistic—use whichever is clearer for your context. Boolean values are often more readable when representing flags.  (Source: Cells)  Cells documentation Cells, slices, builders in Tolk Your first smart contract (reply to 171470)
+
+TON Support: I'm not sure I understand your question. Are you asking about the correct syntax for storeBit() in FunC/Tact, or whether storeBit(false) vs storeBit(0) is preferred? Let me search for relevant documentation.Based on the search results, I can provide guidance on your question about storeBit() syntax.  In TypeScript with @ton/core, both approaches work:  // Using boolean .storeBit(false)  // Using number (0 or 1) .storeBit(0)   Both are valid. The choice is stylistic - false/true is more readable for boolean flags, while 0/1 may be clearer when working with bit-level data.  For .storeRef(beginCell().endCell()), this stores an empty cell as a reference. If you need an empty cell reference, this is correct. Alternatively, you could use:  .storeMaybeRef(null)  // if the ref is optional   The documentation on the Cells page shows these patterns for cell construction.  Cells documentation Auto-serialization in Tolk (reply to 171470)
+
+🇵🇸: ton connect loader disappear as soon as you open your wallet app?  if so, you can try tuning validUntil value . recently i encountered similar issue i had (now + 60) which stopped working i had to change to + 120.  in your case 360 may be bit high according to tonconnect dev guys. (reply to 171469)
+
+2⃟ꋪꀎ꒒ꍟ: problem is that😅 the tonconnect loader doesn't disappear immediately, but other Jetton like TEP-74 do. It's really (reply to 171479)
+
+Modesayo: @Jayonthemarket  Be careful this is a scammer tries to get you to download malware
+
+&rey: Have you checked that jetton.walletAddress holds the right address, of type string? (reply to 171465)
+
+Mojisola🍅 🍅: this is too long story, is it a grok or Ai response (reply to 171465)
+
+symmetricalboy: you are correct, yes. https://www.pangram.com/history/1c98b593-af77-487e-b237-d450121dd1e1/?ucc=138cf7hlj9M (reply to 171493)
+
+Mojisola🍅 🍅: WHT exactly is the problem, should not be that difficult to solve. Just state it simply not copy long story from ai (reply to 171494)
+
+symmetricalboy: i didn't type it. you do know that, right? (reply to 171495)
+
+Mojisola🍅 🍅: no. didn't know. thought that was you. anyway, what is the issue, has it been solved
+
+2⃟ꋪꀎ꒒ꍟ: Yes, but it's not Grok. AI to our perception of artificial intelligence, I am using it for the development of smart contracts, which is something that a developer always wants to invest a lot in, along with security programming teams (reply to 171490)
+
+2⃟ꋪꀎ꒒ꍟ: Similarly, development through artificial intelligence accelerates project development, bringing us closer to a virtual city equipped with blockchain technology services
+
+&rey: Have you done any measures for your LLM to understand TON? Otherwise, it tries to use knowledge of other blockchains which is detrimental to local progress. (reply to 171499)
+
+2⃟ꋪꀎ꒒ꍟ: Yes, it's fully compatible with Toncoin. If you look at the projects in my channel, you will understand. You can even completely pivot from the ongoing project idea; ultimately, our goal is to contribute to a healthier ecosystem. However, my issue is that while I have been able to utilize TEP-62 contracts with Toncoin, I am still facing challenges in connecting with TEP-74 Jetton (reply to 171500)
+
+&rey: You should know that there is no standard called TEP-72. I warn you against inviting any users until you know what you are doing and can state how (e.g. under what conditions) your projects work. (reply to 171501)
+
+Slava: @EWu808 lets keep this civil.
+
+— 2026-01-05 —
+
+symmetricalboy: @zkproof: i owe you an apology. i thought i was sticking up for some struggling ESL newbie, turns out i was just white-knighting in defense of some guy who was copy-pasting ai-generated garbage. you were right, and i was in the way.  the irony is actually causing me physical pain at the moment because i spent the entire morning doing research on “AI Humanizers” vs. “AI Detectors” and i still manage to deliver the realness of the dunning-kruger effect. the shame is... extensive.  @EWu808: What @pcrafter is saying is very much correct. you're not ready for this.  but if you're gonna do it anyway, which we all know you are, then listen closely:  1. TEP-72 does not exist. Your AI model is hallucinating. Stop your attempt at creating a "virtual city" until you can send one (1) transaction. 2. The problem with your code is that .storeAddress() expects an Address Object, not a string. Change .storeAddress(recipientAddress) to:  .storeAddress(Address.parse(recipientAddress)) 3. For the love of god, begin a fresh chat session; I'm presuming you've reached about 127,000 characters so far in this same one on ChatGPT's Free Tier at this point? Perhaps you could at least share the resource links to the bot next time?  Anywhoo. you're welcome? or something? idk, i'm gonna go sit in the corner and ponder what i've done. uwu
+
+TON Support: The issue with your code is that .storeAddress() expects an Address object, not a string. You need to parse the recipientAddress string into an Address object using Address.parse(recipientAddress).  Also, please note that TEP-72 does not exist. Your AI model might be hallucinating. (reply to 171519)
+
+symmetricalboy: yes, i said that already. you need to come sit in the shame corner with me. (reply to 171520)
+
+TON Support: I apologize if my previous response reiterated information you had already stated. My aim is to provide helpful and accurate technical guidance. It seems I misunderstood the context of your previous message.  I am here to assist with any technical questions or issues related to the TON ecosystem. If you have further questions or require assistance with specific code, please provide the details, and I will do my best to help. (reply to 171521)
