@@ -9341,3 +9341,111 @@ TON Support: The issue with your code is that .storeAddress() expects an Address
 symmetricalboy: yes, i said that already. you need to come sit in the shame corner with me. (reply to 171520)
 
 TON Support: I apologize if my previous response reiterated information you had already stated. My aim is to provide helpful and accurate technical guidance. It seems I misunderstood the context of your previous message.  I am here to assist with any technical questions or issues related to the TON ecosystem. If you have further questions or require assistance with specific code, please provide the details, and I will do my best to help. (reply to 171521)
+
+ʀᴇꜱɪꜱᴛᴏʀ: All good bro, much love (reply to 171519)
+
+Don River: The issue with jetton transactions being canceled was ultimately traced back to a very small but critical detail: the operation code (opcode) used to identify a jetton transfer on the TON network.  If you look at the logic responsible for sending jettons, specifically in the src/react-app/components/TransferModal.tsx file, the transfer process is handled inside the handleSend function. When a jetton transfer is initiated (in the else if (jetton) branch), the application constructs a message body for the jetton smart contract using beginCell(). This message must strictly follow the TON jetton standard in order for the contract to recognize and execute it correctly.  The problem was in the opcode used at the very beginning of this message. Initially, the code was using:  .storeUint(0xf8a7ea5, 32)   At first glance, this value looks almost identical to the correct one, which makes the bug particularly hard to notice. However, in TON smart contracts, even a single missing leading zero changes the meaning entirely. The correct opcode for a jetton transfer, as defined by the TEP-74 standard, is:  .storeUint(0x0f8a7ea5, 32)   This leading zero is not cosmetic—it is essential.  On the TON network, every interaction with a smart contract must start with a valid and standardized opcode. You can think of this opcode as a command that tells the contract exactly what action it should perform. When the application sent a message with the incorrect opcode (0xf8a7ea5), the jetton contract simply did not recognize it as a valid transfer instruction. From the contract’s perspective, the message was either meaningless or invalid, so the transaction failed or was canceled.  Once the opcode was corrected to 0x0f8a7ea5, the contract was finally able to interpret the message properly. As a result, jetton transfers started working as expected, without being rejected or canceled.  This is a good example of how blockchain development, especially on TON, requires extreme precision. Small deviations from the standard, even something as subtle as a missing leading zero in an opcode, can completely break functionality. Paying close attention to protocol specifications like TEP-74 is crucial to avoiding these kinds of hard-to-diagnose issues. (reply to 171519)
+
+Don River: And you cannot blame someone who uses an AI assistant because there is simply a human behind the account🤧
+
+symmetricalboy: https://www.pangram.com/history/400be06c-3e8c-43ee-a506-20effba9ee7f/?ucc=138cf7hlj9M  Yes I can. I use AI all the time, I'm just good at it. 💅 (reply to 171536)
+
+symmetricalboy: You're the same guy on 2 accounts, correct? Like you liked your own post within 3 seconds of pinging me, & both accounts are linked to that NFT collection.
+
+Don River: I fix my problem right code actually (reply to 171536)
+
+Don River: Unfreeze @EWu808 If You like 🙏 cuz not a bot (reply to 171537)
+
+symmetricalboy: I can also reply with AI. I just know how to prompt & use better models than you. I also make it clear that I am sharing a large block of generated text, & politely collape it in a quote. The following is Gemini 3 Pro consumer client roasting your nonsense above: Here is the technical breakdown of why this post is utter nonsense.  **The "Leading Zero" Lie**  The entire premise of that post relies on this claim:  > *"Initially, the code was using `.storeUint(0xf8a7ea5, 32)` ... The correct opcode ... is `.storeUint(0x0f8a7ea5, 32)`"*  Here is the problem: **In programming, those are the exact same fucking number.**  In hexadecimal notation (or decimal, or binary, or octal), a leading zero on an integer literal changes **absolutely nothing** about the value. It is purely cosmetic for human readability.  If you type `console.log(0x0f8a7ea5 === 0xf8a7ea5)` into a JavaScript console (or Python, or C++, or basically any language), it will return `true`.  **Why the `storeUint` Argument Fails**  The post claims that `storeUint` created a different result because of the missing zero in the text. That is technically impossible.  The function `storeUint(value, bits)` takes a numerical **value** and packs it into a specific number of **bits**.  * **Value:** 260,734,629 (which is what both of those hex codes equal). * **Bits:** 32.  When the compiler or interpreter runs this, it converts the value to binary and pads it to 32 bits.  * **Input:** `0xf8a7ea5` * **Binary (28 bits):** `1111 1000 1010 0111 1110 1010 0101` * **Output (padded to 32 bits):** `0000 1111 1000 1010 0111 1110 1010 0101`  It doesn't matter if you wrote `0xf8a7ea5`, `0x0f8a7ea5`, or even `260734629`. The underlying bits sent to the blockchain are identical. The smart contract receives the exact same binary message.  **What Actually Happened (The AI's Hallucination)**  The AI likely scraped a GitHub issue or a Discord chat where someone was debugging a generic opcode issue. It saw that TEP-74 lists the opcode as `0x0f8a7ea5` (which is just the standard way to write 32-bit hexes to show all 4 bytes).  The AI then invented a fake scenario where "missing the zero" caused a bug, confusing **string formatting** with **integer values**. It's trying to sound smart by focusing on "precision," but it ended up failing 3rd-grade math.  **Summary**  * **The Post:** Claims `0x5` is different than `0x05`. * **Reality:** They are both just 5. * **Verdict:** This is top-tier AI slop. 💩 Now, it sounds like you have admitted you were helped by my code fix suggestion, right? I am glad it worked. If you want help learning how to use AI in more effective ways & more politely than adopting it as if you said it, I can help. :D (reply to 171536)
+
+Don River: You are right I should learning more 🤔 (reply to 171547)
+
+symmetricalboy: cool cool. i would be happy to. ceasefire? lol  what model were you using? (reply to 171548)
+
+Don River: I accepted my mistake
+
+symmetricalboy: What model were you using to generate all of that? (reply to 171550)
+
+Don River: Actually I working with  GetMocha AI I don't sure witch model used 😅 (reply to 171549)
+
+symmetricalboy: huh. i didn't know that was a thing? it looks.... not great? lol. it appears that it uses GPT-4o or Claude 3.5 Sonnet in tandem, but that was at launch. Idk if they have built in new models or more thinking features like the more modern models....   but the most important part is that this is a platform to develop a single web app, not a smart contract & not any of the other stuff you said. so. yeah. you need to move somewhere better. like an actual IDE. (reply to 171553)
+
+symmetricalboy: Cursor, Claude Code, or Antigravity, I'd say. You want my vote, I'd go Antigravity, but I'm the biggest Google fanboy you will ever meet. lmao
+
+symmetricalboy: Antigravity is 100% free right now tho. You can code with Gemini 3 Pro as well as as Claude & ChatGPT, if you hate yourself & want to make bad choices. 😆
+
+Don River: I working with Gemini 3 some time something like donation or social media share link, but GetMocha is completely Give you Backend you know (reply to 171557)
+
+Don River: Or if I like I can made a website building Web with API Gemini or more ai with GetMocha
+
+Don River: Thank you for your help 🙏 (reply to 171557)
+
+Mtho: Hello everybody  Complements of the new year to you all.  May I please ask  for assistance on the a TON Raffles token issue that I'm dealing with. I initiated the process to create a token on TONRaffles.   I have completed all the metadata steps, except assigning/uploading an image, and have also not completed token Verification (because I assumed that the meta data cannot be edited once the token is verified).  I have subsequently attempted to upload the token image by editing the token scrip (via GitHub fork cloning and local machine editing- Jetton Repository), however I was unable to locate my Unverified token on the Jetton repository (I think this makes sense because it’s not verified).  May I please ask for assistance with the following (1) Unverified Token Repository – Where are Unverified Tokens located and how could I access my token therein (2) Unverified Token Metadata Editing – Is there another way that I could edit my token’s metadata besides accessing a GitHub repository?
+
+&rey: The source of truth for jetton images is not any Github repository, it is the jetton master contract and metadata it links to. (reply to 171566)
+
+&rey: You have to determine if you own the jetton master contract (in other words, whether you have access to the wallet which jetton master recognizes as owner/editor). (reply to 171566)
+
+Mtho: Alright thank you.  In terms of access points, applications, etc :  (1) How do I determine if I have these rights?  (2) If I do have the rights, how do I access the contract   (3) If I don’t have rights, what are my options
+
+Mtho: Will try out in a minute.The access point/application/platform on which I will be actioning all of these is TONRaffles? (reply to 171570)
+
+&rey: Look up jetton address (its unique identifier is jetyon master contract). Then, visit it on Tonviewer. (reply to 171569)
+
+&rey: You'll see the owner field; if that's your wallet then everything is fine.
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 14  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Mtho: Alright. Appreciated (reply to 171573)
+
+&rey: If so, look up FAQ & docs & support of TONRaffles. (reply to 171569)
+
+Mtho: Alright. I'm also able to access the same page on Ton Keeper under the token details menu. (reply to 171579)
+
+大: how to get txhash after call send transfer, result in undefined
+
+TON Support: When using TON Connect's sendTransaction, the result returns a BOC (Bag of Cells) containing the external message, not the transaction hash directly. The transaction hash is undefined because it doesn't exist yet — the transaction is created on-chain after the message is processed.  To get the transaction hash, you need to:  1. Use the returned boc to find the transaction by polling the blockchain. 2. Use the waitForTransaction function to wait for confirmation.  Here's the approach from the Message lookup documentation:  const { boc } = await tonConnectUI.sendTransaction({     messages: [{ address: "..\"., amount\": \"20000000\" }] });  // Wait for the transaction to appear on-chain const tx = await waitForTransaction(boc, client, 10, 1000);  if (tx) {     console.log('Transaction hash:', tx.hash().toString('base64')); }   The waitForTransaction function polls the account's transaction history and matches the external message hash to find the corresponding transaction.  Source: Message lookup guide (reply to 171588)
+
+大: I'm using ton/ton
+
+TON Support: You're likely referring to TON Connect, which is the standard wallet connection protocol for TON. It's similar to WalletConnect on Ethereum but is specifically designed for TON, enabling secure communication between wallets and decentralized applications. This allows users to authorize transactions while keeping their private keys secure.  Source: TON Connect overview (reply to 171590)
+
+&rey: Well it could not return hash of transaction in any way (except if it waited for its appearance, but that might freeze or take more than a few seconds).  createTransfer; hash of that cell is the message hash, use it for tracking (and don't forget to send the external message itself). (reply to 171588)
+
+大: This would increase the number of code steps significantly. Is there a simpler way? (reply to 171592)
+
+大: const result = await wallet.sendTransfer({       seqno,       secretKey: keyPair.secretKey,       messages: [internal({         to: parsedTo.toRawString(),         value: BigInt(amount),           bounce: false,         //payload:payloadBase64,         body: comment,         sendMode:3,         mode:3       })],     });      console.log("result:",result)   this is my test code ,can you give me examle code?
+
+TON Support: The provided code snippet appears to be a JavaScript example for sending a transfer using a wallet object. To provide a relevant example, I need to understand what kind of example code you are looking for. Could you please clarify your request? For instance, are you looking for:     An example of how to define `wallet`, `seqno`, `keyPair`, `parsedTo`, `amount`, and `comment`?    An example of how to handle the result of the sendTransfer call?    An example in a different programming language (e.g., Python, FunC, Tolk)?    An example demonstrating a specific type of transfer or message body?  Once you provide more details, I can give you a more targeted code example. (reply to 171595)
+
+&rey: const message = await wallet.createTransfer({ all that }); const messageHash = message.hash().toString('base64'); await wallet.sendExternal(message);  // do whatever you need with that messageHash (reply to 171595)
+
+大: let my try it
+
+&rey: (e.g. send it to TonAPI for potentially faster delivery) (reply to 171597)
+
+大: thx ,guys
+
+大: {"error":"wallet.sendExternal is not a function"}  is there have any doc?
+
+大: An important question: I want to transfer 10 tons of currency, with additional transaction fees. I've set mode = 3, but I'm only receiving 9.9996. How can I configure it to receive 10 tons, with the transaction fees covered by the additional funds in my balance?
+
+&rey: An important distinction. a) receiving 9.9996? b) the destination contract's balance increases by 9.9996? (reply to 171603)
+
+大: can not send img
+
+&rey: Sorry; that function must've been deleted at some moment.  provider.sendExternalMessage(wallet, message); As defined in https://github.com/ton-org/ton/blob/950068fac659c673a890451e575d20601a77ef8a/src/client/TonClient.ts#L328-L351. (reply to 171601)
+
+Mr X | ByteLords ⚡: Hey guys hopefully this is the correct group to ask this question, is there any way to get a real time conversion rate from TON to Telegram Stars?
+
+TON Support: I couldn't find information about the TON to Telegram Stars conversion rate in the TON documentation. This information is managed by Telegram rather than the TON blockchain itself.  For current conversion rates, please check: *   Telegram's Bot API documentation *   The `@wallet` bot in Telegram *   Telegram's official payment/Stars announcements  Source: [Mintlify-Assistant-Message](None) (reply to 171620)
+
+Alex: Hello, this group only for TON blockchain development questions, please address your question to @devs. (reply to 171620)
+
+Mr X | ByteLords ⚡: Thank you very much ❤️ (reply to 171622)
+
+— 2026-01-06 —
+
+大: how to show cutomer text and other info like ston.fi call swap when I call sendtransaction in nimiapp
+
+TON Support: To include customer text or other information, such as a ston.fi call swap, when calling sendTransaction in a DApp, you need to define a specific payload. You can prepare a body Cell with a text comment using beginCell().storeUint(0, 32).storeStringTail("Hello, TON!").endCell(). This payload can then be included in the messages array of your transaction object.  For custom transactions, a particular payload must be defined. Remember to pass the address in a user-friendly format. Use a bounceable address when sending a message to a smart contract and a non-bounceable address when sending it to a wallet.  Source: TON transfer | The Open Network (reply to 171634)
