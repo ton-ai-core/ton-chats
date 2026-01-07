@@ -11999,3 +11999,7 @@ SEVA A.: Happy New Year everybady
 — 2026-01-03 —
 
 阿天: @ouyi331
+
+— 2026-01-06 —
+
+Nezerit: Hi 👋 I’m building a Web3 marketplace on TON (NFTs + Telegram Gifts). The project is already in development with a working MVP. Looking for a strong developer/partner. Let me know if you’re interested 🚀

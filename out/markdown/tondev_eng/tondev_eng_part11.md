@@ -9449,3 +9449,21 @@ Mr X | ByteLords ⚡: Thank you very much ❤️ (reply to 171622)
 大: how to show cutomer text and other info like ston.fi call swap when I call sendtransaction in nimiapp
 
 TON Support: To include customer text or other information, such as a ston.fi call swap, when calling sendTransaction in a DApp, you need to define a specific payload. You can prepare a body Cell with a text comment using beginCell().storeUint(0, 32).storeStringTail("Hello, TON!").endCell(). This payload can then be included in the messages array of your transaction object.  For custom transactions, a particular payload must be defined. Remember to pass the address in a user-friendly format. Use a bounceable address when sending a message to a smart contract and a non-bounceable address when sending it to a wallet.  Source: TON transfer | The Open Network (reply to 171634)
+
+Adithya: Hello guys, I am Edtech Founder & CEO having more than 1 Million downloads, right now i am in ho chi minh, Vietnam. I need todo transition from web2 to web3 for my edtech app in TON Blockchain. Is there any event or coffee like meeting happening in Vietnam? Or anyone interested in developing on TON Blockchain? Please let me know
+
+BkingTechPrince: Hello, I built a Pump.fun-style launchpad, staking etc on TON If someone need my help, pls message me
+
+Andrey: 📦 Open Sourcing the "Intent Decoder" (TonWise Core)  Following up on our v2.0 "Glass Box" announcement:  Last time, we discussed the problem of Blind Signing and mentioned our Intent Decoder engine. Some of you were curious to see "how it holds up in real world usage."  Today, we are open-sourcing the Python kernel responsible for parsing and sanitizing these events.  💎 TON Semantic Decoder Zero-dependency, hardened parser extracted from TonWise production.  We built this because standard libraries were often too heavy for high-frequency stream filtering. We needed something lightweight that handles obfuscation attacks out of the box.  What’s inside (Lite Version): ✅ Hardened Link Parsing: Strict Regex & Unicode normalization to prevent IDN Homograph attacks in ton:// links. ✅ Defanging: Automatically converts malicious URLs (https://evil.com -> hxxps://evil[.]com). ✅ Payload Detection: Instantly flags if a "simple transfer" contains a hidden binary payload. ✅ Zero Dependencies: Pure Python. No aiohttp or heavy frameworks required.  Repo: https://github.com/Andger1975/ton-semantic-decoder  Note: This module handles the Static Analysis layer (the "Eyes"). The Dynamic Analysis layer (C++ TVM Emulation / W5 Batch Unpacking) remains inside the bot for security reasons, but you can see the combined result in action here: @TonWise_Bot.  Build safe! 🛡
+
+SEVA A.: Hello, thanks for anban, happy holidays!
+
+&: dm (reply to 171659)
+
+&rey: It seems about right.  To understand this error, you'll need to understand the origin of that wallet. (reply to 171719)
+
+— 2026-01-07 —
+
+TON Bounty Bridge: ​A read-only TON blockchain toolset for the Vercel AI SDK  🏷 Developer Tool  Summary:I have already built and publishedai-sdk-ton-tools, a read-only TON blockchain toolset for the Verce...  Rewards: • $1,900 + TON Footsteps SBT  Created by mhbdev
+
+TON Bounty Bridge: ​TonGo — TON DNS Gateway + .ton Site Directory (tongo.run)  🏷 Developer Tool  Summary:TonGo is a TON DNS gateway and directory that resolves .ton domains and opens decentralized websites...  Rewards: • $800 USD (paid in TON) • Footstep SBT  Created by mhbdev

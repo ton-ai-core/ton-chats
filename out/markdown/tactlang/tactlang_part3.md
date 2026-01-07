@@ -9979,3 +9979,11 @@ Najah: Happy New Year 🍇🍒
 — 2026-01-05 —
 
 Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+— 2026-01-06 —
+
+Adithya: Hello guys, I am Edtech Founder & CEO having more than 1 Million downloads, right now i am in ho chi minh, Vietnam. I need todo transition from web2 to web3 for my edtech app in TON Blockchain. Is there any event or coffee like meeting happening in Vietnam? Or anyone interested in developing on TON Blockchain? Please let me know
+
+☼: Guys how deploy my first smartcontract in testnet?
+
+🐤Node Ai🤖 My Duck 🌽🆙 UXUY🤖: Hi everyone i am new to these smart contract and Programming languages anylink to help me learn is welcome under these text
