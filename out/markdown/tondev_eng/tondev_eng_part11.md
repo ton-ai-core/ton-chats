@@ -9467,3 +9467,69 @@ SEVA A.: Hello, thanks for anban, happy holidays!
 TON Bounty Bridge: ​A read-only TON blockchain toolset for the Vercel AI SDK  🏷 Developer Tool  Summary:I have already built and publishedai-sdk-ton-tools, a read-only TON blockchain toolset for the Verce...  Rewards: • $1,900 + TON Footsteps SBT  Created by mhbdev
 
 TON Bounty Bridge: ​TonGo — TON DNS Gateway + .ton Site Directory (tongo.run)  🏷 Developer Tool  Summary:TonGo is a TON DNS gateway and directory that resolves .ton domains and opens decentralized websites...  Rewards: • $800 USD (paid in TON) • Footstep SBT  Created by mhbdev
+
+Adithya: Hey guys anyone in ho chi minh?
+
+🏂: Hi, I'm building an app and I collide with problem that forces me to use another chain network. Problem is that on TON I cannot find how to make "delayed transaction" basically I want reserve some amount of coins on user balance, and once conditions on my server are met(it need some time or external action) then I execute transaction, if not (timeout) release. I'm fine even with just a signed message that gives me a right to execute transaction without reserving coins
+
+Celestial Being: Hello devs, we have a project that is 90% complete and currently requires some final refinements and deployment tasks. The workload is not heavy, and the reward is 100 USDT. Interested devs who can complete this, please contact me.
+
+🏂: I cant find implementation sample for signed message approach (reply to 171810)
+
+FullBRO: Hi everyone. I am having trouble reading the forward message from a jetton transfer. Certain services, like Binance Hot Wallet or Bitget send jetton transactions with structure different to that of a Telegram Wallet jetton transfer. I am using toncenter v3 API for jetton transfers and it does not get return forward message for these services. I was trying to parse it from the raw transaction body but the structure is vastly different for each of them. Does anyone have a reliable way to get forward payload from any jetton transfer?
+
+TON Support: A jetton transfer's forward payload, which contains custom data for the transaction recipient, can be found in the forward_payload field when listing jetton transfers using the TON Center API v3. This field is used for comments and other attached data.  The forward_payload is a convention, not a language feature, and its schema is defined as (Either Cell ^Cell) in TL-B format. This means it can be either an inline payload or a reference to a Cell. Some existing jetton implementations might not strictly follow this schema.  If you are seeing different structures from various services, it's possible that they are encoding the forward_payload in different ways, or that some are not strictly adhering to the standard. You might need to implement custom parsing logic to handle these variations if the forward_payload from the TON Center API v3 is not consistently providing the data you need.  Source: How to transfer Jettons - TON Docs List Jetton transfers - TON Docs API - TON Docs Jetton transfer | The Open Network Forward payload in jettons - TON Docs (reply to 171852)
+
+Modesayo: Hmm
+
+FullBRO: Tonviewer, for example, parses forward payload correctly all the time. And I doubt they are building custom parsers for each service that decides to ignore standard structure. I assume there has to be a way.
+
+TON Support: Tonviewer allows you to examine the payload of each message, which defines the intended actions and transferred value. A Jetton transfer can include a forwardPayload to provide custom data for the transaction recipient. The forwardPayload's TL-B format is (Either Cell ^Cell), meaning it can be an inline payload (bit 0) or a reference payload (bit 1).  Source: Forward payload in jettons - TON Docs (reply to 171855)
+
+Mojisola🍅 🍅: I can't understand your description. are you saying ton cannot do such thing based on its technology type or what (reply to 171809)
+
+Mirka: https://t.me/tondev/269177 (reply to 171809)
+
+&rey: About reservation. Anything reserved is not owned by user, by definition. Therefore those TON will not be on user's wallet. If you are fine with having another contract, it is kinda trivial to make:  Make that contract (let's call it C) store server's public key, user's address and deadline. 1) If C receives an external message after the deadline, return funds to user. 2) If C receives an external message signed by server, perform the requested transaction. (reply to 171809)
+
+Modesayo: yo i have a quick question i want to know if there is any bridge between ton and any other network that can be used like a contract call if you feel what i mean i don't want something manual but automated but from what i can see there's none that offer it as a service and i find it to stress full other wise since i lack liquidity most exchanges already have
+
+TON Support: It seems you're looking for an automated bridge between TON and other networks, specifically for contract calls, and are finding it difficult to locate such a service due to liquidity concerns on exchanges.   You're right to be looking for automated solutions! Cross-chain bridges are designed to facilitate the transfer of assets and data between different blockchain networks. For automated contract calls, cross-chain oracles play a crucial role as they enable the transfer of data between these blockchains, which is essential for decentralized applications performing cross-chain transactions.  While the documentation highlights the general concept and importance of these technologies for the TON ecosystem, it doesn't currently point to a specific service that offers automated contract calls as a bridge solution, especially one that addresses liquidity concerns on exchanges.  Source: Bridges - TON Docs, Oracles overview - TON Docs (reply to 171876)
+
+TON Support: There are cross-chain bridges that allow the transfer of cryptocurrencies, tokens, and data between different blockchain networks, connecting otherwise isolated systems. TON has a bridge ecosystem that links it to major EVM-compatible networks. However, the official TON bridges that existed during the early development of the TON ecosystem (2021-2023) are now considered legacy and are not recommended for use, as they can be deprecated at any moment.  Source: Bridges - TON Docs (reply to 171876)
+
+Chase: Hey guys I’m unable to transfer my USDT out of the Ton Wallet. It’s the Web TON WALLet where you can stake. It keeps giving my an API ERROR
+
+Mojisola🍅 🍅: unstake then transfer out ur token usdt
+
+Chase: How do unstake? I didn’t know I even had it staked
+
+TON Support: To unstake TON from a nominator pool, you need to send a message with the text comment "w" (lowercase) to the nominator pool address. You should include a small amount for the network fee, such as 1 TON.  If the nominator pool has enough Toncoin, your withdrawal will be processed immediately. Otherwise, a withdrawal request will be created and completed after the current validation round. Only full withdrawals are supported.  Source: Vesting contracts - TON Docs (reply to 171905)
+
+Chase: It says I don’t have anything staked
+
+Chase: I have TETHER USDT (ton) and then a couple Toncoins.
+
+&rey: Unfortunately no telepaths are available, which is why suggestions are failing. Are there any further details to that error? (reply to 171885)
+
+&rey: And yes, first of all check if you use the correct address, https://wallet.ton.org and not any other domain. (reply to 171885)
+
+Chase: The full error is “failed To send. SERVER ERROR TONAPI 406 cannot apply external message to current state”
+
+&rey: Let me check, the address is UQB8f2SjXNFuaylIYT1-oPcG62eI-cSJr8pr1JLiBBUgXbHf? (reply to 171912)
+
+Chase: No this is the USDT address
+
+Chase: UQCixqhrkfExVQvfD9VnxR9OZALe7wdZXzWo56ZCwSFtZdSo
+
+Chase: The ton wallet address that’s trying to send the USDT tether I mean.
+
+&rey: Got it. This error should not happen. Since web TON wallet is based on MyTonWallet technology, please report the issue to https://mytonwallet.io/ (there is Support link at the bottom of the page). (reply to 171916)
+
+— 2026-01-08 —
+
+Ataxdi: Hey everyone, 👋  I'm facing a redirection issue with Next.js + TonConnectUI. Transaction succeeds in wallet but doesn't redirect back to the Mini App.  Since I can't upload videos here, I posted the screen recording on X to show the bug clearly:  https://x.com/ataxdi_dev/status/2009066736587522339?s=46  Has anyone faced this returnStrategy issue on mobile? It's blocking the UX.
+
+TON Support: It sounds like you're encountering a common challenge with integrating TonConnectUI in a Next.js Mini App, specifically related to the `returnStrategy` on mobile after a successful transaction. While I can't directly debug your code or watch the video on X, I can provide some guidance based on known TonConnectUI behaviors and best practices for redirection in Mini Apps.  The core issue you're describing, where the transaction completes in the wallet but doesn't redirect back, often stems from how the Mini App's environment handles external navigations and how TonConnectUI is configured to manage the callback.  Here are some points to consider and potential solutions:  1.  **`returnStrategy` Configuration:**     *   TonConnectUI uses the `returnStrategy` to determine how to redirect the user back to your app after a wallet interaction. Common strategies include `_blank` (opens in a new tab, which might not be ideal for Mini Apps), `_self` (attempts to redirect within the same tab/window), and `ton-app` (specific for Telegram Mini Apps).     *   For Telegram Mini Apps, `ton-app` is often the most reliable strategy. Ensure you have explicitly set this in your TonConnectUI initialization. If it's not set, it might default to a less suitable option.     *   **Example:**         ```javascript         const connector = new TonConnectUI({           manifestUrl: 'YOUR_MANIFEST_URL',           returnStrategy: 'ton-app', // Ensure this is set           // ... other configurations         });         ```  2.  **Telegram Mini App SDK Integration:**     *   Are you correctly initializing and using the Telegram Mini App SDK? The SDK provides crucial functions for controlling the Mini App's behavior, including how it interacts with external links and redirects.     *   The Mini App environment can sometimes interfere with standard browser `window.location.href` changes. The Telegram Mini App SDK might offer specific methods to handle redirection back to your app.     *   Look into `window.Telegram.WebApp.close()` or `window.Telegram.WebApp.openLink()` if you're trying to manually control the redirection, though `returnStrategy: 'ton-app'` should ideally handle this automatically.  3.  **Deep Linking and URL Schemes:**     *   For mobile wallets, especially on iOS and Android, deep linking or custom URL schemes are (reply to 171937)
+
+Ataxdi: Guys, I think I fixed the redirect loop (returnStrategy), but I need to verify it on different devices (iOS/Android).  Could 1-2 people please connect and just CANCEL the transaction to see if it redirects back to the app correctly?  No need to spend any TON, I just need to check the "Cancel" behavior.

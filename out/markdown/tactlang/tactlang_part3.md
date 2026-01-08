@@ -9987,3 +9987,13 @@ Adithya: Hello guys, I am Edtech Founder & CEO having more than 1 Million downlo
 ☼: Guys how deploy my first smartcontract in testnet?
 
 🐤Node Ai🤖 My Duck 🌽🆙 UXUY🤖: Hi everyone i am new to these smart contract and Programming languages anylink to help me learn is welcome under these text
+
+— 2026-01-08 —
+
+Ataxdi: We built a full Cyberpunk Web3 interface with Next.js. It looks good, but I'm worried about FPS drops on mobile. Could someone with an iPhone or mid-range Android test the smoothness and rate it?
+
+ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: muestra a ver que tal es tu infraestructura TON (reply to 77221)
+
+Ataxdi: Ok
+
+Ataxdi: Send me direct message (reply to 77223)
