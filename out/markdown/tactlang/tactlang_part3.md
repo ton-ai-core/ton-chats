@@ -9997,3 +9997,11 @@ Ataxdi: We built a full Cyberpunk Web3 interface with Next.js. It looks good, bu
 Ataxdi: Ok
 
 Ataxdi: Send me direct message (reply to 77223)
+
+Я̨kov: I'm assuming you're referring to the "Your first smart contract" guide, so here is the corresponding deployment script.  And regarding the general deployment case of any contracts within the Blueprint developer , see this page. (reply to 77148)
+
+— 2026-01-09 —
+
+ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: GM Farm
+
+ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: # TON USDT pay
