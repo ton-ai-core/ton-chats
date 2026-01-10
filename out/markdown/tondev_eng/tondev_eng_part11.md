@@ -9559,3 +9559,25 @@ TON Support: The official channels for TON and Telegram include:  *   **Official
 — 2026-01-09 —
 
 Zachary: hey i build an agent contained in an inline bot using a version of Z.AI's GLM-4.7 that is trained on Telegram org APIs and TON org Manual to generate code and assist with debugging and also includes links to the official docs, channels, and bots. if anyone wants to try it out its mr_gram_bot
+
+🇵🇸: https://explorer.toncoin.org/search?workchain=-1&shard=8000000000000000&seqno=55947423 here i see only one shard but if lookup transactions like this https://toncenter.com/api/v3/transactionsByMasterchainBlock?seqno=55947423  the response contains transactions belonging to previous shards (0,8000000000000000,60780360) as well can anyone explain why?
+
+&rey: This masterchain block imported two blocks of the only existing shard at once. (reply to 172033)
+
+Tim: Master chain only contains reference to one block (reply to 172067)
+
+&rey: It does; relative to the previous masterchain block, it asserts validity of two more shardchain blocks however. (reply to 172070)
+
+Mert: Hey, we are YK Labs, that developers devtools/infra projects across multiple blockchains. Can we contact with the DevRel or product manager to discuss an idea that we want to implement for Tolk. Thank you
+
+Iryna: Hi there! What idea do you have for Tolk? (reply to 172076)
+
+Modesayo: Why is toncenter so useless
+
+TON Bounty Bridge: ​Tact Gas Profiler & Benchmarking Action  🏷 Developer Tool  Summary:A developer tooling suite comprising a CLI tool and a GitHub Action specifically for the Tact langua...  Created by toxzak-svg
+
+Modesayo: To those who didn't understand what I meant recently I was making a centralised exchange and was trying to support ton as a coin and typically what exchanges do is they sweep balance but I realised it was inefficient and tried to use a memo version to save on fees but toncenter API is unreliable and often skips some memo so I had to use tonapi
+
+&rey: Uh that is a serious issue; do you have a reproducible example by any chance? (reply to 172094)
+
+Modesayo: UQAhZe8Yfiy_jm2bghO9eKJdiFkDQvHrCCZcDu9nGDHn1tdD  Here is my wallet address make use of toncenter API to view my events or transactions   Then use tonviewer you would notice it says my txs don't have any memo's which is completely unreliable it detects some but not all If I send memo using my program it detects it but if I use wallets like mytonwallet it ignores it (reply to 172095)

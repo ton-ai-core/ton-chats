@@ -10005,3 +10005,19 @@ Ataxdi: Send me direct message (reply to 77223)
 ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: GM Farm
 
 ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: # TON USDT pay
+
+Ataxdi: Yes
+
+Ataxdi: How can I help you? (reply to 77268)
+
+Михаил: How can I implement an upgradeable proxy contract pattern in TON using the Tact language, where a persistent address holds the state, but the executable logic can be replaced via a DAO decision? Does a mechanism analogous to delegatecall from EVM exist, or is this achieved through contract code self-updating (state_init)?
+
+Михаил: We are designing a DAO-as-a-Service framework (VENTO) where the core governance contract must be upgradeable. The key requirement is to preserve the contract address and its storage while allowing the community to vote on and deploy new logic
+
+ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: Don't worry, I'm also a developer of those TON tokens, USDT Jettons Accounts, and APIs. Thanks, I understand the TVM VM TLB-Schemas system and coding serialization. (reply to 77287)
+
+Ataxdi: Yes i know you 💎👍🏼
+
+— 2026-01-10 —
+
+ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: PascalCase Tolk FunC (reply to 77345)
