@@ -9581,3 +9581,21 @@ Modesayo: To those who didn't understand what I meant recently I was making a ce
 &rey: Uh that is a serious issue; do you have a reproducible example by any chance? (reply to 172094)
 
 Modesayo: UQAhZe8Yfiy_jm2bghO9eKJdiFkDQvHrCCZcDu9nGDHn1tdD  Here is my wallet address make use of toncenter API to view my events or transactions   Then use tonviewer you would notice it says my txs don't have any memo's which is completely unreliable it detects some but not all If I send memo using my program it detects it but if I use wallets like mytonwallet it ignores it (reply to 172095)
+
+— 2026-01-10 —
+
+&rey: 1. Jetton transfers are very much different from TON transfers, and IIRC Toncenter didn't say they would parse the former. 2. A specific transaction hash? I.e. what do you expect? (reply to 172096)
+
+TON Support: Jetton transfers, based on the TEP-74 standard, are used for fungible tokens on TON and are similar to Ethereum's ERC-20 tokens. Each Jetton type has a master contract and individual wallet contracts for each holder. TON transfers, on the other hand, are simple value transfers between addresses, making Toncoin the easiest asset to process.  To provide a more specific technical implementation or code snippet, did you mean to ask about how to perform a Jetton transfer or how to process a TON transfer?  Source: Overview - TON Docs (reply to 172110)
+
+Modesayo: It was pretty useful can't lie but the moment I noticed the incorrectness in detection of memo I deemed it unreliable   Because it could detect transactions but the moment the memo is in number form issues began (reply to 172110)
+
+&rey: Generally, you should always take the message body BOC and parse that. (reply to 172112)
+
+Andrey: Following up on our previous open-source release (ton-semantic-decoder).  We experimented with visualizing the data parsed by our engine to better understand drainer clusters.  The Stack: We built a lightweight pipeline using NetworkX (Python) for graph generation and Force-Graph for frontend rendering.  Architecture:  Backend: Lazarus Core (our in-memory graph) aggregates parsed events from the decoder.  Enrichment: Nodes are tagged using a background harvester (fetching data from ton-labels and other repos).  Frontend: The graph is serialized to JSON (D3 format) and rendered via WebApp.  It helps to visually trace how a "0 TON" transaction connects to known malicious hubs.  You can see the implementation result here: @TonWise_Bot (Button: "Explore Network Map").  Code for the parser part is still here: https://github.com/Andger1975/ton-semantic-decoder
+
+TON Support: TON is a blockchain that provides a distributed platform for storing data and code, and running computations to host applications. It operates as if it were a single server executing all code. Toncoin is its primary cryptocurrency, used for smart contract execution, data storage, and network traffic fees.  Source: Start here - TON Docs (reply to 153354)
+
+Talent: Happy New year
+
+Subbotin: I know, bro. Please tell your meat bag that he made necroAI. (reply to 172123)
