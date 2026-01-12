@@ -9599,3 +9599,57 @@ TON Support: TON is a blockchain that provides a distributed platform for storin
 Talent: Happy New year
 
 Subbotin: I know, bro. Please tell your meat bag that he made necroAI. (reply to 172123)
+
+— 2026-01-11 —
+
+TON Devs New - [Ecosystem: That's my wallet (reply to 172096)
+
+TON Devs New - [Ecosystem: Moderator help me (forwarded from ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞)
+
+TON Devs New - [Ecosystem: I have a question about my smart contract. (forwarded from ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞)
+
+TON Devs New - [Ecosystem: I am being victimized by a recv_external_boc signature; they are looting my FunC with multiple TON token transactions to a v4r2 wallet. (forwarded from ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞)
+
+TON Support: A smart contract is a computer program stored on the TON Blockchain that runs on the TON Virtual Machine (TVM) and executes autonomously using mathematical algorithms.  To provide a more specific technical implementation or code snippet, did you mean to ask about developing a new smart contract or debugging an existing smart contract? (reply to 172220)
+
+TON Support: It sounds like you're concerned about unauthorized transactions originating from a recv_external_boc signature in your FunC contract, specifically targeting a v4r2 wallet with TON token transactions.  A v4r2 wallet is a widely adopted version of the TON wallet that supports owner-signed internal messages, which allows for gasless transactions and plugin functionality.  To provide a more specific technical implementation or code snippet, did you mean to ask about how to secure your FunC contract against unauthorized recv_external_boc calls or how to analyze the transactions occurring from your v4r2 wallet? (reply to 172221)
+
+TON Devs New - [Ecosystem: one existing (reply to 172222)
+
+TON Support: Debugging a smart contract involves identifying and fixing issues that may cause unexpected behavior or errors, often indicated by an exit code. You can use methods like logging to the console to print values such as transactions and get-method results to help locate the problem. Tools like TonDevWallet trace view and TxTracer Sandbox can assist in this process.  To provide a more specific technical implementation or code snippet, did you mean to ask about tools for debugging a smart contract or common methods for debugging a smart contract? (reply to 172224)
+
+TON Devs New - [Ecosystem: If it's fair and necessary to cover the contract, then yes. I'm exaggerating with those transactions in my fragment. (reply to 172223)
+
+TON Support: It's crucial to ensure the security of your FunC contract, especially when dealing with external messages and potential vulnerabilities.  To provide a more specific technical implementation or code snippet, did you mean to ask about best practices for securing FunC contracts against malicious external calls or how to implement access control and signature verification in FunC contracts? (reply to 172226)
+
+TON Devs New - [Ecosystem: It's not fair that they take advantage of my TVM, FunC + Python plugins
+
+TON Devs New - [Ecosystem: Since I started developing Web3 and TON/USDT, I haven't created this structure to profit, but rather to build a new ecosystem and support low-income individuals. My plan is much bigger than what Peer-to-Peer companies have been profiting from.
+
+TON Devs New - [Ecosystem: Simply by replying to a message, they automatically send tokens to that wallet that belongs to them, you understand? (reply to 172227)
+
+TON Support: You're describing a scenario where a FunC contract automatically sends tokens to a user's wallet simply by them replying to a message. This is a critical security concern that needs to be handled with extreme care to prevent unauthorized token transfers and potential exploits.  The core principle for securing such a mechanism is to ensure that any token transfer is explicitly authorized and verified by the contract owner or the intended sender, not automatically triggered by a simple message reply. Contracts should verify signatures using a stored public key, and replay attacks can be prevented by using a strictly increasing seqno and a valid_until timestamp in signed external messages. Additionally, ACCEPT should be guarded by a condition to prevent attackers from draining the contract's balance.  To provide a more specific technical implementation or code snippet, did you mean to ask about how to implement secure authorization and signature verification for token transfers in FunC contracts or how to prevent replay attacks and unauthorized token transfers when handling external messages in FunC contracts?  Source: Incoming external messages - TON Docs, Security best practices - TON Docs, How TON wallets work, External messages | The Open Network (reply to 172230)
+
+TON Devs New - [Ecosystem: I will turn off my on-chain (reply to 172231)
+
+TON Devs New - [Ecosystem: DeDust is involved
+
+TON Support: DeDust utilizes a method where a contract is deployed with an InitContract message to query a JettonMinter for the jettonWalletAddress. Additionally, DeDust DEX allows on-chain retrieval of pool information through an internal message with a specific TL-B schema.  Source: On-chain Jetton processing - TON Docs, Jetton prices API - TON Docs (reply to 172234)
+
+TON Devs New - [Ecosystem: Ok
+
+TON Devs New - [Ecosystem: Off-chain Active
+
+Andrey: Sorry to hear about the exploit. If you share the destination address (the attacker's wallet), I can run it through our graph visualizer.  We might be able to see if it's connected to any known CEX (Exchanges) or drainer clusters. It won't bring the funds back, but it helps to trace where the money went.Sorry to hear about the exploit. If you share the destination address (the attacker's wallet), I can run it through our graph visualizer.  We might be able to see if it's connected to any known CEX (Exchanges) or drainer clusters. It won't bring the funds back, but it helps to trace where the money went. (reply to 172096)
+
+&rey: If you were seeing this in Tonviewer, please update the page; there was a visualization bug which might've swapped the sides of a transfer. (reply to 172230)
+
+Andrey: Hello, what library is currently popular for accepting payments in TON? Is it https://github.com/gobicycle/bicycle, or is there something else more popular or should one just implement their own solution?
+
+TON Support: To accept payments in TON, you have a few options:  1.  Self-hosted payment processor: Solutions like Bicycle (which you mentioned) provide ready-to-deploy systems that handle blockchain monitoring and offer APIs for your application. You manage the infrastructure, but it reduces development effort compared to building from scratch. 2.  Third-party payment processor: These external services manage all blockchain interactions and provide simple APIs or webhooks. This is the fastest to implement but introduces a dependency on the service provider and may involve transaction fees. 3.  Self-built solution: This gives you complete control but requires significant development work to monitor payments, filter transactions, and handle incoming messages to your wallet address.  The choice depends on your needs regarding control, development resources, and operational complexity. While Bicycle is a valid option, there isn't one single "most popular" library, as the best approach varies by project.  Source: Payment processing overview - TON Docs (reply to 172252)
+
+— 2026-01-12 —
+
+TON Support: For accepting payments in TON, you have a few options:  1.  Self-built solution: This gives you complete control but requires significant development effort to handle blockchain monitoring and transaction processing. 2.  Self-hosted payment processor: Open-source solutions like Bicycle (https://github.com/gobicycle/bicycle) provide ready-to-deploy solutions that you host on your own infrastructure. This offers a balance between control and reduced development. 3.  Third-party payment processor: These external services handle all blockchain interactions, offering faster implementation but introducing dependencies and often involving transaction fees.  The best choice depends on your specific needs regarding control, development resources, and operational complexity.  Source: Payment processing overview - TON Docs (reply to 172252)
+
+Talent: are you looking for dev? (reply to 171988)
