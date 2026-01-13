@@ -9653,3 +9653,29 @@ TON Support: To accept payments in TON, you have a few options:  1.  Self-hosted
 TON Support: For accepting payments in TON, you have a few options:  1.  Self-built solution: This gives you complete control but requires significant development effort to handle blockchain monitoring and transaction processing. 2.  Self-hosted payment processor: Open-source solutions like Bicycle (https://github.com/gobicycle/bicycle) provide ready-to-deploy solutions that you host on your own infrastructure. This offers a balance between control and reduced development. 3.  Third-party payment processor: These external services handle all blockchain interactions, offering faster implementation but introducing dependencies and often involving transaction fees.  The best choice depends on your specific needs regarding control, development resources, and operational complexity.  Source: Payment processing overview - TON Docs (reply to 172252)
 
 Talent: are you looking for dev? (reply to 171988)
+
+TON Bounty Bridge: ​Footstep: Nexus Protocol — Local-First Economic Execution Engine (Phase 1.1)  Created by arhantbarmate
+
+TON Devs New - [Ecosystem: New Groups CC
+
+TON Moderator: Hello, B! Read rules and click button below.
+
+Code: Does anybody know why tonviewer thinks my TX is sus?  I dont really care, just curious  https://tonviewer.com/transaction/73256d4bec7cada3335c02ffcc348c871063004adeb40541ae1286d253debf4a
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 18  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+&rey: Too few coins to the destination perhaps. (reply to 172299)
+
+Leo: Probably because the comment contains blacklisted word
+
+Code: interesting ideas thanks guys, doesnt affect me, just curious
+
+&rey: Your message is unclear, as is its relation to development on TON. (reply to 172295)
+
+E3 | Procur3: Hey, I’m from Procur3 - security audit marketplace Wondering who I can speak with about reducing smart contract audit costs for TON devs, from 40 leading audit companies?
+
+REON: How can I submit my ton app for an official listing?
+
+TON Support: To submit your TON app for an official listing, you need to submit a pull request to the wallet-list repository with your wallet manifest. This manifest should have been tested using the testing platform. After submitting the pull request, inform your BizDev liaison to schedule an audit slot.  Source: Integration QA guide - TON Docs (reply to 172336)
+
+&rey: Assuming you cannot do this unilaterally, messaging partnership@ton.org might be an option. (reply to 172332)
