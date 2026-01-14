@@ -12009,3 +12009,13 @@ Nezerit: Hi 👋 I’m building a Web3 marketplace on TON (NFTs + Telegram Gifts
 fuyao: 寻几名贫到演园临时工  日结四到六张  浴富   @paun58
 
 fuyao: 寻几名贫到演园临时工  日结四到六张  浴富   @paun58
+
+胖墩墩: 来一个会开发TON智能合约的 骗子别来浪费时间
+
+Leo: 需求发群里 简单的话免费给你写个
+
+杰克熊猫 飞机礼物/售典藏礼物批发🎁: 我在
+
+— 2026-01-14 —
+
+【互站担保】接待员 ⑤: 来，担保交易 (reply to 110658)

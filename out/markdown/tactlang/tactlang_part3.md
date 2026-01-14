@@ -10033,3 +10033,13 @@ Jose: Ok
 Najah: Good morning all 🤍
 
 Кирилл: Good morning chat
+
+— 2026-01-13 —
+
+Yet Another Anti-Spam Bot: Bot decided that this is a spamer. Is it correct? Vote (1/3)
+
+ツ✞🦅⃤Yeifry_Yesid_Borrero_Salcedo🦅⃤ツ✞: Hello
+
+— 2026-01-14 —
+
+Lols Anti Spam: AME TOE, during the first day of being in the chat you are only allowed to send text.

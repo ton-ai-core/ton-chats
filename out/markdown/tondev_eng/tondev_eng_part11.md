@@ -9679,3 +9679,109 @@ REON: How can I submit my ton app for an official listing?
 TON Support: To submit your TON app for an official listing, you need to submit a pull request to the wallet-list repository with your wallet manifest. This manifest should have been tested using the testing platform. After submitting the pull request, inform your BizDev liaison to schedule an audit slot.  Source: Integration QA guide - TON Docs (reply to 172336)
 
 &rey: Assuming you cannot do this unilaterally, messaging partnership@ton.org might be an option. (reply to 172332)
+
+— 2026-01-13 —
+
+Code: What is the relation between Tonkeeper team and TRON blockchain? why do they keep trying to upsell TRON in their UIs
+
+E3 | Procur3: Thank you (reply to 172338)
+
+Ackermann:        let gasForProcessing: Int = ton("0.05");          if (taxAmount > 0) {             deploy(DeployParameters {                 value: gasForProcessing,                 mode: SendPayGasSeparately,                 bounce: true,                 body: JettonTransferInternal {                     queryId: msg.queryId,                     amount: taxAmount,                     sender: self.owner,                     responseDestination: null,                     forwardTonAmount: 0,                     forwardPayload: beginCell().endCell().beginParse(),                 }.toCell(),                 init: initOf JettonWallet(                     0,                     self.feeWallet,                     self.minter,                     self.timeLapse,                     self.minterOwner,                     self.dedustVaultAddress,                     self.dedustRouterAddress,                     self.poolAddress,                     self.liquidityDepositAddress,                     self.feeWallet,                     self.buyTaxBps,                     self.sellTaxBps,                 ),             });         }          deploy(DeployParameters {             value: 0,             mode: SendRemainingValue,             bounce: true,             body: JettonTransferInternal {                 queryId: msg.queryId,                 amount: transferAmount,                 sender: self.owner,                 responseDestination: msg.responseDestination,                 forwardTonAmount: msg.forwardTonAmount,                 forwardPayload: msg.forwardPayload,             }.toCell(),             init: initOf JettonWallet(                 0,                 msg.destination,                 self.minter,                 self.timeLapse,                 self.minterOwner,                 self.dedustVaultAddress,                 self.dedustRouterAddress,                 self.poolAddress,                 self.liquidityDepositAddress,                 self.feeWallet,                 self.buyTaxBps,                 self.sellTaxBps,             ),         });
+
+Ackermann: DOing this one transaction, when its the first time i get insufficient ton error 37  when i try it again it goes (reply to 172374)
+
+Ackermann: I'm guessing its probably problem with the message modes how do i fix @pcrafter
+
+&rey: And do you actually have enough TON? 0.10, that is.
+
+Ackermann: now, If I'm sending directly from wallet it works well
+
+Ackermann: it mostly happens when, adding liquidity or buying from pool I guess
+
+Ackermann: what's  the best way to implement this using the right message mode and enough gas to send fees and token.
+
+&rey: The message modes are correct by the way. (reply to 172381)
+
+Ackermann: What’s causing that issue then? (reply to 172389)
+
+&rey: Answer this question. (reply to 172377)
+
+Ackermann: Yes I do (reply to 172391)
+
+&rey: Is there a transaction hash where it failed? (reply to 172380)
+
+Ackermann: https://tonviewer.com/transaction/c749910f20ce290152f9245063b7ef3d7e82091e35b682a26fa801c1425b1c9b
+
+Ackermann: https://tonviewer.com/transaction/959a0217c14cbd46b57832dca2dc24c8986e378dfa1106eee138567423d29532
+
+Ackermann: here too\
+
+&rey: Got it. Sorry I misread the code a bit... (reply to 172394)
+
+&rey: SendRemainingBalance. (reply to 172374)
+
+Ackermann: I should use that instead of sendremainingvalue
+
+Mojisola🍅 🍅: is that Tact or Tolk code, I think it is tolk
+
+TON Support: The code is Tolk. Tolk is a statically typed language for writing smart contracts on TON and is the recommended language for this purpose, having evolved from FunC.  Source: Tolk language - TON Docs (reply to 172400)
+
+&rey: That's Tact. Tolk does not have initOf nor any convenient functionality to compile a system of multiple contracts. (reply to 172400)
+
+Ackermann: @pcrafter ?? (reply to 172399)
+
+Tolga: Reached via DM Iryna, thanks! (reply to 172082)
+
+ronne: https://tonviewer.com/EQAz492o1r54aV3hUxNlbcpxqrgoKCC29R0I3d7Gxb6D0MKQ?section=code  this is my first smart contract i still don't know much about it could anybody do a brief audit there is any security vulnerability or bad practise i included in the smart contract code thanks in advance
+
+SEVA A.: Hello, why this messages have been deleted from TON DEV CHAT (RU) — and me banned. Translation:  Message 1 (10:08 PM): Hello! Why is my company’s reputation in the community being undermined, and why is there a bad attitude towards it? https://github.com/HYPEANDLINKS  Message 2 (10:09 PM): This is unpleasant.  Message 3 (10:11 PM): @qowboy, did you leave a dislike? What are your complaints about our activities and business?  Message 4 (10:12 PM): @wfokin — same question.  Message 5 (10:15 PM): Also, I’d like to remind you that our company’s activities are mainly related to developing for TON and Telegram. We have contributed to smart contracts, TMA, which is available in open-source. My point here is valid, and I ask the admins to leave this discussion in its original form. I’ve encountered discriminatory attitudes in the ecosystem and see this as a major problem for the whole community. I believe it’s important for the community to look into the situation.  Message 6 (10:17 PM): What have you gone through? Systematic undermining, gaslighting, threats, personal attacks, direct manipulation, spam attacks, anonymous attacks, psychological pressure, influence in a negative spirit, for example, that my company isn't my company and so on. Again, that aren't specific people, but it happens at the level of the entire community.  Message 7 (10:18 PM): We need to resolve this. What questions do you have for us?
+
+S: Hello
+
+ronne: meow (reply to 172430)
+
+&rey: Because your messages are knowingly false. (Almost) no one knows that company you're naming, much less "the entire community" you direct accusations to.  I also bring to your attention that moderation decisions are not in scope for the public dev chats (check out the rules of this chat at https://telegra.ph/TON-Dev-Chat-Rules-English-12-03). (reply to 172423)
+
+&rey: You surely know that some send spam NFTs; note that your contract could treat it as the one to handle, if it arrives at an unfortunate moment. (reply to 172414)
+
+ronne: "First-Arrival" Griefing Attack yes i figure out that 20 min ago (reply to 172434)
+
+ronne: i am currently trying to figure out how to handle gas fees properly currently i want to minimise sending extra (reply to 172435)
+
+&rey: I see your message and I do not know of any relevant groups unfortunately. (reply to 172430)
+
+ronne: there is any better architecture/mechenism  for this type of contract from what i am currently doing (reply to 172435)
+
+&rey: GAS_MIN_FOR_STORAGE could be kept much lower in fact. (Remember that contracts have some buffer before being frozen at -0.10 TON, so the lifetime of contract would only be cut to 2/3 of it; for quick deals this will not even matter.) (reply to 172436)
+
+&rey: Depends on how ambitious you are, ultimately. (reply to 172438)
+
+&rey: Common sale contracts already know the exact item they will be handling when they are deployed.
+
+ronne: i am a newbie on ton there might be advance method that it provide that i could take benifit of it (reply to 172440)
+
+&rey: You might create a new contract which is to handle "any item of a given collection", and that is somewhat harder. (reply to 172441)
+
+ronne: i could provide that exact nft in the contract code itself and then send the nft rather doing dynamically assign (reply to 172441)
+
+&rey: In its initial data, probably; yes you can! (reply to 172444)
+
+ronne: we still have to give the ownership of the nft to the deployed contract address in the next trans. (reply to 172445)
+
+&rey: Also note that issuers of "NFT 2.0" items may mark NFTs passing through your contract with a "royalty_violated" flag, the reason being obvious from the name. (reply to 172414)
+
+ronne: i don't think it will be an issue for me as only particular nft collection will be allowed rather than general store (reply to 172447)
+
+ronne: Thanks For Your Help.
+
+SEVA A.: That’s not true, due to my career only I personally has reached tens of millions in social networks, communicated with tens thousands of people, worked with thousands, hundreds made substantial contributions to the company and many of them are present in commits to our GitHub. We had a lot of rebrandings, but that it not the case for disrespect of our contribution to internet development and social networks. (reply to 172433)
+
+SEVA A.: At least you know me, same as many others.
+
+SEVA A.: Our last year’s contributions are proved, again you can check out our GitHub, deployments in blockchain, bot deployments and TMA at least. Moreover we did a lot of coaching so we raised a lot of community members over here.
+
+SEVA A.: So my question is, why not a star on GitHub instead of bunch of dislikes to the post in TON DEV CHAT (RU). Who are that people trying to pollute and underestimate the value we have created all together. That’s the question I address to the community.
+
+SEVA A.: That is the question of general attitude and friendly vibe in the community.
+
+SEVA A.: Plus our rebrandings had positive effect on general style in Telegram as well as our performances and marketing campaigns such as Big Bang.
