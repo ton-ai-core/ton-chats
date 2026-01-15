@@ -9785,3 +9785,13 @@ SEVA A.: So my question is, why not a star on GitHub instead of bunch of dislike
 SEVA A.: That is the question of general attitude and friendly vibe in the community.
 
 SEVA A.: Plus our rebrandings had positive effect on general style in Telegram as well as our performances and marketing campaigns such as Big Bang.
+
+— 2026-01-14 —
+
+&rey: A question to teams who interact with DEXes routinely.  Does it break too many possible applications if limit orders are triggered somewhat early (when relative difference of the price and target is, like, 6/1'000'000)?
+
+STANMAGONI: Devs I have a question about mini app: - if I create a link with startapp so link gets user inside mini app itself but the problem is that once user gets inside the mini app right away the mini app doesn’t stay in users chat list. Once mini apps is closed user doesn’t have it in their chat list and has to search for that mini app in search bar to find it. Is there anyway to work it out?
+
+&rey: @devs group. (reply to 172506)
+
+Gjb: Hi
