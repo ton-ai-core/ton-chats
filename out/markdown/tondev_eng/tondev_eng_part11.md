@@ -9795,3 +9795,43 @@ STANMAGONI: Devs I have a question about mini app: - if I create a link with sta
 &rey: @devs group. (reply to 172506)
 
 Gjb: Hi
+
+— 2026-01-15 —
+
+Tony: Hi, can someone give me a rpc for testnet pls, to create the Tonclient
+
+TON Support: The Testnet RPC API endpoint for creating a TonClient is https://testnet.toncenter.com/api/v2/jsonRPC.  Source: Testnet | The Open Network, JSON-RPC handler - TON Docs, Burn - TON Docs (reply to 172523)
+
+Tony: Actually, I'm using it, but alway got the 429 error
+
+Tony: I'm trying to deploy a contract on testnet, do you have another rpc?
+
+🇵🇸: Use @toncenter to get api key. (reply to 172526)
+
+Tony: Cool, thank you. Just got an Api and deployed successfully (reply to 172527)
+
+Stefan: Hey! I'm a developer looking for freelance gigs in crypto/web3 If you know any chats where people post tasks or can point me in the right direction — drop me a DM, would really appreciate it
+
+Ruslan: Do you have experience with funC? (reply to 172539)
+
+Mojisola🍅 🍅: funC is cool. Tact cool too. (reply to 172543)
+
+Celestial Being: Don’t trust him , NPA120 is scammer (reply to 172543)
+
+emirdeveloper: Damn all the scammers! (reply to 172553)
+
+Akan: Hi, is there a compiler that compiles solidity code to tact/func?
+
+TON Support: Based on the available documentation, there is no direct compiler that converts Solidity code to Tact or FunC. TON uses its own smart contract languages: Tolk (recommended), Tact (TypeScript-like), and FunC (legacy). If you are familiar with Solidity, you would need to rewrite your contracts in one of these TON-native languages. The Tact documentation is suggested for developers familiar with TypeScript-like syntax. (reply to 172558)
+
+Tim: @petr_makhnev hello (reply to 172559)
+
+Akan: A compiler would be cool, it would lead to so much adoption of TON - dev wise
+
+Petr: In fact, I don't think anything will change.  First, Solidity is designed for blockchains with a completely different execution model, and its syntax is unlikely to express all the subtleties of TON well. Second and most important, even if we can compile some Solidity code, that doesn't mean we'll be able to compile, say, ERC-20; it won't work due to the different blockchain model itself (reply to 172561)
+
+Petr: As with all programming in fact, programming languages ​​are secondary. If you understand how the platform you're developing for works, you can easily switch from one language to another. In the case of TON vs. Ethereum, the problem is that the platforms are very very different, so using a language you know for Ethereum will be a little help when writing contracts for TON
+
+Petr: In fact, the Tolk basic syntax can be learned in a day (or just use AI), but learning the intricacies of TON and developing for it (hey, fees) can take much much longer. Using Solidity doesn't solve this problem at all
+
+Petr: But actually we have this: https://github.com/everx-labs/TVM-Solidity-Compiler
