@@ -9835,3 +9835,23 @@ Petr: As with all programming in fact, programming languages ​​are secondary
 Petr: In fact, the Tolk basic syntax can be learned in a day (or just use AI), but learning the intricacies of TON and developing for it (hey, fees) can take much much longer. Using Solidity doesn't solve this problem at all
 
 Petr: But actually we have this: https://github.com/everx-labs/TVM-Solidity-Compiler
+
+— 2026-01-16 —
+
+Mojisola🍅 🍅: U won't even do that. cos they are different thinking and model. ton is different from ethereum (reply to 172558)
+
+Gab: Hi guys any idea Where can I get some usdt for ton tesnet ?
+
+&rey: Mint a jetton to your liking at https://minter.ton.org/?testnet=true. Set decimals = 6 for better match. (reply to 172592)
+
+fade: after my archive node got shut down for two days, when i start it up again, it's crashing because it couldn't download state ==> /var/ton-work/log.thread9.log <== [ 3][t 9][2026-01-16 14:22:47.527628035][manager.cpp:2189][!archiveimport]      failed to download and import archive slice: [Error : 651 : remote db not found]  ==> /var/ton-work/log.thread31.log <== [ 3][t31][2026-01-16 14:22:52.529539760][manager.cpp:2189][!archiveimport]      failed to download and import archive slice: [Error : 652 : timeout for adnl query get_archive_info]  ==> /var/ton-work/log.thread31.log <== [ 2][t31][2026-01-16 14:22:56.990691612][apply-block.cpp:33][!apply(-1,8000000000000000,56121359)][&VALIDATOR_WARNING]  aborting apply block query for (-1,8000000000000000,56121359):DA0204996824F1E0111F0E1AFD475034F1D9B72114EDB3269BCF0DB5AD6BE8F5:300090EB947259881055D32D62A32C8A908096656A8354784A4216A90E433853: [Error : 0 : failed to download state [ w=-1 s=9223372036854775808 seq=56121359 2gIEmWgk8eARHw4a/UdQNPHZtyEU7bMmm88Nta1r6PU= MACQ65RyWYgQVdMtYqMsipCAlmVqg1R4SkIWqQ5DOFM= ]: db set error: Cell load failed: not in db] [ 0][t31][2026-01-16 14:22:56.990731491][Status.h:273][!apply(-1,8000000000000000,56121359)]    Unexpected Status [Error : 0 : failed to download state [ w=-1 s=9223372036854775808 seq=56121359 2gIEmWgk8eARHw4a/UdQNPHZtyEU7bMmm88Nta1r6PU= MACQ65RyWYgQVdMtYqMsipCAlmVqg1R4SkIWqQ5DOFM= ]: db set error: Cell load failed: not in db] in file /usr/src/ton/validator/import-db-slice.cpp at line 264
+
+fade: please can anyone help me rescuing my node?
+
+fade: i'm so frustrated, ton node is already hard enough to run, archive node is even harder to setup and it takes a lot of time to sync, now just because of a stupid error i have to set it up all over again...
+
+Modesayo: Sadly yh (reply to 172596)
+
+Aun: @TONSupportDeskBot Where can I get some usdt for ton tesnet ?
+
+TON Support: Based on the available documentation, there isn't specific information about a testnet USDT faucet in the TON Docs. The documentation primarily covers how to get testnet Toncoin using the @testgiver_ton_bot Telegram bot for up to 2 TON per hour, or by submitting a request form for larger amounts.  For testnet USDT specifically, you might need to consider: 1.  Deploying your own test jetton on the testnet. 2.  Searching for community-provided testnet USDT faucets, as they are not mentioned in the official documentation.  It's important to note that the mainnet USDT jetton master address (EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs) is for mainnet only.  Source: Get testnet Toncoin (reply to 172602)
