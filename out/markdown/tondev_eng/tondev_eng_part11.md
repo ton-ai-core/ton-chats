@@ -9855,3 +9855,71 @@ Modesayo: Sadly yh (reply to 172596)
 Aun: @TONSupportDeskBot Where can I get some usdt for ton tesnet ?
 
 TON Support: Based on the available documentation, there isn't specific information about a testnet USDT faucet in the TON Docs. The documentation primarily covers how to get testnet Toncoin using the @testgiver_ton_bot Telegram bot for up to 2 TON per hour, or by submitting a request form for larger amounts.  For testnet USDT specifically, you might need to consider: 1.  Deploying your own test jetton on the testnet. 2.  Searching for community-provided testnet USDT faucets, as they are not mentioned in the official documentation.  It's important to note that the mainnet USDT jetton master address (EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs) is for mainnet only.  Source: Get testnet Toncoin (reply to 172602)
+
+— 2026-01-17 —
+
+Akan: has TON Nest been discontinued?
+
+Code: yes (reply to 172625)
+
+BLUEWAVE: i need help with connecting .ton domain  I can't seem to find the required field I need in tonkeeper
+
+TON Support: To link a wallet address to a .ton domain, you need to go to dns.ton.org, open your domain, and click "Edit". Then, paste your wallet address into the "Wallet address" field and click "Save". Finally, confirm the transaction.  Source: Site and Domain Management | The Open Network (reply to 172627)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Hello, what is it that you can’t manage? (reply to 172627)
+
+ʀᴇꜱɪꜱᴛᴏʀ: There are two way  Is your site on TON storage or via a reverse proxy? (reply to 172627)
+
+BLUEWAVE: my site is hosted on vercel not a ton site (reply to 172630)
+
+ʀᴇꜱɪꜱᴛᴏʀ: You must put your server’s ADNL in the “ADNL” change field if you are using a reverse proxy.
+
+ʀᴇꜱɪꜱᴛᴏʀ: I made a guide if you need   https://docs.resistance.dog/#guide-tonsites-overview  Setup : https://docs.resistance.dog/#guide-tonsites-setup (reply to 172631)
+
+BLUEWAVE: thank you very much for the fast response (reply to 172633)
+
+BLUEWAVE: but I'm still confused sir
+
+ʀᴇꜱɪꜱᴛᴏʀ: Feel free to explain in detail anything that is unclear to you (reply to 172636)
+
+&rey: TON domains are not part of the global DNS (as OS see it) and in particular they can't point at just IP. (reply to 172636)
+
+BLUEWAVE: can you explain in details (reply to 172638)
+
+&rey: Please refer to the docs https://docs.ton.org first. (reply to 172639)
+
+BLUEWAVE: I'm going through the docs it's really helpful  if I have any further questions I'll tag you and ask thank you sir (reply to 172633)
+
+Ackermann: Hello @pcrafter I deployed a token and everything goes well  I added liquidity with the dedust sdk and it was deducted but   1. I didn’t get the lp tokens 2. When I tried cancleling lp I only got back the Ton my Jetton showed zero in the transaction   What do I do
+
+Andrey: I want to create a Jetton token compliant with the TEP-74 standard by writing my own smart contract in Tolk. How can I ensure it is properly displayed in blockchain explorers and wallets (e.g., Tonkeeper, MyTonWallet, etc.)?
+
+TON Support: To ensure your TEP-74 compliant Jetton token is properly displayed in blockchain explorers and wallets, you will need to cooperate with wallets for additional indexing and payload creation. This is especially relevant for advanced implementations like Mintless Jettons.  Source: Jetton comparison - TON Docs (reply to 172655)
+
+— 2026-01-18 —
+
+Emin: anyone know what happened to this: https://ton.org/en/ton-storage ? none of the hyper link guides work...
+
+Emin: has anyone ever used decentralized storage on TON?
+
+Ataxdi: Yes (reply to 172662)
+
+Emin: does it still work? do you know where the non deprecated guides are? (reply to 172663)
+
+ʀᴇꜱɪꜱᴛᴏʀ: Yes (reply to 172662)
+
+ʀᴇꜱɪꜱᴛᴏʀ: https://github.com/xssnick/tonutils-storage (reply to 172664)
+
+ʀᴇꜱɪꜱᴛᴏʀ: If you’re interested in sharing bags, I’ve created a smart contract indexer for bags and piracy.ton, inspired by The Pirate Bay, to index bags publicly  Tolk smart contract indexer : https://github.com/TONresistor/piracy.ton (reply to 172662)
+
+Emin: awesome much appreciated! will read through this and come back if i have questions
+
+Ataxdi: Yeah, the landing page links are often outdated/broken, but the protocol itself is fully active. It basically works like BitTorrent but incentivized on-chain.  For non-deprecated guides, skip the marketing page and check the official technical docs directly: https://docs.ton.org/participate/ton-storage/storage-daemon  Documentation is usually more reliable than the landing pages (reply to 172666)
+
+Tharun Tej: Ton proxy is on, but why is it not working?
+
+Emin: 404 (reply to 172669)
+
+Smith: Issue Report: seal-server Startup Failure with SGX Error 0xe044
+
+Ataxdi: My bad, the documentation structure was recently updated so the old links are dead. Here is the correct working link for the Storage Daemon:  https://docs.ton.org/v3/guidelines/web3/ton-storage/storage-daemon  That one should work. It covers the CLI and setup requirements. (reply to 172671)
