@@ -14304,6 +14304,15 @@
       "from": "Игорь",
       "from_id": "user332647177",
       "text": "спасибо!"
+    },
+    {
+      "id": 3526,
+      "type": "message",
+      "date": "2026-01-18T21:31:28.000Z",
+      "date_unixtime": "1768771888",
+      "from": "Ernest",
+      "from_id": "user1041231476",
+      "text": "всем привет!\nПодскажите, эта штука не работает? \n@tontestnetapibot"
     }
   ]
 }

@@ -9923,3 +9923,15 @@ Emin: 404 (reply to 172669)
 Smith: Issue Report: seal-server Startup Failure with SGX Error 0xe044
 
 Ataxdi: My bad, the documentation structure was recently updated so the old links are dead. Here is the correct working link for the Storage Daemon:  https://docs.ton.org/v3/guidelines/web3/ton-storage/storage-daemon  That one should work. It covers the CLI and setup requirements. (reply to 172671)
+
+Nawal Maqdisi♥️♥️❤️❤️: Hello
+
+Talent: I am here (reply to 172381)
+
+CashboxGame: Hello, our game is under attack. Even after we changed the server IP, the attacker was still able to quickly find our server IP again. Is there any solution to this?
+
+CashboxGame: Our game @CashboxGameBot
+
+final: Obtain anti ddos. The ip is got by your domain, which always leads to ip of server to interact with it (reply to 172752)
+
+TON Moderator: Hello, 杀手书生! Read rules and click button below.
