@@ -10055,3 +10055,9 @@ David: Evening everyone!!!
 — 2026-01-17 —
 
 Tareq: Where the Arab community
+
+— 2026-01-19 —
+
+Alessandro: Hi (reply to 77808)
+
+Alessandro: Hi guys,  I am a ton smart contract dev, looking for small gigs to do if someone is interested dm me.

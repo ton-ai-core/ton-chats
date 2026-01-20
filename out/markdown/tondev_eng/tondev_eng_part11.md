@@ -9935,3 +9935,15 @@ CashboxGame: Our game @CashboxGameBot
 final: Obtain anti ddos. The ip is got by your domain, which always leads to ip of server to interact with it (reply to 172752)
 
 TON Moderator: Hello, 杀手书生! Read rules and click button below.
+
+— 2026-01-19 —
+
+Dmitry: https://old-docs.ton.org/v3/guidelines/web3/ton-storage/storage-daemon https://old-docs.ton.org/v3/guidelines/web3/ton-proxy-sites/how-to-open-any-ton-site (reply to 172661)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 18  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Realbest 😎: Hey! I'm a Designer looking for freelance gigs in crypto/web3. I am versatile in Flyer design, motion graphics, and UI/UX.  If you know any chats where people post tasks or can point me in the right direction — drop me a DM, would really appreciate it
+
+Parham: Hi, We have a dapp on evm that we want to integrate ton with our dapp too. is there any fast and feasible solution for our smart contract?
+
+&rey: You have to start from your design document, and rewrite it into "value-carrying pattern" + "transaction aka the atomic unit of execution only concerns one contract". It might be quite easy if, once you get the assets from user, the operation cannot fail anymore. (reply to 172877)
