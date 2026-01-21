@@ -9947,3 +9947,21 @@ Realbest 😎: Hey! I'm a Designer looking for freelance gigs in crypto/web3. I 
 Parham: Hi, We have a dapp on evm that we want to integrate ton with our dapp too. is there any fast and feasible solution for our smart contract?
 
 &rey: You have to start from your design document, and rewrite it into "value-carrying pattern" + "transaction aka the atomic unit of execution only concerns one contract". It might be quite easy if, once you get the assets from user, the operation cannot fail anymore. (reply to 172877)
+
+— 2026-01-20 —
+
+Cesqa: @takoy_sasha , Hi Sasha, could you reach out to me regarding the Not Pixel World project for leading the Turkey market—community building and management, and KOL collaborations?
+
+M: how can we open devtool in miniapp as in development
+
+TON Support: To open DevTools in a Mini App for development:     Desktop version of Telegram:     1.  Go to Telegram Settings.     2.  Navigate to Advanced Settings.     3.  Go to Experimental Settings.     4.  Enable "Enable webview inspecting".     5.  Open your Mini App and right-click on it to open the developer console.     Web version of Telegram:     1.  Open Telegram's web version.     2.  Open your browser's developer tools.     3.  Go to the Network section.     4.  Open your Mini App (TMA).     5.  Filter network queries by 'tganalytics'.  Source: FAQ - TON Docs (reply to 172917)
+
+M: why do i get "cant reach the page" in miniapp while i can access the site over internet with domain
+
+M: in browser
+
+— 2026-01-21 —
+
+Talent: so, do you need skilled dev now? (reply to 172752)
+
+TON Support: To submit your TON app for an official listing, you need to:  Submit a pull request to the wallet-list repository with your wallet manifest.  Notify your BizDev liaison to schedule an audit slot.  The audit process typically takes three to five business days.  Source: Integration QA guide - TON Docs (reply to 172336)
