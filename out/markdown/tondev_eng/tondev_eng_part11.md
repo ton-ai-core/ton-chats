@@ -9965,3 +9965,75 @@ M: in browser
 Talent: so, do you need skilled dev now? (reply to 172752)
 
 TON Support: To submit your TON app for an official listing, you need to:  Submit a pull request to the wallet-list repository with your wallet manifest.  Notify your BizDev liaison to schedule an audit slot.  The audit process typically takes three to five business days.  Source: Integration QA guide - TON Docs (reply to 172336)
+
+Donn: testnet halt ?
+
+Sam: Hi guys. It seems to me that the number of TON developers is more than jobs. What do you think?
+
+final: You consider every member of chat is a developer? (reply to 172941)
+
+Sam: No , of course I don’t. I think the real number of ton smart contract developers is a little more than 1000 (reply to 172942)
+
+final: Exactly (reply to 172943)
+
+Emin: hey, do you happen to have examples of variable-length snake strings in Tolk other than the ones on tolk-bench? (reply to 144761)
+
+TON Support: Based on the search results, I found information about variable-length snake strings in Tolk. Here's what the documentation says:  Variable-length snake strings in Tolk can be implemented using custom serializers for type aliases. The documentation on the Strings page explains this approach:  For variable-length encoding (like storing len + data), you define a type alias and provide custom packToBuilder and unpackFromSlice functions:  type ShortString = slice  fun ShortString.packToBuilder(self, mutate b: builder) {     val nBits = self.remainingBitsCount();     b.storeUint(nBits, 8);     b.storeSlice(self); }  fun ShortString.unpackFromSlice(mutate s: slice) {     val nBits = s.loadUint(8);     return s.loadBits(nBits); }   You can also use RemainingBitsAndRefs for "tail strings" (snake encoding where data chains through refs), or implement snake encoding manually by chaining slices with refs.  Source: Strings (reply to 172945)
+
+Emin: fun SnakeString.unpackFromSlice(mutate s: slice) { assert (s.remainingRefsCount() <= 1) throw 5;     val snakeRemainder = s;     s = createEmptySlice();     return snakeRemainder }  fun SnakeString.packToBuilder(self, mutate b: builder) {     b.storeSlice(self) }  unless this is the best way
+
+Emin: does .storeSlice(self) recursivley chain the refs if its more than 1023 bits?
+
+TON Support: Yes, if data exceeds 1023 bits, it is split across multiple cells that sequentially reference each other. A single cell can store a maximum of 1023 bits and up to four references to other cells. If you try to store more than 1023 bits in a single cell, it will result in a "Cell overflow" error.  Source: Exit codes - TON Docs, Telegram Open Network (TON) Blockchain Specification, Start here - TON Docs, Cells, slices, builders - TON Docs, TVM overview - TON Docs (reply to 172949)
+
+Kivuli: Looking for Telegram Mini App + TON Developer TMA developer who has relevant experience to work on an exciting project to help a Web2 business transition to Web3 We’re building SPIN, a Telegram Mini App for mobile airtime & data top-ups with crypto payments (TON / USDT) and a post-transaction gamification system (“Spin”) that feeds into a future token airdrop. This is a real production utility app, not an experimental DeFi project. • Please DM with: • Relevant experience (Telegram / TON) • Examples of similar work • Full technical scope available on request (or I’ll send after first contact).
+
+Emin: cannot tell from source code  /// Stores a slice into a builder. fun builder.storeSlice(mutate self, s: slice): self     asm(s self) "STSLICE"
+
+Emin: does the string splitting logic need to be done off-chain? i think thats the only answer
+
+Emin: storeStringRefTail(src) {         this.storeRef(beginCell().storeStringTail(src));         return this;     }  only possible in JS it seems
+
+ASH X - Dropee Whale/ BLUM / Whale.io: Hi Guys can somebody help me with my transaction got stuck been now 9 hours. Hello, I successfully deposited 75 TON. When transferring to my TON wallet, the transaction was paused and asked for additional verification. However, Sweden is not available in the country list, so I am unable to proceed, despite already being verified.  This appears to be a system or compliance issue for a bigger amount sending.   Please either: • Manually approve the transfer, or • Return the 75 TON to my original wallet.  Thank you for resolving this promptly.  Best regards, Milad
+
+&rey: Please name precisely the service you are "transferring" from. (reply to 172959)
+
+&rey: It does not; moreover, if there is a ref, then it is already an immutable cell. You should assemble the cell in reverse. (reply to 172949)
+
+&rey: Tuples may prove useful.
+
+Ackermann: @pcrafter (reply to 172651)
+
+вице-король vangaard: I believe he's referring to the custodial wallet in Telegram that requires KYC. (reply to 172960)
+
+вице-король vangaard: Somewhere in the Wallet app, there should be a support section, contact them there. This group is solely for TON development purposes (reply to 172959)
+
+&rey: Plus mind scam in any non-official apps. (reply to 172959)
+
+вице-король vangaard: It seems, they already mentioned that to you. (reply to 172969)
+
+Sam: Hi , are you still looking? (reply to 172951)
+
+@Bored 🐵: I am interested in, please dm me (reply to 172951)
+
+Wahab: I m sending the ton token using  Ton-kotlin  library and my transaction is bounced and didnot achieve the token transaction  Please guide me how to transafer token (not coin) in android kotlin
+
+Cool: I am interested in and I am suitable for this project. I tried to DM you but my account is not premium. I could not send you message directly. Can you dm? (reply to 172951)
+
+Rick - Matrixed.Link: Hi all, question regarding running a testnet node. The commit mentioned in https://t.me/testnetstatus/80 doesnt come up when using mytonctrl how would we go about pinning to this version?
+
+TON Support: You can pin the TON node to a specific branch, tag, or commit using the -v or --node-version flag during installation with MyTonCtrl. This allows you to lock to a particular release when validating upgrades.  Source: Overview - TON Docs (reply to 172987)
+
+Rick - Matrixed.Link: As above version is only in the TON repo and not in the mytonctrl the -b doesnt seem to work
+
+— 2026-01-22 —
+
+BLUEWAVE: how do I change field sir (reply to 172632)
+
+ʀᴇꜱɪꜱᴛᴏʀ: In your wallet, click on TON DNS > manage > edit (reply to 173003)
+
+BLUEWAVE: Vercel does not have an ADNL Abstract Datagram Network Layer is a TON-native server identity, Web2 platforms (Vercel, Netlify, Cloudflare Pages) do not generate ADNLs. (reply to 173005)
+
+ʀᴇꜱɪꜱᴛᴏʀ: There are two main ways to host a tonsite;  U can use tonutils-reverse-proxy on your server that will give you an ADNL address   Or host your site as “bag” (torrent like) on TON storage, either by paying a provider or by running ton storage on your server. That will give u a bag id that u can use in the tonsite field (reply to 173006)
+
+BLUEWAVE: it now that I even understand the whole setting it's very stressful and risky too of sever down time
