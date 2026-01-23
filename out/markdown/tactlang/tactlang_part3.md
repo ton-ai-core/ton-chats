@@ -10061,3 +10061,9 @@ Tareq: Where the Arab community
 Alessandro: Hi (reply to 77808)
 
 Alessandro: Hi guys,  I am a ton smart contract dev, looking for small gigs to do if someone is interested dm me.
+
+— 2026-01-22 —
+
+Tareq: No Arab here?!
+
+Alessandro: Here (reply to 77966)

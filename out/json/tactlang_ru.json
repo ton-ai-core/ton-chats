@@ -14468,6 +14468,16 @@
       "from": "Игорь",
       "from_id": "user332647177",
       "text": "nativeReserve(minTonsForStorage, ReserveExact);\n        message(MessageParameters {\n            to: self.owner,\n            value: 0,\n            mode: SendRemainingBalance | SendIgnoreErrors,\n            bounce: false,\n            body: Excesses { query_id: msg.query_id }.toCell(),\n        });\nИли опять же этот же код. тут есть SendIgnoreErrors,  bounce, можно добавить еще ReserveBounceIfActionFail. что где на что влияет?? что откатится а что нет? в отдельной части документации я могу прочитать про ReserveBounceIfActionFail или про bounce, но как понять целостно? Блин вот прям интерактивное приложение максимально простое с блоксхемой очереди транзакций где можно задать параметры и сразу увидеть результат как меняется поведение очень нужно.\nЯ понимаю щас что придется забить на качество кода и вывалить как говориться as is....(и так сойдет)"
+    },
+    {
+      "id": 3547,
+      "type": "message",
+      "date": "2026-01-22T09:16:17.000Z",
+      "date_unixtime": "1769073377",
+      "from": "Сергей",
+      "from_id": "user896147062",
+      "text": "Не ты один такой, я сам в ахере как абсолютно все в TON через одно место делается.\n\nДа дико, отсутствие документации, и многое другое.",
+      "reply_to_message_id": 3542
     }
   ]
 }

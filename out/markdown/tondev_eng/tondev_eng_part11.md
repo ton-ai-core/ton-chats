@@ -10037,3 +10037,51 @@ BLUEWAVE: Vercel does not have an ADNL Abstract Datagram Network Layer is a TON-
 ʀᴇꜱɪꜱᴛᴏʀ: There are two main ways to host a tonsite;  U can use tonutils-reverse-proxy on your server that will give you an ADNL address   Or host your site as “bag” (torrent like) on TON storage, either by paying a provider or by running ton storage on your server. That will give u a bag id that u can use in the tonsite field (reply to 173006)
 
 BLUEWAVE: it now that I even understand the whole setting it's very stressful and risky too of sever down time
+
+Sam: That’s the price we should pay to get a site’s location being hidden and private. Of course I believe that some cloud providers will provide native support of ton proxy but on the other hand they could have some regulatory pressure if they do so (reply to 173009)
+
+Craig: Is 0.001 TON enough to keep a NFT alive on chain? This NFT isn't going to have too much activity. Probably just sit in a wallet.
+
+TON Support: Yes, 0.001 TON is approximately the annual storage fee for a contract on the TON blockchain. You need to maintain a positive balance in the contract, as storage fees are deducted from this reserve. The developer determines how long storage fees should be reserved, with common durations being 5 or 10 years.  Source: Estimate gas usage in TON contracts, Toncoin payments processing - TON Docs (reply to 173025)
+
+Craig: Can I allow someone to redeploy their NFT after it runis out of balance? (reply to 173026)
+
+TON Support: If an NFT's associated account runs out of balance and storage fees become overdue, the account will be frozen. If the overdue amount reaches a maximum limit, the account goes bankrupt, is removed, and ceases to exist. While you can deploy an NFT initially, the concept of "redeploying" an NFT after its account is removed due to bankruptcy is not directly supported as the original asset would no longer exist on-chain.  Source: Start here - TON Docs (reply to 173028)
+
+Sam: Actually a deployment is just a message to a smart contract’s address with an initial state along with other message’s body. If you send the message with the initial state to the already deployed smart contract, the contract will process that as just ordinary message (reply to 173028)
+
+Craig: How does that work if the contract goes bankrupt / gets garbage collected. Does the chain keep some reference it was once deployed many moons ago? (reply to 173050)
+
+Sam: So the flow is following.  If a contract’s balance got -0.1 it will get frozen state.   If the contract’s balance got -1 it will be deleted .  Unless the contract is deleted you can unfreeze it.
+
+Sam: The thresholds (-0.1 and -1) are configurable and could be changed by voting
+
+Sam: But even a small amount on contract balance is enough to keep it alive for years
+
+Sam: I usually send 0.01 to newly created nft items
+
+&rey: That is not on offer, at least at the moment. (reply to 173023)
+
+Dmitry: You should keep in mind that this happens only when transaction occurs, no transactions - basically immortal (reply to 173053)
+
+Sam: Agreed (reply to 173058)
+
+Craig: Wow thank you! I've been trying to figure out, what a clear explanation! (reply to 173056)
+
+Craig: Double fantastic, the implementation I modified takes a static 0.001 each time something on chain happens (reply to 173058)
+
+Sam: You can find it in the official documentation https://docs.ton.org/foundations/status (reply to 173060)
+
+Sam: There are of course some implementation details, but in general the flow is as described above (reply to 173061)
+
+Andrey: hi, is there any info when TON testnet will be alive again? third day its red
+
+&rey: Looks like Orbs neglected to update their nodes. You can use Toncenter or Tonapi. (reply to 173066)
+
+Emin: @pcrafter, so if i deploy a contract and its storage has a cell with refs, it becomes immutable and im not able to change the storage?
+
+TON Support: All values in TON are immutable. Data is primarily stored as an immutable tree of cells. Reading and writing to cells is done using slices and builders. This means that once a contract's storage, which includes cells with references, is deployed, its fundamental structure and the values within its cells are immutable.  However, smart contracts can interact with their persistent storage (c4 register) to update their state. For instance, a counter contract can increment and save a new value to c4. When a contract's data is updated, a new cell is effectively created for the updated state, rather than modifying the existing one in place.  While the underlying cells are immutable, the contract's logic can dictate how its persistent storage is managed and updated. For example, in contract upgrades, a migration function can read from the old storage layout and write to a new layout, effectively changing the contract's data while still adhering to the immutability of individual cells.  Source: TVM overview - TON Docs, Cells - TON Docs, Your first smart contract - TON Docs, Upgrading contracts - TON Docs (reply to 173092)
+
+Emin: @TONSupportDeskBot do the refs in a cell take up part of the 1023 bits?
+
+TON Support: In TON, each cell consists of up to 1023 bits and up to 4 references to other cells. The references are distinct from the 1023 data bits, meaning they do not take up part of those 1023 bits.  Source: Cells - TON Docs, Cells, slices, builders - TON Docs, Start here - TON Docs (reply to 173094)
