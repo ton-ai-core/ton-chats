@@ -12029,3 +12029,9 @@ Leo: 那玩意不归我管 (reply to 110824)
 — 2026-01-22 —
 
 twsha: tonkeeper钱包里的u是不是转不出？
+
+— 2026-01-23 —
+
+Leo: 正常能转出的
+
+WhyesCode: Really? (reply to 111388)

@@ -10085,3 +10085,27 @@ TON Support: All values in TON are immutable. Data is primarily stored as an imm
 Emin: @TONSupportDeskBot do the refs in a cell take up part of the 1023 bits?
 
 TON Support: In TON, each cell consists of up to 1023 bits and up to 4 references to other cells. The references are distinct from the 1023 data bits, meaning they do not take up part of those 1023 bits.  Source: Cells - TON Docs, Cells, slices, builders - TON Docs, Start here - TON Docs (reply to 173094)
+
+— 2026-01-23 —
+
+Craig: NFT transfers in TonKeeper and MyTonWallet failing on chain due to a low forward_amount of one nanoTon being sent by the wallet software.  I believe NFT Item smart contract is failing at this line, trying to send an OwnershipAssigned message:   if (msg.forwardAmount > 0) {             send(SendParameters{                 to: msg.responseDestination,                 value: msg.forwardAmount,                 bounce: false,                 body: OwnershipAssigned{                     queryId: msg.queryId,                     prevOwner: prevOwner,                     forwardPayload: msg.forwardPayload,                 }.toCell(),             });         }  Should I update this check to only emit the message if there is a higher forwardAmout e.g.  if (msg.forwardAmount > ton("0.01")) {. Or is there something more fundamentally wrong?
+
+Sam: Seems like the recipient receives your ownership assigned message but can not process it because when a smart contract processes an internal message it uses the value of the message to set gas limit - default behavior. You should send more than 1 nano ton (reply to 173107)
+
+Sam: forward amount
+
+Willy: Need some information, please  Okay, so there are a lot of providers (Chainstack, onFinality), who are experiencing major outage for TON testnet.   It seems to be more TON problem, less Chainstack and etc problem  Where can I find any information about this current ton testnet problem? Can anyone suggest some current active working testnet provider? (besides tatum, orbs, toncenter) Quicknode and getblock do not allow testnet:(  Thank you
+
+Alex: How can I transfer ton from jetton wallet? I have some ton on my tether jetton wallet!
+
+Mojisola🍅 🍅: you can't do this directly except if the jetton code itself provide for such transfer of ton when it was deployed (reply to 173120)
+
+&rey: Testing of new block compression or something like that. (reply to 173113)
+
+Alessandro: Cant dm (reply to 172951)
+
+Talent: Hello How are you doing? I’ve worked on projects with both Telegram bots and the TON blockchain, so I’m confident I can bring the right experience to this.  In the past, I’ve integrated TON-based payment systems, built decentralized apps and worked on gamification features, so I’m familiar with the kind of functionality you're looking to implement. If you send me a DM, I'll share my experience in detail. (reply to 172951)
+
+Talent: your mean, jetton transfer? (reply to 172984)
+
+Sam: It’s really interesting question. I’ve just quickly explored Tether smart contract and didn’t see the way to transfer extra TON’s from a Jetton wallet. I’m going to explore that question in detail (reply to 173120)

@@ -10067,3 +10067,11 @@ Alessandro: Hi guys,  I am a ton smart contract dev, looking for small gigs to d
 Tareq: No Arab here?!
 
 Alessandro: Here (reply to 77966)
+
+— 2026-01-23 —
+
+Najah: Good morning all 🤍
+
+Slava: Marhaban!  Sorry, this is the only word I know... (reply to 77966)
+
+(Voks)Сайори: на русском чат есть?
