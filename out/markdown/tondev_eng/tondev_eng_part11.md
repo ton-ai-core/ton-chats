@@ -10109,3 +10109,37 @@ Talent: Hello How are you doing? I’ve worked on projects with both Telegram bo
 Talent: your mean, jetton transfer? (reply to 172984)
 
 Sam: It’s really interesting question. I’ve just quickly explored Tether smart contract and didn’t see the way to transfer extra TON’s from a Jetton wallet. I’m going to explore that question in detail (reply to 173120)
+
+— 2026-01-24 —
+
+Mojisola🍅 🍅: most times, TON in such jetton wallet will remain there except code was written to get it out before deployment. (reply to 173140)
+
+Mojisola🍅 🍅: except by mistake, only ton for storage fees remains in such wallet which are usually very small
+
+Code: are gasless (e.g. sponsored via tonAPI/tonkeeper battery (USDT)) transactions more expensive than paying regular TON gas?
+
+TON Support: Gasless transactions, like those sponsored through Tonkeeper, involve off-chain infrastructure to cover network fees. When you send USDT gasless, you sign a message for two USDT transfers: one to the recipient and a small amount to the service. This service then transmits the transaction to the TON Blockchain, paying the network fees in Toncoin. The average fee for sending USDT on the TON Blockchain is approximately 0.0145 TON.  Source: Wallet V5 - TON Docs, USDT | The Open Network (reply to 173157)
+
+Sam: There are multiple ways to solve the royalty enforcement solution on-chain. Why did TON decide to use centralized off-chain solution called NFT 2.0 ?
+
+Sam: I think NFT 2.0 is stillborn solution
+
+Code: I agree, we tried it on Solana, didnt work (reply to 173164)
+
+Sam: The only issue is separating ordinary transfers from sales , isn’t it ?
+
+乘风破浪: chinese
+
+✶ 𝐀 𝐑 𝐆 𝐎: Hi, I added to my channel the bot that updates the bio of a group/channel with the current price of Ton. But the biography is not updated.  Suggestions?  - I'm talking about Ton Price Updater.
+
+&rey: @tondev_zh. If I remember correctly. (reply to 173177)
+
+.mi.: Can anyone please tell me what is TON coin and how to use it
+
+&rey: Intro is at https://docs.ton.org/. (reply to 173184)
+
+Emin: any idea when they're gonna put deploy scripts in tolk-bench?
+
+— 2026-01-25 —
+
+Nawal Maqdisi♥️♥️❤️❤️: Hello
