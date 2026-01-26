@@ -10075,3 +10075,9 @@ Najah: Good morning all 🤍
 Slava: Marhaban!  Sorry, this is the only word I know... (reply to 77966)
 
 (Voks)Сайори: на русском чат есть?
+
+— 2026-01-25 —
+
+M: https://t.me/tondev (reply to 78046)
+
+(Voks)Сайори: Я там забанен (reply to 78124)

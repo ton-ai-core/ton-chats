@@ -10143,3 +10143,35 @@ Emin: any idea when they're gonna put deploy scripts in tolk-bench?
 — 2026-01-25 —
 
 Nawal Maqdisi♥️♥️❤️❤️: Hello
+
+Игорь: Hello! Am I the only one having problems with the testnet endpoint? const endpoint = 'https://testnet.toncenter.com/api/v2/jsonRPC'; // errors 500 429 (with ton api key) or const endpoint = await getHttpEndpoint({ network }); // Error: no healthy nodes for v2-testnet Is there a reliable endpoint for testnet?
+
+Sam: I have stopped using test net due to its slow speed. For development purposes fees are really small in mainnet and I spend less than one TON to test / deploy a smart contract on mainnet (reply to 173212)
+
+Willy: Nope, you are not alone, lots of problems (reply to 173212)
+
+Willy: Holding tight
+
+&rey: Let me guess, you are also using @ton/sandbox. (reply to 173215)
+
+Sam: Yes I’m
+
+Willy: @pcrafter hello, my friend   Is there any information on when current testnet updates would be finished and we all could test new tx speed?  Or maybe there is a link/change log/news page/channel where I could find latest news about it?   Didn't find it on my own Only like chaistack issue page (reply to 173133)
+
+&rey: Generally speaking, now the challenge is for non-validator nodes to keep up with the block stream. I personally cannot provide ETA.  Those are the latest news from @tondev (Russian chat). (reply to 173223)
+
+Willy: My message was deleted, I sent a dm to you, please respond, thank you (reply to 173224)
+
+Code: thank you for bridging gap between RU <> EN chats (reply to 173224)
+
+Emin: just hit an error when i called waitForDeploy()  method: 'post', url: 'https://testnet.toncenter.com/api/v2/jsonRPC', data: '{"id":"1","jsonrpc":"2.0","method":"getAddressInformation","params":{"address":"HIDDEN"}}' statusMessage: 'Internal Server Error', res: {       ok: false,       error: 'LITE_SERVER_UNKNOWN: backend node timeout(during last block synchronization)',       code: 500     } (reply to 173212)
+
+Aun: How to verify a transaction?
+
+TON Support: To verify a transaction, you can normalize the message, search for the transaction by its message hash, and then await confirmation. Hashes are essential for identifying and verifying data across all layers of the blockchain. For complete processing verification, both external and internal transactions must be checked.  Source: Hash-based tracking | The Open Network (reply to 173252)
+
+— 2026-01-26 —
+
+Emin: are we allowed to join this dev chat? (reply to 173224)
+
+&rey: Yes, it is operated under the same principles as this one, just in Russian. Please indicate if you have some problem with joining. (reply to 173257)
