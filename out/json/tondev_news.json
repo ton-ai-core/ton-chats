@@ -2236,6 +2236,18 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "Hello everyone,\n\nThe Pyth oracle contract addresses have now been updated in the TON docs. \n\nThe new contract brings several performance improvements, including significantly reduced on-chain price verification costs (10-20x cheaper).\n\n\nhttps://docs.ton.org/ecosystem/oracles/pyth"
+    },
+    {
+      "id": 259,
+      "type": "message",
+      "date": "2026-01-26T11:44:32.000Z",
+      "date_unixtime": "1769427872",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Help us become better.\n\nYou probably use tonviewer.com, and you likely have ideas on how it could be improved or fixed. We’d really appreciate it if you took our survey and helped us make it better.\n\nAlternatively, you can share your feedback directly in the comments under this post.",
+      "forwarded_from": "Ton Console",
+      "forwarded_from_id": "channel1610779830",
+      "forwarded_date": "2026-01-23T15:37:59.000Z"
     }
   ]
 }

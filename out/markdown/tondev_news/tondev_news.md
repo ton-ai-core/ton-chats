@@ -683,3 +683,7 @@ Unknown: 🫧 Tolk documentation — now complete and available for learning fro
 — 2025-12-12 —
 
 Unknown: Hello everyone,  The Pyth oracle contract addresses have now been updated in the TON docs.   The new contract brings several performance improvements, including significantly reduced on-chain price verification costs (10-20x cheaper).   https://docs.ton.org/ecosystem/oracles/pyth
+
+— 2026-01-26 —
+
+Unknown: Help us become better.  You probably use tonviewer.com, and you likely have ideas on how it could be improved or fixed. We’d really appreciate it if you took our survey and helped us make it better.  Alternatively, you can share your feedback directly in the comments under this post. (forwarded from Ton Console)

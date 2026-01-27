@@ -10175,3 +10175,43 @@ TON Support: To verify a transaction, you can normalize the message, search for 
 Emin: are we allowed to join this dev chat? (reply to 173224)
 
 &rey: Yes, it is operated under the same principles as this one, just in Russian. Please indicate if you have some problem with joining. (reply to 173257)
+
+Blackstreak: Hello All  I’m working on a Dapp and a concern I see is that we use multiple smart contracts. Users make a payment for gasfee to claim rewards.  However when we are broadcasting the transaction to blockchain it takes quite sometime.   How can we confirm these transactions gracefully in a different way?
+
+Zerox: Hi, I have exp with func & Tolk. Do you possibly need help? (reply to 172543)
+
+Mojisola🍅 🍅: you can use already popularly used solution to handle payment processing whether ton or Jettons (reply to 173270)
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 18  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+✶ 𝐀 𝐑 𝐆 𝐎: @admin (reply to 173179)
+
+&rey: Is it like 20 seconds? (reply to 173270)
+
+Robinweb3 - Web3 Marketer: Hi, I was building a mini app before submitting stage. Testing a bunch of things yesterday, suddenly the bot got deleted. No explanation. What can I do?
+
+&rey: This chat does not specialize in bots or TMAs. (reply to 173288)
+
+Robinweb3 - Web3 Marketer: Is there a chat for that you aware of? (reply to 173289)
+
+Sam: With the last updates it takes few seconds (reply to 173270)
+
+Sam: If you need faster the only option is payment channels. But in most cases it’s not appropriate. Need more info to address the issue
+
+Sam: It might be the speed between you and  the api you use as well - not blockchain is the problem
+
+Игорь: I banned in this chat, but I dont know why (reply to 173259)
+
+Craig: Unfortunately for this, it's the wallet's own send/transfer button setting 1 nanoton, I have no control over what is set :( (reply to 173108)
+
+— 2026-01-27 —
+
+Talent: I have a deep understanding of Tonchain and have rich experience working on wallet projects.  I have also written various smart contracts, including airdrop contracts, using funC. Let's connect! (reply to 172543)
+
+Craig: After some trial and error, and looking at other implementations, including the official funC implementation, it seems like I can set the send mode: SendPayGasSeparately          if (msg.forwardAmount > 0) {             send(SendParameters{                 to: msg.responseDestination,                 value: msg.forwardAmount,                 mode: SendPayGasSeparately,                 bounce: false,                 body: OwnershipAssigned{                     queryId: msg.queryId,                     prevOwner: prevOwner,                     forwardPayload: msg.forwardPayload,                 }.toCell(),             });         } (reply to 173107)
+
+Craig: After adding this flag I see: https://testnet.tonviewer.com/transaction/0c82a39063261251ddf0d3cd93eb559a7e49f80598be08acd8c826438096b613  Should I be concerned that the compute phase of the Ownership Assigned message is marked as skipped, cskip_no_gas ?
+
+Tony: Hey guys,  I'm trying to fetch transactions (getTransactions) for a contract address on the TON testnet, but I can't find any usable RPC endpoint — even toncenter and Chainstack aren't working for me.  Could you please share some reference code or recommend a service that can help with this?  Thank you very much!
+
+Mojisola🍅 🍅: not a problem. 1 nanoton is enough to send notification to receiver or so. skip gas won't do any further aside this. (reply to 173344)
