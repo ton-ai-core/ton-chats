@@ -10215,3 +10215,33 @@ Craig: After adding this flag I see: https://testnet.tonviewer.com/transaction/0
 Tony: Hey guys,  I'm trying to fetch transactions (getTransactions) for a contract address on the TON testnet, but I can't find any usable RPC endpoint — even toncenter and Chainstack aren't working for me.  Could you please share some reference code or recommend a service that can help with this?  Thank you very much!
 
 Mojisola🍅 🍅: not a problem. 1 nanoton is enough to send notification to receiver or so. skip gas won't do any further aside this. (reply to 173344)
+
+&rey: Waiting a bit (or perhaps a week) is more likely to help. (reply to 173345)
+
+Игорь: @pcrafter Can you help me get into the Russian chat @tondev? I didn't do anything there to be blocked.
+
+Игорь: I can't deploy the contract. Everything was fine before...I don't understand what the error is. [TON_CONNECT_SDK] Wallet message received: {   error: { code: 0, message: 'java.lang.NullPointerException' },   id: 59 } UnknownError: [TON_CONNECT_SDK_ERROR] UnknownError java.lang.NullPointerException     at SendTransactionParser.parseAndThrowError (D:\work\contracts\node_modules\@ton\blueprint\node_modules\@tonconnect\sdk\src\parsers\send-transaction-parser.ts:38:15)     at TonConnect.<anonymous> (D:\work\contracts\node_modules\@ton\blueprint\node_modules\@tonconnect\sdk\src\ton-connect.ts:254:42)     at Generator.next (<anonymous>)     at fulfilled (D:\work\contracts\node_modules\@ton\blueprint\node_modules\node_modules\tslib\tslib.es6.js:71:58) error Command failed with exit code 1.
+
+Sam: Try using vpn (reply to 173358)
+
+Sam: Ton connect works bad in some locations
+
+Игорь: Already tried it, it didn't help (reply to 173366)
+
+Mojisola🍅 🍅: update your app or software or so. (reply to 173358)
+
+Игорь: Last version tonkeeper (reply to 173369)
+
+Mojisola🍅 🍅: rebuild the contract again
+
+Игорь: Already tried. And tried very simple contact...and deploy not working (reply to 173371)
+
+Sam: Network issue , try using not European ip (reply to 173374)
+
+Sam: I had the same issue
+
+Sergei: Do TON Builders metrics even work at all? I’m trying to add them, but the portal keeps showing “no data” no matter what I do  - I added TON Metrics to a Telegram Mini App, but in TON Builders it shows “no data”. - I’ve checked everything — the app works fine, and the network requests are being sent correctly.  I also double-checked it with ChatGPT, Grok, and Claude — they all say the integration looks correct. We reviewed both the documentation and the code with AI, and everything seems to be done properly.  But the data still doesn’t appear… What could be the problem?
+
+Dhereal1: Hello everyone, i am bot builder and available to work for and with any founder here.  I have built a assistance bot that does the following: Wallet-aware support bots  AI that understands TON  Price alerts inside Telegram  Jetton analytics  Scam detection with blockchain context
+
+Sam: Seems like it’s not working now. I also tried to get some points but nothing changed (reply to 173384)

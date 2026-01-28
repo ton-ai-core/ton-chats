@@ -10085,3 +10085,7 @@ M: https://t.me/tondev (reply to 78046)
 — 2026-01-26 —
 
 Игорь: У меня пишет: такого чата не существует. Может тоже забанен, но насколько я помню я вроде даже не успел зайти)) (reply to 78124)
+
+— 2026-01-27 —
+
+Good: Hello. Need to help to develop a public template of zk-jetton based on Pedersen proof. Free or paid format for you (ru/en)
