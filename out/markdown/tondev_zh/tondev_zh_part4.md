@@ -12035,3 +12035,33 @@ twsha: tonkeeper钱包里的u是不是转不出？
 Leo: 正常能转出的
 
 WhyesCode: Really? (reply to 111388)
+
+— 2026-01-28 —
+
+悠妹儿 | 飞机号: ADNL_address 绑了个空的怎么删掉重新绑啊 目前TON DNS后台管理已经进不去了
+
+0x: 请问有Solidity方面的专家吗？
+
+Leo: 你想问啥直接发
+
+0x: 因为我的项目
+
+东哥: 大家好
+
+0x: 你好 (reply to 111977)
+
+东哥: 你是欧美人？ (reply to 111980)
+
+0x: From Australia, currently located in Toronto
+
+0x: Hi (reply to 648)
+
+0x: So are you a dev? (reply to 111982)
+
+东哥: 你要开发什么？ (reply to 111987)
+
+非小号商务BD|非小号收录: 需要一个简单的h5页面的ton程序
+
+非小号商务BD|非小号收录: 传统业务接入tg
+
+Anthony: 💎 AppKit — Early Access Now Open  A new way to build TON apps. Blockchain complexity fades into the background. You focus on product.  🔗 Apply for the Early Adopter List. *Selected developers will have access to Beta version.  Gateway Tickets | Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn (forwarded from TON Dev News)

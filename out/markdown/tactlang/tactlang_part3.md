@@ -10089,3 +10089,41 @@ M: https://t.me/tondev (reply to 78046)
 — 2026-01-27 —
 
 Good: Hello. Need to help to develop a public template of zk-jetton based on Pedersen proof. Free or paid format for you (ru/en)
+
+— 2026-01-28 —
+
+Oliver: Is there any unpaid ladies here? I'm waiting
+
+Dhereal1: Let's work together. (reply to 78199)
+
+Dhereal1: If you need a ton ecosysten dev to work, i am available.  I currently work/built telegram bot that is integrated with AI and trained with Ton documents. It can be used as a telegram channel or group support bot and can be adapt to any project. (reply to 77136)
+
+Good: text pm (reply to 78246)
+
+Dhereal1: It says you are not my mutuals so i can not message you.
+
+Good: Do you know a cryptography? (reply to 78248)
+
+Dhereal1: Yes
+
+Good: Ok, in your opinion, what's is the key difference between current Paillier scheme and target Pedersen scheme? (reply to 78250)
+
+Good: in zkJetton
+
+Dhereal1: This depends on what you are you are looking through... but simply put, i'll say Paillier is an encryption scheme, while Pedersen is a commitment scheme.
+
+Dhereal1: In zkjetton, i think paillier is uses the old method to encrypt balance and store as a cyphertext. While pedersen proccess confidential transaction without a central devrypter (reply to 78252)
+
+Good: No, Paillier (1999) is newer than Pedersen (1991). But you are on the right way. Start later (reply to 78255)
+
+Good: ok, Is discord convenient for you as a means of communication? (reply to 78255)
+
+Good: @Dhereal1 give me your public key here. I'll send you encrypted discord-invite
+
+.: Hi 👋   Is Tact worth learning right now? Are there real jobs or paid projects for Tact developers? Any advice from experienced devs? Thanks 🙏
+
+Saksham: I have seen multiple job opportunities at various projects of TON Foundation related to Blockchain Development and one thing was common that everyone wanted an expert in FunC  Although learning Tact is a good to have skill and maybe in future more projects will migrate over it but right now FunC is dominant in Blockchain Development jobs in TON (reply to 78263)
+
+.: 🙏 (reply to 78271)
+
+Lols Anti Spam: OneWin, spam is prohibited (spam)  🧨 Hide these messages free for a week! [hide]

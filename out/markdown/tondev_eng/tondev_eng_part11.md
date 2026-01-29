@@ -10245,3 +10245,95 @@ Sergei: Do TON Builders metrics even work at all? I’m trying to add them, but 
 Dhereal1: Hello everyone, i am bot builder and available to work for and with any founder here.  I have built a assistance bot that does the following: Wallet-aware support bots  AI that understands TON  Price alerts inside Telegram  Jetton analytics  Scam detection with blockchain context
 
 Sam: Seems like it’s not working now. I also tried to get some points but nothing changed (reply to 173384)
+
+— 2026-01-28 —
+
+Tharun Tej: Generally, how much would it cost to create and launch a token through IDP, or something else for fundraising?
+
+Bucks: Not much seems (reply to 173458)
+
+None: Hello! Could you please tell me if it is possible to send the entire TON balance and Jetton balance somehow?
+
+TON Support: You can send both your entire TON balance and Jetton balance.  For TON, you would perform a regular transaction. For Jettons, the process involves interacting with Jetton wallet contracts. Each Jetton has a decimals parameter in its metadata, which is crucial to consider when transferring to avoid sending an incorrect amount.  To initiate Jetton transfers, your wallet service needs to handle Jetton balances. You can obtain the current Jetton balance by providing the address of the Jetton master (minter) contract or by querying a TON wallet using methods like getJettons() from wallet adapters or kit.jettons.getAddressJettons().  When sending Jettons, a user sends a transfer message to their Jetton wallet, which then sends an internal_transfer to the recipient's Jetton wallet. A transfer_notification is sent to the recipient's address if forward_ton_amount is greater than 0. It's important to set forward_ton_amount to at least 0.000000001 TON (1 nanoton) for notifications to trigger, as transfers without this might not be processed by exchanges and other services.  Source: How to work with Jettons using WalletKit on the Web platform - TON Docs, How to retrieve wallet information, jettons, and NFTs with WalletKit on the Android platform - TON Docs, Overview - TON Docs, Jettons payments processing - TON Docs, Jetton transfer | The Open Network, How it works - TON Docs, How to retrieve wallet information, jettons, and NFTs with WalletKit on the iOS platform - TON Docs (reply to 173461)
+
+Bucks: Telegram wallet safe to keep large funds?
+
+TON Support: Multisig wallets offer the highest level of security for managing institutional funds and significant assets, protecting against key compromise and human error through shared responsibility and configurable thresholds. All major wallet apps support secure cryptography to keep user funds safe, and it is recommended to use the v5 wallet standard for its latest and most powerful implementation. Source: Comparison - TON Docs (reply to 173463)
+
+Bucks: Keeping 1.59 million is safe so? (reply to 173464)
+
+Code: yes (reply to 173465)
+
+Bucks: Well thank you (reply to 173466)
+
+Willy: Yes, me too!! (reply to 173333)
+
+Royal: No risk until you leak info (reply to 173465)
+
+Willy: If you find the way inside - please,  tell me!  I've been banned for years with no reason and no one is willing to help :(  I've tried to contact administration, I tried asking @pcrafter - nothing changed yet  It would not matter, I do know English, but it sucks to know there could be information, that is not here or in public (reply to 173333)
+
+Royal: Something wrong there for sure (reply to 173472)
+
+&rey: If they determine you are not compliant with your ToS then you have no access. You have no programmatic opportunity to control funds either. Those are two major features of custodial wallets vs noncustodial, and it's up to you to evaluate them (to do your own research on what suits you best). (reply to 173463)
+
+&rey: The support bot assumed you can load jetton balance offchain. Is that true in your scenario, or you need to automatically send jettons from a contract? (reply to 173461)
+
+Divine: My text was deleted?
+
+&rey: It is out of scope for this chat. (reply to 173479)
+
+Dhereal1: The rules says no advert or posting of link other than a github project link that is line with whatever contribution you are making in the chat.
+
+Sam: Why some of my messages are disappearing?
+
+Dhereal1: Read the group rules. You will find the answers.
+
+Sam: Ok thanks (reply to 173496)
+
+TON Support: You can send your entire TON balance and Jetton balance. For Jettons, you need to be careful with decimals, as each Jetton stores a decimals parameter in its metadata. Transferring without accounting for these can lead to sending more tokens than intended.  To send Jettons, a user sends a transfer message to their Jetton wallet. This wallet then sends an internal_transfer to the recipient's Jetton wallet, which in turn sends a transfer_notification to the recipient's address if a forward_ton_amount is specified (at least 0.000000001 TON). This forward_ton_amount is crucial for triggering notifications and ensuring transfers are processed by exchanges and other services.  WalletKit provides methods like getBalance() for TON and getJettonBalance() for specific Jettons to retrieve current balances. When constructing a Jetton transfer transaction, you need to specify the sender's Jetton wallet address and include a payload with the Jetton transfer body. The transaction also includes an amount for commission fees, with any excess returned.  It's important to note that regular TON wallets are designed to store only Toncoin, and Jetton balances are stored in individual Jetton wallet contracts. When dealing with Jettons, always validate that Jetton wallets belong to the expected master contract, as fake Jetton wallet contracts with arbitrary balances can be deployed.  Source: How to work with Jettons using WalletKit on the Web platform - TON Docs (reply to 173461)
+
+Sam: I need to use a stable coin for the project that is intended mostly for Europe. I’m wondering about using USDT or USDE .Has someone have experience in that ? Which one is better to use ? The project is like an NFT marketplace but all prices are in USD
+
+Sam: I know that there are some limitations of using USDT there
+
+Sam: But know nothing about Ethena USD
+
+Dhereal1: If all price are in USD, just use USDT. Make it uniform.
+
+Blackstreak: What would the best way of transferring Jettons to users?  Let’s say users do a mining, staking or claims rewards. We need to transfer these tokens to them.   Currently we are using the Jettonminter contract to mint tokens and then transfer these across to different contracts. The contracts would then transfer Jettons as needed.  Would this be an appropriate method or is there any best practice by the industry?
+
+TON Support: The method you've described, where a Jetton minter contract issues tokens and then other contracts distribute them, is a common approach.  Jetton transfers involve multiple internal messages between contracts, which means they take longer than regular Toncoin transfers. When a user initiates a Jetton transfer, their Jetton wallet sends an internal_transfer message to the recipient's Jetton wallet. The recipient's Jetton wallet then sends a transfer_notification to the recipient's address if a forward_ton_amount is specified.  Source: Jettons payments processing - TON Docs (reply to 173508)
+
+Sam: If there are lots of users , use claim approach commonly used for airdrops (reply to 173508)
+
+Arby: Hello, where should I explain my TON business plan?I have to talk with someone from Ton company
+
+&rey: There is no such requirement; TON is The Open Network for a reason.  If you're seeking a partnership from a specific entity named TON Foundation, the email is partnership@ton.org (reply to 173514)
+
+Tharun Tej: What kind of partnerships can we seek here? (reply to 173515)
+
+&rey: I'm not at liberty to say nor guess. (reply to 173518)
+
+Anthony: 💎 AppKit — Early Access Now Open  A new way to build TON apps. Blockchain complexity fades into the background. You focus on product.  🔗 Apply for the Early Adopter List. *Selected developers will have access to Beta version.  Gateway Tickets | Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn (forwarded from TON Dev News)
+
+Code: What does it do? (reply to 173523)
+
+Seva A.: Applied
+
+Seva A.: Is TMA narrative acceptable in this chat? I have a tma-specific question.
+
+Seva A.: Still on TON.
+
+&rey: Please write in @devs. (reply to 173528)
+
+Seva A.: Glad to see you. This group ain't accessible for me.
+
+Divine: Did you build the project? (reply to 173503)
+
+Sam: Im currently working on it (reply to 173536)
+
+Sam: Need to make some architectural choices
+
+Divine: Oh, okay (reply to 173538)
+
+AZİZİ: Hi Do you have any plan for availability of NFC? is it applicable in future?
