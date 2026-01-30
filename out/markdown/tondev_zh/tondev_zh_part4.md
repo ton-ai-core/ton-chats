@@ -12065,3 +12065,21 @@ Leo: 你想问啥直接发
 非小号商务BD|非小号收录: 传统业务接入tg
 
 Anthony: 💎 AppKit — Early Access Now Open  A new way to build TON apps. Blockchain complexity fades into the background. You focus on product.  🔗 Apply for the Early Adopter List. *Selected developers will have access to Beta version.  Gateway Tickets | Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn (forwarded from TON Dev News)
+
+— 2026-01-29 —
+
+olpmunp: 臥槽之前付费的合约群现在免费开放 名额有限 看简介马上进
+
+华傲科技: ton 现在1.4了
+
+华傲科技: 怎么搞大佬们
+
+华傲科技: 这玩意儿还值得入吗
+
+一 二 三～: 这不是正是入手的好时候嘛
+
+Emmanuel: Hi everyone,  I’m Emmanuel Excellent, a full-stack developer currently expanding into Web3. I’m really interested in the TON network and excited to learn more about the ecosystem.  I’d appreciate any guidance on where to start, recommended resources, or how to get involved in projects within this community.
+
+— 2026-01-30 —
+
+Alethea: 批量出售Telegram账号

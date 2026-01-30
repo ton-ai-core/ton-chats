@@ -10337,3 +10337,11 @@ Sam: Need to make some architectural choices
 Divine: Oh, okay (reply to 173538)
 
 AZİZİ: Hi Do you have any plan for availability of NFC? is it applicable in future?
+
+— 2026-01-29 —
+
+Smith: hi
+
+Λvaros: Anything is possible. (reply to 173545)
+
+Smith: seal-server startup fails with error 0xe044 due to platform not being registered with Intel PCS (404 error: No cache data for this platform)

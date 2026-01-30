@@ -2248,6 +2248,19 @@
       "forwarded_from": "Ton Console",
       "forwarded_from_id": "channel1610779830",
       "forwarded_date": "2026-01-23T15:37:59.000Z"
+    },
+    {
+      "id": 261,
+      "type": "message",
+      "date": "2026-01-29T18:17:08.000Z",
+      "date_unixtime": "1769710628",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🎟 Final Call | Gateway 2026 Early Bird\n\n24 hours. That's it.\n\nEarly bird closes tomorrow at 9pm CET. If you've been waiting, this is the moment.\n\nDubai. May 1-2. Build what you believe.\n\n—\nGateway Tickets | Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn",
+      "media_type": "photo",
+      "file": "photos/photo_261.jpg",
+      "width": 1280,
+      "height": 1280
     }
   ]
 }

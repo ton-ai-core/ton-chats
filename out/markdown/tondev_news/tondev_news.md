@@ -687,3 +687,7 @@ Unknown: Hello everyone,  The Pyth oracle contract addresses have now been updat
 — 2026-01-26 —
 
 Unknown: Help us become better.  You probably use tonviewer.com, and you likely have ideas on how it could be improved or fixed. We’d really appreciate it if you took our survey and helped us make it better.  Alternatively, you can share your feedback directly in the comments under this post. (forwarded from Ton Console)
+
+— 2026-01-29 —
+
+Unknown: 🎟 Final Call | Gateway 2026 Early Bird  24 hours. That's it.  Early bird closes tomorrow at 9pm CET. If you've been waiting, this is the moment.  Dubai. May 1-2. Build what you believe.  — Gateway Tickets | Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn
