@@ -14662,6 +14662,26 @@
       "from_id": "user2131318261",
       "text": "https://github.com/ton-blockchain/wallet-contract-v5/blob/main/contracts/wallet_v5.fc#L189\nну попробовать может",
       "reply_to_message_id": 1647
+    },
+    {
+      "id": 1652,
+      "type": "message",
+      "date": "2026-01-30T22:56:47.000Z",
+      "date_unixtime": "1769813807",
+      "from": "r",
+      "from_id": "user8308074805",
+      "text": "https://t.me/+zcAH8sZ-npk0MzYy",
+      "reply_to_message_id": 1643
+    },
+    {
+      "id": 1653,
+      "type": "message",
+      "date": "2026-01-30T22:56:48.000Z",
+      "date_unixtime": "1769813808",
+      "from": "r",
+      "from_id": "user8308074805",
+      "text": "https://t.me/SB_767",
+      "reply_to_message_id": 1643
     }
   ]
 }

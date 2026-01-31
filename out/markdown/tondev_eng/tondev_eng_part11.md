@@ -10345,3 +10345,61 @@ Smith: hi
 Λvaros: Anything is possible. (reply to 173545)
 
 Smith: seal-server startup fails with error 0xe044 due to platform not being registered with Intel PCS (404 error: No cache data for this platform)
+
+— 2026-01-30 —
+
+S: How do I mint a Jetton on Testnet if minter.ton.org is down (503 error)?
+
+TON Support: If minter.ton.org is unavailable, you can mint a Jetton on Testnet by writing code that manually assembles the necessary messages. It's recommended to use a test wallet and Testnet RPC before deploying to the mainnet.  Source: How to mint new jettons - TON Docs (reply to 173626)
+
+akki: if (sender == senderInitOwner.getAddrFiWallet(store)) {         assert (             store.active         ) throw ACCOUNT_INACTIVE;     } else {         var addrs = lazy store.addresses.load();         assert (sender == addrs.trustedJettonAddrs.load().minterAddr) throw ERROR_NOT_VALID_WALLET;         if (!store.active) {             var invitors = lazy addrs.nomInAddrs.load();             store.active = true;             store.accountInitTime = blockchain.now();             invitors.invitor = contract.getAddress();             invitors.invitor0 = contract.getAddress();         }     } } hey  the internal if block is not getting triggered when sender is minter and active is false what could be the cause of that?
+
+akki: https://github.com/ankitgahlyan/fossfi/blob/eadc8a579d61626c5782fb6fa9c9852cdb645de0/contracts/fossFi/jetton-utils.tolk#L107
+
+Sam: sender == senderInitOwner.getAddrFiWallet(store)) - checks whether sender is minter ? (reply to 173629)
+
+akki: no it checks for peer/sibling jettonwalletaddress here sender is in.senderAddress And senderInitOwner is msg.sender/jetton owner/a w5 wallet check the code on GitHub for any clarifications (reply to 173632)
+
+Sam: Ok got it. In order to answer your question, I need to dive deeper into your code and understand how it works. Takes about 1 hour with tests and so on . I’m gonna go . There’s nothing better than working for free DDD (reply to 173634)
+
+akki: thanks I'm stuck from two days I can walk you through code if u want (reply to 173640)
+
+Bus: Will TON ever lower the minimum staking balance of 300k TON? Why is it still that high?
+
+TON Support: The technical minimum stake for validators is 300,000 TON, however, due to competition for the 400 validator slots, the actual minimum stake is currently around 700,000 TON.  If you're interested in staking with a lower balance, nominator pools allow users to stake with a minimum of 10,000 TON. Additionally, liquid staking protocols offer even lower minimum deposits, with some starting at 1 TON. Source: Staking overview - TON Docs, Staking with nominator pools | The Open Network, Nominator pool | The Open Network (reply to 173658)
+
+Bus: Staking contracts such as the one offered by hipo.finance could be changed by the owner at any time. Look for set_code() in it.. Is there any staking contract on TON that is final? (reply to 173659)
+
+ㅤ: set_code is the only option? or there are more? (reply to 173660)
+
+Pepemartians: hmm how many addresses are u guys managing currently. just deal with one wrong transfer for my customer,  6 digital amount has erased
+
+&rey: Only if it needs more validators. (reply to 173658)
+
+Sam: seems i found the issue (reply to 173629)
+
+Sam: when you pass store into a mthod, you pass its copy
+
+Sam: so your updates are not saved
+
+Sam: try this:   match (msg) {         InternalTransferStep => {             checkCorrectSenderInternal(in.senderAddress, msg.transferInitiator, store);              if (!store.active) {                 var invitors = lazy addrs.nomInAddrs.load();                 store.active = true;                 store.accountInitTime = blockchain.now();                 invitors.invitor = contract.getAddress(); // todo fixme or adapt logic for null also used after accClosed                 invitors.invitor0 = contract.getAddress();             } ....
+
+Sam: and checkCorrectSenderInternal:  fun checkCorrectSenderInternal(sender: address, senderInitOwner: address, store: FiWalletStore) {     // todo: sync version     if (sender == senderInitOwner.getAddrFiWallet(store)) {         // invitees can also send         assert (             store.active         ) throw ACCOUNT_INACTIVE; // active or invitingMsgOnly(seperateCheckIn InviteInternal)     } else {         var addrs = lazy store.addresses.load();         assert (sender == addrs.trustedJettonAddrs.load().minterAddr) throw ERROR_NOT_VALID_WALLET;              } }
+
+Sam: that works, I tested
+
+Bus: The only I know of. (reply to 173664)
+
+— 2026-01-31 —
+
+akki: but that'll break the functionality of how contract works I want those states(active, accountInitTime etc) to change only if sender is minter (reply to 173673)
+
+akki: iThink iNeed to inline the logic instead of method calling then! (reply to 173686)
+
+akki: how you found it? can you document/make a video about how u fix this? i got another exitCode 7(type mismatch) when upgrading (reply to 173673)
+
+akki: https://github.com/ankitgahlyan/fossfi/blob/eadc8a579d61626c5782fb6fa9c9852cdb645de0/contracts/fossFi/fossFiWallet.tolk#L317
+
+akki: https://testnet.tonviewer.com/transaction/08936696126f2e64f8702c814806474a790778af3c9bb84d1199a6856ccdb2a1
+
+akki: Or what if  instead of passing store to method i locally assign it? will that work (reply to 173687)
