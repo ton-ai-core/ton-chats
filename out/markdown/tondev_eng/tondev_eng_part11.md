@@ -10403,3 +10403,19 @@ akki: https://github.com/ankitgahlyan/fossfi/blob/eadc8a579d61626c5782fb6fa9c985
 akki: https://testnet.tonviewer.com/transaction/08936696126f2e64f8702c814806474a790778af3c9bb84d1199a6856ccdb2a1
 
 akki: Or what if  instead of passing store to method i locally assign it? will that work (reply to 173687)
+
+Sam: You can return a kind of result to main method and change your storage accordingly. The main point here is that - if you change storage in a method you should save changes in that method as well. (reply to 173696)
+
+akki: this also doesn't works I inlined with sender==minter check Now works fine thnks aLot (reply to 173703)
+
+Sam: How are you testing your code? It seems to me that you deploy it on Testnet just to test, don't you? (reply to 173704)
+
+akki: guilty as charged! I'll write tests from now on It's just that I'm not usedTo writingTests (reply to 173705)
+
+Sam: From my experience bro I can say that tests take 70% of time and they are really important (reply to 173708)
+
+akki: lately i'm realising that (reply to 173709)
+
+akki: & this 70% is what I was avoiding (reply to 173709)
+
+Mr X | ByteLords ⚡: Hi guys it might be off topic maybe but I hope the admin will understand and help me out,  I finally managed to setup the ScamShieldNetwork which is a Telegram pubblic channel where everyone can report any kind of scams if you are interested in the project and would be part of the community feel free to join.  I hope this system will help everyone to make Telegram a safe place to be in. if you want DM me for the channel name  God bless you. Please admin don't ban me I'm trying to help the community
