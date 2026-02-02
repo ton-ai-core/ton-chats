@@ -10419,3 +10419,9 @@ akki: lately i'm realising that (reply to 173709)
 akki: & this 70% is what I was avoiding (reply to 173709)
 
 Mr X | ByteLords ⚡: Hi guys it might be off topic maybe but I hope the admin will understand and help me out,  I finally managed to setup the ScamShieldNetwork which is a Telegram pubblic channel where everyone can report any kind of scams if you are interested in the project and would be part of the community feel free to join.  I hope this system will help everyone to make Telegram a safe place to be in. if you want DM me for the channel name  God bless you. Please admin don't ban me I'm trying to help the community
+
+— 2026-02-01 —
+
+&rey: And is it related to the best practices of development on TON tho? (reply to 173733)
+
+Mr X | ByteLords ⚡: Ton or not ton the safety of users should be put always at first place.  You might lose your TON if you will get scammed. So yeah is related to ton dev too! (reply to 173776)
