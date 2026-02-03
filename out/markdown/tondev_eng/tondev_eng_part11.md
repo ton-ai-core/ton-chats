@@ -10425,3 +10425,11 @@ Mr X | ByteLords ⚡: Hi guys it might be off topic maybe but I hope the admin w
 &rey: And is it related to the best practices of development on TON tho? (reply to 173733)
 
 Mr X | ByteLords ⚡: Ton or not ton the safety of users should be put always at first place.  You might lose your TON if you will get scammed. So yeah is related to ton dev too! (reply to 173776)
+
+— 2026-02-02 —
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 18  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+TON Bounty Bridge: ​[Proposal] TON Unlocker : A Community-Driven Platform to Unlock Closed Knowledge Through Trustless Crowdfunding  Created by AliAI-spirt
+
+iMAN: Hi Ruslan, I have experiences in funC (reply to 172543)

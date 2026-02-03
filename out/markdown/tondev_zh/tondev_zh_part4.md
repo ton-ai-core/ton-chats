@@ -12085,3 +12085,15 @@ Emmanuel: Hi everyone,  I’m Emmanuel Excellent, a full-stack developer current
 Alethea: 批量出售Telegram账号
 
 HUANG: 什么时候能出红包功能阿？发红包炸炸群人就回来了
+
+— 2026-02-02 —
+
+yan: 我他妈提个无数次，让开通红包功能。最后给哪个傻比在大群里把我给踢了。
+
+yan: 最基础的红包功能都不开发，还跟我说不符合欧美人的习惯。 (reply to 112169)
+
+yan: 纯傻比理论，照这样说，原始森林里的人还不穿鞋穿衣服呢
+
+yan: 给这帮傻比早晚玩归零
+
+Pepemartians: 有没哪些著名的中文区tma产品可以参考一下的
