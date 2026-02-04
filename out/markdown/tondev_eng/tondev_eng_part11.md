@@ -10433,3 +10433,31 @@ TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bo
 TON Bounty Bridge: ​[Proposal] TON Unlocker : A Community-Driven Platform to Unlock Closed Knowledge Through Trustless Crowdfunding  Created by AliAI-spirt
 
 iMAN: Hi Ruslan, I have experiences in funC (reply to 172543)
+
+— 2026-02-03 —
+
+🇵🇸: block#11ef55aa global_id:int32   info:^BlockInfo value_flow:^ValueFlow   state_update:^(MERKLE_UPDATE ShardState)    extra:^BlockExtra = Block;   does the ShardState contain account states(code. data , balance) involved in the transactions in the block?  what is the easiest way to get all account states?
+
+TON Support: Yes, the ShardState can contain account states (code, data, balance).  To get all account states, you can parse the state_update field of the shardchain block. This field contains two ShardState hashes, representing the state before and after the block.  Source: Overview - TON Docs.) (reply to 173890)
+
+Sam: It contains hashes (reply to 173890)
+
+🇵🇸: Is there any possibility to get state data? (reply to 173896)
+
+Sam: Sure . You can get state of a y account. You need the current state or of a specific block? (reply to 173897)
+
+🇵🇸: I know there is getAccountState method in LS   I am not sure whether  it is it correct approach. How marketplaces like getgems index events like listing, sale and all?  Do they run getAccountState for each address in block transactions?
+
+TON Support: Marketplaces like Getgems index NFTs to display them in wallets. For unofficial collections, Getgems only indexes the first 200 items. To place an NFT on a Getgems sale contract, a specific message body (transferNftBody) is prepared to transfer the NFT to the sale contract.  Source: NFT transfer | The Open Network, Compressed NFT processing | The Open Network (reply to 173899)
+
+Sam: Honestly I don’t know how they do that . Bit that’s an interesting question. Time needed to create a new block is too small and analysis of each transactions of the block is too heavy task . I think they filter transactions of each block just by opcodes and the ones related to NFT are taken for detail research (reply to 173899)
+
+🇵🇸: So even with opcode approach is it wise to run getAccountState method? Is it the only available option? (reply to 173901)
+
+🇵🇸: I am trying to build an indexer for NFT that will have highly accurate data. I need assistance from you all. LLM are giving incorrect answers which makes already dying brain die fast.
+
+Sam: So what is the main challenge right now? Let me help you (reply to 173903)
+
+— 2026-02-04 —
+
+Majid: does anyone know what is this issue. I created an api key in builders.ton.org and currently im using that key and I have {"message": "Success record."} response when I open my miniapp. however my key does not exist in my project analytics tab in builder website.
