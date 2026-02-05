@@ -10461,3 +10461,77 @@ Sam: So what is the main challenge right now? Let me help you (reply to 173903)
 — 2026-02-04 —
 
 Majid: does anyone know what is this issue. I created an api key in builders.ton.org and currently im using that key and I have {"message": "Success record."} response when I open my miniapp. however my key does not exist in my project analytics tab in builder website.
+
+akki: can anyone make this test work, it involves contract upgrades https://github.com/ankitgahlyan/fossfi/blob/7c386ed88c3559b49451b13008597f982c887113/tests/fi/FossFi.spec.ts#L148
+
+Anthony: This is a bug. The team is checking (reply to 173937)
+
+Emin: With Regard to https://github.com/ton-blockchain/tolk-bench/blob/master/contracts_Tolk/02_nft/nft-collection-contract.tolk#L10 Can someone confirm if below info correct? (given by ton docs AI):  When deployNftItem() is called, it sends a message to the NFT item's address with: • stateInit containing the item's code + initial data (itemIndex + collectionAddress) • body containing initParams (owner + content) NFT item is created and receives the message — when the message arrives at the computed address, TON: • Deploys the contract using the stateInit • Immediately executes the contract with the message body NFT item processes the body — the newly deployed item's onInternalMessage runs, reads initParams from the incoming message body, and extends its storage to include ownerAddress and content.
+
+TON Support: The information provided about the `deployNftItem()` function and the NFT item creation process is largely correct.  Here's a breakdown based on the TON documentation:  *   **`deployNftItem()` call**: When `deployNftItem()` is called, it does indeed build the `StateInit`, derives the NFT item's address, and sends a deploy message to that address. *   **`stateInit`**: The `StateInit` is a package that contains the contract's initial code and data, which is used to derive its address and deploy it. For an NFT item, this would include information like the `itemIndex` and `collectionAddress`. *   **`body` containing `initParams`**: The deploy message will have a body, and this body can contain `initParams` such as `owner` and `content`. *   **NFT item creation and message reception**: When the message arrives at the computed address, TON deploys the contract using the `StateInit` and immediately executes the contract with the message body. *   **NFT item processes the body**: The newly deployed item's `onInternalMessage` runs, reads the `initParams` from the incoming message body, and extends its storage to include `ownerAddress` and `content`.  In essence, the description accurately captures the mechanism of deploying an NFT item on TON, where the `StateInit` defines the initial state and code, and the message body provides the initial data for the contract's execution upon deployment.  Source: [NFT: reference implementation - TON Docs](https://docs.ton.org/standard/tokens/nft/reference), [How to deploy an NFT item - TON Docs](https://docs.ton.org/standard/tokens/nft/deploy), [Your first smart contract - TON Docs](https://docs.ton.org/contract-dev/first-smart-contract) (reply to 173947)
+
+Saline: Nft scammed how recover (reply to 173948)
+
+&rey: TON transactions are final and not revocable. Most NFT implementations inherit that property so their transfers are irreversible too. (reply to 173951)
+
+Emin: can a human pls check? (reply to 173947)
+
+&rey: Your bolded comment looks right. If the message value is enough to launch TVM (>= 0.0001 TON or around that), then it doesn't really matter if contract was deployed with the same message or some previous one. (reply to 173947)
+
+Emin: wow, just unlocked another perspective then, thanks! (reply to 173955)
+
+Emin: so i can think of it like a 'constructor'
+
+&rey: Actually not like that. A contract would be very hard pressed to find out if it had been deployed right then. (reply to 173957)
+
+&rey: Instead, NFT item is typically deployed in a non-finalized state, and upon first authentic message (i.e. from a collection in most cases) all the fields are filled.
+
+Emin: right, we cant gaurantee the body executes. the code in tolk-bench seems like thats the intention tho (to have it finalize immediatley after deploying)
+
+&rey: I believe you get the point (even though some phrasing is still wrong)! (reply to 173960)
+
+🇵🇸: i am sequentially pulling all transaction of block from tonapi , searching for specific opcodes in the body then i also need to check with tonapi if the address belong to nft or not, then pull its account state through tonapi to know their owner address. state code, data , etc. is this correct approach ? is there any easiest method to get account states of all accounts in the block without too many http requests? (reply to 173904)
+
+Dave: With tonapi alone, many HTTP requests are unavoidable. For scale, an indexer is the only real solution. (reply to 173962)
+
+Dave: Best is to run your own TON indexer / archive node > get all states efficiently.
+
+&rey: So have you seen the bulk load method there? (reply to 173962)
+
+🇵🇸: They don't have bulk endpoint for account state (reply to 173965)
+
+🇵🇸: they have one but that does not give code,data which is essential.
+
+🇵🇸: Just account balance and other useless data
+
+🇵🇸: Howmuch does it costs to run such node? (reply to 173964)
+
+Sam: Why do you need a new node ? (reply to 173971)
+
+Sam: Try to research using lite client
+
+Sam: There are public archive nodes and you can get all history from them
+
+🇵🇸: I need account state of all accounts in a block to parse their data, index them if it's NFT or other thing related them, Should I just use getAccountState for each account ? (reply to 173974)
+
+Sam: Toncenter api is just a wrapper / facade for working with lite servers . For non-trivial tasks use lite client
+
+Sam: Honestly I don’t know (reply to 173975)
+
+Sam: Maybe there are indexers that allow you to apply reacher filters than toncenter
+
+Sam: Need to google bro
+
+Mfena: I have a p2e project so I need Devs to carry on my project. Anyone?
+
+DeFi: How much are you willing to pay? (reply to 174010)
+
+Mfena: If you can then hit me up in DM we'll talk there (reply to 174011)
+
+Mfena: I need a serious person (reply to 174011)
+
+Divine: I’d love to hit you up but my dms are currently restricted. (reply to 174013)
+
+— 2026-02-05 —
+
+Modesayo: HMU (reply to 174010)
