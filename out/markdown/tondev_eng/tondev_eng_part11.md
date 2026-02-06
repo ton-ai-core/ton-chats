@@ -10535,3 +10535,37 @@ Divine: I’d love to hit you up but my dms are currently restricted. (reply to 
 — 2026-02-05 —
 
 Modesayo: HMU (reply to 174010)
+
+akki: if (payload.remainingBitsCount() >= 32) {                  val opcode = payload.loadUint(32);                  if (opcode == 0) {                      val text =  payload.loadStringTail();  // UTF-8 string                      assert (text != "fail") throw INCORRECT_RECEIVER;                  }              } how to implement loadStringTail in tolk to check for specific text comments?
+
+&rey: What would it return? Some canonical form of the tail string, as yet another slice?  cmpStringTail might be very much easier. (reply to 174027)
+
+akki: i just want to throw exitCode when sender puts "fail" in text comment of transfer forwardpayload  so need to check the text in contract (reply to 174028)
+
+&rey: It will be easier to make it in form if (opcode == 0) {     val isFailure = cmpStringTail(payload, "fail");     assert (!isFailure) throw INCORRECT_RECEIVER; } (reply to 174030)
+
+&rey: Do you need guidance on creating cmpStringTail? It would, having got two slices A and B, check equality of min(A.remainingBits(), B.remainingBits()), advance empty slices to their first references if needed. Upon any inequality return false.
+
+akki: sure (reply to 174032)
+
+akki: val minBits = min(a.remainingBitsCount(), b.remainingBitsCount());     if (minBits > 0) {         val aBits = a.loadBits(minBits);         val bBits = b.loadBits(minBits);         if (!aBits.bitsEqual(bBits)) {             return false;         }     }     // Advance to refs if slices are empty of bits     if (a.isEndOfBits() && !a.isEndOfRefs()) {         a = a.loadRef().beginParse();     }     if (b.isEndOfBits() && !b.isEndOfRefs()) {         b = b.loadRef().beginParse();     }     return true; } ai response . Is it ok?
+
+&rey: Not quite. It needs to continue comparison (in a loop or recursively, the former is better) for the loaded ref. (reply to 174034)
+
+akki: what if I use just payload.bitsEqual("fail") as it's a small comment so no need to check refs just bit check is enough?
+
+&rey: Do you know that contract you're interacting with will never send "\0\0\0\0f" —> "ai" —> "l" instead of everything in root cell? (reply to 174036)
+
+akki: yes it will be user/sender entered comment if there's anything else than word "fail" that will be ignored
+
+Slava: A common understanding is that if two string have different lengths they aren't equal already. Why minBits? (reply to 174034)
+
+TON Bounty Bridge: ​TON Legacy - Dead Man's Switch for Crypto Inheritance  🏷 Developer Tool  Summary:TON Legacy is a Wallet V5 extension that implements a "Dead Man's Switch" for crypto inheritance. If...  Rewards: • $25,000 USD  Created by otopba
+
+&rey: Because there are multiple valid encodings of a string into snake-cell list. No one actually mandated that each cell except the last is full. (reply to 174040)
+
+Willy: I think it may be more optimized if you did not use string's at all  If you are the one who writes and checks "fail": try using bool/uint/enum instead of strings to pass information about status  It is sometimes easier to have two enums in two projects and keep them intact, then encoding and decoding strings, imho (reply to 174036)
+
+Willy: Because if you are not the one who encodes "fail": you should look into the original code to understand how "fail" is encoded and how to decode it correctly (reply to 174034)
+
+akki: right. but I'm trying to harness the power of comments in jettons to trigger msg sending based on comment text so I don't have to write frontend & use tonkeeper to interact with modified jetton atleast when on testnet (reply to 174046)
