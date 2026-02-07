@@ -10245,3 +10245,11 @@ Goddess: Najah
 Goddess: good morning (reply to 78759)
 
 ###fA: Iran🖤🖤🖤🖤
+
+— 2026-02-06 —
+
+Omid: This account is fake and scammer...😎😂
+
+— 2026-02-07 —
+
+Quantum🧠: Corny 🥴🥴🥴 (reply to 78841)

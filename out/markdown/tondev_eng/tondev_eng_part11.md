@@ -10569,3 +10569,19 @@ Willy: I think it may be more optimized if you did not use string's at all  If y
 Willy: Because if you are not the one who encodes "fail": you should look into the original code to understand how "fail" is encoded and how to decode it correctly (reply to 174034)
 
 akki: right. but I'm trying to harness the power of comments in jettons to trigger msg sending based on comment text so I don't have to write frontend & use tonkeeper to interact with modified jetton atleast when on testnet (reply to 174046)
+
+— 2026-02-06 —
+
+akki: hi there is it absolutely necessary to send value as non-zero when using SendModePaySeparately? if yes what's bare minimum
+
+&rey: Zero should work fine. (reply to 174129)
+
+akki: i had it but got cskip no gas on receiver contract why's that? (reply to 174142)
+
+&rey: It's absolutely fine, indicates that message did not launch the receiver's code because it had no TON to do so. (reply to 174146)
+
+— 2026-02-07 —
+
+akki: can we use? this for logging  assert(false, 0);
+
+akki: or it'll fail TXN and bounceBack
