@@ -10253,3 +10253,13 @@ Omid: This account is fake and scammer...😎😂
 — 2026-02-07 —
 
 Quantum🧠: Corny 🥴🥴🥴 (reply to 78841)
+
+Dhereal1: Hello everyone  I am building Quincy, a TON Communication Assistant for Telegram communities. It helps admins write clean announcements and blocks scam-like messages. I’m testing it with a few TON groups right now. If useful, happy to walk you through it.
+
+LEON: helo
+
+LEON: how are you all
+
+LEON: Good evening (reply to 78759)
+
+TK: I am new here

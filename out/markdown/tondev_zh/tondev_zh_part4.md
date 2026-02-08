@@ -12117,3 +12117,19 @@ yan: 我上次都设计好了草图 (reply to 112764)
 yan: 这帮人蠢的不要不要的，不知道天天在干什么
 
 yan: 搞归零算了，草他妈的
+
+— 2026-02-07 —
+
+zoo: 我是solidity开发者 转到ton难度大吗 机会怎么样
+
+Tom: 兄弟，你遇到了什么事情，为何这么想不开？ (reply to 113221)
+
+zoo: 你的意思是ton不行吗 我感觉中文社区有好多人用ton (reply to 113294)
+
+Railgun: 去寫Solana用rust寫合約，在傳統金融業比較有機會
+
+Zzuki: evm转ton 你可能会哭
+
+Zzuki: ton 的复杂度比evm高很多 而且ton现在没啥流动性 去搞sol吧
+
+Tom: 中国人不骗中国人，我是看到你打汉字，所以关心下你 (reply to 113306)

@@ -10585,3 +10585,39 @@ akki: i had it but got cskip no gas on receiver contract why's that? (reply to 1
 akki: can we use? this for logging  assert(false, 0);
 
 akki: or it'll fail TXN and bounceBack
+
+akki: so it's ok for notifications  but if need to modify state in receiver then must send some value? (reply to 174147)
+
+TON Support: To modify the state in a receiver contract, you must send some value. Receiver contracts are designed to react to incoming messages, triggering actions or changing their state based on the contract's logic and the messages they receive.  Source: Your first smart contract - TON Docs (reply to 174199)
+
+&rey: Throws an error with code 0 IIRC. If not caught, it will end the compute phase with a success, and contract will proceed to sending all ordered actions. (reply to 174193)
+
+akki: and it can be used  if one of contracts (sender or receiver) has different version,  then compute should fail(old code) but sends upgrade/requestUpgrade msg from peer and further msg processed normally coz now versions are synced (reply to 174213)
+
+&rey: It's complex. After all, peer's response will not arrive immediately, any number of requests may come before that. (reply to 174217)
+
+akki: no prblm further txn(sending jettons) fail unless upgrades  it's harmless user can wait (reply to 174218)
+
+&rey: I'd agree but what happens for a DEX? If it's a multi-hop swap it cannot even be cancelled as if nothing happened. (reply to 174220)
+
+akki: yeah but works fine for simple jetton for swaps we can have other/custom msg sent(coz original does not bounced for exitCode 0) (reply to 174221)
+
+None: I am receiving a webhook about the transaction to wallet «A». I need to send all the coins from this wallet «A» (be it TON or Jetton) to wallet «B». (reply to 173476)
+
+TON Support: To send all coins (both Toncoin and Jettons) from wallet "A" to wallet "B", you will need to create separate transactions for each.  For Toncoin, you can use createTransferTonTransaction with the recipient's address and the amount. For Jettons, you will need the Jetton master (minter) contract address. Then, you can use createTransferJettonTransaction with the recipient's address, the Jetton's address, and the amount.  Here are examples of how to create these transactions (using WalletKit on Android as an example):     Toncoin Transfer:     ```kotlin     val message = TONTransferParams(         toAddress = "<TON_WALLET_ADDRESS>", // Wallet B's address         amount = "1000000000" // 1 Toncoin in nanoToncoin format     )     val transaction = wallet.createTransferTonTransaction(message)     ```     Jetton Transfer:         val parameters = TONJettonTransferParams(         toAddress = "<TON_WALLET_ADDRESS>", // Wallet B's address         jettonAddress = "<JETTON_ADDRESS>", // Address of the Jetton minter contract         amount = "1000000" // 1 token in Jetton units     )     val transaction = wallet.createTransferJettonTransaction(parameters)      It's important to note that Jetton transfers involve multiple internal messages between contracts and will take longer than regular Toncoin-only transfers.  Source: How to transfer Toncoin, Jettons and NFTs with WalletKit on the Android platform - TON Docs, How to work with Jettons using WalletKit on the Web platform - TON Docs (reply to 174231)
+
+Not Ciggerate: Sure we can get into them (reply to 171940)
+
+Ali: Hello, I designed and planned a complete project on TON but haven't implemented anything. I'd like to sell the plans, studies, and their associated intellectual property rights. Are there any investors here, or are they all developers? If everyone is a developer, I apologize for this message. If possible, could you please guide me to a group with investors interested in the TON network?
+
+Michele: Could anyone recommend or provide a recent, stable global.config.json file?
+
+&rey: You mean this one? https://ton.org/global.config.json (reply to 174288)
+
+Michele: thank you buddy
+
+— 2026-02-08 —
+
+Atom: how do i start an expired ton dns auction? i was told by support to come here and ask
+
+Atom: i found the message however i have a question, how do i know how much ton (nanoton) to send in teh start auction request? is it just floor for the length or can it be any amount
