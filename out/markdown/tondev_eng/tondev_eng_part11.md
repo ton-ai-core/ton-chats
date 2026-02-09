@@ -10621,3 +10621,47 @@ Michele: thank you buddy
 Atom: how do i start an expired ton dns auction? i was told by support to come here and ask
 
 Atom: i found the message however i have a question, how do i know how much ton (nanoton) to send in teh start auction request? is it just floor for the length or can it be any amount
+
+Nawal Maqdisi♥️♥️❤️❤️: Hello
+
+TCN: To start an expired TON DNS auction, you just need to send a start auction request transaction.  Regarding the amount:  The minimum required amount is the floor price based on the auction length (in nanotons).  You can send more than the minimum if you want, but it’s not required and doesn’t give any extra advantage when starting the auction.  As long as the amount you send meets or exceeds the minimum for that duration, the auction will start correctly. (reply to 174294)
+
+Alice: Hi guys, does anyone know how to fix a frozen account? I understand this usually happens when the account is overdue on storage fees, but how can we check how much we need to deposit to bring it back to a positive balance?
+
+ʀᴇꜱɪꜱᴛᴏʀ: Hi, who said there is no open-source ai agent on Telegram & TON ?   I created an Al agent which could be described as similar to "clawbot", but primarily focused & dedicated to Telegram and TON, with + 120 tools and an easy plugin system.   - Telegram: Full account control, DMs, channels, groups, gifts, GIFs, stickers, voice, polls, moderations &+   - TON : Send/receive TON & jettons, swap on STON.fi & DeDust, check prices/pools/ holders, explore blockchain, mint NFTs, bid on DNS auctions, link .ton domains &+  The agent have acces to real time floor prices (scrapping atm), portfolio analysis, send/receive/ transfer collectibles, list on marketplace &+  And all the basic features to have a quality agent: Persistent memory, identity, soul, goals, business strategy, autonomous scheduled tasks, dev workspace, deep learning and more cool stuffs  The agents can trade gifts or memecoins, gamble at dice or emoji slots, become a KOL and charge token for their posts, moderate your commu, become a middleman,Or whatever you want, the only limit is you and your imagination 🫵  https://github.com/TONresistor/teleton-agent
+
+Sam: https://unfreezer.ton.org (reply to 174322)
+
+Sam: You can get due payment from the account state using standard JS SDKs (reply to 174322)
+
+Sam: Hi , could you provide details please ? What kind of projects you were planning to create? (reply to 174251)
+
+Sam: So what’s the issue to do that ? (reply to 174231)
+
+Freddy | WEB3Madras | metaFields.xyz: a friend of mine created ton mcp
+
+Ali: Thanks for your interest. I'm selling a complete, ready-to-execute project design package for a unique seasonal NFT lottery on TON.  What's included: - Complete technical architecture with detailed specifications for 6 integrated smart contracts - Business plan with comprehensive market & competitor analysis   - Financial models projecting 75-85% ROI in the first season - Risk assessment framework with specific mitigation strategies - Marketing plan and 10-12 week implementation roadmap  Important clarification: This is a full project design blueprint**—including all architectural schematics, contract specifications, and implementation guides—not pre-written code. It saves 6-9 months of planning and design work for any development team.  Due to an urgent family situation, I'm offering this complete design package at a discounted rate.   Base price: 120,000 TON   Limited-time discounts (both require full upfront payment): - 25% off (90,000 TON) – if signed within 10 days - 40% off (72,000 TON) – if signed within 72 hours  If you're seriously interested, message me privately to move forward. (reply to 174344)
+
+Sam: Sounds interesting but I think it’s better to participate to a TON event to find investors . I’m not sure the audience here can afford such a price (reply to 174368)
+
+Ali: Thank you for the honest feedback - I genuinely appreciate it.  You're absolutely right about TON events being a great avenue. Are there any specific upcoming events or investor circles you'd recommend for a project at this stage?  Regarding the audience here, I'm open to structuring the offer differently. The 120K TON price is for the complete package, but perhaps there are members interested in: - A smaller stake or partnership model - Acquiring just specific components (tech design, business plan, etc.) - Other creative arrangements  If you know anyone who might be interested (even if not at full price), I'd be grateful for an introduction. Sometimes the right connection is worth more than a perfect pitch.  Thanks again for taking the time to respond. (reply to 174369)
+
+Sam: What’s the price for the business plan without technical implementational details?
+
+Ali: The business plan package (without full technical implementation details) is available for 25,000 TON.  This includes: - Complete market analysis & competitor benchmarking - Financial models with 3 scenarios (optimistic/base/pessimistic) - Revenue projections and ROI calculations (75-85% first season) - Marketing strategy and user acquisition plan - Risk assessment and mitigation strategies - 10-12 week high-level implementation roadmap  What it doesn't include: The detailed technical architecture, smart contract specifications, and full development blueprints.  For comparison: The complete package (business + technical) is 120,000 TON, but purchasing separately would total 25,000 + [95,000 for technical] = 120,000 TON.  Special offer: If you buy the business plan now and decide within 30 days to get the full package, I'll deduct the 20,000 TON from the full price. (reply to 174371)
+
+None: The task is to send the entire balance, but the commission is unknown. Is there any way to calculate the cost of gas in advance or send the entire balance with one function? (JS, TS and Python) (reply to 174346)
+
+Sam: Use send mode 128 (reply to 174389)
+
+— 2026-02-09 —
+
+akki: can minter contract SIGN a payload/message ? do contracts have keypair(pkey-skey) ?  so it can be stored offchain and sent back when needed to, To save contract storage space.
+
+TON Support: Yes, contracts on TON can be designed to verify signatures. This is a fundamental aspect of how TON wallets work. Here's a breakdown:  **Keypair and Signing:**  *   Contracts don't inherently have a "keypair" in the same way an external user wallet does (where the secret key is used for signing off-chain). *   However, a contract can **store a public key** (derived from an Ed25519 keypair) in its storage. This public key is then used to verify signatures. *   The corresponding **secret key** is kept off-chain and used by an external entity (e.g., a user, a server, or even another contract that holds the secret) to sign messages.  **How it Works for Verification:**  1.  **Off-chain signing:** An external entity uses the secret key to sign a payload/message off-chain. This signed message includes the actual data and the signature. 2.  **On-chain verification:** The signed message is then sent to the contract on-chain. 3.  **Contract verification:** The contract, which has the public key stored, uses a function like `check_signature` (or similar depending on the contract language) to verify if the signature is valid for the given payload and public key.  **Use Cases and Why it's Important:**  *   **Access Control:** This mechanism is crucial for access control. For example, a contract can ensure that certain operations can only be initiated by specific authorized parties who hold the secret key for the public key stored in the contract. *   **Wallet Contracts:** Wallet contracts on TON extensively use this pattern. The user's wallet contract stores a public key, and the user signs transactions off-chain with their secret key. The wallet contract then verifies this signature before executing the transaction. *   **Server-controlled Operations:** As mentioned in the documentation, a server can sign authorization messages off-chain, and the user sends these server-signed messages to a contract for verification and execution. *   **Saving Storage Space (as you mentioned):** By storing only the public key in the contract and handling the signing process off-chain, you effectively reduce the amount of data that needs to be stored persistently on the blockchain within the contract. The full signed message (which can be larger) is only transiently processed.  **Replay Protection:**  It's crucial to implement replay protection when (reply to 174421)
+
+akki: so no? contract can verify But can't sign messages (reply to 174422)
+
+akki: any human please (reply to 174425)
+
+&rey: They don't by default.  Also, no contract can sign anything, since the corresponding private key would be visible to everyone. (reply to 174421)
