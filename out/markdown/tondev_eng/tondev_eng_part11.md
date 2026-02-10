@@ -10665,3 +10665,83 @@ akki: so no? contract can verify But can't sign messages (reply to 174422)
 akki: any human please (reply to 174425)
 
 &rey: They don't by default.  Also, no contract can sign anything, since the corresponding private key would be visible to everyone. (reply to 174421)
+
+Sam: The state of any contract is visible for everyone so you can store a private key in the contract if the key is not confidential (reply to 174421)
+
+akki: Offcourse it's confidential think I need to find workaround then maybe grandchild contract pattern  minter -> jetton(child) -> grandchild   to store unbounded data instead of using maps(limited storage capacity of contract) (reply to 174430)
+
+Sam: In the case you should compare the cost of storing and interacting with the map with the cost of communication between child and grandchild contracts . I think storing maps cheaper but it’s better to test both cases (reply to 174432)
+
+Sam: One more contract adds complexity to the whole system and instead of 1 atomic transaction you get a distributed transaction
+
+akki: map can't be cheaper if when grows + child pattern provides infinite storage   that I need for storing friends/followers data (reply to 174433)
+
+Sam: Does anyone know why FunC section disappeared from official TON documentation?
+
+Sam: I understand that they want to force developers to use Tolk which is an awful language in my opinion, but a lot of codebase is written on FunC. Even if FunC is legacy and not maintained there is should be a way to get info
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 19  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Sam: I just created the issue in the docs repository. We’ll see
+
+Mirka: You can visit old docs site: https://old-docs.ton.org/v3/documentation/smart-contracts/func/overview (reply to 174448)
+
+Sam: They fixed the issue. FunC section is available now (reply to 174450)
+
+Code: thats fast (reply to 174461)
+
+Sam: I was surprised)) they work very well (reply to 174478)
+
+Anthony: Hey! It would be awesome if you could share feedback on Tolk. (reply to 174448)
+
+Sam: Ok, so they say that by using Tolk you can decrease fees by 40% or something like this. Good but all 3 languages (FunC, Tolk and Tact) are translated into Fift.  That means: - Intentionally Tolk code translated better. Why they can't do the same with FunC - FunC developers are not good enough. They cannot finally learn how to write more optimized code to get those 40% fees economy.  Trying to abstract developers from TL-b scheme is not a good dessicion. Developers must know and understand TL-b to create smart contracts.  Trying to create a declarative style language - the price of error is too high.  It's a big discussion, but generally I prefer FunC (reply to 174484)
+
+Anthony: Thank you! (reply to 174486)
+
+Slava: It's very cumbersome, error-prone and noisy to write code that serializes/deserializes cells, builds messages, etc. Just consider readability of FunC vs. Tolk when it comes to message sending.  Humans (at least most of us) are not computers, we are not made to perform such low-level optimizations. And if you would still micro-optimize your code it will become harder to read and fragile to later maintain and update.  Consider the standard ecosystem contracts. They we written by the best experts in the TON development and were very-well optimized. Still, the compiler produced a significant improvement.  Smart contract code should be optimized for readability in order to make it more auditable and secure. Trading security for gas optimizations is always a bad idea, considering that smart contracts often deal with finance.  It's very natural (and standard industry practice) to delegate low level optimizations to compilers.  However, I would agree that completely abstracting away TL-B is a questionable decision, considering that it's a fundamental aspect of TON development. But TL-B itself is a complex language that most developers will struggle to fully apprehend. Probably, most projects don't even require such expressiveness when it comes to data serialization. I believe that the current implementation is pretty good middle ground, it's easy to read and understand and at the same time it's still more powerful than e.g. Solidity.  Also, I believe that you are not forced to use the automatic serialization, all low-level calls are still available and can be used for manual implementation.
+
+Slava: This is a questionable statement. When you have manual serialization with field and value merging (optimization), conditional statements, etc, it's much easier to make an error. What's worse — it's harder to notice it, because such code is a readability nightmare.  Simple declarative code could me much easier to read and maintain. Of course if these declarative rules are not too complex. (reply to 174486)
+
+Sam: Good point. But even if you use Tolk you can’t avoid tests because smart contracts operate with funds mostly (reply to 174490)
+
+Sam: Tests prevent you from errors related to tl-b
+
+Sam: Maybe there is another goal to go towards declarative style
+
+Sam: Such thing’s easily could be delegated to AI
+
+Sam: I became a smart contract developer to not be replaced by AI : D   I used to be a NET developer but loses my advantages when junior developers wrote code with AI that is better than mine wrote manually
+
+Willy: Wait, wait, wait   You always need tests, for every language   How else would you expect your code and your logic to pass? (reply to 174493)
+
+Sam: I agree . I just meant that benefits of Tolk related to syntax’s simplicity are not valuable for me (reply to 174498)
+
+Sam: Guys, the choice of language is a matter of taste. I like FunC and could imagine lots of reasons to use it
+
+Willy: I found myself to be a Tolk enjoyer   Used both FunC and Tact,   but I am really glad I switched to Tolk  Same precision as FunC if you need it.  Clean code and structure abstraction as in Tact, but with better (native) message/tx handling. (reply to 174486)
+
+Willy: Yeah, sure, you are right!  Nowadays you can "read" and understand any language with different AI's. So, yeah, it is definitely "taste" mostly, if language has all basic tools (reply to 174500)
+
+Petr: This wasn't done intentionally, Tolk is better in terms of gas consumption due to tremendous effort and good initial language design, it's almost impossible to do the same in FunC (reply to 174486)
+
+Slava: That's hard to believe :) (reply to 174497)
+
+Sam: Why don’t they rewrite sample contracts like Jetton, NFT, Wallet with Tolk? (reply to 174503)
+
+Daniel: It’s already rewritten (reply to 174507)
+
+Daniel: Just look at tolk-bench repository (reply to 174507)
+
+Mirka: https://github.com/ton-blockchain/tolk-bench (reply to 174507)
+
+Sam: Thanks a lot (reply to 174510)
+
+Sam: I’ll try using Tolk for my next smart contract
+
+— 2026-02-10 —
+
+Emin: I prefer Tolk, so much easier to read. (my opinion)
+
+Emin: by the way, whoever’s in charge of this repo. if you can please add sample scripts. it will help new tolk devs understand end to end (reply to 174510)
+
+Emin: the counter contract example in ton docs is good but doesnt cover most use cases in the real world

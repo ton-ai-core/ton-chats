@@ -2261,6 +2261,44 @@
       "file": "photos/photo_261.jpg",
       "width": 1280,
       "height": 1280
+    },
+    {
+      "id": 263,
+      "type": "message",
+      "date": "2026-02-09T14:22:59.000Z",
+      "date_unixtime": "1770646979",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Bot API 9.4\n\n🎨 Custom Emoji and Buttons\n• Bots can now use custom emoji in outgoing messages if their owner has Telegram Premium.\n• Keyboard and inline buttons now support background colors and custom emoji.\n\n💬 Private Chat Topics\n• Bots can now create new topics in 1-on-1 chats.\n• Via the BotFather Mini App, bot owners can also prevent users from creating or deleting topics.\n\n🤖 Profile Info\n• Bots can now set and remove their own profile pic.\n• User profile audios are now visible to bots.\n\n🎁 Gifts\n• Unique gifts now include model rarity information.\n• Out-of-the-box support for detecting gifts burned after crafting.\n\n✈️ General\n• Bots now handle service messages when a chat owner leaves or ownership changes.\n• Video objects now include a list of available qualities.\n\n• And more, see the full changelog for details:\n\nhttps://core.telegram.org/bots/api-changelog#february-9-2026",
+      "forwarded_from": "BotNews",
+      "forwarded_from_id": "channel1004276399",
+      "forwarded_date": "2026-02-09T14:22:10.000Z"
+    },
+    {
+      "id": 264,
+      "type": "message",
+      "date": "2026-02-09T15:32:13.000Z",
+      "date_unixtime": "1770651133",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "‼️BREAKING 🔥\n💎 Introducing TON Pay | Payments Infrastructure for TON\n\nA new SDK that lets merchants and developers accept crypto payments across TON-native applications. Starting with Telegram Mini Apps.\n\nKey capabilities\n▪️ One integration across TON apps \n▪️ Near-instant on-chain settlement\n▪️ Low-cost transactions \n▪️ Native checkout experiences \n▪️ Merchant dashboard and analytics\n\nTON Pay handles settlement, security, and payment logic. Merchants focus on product and user experience.\n\n👉Apply for early access \n👉Documentation\n\nGateway Tickets | Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn",
+      "media_type": "photo",
+      "file": "photos/photo_264.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "id": 265,
+      "type": "message",
+      "date": "2026-02-09T17:46:13.000Z",
+      "date_unixtime": "1770659173",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Live from Hong Kong ✨💎\n\nThis is how a great event looks like \"TON Foundation\" Great team 🫶\n\nWith Asseto, HashKey, OSL, Animoca Brands, Plume, Asseto, ChainNeXT, Native Group\n\nStay tuned ⏰ for more to come\n\nGateway Tickets | Discounted Hotel Booking | TON Community | TON Builders | TON Hubs | X | YouTube | Website | Blog | LinkedIn",
+      "media_type": "photo",
+      "file": "photos/photo_265.jpg",
+      "width": 2560,
+      "height": 1706
     }
   ]
 }

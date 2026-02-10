@@ -10271,3 +10271,7 @@ Dhereal1: Welcome
 TK: Hi wassup (reply to 79001)
 
 TK: My name is Tekenah
+
+— 2026-02-09 —
+
+She: https://www.linkedin. com/company/oluwaseyiomotoso/  Kindly let us know if a friend of yours would like to volunteer (remotely) here. Very few hours a months Much suitable if the person is artisic. Persons in other fields are also welcome (reply to 78688)
