@@ -10745,3 +10745,29 @@ Emin: I prefer Tolk, so much easier to read. (my opinion)
 Emin: by the way, whoever’s in charge of this repo. if you can please add sample scripts. it will help new tolk devs understand end to end (reply to 174510)
 
 Emin: the counter contract example in ton docs is good but doesnt cover most use cases in the real world
+
+Mojisola🍅 🍅: yea. sure.  but can give some headstart without too much complications
+
+Azad.ton ꘜ: Hello admin  Anyone can help me out here?
+
+Lopez_: Hi devs! Saw the TON Pay SDK launch recently  unified payments in Mini Apps with TON/USDT support. Has anyone integrated it yet?
+
+Divine: What’s wrong? (reply to 174603)
+
+Azad.ton ꘜ: I write you up (reply to 174610)
+
+&rey: (Note that wasn't an admin) (reply to 174611)
+
+Azad.ton ꘜ: Okay thanks  Can you write me up (reply to 174618)
+
+&rey: Moderators never DM first. (reply to 174619)
+
+Azad.ton ꘜ: I can’t write you  Or you add me as contact
+
+&rey: Should be fine now. (reply to 174621)
+
+Divine: Relax. Never claimed to be one. Only asked what the problem was. (reply to 174618)
+
+— 2026-02-11 —
+
+akki: resistance is futile bro anything that can happen  will eventually happen JUST ADAPT, leverage the change (reply to 174496)
