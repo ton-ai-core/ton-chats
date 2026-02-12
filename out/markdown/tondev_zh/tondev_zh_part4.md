@@ -12145,3 +12145,13 @@ TON: 電報升級新界面了
 — 2026-02-10 —
 
 Vera: 现在stars test enviroment还能用吗？tg官方没找到文档...
+
+— 2026-02-11 —
+
+Erasei: 区块链开发者，专注构建智能合约、DeFi 系统和去中心化应用生态。用代码构建信任，用技术驱动下一代互联网。
+
+Alex: @TONSupportDeskBot 如何使用 JavaScript 在 TON 网络上发起转账？
+
+TON Support: 要在 TON 网络上使用 JavaScript 发起转账，你可以使用 TON Connect JS SDK，例如 @tonconnect/ui-react 或 @tonconnect/ui。  你需要使用 sendTransaction 函数，该函数需要一个包含消息详情（如接收方地址和以 nanotons 为单位的金额）的交易对象。  以下是一个使用 @tonconnect/ui-react 发起 TON 转账的示例：  import { useTonConnectUI } from '@tonconnect/ui-react';  export const Settings = () => {   const [tonConnectUI] = useTonConnectUI();    const transaction = {     validUntil: Math.floor(Date.now() / 1000) + 300, // 交易的有效时间     messages: [       {         address: tonConnectUI.account.address, // 发送方地址         amount: '200000000' // 0.2 TON (以 nanotons 为单位)       },       {         address: 'EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c', // 可反弹地址         amount: '100000000'       },       {         address: 'UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJKZ', // 不可反弹地址         amount: '100000000'       }     ]   };    return (     <div>       <button onClick={() => tonConnectUI.sendTransaction(transaction)}>         发送交易       </button>     </div>   ); };   请注意，在实际操作中，你需要在 manifestUrl 中配置你的应用程序，并连接钱包。  Source: TON transfer | The Open Network (reply to 113695)
+
+Rayan: 大家好，我们即将推出一个新项目，一个非常有趣的迷你应用。我正在寻找测试人员和社区管理员。如有兴趣，请与我联系。

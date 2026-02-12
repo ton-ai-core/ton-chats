@@ -10771,3 +10771,21 @@ Divine: Relax. Never claimed to be one. Only asked what the problem was. (reply 
 — 2026-02-11 —
 
 akki: resistance is futile bro anything that can happen  will eventually happen JUST ADAPT, leverage the change (reply to 174496)
+
+Rayan: Hello everyone, we will be launching a new project soon, a very interesting mini-application. I am looking for helpers for testers and for moderating the community. If anyone is interested, please contact me.
+
+None: And how do I calculate the TON that I will have to send from the service wallet to wallet «A» to pay for gas? (reply to 174405)
+
+TON Support: To calculate the TON needed for gas, you can use the getComputeFee function. This function takes hardcodedGasValue and isAccountInMasterchain as parameters and uses the GETGASFEE TVM opcode to convert gas units to Toncoin based on the current blockchain configuration.  Source: Estimate gas usage in TON contracts (reply to 174741)
+
+Sam: Send mode 128 sends all the remaining balance to the receiver.   The sender’s balance will be 0 after the transaction.  You should set 0 as a value when you send . TVM automatically calc the correct value and replace your zero with it (reply to 174741)
+
+Sam: Read about message send modes in the TON official documentation for details
+
+TON Support: Message send modes in TON define how messages behave, such as carrying a balance or handling processing results. The mode parameter consists of a base mode and a flag.  Common modes and flags include: - Mode 0: Ordinary message. - Mode 64: Carries all remaining value of the inbound message. - Mode 128: Carries the entire remaining balance of the current smart contract. - +1 Flag: Pays transfer fees separately from the message value. - +2 Flag: Ignores some errors during the action phase. - +16 Flag: Bounces the transaction on action failure (no effect if +2 is used).  Source: Sending messages | The Open Network (reply to 174749)
+
+Willy: If there will be smart contracts involved - dm me, I could test some locally/on testnet, just for fun (reply to 174737)
+
+— 2026-02-12 —
+
+Web3islands: Looking for team players (volunteer to start): Moderators / Community Managers / PR / Partners  •  enthusiastic helpers  virtual city game, hausing, mayoral voting..
