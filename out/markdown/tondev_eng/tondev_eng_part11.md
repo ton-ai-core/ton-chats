@@ -10789,3 +10789,45 @@ Willy: If there will be smart contracts involved - dm me, I could test some loca
 — 2026-02-12 —
 
 Web3islands: Looking for team players (volunteer to start): Moderators / Community Managers / PR / Partners  •  enthusiastic helpers  virtual city game, hausing, mayoral voting..
+
+Sam: I’m just watching the stream in Ton community channel . I see that TON foundation goes towards simplicity TON for non-blockchain developers. They are supposed to create TON smart contracts without diving deeper into blockchain technology. Vibe coding . In my opinion it’s going to work only for mini games
+
+Sam: We’ll look at  AppKit. Announcements are exiting !
+
+Slava: Vibe coding and smart contracts is probably a recipe for disaster...
+
+Sam: As I said in one of my messages here , using AI for smart contracts doesn’t make sense because of probability to loose funds due to possible bugs
+
+Sam: It will work only for not expensive NFTs like in games
+
+Slava: There is nothing wrong in using LLMs for productivity or code review, as long as you fully understand and vet the output.
+
+Sam: I agree. It's a great tool for routine. It's better than hire jun dev . But it's different here (reply to 174879)
+
+Alina: > Consequent external message allowed: liteservers now accept external messages with seqno higher than seqno in last commited state  How does a node know the order in which to put the transactions in?
+
+TON Support: Each account state can be interpreted as a separate blockchain, and transactions follow a strict order defined by the prev_trans_hash field. Additionally, transactions include a logical timestamp (lt) that strictly increases with every new transaction for an account.  Source: Overview - TON Docs (reply to 174882)
+
+TON Support: Each account state on TON is treated as a separate blockchain, and transactions within that account's blockchain are strictly ordered by the prev_trans_hash field. Additionally, every transaction carries a logical timestamp (lt) that increases with each new transaction for the account, further contributing to the ordering.  Source: Overview - TON Docs (reply to 174882)
+
+Sam: It’s up to smart contracts (reply to 174882)
+
+Sam: Nodes just validate transactions and collect then into blocks
+
+Alina: yes, blocks are created by nodes transactions are ordered in a block the ordering of transactions is decided by nodes (reply to 174886)
+
+Alina: if I send 2 external messages, one with seqno 60 and the other one with 61 is there's now a guarantee that the order of the transactions won't get mixed up with one of the transactions failling randomly?
+
+TON Support: Yes, when sending external messages with incrementing `seqno` values (like 60 and 61), there is a guarantee that the order of transactions will be maintained and that the same message won't be accepted again.  Here's why:  *   **`req-seqno` and `cur-seqno`**: An external message is only accepted if its `req-seqno` (the sequence number included in the message) matches the smart contract's `cur-seqno` (the current sequence number stored in the contract's persistent data). *   **Incrementing `cur-seqno`**: After an external message is successfully processed, the `cur-seqno` in the smart contract is incremented by one. This ensures that the next external message must have the next expected `seqno` to be accepted. *   **Protection against replay attacks**: This mechanism prevents replay attacks, where an attacker might try to send the same external message multiple times.  Therefore, if your first message with `seqno` 60 is successfully processed, the contract's `cur-seqno` will become 61, allowing your second message with `seqno` 61 to be processed next. If the message with `seqno` 60 fails, the `cur-seqno` will not increment, and the message with `seqno` 61 will not be accepted until the `cur-seqno` is correctly updated.  Source: [External messages | The Open Network](https://docs.ton.org/v3/documentation/smart-contracts/message-management/external-messages/#:~:text=The%20simplest%20way,the%20stored%20messages.) (reply to 174888)
+
+Sam: Standard wallet smart contracts store a current seq no which means if the current seq no = 3, seq no = 4 will be discarded. If the message with seq no 61 comes first it will  be not processed (reply to 174888)
+
+.: My NFT (455 TON) is stuck on a custodial address due to a TG ban. Wallet support confirmed it's a TG system address. Who can I contact for manual asset recovery?
+
+&rey: No one except Wallet support can help you. Exercise appropriate caution in that admins never write first. (reply to 174892)
+
+&rey: A bit of magic (and parsing the externals to sort by seqno) I believe. I doubt it works with arbitrary contracts, only existing wallet types would be easier. (reply to 174882)
+
+— 2026-02-13 —
+
+Alina: They’re now using await in the C++ code, hooray

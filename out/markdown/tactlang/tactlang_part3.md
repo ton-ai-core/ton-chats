@@ -10289,3 +10289,11 @@ Lopez_: Hey Ton Tact’s I’m new here  Hoping to connect more with y’all
 ###fA: 😍😍😍
 
 Najah: Good morning all 🌼
+
+Алексей: Hello, I'm wondering where I can find an investor for my project. I've been in web development for over 12 years, and I have a lot of experience. I want to create my own dApp project, but I understand it's difficult to get off the ground. I'd also like to secure an investor so I can fund MVP development and an advertising campaign. But how do I do that?
+
+Алексей: and also integrate TON payment as a key internal element, in addition to other tokens. Perhaps there are those in the TON community who are willing to invest, or does the TON ecosystem itself have the funds for this?
+
+…: Where can I urgently sell the code image generator ai?
+
+Skye: Hi everyone 👋
