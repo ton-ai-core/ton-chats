@@ -2299,6 +2299,18 @@
       "file": "photos/photo_265.jpg",
       "width": 2560,
       "height": 1706
+    },
+    {
+      "id": 267,
+      "type": "message",
+      "date": "2026-02-13T13:04:48.000Z",
+      "date_unixtime": "1770987888",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🚀 $10,000 Fast Grants for Agent Tooling on TON\n\nNext Monday (23rd February), the AI developer community will select the best AI agent tooling built on TON and allocate $10,000 in total through fast grants.\n\nThis is a rapid round:\n– Lightweight review\n– Fast decisions\n– Quick payouts\n\nThe goal is simple: bootstrap experimentation and identify the strongest builders ahead of a much larger Agent Competition.\n\nWe’re looking for:\n– Agent SDKs & frameworks\n– On-chain agent infrastructure\n– Developer utilities for agent-driven applications\n– Agent to agent communications \n\nThe submission form, details, and evaluation criteria will be published next week.\n\nThis is a small, fast-check round designed to move quickly and fund early traction.",
+      "forwarded_from": "AI Dev Wall",
+      "forwarded_from_id": "channel3856221521",
+      "forwarded_date": "2026-02-12T18:54:27.000Z"
     }
   ]
 }

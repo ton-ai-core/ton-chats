@@ -10831,3 +10831,15 @@ Sam: Standard wallet smart contracts store a current seq no which means if the c
 — 2026-02-13 —
 
 Alina: They’re now using await in the C++ code, hooray
+
+Artur F: Where we can find investor for our startup in ton? Any ideas?
+
+Sam: Tonstarter (reply to 174913)
+
+Anthony: 🚀 $10,000 Fast Grants for Agent Tooling on TON  Next Monday (23rd February), the AI developer community will select the best AI agent tooling built on TON and allocate $10,000 in total through fast grants.  This is a rapid round: – Lightweight review – Fast decisions – Quick payouts  The goal is simple: bootstrap experimentation and identify the strongest builders ahead of a much larger Agent Competition.  We’re looking for: – Agent SDKs & frameworks – On-chain agent infrastructure – Developer utilities for agent-driven applications – Agent to agent communications   The submission form, details, and evaluation criteria will be published next week.  This is a small, fast-check round designed to move quickly and fund early traction. (forwarded from AI Dev Wall)
+
+Sonya: We are just learning to analyze the market with AI. (reply to 174918)
+
+Sam: Are you seriously going to promote creating smart contracts with AI ? (reply to 174918)
+
+Donald (Mt.Dew) Derosier | Crypto Fam Radio: Hi everybody. We're kicking off recruitment for our QA Team at NexoraAI, a leading DeFi platform from Finland.  The hourly rate is $80/hour.  Key tasks include: evaluating smart contracts, analyzing blockchain interactions, ensuring seamless decentralized features, collaborating on bug fixes, optimizing workflows, and ensuring security and quality standards with developers.  If you have strong experience and are interested in this opportunity, feel free to get in touch with me.
