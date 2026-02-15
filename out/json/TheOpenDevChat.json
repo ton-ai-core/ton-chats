@@ -14682,6 +14682,130 @@
       "from_id": "user8308074805",
       "text": "https://t.me/SB_767",
       "reply_to_message_id": 1643
+    },
+    {
+      "id": 1655,
+      "type": "message",
+      "date": "2026-02-14T11:00:55.000Z",
+      "date_unixtime": "1771066855",
+      "from": "Nikita Shulgin",
+      "from_id": "user280999781",
+      "text": "Важные новости бигтеха и мнения специалистов с профессионалами",
+      "reply_to_message_id": 1654
+    },
+    {
+      "id": 1656,
+      "type": "message",
+      "date": "2026-02-14T11:03:09.000Z",
+      "date_unixtime": "1771066989",
+      "from": "Vudi",
+      "from_id": "user218709297",
+      "text": "А что случилось?",
+      "reply_to_message_id": 1654
+    },
+    {
+      "id": 1657,
+      "type": "message",
+      "date": "2026-02-14T11:03:59.000Z",
+      "date_unixtime": "1771067039",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "nothing, of course",
+      "reply_to_message_id": 1656,
+      "media_type": "photo",
+      "file": "photos/photo_1657.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": 1658,
+      "type": "message",
+      "date": "2026-02-14T11:05:06.000Z",
+      "date_unixtime": "1771067106",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Про тебя все известно, ты бы про Base почитал",
+      "reply_to_message_id": 1656
+    },
+    {
+      "id": 1660,
+      "type": "message",
+      "date": "2026-02-14T11:13:33.000Z",
+      "date_unixtime": "1771067613",
+      "from": "рулет",
+      "from_id": "user443948849",
+      "text": "из плохого только ваш комментарий",
+      "reply_to_message_id": 1656
+    },
+    {
+      "id": 1661,
+      "type": "message",
+      "date": "2026-02-14T11:38:29.000Z",
+      "date_unixtime": "1771069109",
+      "from": "Robert",
+      "from_id": "user325349282",
+      "text": "Пишите дальше про блокчейн, смарт-контракты, но не обязательно концентрироваться на тоне. Был бы рад еще слышать про безопасность смарт-контрактов.\nОчень интересно читать ваши глубокие технические объяснения сложных вещей.",
+      "reply_to_message_id": 1654
+    },
+    {
+      "id": 1662,
+      "type": "message",
+      "date": "2026-02-14T11:47:19.000Z",
+      "date_unixtime": "1771069639",
+      "from": "Andrey",
+      "from_id": "user94184115",
+      "text": "А че не нравится? Пашок скамит, детей своих воспитывает также. Вы что, не мошенники? А что вы тут тогда делаете?",
+      "reply_to_message_id": 1654
+    },
+    {
+      "id": 1663,
+      "type": "message",
+      "date": "2026-02-14T11:51:18.000Z",
+      "date_unixtime": "1771069878",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Мы здесь никакую риторику не поддерживаем, затрагиваем исключительно технические вопросы.",
+      "reply_to_message_id": 1662
+    },
+    {
+      "id": 1664,
+      "type": "message",
+      "date": "2026-02-14T11:52:58.000Z",
+      "date_unixtime": "1771069978",
+      "from": "Müxā⁸⁴",
+      "from_id": "user154347548",
+      "text": "Вайбкодинг на TON с применем различных агентов и систем, а-ля мы можем так же как в эфире, но намного проще)",
+      "reply_to_message_id": 1654
+    },
+    {
+      "id": 1665,
+      "type": "message",
+      "date": "2026-02-14T11:53:16.000Z",
+      "date_unixtime": "1771069996",
+      "from": "Лёша",
+      "from_id": "user74332510",
+      "text": "Поддерживаю, пишите дальше ❤️",
+      "reply_to_message_id": 1661
+    },
+    {
+      "id": 1666,
+      "type": "message",
+      "date": "2026-02-14T12:06:43.000Z",
+      "date_unixtime": "1771070803",
+      "from": "Kit",
+      "from_id": "user185664338",
+      "text": "Как настроить Пркси в Тг? - и дальше делать вид что ничего не случилось.",
+      "reply_to_message_id": 1654
+    },
+    {
+      "id": 1667,
+      "type": "message",
+      "date": "2026-02-14T12:09:03.000Z",
+      "date_unixtime": "1771070943",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Подобных гайдов тут не будет",
+      "reply_to_message_id": 1666
     }
   ]
 }

@@ -12165,3 +12165,5 @@ Anthony: 🚀 $10,000 Fast Grants for Agent Tooling on TON  Next Monday (23rd Fe
 — 2026-02-14 —
 
 Onno Stienen | VeriPura | B-Organic Asia: Looking for 2 senior blockchain qa engineers for what its worth - salaries around 120k range   Thanks
+
+Николь: Куплю USDT, ищу надежный вариант обмена наличными.

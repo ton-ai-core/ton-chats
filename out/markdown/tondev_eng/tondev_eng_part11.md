@@ -10843,3 +10843,133 @@ Sonya: We are just learning to analyze the market with AI. (reply to 174918)
 Sam: Are you seriously going to promote creating smart contracts with AI ? (reply to 174918)
 
 Donald (Mt.Dew) Derosier | Crypto Fam Radio: Hi everybody. We're kicking off recruitment for our QA Team at NexoraAI, a leading DeFi platform from Finland.  The hourly rate is $80/hour.  Key tasks include: evaluating smart contracts, analyzing blockchain interactions, ensuring seamless decentralized features, collaborating on bug fixes, optimizing workflows, and ensuring security and quality standards with developers.  If you have strong experience and are interested in this opportunity, feel free to get in touch with me.
+
+— 2026-02-14 —
+
+Anthony: How do you get to this point? :) (reply to 174930)
+
+Sam: It seems to me that AppKit contains tools to create smart contracts without diving deeper into TON blockchain . So any frontend developer who are able to create a Telegram mini app is able to create a smart contract. I applied to get early access to AppKit but didn’t get it. As I think because you are now mostly focus  on mini games developers.  That makes sense . I think you are going to use AppKit now for game dev . It’s safely (reply to 174938)
+
+Sam: On the other hand we see vibe coding trend and you are going to attract AI agent devs
+
+Sam: In my opinion even Tolk Lang goes towards declarative style
+
+Sam: Which is better appropriate for vibe coding
+
+Sam: I’m probably mistaken but it seems like I described
+
+Emin: you’re making it sound like vibe coding is a bad thing LOL
+
+Sam: No , I like it. It’s more efficient. (reply to 174945)
+
+Sam: I’m just trying to get information faster to adapt 😂
+
+Sam: I like the way TON goes to the future . But to stay ahead on the game I should be sensitive to all changes and adapt to them to not get obsolete
+
+Sam: That’s it
+
+Emin: well duh, ton IS the future
+
+Code: guys what is appkit? I got an email, got rejected for beta, but have no idea what it actually is
+
+Sam: I don’t know exactly but as I understood from the stream it’s a kit of tools to simplify development process on TON (reply to 174951)
+
+Sam: Whatever it might be
+
+Sam: We’ll see
+
+Emin: i mean the core is just sending and reading messages. probably just a simplification of that
+
+Sam: Ton blockchain complexity scares newcomers
+
+Sam: To keep them they developed AppKit
+
+Emin: honestly, makes sense. tons chain is quite unique
+
+Code: yes (reply to 174957)
+
+Code: i cried when i first started (im still crying tbh)
+
+Code: even basic things like addresses were not designed with users in mind
+
+Code: they arent readable at all
+
+Sam: To start developing even simple smart contracts you have to learn a lot
+
+Code: cant even copy paste them due to - and _
+
+Code: and they all start with the same characters so you cant read any explorers
+
+Emin: it took me, an existing sr swe, like 3 months to understand (reply to 174964)
+
+Sam: The same (reply to 174967)
+
+Emin: and i still didnt dive into the sharding aspect
+
+Sam: I spend a lot of time just to understand how it works
+
+Code: i have developed on SOL/EVM/BTC
+
+Code: TVM was by FAR the worst
+
+Code: like 10x worse
+
+Sam: It’s not clear (reply to 174969)
+
+Code: only reason we are here is because of the TON miniapp limitation
+
+Sam: I like TON thanks to its architecture
+
+Emin: its quite fast tho cant lie
+
+Sam: Asynchrony messaging
+
+Sam: But
+
+Emin: also the deterministic addresses becomes quite useful
+
+Sam: I think being a validator is not profitable
+
+Sam: I think most validators belong to TON foundation
+
+Sam: They designed to have a lot of transactions to get rewarded well
+
+Anthony: Actually, AppKit is more about integration with blockchain: payments, wallet management, gas station, DeFi protocols, etc. No need to reinvent the wheel to implement the best UX. (reply to 174939)
+
+Sam: So ton/mcp is the part of it ?
+
+Sam: Or the whole ))
+
+Anthony: Ton/mcp, for now, is more about how agents can interact with the blockchain and protocols.
+
+Anthony: AppKit is not yet released
+
+Sam: Ok , we’re awaiting ))
+
+Code: gas station like sponsored TXs? that would be huge  how about TX confirmation? I think this is kinda unfriendly on TON (reply to 174984)
+
+Code: I am currently doing gas sponsorship via tonAPI but its not smoothest
+
+Anthony: Everything :) (reply to 174990)
+
+Code: LETS GO (reply to 174992)
+
+Anthony: There are also some ideas on top of that
+
+Code: wen release est.? (so i can plan to refactor my app lol)
+
+Sam: If you are going to onboard at least 30% of Telegram users into TON by 2028, of course you need to make TON easier for frontend developers who creates mini-apps mostly. I would suggest to simplify creating transactions and getting their status as well as ways to filter transaction history. It's really inconvenient to get transaction history from toncenter api (reply to 174994)
+
+Sam: I needed to create a backend just to hide my toncenter  api key .If you find a way to somehow associate a mini-app with toncenter api or similar that would be great
+
+Ludi 🔶 | Saakuru Labs: Looking for 2 senior blockchain qa engineers for what its worth - salaries around 120k range   Thanks
+
+Emin: quick question, hypothetically lets say the dollar amount per TON does a 10x, does that mean gas prices also 10x (dollar wise)?
+
+TON Support: The price of contract execution on TON is fixed in gas units. However, the price of gas itself is determined by the blockchain configuration. The conversion of gas to Toncoin can be performed on-chain using the currently set blockchain configuration parameters.  Source: Estimate gas usage in TON contracts (reply to 175009)
+
+Emin: got it, so lower prices=more economic incentive to dapp users (reply to 175009)
+
+0x07f082: Does ctos instruction load merkle update and merkle proof cell types
+
+TON Support: The CTOS instruction loads a cell by its metadata and provides a Slice for reading its content. However, it does not automatically dereference library cells. Merkle proof and Merkle update are types of exotic cells. To explicitly dereference cells that might contain library references (which could be part of Merkle proofs or updates), you would need to use XLOAD or XCTOS.  Source: Builders and Slices - TON Docs, Library references - TON Docs, Cells - TON Docs (reply to 175014)
