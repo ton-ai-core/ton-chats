@@ -10973,3 +10973,59 @@ Emin: got it, so lower prices=more economic incentive to dapp users (reply to 17
 0x07f082: Does ctos instruction load merkle update and merkle proof cell types
 
 TON Support: The CTOS instruction loads a cell by its metadata and provides a Slice for reading its content. However, it does not automatically dereference library cells. Merkle proof and Merkle update are types of exotic cells. To explicitly dereference cells that might contain library references (which could be part of Merkle proofs or updates), you would need to use XLOAD or XCTOS.  Source: Builders and Slices - TON Docs, Library references - TON Docs, Cells - TON Docs (reply to 175014)
+
+— 2026-02-15 —
+
+ArAsH: Hey Guys has anyone got this error in the tonapi-sdk-js package? {"level":"error","time":"2026-02-15T12:04:56.216Z","data":{"message":"Cannot read properties of undefined (reading 'v2-mainnet')","name":"TypeError","stack":"TypeError: Cannot read properties of undefined (reading 'v2-mainnet')\n    at Nodes.getHealthyFor (/home/arash/chance-app-api/node_modules/.pnpm/@orbs-network+ton-access@2.3.3/node_modules/@orbs-network/ton-access/src/nodes.ts:71:47)\n    at Access.buildUrls (/home/arash/chance-app-api/node_modules/.pnpm/@orbs-network+ton-access@2.3.3/node_modules/@orbs-network/ton-access/src/index.ts:81:35)\n    at /home/arash/chance-app-api/node_modules/.pnpm/@orbs-network+ton-access@2.3.3/node_modules/@orbs-network/ton-access/src/index.ts:113:22\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/arash/chance-app-api/node_modules/.pnpm/@orbs-network+ton-access@2.3.3/node_modules/@orbs-network/ton-access/lib/index.js:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"}}
+
+ArAsH: it just doesn't connect now
+
+ArAsH: our production was working until we deployed a new version of our api and it initialized a new connection to the ton on api startup at from that moment its not working!
+
+ArAsH: found the solution: mainnet v2 went down we need to use mainnet v4
+
+Sam: That’s weird (reply to 175037)
+
+ArAsH: yeah it seems this wasn't the fix (reply to 175039)
+
+ArAsH: im still stuck
+
+ArAsH: the problem is definetly related to the orbs/ton-access
+
+ArAsH: {"level":"error","time":"2026-02-15T12:51:37.756Z","data":{"message":"exception in fetch(https://ton.access.orbs.network/mngr/nodes?npm_version=2.3.3): TypeError: fetch failed","name":"Error","stack":"Error: exception in fetch(https://ton.access.orbs.network/mngr/nodes?npm_version=2.3.3): TypeError: fetch failed\n    at Nodes.<anonymous> (/home/arash/chance-app-api/node_modules/.pnpm/@orbs-network+ton-access@2.3.3/node_modules/@orbs-network/ton-access/src/nodes.ts:54:13)\n    at Generator.throw (<anonymous>)\n    at rejected (/home/arash/chance-app-api/node_modules/.pnpm/@orbs-network+ton-access@2.3.3/node_modules/@orbs-network/ton-access/lib/nodes.js:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"}}
+
+ArAsH: i switched to TonClient4
+
+Sam: What library do you use ?
+
+ArAsH: now i'm getting this error
+
+ArAsH: import { getHttpV4Endpoint } from "@orbs-network/ton-access"; import { TonClient4, WalletContractV4 } from "@ton/ton"; import { Api, HttpClient } from "tonapi-sdk-js"; (reply to 175046)
+
+ArAsH: these three
+
+Sam: import { TonClient } from "@ton/ton"; import { tonConfig } from "../config"; import Bottleneck from "bottleneck";  let tonClient: TonClient | null = null;  // Create a limiter: 20 requests per second, sequential execution const limiter = new Bottleneck({   reservoir: 20,   reservoirRefreshAmount: 20,   reservoirRefreshInterval: 1000,   maxConcurrent: 1 });  // A helper that schedules TON calls through limiter export const limited = <T>(fn: () => Promise<T>): Promise<T> => {   return limiter.schedule(fn); };  export const getTonClient = (): TonClient => {   if (tonClient) return tonClient;    tonClient = new TonClient({     endpoint: tonConfig.tonCenterEndpoint,     apiKey: tonConfig.tonCenterApiKey,   });    return tonClient;
+
+Sam: That works for me (reply to 175051)
+
+akki: shareLink (reply to 174361)
+
+Freddy / WEB3Madras: sure (reply to 175071)
+
+Freddy / WEB3Madras: https://github.com/kunaldhongade/ton-mcp (reply to 175071)
+
+Emin: yeah orbs wasnt working yesterday. switched to toncenter (reply to 175049)
+
+ArAsH: Its still not working. We may ditch TON as our blockchain platform completely. So many issues... (reply to 175076)
+
+Emin: they need to lock in fr (reply to 175077)
+
+Kimmo: Does anybody know the current size of the full TON _archive_ node?
+
+TON Support: An archive node needs about 12 TB of disk space to store the complete block history. In contrast, full and validator nodes require approximately 1 TB of disk space.  Source: Overview - TON Docs, Blockchain nodes overview - TON Docs (reply to 175081)
+
+— 2026-02-16 —
+
+TON Bounty Bridge: ​d09d74ab06907e1041d5e97b78c2cd60320ab254  Created by MazepaDeni
+
+Xiao: I'm running a single nomination pool validator, and the yield has recently dropped to 2%, down from 4%. I upgraded the node to the latest version the day before yesterday. Will this have any impact?
