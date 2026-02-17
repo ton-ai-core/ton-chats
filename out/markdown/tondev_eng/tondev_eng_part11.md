@@ -11029,3 +11029,53 @@ TON Support: An archive node needs about 12 TB of disk space to store the comple
 TON Bounty Bridge: ​d09d74ab06907e1041d5e97b78c2cd60320ab254  Created by MazepaDeni
 
 Xiao: I'm running a single nomination pool validator, and the yield has recently dropped to 2%, down from 4%. I upgraded the node to the latest version the day before yesterday. Will this have any impact?
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 20  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+Code: Is there an easy/economic way to subscribe to TON/Jetton balances for an address?   (The use case im trying to solve is to make user's balance in my app update in real time)  (I also dont want to run my own full indexing solution)
+
+TON Support: You can monitor Jetton balances by polling them at regular intervals to get fresh data. Jetton balances are stored in individual Jetton wallet contracts. You can get the current Jetton balance by providing the address of the Jetton master contract or by querying a TON wallet. For continuous monitoring for UI display, similar to Toncoin balance checks, discrete one-off checks have limited value on their own.  Source: How to work with Jettons using WalletKit on the Web platform - TON Docs (reply to 175099)
+
+Code: id really reather not poll
+
+Елизавета: Hi! My message keeps getting removed when I post it here. Are there any moderation rules or filters I should be aware of? I’m not sharing links - could there be a character limit or certain keywords that trigger auto-delete?
+
+TON Support: Telegram Mini Apps (TMAs) are web applications that run within the Telegram messenger, built using HTML, CSS, and JavaScript. The Telegram Mini Apps Analytics SDK is a powerful SDK and API that enables your mini-application to become a rich source of actionable data.  To use the Telegram Mini Apps Analytics SDK, you need to initialize it in your code. This requires a unique access token and analytics identifier, which you can obtain by registering your project on TON Builders and navigating to the Analytics tab.  There are two main ways to install the SDK:    Via script tag (CDN): Include the script in the header of your HTML document.    Via NPM package: Install using npm install @telegram-apps/analytics.  After initialization, the SDK tracks events, with 99% of them being tracked automatically. Events from TON Connect will only be sent if @tonconnect/ui-react@2.0.3, @tonconnect/ui@2.0.3, or @tonconnect/sdk@3.0.3 and higher versions are used.  Source: Installation via script tag - TON Docs, Telegram analytics - TON Docs, Preparations - TON Docs, Overview - TON Docs, Installation via NPM package - TON Docs
+
+Елизавета: Hi everyone, could you please help with a couple of questions about Telegram Mini Apps Analytics SDK?  GDPR / EU compliance We’re concerned about GDPR compliance. Right now it’s unclear how to do this properly with the SDK:  - what’s the recommended GDPR flow (consent before init?) - what data is collected / where it’s sent (any official spec?) - how to ensure zero tracking when consent is declined  Any real-world experience is highly appreciated - we want to implement this correctly and avoid compliance risks. If you know the answer to any of these questions, I’d be very grateful for your help!
+
+Sam: Hi Liza ,  Why don’t you just look at popular DeFi projects? (reply to 175108)
+
+Sam: You could read their privacy policies
+
+Sam: You can subscribe to new blocks (reply to 175099)
+
+Sam: And look for transactions related to the account in the block
+
+Sam: I can’t put the link here. There’s the repository in GitHub where I saw the approach
+
+Sam: In the official TON documentation look for “payment processing” section
+
+TON Support: Payment processing on TON involves monitoring and handling blockchain transactions for business applications. It can be done on-chain using smart contracts for simple cases, or off-chain for more complex needs like tracking deposits and managing user balances.  Source: Payment processing overview - TON Docs (reply to 175114)
+
+Slava: 17,165.74 GB without compression. (reply to 175081)
+
+Kimmo: Thanks! (reply to 175117)
+
+— 2026-02-17 —
+
+Abo rabie: I own a Telegram web bot and I want to create an automatic withdrawal feature for a currency, so that anyone who withdraws receives the withdrawal immediately from the wallet. Can I know the steps?
+
+TON Support: To create an automatic withdrawal feature for your Telegram web bot, you'll need to follow these steps:  1.  Set up a hot wallet: Deploy a wallet contract. For high-volume withdrawals, consider using a Highload Wallet v3, or for lower volume, Wallet v5. Fund this wallet with the currency you intend to send. 2.  Get a TON API key: Obtain an API key from TON Center or another API provider to programmatically interact with the blockchain. 3.  Build the withdrawal logic: When a user requests a withdrawal, your backend will need to sign and send a transfer transaction from your hot wallet to the user's address.     *   For Toncoin, this involves a simple value transfer.     *   For Jettons, you'll send a `transfer` message to your jetton wallet contract with `forward_ton_amount > 0`. 4.  Monitor transaction status: Track the transaction hash/lt to confirm its inclusion in a masterchain block, which typically takes about 5 seconds for finality. 5.  Security: Implement measures such as validating user addresses, enforcing withdrawal limits, and protecting your wallet's private key.  For more detailed information, you can refer to the following documentation:  *   [Payment processing overview](https://docs.ton.org/payments/overview) *   [Toncoin payments processing](https://docs.ton.org/payments/toncoin) *   [Jettons payments processing](https://docs.ton.org/payments/jettons) (reply to 175132)
+
+Abo rabie: Is there a more precise description? (reply to 175133)
+
+Abo rabie: I only need the payment execution to users to be automatic — whenever anyone withdraws, the balance should be sent to them instantly.  Is there any assistance available?
+
+TON Support: Yes, the previously mentioned steps describe how to automate payment execution for withdrawals. The core idea for instant payments is the use of TON Payments, a platform that enables transfers without needing to commit all transactions to the blockchain. This protocol is built on top of the TON Blockchain using a system of smart contracts and point-to-point payment channels.  Here's a recap of how this enables automatic and instant withdrawals:  1.  Hot Wallet: Your bot will use a hot wallet (like a Highload Wallet v3 for efficiency) to automatically send the funds. 2.  TON API Key: An API key allows your bot to programmatically interact with the blockchain to initiate transfers as soon as a withdrawal request is made. 3.  Withdrawal Logic: Your backend code will automatically sign and send a transfer transaction from your hot wallet to the user's address. 4.  Instant Finality: TON achieves transaction finality after a single masterchain block confirmation, typically within 5 seconds. This means once your bot initiates the transfer, the user will receive it almost instantly. Your bot would monitor for this masterchain finality to confirm the withdrawal.  For further details, you can refer to the Payment processing overview and the documentation on Web3 services which includes information on TON Payments. (reply to 175136)
+
+Abo rabie: Steps (reply to 175137)
+
+Emin: has anyone ever dealt with this?
+
+Emin: changing python user agent solved above^
