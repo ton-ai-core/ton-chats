@@ -11079,3 +11079,43 @@ Abo rabie: Steps (reply to 175137)
 Emin: has anyone ever dealt with this?
 
 Emin: changing python user agent solved above^
+
+Yulia: Hi everyone, Is dyor.io the only way for us to get the price of any token? Are there any other alternatives?  TonAPI doesn’t return prices for some tokens.
+
+Mirka: https://docs.ton.org/ecosystem/api/price (reply to 175152)
+
+&rey: Adding to that previous answer, some jettons are not even intended to have a price. (reply to 175152)
+
+Teemu | 機器人🪽: What the easiest way to compile func?
+
+TON Support: The easiest way to compile FunC code is by using Blueprint. Blueprint installs tolk-js, which contains necessary standard library files.  To compile a contract named FirstContract, you can use the command: npx blueprint build FirstContract   This command should output: Build script running, compiling FirstContract 🔧 Using tolk version 1.1.0... ✅ Compiled successfully!   Blueprint also provides a TypeScript API for compiling contracts. You can use the compile function from @ton/blueprint to compile a contract programmatically: import { compile } from '@ton/blueprint';  async function main() {   const codeCell = await compile('Contract');   console.log('Compiled code BoC:', codeCell.toBoc().toString('base64')); }   This compile function takes the name of the contract to compile (which should correspond to a file named <name>.compile.ts) and optional CompileOpts.  Source: Blueprint TypeScript API, Your first smart contract (reply to 175155)
+
+Sam: From DEX (reply to 175152)
+
+Yulia: I found only stonfi api, are there more dexes with api? (reply to 175157)
+
+Mirka: dedust, tonco, I'm sure you can easily find public API of any dex. Also you can just run get methods of their sc, but that's more complicated way (reply to 175158)
+
+Tharun Tej: New api is added in gift marketplaces we can see in core. Telegram. Org. Can any one explain me the use of it.
+
+Abo rabie: I own a Telegram wallet and a Tom Keeper wallet. Which one is easier for you to help me with so that I can complete the setup and make withdrawals from my private Bitweb instant—so that whenever a user withdraws, the funds reach them immediately?
+
+Tharun Tej: I have tried this before. Mnemonics of TON keeper won't work outside that app. You need to deploy your own wallet to make it work everywhere I guess. (reply to 175166)
+
+Sam: Maybe you are using different versions of a wallet contract (reply to 175168)
+
+Tharun Tej: No, I even saw in tonviewer. The contracts are of the same version. Tonkeeper mnemonics are not supported in mytonwallet. (reply to 175169)
+
+Sam: If you are using the same version of a wallet smart contract but get diff addresses, the only reason is subwallet_id difference (reply to 175170)
+
+Sam: Try using tunhub wallet
+
+&rey: On what wallet version and network? (reply to 175170)
+
+☯️ LEX | ALPHA DAO: Hey everyone 👋  I’m Lewis, part of the team building AlphaDAO.  We’re currently developing AlphaDAO Academy as a TON-native skill layer, focused on structured learning, real deliverables, and eventually verifiable proof of skill on-chain.  The idea is simple:  • Train builders within the TON ecosystem • Structure practical learning paths (not theory-heavy courses) • Connect skill → contribution → on-chain verification  We’re still early and refining the model, so I’d genuinely appreciate feedback from TON devs here.  If you’re building on TON (or know startup founders who are), I’d love to understand:  – What skills are actually in demand?  – Where new builders struggle most?  – What would make an on-chain skill verification layer useful to you?  Not here to spam, just here to learn, align, and build something useful for the ecosystem. Open to DMs or replies 🙌
+
+— 2026-02-18 —
+
+Alex: We wanted to share a quick update on the improvements we've been making to our TON Support bot based on your feedback.  What's Changed: • Smarter intent recognition: the bot now better understands when questions are relevant to TON and avoids responding to off-topic discussions • Improving answer quality: we tested and refined our response engine to deliver more accurate and helpful information from our documentation • Analytics foundation: we're tracking which topics get the most questions and the questions that the bot cannot answer to in order to identify and fill documentation gaps  What's Next: • Improved Context Awareness: we're working on the conversation continuity feature, so the bot remembers your recent questions and provides more relevant follow-up answers  Your feedback, reactions, and interactions with the bot are invaluable. Every 👍👎 and comment helps us make it better. If you notice anything that could be improved or have suggestions, please keep letting us know – we're listening and actively iterating.   Thank You!🤑
+
+Code: i dont think ive ever seen the bot be useful (reply to 175196)
