@@ -2311,6 +2311,19 @@
       "forwarded_from": "AI Dev Wall",
       "forwarded_from_id": "channel3856221521",
       "forwarded_date": "2026-02-12T18:54:27.000Z"
+    },
+    {
+      "id": 269,
+      "type": "message",
+      "date": "2026-02-19T13:23:28.000Z",
+      "date_unixtime": "1771507408",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "💎 AppKit | Alpha Announcement\n\nTON is the blockchain built into Telegram. Apps built on TON can reach Telegram's billion+ users directly.\n\nUntil now, every team had to build wallet connections, transaction handling, and DeFi integrations from scratch. Weeks of work before a single line of product code.\n\nToday we're announcing AppKit alpha to change that.\n\nWhat's live now: \n▪️ Wallet management and transaction sending \n▪️ DeFi integration (swaps, staking) \n▪️ TON Connect support \n▪️ TypeScript and React support \n▪️ LLM-friendly (describe an app, build a prototype in minutes)\n\nWalletKit is also production-ready for wallet developers on iOS, Android, React Native, and Web.\nMore features coming at Gateway (May 1-2).\n\n👉Read more\n\nTribute Tickets | Gateway | TON Community | TON Builders | TON Hubs |X | YouTube | LinkedIn |TON.org",
+      "media_type": "photo",
+      "file": "photos/photo_269.jpg",
+      "width": 2160,
+      "height": 2160
     }
   ]
 }

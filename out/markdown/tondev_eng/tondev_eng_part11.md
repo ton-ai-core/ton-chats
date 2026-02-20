@@ -11123,3 +11123,75 @@ Code: i dont think ive ever seen the bot be useful (reply to 175196)
 testertesterov: Hello  How do I submit a project to ai_dev_wall?
 
 TON Support: To submit a project, first create a project and obtain a Deploy Token from the bot. Then, install @telegram-apps/mate using npm i -D @telegram-apps/mate or npm i -g @telegram-apps/mate. Finally, deploy your project using the command mate deploy upload --dir dist --token {TOKEN} --project {PROJECT}. Source: Getting started - TON Docs, Hosting - TON Docs (reply to 175226)
+
+— 2026-02-19 —
+
+testertesterov: Hello everyone :)  Could you please tell me what the issue might be? I specified a mainnet wallet address in the test network, but the transaction went through to test network addresses.
+
+TON Support: If you specified a mainnet wallet address in the test network, the transaction would go to test network addresses because accounts only exist in their corresponding networks. It is possible to accidentally transfer funds to a testnet wallet address on the mainnet, and these funds would be unrecoverable.  Source: Tonkeeper - TON Docs, wallet.ton.org - TON Docs, How to interact with wallet - TON Docs (reply to 175276)
+
+akki: this is my topUp msg  struct (0xd372158c) TopUpTons {}  I'm sending this body: beginCell().storeUint(Op.top_up, 32).endCell(),  it throws cell overflow (8) why?
+
+TON Support: A "Cell overflow" error (exit code 8) indicates that you're trying to store more than 1023 bits of data or more than four references to other cells in a single cell. This limit applies whether you're manually constructing cells or using structs.  In your specific example, beginCell().storeUint(Op.top_up, 32).endCell(), you are attempting to store an unsigned integer Op.top_up with a bit length of 32 bits. If Op.top_up is defined as 0xd372158c, which is a 32-bit hexadecimal value, storing it with storeUint(Op.top_up, 32) should fit within the 1023-bit limit.  The issue might be related to how Op.top_up is being interpreted or if there are other implicit operations happening that are consuming more bits than expected. Double-check the exact value of Op.top_up and ensure that it is indeed a 32-bit unsigned integer.  If you need to store more data, you can use nested cells by referencing up to four other cells with storeRef().  Source: Exit codes - TON Docs, Cells - TON Docs%20%2F%2F%20Stores,256).storeUint(4%2C%20256).endCell())%20.) (reply to 175280)
+
+testertesterov: Will this be enough to get the work published in the ai_dev_wall channel? (reply to 175227)
+
+akki: yes  I checked  still overflows (reply to 175281)
+
+TON Support: The "Cell overflow" error (exit code 8) indicates that you're attempting to store more than 1023 bits of data or more than four references to other cells. Even if Op.top_up is a 32-bit value, there might be other factors contributing to the overflow.  Consider the following possibilities:     Implicit data being stored: Sometimes, the environment or the libraries you are using might add additional data to the cell without you explicitly calling `storeUint` or similar functions. This could be due to message headers, common fields, or internal logic of the smart contract framework.    Struct definition: If TopUpTons is part of a larger struct or message body, there might be other fields being serialized along with Op.top_up. Review the full definition of the message you are sending.    Variable-sized types: If any part of your message or struct contains variable-sized types (like `coins`, `int8?`, etc.), their actual size at runtime might be larger than you anticipate, potentially pushing the cell over the 1023-bit limit. The Tolk compiler issues a warning if a serializable struct may exceed 1023 bits due to variable-sized types.    References: While your example beginCell().storeUint(Op.top_up, 32).endCell() doesn't explicitly show references, if this cell is nested within another cell or if Op.top_up itself is a reference, it could contribute to the reference limit (four references per cell).  To debug this, you would need to inspect the size of the cell more precisely at different stages of its construction. Unfortunately, without more context about your full message structure and the exact environment you are using, it's hard to pinpoint the exact cause.  Source: Exit codes - TON Docs, Cells - TON Docs, Automatic serialization - TON Docs (reply to 175283)
+
+Sam: Even if you specify mainnet format address the transaction is processed in the network you specify regardless the address (reply to 175276)
+
+Sam: Maybe body is ok but the message itself is too big to fit into cell (reply to 175280)
+
+akki: like when I deploy minter using topUp and it contains stateinit? (reply to 175291)
+
+Sam: Yes
+
+Sam: You should check the message bits / refs
+
+akki: i think It should fit take a look https://github.com/ankitgahlyan/fossfi/blob/3ffc52bcfb11c1fc67cf3686431a128e8fd420e2/scripts/deployFossFi.ts#L31  at deployer function
+
+Sam: Internally an address consists only of 8-bit workchain Id (-1 is masterchain and 0 is basechain) and 256-bits account id which is the hash of data + code .  Testnet , bouncable and url safe flags are for a wallet app , just to prevent you from mistakes (reply to 175276)
+
+akki: can I set this readonly field nullable? https://github.com/ankitgahlyan/fossfi/blob/3ffc52bcfb11c1fc67cf3686431a128e8fd420e2/contracts/fossFi/storage.tolk#L79 (reply to 175296)
+
+&rey: What line of code throws cell overflow, actually? Could you share the error? (reply to 175280)
+
+akki: i use topUp msg to deploy and mint to deployer 1 token instead of mint msg deployment is success (contract is live but only minter not jetton which topUp supposed to do) but the same topUp that deploys fails with 8 And so are failing further topups (reply to 175307)
+
+&rey: Are you using the latest Tolk version? (reply to 175313)
+
+&rey: Structure FiWalletStore cannot be serialized, as it uses too many refs; those need to be rearranged so that each cell has at most 4 refs (i.e. `map`s and `cell`s).
+
+akki: tolkjs 1.2.0 (reply to 175314)
+
+akki: oh man  I added new timestamp field  now total cells r 5, Did It a week ago and forget, lemme check  why is contract compiled btw  Earlier it errored when I used more cells (reply to 175315)
+
+akki: cells need to b 4 iThink maps can be any number? I already had them before and deployed successfully (reply to 175315)
+
+akki: this was it thanks bro really (reply to 175315)
+
+&rey: No. While empty they take no references, and when you insert the first value you will get the unpleasant surprise that it does not fit. (reply to 175318)
+
+Anthony: cur
+
+Anthony: 💎 AppKit | Alpha Announcement  TON is the blockchain built into Telegram. Apps built on TON can reach Telegram's billion+ users directly.  Until now, every team had to build wallet connections, transaction handling, and DeFi integrations from scratch. Weeks of work before a single line of product code.  Today we're announcing AppKit alpha to change that.  What's live now:  ▪️ Wallet management and transaction sending  ▪️ DeFi integration (swaps, staking)  ▪️ TON Connect support  ▪️ TypeScript and React support  ▪️ LLM-friendly (describe an app, build a prototype in minutes)  WalletKit is also production-ready for wallet developers on iOS, Android, React Native, and Web. More features coming at Gateway (May 1-2).  👉Read more  Tribute Tickets | Gateway | TON Community | TON Builders | TON Hubs |X | YouTube | LinkedIn |TON.org (forwarded from TON Dev News)
+
+Sam: Seems like TON foundation and TON smart contract developers are living on different planets 😂
+
+Anthony: Between us. AppKit is just one of the big things. Soon, we will also talk about smart contract updates. (reply to 175330)
+
+Code: @tsivarev is this powered by Dynamic, or a solution from the TON team?
+
+Sam: I hope so 👍 (reply to 175331)
+
+Blackstreak: Hello All  A question on DApp. I’m almost in final phases, when we allow people to mine in DApp each and every country has their guidelines of Crypto. So should we follow those or give a disclaimer as such?  My DApp would initially allow users to mine something on a similar note to Notcoin. Post this we would be doing TGE,  launching our Utility app.
+
+Sam: I’d recommend just to look at similar dapps and adopt their experience (reply to 175337)
+
+Sam: Even if you cannot find ones on TON I’m sure that there are similar ones on other blockchains
+
+Blackstreak: Thanks mate!
+
+Anthony: Actually, there will be several options. One of them from the TON team, natively built for Telegram (reply to 175333)
