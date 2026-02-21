@@ -11195,3 +11195,75 @@ Sam: Even if you cannot find ones on TON I’m sure that there are similar ones 
 Blackstreak: Thanks mate!
 
 Anthony: Actually, there will be several options. One of them from the TON team, natively built for Telegram (reply to 175333)
+
+— 2026-02-20 —
+
+Sam: Could anyone explain what is T Language?
+
+TON Support: Tolk is a statically typed language designed for writing smart contracts on TON. It provides features like declarative data structures, automatic cell serialization, and primitives for handling messages. Tolk compiles to TVM (TON Virtual Machine) and gives developers direct control over execution. It is also a fork of FunC, which was previously the primary language for TON.  Source: Tolk language - TON Docs (reply to 175372)
+
+Sam: Not Tolk but T
+
+Sam: And stop removing my messages please. I don’t violate the rules
+
+Sam: Too much restrictions in the dev chat don’t follow with Telegram principles
+
+Code: its automatic by a bot, if you post certain links, or tag anything, boom ur gone (reply to 175375)
+
+Code: annoying as fuq and doesnt even stop spammers
+
+Sam: How developers can communicate without links
+
+TON Support: Developers can communicate through designated Telegram community channels such as the TON Developers chat for general questions and the TON Docs Club chat for questions related to TON documentation.  Source: How to contribute | The Open Network (reply to 175379)
+
+Code: most links are ok
+
+Code: u dont know which
+
+Code: oh yeah and no custom emojis lol
+
+Sam: Omg turn off this please 😂 (reply to 175380)
+
+Sam: Ok thanks (reply to 175384)
+
+Sam: The same question guys
+
+TON Support: Developers can communicate without links by joining community channels like Telegram folders with developer chats, or by using lists of skilled professionals and agencies.  Source: TON Connect overview (reply to 175387)
+
+Sam: I saw few times mentioning T language. It’s something new or shortcut for Tolk?
+
+z3db24z: i got my messages removed by telling TON code is shit and it got my node server crashed (reply to 175375)
+
+Sam: Yea I mean sometimes we need to provide links or screens to solve issues (reply to 175390)
+
+Sam: But we need to go beyond the chat do that
+
+Tim: don't want to interrupt you, but do you have technical questions about TON that you need help with? if it's about T language, there's no T language in TON
+
+Sam: If the true look at your last post on LinkedIn and fiz the typo then (reply to 175393)
+
+Sam: I take info from your official sources
+
+Tim: It's not my post, but I'll find someone to look at it (reply to 175394)
+
+Sam: I meant TON foundation’s post
+
+Sam: About 10 minutes ago
+
+Tim: Yes, I've found it (reply to 175397)
+
+Sam: Thanks (reply to 175399)
+
+Tim: Thank you for noticing (reply to 175400)
+
+Seva A.: Hello, thank you for the unban, you can check out our news and latest developments in the field of TON, TMA and Telegram on our GitHub, glad to see you guys again. Hope that won't be considered as spam.  https://github.com/HyperlinksSpace
+
+Sam: This chat is not fair. By guys!
+
+&rey: You're welcome to discuss how to develop on TON anytime. (reply to 175411)
+
+— 2026-02-21 —
+
+Emin: has anyone been experiencing testnet irregularities? sometimes when i transact it just hangs then the tx dissapears... if i try again sometimes it works
+
+Emin: okay now its just not working at all :’(
