@@ -11267,3 +11267,13 @@ Sam: This chat is not fair. By guys!
 Emin: has anyone been experiencing testnet irregularities? sometimes when i transact it just hangs then the tx dissapears... if i try again sometimes it works
 
 Emin: okay now its just not working at all :’(
+
+Mojisola🍅 🍅: it is the network of ur transaction that the ton or tx goes to, one address have different address depending on the network (reply to 175276)
+
+Majid: I had almost same issue with tonconsole testnet api (reply to 175436)
+
+Empty: Hi guys! Sorry, this might be slightly off-topic...   Has anyone dealt with the "Unfortunately, we couldn’t verify you" error on Fragment KYC?   I’ve successfully verified via Sumsub on Fragment before, but this time, despite high-quality photos, I kept getting retry requests until a final rejection. Is help@fragment.com the only way to try solve this?
+
+TON Support: I wasn't able to find any information in the TON documentation about Fragment's KYC verification process or the "Unfortunately, we couldn't verify you" error. Fragment is a separate platform with its own support channels, and TON Docs doesn't cover its KYC/Sumsub verification flow.  Yes, contacting help@fragment.com is likely your best option for resolving this issue, as it's Fragment's dedicated support channel. The TON documentation only briefly mentions Fragment in the context of TON DNS domains and usernames, not its verification processes.  For general TON ecosystem support, the Get support page lists various help channels, but none are specific to Fragment KYC issues. (reply to 175464)
+
+bloXpot: Heyo folks! Does anyone know if TON plans on introducing an option for true randomness? I realize there are workaround with its pseudo options now, just thought that I read somewhere that TON might develop something and can't find the source now. Tnx!
