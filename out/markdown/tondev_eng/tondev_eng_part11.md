@@ -11277,3 +11277,73 @@ Empty: Hi guys! Sorry, this might be slightly off-topic...   Has anyone dealt wi
 TON Support: I wasn't able to find any information in the TON documentation about Fragment's KYC verification process or the "Unfortunately, we couldn't verify you" error. Fragment is a separate platform with its own support channels, and TON Docs doesn't cover its KYC/Sumsub verification flow.  Yes, contacting help@fragment.com is likely your best option for resolving this issue, as it's Fragment's dedicated support channel. The TON documentation only briefly mentions Fragment in the context of TON DNS domains and usernames, not its verification processes.  For general TON ecosystem support, the Get support page lists various help channels, but none are specific to Fragment KYC issues. (reply to 175464)
 
 bloXpot: Heyo folks! Does anyone know if TON plans on introducing an option for true randomness? I realize there are workaround with its pseudo options now, just thought that I read somewhere that TON might develop something and can't find the source now. Tnx!
+
+— 2026-02-22 —
+
+Mojisola🍅 🍅: U should probably use external means for randomness. blockchain is not good at randomness (reply to 175471)
+
+bloXpot: True. It was easy to use for a quick MVP. Should I be able to get traction, I'll look into oracle and all that. Tnx!
+
+шари&вентура: Есть русские? Или только енг?
+
+Mirka: https://t.me/tondev (reply to 175492)
+
+Rutwik: What are rules of this chat?
+
+&rey: Here you are: https://telegra.ph/TON-Dev-Chat-Rules-English-12-03 (reply to 175505)
+
+Rutwik: Heyy actually i developed an app and am looking for Dev's or users who can give me feedbacks and guide me... Is this gc ok for it or i should look for another one.. (reply to 175506)
+
+Aman: what kind of app? (reply to 175507)
+
+Aman: maybe i can help you with ur errors and all
+
+Aman: ios app or android?
+
+&rey: A short description and source link. (reply to 175507)
+
+Rutwik: Like instagram+linkedin for specifically made for gamers where they can post achievements and gaming stuff.. add their gaming profiles, create teams, send trial invites to other players and playing with them once and rate based on experience and if that loved the experience they may connect... Teams can have team vs team challenges.. discover latest gaming news, players and top teams, chats fir teams and players also there are many small small features (reply to 175508)
+
+Rutwik: Android only currently (reply to 175510)
+
+Aman: wait lemme help you out
+
+Rutwik: Are you a gamer? (reply to 175514)
+
+Aman: i do app development for ios and reverse engineering (reply to 175515)
+
+Rutwik: Yk flutter? (reply to 175516)
+
+Rutwik: Even I can make for ios but app store charges are a bit high for initial deployment so I have deployed on playstore
+
+Aman: wait (reply to 175518)
+
+— 2026-02-23 —
+
+Seva A.: Good work those who do commits right now
+
+Aman: how are you boss (reply to 175530)
+
+Seva A.: Fine. How are you?
+
+Aman: fine too
+
+Aman: so how is ur work going on
+
+Aman: myself Aman  nice to meet u
+
+Seva A.: You can see on my GitHub, you can find the link on my website
+
+Aman: ok
+
+Aman: whats ur git ?
+
+Seva A.: This one (reply to 175407)
+
+Aman: noiceee
+
+Aman: where u from boss?
+
+Seva A.: Russia
+
+Nawal Maqdisi♥️♥️❤️❤️: Hello
