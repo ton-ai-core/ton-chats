@@ -11347,3 +11347,37 @@ Aman: where u from boss?
 Seva A.: Russia
 
 Nawal Maqdisi♥️♥️❤️❤️: Hello
+
+Amirreza: Hi there I'm a programmer and I'm interested into TON community. I'm researching about business models and most popular apps on telegram ecosystem and mini apps. Do you have any information about how make money from building apps on this eco?
+
+TON Bounty Bridge: 📊 Update Digest!  🔍 Active bounties: 9 ✅ Approved bounties: 0 🔄 Bounties seeking suggestions: 20  📣 We value your feedback! Join the community discussion and participate in shaping the future. Click the 'Create Your Own Bounty' button to get started.  Happy contributing!
+
+XAUHQ ADMIN: Hello, if a TON domain expires, how many days do you allow for reactivation? One of the domains expired 3 months ago, but I’m still not able to buy it.
+
+&rey: It is on someone who wants the domain to release it on auction; until this point, the previous owner can renew it whenever they want. (reply to 175582)
+
+&rey: An instruction at https://t.me/tondev_eng/152421 may be relevant.
+
+XAUHQ ADMIN: so life time without renewal they can keep
+
+Vincent: I tried to add an app on ton.app and it was rejected because there was insufficient information but they didn’t tell me what is missing. What can I do?
+
+Teemu | 機器人🪽: Well what info did you deliver? (reply to 175610)
+
+Vincent: I gave everything they asked me. The app should be there https://ton.app/games/chimera-forge?id=5246 (reply to 175611)
+
+AZİZİ: Hi Has tonconnect package for flatter?
+
+— 2026-02-24 —
+
+Emin: whos responsible for the testnet? it is practically unusable at this point
+
+TON Support: The TON Testnet is maintained by validators. Announcements and updates regarding the testnet are coordinated through the Telegram channel @testnetstatus. Validators who do not adhere to maintenance rules can face fines and exclusion from the network.  It's also worth noting that the testnet's configuration, availability, and throughput might differ from the mainnet. If you are experiencing issues with the testnet, the @testnetstatus Telegram channel is the recommended place to report them or track updates.  Source: Run a validator, Start here - Mainnet and testnet (reply to 175634)
+
+Emin: no one even alerted that the testnet has problems in that channel (reply to 175635)
+
+TON Support: The Testnet status channel provides key resources for getting started with Testnet. While it is the primary channel for testnet announcements, it may not specifically alert users about every problem. (reply to 175636)
+
+Emin: okay we’ll just keep guessing i guess (reply to 175637)
+
+TON Bounty Bridge: ​TonAudit AI — AI-Powered Smart Contract Security Auditor for FunC/Tact  Summary:An AI-powered security auditor for TON smart contracts (FunC and Tact), built with Claude AI. The to...  Created by ripgtxgt

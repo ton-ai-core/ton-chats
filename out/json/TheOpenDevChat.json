@@ -14806,6 +14806,16 @@
       "from_id": "channel2154553559",
       "text": "Подобных гайдов тут не будет",
       "reply_to_message_id": 1666
+    },
+    {
+      "id": 1676,
+      "type": "message",
+      "date": "2026-02-23T23:21:12.000Z",
+      "date_unixtime": "1771888872",
+      "from": "X",
+      "from_id": "user5230909287",
+      "text": "cocoon, устройство децентрализованных вычислений для инференса",
+      "reply_to_message_id": 1654
     }
   ]
 }
