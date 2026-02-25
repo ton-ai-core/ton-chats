@@ -12179,3 +12179,9 @@ pony: 什么是假u
 James: 嗨，  我们正在寻找开发人员，帮助我们改进和扩展客户的 NFT/区块链系统。该项目已获得资金支持，目前已上线运行，我们专注于提升系统性能并添加新功能。我们主要寻找具有 API、智能合约或加密货币/区块链系统经验的人才。  📆 12 个月合同 💸 月薪 7,000 美元至 9,000 美元（根据经验而定） 📍 工作地点：远程  招聘流程：  1. 短期测试项目 2. 与技术团队进行技术面试 3. 与 CEO 进行最终面试  如果您觉得这份工作适合您，请私信我，我会分享更多详情。
 
 Anthony: 💎 AppKit | Alpha Announcement  TON is the blockchain built into Telegram. Apps built on TON can reach Telegram's billion+ users directly.  Until now, every team had to build wallet connections, transaction handling, and DeFi integrations from scratch. Weeks of work before a single line of product code.  Today we're announcing AppKit alpha to change that.  What's live now:  ▪️ Wallet management and transaction sending  ▪️ DeFi integration (swaps, staking)  ▪️ TON Connect support  ▪️ TypeScript and React support  ▪️ LLM-friendly (describe an app, build a prototype in minutes)  WalletKit is also production-ready for wallet developers on iOS, Android, React Native, and Web. More features coming at Gateway (May 1-2).  👉Read more  Tribute Tickets | Gateway | TON Community | TON Builders | TON Hubs |X | YouTube | LinkedIn |TON.org (forwarded from TON Dev News)
+
+— 2026-02-24 —
+
+Ali osman: Ya at abi abi öpüyom
+
+好好 出汇旺: 888号码带4 零售2450u 五个以上2400u 出汇旺 0.11折  出各种海内外数据📊 需要的欢迎咨询

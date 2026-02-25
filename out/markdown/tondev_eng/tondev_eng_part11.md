@@ -11381,3 +11381,39 @@ TON Support: The Testnet status channel provides key resources for getting start
 Emin: okay we’ll just keep guessing i guess (reply to 175637)
 
 TON Bounty Bridge: ​TonAudit AI — AI-Powered Smart Contract Security Auditor for FunC/Tact  Summary:An AI-powered security auditor for TON smart contracts (FunC and Tact), built with Claude AI. The to...  Created by ripgtxgt
+
+Mirka: Do you use tonkeeper? (reply to 175634)
+
+Emin: yeah
+
+Mirka: Try MyTonWallet, tonkeeper has some problems with testnet right now.  Here's a discussion from ru chat: https://t.me/tondev/339762 (reply to 175661)
+
+Emin: damn, looks like im not alone. Exact same experience as them (reply to 175662)
+
+Emin: the good news is that when it does work, transaction time is basically under 1s. core devs probably cooking up some magic for us
+
+Tharun Tej: <1s only in testnet or in mainnet too? (reply to 175674)
+
+&rey: Not yet, might happen after the scheduled updates. (reply to 175699)
+
+Fardin: Hello Looks like the ton testnet is under attack and someone trying to pause the newtork with a bunch of spam transaction  I cant share the link but check this address by yourself kf8zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM_BP
+
+Fardin: This is very common issue in testnets and its why the other chains have faucet with difficult claim for it and very limited testnet coin payout
+
+&rey: As a matter of fact, its transactions happen to be one of the fundamental things of a TON chain.  It's testnet Elector, which is responsible for selecting and rewarding validators each block. In particular, at "Received TON    System" you see the newly minted TON. (reply to 175708)
+
+Fardin: Makes sense So its some internal issue? The transactions are keep failing even after 15 minutes (reply to 175710)
+
+&rey: Lost external messages can be resubmitted. Are you doing it programmatically or from a wallet (if so, using another might help)? (reply to 175711)
+
+Fardin: Its code (reply to 175712)
+
+Fardin: Trying to deploy some contracts directly via blueprint
+
+&rey: Do you see sendTransfer which you could modify?  I'd suggest to 1) set validUntil a bit shorter (20-40s), 2) if, after validUntil passed on the chain, your message was not submitted (i.e. wallet's seqno is still old one), then sign the transfer at the same seqno again, 3) repeat until complete. (reply to 175714)
+
+Fardin: Nope, Looks like I had to pause coding and have a rest until it becomes normal again ... https://testnet.tonviewer.com/transaction/3680a0ffdef114871625fe3fe66ad42de55a49fd42947d9dbed5a3883857f15d (reply to 175716)
+
+— 2026-02-25 —
+
+Stanislav: Hey everyone, is there a moderator for the Russian community, @tondev? I tried to join the group but didn't have time to click the button to agree to the rules.
