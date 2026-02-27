@@ -14816,6 +14816,56 @@
       "from_id": "user5230909287",
       "text": "cocoon, устройство децентрализованных вычислений для инференса",
       "reply_to_message_id": 1654
+    },
+    {
+      "id": 1678,
+      "type": "message",
+      "date": "2026-02-26T10:31:17.000Z",
+      "date_unixtime": "1772101877",
+      "from": "Ilya",
+      "from_id": "user6310747717",
+      "text": "Название у проекта шикарное",
+      "reply_to_message_id": 1677
+    },
+    {
+      "id": 1679,
+      "type": "message",
+      "date": "2026-02-26T10:32:43.000Z",
+      "date_unixtime": "1772101963",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Я давно пропагандирую, что дефи энтузиасты должны иметь свой термин, а не называться дегенами",
+      "reply_to_message_id": 1678
+    },
+    {
+      "id": 1680,
+      "type": "message",
+      "date": "2026-02-26T10:39:02.000Z",
+      "date_unixtime": "1772102342",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Шорт",
+      "reply_to_message_id": 1677
+    },
+    {
+      "id": 1681,
+      "type": "message",
+      "date": "2026-02-26T10:39:18.000Z",
+      "date_unixtime": "1772102358",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Мы с рынка конечно откупим",
+      "reply_to_message_id": 1680
+    },
+    {
+      "id": 1682,
+      "type": "message",
+      "date": "2026-02-26T11:51:06.000Z",
+      "date_unixtime": "1772106666",
+      "from": "Ilya",
+      "from_id": "user147498744",
+      "text": "не сверяете подпись и tx hash origin. сиди себе под любую страту один и тот же чужой хэш вставляй\n\nтыщу на базу",
+      "reply_to_message_id": 1677
     }
   ]
 }
