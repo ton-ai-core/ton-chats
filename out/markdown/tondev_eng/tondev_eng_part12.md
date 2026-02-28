@@ -41,3 +41,7 @@ Seva A.: Hello, @DariaYkv, would be nice to have an API to give users access for
 — 2026-02-27 —
 
 TON Moderator: Hello, .! Read rules and click button below.
+
+Daria: which one? (reply to 175895)
+
+Seva A.: An API for video, images, texts generation, @DariaYkv.
