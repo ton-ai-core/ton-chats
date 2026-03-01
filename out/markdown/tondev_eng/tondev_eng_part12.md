@@ -45,3 +45,55 @@ TON Moderator: Hello, .! Read rules and click button below.
 Daria: which one? (reply to 175895)
 
 Seva A.: An API for video, images, texts generation, @DariaYkv.
+
+— 2026-02-28 —
+
+Alina: when there’s a big delay between blocks, 10 sec instead of 2-3 sec in reality a block is generated fast as usual and is broadcasted to nodes but for some reason ends up getting discarded and another block with this seqno gets re-generated from scratch why tf ! !
+
+&rey: I recently learned: when it's time to rotate shard validators, the previous group loses authority to mint new blocks but one last block could've already been made. (reply to 175977)
+
+Alina: Aren’t validators rotated very infrequently? (once in 12 + hours)  Isn’t the authority you’re talking about plays a role when a block is collecting signatures?  If it fails to collect signatures it doesn’t even get broadcasted so it’s not that big of a deal (for end users) I thimk I guess ! ! (reply to 175978)
+
+&rey: The full set is; however, who is assigned to which shard changes more often. (reply to 175979)
+
+&rey: Also when the new masterchain block is generated. (reply to 175979)
+
+Alina: in the ballpark of 10-30 minutes? (reply to 175980)
+
+&rey: 1000s = 16min. See https://tonviewer.com/config#28, shard_validators_lifetime. (reply to 175982)
+
+Alina: I observe a block being broadcasted, dropped and re-generated every ~4 minutes
+
+&rey: Mainnet or testnet? (reply to 175987)
+
+Alina: mainnet (reply to 175988)
+
+Alina: between these two blocks (note the big difference in gen_utime) was one block with seqno ..655 but didn’t make it  https://tonviewer.com/block/(0,8000000000000000,62502654) https://tonviewer.com/block/(0,8000000000000000,62502655)  this is another example  https://tonviewer.com/block/(0,8000000000000000,62502557) https://tonviewer.com/block/(0,8000000000000000,62502556)
+
+𝕽𝖊𝖙𝖎𝖗𝖊𝖉 𝖄𝖔𝖚𝖓𝖌𝖕𝖗𝖎𝖊𝖘𝖙🌴⃝: Hi, is there any bot that can be sending ton price to my channel?
+
+jizzy019: U can create one if there is none though (reply to 175997)
+
+𝕽𝖊𝖙𝖎𝖗𝖊𝖉 𝖄𝖔𝖚𝖓𝖌𝖕𝖗𝖎𝖊𝖘𝖙🌴⃝: But I don't know how to create it. (reply to 176023)
+
+jizzy019: ask ai.
+
+— 2026-03-01 —
+
+Oleksii: Hello there! I started a small Telegram channel as a personal filter for AI SaaS tools. No tutorials, no hype, no affiliates.  AI SaaS Radar
+
+ranxiang: 小额xi米 一天9K @qiangpao
+
+ranxiang: 小额xi米 一天9K @qiangpao
+
+ranxiang: 小额xi米 一天9K @qiangpao
+
+Kevin: I’m a Full Stack Developer with 4 years of experience building modern, scalable web applications. I specialize in React.js, Next.js, Node.js, TypeScript, and MongoDB, and have a strong focus on creating fast, user-friendly, and maintainable solutions. I’ve worked on both frontend and backend projects — from API integrations to responsive UI development.  Check - www.satyammishra.dev
+
+ranxiang: 小额xi米 一天9K @qiangpao
+
+ranxiang: 小额xi米 一天9K @qiangpao
+
+Nawal Maqdisi♥️♥️❤️❤️: Assalamualaikum
+
+ranxiang: 小额xi米 一天9K @qiangpao
