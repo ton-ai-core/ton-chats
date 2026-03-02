@@ -14866,6 +14866,46 @@
       "from_id": "user147498744",
       "text": "не сверяете подпись и tx hash origin. сиди себе под любую страту один и тот же чужой хэш вставляй\n\nтыщу на базу",
       "reply_to_message_id": 1677
+    },
+    {
+      "id": 1684,
+      "type": "message",
+      "date": "2026-03-01T20:54:43.000Z",
+      "date_unixtime": "1772398483",
+      "from": "Vudi",
+      "from_id": "user218709297",
+      "text": "Хороший пост",
+      "reply_to_message_id": 1683
+    },
+    {
+      "id": 1687,
+      "type": "message",
+      "date": "2026-03-01T21:14:05.000Z",
+      "date_unixtime": "1772399645",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "в 2022-ом когда начался бум из-за запуска ChatGPT - все также подняли 2 проблемы всех LLM: prompt injections + hallucinations.\n\nсейчас у нас на дворе 2026-ой год - что-то изменилось? да, только одно - вектор атак стал трилиярд раз шире.",
+      "reply_to_message_id": 1683
+    },
+    {
+      "id": 1688,
+      "type": "message",
+      "date": "2026-03-01T21:17:04.000Z",
+      "date_unixtime": "1772399824",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "п.с. потому что больше ретейл клиентов используют базовые продукты ИИ без применения базовых принципов - input/output moderation, anti-prompt-injection vector databases, etc.",
+      "reply_to_message_id": 1687
+    },
+    {
+      "id": 1689,
+      "type": "message",
+      "date": "2026-03-01T21:18:14.000Z",
+      "date_unixtime": "1772399894",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "т.е. вся индустрия ретейла прыгает на те самые грабли как 3-4 года назад. конец связи.",
+      "reply_to_message_id": 1688
     }
   ]
 }

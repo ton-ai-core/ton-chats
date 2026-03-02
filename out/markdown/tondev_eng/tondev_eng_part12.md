@@ -97,3 +97,31 @@ ranxiang: 小额xi米 一天9K @qiangpao
 Nawal Maqdisi♥️♥️❤️❤️: Assalamualaikum
 
 ranxiang: 小额xi米 一天9K @qiangpao
+
+REON: Is there a passkey wallet creation doc available?
+
+&rey: I don't remember if there is a standard for it. Generally, such a wallet just had its keypair derived from the seed in another way. (reply to 176092)
+
+gaga: Hello, i am serching for the op-code to start a auction on a TON Domain after it's expiration. Can somebody help me?
+
+TON Support: I wasn't able to find specific documentation about the op-code for starting an auction on a TON Domain after expiration. This information may be in the TEP 0081 DNS standard or in the dns-contract source code on GitHub rather than in the official documentation. (reply to 176107)
+
+&rey: You can search this chat for keyword "expired domain", reaching https://t.me/tondev_eng/152421 . (reply to 176107)
+
+gaga: Than you! (reply to 176109)
+
+TON Support: To compare your in-message hash against the getTransactions objects' inMessage attribute, you need to compute the normalized hash of the input message using getNormalizedExtMessageHash. Then, you can search for a transaction whose input message's normalized hash matches your targetInMessageHash.  Source: Message lookup - TON Docs, Hash-based tracking | The Open Network (reply to 44809)
+
+gaga: So it should be possible via tonkeeper to send the amount of ton to the nft address with the bin-payload in the commet section and the auction will start? (reply to 176109)
+
+&rey: No. Comment field if entered via app will only have printable characters (and will start with opcode 0 which is not what you want), while the payload is not fully printable. (reply to 176112)
+
+&rey: Instead, open the templated link (e.g. by converting it into QR and scanning). (reply to 176112)
+
+Blackstreak: May I know if this is still valid? Do we have a link shared? (reply to 174918)
+
+&rey: It has completed. There is a link in the channel, on 22nd February. (reply to 176115)
+
+— 2026-03-02 —
+
+testertesterov: Hello everyone  Could you please tell me if Cocoon has released an accessible interface for integration?  I want to integrate Cocoon models into the TON AI Framework.
