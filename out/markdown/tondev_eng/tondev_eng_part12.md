@@ -145,3 +145,13 @@ Seva A.: Bot + TMA Vercel deploy, DB: Neon https://github.com/HyperlinksSpace/Hy
 Emin: theres no toncenter here tho (reply to 176195)
 
 Seva A.: AppKit integration coming soon
+
+Slava: My recommendation would be to create a custom proxy with a limited API surface. Otherwise, anyone would be able to use your API key for their purposes. (reply to 176192)
+
+Emin: yeah its either this or i index then cache (reply to 176206)
+
+Stephen: 3 letter .ton domains, will they come/can we buy at premium price or ?
+
+TON Support: Primary sales of .ton domains occur through a decentralized open auction at dns.ton.org. These domains are implemented as NFTs and follow the standard NFT format.  Source: TON DNS & domains | The Open Network (reply to 176228)
+
+Илья: Is there a service for VPS rent by $ton?
