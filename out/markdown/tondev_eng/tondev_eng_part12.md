@@ -171,3 +171,41 @@ DN: Yes  dm me (reply to 176234)
 TON Support: Yes, there is a BTC Teleport module that manages an optional Bitcoin bridge client shipped with MyTonCtrl. This module allows you to inspect proposals, vote on them, or remove the Teleport installation.  Source: BTC Teleport - TON Docs (reply to 176297)
 
 Emin: can i please get an ack here (reply to 176271)
+
+— 2026-03-05 —
+
+Kk: Hey guys
+
+Kk: Did you hear about orbton project?
+
+Order: do u need dev? (reply to 176344)
+
+Be_human: Hello,  A few hours ago I submitted my project through the Builders Portal using the email magic link login. After submission, I can’t access the dashboard or any project pages.  Issues:  builders.ton.org and ton.org/dev only show the AppKit announcement page with no Sign in option.  builders.ton.org/auth/signin redirects to ton.org/en/auth/signin and shows 404 – Page not found.  Dashboard pages like profile, portal, and apply show blank pages or 404 errors.  I already tried clearing cache/cookies, incognito mode, different browsers and devices, mobile data, VPN, and DNS changes, but nothing worked.  Is anyone else facing this issue or knows what might be causing it?
+
+Be_human: Any update, guys? Do you have any idea where I can log in to check the game project I submitted?
+
+Kiba: We’re checking, thank you (reply to 176361)
+
+Gleb: Hello! Unfortunately, the Builders Portal is currently undergoing maintenance. We will let you know when it is available again. We apologise for any inconvenience. (reply to 176361)
+
+Be_human: Hello! Thank you for the update.  Could you please let me know approximately how long the maintenance will take and when the Builders Portal is expected to be available again?  Also, I wanted to ask about the Telegram Analytics SDK requirement for Apps Center listing. Since the portal is currently unavailable, I cannot access the dashboard to obtain the Analytics API key.  Is there any alternative way to generate or request the Analytics API key during this maintenance period, or should we wait until the Builders Portal is fully restored?  Thank you for your help.
+
+Emin: thanks for ignoring. leaving this useless group (reply to 176320)
+
+STANMAGONI: guys whats going on?
+
+STANMAGONI: cant login to builders portal
+
+&rey: See just a few messages above: https://t.me/tondev_eng/176369 (reply to 176374)
+
+STANMAGONI: Guys I don’t want to offend anyone but such a huge company like TON needs to step their game up. This looks unprofessional and there are no accidents when you ope a page and it says page is not found in big tech projects
+
+STANMAGONI: This makes ton look like a rookie student home project but definitely not like a blockchain with 400m tvl
+
+Kiba: Fair point — the maintenance should have been communicated in advance, and I take responsibility for that gap. We're putting a proper notification process in place so this doesn't happen again. Appreciate the feedback. (reply to 176382)
+
+STANMAGONI: It’s all comes down to proper advanced planning. This situation just shows that the management isn’t in place and teams do whatever they want. It’s all about proper management (reply to 176384)
+
+MR.ROBOT: Hello
+
+MR.ROBOT: Are there any projects or creators here open to AMA sessions or cross-community collaborations?

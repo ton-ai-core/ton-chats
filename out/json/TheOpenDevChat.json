@@ -14906,6 +14906,182 @@
       "from_id": "user533881104",
       "text": "т.е. вся индустрия ретейла прыгает на те самые грабли как 3-4 года назад. конец связи.",
       "reply_to_message_id": 1688
+    },
+    {
+      "id": 1691,
+      "type": "message",
+      "date": "2026-03-05T11:46:17.000Z",
+      "date_unixtime": "1772711177",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "⚡️ В коде TON Connect были найдены упоминания L2 сети.\n\n@gosunov_ch обнаружил упоминания некого Tetrachain. Судя по найденной документации, это L2 на TON. На tonviewer уже создан соответствующий поддомен — tetra.tonviewer.com\n\nИз интересного — в данный момент max_split сети выставлен в 0, то есть сеть не шардируется. Минимальный стейк для валидатора — 1 TON. Разбираем пока халява!\n\nВероятно, для трансфера TON в новую сеть был использован trustless мост, разработанный на одном из хакатонов ранее. В данный момент в сети сминчено порядка 100к TON.\n\n🔥 Что думаем?\n@TheOpenDevBlog",
+      "forwarded_from": "The Open Dev Blog",
+      "forwarded_from_id": "channel2154553559",
+      "forwarded_date": "2026-03-05T11:46:13.000Z"
+    },
+    {
+      "id": 1692,
+      "type": "message",
+      "date": "2026-03-05T11:51:11.000Z",
+      "date_unixtime": "1772711471",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Зачем, а главное для кого?",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1693,
+      "type": "message",
+      "date": "2026-03-05T11:51:51.000Z",
+      "date_unixtime": "1772711511",
+      "from": ":𝖘𝖚𝖇0",
+      "from_id": "user446021471",
+      "text": "как на этом заработать",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1694,
+      "type": "message",
+      "date": "2026-03-05T11:51:53.000Z",
+      "date_unixtime": "1772711513",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Это вопрос десятый",
+      "reply_to_message_id": 1692
+    },
+    {
+      "id": 1695,
+      "type": "message",
+      "date": "2026-03-05T11:52:06.000Z",
+      "date_unixtime": "1772711526",
+      "from": ":𝖘𝖚𝖇0",
+      "from_id": "user446021471",
+      "text": "вопрос десятилетия",
+      "reply_to_message_id": 1694
+    },
+    {
+      "id": 1696,
+      "type": "message",
+      "date": "2026-03-05T11:53:15.000Z",
+      "date_unixtime": "1772711595",
+      "from": "P Jes",
+      "from_id": "user278277014",
+      "text": "Уже как несколько недель в интерфейсе  🤟",
+      "reply_to_message_id": 1691,
+      "media_type": "photo",
+      "file": "photos/photo_1696.jpg",
+      "width": 1080,
+      "height": 1160
+    },
+    {
+      "id": 1697,
+      "type": "message",
+      "date": "2026-03-05T11:53:38.000Z",
+      "date_unixtime": "1772711618",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "это откуда скрин?",
+      "reply_to_message_id": 1696
+    },
+    {
+      "id": 1698,
+      "type": "message",
+      "date": "2026-03-05T11:54:16.000Z",
+      "date_unixtime": "1772711656",
+      "from": "P Jes",
+      "from_id": "user278277014",
+      "text": "Шторм тест версия v3\n\nhttps://explorer.storm.tg/ 🙈",
+      "reply_to_message_id": 1697
+    },
+    {
+      "id": 1699,
+      "type": "message",
+      "date": "2026-03-05T12:00:34.000Z",
+      "date_unixtime": "1772712034",
+      "from": "Just1k 👑 - $BC MIRROR",
+      "from_id": "user1592757852",
+      "text": "А где навигация для валидаторов? Как стать ?)",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1700,
+      "type": "message",
+      "date": "2026-03-05T12:05:02.000Z",
+      "date_unixtime": "1772712302",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "пока Бутерин хочет избавиться от л2 - Макосов это делает на оборот))",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1701,
+      "type": "message",
+      "date": "2026-03-05T12:30:19.000Z",
+      "date_unixtime": "1772713819",
+      "from": "Master",
+      "from_id": "user525393790",
+      "text": "тот же вопрос, где доки или гайд по поднятию ноды )",
+      "reply_to_message_id": 1699
+    },
+    {
+      "id": 1702,
+      "type": "message",
+      "date": "2026-03-05T13:58:44.000Z",
+      "date_unixtime": "1772719124",
+      "from": ".",
+      "from_id": "user709562835",
+      "text": "Это Грам",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1703,
+      "type": "message",
+      "date": "2026-03-05T14:02:00.000Z",
+      "date_unixtime": "1772719320",
+      "from": "𝟠𝟘𝟘𝟟.𝕥𝕠𝕟 | 𝔸𝕝𝕜𝕦𝕣𝕪",
+      "from_id": "user1075370548",
+      "text": "Минтить то самому тоны не выйдет. Просто перегон из одного чейна в другой и тон будет как газ",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1704,
+      "type": "message",
+      "date": "2026-03-05T14:13:55.000Z",
+      "date_unixtime": "1772720035",
+      "from": "AL Pamblus",
+      "from_id": "user1790119704",
+      "text": "полный газ",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1705,
+      "type": "message",
+      "date": "2026-03-05T14:14:40.000Z",
+      "date_unixtime": "1772720080",
+      "from": "AL Pamblus",
+      "from_id": "user1790119704",
+      "text": "я тысячный подписчик 😁🪳",
+      "reply_to_message_id": 1691
+    },
+    {
+      "id": 1706,
+      "type": "message",
+      "date": "2026-03-05T14:33:30.000Z",
+      "date_unixtime": "1772721210",
+      "from": "Лёша",
+      "from_id": "user74332510",
+      "text": "+send 1000 tondev",
+      "reply_to_message_id": 1705
+    },
+    {
+      "id": 1707,
+      "type": "message",
+      "date": "2026-03-05T16:54:17.000Z",
+      "date_unixtime": "1772729657",
+      "from": "Larry",
+      "from_id": "user439999485",
+      "text": "Doesn't the L1 need to be nearing capacity before you need an L2? I don't get it.",
+      "reply_to_message_id": 1691
     }
   ]
 }
