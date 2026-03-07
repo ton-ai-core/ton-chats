@@ -10375,3 +10375,11 @@ S: Are you stealing startup ideas? (reply to 79719)
 shafi: Hello
 
 Yet Another Anti-Spam Bot: Someone decided that this is a spamer. Is it correct? Vote (2/3) (reply to 80301)
+
+— 2026-03-07 —
+
+Khadijat: https://t.me/tarot_gram_bot/dailycard_eng?startapp=c2hhcmVJZD1KYzNNRg==  Take a look at the Tarot card I got for today!
+
+Khadijat: https://t.me/tarot_gram_bot/ppf_eng?startapp=c2hhcmVJZD1GMFJwVg==  Check out the results of my Tarot reading!
+
+Khadijat: https://t.me/tarot_gram_bot/horoscope_eng?startapp=c2hhcmVJZD1GbmpSMQ==

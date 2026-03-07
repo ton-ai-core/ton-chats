@@ -209,3 +209,9 @@ STANMAGONI: It’s all comes down to proper advanced planning. This situation ju
 MR.ROBOT: Hello
 
 MR.ROBOT: Are there any projects or creators here open to AMA sessions or cross-community collaborations?
+
+— 2026-03-06 —
+
+Gleb: Hi, ton.org/dev is up and running now. Please check (reply to 176361)
+
+Be_human: Yes it is working perfectly. Thanks @glebtma
