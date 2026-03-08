@@ -215,3 +215,25 @@ MR.ROBOT: Are there any projects or creators here open to AMA sessions or cross-
 Gleb: Hi, ton.org/dev is up and running now. Please check (reply to 176361)
 
 Be_human: Yes it is working perfectly. Thanks @glebtma
+
+— 2026-03-07 —
+
+TON Support: To convert a raw address to a user-friendly format, you can use the /packAddress endpoint of the TON Center API. This API requires the raw TON account identifier as a string parameter.  Alternatively, you can use the TON Address tool, an online converter that provides all possible address formats when a valid address is entered.  Source: Convert raw address to user-friendly format - TON Docs, Reading and writing addresses - TON Docs (reply to 176481)
+
+REON: Is it possible to fetch a telegram user name handle from a ton wallet address? (reply to 176482)
+
+&rey: Most TON wallets are standalone, and have none. Hopefully Telegram Wallet doesn't show handles either.  You can see if the wallet has a username NFT. (reply to 176487)
+
+REON: I thought that is what User-friendly format meant.  The ton wallet address is pretty user-friendly. What it spits out looks random (I'm new)  When you say NFT, do you mean DNS ton .org or user handles as NFT? (reply to 176488)
+
+вице-король vangaard: NFT username. Minted via Fragment (reply to 176489)
+
+REON: Can I mint my handle as an nft via fragment and still use it as my telegram handle? (reply to 176492)
+
+Kim: once you own the nft fragment will allow you to assign it to a telegram user (or bot) (reply to 176495)
+
+— 2026-03-08 —
+
+Scarlett Lux: Who wants to keep me company? Say hi.
+
+Seva A.: Happy International Women's Day ;)
