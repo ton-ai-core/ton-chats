@@ -10383,3 +10383,9 @@ Khadijat: https://t.me/tarot_gram_bot/dailycard_eng?startapp=c2hhcmVJZD1KYzNNRg=
 Khadijat: https://t.me/tarot_gram_bot/ppf_eng?startapp=c2hhcmVJZD1GMFJwVg==  Check out the results of my Tarot reading!
 
 Khadijat: https://t.me/tarot_gram_bot/horoscope_eng?startapp=c2hhcmVJZD1GbmpSMQ==
+
+— 2026-03-08 —
+
+Najah: Good morning guys 👋
+
+Oxoz: Im just starting and having trouble getting started with wallet and renting a miner
