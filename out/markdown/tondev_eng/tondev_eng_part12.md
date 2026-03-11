@@ -335,3 +335,31 @@ TON Support: To send Toncoin from your Wallet v5, click "Send", enter the recipi
 Vesting: can I send message to blockchain using privatekey?
 
 TON Support: Yes, you can send messages to the blockchain using a private key on TON. The private key is used to sign messages, ensuring that only the owner of the wallet can authorize transactions.  Here's a general overview of the process: 1.  Derive the keypair: Convert your mnemonic phrase into an Ed25519 keypair, which includes a public key and a secret (private) key. The public key is typically stored in the contract, while the secret key is used to sign messages. 2.  Build the signed data: Construct the message data you want to send. This often includes fields like seqno (a counter for replay protection) and validUntil (a timestamp for message expiration). 3.  Create the signature: Sign the hash of the built message data using your private key. 4.  Build the message body: Assemble the final message body, which will include the signature and the signed data. This message is then sent to the blockchain.  Wallets on TON use the Ed25519 signature scheme. The private and public keys are generated outside the blockchain. When an external message is sent to a contract, it contains a signature and the payload. The contract then verifies that the provided signature matches the hash of the message using the public key stored within the contract. This mechanism ensures ownership verification and prevents unauthorized messages.  Source: Signing messages - TON Docs (reply to 176653)
+
+— 2026-03-10 —
+
+נְתַנְאֵל: Hello everyone i just want to ask smtn does tetrachain layer2 project on ton will be integrated with ton soon?
+
+None: wtf. is TON API doing well?  cannot `POST /blockchain/message`: HttpProvider is not connected (https://tonapi.io/v2)
+
+Alina: Is Toncenter’s new Streaming API V2 available for general public?
+
+TON Support: TON Center API v2 provides developer access to the TON blockchain through REST and JSON-RPC endpoints. It allows applications to read blockchain data, run smart contract methods, and send transactions.  You can access API v2 either through hosted infrastructure managed by TON Center or by running a self-hosted instance. For hosted access, requests without an API key are limited to 1 request per second. To increase this limit or access private liteservers, you need to generate an API key and choose a plan.  To obtain an API key, you can use the official Telegram bot @toncenter. The bot offers different subscription plans:    Free: 10 requests/sec, 1 token per network    Plus: 25 requests/sec, 3 tokens per network (2.5 TON/month)    Advanced: 100 requests/sec, 10 tokens per network (25 TON/month)    Enterprise: Tailored rate limits, priority support  Source: Overview, API authentication, Get your TON Center API key (reply to 176787)
+
+Haracter: Who knows how to convert smart contracts to blockchain? There's already a ready-made FC-format contract.
+
+TON Support: You can convert a FunC project to Tolk using the FunC-to-Tolk converter by running npx @ton/convert-func-to-tolk contracts. This tool helps in migrating contracts to Tolk by rewriting FunC code with one-to-one semantics, emitting a Tolk version that is close to the original FunC.  Source: FunC-to-Tolk converter - TON Docs (reply to 176789)
+
+Mirka: You want to deploy it? (reply to 176789)
+
+Haracter: Ye one sec (reply to 176791)
+
+Mirka: Compile it (for example using https://github.com/ton-org/blueprint) and then send a special deploy transaction (reply to 176792)
+
+Mirka: @tondev And you have dm for stars (reply to 176796)
+
+Haracter: Oh, I thought you speak Russian, sorry, in sec I will message you (reply to 176799)
+
+Engr.: Hello, everyone. I'm actually here to expose a high level scam happening on the TON network/blockchain. I'd like to know if it is permitted here? Else, how do I send the details the TON foundation?  Kindly advice me
+
+Seva A.: Hello, you can report on the actual user using Telegram built-in corresponding feature, as well state the problem in the field-specific communities, if possible, solve the issue legally. Scammer's, spammer's and lammer's culture is quite controversial, that can really become a bad, sorry for you to have met such things, friendly environment is never-the-less a priority. If you can punish an intruder, burglar or fraudster, you are most-likely right in your intentions.
