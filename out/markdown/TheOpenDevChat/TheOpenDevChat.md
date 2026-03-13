@@ -3203,3 +3203,57 @@ AL Pamblus: я тысячный подписчик 😁🪳 (reply to 1691)
 Лёша: +send 1000 tondev (reply to 1705)
 
 Larry: Doesn't the L1 need to be nearing capacity before you need an L2? I don't get it. (reply to 1691)
+
+— 2026-03-11 —
+
+Vlad: Чё за чай хоть? (reply to 1708)
+
+The Open Dev Blog: as-flex (reply to 1709)
+
+Vlad: Это способ употребления (reply to 1710)
+
+Ivan: А где расследование что именно хотели украсть?  у execp в npm 5 строк, не похоже что, что-то ворует (reply to 1708)
+
+rends_east: Я сильно не углублялся, но вот, судя по всему, где запускает непонятно какой код chai-as-flex: https://www.npmjs.com/package/chai-as-flex?activeTab=code А вот execp: https://www.npmjs.com/package/execp?activeTab=code execp вообще просто exec-ает fetch какой то, очень тупая схема (reply to 1712)
+
+rends_east: вот execp(файл не приложился) (reply to 1713)
+
+rends_east: а вот chai-as-flex (reply to 1713)
+
+Alexey: Аналогичные два тестовых прилетели мне за последние пару месяцев. И все в linkedin (reply to 1708)
+
+The Open Dev Blog: прям те же самые, или другие репы? (reply to 1719)
+
+Vudi: Поиск работы скам (reply to 1708)
+
+Alexey: Другие репы. Одна на гитхабе была, второе архивом скинули) (reply to 1720)
+
+rends_east: ну архивом это совсем трешачок, конечно (reply to 1722)
+
+AL Pamblus: харош 🙂👍 (reply to 1708)
+
+mnemotiv: https://youtube.com/shorts/KHA8lWTozic (reply to 1708)
+
+Vik: Коротко о посте:  Поставил штуку на комп — деньги бам бам мошенникам.  Вывод: не ставьте штуки на комп — мошенники плак плак (reply to 1708)
+
+rends_east: Думаешь? (reply to 1727)
+
+Vik: Ага😇 (reply to 1728)
+
+— 2026-03-12 —
+
+kwinkich: база, последние полгода такого валом. linkedin постепенно умирает в целом, как мне кажется. (reply to 1708)
+
+The Open Dev Blog: 🔥 Подавайте следующего!  @TheOpenDevTeam провели аудит @open4dev. Это order-book DEX, написанный на tolk.  Аудит был проведён при участии @gosunov_ch — он также участник @TheOpenDevTeam.  В рамках аудита была найдена одна критическая уязвимость, а также несколько уязвимостей послабее.  Обращайтесь к нам — мы проверим вашу безопасность и расскажем об этом. Мы мотивированы, злы на мир, и готовы доказывать.  Работаем. @TheOpenDevTeam x @TheOpenDevBlog (forwarded from The Open Dev Blog)
+
+Vlad: а код на гитхабе уже с фиксами?  просто пробежался по контрактам, на первый взгляд там минимум еще одна крит уязвимость (reply to 1731)
+
+rends_east: Да, код на гитхабе уже с исправлениями Ждём описание крита, будет интересно почитать) (reply to 1736)
+
+Vlad: можно здесь?  я просто не в курсе если протокол уже в мейннете и тд) (reply to 1737)
+
+rends_east: Давай в личку (reply to 1738)
+
+rends_east: Действительно, в результате исправлений по нашему отчету, появился не связанный с нашим отчетом критический баг, который в финальном коде мы не увидели Это наша вина Спасибо @shtefo за репорт, правки внесены, по итогам коммента была выплачена bounty (reply to 1739)
+
+Vlad: Подтверждаю, ребята приятно удивили выплатив bounty ❤️ (reply to 1740)

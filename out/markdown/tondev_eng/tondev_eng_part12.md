@@ -363,3 +363,51 @@ Haracter: Oh, I thought you speak Russian, sorry, in sec I will message you (rep
 Engr.: Hello, everyone. I'm actually here to expose a high level scam happening on the TON network/blockchain. I'd like to know if it is permitted here? Else, how do I send the details the TON foundation?  Kindly advice me
 
 Seva A.: Hello, you can report on the actual user using Telegram built-in corresponding feature, as well state the problem in the field-specific communities, if possible, solve the issue legally. Scammer's, spammer's and lammer's culture is quite controversial, that can really become a bad, sorry for you to have met such things, friendly environment is never-the-less a priority. If you can punish an intruder, burglar or fraudster, you are most-likely right in your intentions.
+
+— 2026-03-11 —
+
+Anthony: 💎 TON AI Agent Hackathon is here!   $20,000. Two tracks. Two weeks.  Track 1: Agent Infrastructure ($10K) Build tooling and primitives that help power the next generation of AI applications on TON. This can include wallet integrations, agent coordination, payment flows, developer tools, and other core infrastructure.  Track 2: User facing Agents ($10K) Build AI agents that users can interact with directly inside Telegram. This can include commerce agents, payment bots, assistants, trading tools, automation products, and other practical AI-powered experiences. These agents can be both user-facing products and part of agent-to-agent interactions on TON, including payments, coordination, and trust.  This is a much bigger shift than just one hackathon.  A new stack is emerging • Telegram is the interaction and distribution layer • AI is the execution engine. • TON is the payments, agent-to-agent, and trust layer.  BotFather MAU grew from 3.5M to 7.4M after AI agents started taking off on Telegram. Developers are already moving. Now it’s time to join the best builders on TON.  📆 Hackathon dates: March 11-25  🧠 MCP Docs 💎 For more information and registration click here  Gateway|TON Community | TON Builders | TON Hubs |X | YouTube | LinkedIn TON.org (forwarded from TON Dev News)
+
+— 2026-03-12 —
+
+testertesterov: I found an SDK for integrating with Cocoon, but I'm not sure if it can be trusted. Is there any news on integration?
+
+Slava: can u please share a link? you mean https://github.com/CocoonIO/cocoon-cloud-sdk? (reply to 176889)
+
+testertesterov: https://github.com/TelegramMessenger/cocoon/issues/25#issuecomment-3941737341 (reply to 176893)
+
+Commander: hi,does anyone know the best way to handle payout for stars with script?
+
+Engr.: Security Alert – Possible TON ecosystem scam  A Telegram investment/staking group has been collecting TON from victims under false promises of returns and refunds.  Evidence shows victim funds being aggregated and transferred to exchange-associated wallets.  Aggregation wallet: https://tonscan.org/address/UQBhiYnvLoNeorG3d0JcwGSoXdIpnEzN3iSFjAeWYoTRzRew  Example transaction to exchange custody: https://tonscan.org/tx/3fbf7b20dd88d9ffda8acdbf3e0fc328256b626d6ba540d04334b0479492d26f  Amount transferred: 1,639.0729 TON  Victim collection wallet: https://tonscan.org/address/UQAfjKzMv9O077ndaKoPGFjC6bS89LYYyP25A9YXDZSCDzL9  Funds appear to move through aggregation wallets and into exchange infrastructure.  Estimated victims: 1000+  The operators have recently resurfaced claiming to launch a “migration portal”, which may indicate a second-stage scam attempt targeting previous victims.  Reports have already been submitted to law enforcement and exchange compliance.  Requesting TON ecosystem review and awareness to help prevent further losses.
+
+Engr.: TELEGRAM SCAM GROUP                         │                         │                         ▼               Victims send TON payments          (multiple unrelated victim wallets)                         │                         │                         ▼         Victim Collection Wallet (Initial Pool) UQAfjKzMv9O077ndaKoPGFjC6bS89LYYyP25A9YXDZSCDzL9 https://tonscan.org/address/UQAfjKzMv9O077ndaKoPGFjC6bS89LYYyP25A9YXDZSCDzL9                         │                         │                         ▼             Scam Aggregation Wallet UQBhiYnvLoNeorG3d0JcwGSoXdIpnEzN3iSFjAeWYoTRzRew https://tonscan.org/address/UQBhiYnvLoNeorG3d0JcwGSoXdIpnEzN3iSFjAeWYoTRzRew                         │                         │                         ▼             Transfer to Exchange Wallet UQBX63RAdgShn34EAFMV73Cut7Z15lUZd1hnVva68SEl7pGn https://tonscan.org/address/UQBX63RAdgShn34EAFMV73Cut7Z15lUZd1hnVva68SEl7pGn                         │                         │                         ▼               Off-Ramp / Asset Liquidation                    (Exchange custody)  Example confirmed transaction:  3fbf7b20dd88d9ffda8acdbf3e0fc328256b626d6ba540d04334b0479492d26f   Amount: 1,639.0729 TON https://tonscan.org/tx/3fbf7b20dd88d9ffda8acdbf3e0fc328256b626d6ba540d04334b0479492d26f (reply to 176909)
+
+Bridget: Hi! What group is that? Have the messages been reported via "Report" yet? (reply to 176910)
+
+Engr.: Ive done all that. But it obvious that Telegram hasn't done anything about them. I wish I could send sc here for all to see.  What other steps can I take? (reply to 176916)
+
+Bridget: I have already reported to the tonscan team, you can also push a pr directly on tonscan github, the scam yaml https://github.com/catchain/address-book (reply to 176922)
+
+Modesayo: Report to exchanges (reply to 176922)
+
+Engr.: I already reported to MEXC and they're willing to cooperate. But they insist that a Law enforcement agency must contact them. Unfortunately, I've been sending messages to the ones in my jurisdiction. They've not responded until today. (reply to 176924)
+
+Modesayo: That's the difficult thing (reply to 176925)
+
+Anthony: Share links for groups please (reply to 176922)
+
+Engr.: That's why they've continued without restrictions. (reply to 176926)
+
+Engr.: https://t.me/StakersRhizaAlpha https://t.me/StakersRhizaAlphaForum  They have deleted previous channels and groups. But I have all the details saved (reply to 176927)
+
+Anthony: Thanks
+
+Engr.: For the records, this scam activity began February 5, 2025. I personally lost 100 Ton after staking. I'll make a detailed report for clarity (reply to 176929)
+
+Modesayo: Wish they were like binance (reply to 176928)
+
+Modesayo: Binance will freeze acc first ask questions later
+
+Engr.: I actually contacted binance cos some of the assets from the scam wallet touched binance exchange but not directly from the scam wallet directly.  Binance wanted a situation where the receiving scam wallet sent ton directly to binance. (reply to 176934)
+
+Modesayo: Yh (reply to 176936)

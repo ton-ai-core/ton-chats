@@ -2324,6 +2324,19 @@
       "file": "photos/photo_269.jpg",
       "width": 2160,
       "height": 2160
+    },
+    {
+      "id": 271,
+      "type": "message",
+      "date": "2026-03-11T14:56:51.000Z",
+      "date_unixtime": "1773241011",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "💎 TON AI Agent Hackathon is here! \n\n$20,000. Two tracks. Two weeks.\n\nTrack 1: Agent Infrastructure ($10K)\nBuild tooling and primitives that help power the next generation of AI applications on TON. This can include wallet integrations, agent coordination, payment flows, developer tools, and other core infrastructure.\n\nTrack 2: User facing Agents ($10K)\nBuild AI agents that users can interact with directly inside Telegram. This can include commerce agents, payment bots, assistants, trading tools, automation products, and other practical AI-powered experiences. These agents can be both user-facing products and part of agent-to-agent interactions on TON, including payments, coordination, and trust.\n\nThis is a much bigger shift than just one hackathon.\n\nA new stack is emerging\n• Telegram is the interaction and distribution layer\n• AI is the execution engine.\n• TON is the payments, agent-to-agent, and trust layer.\n\nBotFather MAU grew from 3.5M to 7.4M after AI agents started taking off on Telegram. Developers are already moving. Now it’s time to join the best builders on TON.\n\n📆 Hackathon dates: March 11-25 \n🧠 MCP Docs\n💎 For more information and registration click here\n\nWalletKit | Alpha AppKit | TON Community | TON Builders | TON Hubs |X | YouTube | LinkedIn |TON.org",
+      "media_type": "photo",
+      "file": "photos/photo_271.jpg",
+      "width": 1280,
+      "height": 1280
     }
   ]
 }

@@ -15082,6 +15082,266 @@
       "from_id": "user439999485",
       "text": "Doesn't the L1 need to be nearing capacity before you need an L2? I don't get it.",
       "reply_to_message_id": 1691
+    },
+    {
+      "id": 1709,
+      "type": "message",
+      "date": "2026-03-11T11:05:44.000Z",
+      "date_unixtime": "1773227144",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Чё за чай хоть?",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1710,
+      "type": "message",
+      "date": "2026-03-11T11:06:00.000Z",
+      "date_unixtime": "1773227160",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "as-flex",
+      "reply_to_message_id": 1709
+    },
+    {
+      "id": 1711,
+      "type": "message",
+      "date": "2026-03-11T11:06:15.000Z",
+      "date_unixtime": "1773227175",
+      "from": "Vlad",
+      "from_id": "user32567835",
+      "text": "Это способ употребления",
+      "reply_to_message_id": 1710
+    },
+    {
+      "id": 1712,
+      "type": "message",
+      "date": "2026-03-11T11:08:18.000Z",
+      "date_unixtime": "1773227298",
+      "from": "Ivan",
+      "from_id": "user57230168",
+      "text": "А где расследование что именно хотели украсть?\n\nу execp в npm 5 строк, не похоже что, что-то ворует",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1713,
+      "type": "message",
+      "date": "2026-03-11T11:10:45.000Z",
+      "date_unixtime": "1773227445",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Я сильно не углублялся, но вот, судя по всему, где запускает непонятно какой код chai-as-flex:\nhttps://www.npmjs.com/package/chai-as-flex?activeTab=code\nА вот execp:\nhttps://www.npmjs.com/package/execp?activeTab=code\nexecp вообще просто exec-ает fetch какой то, очень тупая схема",
+      "reply_to_message_id": 1712
+    },
+    {
+      "id": 1717,
+      "type": "message",
+      "date": "2026-03-11T11:13:35.000Z",
+      "date_unixtime": "1773227615",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "вот execp(файл не приложился)",
+      "reply_to_message_id": 1713,
+      "media_type": "photo",
+      "file": "photos/photo_1717.jpg",
+      "width": 1280,
+      "height": 1202
+    },
+    {
+      "id": 1718,
+      "type": "message",
+      "date": "2026-03-11T11:13:51.000Z",
+      "date_unixtime": "1773227631",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "а вот chai-as-flex",
+      "reply_to_message_id": 1713,
+      "media_type": "photo",
+      "file": "photos/photo_1718.jpg",
+      "width": 1280,
+      "height": 734
+    },
+    {
+      "id": 1719,
+      "type": "message",
+      "date": "2026-03-11T11:15:35.000Z",
+      "date_unixtime": "1773227735",
+      "from": "Alexey",
+      "from_id": "user903169",
+      "text": "Аналогичные два тестовых прилетели мне за последние пару месяцев. И все в linkedin",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1720,
+      "type": "message",
+      "date": "2026-03-11T11:16:27.000Z",
+      "date_unixtime": "1773227787",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "прям те же самые, или другие репы?",
+      "reply_to_message_id": 1719
+    },
+    {
+      "id": 1721,
+      "type": "message",
+      "date": "2026-03-11T11:17:30.000Z",
+      "date_unixtime": "1773227850",
+      "from": "Vudi",
+      "from_id": "user218709297",
+      "text": "Поиск работы скам",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1722,
+      "type": "message",
+      "date": "2026-03-11T11:17:56.000Z",
+      "date_unixtime": "1773227876",
+      "from": "Alexey",
+      "from_id": "user903169",
+      "text": "Другие репы. Одна на гитхабе была, второе архивом скинули)",
+      "reply_to_message_id": 1720
+    },
+    {
+      "id": 1723,
+      "type": "message",
+      "date": "2026-03-11T11:19:29.000Z",
+      "date_unixtime": "1773227969",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "ну архивом это совсем трешачок, конечно",
+      "reply_to_message_id": 1722
+    },
+    {
+      "id": 1724,
+      "type": "message",
+      "date": "2026-03-11T11:36:21.000Z",
+      "date_unixtime": "1773228981",
+      "from": "AL Pamblus",
+      "from_id": "user1790119704",
+      "text": "харош 🙂👍",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1725,
+      "type": "message",
+      "date": "2026-03-11T11:56:17.000Z",
+      "date_unixtime": "1773230177",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "https://youtube.com/shorts/KHA8lWTozic",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1727,
+      "type": "message",
+      "date": "2026-03-11T16:10:49.000Z",
+      "date_unixtime": "1773245449",
+      "from": "Vik",
+      "from_id": "user8659703560",
+      "text": "Коротко о посте:\n\nПоставил штуку на комп — деньги бам бам мошенникам.\n\nВывод: не ставьте штуки на комп — мошенники плак плак",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1728,
+      "type": "message",
+      "date": "2026-03-11T16:38:54.000Z",
+      "date_unixtime": "1773247134",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Думаешь?",
+      "reply_to_message_id": 1727
+    },
+    {
+      "id": 1729,
+      "type": "message",
+      "date": "2026-03-11T16:48:28.000Z",
+      "date_unixtime": "1773247708",
+      "from": "Vik",
+      "from_id": "user8659703560",
+      "text": "Ага😇",
+      "reply_to_message_id": 1728
+    },
+    {
+      "id": 1730,
+      "type": "message",
+      "date": "2026-03-12T03:58:14.000Z",
+      "date_unixtime": "1773287894",
+      "from": "kwinkich",
+      "from_id": "user845165899",
+      "text": "база, последние полгода такого валом. linkedin постепенно умирает в целом, как мне кажется.",
+      "reply_to_message_id": 1708
+    },
+    {
+      "id": 1731,
+      "type": "message",
+      "date": "2026-03-12T14:47:30.000Z",
+      "date_unixtime": "1773326850",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "🔥 Подавайте следующего!\n\n@TheOpenDevTeam провели аудит @open4dev. Это order-book DEX, написанный на tolk.\n\nАудит был проведён при участии @gosunov_ch — он также участник @TheOpenDevTeam.\n\nВ рамках аудита была найдена одна критическая уязвимость, а также несколько уязвимостей послабее.\n\nОбращайтесь к нам — мы проверим вашу безопасность и расскажем об этом. Мы мотивированы, злы на мир, и готовы доказывать.\n\nРаботаем.\n@TheOpenDevTeam x @TheOpenDevBlog",
+      "forwarded_from": "The Open Dev Blog",
+      "forwarded_from_id": "channel2154553559",
+      "forwarded_date": "2026-03-12T14:47:26.000Z"
+    },
+    {
+      "id": 1736,
+      "type": "message",
+      "date": "2026-03-12T15:37:58.000Z",
+      "date_unixtime": "1773329878",
+      "from": "Vlad",
+      "from_id": "user64054676",
+      "text": "а код на гитхабе уже с фиксами? \nпросто пробежался по контрактам, на первый взгляд там минимум еще одна крит уязвимость",
+      "reply_to_message_id": 1731
+    },
+    {
+      "id": 1737,
+      "type": "message",
+      "date": "2026-03-12T15:38:52.000Z",
+      "date_unixtime": "1773329932",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Да, код на гитхабе уже с исправлениями\nЖдём описание крита, будет интересно почитать)",
+      "reply_to_message_id": 1736
+    },
+    {
+      "id": 1738,
+      "type": "message",
+      "date": "2026-03-12T15:40:08.000Z",
+      "date_unixtime": "1773330008",
+      "from": "Vlad",
+      "from_id": "user64054676",
+      "text": "можно здесь? \nя просто не в курсе если протокол уже в мейннете и тд)",
+      "reply_to_message_id": 1737
+    },
+    {
+      "id": 1739,
+      "type": "message",
+      "date": "2026-03-12T15:40:58.000Z",
+      "date_unixtime": "1773330058",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Давай в личку",
+      "reply_to_message_id": 1738
+    },
+    {
+      "id": 1740,
+      "type": "message",
+      "date": "2026-03-12T16:06:43.000Z",
+      "date_unixtime": "1773331603",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Действительно, в результате исправлений по нашему отчету, появился не связанный с нашим отчетом критический баг, который в финальном коде мы не увидели\nЭто наша вина\nСпасибо @shtefo за репорт, правки внесены, по итогам коммента была выплачена bounty",
+      "reply_to_message_id": 1739
+    },
+    {
+      "id": 1741,
+      "type": "message",
+      "date": "2026-03-12T16:12:07.000Z",
+      "date_unixtime": "1773331927",
+      "from": "Vlad",
+      "from_id": "user64054676",
+      "text": "Подтверждаю, ребята приятно удивили выплатив bounty ❤️",
+      "reply_to_message_id": 1740
     }
   ]
 }

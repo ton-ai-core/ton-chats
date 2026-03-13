@@ -10389,3 +10389,13 @@ Khadijat: https://t.me/tarot_gram_bot/horoscope_eng?startapp=c2hhcmVJZD1GbmpSMQ=
 Najah: Good morning guys 👋
 
 Oxoz: Im just starting and having trouble getting started with wallet and renting a miner
+
+— 2026-03-12 —
+
+KUNAL: Hi, I’m facing an issue while deploying a contract on the TON testnet. I’m using Tact with the Blueprint SDK. For the past few days the deployment has not been working properly.  Even when I try deploying an old contract that was previously deployed successfully, it shows no error and everything looks fine, but after a few attempts it says “contract not deployed.”  Is there currently any problem or instability with the TON testnet ?
+
+Lamina_cursor: I had the same thing yesterday. I didn't check today. (reply to 80724)
+
+— 2026-03-13 —
+
+🥷🏿: + (reply to 80735)

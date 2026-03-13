@@ -2747,3 +2747,69 @@ Haracter: Спасибо (reply to 341509)
 Voks / @vokswaldbot / @CarneliaVPN: За что мут на 3 дня (reply to 341509)
 
 username: Я так понимаю тесты вы не писали? (reply to 341508)
+
+— 2026-03-11 —
+
+Farel: делаю простой индексер входящих транзакций на кошельке, подскажите, если получаю транзакцию на пополнение, то на что стоит опираться в ее финализации? количесвто блоков после нее или что-то другое
+
+TON Support: TON достигает окончательности транзакции после подтверждения одного блока мастерчейна, обычно в течение 5 секунд. Как только транзакция появляется в блоке мастерчейна, она становится необратимой. Чтобы надежно подтвердить транзакцию, вам нужно убедиться, что она достигла окончательности в мастерчейне.  Source: Payment processing overview - TON Docs, How to work with Toncoin using AppKit - TON Docs, How to work with Toncoin using WalletKit on the Web platform - TON Docs, API-based retrieval | The Open Network (reply to 341551)
+
+bb: @ devs, @ devs_cis (reply to 341558)
+
+Abuyzzzz 🔪: Ребята почему не могу тон вывести? Пишут ерор
+
+TON Support: При попытке вывести Toncoin "ошибка" может возникнуть по нескольким причинам, включая недостаточное количество Toncoin (код ошибки 37), неверный адрес получателя в исходящем сообщении (код ошибки 36) или если исходящее сообщение не помещается в ячейку (код ошибки 39). (reply to 341567)
+
+Abuyzzzz 🔪: Сервер ерор (reply to 341567)
+
+Mirka: Откуда, где пишет? Нужно больше информации (reply to 341567)
+
+Mikle: ему нужно. не нам) (reply to 341570)
+
+Abuyzzzz 🔪: Портал маркет (reply to 341570)
+
+Mirka: Ну так это нужно в поддержку портал маркета писать (reply to 341573)
+
+Abuyzzzz 🔪: Хорошо
+
+Abuyzzzz 🔪: Напишу
+
+Abuyzzzz 🔪: Спасибо
+
+Mikle: в остальном все норм? может с алика заказы долго идут или еще какие то проблемы? пиши поможем) (reply to 341573)
+
+Abuyzzzz 🔪: Спасибо вам огромное (reply to 341578)
+
+Abuyzzzz 🔪: Первый чат где реально помогают
+
+Abuyzzzz 🔪: Просто сказали мне крч подождать вывода
+
+Mikle: порталс ответил так быстро? (reply to 341581)
+
+Mikle: ты прям везунчик)
+
+Abuyzzzz 🔪: Неа
+
+Abuyzzzz 🔪: Тип в лс написал и помог
+
+Abuyzzzz 🔪: А в порталс платно писать
+
+Abuyzzzz 🔪: У портала сейчас проблемы с сервером?
+
+Mikle: тут правда не стоит писать об этом. это поддержка блокчейна (reply to 341587)
+
+Abuyzzzz 🔪: Окей
+
+Anthony: 💎 TON AI Agent Hackathon is here!   $20,000. Two tracks. Two weeks.  Track 1: Agent Infrastructure ($10K) Build tooling and primitives that help power the next generation of AI applications on TON. This can include wallet integrations, agent coordination, payment flows, developer tools, and other core infrastructure.  Track 2: User facing Agents ($10K) Build AI agents that users can interact with directly inside Telegram. This can include commerce agents, payment bots, assistants, trading tools, automation products, and other practical AI-powered experiences. These agents can be both user-facing products and part of agent-to-agent interactions on TON, including payments, coordination, and trust.  This is a much bigger shift than just one hackathon.  A new stack is emerging • Telegram is the interaction and distribution layer • AI is the execution engine. • TON is the payments, agent-to-agent, and trust layer.  BotFather MAU grew from 3.5M to 7.4M after AI agents started taking off on Telegram. Developers are already moving. Now it’s time to join the best builders on TON.  📆 Hackathon dates: March 11-25  🧠 MCP Docs 💎 For more information and registration click here  Gateway|TON Community | TON Builders | TON Hubs |X | YouTube | LinkedIn TON.org (forwarded from TON Dev News)
+
+&rey: Имейте в виду, что в личные сообщения вечно набиваются скамеры и те, кто к проекту отношения не имеет; требуется проверять через внешние источники. (reply to 341585)
+
+Pavel: из rocksDB читаешь блоки, вот тебе и финальные (reply to 341551)
+
+Валера: «Приветствую! Нужна помощь мейнтейнеров репозитория ton-assets. Мой Pull Request #443 (добавление жетона VVL) висит уже 5-й день. Все автоматические тесты пройдены (зеленые галочки есть), но статус висит на "Expecting approval to run workflow". ​Пожалуйста, кто-нибудь из админов, запустите процесс! Токен уже имеет ликвидность на DEX, люди ждут отображения логотипа. Заранее спасибо! 🙏»
+
+Валера: «Админы, добрый день! Подтвердите, пожалуйста, запуск workflow для токена VVL. Заявка висит 5 дней, автоматические тесты ждут аппрува. Ссылка на PR: https://github.com/ton-blockchain/verifier/pull/443»
+
+&rey: А вы не в тот репозиторий же отправляете PR. (И один из файлов бракованный.)  Верификация жетона – это не про то, виден ли его код (aka "верификация контракта"), а больше про то, что его тикер должны узнавать как отдельный проект. (reply to 341619)
+
+&rey: Вот этот про жетоны: https://github.com/tonkeeper/ton-assets/tree/main/jettons  Отдельно замечу, что не следует в чате дважды подряд повторять сообщение об одном и том же.
