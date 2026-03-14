@@ -10399,3 +10399,13 @@ Lamina_cursor: I had the same thing yesterday. I didn't check today. (reply to 8
 — 2026-03-13 —
 
 🥷🏿: + (reply to 80735)
+
+🥷🏿: Hey chat, still the same?
+
+KUNAL: No  The issue seems resolved now. From the second half of today, contract deployment on the TON testnet using Tact and Blueprint SDK started working again normally. (reply to 80760)
+
+— 2026-03-14 —
+
+Quantum🧠: Sup biggie smalls (reply to 80760)
+
+🥷🏿: Sup 🤙 (reply to 80796)

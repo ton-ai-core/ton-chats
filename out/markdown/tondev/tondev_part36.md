@@ -2813,3 +2813,65 @@ Pavel: из rocksDB читаешь блоки, вот тебе и финальн
 &rey: А вы не в тот репозиторий же отправляете PR. (И один из файлов бракованный.)  Верификация жетона – это не про то, виден ли его код (aka "верификация контракта"), а больше про то, что его тикер должны узнавать как отдельный проект. (reply to 341619)
 
 &rey: Вот этот про жетоны: https://github.com/tonkeeper/ton-assets/tree/main/jettons  Отдельно замечу, что не следует в чате дважды подряд повторять сообщение об одном и том же.
+
+— 2026-03-13 —
+
+Валера: PR #4945
+
+Vladimir: Может дадите им больше времени? (reply to 341770)
+
+Mikle: до делиста осталось 27 минут
+
+Vladimir: И проверите адрес. (reply to 341770)
+
+Валера: Thank you very much. I understand the wallet address is incorrect. Yes, I think I changed it, and now I have a lot of requests there. Please excuse me.
+
+Vladimir: Чат русскоязычного сообщества разработчиков на TON. (reply to 341777)
+
+Mikle: ) зумеры
+
+Иван: смотря какой fabric  смотря какой wallet
+
+Валера: Большое спасибо. Я понимаю, что адрес кошелька указан неверно. Да, кажется, я его изменил, и теперь у меня много запросов. Приношу свои извинения.
+
+Semyon: Валера, ты ИИ? =) (reply to 341781)
+
+Валера: net
+
+Lamina_cursor: У кого-то здесь был опыт поиска команды для своего проекта?
+
+Helper: «Привет! Я инди-разработчик, сделал пазл на чистом JS. Буду рад критике по коду и геймплею» http://t.me/BlockFastManiaBot/BlockFastMania
+
+Mikle: 😂
+
+🍍: А разве блоки не должны проваливаться на уровень ниже, после того как освобождается ряд? (reply to 341793)
+
+Helper: Это не классический пазл по типу тетриса, а больше похож на популярные block puzzle игры. (reply to 341799)
+
+Lamina_cursor: Даж прикольно (reply to 341800)
+
+Ra: Да Даже вакансию выставлял на hh с условием работы за опыт не да деньги (reply to 341785)
+
+Ra: Спустя 3 часа сервис удалил мою вакансию
+
+Lamina_cursor: Причины назвали ? (reply to 341815)
+
+Ra: Конечно По политике их платформы нельзя выставлять вакансии без планов на дальнейшее трудоустройство. Вакансию заблокировали и не вернули деньги (reply to 341818)
+
+Pavel: они с тебя метрику не смогли собрать для отчетов. (reply to 341819)
+
+Lamina_cursor: А есть платформы которые просто помогают найти команду для начинающего проекта ? (reply to 341819)
+
+Ra: У меня там такого успеха не было как на hh   (3 часов хватило) (reply to 341822)
+
+Ra: Что за проект то? (reply to 341822)
+
+Ra: Надеюсь как-то связан с Тоном
+
+Lamina_cursor: Да (reply to 341825)
+
+Semyon: Мне кажется, корректно описать то, что ты хочешь сделать, что за проект, кого ищешь(на какие позиции). Может те, кому это интересно откликнутся. (reply to 341822)
+
+Anthony: 💎 Blockchain Contest, Round 2  Telegram and TON Core announce a new bug bounty contest!  Prize Fund: Up to $100,000 Deadline: 23:59, March 27 (Dubai time) Task: Analyze TON’s new consensus algorithm for potential vulnerabilities.   Reports on other validator bugs are also welcome, but consensus-related issues remain the top priority.  Prize Fund Distribution The total prize fund, up to $100,000, will be allocated based on each participant's overall contribution.  Guidelines and Submissions For detailed instructions, contest rules, and submission guidelines, refer to this document.  Additional Opportunities Winners may have the chance to join the Telegram or TON Core teams. (forwarded from Telegram Contests)
+
+Lamina_cursor: Возможно) (reply to 341827)

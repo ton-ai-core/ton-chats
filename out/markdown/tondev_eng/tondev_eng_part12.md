@@ -411,3 +411,73 @@ Modesayo: Binance will freeze acc first ask questions later
 Engr.: I actually contacted binance cos some of the assets from the scam wallet touched binance exchange but not directly from the scam wallet directly.  Binance wanted a situation where the receiving scam wallet sent ton directly to binance. (reply to 176934)
 
 Modesayo: Yh (reply to 176936)
+
+— 2026-03-13 —
+
+Anthony: Banned (reply to 176929)
+
+Engr.: Wow! This is good news....thank you (reply to 176965)
+
+Engr.: https://t.me/tonstake_it @Tonstak3it_bot @tonstakeitbot @AiBoss2026 one of their admins   These are the ones they started with. You can check them out. (reply to 176965)
+
+XY: Hello
+
+XY: I'm in trouble. I can't put my username on the blockchain. Can an administrator teach me
+
+Anthony: 💎 Blockchain Contest, Round 2  Telegram and TON Core announce a new bug bounty contest!  Prize Fund: Up to $100,000 Deadline: 23:59, March 27 (Dubai time) Task: Analyze TON’s new consensus algorithm for potential vulnerabilities.   Reports on other validator bugs are also welcome, but consensus-related issues remain the top priority.  Prize Fund Distribution The total prize fund, up to $100,000, will be allocated based on each participant's overall contribution.  Guidelines and Submissions For detailed instructions, contest rules, and submission guidelines, refer to this document.  Additional Opportunities Winners may have the chance to join the Telegram or TON Core teams. (forwarded from Telegram Contests)
+
+— 2026-03-14 —
+
+Engr.: TON Cryptocurrency Scam – Evidence Summary Packet  Prepared by: Sam Kanu Estimated victims: 1000+ Jurisdiction: Nigeria Status: Report submitted to law enforcement and exchange compliance teams  ---  1. Executive Summary  This document summarizes evidence of a suspected cryptocurrency fraud conducted through Telegram groups targeting users of the TON blockchain.  Victims were persuaded to send TON cryptocurrency under the promise of staking rewards, investment growth, and refunds. After collecting funds, the operators blocked users, deleted communications, and later resurfaced with claims of launching a "migration portal" and new wallet infrastructure.  Blockchain analysis indicates that victim funds were aggregated into central wallets and later transferred to exchange infrastructure.  The pattern is consistent with known cryptocurrency fraud typologies involving coordinated collection and off-ramping of stolen assets.  ---  2. Telegram Scam Infrastructure  Telegram groups and channels were used to recruit victims and promote the investment scheme.  Observed behavior:  • Promotion of TON staking or investment opportunities • Instructions to transfer TON directly to project wallets • Deletion of victim complaints • Blocking of users requesting refunds • Recent "migration portal" announcement suggesting a second-stage scam  These communication channels have since been banned by Telegram following reports.  ---  3. Blockchain Evidence  Victim Collection Wallet  https://tonscan.org/address/UQAfjKzMv9O077ndaKoPGFjC6bS89LYYyP25A9YXDZSCDzL9  Observed behavior: • Multiple unrelated deposits from different users • Appears to act as initial pool for victim funds  ---  Scam Aggregation Wallet  https://tonscan.org/address/UQBhiYnvLoNeorG3d0JcwGSoXdIpnEzN3iSFjAeWYoTRzRew  Observed behavior:  • Receives transfers from the victim collection wallet • Periodic large outgoing transactions • Functions as the central aggregation hub for the scheme  ---  Exchange-Associated Wallet  https://tonscan.org/address/UQBX63RAdgShn34EAFMV73Cut7Z15lUZd1hnVva68SEl7pGn  Observed behavior:  • High transaction volume typical of exchange deposit wallets • Receives large transfers from the aggregation wallet  ---  4. Confirmed Transaction Evidence  Transaction Hash:  3fbf7b20dd88d9ffda8acdbf3e0fc328256b626d6ba540d04334b0479492d26f  Explorer:  https://tonscan.org/tx/3fbf7b20dd88d9ffda8acdbf3e0fc328256b626d6ba540d04334b0479492d26f  Amount Transferred:  1,639.0729 TON  This transaction demonstrates the movement of funds from scam infrastructure into exchange custody.  ---  5. Transaction Flow Pattern  Observed blockchain pattern:  Victim wallets → Victim collection wallet → Scam aggregation wallet → Exchange deposit wallet → Asset liquidation  This pattern is commonly observed in cryptocurrency fraud schemes.  ---  6. Chronological Timeline  Phase 1 – Telegram investment groups launched promoting TON staking.  Phase 2 – Victims instructed to send TON to project wallets.  Phase 3 – Victim deposits aggregated into central wallet.  Phase 4 – Funds transferred to exchange infrastructure.  Phase 5 – Telegram groups deleted and victims blocked.  Phase 6 – Operators resurfaced claiming a migration portal and new wallet launch.  ---  7. Risk to the TON Ecosystem  The re-emergence of the operators suggests the possibility of a second-stage scam targeting existing victims through:  • fake migration portals • wallet connection requests • additional deposit requests  Without intervention, additional users may be targeted.  ---  8. Requested Actions  Review and flag the identified wallets as suspected scam infrastructure.  Possible ecosystem actions:  • Flag addresses in blockchain explorers • Warn wallet providers and users • Notify exchanges interacting with the wallets • Assist investigators tracing the transactions  ---  9. Additional Evidence Available  Further supporting materials are available upon request:  • screenshots of Telegram scam messages • victim transaction list • scam network diagram • wallet cluster analysis  ---  End of Report
+
+Bohdan: Good. But it will not help. There are still will be people who believe in quick money and put their funds into such projects believing they can invest $10 and get $1000000 in one month (reply to 176994)
+
+Engr.: Everything looked legit until they failed on their promise. What they promised was just a daily interest of 1%. Nothing fishy. Days passed. Weeks, months and nothing good came out of it (reply to 176996)
+
+DeFi: Nothing fishy?!? They offered 365% interest per year and you didn't think that was fishy? LOL (reply to 176997)
+
+DeFi: How would a staking system even be able to offer that? This was obvious fraud from the start and you should have known better. No one is going to recover your funds. It's better to just move on. There are 1000s of scams on TON and all other blockchains as well.
+
+Bohdan: They will spend more money on investigation and still get nothing (reply to 176999)
+
+DeFi: Yep, 100%. It also looks like they only got like $6-7K out of this scam, so no "authorities" are going to care about it either. The entire write up was pointless. (reply to 177000)
+
+Engr.: No, that wasn't the calculation. But that doesn't matter now. (reply to 176998)
+
+DeFi: You said 1% per day. How many days are in a year? (reply to 177002)
+
+Engr.: It was supposed to be for a day. Not 1 year (reply to 177003)
+
+DeFi: This doesn't even make any sense. Clearly you need to get better at doing your own research and understanding crypto before you put your money into something next time. (reply to 177004)
+
+Engr.: Right (reply to 177005)
+
+Bohdan: How much did you lose if not a secret? (reply to 177006)
+
+jizzy019: I have a problem with U tagging it Nigeria. that is a low.  scam perpetrated by anybody on the internet (reply to 176994)
+
+Engr.: This stuff isn't about me (1 individual). Over 1500 persons were scammed on Telegram, using scam staking platform on the TON blockchain.  Scan the scam wallet, you'll have a clue what was lost to the scammers (reply to 177007)
+
+Engr.: Well, one of the admins who was chatting me had his number revealed. I have a screenshot (reply to 177015)
+
+DeFi: I think he means HE is from Nigeria, in all fairness (reply to 177015)
+
+DeFi: you realize that is probably a Telegram number, right? You can buy Telegram privacy numbers (reply to 177019)
+
+DeFi: and no one is going to assign detectives to investigate this case with such a low amount of money being scammed
+
+jizzy019: no. check his chat. he tg the scam as Nigeria. that is not acceptable. (reply to 177020)
+
+DeFi: I saw his chat. He is the one in Nigeria. The scammer might be too, but who cares? Tons of scams originate from Nigeria, let's not pretend otherwise. (reply to 177023)
+
+Bohdan: I see 99% spent 1 ton. So not a big price for the lesson to learn (reply to 177018)
+
+DeFi: Yea, exactly, lol. This is why no "authorities" will get involved. (reply to 177025)
+
+Engr.: You're wrong, bro. Scan that wallet and see for yourself. Tha scam wallet received thousands of ton in a single day. Check from the February 6, 2025 (reply to 177025)
+
+DeFi: You need to let it go, man. You have no practical recourse. (reply to 177028)
+
+Engr.: It's gone. But someone had to stop them from scamming others. (reply to 177029)
+
+DeFi: You can't stop that. This chain is full of scams. All chains are. This chain seems like it has a lot more because scams are a larger portion of overall transactions, but nothing you can do is going to stop that. Scams are everywhere. (reply to 177031)
