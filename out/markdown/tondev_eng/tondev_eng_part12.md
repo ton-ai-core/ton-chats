@@ -481,3 +481,27 @@ DeFi: You need to let it go, man. You have no practical recourse. (reply to 1770
 Engr.: It's gone. But someone had to stop them from scamming others. (reply to 177029)
 
 DeFi: You can't stop that. This chain is full of scams. All chains are. This chain seems like it has a lot more because scams are a larger portion of overall transactions, but nothing you can do is going to stop that. Scams are everywhere. (reply to 177031)
+
+Slava: This chat is for discussing TON technology and development, please refrain from non-relevant topics.
+
+miko: I want a test tone (reply to 177055)
+
+miko: Testnet account
+
+miko: 0QD-9Bq4DsX3C-iSGlgYpZ3ef5Z1vOX8aEoKAnUXs2SfunGi
+
+Teemu | 機器人🪽: Good luck with that
+
+— 2026-03-15 —
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Sent u a few ones   If you need more you can buy TON(testnet) on tonconsole /faucet or get a few free TON on @testgiver_ton_bot (reply to 177071)
+
+miko: Thank you, brother (reply to 177094)
+
+miko: /faucet
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: tonconsole.com/faucet I mean (reply to 177098)
+
+emirdeveloper: The TON ecosystem should remove MEV bots and eliminate unnecessary tokens. MEV bots are hindering the growth of new projects. Even when slippage is as low as 1%, these bots are still able to execute transactions and exploit users. The network must take action to detect and remove these bots to ensure a healthier and fairer environment for all participants.
+
+leo🦴: /faucet

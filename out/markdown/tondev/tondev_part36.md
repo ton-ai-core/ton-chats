@@ -2875,3 +2875,67 @@ Semyon: Мне кажется, корректно описать то, что т
 Anthony: 💎 Blockchain Contest, Round 2  Telegram and TON Core announce a new bug bounty contest!  Prize Fund: Up to $100,000 Deadline: 23:59, March 27 (Dubai time) Task: Analyze TON’s new consensus algorithm for potential vulnerabilities.   Reports on other validator bugs are also welcome, but consensus-related issues remain the top priority.  Prize Fund Distribution The total prize fund, up to $100,000, will be allocated based on each participant's overall contribution.  Guidelines and Submissions For detailed instructions, contest rules, and submission guidelines, refer to this document.  Additional Opportunities Winners may have the chance to join the Telegram or TON Core teams. (forwarded from Telegram Contests)
 
 Lamina_cursor: Возможно) (reply to 341827)
+
+— 2026-03-14 —
+
+miko: Hi
+
+miko: I have a project, can you transfer a lot of money to me? 0QD-9Bq4DsX3C-iSGlgYpZ3ef5Z1vOX8aEoKAnUXs2SfunGi
+
+miko: 0QD-9Bq4DsX3C-iSGlgYpZ3ef5Z1vOX8aEoKAnUXs2SfunGi
+
+Mikle: Я за 25 тестовых тоны платил настоящие, а че так можно было шоли? 😞 (reply to 341873)
+
+Иван: нет ты не написал please (reply to 341873)
+
+Максим: всем доброе утро и хорошего дня!
+
+Lamina_cursor: И сколько отдал ? (reply to 341881)
+
+Mikle: вроде 2 тона не помню
+
+Lamina_cursor: А что тестировал ? (reply to 341889)
+
+Mikle: непомню вроде контракт (reply to 341890)
+
+Lamina_cursor: А что за контракт ? (reply to 341891)
+
+Mikle: не помню вроде ханихот или как их там (reply to 341892)
+
+Lamina_cursor: Хм (reply to 341893)
+
+username: привет  где можно просматривать ExternalLogMessage?  https://docs.ton.org/languages/tolk/features/message-sending#createexternallogmessage
+
+TON Support: ExternalLogMessages (исходящие внешние сообщения) отправляются из смарт-контракта внешнему актору. Они используются в основном для логирования и видны всем, но нет гарантии, что кто-либо вне блокчейна будет их обрабатывать.  Эти логи могут быть отправлены в /dev/null, записаны на диск, сохранены в индексированной базе данных или отправлены не-блокчейн средствами (по электронной почте/в Telegram/SMS). Конкретная обработка остается на усмотрение данного узла.  Source: Outbound external messages - TON Docs, Sending messages | The Open Network, External messages | The Open Network (reply to 341933)
+
+username: так себе ответ мне они нужны где-то в ton-api (reply to 341934)
+
+Оскар: смотреть с транзакции, которая посылает external out, этот месседж будет лежать среди других out месседжей в этой транзакции если просто визуально глянуть, то тот же tonviewer их показывает как "стрелочки в никуда", как пример https://tonviewer.com/transaction/831e67ea76be27b9466145aeea8b8fcd570226788c8abc792dba2aaeab9e86a3 (reply to 341933)
+
+username: спасибо
+
+Mirka: Есть какой-то best-practice реализации контракта, который работает с жетоном? Условно, контракт локер жетона должен хранить адрес своего жетон валлета, чтобы позже отправить жетон.  В StateInit этот адрес не запихнуть(тогда получится, что адрес жетон воллета зависит от адреса локера и наоборот), а создавать метод, который ставит адрес жетон валлета как-то странно: потом этот метод будет просто висеть.
+
+TON Support: Отличный вопрос! Документация описывает именно эту проблему. Существует два стандартных подхода:  1. Trusted deployer (подход Bidask): В этом подходе вы храните trustedJettonWallet как nullable address?. После развертывания контракта вы отправляете ему сообщение SetTrustedJettonWallet с заранее рассчитанным адресом. Этот метод принимает адрес только один раз: проверяется условие storage.trustedJettonWallet != null, и повторные вызовы игнорируются. Да, метод "висит" после инициализации, но это является стандартной практикой.  2. TEP-89 on-chain (подход DeDust): После развертывания вы отправляете InitContract. Контракт самостоятельно запрашивает адрес у JettonMinter через provide_wallet_address, получает take_wallet_address и сохраняет его. Это более децентрализованный вариант, так как не требует доверия к развертывающему.  Документация прямо указывает, что невозможно захардкодить адрес jetton wallet в StateInit из-за циклической зависимости. Поэтому оба подхода используют nullable поле и инициализацию после развертывания.  Source: On-chain Jetton processing (reply to 341944)
+
+TON Support: Отличный вопрос! Документация описывает именно эту проблему. Существует два стандартных подхода:  1. Trusted deployer (подход Bidask): В этом подходе вы храните trustedJettonWallet как nullable address?. После развертывания контракта вы отправляете ему сообщение SetTrustedJettonWallet с заранее рассчитанным адресом. Этот метод принимает адрес только один раз: проверяется условие storage.trustedJettonWallet != null, и повторные вызовы игнорируются. Да, метод "висит" после инициализации, но это является стандартной практикой.  2. TEP-89 on-chain (подход DeDust): После развертывания вы отправляете InitContract. Контракт самостоятельно запрашивает адрес у JettonMinter через provide_wallet_address, получает take_wallet_address и сохраняет его. Это более децентрализованный вариант, так как не требует доверия к развертывающему.  Документация прямо указывает, что невозможно захардкодить адрес jetton wallet в StateInit из-за циклической зависимости. Поэтому оба подхода используют nullable поле и инициализацию после развертывания.  Source: On-chain Jetton processing (reply to 341944)
+
+TON Support: Вы абсолютно правы, что адрес Jetton Wallet нельзя напрямую записать в `StateInit` из-за циклической зависимости (адрес Jetton Wallet зависит от адреса контракта-локера, а адрес локера может зависеть от его `StateInit`, который, в свою очередь, содержал бы адрес Jetton Wallet).  В документации TON для решения этой проблемы предлагаются два основных подхода, которые считаются best-practice:  1.  Подход "Trusted Deployer" (пример Bidask):     *   Контракт изначально хранит адрес `trustedJettonWallet` как опциональный (`address?`).     *   После развертывания контракта, вы отправляете ему специальное сообщение `SetTrustedJettonWallet`. Это сообщение содержит заранее рассчитанный адрес Jetton Wallet, который принадлежит этому контракту.     *   Метод `SetTrustedJettonWallet` реализован так, что он принимает адрес только один раз. Проверяется условие `storage.trustedJettonWallet != null`, и если адрес уже установлен, повторные вызовы игнорируются.     *   Да, этот метод будет "висеть" после первоначальной установки, но это общепринятый способ инициализации такого рода данных.  2.  Подход "TEP-89 on-chain" (пример DeDust):     *   После развертывания, контракт отправляет сообщение `InitContract`.     *   В ответ на это, контракт самостоятельно запрашивает адрес своего Jetton Wallet у Jetton Minter через `provide_wallet_address` и получает его через `take_wallet_address`, после чего сохраняет этот адрес.     *   Этот подход считается более децентрализованным, так как контракт сам динамически определяет свой Jetton Wallet, не полагаясь на "доверенного развертывателя".  Оба этих подхода обходят проблему циклической зависимости, используя инициализацию адреса Jetton Wallet уже после развертывания контракта.  Source: [On-chain Jetton processing](https://docs.ton.org/contract-dev/on-chain-jetton-processing) (reply to 341944)
+
+Mirka: Кто там разрабатывает этого бота? Он на измененния сообщений триггерится. А еще ссылку старую дает:  https://docs.ton.org/develop/func/smart-contracts/jettons#on-chain-jetton-processing вместо https://docs.ton.org/contract-dev/on-chain-jetton-processing
+
+Tesla: разве такое возможно? (reply to 341971)
+
+Oleg: во что превратился девелоперский чат TON за каких-то 2 года...
+
+Tonening: А причем здесь чат тон дев?) вам вообще не сюда. (reply to 341971)
+
+Андрей: Админов поувольняли, комбота прогнали, приставили какой то ИИ помощника - и сидите наслаждайтесь 🥶 (reply to 341973)
+
+Lamina_cursor: Тож акк тут забанили ? (reply to 341971)
+
+GafarSky: Может еще есть варианты?  Вопрос к тем кто прочтет.  Какие есть варианты хостеров которых можно оплачивать криптой? Желательно USDT TON или просто TON (reply to 341329)
+
+— 2026-03-15 —
+
+Max: пишу скрейпер на python, с одним ip банят почти сразу. как люди это решают нормально
