@@ -505,3 +505,31 @@ miko: /faucet
 emirdeveloper: The TON ecosystem should remove MEV bots and eliminate unnecessary tokens. MEV bots are hindering the growth of new projects. Even when slippage is as low as 1%, these bots are still able to execute transactions and exploit users. The network must take action to detect and remove these bots to ensure a healthier and fairer environment for all participants.
 
 leo🦴: /faucet
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: It’s difficult to do anything; the market is free by design, it’s not a bug. anyone can buy and sell whenever they want, under whatever conditions they want.   Instead of restricting its use, I think we should educate for awareness and build anti-MEV (reply to 177100)
+
+&rey: You might be interested in the upcoming Subsecond Upgrade, which effectively shortens the window for any race of transactions.  On the other hand, "removing MEV bots" and "eliminating unnecessary(???) tokens" are impossible in The Open Network. (reply to 177100)
+
+ㅤㅤㅤ: Hey everyone,   I'm trying to run the Cocoon client-runner from source on Kali Linux. I managed to compile everything and get past the initial config parsing and zero_state mismatch errors (cleared the local db cache and used the official cocoon-launch script with a clean INI config).   However, I'm currently completely stuck at the synchronization phase. The client keeps looping through liteservers, force-resetting them, and throwing the following errors: - [Error : 500 : LITE_SERVER_NETWORK(during last block synchronization)] - [PosixError : Connection reset by peer : 104] - [Error : 652 : timeout for adnl query]  It seems like none of the liteservers from the default global.config.json are responding, or they are dropping the ADNL connections.   Has anyone successfully synced the client recently? Are there any working/alternative liteserver configs available, or is this a known network overload issue?   Thanks in advance!
+
+sarah: Hi friends
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hello, I built a lite client to connect to cocoon and yes I sync the client without problem (reply to 177136)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: https://github.com/TONresistor/cocoon-lite-client
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Basically, I just extracted the client and built commands on top of it.   I also made a web UI not yet released. I’ll push it to the remote soon.
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: To summarize the flow about how Cocoon works, you need to generate a Cocoon wallet, fund it, run the client, it will automatically “stake” the funds to cocoon smc, then established a connection to a Cocoon proxy and you’re ready.   However there is no documentation and it’s not totally clear on how it’s works (any infos? Share it pls) (reply to 177136)
+
+ㅤㅤㅤ: Thanks a lot for the detailed explanation! > I've already funded my Cocoon wallet, but I'm currently stuck getting the proxy connection to work. I figured that with the network just launching and so many users trying to connect at once, the GPU workers might be overloaded, resulting in those Connection refused errors. (reply to 177143)
+
+sarah: Hello everyone
+
+ㅤㅤㅤ: I will definitely clone your repo and try your lite-client out right now. Thanks for sharing this! (reply to 177153)
+
+∆lieπ FlΦw: Can help with our integraciones in ton? For Ai Tor and miniapp? (reply to 177143)
+
+— 2026-03-16 —
+
+Marsina: does anyone know if the Subsecond upgrade will be done this year?
