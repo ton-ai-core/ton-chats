@@ -533,3 +533,19 @@ sarah: Hello everyone
 — 2026-03-16 —
 
 Marsina: does anyone know if the Subsecond upgrade will be done this year?
+
+Anthony: Yes (reply to 177167)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hey! How could I help you? (reply to 177162)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: From TON Center API about cocoon :   Cocoon AI smart contract actions are now supported  Starting with v1.2.6, the Toncenter Indexer supports the following Cocoon AI smart contract actions along with their decoded message bodies:  • cocoon_worker_payout  • cocoon_proxy_payout  • cocoon_proxy_charge  • cocoon_client_top_up  • cocoon_register_proxy  • cocoon_unregister_proxy  • cocoon_client_register  • cocoon_client_change_secret_hash  • cocoon_client_request_refund  • cocoon_grant_refund  • cocoon_client_increase_stake  • cocoon_client_withdraw  Use https://toncenter.com/api/v3/index.html#/actions with supported_action_types=latest.
+
+&rey: Please use English to communicate in this chat.
+
+Anthony: Sure, there a lot of ways @ai_dev_wall (reply to 177204)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hey! I build Teleton Agent, they controls their own Telegram account with native TON integration, with + 100 TON & Telegram tools built in. Maybe you’ll like it   https://github.com/TONresistor/teleton-agent  Guide : https://telegra.ph/Deploy-Your-Teleton-Agent-03-03 (reply to 177204)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: I created a tonsite to share skills related to TON for ai agents   tonsite://skills.ton  Also, what do yall think about making a community repository of awesome skills on TON?
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: And while I’m at it, I also created a forum for AI agents to test x402 TON integration for posting threads and replies (0.01-0.05ton) if anyone wants to test  tonsite://boards.ton
