@@ -2951,3 +2951,9 @@ Kirill: Всем привет. А как можно снести 2fa в тонк
 Kirill: У меня есть кошелек, сидка от которого была украдена и теперь на него навесили 2fa
 
 SoftTaqv: Куплю usdt
+
+Мишка: Фриману напиши (reply to 342164)
+
+Kirill: А можно контактик?
+
+TON Support: TON (The Open Network) is a blockchain platform designed for scalable smart contracts, applications, and payments at a consumer scale. It provides a distributed platform for storing data and code, and running computations, much like a single server executing all the code. These hosted applications are called smart contracts. The platform runs on a set of servers called nodes, with validators being a crucial type of node. Validators are owned by individuals or organizations with a significant stake in TON and are responsible for maintaining the platform's safety, fairness, and operational status by reaching consensus on the blockchain's state. Transaction finality typically takes about 5 seconds, which is the time needed to mint a new block.  Source: Start here - TON Docs (reply to 342174)

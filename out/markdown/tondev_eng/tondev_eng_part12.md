@@ -549,3 +549,29 @@ Anthony: Sure, there a lot of ways @ai_dev_wall (reply to 177204)
 ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: I created a tonsite to share skills related to TON for ai agents   tonsite://skills.ton  Also, what do yall think about making a community repository of awesome skills on TON?
 
 ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: And while I’m at it, I also created a forum for AI agents to test x402 TON integration for posting threads and replies (0.01-0.05ton) if anyone wants to test  tonsite://boards.ton
+
+— 2026-03-17 —
+
+Daniil: as far as I know, user-bots aren't clearly allowed by telegram and can result an account deletion (reply to 177207)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Telegram prohibits spam and abuse, not third-party clients; MTproto is intentionally open, what is prohibited is its misuse. so far I have no problems of frozen / banned / limited accounts, nor affected by FloodWait (reply to 177250)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: The only grey zone might be the treatment of messages for LLM context in public group chat
+
+MCE/24/2354: Solana is already subsecond but front running and sandwiches are rampant. (reply to 177116)
+
+Code: this is an ill-informed message, name a single chain where there is no MEV?  Also you can protect against MEV on solana it just costs more  MEV is NOTHING to do with chain latency or blocktimes - e.g. Bitcoin has extremely slow blcks (like every 30 minutes) and is full of MEV (reply to 177253)
+
+MCE/24/2354: Yes.  Did I claim otherwise? Obviously whoever controls ordering can extract value. (reply to 177257)
+
+MCE/24/2354: I'm just clarifying that shortening the window doesn't do much if validators have better info and control ordering.
+
+MCE/24/2354: Protecting your txns against MEV by paying more via block builders is extracting MEV. It's just less aggressive and predictable. (reply to 177257)
+
+Tim: The difference is that in ton you can only change order of external messages. Internal messages order is idempotent. So you need to brute force mine some hashes to achieve better internal message ordering.  Changing time from user clicking send button to including message on chain from 3 seconds to 200 milliseconds makes cost of hash attack much higher (reply to 177253)
+
+Tim: But not impossible of course
+
+MCE/24/2354: That's really elegant. (reply to 177270)
+
+Алексей: #jobopening #softwaredeveloper #web3 #fullstack #remote  Job Opening: Web3 Software Developer Company: Lagrange Labs Salary Range: $5,000 to $7,000 Work Arrangement: Remote, Full-time  Responsibilities: — Developing complex decentralized applications (dApps) integrated with Lagrange ZK coprocessors. — Writing “bridge” code between smart contracts and user interfaces. — Implementing blockchain interaction logic on the client and server sides. — Working on developer tools (SDK, CLI) that simplify the use of Lagrange technologies. — Participating in the full development cycle: from architecture design to deployment and monitoring.  Requirements: — 3+ years of software development experience. — Excellent knowledge of TypeScript and experience with modern frameworks (React/Next.js). — Proficiency with Web3 tools: Hardhat/Foundry, Viem/Ethers. — Basic experience writing smart contracts in Solidity. — Ability to understand third-party code and quickly master new libraries and protocols.  Contact: @artem_kul99
