@@ -575,3 +575,27 @@ Tim: But not impossible of course
 MCE/24/2354: That's really elegant. (reply to 177270)
 
 Алексей: #jobopening #softwaredeveloper #web3 #fullstack #remote  Job Opening: Web3 Software Developer Company: Lagrange Labs Salary Range: $5,000 to $7,000 Work Arrangement: Remote, Full-time  Responsibilities: — Developing complex decentralized applications (dApps) integrated with Lagrange ZK coprocessors. — Writing “bridge” code between smart contracts and user interfaces. — Implementing blockchain interaction logic on the client and server sides. — Working on developer tools (SDK, CLI) that simplify the use of Lagrange technologies. — Participating in the full development cycle: from architecture design to deployment and monitoring.  Requirements: — 3+ years of software development experience. — Excellent knowledge of TypeScript and experience with modern frameworks (React/Next.js). — Proficiency with Web3 tools: Hardhat/Foundry, Viem/Ethers. — Basic experience writing smart contracts in Solidity. — Ability to understand third-party code and quickly master new libraries and protocols.  Contact: @artem_kul99
+
+— 2026-03-18 —
+
+∆lieπ FlΦw: Whats your speciality? (reply to 177172)
+
+— 2026-03-19 —
+
+Bryan: Hi, everyone. I am hoping to link up with some builders to talk about some ideas
+
+Tony: Hi, I'm new here
+
+Tony: Is it possible to buy non-NFT with TON? I'd like to know what TON coin can do now
+
+Tony: I'm newbie of TON dev. Just bought my first TON domain yesterday. Wanna dive deep into the capability of TON
+
+TON Support: Toncoin can be used for several purposes beyond just NFTs. Here's what you can do with Toncoin:     Payments: Businesses can accept TON and Jettons (tokens on TON) as payment for goods and services. There are payment processing systems that allow for invoice-based deposits and unique deposit addresses. The TON Pay SDK helps developers integrate these payment options into web applications, Telegram Mini Apps, bots, and backend services. This means you can use Toncoin to buy non-NFT items from merchants who support TON payments.    Staking: You can lock Toncoin to earn rewards and contribute to the network's security. Options include liquid staking (with a minimum of approximately 1 TON), single nominator pools (requiring over 300,000 TON), and various third-party staking providers.    Gas fees: Toncoin is used to pay for transaction fees and the execution of smart contracts on the TON network.    DeFi: Liquid staking tokens, such as tsTON, can be utilized within various decentralized finance (DeFi) protocols.  Source: Payment processing overview, TON Pay SDK overview, Staking overview (reply to 177351)
+
+Bryan: To clarify, I'm not a dev of any kind. I can't code. I couldn't even use A.I. to build an app.   I do, however, want to talk to a builder about a.possible mini app (reply to 177349)
+
+Tony: May I ask why you couldn't use AI? it supports natural language (reply to 177354)
+
+Tony: Have you tried Replit for prototype? It's so good
+
+Tony: I use it to create a prototype with a few words describing what I want this morning https://ton-domain-finder--tonyqus.replit.app/
