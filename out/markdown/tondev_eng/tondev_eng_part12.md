@@ -599,3 +599,21 @@ Tony: May I ask why you couldn't use AI? it supports natural language (reply to 
 Tony: Have you tried Replit for prototype? It's so good
 
 Tony: I use it to create a prototype with a few words describing what I want this morning https://ton-domain-finder--tonyqus.replit.app/
+
+∆lieπ FlΦw: Hi can help with ton development?
+
+L30n1d: Sure, what's up? (reply to 177367)
+
+Bryan: I really don't know anything about building/programming. I could use AI but I wouldn't know how to explain how to build and edit the app. Knowing the jargon is part of one's ability to explain.   Either way,  I want to talk with a dev about the steps I should take to make this app happen (reply to 177355)
+
+Tony: Sounds reasonable. There are not many Claude skills for TON development. That can be a gap of AI. ETH/SOL development is more popular
+
+Lilac: I have a question guys, I am not a Dev, but I want to do my telegram mini app right. Pls is it advisable to start the token integration process as soon as you start coding the mini app or you wait till it gets traction
+
+&rey: This chat is relevant for the aspect of how to write code for the jetton so that it has all the functions you want, it will not provide a ready business plan. (reply to 177379)
+
+Lilac: This is not me asking for a business plan Just advice (reply to 177380)
+
+&rey: Many applications can handle TON itself and not some jetton which is not compatible with any other app, I'd say.
+
+Michaelzy: hey guys can i now integrate ton pay directly in my app for ton/crypto payments.

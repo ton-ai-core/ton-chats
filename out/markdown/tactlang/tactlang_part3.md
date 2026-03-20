@@ -10437,3 +10437,9 @@ Faizee: Sorry 🙏🏻
 Andrey: dead group
 
 🥷🏿: Hey everyone. I’m a developer with 8+ years of experience.  I built a real project: an AI bot that automatically collects and posts daily news to a Telegram group and will grow the channel on its own.  If you’re tired of vibe-code fluff and info noise — check it out 👇 https://t.me/chainPulseCh  More details and a demo coming soon. Stay tuned.
+
+— 2026-03-19 —
+
+Lantar: Very glad to join this channel.
+
+Lantar: What has to be broken before you can use it? Guess plz.

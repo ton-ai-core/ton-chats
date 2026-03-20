@@ -12215,3 +12215,29 @@ Anthony: 💎 Blockchain Contest, Round 2  Telegram and TON Core announce a new 
 章鱼哥: Fragment的api
 
 AmirHossein: Hello friends, This is my new Game.
+
+— 2026-03-19 —
+
+Kum: hi
+
+Rancher | video call me for proof: gm
+
+Adsgram: GM
+
+Anthony: The TON AI Agent Meetup Tour is going multi-city across Asia! ✨🚀  We're bringing together builders, developers, and AI enthusiasts to explore why Telegram + TON is the most powerful platform for deploying AI agents in the wild.  Keynotes. Live demos. Hands-on workshops. Real deployment.  Co-hosts include Alibaba Cloud, Fudan MBA Blockchain Club, TinTinLand Dev Community & many more  📍 Tour stops: ✅ Hangzhou - Mar 13 ✅ Shanghai - Mar 14 ✅ Macau - Mar 15 🔜 Beijing - Mar 21 Register Here 🔜 Shenzhen -  Mar 22 Register Here  Still two stops to go. Come build with us.  TON Community  |  TON Builders  |  TON Hubs  | X  | YouTube | LinkedIn  | TON.org (forwarded from Toncoin)
+
+— 2026-03-20 —
+
+Spring: 我我的信息怎么不能发送？
+
+TON Support: 信息发送失败可能是由于资金不足、消息传输值耗尽或消息过大等问题。其他原因可能包括消息结构错误、模式标志冲突或出站消息StateInit中存在无效库。 Source: Sending messages | The Open Network (reply to 119089)
+
+Spring: 能了
+
+Spring: 虽然是中文群，但是仍然显示English为什么？
+
+TON Support: 翻译的源文本遵循英语语法规则，这可能不适用于其他语言。在翻译时，重要的是要使文本适应目标语言的习惯，而不是逐字翻译。 Source: Translation style guide | The Open Network (reply to 119092)
+
+Spring: 希望看到中文
+
+YukiVerse: 你有啥问题呀😁？可以帮你解释 (reply to 119092)
