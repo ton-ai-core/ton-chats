@@ -617,3 +617,57 @@ Lilac: This is not me asking for a business plan Just advice (reply to 177380)
 &rey: Many applications can handle TON itself and not some jetton which is not compatible with any other app, I'd say.
 
 Michaelzy: hey guys can i now integrate ton pay directly in my app for ton/crypto payments.
+
+— 2026-03-20 —
+
+Slava: the best starting point is the TON Pay overview in docs https://docs.ton.org/payments/overview (reply to 177407)
+
+sarah: Hi friends
+
+Michaelzy: thank you. but previously we were only allowed to have only stars payment in our mini app. I'm asking if the launch of ton pay now means we can also have ton payment directly in the mini app via the use of ton pay (reply to 177419)
+
+Slava: TON Pay does not change Telegram’s platform payment rules. for in-app digital purchases inside tg, stars are still the required payment method   https://core.telegram.org/bots/payments-stars?utm_source=chatgpt.com (reply to 177427)
+
+Michaelzy: ok thank you very much (reply to 177428)
+
+Andrey: I did it like this: For every transaction, I created an escrow smart contract payment (it is created by the buyer, but I control it) to ensure I received the exact amount in TON and limited it to 5 minutes timewise. (reply to 177407)
+
+Michaelzy: ok makes sense. But then do you handle wallet pop up and build the transaction payload for the user to confirm in his wallet. Or do you simply display the contract address to the user and ask user to pay to it? (reply to 177432)
+
+Andrey: I pass the code and initialization data to the buyer. (reply to 177433)
+
+Andrey: My escrow contract can: accept a payment, refund, make a partial refund,  and also store the transaction status. The transaction identifier is the smart contract address. (reply to 177433)
+
+Michaelzy: okay i understand. Thank you (reply to 177435)
+
+Andrey: This approach is good if you need to have two phases for the purchase.
+
+Michaelzy: yeh i think i'll use this approach. Is your contract open source lol? been months since i wrote tact (reply to 177437)
+
+Andrey: I wrote it in Tolk. The code is closed source. (reply to 177440)
+
+Andrey: There's another idea — a bridge smart contract. The idea is this: Attach signed data to each incoming payment. In the smart contract, verify the signature and extract the expected amount in TON and the timeout. Check against that and forward further. If it doesn't pass the check, bounce it back. (reply to 177440)
+
+Andrey: This is if you don't need two phases for the purchase.
+
+Michaelzy: okay i'll consider this as well thanks
+
+Dave: Hello Devs!
+
+Anthony: TON Rust Node is now public.  RSquad has open-sourced an alternative implementation of a TON node written in Rust and designed for containerized environments.  The project is currently in public beta. The repository includes the node source code, Helm charts, Grafana dashboards, and operational tooling.  Repository Docs (forwarded from TON Dev News)
+
+— 2026-03-21 —
+
+sarah: SOL
+
+Ammar: What are the best hosting options for Telegram bots?
+
+Marsina: aws (reply to 177508)
+
+Ammar: When link (reply to 177509)
+
+Celestial Being: We undertake full-stack development projects. Feel free to contact us for any requirements.
+
+Ammar: Free (reply to 177509)
+
+Celestial Being: Hey streaming app promoters:  Anyone running promo for Android subscription apps (all-in-one movies/TV shows, like aggregated Netflix/Disney content) to English/global TG users?  Got a solid app that's performing strong locally (high renewals  $20-30 per sale tiered higher volume), now scaling overseas. What channels/strategies are working best right now?  Thanks for any tips!

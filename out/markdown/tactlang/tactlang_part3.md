@@ -10443,3 +10443,7 @@ Andrey: dead group
 Lantar: Very glad to join this channel.
 
 Lantar: What has to be broken before you can use it? Guess plz.
+
+— 2026-03-20 —
+
+Ricky: Anyone interested in Chinese language?
