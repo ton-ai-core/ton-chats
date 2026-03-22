@@ -671,3 +671,15 @@ Celestial Being: We undertake full-stack development projects. Feel free to cont
 Ammar: Free (reply to 177509)
 
 Celestial Being: Hey streaming app promoters:  Anyone running promo for Android subscription apps (all-in-one movies/TV shows, like aggregated Netflix/Disney content) to English/global TG users?  Got a solid app that's performing strong locally (high renewals  $20-30 per sale tiered higher volume), now scaling overseas. What channels/strategies are working best right now?  Thanks for any tips!
+
+∆lieπ FlΦw: Estamos mejorando el bot y nuestra miniapp de Telegram (reply to 177370)
+
+L30n1d: And what help do you need? (reply to 177534)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: TON Network is multi-chain.  TON Sites already let you host dynamic websites over ADNL, a .ton domain resolves to a cryptographic address, and traffic is routed p2p with native encryption.  I realized that by adding a few lines of code to the TON Proxy, you could resolve not just .ton domains, but .eth, .sol, .bnb, .btc, .crypto, almost any blockchain's naming system. ADNL doesn't verify which chain an address was registered on. It just routes packets between crypto addresses.   The result:  So I tested it. .eth & .sol websites served through TON's ADNL network. Not IPFS pages. Real websites with backends. served P2P via TON.   Why this matters: Every blockchain built a domain name system (ENS, SNS, BNS...). None of them built the infrastructure to actually serve websites through those domains. TON did, with ADNL, RLDP and potentially with garlic routing.  One proxy. Every blockchain. Same decentralized web.  How it works : The DNS owner stores an ADNL address in their blockchain's DNS record (ENS text record, SNS name registry data, BNS zone file TXT, etc.). The reverse proxy doesn't care which blockchain the domain was registered on, so it just accepts any ADNL connection and forwards to your HTTP backend. Same binary, same config, whether it's a .ton, .sol, or .eth domain.  About the proxy client, it just needs a resolver for each chain. a single file that reads the ADNL address from the chain's RPC. The rest of the pipeline (ADNL connection, RLDP transport) is the same for every chain. Zero changes to the TON network itself.  The vision ?  why not building an open-source ADNL Proxy and Reverse Proxy as the Universal Standard for the Decentralized Web ? Any blockchain can plug in by adding a resolver for their naming system. one file, one PR. TON can rule them all.  TON isn't just a blockchain. It's the web layer for all of web3.  What do you think ? Your opinion matters, feel free to share it.
+
+Marsina: I was just thinking, TON could easily support options trading after the sub-second upgrade. someone smarter than me should take this on
+
+— 2026-03-22 —
+
+∆lieπ FlΦw: Primero introducir nuestra IA y los agentes de ton al bot de Telegram y completar la miniapp porque no funciona la Wallet ahora sí antes estaba funcionando (reply to 177536)

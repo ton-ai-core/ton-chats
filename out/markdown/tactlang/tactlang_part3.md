@@ -10447,3 +10447,7 @@ Lantar: What has to be broken before you can use it? Guess plz.
 — 2026-03-20 —
 
 Ricky: Anyone interested in Chinese language?
+
+— 2026-03-21 —
+
+Celestial Being: Hey streaming app promoters:  Anyone running promo for Android subscription apps (all-in-one movies/TV shows, like aggregated Netflix/Disney content) to English/global TG users?  Got a solid app that's performing strong locally (high renewals  $20-30 per sale tiered higher volume), now scaling overseas. What channels/strategies are working best right now?  Thanks for any tips!
