@@ -3183,3 +3183,51 @@ username: Это просто нейрослоп (reply to 342579)
 — 2026-03-22 —
 
 HackToLuck.ton: Вопрос не по теме TON, но т.к тут много разработчиков, есть шанс на получение полезной информации.  Можете, пожалуйста, подсказать хорошие, проверенные сервисы для покупки VPS? Желательно в ЛС, т.к тут скорее всего запрещено отправлять ссылки
+
+TON Support: Когда createTonPayTransfer вызывает ошибку "Failed to create TON Pay transfer", это указывает на ошибку API. Вам следует проверить, не отсутствует ли ключ API или недействителен ли он, проверить сетевое соединение и проверить значения параметров, такие как неотрицательные суммы и действительные адреса. Вы можете проверить базовую ошибку HTTP, перехватив ошибку и записав error.cause.  Источник: How to send payments using TON Pay React hook (reply to 342611)
+
+tamir: да (reply to 342559)
+
+Hqx5: Я думаю надо попробовать это сделать, если у тебя есть такая возможность.  Это может стать отличной возможностью привлечь внимание сторонников других блокчейнов к TON.  Не жди одобрения или согласования. Если с тобой до сих пор не связались, значит не заинтересованы или будут те же вилы, только сбоку. (reply to 342575)
+
+Hqx5: Вот только как адекватные люди будут бороться с негодяями в этом концепте?) (reply to 342577)
+
+Andrey: Проблема в том что в тоне всего 2000 (!) блокчейн нод, а работающих тон сайтов и то меньше, в отличии от тор сети где сотни тысяч узлов
+
+Hqx5: А вдруг в других блокчейнах будет больше желающих создать "TON сайт" со своими доменами. (reply to 342619)
+
+MrPistrics: Но в этом и идея: не конкурировать с тор по количеству нод, а использовать TON как транспорт для всех веб3-доменов. Сейчас у ENS, SNS и других систем есть имена, но нет инфраструктуры для сайтов. TON её уже частично решил. Если это обернуть в простой прокси, то пользователи могут прийти из других экосистем, а не только из TON. И тогда масштаб начнёт расти уже из-за спроса (reply to 342619)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: I wasn’t asking for approval; I’m already working on it, But this is something that should be worked on as a community.  Unfortunately, I’m surprised that the dev community gives so little importance to Web3. (reply to 342617)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: You have to start somewhere and then grow. You can’t start with hundred of thousand. There is a beginning to everything.   + We can create relay nodes for garlic routing. We can build payment channels for payments.   As example I I built a TON proxy with garlic routing and I bootstrapped it with a few servers as PoC. (reply to 342619)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: It’s not that we can’t do , it’s seem that you just don’t want it
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Given that TON is the full-stack Web3 blockchain, and that this is what makes it unique compared to other blockchains.. why abandoning it ?  TON could become the layer 1 of web3
+
+TON Support: TON is not being abandoned. Instead, it is actively maintained as a comprehensive Web3 ecosystem that goes beyond just a blockchain. This includes the TON Blockchain, TON Network, TON Storage, TON Proxy, TON DHT, TON DNS, and TON Payments. This full-stack approach is what makes TON unique.  Source: Web3 services overview (reply to 342634)
+
+TON Support: TON is not being abandoned. It is actively maintained as a comprehensive Web3 ecosystem, which includes the TON Blockchain, TON Network, TON Storage, TON Proxy, TON DHT, TON DNS, and TON Payments. This full-stack approach is precisely what makes TON unique and positions it as a potential layer 1 for Web3. The documentation does not suggest any abandonment of this vision.  Source: Web3 services (reply to 342634)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Please look at the “web3 service” link . It’s proof (reply to 342636)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: They erased the whole documentation for TON proxy , TON storage etc
+
+TON Support: The "Web3 services" link on the TON documentation describes TON as a comprehensive ecosystem that combines several components beyond just a blockchain. These include:  *   TON Blockchain: A multi-blockchain platform with smart contracts. *   TON Network: A peer-to-peer network for accessing the blockchain and supporting distributed services. *   TON Storage: Distributed file storage. *   TON Proxy: A network proxy/anonymizer layer. *   TON DHT: A distributed hash table. *   TON DNS: A human-readable naming service. *   TON Payments: A platform for instant micro-payments.  This information from the official documentation supports the statement that TON is a full-stack Web3 blockchain and is not being abandoned.  Source: [Web3 services](https://ton.org/docs/learn/foundations/services) (reply to 342637)
+
+TON Support: The documentation for TON Proxy, TON Storage, and other related services like TON DNS, TON Payments, and TON Network is still available, but it is presented as a consolidated overview on the Web3 services page. While there isn't extensive, dedicated documentation with detailed setup guides for each of these services, the information describing their function within the TON ecosystem is present.  You can find information about TON Proxy and TON Storage on the Web3 services page. (reply to 342638)
+
+Hqx5: Возможно потому-что полная анархия в web3 довольно скользкая тема.  Думаю с твоим мнением и предложениями ознакомилось много достойных умов.  На этом лучше сделать перерыв в обсуждении темы, пока нас не покарали.  Чат для обсуждение технических вопросов TON на русском языке. (reply to 342633)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: The digital resistance is inevitable  Извините за спам на английском языке. (reply to 342645)
+
+3011.ton | 𝟛𝟘𝟙𝟙.ton | 3️⃣0️⃣1️⃣1️⃣.ton: Всем привет. Подскажите, может кто сталкивался, второй день бот мониторинга TON DNS на Телетоне не запускается. WinError 121 и 64 выдаёт. Винда 7, пару дней назад такой ошибки не было. В настройках ничего не менялось. VPN и прокси не использовались. Территориально в России.
+
+Oleg: возможно стоит попробовать с впном (reply to 342648)
+
+MrPistrics: Телетон использует ConnectionTcpFull, некоторые сетевые фильтры могут блокировать этот тип трафика. Попробуй сменить его на более гибкий вариант (reply to 342648)
+
+MrPistrics: from telethon import TelegramClient, connection  client = TelegramClient(     'session_name',      api_id,      api_hash,      connection=connection.ConnectionTcpIntermediate )
+
+MrPistrics: Чтобы не произошло - отключай антивирус (reply to 342648)

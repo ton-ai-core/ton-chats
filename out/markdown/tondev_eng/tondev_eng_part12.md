@@ -683,3 +683,19 @@ Marsina: I was just thinking, TON could easily support options trading after the
 — 2026-03-22 —
 
 ∆lieπ FlΦw: Primero introducir nuestra IA y los agentes de ton al bot de Telegram y completar la miniapp porque no funciona la Wallet ahora sí antes estaba funcionando (reply to 177536)
+
+testertesterov: Hello  ... "dependencies": {     "@ton/mcp": "^0.1.13",     "@ton/walletkit": "0.0.10"   }, ...  npm install && npm run build && npm pack  Result: npm error code E404 npm error 404 Not Found - GET https://github.com/ton-connect/bridge-sdk/releases/download/v0.2.6/tonconnect-bridge-sdk-0.2.6.tgz npm error 404 npm error 404  '@tonconnect/bridge-sdk@https://github.com/ton-connect/bridge-sdk/releases/download/v0.2.6/tonconnect-bridge-sdk-0.2.6.tgz' is not in this registry.
+
+testertesterov: It's already working now. Thanks everyone.
+
+∆lieπ FlΦw: Anybody can help build in ton? We got our ai agent and miniapp
+
+Đức ▪️: I have a TON address in uninit status when I sent some USDT from v5r1 wallet to it and now I can't access that address can you help me get the balance back
+
+TON Support: When an account is in uninit status, it means it has a balance but no code deployed on it yet. You can restore an uninit account by paying off any storage debt and attaching state_init.  If the account code and its persistent data have not changed, it's possible to restore it. However, if they have changed, the last state might be lost. The frozen status, unlike uninit, stores the hash of the last account state, allowing for restoration to that state.  To deploy the code to an uninit address, you typically send any transaction from the wallet to that address. This can be a transaction to any address, including the wallet itself, with some amount of TON.  It is critical to verify the recipient and amount for on-chain transfers, as they are irreversible. If you're experimenting, use the testnet.  Source: Account status - TON Docs (reply to 177613)
+
+Đức ▪️: I sent TON to that address but still can't initialize
+
+TON Support: An account in uninit status means it has a balance but no code deployed on it. To initialize it, the code must be provided in the init field of the incoming message. Sending just TON to the address will move it to an uninit status if it was previously nonexist, but it won't deploy the code unless the state_init is also included in the message.  Outbound external messages cannot initialize any contract.  It's important to note that wallets in TON are smart contracts. You should not send funds to a wallet address that you cannot initialize. Addresses are derived deterministically based on the contract's initial state.  Source: Initialization - TON Docs (reply to 177615)
+
+&rey: So does it have balance of at least 0.1 TON (regardless of amount of USDT) now? You can see that in an explorer. (reply to 177615)
