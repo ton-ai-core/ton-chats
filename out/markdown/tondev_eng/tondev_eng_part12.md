@@ -699,3 +699,17 @@ TON Support: When an account is in uninit status, it means it has a balance but 
 TON Support: An account in uninit status means it has a balance but no code deployed on it. To initialize it, the code must be provided in the init field of the incoming message. Sending just TON to the address will move it to an uninit status if it was previously nonexist, but it won't deploy the code unless the state_init is also included in the message.  Outbound external messages cannot initialize any contract.  It's important to note that wallets in TON are smart contracts. You should not send funds to a wallet address that you cannot initialize. Addresses are derived deterministically based on the contract's initial state.  Source: Initialization - TON Docs (reply to 177615)
 
 &rey: So does it have balance of at least 0.1 TON (regardless of amount of USDT) now? You can see that in an explorer. (reply to 177615)
+
+— 2026-03-23 —
+
+Andrey: TON pay  does this work now?
+
+Andrey: https://tonpay.tech/dashboard
+
+king: Hi! I'm looking for a freelance developer to build a 1vs1 skill-gaming platform. Technical Stack: • Smart Contracts: TON Blockchain (Tact/FunC). • Frontend: Telegram Mini App (TMA). • Payments: Native USDT integration on TON (Single currency system). Key Requirements: • Implementation of a secure Escrow system for match stakes. • Basic dispute resolution logic. • Clean and fast UI inside Telegram. We are looking for a lean MVP to validate the core wagering mechanic. Budget: Milestone-based (payment upon delivery of each phase). DM me with your GitHub and any TON Smart Contracts you’ve personally deployed. Individual freelancers only, no agencies.
+
+E²: Hi, DM me (reply to 177679)
+
+— 2026-03-24 —
+
+Lilac: Pls is there a reason why you don't want agencies ?   Cost or what ?? (reply to 177679)
