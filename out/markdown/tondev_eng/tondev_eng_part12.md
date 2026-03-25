@@ -713,3 +713,7 @@ E²: Hi, DM me (reply to 177679)
 — 2026-03-24 —
 
 Lilac: Pls is there a reason why you don't want agencies ?   Cost or what ?? (reply to 177679)
+
+Alex |: Thanks for your question! 🤝  Here is the latest TON Pay documentation: https://docs.ton.org/ecosystem/ton-pay  The dashboard is currently in beta and not yet available for public use. We will share an update once it is released. (reply to 177676)
+
+&: DM me (reply to 177679)

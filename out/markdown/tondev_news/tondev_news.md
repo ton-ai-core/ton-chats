@@ -715,3 +715,7 @@ Unknown: 💎 TON AI Agent Hackathon is here!   $20,000. Two tracks. Two weeks. 
 — 2026-03-17 —
 
 Unknown: 🚀 TON MCP Documentation is now live  The official documentation for TON MCP is now available.  TON MCP provides a standard way to connect AI agents to TON, enabling them to perform common blockchain operations. If you’re building AI agents or exploring integrations on TON, MCP provides a clear starting point.  📚 Read the docs
+
+— 2026-03-24 —
+
+Unknown: 24 hours left. 79 projects in. Submissions close March 25, 11:59 PM UTC 🧠  Track 1: Agent Infrastructure ($10K) Track 2: User Facing Agents ($10K)  Submit Here 👈  WalletKit | Alpha AppKit | TON Coin | TON Builders | TON Hubs |X | YouTube | LinkedIn |TON.org

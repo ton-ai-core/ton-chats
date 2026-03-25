@@ -12263,3 +12263,7 @@ Z: 你说哪里英文？ (reply to 119092)
 YukiVerse: 💎 TON AI Agent Hackathon 来了！  📆 黑客松时间：3月11日 - 3月25日 [红包]$20,000 奖金 · 双赛道并行 · 为期两周  🙋报名链接：https://identityhub.app/contests/ai-hackathon 📃MCP文档：https://docs.ton.org/ecosystem/ai/mcp  🔥赛道 1：Agent 基础设施（$10,000） 构建能够驱动下一代 TON 应用的工具和底层组件，包括钱包集成、Agent 协调、支付流程、开发者工具及其他核心基础设施。  🔥赛道 2：面向用户的 Agent（$10,000） 开发用户可在 Telegram 内直接交互的 AI Agent，包括电商 Agent、支付机器人、助手、交易工具、自动化产品及其他实用的 AI 应用体验。这些 Agent 既可以是面向用户的产品，也可以是 TON 上 Agent 之间进行支付、协调和信任交互的组成部分
 
 YukiVerse: AI线上黑客松还有三天截止啦，大家积极参与呀，已经有不少华语区团队提交啦。
+
+— 2026-03-24 —
+
+茭白: 大家好

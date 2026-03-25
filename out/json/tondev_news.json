@@ -2346,6 +2346,19 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "🚀 TON MCP Documentation is now live\n\nThe official documentation for TON MCP is now available.\n\nTON MCP provides a standard way to connect AI agents to TON, enabling them to perform common blockchain operations.\nIf you’re building AI agents or exploring integrations on TON, MCP provides a clear starting point.\n\n📚 Read the docs"
+    },
+    {
+      "id": 276,
+      "type": "message",
+      "date": "2026-03-24T13:01:22.000Z",
+      "date_unixtime": "1774357282",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "24 hours left. 79 projects in. Submissions close March 25, 11:59 PM UTC 🧠\n\nTrack 1: Agent Infrastructure ($10K)\nTrack 2: User Facing Agents ($10K)\n\nSubmit Here 👈\n\nWalletKit | Alpha AppKit | TON Coin | TON Builders | TON Hubs |X | YouTube | LinkedIn |TON.org",
+      "media_type": "photo",
+      "file": "photos/photo_276.jpg",
+      "width": 1280,
+      "height": 1280
     }
   ]
 }
