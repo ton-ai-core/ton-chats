@@ -3351,3 +3351,103 @@ Pavel: С кода отправляю const internalMsgs: MessageRelaxed[] = [];
 Оскар: когда интерналы собираешь, помимо to и value добавь ещё поле bounce: false (reply to 342894)
 
 Pavel: Спасибо, получилось (reply to 342895)
+
+— 2026-03-25 —
+
+Anthony: Sub-second finality: how to adapt your project  TON is rolling out Catchain 2.0, a consensus upgrade targeting sub-second block finality on mainnet in early April 2026.  What's changing: – Block interval: ~2.5s → 200–400ms – Finalization lag: ~10s → ~1s – Throughput: up to ~5 blocks/sec  But a faster chain alone won't help users if apps still rely on old API.  We've published a step-by-step adoption guide covering:  🔹 Wallets & dApps: switch to TON Center Streaming API v2. Handle all four statuses: pending → confirmed → finalized → trace_invalidated.  🔹 Self-hosted nodes & liteservers: update to the latest release with Catchain 2.0 support before mainnet activation.  🔹 Indexers: prepare for up to 10x more blocks/sec. Connect to testnet and verify no lag accumulates over 30+ minutes.  Testnet already runs at sub-second speed. Test there now.  MyTonWallet and tonscan.org already use Streaming API and have nearly halved their reaction time, even before the mainnet upgrade.  📖 Full guide: How to adopt sub-second finality  Start adapting today. If your app isn't ready, users won't notice any improvement. (forwarded from TON Dev News)
+
+bywthlo ❄️: Всем привет, пытаюсь создать бота, но почему-то операции стали помечаться как спам.   Как то можно обойти/убрать данный label?   Receiver: https://tonviewer.com/UQDFzokcA3RFO50z5IZ3UeQLJaVj6tQEWoX9L1N4usRjmx4B Мой кошелек: https://tonviewer.com/UQAN8M_tqBILD4koVMBUFPNFOEVlFmZxvIse06SBQ83ayTHr
+
+Fargo: много мелких транзакций, пиши в поддержку Tonkeeper/TonAPIЮ, метка на уровне индексаторов а не блокчейна (reply to 342939)
+
+bywthlo ❄️: Только что еще раз отправил, уже метки нет. Я так понял это через время уходит,да? (reply to 342940)
+
+Fargo: Да, но она может и снова появится, это ни на что не влияет, только вопросы от бирж или п2п могут быть к этому. У тебя просто 0-05 тона туда сюда прыгает, отсюда и метка (reply to 342941)
+
+Fargo: либо реже но большим пулом отправляй, либо через поддержку пробуй снять, либо уже как есть)
+
+bywthlo ❄️: Да думаю вкрайняк новый кош создам и все
+
+Vadim: Привет! Подскажите, как тестировать фронтенд с блокчейном локально? Он использует toncenter http api и tonapi, нужно хотя бы что-то из этого тестировать с реальными http запросами.  Стоит использовать docker toncenter/ton-local или есть http обертки для @ton/sandbox например? Или что-то еще?
+
+TON Support: TON Sandbox (@ton/sandbox) — это локальный эмулятор блокчейна, который позволяет тестировать смарт-контракты из TypeScript без развертывания в реальной сети и без запуска узла блокчейна. Он предоставляет полную среду тестирования, которая имитирует блокчейн TON.  Хотя TON Sandbox предназначен для тестирования смарт-контрактов, он может быть полезен для фронтенда, если вы используете @ton/sandbox для запуска локального эмулятора, а затем взаимодействуете с ним через HTTP-обертки.  Однако, если вам нужно тестировать фронтенд с реальными HTTP-запросами к toncenter http api и tonapi, и вы хотите использовать Docker, то toncenter/ton-local может быть более подходящим вариантом, так как он предоставляет локальный узел TON, с которым можно взаимодействовать по HTTP.  Source: Overview - TON Docs (reply to 342953)
+
+Vadim: Я могу обращаться к @ton/sandbox по http? Что можно использовать, чтобы обращаться по http к нему? (reply to 342954)
+
+TON Support: TON Sandbox (@ton/sandbox) — это эмулятор, который позволяет тестировать смарт-контракты из TypeScript без развертывания в реальной сети или запуска узла блокчейна.  Из доступной информации следует, что @ton/sandbox сам по себе не предоставляет прямого HTTP API. Он работает как локальный эмулятор, с которым вы взаимодействуете через TypeScript.  Если вам нужен HTTP-интерфейс для локального тестирования, то:     `toncenter/ton-local` (Docker образ) более подходит, так как он предоставляет локальный узел TON, с которым можно взаимодействовать по HTTP, имитируя `toncenter http api` и `tonapi`.    Если вы используете @ton/sandbox и вам нужен HTTP-доступ, возможно, вам придется создать свою собственную HTTP-обертку, которая будет взаимодействовать с @ton/sandbox и предоставлять необходимые конечные точки для вашего фронтенда. Однако это не является встроенной функцией @ton/sandbox.  Таким образом, для прямых HTTP-запросов к локальному блокчейну лучше использовать toncenter/ton-local или аналогичные решения, которые предоставляют HTTP API.  Source: Overview - TON Docs (reply to 342955)
+
+Volodya: На verifier.ton.org появляется ошибка, когда пытаюсь контракты добавить (скрин ошибки):  Большой queryId с бекенда приходит, сделал фикс в этом PR, может кто нибудь глянуть и вмержить если все ок https://github.com/ton-blockchain/verifier/pull/450
+
+Olya Nemo: Смотрите цепочка: разработчики блокчейна создают инструменты для колеров экосистемы, которые на их основе строят сервисы с нужными услугами для юзеров. Задача маркетологов - донести до юзеров  ассортимент и преимущества де-услуг.  То есть привлечь аудиторию - не прямая задача разработчиков, а следствие маркетинга. (reply to 342578)
+
+username: Ton foundation очевидно не может или не хочет вкладывать ресурсы во все подряд, концентрируясь на перспективных направлениях (reply to 342960)
+
+Olya Nemo: К сожалению, не вижу стратегии развития экосистемы, где эти бы перспективные направления получали бы практическое воплощение. (reply to 342962)
+
+Павел: Здравствуйте
+
+Lamina_cursor: А если я хочу посмотреть какие комиссии будут выходить ? (reply to 342954)
+
+TON Support: Чтобы определить комиссии за транзакции, вы можете оценить использование газа в TON-контрактах. Фактические комиссии будут зависеть от конфигурации блокчейна, кода смарт-контракта и других факторов.  Когда контракт получает сообщение, плата за хранение и газ будет вычтена из баланса контракта, если стоимость сообщения превышает определённую сумму.  Источник: Message modes cookbook (reply to 342976)
+
+&rey: Ну, sandbox их тоже считает. Там и конфиг настоящей сети обычно используется, так что с точностью до storage fee (которая от времени зависит) всё совпадёт. (reply to 342976)
+
+Lamina_cursor: Спасибо (reply to 342980)
+
+Tim: Не всегда… (reply to 342980)
+
+Tim: Есть кейсы когда какие-то фи отличаются и никто не знает почему
+
+Lamina_cursor: А testnet в этом плане насколько представителен ? (reply to 342980)
+
+&rey: Можно точную ячейку конфига из сети взять и положить через https://github.com/ton-org/sandbox/?tab=readme-ov-file#networkblock-configuration. (reply to 342997)
+
+GafarSky: В TON Pay разве нет варианта отправки массовых транзакций?  на пример при выплате реф бонусов? (reply to 342977)
+
+TON Support: Highload-кошельки поддерживают параллельную обработку сообщений, что позволяет объединять несколько выводов средств в одну транзакцию для снижения комиссий и повышения пропускной способности. Вы можете отправить до 254 сообщений в одной транзакции.  Source: Toncoin payments processing - TON Docs, How to send a batch of transfers - TON Docs (reply to 343003)
+
+Fargo: В тоне можно через апишку, в заездах нет (reply to 343003)
+
+GafarSky: а подтверждать их как?  ни как?  и на вопрос не ответили , то есть в TON Pay такого функционала нет? (reply to 343004)
+
+TON Support: В документации TON Pay нет специального раздела о массовых (bulk) транзакциях. Тем не менее, TON Pay предоставляет два механизма подтверждения отдельных транзакций:  1.  Проверка статуса по API: Вы можете использовать getTonPayTransferByBodyHash или getTonPayTransferByReference. Поле status будет принимать значения: pending, success, error. 2.  Webhooks: TON Pay отправит POST-запрос с событием transfer.completed на ваш URL. Подпись запроса проверяется через HMAC-SHA256 (X-TonPay-Signature).  Для массовой обработки вы можете создавать трансферы в цикле с помощью createTonPayTransfer, сохранять reference для каждого, а затем отслеживать их статусы через webhooks или путем периодического запроса API.  Source: Проверка статуса транзакции, Webhooks TON Pay, Создание трансфера (reply to 343006)
+
+GafarSky: и сколько таких транзакий в цикле можно в секунду отправить? (reply to 343007)
+
+TON Support: TON способен обрабатывать миллионы транзакций в секунду. Однако, при использовании TON Center API, существуют ограничения скорости запросов.  По умолчанию, без использования API ключа, лимит составляет 1 запрос в секунду. С использованием API ключей, лимиты могут быть увеличены:    План Free: 1 ключ на сеть, 10 запросов в секунду.    План Plus: 3 ключа на сеть, 25 запросов в секунду.    План Advanced: 10 ключей на сеть, 100 запросов в секунду.    План Enterprise: индивидуальные лимиты.  Если вы отправляете запросы быстрее установленного лимита, API вернет ошибку 429 (Ratelimit exceed).  Для отправки большого количества транзакций рекомендуется использовать Highload кошельки, которые позволяют отправлять 100, 1000 или даже 100 000 транзакций одновременно, используя уникальный query_id вместо последовательного seqno, что позволяет параллельную обработку без конфликтов.  Source: Rate limits - TON Docs, Highload wallets - TON Docs, The Open Network - TON Docs (reply to 343008)
+
+GafarSky: ну то есть опять все за деньги..  почему интересно не внедрили в TON Pay массовые трназакции.. старались старались и недостарались... (reply to 343009)
+
+🐼 Sild: кажется когда делали конструкцию, которая позволяет в мемпул засылать несколько сообщений на один кошелек с разными секно, что-то лишнего накрутили - и перестали валидировать, собственно, секно  отсылаю через тонлиб некорректное (+1) - успешно возвращается хеш   если указать меньше - то сервер ругается если указать +500 - ругается  ожидаю где-то в монорепе константу "SEQNO_FRAME" 😄   или оно всегда так было?
+
+Tim: какой фрейм (reply to 343013)
+
+Tim: там же просто делается эмуляется поверх не только мастерчейн стейта, но и поверх стейта с примененными другими экстерналами
+
+🐼 Sild: так а чего оно тогда с одним секно ругается, а с другими не ругается (молча игнорирует сообщение)?
+
+🐼 Sild: sent_seqno: 20, error: TLClientResponseError { code: 500, msg: "LITE_SERVER_UNKNOWN: cannot apply external message to current state : Too old seqno: msg_seqno=20, wallet_seqno=2441" } sent_seqno: 2421, error: TLClientResponseError { code: 500, msg: "LITE_SERVER_UNKNOWN: cannot apply external message to current state : Too old seqno: msg_seqno=2421, wallet_seqno=2441" } sent_seqno: 2440, error: TLClientResponseError { code: 500, msg: "LITE_SERVER_UNKNOWN: cannot apply external message to current state : Too old seqno: msg_seqno=2440, wallet_seqno=2441" } sent_seqno: 2442, hash: TonHash[91D734D8CC5BEA455C6AFE666C1C3EDEF15619CD07E7A12D5AD0103ACBB0FFAA] sent_seqno: 2461, error: TLClientResponseError { code: 500, msg: "LITE_SERVER_UNKNOWN: cannot apply external message to current state : Too new seqno: msg_seqno=2461, wallet_seqno=2441" }
+
+Keep: Если кому-то нужен разработчик на любую задачу фронтенд и бек, пишите в лс.
+
+Pavel: Привет. Подскажите как fee эстимиривать? У меня через эндпоинт в 3 раза меньше получается, через расчет в 10раз больше
+
+TON Support: Для оценки комиссий вы можете использовать эндпоинт estimateFee. Он принимает такие параметры, как address, body, ignore_chksig, init_code и init_data. В ответ эндпоинт возвращает fwd_fee, gas_fee, in_fwd_fee и storage_fee как для комиссий получателя, так и для комиссий отправителя.  Источник: Estimate Fee - TON Docs (reply to 343044)
+
+Pavel: Не возвращает (reply to 343045)
+
+— 2026-03-26 —
+
+viebu: Тонкипер не посылает ивент на выход в тонконнект. Если с wallet или MyTonWallet я подключусь к условному фрагменту, гетгемсу, любому другому сайту с тон коннектом и после из списка приложений в кошельке отключу этот сайт, выход на нём произойдёт незамедлительно. В случае с тонкипером же это не так Если интересно (reply to 342770)
+
+Gleb: Тоже обратил внимание на это   Это опасная уязвимость (reply to 343051)
+
+viebu: Ну уязвимость или не уязвимость думайте сами, но раньше этого не было, и в идеале не должно быть сейчас
+
+GafarSky: может кто подскажет, как попасть в тон пэй дашборд чтоб получить ключи и т.п ?
+
+TON Support: Чтобы получить доступ к Merchant Dashboard TON Pay и получить ключи API, откройте дашборд и войдите в свой аккаунт мерчанта. Затем перейдите в раздел Developer → API Keys, чтобы сгенерировать или скопировать ключ API. Source: How to build a transfer - TON Docs (reply to 343055)
+
+GafarSky: ошибка при попытке открыть страницу с дашбордом (reply to 343056)
+
+GafarSky: ?? (reply to 343056)

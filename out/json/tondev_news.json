@@ -2359,6 +2359,31 @@
       "file": "photos/photo_276.jpg",
       "width": 1280,
       "height": 1280
+    },
+    {
+      "id": 278,
+      "type": "message",
+      "date": "2026-03-25T14:11:52.000Z",
+      "date_unixtime": "1774447912",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Nodectl Update v0.3.0 & Helm Update v0.2.0\n\nControl got sharper. Visibility got deeper.\n\nNodectl Update v0.3.0 \n\nWhat’s inside:\n— REST API authentication\nLogin, token revocation, auth middleware, login rate limiting, token-based access, and new auth / api login CLI commands.\n\n— Election status dashboard\nElection lifecycle tracking, stake totals, and election metadata in both API and CLI.\n\n— Validator keys listing\nValidator keys, election IDs, timestamps, statuses, key IDs, and ADNL addresses available in both API and CLI.\n\n— Kubernetes DNS support\nControl server addresses can use internal DNS names, not just IPs.\n\n— Swagger auth support\nSwagger UI includes Bearer token authentication with an Authorize button.\n\n— New flags for filtering and output\n--filter=<name> for elections and validators, plus --format=json|table for config list commands.\n\nAlso improved:\nBounceable wallet addresses in config wallet ls, smoother endpoint round-robin, safer wallet listing when TON API is unavailable, auth hot reload, and extended version output\n\nFull changelog: https://github.com/RSquad/ton-rust-node/releases/tag/nodectl%2Fv0.3.0\n\nHelm Update v0.2.0\n\nWhat’s inside:\n— Flexible Service & Network settings\nAdds service.nodePort, service.clusterIP, service.loadBalancerIP, and service.externalTrafficPolicy for fine-grained networking.\n\n— NetworkPolicy Update \nnetworkPolicy.allowCIDRs has been removed. Use networkPolicy.allowFrom instead, which supports standard selectors (ipBlock, podSelector, namespaceSelector).\n\nFull changelog: https://github.com/RSquad/ton-rust-node/releases/tag/helm%2Fnodectl%2Fv0.2.0",
+      "forwarded_from": "TON Rust Node | News",
+      "forwarded_from_id": "channel3709914628",
+      "forwarded_date": "2026-03-25T09:30:56.000Z"
+    },
+    {
+      "id": 279,
+      "type": "message",
+      "date": "2026-03-26T00:08:07.000Z",
+      "date_unixtime": "1774483687",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "TON AI Agent Hackathon is closed ⭐\n\n150+ submissions. Wallet integrations, agent coordination protocols, escrow primitives, voice agents, freelance marketplaces, trading bots. Builders came in with everything.\n\nJudging underway. Results next week.\n\n👉 View the submissions here\n\nTON Community |  TON Builders  |  TON Hubs  | X  | YouTube | LinkedIn  | TON.org",
+      "media_type": "photo",
+      "file": "photos/photo_279.jpg",
+      "width": 2160,
+      "height": 2160
     }
   ]
 }
