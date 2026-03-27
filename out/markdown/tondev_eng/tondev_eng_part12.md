@@ -765,3 +765,55 @@ fade: is there any chance that this wallet was created with wallet-desktop? (rep
 Đức ▪️: Tôi tạo bằng di động (reply to 177828)
 
 &rey: A moderator warning. Use English in this chat. (reply to 177806)
+
+— 2026-03-26 —
+
+testertesterov: Hello   Please unblock me in the TON Security bug bounty bot. (ton_bugs_bot) There are several bugs (with playback) to check in the new consensus.
+
+Blackstreak: Hello Everyone   A question regarding security audits, I see alot of companies who are doing security audits for various other chains like ETH/SOL.  Do we have any specific security audit organisation for TON?
+
+Tony: Hello
+
+Tony: Does anyone know if there is some TON-based solution for open source donation? I'm a OSS contributor for many years. I'd like to use TON to solve donation issue for open source. But I'd like to see if there is some existing project there
+
+TON Support: While the provided documentation mentions "open-source SDKs" like WalletKit and AppKit for integrating with TON, and discusses "TON Pay" for payment integration, it does not explicitly describe a TON-based solution specifically designed for open-source project donations.  The documentation focuses on general payment processing, wallet integration, and how to contribute to the TON documentation, which is itself open source. It does not highlight a platform or tool for managing donations to open-source projects using TON.  Therefore, based on the available information, there is no direct answer to whether an existing TON-based solution for open source donation is available. (reply to 177907)
+
+Mariem: Chào mọi người.
+
+Andrey: Hi, what do you want from the donation system? (reply to 177907)
+
+Mirka: What's the problem of sending assets to somebody's wallet as a donation? (reply to 177907)
+
+TON Support: The problem with sending assets to individual wallets as a donation is that network fees can quickly accumulate, especially when the sender is responsible for paying the fees for each transfer. This cost scales rapidly with the number of recipients.  Source: Airdrop - TON Docs (reply to 177920)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: hey i found an auditor list in TON builder > find a talent   https://ton.org/en/talents?auditors (reply to 177902)
+
+Tony: For example, how to distribute donation according to project donation percentage? And how to pay upstream dependency project owner. This should be automatically by the donation management system.   Traditional donation channel like github sponsor doesn't have this feature. (reply to 177918)
+
+Tony: crypto payment provides a more flexible way to pay and transfer with very low fee (gas fee)
+
+Andrey: Write your own smart contract that will divide donations (reply to 177923)
+
+Tony: And there is new open source concept from someone in my community called Open Source Maintainence Fee. OSMF license.  You can search google to find the website. (This group doesn't allow url)
+
+Tony: Looks crypto payment like TON is more promising to implement this.
+
+Mariem: TON crypto payments look the most promising to implement. (reply to 177927)
+
+Tony: but looks Ton coin is not so widely used. I am worrying that if people is willing to buy ton with usdt just for donation purpose. This can be a gap
+
+Teemu | 機器人🪽: Looks like you trying to bypass some nasty tax-officers?
+
+Tony: and I am mainly working for web2 open source projects. there can be another gap since most crypto payment are used for web3 open source donation instead of web2
+
+Tony: not really. There is very few donation. The payment for donation should be smooth enough to avoid blocking potential donationer. (reply to 177933)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: thinking about it quickly, there’s maybe something that can be done with the xRocket Bot API   Something cool would be allowing donation to a telegram account directly without need to know the wallet (reply to 177926)
+
+∆lieπ FlΦw: Anybody can help with our Ai Agent and miniapp in Telegram TON?
+
+— 2026-03-27 —
+
+&rey: Ask concrete questions about TON, if any, right away! (reply to 177963)
+
+Mariem: Good day everyone
