@@ -817,3 +817,37 @@ Tony: not really. There is very few donation. The payment for donation should be
 &rey: Ask concrete questions about TON, if any, right away! (reply to 177963)
 
 Mariem: Good day everyone
+
+Anthony: 🫧 Tolk v1.3: moving toward a general-purpose language  After the previous post, this release may feel less surprising — but still a bit unusual.   The reason is simple: Tolk is no longer evolving only as a contract language. It is becoming a foundation for the toolchain I described earlier.  This release focuses on features beyond contracts — introducing general-purpose capabilities needed for libraries and frameworks.  ✅ Notable changes in Tolk v1.3:  1. Type array<T> — dynamically sized arrays backed by TVM tuples. 2. Type unknown — a TVM primitive with unknown contents. 3. Type lisp_list<T> — nested two-element tuples (FunC-style). 4. Type string — text chunks backed by snaked cells, with StringBuilder for concatenation. 5. Compile-time string methods: "str".crc32(), "str".sha256(), etc. 6. Null coalescing operator — ?? like in TypeScript. 7. Import path mappings — import "@third_party/utils". 8. Compile-time reflection via @stdlib/reflection. 9. Custom serializers now support structures and generics. 10. The compiler now reports multiple errors at once. 11. Focused on stability — fixed dozens of minor issues found by LLM fuzzing. 12. Extensive internal refactoring towards being stateless and multi-threaded.  PR on GitHub with detailed info.  ✔ Arrays: redesigned tuples  Working with TVM tuples has been fully redesigned. There is now array<T> — a dynamically sized container:   // array<int> var numbers = [1, 2, 3];  // array<Point?> var optPoints = [     Point { x: 10, y: 20 },     Point { x: 30, y: 40 },     null, ];   - methods push, get(idx), etc. - any T, including sub-arrays like array<array<int>> - automatically serialized into snake cells - max size: 255 (TVM limitation)  ✔ The `unknown` type  Raw TVM tuple exists, but it's no longer built-in. It's just an array... of something unknown:   type tuple = array<unknown>   The unknown gives access to the untyped TVM stack, fully integrated into the type system.  ✔ The `string` type  TVM has no strings — only binary slices. Strings were always just a convention over binary data.  Now Tolk has strings built-in.   // string val str = "hello";   - strings are cells (not slices) - long strings are snake cells under the hood - methods calculateLength, equalTo, etc. - on-chain/off-chain encoding for jettons and NFTs to comply with TEPs  StringBuilder encapsulates cell manipulation:   StringBuilder.create()       .append(content.commonContent)       .append(individualNftContent)       .build()   By the way, compile-time functions now look cleaner: "str".crc32() and so on.  ✔ Import path mappings  The import statement now accepts @aliases:   import "@common/jettons" import "@third_party/math-lib"   This is similar to widely used path mappings in TypeScript.  ✔ Compile-time reflection  Many additions in v1.3 make sense not for contracts, but for frameworks. For example, take a look at one of reflect features:   fun log(msg: string, loc: SourceLocation = reflect.sourceLocation()) {      debug.print(loc.lineNo); }  fun demo() {      log("a");    // prints K — current line no      log("b");    // prints K+1 }   Why is this useful? It allows errors to point to the original call site — for example, expect(...) in tests — by carrying source location at compile time.  ⚙️ A huge portion of internal refactoring  A lot of work has been done inside the compiler core, peephole optimizations, and memory management.   Final result: tolk compiler is now thread-safe and re-invokable within a single process. It will be embedded into an external toolchain written in Rust, communicating via FFI.  ... And more  Dozens of independent improvements. Combined, they cover the requirements not only for contracts, but for abstract libraries and the upcoming toolchain.  Feel free to check the description on GitHub.  🌳 And one more thing! Wallet-v5, compiled with Tolk v1.3, reduces gas usage by 30% compared to FunC. As of Tolk v1.0, the savings were "only" 20%. Take a look at new benchmarks. (forwarded from TOLK lang)
+
+∆lieπ FlΦw: Im asking concrete 2 questions aboyt ton (reply to 177965)
+
+Slava: docs.ton.org  can u elaborate on your question? (reply to 177963)
+
+∆lieπ FlΦw: Claro dime (reply to 178003)
+
+Tony: That should work. Narrow the gap for donators who doesn't know web3 well. The wallet address and network protocol is out of their knowledge. (reply to 177937)
+
+:): can domains be bought with Ton
+
+TON Support: Yes, domains can be bought with Toncoin. Primary sales of .ton domains occur through a decentralized open auction at dns.ton.org. Registered domains must be renewed annually by sending 0.015 TON to the domain contract.  Source: TON DNS & domains | The Open Network, TON DNS - TON Docs (reply to 178020)
+
+Tony: Yes, of course (reply to 178020)
+
+:): Can sites be hosted on them
+
+Tony: domain is domain, hosting is hosting
+
+Tony: it's same in web2 world
+
+Tony: Ton domain maps to ton address
+
+:): thanks
+
+:): Dm (reply to 177679)
+
+Andrew: Is there any development team here, who can write NFT contracts using Tolk?
+
+— 2026-03-28 —
+
+Marsina: just get yourself a bunch of agents. its 2026 (reply to 178033)
