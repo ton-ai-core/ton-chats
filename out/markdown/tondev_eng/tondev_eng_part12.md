@@ -851,3 +851,21 @@ Andrew: Is there any development team here, who can write NFT contracts using To
 — 2026-03-28 —
 
 Marsina: just get yourself a bunch of agents. its 2026 (reply to 178033)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: https://docs.ton.org/foundations/web3/ton-sites (reply to 178023)
+
+:): wow (reply to 178059)
+
+Arthur: Sup (reply to 178033)
+
+— 2026-03-29 —
+
+TON Support: What is TON blockchain?
+
+Andrey: You should know (reply to 178089)
+
+TON Support: TON is a blockchain platform designed for scalable smart contracts, applications, and payments at a consumer scale. It provides a distributed platform for storing data and code, and for running computations.  Source: [TON documentation](https://docs.ton.org/#:~:text=Traces
+
+Tony: Yes. He should know, hahah (reply to 178090)
+
+Mr X: Hello, Who want Ton Project App ?   Im developer if you want to work with me dm me for making project

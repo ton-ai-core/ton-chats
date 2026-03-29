@@ -727,3 +727,7 @@ Unknown: Nodectl Update v0.3.0 & Helm Update v0.2.0  Control got sharper. Visibi
 — 2026-03-26 —
 
 Unknown: TON AI Agent Hackathon is closed ⭐  150+ submissions. Wallet integrations, agent coordination protocols, escrow primitives, voice agents, freelance marketplaces, trading bots. Builders came in with everything.  Judging underway. Results next week.  👉 View the submissions here  TON Community |  TON Builders  |  TON Hubs  | X  | YouTube | LinkedIn  | TON.org
+
+— 2026-03-28 —
+
+Unknown: 🚀 The AI Hackathon review period has been extended until April 3.  The results exceeded all expectations: over 160 submissions, 4x the previous contest.  The volume and variety of projects submitted have genuinely impressed us. A strong mix of thoughtful, creative, and technically impressive work from across the ecosystem.  We definitely didn’t expect that. So, we are extending the review period to April 3 to ensure we have enough time to review every submission thoroughly.  While you wait, two new features just dropped on the Identity platform:  🔹Makers. Add your teammates to submission. Everyone gets the participation badge. 🔹Comments. Talk about projects. Feedback, questions, discussion, all on submission pages.  Thank you for the energy, creativity, and effort you brought to this hackathon.   Keep building! ✨😎  TON Community |  TON Builders | TON Dev News |  TON Hubs  | X  | YouTube | LinkedIn  | TON.org

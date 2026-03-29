@@ -2384,6 +2384,19 @@
       "file": "photos/photo_279.jpg",
       "width": 2160,
       "height": 2160
+    },
+    {
+      "id": 281,
+      "type": "message",
+      "date": "2026-03-28T12:11:21.000Z",
+      "date_unixtime": "1774699881",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🚀 The AI Hackathon review period has been extended until April 3.\n\nThe results exceeded all expectations: over 160 submissions, 4x the previous contest.\n\nThe volume and variety of projects submitted have genuinely impressed us. A strong mix of thoughtful, creative, and technically impressive work from across the ecosystem.\n\nWe definitely didn’t expect that. So, we are extending the review period to April 3 to ensure we have enough time to review every submission thoroughly.\n\nWhile you wait, two new features just dropped on the Identity platform:\n\n🔹Makers. Add your teammates to submission. Everyone gets the participation badge.\n🔹Comments. Talk about projects. Feedback, questions, discussion, all on submission pages.\n\nThank you for the energy, creativity, and effort you brought to this hackathon. \n\nKeep building! ✨😎\n\nTON Community |  TON Builders | TON Dev News |  TON Hubs  | X  | YouTube | LinkedIn  | TON.org",
+      "media_type": "photo",
+      "file": "photos/photo_281.jpg",
+      "width": 1080,
+      "height": 1080
     }
   ]
 }

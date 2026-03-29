@@ -3517,3 +3517,45 @@ Alexey: (forward amount лучше ставить в ноль или один н
 Pavel: Спасибо (reply to 343209)
 
 Fargo: Пж (reply to 343210)
+
+— 2026-03-28 —
+
+Dm: Всем привет. На сколько важно эмитить события в Tact (emit)? Не достаточно ли самих транзакций, которыми обмениваются контракты? Посмотрел некоторые контракты, например fort token и там никаких событий нет
+
+TON Support: Вы правы — события (emit) в TON не обязательны для работы контракта. Многие контракты, включая jetton-стандарт, прекрасно работают без них.  Согласно документации, outbound external messages (события) используются в основном для логирования. Они:  - Не...  меняют состояние контракта и не вызывают транзакций - Стоят меньше газа, чем внутренние сообщения - Полезны для индексеров и инструментов отладки — они отслеживают такие сообщения и дают картину on-chain активности - Нет гарантии, что кто-то за пределами блокчейна их обработает  Документация рекомендует их во время разработки для отладки и структурированного логирования. В продакшене вся необходимая информация действительно доступна через сами транзакции и внутренние сообщения между контрактами — индексеры могут парсить и их.  Так что ваш вывод верен: транзакций между контрактами обычно достаточно. (reply to 343262)
+
+username: Сейчас рекомендуют разрабатывать на tolk (reply to 343262)
+
+&rey: Контрактам достаточно; оффчейну, следовательно, тоже. (reply to 343262)
+
+Dm: Просто в эфириуме вроде хорошей практикой считаются событие event, хотя , казалось бы, тоже есть все транзакции (reply to 343265)
+
+Dm: Поздно...написано уже все на такт, переделывать лень (reply to 343264)
+
+&rey: На самом деле смысл есть тогда, когда 1) вы будете парсить не все транзакции, и 2) нужно знать старое состояние контракта, чтобы понять, примет ли он сообщение или нет.  Вот это старое состояние запрашивать не всегда удобно, и поэтому... (reply to 343266)
+
+&rey: Если у вас один контракт, за которым надо следить, то да, экстерналы. Но это редко.  Проще заставить контракт слать интерналы с 0 тон на фиксированный адрес. Тогда данные со всех контрактов со всех шардов будут собираться в одном месте. (reply to 343269)
+
+Dm: Я почему то думал, что события хороши именно тем, что транзакции парсить тяжело и события как раз таки в упрощённом виде проще читать всяких off chain индексерам..думал для этого события нужны в том числе и в тоне. У меня 2 типа контрактов жетон и нфт...в nft items я сделал события transfer, mint. Но вот теперь сомнения а нужны ли они в целом? (reply to 343270)
+
+&rey: По exitCode видно, принял ли контракт сообщение или нет? Если да, то событие не пригодится. (reply to 343271)
+
+Dm: Может я чего не понимаю..но ведь можно перед вызовом контракта обратиться по rpc и узнать состояние контракта перед любой тоанзакций (reply to 343269)
+
+&rey: Вариант 1: один вызов RPC Вариант 2: два вызова RPC, притом второй надо делать к конкретному (не новейшему) состоянию блокчейна, и следить, чтобы нода, к которой делается второй запрос, это состояние тоже уже имела (reply to 343273)
+
+Dm: Я вообще exitcode использую только в тестах...на бэкенде и фронтенд если и делаю транзакции на запись то просто ожидаю появления транзакции в блокчейне..появление транзакции там означает что все ок) (reply to 343272)
+
+Dm: Сложно...даже и не понял. Если речь про то, чтобы узнать старое состояние, то вроде мне это и не надо..мне надо знать только новое...тут больше я переживаю за внешние индексной моих контрактов...может им оно надо?А если по-другому: если я эти события сделаю..сильно ли будет хуже? Например ощутимо станут дороже транзакции. (reply to 343274)
+
+— 2026-03-29 —
+
+TON Support: TON (The Open Network) is a blockchain platform designed for scalable smart contracts, applications, and payments. It provides a distributed platform for storing data and code, and running computations to host applications, which are called smart-contracts. The platform runs on a set of servers known as nodes.  Source: [Start here - TON Docs](https://docs.ton.org/start-here#:~:text=The
+
+TON Support: TON (The Open Network) is a blockchain platform designed for scalable smart contracts, applications, and payments. It provides a distributed platform for storing data and code, and for running computations to host applications. The platform operates on...  a network of servers called nodes, with validators reaching consensus on the blockchain's state, typically achieving transaction finality in 5 seconds.  Source: [Start here - TON Docs](https://docs.ton.org/start-here#:~:text=The
+
+TON Support: TON (The Open Network) is a blockchain platform designed for scalable smart contracts, applications, and payments. It provides a distributed platform for storing data and code, and for running computations to host applications. The platform operates on...  a network of servers called nodes, with validators reaching consensus on the blockchain's state, typically achieving transaction finality in 5 seconds.  TON Network is a peer-to-peer network used for accessing the TON Blockchain, sending transactions, and receiving updates. It can also support arbitrary distributed services, blockchain-related or not. The cornerstone of TON networking is the ADNL protocol, built on top of the TCP/UDP stack.  Source: [Start here - TON Docs](https://docs.ton.org/start-here#:~:text=TON
+
+TON Support: TON Blockchain is a flexible multi-blockchain platform that supports Turing-complete smart contracts. It is a collection of blockchains, with each workchain having its own rules and virtual machines. A key feature is its implementation of dynamic sharding, which means the number of shards is not fixed and can be automatically subdivided.  Source: [The Open Network - TON Docs](https://docs.ton.org/foundations/whitepapers/ton#:~:text=An
+
+TON Support: TON Blockchain is a flexible multi-blockchain platform that supports Turing-complete smart contracts. It is a collection of blockchains, with each workchain having its own rules and virtual machines. A key feature is its implementation of dynamic sharding,...  which means the number of shards is not fixed and can be automatically subdivided. This dynamic splitting and merging of workchains based on transaction rates is known as the Infinite Sharding Paradigm.  Source: [Blockchain sharding - TON Docs](https://docs.ton.org/foundations/shards#:~:text=TON
