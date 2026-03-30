@@ -3559,3 +3559,9 @@ TON Support: TON (The Open Network) is a blockchain platform designed for scalab
 TON Support: TON Blockchain is a flexible multi-blockchain platform that supports Turing-complete smart contracts. It is a collection of blockchains, with each workchain having its own rules and virtual machines. A key feature is its implementation of dynamic sharding, which means the number of shards is not fixed and can be automatically subdivided.  Source: [The Open Network - TON Docs](https://docs.ton.org/foundations/whitepapers/ton#:~:text=An
 
 TON Support: TON Blockchain is a flexible multi-blockchain platform that supports Turing-complete smart contracts. It is a collection of blockchains, with each workchain having its own rules and virtual machines. A key feature is its implementation of dynamic sharding,...  which means the number of shards is not fixed and can be automatically subdivided. This dynamic splitting and merging of workchains based on transaction rates is known as the Infinite Sharding Paradigm.  Source: [Blockchain sharding - TON Docs](https://docs.ton.org/foundations/shards#:~:text=TON
+
+— 2026-03-30 —
+
+🥷 Wayfs23: Здравствуйте, в Ton-е есть сервисы которые делают aml проверку риска? (reply to 343274)
+
+TON Support: К сожалению, в документации TON Docs нет информации об AML-проверках или оценке рисков. Эта тема не освещена в текущей документации. Для получения информации о проверке транзакций на соответствие AML-требованиям рекомендую обратиться к сторонним сервисам,...  специализирующимся на блокчейн-аналитике и комплаенсе.  Если вы считаете, что эта тема должна быть освещена в документации, нажмите кнопку «thumbs down» ниже, чтобы оставить обратную связь команде TON Docs. (reply to 343375)

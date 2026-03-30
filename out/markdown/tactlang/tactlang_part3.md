@@ -10499,3 +10499,15 @@ A: // this contract records the last 5 timestamps of when "timer" message was re
 A: // this contract records the last 5 timestamps of when "timer" message was received contract Arrays {      const MaxSize: Int = 5;     arr: map<Int, Int>; // this is our array implemented with a map     arrLength: Int as uint8 = 0;     arrStart: Int as uint8 = 0; // our array is cyclic      init() {}      // push an item to the end of the array     fun arrPush(item: Int) {         if (self.arrLength < self.MaxSize) {             self.arr.set(self.arrLength, item);             self.arrLength = self.arrLength + 1;         } else {             self.arr.set(self.arrStart, item);             self.arrStart = (self.arrStart + 1) % self.MaxSize;         }     }      // iterate over all items in the array and dump them     fun arrPrint() {         let i: Int = self.arrStart;         repeat (self.arrLength) {             dump(self.arr.get(i)!!); // !! tells the compiler this can't be null             i = (i + 1) % self.MaxSize;         }     }      // record the timestamp when each "timer" message is received     receive("timer") {         let timestamp: Int = now();         self.arrPush(timestamp);     }      receive("dump") {         self.arrPrint();     }      get fun length(): Int {         return self.arrLength;     }      get fun map(): map<Int, Int> {         return self.arr;     } }
 
 Andrey: Use Tolk
+
+Lamina_cursor: Why? (reply to 81326)
+
+Andrey: Tact is deprecated (reply to 81335)
+
+Andrey: And the main developer was fired a couple of months ago, Tact is a dead language
+
+Руслан: After running the command npx blueprint run and selecting the test network, a message is generated and sent to your wallet. In this message, there is a parameter called "network", which should have the value -3, but instead it was -239. As a result, the message was sent to the mainnet, even though the testnet was selected.  You can verify this by checking your transaction history on Tonviewer, specifically in the mainnet.  To use the testnet in case of this issue, you will need to create a new project using npm create ton@latest, then migrate your contracts, and run build and run again. (reply to 80760)
+
+— 2026-03-30 —
+
+Godfred: Hi everyone

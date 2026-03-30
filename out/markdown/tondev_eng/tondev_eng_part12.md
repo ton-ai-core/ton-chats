@@ -869,3 +869,77 @@ TON Support: TON is a blockchain platform designed for scalable smart contracts,
 Tony: Yes. He should know, hahah (reply to 178090)
 
 Mr X: Hello, Who want Ton Project App ?   Im developer if you want to work with me dm me for making project
+
+final: me too. i also have portfolio with some projects, dm to see it (reply to 178112)
+
+Mr X: You are developer? (reply to 178118)
+
+final: Yes (reply to 178120)
+
+Mr X: I need a person to pay the project or working and growth the project (reply to 178121)
+
+Mr X: LOL
+
+final: Me too (reply to 178123)
+
+Mr X: who said programming make that you are here (reply to 178125)
+
+Mr X: hero*
+
+Mr X: rich
+
+final: what .-. (reply to 178127)
+
+Mr X: actually we are poor programmer xD (reply to 178131)
+
+Arthur: Ye (reply to 178132)
+
+Mr X: I cant find any person that pay a project or growth the project xD (reply to 178165)
+
+Mr X: Im working Web3 Blockchain similar ton Chain like ethreum chain Evm
+
+Arthur: Same, i have spent like 4-6 weeks or something finding jobs. On site like laborx, cyptotask, etc. haven't found any, most of them are scammers. And the others offer like $1/hour. (reply to 178166)
+
+Arthur: Tho have you tried advertising your services on your own website that serves both as the way to contact you, and as your portfolio? I heard that works. (reply to 178167)
+
+Mr X: That to bad I heard some sites that Answers Ai Task like microrowkers . did you test it ? (reply to 178168)
+
+Arthur: Nah I haven't. Is it like bug bounties? For example gitcoin, open bug bounty, etc? (reply to 178170)
+
+Arthur: Oh i Googled it, so you basically train an ai model for a few cents? Hmm that's good, whatever earns me money. I'm currently 'desperate' for any amount. i'll try it then. (reply to 178170)
+
+Mr X: No I heard it , just answer or review AI Output and they said 60$ hour just for python developing  you can Ask with ChatGpt for earn money    but I didnt find anything to Earn money (reply to 178171)
+
+Mr X: I said it because they site need resume and Github Repository About Python.  I havent   create a resume yet (reply to 178173)
+
+Arthur: oh, so basically you'll code for people, and earn? Okay that sounds like laborX, but i assume that isn't infected with scammers like laborX does? (reply to 178173)
+
+Mr X: Yes im coding for a people who really want a project or site   now i Want to find them (reply to 178175)
+
+Arthur: Damn, good to hear at least you are earning something. I'll probably try if i can do it. i think if there were an platform that makes clients put in money first when creating a job offer, instead of like you create a job offer, find applicants, click escrow and the money gets transferred to an escrow fund. Freelancing, job hunting would be much faster and efficient. Except I'm not sure if there's any that's also active(meaning a lot of job offers), in the Web3 and crypto based payment world. (reply to 178176)
+
+Mr X: I think Code for people is the best   Finding is hard but you can find and earn more finally start the project (reply to 178178)
+
+Arthur: Yeah, but finding a project that pays at least $3/hour is hard, like incredibly hard. Perhaps it's only for me because i don't look for jobs where everyone do. there are a lot of scammers, bots in the freelance market, so it's hard to find a job that pays. I have had like 4-5 different jobs before, none paid. Maybe because the way i hunt for jobs is incorrect? Probably. but once you get one, you'll get good at finding others. probably because of uhh association, and reputation. I think that's my opinion tho. (reply to 178179)
+
+Mr X: Really ? Are scammers in jobs platform ? likes gitcoin (reply to 178180)
+
+Arthur: Oh i doubt gitcoin. but a few "privacy-first" platforms. Example: LaborX, CryptoTask, Jobbers.io, etc. (reply to 178181)
+
+Arthur: i'll try microworkers or something that you recommended earlier, if that dosen't work, finally brain trust, and if that dosen't, i'll go on the bigger platforms like upwork, pph, fiverr, etc.
+
+Mr X: Ok dude test it (reply to 178183)
+
+Arthur: bruh, i already got ip banned because i accidentally put my old email in the registration process, that email was actually scheduled for deletion by Google bcause i apperantly broke some Google policies. So I couldn't get the verification code, and tried removing cache and changing ip. Got ip banned for "using" more than 2 accounts (reply to 178184)
+
+Mr X: Try Vpn (reply to 178185)
+
+Mr X: and or proxy Browser extension
+
+Arthur: okay, i'll try one
+
+Arthur: K, finished a 10 cents task!
+
+∆lieπ FlΦw: How can Bridge with our DAO its in other blockchains web 3 and Ai web 4 (reply to 178093)
+
+&rey: That is not trivial (and here I mean that no such tools are ready); beyond checking other blockchain's state you might need to check user uniqueness across different chains... (reply to 178204)
