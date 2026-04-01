@@ -10511,3 +10511,7 @@ Andrey: And the main developer was fired a couple of months ago, Tact is a dead 
 — 2026-03-30 —
 
 Godfred: Hi everyone
+
+— 2026-03-31 —
+
+Pavel: hey anyone here successfully set up recurring payments for a private tg channel
