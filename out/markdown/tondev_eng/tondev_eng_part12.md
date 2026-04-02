@@ -971,3 +971,13 @@ Anthony: Sub-Second mainnet activation starts  The public bug bounty contest for
 — 2026-04-01 —
 
 TON Moderator: Hello, Julian! Read rules and click button below.
+
+🇵🇸: How can we build indexer for NFT?  That store information about sale , auction listings, current state, ownership , etc ?  The new sub-second update makes it even more harder to build?
+
+— 2026-04-02 —
+
+∆lieπ FlΦw: Alguien se une mejor a TON Dev chat pero español mejor?
+
+TON Support: La documentación de TON menciona "All TON communities Telegram Dev chats" para unirse a la comunidad. No especifica un chat de desarrollo de TON en español, pero puedes buscar en Telegram grupos relacionados con "TON Dev español" o "TON Developers en...  español" para ver si hay comunidades específicas en ese idioma.  Fuente: [Other resources - TON Docs](https://docs.ton.org/more-tutorials#:~:text=%E2%80%8B (reply to 178413)
+
+∆lieπ FlΦw: Tuve que hacer una porque no existía , ahora ya si que hay una comunidad de Ton dev en español, deberíamos hacerla oficial porque todavía no hay ninguna! (reply to 178414)

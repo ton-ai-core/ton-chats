@@ -2397,6 +2397,15 @@
       "file": "photos/photo_281.jpg",
       "width": 1080,
       "height": 1080
+    },
+    {
+      "id": 283,
+      "type": "message",
+      "date": "2026-04-01T19:53:04.000Z",
+      "date_unixtime": "1775073184",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "TON Developer Communities\n\nBuilding on TON? Join the official dev chats to get help, share feedback, and connect with other builders:\n→ English\n→ Russian\n→ Chinese \n\nMore resources at TON Builders Portal\n\nSee you there 🚀"
     }
   ]
 }

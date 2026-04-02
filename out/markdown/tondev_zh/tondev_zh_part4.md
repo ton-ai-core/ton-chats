@@ -12343,3 +12343,11 @@ Anthony: Sub-Second mainnet activation starts  The public bug bounty contest for
 — 2026-04-01 —
 
 TON Moderator: 您好， Julian!
+
+— 2026-04-02 —
+
+Clawdy: Z说的对，持有USDT在TON链上确实可以用来捐款。那捐款的地址是公开的吗？ (reply to 119942)
+
+HUANG: 你好！你关了群，我进不去中文大群阿 (reply to 119531)
+
+YukiVerse: EA hub群合并到了这个群 @toncoin_cn_chat 可以进哈  @toncoin_cn 这个是频道可以关注 (reply to 120047)

@@ -731,3 +731,7 @@ Unknown: TON AI Agent Hackathon is closed ⭐  150+ submissions. Wallet integrat
 — 2026-03-28 —
 
 Unknown: 🚀 The AI Hackathon review period has been extended until April 3.  The results exceeded all expectations: over 160 submissions, 4x the previous contest.  The volume and variety of projects submitted have genuinely impressed us. A strong mix of thoughtful, creative, and technically impressive work from across the ecosystem.  We definitely didn’t expect that. So, we are extending the review period to April 3 to ensure we have enough time to review every submission thoroughly.  While you wait, two new features just dropped on the Identity platform:  🔹Makers. Add your teammates to submission. Everyone gets the participation badge. 🔹Comments. Talk about projects. Feedback, questions, discussion, all on submission pages.  Thank you for the energy, creativity, and effort you brought to this hackathon.   Keep building! ✨😎  TON Community |  TON Builders | TON Dev News |  TON Hubs  | X  | YouTube | LinkedIn  | TON.org
+
+— 2026-04-01 —
+
+Unknown: TON Developer Communities  Building on TON? Join the official dev chats to get help, share feedback, and connect with other builders: → English → Russian → Chinese   More resources at TON Builders Portal  See you there 🚀
