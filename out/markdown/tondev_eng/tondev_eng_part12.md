@@ -981,3 +981,21 @@ TON Moderator: Hello, Julian! Read rules and click button below.
 TON Support: La documentación de TON menciona "All TON communities Telegram Dev chats" para unirse a la comunidad. No especifica un chat de desarrollo de TON en español, pero puedes buscar en Telegram grupos relacionados con "TON Dev español" o "TON Developers en...  español" para ver si hay comunidades específicas en ese idioma.  Fuente: [Other resources - TON Docs](https://docs.ton.org/more-tutorials#:~:text=%E2%80%8B (reply to 178413)
 
 ∆lieπ FlΦw: Tuve que hacer una porque no existía , ahora ya si que hay una comunidad de Ton dev en español, deberíamos hacerla oficial porque todavía no hay ninguna! (reply to 178414)
+
+Slava: dear Mini App developers, could you please take a look at these open documentation improvement PRs and share your feedback? We would really appreciate your review and input  https://github.com/ton-org/docs/pulls?q=is%3Apr+is%3Aopen+tma
+
+mnemotiv: all PRs except debugging - lacks information about known issues (Telegram bugs which are not fixed for years) (reply to 178424)
+
+mnemotiv: sent details to DM (reply to 178424)
+
+bharath: No it won't affect any api. Use ton api for indexing NFTs. (reply to 178406)
+
+S: Which one is easy for beginners? I want to add nfts to my mini app
+
+∆lieπ FlΦw: Anybody can help integrating our Ai Tor Agents Intel Hub OSINT to Agent Bots in Telegram and our miniapp in TON?
+
+— 2026-04-03 —
+
+Leo: Which kind of nft and miniapp? (reply to 178440)
+
+final: Yes (reply to 178440)
