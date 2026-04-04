@@ -735,3 +735,7 @@ Unknown: 🚀 The AI Hackathon review period has been extended until April 3.  T
 — 2026-04-01 —
 
 Unknown: TON Developer Communities  Building on TON? Join the official dev chats to get help, share feedback, and connect with other builders: → English → Russian → Chinese   More resources at TON Builders Portal  See you there 🚀
+
+— 2026-04-03 —
+
+Unknown: Bot API 9.6  🦀 Managed Bots • Manager bots are used to bootstrap and control other bots on behalf of their owners – easily orchestrating any number of AI agents, Business Accounts and custom tools. • Out of the box, manager bots can prompt users to create a bot in one tap and easily fetch their token to start piloting them.  📊 Poll Revolution • Polls now support multiple correct answers, re-issuing votes, hidden results and richly formatted descriptions. • Poll options now have persistent ids and can be shuffled or dynamically added by users. • Bots can now additionally reply to a specific poll option.  ✈ General • Mini Apps can now natively request users, chats and managed bots in one tap via prepared keybord buttons. • Expanded support for date and time entities in checklists, quotes and gift texts.  • And more, see the full changelog for details:  https://core.telegram.org/bots/api-changelog#april-3-2026 (forwarded from BotNews)

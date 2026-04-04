@@ -999,3 +999,41 @@ S: Which one is easy for beginners? I want to add nfts to my mini app
 Leo: Which kind of nft and miniapp? (reply to 178440)
 
 final: Yes (reply to 178440)
+
+Adejoke: Hi guys   For the hackathon do we have to list our app on TonApp?
+
+∆lieπ FlΦw: Have you seen the miniapps and NFTs of our DAO? (reply to 178449)
+
+S: Collectible nfts and sbts in my telegram mini app (reply to 178449)
+
+S: Yess.... what? (reply to 178450)
+
+S: Show me how you did yours (reply to 178469)
+
+Arthur: Nah, can i see? (reply to 178469)
+
+Davis: Hi devs,  In TON, when I send a transaction with a specific amount in the message body, the network fee is deducted from that amount. This means the recipient gets amount - fee instead of the exact amount I intended to send.  Is there a recommended way to send an exact amount to a recipient? For example, can I use the SendPayFwdFeesSeparately flag to pay the network fee from the wallet balance instead of deducting it from the transfer amount? What is the best practice for ensuring a recipient receives a precise sum?
+
+TON Support: In TON, to ensure a recipient receives a precise sum, you can use the SendPayFwdFeesSeparately flag (value +1) when sending messages. This flag ensures that forward fees are paid separately from the message value, preventing them from being deducted...  from the amount intended for the recipient.  The recommended approach for sending messages in TON, particularly for wallets, is to use a mode=3. This combines the base mode 0 with two flags: *   +1 (SendPayFwdFeesSeparately): Pays transfer fees separately from the message value. *   +2 (SendIgnoreErrors): Suppresses specific errors during message processing, meaning no bounce message will be sent on failure. This is important for wallet contracts to prevent issues like reverting transactions and not updating critical data like the seqno.  When using the send_raw_message function, the mode=3 combination is the standard method.  It's important to note that for general Toncoin payments, the recipient's amount may still be reduced by network fees. If an exact settlement amount is critical, consider using Jettons or slightly overpaying in TON.  Source: Sending messages | The Open Network, Sending modes - TON Docs, Message modes cookbook | The Open Network (reply to 178486)
+
+Davis: Still didn't work perfectly   Made a test withdrawal of 0.05 recipient got 0.0496 (reply to 178487)
+
+Davis: Can anyone helping me out please (reply to 178486)
+
+&rey: "The amount of TON recipient received in a message" will not be equal to "the balance change of the recipient". (reply to 178495)
+
+&rey: Why? A bit of compute fee which is required to support plugins, and some storage fee. Storage is not for sender to care.
+
+Davis: Ok understood but one more question    How wallets like ton keeper send the exact amount without this compute fee (reply to 178499)
+
+&rey: They don't, do they? It's possible that you are looking at the very first messages to accounts, where there is no storage fee nor anything to compute so that part of fees is zero. (reply to 178500)
+
+Davis: Yes they do and it works for old wallet with existing balance (reply to 178501)
+
+Davis: I do use ton keeper wallet on a daily basis   What I send is what the recipient receives without any deductions   Fee is removed from sender wallet not transaction amount
+
+&rey: It does pay the network fee indeed. (reply to 178486)
+
+— 2026-04-04 —
+
+Ali: Hi

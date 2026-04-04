@@ -2406,6 +2406,18 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "TON Developer Communities\n\nBuilding on TON? Join the official dev chats to get help, share feedback, and connect with other builders:\n→ English\n→ Russian\n→ Chinese \n\nMore resources at TON Builders Portal\n\nSee you there 🚀"
+    },
+    {
+      "id": 285,
+      "type": "message",
+      "date": "2026-04-03T15:41:59.000Z",
+      "date_unixtime": "1775230919",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Bot API 9.6\n\n🦀 Managed Bots\n• Manager bots are used to bootstrap and control other bots on behalf of their owners – easily orchestrating any number of AI agents, Business Accounts and custom tools.\n• Out of the box, manager bots can prompt users to create a bot in one tap and easily fetch their token to start piloting them.\n\n📊 Poll Revolution\n• Polls now support multiple correct answers, re-issuing votes, hidden results and richly formatted descriptions.\n• Poll options now have persistent ids and can be shuffled or dynamically added by users.\n• Bots can now additionally reply to a specific poll option.\n\n✈ General\n• Mini Apps can now natively request users, chats and managed bots in one tap via prepared keybord buttons.\n• Expanded support for date and time entities in checklists, quotes and gift texts.\n\n• And more, see the full changelog for details:\n\nhttps://core.telegram.org/bots/api-changelog#april-3-2026",
+      "forwarded_from": "BotNews",
+      "forwarded_from_id": "channel1004276399",
+      "forwarded_date": "2026-04-03T15:40:12.000Z"
     }
   ]
 }

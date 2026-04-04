@@ -12381,3 +12381,9 @@ Z: 你说的是 TG 钱包吧 (reply to 120107)
 Z: 不是 (reply to 120118)
 
 熊猫 能量租用｜NFT｜888｜飞机账户｜飞机会员: 这个是Ton基金会吗？
+
+Z: 是 但仅限讨论开发者问题 (reply to 120122)
+
+HUANG: 对的TG钱包 (reply to 120113)
+
+HUANG: 能给我解封吗？大群我从TON挖矿到现在都持有TON呢 (reply to 120074)
