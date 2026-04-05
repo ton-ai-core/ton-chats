@@ -1037,3 +1037,15 @@ Davis: I do use ton keeper wallet on a daily basis   What I send is what the rec
 — 2026-04-04 —
 
 Ali: Hi
+
+∆lieπ FlΦw: Yes in GitHub and here in Telegram (reply to 178479)
+
+Geenie Halevi.: Hi admins, I have a syncing issue with my Portals inventory. The transaction is already completed on the blockchain but it's not showing up on my end. Who can I contact regarding this syncing error?
+
+Mirka: Portals support (reply to 178520)
+
+Geenie Halevi.: I’ve been contacting Portals for months. They explicitly said it's NOT their jurisdiction. (reply to 178522)
+
+Mirka: So they say that the problem in the blockchain? (reply to 178523)
+
+Geenie Halevi.: No, the exact opposite. The blockchain worked perfectly (the transaction is 100% confirmed on TON). The problem is their off-chain database. The Fragment/Portals backend simply failed to read the blockchain and map the NFT to my account. That's why I need a dev. (reply to 178524)
