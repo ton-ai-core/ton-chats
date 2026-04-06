@@ -12387,3 +12387,9 @@ Z: 是 但仅限讨论开发者问题 (reply to 120122)
 HUANG: 对的TG钱包 (reply to 120113)
 
 HUANG: 能给我解封吗？大群我从TON挖矿到现在都持有TON呢 (reply to 120074)
+
+— 2026-04-05 —
+
+xiaojiucai.pro: 開發的dapp一般去哪推廣
+
+TON Support: 很抱歉，TON 文檔中沒有關於 dApp 推廣渠道或營銷策略的具體內容。文檔主要涵蓋技術開發方面的指南。  不過，根據文檔中提到的生態系統資訊，您可以考慮：  - Telegram Mini Apps (TMA)：將 dApp 構建為 Telegram Mini App，直接觸達 Telegram 的龐大用戶群。 - TON Connect 整合：確保您的 dApp 支持 TON Connect，方便錢包用戶發現和使用。  如需更具體的推廣建議，建議加入 TON 官方社群或查閱 TON 基金會的相關資源。  Source: Telegram Mini Apps 概覽, dApp 整合指南, AppKit SDK (reply to 120231)
