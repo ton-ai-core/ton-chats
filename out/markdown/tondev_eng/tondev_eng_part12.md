@@ -1049,3 +1049,11 @@ Geenie Halevi.: I’ve been contacting Portals for months. They explicitly said 
 Mirka: So they say that the problem in the blockchain? (reply to 178523)
 
 Geenie Halevi.: No, the exact opposite. The blockchain worked perfectly (the transaction is 100% confirmed on TON). The problem is their off-chain database. The Fragment/Portals backend simply failed to read the blockchain and map the NFT to my account. That's why I need a dev. (reply to 178524)
+
+— 2026-04-06 —
+
+FortuneStack: Hey, we're integrating TON Pay on our Telegram Mini App and ran into an issue where a payment got stuck in what looks like a TON Pay routing contract instead of forwarding to our wallet. Is this a known issue with the SDK? Has anyone else experienced this?
+
+Alex |: Heya, can you send the transaction hash so I can check it out more closely? (reply to 178555)
+
+FortuneStack: Here's the transaction hash: 930881757cefc49687c896a4dc696cd04284461403c200699ad24de9fed30f9d (reply to 178557)

@@ -3415,3 +3415,7 @@ Nikolay: народ, всем привет! подскажите, пожалуй
 — 2026-03-09 —
 
 Александр: Добрый вечер! Возможно кто-либо сталкивался в приложении react при передачи Address во wrraper (сгенерированный для контракта на tact) происходит ошибка Invalid address. Библиотека ton/core одинаковой версии 0.63.1 в приложении react и проекте контракта, пробовал так же импорт сделать './../../contracts/node_modules/@ton/core', что тоже не помогло.
+
+— 2026-04-06 —
+
+Denis: Deprecation notice The official smart contract language of TON Blockchain is Tolk, and the Tact language is being deprecated. This page will be removed in mid-April 2026. Печально! Спасибо команде, мне Tact понравился больше чем Tolk как минимум по работе с коммьюнити, отдельному сайту и как развивался проект)
