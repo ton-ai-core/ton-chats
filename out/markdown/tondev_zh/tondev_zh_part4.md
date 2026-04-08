@@ -12393,3 +12393,17 @@ HUANG: 能给我解封吗？大群我从TON挖矿到现在都持有TON呢 (reply
 xiaojiucai.pro: 開發的dapp一般去哪推廣
 
 TON Support: 很抱歉，TON 文檔中沒有關於 dApp 推廣渠道或營銷策略的具體內容。文檔主要涵蓋技術開發方面的指南。  不過，根據文檔中提到的生態系統資訊，您可以考慮：  - Telegram Mini Apps (TMA)：將 dApp 構建為 Telegram Mini App，直接觸達 Telegram 的龐大用戶群。 - TON Connect 整合：確保您的 dApp 支持 TON Connect，方便錢包用戶發現和使用。  如需更具體的推廣建議，建議加入 TON 官方社群或查閱 TON 基金會的相關資源。  Source: Telegram Mini Apps 概覽, dApp 整合指南, AppKit SDK (reply to 120231)
+
+— 2026-04-08 —
+
+TON Support: 我无法访问外部链接（如 tonscan.org）来查看具体交易详情，因此无法告诉你这笔特定交易失败的原因。  不过，TON 上交易失败的常见原因包括：  1.  Compute 阶段失败：合约执行出错（如整数溢出、gas 不足、无效操作码等），对应不同的 exit code。 2.  Action 阶段失败：如余额不足（exit code 37）、无效地址（exit code 36）、消息过大（exit code 40）等。 3.  Compute 阶段被跳过：合约无状态、gas 不足、或地址被冻结。  建议你在 tonscan 上查看该交易的 exit code，然后对照文档中的 Exit codes 页面找到具体原因。
+
+Root: a3fb25acd525822ad36405b7ce4d47ccafd6aa993d9cd2aa647fbd47a9e9ee11  testnet 的这一笔交易在tonscan 为什么会显示为失败
+
+TON Support: 根据 TON 文档，我无法直接查询链上交易数据，但可以帮你理解交易失败的常见原因。  在 TONScan 上查看该交易时，请关注以下两个关键字段：  -   Compute phase exit code — 只有 0 或 1 表示成功，其他值表示失败 -   Action phase result code — 只有 0 表示成功  常见失败原因包括： -   Exit code 13 / -14：Gas 不足 -   Exit code 37：Toncoin 余额不足 -   Exit...  code 40：消息过大或资金不足 -   Exit code 65535：合约不识别收到的 opcode  建议你在 TONScan 上查看该交易的具体 exit code，然后对照文档中的 Exit codes 表来定位问题。 (reply to 120428)
+
+YukiVerse: 申请上架小程序商店或者买Tg广告 (reply to 120231)
+
+TON Support: 我来搜索一下关于小程序商店和 Telegram 广告的相关文档。TON Docs 文档中没有关于小程序商店（Mini App Store）或购买 Telegram 广告的详细内容。  文档中提到的相关内容有限： - Telegram Analytics SDK 可以追踪小程序的用户活动数据，这些数据用于在目录（catalog）中对应用进行排名。详见 Telegram Analytics。  关于小程序上架商店或购买 Telegram 广告，建议您参考： - Telegram 官方的 Mini Apps 目录  - Fragment 平台 购买 Telegram 广告  Source: Telegram Analytics (reply to 120434)
+
+TON Support: 很抱歉，TON Docs 文档中没有关于申请上架小程序商店（Mini App Catalog）或购买 Telegram 广告的具体流程说明。  以下是一些相关信息：  - 小程序目录排名：文档提到可以通过集成 Telegram Analytics SDK 来追踪用户活动数据，这些数据会用于在目录（catalog）中根据应用表现和 Streaks 进行排名。但具体的上架申请流程不在 TON...  Docs 范围内。 - Telegram 广告：TON Docs 不包含 Telegram Ads 的购买或投放指南。您可以访问 Telegram Ads 官方平台 了解详情。  建议您查阅 Telegram 官方文档或联系 Telegram 官方渠道获取上架和广告相关信息。  Source: Telegram analytics - TON Docs (reply to 120434)
