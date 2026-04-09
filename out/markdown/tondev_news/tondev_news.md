@@ -743,3 +743,7 @@ Unknown: Bot API 9.6  🦀 Managed Bots • Manager bots are used to bootstrap a
 — 2026-04-06 —
 
 Unknown: 🦀 AI Agents and Bot-to-Bot Communication  Historically, bot-to-bot interaction was restricted on Telegram to prevent infinite message loops.  Starting today, in specific contexts, Bot-to-Bot communication is allowed – unlocking complex agentic flows and AI-powered use cases.   Out of the box, this feature will work in groups and via business mode. To start using it, simply enable the Bot-to-Bot Communication Mode for your bot via @BotFather.   You can reference the full documentation here. (forwarded from BotNews)
+
+— 2026-04-08 —
+
+Unknown: Voting is now live on mainnet for a change to config parameter 30 and the activation of Catchain 2.0, a new sub-second consensus with ~400ms block-time.  This is a fundamental change to our blockchain, allowing validators to communicate internally with each other using QUIC protocol.  There is a website where you can track the validator voting progress in real time: https://vote.lagus.cooking/  Fingers crossed. (forwarded from Lagus research)

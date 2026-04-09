@@ -12407,3 +12407,9 @@ YukiVerse: 申请上架小程序商店或者买Tg广告 (reply to 120231)
 TON Support: 我来搜索一下关于小程序商店和 Telegram 广告的相关文档。TON Docs 文档中没有关于小程序商店（Mini App Store）或购买 Telegram 广告的详细内容。  文档中提到的相关内容有限： - Telegram Analytics SDK 可以追踪小程序的用户活动数据，这些数据用于在目录（catalog）中对应用进行排名。详见 Telegram Analytics。  关于小程序上架商店或购买 Telegram 广告，建议您参考： - Telegram 官方的 Mini Apps 目录  - Fragment 平台 购买 Telegram 广告  Source: Telegram Analytics (reply to 120434)
 
 TON Support: 很抱歉，TON Docs 文档中没有关于申请上架小程序商店（Mini App Catalog）或购买 Telegram 广告的具体流程说明。  以下是一些相关信息：  - 小程序目录排名：文档提到可以通过集成 Telegram Analytics SDK 来追踪用户活动数据，这些数据会用于在目录（catalog）中根据应用表现和 Streaks 进行排名。但具体的上架申请流程不在 TON...  Docs 范围内。 - Telegram 广告：TON Docs 不包含 Telegram Ads 的购买或投放指南。您可以访问 Telegram Ads 官方平台 了解详情。  建议您查阅 Telegram 官方文档或联系 Telegram 官方渠道获取上架和广告相关信息。  Source: Telegram analytics - TON Docs (reply to 120434)
+
+YukiVerse: 给我介绍一下在Telegram 关于AI Agent部署功能的最新工具 @TONSupportDeskBot
+
+TON Support: TON 生态系统中关于 AI Agent 部署的最新工具是 @ton/mcp——一个基于 Model Context Protocol (MCP) 的 Agentic 服务器。  核心功能： - Agentic 钱包：为自主 AI Agent 设计的自托管钱包，采用分离密钥架构（用户持有 owner key，Agent 持有 operator key） - 余额查询、转账、Jetton/NFT 管理、DEX 兑换、DNS 解析 - 多种传输模式：标准 I/O、HTTP 多会话、Serverless（AWS...  Lambda、Vercel 等）  快速开始： ```bash npx -y @ton/mcp@alpha ```  或在 Claude Desktop / Cursor 等 MCP 客户端中配置： ```json {   mcpServers: {     "ton: {       command: npx,       args: [-y, @ton/mcp@alpha]     }   } } ```  目前处于 alpha 阶段，可安全用于主网，但 API 可能会变更。  详情参见：Agentic MCP Server: @ton/mcp 和 Agentic Wallet Contracts。  Source: Agentic MCP Server: @ton/mcp (reply to 120443)
+
+Anthony: Voting is now live on mainnet for a change to config parameter 30 and the activation of Catchain 2.0, a new sub-second consensus with ~400ms block-time.  This is a fundamental change to our blockchain, allowing validators to communicate internally with each other using QUIC protocol.  There is a website where you can track the validator voting progress in real time: https://vote.lagus.cooking/  Fingers crossed. (forwarded from Lagus research)

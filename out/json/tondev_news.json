@@ -2430,6 +2430,22 @@
       "forwarded_from": "BotNews",
       "forwarded_from_id": "channel1004276399",
       "forwarded_date": "2026-04-06T19:42:37.000Z"
+    },
+    {
+      "id": 289,
+      "type": "message",
+      "date": "2026-04-08T17:43:23.000Z",
+      "date_unixtime": "1775670203",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Voting is now live on mainnet for a change to config parameter 30 and the activation of Catchain 2.0, a new sub-second consensus with ~400ms block-time.\n\nThis is a fundamental change to our blockchain, allowing validators to communicate internally with each other using QUIC protocol.\n\nThere is a website where you can track the validator voting progress in real time:\nhttps://vote.lagus.cooking/\n\nFingers crossed.",
+      "forwarded_from": "Lagus research",
+      "forwarded_from_id": "channel3380297511",
+      "forwarded_date": "2026-04-08T17:29:50.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_289.jpg",
+      "width": 1280,
+      "height": 761
     }
   ]
 }

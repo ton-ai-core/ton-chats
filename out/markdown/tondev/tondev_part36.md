@@ -4125,3 +4125,19 @@ Spacious: Когда ты «подключил ещё раз и подвязал
 Louise: Пустой сейчас сервер, нет ничего на нем, я снес ос  И при переходе все равно адрес скаченного гитхаба открывается, что просто чисто теоретически не возможно. (reply to 344307)
 
 Louise: Чистое ADNL, перезаписывал несколько раз, ничего не помогло. Такое удушение что сайт я где то на еще одном сервере скачал, подписал запустил и тд.
+
+— 2026-04-08 —
+
+Spacious: Проблему решил? (reply to 344328)
+
+Louise: Нет (reply to 344469)
+
+Anthony: Voting is now live on mainnet for a change to config parameter 30 and the activation of Catchain 2.0, a new sub-second consensus with ~400ms block-time.  This is a fundamental change to our blockchain, allowing validators to communicate internally with each other using QUIC protocol.  There is a website where you can track the validator voting progress in real time: https://vote.lagus.cooking/  Fingers crossed. (forwarded from Lagus research)
+
+K🆓³³: Там выше на русском пост... (reply to 344484)
+
+username: Получается adnl/rdlp признали непригодным? (reply to 344484)
+
+— 2026-04-09 —
+
+Andrey: В RLDP был сломанный congestion control в с++ реализации из за этого скорость и стабильность передачи данных оставляла желать лучшего (reply to 344487)

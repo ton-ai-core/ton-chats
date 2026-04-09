@@ -1057,3 +1057,13 @@ FortuneStack: Hey, we're integrating TON Pay on our Telegram Mini App and ran in
 Alex |: Heya, can you send the transaction hash so I can check it out more closely? (reply to 178555)
 
 FortuneStack: Here's the transaction hash: 930881757cefc49687c896a4dc696cd04284461403c200699ad24de9fed30f9d (reply to 178557)
+
+— 2026-04-08 —
+
+Anthony: Voting is now live on mainnet for a change to config parameter 30 and the activation of Catchain 2.0, a new sub-second consensus with ~400ms block-time.  This is a fundamental change to our blockchain, allowing validators to communicate internally with each other using QUIC protocol.  There is a website where you can track the validator voting progress in real time: https://vote.lagus.cooking/  Fingers crossed. (forwarded from Lagus research)
+
+FortuneStack: I am still waiting (reply to 178557)
+
+Anthony: Hey! The team will get back to you soon (reply to 178635)
+
+TON Support: Hi! TON is a blockchain platform designed for scalable smart contracts, applications, and payments. It supports sharding and can accommodate one masterchain, up to 2^32 workchains, and up to 2^60 shardchains. Developers can build, debug, and deploy smart contracts on TON.  What specifically about TON blockchain development are you interested in?  Source: [TON documentation](https://docs.ton.org/#:~:text=Traces
