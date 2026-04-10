@@ -2446,6 +2446,15 @@
       "file": "photos/photo_289.jpg",
       "width": 1280,
       "height": 761
+    },
+    {
+      "id": 291,
+      "type": "message",
+      "date": "2026-04-09T12:40:34.000Z",
+      "date_unixtime": "1775738434",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "TONAPI now supports Streaming API for sub-second finality\n\nSub-second finality is live on mainnet. If you're building on TONAPI, here's what's new.\n\nTONAPI has added support for Streaming API (SSE + WebSocket), based on TON Center Streaming API v2. The interface is fully compatible, so you can use the official documentation as a reference.\n\nWhat's available: \n– SSE and WebSocket streaming endpoints \n– Full transaction lifecycle: pending → confirmed → finalized → trace_invalidated \n– Authorization via your existing Ton Console token \n\nEndpoints:\nMainnet: \nhttps://tonapi.io/streaming/v2/sse \nhttps://tonapi.io/streaming/v2/ws\n\nTestnet: \nhttps://testnet.tonapi.io/streaming/v2/sse \nhttps://testnet.tonapi.io/streaming/v2/ws\n\nDocumentation: Streaming API \nGet your API key: Ton Console"
     }
   ]
 }

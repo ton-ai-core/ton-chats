@@ -1067,3 +1067,27 @@ FortuneStack: I am still waiting (reply to 178557)
 Anthony: Hey! The team will get back to you soon (reply to 178635)
 
 TON Support: Hi! TON is a blockchain platform designed for scalable smart contracts, applications, and payments. It supports sharding and can accommodate one masterchain, up to 2^32 workchains, and up to 2^60 shardchains. Developers can build, debug, and deploy smart contracts on TON.  What specifically about TON blockchain development are you interested in?  Source: [TON documentation](https://docs.ton.org/#:~:text=Traces
+
+— 2026-04-09 —
+
+Anthony: 💎 TON is Now Up to 6x Faster  Sub-second finality is live.  Transactions now confirm in about 1 second, down from around 10 seconds before. Block times dropped from 2.5 seconds to 400 milliseconds to bring the on-chain experience closer to Web2 responsiveness.  What this unlocks:  Payments that feel like sending a message, trades that execute in real time, and apps that match the speed users expect from any modern product.  What this changes:  The network now produces more blocks, which increases validator rewards and strengthens staking incentives across the ecosystem.   For developers:  The blockchain is now fast. Your apps need to show it. Upgrade to streaming APIs to surface sub-second speed for your users.  👉 Docs   TON Community | TON Dev News | TON Regional | X | YouTube | LinkedIn | TON.org (forwarded from Toncoin)
+
+Blackstreak: Hello Admin/Mods  May I know if there is a specific community for Devs in India who are building on TON?
+
+TON Support: The TON documentation mentions that the ADNL protocol, which is built on top of the TCP/UDP stack, is the cornerstone of TON networking. The TON Distributed Hash Table (DHT) is used to locate other nodes in the network and acts as a key-value data storage....  While the documentation details how DHT queries for dht.getSignedAddressList are handled, and mentions adnl.address.udp as a schema for IP and port, it does not explicitly state that DHT has started returning QUIC addresses instead of UDP, or that the interaction with DHT for peer discovery has changed in that specific way. The provided information focuses on UDP communication and the structure of ADNL messages for DHT queries.  Source: Work with UDP | The Open Network, Overview | The Open Network, Deep dive | The Open Network, Web3 services - TON Docs
+
+Anthony: TONAPI now supports Streaming API for sub-second finality  Sub-second finality is live on mainnet. If you're building on TONAPI, here's what's new.  TONAPI has added support for Streaming API (SSE + WebSocket), based on TON Center Streaming API v2. The interface is fully compatible, so you can use the official documentation as a reference.  What's available:  – SSE and WebSocket streaming endpoints  – Full transaction lifecycle: pending → confirmed → finalized → trace_invalidated  – Authorization via your existing Ton Console token   Endpoints: Mainnet:  https://tonapi.io/streaming/v2/sse  https://tonapi.io/streaming/v2/ws  Testnet:  https://testnet.tonapi.io/streaming/v2/sse  https://testnet.tonapi.io/streaming/v2/ws  Documentation: Streaming API  Get your API key: Ton Console (forwarded from TON Dev News)
+
+🇵🇸: Support for all addresses is needed; specific addresses are insufficient for monitoring every transaction. (reply to 178678)
+
+Ammar: Hello, I want to create a trading bot on Telegram for trading on the network. Do you have any guidance? I am a beginner. I want to build a project, even if it is simple, for personal use at the beginning on ton
+
+Dmitry: It appears the recipient address was incorrectly set to the proxy contract rather than the intended destination wallet. Please verify that the correct address is utilized. A refund has been issued to the address. (reply to 178635)
+
+Dmitry: Could you share how you set up this transfer? Maybe the SDK could be improved (reply to 178563)
+
+Marsina: my apps blockchain chat is now instant. thanks team! (reply to 178667)
+
+FortuneStack: We used the standard @ton-pay/api SDK with TonConnect. The recipientAddr is stored in our database and passed to createTonPayTransfer which embeds it in the proxy payload. During one transaction, the stored recipient address in our DB was incorrectly set to the proxy contract address itself rather than our merchant wallet — so the proxy forwarded funds back to itself instead of forwarding out.  A potential SDK improvement: add a validation step in createTonPayTransfer that checks whether the recipientAddr matches the proxy contract address and throws an error if so. This would catch this class of misconfiguration at the SDK level before the transaction is signed. (reply to 178689)
+
+FortuneStack: The original sender has confirmed receipt of the refund. Is there any way the funds could instead be directed to our merchant wallet? (reply to 178688)

@@ -747,3 +747,7 @@ Unknown: 🦀 AI Agents and Bot-to-Bot Communication  Historically, bot-to-bot i
 — 2026-04-08 —
 
 Unknown: Voting is now live on mainnet for a change to config parameter 30 and the activation of Catchain 2.0, a new sub-second consensus with ~400ms block-time.  This is a fundamental change to our blockchain, allowing validators to communicate internally with each other using QUIC protocol.  There is a website where you can track the validator voting progress in real time: https://vote.lagus.cooking/  Fingers crossed. (forwarded from Lagus research)
+
+— 2026-04-09 —
+
+Unknown: TONAPI now supports Streaming API for sub-second finality  Sub-second finality is live on mainnet. If you're building on TONAPI, here's what's new.  TONAPI has added support for Streaming API (SSE + WebSocket), based on TON Center Streaming API v2. The interface is fully compatible, so you can use the official documentation as a reference.  What's available:  – SSE and WebSocket streaming endpoints  – Full transaction lifecycle: pending → confirmed → finalized → trace_invalidated  – Authorization via your existing Ton Console token   Endpoints: Mainnet:  https://tonapi.io/streaming/v2/sse  https://tonapi.io/streaming/v2/ws  Testnet:  https://testnet.tonapi.io/streaming/v2/sse  https://testnet.tonapi.io/streaming/v2/ws  Documentation: Streaming API  Get your API key: Ton Console
