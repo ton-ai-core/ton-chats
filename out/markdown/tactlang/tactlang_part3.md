@@ -10547,3 +10547,7 @@ Haruna: How are you?
 Najah: Jumma Mubarak ✅
 
 Ab....: Hi (reply to 81756)
+
+— 2026-04-12 —
+
+Donald (Mt.Dew) Derosier | Crypto Fam Radio: Hi folks, Our team at Suisse Wallet🇨🇭 is working on a non-custodial crypto wallet with atomic swaps, P2P trading, and QR payments. And right now, our main priority is Lightning Network integration. We're looking for an experienced Product Manager (4+ years) who will be genuinely passionate about growing the project - using their own vision, experience, and understanding of what crypto wallet users are currently missing. Salaries around $170k-$290k + equity + benefits. If you're interested in learning more details - would love to chat. Thanks! :)

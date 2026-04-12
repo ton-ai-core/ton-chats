@@ -4371,3 +4371,77 @@ Pavel: дисклеймер капсом надо. (reply to 344786)
 K🆓³³: Писать текст на картинках? Не очень (reply to 344809)
 
 Lamina_cursor: Есть пересказ? (reply to 344809)
+
+— 2026-04-11 —
+
+Батч (кодер): Всем мяу
+
+Батч (кодер): Как юзать хайлоад
+
+TON Support: Highload Wallet v3 является рекомендуемой версией. Он был переработан для решения всех архитектурных проблем предыдущих версий.  Основные преимущества Highload Wallet v3: *   Большее количество запросов: До 8,380,416 уникальных ID запросов с эффективной...  ротацией. *   Низкие затраты на газ: Оптимизированные операции очистки и хранения. *   Максимальная безопасность: Архитектурный дизайн предотвращает блокировку средств. *   Гарантированная защита от повторного воспроизведения (replay protection): В отличие от v1, v2 и стандартных кошельков v1-v4, защита от повторного воспроизведения никогда не откатывается, даже если фаза действия завершается неудачей. Двухтранзакционная модель гарантирует, что query_id всегда фиксируется до попытки отправки сообщений.  Как это работает: Highload v3 использует двухэтапный подход с внутренними сообщениями: 1.  Транзакция 1 (внешнее сообщение): Только помечает query_id как обработанный и отправляет внутреннее сообщение самому себе. 2.  Транзакция 2 (внутреннее сообщение): Обрабатывает внутреннее сообщение и отправляет фактические исходящие переводы.  Даже если Транзакция 2 завершается неудачей на фазе действия, Транзакция 1 уже успешно завершилась, и ее изменения хранилища (защита от повторного воспроизведения) не могут быть отменены.  Для создания Highload Wallet v3 вам потребуется указать два параметра конфигурации: *   timeout: Определяет окно валидности для внешних сообщений и длительность цикла очистки. *   subwallet_id: Идентификатор суб-кошелька.  Подробные инструкции по созданию и отправке транзакций с Highload Wallet v3 можно найти в официальной документации.  Source: Highload wallets - TON Docs Source: How to create Highload Wallet v3 - TON Docs Source: How to send a single transfer - TON Docs (reply to 344901)
+
+Батч (кодер): Я знаю
+
+Батч (кодер): Как юзать
+
+Батч (кодер): Тупой ии
+
+𝗮𝗶𝗷𝗶𝗺𝗮: Как там сделать кастомный пейлоад
+
+TON Support: Для создания кастомного пейлоада для определенных транзакций его необходимо определить.  Например, при передаче NFT вы можете определить messageBody с помощью beginCell() и указать: *   opcode для передачи NFT *   query_id *   new_owner (новый...  владелец) *   response_destination (адрес для ответа) *   опциональный кастомный пейлоад  Пример для NFT: ``` const messageBody = beginCell()     .storeUint(0x5fcc3d14, 32) // opcode for NFT transfer     .storeUint(0, 64) // query id     .storeAddress(destinationAddress) // new owner     .storeAddress(destinationAddress) // response destination     .storeBit(0) // if 0, no custom payload     .storeCoins(toNano('0.01')) // forward amount     .endCell(); ```  Если вам нужен пейлоад-ссылка из ячейки, вы можете вручную сконструировать его, используя beginCell().storeBool(true).storeRef(ref).asSlice().  Для специфических кастомных транзакций всегда нужно определять конкретный пейлоад.  Source: Message-driven execution | The Open Network, Forward payload in jettons - TON Docs, TON transfer | The Open Network (reply to 344906)
+
+𝗮𝗶𝗷𝗶𝗺𝗮: а имя на кошелек как поставить чтобы в поле name было kucoin
+
+TON Support: Чтобы задать имя кошелька, которое будет отображаться пользователям в интерфейсах dApp, вы можете использовать свойство name в манифесте TON Connect. Это свойство является человекочитаемым именем кошелька.  Например, для WalletInfo существует свойство name, которое определяет отображаемое имя кошелька.  Пример: name: "Kucoin Wallet" или просто "Kucoin"  Source: How to initialize the TON Connect's WalletKit on the Web platform, TON Connect manifests - TON Docs (reply to 344908)
+
+Батч (кодер): Я уже понял
+
+Батч (кодер): Надо крупный проект
+
+𝗮𝗶𝗷𝗶𝗺𝗮: это писдец
+
+Батч (кодер): Еба
+
+𝗮𝗶𝗷𝗶𝗺𝗮: это не то помоему (reply to 344909)
+
+Батч (кодер): За что
+
+Mirka: Через код, какой язык используешь? (reply to 344901)
+
+Батч (кодер): Node.js (reply to 344919)
+
+𝗮𝗶𝗷𝗶𝗺𝗮: '{"messages":[{"address":"EQAsdvMucJNGh2rZoUItrCOvAnwzLybvOdGcNhnk08ixTVZ1","amount":"50000000","payload":"te6cckEBAQEAAgAAAEysuc0=","stateInit":"te6cckEBCgEA3gACATQBCQIo/wCOiPSkE/S88sgL7VMg4wPtQ9kCBwIDkGcDBQEgqhjtRNDTH9MfWWwS2zxsIQQAAiABIKmQ7UTQ0x/TH1lsEts8bCEGAAIhAfgwAdBy1yHSANIA+kAhEDRQZm8E+GEC+GLtRNDTH9MfWWwSA5JfA+BwItdJIMIflTEC0x8D3iGCEIfUOsK6jiFbAdMfMBKg+ELIz4UIznDPC27JgEL7AMhZAssfyx/J7VTgbCIywAABwSGwjhD4QsjPhQjOcM8LbsmAQvsACAAI4PLAggAQAAAm1AAAAACPM1Su"}],"valid_until":1775893616962,"from":"0:121aa0bbcfec80cb5e65b20c5a773449a32af41b6f2939a778d54c481eb4f171","network":"-239"}'
+
+Mirka: Это вроде сюда: https://github.com/tonkeeper/ton-assets (reply to 344908)
+
+Батч (кодер): А можно по сиид зайти с тон валлет
+
+Батч (кодер): А то лень качать на ноут тонкипер
+
+𝗮𝗶𝗷𝗶𝗺𝗮: у нас же highload wallet https://github.com/ton-blockchain/highload-wallet-contract-v3 (reply to 344922)
+
+Mirka: Там по адресу просто, не важно, какая версия кошелька (reply to 344925)
+
+Батч (кодер): О я понял
+
+Батч (кодер): Ток опять ошибки
+
+Батч (кодер): Э как фотки кидать за что так
+
+𝗮𝗶𝗷𝗶𝗺𝗮: все для людей)
+
+Mirka: Попробуй по одной отправить (reply to 344940)
+
+𝗮𝗶𝗷𝗶𝗺𝗮: нигде нам не рады ладно
+
+𝗮𝗶𝗷𝗶𝗺𝗮: хорошо хоть есть аккаунты
+
+&rey: Нарушать правила чата запрещено. (reply to 344943)
+
+Unge: Hello, I need some advice.  I sold a username on Fragment (status SOLD). My KYC is verified (green), but the payment hasn’t arrived yet after 4–5 days.  Is this normal or should I contact support?  Thanks.
+
+&rey: Проверьте, на настоящем ли Fragment продали; если да, обратитесь в его поддержку. (reply to 344971)
+
+GafarSky: Всем рривет. Напомните пожалуйста.  Безгазовые транзакции за раз сколько сообщений вмещают?  255 ?
+
+TON Support: Да, безгазовые транзакции, поддерживаемые Wallet v5, могут включать до 255 исходящих сообщений за один подписанный внешний запрос.  Source: Comparison - TON Docs (reply to 344975)

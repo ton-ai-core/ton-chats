@@ -12423,3 +12423,9 @@ Adsgram: TON技术交流中文群
 Anthony: 💎 TON is Now Up to 6x Faster  Sub-second finality is live.  Transactions now confirm in about 1 second, down from around 10 seconds before. Block times dropped from 2.5 seconds to 400 milliseconds to bring the on-chain experience closer to Web2 responsiveness.  What this unlocks:  Payments that feel like sending a message, trades that execute in real time, and apps that match the speed users expect from any modern product.  What this changes:  The network now produces more blocks, which increases validator rewards and strengthens staking incentives across the ecosystem.   For developers:  The blockchain is now fast. Your apps need to show it. Upgrade to streaming APIs to surface sub-second speed for your users.  👉 Docs   TON Community | TON Dev News | TON Regional | X | YouTube | LinkedIn | TON.org (forwarded from Toncoin)
 
 Anthony: TONAPI now supports Streaming API for sub-second finality  Sub-second finality is live on mainnet. If you're building on TONAPI, here's what's new.  TONAPI has added support for Streaming API (SSE + WebSocket), based on TON Center Streaming API v2. The interface is fully compatible, so you can use the official documentation as a reference.  What's available:  – SSE and WebSocket streaming endpoints  – Full transaction lifecycle: pending → confirmed → finalized → trace_invalidated  – Authorization via your existing Ton Console token   Endpoints: Mainnet:  https://tonapi.io/streaming/v2/sse  https://tonapi.io/streaming/v2/ws  Testnet:  https://testnet.tonapi.io/streaming/v2/sse  https://testnet.tonapi.io/streaming/v2/ws  Documentation: Streaming API  Get your API key: Ton Console (forwarded from TON Dev News)
+
+— 2026-04-11 —
+
+宝马: 诚佋居家客服 日结免押~
+
+Ton Competitions 🏆: Is english ok in here?
