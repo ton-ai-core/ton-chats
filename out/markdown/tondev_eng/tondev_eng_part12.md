@@ -1095,3 +1095,21 @@ FortuneStack: The original sender has confirmed receipt of the refund. Is there 
 — 2026-04-11 —
 
 TON Support: While direct integration with Google BigQuery for TON blockchain data isn't explicitly mentioned, you can access TON blockchain data through several methods:  *   TON Center API v3: This API provides an indexed data layer, allowing applications to read...  blockchain data, run analytical queries, and retrieve historical information. It reads raw data from a node's RocksDB storage, parses and decodes it, and stores it in PostgreSQL. *   TON Center API v2: This API provides developer access through REST and JSON-RPC endpoints, allowing applications to read blockchain data, run smart contract methods, and send transactions. *   Running your own TON node: You can set up your own full or archive node with a liteserver mode and ton-http-api enabled using MyTonCtrl for a stable connection. *   Publicly available data from S3 bucket: You can access publicly available data from the S3 bucket: s3://aws-public-blockchain/v1.1/ton/.  These methods allow you to access and process TON blockchain data, which you could then potentially integrate with Google BigQuery.  Source: Overview - TON Docs, Start here - TON Docs, Overview - TON Docs, Analytics and data providers - TON Docs (reply to 178785)
+
+— 2026-04-13 —
+
+Sergei: Hi! Quick question about Streaming API v2 subscriptions.  For the accounts array in a WebSocket subscription — is there a documented or recommended upper limit on how many addresses one subscription can hold? (reply to 178678)
+
+TON Support: An array can contain from 0 to 255 elements.  Source: Arrays and tuples - TON Docs (reply to 178852)
+
+Sergei: No, I'm talking about the payload array capacity, not the TVM (reply to 178853)
+
+&rey: Legacy Streaming API (tonapi) had 1000 account subscriptions per connection; how many v2 supports, appears not to be written yet. (reply to 178852)
+
+Sergei: 1000 is quite generous too, thanks for the info (reply to 178855)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: https://github.com/TONresistor/tonutils-bridge  WebSocket bridge using tonutils-go exposing liteserver queries, DHT, ADNL, overlay networks, and real-time subscriptions via JSON-RPC 2.0 over WebSocket.  Why pay for an API if you can connect yourself 🤷🏻‍♂️🤷🏻‍♂️
+
+IDRegistry: I can’t managed to get CSS 3D transforms working properly in the Mini App..  Also having issues with backdrop-filter: blur() not rendering. Are there known WebView limitations I should be aware of?  Any workarounds? Thanks ! (reply to 178875)
+
+Mirka: @devs (reply to 178877)
