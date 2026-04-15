@@ -10573,3 +10573,9 @@ Alividerchibucefal: Ник бота имба,I like it (reply to 81852)
 Nure: Hy nuredin Ganna
 
 S: 🙂‍↔️ (reply to 81897)
+
+— 2026-04-14 —
+
+James: Been spending time lately looking into early Web3 teams (part of a Accelerator circle) honestly feels like a lot of the most interesting stuff isn’t even visible yet  Curious if anyone here is building something quietly
+
+Anthony: Due to the focus on the Tolk language, the chat has been switched to read-only mode.
