@@ -15536,6 +15536,106 @@
       "from_id": "user533881104",
       "text": "и еще - для этого есть рабочий TON Payments Channels контракты",
       "reply_to_message_id": 1762
+    },
+    {
+      "id": 1767,
+      "type": "message",
+      "date": "2026-04-15T15:26:18.000Z",
+      "date_unixtime": "1776266778",
+      "from": "AL Pamblus",
+      "from_id": "user1790119704",
+      "text": "🙂👍",
+      "reply_to_message_id": 1766
+    },
+    {
+      "id": 1768,
+      "type": "message",
+      "date": "2026-04-15T15:27:34.000Z",
+      "date_unixtime": "1776266854",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "чот не пон. Почему maybe_ref считается пустым если опкод начинается с лидирующих нулей? Как это связано?",
+      "reply_to_message_id": 135
+    },
+    {
+      "id": 1769,
+      "type": "message",
+      "date": "2026-04-15T15:28:01.000Z",
+      "date_unixtime": "1776266881",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "ну для load_maybe_ref нужен чтоб битик лежал",
+      "reply_to_message_id": 1768
+    },
+    {
+      "id": 1770,
+      "type": "message",
+      "date": "2026-04-15T15:28:11.000Z",
+      "date_unixtime": "1776266891",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "сам бланк не читает опкод",
+      "reply_to_message_id": 1766
+    },
+    {
+      "id": 1771,
+      "type": "message",
+      "date": "2026-04-15T15:28:22.000Z",
+      "date_unixtime": "1776266902",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "поэтому надо чтобы в опкоде правильный битик был",
+      "reply_to_message_id": 1766
+    },
+    {
+      "id": 1772,
+      "type": "message",
+      "date": "2026-04-15T15:29:11.000Z",
+      "date_unixtime": "1776266951",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "так как опкод на этот битик влияет \nопкод выступает в качестве этого битика?",
+      "reply_to_message_id": 1771
+    },
+    {
+      "id": 1773,
+      "type": "message",
+      "date": "2026-04-15T15:29:23.000Z",
+      "date_unixtime": "1776266963",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Да, потому что ванити не считывает опкода, сразу дату читает",
+      "reply_to_message_id": 1772
+    },
+    {
+      "id": 1774,
+      "type": "message",
+      "date": "2026-04-15T15:30:06.000Z",
+      "date_unixtime": "1776267006",
+      "from": "X1ag",
+      "from_id": "user744246158",
+      "text": "аа, теперь пон, спасибо",
+      "reply_to_message_id": 1773
+    },
+    {
+      "id": 1775,
+      "type": "message",
+      "date": "2026-04-15T17:06:16.000Z",
+      "date_unixtime": "1776272776",
+      "from": "Vudi",
+      "from_id": "user218709297",
+      "text": "А сколько еще неизведанного…",
+      "reply_to_message_id": 1766
+    },
+    {
+      "id": 1776,
+      "type": "message",
+      "date": "2026-04-15T17:33:27.000Z",
+      "date_unixtime": "1776274407",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "Сколько??",
+      "reply_to_message_id": 1775
     }
   ]
 }

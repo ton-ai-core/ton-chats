@@ -1113,3 +1113,19 @@ Sergei: 1000 is quite generous too, thanks for the info (reply to 178855)
 IDRegistry: I can’t managed to get CSS 3D transforms working properly in the Mini App..  Also having issues with backdrop-filter: blur() not rendering. Are there known WebView limitations I should be aware of?  Any workarounds? Thanks ! (reply to 178875)
 
 Mirka: @devs (reply to 178877)
+
+— 2026-04-15 —
+
+Tlink Wallet: Hi everyone,  I’ve been building an XMSS-based quantum-resistant wallet for TON and would appreciate honest feedback from the community.  The setup is already working:  - the smart contract is implemented and functioning as intended - the supporting utilities/tools are also in place and working properly - users keep full control of their wallet - withdrawals cost about 0.3 TON in gas - anyone can send funds to the wallet - it works within the current TON infrastructure, with no protocol changes required  The motivation is long-term security. Ed25519 is widely used across TON and other ecosystems, but it is not quantum-resistant.  A few questions:  - Do you see real demand for quantum-resistant wallets in TON today? - What would be the main blockers to adoption? - Would this be more useful as a niche security product or something broader?  Happy to share technical details if anyone is interested.
+
+Slava: This is definitely an interesting field, that worth working on. However, if the traditional crypto will be broken, a state of TON wallets will be the last thing that people will be worrying about. (reply to 178986)
+
+&rey: Clarifying the answer above, one'd first need to replace SHA256 throughout the blockchain. (reply to 178986)
+
+Slava: Also, with such fees such wallets would be only practical as a cold storage, not general purpose wallets.  This definitely deserves a study of implementing dedicated TVM instructions to help reduce the costs. (reply to 178986)
+
+Slava: As far as I remember the white paper, the network's design allows the hashing algo to be swapped. Don't know how hard that would be in practice though. (reply to 178999)
+
+&rey: Abandoning the whole workchain 0 at the very worst, because many contracts rely on contract address calculation using SHA256. (reply to 179002)
+
+Slava: To conclude, this is a serious and important field that deserves study, but it should better be done on the network level.
