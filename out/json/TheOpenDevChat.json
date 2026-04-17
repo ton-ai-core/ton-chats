@@ -15636,6 +15636,66 @@
       "from_id": "user348244666",
       "text": "Сколько??",
       "reply_to_message_id": 1775
+    },
+    {
+      "id": 1778,
+      "type": "message",
+      "date": "2026-04-16T08:07:31.000Z",
+      "date_unixtime": "1776326851",
+      "from": "ezji",
+      "from_id": "user1289627706",
+      "text": "claude mythos бы ответил тебе)",
+      "reply_to_message_id": 1775
+    },
+    {
+      "id": 1779,
+      "type": "message",
+      "date": "2026-04-16T08:09:30.000Z",
+      "date_unixtime": "1776326970",
+      "from": "Vudi",
+      "from_id": "user218709297",
+      "text": "Он не шарит за TVM",
+      "reply_to_message_id": 1778
+    },
+    {
+      "id": 1780,
+      "type": "message",
+      "date": "2026-04-16T08:10:18.000Z",
+      "date_unixtime": "1776327018",
+      "from": "ezji",
+      "from_id": "user1289627706",
+      "text": "инфа 💯?)",
+      "reply_to_message_id": 1779
+    },
+    {
+      "id": 1781,
+      "type": "message",
+      "date": "2026-04-16T11:11:27.000Z",
+      "date_unixtime": "1776337887",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "146%",
+      "reply_to_message_id": 1780
+    },
+    {
+      "id": 1782,
+      "type": "message",
+      "date": "2026-04-16T11:14:19.000Z",
+      "date_unixtime": "1776338059",
+      "from": "rends_east",
+      "from_id": "user348244666",
+      "text": "ну кстати я тестил opus в кодинге на толке, и он справился, наверное, чуть лучше, чем средний прогер на толке, но все равно и багов понаоставлял, и в целом паттерны не оч крутые юзал\n\nпока что я прям значительно лучше напишу, если надо будет",
+      "reply_to_message_id": 1780
+    },
+    {
+      "id": 1783,
+      "type": "message",
+      "date": "2026-04-16T14:26:42.000Z",
+      "date_unixtime": "1776349602",
+      "from": "PHYN",
+      "from_id": "user1223553784",
+      "text": "⚡️",
+      "reply_to_message_id": 1766
     }
   ]
 }

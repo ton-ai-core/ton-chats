@@ -1129,3 +1129,7 @@ Slava: As far as I remember the white paper, the network's design allows the has
 &rey: Abandoning the whole workchain 0 at the very worst, because many contracts rely on contract address calculation using SHA256. (reply to 179002)
 
 Slava: To conclude, this is a serious and important field that deserves study, but it should better be done on the network level.
+
+— 2026-04-17 —
+
+Alina: After the sub-second update I started getting this error on my ton-lite-client contract .get() calls frequently:   Error: cannot load block (0,8000000000000000,65859296):78F82C8050CC757BAD35D6171846B38A261F7F25019059E50CC6F7F566DC1BFE:A1F5B76FBD2317E6A97F249605B26F29EC5C27E6322D9FCCF95D475C55D19A82 : block (0,8000000000000000,65859296) is not in db (possibly out of sync: shard_client_seqno=60874675 ls_seqno=60874683)   Mytonctrl status reports this: Liteserver queries for the past 60 sec (success/error): 11039/5919  Previously, the success rate was 100% and I could even skip wrapping lite server calls in a try-catch
