@@ -751,3 +751,7 @@ Unknown: Voting is now live on mainnet for a change to config parameter 30 and t
 — 2026-04-09 —
 
 Unknown: TONAPI now supports Streaming API for sub-second finality  Sub-second finality is live on mainnet. If you're building on TONAPI, here's what's new.  TONAPI has added support for Streaming API (SSE + WebSocket), based on TON Center Streaming API v2. The interface is fully compatible, so you can use the official documentation as a reference.  What's available:  – SSE and WebSocket streaming endpoints  – Full transaction lifecycle: pending → confirmed → finalized → trace_invalidated  – Authorization via your existing Ton Console token   Endpoints: Mainnet:  https://tonapi.io/streaming/v2/sse  https://tonapi.io/streaming/v2/ws  Testnet:  https://testnet.tonapi.io/streaming/v2/sse  https://testnet.tonapi.io/streaming/v2/ws  Documentation: Streaming API  Get your API key: Ton Console
+
+— 2026-04-17 —
+
+Unknown: TON Rust Node v0.5.1: LiteServer Response Fix  Response corrected. Block proof traversal optimized.  Fixes LiteServer response handling for listBlockTransactions so clients accept it correctly, while making block proof traversal more efficient.  Read the Changelog: https://github.com/RSquad/ton-rust-node/releases/tag/node%2Fv0.5.1 (forwarded from TON Rust Node | News)

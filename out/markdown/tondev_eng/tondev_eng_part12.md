@@ -1133,3 +1133,23 @@ Slava: To conclude, this is a serious and important field that deserves study, b
 — 2026-04-17 —
 
 Alina: After the sub-second update I started getting this error on my ton-lite-client contract .get() calls frequently:   Error: cannot load block (0,8000000000000000,65859296):78F82C8050CC757BAD35D6171846B38A261F7F25019059E50CC6F7F566DC1BFE:A1F5B76FBD2317E6A97F249605B26F29EC5C27E6322D9FCCF95D475C55D19A82 : block (0,8000000000000000,65859296) is not in db (possibly out of sync: shard_client_seqno=60874675 ls_seqno=60874683)   Mytonctrl status reports this: Liteserver queries for the past 60 sec (success/error): 11039/5919  Previously, the success rate was 100% and I could even skip wrapping lite server calls in a try-catch
+
+Alex: Hello!  Thank you for the report. The developers are currently working on a solution to this issue and will likely share an update sometime next week. (reply to 179041)
+
+Fardin: Hello how u guys are handling factory patter contracts in the tolk? I have a pool and factory, but i have no idea how to deploy the pool with factory in tolk.
+
+TON Support: In Tolk, when handling factory pattern contracts like a pool and factory, the factory contract (e.g., a jetton minter) needs to know the initial state of the contracts it will deploy (e.g., jetton wallets). This includes their code and data.  For example,...  when deploying a jetton wallet, the minter contract calculates the future wallet's address and state initialization (stateInit) based on its code and the initial data.  To ensure that sibling contracts are deployed to the same shard, you can specify the prefix length and the target contract address. This is particularly important for sharded contracts, such as sharded jetton wallets, which need to be on the same shard as the owner's wallet.  You can find a reference implementation of jetton contracts in the tolk-bench repository on GitHub.  Source: Idioms and conventions - TON Docs (reply to 179055)
+
+fade: it was always like this even before the subsecond upgrade, you must retry  getaccountstate and runsmcmethod calls (reply to 179041)
+
+fade: after the upgrade, error rate is higher
+
+Alina: I'm quite sure I was connecting to my self-hosted liteserver and it was never throwing before (reply to 179057)
+
+fade: it was just less error before the upgrade, like once you start overloading the node the error rate will be higher
+
+fade: i just wrap getaccountstate and runsmcmethod in retry, with same target block of course
+
+Maks: Error: cannot load block (0,8000000000000000,65859296):78F82C8050CC757BAD35D6171846B38A261F7F25019059E50CC6F7F566DC1BFE:A1F5B76FBD2317E6A97F249605B26F29EC5C27E6322D9FCCF95D475C55D19A82 : block (0,8000000000000000,65859296) is not in db (possibly out of sync: shard_client_seqno=60874675 ls_seqno=60874683)
+
+Slava: LSes have always had stability issues, even the self-hosted ones with virtually no load. In any case, wrapping ALL your requests (not only to LSes) is a must and a good practice. (reply to 179041)
