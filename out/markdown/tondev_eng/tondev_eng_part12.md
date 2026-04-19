@@ -1153,3 +1153,7 @@ fade: i just wrap getaccountstate and runsmcmethod in retry, with same target bl
 Maks: Error: cannot load block (0,8000000000000000,65859296):78F82C8050CC757BAD35D6171846B38A261F7F25019059E50CC6F7F566DC1BFE:A1F5B76FBD2317E6A97F249605B26F29EC5C27E6322D9FCCF95D475C55D19A82 : block (0,8000000000000000,65859296) is not in db (possibly out of sync: shard_client_seqno=60874675 ls_seqno=60874683)
 
 Slava: LSes have always had stability issues, even the self-hosted ones with virtually no load. In any case, wrapping ALL your requests (not only to LSes) is a must and a good practice. (reply to 179041)
+
+— 2026-04-19 —
+
+TON Moderator: Hello, J.S.B! Read rules and click button below.
