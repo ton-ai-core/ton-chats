@@ -1157,3 +1157,9 @@ Slava: LSes have always had stability issues, even the self-hosted ones with vir
 — 2026-04-19 —
 
 TON Moderator: Hello, J.S.B! Read rules and click button below.
+
+Vitalii: Hello devs   TMA analytics not load fix it plz
+
+Vitalii: I cant see keys, long loading and 504 on endpoint ton.org/dev/api/v1/analytics/tokens/?projectid= (reply to 179177)
+
+Vitalii: https://ton.org/dev/profile?tab=analytics&project=3455274b-d2cf-8147-a1d9-eb05c1ee5430  Here not load keys (reply to 179177)

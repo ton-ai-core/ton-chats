@@ -4735,3 +4735,77 @@ Honey: подскажи мне где продавать TON nft? конкрет
 Pat: Failed Dramatically. Please contact support=(
 
 TON Moderator: Привет, J.S.B! Прочти правила и нажми кнопку ниже.
+
+Pavel: до завтра подожди. я в паблик выкачу такой сервис (reply to 345768)
+
+Lamina_cursor: Прямо на Tact рекомендуешь ? (reply to 345803)
+
+Volodya: Если правильно понимаю, то что требуется мониторить транзакции на адресах, попробуй этот сервис, он селфхостед может быть подойдет https://github.com/OpenBuilders/transaction-lookup (reply to 345768)
+
+Pavel: он вроде как написал что все сообщения. (reply to 345837)
+
+Pavel: насколько я понимаю все ext in из мемпула не получить из-за gossip. верно?
+
+Fevi: How to access mempool?  Does the free tier of TonAPI support Mempool SSE? I'm getting a "Forbidden error"  If it's a paid feature, which plan should I upgrade to? If it's supposed to be free, any idea why I'm getting this error and how to fix it? Thanks
+
+TON Support: The Streaming API, including Server-Sent Events (SSE), is compatible with TonAPI. For authentication, you need a Ton Console API key. For testing purposes, any valid TON Center token allows for two concurrent streaming connections. However, for production...  use and higher connection limits, a paid plan is required.  A "Forbidden error" (403) often indicates that the API key was issued for a different network (e.g., using a testnet key on the mainnet). Please ensure your API key matches the network you are trying to access.  Source: How to adopt sub-second finality - TON Docs, Streaming API overview - TON Docs, API authentication - TON Docs, Streaming API: Server-Sent Events - TON Docs (reply to 345846)
+
+viebu: Привет всем! Минчу тестовую коллекцию нфтшек, и с вероятностью примерно 50/50 на некоторые предметы вешается метка SCAM - они не имеют ничего общего со скамом, просто кокосы и торты с соответствующим описанием. При всём этом метадата предметов одинаковая, только на одном предмете появляется метка, на другом нет Сталкивался кто-то? Как решить?  EQCyVwvckSYZJQ17F51wN335dCD8sl_SDeOeELI9lp3N6Obr EQAB38G_UWsb2Ma-KegV-nQb6zSzhO4ngIwvefiYaZhX0T7f
+
+ИВАН ОБВАЛЬНЫЙ: сходство с тг подарками в названии находит видимо (reply to 345856)
+
+TON Support: Чтобы избежать меток SCAM, убедитесь, что адрес коллекции совпадает с официальным, и проверьте метаданные NFT на наличие подозрительного содержимого. Контракт NFT может указывать любой адрес коллекции, поэтому недостаточно считывать поле коллекции только...  из самого элемента. Чтобы убедиться, что NFT действительно принадлежит коллекции, запросите контракт коллекции с индексом элемента и проверьте, совпадает ли возвращенный адрес с адресом элемента.  Source: How to work with NFTs using AppKit - TON Docs, How to work with NFTs using WalletKit on the Web platform - TON Docs (reply to 345856)
+
+viebu: Так и что это получается, я не могу поставить название торт потому что телеграм использует слово торт? Ну шутки шутками, но на какие-то метка вешается, на какие-то нет, коллекции приложил к сообщению (reply to 345857)
+
+ИВАН ОБВАЛЬНЫЙ: а где пометка скам то (reply to 345860)
+
+ИВАН ОБВАЛЬНЫЙ: там нету ее ваще
+
+ИВАН ОБВАЛЬНЫЙ: или это при смарт контрактах?
+
+viebu: Не могу приложить скрин в чате, кину в личку
+
+pluшak: честно говоря не знаю корня проблемы, но во первых только на тонвьювере такая проблема, на тонскане такого нет, и скорее всего тонвьювер помечает скамом из-за того что название схоже на EQCefrjhCD2_7HRIr2lmwt9ZaqeG_tdseBvADC66833kBS3y (Homemade Cakes нфт). У меня такая теория (reply to 345856)
+
+pluшak: Почему все нфт скамом не помечаются, сам не могу ответить (reply to 345865)
+
+viebu: Пообщался с человеком тут, есть теория о том что тонапи триггер ловит конкретно на "#1" и "#2", скоро это проверю Потому что челики скамят на подарки в блокчейне с такими айдишками (reply to 345865)
+
+pluшak: вот вполне вероятно (reply to 345868)
+
+pluшak: Ну это конкретно тонвьювера проблема
+
+pluшak: Коллекция не причём
+
+Anton: Если хорошую коллекцию жахнет скамом — можете написать в личку, пошаманим.
+
+pluшak: А в кошельке случайно не нажимали на кнопку Report Spam? (reply to 345868)
+
+viebu: Нет, потому что я её только заминтил и тут же поймал метку, это тестовая коллекция потому что контракт пишу (reply to 345873)
+
+Fevi: How to access the mempool? 😭
+
+TON Support: You can access pending transactions, which are analogous to a mempool, using the TON Center API v3. Specifically, you would use the GET /pendingTransactions endpoint. This allows you to retrieve pending transactions based on specified filters.  Here's...  an example of how you can query pending transactions using cURL:  ```bash curl --request GET \ --url https://toncenter.com/api/v3/pendingTransactions ```  Source: Get pending transactions - TON Docs (reply to 345875)
+
+K🆓³³: https://t.me/tondev_eng (reply to 345875)
+
+K🆓³³: Антиспам бот удаляет теги, но не удаляет ссылки (reply to 345883)
+
+User: Подправим (reply to 345884)
+
++6 dobriy#orig: Ой (reply to 345886)
+
+Lykos: Всем привет, может не по теме, столкнулся с проблемой при создании приложения на my. telegram. org/apps, постоянно выдает error, что бы я не пытался сделать, как бы не заполнял Есть ли решение?
+
+Vladimir: Чат русскоязычного сообщества разработчиков на TON. (reply to 345910)
+
+Lykos: И?
+
+Lykos: Никто никогда не работал с этим? (reply to 345910)
+
+Lykos: Я же написал видео весь текст на Русском и добавил   может не по теме
+
+Павел: Герой ,за это тебя тут и уважают ! (reply to 345914)
+
+K🆓³³: https://t.me/tondev/327117 (reply to 345912)
