@@ -1163,3 +1163,15 @@ Vitalii: Hello devs   TMA analytics not load fix it plz
 Vitalii: I cant see keys, long loading and 504 on endpoint ton.org/dev/api/v1/analytics/tokens/?projectid= (reply to 179177)
 
 Vitalii: https://ton.org/dev/profile?tab=analytics&project=3455274b-d2cf-8147-a1d9-eb05c1ee5430  Here not load keys (reply to 179177)
+
+— 2026-04-20 —
+
+Nikita: Hey. I’ve developed a BIN engine MVP for TON card infrastructure (Issue #1223 in grants-and-bounties).  The core logic is optimized for low latency (sub-20µs) and high throughput, which is essential for real-time payment gateways. The engine is functional, and I’m now looking to build the production wrapper (auth/API keys) around it. If anyone from the infra/payments team is around, I’d value a technical review. Thanks.
+
+— 2026-04-21 —
+
+Marsina: TMA analytics is soooo unstable. they even accused me of my app not working meanwhile their own sdk is making calls to a non existent endpoint (reply to 179177)
+
+Billy: Hi Ton devs, I'm getting this error on my index-api: {"@type":"extended_list_last","action":"<FATAL: unknown constructor for W5ExtendedAction>"} I'm on ghcr.io/ton-blockchain/ton:v2026.03-amd64 + toncenter/ton-indexer-api:v1.2.8, Is there a fix for this?
+
+Vitalii: We have same problem but We'll handle this on the backend ourselves, and we might even finish the SDK. If you need help, send me a direct message. (reply to 179321)
