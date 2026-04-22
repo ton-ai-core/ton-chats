@@ -1175,3 +1175,7 @@ Marsina: TMA analytics is soooo unstable. they even accused me of my app not wor
 Billy: Hi Ton devs, I'm getting this error on my index-api: {"@type":"extended_list_last","action":"<FATAL: unknown constructor for W5ExtendedAction>"} I'm on ghcr.io/ton-blockchain/ton:v2026.03-amd64 + toncenter/ton-indexer-api:v1.2.8, Is there a fix for this?
 
 Vitalii: We have same problem but We'll handle this on the backend ourselves, and we might even finish the SDK. If you need help, send me a direct message. (reply to 179321)
+
+Vitalii: Our backend will send API requests to the analytics API endpoint https://tganalytics.xyz (reply to 179327)
+
+Mubarek: <script src="https://tganalytics.xyz/index.js"></script>
