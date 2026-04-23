@@ -1179,3 +1179,57 @@ Vitalii: We have same problem but We'll handle this on the backend ourselves, an
 Vitalii: Our backend will send API requests to the analytics API endpoint https://tganalytics.xyz (reply to 179327)
 
 Mubarek: <script src="https://tganalytics.xyz/index.js"></script>
+
+— 2026-04-22 —
+
+fade: my node is out of sync constantly under very light load
+
+fade: i have out_of_sync alert from the alert bot like every 5 minutes
+
+&rey: known, being investigated and then fixed (reply to 179379)
+
+fade: i think the problem just got worse after the 03cc3da commit? (reply to 179381)
+
+Alina: for me too, not worse necessarily but def not better, I guess they will publish another fix (reply to 179382)
+
+TON Support: If your node is constantly out of sync, you should monitor timeDiff and Local validator out of sync using status_fast. These values should approach zero on a healthy node. If you repeatedly see "Importing archive..." messages, this could indicate insufficient IOPS due to storage latency.  Source: Run a node with MyTonCtrl - TON Docs (reply to 179379)
+
+h⃠a̶f̶υ t̶ⓘყe: how to submit the challenge video??
+
+TON Support: Could you clarify what challenge you're referring to? TON Docs covers TON blockchain development topics. If you're asking about a specific hackathon, contest, or educational program, could you share more details? Otherwise, I'm happy to help with documentation questions about TON development. (reply to 179398)
+
+h⃠a̶f̶υ t̶ⓘყe: yes appkit vedio challenge
+
+TON Support: Could you clarify your question? Appkit video challenge isn't something I can identify from the TON documentation. Are you asking about a specific TON SDK, TON Connect, or something else? I'd be happy to help with a documentation question about TON. (reply to 179400)
+
+h⃠a̶f̶υ t̶ⓘყe: ok tell me about TON.
+
+TON Support: TON (The Open Network) is a scalable blockchain platform designed for smart contracts, applications, and payments. It functions as a distributed platform for data and code storage, and for running computations. The platform runs on nodes, with validators playing a key role in maintaining its safety and operation.  Source: Start here - TON Docs, TON documentation, Web3 services - TON Docs, The Open Network - TON Docs (reply to 179402)
+
+h⃠a̶f̶υ t̶ⓘყe: ok thank you for helping me.but I have one question, last week I was created video about appkit but I can't submit it. How to submit a video ?
+
+TON Support: Could you clarify what you mean by submit a video? TON Docs is documentation for The Open Network blockchain. Are you asking about a specific feature, like submitting a video to a contest, tutorial submission, or something else? (reply to 179404)
+
+h⃠a̶f̶υ t̶ⓘყe: submitting a video to contest
+
+TON Support: Could you clarify what you mean? Are you asking about a specific TON contest (e.g., a developer contest on the TON blockchain)? I searched the TON documentation, which focuses on blockchain development — video contest submissions aren't a typical documentation topic. If you can share more context, I'll look into it. (reply to 179406)
+
+h⃠a̶f̶υ t̶ⓘყe: can I send video in this group?
+
+Илья: https://github.com/TONresistor/Tonnet-Browser  Is someone know what is it? Is this repo safe? Looks like scam.
+
+vangaard: It is from @zkproof and has been mentioned by TON Core devs and it is safe. (reply to 179414)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: I’m trying to reply, but the bot keeps deleting my message even if there’s no bad word in my mssg (?) (reply to 179414)
+
+&rey: but there's an emoji though. (reply to 179419)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hey, I'm the maintainer of this project. I conduct my own internal audits to ensure it's safe to use, but no external/professional audits have been made yet  However, code is open source feel free to audit it and make sure it's safe to use or not (reply to 179414)
+
+Илья: Everything is fine I'm checking the browser now; Thank you! (reply to 179419)
+
+Илья: Are there any use case of .ton site + ton storage? Yes, I can load by bag id but I want to check how it works together - .ton site + ton storage
+
+TON Support: You can host a static TON Site in TON Storage. This involves creating a bag from your website folder, which must contain an index.html file. After creating the bag, you assign the dns_storage_address#7473 bag_id:uint256 = DNSRecord; value to the DNS record with the key sha256("site").  Source: TON Storage FAQ | The Open Network (reply to 179423)
+
+TON Support: There's no direct mapping from a TON wallet address to a Telegram username in the documentation. A Telegram handle is an off-chain identifier managed by Telegram, while a TON wallet address is on-chain. They are linked only if the user explicitly associates them (e.g., via a Telegram username NFT on the @username collection, or TON DNS), but the wallet itself doesn't expose a Telegram handle.  Source: TON DNS (reply to 176487)
