@@ -12447,3 +12447,33 @@ TON Moderator: 您好， J.S.B!
 — 2026-04-22 —
 
 Combot: TON Dev Chat (中文) 💬 122206
+
+— 2026-04-23 —
+
+TON Support: StringBuilder from @stdlib/strings concatenates several strings into one snake-encoded string.  Source: Strings - TON Docs
+
+Anthony: New for TON devs: Deep Smart Contract Audit Skill  A new audit skill for TON smart contracts is now live — powered by TON Symbolic Analyzer (TSA) and combining LLMs with formal methods.  What is TSA? A symbolic execution engine that simulates contract behavior across many possible states to uncover non‑obvious bugs.  What the skill does:  • Explores real execution paths • Analyzes smart contract code at the bytecode level • Detects critical issues: – Unauthorized fund withdrawal scenarios – Incorrect handling of bounced messages – Replay attack vulnerabilities  • Generates test cases • TSA enable deep analysis for higher security coverage. • Produces a structured audit report  ⚙️ It is free and powerful smart contract audit skill for all TON developers!   More details:  🔗 https://tonsec.dev/smart-contract-audit-agent  Includes a case study showing how it reproduced a real DEX vulnerability. (forwarded from TON Dev News)
+
+TON Support: StringBuilder from @stdlib/strings concatenates several strings into one snake-encoded string.  Source: Strings - TON Docs
+
+pony: tonconnect 中，是不是不支持 injected 方式的连接？ private getCurrentlyInjectedWallets(): WalletInfoCurrentlyInjected[] {         if (!isQaModeEnabled()) {             return [];         }          try {             return InjectedProvider.getCurrentlyInjectedWallets();         } catch (e) {             logError(e);             return [];         }     }  为什么只有 qaMode enable 的时候，才获取注入的 wallet？
+
+TON Support: TON Connect 支持注入式钱包连接。您提供的代码片段表明，获取注入钱包的功能在 qaModeEnabled() 模式下才可用，这很可能是为了特定的测试或质量保证目的，而不是说它不支持注入式连接。  Source: How to initialize the TON Connect's WalletKit on the Web platform, How to initialize the TON Connect's WalletKit on the Web platform (reply to 122402)
+
+pony: 我是钱包开发者，如果调试钱包的注入模式？ 现在在 demo 中，使用 sdk，无论如何都会走 bridgeProvider，走到 http 的连接
+
+TON Support: 注入模式（Injected Mode）需要钱包将 TonConnectBridge 接口实例注入到 window.[custodian].tonconnect 属性上。如果 SDK 始终走 HTTP bridgeProvider，说明页面环境中未检测到注入对象。  排查要点：  1.  确保 window.<walletJsBridgeKey>.tonconnect 存在：仅在钱包内置浏览器或浏览器扩展中才会被注入。普通浏览器打开 demo 时，SDK 只能回退到 HTTP bridge。...  2.  jsBridgeKey 必须匹配：wallets-list.json（或 UIOptions.walletsListConfiguration）里声明的 jsBridgeKey 必须等于 window 上暴露的命名空间键。 3.  实现完整接口：deviceInfo、walletInfo、protocolVersion、isWalletBrowser、connect、restoreConnection、send、listen 必须齐全，否则 SDK 会判定注入不可用。 4.  调试：在 dApp 控制台执行 window.<key>.tonconnect 查看是否可见；在扩展中用 content script 在 document_start 注入。  参考页面：  *   Custodian integration for in-wallet browsers and browser extensions *   Custodian integration for native and web wallets *   TON Connect overview (reply to 122404)
+
+pony: 注入的东西应该都全了，这个和注入时机还有关系吗？其他链的都可以
+
+TON Support: 您的问题似乎缺少上下文——我不清楚您指的是什么注入场景。能否提供更多细节？例如：  *   您在使用哪个框架或工具（如 Tact、FunC、TON SDK 等）？ *   注入具体指什么（依赖注入、消息注入等）？ *   遇到的错误信息是什么？  这样我才能在 TON 文档中为您查找相关信息。 (reply to 122408)
+
+TON Support: StringBuilder from @stdlib/strings concatenates several strings into one snake-encoded string.  Source: Strings - TON Docs
+
+pony: sdk
+
+pony: sdk 中强制转为了 WalletInfoRemote， 导致无法使用 InjectedProvider
+
+TON Support: 您的问题似乎是关于 TON Connect SDK 中 WalletInfoRemote 类型转换导致 InjectedProvider 无法使用的问题。这个问题可能是一个具体的 bug 或类型问题。  建议您：  1.  在 TON Connect SDK 的 GitHub 仓库提交 issue：https://github.com/ton-connect/sdk 2.  或在 TON 开发者群组中反馈  如果您是想了解如何正确使用...  Injected Wallet Bridge / Remote Bridge 的集成方式，可以参考下列文档。  *   TON Connect overview *   How to integrate a wallet with TON Connect *   AppKit: SDK for dApps  Source: Mintlify-Assistant-Message (reply to 122420)
+
+TON Support: SB refers to StringBuilder from @stdlib/strings. It is used to concatenate multiple strings into a single snake-encoded string and is created using StringBuilder.create().  Source: Strings - TON Docs

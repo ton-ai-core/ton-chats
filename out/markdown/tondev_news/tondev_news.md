@@ -755,3 +755,7 @@ Unknown: TONAPI now supports Streaming API for sub-second finality  Sub-second f
 — 2026-04-17 —
 
 Unknown: TON Rust Node v0.5.1: LiteServer Response Fix  Response corrected. Block proof traversal optimized.  Fixes LiteServer response handling for listBlockTransactions so clients accept it correctly, while making block proof traversal more efficient.  Read the Changelog: https://github.com/RSquad/ton-rust-node/releases/tag/node%2Fv0.5.1 (forwarded from TON Rust Node | News)
+
+— 2026-04-23 —
+
+Unknown: New for TON devs: Deep Smart Contract Audit Skill  A new audit skill for TON smart contracts is now live — powered by TON Symbolic Analyzer (TSA) and combining LLMs with formal methods.  What is TSA? A symbolic execution engine that simulates contract behavior across many possible states to uncover non‑obvious bugs.  What the skill does:  • Explores real execution paths • Analyzes smart contract code at the bytecode level • Detects critical issues: – Unauthorized fund withdrawal scenarios – Incorrect handling of bounced messages – Replay attack vulnerabilities  • Generates test cases • TSA enable deep analysis for higher security coverage. • Produces a structured audit report  ⚙️ It is free and powerful smart contract audit skill for all TON developers!   More details:  🔗 https://tonsec.dev/smart-contract-audit-agent  Includes a case study showing how it reproduced a real DEX vulnerability.

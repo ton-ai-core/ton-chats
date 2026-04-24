@@ -5295,3 +5295,53 @@ User: Недавно разработчик этого браузера полу
 andrey: всем привет, кто-нибудь выводил недавно с биржи на карту рф, какие комиссии сейчас вообще
 
 Kirill: я на antarcticwallet вывожу обычно, там вроде норм комса выходит и главное что через юр лицо приходит платеж так что банк не трогает (reply to 346496)
+
+Anthony: New for TON devs: Deep Smart Contract Audit Skill  A new audit skill for TON smart contracts is now live — powered by TON Symbolic Analyzer (TSA) and combining LLMs with formal methods.  What is TSA? A symbolic execution engine that simulates contract behavior across many possible states to uncover non‑obvious bugs.  What the skill does:  • Explores real execution paths • Analyzes smart contract code at the bytecode level • Detects critical issues: – Unauthorized fund withdrawal scenarios – Incorrect handling of bounced messages – Replay attack vulnerabilities  • Generates test cases • TSA enable deep analysis for higher security coverage. • Produces a structured audit report  ⚙️ It is free and powerful smart contract audit skill for all TON developers!   More details:  🔗 https://tonsec.dev/smart-contract-audit-agent  Includes a case study showing how it reproduced a real DEX vulnerability. (forwarded from TON Dev News)
+
+Karina: вопрос к специалистам: на nodejs через telegram client api слушаю входящие сообщения, иногда приходят подарки, сохраняю json данные подарка потом мне надо отобразить анимированный подарок в своем миниапп для этого беру tgs модели (там еще есть tgs фона и еще чего-то), преобразую в json и отображаю через плеер в миниапп чтобы сделать фон - надо взять другой tgs и рандомным образом раскидать под моделью, а так же окрасить все в определенный цввет кажется, должен быть путь проще, он есть?  telegram bot api для этих целей не использую, т.к. там какие-то блокировки были
+
+TON Support: Telegram Mini Apps (TMAs) — это веб-приложения, созданные с использованием HTML, CSS и JavaScript, которые работают внутри мессенджера Telegram. Они предлагают дополнительные возможности для современных требований безопасности и функциональности.  Что...  касается вашего вопроса об отображении анимированных подарков:  Ваш подход с преобразованием TGS моделей в JSON и отображением через плеер в мини-приложении звучит как рабочий вариант. Однако, для более простого решения и если вы хотите избежать ручной обработки TGS файлов для фона и раскраски, возможно, стоит рассмотреть следующие моменты:  1.  Использование Telegram Bot API для получения информации о подарках: Вы упомянули, что не используете Bot API из-за блокировок. Однако, для получения метаданных о подарках (например, ссылки на TGS файлы, цвета и другие параметры) Bot API может быть более удобным, чем Client API, если оно не заблокировано для вашей конкретной задачи. Возможно, стоит перепроверить, какие именно "блокировки" вы имели в виду, так как функциональность получения информации о стикерах и анимациях обычно доступна. 2.  Библиотеки для работы с TGS: Существуют библиотеки, которые могут упростить работу с TGS файлами, включая их рендеринг и, возможно, изменение параметров (цвета, наложение). Поиск таких библиотек для JavaScript (для вашего мини-приложения) или Node.js (для предварительной обработки, если это необходимо) может значительно упростить задачу. 3.  Использование встроенных возможностей Telegram: Если подарки приходят через стандартные механизмы Telegram, возможно, есть способы получить их в мини-приложении с уже подготовленными параметрами для отображения, без необходимости сложного парсинга TGS. Иногда Telegram предоставляет готовые ссылки или параметры для рендеринга таких элементов. 4.  Разделение задач: Если вам действительно нужно динамически менять фон и цвет, возможно, часть логики по подготовке этих данных (например, генерация JSON с нужными параметрами для плеера) может быть вынесена на серверную часть Node.js, чтобы облегчить мини-приложение.  Если вы можете предоставить больше деталей о "блокировках" Telegram Bot API, возможно, я смогу дать более конкретные рекомендации.  Source: Telegram analytics - TON Docs, TMA: Telegram Mini Apps overview - TON Docs, Bot for selling dumplings | The Open Network (reply to 346608)
+
+Dmitrii: юзай Lottie анимации (reply to 346608)
+
+Dmitrii: Там уже все за тебя придумали и сделали
+
+Dmitrii: https://www.npmjs.com/package/lottie-react
+
+Karina: эту библу использую, может неверно  исходные данные: json файл с данными подарка из него могу вытащить несколько tgs как мне их вставить в одном блоке?
+
+Karina: в этой либе видел только по отдельности
+
+Karina: я бы показал фото как это выглядит (нету прав в группе)  там просто анимация на черном фоне
+
+Dmitrii: Зачем тебе разделять его на слои? Чем тебе не нравится воспроизведение цельной композиции?
+
+Dmitrii: import Lottie from 'lottie-react'                                                                                                                                                                                                                                                                                            import { useEffect, useState } from 'react'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               const url = 'https://nft.fragment.com/gift/minioscar-4086.lottie.json'                                                                                                                                                                                                                                                                                                                                          export default function App() {                                                      const [data, setData] = useState(null)                                                                                                                                                                                                                                                                                                                                  useEffect(() => {       fetch(url).then(r => r.json()).then(setData)                                                                                                                                                                                                                                                                               }, [])                                                                                                                                                                                                                                                                                                                                                                                                          if (!data) return <div>Loading...</div>                                                                                                                                                                                                                                                                                                                                  return <Lottie animationData={data} loop autoplay style={{ width: 200 }} />                                                                                                                                                                                                                                                }
+
+Karina: ааа
+
+Karina: с фрагмента можно брать
+
+Karina: я то из telegram client apu вытаскивал, склеивал и т.п.
+
+TON Support: Я понял. Вы вытаскивали данные из Telegram Client API, возможно, это были ссылки на несколько TGS файлов или отдельные компоненты, которые вы затем пытались "склеить" или обработать.  Если Client API дает вам несколько отдельных TGS файлов (каждый как...  отдельный URL или JSON), то мой предыдущий ответ о необходимости использования нескольких компонентов Lottie или о создании "сложной" структуры HTML/CSS для наложения будет актуален.  Если же Client API дает вам один JSON, который является уже скомпонованной Lottie-анимацией (возможно, он выглядит сложнее, чем обычный, потому что включает "фоны" и "модели" внутри себя), то вы можете использовать его как единый animationData в lottie-react, как вы это делали с minioscar-4086.lottie.json.  Ключевой момент в следующем: *   Один lottie.json файл = Одна анимация. Даже если внутри него много слоев, для lottie-react это единый объект. *   Несколько lottie.json файлов = Несколько анимаций. Для их отображения вам понадобится несколько Lottie компонентов.  Возможно, вам стоит внимательнее изучить структуру JSON-данных, которые вы получаете из Telegram Client API. Если там есть ссылки на несколько .tgs или .lottie.json файлов, то каждый из них нужно будет обрабатывать как отдельную анимацию, если вы хотите их наложить или расположить определенным образом. (reply to 346622)
+
+Karina: пасиб выручил
+
+Dmitrii: Просто слаг подставляй  /https:\/\/nft\.fragment\.com\/gift\/([a-z]+-\d+)\.lottie\.json/ https://nft.fragment.com/gift/${slug}.lottie.json
+
+bywthlo ❄️: там подарки которые вышли недавно не отображаются (reply to 346626)
+
+Dmitrii: да вроде есть
+
+bywthlo ❄️: щас есть (reply to 346629)
+
+bywthlo ❄️: менее 21дн - нету
+
+Dmitrii: не думаю, что критично это
+
+bywthlo ❄️: это критично (reply to 346632)
+
+Pavel: походу починили
+
+Tim: Улучшение есть, но ещё 7мс надо нагнать (reply to 346642)

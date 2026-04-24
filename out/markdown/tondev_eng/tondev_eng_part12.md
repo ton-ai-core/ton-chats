@@ -1233,3 +1233,23 @@ vangaard: It is from @zkproof and has been mentioned by TON Core devs and it is 
 TON Support: You can host a static TON Site in TON Storage. This involves creating a bag from your website folder, which must contain an index.html file. After creating the bag, you assign the dns_storage_address#7473 bag_id:uint256 = DNSRecord; value to the DNS record with the key sha256("site").  Source: TON Storage FAQ | The Open Network (reply to 179423)
 
 TON Support: There's no direct mapping from a TON wallet address to a Telegram username in the documentation. A Telegram handle is an off-chain identifier managed by Telegram, while a TON wallet address is on-chain. They are linked only if the user explicitly associates them (e.g., via a Telegram username NFT on the @username collection, or TON DNS), but the wallet itself doesn't expose a Telegram handle.  Source: TON DNS (reply to 176487)
+
+— 2026-04-23 —
+
+Anthony: New for TON devs: Deep Smart Contract Audit Skill  A new audit skill for TON smart contracts is now live — powered by TON Symbolic Analyzer (TSA) and combining LLMs with formal methods.  What is TSA? A symbolic execution engine that simulates contract behavior across many possible states to uncover non‑obvious bugs.  What the skill does:  • Explores real execution paths • Analyzes smart contract code at the bytecode level • Detects critical issues: – Unauthorized fund withdrawal scenarios – Incorrect handling of bounced messages – Replay attack vulnerabilities  • Generates test cases • TSA enable deep analysis for higher security coverage. • Produces a structured audit report  ⚙️ It is free and powerful smart contract audit skill for all TON developers!   More details:  🔗 https://tonsec.dev/smart-contract-audit-agent  Includes a case study showing how it reproduced a real DEX vulnerability. (forwarded from TON Dev News)
+
+Faylen: Looks interesting, but after taking a closer look I've got a couple of questions:  1. What about Tolk support? The skill README clearly states that you need func + fift installed locally, custom checkers are written in FunC using tsa_* intrinsics, and there’s literally zero mention of Tolk anywhere in the TSA repo or the skill itself. Most new TON code these days is already being written in Tolk. Any plans for native Tolk support, or is this intentionally FunC-only by design?   2. On the CroutonFi case study - this is a reproduction of a bug that was already fixed back in June 2025, yet the blog post only came out in April 2026 (9 months later). You also openly state that the agent didn’t find the issue without TSA, and the key invariant (“can a swap pay out more than it receives?”) was provided manually by a human. Are there any examples of a true “blind find” where the workflow discovered a previously unknown vulnerability without someone first formulating the property for it? (reply to 179442)
+
+7eo: Everything released today must be Tolk first
+
+Jason (JayP) $ETN: I agree since it's the new standard we should be doing anything that we're developing currently in tolk (reply to 179455)
+
+mnemotiv: I don't think that this tool would be released today if it wouldn't be able to audit the end result of your smart contract project even if it's initially written in Tolk - so the tool checks the after-compile code, which is a correct approach
+
+Faylen: Does anyone know if the 6x cut applies uniformly across gas_prices (param 20/21) and msg_fwd_prices (param 24/25), or are the scaling factors different per param? Durov said "transaction fees" - which technically excludes storage_prices (param 18). Is storage rent staying at current values, or scheduled for a separate adjustment?  Also - any info on the scope of the feeless phase? Is it a relayer/subsidy model (gas still burned, just paid by a pool), or an actual zero-cost path? And does it cover jetton transfers / DEX swaps / contract deploys, or simple TON transfers only?
+
+TON Support: I don't have information about a 6x fee cut, Durov's announcement about transaction fees, or a feeless phase in the TON documentation. The documentation describes how the gas_prices, msg_fwd_prices, and storage_prices configuration parameters work,...  but it does not mention any upcoming changes or a feeless model.  For authoritative answers regarding these announcements, please check official TON channels or governance proposals directly.  Here are some relevant documentation links for the current fee mechanics: *   Transaction fees overview *   Fee calculation details *   Network configuration params (reply to 179468)
+
+Tim: We will know once voting starts, but I think it will be the same, as the last time when fees were cut by 4x (reply to 179468)
+
+Faylen: Got it, thanks (reply to 179470)

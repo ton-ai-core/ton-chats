@@ -2467,6 +2467,15 @@
       "forwarded_from": "TON Rust Node | News",
       "forwarded_from_id": "channel3709914628",
       "forwarded_date": "2026-04-17T16:25:07.000Z"
+    },
+    {
+      "id": 295,
+      "type": "message",
+      "date": "2026-04-23T08:49:16.000Z",
+      "date_unixtime": "1776934156",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "New for TON devs: Deep Smart Contract Audit Skill\n\nA new audit skill for TON smart contracts is now live — powered by TON Symbolic Analyzer (TSA) and combining LLMs with formal methods.\n\nWhat is TSA?\nA symbolic execution engine that simulates contract behavior across many possible states to uncover non‑obvious bugs.\n\nWhat the skill does:\n\n• Explores real execution paths\n• Analyzes smart contract code at the bytecode level\n• Detects critical issues:\n– Unauthorized fund withdrawal scenarios\n– Incorrect handling of bounced messages\n– Replay attack vulnerabilities\n\n• Generates test cases\n• TSA enable deep analysis for higher security coverage.\n• Produces a structured audit report\n\n⚙️ It is free and powerful smart contract audit skill for all TON developers! \n\nMore details: \n🔗 https://tonsec.dev/smart-contract-audit-agent \nIncludes a case study showing how it reproduced a real DEX vulnerability."
     }
   ]
 }
