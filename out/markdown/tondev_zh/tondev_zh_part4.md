@@ -12477,3 +12477,13 @@ pony: sdk 中强制转为了 WalletInfoRemote， 导致无法使用 InjectedProv
 TON Support: 您的问题似乎是关于 TON Connect SDK 中 WalletInfoRemote 类型转换导致 InjectedProvider 无法使用的问题。这个问题可能是一个具体的 bug 或类型问题。  建议您：  1.  在 TON Connect SDK 的 GitHub 仓库提交 issue：https://github.com/ton-connect/sdk 2.  或在 TON 开发者群组中反馈  如果您是想了解如何正确使用...  Injected Wallet Bridge / Remote Bridge 的集成方式，可以参考下列文档。  *   TON Connect overview *   How to integrate a wallet with TON Connect *   AppKit: SDK for dApps  Source: Mintlify-Assistant-Message (reply to 122420)
 
 TON Support: SB refers to StringBuilder from @stdlib/strings. It is used to concatenate multiple strings into a single snake-encoded string and is created using StringBuilder.create().  Source: Strings - TON Docs
+
+— 2026-04-24 —
+
+人间观察员@bgbg: 那得看 sdk 里那个类型转换是不是写死了，改一下判断逻辑应该就能走 injected
+
+— 2026-04-25 —
+
+2026最强副业: 兼职新风口
+
+2026最强副业: 白资换赌资日入w

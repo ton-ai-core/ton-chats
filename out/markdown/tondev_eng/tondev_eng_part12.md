@@ -1253,3 +1253,19 @@ TON Support: I don't have information about a 6x fee cut, Durov's announcement a
 Tim: We will know once voting starts, but I think it will be the same, as the last time when fees were cut by 4x (reply to 179468)
 
 Faylen: Got it, thanks (reply to 179470)
+
+— 2026-04-24 —
+
+mnemotiv: is there any page/repo with history of voting proposals? (reply to 179470)
+
+TON Support: The list_votes get-method returns all active proposals, including the proposal_hash and votes_create_time. The list_voters get-method provides voting details per proposal, such as address, support (for or against), and vote_time.  Source: Nominator pool | The Open Network (reply to 179479)
+
+mnemotiv: I need past proposals (reply to 179480)
+
+TON Support: You can display open governance offers, which are configuration proposals, using the ol command. This command prints a table showing the hash, config ID, votes, win/loss tally, approval percentage, and pass status.  Source: Utilities - TON Docs (reply to 179481)
+
+Андрей: To do this, you need to index the entire blockchain history for the voting contract and maintain a local history. No one has done this yet, but you can be the first. (reply to 179481)
+
+Sviatoslav: Anyone here already building projects with AI Cocoon?
+
+WhyesCode: I do (reply to 179486)
