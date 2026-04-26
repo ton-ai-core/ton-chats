@@ -1269,3 +1269,31 @@ TON Support: You can display open governance offers, which are configuration pro
 Sviatoslav: Anyone here already building projects with AI Cocoon?
 
 WhyesCode: I do (reply to 179486)
+
+— 2026-04-25 —
+
+Ekaterina: Thanks for the interest in the tool!  1. The tool works on bitcode level, so it can analyze smart contracts on any language, including Tolk. The checkers currently can be written only in FunC, but we plan to add Tolk support. But with the agent you don't need to write the checkers yourself.  2. The agent worked with a single prompt — "audit this project". It formulated invariant "can a swap pay out more than it receives" and fed it to TSA by itself. The article says that just an agent without TSA skill wasn't able to find this bug.  The result is that now such bugs can be found automatically. Previously it was found only after it had already been exploited. (reply to 179447)
+
+LAGMEDIA⚪ ⚫: Hello everyone  Are most of you finding it harder to keep users active after launch, or just getting them in?😔
+
+Faylen: On Tolk - fair, bitcode-level analysis is language-agnostic. FunC-only checkers still matter for Tolk-only projects, but the direction is clear.  On the case study - I stand corrected on the invariant origin. If the agent really derived "swap pays out more than receives" from just "audit this project", that's impressive.  Core question stands though - any cases where the workflow surfaced a previously undisclosed vulnerability, not a reproduction? CroutonFi seems to be the strongest example after a 9-month gap. Curious if there are others - that's where it really proves it scales. (reply to 179525)
+
+LAGMEDIA⚪ ⚫: That’s actually interesting, especially the part about needing the right invariant for TSA to catch deeper issues. Feels similar to how a lot of systems are “technically solid” but still miss edge cases depending on how they’re used in the wild. (reply to 179525)
+
+Ekaterina: If we find something big in a serious project, we will share that when the time is right. We did find some minor issues in several projects though.  For example, in LayerZero project there is a contract where anyone can withdraw storage fees (issue). That is usually a very small of TONs though.  Getgems contract is theoretically susceptible to a replay attack (issue). But is is very unlikely to be ever reproduced.  These two issues were though discovered with our standard built-in checkers in our Blueprint plugin, not an agent. There is more information about it on our site tonsec.dev. (reply to 179534)
+
+Faylen: Fair enough, appreciate the honest answer. Built-in checkers track record is solid. The agent layer just needs more time and public results to back the marketing - looking forward to seeing the first real "caught before exploitation" case study via the agent specifically. (reply to 179537)
+
+LAGMEDIA⚪ ⚫: That makes sense, most of the serious issues don’t come from obvious bugs anyway, it’s usually edge cases once real usage patterns hit the contract. Curious if you’ve seen situations where something looked fine in audit, but actual user behavior exposed unexpected flows later on? (reply to 179537)
+
+Ekaterina: The thing is that the agent skill is just a wrapper over TSA. TSA offers much more powerful analysis options than the ones provided with the built-in checkers. For example, it can perform inter-contract analysis. Some vulnerabilities cannot be seen when each contract is analyzed in isolation from the others (and CroutonFi vulnerability is an example, which is why it is notable).  But using TSA inter-contract analysis requires knowledge of a lot of nuances (if you are interested, you can read the skill). And this is where the agent helps. This way a wider range of developers can use it.  When you already know TSA's capabilities well and can easily use it, honestly, it is probably more likely for you to find a vulnerability with manual TSA usage. Or by navigating an agent (reply to 179539)
+
+LAGMEDIA⚪ ⚫: Strong point on inter contract analysis, most failures aren’t in isolated logic anyway. Feels like the bigger gap now isn’t just detecting vulnerabilities, but understanding how real user flow interacts across contracts over time. Especially in production, behavior tends to break assumptions faster than static logic. (reply to 179550)
+
+Ekaterina: An example is actually the same Crouton. It was audited, and still there was a missing critical vulnerability (reply to 179540)
+
+LAGMEDIA⚪ ⚫: That’s actually the interesting part, it passed audit, but real interaction exposed the flaw.  Feels like there’s a gap between “contract is secure” and “contract behaves safely under real usage conditions”, especially when multiple contracts and user flows interact. Curious if you think tooling will move more in that direction, or if that layer stays more on the execution/usage side? (reply to 179553)
+
+&rey: In wider programming, "is secure" is usually understood as "under whatever (i.e. all) untrusted inputs". (reply to 179554)
+
+LAGMEDIA⚪ ⚫: Yeah that’s fair, in theory “secure” should cover all possible inputs. I guess what I’m getting at is less about the definition, and more about how assumptions break once real user behavior + multi contract interactions come into play in production.  Especially when usage patterns evolve beyond what was originally modeled. (reply to 179555)

@@ -12487,3 +12487,13 @@ TON Support: SB refers to StringBuilder from @stdlib/strings. It is used to conc
 2026最强副业: 兼职新风口
 
 2026最强副业: 白资换赌资日入w
+
+TON Support: int is not serializable; use intN or other numeric types instead. int can be returned by a getter, but it is not serializable.  Source: Serialization - TON Docs, Contract getters - TON Docs
+
+宁静·@bgbg·实时新闻🌈: 这强制转换确实有点坑，是不是因为远端 wallet 的 info 格式覆盖了本地注入的信息
+
+— 2026-04-26 —
+
+Prasert: 🤝我们项目现在需要一个会中文的游戏版主，主要负责中国玩家沟通。工作轻松，时间灵活，无经验要求，每周700美元，有兴趣私聊
+
+2026最强副业: 兼职新风口
