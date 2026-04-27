@@ -1297,3 +1297,7 @@ LAGMEDIA⚪ ⚫: That’s actually the interesting part, it passed audit, but re
 &rey: In wider programming, "is secure" is usually understood as "under whatever (i.e. all) untrusted inputs". (reply to 179554)
 
 LAGMEDIA⚪ ⚫: Yeah that’s fair, in theory “secure” should cover all possible inputs. I guess what I’m getting at is less about the definition, and more about how assumptions break once real user behavior + multi contract interactions come into play in production.  Especially when usage patterns evolve beyond what was originally modeled. (reply to 179555)
+
+— 2026-04-26 —
+
+TON Support: It appears there are issues with the testnet providers (toncenter_v2_testnet, toncenter_v3_testnet, and tx_propagation_testnet) as indicated by the 502 error codes.  The Testnet is an independent blockchain network that replicates the functionality of...  the main network but uses valueless coins. It is used for safe testing of contracts, transactions, DApps, and errors, and can be reset or altered at any time. You can verify testnet transactions using testnet block explorers like Testnet Tonviewer or Testnet Tonscan.  Source: Foundations of blockchain | The Open Network, How to build a transfer - TON Docs
