@@ -1327,3 +1327,73 @@ Andrey: Good catch on the contract — that was a different spoof from the same 
 xylica: yup 880k tokens since block 20m, basically all existing tokens unless my indexer miss some data, we're building a trading bot (reply to 179714)
 
 Andrey: That's exactly the kind of infrastructure we want to integrate with.  We're building a Webhook API — trading bots register a URL and get a POST the moment our detector flags a token: Sybil clusters, Puppet  Masters, dump probability.  Sub-50ms from detection to webhook delivery. Would that be useful for your bot? Happy to give early access. (reply to 179715)
+
+— 2026-04-29 —
+
+Ryo: Hi guys, I have a total beginner question about the withdraw_from_single_pool command.  Is this command only available in mytonctrl? Also, who can actually use it? Is it strictly for the validator, or can anyone just send this message?  I'm also wondering about partial withdrawals. If there is 1M TON staked in the pool, can I use this command to withdraw just 50k TON?  Lastly, if the validator runs this command, does the money go to the owner immediately? What happens if the funds are currently locked in a cycle? Does it just wait and automatically withdraw to the owner when the cycle ends?  Thanks for the help!
+
+TON Support: The withdraw_from_single_pool command is used within mytonctrl to withdraw Toncoin from a single-nominator pool. This command can be used by the validator or the owner, as configured.  Here's a breakdown of your questions:  *   Availability: This...  command is indeed used within mytonctrl. *   Who can use it? It's primarily for the validator to return delegated funds or distribute rewards, or for the owner to withdraw their funds. The validator wallet must be active and funded to initiate withdrawals. *   Partial withdrawals: Partial withdrawals are *not* supported. Only full withdrawals are possible with this command. If there is 1M TON staked, you cannot withdraw just 50k TON using withdraw_from_single_pool. *   Withdrawal timing and locked funds: The command issues an immediate withdrawal request and executes within the current cycle. If funds are currently locked in a cycle, the withdrawal will be processed once the validation cycle completes. The funds are then transferred to the owner's wallet.  Source: Nominator pools - TON Docs, Nominator pool | The Open Network, Single nominator pool contracts - TON Docs (reply to 179778)
+
+Ryo: Then, is there any way to make a partial withdrawal from a single nominator pool? (reply to 179779)
+
+TON Support: No, partial withdrawals are not supported for nominator pools. Only full withdrawals are allowed. When you send a message to the nominator pool contract with the comment "w" and 1 TON for fees, it will execute a full withdrawal if funds are available. If not, a withdrawal request is queued.  Source: [Nominator pool | The Open Network](https://docs.ton.org/v3/documentation/smart-contracts/contracts-specs/nominator-pool#:~:text=Deposits: (reply to 179785)
+
+Ryo: I was asking about the Single Nominator case, not the Nominator Pool. (reply to 179786)
+
+TON Support: You are correct to distinguish between the two. My apologies for the oversight.  For a Single Nominator Pool, the owner can withdraw funds at any time. The withdrawal process involves sending a message with a specific opcode (0x1000), a query ID, and...  the withdraw amount. This indicates that partial withdrawals are possible for single nominator pools, as you specify the amount to withdraw. The nominator contract will leave at least 1 TON in the contract.  Source: [Single nominator pool | The Open Network](https://docs.ton.org/v3/documentation/smart-contracts/contracts-specs/single-nominator-pool#:~:text=In (reply to 179787)
+
+Ryo: In that case, is the "withdraw_from_single_pool" command in Single Nominator - MyTonCtrl a command that allows partial withdrawals?  https://docs.ton.org/ecosystem/nodes/cpp/mytonctrl/pools#withdraw_from_single_pool (reply to 179788)
+
+TON Support: Yes, the withdraw_from_single_pool command in MyTonCtrl for Single Nominator pools does allow for partial withdrawals.  The syntax for the command is: withdraw_from_single_pool <pool-addr> <amount-ton>  As the documentation states, this command "Issues...  an immediate withdrawal request against <pool-addr> for <amount-ton> TON." The presence of the <amount-ton> parameter explicitly indicates that you can specify the amount you wish to withdraw, thus enabling partial withdrawals from a single nominator pool.  Source: [Nominator pools - TON Docs](https://docs.ton.org/ecosystem/nodes/cpp/mytonctrl/pools#:~:text=Syntax (reply to 179789)
+
+Ryo: Thank you.   In addition to this, I have a few more questions. Is this command only available through MyTonCtrl? Can anyone send this message, or is it only possible for the Owner or Validator? (reply to 179790)
+
+TON Support: Based on the documentation:  1.  Is this command only available through MyTonCtrl?     The withdraw_from_single_pool command is documented as part of the MyTonCtrl toolset for "Single nominator pool operations (single-nominator mode)". While MyTonCtrl...  provides a convenient interface for these operations, the underlying mechanism involves sending messages to the single nominator pool smart contract. Therefore, it's possible to perform these actions without MyTonCtrl if you directly interact with the smart contract, for example, by generating and sending a transaction. However, MyTonCtrl simplifies this process.  2.  Can anyone send this message, or is it only possible for the Owner or Validator?     For single nominator pools, withdrawals are restricted to the owner only. The documentation explicitly states: "The owner can withdraw funds at any time; withdrawals are restricted to the owner only." It also mentions that "The validator's hot wallet cannot withdraw or steal funds."  Source: Nominator pools - TON Docs and Single nominator pool contracts - TON Docs (reply to 179791)
+
+Matias Ochoa: Hey hey! We're putting together a curated group of Web3 people to connect with some of the biggest crypto conferences in 2026. Speakers, founders, builders, event people. Just matching the right people with the right opportunities. If you're active in the space and want in, we're open for convos!
+
+Blackstreak: Hello Devs!   In our DApp usually connecting via TonKeeper works completely fine without any issues.  However, when the same DApp when connected through MyTON wallet doesn’t seem to work as expected.   Key points to note: both wallet work fine in the Website the only issue is when we open via TMA/Bot.  May I know if anyone has come across this issue?
+
+Slava: Hey! You haven't actually described the issue. (reply to 179808)
+
+Blackstreak: Sorry for being vague. Let me break it down to give a better understanding.  What is working now: 1. We can connect Tonkeeper wallet to our DApp via our Bot/Telegram Mini App. 2. Tonkeeper and MyTON wallet connect properly when we use our website.  Issue:  Wallet connect in the Telegram bot/Mini App when using MyTON wallet is stuck on the loading screen. Even after there was an approval in wallet App.   We have adapted the TON proof solution provided for better security.
+
+Slava: Have you tried looking in the console or network tab to see what's actually failing? (reply to 179810)
+
+Blackstreak: Yes no errors or issues when looked at console.  Website/Localhost works fine.   This only happens in the Mini App. Unfortunately I’m not sure on the process on how can we debug from the MiniApp.   I have found some articles/videos to debug via usb will give it a try. (reply to 179811)
+
+mnemotiv: you can try using old-school way with Eruda (reply to 179812)
+
+mnemotiv: https://github.com/Telegram-Mini-Apps/reactjs-template/blob/master/src/init.ts#L28 (reply to 179813)
+
+mnemotiv: it'll give console logs
+
+mnemotiv: inside mobile device
+
+Blackstreak: Yup just have come across this. Thanks!  Will try it out.
+
+Slava: In Telegram Advanced Settings check the Enable webview inspecting toggle. (reply to 179812)
+
+Slava: Then in TMA: RMB -> Inspect.
+
+Slava: Or you can open your TMA in a web client.
+
+Blackstreak: Thanks a lot! This really helps me up.  Will check the issue further.
+
+Faylen: In summary - strange that Durov downplayed this as just "6x". Looking at the proposal: compute 6x + forward 6x + storage cell_price 3.7x + basechain bit_price dropped to 0. For bit-heavy contracts storage is effectively free now. This is a bigger upgrade than the headline suggests. (reply to 179468)
+
+Tim: If you want to say that with certainty, you need to parse all current contract and check how much they are paying for storage now and how much they’ll pay after update. I think it will be around same 6x (reply to 179835)
+
+Tim: For example for library contracts their storage is effectively 1 cell + 264(+- few) bits, so they go for 750 to 135, which checks out
+
+xylica: hm i haven't thought about library contract is getting cheaper storage fee, isn't there a library fee? (reply to 179838)
+
+Faylen: yeah, true. depends on contract type. cell-heavy like your library example - +-6x. bit-heavy like jetton wallet (~574 bits, 1 data cell with library cells) - +-8x. average across network probably your 6x since simple contracts dominate by count (reply to 179838)
+
+Tim: Not sure what you mean by that. Libraries have no extra fee mechanics.  When you want to make contract with library code you just put special library cell in "code", that's it. Node automatically unpacks corresponding library when executed and only fee you're paying is gas for opening cell.  Maybe you meant fee for storage of main lib code on masterchain. It won't change since fees for masterchain remain the same, but that storage is only paid by library maintainer(deployer in most cases) (reply to 179839)
+
+— 2026-04-30 —
+
+Kernel System ☕: /rules
+
+Kernel System ☕: Hi everyone. I'm doing a little research on the UX of TON translations, not promotional.  When someone sends you a TON address for a payment/donation/service on Telegram, how do you usually verify that it's the right person's address and not a fake or copy-pasted error?  I'm interested in understanding the current scenario: address book, manual verification, test translation, TON DNS, no verification at all?
