@@ -1397,3 +1397,53 @@ Tim: Not sure what you mean by that. Libraries have no extra fee mechanics.  Whe
 Kernel System ☕: /rules
 
 Kernel System ☕: Hi everyone. I'm doing a little research on the UX of TON translations, not promotional.  When someone sends you a TON address for a payment/donation/service on Telegram, how do you usually verify that it's the right person's address and not a fake or copy-pasted error?  I'm interested in understanding the current scenario: address book, manual verification, test translation, TON DNS, no verification at all?
+
+Teemu | 機器人🪽: Hey guys, i have a site using ton connect, it works pretty ok, but when trying to go there on Tonkeepers browser, it flags as a scam site and doesnt open the page
+
+Slava: To clarify, TON is using CRC16 checksum to protect against random typos, not to mention that typing address manually is probably the last thing someone would do. To distinguish two addresses it's practically enough to confirm several last characters of the address. This solves 99% of the problems, if it's not a scam attempt of course. The key point is getting the address from the trusted source. For dApps using wallet integration or QR codes eliminates this issue entirely. (reply to 179853)
+
+xylica: i wouldn't agree with that, many wallet interface only display the first and last 4-5 characters of wallets and it's very trivial to brute force contract address to impersonate addresses (reply to 179878)
+
+xylica: impersonated addressses spam everyone all the time
+
+Slava: You've missed my point ^ (reply to 179878)
+
+Kernel System ☕: Yeah, that makes sense — I’m not really looking at random typos, CRC/checksum already helps there.  The scenario I’m trying to understand is more P2P/Telegram-based: someone sends an address in chat for a service, NFT, username, donation, etc. The question is less “did I mistype the address?” and more “is this actually the receiver’s intended address, from a trusted source, and not a spoofed/poisoned/copied one?”  Do people usually solve that by checking last chars, using address book, TON DNS, QR/wallet integration, sending a small test transfer, or just trusting the chat? (reply to 179878)
+
+Slava: You don't trust the chat, you trust the sender.
+
+Kernel System ☕: Right, that’s a good distinction.  So in practice the trust anchor is the person/account/channel that sends the address, not the address itself.  I’m trying to understand the messy cases around that: hacked accounts, impersonators, copied addresses from history, fake support/admins, or situations where the receiver wants to give the sender a clearer “this is the payment I intended” flow.  Would you say the main unsolved problem is identity/trust of the sender, rather than address verification? (reply to 179885)
+
+Slava: Yes, this is a key issue that needs to be solved first. The second part of the problem is that the sender can send the wrong address herself (e.g. stale clipboard). (reply to 179886)
+
+Kernel System ☕: Yeah, that distinction is helpful.  So if I understand correctly, the problem splits into two parts:  1. verifying that the person/account sending the address is actually the intended receiver; 2. avoiding mistakes during the actual transfer, like pasting/selecting/sending to the wrong address.  In real user behavior, which one do you think causes more issues in TON today? Identity/trust problems, or transfer execution mistakes? (reply to 179887)
+
+Slava: Usernames / TON DNS is actually a reasonable solution for both parts of the problem.
+
+Kernel System ☕: Also, do people commonly use small test transfers in TON for larger P2P payments, or is that mostly uncommon?
+
+Slava: This is statistics that I don't have, sorry.
+
+Kernel System ☕: Got it. So would you say TON DNS/usernames are enough for most P2P payments, or do people still use small test transfers / extra confirmation for larger payments? (reply to 179889)
+
+Slava: This is always a good idea for big transfers to be 100% sure. Especially in TON where network fees are small negligible and transactions extremely fast. (reply to 179893)
+
+Slava: TON doesn't require that. 1 MC block is enough for confirmation. (reply to 179893)
+
+Kernel System ☕: Got it, that’s helpful.  So for large P2P transfers, a small test transfer is still a reasonable user practice, not because TON needs many confirmations, but because the sender wants to verify the destination/payment intent before sending the full amount.  And technically, after 1 MC block the confirmation is enough? (reply to 179895)
+
+Slava: That's what I've said, yes.
+
+Teemu | 機器人🪽: Kinda sounds like someone is building a system to sk-am people( msg got deleted for a word)
+
+Slava: Then it's a good point to remind people about the best practices. (reply to 179899)
+
+Slava: No matter the security measures, it always comes down to the human factor and education.
+
+&rey: for an emoji, to be clear. (reply to 179899)
+
+Slava: Gods... Unacceptable! This should be punished by death... (reply to 179902)
+
+— 2026-05-01 —
+
+Marsina: emojis make things fun and engaging imo :)
