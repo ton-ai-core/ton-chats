@@ -2476,6 +2476,22 @@
       "from": "Unknown",
       "from_id": "unknown",
       "text": "New for TON devs: Deep Smart Contract Audit Skill\n\nA new audit skill for TON smart contracts is now live — powered by TON Symbolic Analyzer (TSA) and combining LLMs with formal methods.\n\nWhat is TSA?\nA symbolic execution engine that simulates contract behavior across many possible states to uncover non‑obvious bugs.\n\nWhat the skill does:\n\n• Explores real execution paths\n• Analyzes smart contract code at the bytecode level\n• Detects critical issues:\n– Unauthorized fund withdrawal scenarios\n– Incorrect handling of bounced messages\n– Replay attack vulnerabilities\n\n• Generates test cases\n• TSA enable deep analysis for higher security coverage.\n• Produces a structured audit report\n\n⚙️ It is free and powerful smart contract audit skill for all TON developers! \n\nMore details: \n🔗 https://tonsec.dev/smart-contract-audit-agent \nIncludes a case study showing how it reproduced a real DEX vulnerability."
+    },
+    {
+      "id": 297,
+      "type": "message",
+      "date": "2026-05-01T09:30:44.000Z",
+      "date_unixtime": "1777627844",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "How MCP enables on-chain actions for agents on TON\n\nWe publicly announced Agentic Wallets on TON — an open, self-custodial standard that lets agents manage assets through dedicated wallets. But just having a wallet isn’t enough. For an agent to use TON, it needs to be able to find and connect tools for interacting with the blockchain. \n\nThat’s why we built mcp.ton.org — a simple entry point for connecting AI agents to TON. MCP gives agents access to tools for working with the blockchain, while skills provide ready-to-use instructions. A user copies a single command, and the agent gets a ready way to work with the blockchain. All skills are open and available in the ton-org/skills. \n\nNow developers have a ready-to-use execution layer for agents on TON. After connecting MCP and installing skills, an agent can check balances, send transactions, swap tokens, work with NFTs and execute more advanced scenarios like buying xStocks or managing Agentic Wallets. All actions are built from reusable primitives and executed through MCP, which allows developers to move directly to building agent logic.\n\nConnect MCP and give your agent access to actions on TON",
+      "forwarded_from": "TON Tech",
+      "forwarded_from_id": "channel1764902466",
+      "forwarded_date": "2026-05-01T08:42:15.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_297.jpg",
+      "width": 2160,
+      "height": 2160
     }
   ]
 }
