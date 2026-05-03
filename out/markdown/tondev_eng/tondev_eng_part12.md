@@ -1465,3 +1465,23 @@ mnemotiv: Winternitz signatures? (reply to 179979)
 — 2026-05-02 —
 
 Sapog: no, WOTS hash-based signatures, whereas I did key exchange and with E2EE messaging (reply to 179983)
+
+Andrey: built a zero-dependency Python module for parsing TON  events and detecting scam patterns — extracted from our  security scanner  just added unicode spoof detection: catches invisible  Hangul Jamo and zero-width chars that scammers use to  fake USDT/TON token names. caught 15+ of these in  production over the past month  also added raw opcode decoder for payloads  no pip install, just copy one file. search GitHub:  ton-semantic-decoder
+
+Alexey: that's just simple boring wrapper for tonapi events, I bet tonapi has similiar if not better scam detection there (reply to 179997)
+
+Andrey: TonAPI explains what happened, and we're covering what's about to happen—we've detected over 15 counterfeit USDT tokens and three coordinated dumps before they happened. t.me/tonwise_intel — live stream if you're interested.
+
+ttradingg: has anyone worked on wallet automation (sends + staking) on TON ETH and SOL?
+
+Александр: Good day to everyone!  Tell me, who can conduct or are there automated mechanisms for auditing smart contracts?  What is the smart contract: A small contract written in tact, acting as an escrow account in an NFT marketplace. Supported operations: - creating an NFT purchase request (reserving TON by the smart contract) - selling NFT (sending NFT to the smart contract and receiving reserved TON by the seller) - buyer receiving NFT (sending NFT to the buyer)  Ideally, for free or up to $1000.
+
+Andrey: Try this one: https://t.me/tondev_eng/179442 (reply to 180003)
+
+Александр: Thank you! (reply to 180004)
+
+Andrey: Regarding TON specifically, what type of automation are you considering? We've built quite a bit of blockchain monitoring infrastructure on TON, and we'd be happy to share what worked and what didn't. (reply to 180001)
+
+— 2026-05-03 —
+
+Aleksei: I’m dev  looking to join a project
