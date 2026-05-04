@@ -1485,3 +1485,15 @@ Andrey: Regarding TON specifically, what type of automation are you considering?
 — 2026-05-03 —
 
 Aleksei: I’m dev  looking to join a project
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Gm. I built a Cocoon client in Go, It follows the same wire protocol and contracts interface as the existing C++ client. It’s cross-platform, with a simple standalone CLI. I named it Gocoon.   Gocoon (Cocoon Client in Go):  https://github.com/TONresistor/gocoon
+
+xylica: all these notifications from 2 nodes in 24 hours
+
+— 2026-05-04 —
+
+Илья: Is there any way to share .ton website to https domain?   Like.. Proxy? Bridge? website.ton.shareton.com -> something like this
+
+TON Support: TON Proxy acts as an HTTP-to-ADNL bridge, enabling ordinary web browsers to access TON Sites. It functions as a forward proxy for clients and a reverse proxy for servers hosting TON Sites. This allows for the resolution of .ton domain names to ADNL addresses for routing requests.  Source: TON Proxy - TON Docs (reply to 180066)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Well, we can't reply to any other messages in the group.  To respond to the message above regarding access to Tonsites via HTTPS bridges, here is a list of a few of them:  .ton.resistance.dog  .ton.website .ton.run  .ton.sc  .ton.go
