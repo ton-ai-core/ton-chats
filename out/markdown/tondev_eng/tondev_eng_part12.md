@@ -1497,3 +1497,7 @@ xylica: all these notifications from 2 nodes in 24 hours
 TON Support: TON Proxy acts as an HTTP-to-ADNL bridge, enabling ordinary web browsers to access TON Sites. It functions as a forward proxy for clients and a reverse proxy for servers hosting TON Sites. This allows for the resolution of .ton domain names to ADNL addresses for routing requests.  Source: TON Proxy - TON Docs (reply to 180066)
 
 ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Well, we can't reply to any other messages in the group.  To respond to the message above regarding access to Tonsites via HTTPS bridges, here is a list of a few of them:  .ton.resistance.dog  .ton.website .ton.run  .ton.sc  .ton.go
+
+Felix: Hello everyone! I want to make my own testnet wallet as a mini app for Telegram, but I don't know much about coding or design. I'd be really glad if someone could help me out :3
+
+&rey: Fixed this issue in mod bot; thank you for bringing it to our attention. (reply to 180087)

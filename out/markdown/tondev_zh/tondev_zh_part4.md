@@ -12521,3 +12521,7 @@ TON Support: TON (The Open Network) is a blockchain platform built for scalable 
 — 2026-05-01 —
 
 Anthony: How MCP enables on-chain actions for agents on TON  We publicly announced Agentic Wallets on TON — an open, self-custodial standard that lets agents manage assets through dedicated wallets. But just having a wallet isn’t enough. For an agent to use TON, it needs to be able to find and connect tools for interacting with the blockchain.   That’s why we built mcp.ton.org — a simple entry point for connecting AI agents to TON. MCP gives agents access to tools for working with the blockchain, while skills provide ready-to-use instructions. A user copies a single command, and the agent gets a ready way to work with the blockchain. All skills are open and available in the ton-org/skills.   Now developers have a ready-to-use execution layer for agents on TON. After connecting MCP and installing skills, an agent can check balances, send transactions, swap tokens, work with NFTs and execute more advanced scenarios like buying xStocks or managing Agentic Wallets. All actions are built from reusable primitives and executed through MCP, which allows developers to move directly to building agent logic.  Connect MCP and give your agent access to actions on TON (forwarded from TON Tech)
+
+— 2026-05-05 —
+
+Dr. Awesome Doge: 美好的一天 都想開始開發了

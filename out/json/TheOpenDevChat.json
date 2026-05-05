@@ -15880,6 +15880,96 @@
       "from_id": "user249718810",
       "text": "Да, офк, я так и понял что основной посыл поста в пояснении разницы между подтверждением и финализацией, и в этом плане он огонь)\nПросто захотел пояснить момент что 5% блоков не финализируются - это про processed блоки, не confirmed\n\nПро то что важность скорости финализации на мой взгляд оверрейтед - вдруг кто-то в треде считает иначе, интересно было бы обсудить, за этим и написал)",
       "reply_to_message_id": 1802
+    },
+    {
+      "id": 1807,
+      "type": "message",
+      "date": "2026-05-04T15:55:09.000Z",
+      "date_unixtime": "1777910109",
+      "from": "nyansday",
+      "from_id": "user5532533025",
+      "text": "Ну а что это даст такого, просто очередной стейбл",
+      "reply_to_message_id": 1806
+    },
+    {
+      "id": 1808,
+      "type": "message",
+      "date": "2026-05-04T15:55:16.000Z",
+      "date_unixtime": "1777910116",
+      "from": "𝟝𝟛𝟝𝟛.𝕥𝕠𝕟 | hulk",
+      "from_id": "user8253246411",
+      "text": "Ждем, но это не шаг",
+      "reply_to_message_id": 1806
+    },
+    {
+      "id": 1809,
+      "type": "message",
+      "date": "2026-05-04T15:55:24.000Z",
+      "date_unixtime": "1777910124",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "ну да что такого ваще",
+      "reply_to_message_id": 1807
+    },
+    {
+      "id": 1810,
+      "type": "message",
+      "date": "2026-05-04T15:57:18.000Z",
+      "date_unixtime": "1777910238",
+      "from": "nyansday",
+      "from_id": "user5532533025",
+      "text": "Лучше бы USD1 ждали",
+      "reply_to_message_id": 1809
+    },
+    {
+      "id": 1811,
+      "type": "message",
+      "date": "2026-05-04T15:59:55.000Z",
+      "date_unixtime": "1777910395",
+      "from": "wonrapass △",
+      "from_id": "user6556580074",
+      "text": "FDUSD уже был, хватило",
+      "reply_to_message_id": 1810
+    },
+    {
+      "id": 1812,
+      "type": "message",
+      "date": "2026-05-04T18:11:34.000Z",
+      "date_unixtime": "1777918294",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "вы чего... западные институционалы и ретейл работают с usdC, ретейл остального мира с usdT",
+      "reply_to_message_id": 1807
+    },
+    {
+      "id": 1813,
+      "type": "message",
+      "date": "2026-05-04T18:11:47.000Z",
+      "date_unixtime": "1777918307",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "регуляции и т.п.",
+      "reply_to_message_id": 1812
+    },
+    {
+      "id": 1814,
+      "type": "message",
+      "date": "2026-05-04T18:12:15.000Z",
+      "date_unixtime": "1777918335",
+      "from": "nyansday",
+      "from_id": "user5532533025",
+      "text": "Аааа, вот почему на солане все на юсдц",
+      "reply_to_message_id": 1812
+    },
+    {
+      "id": 1815,
+      "type": "message",
+      "date": "2026-05-04T18:12:16.000Z",
+      "date_unixtime": "1777918336",
+      "from": "mnemotiv",
+      "from_id": "user533881104",
+      "text": "без usdC - тон Смешарик",
+      "reply_to_message_id": 1812
     }
   ]
 }
