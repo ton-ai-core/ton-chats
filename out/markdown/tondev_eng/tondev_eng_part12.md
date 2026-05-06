@@ -1501,3 +1501,31 @@ TON Support: TON Proxy acts as an HTTP-to-ADNL bridge, enabling ordinary web bro
 Felix: Hello everyone! I want to make my own testnet wallet as a mini app for Telegram, but I don't know much about coding or design. I'd be really glad if someone could help me out :3
 
 &rey: Fixed this issue in mod bot; thank you for bringing it to our attention. (reply to 180087)
+
+— 2026-05-05 —
+
+Fardin: It's going to be quite difficult for you to vibe code a wallet in TON. Most of the data in the official TON docs is new (less than 2 years old), and LLMs are not trained on that data very well. Everything is changing rapidly, so it's going to be a very hard journey for you. (reply to 180104)
+
+99% KevHasMev: Hey guys, I am looking to run a pruned TON node, so for example only the past twoyears of historical archive data - can you please tell me an estimate for the amount of storage needed to run a pruned node with only 2 years of historical data? I am looking to purchase a VPS to run it on and I am not sure which storage capacity to buy.
+
+TON Support: While full and validator nodes generally require about 1 TB of disk space, archive nodes, which store the complete block history without pruning, need around 12 TB.  For a pruned node, you would be operating closer to a full node, which prunes the state...  of the TON blockchain to manage data volume effectively. The documentation states that full nodes keep only the latest part of the blockchain state.  To specifically configure a pruned node to keep 2 years of historical data, you would utilize the gc.archives_life_time_hours setting in the node configuration, setting it to 17520 (2 years * 365 days/year * 24 hours/day). While the exact storage for this specific configuration isn't provided, it would be significantly less than an archive node's 12 TB and more than a standard full node's 1 TB, as you're retaining a larger history than a typical full node.  Source: Overview - TON Docs, Node configuration reference - TON Docs (reply to 180147)
+
+TON Support: While full and validator nodes generally require about 1 TB of disk space, archive nodes, which store the complete block history without pruning, need around 12 TB.  For a pruned node, you would be operating closer to a full node, which prunes the state...  of the TON blockchain to manage data volume effectively. The documentation states that full nodes keep only the latest part of the blockchain state.  To specifically configure a pruned node to keep 2 years of historical data, you would utilize the gc.archives_life_time_hours setting in the node configuration, setting it to 17520 (2 years * 365 days/year * 24 hours/day). While the exact storage for this specific configuration isn't provided, it would be significantly less than an archive node's 12 TB and more than a standard full node's 1 TB, as you're retaining a larger history than a typical full node.  Source: Overview - TON Docs, Node configuration reference - TON Docs (reply to 180147)
+
+TON Support: While full and validator nodes generally require about 1 TB of disk space, archive nodes, which store the complete block history without pruning, need around 12 TB.  For a pruned node, you would be operating closer to a full node, which prunes the state...  of the TON blockchain to manage data volume effectively. The documentation states that full nodes keep only the latest part of the blockchain state.  To specifically configure a pruned node to keep 2 years of historical data, you would utilize the gc.archives_life_time_hours setting in the node configuration, setting it to 17520 (2 years * 365 days/year * 24 hours/day). While the exact storage for this specific configuration isn't provided, it would be significantly less than an archive node's 12 TB and more than a standard full node's 1 TB, as you're retaining a larger history than a typical full node.  Source: Overview - TON Docs, Node configuration reference - TON Docs (reply to 180147)
+
+Tim: Last two years had most of the activity, so it should take a lot of space. Around 5-6 tb at minimum (reply to 180147)
+
+99% KevHasMev: Thank you tim, much appreciated (reply to 180153)
+
+&rey: Also now, that blocks became more frequent, rate of transactions and corresponding storage requirements might increase even more.
+
+Tim: Wallet team is aware and in process of fixing it (reply to 180160)
+
+z3db24z: ton node still out of sync more than 100 times daily smh
+
+Helena: the testgiver faucet bot seems to be down at the moment
+
+— 2026-05-06 —
+
+Zerox: is there anyone who is looking for TON expert?
