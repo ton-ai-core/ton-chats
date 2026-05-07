@@ -1529,3 +1529,65 @@ Helena: the testgiver faucet bot seems to be down at the moment
 — 2026-05-06 —
 
 Zerox: is there anyone who is looking for TON expert?
+
+Kamronbek: Follow this https://t.me/tonhunt (reply to 180249)
+
+Czowiro 🐻: GM guys. Setting up a Rust RPC node for my bots. Specs: 128GB RAM, 1TB NVMe. Is 1 Gbps unmetered bandwidth enough to handle the network without getting out of sync, or should I look for a 2.5G port?
+
+Crydex: I wanne know this to but you can test it out (reply to 180270)
+
+Slava: FYI. Rust node is not recommended for production. (reply to 180270)
+
+Dmitriy: There is a chat about Rust node specifically https://t.me/ton_rust_node_chat (reply to 180270)
+
+Codax $PLAN: Hello guys
+
+xylica: has anyone actually figured out how to mitigate the out of sync issue yet? we got two local nodes and 4 3rd party node and a load balancer on top of them that actively select the node with latest master block, but lite queries "out of sync" is still getting out of control, even after multiple retries for getAccountState
+
+xylica: it's not like we're running our node on potatoes either, can TF do something about this issue
+
+Kuiper: Good Morning! Any channel or tutorial links specific to jetton? I was onboard on Solana to launch a coin but now TON appears attractive so I am thinking to switch and try building here
+
+Alex: Hey mates. Is it something wrong with TEstnet right now? I mean, no txes are passed.
+
+TON Support: There are multiple incidents reported for toncenter_v2_testnet which might be causing issues with transactions. Some of the errors include "LITE_SERVER_UNKNOWN: cannot compute block with specified transaction: cannot find block" and "LITE_SERVER_UNKNOWN: specified mc block is older than block's masterchain ref". These issues have been recurring. (reply to 180284)
+
+&rey: There are several jetton-related topics on https://docs.ton.org. (reply to 180282)
+
+Kuiper: Thank you (reply to 180286)
+
+Kuiper: Do we have a discord
+
+&rey: No. (reply to 180289)
+
+Jaкe ~: What happened to the admins' ton verification badges?
+
+&rey: Not relevant to this chat. (reply to 180294)
+
+&rey: As a rule of thumb, check twice whoever is reaching out to you. Admins never DM first.
+
+Tadeusz: Hi! Looking for advice on running TON Center API v3 (toncenter/ton-indexer) with the RSquad Rust node. The toncenter index-worker reads RocksDB files directly from the C++ node's /var/ton-work/db and parses TL-B schemas. Does anyone know if the Rust node uses a compatible on-disk DB layout, so the worker can read it as-is? Or is there an indexer / v3-compatible solution that works with the Rust node? Goal: deploy a fullnode + liteserver in Kubernetes via the RSquad Helm chart and serve v2 / v3 / v4 APIs from it. v2 and v4 should be straightforward over ADNL, but v3 is the question. Thanks!
+
+TON Support: The TON Center API v3 provides access to the TON blockchain through an indexed data layer. It works by reading raw data from a node's RocksDB storage, parsing and decoding it, and then storing it in PostgreSQL. The TON Rust node is an alternative implementation of a TON full node written in Rust, designed for containerized environments and protocol-compatible with TON.  Source: Overview, Blockchain nodes overview (reply to 180298)
+
+Slava: https://t.me/tondev_eng/180274 (reply to 180298)
+
+Tadeusz: That’s unfortunate, thanks! Could you please tell me how much disk space a TON archive node and the PostgreSQL database for the v3 indexer currently require? (reply to 180300)
+
+Slava: Around 16T zfs compressed. (reply to 180301)
+
+Алексей: Hello everyone. What is status of testnet? Is it works well?
+
+TON Support: The TON testnet (toncenter_v2_testnet) is currently experiencing some issues. There are multiple incidents with 500 Internal Server Errors, related to getTransactionsStd, getBlockHeader, and lookupBlock. These errors indicate problems with the lite servers being able to compute blocks or find transaction information. (reply to 180303)
+
+Sensei: Any ton developer who's experienced with tonapi, liteservers?
+
+Merlin: what do you need? (reply to 180316)
+
+WH: Is there mev on TON? and if yes does anyone know an antimev provider or solution?
+
+TON Support: The documentation acknowledges that MEV-style front-running is possible on TON because all pending messages are publicly visible in the mempool, allowing an attacker to observe and act on pending transactions. The recommended mitigation is at the contract...  level: include critical parameters (like the recipient address) inside the signed payload and implement replay protection. The documentation does not mention any specific anti-MEV provider or service.  Source: Smart contract security techniques (reply to 180338)
+
+Blackstreak: May I know if this is resolved or would still expect some delays?   Where can I find such news in near future for my reference if something like this happens again? (reply to 180304)
+
+TON Support: There are several resources where you can find news and updates regarding TON network incidents:  *   https://t.me/tonstatus — For notifications and action requests relevant to mainnet validators. *   https://t.me/testnetstatus...  — The equivalent channel for testnet-related updates. *   https://tonstat.us/ and https://status.toncenter.com/ — Live status dashboards that provide real-time information.  Source: Network status (reply to 180340)

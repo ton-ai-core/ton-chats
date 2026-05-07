@@ -12527,3 +12527,11 @@ Anthony: How MCP enables on-chain actions for agents on TON  We publicly announc
 Dr. Awesome Doge: 美好的一天 都想開始開發了
 
 HUANG: 谁能帮我解封一下阿
+
+— 2026-05-06 —
+
+sb: 老傻子被ban了还想解开 (reply to 124495)
+
+— 2026-05-07 —
+
+HUANG: 我又没做什么坏事，误ban都不能解？ (reply to 124721)
