@@ -12539,3 +12539,19 @@ HUANG: 我又没做什么坏事，误ban都不能解？ (reply to 124721)
 Aelx: 你們好,各位開發者
 
 花儿: 你好 (reply to 124848)
+
+— 2026-05-08 —
+
+Dr. Awesome Doge: 請問是在哪裡被封鎖的？我該怎麼協助你呢？ (reply to 124789)
+
+HUANG: TON中文群给禁了，能帮我解封吗？ (reply to 124923)
+
+Dr. Awesome Doge: 這個我就沒辦法處理了，我只能處理在這個群組裡面發生的事情
+
+Aelx: 可以用另外一個TG帳號啊
+
+Aelx: 或者你問一下Toncoin群組 Chinese的admin (reply to 124930)
+
+— 2026-05-09 —
+
+程白鹿🦌涉及资金语音确认: 冒昧的问一下 有会搭建链池的技术人员吗
