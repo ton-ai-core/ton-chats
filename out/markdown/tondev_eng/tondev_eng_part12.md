@@ -1605,3 +1605,11 @@ TON Support: Welcome to TON! It's great you're looking into developing on this p
 — 2026-05-08 —
 
 7eo: Launched a Chainlink-like primitives for TON  https://github.com/titon-network  Kronos — decentralized cron for smart contracts   Fortuna — fair on-chain randomness via threshold-BLS   AutomaTON — node operator: stake once and earn on both Kronos and Fortuna    MCP server + plugin for Claude Code  Smart contracts passed a TSA audit with 0 findings.   SDKs available for TypeScript (npm) and Python (PyPI). MIT licensed.  Try it in 30 seconds, no TON or wallet required:   npx @titon-network/automaton playground  Kronos is open to everyone — stake and your node joins the rotation.   Fortuna is a closed group (threshold-BLS requires all signers to be known in advance).  Hope it helps some of you
+
+— 2026-05-10 —
+
+Wako: Good Morning Ton dev community, I am looking for ton developers for a ton crypto project, commisioned of course
+
+Thomas: Hi yall lets fking dev
+
+Wako: can you dm me (reply to 180566)
