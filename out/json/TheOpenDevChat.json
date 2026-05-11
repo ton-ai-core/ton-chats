@@ -16042,6 +16042,69 @@
       "from_id": "user6310747717",
       "text": "Ещё бы стандартизированный способ для реиндекса офчейн-метаданных сделать, через триггер на блокчейне. С отдельным опкодом, и чтобы сжигал немного TON\n\nА то сейчас ходишь по двум индексаторам руками, а до частных индексаторов никто ничего не доносит",
       "reply_to_message_id": 1824
+    },
+    {
+      "id": 1844,
+      "type": "message",
+      "date": "2026-05-10T20:24:34.000Z",
+      "date_unixtime": "1778444674",
+      "from": "рулет",
+      "from_id": "user443948849",
+      "text": "зато заметили, что не прям всем это и надо",
+      "reply_to_message_id": 1824,
+      "media_type": "photo",
+      "file": "photos/photo_1844.jpg",
+      "width": 461,
+      "height": 213
+    },
+    {
+      "id": 1845,
+      "type": "message",
+      "date": "2026-05-10T20:24:36.000Z",
+      "date_unixtime": "1778444676",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Ахах а почему оно удаляет комменты"
+    },
+    {
+      "id": 1846,
+      "type": "message",
+      "date": "2026-05-10T20:25:01.000Z",
+      "date_unixtime": "1778444701",
+      "from": "P Jes",
+      "from_id": "user278277014",
+      "text": "всегда так было",
+      "reply_to_message_id": 1845
+    },
+    {
+      "id": 1847,
+      "type": "message",
+      "date": "2026-05-10T20:25:14.000Z",
+      "date_unixtime": "1778444714",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "Надо было сделать опрос только для анонимных номеров",
+      "reply_to_message_id": 1844
+    },
+    {
+      "id": 1848,
+      "type": "message",
+      "date": "2026-05-10T20:36:14.000Z",
+      "date_unixtime": "1778445374",
+      "from": "🍀Олег️️",
+      "from_id": "user247789878",
+      "text": "Я жду этого, только этого и не хватает для объяснения «а в чем смысл?»",
+      "reply_to_message_id": 1824
+    },
+    {
+      "id": 1849,
+      "type": "message",
+      "date": "2026-05-10T20:49:34.000Z",
+      "date_unixtime": "1778446174",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "?",
+      "reply_to_message_id": 1848
     }
   ]
 }

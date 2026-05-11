@@ -1613,3 +1613,5 @@ Wako: Good Morning Ton dev community, I am looking for ton developers for a ton 
 Thomas: Hi yall lets fking dev
 
 Wako: can you dm me (reply to 180566)
+
+Czowiro 🐻: https://github.com/tonkeeper/opentonapi still working? its not deprecated?
