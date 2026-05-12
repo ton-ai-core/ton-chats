@@ -1615,3 +1615,25 @@ Thomas: Hi yall lets fking dev
 Wako: can you dm me (reply to 180566)
 
 Czowiro 🐻: https://github.com/tonkeeper/opentonapi still working? its not deprecated?
+
+— 2026-05-11 —
+
+Dhereal1: How do I report transactions not spam on ton?
+
+Dhereal1: Hello everyone,  happy new week.
+
+Dhereal1: Pls I have been using real ton to test a payment tools I was working on and with the frequency in transaction of 0.001-0.0001 that happens almost 5min interval, the transaction got flag as spam. Now from the sender-end it will say successfull and from receiver end, it shows received but the value do not reflect and my tonlistener also stop catching the transaction.
+
+jizzy019: if sender send successfully, then you reciever should receive it too (reply to 180629)
+
+jizzy019: wao. I know funC and Tact, have not really learn Tolk. (reply to 180391)
+
+jizzy019: expert??? (reply to 180249)
+
+Dhereal1: Thank you, I found the culprit.  The amounts I was sending is too low and that's why it's marked as spam.  I have fixed that now (reply to 180631)
+
+Umut Can: from base64 import b64decode  data = b64decode(     'te6cckEBAgEAkAABmtoAn2TwajcHs+/qAJCGJdxGlmMMDUqWbpSr9CdppQMp3WY2hkgLzLdC+on9uamXYKJHXP92wpQ+Dy6uGKOkhAMpqaMXZJQKngAAAAkDAQB8YgBkfUxOc+ilDn1RTgCqV3wvKyuS2zQ1SwxHYXBhNzjcISAUBvQAAAAAAAAAAAAAAAAAAAAAAABzdHJpbmd/NYJ1' )  offset = 512 + 32 + 32 bytes_skipped = offset // 8  seqno_bytes = data[bytes_skipped:bytes_skipped + 4]  seqno = int.from_bytes(seqno_bytes, byteorder='big')  print(f"Seqno: {seqno}")  Seqno: 413377668
+
+&rey: is not a stable solution. BOC is similar to archive; you can read it with a library like pytoniq_core.  (Moreover you need to know wallet's version to know where seqno is located in the structure, as some wallets don't even have this concept.) (reply to 180648)
+
+Sapog: Hi  Saw the Acton launch; who's the right person to talk to about security integrations?

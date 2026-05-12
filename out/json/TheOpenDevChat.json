@@ -16105,6 +16105,249 @@
       "from_id": "channel2154553559",
       "text": "?",
       "reply_to_message_id": 1848
+    },
+    {
+      "id": 1851,
+      "type": "message",
+      "date": "2026-05-11T21:08:12.000Z",
+      "date_unixtime": "1778533692",
+      "from": "Mirka",
+      "from_id": "user740170660",
+      "text": "Напоминаем, что отказ от чтения вашего канала карается по статье 293 УК РФ(халатность)",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1853,
+      "type": "message",
+      "date": "2026-05-11T21:17:58.000Z",
+      "date_unixtime": "1778534278",
+      "from": "𝟝𝟛𝟝𝟛.𝕥𝕠𝕟 | hulk",
+      "from_id": "user8253246411",
+      "text": "Ну ситуации жесть конечно 😱",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1854,
+      "type": "message",
+      "date": "2026-05-11T21:21:11.000Z",
+      "date_unixtime": "1778534471",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Это хрень - Там в фейк тонах уже офферы кидать начали",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1855,
+      "type": "message",
+      "date": "2026-05-11T21:21:15.000Z",
+      "date_unixtime": "1778534475",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Вот это куда страшнее",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1856,
+      "type": "message",
+      "date": "2026-05-11T21:21:25.000Z",
+      "date_unixtime": "1778534485",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "есть ссылка?",
+      "reply_to_message_id": 1854
+    },
+    {
+      "id": 1857,
+      "type": "message",
+      "date": "2026-05-11T21:21:33.000Z",
+      "date_unixtime": "1778534493",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Да сейчас дам",
+      "reply_to_message_id": 1856
+    },
+    {
+      "id": 1858,
+      "type": "message",
+      "date": "2026-05-11T21:23:02.000Z",
+      "date_unixtime": "1778534582",
+      "from": "𝟝𝟛𝟝𝟛.𝕥𝕠𝕟 | hulk",
+      "from_id": "user8253246411",
+      "text": "В чат клуба закинь тоже",
+      "reply_to_message_id": 1857
+    },
+    {
+      "id": 1859,
+      "type": "message",
+      "date": "2026-05-11T21:23:28.000Z",
+      "date_unixtime": "1778534608",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Вот его адрес",
+      "reply_to_message_id": 1856
+    },
+    {
+      "id": 1861,
+      "type": "message",
+      "date": "2026-05-11T21:24:02.000Z",
+      "date_unixtime": "1778534642",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Бля",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1862,
+      "type": "message",
+      "date": "2026-05-11T21:24:08.000Z",
+      "date_unixtime": "1778534648",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "это просто текстовые комменты, они вряд ли доходят до гетгемса",
+      "reply_to_message_id": 1860
+    },
+    {
+      "id": 1863,
+      "type": "message",
+      "date": "2026-05-11T21:24:24.000Z",
+      "date_unixtime": "1778534664",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "удалим чужой пост, чтобы не добавлять никому нервов"
+    },
+    {
+      "id": 1865,
+      "type": "message",
+      "date": "2026-05-11T21:29:48.000Z",
+      "date_unixtime": "1778534988",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Убрали",
+      "reply_to_message_id": 1862
+    },
+    {
+      "id": 1866,
+      "type": "message",
+      "date": "2026-05-11T21:29:48.000Z",
+      "date_unixtime": "1778534988",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "ОФФЕРЫ",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1867,
+      "type": "message",
+      "date": "2026-05-11T21:35:31.000Z",
+      "date_unixtime": "1778535331",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "А на фейк тон?",
+      "reply_to_message_id": 1856
+    },
+    {
+      "id": 1868,
+      "type": "message",
+      "date": "2026-05-11T21:35:44.000Z",
+      "date_unixtime": "1778535344",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Я думал на Кош с которого кидают",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1869,
+      "type": "message",
+      "date": "2026-05-11T21:35:45.000Z",
+      "date_unixtime": "1778535345",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "UQBk6nUB4bt1VncRu2PZgSucpuDG_Cqh2UJ67saejRStuCAN",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1870,
+      "type": "message",
+      "date": "2026-05-11T21:36:39.000Z",
+      "date_unixtime": "1778535399",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "никаких фейк тон отсюда не шлется",
+      "reply_to_message_id": 1869
+    },
+    {
+      "id": 1871,
+      "type": "message",
+      "date": "2026-05-11T21:36:55.000Z",
+      "date_unixtime": "1778535415",
+      "from": "Alexey",
+      "from_id": "user108781922",
+      "text": "Тут не фейк, а реальный оффер в тонах\n\n(Если речь про эту транзу)",
+      "reply_to_message_id": 1869
+    },
+    {
+      "id": 1872,
+      "type": "message",
+      "date": "2026-05-11T21:45:44.000Z",
+      "date_unixtime": "1778535944",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Не тот кошелек скопировал",
+      "reply_to_message_id": 1870
+    },
+    {
+      "id": 1873,
+      "type": "message",
+      "date": "2026-05-11T21:46:06.000Z",
+      "date_unixtime": "1778535966",
+      "from": "न̴व̴य̴ु̴ग̴ः̴",
+      "from_id": "user903501589",
+      "text": "Там тип засылал по 40к тон с кошелька где у него 1.3 тона",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1874,
+      "type": "message",
+      "date": "2026-05-11T21:55:40.000Z",
+      "date_unixtime": "1778536540",
+      "from": "x_x",
+      "from_id": "user6504288902",
+      "text": "Владельца 88800001917 еще больше жалко. Там лоубанк, судя по кошельку 😢",
+      "reply_to_message_id": 1850
+    },
+    {
+      "id": 1875,
+      "type": "message",
+      "date": "2026-05-11T22:09:15.000Z",
+      "date_unixtime": "1778537355",
+      "from": "Кирилл 🐶",
+      "from_id": "user364316344",
+      "text": "1\n\nЯ тут до хайпа",
+      "reply_to_message_id": 85
+    },
+    {
+      "id": 1877,
+      "type": "message",
+      "date": "2026-05-11T22:12:02.000Z",
+      "date_unixtime": "1778537522",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "уверен?)\nдо сегодня было 8к",
+      "reply_to_message_id": 1875,
+      "media_type": "photo",
+      "file": "photos/photo_1877.jpg",
+      "width": 152,
+      "height": 52
+    },
+    {
+      "id": 1878,
+      "type": "message",
+      "date": "2026-05-11T22:12:05.000Z",
+      "date_unixtime": "1778537525",
+      "from": "ꘜ Demid",
+      "from_id": "user581036480",
+      "text": "https://tonviewer.com/UQA0KXS5QaqELRQ9N2dU603iInbr5R_GGH64uSogPekQBsoq",
+      "reply_to_message_id": 1870
     }
   ]
 }
