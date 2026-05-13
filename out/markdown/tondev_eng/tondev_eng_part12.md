@@ -1637,3 +1637,13 @@ Umut Can: from base64 import b64decode  data = b64decode(     'te6cckEBAgEAkAABm
 &rey: is not a stable solution. BOC is similar to archive; you can read it with a library like pytoniq_core.  (Moreover you need to know wallet's version to know where seqno is located in the structure, as some wallets don't even have this concept.) (reply to 180648)
 
 Sapog: Hi  Saw the Acton launch; who's the right person to talk to about security integrations?
+
+— 2026-05-12 —
+
+Perelyn sama: Are there examples of making ston fi swaps with tolk contracts?
+
+TON Support: Tolk is the recommended language for TON smart contracts, and examples of Tolk contracts include basic jetton and NFT contracts. For swaps, you can use the OmnistonSwapProvider.  Source: Tolk language - TON Docs, How to initialize the TON Connect's AppKit - TON Docs (reply to 180712)
+
+Slava: Please refrain from discussing subjects not related to TON development and engineering.
+
+Alex: TON gets a modern smart-contract toolchain.  Start here: https://ton-blockchain.github.io/acton/   Last release includes: • Tolk v1.4 • Acton — unified TON smart-contract tooling  ✓ Native debugger   ✓ Tolk-native tests   ✓ TS wrappers   ✓ Deploy & verification flows   ✓ Coverage, fuzzing & gas profiling   ✓ AI-friendly CLI workflows  Debug real failed mainnet transactions locally in your IDE.  Act on.

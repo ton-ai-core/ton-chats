@@ -16348,6 +16348,36 @@
       "from_id": "user581036480",
       "text": "https://tonviewer.com/UQA0KXS5QaqELRQ9N2dU603iInbr5R_GGH64uSogPekQBsoq",
       "reply_to_message_id": 1870
+    },
+    {
+      "id": 1882,
+      "type": "message",
+      "date": "2026-05-12T09:13:53.000Z",
+      "date_unixtime": "1778577233",
+      "from": "idk",
+      "from_id": "user661362304",
+      "text": "work еще?",
+      "reply_to_message_id": 85
+    },
+    {
+      "id": 1883,
+      "type": "message",
+      "date": "2026-05-12T09:22:19.000Z",
+      "date_unixtime": "1778577739",
+      "from": "The Open Dev Blog",
+      "from_id": "channel2154553559",
+      "text": "А вам зачем?)",
+      "reply_to_message_id": 1882
+    },
+    {
+      "id": 1884,
+      "type": "message",
+      "date": "2026-05-12T09:22:49.000Z",
+      "date_unixtime": "1778577769",
+      "from": "idk",
+      "from_id": "user661362304",
+      "text": "чтобы знать выставлять ли свои нфт на фраг)или сейчас скинут оффер и скамнут",
+      "reply_to_message_id": 1883
     }
   ]
 }

@@ -6191,3 +6191,37 @@ Alexander: База(
 Оля: Ищу человека кто будет сидеть на камерах, не онлайн, пишите
 
 Оля: Не берут из за недостатка опыта? Напиши мне, помогу
+
+wecafer: тут есть фрилансеры?
+
+Vladislav: Есть, в ЛС стучи если что-то надо (reply to 348823)
+
+𝗖𝗔𝗟𝗠: Будь осторожней, это может быть HR (reply to 348826)
+
+Vladislav: Хах) да, опасненько (reply to 348835)
+
+Alex: TON gets a modern smart-contract toolchain.  Start here: https://ton-blockchain.github.io/acton/   Last release includes: • Tolk v1.4 • Acton — unified TON smart-contract tooling  ✓ Native debugger   ✓ Tolk-native tests   ✓ TS wrappers   ✓ Deploy & verification flows   ✓ Coverage, fuzzing & gas profiling   ✓ AI-friendly CLI workflows  Debug real failed mainnet transactions locally in your IDE.  Act on.
+
+Тайный: Зачем в Ру чат закреплять пост на английском если даже в Toncoin RUS всё перевели (reply to 348850)
+
+whoptX.corp: Ребят какие сейчас способы проверки платежей вообще есть?
+
+Boris: через rpc ноды открытые, другого бесплатного или дешёвого способа — нет (reply to 348858)
+
+Boris: Я видел появился какой-то ton pay или что-то похожее, может быть это то, что тебе нужно (reply to 348858)
+
+whoptX.corp: Спасибо, посмотрю (reply to 348860)
+
+K🆓³³: Александр, это русскоязычный чат Этот чат предназначен только для общения по-русски. Читайте правила (reply to 348850)
+
+Schoo: Телеграм уже стал валидатором сети? Или еще нет?
+
+Dmitry: а кстати по этому поводу есть что-нибудь ещё почитать, кроме постов в Пашином ТГ-канале?
+
+Vladimir: https://t.me/anatolii_makosov/137 (reply to 348876)
+
+Dmitry: спасибо, но я хотел более глобальное что-то, там где и про переход домена, и возможно еще что-нибудь интересное (reply to 348877)
+
+Lapis ⁴² ¹⁷: Здравствуйте! Кто-то знает, сколько примерно у TON Rust Node длится load_states обычно?
+
+TON Support: Фаза load_states, в которой загружаются и применяются постоянные состояния, обычно является длительной. Для здорового узла значение timediff_seconds должно быть ниже 20 секунд, тогда как значения выше 60 секунд требуют расследования.  Source: Metrics - TON Docs (reply to 348881)
