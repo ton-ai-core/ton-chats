@@ -1647,3 +1647,19 @@ TON Support: Tolk is the recommended language for TON smart contracts, and examp
 Slava: Please refrain from discussing subjects not related to TON development and engineering.
 
 Alex: TON gets a modern smart-contract toolchain.  Start here: https://ton-blockchain.github.io/acton/   Last release includes: • Tolk v1.4 • Acton — unified TON smart-contract tooling  ✓ Native debugger   ✓ Tolk-native tests   ✓ TS wrappers   ✓ Deploy & verification flows   ✓ Coverage, fuzzing & gas profiling   ✓ AI-friendly CLI workflows  Debug real failed mainnet transactions locally in your IDE.  Act on.
+
+— 2026-05-13 —
+
+E3 | Procur3: Hey, we also have 50+ audit firms on our security marketplace for TON builders.  there are boutique audit shops with Func/Tact/Tolk experience that can accomodate any budget - procur3.io  Hope this helps also (reply to 180003)
+
+Nyonyo: I was trying to swap ton to a another token but mistakenly sent to another ton address (i need help recovering it)
+
+Hayate: Ahh are you sleeping when making transaction   I hope is not that much (reply to 180764)
+
+Nyonyo: Its something (reply to 180765)
+
+&rey: TON transactions are final. TON cannot be moved from an account except by that account's action. (reply to 180764)
+
+&rey: Perhaps whoever received it (if you have contact data) can return.
+
+Hayate: He can copy that same address and send low amount and beg the person to resend it back   Might got lucky if he is good guy (reply to 180768)
