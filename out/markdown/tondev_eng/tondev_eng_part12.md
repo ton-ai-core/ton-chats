@@ -1663,3 +1663,33 @@ Nyonyo: Its something (reply to 180765)
 &rey: Perhaps whoever received it (if you have contact data) can return.
 
 Hayate: He can copy that same address and send low amount and beg the person to resend it back   Might got lucky if he is good guy (reply to 180768)
+
+— 2026-05-14 —
+
+Mykhailo Tunek: Good morning, I have a problem with my wallet. I send USDT to my TON wallet created trough app and by hash the funds has been credited but the wallet countinue result inactive. I tried another time to send a small amount of ton but is not active yet. But checking the wallet have that balance I sent.
+
+Mykhailo Tunek: Someone can suggest me what can I do?
+
+&rey: It's normal. Once you have TON, use normally. (reply to 180806)
+
+Mykhailo Tunek: So I should retry to make another deposit of TON?
+
+&rey: Not if TON balance is already nonzero. (reply to 180815)
+
+TON Support: The withdraw_from_single_pool command is used in mytonctrl to withdraw Toncoin from a single-nominator pool. It can be used by the validator or the owner, as configured. This command issues an immediate withdrawal request that executes in the current...  cycle.  Regarding partial withdrawals, they are not supported. Only full withdrawals are possible.  If funds are currently locked in a cycle, a withdrawal request will be created and processed automatically after the current validation round ends, and the funds will then go to the validator wallet or owner.  Source: [Nominator pools - TON Docs](https://docs.ton.org/ecosystem/nodes/cpp/mytonctrl/pools#:~:text=Warns (reply to 179778)
+
+Mykhailo Tunek: Balance through TON scan is a bit more than 0 but in the app no transactions. I sent it three months ago
+
+&rey: 0.01 TON should suffice. Just send any transaction you want, wallet is auto-deployed for that. (reply to 180819)
+
+Mykhailo Tunek: Ok but stil be inactive. So I retry from another wallet
+
+&rey: *any outgoing transaction* (reply to 180820)
+
+Mykhailo Tunek: Ok but I have a probem with the app balance hasn't been updated. It's 0 but trough explorer that transaction has been received
+
+Hayate: Report it (reply to 180823)
+
+Mykhailo Tunek: With whom?
+
+Андрей: Good day! Acton CLI + Go in Telegram: Local FunC --> Tolk Migration in Seconds I built an autonomous Go-based AI Agent that turns a Telegram chat into a remote sandbox for TON smart contracts.  Sorry, I can't forward the demo video. I don't have permission. So, in words:  1. Drop a .fc / .func file directly into the chat. 2. The bot caches the code in RAM (with a 1-hour auto-cleanup to prevent memory leaks). 3. Check button: Compiles the code on the fly via acton compile and returns an interactive, real-time syntax error log. 4. To Tolk button: Triggers the translator directly and returns a clean, ready-to-use .tolk file as a document.  The stack under the hood: Golang, Node.js environment, Acton CLI, ClickHouse for end-to-end analytics logging, and a systemd service for seamless autostarts.  Everything runs locally on a VPS—no external paid APIs, no workarounds. It's a lifesaver when you need to quickly audit a contract or migrate old methods to the new syntax right from your phone.  If you want to deploy a similar turnkey DevTools agent for your team—feel free to DM me, I can help with the setup!
