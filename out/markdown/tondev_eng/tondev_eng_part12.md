@@ -1693,3 +1693,39 @@ Hayate: Report it (reply to 180823)
 Mykhailo Tunek: With whom?
 
 Андрей: Good day! Acton CLI + Go in Telegram: Local FunC --> Tolk Migration in Seconds I built an autonomous Go-based AI Agent that turns a Telegram chat into a remote sandbox for TON smart contracts.  Sorry, I can't forward the demo video. I don't have permission. So, in words:  1. Drop a .fc / .func file directly into the chat. 2. The bot caches the code in RAM (with a 1-hour auto-cleanup to prevent memory leaks). 3. Check button: Compiles the code on the fly via acton compile and returns an interactive, real-time syntax error log. 4. To Tolk button: Triggers the translator directly and returns a clean, ready-to-use .tolk file as a document.  The stack under the hood: Golang, Node.js environment, Acton CLI, ClickHouse for end-to-end analytics logging, and a systemd service for seamless autostarts.  Everything runs locally on a VPS—no external paid APIs, no workarounds. It's a lifesaver when you need to quickly audit a contract or migrate old methods to the new syntax right from your phone.  If you want to deploy a similar turnkey DevTools agent for your team—feel free to DM me, I can help with the setup!
+
+— 2026-05-15 —
+
+deffox: How start auction to expired domain?
+
+TON Support: If a domain has not been renewed for over a year, anyone can trigger its release by calling dns_balance_release on the contract with a minimum payment. The domain then re-enters auction for one week, with the caller as the initial bidder.  Source: [TON DNS - TON Docs](https://docs.ton.org/foundations/web3/ton-dns#:~:text=Categories (reply to 180885)
+
+deffox: Is there a detailed video? (reply to 180886)
+
+Sam | TrafficPlaza: Hey guys. Something I keep seeing with Telegram Mini Apps is that many teams want more users, but the real problem is usually what happens after the user opens the app. Curious how builders here think about this. What do you check before scaling traffic?
+
+Slava: Hey. What do you mean? (reply to 180901)
+
+Sam | TrafficPlaza: I mean what happens after the user opens the mini app. If users don’t understand what to do, don’t get value fast, or don’t have a reason to return, then more traffic just brings more drop-offs. So before scaling traffic, I’d check the first session, first action, reward/value moment, and return reason. Not against traffic at all. Just saying the app should be ready to turn traffic into activity. (reply to 180904)
+
+Slava: Sure. But this question is more about traction, product development (CustDev) and analytics. Not related to the TON/TMA or programming per se. (reply to 180905)
+
+Sam | TrafficPlaza: Fair point, Slava. Thanks for clarifying. I was looking at it from the TMA builder/product side, not really as a programming topic.  I’ll keep it more technical here. (reply to 180907)
+
+z3db24z: Guys, honest question. How do I fix my node being out of sync every single f minute? My server: 128 cores, 15TB NVMe, 768GB RAM. If this keeps getting out of sync daily, I'm gonna lose my sh.
+
+Slava: My point is not strictly about enforcing the chat rules. The point is that this is a wider topic. You may find more information in CustDev-related resources, that's all. (reply to 180909)
+
+z3db24z: Anyone else facing the same problem?
+
+Sam | TrafficPlaza: Got it. Yeah, makes sense that it’s more of a product/CustDev topic than a dev topic. I was just looking at it from the TMA builder side. Thanks for clarifying. (reply to 180911)
+
+z3db24z: holy out of sync more than 200times a day
+
+— 2026-05-16 —
+
+JANE-: Yes (reply to 180912)
+
+Timmy Dipshit: Hello are we allowed to share projects or bots here to ask for help?
+
+Timmy Dipshit: I have two nodes that keep going out of sync and I’m not sure how to solve it
