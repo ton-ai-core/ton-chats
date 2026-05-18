@@ -1729,3 +1729,63 @@ JANE-: Yes (reply to 180912)
 Timmy Dipshit: Hello are we allowed to share projects or bots here to ask for help?
 
 Timmy Dipshit: I have two nodes that keep going out of sync and I’m not sure how to solve it
+
+— 2026-05-17 —
+
+TON Support: Compilers from statically typed high-level smart-contract languages to TVM code can be implemented, and most TON smart contracts are expected to be written in such languages. A precompiled smart contract can have a native C++ implementation in the validator node. This improves performance and reduces computation fees.  Source: [Telegram Open Network Virtual Machine - TON Docs](https://docs.ton.org/foundations/whitepapers/tvm#:~:text=Such
+
+testertesterov: Yes. That's what's needed. It's easier to learn Rust than Tolk.
+
+testertesterov: In my opinion, Solana is developing faster in this direction than TON. Programmers are satisfied. They don't need to write in Tolk, but can write in their favorite Rust and C/C++.  Fift->FunC->Tact->Tolk->[What next?] :)
+
+Petr: Nothing, we've come a long way to Tolk (reply to 181011)
+
+Danil: > but can write in their favorite Rust and C/C++. That’s a highly debatable argument; Rust, with its Borrow Checker, and even more so C++, with its UB, is far more complex than Tolk. What’s more, Tolk is specifically designed for writing smart contracts for TON, which offers far more scope for optimisations and checks. (reply to 181011)
+
+Petr: Tolk is very similar to Rust, and language is not the most difficult thing in TON, the most difficult is the quirks of TON blockchain itself, and Tolk makes these quirks simpler (reply to 181009)
+
+&rey: Something which allows to statically prove facts of how contracts will work, in the same language as those are written — or I'd hope so. (reply to 181011)
+
+&rey: You're looking at the high level wrappings, but TVM bytecode underlies all of the first four. And will underlie the fifth, most probably. (reply to 181011)
+
+𝗖𝗔𝗟𝗠: Tonk (reply to 181011)
+
+Timmy Dipshit: i came up with a workaround, the problem is that one system is 16 cores and the other is 20, so one is literally faster (reply to 180938)
+
+Timmy Dipshit: its too early to share but when i publish a repo ill post it here
+
+— 2026-05-18 —
+
+testertesterov: I think the advantage of Rust is somewhat different. If developers on Solana or TON find themselves in a really bad situation, they can very easily migrate to other projects that use Rust. In the case of Tolk, I cannot say that developers on Tolk are needed anywhere else besides TON.
+
+testertesterov: It is quite likely that TON and Telegram developers will be blocked in Cloude, and we will need our own solution. It could be better than expensive ones. We will be able to choose a multitude of models for agent mode in the IDE.
+
+final: Why?) (reply to 181045)
+
+testertesterov: Analyzing the situation from a marketing perspective, Telegram and TON are completely unnecessary. They create too much competition. They could quite possibly block access. (reply to 181048)
+
+Timmy Dipshit: not sure if anyone has done this yet but the google gemma models are nice for fine tuning, could train one on tolk and use it for smart contract dev (reply to 181049)
+
+testertesterov: As a result, we will save access only to old AI models. At the moment, the Solana team will use the latest AI.
+
+final: Messenger creates too much competition to ai company. Where?? (reply to 181049)
+
+final: You see what you write? Did anthropic or OpenAI ban anyone based on what they do in legal way? Haven’t heard anything about it
+
+testertesterov: A more comprehensive and affordable solution that can be paid for in Stars is needed. There is a huge number of free models already trained on Tolk, but running them requires a GPU cluster, which Telegram has in this case. (reply to 181050)
+
+testertesterov: There have already been cases and they have to bypass restrictions. (reply to 181056)
+
+testertesterov: They act in a complex. They generally don't like it, and it's visible. (reply to 181055)
+
+final: Even though, what stops from using api (pay for use) or create new account? (reply to 181061)
+
+final: Imho this is not a global issue for ton/tg devs. At last ChatGPT exists
+
+Timmy Dipshit: i think complex billing at scale is where it breaks, imagine doing this for 70 users and being used to letting an accounting team handle the payments (reply to 181062)
+
+Timmy Dipshit: its like piracy, not a problem for individuals but hard to scale
+
+Slava: It's not about programming languages and it never was. A good programmer who has a solid understanding of computer science can switch technologies/languages reasonably easy. Languages are tools created for specific purposes and Tolk in this case serves its purpose well.  TON is a unique Blockchain with its own flavor. Using a general purpose language for TON programming doesn't make much sense. (reply to 181042)
+
+testertesterov: Yes. He can say that he knows Rust after many years of programming only in Tolk. (reply to 181068)

@@ -6449,3 +6449,41 @@ Petr: но впрочем если значения будут по 100 ячее
 Petr: Для подтверждения написал небольшой скрипт   import "@acton/io"  fun main() {     var a = map<int32, int32>[];      var i = 0;     while (i < 100) {         a.set(i, i);          println("With {} elements there are {} cells", i, a.toLowLevelDict()!.calculateSize(1000).0);         i += 1;     } }    With 0 elements there are 1 cells With 1 elements there are 3 cells With 2 elements there are 5 cells With 3 elements there are 7 cells With 4 elements there are 9 cells With 5 elements there are 11 cells With 6 elements there are 13 cells With 7 elements there are 15 cells With 8 elements there are 17 cells With 9 elements there are 19 cells With 10 elements there are 21 cells With 11 elements there are 23 cells With 12 elements there are 25 cells With 13 elements there are 27 cells With 14 elements there are 29 cells With 15 elements there are 31 cells With 16 elements there are 33 cells
 
 Pavel: да, да. есть такая дичь. пришлось отдельного воркера делать, который переваривает такой трейс и выдает файлик для изучения. (reply to 349251)
+
+— 2026-05-17 —
+
+Karina: подскажите как можно конвертировать lottie json в анимированный gif? lottie json слишком тяжелый желательно сделать на nodejs
+
+bywthlo ❄️: библиотека lottie вроде была (reply to 349336)
+
+bywthlo ❄️: я помню как то делал ща
+
+bywthlo ❄️: lottie-web для рендеринга (reply to 349336)
+
+♡: Возможно ли узнать статус n-транзакции которая ушла на блокчейн?
+
+TON Support: Да, возможно узнать статус транзакции, которая ушла на блокчейн TON.  TON достигает завершенности транзакции после подтверждения одного мастерчейн-блока, обычно в течение 1 секунды. Как только транзакция из шардчейна появляется в мастерчейн-блоке, она...  становится необратимой.  Большинство TON API предоставляют методы для проверки, достигла ли транзакция завершенности в мастерчейне. Рекомендуется считать транзакцию завершенной только после того, как она будет включена в мастерчейн.  Для мониторинга платежей вам нужно убедиться, что транзакция была включена в мастерчейн-блок, а не только в шардчейн.  Вы также можете использовать BoC (Bag of Cells) или хэш транзакции для ее отслеживания. Пример использования: для поиска транзакции по BoC (base64) можно обратиться к функции getTransactionByInMessage. Также можно проверить статус транзакции по ее хэшу, используя toncenter.com/api/v2/getTransactions с параметрами address и hash.  Статус аккаунта до и после транзакции записывается в соответствующем TL-B блоке в полях orig_status и end_status. Это позволяет разработчикам всегда видеть текущий статус аккаунта перед отправкой ему сообщения и восстанавливать историю изменений его статуса.  Source: Payment processing overview - TON Docs, Account status - TON Docs, Hash-based tracking | The Open Network, Foundations of blockchain | The Open Network (reply to 349341)
+
+Karina: а там же нету метода для сохранения файла в формате gif или есть? (reply to 349339)
+
+Karina: в коде не видно
+
+bywthlo ❄️: рендерить можно (reply to 349343)
+
+bywthlo ❄️: сохрянять нет
+
+Karina: у мен страница тормозит, если на ней несколько анимаций воспроизводить из json
+
+Karina: поэтому хочу перевести в gif
+
+Danya: ну да,векторная анимация (reply to 349347)
+
+Karina: можно покадрово распилить и через ffmpeg собрать в ролик, но должно быть решение проще
+
+— 2026-05-18 —
+
+TON Support: NOW returns the starting logical time of the current block. It is equivalent to 4 GETPARAM.  Source: [c7](https://docs.ton.org/resources/tvm/cp0.txt#:~:text=If
+
+R.S: c7[0][16] установлен не как Tuple (reply to 349411)
+
+R.S: разве это не исправляли?😂
