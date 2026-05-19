@@ -763,3 +763,7 @@ Unknown: New for TON devs: Deep Smart Contract Audit Skill  A new audit skill fo
 — 2026-05-01 —
 
 Unknown: How MCP enables on-chain actions for agents on TON  We publicly announced Agentic Wallets on TON — an open, self-custodial standard that lets agents manage assets through dedicated wallets. But just having a wallet isn’t enough. For an agent to use TON, it needs to be able to find and connect tools for interacting with the blockchain.   That’s why we built mcp.ton.org — a simple entry point for connecting AI agents to TON. MCP gives agents access to tools for working with the blockchain, while skills provide ready-to-use instructions. A user copies a single command, and the agent gets a ready way to work with the blockchain. All skills are open and available in the ton-org/skills.   Now developers have a ready-to-use execution layer for agents on TON. After connecting MCP and installing skills, an agent can check balances, send transactions, swap tokens, work with NFTs and execute more advanced scenarios like buying xStocks or managing Agentic Wallets. All actions are built from reusable primitives and executed through MCP, which allows developers to move directly to building agent logic.  Connect MCP and give your agent access to actions on TON (forwarded from TON Tech)
+
+— 2026-05-18 —
+
+Unknown: 🧠 AI devs asked for this — and we delivered.  🤖 Bots can now talk to other bots on Telegram.  💬 Autonomous agents now have a communication layer humans can follow.  🛠 Start building! (forwarded from Pavel Durov)

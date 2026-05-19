@@ -2492,6 +2492,18 @@
       "file": "photos/photo_297.jpg",
       "width": 2160,
       "height": 2160
+    },
+    {
+      "id": 300,
+      "type": "message",
+      "date": "2026-05-18T14:57:36.000Z",
+      "date_unixtime": "1779116256",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "🧠 AI devs asked for this — and we delivered.\n\n🤖 Bots can now talk to other bots on Telegram.\n\n💬 Autonomous agents now have a communication layer humans can follow.\n\n🛠 Start building!",
+      "forwarded_from": "Pavel Durov",
+      "forwarded_from_id": "channel1006503122",
+      "forwarded_date": "2026-05-18T14:56:21.000Z"
     }
   ]
 }

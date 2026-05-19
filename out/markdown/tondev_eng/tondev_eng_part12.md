@@ -1789,3 +1789,121 @@ Timmy Dipshit: its like piracy, not a problem for individuals but hard to scale
 Slava: It's not about programming languages and it never was. A good programmer who has a solid understanding of computer science can switch technologies/languages reasonably easy. Languages are tools created for specific purposes and Tolk in this case serves its purpose well.  TON is a unique Blockchain with its own flavor. Using a general purpose language for TON programming doesn't make much sense. (reply to 181042)
 
 testertesterov: Yes. He can say that he knows Rust after many years of programming only in Tolk. (reply to 181068)
+
+testertesterov: Could you tell me if the conversion of a FunC smart contract used in a fragment to the Tolk language has already been carried out using the acton tool? func2tolk tool.
+
+TON Support: Yes, there is a FunC-to-Tolk converter that transforms FunC projects into Tolk using the command npx @ton/convert-func-to-tolk contracts. This tool performs a syntax-level conversion to help migrate contracts to Tolk, rewriting FunC code with one-to-one...  semantics to produce a Tolk version that is close to the original FunC.  However, the converted contract does not utilize modern Tolk features like structures, auto-serialization, or clean message composition. While Acton is recommended for new smart contract projects, this converter assists in migrating existing FunC contracts.  Source: FunC-to-Tolk converter - TON Docs, Write your first smart contract with Blueprint - TON Docs (reply to 181076)
+
+testertesterov: In my opinion, these AI answers do not address the questions asked. Most likely, an old AI model is being used here. The question was completely different. (reply to 181077)
+
+&rey: You still must know that FunC-to-Tolk conversion was present since the earliest versions of the latter, and deterministic (not relying on LLMs in particular). (reply to 181087)
+
+&rey: I don't know of it being embedded in acton, though.
+
+testertesterov: Yes. But the question is about the entry of major players into Tolk. (reply to 181088)
+
+testertesterov: If Telegram team uses exclusively FunC and ignores Tolk, what is its profit.
+
+testertesterov: In TON, as far as I understand, there is only one major programmer, and that is Telegram.
+
+&rey: How would you ascertain this belief? (reply to 181094)
+
+xylica: this person sounds like he has just discovered vibe coding and now he's an expert in technology and AI (reply to 181094)
+
+testertesterov: Only Telegram is happy. Everyone else is complaining about TON and believers are running away. (reply to 181096)
+
+testertesterov: Actually, this story is much longer, but I'm for vibe-coding and I use it more and more :) (reply to 181098)
+
+&rey: From what I see, almost all jetton advances (including DEXes, launchpads and such — there's a lot of contracts and kinds of contracts!) come from other orgs.
+
+V: is there a telegram CI tool or bot for Acton/Tolk projects ?
+
+vangaard: TON Core just doesn't exist i guess. (reply to 181094)
+
+testertesterov: Absolutely. (reply to 181108)
+
+testertesterov: Yes. And now they don't know how to pump up normal volumes. (reply to 181106)
+
+&rey: So they — major programmers — do exist in TON, even while you're adding more information about them. (reply to 181111)
+
+&rey: By the way, this chat is dedicated to how to develop on TON.
+
+testertesterov: I think with the advent of AI, and especially the agent mode, it has become uninteresting to program as before. Many techniques that were previously obtained through chat communication have gone into the past, and one needs to adapt to the new AI reality much faster. (reply to 181115)
+
+&rey: If so, your messages should probably contribute to the topic of how to develop (perhaps architect or invent) projects using AI on TON.  Note that off-topic messages can be deleted, and repeat is bannable offense. (reply to 181117)
+
+Timmy Dipshit: Interesting, I might end up making this but I’m not at that point yet, still configuring infra (reply to 181107)
+
+Timmy Dipshit: Do you mean a simple service that alerts you with a bot?
+
+testertesterov: Basically implemented this in the TON AI Core. Will soon deploy to production. Didn't think anyone would be interested in this at all. (reply to 181107)
+
+V: something where you paste repo link and it runs builds tests lints etc (reply to 181120)
+
+Durov: Where can i find developer tools ?
+
+TON Support: Developer tools for TON can be found in several areas:  *   Telegram Mini Apps (TMA): Tools include TMA create CLI, Telegram UI Kit, and Analytics. *   Smart Contract Development: You can use the Blueprint development toolkit, although Acton is now the...  recommended tool for new smart contract projects. *   General TON Documentation: This resource lists various tools for building applications, smart contracts, and running blockchain nodes.  Source: TON documentation; TMA: Telegram Mini Apps overview - TON Docs; Your first smart contract - TON Docs; Write your first smart contract with Blueprint - TON Docs (reply to 181175)
+
+testertesterov: Now you can read how bots communicate with each other in Telegram. In the future, they may learn to trade in TON, and a human will be able to simply observe this as an operator. (reply to 181175)
+
+testertesterov: Builders, who knows about Error 1014 when switching to docs ton org?
+
+TON Support: Error 1014 in the context of TON refers to a "Compute phase VM virtualization error. Reserved, but never thrown." This means it's an error code related to the internal workings of the TON Virtual Machine during the compute phase of a transaction, but...  it's not an error that should typically be encountered.  If you are experiencing this error when switching to docs.ton.org, it is highly unlikely to be a TON VM error, as that would be a client-side issue, not a blockchain-related exit code. It's more probable that you're encountering a network or browser-related error. "Error 1014" is also a WebSocket close code, indicating "abnormal closure," which could point to network connectivity issues or a problem with how your browser is handling the connection to the documentation site.  You might want to try: *   Checking your internet connection. *   Clearing your browser's cache and cookies. *   Trying a different browser or device. *   Disabling any browser extensions that might interfere with website loading.  Source: [Exit codes - TON Docs](https://docs.ton.org/tvm/exit-codes#:~:text=14 (reply to 181201)
+
+testertesterov: I clicked "Start building" and wanted to read the documentation about TVM. (reply to 181202)
+
+TON Support: The TON Virtual Machine (TVM) documentation provides comprehensive information on how smart contracts are executed on the TON blockchain. It covers various aspects, including:  *   Overview: A general introduction to TVM as a stack-based virtual machine....  *   Tools: Information about the tools used for TVM development. *   Instructions: Details on the instruction set of the TVM. *   Builders and Slices: Explanation of these fundamental data structures in TON. *   Continuations: How continuations are used in TVM. *   Registers: Information about the TVM's registers. *   Gas: Details on gas consumption and management. *   Initialization: How TVM initializes contracts. *   Exit codes: A list and explanation of various exit codes that can occur during TVM execution.  You can find more details in the TVM overview section of the official TON documentation. (reply to 181203)
+
+Mohamed: Why you deleted site of stickers and nft2 from site?
+
+testertesterov: I think it doesn't matter. So they deleted it. But generally, there might be a site error. I understood that there is a full refactoring there. (reply to 181227)
+
+Mohamed: Okay thanks (reply to 181232)
+
+SpalilAI: Hey everyone! Does anyone happen to have the limited Telegram gifts as 3D .glb files? Alternatively, do you know where I can find or download them? Thanks in advance!
+
+MonoBit: Hey everyone, Do I need to handle batch message sending for different wallet versions by myself or is there any other simpler way to do that? I want to be able to easily with one api send multiple messages (more than 4) with any version/type of wallet.  [TON_CONNECT_SDK_ERROR] WalletNotSupportFeatureError: Wallet doesn't support requested feature method. Wallet is not able to handle such SendTransaction request. Max support messages number is 4, but 10 is required.
+
+TON Support: The number of messages you can send in a single transaction depends on the wallet version:  *   Standard wallets (v3/v4): Up to 4 outgoing messages. *   Wallet v5 and Highload wallets: Up to 255 outgoing messages (closer to blockchain limitations).  The...  error you're receiving, WalletNotSupportFeatureError: Wallet doesn't support requested feature method. Wallet is not able to handle such SendTransaction request. Max support messages number is 4, but 10 is required., indicates that the wallet you are currently using is a standard wallet (v3/v4) which has a limit of 4 messages, while your transaction is trying to send 10.  You need to ensure that the wallet you are using supports the number of messages you intend to send. If you need to send more than 4 messages, you would require a Wallet v5 or a Highload wallet.  Source: TON transfer | The Open Network (reply to 181241)
+
+testertesterov: I think we need to use the modern version of the wallet. (reply to 181241)
+
+MonoBit: I can't ask my users to use wallet v5. I need to support all types of wallets but the question is how I can make the process easier for my users without development headaches. Is there anything out there with a better dev experience to handle batch transactions for other types of wallets? (reply to 181243)
+
+&rey: v4 and v3 wallets DO NOT support batches of more than 4 transactions at all. You would need to send multiple requests. (reply to 181244)
+
+MonoBit: Can I presign all transactions (grouped in 4) and send them together with multiple signed requests (behind the scene) through TON connect? (reply to 181246)
+
+&rey: If you send 4N transactions, then there will be at least N requests for user to confirm. (reply to 181247)
+
+&rey: Are you sending different assets or TON only but to different destinations?
+
+MonoBit: Sending different assets to one destination (currently) (reply to 181249)
+
+&rey: The best interface would presumably depend on the usecase and necessity of only all or none transactions happening. Could you describe the user's actions and what must result from them, in your app? (reply to 181250)
+
+MonoBit: In return for depositing constituent tokens (assets a-z) I will give user an NFT if all assets arrived to my specific smart contract. My protocol is ok with partial deposits but for a better user experience I needed to send all jettons in one transaction instead of separate batches.
+
+&rey: I don't think it can easily be solved; you may wish to create a popup with grid of NFTs sent and pending so far. (reply to 181253)
+
+testertesterov: I think the most important thing for the user is that the transaction goes through, and beyond that, it doesn't matter. In my opinion, that's it, whether it's v3, v4, v5, it doesn't matter. The main thing is that it's fast.
+
+MonoBit: Thank you. To have a unified interface I may go with this approach for all types of wallets even v5 that can handle more messages (reply to 181255)
+
+&rey: You can also wish to add legacy interface which doesn't even connect a wallet but offers ton://transfer links&QR codes (those are one by one). (reply to 181257)
+
+— 2026-05-19 —
+
+testertesterov: Did you manage to find a ready-made solution? (reply to 181244)
+
+MonoBit: Not actually
+
+NODog: Hi. Gn dev
+
+testertesterov: Yes. To be honest, I am afraid to launch my smart contracts on TON to raise money from venture investors. There are few projects that truly work. Moreover, without support, you can create more problems for yourself. (reply to 181284)
+
+</MEDO>: Use HIGHLOADV3 Contract (reply to 181241)
+
+温馨的 @mvpzy: Yo wassup (reply to 181294)
+
+testertesterov: Trying to integrate transport ADNL plugin to TON AI Core. This is safer than writing smart contracts on Tolk. (reply to 181310)
