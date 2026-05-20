@@ -1907,3 +1907,59 @@ testertesterov: Yes. To be honest, I am afraid to launch my smart contracts on T
 温馨的 @mvpzy: Yo wassup (reply to 181294)
 
 testertesterov: Trying to integrate transport ADNL plugin to TON AI Core. This is safer than writing smart contracts on Tolk. (reply to 181310)
+
+Fardin: The Tolk was easy to learn if you already know assembly. (reply to 181009)
+
+testertesterov: Yes. I recently managed to write in different versions of assembly. I'm not sure if the code turned out to be safe, but input and output worked, and even floppy disk loading. I think Tolk will have more or less the same experience for me. (reply to 181349)
+
+Fardin: I have this issue too. I cannot say this code is 100% secure because it's not being tested in production by other projects.  Your concern is legit; we are developing in blockchain, and one mistake could easily destroy a company. And AI is just making it worse by reviewing the contracts. (reply to 181350)
+
+testertesterov: Yes. I think hackers are in a more advantageous position. They have the most modern AI tools, while the TON developer community in most cases has old AI tools and possibly even enters requests to AI through the browser. Because AI API is expensive and inaccessible to many. (reply to 181352)
+
+𝚂𝚒𝚛 𝙲𝚑𝚒𝚍𝚒𝚢𝚊 鯨 ⛩️: GM GM everyone, need help with a bug/malware I discovered.
+
+𝚂𝚒𝚛 𝙲𝚑𝚒𝚍𝚒𝚢𝚊 鯨 ⛩️: Why does my questions keep deleting???
+
+&rey: In what product (and, in particular, of what org/company)? (reply to 181390)
+
+𝚂𝚒𝚛 𝙲𝚑𝚒𝚍𝚒𝚢𝚊 鯨 ⛩️: For NFTs but I can't really disclose here. If there's a way to send a private message with all the details? (reply to 181394)
+
+EnCryptoknight ⚔️: Me too, idk why (reply to 181393)
+
+— 2026-05-20 —
+
+testertesterov: I tried converting telemint yesterday using func2tolk. The result is simply terrible. The transition is not smooth at all and feels like it creates more unsafe moments than efficiency.
+
+Petr: Converting one (low-level) language to another (high-level) will never be perfect func2tolk tool covers the work that can be automated, any further refinements should be done manually or through agents with specialized skill (reply to 181439)
+
+Petr: https://ton-blockchain.github.io/acton/docs/agent-skills/func2tolk
+
+testertesterov: I think this generally makes no sense for telemint. They are already doing fine. Converting could create bugs that agents won't see immediately. (reply to 181440)
+
+Petr: Yeah, but for some other contracts it may make sense (reply to 181442)
+
+testertesterov: If I had to write a smart contract for TON from scratch, I probably wouldn't look towards Tolk. Most likely, I would move towards ready-made solutions that have been tested by time. (reply to 181443)
+
+Petr: Okay, what matters most is that the development process is comfortable and enjoyable for you, language isn’t the most important thing (reply to 181444)
+
+testertesterov: I think some time needs to pass for Tolk to accumulate a substantial volume of real examples for a productive environment. Is there already such a thing? (reply to 181445)
+
+Petr: There are almost 1,500 Tolk files from numerous projects hosted on GitHub, which I think is already a significant number. Many large projects on TON also use Tolk in their development. The language is also recommended by the TON Core team. I think this is already enough to develop new contracts on Tolk (reply to 181446)
+
+Petr: And, of course, only Tolk will receive new tools and updates
+
+testertesterov: I think these examples can be used, only if they are for a productive environment, solve real tasks, and are in the official Tolk repository. Otherwise, this could turn into a major mistake. Money loves precision of implementation. (reply to 181447)
+
+testertesterov: Smart contracts are not very large in terms of code. I think the most important thing in them is security, and if the audit was weak, there is a risk of losing everything. (reply to 181448)
+
+Timmy Dipshit: What are the tools for auditing and stress testing tolk contracts like for example eth has hardhat sorry if it’s a bad question I’m new to tolk
+
+Petr: You can use mutation and fuzzy testing in Acton https://ton-blockchain.github.io/acton/docs/testing/overview and TSA for symbolic analysis (reply to 181451)
+
+testertesterov: With fuzzy, you'll have to write automated tests manually. This is necessary, but in this case, there is a risk of missing an important scenario. Moreover, many people here generate tests using AI, and it can also miss important tests.  I tried to find a reliable TSA, but found nothing. (reply to 181452)
+
+testertesterov: I think developers need a comprehensive set of tools for testing smart contracts recommended by TON Core and Telegram.  For example: Misti TSA (TONSEC) Fuzzing Property tests Review External audit  Misti and TSA currently look like third-party solutions rather than native ones from TON Core and Telegram.
+
+testertesterov: But I think the most important step in this process is access to the most modern AI models. Preferably to many and upload the smart contract code entirely for testing. I think many hackers do this now and because of this, irreparable errors in commands occur more and more often.
+
+testertesterov: I went further and loaded the entire Tolk code into the AI context. I found several concerning points that need to be checked. They could lead to unstable compiler operation, memory leaks, and incorrect Fift-code generation.
