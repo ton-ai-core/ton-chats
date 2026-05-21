@@ -1963,3 +1963,53 @@ testertesterov: I think developers need a comprehensive set of tools for testing
 testertesterov: But I think the most important step in this process is access to the most modern AI models. Preferably to many and upload the smart contract code entirely for testing. I think many hackers do this now and because of this, irreparable errors in commands occur more and more often.
 
 testertesterov: I went further and loaded the entire Tolk code into the AI context. I found several concerning points that need to be checked. They could lead to unstable compiler operation, memory leaks, and incorrect Fift-code generation.
+
+&rey: You reported the issues, I hope? (reply to 181464)
+
+xylica: he will ask claude to submit a PR with 100K line changes, lgtm (reply to 181482)
+
+testertesterov: Yes. I wrote some points that were discovered. Next, they will be able to write several auto-tests using AI and see the problem. (reply to 181482)
+
+testertesterov: Can anyone tell me why the Tolk language was included in the main ton-blockchain/ton repository?  It's really inconvenient to write bug reports. You always have to specify in the title that it's about the new programming language Tolk and that to download it, you need to download the entire blockchain branch.
+
+7eo: Two more primitives from Titon are live on TON mainnet:  Themis — sealed-bid auctions and MEV-resistant intents. Bids are encrypted with a BLS key and revealed via threshold-decryption.  Phoebe — verifiable on-chain prices. BLS-signed Merkle snapshots every ~30s, 256 feeds, one proof per read.  SDKs on npm and PyPI.  Now we have everything we need to build great and sophisticated projects on TON. (reply to 180498)
+
+Shahboz: Hey everyone, I have a question about a project I'm working on. I'm building a swap system where sending an NFT gives you TON, and sending TON gives you an NFT. Originally, I wanted to handle everything through a single smart contract address that would just return the swapped asset  When I asked some AIs if a single address would get bottlenecked or congested with a high volume of transactions, they suggested using a Router and Vault architecture instead. In this setup, the transfer goes to a Router, which forwards it to a specific vault based on the NFT collection, and then the vault handles sending the asset back to the user   My question is: is this Router/Vault setup the best approach for this, or is there a better/more efficient solution
+
+MonoBit: For a single NFT collection: One contract is enough. TON's actor model means each contract has its own isolated state and message queue — there's no global bottleneck like on Ethereum. However, a single contract still processes one message at a time, so under extreme volume messages will queue. For a typical swap system this is not a real problem in practice.  For multiple collections: Deploy one contract per collection. This is the idiomatic TON approach (same pattern used by Jettons and NFT standards) and gives you true parallelism since different contracts process messages independently and simultaneously.  The Router/Vault architecture the AIs suggested is EVM thinking applied to TON — it's overkill for a single collection and adds unnecessary complexity I think.  These are my thoughts — would love for any TON experts here to correct or add to this. (reply to 181505)
+
+Shahboz: That makes sense, but I specifically need a system that handles 10-20 different NFT collections through a single address. Users must send everything to just one address, not 20 separate ones (reply to 181506)
+
+MonoBit: In that case the Router/Vault pattern is actually the right approach for your requirements. You have one Router contract as the single entry point — users always send to that one address. The Router identifies which collection the NFT belongs to and forwards to the corresponding per-collection Vault (you can keep NFT there in the router and manage it through proxy messages or even sending it to the corresponding Vault), which holds the liquidity and handles sending back TON or the NFT. (reply to 181507)
+
+Timmy Dipshit: whats the scale limit for this design? like if you were to make opensea in ton, does that scale up to thousands of collections possibly? (reply to 181508)
+
+MonoBit: The design scales to thousands of collections, but only if the Router is stateless — meaning it doesn't store a mapping of collection → vault addresses.  If the Router holds a lookup dictionary that grows with every new collection, you'll hit real limits: storage rent gets expensive, and reading/writing a large dictionary on every incoming message slows things down. On top of that, all traffic still passes through the one Router contract, which processes one message at a time (reply to 181509)
+
+MonoBit: The way to avoid this is the same pattern TON's own Jetton and NFT standards use: make each Vault's address deterministically derivable from the collection address. The Router just computes the destination vault address on the fly using the collection address as a seed, routes the message, and touches zero storage. No dictionary, no lookup, no scaling ceiling (reply to 181510)
+
+&rey: Won't Vault presence double the transactions count and complexity for no gain? (reply to 181505)
+
+&rey: There is a consideration that contract'd better know what NFTs it owns, though.
+
+Shahboz: I have another question I also need to implement the reverse flow: when a user sends TON the contract needs to send them an NFT If I use the Router/Vault setup, is it cheaper to send the NFTs back randomly or sequentially (reply to 181513)
+
+&rey: There won't be a sequence of NFTs stored anywhere. (reply to 181514)
+
+Ekaterina: TSA provides several standard security checkers. Right now, it is available only as a Blueprint plugin, but I hope we will integrate with Acton in the future. There are tutorials on each checker. They can be run with just one command, no need for any manual work.  Also, there is an agent skill that works with TSA. There was a blog post about it in TON Dev channel not long ago. It can perform some more complicated checks then the ones from the plugin. But the quality heavily relies on your LLM (reply to 181453)
+
+&rey: (said post is also here as https://t.me/tondev_eng/179442)
+
+— 2026-05-21 —
+
+testertesterov: Yes. We have old LLMs. Smart contract hackers use new LLMs. I think mostly it depends on the LLM. The rest is adaptation to specific TON tasks. (reply to 181523)
+
+Petr: Why? Everyone has access to the latest OpenAI models (reply to 181532)
+
+testertesterov: Deep analysis using the latest models is very expensive, and not all models are available to us. Some models are hidden. OpenAI has even made the context in the browser very small. For the most part, they want to monetize their models, and the quality is so-so. (reply to 181533)
+
+testertesterov: In terms of freedom and better quality, Chinese models are not bad and they have more accessible monetization through API, but they still give us old models. In turn, hackers get the newest ones.
+
+testertesterov: How the Chinese managed to crash the market with their release. Just beautiful. I'm talking about the release of DeepSeek. By the way, I often use it for development in TON. (reply to 181535)
+
+testertesterov: Recently, I wanted to buy the most modern graphics card on the market, but then realized that Telegram servers are ideal for running the DeepSeek API. In fact, for large volumes, clusters of modern graphics cards are already needed. Possibly several.  But as I see it, Telegram is only willing to sponsor hackers, while smart contract developers will have to pay.
