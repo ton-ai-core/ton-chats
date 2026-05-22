@@ -2013,3 +2013,75 @@ testertesterov: In terms of freedom and better quality, Chinese models are not b
 testertesterov: How the Chinese managed to crash the market with their release. Just beautiful. I'm talking about the release of DeepSeek. By the way, I often use it for development in TON. (reply to 181535)
 
 testertesterov: Recently, I wanted to buy the most modern graphics card on the market, but then realized that Telegram servers are ideal for running the DeepSeek API. In fact, for large volumes, clusters of modern graphics cards are already needed. Possibly several.  But as I see it, Telegram is only willing to sponsor hackers, while smart contract developers will have to pay.
+
+&rey: Never saw Cocoon price some requests higher than other ones; it wouldn't even make sense because sc audit is effectively the same as finding vulnerabilities.  As a moderator caring about truth of what is said in chat, I request that you bring some evidence along your messages rather than just going off vibes. (reply to 181539)
+
+testertesterov: This is my personal experience and my research. If you write a smart contract on TON and hackers will find the best AI audit, losses may occur to the author of the smart contract. (reply to 181555)
+
+testertesterov: I respect Telegram and TON. The activity in them is more interesting than in all other applications in the world.
+
+testertesterov: Actually, hackers are the evolution of ordinary developers in TON. They can do real, useful things because they are not afraid to experiment with technologies.
+
+hellohi: i have a question about bidding on expired ton dns domains, how does it works? how can a guy like me who knows nothing about it do it
+
+hellohi: i just found the way to do it, but i have no idea how to do it, can anyone help please? can someone show? (reply to 181561)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Certain marketplaces offer this option to start the auction of an expired TON DNS (reply to 181561)
+
+hellohi: which one can i use? please and thank you (reply to 181564)
+
+testertesterov: Yes. This AI model aggregator has appeared, but so far there is little benefit from it. We still cannot connect to Cocoon through our favorite IDE and use the models for free. Instead, we were given an acton that is mostly nothing interesting. (reply to 181555)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: webdom market, and probably getgems (reply to 181565)
+
+hellohi: hanks alot (reply to 181567)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Cocoon run a local client that exposes an OpenAI API on 127.0.0.1, same as Ollama etc, any IDE that accept a custom OpenAi base URL can point at it like VScode cursor etc  « Use the model for free »  Cocoon isn’t free, so yes (reply to 181566)
+
+testertesterov: Yes. In the case of Cocoon, local deployment is not easy. If you connect OpenAI models locally, what is the point when there is Ollama and other similar aggregators with simpler deployment?  Every developer wanted something slightly different. Telegram deploys many large models on its own servers, and we start accessing them via API and connect to them calmly through IDEs. Moreover, all this is quite inexpensive. For example, 1500 Stars per month per developer, but the cheaper the better. (reply to 181570)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Deploying Cocoon locally is not hard and only takes 2/3 minutes and 15 TON minimum   I made a Cocoon client in Go, you should give it a try!   https://github.com/TONresistor/gocoon (reply to 181571)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: What if Telegram integrate Cocoon into Bot Father in the future ? (reply to 181571)
+
+testertesterov: Yes. That's cool. Good work, but I'd like a more global Telegram solution that can be installed as an extension in an IDE. (reply to 181572)
+
+testertesterov: Another feature that 1.5 RoboCop will be able to use :) We need something large-scale. (reply to 181573)
+
+testertesterov: I will ask the AI model to rewrite this module in TypeScript and integrate it at the TON AI Core plugin level, but testing will likely encounter difficulties. Is Toncoin needed to start? (reply to 181572)
+
+testertesterov: How much Toncoin do you think this interface will consume per hour if it unloads the entire Tolk code for analysis several times? For example, 50 times, and possibly analyzing separate code fragments. (reply to 181572)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: 0.02TON / 1M tok  Thinking mode is x8.0* (reply to 181591)
+
+testertesterov: It turns out to be at least 3-5 dollars per hour at my pace and volume of AI analysis uploads. This is if I spend half an hour watching movies on TV and don't particularly stress the AI. (reply to 181594)
+
+testertesterov: Imagine what would happen if you connect an agent mode to this interface. I think it would be much better to give democratic 1500 Stars per month, if possible, and use it without limits.
+
+testertesterov: But overall, compared to most 0.02 TON/1M tok, it's cheap, but if you use AI at my pace, it's still quite expensive.
+
+testertesterov: I looked at your other work. Tonnet-Browser is impressive. Is there any chromium in it?  I wanted to play a Counter Strike in it. (reply to 181594)
+
+&rey: Inference still costs non-negligible amount of money, in electricity and unit replacements.  Though this proposal would cut another benefit of Cocoon; it's pseudonymous because it operates over blockchain itself, not requiring identification via Telegram account. (reply to 181598)
+
+ㅤ: But you can't run own model, that's pretty sad.
+
+ㅤ: you can put only 250 addresses to send payment? is it cheaper to send from highload wallet? much cheaper?
+
+&rey: It depends; probably no. (reply to 181633)
+
+&rey: One transaction can send at most 256 messages, yes. (reply to 181633)
+
+Ruby: Just today I invested a bunch of time to get the c++ client running on my Mac, your GO implementation looks great, thanks! (reply to 181572)
+
+Ruby: do you already plan for strict TDX/RA-TLS quote validation? (reply to 181572)
+
+Slava: Are we talking about sending 1 message or 255? :) (reply to 181634)
+
+Slava: 255 or 254 when it comes to highload v3 to be precise (1 message is used to ensure replay protection). (reply to 181635)
+
+— 2026-05-22 —
+
+testertesterov: Yes, but I think we are being misled about paid access to the AI API. Some large models run in the browser with huge context and without any charge for it. (reply to 181622)
+
+testertesterov: They are currently trying to confuse with Cocoon using some private computations and know that what we want first and foremost is free access to the AI API, with privacy being second for users. And I think the rest will help little because in the layers above privacy, Cocoon also has many non-private places.

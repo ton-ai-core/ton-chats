@@ -12623,3 +12623,5 @@ TradeToEarn: Hi guys any English devs here?
 — 2026-05-21 —
 
 Eternal: https://t.me/devs (reply to 126695)
+
+Selling: 好久没回来， 兄弟们还在 ton 链上么
