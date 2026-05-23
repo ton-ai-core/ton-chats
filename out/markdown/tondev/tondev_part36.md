@@ -6705,3 +6705,17 @@ K🆓³³: Соскамился? (reply to 349962)
 Mirka: Поиск в официальной доке по слову "sbt" https://docs.ton.org/blockchain-basics/standard/tokens/nft/sbt (reply to 350020)
 
 &rey: Вся история лежит в гите, если вдруг чего-то не ищется в самой новой версии. Репа 1: https://github.com/ton-community/ton-docs/ Репа 2: https://github.com/ton-org/docs/  (они разные) (reply to 350020)
+
+— 2026-05-22 —
+
+mnemotiv: toncenter - v2 jsonRPC  rejected due to API key settings  кому известно решение? на ключе нету IPs/origins
+
+mnemotiv: просто пересоздал ключ (reply to 350089)
+
+cycloneflare: >  https://docs.ton.org/applications/api/toncenter/v2-authentication?utm_source (reply to 350089)
+
+mnemotiv: спасибо, но проблема была в том что тонцентер после изменении настройки на ключ - минут 5-10 не видел этих изменении (reply to 350091)
+
+cycloneflare: Еще вот, можно глянуть.возможно, понадобится в скором времени. Смотря в зависимости от типа проблемы https://docs.ton.org/applications/api/toncenter/v2/rpc/json-rpc-endpoint?utm_source
+
+mnemotiv: спасибо но при использовании либ этого не надо (reply to 350093)

@@ -2085,3 +2085,81 @@ Slava: 255 or 254 when it comes to highload v3 to be precise (1 message is used 
 testertesterov: Yes, but I think we are being misled about paid access to the AI API. Some large models run in the browser with huge context and without any charge for it. (reply to 181622)
 
 testertesterov: They are currently trying to confuse with Cocoon using some private computations and know that what we want first and foremost is free access to the AI API, with privacy being second for users. And I think the rest will help little because in the layers above privacy, Cocoon also has many non-private places.
+
+Slava: Hello, this chat is about TON development. If you have some ideas or proposals regarding the TON, feel free to share. (reply to 181672)
+
+Mohamed: Integrate stickers to telegram  Bring attributes to stickers of big brands like shib or penguin or bayc or moonbirds (reply to 181673)
+
+神也自卑: The combination of Web2 and Web3 can create a more perfect Telegram ecosystem. (reply to 181673)
+
+M: MTONGA
+
+testertesterov: They did it about 2 years ago, but then one of the days it went badly and the ecosystem of clickers and games began to collapse over the course of a couple of years. Now we need an excellent AI at democratic prices. (reply to 181683)
+
+Dmitry: Electricity and hardware aren't free (reply to 181691)
+
+— 2026-05-23 —
+
+testertesterov: They have already started deleting my messages about technologies in TON and AI. I think this is just an excuse. In reality, there is a lot of equipment. The thing is, even animated gifts are expensive, so imagine the temptation of selling API access to AI.  But in my opinion, Telegram was too late with AI. This should have been launched at least 5 years ago when models were still generating programs very poorly.  Now it will be much harder for them to conquer the AI aggregator market. Moreover, privacy alone won't attract many users; they need an accessible AI API and a browser window where large contexts can be entered.  The idea of using AI for Toncoin could also fail because many people do not want to get involved with cryptocurrencies. I think Stars would suit them. (reply to 181692)
+
+JANAINA: Understood (reply to 181740)
+
+神也自卑: No, it's not specifically about the game. (reply to 181691)
+
+神也自卑: Rather, it can change the entire ecosystem.
+
+神也自卑: If the entire Web2 and Web3 application ecosystem can be fully adapted to people's lives and developed into an essential product, it could even potentially become the number one social networking app globally.
+
+神也自卑: Although you may feel I'm exaggerating, as long as you take it seriously and dedicate yourself to making this happen, the result will be as I described.
+
+testertesterov: Yes, but web2+web3 tried. Users do not want to pay for every click in games and many simply lost their tokens and times :) Then marketing deteriorated and the web2+web3 ecosystem could not handle this, and many excellent projects simply shut down. (reply to 181751)
+
+神也自卑: No (reply to 181755)
+
+神也自卑: I need to be contacted by an official representative so I can send them the entire project proposal for reference and to see if it's feasible.
+
+testertesterov: Recently, the excellent project Cattea was closed and they only left Catrix, but Catrix is very boring compared to Cattea. There is a risk that the user simply deleted the game after this and didn't play anything. (reply to 181756)
+
+神也自卑: Why develop games? My project isn't a game, but rather an ecosystem of applications that are convenient, secure, and compatible with everyone.
+
+testertesterov: We already have one Notcoin. Which has an ecosystem, but something isn't working. Users simply withdrew capitalization and did not want to continue. (reply to 181760)
+
+NODog police: Son off anton bot ??
+
+NODog police: How does it develop?
+
+Александр: I'm not an official representative, but I found an email for you that you could find yourself, if desired, from the site ton.org  If your offer is really worthwhile, go ahead: contact@ton.org (reply to 181757)
+
+testertesterov: Developing bridges similar to TAC is quite risky. I think for such development, you need money in reserve just in case. Because as practice shows, software code is not perfect and it is easy to make a typo.
+
+S: Bruh, are web3 apps dead on TON?
+
+testertesterov: Some are still trying to attract players, but I am currently playing only in Gram.Zone.
+
+S: Which one is that? (reply to 181772)
+
+testertesterov: In gramzone, you play as a ball that you can move around the map to collect tokens that drop on the map at intervals. There are lucky hours when more tokens drop, meaning you immediately secure them as soon as you collect the required amount. You can play without any investment. (reply to 181775)
+
+S: That isnt enough. It seems like the hyoe around mini apps has died
+
+testertesterov: Yes. The user prefers to spend more time watching movies on TV than playing games on TON. (reply to 181778)
+
+S: :( (reply to 181779)
+
+testertesterov: It's a pity that the Telegram and TON Core teams still haven't delivered us a worthy native TelegramTV on TON. Instead, we are being fed updates for Telegram on Apple Watch and the integration of TON into WhatsApp. (reply to 181780)
+
+S: Mmm. TON integration into whatsapp? Haven't heard of that (reply to 181781)
+
+testertesterov: Yes. There was news about this recently. Some clever people integrated the TON wallet into WhatsApp :) (reply to 181782)
+
+testertesterov: Probably this was done to show Zuckerberg that his development team is nothing and TON was integrated into WhatsApp faster than USDT.
+
+S: What is TON doing in whatsapp?
+
+testertesterov: I think it doesn't matter to them where to get the audience from, and WhatsApp really has a huge audience. I think it's what's needed, but it's unlikely that users will actively use it on WhatsApp. (reply to 181785)
+
+S: That lowk sounds sad :( (reply to 181787)
+
+testertesterov: Yes. It's all due to mistakes in marketing, while the web2+web3 ecosystem was deployed decently. The developers at TON performed at 100%. (reply to 181789)
+
+S: Mhmm
