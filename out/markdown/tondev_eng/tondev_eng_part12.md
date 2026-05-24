@@ -2163,3 +2163,11 @@ S: That lowk sounds sad :( (reply to 181787)
 testertesterov: Yes. It's all due to mistakes in marketing, while the web2+web3 ecosystem was deployed decently. The developers at TON performed at 100%. (reply to 181789)
 
 S: Mhmm
+
+Grumpy: Hi, Just joined the chat after getting my Mini App approved. Are there any rules or guidelines I should be aware of before asking questions? Thanks!
+
+testertesterov: The main thing is not to insult Telegram and TON. (reply to 181841)
+
+&rey: That this chat is not about TMAs (@devs is) but about development on TON. (reply to 181841)
+
+Grumpy: Ok thanks, I'll go over there (reply to 181843)
