@@ -2239,3 +2239,15 @@ Rivol: Fair point actually, the early supply concentration did create the condit
 叶师傅: Token concentration isn't just the seed — it's why no challenger ever grows, since every builder is just working to pump someone else's bag. (reply to 181950)
 
 叶师傅: Honestly, it's easier to just view the whole thing as a centralized product built on blockchain rails.
+
+Slava: While the discussion and opinions shared here are certainly valuable, I would like to remind everyone that this chat is dedicated to technical issues related to development on TON. This chat is not intended for discussions about governance or policy. I encourage everyone to continue the conversation in a more appropriate chat. Thank you for understanding.
+
+Rivol: Slava, with respect - I understand the chat is meant for technical discussions, and I would normally agree that governance topics belong elsewhere. The reason it came up here at all is that the discussion was directly about the technical environment developers on this chain operate in: who maintains the documentation, who ships the recommended SDKs, who controls the official site that points new builders to which tools. Those are technical concerns by definition, even if the underlying causes touch governance. I am not trying to make this a political thread, I am trying to surface questions that affect every builder reading this chat.  That said, you mention a more appropriate place to continue the conversation, and I would genuinely like to know where that is. The Russian-language TON dev chat banned me earlier for a much milder tech message and has not unbanned me. The other official TON chats have been inaccessible for the past four days. This English dev chat was effectively the only remaining official channel where this kind of factual discussion could happen. If there is another official forum where these questions can be raised in front of the same audience of builders and Foundation/TOP representatives, I am happy to move there. If there is not one, then I think the question itself becomes the technical concern - because "the recommended channel is unavailable" is a developer experience problem in the most literal sense.  I am not arguing with the moderation decision. I am asking where the discussion can continue, given the current state of the official communication surfaces. (reply to 181994)
+
+Jon: In fact, there isn't much innovation left in public blockchains. The main focus now is on how to truly enable users to use them. TON's main supporter and application scenario is Telegram; if it were truly separated from Telegram, it wouldn't be very competitive. Just like BNB users know that Binance is the absolute dominant force behind BNB, and it can't function without Binance's support. (reply to 181997)
+
+Boka: Hey guys, super quick question. I can't find the changelog for the latest versions of @ton/ton on npm. Were there any breaking changes between v15 and v16?
+
+Tim: Only for sending messages with wallet w5 (reply to 182020)
+
+Butcher: anyone interrated these to their projects? (reply to 179953)
