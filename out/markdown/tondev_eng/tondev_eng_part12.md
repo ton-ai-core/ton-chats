@@ -2251,3 +2251,63 @@ Boka: Hey guys, super quick question. I can't find the changelog for the latest 
 Tim: Only for sending messages with wallet w5 (reply to 182020)
 
 Butcher: anyone interrated these to their projects? (reply to 179953)
+
+— 2026-05-26 —
+
+Rafael: Has the Telegram Wallet for Windows been discontinued completely? There are still old pages on the website, but it looks like the link to the Windows version has disappeared there too. Is it no longer supported?  If it's still supported, could you bring back the link to it? An official, simple wallet for Windows seems like an important thing to have.
+
+xylica: why do you need it? tonkeeper has a windows version (reply to 182049)
+
+Rafael: tonkeeper is unofficial
+
+xylica: tonkeeper is "unofficial" on paper, yeah, if you're that paranoid just write your own code and create your own wallet (reply to 182054)
+
+Rafael: Why would I write something again when it’s already been written? I just want to know the status of the official wallet, that’s all. (reply to 182055)
+
+xylica: https://github.com/ton-blockchain/ton-wallet https://github.com/ton-blockchain/wallet-desktop (still working iirc) (reply to 182056)
+
+Rafael: Thanks, the project seems to be abandoned, and tonkeeper doesn't have a Windows version according to the official website. (reply to 182057)
+
+Anton: we have a win version.
+
+Anton: https://github.com/tonkeeper/tonkeeper-web/tags
+
+Rafael: It seems there are none, only extensions or web https://tonkeeper.com/ (reply to 182059)
+
+Anton: https://tonkeeper.com/pro
+
+Rafael: Exactly, thanks (reply to 182062)
+
+jizzy019: tonkeeper is tonkeeper, not sure there is anytjing like unofficial. (reply to 182056)
+
+jizzy019: I still updated my tonkeeper on windows few days ago. check the github tonkeeper releases, you will see it there. (reply to 182058)
+
+EnCryptoknight ⚔️: it's a monorepo. a dev should understand why. (reply to 181485)
+
+Petr: Tolk compiler heavily depends on other TON-monorepo code (reply to 181485)
+
+testertesterov: Yes. I understand :) Now, to export the Tolk language code, we need to export the entire blockchain code. (reply to 182078)
+
+Petr: In the future, Tolk compiler will be in a separate repo, but some technical changes to the backend required first (reply to 182080)
+
+EnCryptoknight ⚔️: not really it depends on what the tolk lang is depending on (reply to 182080)
+
+EnCryptoknight ⚔️: If it depends on the core of any config, then those libs need to be exposed one way or the other.
+
+testertesterov: It has long been located and FunC :) I think we will also dump all languages and the blockchain code block at once in the future. The current temporary location of languages has long looked like a permanent function. (reply to 182081)
+
+testertesterov: The Fift language is located in the crypto/fift folder of the TON blockchain?
+
+🌋Prô: How to start please need help
+
+testertesterov: TON is a huge monolith. In its repository, there are already at least 3 programming languages for smart contracts.
+
+🌋Prô: Ok (reply to 182094)
+
+Noel: Hey Audrey im a long time builder in the space and would love to learn more about what you guys have/havnt built and how I could potentially help (reply to 180007)
+
+— 2026-05-27 —
+
+Иво: I wanted to buy an NFT via Telegram. I sent someone an offer with my price, but they rejected it. I haven't received my money back for 2-3 hours. The transfer was made to Fragment. Can you advise me on what to do in this situation?
+
+Sviatoslav: docs ton org - welcome -) (reply to 182093)
