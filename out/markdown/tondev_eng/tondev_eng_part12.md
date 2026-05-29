@@ -2311,3 +2311,19 @@ Noel: Hey Audrey im a long time builder in the space and would love to learn mor
 Иво: I wanted to buy an NFT via Telegram. I sent someone an offer with my price, but they rejected it. I haven't received my money back for 2-3 hours. The transfer was made to Fragment. Can you advise me on what to do in this situation?
 
 Sviatoslav: docs ton org - welcome -) (reply to 182093)
+
+ashe: How to retrieve jettons and nft from a connected wallet, asking directly to the wallet and not to the toncenter api?
+
+&rey: It doesn't offer such an endpoint. (reply to 182116)
+
+Bro: A connected TON wallet via TON Connect basically gives you the user’s wallet address and lets you request signatures / transactions. It is not an asset indexer, and there is no standard getJettons() or getNFTs() method you can call directly on the wallet. (reply to 182116)
+
+jizzy019: how?  do you directly deal with others when on fragment? (reply to 182100)
+
+Zerox: is there anyone looking for a blockchain & AI engineer?
+
+Timmy Dipshit: does anyone know companies or people funding ton projects?
+
+— 2026-05-28 —
+
+Warden: Hi, how long does it usually take for the security team to review a GitHub security advisory for ton-blockchain/ton?

@@ -12655,3 +12655,21 @@ Unknown: 重新整理一下權限管理嘍
 Unknown: 說是廣告 不如說是詐騙 哈 (reply to 127414)
 
 平静 @bgbg🌈看东南亚实时新闻: 权限重新设了之后 清净多了
+
+— 2026-05-28 —
+
+TON Dev (中文): 來呀 投票呀
+
+TON Dev (中文): Three weeks deep into MTONGA. AI stocks printing. Hyperliquid eating perps volume from every centralized venue. And summer started.  The market is forcing everyone to choose where to spend their attention.  Real question below 👇 Anonymous. Pick one. (forwarded from Dr. Doge 🐶 Field Notes from 2013)
+
+宽容-@bgbg-实时新闻💖: 群管现在比谁都紧张 说话注意点
+
+— 2026-05-29 —
+
+zhang: 杜罗夫下面4 步到底是啥，怎么人也没动静了
+
+zhang: 天天跌，什么时候是个头啊
+
+宽容-@bgbg-实时新闻💖: 这行情 等杜罗夫放话吧 📉
+
+封棠澜: 适合上​班族的⁠自动化搞u
