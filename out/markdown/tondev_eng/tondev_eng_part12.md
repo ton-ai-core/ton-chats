@@ -2327,3 +2327,15 @@ Timmy Dipshit: does anyone know companies or people funding ton projects?
 — 2026-05-28 —
 
 Warden: Hi, how long does it usually take for the security team to review a GitHub security advisory for ton-blockchain/ton?
+
+— 2026-05-29 —
+
+R.I.P: Why can't I "make an offer" on Fragment for usernames ending with "bot"?
+
+Miriam: Hi guys, I'm using the tonutils-proxy proxy software (127.0.0.1:8080) locally, and I can access http://botservice.ton/ normally. Then, I turn off the local proxy and access https://botservice.ton.run/ using ton.run,and it still works. However, I can't access tonsite://botservice.ton using the browser built into Telegram. Could you please help me troubleshoot the problem? Although my site can be accessed normally from ton.run, I still want to know why it can't be opened in Telegram's WebView. It always shows *.dton.magic.org in the WebView window. Did I miss any configuration? visit : tonsite://botservice.ton/ Resp:  botservice-dton.magic.org HTTP ERROR 502
+
+&rey: Because that is the gateway official Telegram clients use. (reply to 182193)
+
+Miriam: Thanks bro， How can I access it through the built-in browser in Telegram? (reply to 182195)
+
+Miriam: Even have no received any traffic/ucpdumps infos from built-in browser in telegram apps..
