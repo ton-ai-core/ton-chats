@@ -2339,3 +2339,31 @@ Miriam: Hi guys, I'm using the tonutils-proxy proxy software (127.0.0.1:8080) lo
 Miriam: Thanks bro， How can I access it through the built-in browser in Telegram? (reply to 182195)
 
 Miriam: Even have no received any traffic/ucpdumps infos from built-in browser in telegram apps..
+
+— 2026-05-30 —
+
+Insomniac: Hi  Hey — I'm building a TON wallet app (similar to Tonkeeper) using @ton/ton, and was testing the swap feature. I didn't realize my test wallet's balance was lower than the swap amount, so several swap txs failed in the action phase (exit code 37) — they got included on-chain as aborted txs, so the seqno never advanced.  Now that v3R2 wallet is stuck: every external message is rejected with cannot apply external message to current state : Duplicate msg_seqno N — same across toncenter, tonapi, and direct ADNL to public lite-servers (valid_until up to 5 min). One detail that surprised me: when I broadcast the raw BOC via liteServer.sendMessage directly, it returns status: 1 (accepted), but the message never gets collated — only toncenter surfaces the Duplicate msg_seqno reason up front. So it looks like the validators themselves drop it, not a gateway. The wallet's been untouched 7+ hours and still errors on the first broadcast. Incoming transfers work fine.  Is this a known seqno-stuck deadlock? How can the wallet advance its seqno if no external ever gets collated — does the duplicate state clear on its own, and roughly after how long?
+
+Slava: How do you set seqno for your external message? (reply to 182212)
+
+Insomniac: I read it live from the wallet's seqno get-method right before each send — it returns 0 (it's never advanced, since every tx reverted). Then I pass that into @ton/ton's wallet.createTransfer({ seqno: 0, secretKey, sendMode, timeout, messages }), which builds the external body with msg_seqno = 0, and I broadcast it as an external-in message to the wallet address. So the external's seqno always matches the wallet's stored seqno (both 0).  The contract's own recv_external seqno check passes — the failed swaps reached the action phase (exit 37), which means compute/seqno/signature all passed. So it's not a wrong-seqno or contract rejection; the Duplicate msg_seqno 0 comes from the validator at collation, not from the wallet.
+
+Insomniac: And by several swap transactions failing i mean like 8-10 or so
+
+Insomniac: After that the wallet basically stopped working its seems.
+
+Insomniac: So now i try sending 1 ton from tonkeeper from v3r2 wallet and i can't do that. The transaction appears for some seconds in history then disappears. Same with tonviewer if i view same wallet there. Feels like a lock out
+
+Insomniac: Another question Did i lose my funds? I mean i can see them but cant send. Only receive.  Other v3r2 wallets i have checked/tested work fine from same app.
+
+Insomniac: Anyone there? Also one more thing i noticed One more detail: the wallet was uninitialized, and the very first external both deployed it (StateInit) and failed in the action phase (exit 37) — so the contract was effectively born from an aborted deploy transaction. It's now active with valid code/data, but the seqno never left 0. Could deploying a wallet via an aborted external leave its seqno/replay state in a bad spot on the validator side?
+
+I’m here: Where is the new step?
+
+Insomniac: As i tried explaining above, i was trying multiple things with the app thingy am trying to build, v3r2 is still valid even in tonkeeper no? and yes I messed up but this doesn't help the question of the lock or if my funds are lost or not
+
+Slava: A single accepted transaction is enough to deploy the contract, which happened in your case. (reply to 182220)
+
+Slava: What exact error do you have right now?
+
+Slava: So, the problem stemmed from a rare set of circumstances: the first accepted transaction failed in the action phase. The seqno counter wasn't incremented and remained at its initial value of zero. The external message itself retained (due to the seqno optimization in the recent updates) in the sending queue by the lite-servers and probably collators with ridiculously high TTL: 80 years (due to a weird implementation in the ton library).  We are working with the developer to help recover their wallets and funds. The library will be fixed.
