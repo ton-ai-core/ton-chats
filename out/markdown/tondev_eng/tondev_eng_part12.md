@@ -2367,3 +2367,63 @@ Slava: A single accepted transaction is enough to deploy the contract, which hap
 Slava: What exact error do you have right now?
 
 Slava: So, the problem stemmed from a rare set of circumstances: the first accepted transaction failed in the action phase. The seqno counter wasn't incremented and remained at its initial value of zero. The external message itself retained (due to the seqno optimization in the recent updates) in the sending queue by the lite-servers and probably collators with ridiculously high TTL: 80 years (due to a weird implementation in the ton library).  We are working with the developer to help recover their wallets and funds. The library will be fixed.
+
+— 2026-05-31 —
+
+ashe: Hello, i'm unable to understand how to send jettons, tons, and nfts and how to track transfer status. The docs are confusing for me: AppKit, TonPay, TonConnect, too much ways to do one thing.  I need to send and track:  - Ton, Jettons, Nft transfer - Both ways: Custodial and Non Custodial (TonConnect)  how?
+
+TON Support: You can send Jettons, TON, and NFTs using WalletKit, which supports both custodial and non-custodial (TonConnect) methods.  To track the status of Jetton transfers, use getTransactionStatus(appKit, { boc }). You should inspect onchainMessages, pendingMessages, and totalMessages to track progress, and consider the transfer complete only when status === 'completed'.  Source: [Send jettons — TON Docs](https://docs.ton.org/applications/appkit/howto/send-jettons#:~:text=Confirm (reply to 182323)
+
+ashe: And I need to do it in backend, no UI.
+
+TON Support: While the previous response mentioned WalletKit, which supports both custodial and non-custodial methods, the documentation primarily focuses on client-side usage with UI components like <SendJettonButton /> or useTonConnectUI() for dApps.  For backend...  operations without a UI, you would typically interact with the TON blockchain directly using SDKs or APIs that don't rely on UI elements for user interaction (like TonConnect pop-ups).  The provided snippets for Jettons, TON, and NFTs with WalletKit show how to createTransferTonTransaction, createTransferJettonTransaction, and createTransferNFTTransaction, and then sendTransaction. While these methods are part of WalletKit, which can be used in a backend context, the examples often involve a wallet for signing.  For backend operations, you will need to consider how to handle private keys and transaction signing securely, as WalletKit's non-custodial options (like TonConnect) are designed for user interaction and approval. Custodial solutions in the backend would involve managing keys directly.  To track transaction status in the backend, you would still use getTransactionStatus(appKit, { boc }) and monitor onchainMessages, pendingMessages, and totalMessages until status === 'completed'. You should also track the transaction with streaming and verify the recipient's balance before delivering value.  Keep in mind that WalletKit also mentions: "Jetton transactions can be created directly from the wallet service (not from dApps) and fed into the regular approval flow via the handleNewTransaction() method of the WalletKit." This suggests that even for transactions initiated from a wallet service in the backend, an "approval flow" might still be involved, which could imply some form of interaction or pre-approval mechanism.  Source: [How to work with Jettons using WalletKit on the Web platform — TON Docs](https://docs.ton.org/applications/walletkit/web/jettons#:~:text=See (reply to 182325)
+
+ashe: Still can't understand.  How to send and trace custodial transactions?  How to send and trace non custodial transactions?
+
+WB3，dapp，智能合约，链游，一手开发: Is there a manager around? Why is the testnet unavailable?
+
+WB3，dapp，智能合约，链游，一手开发: I cannot test normally. Can the management fix it as soon as possible?
+
+&rey: Backend language? TS, Python, Go or another? (reply to 182325)
+
+ashe: I prefer python, but all the docs.ton.org is in Typescript so typescript. (reply to 182333)
+
+&rey: https://github.com/yungwine/pytoniq had some examples for sending txs. Tracking if it was sent successfully is a tad bit more complex. Tracking what you receive is a bit simpler. (reply to 182334)
+
+ashe: i know pitoniq, but since mtonga and all of this, we have TonPay, AppKit, WalletKit, TonConnect, etc..  I want to use a ready up solution but docs are confusings. (reply to 182335)
+
+ashe: more, liteserver costs are higher than api costs so using pytoniq it's not feasible. (reply to 182336)
+
+&rey: when using public liteservers, zero. (reply to 182338)
+
+ashe: Ok but that's not the question, answer that please. Public liteservers are slow and sometimes doesn't work they are not production ready.  The question is about the mess: TonPay, AppKit, WalletKit, TonConnect.  I repeat the question:  How to send and trace custodial transactions?  How to send and trace non custodial transactions?  Using the tools advised by docs.ton.org in a coherent way. Backend, no react. (reply to 182340)
+
+Butcher: How can I get nft collection listed in /nft native to telegram
+
+𝗖𝗔𝗟𝗠: Just block this guy (reply to 182350)
+
+Alex: Are you want to send coins from your wallet, or you want to make message, send it to user to sign it, and send it to network? If you just want to send from your wallet, then you don't need TonPay, TonConnect. You can use tonutils for example. For tracking transaction you can use web hooks from ton api https://docs.tonconsole.com/tonapi/webhooks-api (reply to 182342)
+
+ashe: Ok but in ton sending jettons, tons and nfts involves more than one transaction. It's a trace, a process, no?  I'm searching a way to have a sort of tracking code, polling with it and get the status of whole process.  For jettons and nfts too (reply to 182385)
+
+Slava: Just watch the source account for assets withdrawal and final destination account for arrival. This should be enough. Fetching an entire transaction tree would be helpful. (reply to 182387)
+
+ashe: So, the old way.   I was expecting some sort of ready to use utils given by WalletKit or AppKit. (reply to 182388)
+
+Slava: Don't know about them. Try reading their docs. (reply to 182393)
+
+Александр: Hello everyone  I am studying how the TON Center API is structured, specifically: obtaining information about NFT collections and the NFTs themselves. In the "content" of NFTs, in one format or another, attributes may be contained.  Question: Is there a way to obtain the names and values of all attributes without iterating through all NFTs of the collection?
+
+Bro: Raw TON way? not really.  NFT attributes live in item metadata, so unless someone indexed the whole collection already, you’re stuck walking the items.  But Getgems actually has the indexed endpoint for this:  GET /public-api/v1/collection/attributes/{collectionAddress}   Returns trait types, values, counts, and min price per value.  Github link for getgems API (reply to 182395)
+
+Александр: Oh, that's cool, I didn't know about the Getgems API. Thanks!  I was already thinking about getting attribute information from Getgems, but in a slightly different way. (reply to 182406)
+
+— 2026-06-01 —
+
+Fromeo016: Hello
+
+Fromeo016: I’m reaching out regarding the ton bug bounty
+
+Fromeo016: Could any of the admins help
+
+Fromeo016: 21139ced-db92-414c-8ed5-dbb2b9b0ec3d Submitted and internal self-checks align; claim appears plausible and impactful… rejected   Could this be looked into, I don't understand the reason for rejection
