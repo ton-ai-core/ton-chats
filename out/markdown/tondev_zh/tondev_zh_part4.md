@@ -12689,3 +12689,17 @@ Shannon: 比-圈合-约-交流-社-区！！   https://t.me/+P3xH8c_dt_5jMDNh
 HUANG: 恩！现在TON一点消息都没有，令人担心 (reply to 128313)
 
 TON Dev (中文): 沒事的，區塊鏈這種東西本來就該去中心化的運作 (reply to 128318)
+
+TG&Ton中文生态共享: 最近中文社区看起来很安静
+
+TON Dev (中文): 很快就不會那麼安靜了 (reply to 128338)
+
+TG&Ton中文生态共享: 希望可以快点热闹起来 (reply to 128419)
+
+TON Dev News: 🪙 Toncoin 更名投票 —— 社区治理提案  过去几个月里，TON 发生了显著变化。Telegram 正在网络中发挥越来越重要的作用，并正成为其最大的验证者。区块链性能提升至原来的 10 倍，交易手续费下降了 6 倍。Gram 是 TON 创始人在最初的 TON 白皮书中为该代币确定的名称，并且这一名称始终保留在代码库中。  因此，Telegram 提议将原生代币名称从 Toncoin 更改为 Gram。现在正是恢复其原始名称的合适时机。  区块链本身仍然是 TON / The Open Network，变化的只有代币名称和代码（Ticker）。余额、地址、智能合约、NFT、质押、DeFi 等均不会受到影响。无需兑换、跨链、申领或迁移，也无需用户采取任何操作。  ⚠️ 任何要求你“领取 GRAM”或“迁移 TON”的网站、机器人或链接都是诈骗。  投票说明 本次投票将在 TON Vote 上持续一周。TON Vote 是 TON 生态内成熟且开放的 DAO 治理平台 ▪️ 投票权重将根据持有的 TON 数量计算。  👉 立即投票 (forwarded from Toncoin 中文频道)
+
+Nicolas ₿renninger: hey friends, you might've already come across us if you attend meetups in Switzerland or have been exploring the non-custodial Bitcoin space.  Proud to say we at Suisse Wallet just released a big update. Non-custodial Lightning is live with JIT channels and no custodial layer. Along with it, things we believe have been missing in this space: security that automatically scales with your balance from Lightning to on-chain to multisig to geographic key distribution, trustless inheritance that executes on-chain through time-locked transactions without a lawyer or custodian, and KYC-aware coin control that prevents merging tracked and untracked funds.  The founder's been running the product roadmap himself up until now, but for the next steps and to keep moving things forward, we'd love to bring in a talented Product Manager who'll own this and bring their own unique vision. Salary will be $170k-$290k + equity + benefits. So would be happy to chat with folks who are interested.  We'll also be at Paradigme Bitcoin Neuchatel June 26-27 and Plan B Lugano October 23-24 if someone wants to connect in person.
+
+— 2026-06-02 —
+
+福气: 现在是中心化的产品了。 (reply to 128321)

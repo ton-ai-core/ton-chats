@@ -2427,3 +2427,111 @@ Fromeo016: I’m reaching out regarding the ton bug bounty
 Fromeo016: Could any of the admins help
 
 Fromeo016: 21139ced-db92-414c-8ed5-dbb2b9b0ec3d Submitted and internal self-checks align; claim appears plausible and impactful… rejected   Could this be looked into, I don't understand the reason for rejection
+
+Denis: /faucet
+
+TON Support: To set the seqno for an external message, you need to include a 32-bit msg-seqno in the signed part of the external message. This msg-seqno must match the seqno value currently stored in the smart contract's persistent data for the message to be accepted. After successful processing, the smart contract will increment its stored seqno by one to prevent replay attacks.  Source: [External messages | The Open Network](https://docs.ton.org/v3/documentation/smart-contracts/message-management/external-messages#:~:text=Even (reply to 182213)
+
+Nathanaël: Ye y’all, quick question: will all TON be automatically converted to GRAM?
+
+Vyacheslav Pridchin: Hi everyone — flagging a potential issue with this proposal (Rename the Native Token from Toncoin to Gram):  https://ton.vote/EQDQvywF226NXojPky_9gwbCz0FPoygqY11bGl03SONNBs5V/proposal/EQAv-VS2OM80SYLB0ouRWRcpFg4J0L-egUf1-utF-OJ6h0rK  What’s going on  One wallet is driving almost the entire outcome:  - Wallet: EQAmWvvOvfT8M2k1wtzirB-ODsMLWbBbpk7zA0pzc2vn2BMS     https://tonviewer.com/EQAmWvvOvfT8M2k1wtzirB-ODsMLWbBbpk7zA0pzc2vn2BMS   - Vote: For   - Voting power: ~1.5M TON (~80% of total weight in this vote)   - On-chain it looks like a pooled / stakeholder wallet (large tsTON stake), not a typical individual voter.  Why this matters  With that vote included, the result is roughly ~86% For / ~14% Against.   Without it, the rest of the voters look roughly ~26% For / ~74% Against — i.e. the opposite direction among everyone else.  So the renaming vote may read as strong community support, while in practice it’s largely one aggregated address deciding the outcome.  Ask  1. Who controls this wallet, and on whose behalf was the For vote cast?   2. Should pooled / stakeholder / LST balances vote as a single wallet on ton.vote, or should there be disclosure, abstention, or different rules?   3. Can the proposal organizers clarify intent and process before this is treated as settled community consensus?  Happy to share API numbers / tx hash if useful. Would appreciate thoughts from proposal owners and anyone involved in ton.vote governance rules.  Thanks.
+
+&rey: Check again. According to tx history, they have owned 2M TON for a long time. (reply to 182504)
+
+Vyacheslav Pridchin: Okay, I see, thanks (reply to 182508)
+
+wen: Hi, does anybody know how to restart an gram domain auction?  Is it the same way as ton domains?
+
+𝗖𝗔𝗟𝗠: I dont think so (reply to 182519)
+
+L: Ton or gram, what's the difference, they'll rename it to Sassun
+
+wen: Do you have any information? (reply to 182521)
+
+&rey: Renamed. Yes, the balances of chain's native coin will remain unchanged. (reply to 182503)
+
+vangaard: Just a ticker change (reply to 182522)
+
+TON Dev News: 🪙 Toncoin Name Change — Community Vote  TON has changed substantially in recent months. Telegram is taking on a leading role in the network and is becoming its largest validator. The chain itself is now 10× faster with fees down 6×. Gram was the name the network's founders gave the token in the original TON White Paper, and it's never left the codebase.  That is why Telegram is proposing to rename the native token from Toncoin to Gram, a fitting moment to bring it forward.  The blockchain stays TON / The Open Network, only the token's name and ticker change. Balances, addresses, contracts, NFTs, staking, DeFi, all unchanged. No swap, bridge, claim, or migration. No action required.  ⚠️ Any site, bot, or link asking you to "claim GRAM" or "migrate TON" is a scam.  How the vote works Runs for one week on TON Vote, an established open DAO platform on TON ▪️ Voting power is weighted by TON balances   👉 Vote here (forwarded from Toncoin)
+
+𝗖𝗔𝗟𝗠: @alexgton some people abusing @tonmod_bot for advertising their CP private channels, joining again and again. Please do something
+
+Dr. Awesome Doge: We have currently completed four out of the seven steps. With three steps remaining, I am truly looking forward to the results. (reply to 182530)
+
+Jacopo: Hi, any way to contact support ?
+
+Jaкe ~: Yes, this is very unfair (reply to 182504)
+
+mnemotiv: stars > gram (reply to 182536)
+
+Jacopo: Write where? Website have telegram channels
+
+&rey: Support related to which matter (service)? (reply to 182547)
+
+Jacopo: Transfer, something that they could sure fix it
+
+Bro: Okay
+
+Vyacheslav Pridchin: UPD: On-chain analysis of the wallet (EQAm...2BMS) reveals it is the personal wallet of a major early miner (genesis whale). The funds trace directly back to the Large Givers (Initial PoW) distribution from July-August 2020, moving through a chain of massive hub wallets (in tranches of 45M, 30M, 10M, and 2M TON).   The whale simply staked their personal funds, which is why they hold tsTON. This allowed them to single-handedly swing the vote from ~74% "Against" (among the rest of the community) to ~86% "For".   This highlights a fundamental governance challenge: the illusion of a community-driven vote when a single individual from the early distribution era can completely override the voice of hundreds of regular ecosystem participants. (reply to 182504)
+
+Mr X | ByteLords ⚡: So it is good or bad? I'm confuse
+
+Vyacheslav Pridchin: Whether this is "good" or "bad" is for everyone to decide for themselves.   However, it definitely compromises the fairness and integrity of the voting process. When a single early-distribution whale can completely override the organic consensus of the rest of the community (turning a 74% "Against" vote into an 86% "For" vote), it turns on-chain governance into an illusion. If one person dictates the outcome, the voting platform isn't measuring community consensus—it's just displaying raw capital power. (reply to 182561)
+
+Mr X | ByteLords ⚡: Yep I was checking that too and reading all of you guys.  Looks like it's everything script (reply to 182562)
+
+Petr: Isn't there 567 votes "For" and only 216 votes "Against"? (reply to 182562)
+
+Mr X | ByteLords ⚡: Correct but they also include TON power, they include in the vote the wallet money you have (reply to 182564)
+
+mnemotiv: put your best effort - start offering solutions
+
+TON Support: To vote for network configuration proposals, nominators need to attach a small amount of tokens (minimum 1 TON) to their message to cover the network fee. Any unspent TON will be returned to the wallet.  Source: [Nominator pool | The Open Network](https://docs.ton.org/v3/documentation/smart-contracts/contracts-specs/nominator-pool#:~:text=Voting
+
+Mr X | ByteLords ⚡: Can't write anything
+
+Vyacheslav Pridchin: Exactly. On ton.vote, the count is not based on the number of individual wallets, but on the number of tokens (TON) each wallet holds—this is their "voting weight" (1 TON = 1 vote).   In general, this approach makes sense because it prioritizes active TON stakeholders with skin in the game over random, low-balance accounts. However, the system is clearly not perfect.   This is exactly where the issue lies. Even though there are more individual wallets voting "For" on paper, the actual distribution of the community's tokens (excluding that one 1.5M whale) is roughly 74% "Against". One single whale's balance completely overrides the financial weight of the rest of the ecosystem combined.  Since some people below were asking for potential solutions, one approach would be to introduce a correction or normalization function for ultra-large assets (such as quadratic voting or a logarithmic scale). This would help normalize the voting power and damp the impact of massive whales, while still respecting their larger stake. (reply to 182564)
+
+&rey: *any emoji (reply to 182573)
+
+Jaкe ~: I think it's a good system to avoid polls being tampered with by botnets, but it would be better not to give so much weight based on wallet volume (reply to 182574)
+
+Иван: The emission is equal to 5 billion.  Its not problem of one whale with 0,0001% of supply (reply to 182574)
+
+P: This isn't what Durov would want. He knows the community has no chance against the team holding most of the supply (reply to 182574)
+
+P: Exactly (reply to 182562)
+
+wen: Hi everyone,  I have successfully manually started an auction for an expired .ton domain using the following method:  1. Find the NFT contract address of the domain. 2. Send a transaction to that address with the binary payload: te6ccsEBAQEADgAAABhO0UtlAAAAAAAAAACvkFQ4 and the minimum amount (e.g., 20 TON for an 8-character domain). 3. This triggers the auction and makes me the first bidder.  Now I want to do the same for an expired .gram domain.  My question: - Is the same binary payload te6ccsEBAQEADgAAABhO0UtlAAAAAAAAAACvkFQ4 valid for triggering the auction on a .gram domain? - Or does it require a different op-code or message structure?  Thanks for your help!
+
+— 2026-06-02 —
+
+testertesterov: Hello everyone  In my opinion, the voting system in TON doesn't look very fair. In active voting, there is a situation of attack of ~99%.  Can we developers do something about this?
+
+testertesterov: Most likely, this is due to an incorrect initial token distribution in the hands of a few :) and the community will never be able to make decisions in the main token of The Open Network.
+
+testertesterov: There is another possibility for whale attacks on voting. They can split a large capital into a large number of wallets and vote en masse. For us, this will not be noticeable at all :)
+
+GIDEON: It doesn’t work that way A snapshot was taken  And you don’t actually use ton to vote but your balance before the snapshot determines the power of your vote (reply to 182601)
+
+testertesterov: And this power can come from thousands of wallets :) For example, this is all the wallets of one whale. (reply to 182602)
+
+testertesterov: I think the voting could have been fixed if the wallet's power wasn't taken into account, but rather the actual number of tokens the wallet is willing to spend irreversibly on voting in TON.
+
+testertesterov: But in this case nothing is resolved because there may be even more catastrophically few votes and the funds will still be able to attack the voting.  I think it is beneficial for the funds to rename this. Why then all this circus with community voting :)  Although the goal of renaming is completely unclear to me, what will this give the community besides confusion in the names?
+
+&rey: One with 100 TON cannot irreversibly spend much of them, while one with 10M TON could sometimes spare 10K. (reply to 182605)
+
+testertesterov: Yes. I further analyzed this case. Overall, the result is the same as in the current community vote :) The community needs a whale that can vote against the renaming. (reply to 182609)
+
+Rivol: A few thoughts on what a fairer system would actually need, because I have been thinking about this and there is no clean answer, only trade-offs.  The hard part is that you need two things at once that pull against each other. You need to cut whale dominance (so 10M TON does not just decide), and you need sybil resistance (so a whale splitting 10M into a million wallets of 0.01 each does not fake a crowd). Almost every model solves one and breaks the other. Pure token weighting stops sybil but is plutocracy. Square-root or equal-vote cuts whales but a whale just splits into thousands of wallets and wins anyway. One-person-one-vote solves both but needs KYC, which kills anonymity.  The only direction I see that does not require identity is using on-chain history as a sybil filter. A wallet's weight could factor in things money cannot instantly fake: account age, real transaction history, genuine activity over time, interaction with real protocols. A whale can split 10M into a million fresh wallets, but it cannot give a million wallets two years of organic history. Thousands of wallets all funded from one source days before a snapshot, with no prior life, are detectable and should not count as a thousand people. Weight earned by time and real use, not just balance held at one instant.  It is not perfect either - someone with resources can age wallets in advance - but it is the only path that reduces both whales and sybils without forcing KYC. The point is that "balance at a snapshot" is the laziest possible measure: it captures neither real participation nor real distinct people. A system that wanted to reflect the community would weight by behavior over time, not money at a timestamp.  And one more thing on splitting, the other direction. Because the snapshot was taken on 31 May, before the announcement, any wallets pre-arranged for this vote are already frozen in that snapshot. If clusters were set up early to simulate support, the funding trails are sitting on-chain right now, datable to before the public announcement. Preparing wallets for a vote nobody had announced yet is itself a signal of who knew in advance. That is checkable once voting closes.
+
+Rivol: Interesting that even in a simple one person poll the community leans against the rename. The onchain vote will almost certainly pass "for" anyway - because there balances count, not people. That gap between what people want and what balances decide is the whole point. (reply to 182615)
+
+P: It's just a circus (reply to 182616)
+
+Bro: The DAO vote is based on TON. Telegram is the largest holder and validator. Consequently, the results are already evident. This represents the myth of decentralization. Wishing everyone a pleasant day.
+
+testertesterov: Yes. I think the community is against it because we already have a good Gram. Why do we need another Gram :) (reply to 182616)
+
+P: That Gram became GRM (reply to 182619)
