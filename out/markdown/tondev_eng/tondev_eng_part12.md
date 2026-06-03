@@ -2535,3 +2535,39 @@ Bro: The DAO vote is based on TON. Telegram is the largest holder and validator.
 testertesterov: Yes. I think the community is against it because we already have a good Gram. Why do we need another Gram :) (reply to 182616)
 
 P: That Gram became GRM (reply to 182619)
+
+testertesterov: Yes. As far as I understand, they were told via Telegram to rename the token, but the name Gram is often used within the ecosystem. It's very strange that this happened at all :) (reply to 182620)
+
+P: Durov has no consideration for his community (reply to 182626)
+
+testertesterov: Absolutely. In this case, it is very noticeable. (reply to 182627)
+
+P: It's not the first time, it happened before (reply to 182628)
+
+P: He only cares about the money
+
+~~~: He is not interested in money, but in power, which is seen in money. (reply to 182630)
+
+P: Absolutely (reply to 182632)
+
+testertesterov: I think that's why they don't give him much money for project movement. (reply to 182632)
+
+~~~: The funniest thing about this situation is that we're just wasting our time, and our opinions won't be taken into account in the decision. As for me, this is done on purpose to create a stir. What will happen? And because of people like us, it will happen, and higher minds we don't know will pay attention to this situation and ultimately decide everything for us.
+
+cb 🥊: what is the best launchpad on TON?
+
+S: Are there still launch pads? (reply to 182646)
+
+cb 🥊: Where do people launch on TON (reply to 182656)
+
+Olaosun Oluwaseun: Blum memepad (reply to 182646)
+
+testertesterov: Friends, does anyone know a whale to overpower the vote on renaming TON to Gram? I think it's better to vote against it at the very end of the auction.
+
+testertesterov: I'm sure that in many projects the word TON is hardcoded and many will forget about this.
+
+Mirka: These projects won't break because of renaming (reply to 182664)
+
+testertesterov: For users, a message that no longer exists will be displayed, and there is another argument against Gram, which has 4 letters, while TON has only 3 letters. TON looks much stronger in terms of power. I think it is better to rewrite the whitepaper specification. Historically, the implementation TON turned out to be much better. (reply to 182665)
+
+testertesterov: At one time, Toncoin was renamed to TON to make it convenient and understandable on exchanges and other tools, and now we are returning to complete chaos. This reminds me of the movie-series Fallout.
