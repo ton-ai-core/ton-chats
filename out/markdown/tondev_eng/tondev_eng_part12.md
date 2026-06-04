@@ -2571,3 +2571,55 @@ Mirka: These projects won't break because of renaming (reply to 182664)
 testertesterov: For users, a message that no longer exists will be displayed, and there is another argument against Gram, which has 4 letters, while TON has only 3 letters. TON looks much stronger in terms of power. I think it is better to rewrite the whitepaper specification. Historically, the implementation TON turned out to be much better. (reply to 182665)
 
 testertesterov: At one time, Toncoin was renamed to TON to make it convenient and understandable on exchanges and other tools, and now we are returning to complete chaos. This reminds me of the movie-series Fallout.
+
+— 2026-06-03 —
+
+Order: Maybe, i can help you Could you send me a DM? (reply to 177373)
+
+Elis፝֯֟ey: I am so sorry, someone know when will there be an update adding new validators?
+
+&rey: Validator set doesn't require a network update, it is automatically elected twice a day. (reply to 182745)
+
+Elis፝֯֟ey: Good (reply to 182746)
+
+testertesterov: Now the largest validator is Telegram. (reply to 182745)
+
+Elis፝֯֟ey: Now limit 400 validators ? (reply to 182749)
+
+Bro: Small clarification: adding new validators does not require a regular network update.
+
+Bro: In TON, the validator set is elected automatically through the Elector mechanism each validation round. That round is about 18.2 hours, not exactly twice per day.
+
+Bro: Also, the current configured maximum is 400 validators. So increasing that limit would require a configuration/governance change, not just waiting for an update.
+
+testertesterov: I think the number depends on the consensus config. On tonscan, I managed to count 400. To become a validator, we need to be at least as rich as Pavel Durov. (reply to 182750)
+
+Bro: Who doesn’t have 300k TON lying around anyway? (reply to 182754)
+
+Abyss: Hey guys, what's up? I just want to know if the potential renaming of TON somehow will impact the tech side. What should I be ready for since my mini app heavily relies on the blockchain. Thank you
+
+testertesterov: Hello  I think anything can happen after the token name update. The main thing is that there is no hardcoding with the old name. It will also be necessary to monitor the status of the services with which the project is integrated. (reply to 182758)
+
+testertesterov: I think they will all have to write GRAM(TON). The user will constantly ask how to buy Toncoin similarly to the return of the wall which turned out to be unnecessary for anyone :)  I think this is happening because they are afraid of the GRAM(GRM) token.
+
+Bykasif: hi everyone! is there a tg support account for builders.ton.org?  Seems like, they changed the portal with new auth methods. I created my account with TONID before. Now default log in options do not allow me use TON ID. Therefore, I updated my TON ID profile with github account and logged in by github. However, it shows me an empty account - lost all my previous data. any idea please?
+
+testertesterov: I don't know if this even works after refactoring. We published achievements and projects on Identity, but they were fired. (reply to 182775)
+
+Bykasif: hmm apparently lots of things changing all at once. but they should have been more responsive I guess.. is there anyone left from ecosystem, to ask for testnet TON for our project development. (2 TOn per hour is not enough for us)? (reply to 182793)
+
+testertesterov: I think such a huge shardchain needed huge capitalization, but they were afraid to invest. In the end, they had to switch to a single shard. (reply to 182795)
+
+testertesterov: For the last time, I tried to organize micro-payments to AI requests on TON starting with the test network, but transactions stopped working there, and after that, I moved on to another project. (reply to 182795)
+
+A: HI  i used to connect with my ton ID but now it does ask me about an email what should i do ?
+
+GIDEON: I’m not really against the naming to gram honestly   It’s been ton for a while and no upward movements  At least if he renames, something will change and I’m sure Durov has a plan (reply to 182663)
+
+Hashirama: anything for beginners in this topic pls
+
+Hashirama: where to start?
+
+— 2026-06-04 —
+
+testertesterov: Yes. I think Pavel Durov and Telegram team thought exactly like that when they came up with step 4.  But the name of the main TON network token is not the reason why users do not use the blockchain on a mass scale and why there is no market capitalization. (reply to 182809)
