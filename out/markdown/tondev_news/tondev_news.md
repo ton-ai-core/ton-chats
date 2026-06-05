@@ -767,3 +767,7 @@ Unknown: How MCP enables on-chain actions for agents on TON  We publicly announc
 — 2026-05-18 —
 
 Unknown: 🧠 AI devs asked for this — and we delivered.  🤖 Bots can now talk to other bots on Telegram.  💬 Autonomous agents now have a communication layer humans can follow.  🛠 Start building! (forwarded from Pavel Durov)
+
+— 2026-06-04 —
+
+Unknown: MTONGA / MGRAMGA: the next step is clear: 30% extra on any top-up at @dtontech_bot / dton.io this week!  We're ready to show you how to create awesome setups. LiteServer update:  - Pay As You Go: pay $0.02 per LiteServer request - Analytics is back: check your RPS, methods, responses, and durations - dton.io / @dtontech_bot updated: desktop-friendly profile and landing with live status - CustomOverlay & TON node update: our nodes now fast-sync across 6 geo locations; when one node catches a block, all others have it - Balancer update: no more timeouts; any out-of-sync node in a shard is now excluded from your requests - Upgrade existing keys: upgrade existing keys to a higher tier and pay only for remaining days - Auto-renew: just top up your balance, and your rate will renew automatically (forwarded from dTON Tech)

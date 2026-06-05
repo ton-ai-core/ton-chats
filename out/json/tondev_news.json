@@ -2504,6 +2504,22 @@
       "forwarded_from": "Pavel Durov",
       "forwarded_from_id": "channel1006503122",
       "forwarded_date": "2026-05-18T14:56:21.000Z"
+    },
+    {
+      "id": 302,
+      "type": "message",
+      "date": "2026-06-04T11:56:58.000Z",
+      "date_unixtime": "1780574218",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "MTONGA / MGRAMGA: the next step is clear: 30% extra on any top-up at @dtontech_bot / dton.io this week!\n\nWe're ready to show you how to create awesome setups. LiteServer update:\n\n- Pay As You Go: pay $0.02 per LiteServer request\n- Analytics is back: check your RPS, methods, responses, and durations\n- dton.io / @dtontech_bot updated: desktop-friendly profile and landing with live status\n- CustomOverlay & TON node update: our nodes now fast-sync across 6 geo locations; when one node catches a block, all others have it\n- Balancer update: no more timeouts; any out-of-sync node in a shard is now excluded from your requests\n- Upgrade existing keys: upgrade existing keys to a higher tier and pay only for remaining days\n- Auto-renew: just top up your balance, and your rate will renew automatically",
+      "forwarded_from": "dTON Tech",
+      "forwarded_from_id": "channel2084817136",
+      "forwarded_date": "2026-06-04T11:39:04.000Z",
+      "media_type": "photo",
+      "file": "photos/photo_302.jpg",
+      "width": 1254,
+      "height": 1254
     }
   ]
 }

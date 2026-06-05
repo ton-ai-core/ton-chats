@@ -12715,3 +12715,11 @@ Nicolas ₿renninger: hey friends, you might've already come across us if you at
 HUANG: 守住吧！TON应该还有很多牌可以打，比如手续费销毁，节点赚百分之3的通胀，手续费销毀也是可以的。
 
 HUANG: 为什么钱包交易费用这么高价值1865U，卖出到手才1795U
+
+小: 这改名改的
+
+— 2026-06-05 —
+
+May: 会做网站的联系我
+
+TON: 改名不好，一蹶不振

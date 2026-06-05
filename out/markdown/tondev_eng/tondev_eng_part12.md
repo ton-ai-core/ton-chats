@@ -2623,3 +2623,55 @@ Hashirama: where to start?
 — 2026-06-04 —
 
 testertesterov: Yes. I think Pavel Durov and Telegram team thought exactly like that when they came up with step 4.  But the name of the main TON network token is not the reason why users do not use the blockchain on a mass scale and why there is no market capitalization. (reply to 182809)
+
+Alina: I'm still getting frequent out of sync errors on my liteserver is the issue still not fixed?
+
+TON Support: There was an incident reported on toncenter_v2 starting on 2026-06-03 at 17:23:20 UTC and recovering at 2026-06-03 at 17:56:02 UTC. The last message indicates "Consecutive failures: 3. Last error: upstream status 504: 504 Gateway Timeout - error code: 504" for GET /api/v2/getBlockTransactions. (reply to 182973)
+
+Adapt: Hi guys, since 1st June validator software update, I think I've noticed slower broadcasts (blocks, transactions) in my node and my indexer seems to be slower than before. I'm testing also Rust and Go overlays to see what is happening but the only observation is like most of the peers / nodes disappeared or stopped broadasting data, compared to before 1st June. Is this expected after soft update? or maybe operators have not updated theirs servers yet? or maybe there is an option / need to connect to any validator for proper performance for indexing?  By checking TON source code I can see this AnySender change but don't think that would cause that huge impact? Any suggestions much appreciated.
+
+&rey: - Config30: set enable_observers from 0 to 1, introducing a separate overlay for fast candidate broadcasts among validators. (reply to 182977)
+
+&rey: Might be related.
+
+Adapt: Do you know if anyone can connect to that overlay? (reply to 182979)
+
+&rey: I'd assume only the validators. (reply to 182982)
+
+Adapt: Thanks. Do you know if I could talk to any validator operator (anyone here?) to get connection to that stable overlay? (reply to 182984)
+
+EverydayTech: Yeah sure I do  Need a help? (reply to 180001)
+
+A: HI  i used to connect with my ton ID but now it does ask me about an email what should i do ? (reply to 182806)
+
+Mr X | ByteLords ⚡: This (reply to 182615)
+
+— 2026-06-05 —
+
+S: Hello
+
+S: Kisi ke pass ton hai friends
+
+S: Ya usdt ho
+
+S: Please help
+
+S: Muse apne ton withdrawal karne hai uske liye muse ton chahiye
+
+S: Ya usdt ho please
+
+testertesterov: Yes. In many chats, the name Toncoin wins. It's strange that in the main voting, the name Gram is leading. (reply to 183021)
+
+S: Any please help in withdrawal of 124 ton
+
+testertesterov: Another friend of mine has been worried about this question for a long time. Governments of many countries are hindering us from working normally with cryptocurrency. (reply to 183048)
+
+Mr X | ByteLords ⚡: Isn't strange, is just scripted (reply to 183047)
+
+testertesterov: How do you think the current renaming of the main token will help the blockchain? (reply to 183053)
+
+Rivol: It won't help the blockchain at all, it helps Durov legally repackage TON as Telegram's own asset ahead of an IPO. (reply to 183054)
+
+testertesterov: I think it would be better to position Telegram as another application in The Open Network ecosystem, but money seems more important. (reply to 183056)
+
+Rivol: Exactly. It was sold as independent and decentralized precisely so people would build and fund it, and now that the value is there, Telegram takes ownership instead of being one app among many. The decentralization was never the goal, it was just the wrapper that got everyone to trust it first.  And here's the part people miss: the same people who sold you "decentralization, community, not our project" a few years ago are now selling you the exact opposite, "it's ours, Telegram takes over" and the crowd cheers either way. Because as long as the price pumps, your interests line up with theirs and you're happy to believe whatever story they tell. The moment they don't, you'll find out you never had any say.  And what's the point of building here then? Why would any serious dev spend years on a chain where one company can rename the coin, replace the foundation and rewrite the rules whenever it wants. Independent projects already get bought out or pushed out, and the rest will just build for the owner. TON isn't a decentralized network anymore, it's a Telegram product where one company calls every shot. (reply to 183057)
