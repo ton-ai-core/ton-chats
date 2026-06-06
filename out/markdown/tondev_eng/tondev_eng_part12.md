@@ -2675,3 +2675,167 @@ Rivol: It won't help the blockchain at all, it helps Durov legally repackage TON
 testertesterov: I think it would be better to position Telegram as another application in The Open Network ecosystem, but money seems more important. (reply to 183056)
 
 Rivol: Exactly. It was sold as independent and decentralized precisely so people would build and fund it, and now that the value is there, Telegram takes ownership instead of being one app among many. The decentralization was never the goal, it was just the wrapper that got everyone to trust it first.  And here's the part people miss: the same people who sold you "decentralization, community, not our project" a few years ago are now selling you the exact opposite, "it's ours, Telegram takes over" and the crowd cheers either way. Because as long as the price pumps, your interests line up with theirs and you're happy to believe whatever story they tell. The moment they don't, you'll find out you never had any say.  And what's the point of building here then? Why would any serious dev spend years on a chain where one company can rename the coin, replace the foundation and rewrite the rules whenever it wants. Independent projects already get bought out or pushed out, and the rest will just build for the owner. TON isn't a decentralized network anymore, it's a Telegram product where one company calls every shot. (reply to 183057)
+
+Rivol: Fair question. I'm not trying to convince anyone, I'm putting facts out so people can see what's happening and decide for themselves. As for leaving, criticizing where a network is going isn't the same as abandoning it. I built here because I believe in what TON could be, and pointing out that one company is quietly taking it over is exactly because I care, not because I don't. If everyone who sees the problem just leaves quietly, the takeover gets easier. I'd rather say it out loud. (reply to 183059)
+
+Александр: Decentralization will never be truly fair as long as the weight of a voice is determined by the "size of the wallet" and the power of the available hardware. There will always be someone who has their own plans for certain things and, at the same time, can afford to realize these plans.  In my opinion, fair decentralization and honest vote counting should have been considered from the very beginning of the construction. Now, however, when there is an organized group of people capable of pushing through any movement with huge resources, it is written with a pitchfork in the water.  For a real struggle in this situation, resources are required, at a minimum, comparable to what Telegram has, minus other builders who share your point of view. Otherwise, this will simply be attempts to convince Telegram to take the community's opinion into account in its own interests no more than that.
+
+Александр: And, for this, you will have to have a sufficiently "loud" voice to be heard, and for Telegram to take this voice into account - fearing that the old builders will leave, and the new builders simply will not come here, knowing about the situation. (reply to 183062)
+
+Rivol: You're right, a wallet weighted vote was never going to be fair, especially with one group holding most of the stake. But that's the point: they sold this as decentralized and community owned while knowing the stake was concentrated from the start. The problem isn't that fair decentralization is hard, it's that they marketed something they never built.  And you're right that without huge resources this won't become real leverage, it stays at the level of asking Telegram to consider the community. But that's not nothing, and you said why yourself: the only thing that moves them is a loud enough voice, builders leaving and new ones not coming because they know the situation. Telegram responds to that, not to charity. So making the situation impossible to ignore is the leverage. Silence is what makes the takeover free.  And the vote running right now shows where we actually are, it's theater. Durov announced the rename as a done deal and didn't even mention the vote, because it was settled back on September 8, 2025, when they bought the Gram trademark. Meanwhile he says Telegram becoming the largest validator "strengthens decentralization", when one player taking the majority is centralization by definition. Their own Dune dashboard shows about 65% of the stake in one Telegram/Durov linked group, the honest Nakamoto coefficient there is 1, not the 83 their site advertises. They can take the network, that's reality. What they don't get to keep is the decentralization label while doing it. (reply to 183062)
+
+TB: Is it now still possible to get my TON to Ethereum as now exchanges don’t support the withdrawal?
+
+TON Support: Yes, it is still possible to bridge TON to Ethereum. While the official TON bridges from 2021-2023 are now considered legacy and not recommended for use, the TON ecosystem features multiple third-party bridge providers that offer different features and...  support various networks, including Ethereum.  These bridges typically work by locking assets on the source blockchain (TON) and minting equivalent wrapped tokens on the destination blockchain (Ethereum). When you want to move assets back, the wrapped tokens are burned on Ethereum, and the original assets are unlocked on TON.  You can find more information about the TON bridge ecosystem on the TON Docs, and existing bridge statistics might be available on the TON Foundation Bridge Dashboard.  Source: Bridges - TON Docs (reply to 183066)
+
+&rey: CEX should work fine. (reply to 183066)
+
+&rey: From what application? Are you sure it's not a scam offer you got? (Use only English in this chat.) (reply to 183048)
+
+testertesterov: It seems that only centralized interfaces have been left available, in which money can be blocked for no reason. (reply to 183067)
+
+Reuben.TON🌊: he doesn't have any plan bro (reply to 182809)
+
+Reuben.TON🌊: very true (reply to 182834)
+
+Александр: I can be wrong, but shouldn't this have been visible from the very beginning? Was there no discussion about this from the roots? (reply to 183064)
+
+&rey: Mind naming where TON would be concentrated from the start? (reply to 183064)
+
+testertesterov: Yes. Then we took TON just like that in the test network and the Telegram wallet app was so-so. (reply to 183076)
+
+&rey: Have you came across better solutions?  I'll note that common protections from sybil attacks (and quadratic voting or such needs some) are usually arbitrary at least in chosen parameters, which is not a desirable property. (reply to 183062)
+
+testertesterov: I think nothing better has been invented than the banal counting of votes based on the precise identification of the election participant (excluding a huge part of vote rigging), but no one can see which side they voted for.  I think in this case, Pavel Durov decision would not have gathered enough votes and could even have lost, as was seen at the very beginning of the voting before the actions of the whales. (reply to 183078)
+
+&rey: As in, KYC for voting? (reply to 183079)
+
+testertesterov: Yes. This could add precision, but no one should see how an address voted.  After all, a serious decision is being made to rename the network's main token. Currently, it turns out that Pavel Durov will boast that the majority voted for him, while in reality, it's just due to the actions of a whale at the very beginning of the voting. (reply to 183081)
+
+&rey: It would drive away most voters though. (reply to 183082)
+
+Александр: Correct, the current voting model does not protect against plutocracy: more capital equals more power. And this, judging by the active discussion over the past week, and as an obvious fact, is a major problem for a decentralized system.  Voice uniqueness verification does not necessarily have to be conducted through KYC. One can understand whether you are facing a robot's wallet or a living human's wallet through many other parameters: wallet history, behavior patterns (collecting, participation in staking, in community activities, in applications, network building, etc.), and ultimately a rating system. Some applications have already tried to do something similar, for example, Nomis.  The decision-making system can be multi-level, including voting as a community with uniqueness verification, as well as the current staking model of validators, applying quadratic voting at both levels.  I agree that there is no ideal and ready-made approach, but the current one is objectively not about democracy and decentralization. (reply to 183082)
+
+testertesterov: Yes. They might get scared of identification, but you can do this from an address with a balance of 0 and then simply forget about this address (revoke KYC), and the most important thing here is the anonymity of voting. Most likely, modern encryption methods for votes will have to be used so that no one can see the voter's choice. (reply to 183083)
+
+&rey: which doesn't make identification any more appealing. I personally would say that my identification has no business going anywhere near a blockchain. (reply to 183085)
+
+testertesterov: So you would have missed these elections, and anyway, identification is everywhere now. I think it's already too late to worry about this :) (reply to 183086)
+
+&rey: As for serious devs... I'll remark that TON sites did not take off but TMAs did, while the former are hardly more complex; make of it what you will.
+
+testertesterov: I think the TMA story ended about ~2 years ago :) Now I use them less and less. (reply to 183088)
+
+testertesterov: TON sites have not become popular because they are not supported in any modern browser like Chrome, Mozilla, etc.
+
+testertesterov: Ah. Recently I was also offered to mine on a video card Gram, but there is no such thing as mining in TON. We have PoS. (reply to 183094)
+
+testertesterov: Perhaps in this way they want to reuse my GPU resources for higher-paying AI tasks.
+
+TB: Which cex, I checked and none has it now (reply to 183068)
+
+盘丝洞-客服2号: My deposit of 22.99 TON to Fragment Ads has been stuck for 7 days with correct Ref comment. Ticket sent but no human respons
+
+盘丝洞-客服2号: what should I do
+
+~~~: I just don't understand why Durov doesn't see the dark horses plowing in the shadows and promoting his ecosystem. Okay, then he would at least communicate closely with us. But it turns out that he doesn't see the real lift of his ecosystem and doesn't want to see it. In that case, we need to either attract attention or show our value. For example, just leave his ecosystem for a week and his ecosystem growth will immediately decline. Maybe he'll come to his senses later that what's most important to him isn't a stuffed wallet, but the people who are in the same boat with him.
+
+uzkro: LOL, paperhands (reply to 183111)
+
+盘丝洞-客服2号: Are there real people here?
+
+cb 🥊: Just me
+
+testertesterov: Yes, but I don't like to go KYC. (reply to 183113)
+
+盘丝洞-客服2号: But I had already made the payment before.....
+
+盘丝洞-客服2号: However, my funds did not arrive after I recharged. I sent an email to customer service but received no response.
+
+盘丝洞-客服2号: what should I do
+
+testertesterov: I think we need to write to Pavel Durov in private messages about this.
+
+NoDOg: That's really true. Actually, sol has developed to this day because they focus on memes. People buy sol to play memes, the price is maintained and increases in the long term. There are too many memes in sol. As for ton, I really like it because the memes here are gentle and more developed. Even bsc, cz have interacted with the community a lot, to grow bnb. If you really want to attract tons, please focus on pulling up the meme. Along with that is the development of the ecosystem. Finally, I still emphasize that memes are always the craziest thing to increase the price of Ton
+
+vangaard: You can DM Durov (reply to 183119)
+
+vangaard: For a fee of 11,250 Stars (reply to 183122)
+
+testertesterov: It's strange that it's only 11, not 30. I've had a limit of 30 set for a long time already. (reply to 183123)
+
+vangaard: 35 (reply to 183124)
+
+NoDOg: Just now. The big kols have communities that have overflowed Ton. Because really meme sol and bsc are too boring. They see the potential to promote ton. Ton increased the price of 2.9 also because some of the kols supported it. They all want ton to be like sol from 2 dollars and up to 200 dollars. Sol is very similar to Ton. If the executives here hear it, please develop this (reply to 183121)
+
+testertesterov: Ah. Yes. It's truly expensive :) (reply to 183125)
+
+盘丝洞-客服2号: OK thank you (reply to 183122)
+
+testertesterov: I think CZ has a better reputation. It's easier for him to perform on the current blockchain ring. (reply to 183121)
+
+Daniel: anyone faced this error after upgrading TON by mytonctrl? failed to parse config: [Error : 0 : json does not fit TL schemeExpected string, got Object]
+
+NoDOg: Not at all. Durok is a person we admire. He is not inferior to cz. The core issue is to attract players to the meme. You see, kol has worked very well, volume increased, price increase is due to meme. If you play a lot of memes, the price will be stable. Actually, talking about technology, no one notices now, but if you talk about memes, the whole world knows about you. Elon is not famous for technology on x, elon is famous for meme (reply to 183129)
+
+盘丝洞-客服2号: He's not listed among the administrators; I can't find him. (reply to 183122)
+
+vangaard: No wait. I was only joking (reply to 183132)
+
+vangaard: If you really wanna dm him, this is his handle;  @  "monk" (reply to 183134)
+
+testertesterov: Following the whitepaper specification by Nikolai Durov published in your channel, we can assume that GRM is already listed on exchanges as the original Gram, which was renamed to GRM. (reply to 183134)
+
+盘丝洞-客服2号: Can he help me solve this problem, friend (reply to 183137)
+
+vangaard: Probably not. And sadly, the only official support available is through their email. (reply to 183139)
+
+testertesterov: You can also write to Pavel Durov via email. He used to share it. (reply to 183140)
+
+Rivol: Sure. 96% of TON supply was mined by Large Givers in July-August 2020, across just 248 addresses, not a crowd. At least 85.8% was mined by a handful of groups connected to each other and tied to the TON Foundation, four coordinated groups alone make up 78%. That's the concentration at the root, and it never dispersed. By the TON Foundation's own Dune dashboard, the labeled circle alone is over half of staked TON today: Ton Strategy (Stotz's NASDAQ vehicle) 27.85%, Telegram 19.41%, plus the TOP-owned products, Wallet in Telegram 4.75% and Tonstakers around 8%, plus Vy Capital 2.42%. And that's only what's tagged, on top of it are unlabeled groups and the same early miners. The rest is mostly commercial providers like Kiln and Chorus One renting out institutional money, not community. Concentrated from day one, still concentrated now. (reply to 183076)
+
+vangaard: But why memes though? Why not something with utility? (reply to 183131)
+
+vangaard: IMO, TON being associated with a large social media platform is 100x better than craving for memecoins. (reply to 183143)
+
+NoDOg: The utility is really good. But you should know that most players on dex only know memes. Look at how sol and bnb work. Last time the boss durok interacted, he received attention from the kol. Let's develop memes. Let's see the truth, the last growth was because of utya from 5m to 50m. Let's focus on meme (reply to 183143)
+
+Rivol: It was visible, and that's the uncomfortable part. The mining's been onchain since 2020. But it looked decentralized: the supply went to hundreds of wallets that were really a few connected groups, concentration dressed up as a crowd. So the data was never hidden, the meaning was. With "DAO, community, decentralized" on top, people read those wallets as "early believers", not "one circle owning the network", and nobody traced them forward to today's stake. There was discussion at the roots, the narrative buried it every time. That's the trick: don't hide the data, just give people a story that makes them not look. The second role is what finally makes the first one obvious. (reply to 183075)
+
+&rey: Many people have been saying back then that they donate to TF of their free will, by the way. (reply to 183148)
+
+testertesterov: If this social network has an excellent reputation, but we only have good code and a questionable reputation. (reply to 183144)
+
+Rivol: That's the part that actually proves the point, though. If those early miners were donating to the foundation, that's not evidence they're an innocent crowd, it's evidence the miners and the foundation are the same orbit. A genuinely independent miner has no reason to route funds into the foundation's treasury. The fact that a big share of the mined supply flows from those wallets into TF, and from TF onward, is exactly the connection I'm pointing at. "They did it of their free will" doesn't change that, of course you donate freely when it's your own foundation and your own coin. Voluntary movement inside one circle is still one circle. The question was never whether it was forced, it's whether it was ever actually distributed to a real community. It wasn't. (reply to 183149)
+
+testertesterov: Yes. Agreed. An independent miner 100% held and gave nothing to anyone. (reply to 183152)
+
+Ali: Hey guys, has anyone seen this with self-hosted ton-indexer streaming?  We use toncenter/ton-indexer-worker:v1.2.8, ton-trace-emulator reads validator events from --db-event-fifo. This setup worked before, but the issue seems to have started after our recent liteserver / node update.  FIFO works and emulator produces New masterchain block / Finished confirmed block, but it often logs: failed to emulate shard block: cannot fetch config params configuration parameter 43 is invalid  and sometimes crashes right after: Signal: 11 Stack Backtrace  OOM=false, Redis/nginx/ws/FIFO/validator look fine.  threads=1 is stable but basically does not produce useful traces. threads=5 produces traces, but crashes/restarts often.  Is this a known issue with ton-indexer-worker:v1.2.8 + current mainnet config param 43?  Could it be related to recent liteserver/validator updates?
+
+&rey: I'm referring to https://t.me/tonblockchain/20. (reply to 183149)
+
+testertesterov: Yes. I think reasonable miners did not donate anything to them. (reply to 183156)
+
+testertesterov: All other chats were blocked by Pavel Durov, and the TON Community chat was also blocked. (reply to 183160)
+
+MAX: Friends, I see it's fun here. Who can recommend where to start developing TMA?
+
+MAX: The last message from Rivol was very interesting. It's strange that the /report command deletes such interesting thoughts. I just started writing TMA and am looking for where to quickly place it to test it on users. (reply to 183156)
+
+TON Support: To start developing Telegram Mini Apps (TMAs), you can use the @telegram-apps/create-mini-app CLI tool. This tool will help you set up a new mini-application project with pre-configured libraries and template files, which you can then customize according to your needs. Source: [TMA create CLI — TON Docs](https://docs.ton.org/ecosystem/tma/create-mini-app#:~:text=@telegram%2Dapps%2Fcreate%2Dmini%2Dapp (reply to 183168)
+
+0xAttra: Hi, is there any data to determine the share of wallets w5 compared to the rest?
+
+Tand: Why was a large portion of the funds sent to Telegram addresses from this fund to support contracts for commercial entities? (reply to 183156)
+
+Tand: Can we say that Swiss laws were violated? (reply to 183156)
+
+Tand: And the last question: can the management provide an accounting to the community? Where did the 27 million from the non-commercial fund go?
+
+— 2026-06-06 —
+
+MAX: The robot's answers are very bad in the developer community. I asked about the available resources from Telegram for hosting TMA. I recently heard about a cloud from Telegram where you can host applications and it seems they only announced this, but there is no implementation yet. (reply to 183172)
+
+cb 🥊: Agreed
+
+Ankit j: Whats everyone is developing on ton these days ?
