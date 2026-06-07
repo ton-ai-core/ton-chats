@@ -2839,3 +2839,69 @@ MAX: The robot's answers are very bad in the developer community. I asked about 
 cb 🥊: Agreed
 
 Ankit j: Whats everyone is developing on ton these days ?
+
+Ali: I fixed the issue by compiling the trace module from the ton-index master branch—looks like the latest Node update required some changes. (reply to 183154)
+
+MAX: I connected an aggregator of the most modern models and asked them to create an interesting TMA for TON. Now I'm watching as the team of agents writes code. (reply to 183199)
+
+xylica: have you made any progress on this? (reply to 182977)
+
+cb 🥊: Trading bots (reply to 183199)
+
+Ankit j: Nice (reply to 183207)
+
+Adapt: I checked various sources to find out but it seems that the stability is for validators, custom overlays participants - the public overlay is just less important. You can see that clearly by comparing how many transactions are broadcasted via public overlay vs transactions actually added to the chain. There is like 10-30%+ transactions onchain that are never seen in public overlay from my stats.  Nothing new really, BSC most of txs propagates via private mempool infra and get public broadcasted right after the block is built.  I read that as anti-spam + anti-mev + better centralisation ¯\_(ツ)_/¯  Anyhow, if you guys have ideas how to make indexers / chain data readers stable & still fast, feel free to share. Thanks. (reply to 183204)
+
+Ankit j: Agent ? (reply to 183202)
+
+xylica: are you indexing from public broadcast overlay? why? i just noticed the average external message speed (from broadcasted to accepted) is slower in the past few days (reply to 183210)
+
+cb 🥊: Any good TON groups for launches
+
+Alina: Did you check if it gets better as you connect to more overlay peers? (reply to 183210)
+
+Alina: There are also some complicated rules for getting the broadcast reliably from the peers (such that they don't ignore you and do actually share the broadcast with you)  Most public libraries (go and python) don't handle receiving broadcasts well The C++ ton node is much better but it might not connect to many peers
+
+Alina: I'm pretty sure when I was testing it I could get 100% external message coverage when I was extracting the broadcasts received by multiple self hosted ton nodes / lite servers   One was not enough but a few worked perfectly
+
+Adapt: I think I've tried everything and yes, I understand the C++ TON source code and the chain protocol. After 1st June most peers simply got silent. It's like 90% drop.  Of course I don't have all info what changed so it is possible that these peers work perfectly within custom overlays now but not broadcasting that actively into public overlay as before. Just an observation, I might be wrong and I might be missing something obvious. (reply to 183215)
+
+Adapt: When did you test that? After or before 1.06? (reply to 183217)
+
+Alina: Before (reply to 183219)
+
+Adapt: I see. Anyways, I'm sure people responsible for the infra setup / validators are fully aware of all of that, and there must be a reason why this is happening.  I'll keep watching source code changes, maybe this will be calibrated or changed in the future. Need to use what's there and just accept glitches / slower indexing. (reply to 183220)
+
+Ankit j: Guys, any good TON groups for launches??
+
+Andrey: sharp framing, and the "on-chain history as sybil filter" direction is right — let me add what it looks like in practice, because I've been building exactly this detection on TON.  The strongest signal isn't account age on its own — it's graph structure. Sybil clusters share funding ancestry (a common source wallet a few hops back), near-identical timing, and behavioral homogeneity — same actions, same amounts. A whale can fake balances and even age individual wallets, but coordinating thousands of them leaves a fingerprint the timestamps don't: they trace to the same lineage and move in lockstep. The graph doesn't lie even when the clock does.  Your "aged wallets in advance" point is the genuinely hard case — agreed. But aging is expensive, and coordination at scale still clusters. Empirically these setups are everywhere on TON: I flag launches daily where 90%+ of supply sits in dozens of wallets funded from a handful of sources, with no organic history. One today was 103 wallets / 99% of supply / 10 funding origins.  Happy to compare notes or share cluster data if useful — it's a more tractable on-chain problem than people assume. (reply to 183078)
+
+xylica: i'm interested in this, is it possible to extract external messages from canonical node or are you running your fork of node to achieve that? (reply to 183217)
+
+Alina: I'm running a fork.  in file validator/manager.cpp to the top of this method I added a log:   void ValidatorManagerImpl::new_external_message(td::BufferSlice data, int priority) {   LOG(ERROR) << "new_external_message:" << td::buffer_to_hex(data); (reply to 183226)
+
+Alina: A fork is not difficult to run, in mytonctrl you do an upgrade pointing to your repository:  MyTonCtrl> upgrade https://github.com/<your_username>/ton (reply to 183226)
+
+xylica: yes, i run my own fork too, i'm just curios about receiving external messages from the node instead of listening to the public overlay (reply to 183228)
+
+Alina: what did you change in the node? (reply to 183229)
+
+xylica: i'm currently experimenting with increasing out of sync threshold from 16 blocks to 96 blocks in ValidatorManagerImpl::out_of_sync apparently, when this threshold is crossed it will go into archival download mode, before subsecond, 16 blocks is ~38.4 seconds but after subsecond it's only 6.4s which is way too low, a minor hiccup will make it goes down an out of sync spiral (reply to 183231)
+
+Hosein: Hi
+
+— 2026-06-07 —
+
+Angel: Hi
+
+Angel: Can you let me know what coin are under TON token
+
+TON Support: Toncoin is the native cryptocurrency of the TON ecosystem. Within the TON ecosystem, there are also fungible tokens called Jettons, which are comparable to Ethereum's ERC-20 tokens. Additionally, there are Non-Fungible Tokens (NFTs) and Soulbound Tokens (SBTs).  Source: Overview - TON Docs, Token overview - TON Docs, Glossary - TON Docs, Glossary — TON Docs, Start here — TON Docs, Start here - TON Docs (reply to 183256)
+
+Angel: Can you share me the ca of jettons
+
+TON Support: I cannot provide a definitive "CA" (contract address) for all Jettons, as Jettons are a standard for creating fungible tokens on TON, similar to ERC-20 tokens on Ethereum. Each Jetton has its own unique contract address.  To deploy and mint a new Jetton...  on the mainnet without writing code, you can use the official tool called TON MINTER.  If you need to retrieve specific Jetton data, you can use the Jetton master contract's get_jetton_data() method. For example, USDT on TON is implemented as a Jetton, and its minter contract address is EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs.  Source: Send jettons — TON Docs, How to get jetton supply data — TON Docs, How to work with Jettons using WalletKit on the Web platform — TON Docs (reply to 183258)
+
+✿┋𝐌𝓇 ㄕʳศ𝑠ʱ𝓪ⁿէ ᥫ᭡፝֟፝֟.ִֶָ𓂃°: Hello everyone
+
+TON Moderator: Hello, Em Út! Read rules and click button below.
