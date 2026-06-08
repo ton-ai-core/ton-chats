@@ -2905,3 +2905,17 @@ TON Support: I cannot provide a definitive "CA" (contract address) for all Jetto
 ✿┋𝐌𝓇 ㄕʳศ𝑠ʱ𝓪ⁿէ ᥫ᭡፝֟፝֟.ִֶָ𓂃°: Hello everyone
 
 TON Moderator: Hello, Em Út! Read rules and click button below.
+
+MAX: I think TMA on TON is in most cases code generation by AI agents, and they present it to us as if they understand assembly. (reply to 183211)
+
+MAX: For some reason, at the international level, they prefer to pay salaries not through TMA on TON, but on Ethereum with huge capitalization. (reply to 183257)
+
+Ankit j: Oh wow (reply to 183275)
+
+Ⓜ️ Boldgold: Currently I guess leveraging the best momentum to raise the Ton Network value rest in the real ability of TMA's to solve a specific and current Issue that not only the blockchain but it's users are facing while interacting with it daily. When we stretch to give a great answer to the day to day frictions while using TMA then we can really position the backend on the road of real utulity and scalable scheme. I think real utulity is the key to a token or plateforme scalability, when the utulity rises so does the plateforme and its token and in other ways when the utilities are limited or un-useful it's no wonder the token declines and so does the plateforme. We need to restructure most of the project to face and resolve some Real deep utility and the network not just launching and product but a specific solution bringer and then I think we can start pulling up real solutions for the green momentum of Ton
+
+— 2026-06-08 —
+
+MAX: Yes. For example, we can write an extension for different IDEs for Mira, but for this they must have a public API. This will allow the capabilities of GLM to be revealed for long-term tasks. Currently, access to them is available, but through the chat in Telegram, it is not possible to reveal all capabilities. (reply to 183304)
+
+M: Gm
