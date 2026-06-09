@@ -2919,3 +2919,31 @@ Ankit j: Oh wow (reply to 183275)
 MAX: Yes. For example, we can write an extension for different IDEs for Mira, but for this they must have a public API. This will allow the capabilities of GLM to be revealed for long-term tasks. Currently, access to them is available, but through the chat in Telegram, it is not possible to reveal all capabilities. (reply to 183304)
 
 M: Gm
+
+Biggest: Hi Everyone I'm Seeking Co-Founder – Marketing & Partnerships  can I post about my project
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hey, Im building a privacy pool factory contract for TON and any jettons. Think of Tornado or Tonnel, but anyone can create a pool for any jettons.   You generated a secret, deposit a fixed amount, then later withdraw to a fresh address. A zero-knowledge proof breaks the on-chain link between depositor and recipient.  Under the hood: Groth16 zk-SNARKs over BLS12-381, verified on-chain inside the TVM. Merkle tree of depth 20 enabling 1M deposits per pool. No admin fees.   A trust setup is needs to be done.  Groth16 needs a per-circuit trusted setup. If the secret randomness of that setup ever leaks, someone could forge withdrawal proofs and drain pools.  The fix is a public multi-party ceremony.  Each participant injects randomness and destroys their own secret. As long as one participant stays honest, the setup is permanently secure and no one can forge proofs. Every contribution is public and verifiable.  > So I’m doing this public call:  The multi-party ceremony is open and we’re looking for contributions  Contributing is Docker-based, clone, run a script, add your randomness, PR. It takes a few minutes.  One honest contribution from you makes this trustless for everyone.  > How to contribute ?  https://github.com/TONresistor/zk-resistor-ceremony?tab=contributing-ov-file  End of the ceremony: TBA   ZKResistor Contracts:  https://github.com/TONresistor/zk-resistor-contracts  Live on a mainnet test deployment: zk.resistance.dog (for tests only.)
+
+Max: Hi! We’re making the alpha version of our TVM contract decompiler to FunC publicly available: https://decompiler.swap.coffee/?address=EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs At the moment, it works with contracts of medium complexity. For a certain subset of contracts, it produces recompilable code; for another subset, the recompiled output is byte-for-byte identical. Some non-trivial instructions are not supported yet, such as dynamic dispatch and try/catch. Currently, FunC is the only supported output language, although the original contract itself may essentially have been written in anything. We’re planning to add Tolk support and improve instruction coverage. The source code is planned to be opened a bit later. We’d be happy to hear your feedback :)
+
+xylica: this is very awesome, i'm also working on a tvm decompiler (reply to 183362)
+
+Ekaterina: Seems like a cool tool! Is it open source? (reply to 183362)
+
+Max: not at this moment, but planned (reply to 183368)
+
+Sviatoslav: Why nor? (reply to 183369)
+
+— 2026-06-09 —
+
+Reuben.TON🌊: he's still working on it (reply to 183377)
+
+friendly: who got legit site?
+
+&rey: Could you explain what you're asking about? (reply to 183391)
+
+friendly: Finna grab some shi (reply to 183392)
+
+mack: shi best hitting fr
+
+Алексей: ​My name is Alexey Terentev ( karamik) , and representing the international group of developers at TOTAL Protocol Foundation, I am presenting the first stable release of ECHO SDK (v1.0.0). ​ECHO SDK is a decentralized, serverless transport layer (Layer 0) that enables Android devices to exchange data completely offline—without internet, cellular connectivity, or central servers—utilizing direct Wi-Fi and BLE mesh networking. ​The framework is natively architected for the TON cryptoeconomic ecosystem. It features a built-in Proof-of-Relay economic model that transforms millions of standard smartphones into a distributed physical infrastructure network (DePIN), rewarding transit nodes with TON-compatible micro-rewards for packet relaying. ​Current Project Status & Architecture: ​Public Repository: The complete production-ready framework structure, component layout, and CI/CD automation pipeline are published at: [https://github.com/karamik/ECHO-SDK-v1.0.0](https://github.com/karamik/ECHO-SDK-v1.0.0) ​Hardware & OS Optimization: We have successfully addressed core mobile-mesh vulnerabilities, including Android 13/14 Doze Mode background execution, broadcast storm prevention via a Dynamic Trickle Algorithm, and hybrid time-slicing for Wi-Fi chipsets lacking simultaneous AP/STA hardware concurrency. ​Legal Compliance: The transit database operates exclusively on encrypted chunks via ChaCha20-Poly1305 AEAD. Intermediate nodes cannot read payloads, qualifying the user's device under the legal status of a Mere Conduit. ​We are looking to discuss the integration of ECHO SDK as an unblockable, alternative transport layer for Telegram, as well as applying for the TON DePIN Grant track. ​Please note that the underlying low-level hardware communication algorithms and proprietary crypto-core mechanics remain protected intellectual property. They are kept private and provided via compiled binary modules under our Apache 2.0 commercial licensing structure. ​We are ready to provide an in-depth technical Litepaper and schedule a live architectural demonstration upon your request. ​Best regards, karamik // TOTAL Protocol Foundation
