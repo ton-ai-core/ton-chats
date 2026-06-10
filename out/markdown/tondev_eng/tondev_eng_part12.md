@@ -2947,3 +2947,29 @@ friendly: Finna grab some shi (reply to 183392)
 mack: shi best hitting fr
 
 Алексей: ​My name is Alexey Terentev ( karamik) , and representing the international group of developers at TOTAL Protocol Foundation, I am presenting the first stable release of ECHO SDK (v1.0.0). ​ECHO SDK is a decentralized, serverless transport layer (Layer 0) that enables Android devices to exchange data completely offline—without internet, cellular connectivity, or central servers—utilizing direct Wi-Fi and BLE mesh networking. ​The framework is natively architected for the TON cryptoeconomic ecosystem. It features a built-in Proof-of-Relay economic model that transforms millions of standard smartphones into a distributed physical infrastructure network (DePIN), rewarding transit nodes with TON-compatible micro-rewards for packet relaying. ​Current Project Status & Architecture: ​Public Repository: The complete production-ready framework structure, component layout, and CI/CD automation pipeline are published at: [https://github.com/karamik/ECHO-SDK-v1.0.0](https://github.com/karamik/ECHO-SDK-v1.0.0) ​Hardware & OS Optimization: We have successfully addressed core mobile-mesh vulnerabilities, including Android 13/14 Doze Mode background execution, broadcast storm prevention via a Dynamic Trickle Algorithm, and hybrid time-slicing for Wi-Fi chipsets lacking simultaneous AP/STA hardware concurrency. ​Legal Compliance: The transit database operates exclusively on encrypted chunks via ChaCha20-Poly1305 AEAD. Intermediate nodes cannot read payloads, qualifying the user's device under the legal status of a Mere Conduit. ​We are looking to discuss the integration of ECHO SDK as an unblockable, alternative transport layer for Telegram, as well as applying for the TON DePIN Grant track. ​Please note that the underlying low-level hardware communication algorithms and proprietary crypto-core mechanics remain protected intellectual property. They are kept private and provided via compiled binary modules under our Apache 2.0 commercial licensing structure. ​We are ready to provide an in-depth technical Litepaper and schedule a live architectural demonstration upon your request. ​Best regards, karamik // TOTAL Protocol Foundation
+
+Lev: Hello, I would like to share a new project I built.
+
+Lev: It’s a dedicated TMA launchpad with simplified Periodic Uniform-Price Auctions
+
+Lev: Cross-chain swaps from Base and Poly USDC to Gram
+
+Lev: If you are an app builder and want to raise funding - check out my bio
+
+Lev: 💎 Gram Store opens after name switch from Toncoin to Gram. Get exposure, get funded!
+
+— 2026-06-10 —
+
+Srockusmani: Hi everyone,   Are there any active workgroups or benchmarks on TON for accelerating ZK proof verification or MSM (Multi-Scalar Multiplication) on GPUs (specifically NVIDIA T4/L4)?   We have optimized MSM execution on T4 GPUs by using a Flat Bitmask Contiguous Matrix layout to enforce coalesced memory reads, achieving a 2x speedup compared to Pippenger baselines (e.g., 4M Points in 14.17s vs 28.49s).  We are looking to discuss if/how this library can be integrated to optimize TVM (TON Virtual Machine) ZK precompiles or TON-based ZK-rollups.   If anyone is working on TON ZK-infrastructure or wants to test the precompiled library (.so) on their T4 dev environments, please let me know or DM.   Verification Script: https://raw.githubusercontent.com/TheHigherDimensionalBeing/yggdrasil-msm-benchmark/main/verify_extension.py Staged Binary (.so): https://razwhqwbfnjxhbwgnsss.supabase.co/storage/v1/object/public/compliant-mrfs/yggdrasil_msm_core.so
+
+&rey: TVM runs, and will run, without any access to GPU. (reply to 183449)
+
+&rey: Note that not only validators run the contracts, but also the emulators; mobile too, and it would be inconvenient to require GPU access there.
+
+Srockusmani: Yes the TVM runs purely on-chain (CPU) to execute the verifier our MSM engine is targeted at the off-chain Prover side e.g., sequencers/provers generating ZK proofs for TON L2s, bridges, or private dApps before submitting the final proof to the TVM verifier Proving latency is where the T4/L4 GPU bottleneck is and that is what this optimization addresses
+
+Srockusmani: exactly, client-side emulation and mobile devices should absolutely not require GPU access. In a standard rollup/L2 setup, only the off-chain prover operator (who aggregates batches of transactions runs the heavy GPU hardware to generate the proof. Mobile users and emulators only submit transactions or run lightweight verification, which remains purely CPU-based. There is no GPU requirement for the end-user or validator. (reply to 183452)
+
+&rey: I should also ask: ZK-STARK or ZK-SNARK?
+
+Srockusmani: for zk-snarks since msm is the main bottleneck there. starks don't use elliptic curves or msm (they mostly do ntt and hashes) (reply to 183456)
