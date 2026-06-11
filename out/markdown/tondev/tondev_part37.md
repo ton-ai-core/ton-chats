@@ -385,3 +385,21 @@ Tim: Я запушил новую версию, должно работать (r
 Tim: Небольшие накладки там с релизом в нпм произошли, в течении часа докатятся все пакеты и заработает (reply to 352310)
 
 Tim: Проверил, баг пофиксился. Еще раз спасибо @Fragmentdirect (reply to 352311)
+
+— 2026-06-10 —
+
+TON Support: Чтобы проверить, идет ли синхронизация ton-http-api-cpp, вы можете использовать эндпоинты /healthz или /readyz. Эти эндпоинты возвращают HTTP 200 со следующим JSON-ответом:  ```json {   "status": "ok",   "sync_status": 6,   "last_mc_block_seqno": 12345678,   "validation_status": 3 } ```  В этом ответе поле sync_status и last_mc_block_seqno дадут вам информацию о состоянии синхронизации.  Source: [Health probes - TON Docs](https://docs.ton.org/ecosystem/nodes/rust/probes#:~:text=%E2%80%8B
+
+𝗠𝗿. 𝗠𝗮𝗿𝗸: Да куда удалили
+
+User: /ton-http-api-cpp# curl -s "http://localhost:8081/api/v2/getAddressBalance?address=..." | jq . {   "ok": false,   "error": "LITE_SERVER_UNKNOWN: backend node timeout(during last block synchronization)",   "code": 500,   "@extra": "1781094177:0:6300.91" } ton-http-api-cpp# echo "Local: $(curl -s /api/v2/getMasterchainInfo | jq .result.last.seqno) - Remote: $(curl -s /api/v2/getMasterchainInfo | jq .result.last.seqno)" Local: 72422329 - Remote: 72422329  Не могли бы подсказать в чем проблема?  ——  Вернул (reply to 352392)
+
+𝗠𝗿. 𝗠𝗮𝗿𝗸: Спасибо! (reply to 352395)
+
+𝗠𝗿. 𝗠𝗮𝗿𝗸: Все вроде бы ин синхрон, а все равно получаю ошибку что during last block synchronization
+
+— 2026-06-11 —
+
+Homo: Подскажите пожалуйста, мне прислали скам токен на кош, нужно ли его перекидывать на burn адресс? (нулевой)  я попытался но мне тонкипер сказал типо -> неуспешно, непроверенный токен
+
+Rand: просто забей. их рассылают постоянно (reply to 352461)

@@ -2973,3 +2973,13 @@ Srockusmani: exactly, client-side emulation and mobile devices should absolutely
 &rey: I should also ask: ZK-STARK or ZK-SNARK?
 
 Srockusmani: for zk-snarks since msm is the main bottleneck there. starks don't use elliptic curves or msm (they mostly do ntt and hashes) (reply to 183456)
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Still open. End of the ceremony TBA (reply to 183398)
+
+MAX: Friends, who knows when they will start refactoring ton/mcp to gram? For example, the send_ton event.
+
+MAX: I think this is one of the main components of AgentKit, and everywhere there the old name ton or TON is hardcoded during transaction sending.  Good thing I hedged my bets earlier and set "@ton/mcp": "0.1.13", so there won't be an unpredictable package version jump, and most likely we'll have to leave the send_ton event as is, since who knows what exactly depends on this route.
+
+— 2026-06-11 —
+
+Protocol 2099: Hi! I deleted the old analytics key, now I can't create a new one with the same name, it says "App name is already in use". Help me release the name from the archive, please
