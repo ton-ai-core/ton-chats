@@ -403,3 +403,53 @@ User: /ton-http-api-cpp# curl -s "http://localhost:8081/api/v2/getAddressBalance
 Homo: Подскажите пожалуйста, мне прислали скам токен на кош, нужно ли его перекидывать на burn адресс? (нулевой)  я попытался но мне тонкипер сказал типо -> неуспешно, непроверенный токен
 
 Rand: просто забей. их рассылают постоянно (reply to 352461)
+
+Siwiken: а мне нет, обидно( (reply to 352462)
+
+Protocol 2099: Всем привет, можете подсказать куда писать с вопросом по builders.ton.org? Удалил ключ аналитики, а новый с тем же именем не могу создать
+
+Pavel: пробуйте api 👀 докатили events websocket + историю событий. 🔌 websocket: wss://websocket.rugp.io/ws/events минимальная подписка: {"type":"subscribe"} 🎯 можно фильтровать по типам событий, сервисам, комментариям, токенам, адресам, суммам.... например: {"type":"subscribe","filters":{"comment":"Stars"}} {"type":"subscribe","filters":{"type":["swap"]}} {   "type":"subscribe",   "address":"0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a",   "filters":{"comment":"Stars"} } 📚 история событий: последние события: curl "https://websocket.rugp.io/api/history/events?limit=10" события с комментарием Stars: curl "https://websocket.rugp.io/api/history/events?comment=Stars&limit=10" только свапы: curl "https://websocket.rugp.io/api/history/events?type=swap&limit=10" по адресу: curl "https://websocket.rugp.io/api/history/events?address=0:852443f8599fe6a5da34fe43049ac4e0beb3071bb2bfb56635ea9421287c283a&limit=10" по сервису: curl "https://websocket.rugp.io/api/history/events?service=stonfi&limit=10" конкретное событие: curl "https://websocket.rugp.io/api/history/event/{event_id}" или по tx hash: curl "https://websocket.rugp.io/api/history/event/{tx_hash}?by=tx" ⚠️ важно: пока история только недавняя. полный backfill ещё не запускали. 🧪 есть расширенный include: {   "type":"subscribe",   "include":["trace","intent","settled","action","flows","tokens","accounts"] } • action — нормальный заголовок и описание события • flows — все переводы, комиссии и движение средств внутри события семантический движок уже работает как надо, сейчас подкручиваем rules и расширенные представления. если найдёте странности или чего-то не хватает — пишите мне
+
+Pavel: минимальная инфа. фронтенд с этим всем делом допиливаем. там глючит все страшно. 😭
+
+Pavel: увижу абуз закрою все сразу. сейчас паблик. многое останется паблик. rate limit сейчас свободный
+
+Mirka: Как коммент экранировать? Кавычки не работают (reply to 352537)
+
+Pavel: curl "https://websocket.rugp.io/api/history/events?comment=750%20Telegram%20Stars&limit=10"
+
+Pavel: это не тонцентр, не тонапи, все свое end to end.
+
+Pavel: буду очень благодарен за полезные и важные замечания и советы. делаем же для девов. для вас.
+
+Pavel: pending aka mempool попозже дам.
+
+Pavel: вопрос. а в dev chat eng как попасть? сори за спам из постов. 🙏
+
+Vladimir: @tondev_eng (reply to 352547)
+
+Pavel: группа недоступна. ну допустим я англ свободно. как попасть туда?
+
+Михаил: Насколько это стабильно? Есть риск, что транзакция затеряется и не придет на сокет? (reply to 352543)
+
+Pavel: есть. если я сделаю деплой новый. пока тестим смотрим, что нра что не нра. еще будет переезд на другой домен и все это умрет. (reply to 352550)
+
+Pavel: по идее не должно затерятся. даже при деплое он подхватывает с момента где остановился поток и там идет catch up. system тиктоки и прочее в основном вырезано
+
+Pavel: по телеграм аккаунтам и данным по адресам (организации) покрытие не максимальное пока что. будет добавляться. данные имеются. все реальные. по ним тоже можно фильтровать.
+
+Pavel: я устал от спринта. надо собраться и доделать. Vanilla js имеет свои приемущества в плане полного контроля и гибкости, но в плане разработки не быстро.
+
+Ринат: Приветствую! Кто сможет написать смарт контракт с 0?  В личку плиз
+
+OneManArmy: за 0 денег дай угадаю
+
+Vladimir: https://ton-blockchain.github.io/acton/ (reply to 352577)
+
+Ринат: Ну если в деньгах считать, то тебе 1 бумажку дам (reply to 352580)
+
+Pavel: 1 бумажку дам, 99 бумажек себе (reply to 352582)
+
+Ринат: 9999
+
+Pavel: чет трейс отвалился тут. попозже поправлю. пока вебсокет только (reply to 352543)

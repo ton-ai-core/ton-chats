@@ -2983,3 +2983,17 @@ MAX: I think this is one of the main components of AgentKit, and everywhere ther
 — 2026-06-11 —
 
 Protocol 2099: Hi! I deleted the old analytics key, now I can't create a new one with the same name, it says "App name is already in use". Help me release the name from the archive, please
+
+Protocol 2099: maybe I need to write to another support chat with this issue?
+
+Killstory: Hi, who’s the point of contact for the TON Network validator node side?
+
+TON Support: For technical assistance regarding TON Network validator nodes, you can contact @mytonctrl_help_bot on Telegram. This bot is specifically for validators and will not assist with general node-related questions.  Source: Run a validator — TON Docs (reply to 183496)
+
+Ankit j: So, do ton supporting full agentic AI implementation? (reply to 183464)
+
+— 2026-06-12 —
+
+Alex: Hi everyone! Is anyone else having trouble logging into builders.ton.org right now?  I need to create analytics key, but the only option I have is using this service.  I've tried all the available methods (TON ID, GitHub, Google), but after confirming, I just get stuck in an endless redirect loop on the main site. Also, when I try the email login route, the confirmation email never arrives.  Is this a known issue, or is it just on my end? Thanks!  —-  I’ve also tried address from this message https://t.me/tondev_eng/176407
+
+Cryptiko: Same issue here. After I get the “login successful” message, the site starts refreshing in a loop, and then I eventually get a 502 error from the host. (reply to 183530)

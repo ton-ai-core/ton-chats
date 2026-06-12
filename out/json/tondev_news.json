@@ -2520,6 +2520,18 @@
       "file": "photos/photo_302.jpg",
       "width": 1254,
       "height": 1254
+    },
+    {
+      "id": 304,
+      "type": "message",
+      "date": "2026-06-11T19:21:46.000Z",
+      "date_unixtime": "1781205706",
+      "from": "Unknown",
+      "from_id": "unknown",
+      "text": "Bot API 10.1\n\n📝 Markup Revolution\n\nThis update introduces native text styling tools to enable richly formatted messages in any chat. Bots can now deliver highly structured content like business reports or media slideshows, while AI agents can seamlessly stream complex replies in real time.\n\nSupported formats include:\n\n• Multi-level headings, paragraphs and dividers.\n• Lists and task lists – with support for custom numerals and ordering.\n• Deeply nested inline formatting, including all common styles plus spoiler, code, subscript, superscript and more.\n• Tables with alignment, captions, borders, striped styling and customizable cells.\n• Media blocks for photos, videos and audio files, with captions and credits.\n• Block and pull quotes, collapsible details blocks, anchors and in-document links.\n• Full LaTeX support – including both inline and multi-line expressions.\n• Maps with custom coordinates.\n• Polished media collages, smooth slideshows.\n• And more! Check out the list here or play around with our interactive demo.\n\n🛡 Guard Bots\n• Bots can now process join request queries as guard bots and approve, decline or queue them – or simply open a Mini App to show the user a captcha before deciding.\n\n📊 Polls\n• Poll option media now supports external links to any website.\n\n• And more, see the full changelog for details:\nhttps://core.telegram.org/bots/api-changelog#june-11-2026",
+      "forwarded_from": "BotNews",
+      "forwarded_from_id": "channel1004276399",
+      "forwarded_date": "2026-06-11T18:09:36.000Z"
     }
   ]
 }
