@@ -2997,3 +2997,25 @@ Ankit j: So, do ton supporting full agentic AI implementation? (reply to 183464)
 Alex: Hi everyone! Is anyone else having trouble logging into builders.ton.org right now?  I need to create analytics key, but the only option I have is using this service.  I've tried all the available methods (TON ID, GitHub, Google), but after confirming, I just get stuck in an endless redirect loop on the main site. Also, when I try the email login route, the confirmation email never arrives.  Is this a known issue, or is it just on my end? Thanks!  —-  I’ve also tried address from this message https://t.me/tondev_eng/176407
 
 Cryptiko: Same issue here. After I get the “login successful” message, the site starts refreshing in a loop, and then I eventually get a 502 error from the host. (reply to 183530)
+
+Alex: Integration with analytics is required by telegram store. Does anyone have success case of publishing app without the integration since the service we have to use to get the token isn’t working? (reply to 183530)
+
+antares: Tell me what to do: I bought a username on a fragment for 10 tons, but the username didn't arrive, and 4.75 tons didn't return to my wallet. I don't know where to turn for help.
+
+Ququita: hi guys, does anybody know something about tonpay api key? Where do I get that key?
+
+TON Support: The TON Pay API key is optional, but it enables merchant features like transaction visibility in the dashboard, webhook notifications, and centralized wallet management. To get one, open the TON Pay Merchant Dashboard, sign in, go to Developer → API Keys, and then generate or copy an existing API key.  Source: How to build a transfer - TON Docs, Build a transfer — TON Docs (reply to 183566)
+
+Ququita: there is no link to the "TON Pay Merchant Dashboard" How do I get that dashboard url? (reply to 183567)
+
+TON Support: To access the TON Pay Merchant Dashboard, you need to open it and sign in to your merchant account. The API key, if provided, enables transaction visibility and webhook notifications within the dashboard.  Source: How to build a transfer - TON Docs, Build a transfer — TON Docs, TON Pay webhooks - TON Docs, TON Pay webhooks (reply to 183568)
+
+Ququita: I understand I need to open it, but I can't find it
+
+Konstantin: Hi everyone! Trying to figure out the current state of TON acceleration programs. ton.org/accelerator now redirects to the homepage after the redesign, the grants repo on GitHub links to an expired domain, and TON:Acc / accelerator_ton looks inactive since 2025. Is there an active accelerator, incubation or grants track right now for early-stage mini apps (working MVP, pre-traction)? Where do applications actually go in 2026? If Foundation programs are paused — is TON Ventures still the right door, or has this moved somewhere else entirely?
+
+— 2026-06-13 —
+
+Reuben.TON🌊: its no longer available   durov might still do something about it   what are you building buddy ? (reply to 183576)
+
+JANAINA: It's there (reply to 183570)
