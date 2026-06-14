@@ -3019,3 +3019,57 @@ Konstantin: Hi everyone! Trying to figure out the current state of TON accelerat
 Reuben.TON🌊: its no longer available   durov might still do something about it   what are you building buddy ? (reply to 183576)
 
 JANAINA: It's there (reply to 183570)
+
+MAX: I am deploying applications on identityhub app, but currently there are no active grants and contests there. The last activity was from stonfi. (reply to 183576)
+
+Konstantin: Building HatchWorld - a geolocation game as a TON mini-app, live in production. Was trying to map the current grant/accelerator landscape since the old Foundation track is paused. (reply to 183581)
+
+Homo: Seems fake to me. (reply to 183602)
+
+Konstantin: You can try (reply to 183604)
+
+Homo: Send proof here, otherwise you are 75%+ scammer. (reply to 183605)
+
+Konstantin: It's funny. Just type HatchWorld in the search. I think videos aren't allowed here. (reply to 183606)
+
+Konstantin: It’s pretty sad that even in developer chats people immediately suspect each other of scams. The ecosystem has been so polluted by scammers that even legitimate projects get treated with suspicion first, before anything else. (reply to 183606)
+
+Homo: No, TON is the least polluted by scammers cryptocurrency. (reply to 183610)
+
+Konstantin: I actually got scammed here for $20 on a fake consultation when I asked for help with TON smart contract development. (reply to 183611)
+
+Homo: Proof? (reply to 183612)
+
+Konstantin: The scammer, of course, deleted our chat and changed their name, but they’re still in this group. (reply to 183613)
+
+Homo: Ok, how you got scammed? Tell me (reply to 183614)
+
+Konstantin: I asked for help with writing a smart contract code. A few people reached out to me in DMs. We negotiated the price - they initially wanted $100-200, but we agreed on $20 for the first iteration.  I uploaded the code to GitHub. However, the person just sent me something that was basically ChatGPT output - complete nonsense that didn’t actually solve anything.  So be careful- if someone here offers to help you, make sure they prove first that they actually understand the topic before you trust them your money   When I asked where the real result was, they deleted the chat and changed their name. I tried messaging them from another account, but I got blocked and that was it. (reply to 183615)
+
+Homo: What? (reply to 183618)
+
+Homo: How come you uploaded the code, but they gave chatgpt code aswell?  I think you are scammer (reply to 183618)
+
+Konstantin: I don't think initiating this kind of discussion has any value in a professional community. I've shared my experience, and that should be enough. (reply to 183620)
+
+Ciclone.cash | Privacy Wallet: Dude, there are no serious developers that will write you a smart contract for 20$ (reply to 183618)
+
+Konstantin: I didn't ask to write a contact. I asked for a consultation. (reply to 183628)
+
+Ⓜ️ Boldgold: Currently I think one thing the network is lacking the most, is project tackling real cases utulity and reliability in day to day use cases. I can see it out how diverse project are popping up here and there and mostly talking about complex solving issues which are at first hand pretty cool and honorable. It helps the chain becomes better and more epic in it's core fonctionalities. But on the other hands when you pitch these products to a new web3 user he'll be like just get get me a cup of cappuccino first because no direct utulity found. The real deal here is the fact that mass crypto adoption should be the Genesis behind the conception of a project if not the product will just be entering the large pool of quite excquisite yet not real relevant apps currently overfloading the market. Don't be a part of it.  I'm currently building a stack allowing users to send token peer to peer in Tg while leveraging their Identify and also not the least building an agentic marketing OS that will enable web3'ers to create, automate and scale their activities and or businesses through automation and agentic AI. The Tg Mini app is currently in alpha test Mode on railway and will be fully released very soon.   I will like to share more with really deep and developed oriented minds developers to see out how we can push this early project even more further.   And also encourage all dev to make more deeper research and dive into areas that hold and bring real utilities in daily use cases. Only these can bring long-term adoption and product scalability.
+
+quant: hi
+
+quant: i have started to make a new launchpad for TON
+
+quant: i have noticed that many launchpads in the space are not that good and need a lot of work w making it look good making it easy for retail etc, so i wil make the first one, users can acces it by the website or by telegram, so users are just one click away
+
+quant: and
+
+quant: o need help w smart contracts
+
+TON Support: To develop smart contracts on TON, you can use the Rust toolkit, Acton, with Tolk as the recommended smart contract language. Smart contracts on TON can include wallets, electors, and multi-signature wallets.  Source: Introduction to smart contract development — TON Docs (reply to 183654)
+
+Natha: Can’t you report them to one of the group’s admins tho? (reply to 183614)
+
+Natha: Can’t agree more with what you said. Meanwhile, WalletConnect is full-on real-life advertising. (reply to 183634)
