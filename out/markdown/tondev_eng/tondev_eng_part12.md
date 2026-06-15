@@ -3073,3 +3073,15 @@ TON Support: To develop smart contracts on TON, you can use the Rust toolkit, Ac
 Natha: Can’t you report them to one of the group’s admins tho? (reply to 183614)
 
 Natha: Can’t agree more with what you said. Meanwhile, WalletConnect is full-on real-life advertising. (reply to 183634)
+
+— 2026-06-14 —
+
+Kiril: How do i submit a vulnerability of TON network if i found one?
+
+TON Support: You can submit a vulnerability of the TON network through their security bug bounty program, which encourages security researchers and developers to participate.  Source: Security audits | The Open Network (reply to 183680)
+
+Stryder 💎 🟧 👣: Built a small free tool for TON jetton projects. It pulls a token's holders (via TonAPI) and generates a clean airdrop / whitelist recipient list — automatically excluding LP pools, contract addresses, and flagged/scam wallets, so rewards don't go to dead addresses or your own liquidity. Output is a Ton Console-ready CSV. If you (or a project you know) are planning an airdrop, whitelist, or holder reward — drop the jetton address or DM me and I'll run it and send you the list. Free, no signup, no wallet connection. Happy to share how it works. (I build on TON — made STRYDE, a fitness mini app.)
+
+— 2026-06-15 —
+
+Emilia: Hello, I have a quick question about the official website. Following Telegram’s takeover, the homepage has changed, but it is still possible to access the old website, for example the roadmap. Is this intended behaviour? Thank you
