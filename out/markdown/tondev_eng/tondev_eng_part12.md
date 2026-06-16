@@ -3085,3 +3085,33 @@ Stryder 💎 🟧 👣: Built a small free tool for TON jetton projects. It pull
 — 2026-06-15 —
 
 Emilia: Hello, I have a quick question about the official website. Following Telegram’s takeover, the homepage has changed, but it is still possible to access the old website, for example the roadmap. Is this intended behaviour? Thank you
+
+M: Hi all - TON / FunC smart-contract engineer, available for paid contract work.  Background: led a regulated real-world-asset tokenization build on TON — FunC contracts applying ERC-3643 compliance concepts (identity, transfer controls, mint / burn / pause), plus the .NET + TypeScript backend around it. Open source: a permissioned TEP-74 jetton with allowlist-gated transfers, live on testnet → github.com/mnamvari/compliant-jetton-ton  Looking for tightly-scoped FunC work: jetton / contract development, TypeScript wrappers + test suites, on-chain / off-chain integration, or contract review and cleanup. Fixed scope, milestone-based, paid in stablecoin. Happy to start with something small.
+
+Lev: Hey we’re launching Gram Store this week on June 18. It’s the very first launchpad dedicated to Telegram Mini Apps. No memes, no pump and dumps.
+
+Lev: Developers can list their apps for auctions, get initial validation, and graduate to Stonfi with a new token and a liquidity pool seeded with the proceeds raised
+
+Lev: It’s ideal for builders who have apps and ideas they want to fund but can’t get in front of VCs, or don’t know where to start with their fundraising. Link in bio, or DM me for early access
+
+— 2026-06-16 —
+
+Shahruz: why is fee of transfering the nfts to new wallet is so high ? i have 100 username nfts but icant transfer it cause of high fees , what you suggest??
+
+TON Support: NFT transfers are more complex than regular Toncoin transfers because they involve multiple internal messages between contracts, which contributes to higher transaction fees. These fees are made up of import fees, storage fees, and compute fees. Validators set the levels for these fees through voting.  Source: How to work with NFTs using WalletKit on the Web platform, Transaction fees — TON Docs (reply to 183781)
+
+Shahruz: Higher transaction fees? Are you saying it costs 1 TON per NFT? You tried to prevent the bulk transfer of scam NFTs, but this change has made things even worse. (reply to 183782)
+
+Shahruz: Why is it cheaper to send NFTs from a wallet with transaction history, but more expensive when sending them to a new wallet?
+
+&rey: It is not. (reply to 183784)
+
+&rey: You shouldn't touch NFTs which require 1 TON for transfer, they are often scam. (reply to 183783)
+
+Willy: Maybe it is about how new wallets (v4/v5) should be deployed by the owner after receiving TON   Like the deploy fee, that is paid on first transaction by owner (reply to 183785)
+
+&rey: Both of these would be negligible though (reply to 183789)
+
+Willy: It could explain why new wallets are more expensive
+
+Willy: Yes, sure, but different amounts could confuse at first (reply to 183790)

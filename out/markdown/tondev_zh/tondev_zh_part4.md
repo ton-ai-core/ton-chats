@@ -12829,3 +12829,31 @@ FtC5: 兄弟们
 FtC5: 为什么我用网站创的币不显示头像
 
 Combot: TON Dev Chat (中文) 💬 129742
+
+— 2026-06-15 —
+
+TRX-兔能量: 兄弟们
+
+TRX-兔能量: 有人用U吗
+
+WB3，dapp，智能合约，链游，一手开发: ton的测试网这么垃圾吗
+
+WB3，dapp，智能合约，链游，一手开发: 速度好慢啊，dapp获取数据也好慢啊
+
+WB3，dapp，智能合约，链游，一手开发: 有啥办法吗
+
+TON Support: There are several incidents currently affecting dApps, with errors indicating "context deadline exceeded" for various services like tonviewer.com, tonhub.com, tganalytics.xyz, docs.ton.org, kucoin.com, builders.ton.org, api.dedust.io, MiniApps Clickhouse, and ton.org. These issues suggest potential slowdowns or failures in data retrieval. (reply to 130005)
+
+TON Support: 根据您提供的信息，dApp获取数据慢可能与正在发生的事件有关，例如我之前提到的各种服务（如tonviewer.com、tonhub.com等）出现的“context deadline exceeded”错误。这些错误表示数据请求超时。  对于这种情况，作为用户，您可能无法直接解决底层的网络或服务问题。您可以尝试以下方法：  *   稍后再试：如果问题是暂时的网络拥堵或服务中断，通常等待一段时间后会自行恢复。 *   检查服务状态页面：一些dApp或TON生态系统会有官方的服务状态页面，您可以查看是否存在已知的维护或问题。...  *   联系dApp支持：如果问题持续存在，您可以联系您正在使用的dApp的官方支持，向他们报告问题。  对于开发者而言，如果dApp数据获取缓慢，可以考虑以下几点：  *   设置自己的全节点或归档节点：为了获得稳定的连接，您可以设置自己的全节点或归档节点，并启用liteserver模式和ton-http-api。这可以通过MyTonCtrl实现。 *   使用TON Center或其他RPC提供商：如果您无法设置自己的TON节点，可以使用TON Center或其他RPC提供商来获取数据。  来源: Overview, Custodian integration for native and web wallets, How to handle connections with WalletKit on the Web platform, TON Connect overview (reply to 130006)
+
+WB3，dapp，智能合约，链游，一手开发: 我开发一个商城，准备在ton上测试运行，现在卡成这样，根本没法测试啊
+
+TON Support: 您提到在TON上开发商城并进行测试时遇到卡顿，这确实会影响测试进度。  针对测试环境，TON提供了 Testnet 作为主要的测试环境。为了确保您的商城在TON上顺利运行，您可以关注以下几点：  *   索引器团队：     *   将您的索引器连接到 Testnet。     *   在正常条件下运行至少30分钟。     *   测量索引器延迟，即从区块生成到索引器处理之间的时间。     *   确保延迟保持在500毫秒以下，并且没有积压。  *   用户体验和应用团队：     *   连接到 Testnet 的端点。     *   尝试发起TON转账，以测试基本功能。  如果您的索引器或应用程序在Testnet上表现不佳，可能会导致您观察到的卡顿。在这种情况下，您需要检查您的索引器配置和应用程序与Testnet的连接情况，以优化性能。  来源: How to adopt sub-second finality (reply to 130009)
+
+福气: 啥商城？ (reply to 130009)
+
+— 2026-06-16 —
+
+将军回田野 🟢 Ash ✌️Peace 💻: 有 开发者奖励扶持计划吗
+
+TON Support: 是的，有一个 Builders Portal 作为新项目的主要入口，提供支持计划、资源和合作伙伴优惠。此外，TON 还有 bug bounty 项目。  Source: Get support - TON Docs (reply to 130112)
