@@ -3115,3 +3115,27 @@ Willy: Maybe it is about how new wallets (v4/v5) should be deployed by the owner
 Willy: It could explain why new wallets are more expensive
 
 Willy: Yes, sure, but different amounts could confuse at first (reply to 183790)
+
+Shahruz: i cant send you image to show you its not scam its real username nft with 0.5 ton fee for transfering (reply to 183786)
+
+H1Xploit: Is the owner of @topco here? I found a critical security bug.
+
+— 2026-06-17 —
+
+Galaxy: share me the image to confirm it (reply to 183799)
+
+Shahruz: who the hell are you (reply to 183896)
+
+ImThomas: ?? (reply to 183899)
+
+Shahruz: i just talk to ton help support , they told me use another native wallet , wich one you prefer to use ? (reply to 183786)
+
+Shahruz: ?? (reply to 183902)
+
+ImThomas: which wallet are you using before? (reply to 183903)
+
+Shahruz: tonkeeper (reply to 183905)
+
+Shahruz: please dont come to pv and stop telling im tonkeeper support with indian accent
+
+ImThomas: try importing to Tonhub (reply to 183907)
