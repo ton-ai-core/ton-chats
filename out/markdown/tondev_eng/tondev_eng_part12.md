@@ -3139,3 +3139,9 @@ Shahruz: tonkeeper (reply to 183905)
 Shahruz: please dont come to pv and stop telling im tonkeeper support with indian accent
 
 ImThomas: try importing to Tonhub (reply to 183907)
+
+K@izen: I want to know the rules of this channel
+
+M: https://telegra.ph/TON-Dev-Chat-Rules-English-12-03 (reply to 183930)
+
+K@izen: thank you bro (reply to 183931)
