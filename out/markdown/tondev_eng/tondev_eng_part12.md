@@ -3145,3 +3145,63 @@ K@izen: I want to know the rules of this channel
 M: https://telegra.ph/TON-Dev-Chat-Rules-English-12-03 (reply to 183930)
 
 K@izen: thank you bro (reply to 183931)
+
+— 2026-06-18 —
+
+ETHERNITY: Hey guys, why i accept transfer on ton network, and my wallet has empty
+
+&rey: That shouldn't happen, since incoming transfers don't require interacting with you. Could you explain more on what you saw? (reply to 184061)
+
+&rey: Though explorers may have lagged a bit; they are getting restored (synchronized) soon.
+
+ETHERNITY: I withdrew coins from the exchange. The transaction was successful. But in the blockchain there are 0 coins (USDT). (reply to 184063)
+
+ETHERNITY: Can i send TxID?
+
+ETHERNITY: 507832935afdad8d5d80de65a3aa494ec555bdb7ad853b9eb7f3780c464f679a
+
+Anton: try again pls (reply to 184068)
+
+ETHERNITY: wdym? (reply to 184069)
+
+Anton: check the balance =) (reply to 184070)
+
+ETHERNITY: god bless u братиш
+
+ETHERNITY: 2 hours of waiting
+
+ETHERNITY: :D
+
+Anton: no worries fam, some indexing issues, you can reindex yourself via /v2/accounts/{account_id}/reindex
+
+Anton: https://tonapi.io/api-v2#operations-Accounts-reindexAccount
+
+ETHERNITY: how it works? im not a developer, default user (reply to 184076)
+
+Anton: just press try it out > use your wallet address (or jetton_wallet of USDT) and execute, and voila.  it shouldn't happen at all tbh, we are working to fix that ;D
+
+ETHERNITY: ok thank u so much!
+
+ETHERNITY: < 3
+
+Danechka: I can't make a transaction, it doesn't calculate the commission in Tonkeeper , error 1, does anyone know how to solve this?
+
+Anton: dang, send me the address or write to tonkeeper support
+
+— 2026-06-19 —
+
+MAX_1: Hello everyone.  I now have more and more technical questions for Pavel Durov.
+
+Ivan: Hi, guys. I expected you are doing well. i'm writing here because i'm facing an issue in a transfer i did from Binance exchange to my personal tonkeeper wallet. I transfered USDT's, the transaction was successfull but the ammount is not available in my personal tonkeeper wallet. The transaction hash is 85700184ceed1dab27e5be05de1c1bcc047f54cb39dbe2acf6c06fb73559c1a8.
+
+Ivan: This is the view in the blockchain explorer
+
+Ivan: In Token tab, the ammount is not available. Same issue happens in my wallet.
+
+Anton: gimme two mins
+
+Anton: check naw (reply to 184132)
+
+Ivan: Now, magically (like Harry Potter stuff) the amount is available. Thank you !
+
+Anton: good i've read all books back in the days, prob that's the reason why magic still lingers!  have a good day :) (reply to 184135)
