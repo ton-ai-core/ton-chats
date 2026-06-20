@@ -3205,3 +3205,9 @@ Anton: check naw (reply to 184132)
 Ivan: Now, magically (like Harry Potter stuff) the amount is available. Thank you !
 
 Anton: good i've read all books back in the days, prob that's the reason why magic still lingers!  have a good day :) (reply to 184135)
+
+A: hey are there any aml check service for ton?
+
+A: kyt
+
+Andrey: A question is increasingly arising among TON developers: is there a mechanism to screen TON addresses for sanctions or AML (Anti-Money Laundering) compliance? The honest answer is, essentially, no—not yet. And it is important to understand this. OFAC and Tether have so far barely touched the TON network; consequently, there is virtually no data on network-specific sanctions available for screening purposes. Attempting to run a "sanctions check for TON" today would yield practically zero results. Anyone currently offering a full-fledged AML service for TON is, in reality, passing off address lists from the ETH or TRON networks as TON data. Nevertheless, this gap is gradually narrowing. Amidst tightening regulations on stablecoins (including initiatives like the GENIUS Act and upcoming measures), the blocking of addresses on the TON network is only a matter of time. By the time the first TON address is blocked, the necessary tools—ranging from tracking risk-propagation chains to assessing threat levels—must already be ready for use. Demand is outstripping the volume of available data. (reply to 184140)
