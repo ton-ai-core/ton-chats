@@ -3211,3 +3211,21 @@ A: hey are there any aml check service for ton?
 A: kyt
 
 Andrey: A question is increasingly arising among TON developers: is there a mechanism to screen TON addresses for sanctions or AML (Anti-Money Laundering) compliance? The honest answer is, essentially, no—not yet. And it is important to understand this. OFAC and Tether have so far barely touched the TON network; consequently, there is virtually no data on network-specific sanctions available for screening purposes. Attempting to run a "sanctions check for TON" today would yield practically zero results. Anyone currently offering a full-fledged AML service for TON is, in reality, passing off address lists from the ETH or TRON networks as TON data. Nevertheless, this gap is gradually narrowing. Amidst tightening regulations on stablecoins (including initiatives like the GENIUS Act and upcoming measures), the blocking of addresses on the TON network is only a matter of time. By the time the first TON address is blocked, the necessary tools—ranging from tracking risk-propagation chains to assessing threat levels—must already be ready for use. Demand is outstripping the volume of available data. (reply to 184140)
+
+— 2026-06-20 —
+
+jizzy019: is it TON or GRAM
+
+Galaxy: What are you trying to figure out ?? (reply to 184176)
+
+Mirka: Ton — network Gram — native coin (reply to 184176)
+
+jizzy019: okay. thank you. (reply to 184182)
+
+Dhereal1: @all have Gram store been launch ?
+
+Williams: Tonkeeper may be having trouble connecting to the TON network. Try closing and reopening the app or switching networks if applicable..     Is this on Android, iPhone, or desktop?  A screenshot of the error would also help identify the cause. (reply to 184083)
+
+TON Support: There are multiple active incidents reported for Tonkeeper, which may be causing connection issues. Some of the incidents include errors when trying to get Tonkeeper Account Events, Blockchain Messages, and other asset details. These issues started around 2026-06-19 18:57 UTC and were reported to have recovered around 2026-06-19 19:04 UTC. (reply to 184190)
+
+~~~: Hey guys. I've built a single-handed MVP of a web3 messenger for TON with E2EE encryption and on-chain verification (Proof-of-Capital). It already has guilds, status chats, and a Trust Score. I realized this foundation fits perfectly into the empty niche of DAO infrastructure for the TON ecosystem. It's missing a treasury (multisig) and a refined interface. I'm looking for an equal co-founder (dev or founder) who sees the same opportunity and wants to fill this niche together. If anyone's interested, PM me, I'll show you everything.
