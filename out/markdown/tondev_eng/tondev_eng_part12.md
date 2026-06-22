@@ -3229,3 +3229,21 @@ Williams: Tonkeeper may be having trouble connecting to the TON network. Try clo
 TON Support: There are multiple active incidents reported for Tonkeeper, which may be causing connection issues. Some of the incidents include errors when trying to get Tonkeeper Account Events, Blockchain Messages, and other asset details. These issues started around 2026-06-19 18:57 UTC and were reported to have recovered around 2026-06-19 19:04 UTC. (reply to 184190)
 
 ~~~: Hey guys. I've built a single-handed MVP of a web3 messenger for TON with E2EE encryption and on-chain verification (Proof-of-Capital). It already has guilds, status chats, and a Trust Score. I realized this foundation fits perfectly into the empty niche of DAO infrastructure for the TON ecosystem. It's missing a treasury (multisig) and a refined interface. I'm looking for an equal co-founder (dev or founder) who sees the same opportunity and wants to fill this niche together. If anyone's interested, PM me, I'll show you everything.
+
+— 2026-06-21 —
+
+~~~: Guys, who launched your Jetton with the community—how do you decide where to spend the project's shared coffers now? Do you vote somewhere, or is it just one person? Is there a convenient tool, or is it a pain?
+
+— 2026-06-22 —
+
+BaronOfPH 🐈‍⬛🍅🐐 🌱🐾🐍Σ: Please I need help
+
+~~~: What kind of help do you need? (reply to 184244)
+
+BaronOfPH 🐈‍⬛🍅🐐 🌱🐾🐍Σ: I made a withdrawal from my telegram wallet, I sent Gram  to a Ton wallet address thinking it was still Toncoin (reply to 184245)
+
+Андрей: Toncoin and Gram are the same thing, it's just that the first one is the old name, and the second one is the new name of the native coin in the TON network.  Also, a little advice - beware of people who want to help in private messages (reply to 184247)
+
+Lucid: The token hasn’t reflect on your Ton wallet ?? (reply to 184247)
+
+BaronOfPH 🐈‍⬛🍅🐐 🌱🐾🐍Σ: Noted thanks.  But I've not received it in my Busha wallet, So I contacted the platform customer service and they said the platform don't support Gram coin (reply to 184248)
