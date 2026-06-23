@@ -703,3 +703,5 @@ TON Support: Sorry something went wrong, can you repeat? (reply to 353920)
 TON Support: Sorry something went wrong, can you repeat? (reply to 353922)
 
 TON Support: Sorry something went wrong, can you repeat? (reply to 353924)
+
+Yu Han: На моем архивном узле возникла проблема: он ищет файл archive.8536841.0:8000000000000000.pack. Может кто-нибудь поделиться временной ссылкой на облачное хранилище?
