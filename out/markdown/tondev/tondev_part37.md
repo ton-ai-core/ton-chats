@@ -705,3 +705,25 @@ TON Support: Sorry something went wrong, can you repeat? (reply to 353922)
 TON Support: Sorry something went wrong, can you repeat? (reply to 353924)
 
 Yu Han: На моем архивном узле возникла проблема: он ищет файл archive.8536841.0:8000000000000000.pack. Может кто-нибудь поделиться временной ссылкой на облачное хранилище?
+
+— 2026-06-23 —
+
+Jzuss ┌( ಠ_ಠ)┘: В тестнете работы какие-то?
+
+Artem: не обновляется блок seqno": 66966806, висит уже долго
+
+Alex: Да, сейчас в тестнете тестируется новый функционал. В ближайшее время тестнет будет восстановлен. (reply to 354050)
+
+.:  tonuser@qqq:~$ sudo bash install.sh -m liteserver -d [sudo] password for tonuser:  [1/5] Checking system requirements This machine has 32 CPUs and 131005068KB of Memory [2/5] Checking for required TON components TON does not exists, building --2026-06-23 15:07:09--  https://raw.githubusercontent.com/ton-blockchain/mytonctrl/master/scripts/install_clang.sh Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.108.133, ... Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+
+.: Почему не пропускает установку?
+
+bb: а где написано что не пропускает? (reply to 354082)
+
+.: Ну дальше логи не идут (reply to 354085)
+
+Никита: Господа, а проект в acton надо создавать с нуля и уже в нем прикручивать фронтенд и бекенд или можно в уже работающем репозитории можно развернуть?
+
+Никита: Извините за глупый вопрос
+
+Maksim Lagus: можно развернуть в уже готовом, посмотри флаги тут  https://ton-blockchain.github.io/acton/docs/commands/init (reply to 354124)

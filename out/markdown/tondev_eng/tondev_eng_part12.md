@@ -3263,3 +3263,41 @@ TON Support: It appears you're interested in implementing recurring subscription
 Иван: Thanks. Unfortunately this doesn't answer our questions about the /v1/subscribe/<invoice-id> endpoint.  Is there currently any public API to create subscription invoices and obtain an invoice-id for this deep link?  If not, should we assume this feature is not yet available for third-party developers and implement subscriptions ourselves using wallet plugins?
 
 Slava: Hey. Subscriptions in crypto doesn't look like a good idea to me. At least if it's not highly standardized by various wallet software. It would create more pain for the user than gain. Why not just warn the user via Telegram bot when the subscription is going to expire? Add some extra gap after the previous subscription expires. Introduce multi-month subscriptions. That would be a better UX IMO. (reply to 184286)
+
+— 2026-06-23 —
+
+hΔrdshell: testnet is down?
+
+TON Support: Testnet is experiencing an "Indexing lag" issue on toncenter_v3_testnet with a lag of 87.10s. toncenter_v2_testnet appears to be operational. (reply to 184303)
+
+hΔrdshell: 87 secs that means all txs will get cancelled?
+
+Alex: Yes, we are performing some tests. It will be back online shortly. (reply to 184303)
+
+hΔrdshell: ok thanks (reply to 184306)
+
+Gab: Hi guys I need to verify some contracts. I saw one platform but it's confuse its flow. Are there any other way to verify contacts in TON?
+
+&rey: I'll assume you mean "verify, publicly, contract bytecode against its source code".  There is only one — https://verifier.ton.org (you enter an address of the contract, then attach code files). It can also be accessed by npx blueprint verify from your project directory. (reply to 184327)
+
+Petr: Also https://ton-blockchain.github.io/acton/docs/verify for Acton flow (reply to 184328)
+
+Gab: Yes My friend. I am in verifier.ton.org and I want to see if it exist another way (reply to 184328)
+
+Petr: What problems are you experiencing with verifier.ton.org? (reply to 184330)
+
+Gab: I think my browser is giving some troubles and I am thinking that  verifier.ton.org is
+
+Gab: I try to upload the code and files and it rejects them (reply to 184331)
+
+Petr: Tact sources? And can you attach error message? (reply to 184333)
+
+Gab: Yes, Tact sources. It doesn't show anything
+
+&rey: If you open Network tab of the browser devtools, do you see an erroring request? (reply to 184336)
+
+Gab: Mmm I'll see that. Thanks (reply to 184337)
+
+— 2026-06-24 —
+
+Pistis: Hello all builders：  sharing what we’re building with OpenModels.  It’s an open market for LLM tokens, focused on cheaper, more stable, and more transparent model access.  Our supply comes from official channels or licensed IDC deployments, not relay APIs, proxy chains, or hidden resellers.  We cover GLM, DeepSeek, Kimi, Qwen, Wan and more, with support for chat, image, and video models.  Worth a look: https://openmodels.market  If you need stable service or better pricing for larger usage, happy to help.
