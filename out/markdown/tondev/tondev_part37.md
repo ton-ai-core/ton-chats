@@ -727,3 +727,9 @@ bb: а где написано что не пропускает? (reply to 35408
 Никита: Извините за глупый вопрос
 
 Maksim Lagus: можно развернуть в уже готовом, посмотри флаги тут  https://ton-blockchain.github.io/acton/docs/commands/init (reply to 354124)
+
+— 2026-06-24 —
+
+Lamina_cursor: Вообще все удаляют ?
+
+Zzz...: Помогите с tonviewer, при открытии адреса такая ошибка: "500 Something went wrong Error: Cannot read properties of undefined (reading 'length')"

@@ -3301,3 +3301,15 @@ Gab: Mmm I'll see that. Thanks (reply to 184337)
 — 2026-06-24 —
 
 Pistis: Hello all builders：  sharing what we’re building with OpenModels.  It’s an open market for LLM tokens, focused on cheaper, more stable, and more transparent model access.  Our supply comes from official channels or licensed IDC deployments, not relay APIs, proxy chains, or hidden resellers.  We cover GLM, DeepSeek, Kimi, Qwen, Wan and more, with support for chat, image, and video models.  Worth a look: https://openmodels.market  If you need stable service or better pricing for larger usage, happy to help.
+
+qwqwqwqwqwq: Hello everyone, can you give me the contacts of the fragment support? I have a problem with kyc. If you write to the mail, an auto-answer comes and nothing else. People have the same problem on the forums.
+
+Андрей: They don't have tech support, try split .tg without kyc (reply to 184363)
+
+qwqwqwqwqwq: what’s that? (reply to 184364)
+
+Mirka: Unofficial fragment without kyc. And it has support if you'll have a problem (reply to 184365)
+
+— 2026-06-25 —
+
+Yu Han: hello every one, during my Archive node synchronizing. I found out my dump is missing one pack file and node is stuct at that blocks. Is it normal? I would be very grateful if anyone could explain this to me. The picture is down below
