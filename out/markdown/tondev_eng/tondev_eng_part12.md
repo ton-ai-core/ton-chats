@@ -3313,3 +3313,11 @@ Mirka: Unofficial fragment without kyc. And it has support if you'll have a prob
 — 2026-06-25 —
 
 Yu Han: hello every one, during my Archive node synchronizing. I found out my dump is missing one pack file and node is stuct at that blocks. Is it normal? I would be very grateful if anyone could explain this to me. The picture is down below
+
+Probably: Hi! It looks like the Support Programs section on builders.ton.org is not working. When I try to access it, the page doesn’t load properly. Could someone help?
+
+&rey: I'm not aware of any support programs by TF which could be running these days. (reply to 184474)
+
+— 2026-06-26 —
+
+Glen |: Hi all, i currently have a wallet extension (self developed). When connecting to Fragment using the my self developed extension, clicking the connect button causes the page to automatically refresh.  after the refresh the fragment page shows that the wallet is not connected and connection cannot be established.  just wanted to ask in here if any developers here have face such similar issues and is there a way to troubleshoot it. thanks
