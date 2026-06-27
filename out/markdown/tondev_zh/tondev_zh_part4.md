@@ -12871,3 +12871,9 @@ Emily: 无鸭收款，有执行力的兄弟来！
 TON Support: 当您通过插件连接到dapp（例如https://fragment.com/ads/topup）时，页面自动刷新并显示未连接，这可能是由于几个技术问题造成的。  一个常见的问题是钱包未能获取清单（manifest）。这可能是因为Cloudflare的Bot Fight Mode或类似的安全功能返回了HTML挑战页面而不是JSON，导致出现MANIFEST_CONTENT_ERROR（错误代码3）。钱包接收到HTML后，无法将其解析为JSON。  要解决这个问题，您可以尝试以下方法： *   绕过清单路径的挑战：在Cloudflare中，添加配置规则或旧版页面规则，禁用/tonconnect-manifest.json路径的Bot...  Fight Mode。对于其他网关，添加等效的允许规则。这适用于Vercel Firewall、Akamai Bot Manager和AWS WAF等任何可能对钱包期望为JSON的路径返回HTML的网关。 *   检查iconUrl：清单中的iconUrl可能无法访问，位于身份验证后面，或者返回404错误。即使清单本身加载成功，钱包仍可能报告内容错误。  如果钱包无法获取清单，连接流程将返回MANIFEST_NOT_FOUND_ERROR（错误代码2）或MANIFEST_CONTENT_ERROR（错误代码3）。  Source: TON Connect troubleshooting, TON Connect core concepts
 
 Talia: 要解决这个问题，您可以尝试以下方法： *   绕过清单路径的挑战：在Cloudflare中，添加配置规则或旧版页面规则，禁用/tonconnect-manifest.json路径的Bot...  你好，这个是有fragment添加吗？
+
+— 2026-06-27 —
+
+董桂欣艳凯勇凯丽斌: 新澳六合采精准内慕出码.点我进频道◆·△
+
+TON Moderator: 您好， Noo Lookpad 😊!

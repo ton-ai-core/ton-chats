@@ -3321,3 +3321,29 @@ Probably: Hi! It looks like the Support Programs section on builders.ton.org is 
 — 2026-06-26 —
 
 Glen |: Hi all, i currently have a wallet extension (self developed). When connecting to Fragment using the my self developed extension, clicking the connect button causes the page to automatically refresh.  after the refresh the fragment page shows that the wallet is not connected and connection cannot be established.  just wanted to ask in here if any developers here have face such similar issues and is there a way to troubleshoot it. thanks
+
+Dhereal1: since it is self developed, you first check if your build is working perfect, do auto QA of your extension then check the app log to see the exact error.
+
+I'm: "The issue is with how your extension injects the wallet provider into the page. When Fragment loads, it looks for a wallet provider in the window object. Your extension is probably injecting it too late. Three things to check: First, make sure your content script runs at document_start in your manifest, not document_idle. Second, implement TON Connect's restoreConnection method when your app initializes. Third, store session state in extension storage, not page memory — so it survives page refresh. Most custom wallet extensions hit this exact issue because Fragment's connect button triggers a page reload. If your provider isn't ready on reload, connection fails. Let me know if this helps — happy to debug further if needed. (reply to 184526)
+
+Glen |: Thanks all for the help will give it a go
+
+Obasi: https://drive.google.com/file/d/1dSSvbGLy9-bkZppOFzXz30n4etLCDKUE/view?usp=drivesdk
+
+&rey: That must be a really old track, with the singer mentioning both hashrate and TON. Like the initial Givers epoch. (reply to 184563)
+
+Obasi: TON App Sound Concept: "Midnight Hashrate" (15s snippet for mini-apps/games background audio)  Stream link: https://drive.google.com/file/d/1dSSvbGLy9-bkZppOFzXz30n4etLCDKUE/view?usp=drivesdk
+
+&rey: I'm not sure it's really 15 seconds there, sounds like a bit more? (reply to 184568)
+
+Obasi: Correct, it's actually the full 3+ minute studio anthem! I wanted to share the complete project so you can hear the full progression and production value. It's ready for official game soundtracks or ecosystem media. (reply to 184569)
+
+Андрей: Which file exactly are you missing? I looked at the files in bag_id 6233c669b13a3ccaf931b86ad04db43062e449f22d44592be4fb6390fd21c0db, which I used to launch the archive node, and they contain the same files as in your screenshot. My archive node launched without any errors. I also recommend looking at the Golang node; it should launch the archive node much easier and faster: https://github.com/xssnick/gton (reply to 184442)
+
+Yu Han: So you can launch without archive.8536841.0:800000… this pack file, because I got the error. The error logs picture is down below (reply to 184574)
+
+Yu Han: Because i find out all the pack file are paired, only missing this pack file
+
+— 2026-06-27 —
+
+TON Moderator: Hello, Noo Lookpad 😊! Read rules and click button below.
