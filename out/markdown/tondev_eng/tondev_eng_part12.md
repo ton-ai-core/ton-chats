@@ -3347,3 +3347,33 @@ Yu Han: Because i find out all the pack file are paired, only missing this pack 
 — 2026-06-27 —
 
 TON Moderator: Hello, Noo Lookpad 😊! Read rules and click button below.
+
+hΔrdshell: is there a way to get my dapp whitelisted? so i dont get verification warnings on the wallet txs?
+
+Lucid: Yes, in many cases, but it depends on which wallet you’re referring to. Different wallets maintain their own allowlists or reputation databases. (reply to 184614)
+
+hΔrdshell: im using Telegram in app wallet (reply to 184619)
+
+️: Watch out Lucid is scammer (reply to 184614)
+
+&rey: You could support it with evidence, please? (reply to 184622)
+
+Jon: why not change group name
+
+Jon: gram
+
+Amir: Because Ton is name of the infrastructure/blockchain, while Gram is just the native token. The dev group is for the entire network, not just the currency. (reply to 184631)
+
+Jon: Ok
+
+Dany: How do I use the ton wallet on Telegram?
+
+TON Support: To use the TON wallet on Telegram, you can interact with the @testgiver_ton_bot. Start the bot, pass a captcha, and then send your testnet wallet address to receive 2 TON.  Source: wallet.ton.org (reply to 184642)
+
+vangaard: False. @ Wallet not Testnet (reply to 184643)
+
+— 2026-06-28 —
+
+Max: He wrote about the DeFi wallet, not a centralized one. In the settings, you can switch from the mainnet to the testnet and back. (reply to 184646)
+
+vangaard: Of course. But you'll expect the bot to default to answering about mainnet unless the testnet is explicitly mentioned by the user. (reply to 184649)
