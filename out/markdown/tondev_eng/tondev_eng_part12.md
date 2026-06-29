@@ -3377,3 +3377,33 @@ vangaard: False. @ Wallet not Testnet (reply to 184643)
 Max: He wrote about the DeFi wallet, not a centralized one. In the settings, you can switch from the mainnet to the testnet and back. (reply to 184646)
 
 vangaard: Of course. But you'll expect the bot to default to answering about mainnet unless the testnet is explicitly mentioned by the user. (reply to 184649)
+
+𝙷𝚎𝚗.𝚘𝚛𝚐: Guys i need open src project with community to contribute.Its so boring working alonr
+
+Dhereal1: Guys what do you think of a telegram feature where we can public groups, channels, bots, mini apps without having to search on the search bar. Lets say a discovery features
+
+Dhereal1: As a developer on ton eco, one of the challenges facing dev is product discovery. After spending so much building an app, to ship it become another challenge and it’s discouraging
+
+Dhereal1: With the level at which tech is moving, I feel like telegram also need to move faster as well, with bots and mini apps evolving so fast, we need visibility
+
+Dhereal1: Telegram feels so obsolete, rigid, social limited and boring
+
+Dhereal1: It used to just another messanging app but not it’s more than that
+
+Dhereal1: It’s now a whole ecosystem where developers troops in bring their ideas to live
+
+Dhereal1: So I believe if telegram kind integrates a feature  called telegram discovery that allows showcasing of public groups and channels, mini apps and bot this problem can be solved.
+
+</MEDO>: Hi there  Can I link the proxy contract to my Fragment account?
+
+&rey: What contract? (reply to 184667)
+
+</MEDO>: proxy (reply to 184668)
+
+</MEDO>: custom contract (reply to 184669)
+
+&rey: As long as it forwards the comment... I have no information about how Fragment's AML systems will react to your development. (reply to 184670)
+
+DON: what for (reply to 184642)
+
+DON: wtw with that bro (reply to 184303)
