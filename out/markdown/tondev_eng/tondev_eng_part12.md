@@ -3407,3 +3407,11 @@ Dhereal1: So I believe if telegram kind integrates a feature  called telegram di
 DON: what for (reply to 184642)
 
 DON: wtw with that bro (reply to 184303)
+
+— 2026-06-29 —
+
+Mr X | ByteLords ⚡: Not sure if is off topic, however I've received +100 Gram from gramevents.org  Is it scam or legit? I reckon 100% scam
+
+&rey: Scam assuredly. Please edit your message to make link non-clickable (i.e. wrap it in a code block or so). (reply to 184714)
+
+Mr X | ByteLords ⚡: Thanks, just to worn be aware (reply to 184715)
