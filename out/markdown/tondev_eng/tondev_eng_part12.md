@@ -3415,3 +3415,13 @@ Mr X | ByteLords ⚡: Not sure if is off topic, however I've received +100 Gram 
 &rey: Scam assuredly. Please edit your message to make link non-clickable (i.e. wrap it in a code block or so). (reply to 184714)
 
 Mr X | ByteLords ⚡: Thanks, just to worn be aware (reply to 184715)
+
+— 2026-06-30 —
+
+The Punisher: To the TON Development Team,  I have one simple question for you:  What on earth are you doing?  Thousands of investors have put their trust, time, and money into this ecosystem. Yet your communication has been weak, your marketing has failed to match the quality of the technology, and your silence has left the community frustrated and uncertain.  A blockchain cannot succeed on technology alone. Without strong communication, visibility, and leadership, even the best technology is ignored.  Many investors have suffered substantial losses while watching competing projects gain attention through consistent promotion and engagement. Meanwhile, your community has been left waiting, guessing, and hoping for clear direction.  Do you truly understand the damage that poor communication and weak promotion can cause? Do you realize how much confidence has been lost?  We are not asking for empty promises. We are asking for leadership, transparency, and a serious commitment to promoting this ecosystem and communicating with the people who believed in it from the beginning.  Please stop acting as if everything is fine.  The community deserves answers.  A disappointed investor.
+
+— 2026-07-01 —
+
+The Punisher: To all team of telegram we lost so much    What are you doing  No pubs no dynamic  no information wtfh happening with you
+
+Nathanaël: What are you complaining about exactly?.. (reply to 184731)
