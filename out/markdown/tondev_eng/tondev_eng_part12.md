@@ -3425,3 +3425,27 @@ The Punisher: To the TON Development Team,  I have one simple question for you: 
 The Punisher: To all team of telegram we lost so much    What are you doing  No pubs no dynamic  no information wtfh happening with you
 
 Nathanaël: What are you complaining about exactly?.. (reply to 184731)
+
+𝙷𝚎𝚗.𝚘𝚛𝚐: I wanna join ton dev bounty programme
+
+TON Support: To join the TON developer bounty program, you can participate in the TON Security Bug Bounty on GitHub. This resource provides details and materials for researching vulnerabilities. Additionally, you can send general blockchain security reports to the TON Security Bug Bounty bot on Telegram.  Source: Get support — TON Docs (reply to 184744)
+
+Sad Bun 🐇: hi!  what's the worst case scenario if my jetton wallet one day runs out of grams?  will it just stop accept messages from linked wallet? so messages will bounce back and some fees will get burned?  and to recover i just need to send some grams to this jetton wallet address?  or jetton wallet will be frozen and i will need to perform some complex refreeze actions?
+
+TON Support: If your Jetton wallet runs out of Grams, it won't be able to cover the transaction fees for sending messages. This means that messages, such as those for transferring Jettons, will likely bounce back, and any Grams sent as fees might be burned.  To recover,...  you would need to send some Grams to your Jetton wallet address to cover future transaction fees. Your Jetton wallet itself shouldn't be "frozen" in a way that requires complex refreeze actions; it simply won't be able to initiate outgoing transactions until it has sufficient Grams for fees.  Source: Jetton: How it works, How to send jettons with AppKit (reply to 184755)
+
+xylica: worst case is it ran out of storage fee and get frozen, but unfreezing is fairly easy. (reply to 184755)
+
+Sad Bun 🐇: to unfreeze i should just top up jetton wallet with grams?  no additional actions? (reply to 184759)
+
+xylica: no, you need to use unfreezer.ton.org (reply to 184760)
+
+&rey: This chat does not admit discussion of prices. You are hereby warned. (reply to 184765)
+
+Boldgold: Hello
+
+Boldgold: TONFlow Ecosystem  Development Update Live & Deployed:  Telegram Mini App game Peer-to-peer & merchant payment gateway Auto-closer chatbot Merchant layer (ready) AI OS for in-app & marketing use (live, still evolving) Project website  Under Development: Genesis Pass mint Token total supply mint Governance schema Whitepaper Roadmap  The ecosystem keeps expanding piece by piece — each module going live builds toward the full TONFlow experience.  Open to collaboration We're still early-stage, and there's real room to shape core modules from the ground up. If you're a dev interested in Web3, TON, AI automation, or payment systems — and want to contribute to some of the modules above — reach out. Open to discussing collaboration on specific parts of the project. More updates soon. Stay tuned.
+
+Boldgold: This is project is a Payment globally project on TON with the main Goal to enable Peer to peer and merchants transaction via TG ID and no more standard wallets, to avoid mistakes, errors, and non seniority in web3 while enhancing more security, frictionless usability and more TG adoption
+
+Boldgold: The different modules are mostly live and deployed. Any dev looking to bring a support in terms of partnerships are well received and more updates soon
