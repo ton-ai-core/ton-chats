@@ -3449,3 +3449,17 @@ Boldgold: TONFlow Ecosystem  Development Update Live & Deployed:  Telegram Mini 
 Boldgold: This is project is a Payment globally project on TON with the main Goal to enable Peer to peer and merchants transaction via TG ID and no more standard wallets, to avoid mistakes, errors, and non seniority in web3 while enhancing more security, frictionless usability and more TG adoption
 
 Boldgold: The different modules are mostly live and deployed. Any dev looking to bring a support in terms of partnerships are well received and more updates soon
+
+— 2026-07-02 —
+
+Eэдик: I sent a coin to the contract address, is it possible to make a refund?
+
+TON Support: No, it is usually not possible to revert the contract system state because the Toncoin is already spent. Once a transaction appears in a masterchain block, it becomes irreversible.  Source: Estimate gas usage in TON contracts - TON Docs, Estimate gas usage in TON contracts, Payment processing overview — TON Docs, Payment processing overview - TON Docs (reply to 184815)
+
+jizzy019: most time it is not. why did you send to contract address? (reply to 184815)
+
+Eэдик: because this address appeared on the Binance exchange (reply to 184818)
+
+:): hey guys
+
+</MEDO>: Hi (reply to 184839)
