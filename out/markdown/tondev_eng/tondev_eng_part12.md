@@ -3463,3 +3463,13 @@ Eэдик: because this address appeared on the Binance exchange (reply to 18481
 :): hey guys
 
 </MEDO>: Hi (reply to 184839)
+
+— 2026-07-03 —
+
+TON Moderator: Hello, Alec Raelyn! Read rules and click button below.
+
+Forgivn: Hello!
+
+Forgivn: I build end-to-end: • Telegram bots (any complexity) • Mini Apps (Web Apps inside Telegram) • Workflow & process automation • Online stores / e-commerce  Commercial experience, realistic timelines, fair pricing. Got a task? Describe it and I'll propose a solution. Portfolio on request.
+
+&rey: As a matter of chat rules, specify your expertise and provide a Github/Gitlab/etc link which would support it. (reply to 184876)
