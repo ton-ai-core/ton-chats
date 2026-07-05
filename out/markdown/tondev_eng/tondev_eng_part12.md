@@ -3473,3 +3473,15 @@ Forgivn: Hello!
 Forgivn: I build end-to-end: • Telegram bots (any complexity) • Mini Apps (Web Apps inside Telegram) • Workflow & process automation • Online stores / e-commerce  Commercial experience, realistic timelines, fair pricing. Got a task? Describe it and I'll propose a solution. Portfolio on request.
 
 &rey: As a matter of chat rules, specify your expertise and provide a Github/Gitlab/etc link which would support it. (reply to 184876)
+
+— 2026-07-04 —
+
+DONG: hi
+
+DONG: I have two questions:  1. The Telegram Apps Center (tapps) seems to be under renewal/maintenance right now. Do you know when it will be back and when new app submissions will be accepted?  2. Besides tapps, what are the most effective ways to promote a Telegram Mini App or game right now? Any channels, groups, or platforms you'd recommend?  Thanks!
+
+— 2026-07-05 —
+
+Greg: Has anyone been able to build a webapp that uses the TonPay button onramp? (https://docs.ton.org/applications/ton-pay/on-ramp). I keep running into CSP issues. I'm also unsure where to acquire an API key for it (there is reference to a Ton Pay Merchant dashboard but no reference on how to sign up). If someone could point me in the right direction it would be appreciated
+
+TON Support: You can obtain an API key for TonPay by logging into the TON Pay Merchant Dashboard, navigating to Developer settings, and then to the API Keys section. There, you can generate a new API key or copy an existing one. This API key is optional but provides...  features like transaction visibility in the dashboard, webhook notifications, and centralized wallet management.  Regarding the CSP issues, the provided documentation does not contain information on how to resolve them.  Source: How to build a transfer - TON Docs, How to build a transfer in TON Pay (reply to 184917)
