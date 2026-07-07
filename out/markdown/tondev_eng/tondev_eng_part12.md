@@ -3485,3 +3485,49 @@ DONG: I have two questions:  1. The Telegram Apps Center (tapps) seems to be und
 Greg: Has anyone been able to build a webapp that uses the TonPay button onramp? (https://docs.ton.org/applications/ton-pay/on-ramp). I keep running into CSP issues. I'm also unsure where to acquire an API key for it (there is reference to a Ton Pay Merchant dashboard but no reference on how to sign up). If someone could point me in the right direction it would be appreciated
 
 TON Support: You can obtain an API key for TonPay by logging into the TON Pay Merchant Dashboard, navigating to Developer settings, and then to the API Keys section. There, you can generate a new API key or copy an existing one. This API key is optional but provides...  features like transaction visibility in the dashboard, webhook notifications, and centralized wallet management.  Regarding the CSP issues, the provided documentation does not contain information on how to resolve them.  Source: How to build a transfer - TON Docs, How to build a transfer in TON Pay (reply to 184917)
+
+— 2026-07-06 —
+
+Sergey Evgenievich: Quadratic voting is a good step, but it can still be gamed.  A whale can split 1.5M TON across 100 wallets and get more voting power than if they used one wallet. Quadratic voting alone doesn't stop that.  Here's what you need to add to make the system bulletproof:  1. Soulbound NFT for verification — one verified person = one vote. No matter how many wallets they control. 2. Minimum holding period (30 days) — only those who have held TON for at least 30 days can vote. Filters out short-term manipulators. 3. Telegram verification — accounts must be older than 6 months. Cuts out bot farms. 4. Public vote registry — all votes are visible. Full transparency. 5. Discussion period — votes cannot be cast instantly. There must be a period for arguments before voting starts.  Without these layers, even quadratic voting can be bypassed. (reply to 182574)
+
+Hossein: hello guys
+
+Hossein: I'm excited to share our open-source PreToke Prediction Market protocol built on TON.
+
+Hossein: We've implemented a decentralized prediction market using the Conditional Tokens Framework + LMSR (Logarithmic Market Scoring Rule) for automated pricing. The smart contracts are written in Tolk, with full test coverage, documentation, and deployment scripts.  Repository: https://github.com/PreToke/ton-prediction-market
+
+Hossein: It would mean a lot if some of you could take a look at the contracts (especially condition_registry.tolk and `lmsr_market_maker.tolk`). We'd really appreciate any feedback, thoughts, or suggestions — and if anyone has time and interest to do a quick audit or security review, that would be incredibly helpful.
+
+&rey: Did you agent-generate the code or just the introductory message? (reply to 184984)
+
+Hossein: We build code based on other prediction market available on other blockchains like polymarket (reply to 184986)
+
+Hossein: but in messaging way that we have on ton network
+
+Hossein: We implement functionalities like split, merge, and mint just the way other platforms have
+
+Hossein: My team and I love to hear what you guys think about it, and always open to discusse about prediction markets and how they work.
+
+&rey: Noting that code or a major part of it was LLM-generated would be prudent.
+
+&rey: Talking of the code itself, you might want to increase forwardAmount on redemption and like, to allow further automatic actions on the payout (contract composability, in other words).
+
+Hossein: I'm totally understand what you're talking about, and yes, it is, but with LLM-generated we also have a TDD flow for our work, it's mean we write our tests first, then we implment it, and now we really need your perspective about prediction markets in ton network. (reply to 184991)
+
+Tolu: There is an agents.md file there , its llm generated (reply to 184986)
+
+Hossein: Can we elaborate on this? I mean, at what point do you have this opinion? And what is the solution to improve it? (reply to 184992)
+
+Tolu: Paste it in the llm agent, it will understand (reply to 184995)
+
+Hossein: I don’t think so, but thanks (reply to 184996)
+
+brute-installs ❽ [ONLINE]: Heyyy everyone where can I get support ?
+
+brute-installs ❽ [ONLINE]: I've authorized a transaction through my wallet when placing my nft on auction , but after the auction ends I didn't received the funds
+
+TON Support: NFT transfers generally take longer than standard Toncoin transfers. It's recommended that wallet services don't block the user interface while waiting for confirmation. To confirm settlement, you should track the transaction and verify ownership before crediting the value.  Source: [How to work with NFTs using WalletKit on the Web platform - TON Docs](https://docs.ton.org/ecosystem/walletkit/web/nfts#:~:text=As (reply to 185004)
+
+brute-installs ❽ [ONLINE]: It's not even transferred to my wallet address
+
+brute-installs ❽ [ONLINE]: I need an admin help please

@@ -1037,3 +1037,33 @@ X1ag: https://t.me/sepezholive/7150  я думаю в этом посте схо
 Даниил: Можно попробовать отправить экстернал для параллельной отправки, например, 100-200 жетонов с W5/highload.  Могу скинуть хэши дошедших с задержкой транзакций, только не совсем понимаю, что из них можно получить (они же дошли по итогу, то есть обработались корректно). Не дошедшие экстерналы я никак не скину, потому что они собственно не дошли, и в сети их нет (примеры не доходящих транзакций тоже были). (reply to 356066)
 
 Даниил: Попробовал отправить хэш транзакции, а его бот удалил)) Могу в лс скинуть если надо (reply to 356066)
+
+crulf: А могут быть заминчены токены с моего адреса без моего разрешения?
+
+&rey: Нет; но вот что случилось, надо смотреть по дереву транзакций. (reply to 356089)
+
+Toffee: Коллеги, а где можно взять wallet_code, раньше в сканнере достать но сейчас не могу  jettonAddress = await connector.jettonWalletAddress(address, token.address, token.wallet_code);? В тестнете и формате hex, чтобы получить адрес jettonWallet
+
+Daniel: На примере jetton master как можно вытащить код и “данные” любого контракта:   const jettonMasterAddress = await ui.inputAddress("Jetton Master"); const jettonMasterState = (await provider.getContractState(jettonMasterAddress)).state;  if (jettonMasterState.type != "active") { console.error("Jetton Master is not active");   const jettonMasterCode = Cell.fromBoc(jettonMasterState.code!)[0]; const jettonMasterData = Cell.fromBoc(jettonMasterState.data!)[0]; (reply to 356105)
+
+rnwynr: почему не переименовали на gram dev chat
+
+username: Потому что ton network (reply to 356126)
+
+rnwynr: ты прав (reply to 356127)
+
+Toffee: не помогло но спасибо (reply to 356106)
+
+Toffee: https://testnet.tonviewer.com/kQCEZ8dxuyPstODWKYC9eEe6j_EWGWqMP3BoZzrqwaxqaZaV вот кстати, если кто поможет мне найти wallet code буду благодарен
+
+Toffee: Короче я понял в чем проблема, я получаю не правильный формат hex возращает (reply to 356134)
+
+Toffee: code.toBoc({ idx: true, crc32: false }).toString('hex')) и как бы я не использовал неправильный
+
+Toffee: console.log(Cell.fromHex('...18210d53276db708010c8cb055008cf165004fa0216cb6a12cb1f12cb3fc972fb0093356c21e203c85004fa0258cf1601cf16ccc9ed54').toBoc().toString('hex'))   проблема в том он дает   ...a861bb5c4775  а должен ...18210d53276db708010c8cb055008cf165004fa0216cb6a12cb1f12cb3fc972fb0093356c21e203c85004fa0258cf1601cf16ccc9ed54, как сделать чтобы снова довал 18210d53276db708010c8cb055008cf165004fa0216cb6a12cb1f12cb3fc972fb0093356c21e203c85004fa0258cf1601cf16ccc9ed54
+
+Toffee: В общем проблема такая у меня есть к примеру рабочий wallet_code который я получил и храню в бд, с ним я могу вычислить правильный jetton address, это на примере выше, но при возращения обратно в hex он ломается, с другой сторонны теперь я хочу получить другие wallet code и сохранить в бд чтобы также вычислить, мне все возращают неверный hex c которым не получается вычислить правильный jetton address, jetton address я вычисляю локально чтобы экономить запросы, чтобы лимиты не жрало (reply to 356151)
+
+— 2026-07-07 —
+
+&rey: Тут был ещё объект с параметрами index,crc32. (reply to 356151)
