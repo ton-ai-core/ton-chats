@@ -3531,3 +3531,65 @@ TON Support: NFT transfers generally take longer than standard Toncoin transfers
 brute-installs ❽ [ONLINE]: It's not even transferred to my wallet address
 
 brute-installs ❽ [ONLINE]: I need an admin help please
+
+— 2026-07-07 —
+
+jizzy019: did anyone bought the nft, if not, then nothing happen I guess (reply to 185004)
+
+brute-installs ❽ [ONLINE]: It sent to other guy , and I didn't received the funds too (reply to 185024)
+
+Tony: Hi everyone,  We’re developing a skill-based gaming app on Telegram and currently support both Telegram Stars and WalletConnect.  The issue is that since our games are priced in USD, users who pay with Stars lose around 50% of the value because of the conversion and fees.  Has anyone found a better solution?
+
+Slava: You can only pay in stars in Telegram for digital products without violating the platform rules. (reply to 185026)
+
+Slava: It's not 50% by the way. Also, buying stars on Fragment for crypto is the cheapest option.
+
+Slava: All other platforms like Android, Apple and Steam have similar commissions.
+
+jizzy019: that's not usual. may be you didn't do something right or so (reply to 185025)
+
+Александр: Does offering payment for digital products in Telegram in a currency other than Telegram Stars violate the platform's rules? (reply to 185027)
+
+brute-installs ❽ [ONLINE]: It happened brother (reply to 185037)
+
+Александр: If that's the case, then almost every second TMA, in my memory, violates these rules... (reply to 185038)
+
+brute-installs ❽ [ONLINE]: https://t.me/nftscammm (reply to 185037)
+
+brute-installs ❽ [ONLINE]: check here
+
+&rey: Why do you trust the link you received in DMs, especially with your font indicating that 'a' character was not in fact Latin 'a' thus the link was sus? (reply to 185004)
+
+&rey: You should report it to Telegram's @notoscam, since fortunately you do have a visible identifier — the username which previously was yours.  No one except Telegram — certainly not ones who'd write you in DMs now — can resolve this.
+
+brute-installs ❽ [ONLINE]: Okay thanks brother (reply to 185048)
+
+E3 | Procur3: If you're looking to get it reviewed by an external auditor I can help (reply to 184984)
+
+Slava: Yes, and that's terrible, because legitimate businesses either have to violate the rules and risk being blocked at any moment or loose in the competition with other apps.  Telegram has established a very unhealthy ecosystem this way. (reply to 185042)
+
+Александр: Does this restriction apply to any digital products, including digital tokens (NFTs), or specifically to digital products (in-game items, courses, subscriptions, etc.)? (reply to 185057)
+
+Slava: All digital products.
+
+Hossein: Hi, first of all, thank you for your reply. Yes, we're actually looking for an external audit of our smart contract. Since we're new to the TON ecosystem, we'd really appreciate a fresh perspective and expert feedback. Are there any active auditors or experienced members here who might be available for this? I'd love to connect with you or the right people anytime you're available. (reply to 185053)
+
+Tony: Thanks (reply to 185027)
+
+Tony: I sent you a private message regarding this (reply to 185038)
+
+Александр: It turns out that even selling NFTs on platforms like Getgems, if it's TMA, must be done using Telegram Stars? 0_0 (reply to 185059)
+
+Pasha: yep, "thanks apple" for the dumb appstore rules (reply to 185064)
+
+Александр: The threat of blocking for TMA comes from Telegram due to the need to comply with Apple's rules, not from Apple itself, which checks TMA?  I just want to understand who is "afraid" :) (reply to 185069)
+
+Pasha: Apple is forcing telegram to comply. Telegram just afraid to be unlisted from the appstore. (reply to 185076)
+
+Александр: Controlling the payment methods of each TMA seems like an impossible task  I assume that only applications with a large reach are subject to strict verification (reply to 185078)
+
+Pasha: and also untill your app got reported by users (reply to 185080)
+
+Александр: Equivalent to intentional sabotage  In such a situation, the mere presence of payment in Telegram Stars, alongside other methods, won't save it, will it? (reply to 185081)
+
+Pasha: I'm not sure about it, I think it depends (reply to 185082)
