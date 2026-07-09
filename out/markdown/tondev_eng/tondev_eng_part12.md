@@ -3593,3 +3593,13 @@ Pasha: and also untill your app got reported by users (reply to 185080)
 Александр: Equivalent to intentional sabotage  In such a situation, the mere presence of payment in Telegram Stars, alongside other methods, won't save it, will it? (reply to 185081)
 
 Pasha: I'm not sure about it, I think it depends (reply to 185082)
+
+— 2026-07-08 —
+
+Cirnyawa: Currently having an issue with transactions, actually having it for a while now. We are making an NFT airdrop, usually 100 NFTs per batch. Transactions often get into the blockchain very slowly and sometimes fully disappear. It was alright in June, we changed nothing on our side. Is there anything to be done or maybe it'll get fixed from TON side?
+
+Fardin: Hi everyone, I know the TON team and admins are very busy and probably can’t answer every question from all 10,400+ developers and founders here.  But as a founder building on TON, it would be really helpful to understand the team’s general strategy, priorities, and upcoming plans. This helps us align our products with the ecosystem and avoid being surprised by major changes later.  Even a short overview of what the TON team is focusing on and what builders should prepare for would be very valuable. Thanks for your time and support.
+
+Craig: Hello guys ! I built LaunchForgeDev, a platform focused on helping developers find clients and project opportunities.  I’m currently inviting developers to join as early users. You can create a profile, showcase your skills, and receive project requests from clients looking for developers.  I’d love to get your feedback and have you check it out. Let me know if you’re interested!
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hey, I want to share the TON Sites / ADNL work I’ve been working on with the ENS team:  We integrated TON ADNL as a valid ENS contenthash target, so an ENS name can now point to a TON Site. the official ENS app support now adnl contenthash.  multicodec: added the adnl codec:  - https://github.com/multiformats/multicodec/commit/45c88b89ab909c0fac7c86dafe43ad72d1e8e8a9  ensdomains/content-hash: added ADNL encode/decode support:  - https://github.com/ensdomains/content-hash/commit/de85d4578760d1d9a3be5a0f212bd93889e0c2e1  ENSjs: added adnl protocol support:  - https://github.com/ensdomains/ensjs/commit/5248ffa82f000050a5f703eefc8a93c836b8c151  Ens.app : support came through dependency updates to content-hash and ensjs:  - https://github.com/ensdomains/ens-app-v3/commit/d74f94bd25e041e78cb1d24016d73f5b1745326b  - https://github.com/ensdomains/ens-app-v3/commit/3a6fe3051bdbc6cba892ffb7594e4445c0518cbc  eth.limo / dweb proxy: added ADNL resolution support for TON Sites - https://github.com/ethlimo/dweb-proxy-api/commit/7863a8e4c6d1d343bf54e94c0f34830b1e09e160
