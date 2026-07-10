@@ -3603,3 +3603,41 @@ Fardin: Hi everyone, I know the TON team and admins are very busy and probably c
 Craig: Hello guys ! I built LaunchForgeDev, a platform focused on helping developers find clients and project opportunities.  I’m currently inviting developers to join as early users. You can create a profile, showcase your skills, and receive project requests from clients looking for developers.  I’d love to get your feedback and have you check it out. Let me know if you’re interested!
 
 ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Hey, I want to share the TON Sites / ADNL work I’ve been working on with the ENS team:  We integrated TON ADNL as a valid ENS contenthash target, so an ENS name can now point to a TON Site. the official ENS app support now adnl contenthash.  multicodec: added the adnl codec:  - https://github.com/multiformats/multicodec/commit/45c88b89ab909c0fac7c86dafe43ad72d1e8e8a9  ensdomains/content-hash: added ADNL encode/decode support:  - https://github.com/ensdomains/content-hash/commit/de85d4578760d1d9a3be5a0f212bd93889e0c2e1  ENSjs: added adnl protocol support:  - https://github.com/ensdomains/ensjs/commit/5248ffa82f000050a5f703eefc8a93c836b8c151  Ens.app : support came through dependency updates to content-hash and ensjs:  - https://github.com/ensdomains/ens-app-v3/commit/d74f94bd25e041e78cb1d24016d73f5b1745326b  - https://github.com/ensdomains/ens-app-v3/commit/3a6fe3051bdbc6cba892ffb7594e4445c0518cbc  eth.limo / dweb proxy: added ADNL resolution support for TON Sites - https://github.com/ethlimo/dweb-proxy-api/commit/7863a8e4c6d1d343bf54e94c0f34830b1e09e160
+
+— 2026-07-09 —
+
+Slava: Good luck with that XD (reply to 185119)
+
+Fardin: Haha, it seems like something important is going to happen (reply to 185201)
+
+Slava: Disclaimer: I don't have any inside information, so there's no sense finding any hidden meaning in my words.  It's just based on the previous experience on how TON leadership/ecosystem operates. (reply to 185202)
+
+&rey: Recall that MTONGA is not yet complete, which means that Telegram is to say more about what they want of TON ecosystem. (reply to 185202)
+
+Fardin: Yeah, makes sense (reply to 185205)
+
+Nathanaël: We’re all on the same boat. It all depends on Durov… who’s being questioned once again by the French police as we speak. There’s no PR team at Telegram. I’ve never encountered a Telegram/TON dev on any social or Telegram channel. What Durov has announced so far is really great for the ecosystem as a whole. But we need more than that, especially as developers. (reply to 185119)
+
+X: Hello kan somebody help me
+
+X: If a ton domain name is expired. How long wil it take before i can bid on it. There is a domain name that is expired and i want it. But i cannot bid on it. I only says that is expired today
+
+TON Support: Once a TON domain name has been expired for over a year without renewal, anyone can trigger its release. The domain then re-enters auction for one week, with the caller as the initial bidder.  Source: TON DNS — TON Docs, TON DNS (reply to 185229)
+
+X: Yes how can i trigger it release. It is expired (reply to 185230)
+
+X: So only if its expires for over a year? (reply to 185230)
+
+&rey: You can, it's just a matter of UI support. (reply to 185229)
+
+X: Hello! To start an auction for such a TON DNS domain, the transaction with the first bid must contain special data. Unfortunately, there is no ready-made interface for this. You can search for information on how to send such a transaction in the developers' chat
+
+X: This is what de ton support send me.
+
+X: I cant bid on it. It only says expired
+
+&rey: You can search this chat for keyword "expired domain", reaching https://t.me/tondev_eng/152421 . (reply to 185234)
+
+Aleks: Hey guys,   Has anyone here ever looked closely at the Telegram login QR animation?   I’ve found what looks like around 30 BIP-style words hidden in the pattern. The first few lines strongly suggest a direct message from the headquarters and the manufacturer himself.   Do you think this fits Durov's style to hide a real Easter egg right under our noses? Also, is it even possible that since 2022—when they first referenced this code and made that 'Follow the white duck, Neo' joke—nobody has actually analyzed these lines? How do you think, can this be fully decrypted?  I was’n searching for any secrets, just  compiling some assets for the digital freedom contest and my macOS Telegram client bugged out on this.   https://youtube.com/shorts/9PvQinG63q0?is=7SCm1W_cUMtkLCMj  Dropped the raw capture gif at the youtube channel post tab
+
+Slava: * Distracted from making a mountain out of mashed potato *  Oh, wow... (reply to 185242)
