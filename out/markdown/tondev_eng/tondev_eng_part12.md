@@ -3641,3 +3641,17 @@ X: I cant bid on it. It only says expired
 Aleks: Hey guys,   Has anyone here ever looked closely at the Telegram login QR animation?   I’ve found what looks like around 30 BIP-style words hidden in the pattern. The first few lines strongly suggest a direct message from the headquarters and the manufacturer himself.   Do you think this fits Durov's style to hide a real Easter egg right under our noses? Also, is it even possible that since 2022—when they first referenced this code and made that 'Follow the white duck, Neo' joke—nobody has actually analyzed these lines? How do you think, can this be fully decrypted?  I was’n searching for any secrets, just  compiling some assets for the digital freedom contest and my macOS Telegram client bugged out on this.   https://youtube.com/shorts/9PvQinG63q0?is=7SCm1W_cUMtkLCMj  Dropped the raw capture gif at the youtube channel post tab
 
 Slava: * Distracted from making a mountain out of mashed potato *  Oh, wow... (reply to 185242)
+
+— 2026-07-12 —
+
+Gift Phase Support: Hiii, Dev Chat Team. I have a telegram MiniApp. We've added GRAM deposit but sometimes it got credited to users balance twice the same amount and when we check the txn hash it display two different ton viewers transaction link on same transaction. Are there anyone who can help me.
+
+— 2026-07-13 —
+
+Max: Hi, how does this work? (reply to 185332)
+
+Merry: Okay (reply to 185332)
+
+Merry: If I will help you
+
+Merry: Yes

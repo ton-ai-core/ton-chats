@@ -1159,3 +1159,15 @@ Short: Оказалось найти публичный гейт это толь
 &rey: Тогда просто импорт по этой фразе; выбирайте приложение на свой вкус. (Ну, вдруг что-то случится со вторым аккаунтом, чтобы ещё раз не импортировать.) (reply to 356463)
 
 Кирилл: Фрагмент не хочет наотрез (reply to 356464)
+
+— 2026-07-12 —
+
+Gift Phase Support: Hi, I am the owner of the Giftphase project building on the TON Blockchain. We recently found a vulnerability on the TON Blockchain involving double transaction hashes in a single transaction, which is causing issues with our app's Gram deposit function. To whom should I report this? It doesn't happen daily, but at specific times and with specific Gram deposit amounts, this issue occurs.
+
+Gift Phase Support: Kindly let me know who is the right person I can DM to send all transaction hashes for the same transaction, which is causing a double deposit in our app. I have all the proof a TON developer needs to understand it.
+
+&rey: Английский чат – @tondev_eng.  У переводов обычно не меньше трёх хешей для разных стадий. Хеш экстернал-сообщения (подписанного ордера на перевод), хеш транзакции списания (на кошельке отправителя) и хеш транзакции зачисления (на вашем кошельке). (reply to 356609)
+
+&rey: Разработчикам вашей системы, чтобы они нормализовали хеш, желательно до хеша транзакции зачисления. (reply to 356609)
+
+Gift Phase Support: I understand now. I thought it's a critical bug that causing such issues. (reply to 356616)
