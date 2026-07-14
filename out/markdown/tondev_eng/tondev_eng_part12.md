@@ -3655,3 +3655,53 @@ Merry: Okay (reply to 185332)
 Merry: If I will help you
 
 Merry: Yes
+
+Gift Phase Support: Hi Max, we have enabled TON deposits for centralized exchange users using their memo. However, our automated deposit detection finds two Tonviewer links for the same transaction, and both work. When a user deposits 10 Grams, the system sometimes caches two transactions and credits the amount twice. We have tried to fix this, but when it finds two different links for the same deposit amount, it becomes hard to understand what is really wrong: either our system or the blockchain. (reply to 185347)
+
+Max: What API do you use to receive transactions? (reply to 185357)
+
+Max: If you parse tonviewer, it's not reliable. Try toncenter or something like it. (reply to 185357)
+
+Gift Phase Support: @ tonapibot (reply to 185360)
+
+Gift Phase Support: We've used it from there
+
+Max: Try implementing a unique identifier for each transaction in the database. The idea is: one transaction = one lt:hash. Everything else is a duplicate. (reply to 185363)
+
+Gift Phase Support: Could you please check your DM (reply to 185364)
+
+Max: You may notice that they have the same time. This means you can use lt (logical time) along with the hash. (reply to 185365)
+
+Gift Phase Support: Yeah you are correct. (reply to 185366)
+
+Max: Just create a unique identifier for each transaction based on the LT and hash. Then check for duplicates using it, since they will have the same identifier. (reply to 185367)
+
+Gift Phase Support: Thank you for your help. We will work on it. (reply to 185368)
+
+Adapt: Software update failure? Do you guys know what is happening right now? Tonviewer is not updating, no new swaps, all blocks 1-3 tx max.
+
+TON Support: It looks like there are some errors with fetching rate chart data for several tokens on Tonkeeper. This could be related to the issues you are observing with Tonviewer and transaction updates.  Please note that I can only provide information about Tonkeeper. For Tonviewer and other services, I don't have specific status information. (reply to 185370)
+
+xylica: Node maintainers were asked to update on july 13 but the latest commit on TON repo master branch is literally 3 weeks ago @ june 21, while the latest release is june 1. And now the network is down. Do they even know what they're doing anymore?
+
+Zzz...: Is it normal that I send a transaction via Toncenter now, see it on the Tonviewer scanner with a "Pending" status for a minute... and then it simply disappears (presumably due to the validUntil parameter)—and this happens consistently with every single transaction over the course of 30 minutes?
+
+Adapt: I believe we need to wait until issue is sorted.
+
+Adapt: https://t.me/tonstatus/221
+
+jordan: https://t.me/tonstatus/222
+
+Tabz: Need help
+
+Mouhammed: Hi everyone! I'm developing an NFT platform on TON Testnet. I need around 20–50 Testnet TON to deploy about 15 NFT collection contracts and mint 240 NFTs for testing. Testnet address: 0QCCJ2juwMxOY7Dh7rW2kjIpQeeeVaWTtgLgxy_XqOg0j5H9 I'd really appreciate any help. Thanks!
+
+&rey: Have you completed the testing inside @ton/sandbox? (reply to 185391)
+
+PixelGifts: I wanted to ask: do you know when the App Center update is coming out, and why the apps stopped showing up?
+
+— 2026-07-14 —
+
+Yu Han: hi everyone, when i run the node i found some error that cause the node stop synchronizing, could anyone solve this issue? Thanks
+
+Yu Han: mytonctrl@bcn03:~$ sudo grep -rh "archiveimport\|import-db-slice\|bad validator" /var/ton-work/log.thread*.log | tail -20 [ 1][t37][2026-07-13 07:46:58.587449488][import-db-slice-local.cpp:59][!archiveimport.8536840]  Archive import: [Error : 621 : bad validator set hash: expected 1810931228, found 0]
