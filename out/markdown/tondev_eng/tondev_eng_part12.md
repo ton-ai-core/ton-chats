@@ -3705,3 +3705,33 @@ PixelGifts: I wanted to ask: do you know when the App Center update is coming ou
 Yu Han: hi everyone, when i run the node i found some error that cause the node stop synchronizing, could anyone solve this issue? Thanks
 
 Yu Han: mytonctrl@bcn03:~$ sudo grep -rh "archiveimport\|import-db-slice\|bad validator" /var/ton-work/log.thread*.log | tail -20 [ 1][t37][2026-07-13 07:46:58.587449488][import-db-slice-local.cpp:59][!archiveimport.8536840]  Archive import: [Error : 621 : bad validator set hash: expected 1810931228, found 0]
+
+Mr. Badihi: Hey are you guys having issues with the testnet too?
+
+TON Support: Yes, it appears there are currently issues with the testnet. The toncenter_v3_testnet is experiencing a critical indexing lag, with the last message reporting a lag of 140.66s (threshold > 30.00s). This issue started on 2026-07-14T00:39:22.243177738Z. (reply to 185415)
+
+Mr. Badihi: Is there any prediction when it will be fixed?
+
+Anshul: Hello , I m facing testnet issue from yesterday. I m not able to send funds to another wallet
+
+krazykrazy: is tonkeeper still down? transactions not going in still
+
+TON Support: There are multiple incidents reported for Tonkeeper, primarily related to issues fetching rate charts for various tokens (TON, RUB, EQBynBO23ywHy_CgarY9NK9FTz0yDsG82PtcbSTQgGoXwiuA, USDT, EQDPdq8xjAhytYqfGSX8KcFWIReCufsB9Wdg0pLlYSO_h76w, NOT, EQC98_qAmNEptUtPc7W6xdHh_ZHrBUFpw5Ft_IzNU20QAJav,...  CATI). These incidents show "Consecutive failures: 3" and "jsonpath[$.points[0]] not_exists" errors, with recovery times in mid-2026. While these indicate issues with retrieving rate chart data, they don't directly confirm or deny issues with transactions.  The information suggests that while Tonkeeper might be experiencing some data retrieval problems, it doesn't explicitly state that transactions are not going through.  Source: [get_current_incidents](None) (reply to 185429)
+
+TON Support: I see multiple incidents reported for Tonkeeper, all related to errors fetching rate charts for various tokens. These incidents show "Consecutive failures: 3" and "jsonpath[$.points[0]] not_exists" errors, with recovery times noted in mid-2026. This indicates...  an issue with displaying price data, but it doesn't directly confirm that transactions are failing.  If you are experiencing issues with transactions, it might be a separate problem. The current service status only shows issues with rate chart data retrieval.  Source: [get_current_incidents](None) (reply to 185429)
+
+krazykrazy: how much time to fix this?
+
+TON Support: I cannot provide an estimated time to fix these issues. The reported recovery times for the incidents are in mid-2026, which seems to be a placeholder or an error in the reporting system, as it's far in the future. I do not have information on the actual estimated time for resolution. (reply to 185432)
+
+Bro: Hugeeee
+
+Bro: Pavel cooking
+
+Mohamed: When attributes of stickers
+
+Brender: Yes.. you’ll have to make an update on your portfolio (reply to 185111)
+
+xylica: There is no commit on the master branch. What exactly are we upgrading here?  t.me/tonstatus/224
+
+Оскар: wait til a merge from the testnet branch (reply to 185455)
