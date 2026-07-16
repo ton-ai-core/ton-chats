@@ -3735,3 +3735,51 @@ Brender: Yes.. you’ll have to make an update on your portfolio (reply to 18511
 xylica: There is no commit on the master branch. What exactly are we upgrading here?  t.me/tonstatus/224
 
 Оскар: wait til a merge from the testnet branch (reply to 185455)
+
+— 2026-07-15 —
+
+hΔrdshell: I keep getting errors on ton wallet in telegram (reply to 184756)
+
+hΔrdshell: fails to load
+
+hΔrdshell: very buggy
+
+hΔrdshell: "some technical issues"
+
+Anshul: Hi if toncenter is down is any other testnet ?
+
+&rey: Local testing already done? (reply to 185498)
+
+Александр: Hello everyone!  Tell me, are TON domains working right now? I'm trying to open my configured domain, but when I go to magic.org I get a 502 error.
+
+Александр: Can there be problems if ADNL is configured on a server located in Russia? (reply to 185508)
+
+&rey: Are other entry points working? This one is Telegram's and presumably equipped with a whitelist. (reply to 185508)
+
+Александр: .ton.website - opens my application, bound to the domain (reply to 185512)
+
+Charles: Does anyone know how to recover USDT deposited into an unverified TON blockchain via Binance exchange?
+
+TON Support: Funds sent to a non-existent or incorrect address are irrecoverable. If a contract does not exist, bounceable messages would return the funds.  Source: Toncoin payments processing — TON Docs (reply to 185523)
+
+Mr. Badihi: it just me or the testnet still isnt working ?
+
+TON Support: Yes, it appears there are some ongoing issues with the toncenter_v2_testnet. There have been several 500 Internal Server Errors reported for various API calls, including GET /api/v2/getShardBlockProof, POST /api/v2/getBlockHeader, and POST /api/v2/getBlockTransactions....  These errors indicate that the lite server is either not ready or encountering issues with block synchronization.  The most recent incident for GET /api/v2/getShardBlockProof started at 2026-07-13T14:26:23.358307518Z and was recovered at 2026-07-13T14:33:37.976784445Z. However, the other incidents listed also show similar errors. (reply to 185532)
+
+Ruslan: Hi — I do independent FunC/TON security reviews and can take a look. Share the repo + a short spec (what it should do, trust assumptions) and I'll scope effort and timeline. Recent example of my work: github.com/cpljoshrayperson/funcaudit-portfolio — happy to continue in DM. (reply to 185061)
+
+Ruslan: This lines up with the network congestion since June — it's not on your side. When you fan out a batch, the externals get evicted from the mempool under load and only re-propagate later, so they look stuck or vanish. What actually helps: - broadcast the same BoC through several liteservers/providers at once, not one endpoint - set a longer validUntil so the order survives re-propagation - rebroadcast the identical message until the sender seqno advances — safe, since   same seqno + validUntil = same message, no double-send - track the wallet seqno, not the explorer's pending status (explorer drops it earlier) For big NFT batches also chunk the sends and use a highload wallet, so one stuck external doesn't stall the whole batch. Can't fully fix client-side (root cause is liteserver/network infra), but retries + wider validUntil kill most of it. (reply to 185111)
+
+𝗖𝗔𝗟𝗠: Are there some problems on Testnet?
+
+TON Support: Yes, there are some problems on the Testnet.  There's an ongoing incident with toncenter_v2_testnet related to GET /api/v2/getShardBlockProof. The last message indicates "LITE_SERVER_NOTREADY: cannot find block (-1,8000000000000000) seqno=1: seqno not in db". This incident started on 2026-07-13T14:26:23.358307518Z and was recovered at 2026-07-13T14:33:37.976784445Z. (reply to 185546)
+
+— 2026-07-16 —
+
+TON Support: Yes, there are some problems reported on the Testnet (toncenter_v2_testnet). Several incidents show "500 Internal Server Error" with various messages such as "LITE_SERVER_NOTREADY: cannot find block," "LITE_SERVER_UNKNOWN: specified mc block is older...  than block's masterchain ref," and "INTERNAL: get last block failed." These issues started at different times, with the most recent one recovering on 2026-07-13T14:33:37.976784445Z. (reply to 185546)
+
+Mr. Badihi: Not working at all (reply to 185546)
+
+Armin: Hey guys We are building an AML system on ton Anyone interested to test our product?
+
+Armin: Also are there any directory that we can list our product there? (reply to 185554)
