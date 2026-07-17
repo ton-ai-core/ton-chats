@@ -3783,3 +3783,29 @@ Mr. Badihi: Not working at all (reply to 185546)
 Armin: Hey guys We are building an AML system on ton Anyone interested to test our product?
 
 Armin: Also are there any directory that we can list our product there? (reply to 185554)
+
+Gabriel: Can I get a ton domain
+
+TON Support: Yes, you can acquire a .ton domain. These domains are recognized by various wallet applications and explorers within the TON ecosystem, allowing users to send cryptocurrency to a domain name instead of a 256-bit account identifier. Primary sales of .ton domains are conducted through a decentralized open auction available at dns.ton.org.  Source: TON DNS, TON DNS & domains | The Open Network, Web3 services - TON Docs (reply to 185566)
+
+P: Is .gram domain a thing? (reply to 185567)
+
+TON Support: TON uses .ton domains, not .gram domains. The .ton domains are recognized by wallet applications and explorers in the TON ecosystem and can be used to send cryptocurrency, host TON Sites, or map to TON Storage Bag IDs.  While "Gram" is the native...  asset on TON, the domain names themselves are .ton. Registered .ton domains must be renewed annually by sending 0.015 GRAM to the domain contract.  Source: TON DNS (reply to 185570)
+
+TON Support: TON uses .ton domains for its domain name service, not .gram domains. These .ton domains are integrated throughout the TON ecosystem, allowing users to send cryptocurrency to human-readable names, host websites, and address files in TON Storage. While "Gram" is the native currency of TON, it is used for renewals of .ton domains, not as a top-level domain itself.  Source: TON DNS (reply to 185570)
+
+— 2026-07-17 —
+
+PixelGifts: Does anyone know what happened to the App Center?
+
+Jake: AiLxWjh9o4SQ6MiCgnCnfFAo3uD3M8VUy6SKHuE6pump just started my coin could use some opinions
+
+A: Heyy
+
+A: Where i widhrawal my balance
+
+A: Anyone help me?
+
+Jake: Send it to a different wallet
+
+A: I widrawl my balance from jattons?
