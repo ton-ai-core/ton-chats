@@ -1239,3 +1239,15 @@ middleware: я работаю с toncenter . com, все нормально (rep
 — 2026-07-17 —
 
 Eugene: Chainstack (reply to 356911)
+
+Toffee: А как эмулятор получить? (reply to 356785)
+
+Toffee: Я ничего не знаю про эмуляторы
+
+middleware: Друзья, подскажите репозиторий jetton минтера на Tact'е
+
+Ruslan: эмулятор — это @ton/sandbox, ставится как npm-пакет, никакой отдельной ноды/сети не надо, tvm крутится прямо в процессе теста. если у тебя проект на Blueprint — sandbox уже в наборе, глянь tests/*.spec.ts. если с нуля: npm i -D @ton/sandbox @ton/test-utils @ton/core @ton/ton дальше по шагам под твой кейс с адресом кошелька: `ts import { Blockchain } from '@ton/sandbox'; const bc = await Blockchain.create(); // открываешь мастер по его коду+данным (тянешь один раз из сети) const master = bc.openContract(JettonMinter.createFromAddress(masterAddr)); const jw = await master.getGetWalletAddress(ownerAddr); // get_wallet_address ` это гоняет реальный get-метод мастера в tvm, поэтому layout сторейджа кошелька тебе знать не надо — работает для usdt и любой кастомной реализации. именно то, о чём я писал выше. (reply to 357001)
+
+Ruslan: github.com/tact-lang/jetton — актуальная, TEP-совместимая и газо-оптимизированная реализация на Tact, с тестами на @ton/sandbox и бенчами по газу. это тот, что поддерживается. старый ton-community/tact-jetton уже deprecated и сам редиректит на tact-lang/jetton, на него не смотри. если нужен просто быстрый старт — npm create ton@latest, выбираешь Tact-шаблон, он скаффолдит минтер+кошелёк с тестами. (reply to 357005)
+
+Andrew: // Paper-mode economics. Any unset/empty field falls back to the deployment // default (AUTOTRADE_BOT_PAPER_* environment variables). message PaperEconomics {   string taker_fee_pct = 1; // per leg, e.g. "0.04"   // Simulated order latency ("ping"), lower bound / fixed value. When   // fill_delay_max_ms > fill_delay_ms the venue draws a FRESH uniform delay in   // [fill_delay_ms, fill_delay_max_ms] per order; otherwise every order waits   // exactly fill_delay_ms.   int32 fill_delay_ms = 2;   int32 stale_book_after_ms = 3; // reject fills against books older than this   // Upper bound of the ping jitter range; 0/unset (or <= fill_delay_ms) = a   // fixed fill_delay_ms. Must be >= fill_delay_ms when both are set.   int32 fill_delay_max_ms = 4; }

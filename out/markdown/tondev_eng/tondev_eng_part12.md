@@ -3809,3 +3809,13 @@ A: Anyone help me?
 Jake: Send it to a different wallet
 
 A: I widrawl my balance from jattons?
+
+Mr. Badihi: There are no plans to fix the testnet anytime soon ?
+
+Mr. Badihi: 3 days passed and it still broken
+
+Anshul: My production deployment is getting delay because of testnet issue
+
+Tolya: The testnet is working. It appears that the testnet TON API and its associated services (Tonkeeper/Tonviewer) are not working. Please try a different API and wallets.
+
+Ruslan: This isn't a testnet outage — the network itself is fine. What's down is toncenter v2 (toncenter_v2_testnet) and the services on top of it (Tonkeeper/Tonviewer), since ~Jul 13.  To unblock your deploy: • Swap your RPC endpoint off toncenter v2 — use tonapi.io, or better, run a local lite-client against a public testnet config. • For contract build/test/deploy scripts, point Blueprint/Acton at the alternative endpoint instead of the default toncenter one. • For pre-deploy validation, @ton/sandbox runs fully local (no RPC at all), so you can keep testing while the API is degraded.  Checked my own flows — sandbox + a non-toncenter RPC are working fine right now. (reply to 185623)
