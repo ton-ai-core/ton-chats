@@ -3819,3 +3819,43 @@ Anshul: My production deployment is getting delay because of testnet issue
 Tolya: The testnet is working. It appears that the testnet TON API and its associated services (Tonkeeper/Tonviewer) are not working. Please try a different API and wallets.
 
 Ruslan: This isn't a testnet outage — the network itself is fine. What's down is toncenter v2 (toncenter_v2_testnet) and the services on top of it (Tonkeeper/Tonviewer), since ~Jul 13.  To unblock your deploy: • Swap your RPC endpoint off toncenter v2 — use tonapi.io, or better, run a local lite-client against a public testnet config. • For contract build/test/deploy scripts, point Blueprint/Acton at the alternative endpoint instead of the default toncenter one. • For pre-deploy validation, @ton/sandbox runs fully local (no RPC at all), so you can keep testing while the API is degraded.  Checked my own flows — sandbox + a non-toncenter RPC are working fine right now. (reply to 185623)
+
+— 2026-07-18 —
+
+Lilac: Hello Pls can anyone point me to any document or article on telegram position on sweepstake mini apps. I need to know before starting this build. I won't want it to be deleted. Does telegram allow lottery and sweeptakes mini apps
+
+Sam | TrafficPlaza: Hey. There isn’t a simple blanket “yes” from Telegram for all sweepstakes apps.  The key distinction is whether it’s a free-entry promotional sweepstake or a paid-entry / real-money chance-based lottery. The second one is much riskier and may fall under gambling laws. (reply to 185661)
+
+Sam | TrafficPlaza: Telegram’s developer terms require compliance with local laws and prohibit illegal, regulated or misleading services. Also, Telegram Ads explicitly don’t allow promotion of lotteries or gambling involving money or valuable prizes.
+
+Sam | TrafficPlaza: Before building, define the entry method, prize, GEO, age restrictions and payment flow. Is yours free-entry or paid-entry?
+
+Lilac: Free entry. While ads is required for more entry  Secondly there is a subscription option of $2.99 per month for premium users
+
+Lilac: The premium subscription is not however compulsory and it is not a paid entry  in a way. It just offers other values (reply to 185664)
+
+Sam | TrafficPlaza: That makes it much safer.  If entry is genuinely free, and the $2.99 subscription does not give extra entries, better odds or special access to the prize pool, it looks more like a promotional sweepstake than paid gambling. (reply to 185665)
+
+Sam | TrafficPlaza: Keep the free-entry path clearly accessible and publish proper rules: eligible GEOs, age limit, prize details, winner selection and claim process.  Also note that digital subscriptions inside Telegram should use Stars, and Telegram Ads may still reject promotion of chance-based prize products.
+
+Lilac: Wait the $2.99 gives extra entry  My issue is most of our users will come from India. There are laws against sweepstake
+
+Lilac: Mind if I send a DM
+
+Sam | TrafficPlaza: Sure, feel free to DM me (reply to 185671)
+
+krazykrazy: is TON keeper closing down the app from the mobile phones? if yes, what does this imply to mini apps that uses ton keeper to receive transactions?
+
+TON Support: Based on the official TON documentation, there is no information indicating that Tonkeeper is closing down its mobile application. In fact, the documentation describes Tonkeeper as a "self-custodial mobile wallet available on iOS and Android" and mentions...  its support for "regular wallets, Jettons, NFTs, and TON Connect."  TON Connect is highlighted as the "mandatory connection protocol for all Telegram Mini Apps," serving as the "gateway to TON's entire ecosystem of applications and services." This implies that Tonkeeper, through TON Connect, continues to be a crucial component for mini-apps to interact with the TON blockchain, including receiving transactions.  Therefore, based on the available documentation, there is no indication of Tonkeeper closing its mobile app, and it remains an integral part of the TON ecosystem for mini-apps.  Source: Tonkeeper - TON Docs, TON Connect overview - TON Docs (reply to 185688)
+
+krazykrazy: can you verify that info please?
+
+TON Support: I have re-verified the information by searching the TON documentation again specifically for "is TON keeper closing down the app from the mobile phones?". The results consistently describe Tonkeeper as an active mobile wallet available on both iOS and...  Android. There is no mention or indication in the official TON documentation that Tonkeeper is closing down its mobile application. The documentation even provides instructions on how to use Tonkeeper, set up wallets, and how it integrates with other TON ecosystem components like TON Connect.  Therefore, based on the official documentation, the information that Tonkeeper is *not* closing down its mobile app is accurate. (reply to 185690)
+
+&rey: No, Tonkeeper's own application will be accessible; Tonkeeper will not provide mini-app for access through Telegram. (reply to 185688)
+
+krazykrazy: thank you for the double confirmation, just came across the real article also and checked this 💪🏼🔥
+
+Ruslan: Late add, but one thing for mini app devs since that was the second half of your question: your mini app shouldn't depend on any single wallet in the first place. If you integrate payments via TON Connect (which is the standard protocol for mini apps anyway), users can pay from Tonkeeper, Wallet in Telegram, MyTonWallet or any other compliant wallet — and news about any one wallet app stops being your problem.  Separate tip while you're at it: don't treat a wallet's UI confirmation as payment confirmation on your backend — verify the incoming transaction on-chain (account, amount, comment/payload) before crediting the user. That's where most mini app payment bugs live. (reply to 185688)
+
+krazykrazy: thank you!!!

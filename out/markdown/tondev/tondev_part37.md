@@ -1251,3 +1251,17 @@ Ruslan: эмулятор — это @ton/sandbox, ставится как npm-п
 Ruslan: github.com/tact-lang/jetton — актуальная, TEP-совместимая и газо-оптимизированная реализация на Tact, с тестами на @ton/sandbox и бенчами по газу. это тот, что поддерживается. старый ton-community/tact-jetton уже deprecated и сам редиректит на tact-lang/jetton, на него не смотри. если нужен просто быстрый старт — npm create ton@latest, выбираешь Tact-шаблон, он скаффолдит минтер+кошелёк с тестами. (reply to 357005)
 
 Andrew: // Paper-mode economics. Any unset/empty field falls back to the deployment // default (AUTOTRADE_BOT_PAPER_* environment variables). message PaperEconomics {   string taker_fee_pct = 1; // per leg, e.g. "0.04"   // Simulated order latency ("ping"), lower bound / fixed value. When   // fill_delay_max_ms > fill_delay_ms the venue draws a FRESH uniform delay in   // [fill_delay_ms, fill_delay_max_ms] per order; otherwise every order waits   // exactly fill_delay_ms.   int32 fill_delay_ms = 2;   int32 stale_book_after_ms = 3; // reject fills against books older than this   // Upper bound of the ping jitter range; 0/unset (or <= fill_delay_ms) = a   // fixed fill_delay_ms. Must be >= fill_delay_ms when both are set.   int32 fill_delay_max_ms = 4; }
+
+— 2026-07-18 —
+
+Creation: Друзья , по какой причине апи майннета может неправильно определять адрес? сид фраза и тд корректные, но по логам определение левого адреса
+
+User: Судя по вашему описанию проблемы, причина может быть скорее всего в subwallet_id  Почитать что это такое можно тут: https://docs.ton.org/contracts/standard/wallets/how-it-works#subwallet-id  Или, если вы видите что адрес совпадает, но только частично, например его центральная часть, то скорее всего вы просто выводите его себе в логах в другом формате  Прочитать о форматах можно тут: https://docs.ton.org/foundations/addresses/serialize (также если вы видите что адрес отличается структурно, то скорее всего вы выводите его в формате hex или наоборот) (reply to 357058)
+
+User: Увидел удаленное сообщение  ❌ Ошибка отправки TON: Вычисленный адрес отправителя (UQA...) не совпадает с TON_SENDER_ADDRESS из .env (UQD5...). Отправка остановлена. ❌ #4: ошибка отправки: Вычисленный адрес отправителя (UQA...) не совпадает с TON_SENDER_ADDRESS из .env (UQD5...). Отправка остановлена.  Скорее всего дело в subwallet_id или в версии кошелька  p.s. Также проверьте написание сид фразы, на всякий случай (reply to 357058)
+
+Creation: спасибо большое , буду пробовать !
+
+— 2026-07-19 —
+
+Skiba: Добрый день коллеги, ищу команду, где мог бы быть полезен в качестве бекенд разработчика  https://github.com/Skiba111
