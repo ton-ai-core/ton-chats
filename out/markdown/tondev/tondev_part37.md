@@ -1265,3 +1265,9 @@ Creation: спасибо большое , буду пробовать !
 — 2026-07-19 —
 
 Skiba: Добрый день коллеги, ищу команду, где мог бы быть полезен в качестве бекенд разработчика  https://github.com/Skiba111
+
+𝗖𝗔𝗟𝗠: Народ, есть ли репа с имплементацией TON Dns Domains на языке Tolk?
+
+Petr: Глянь тут https://github.com/ton-blockchain/acton-contracts/tree/master/dns (reply to 357107)
+
+𝗖𝗔𝗟𝗠: То что надо, благодарю (reply to 357109)

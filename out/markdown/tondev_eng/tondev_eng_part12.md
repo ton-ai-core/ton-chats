@@ -3859,3 +3859,17 @@ krazykrazy: thank you for the double confirmation, just came across the real art
 Ruslan: Late add, but one thing for mini app devs since that was the second half of your question: your mini app shouldn't depend on any single wallet in the first place. If you integrate payments via TON Connect (which is the standard protocol for mini apps anyway), users can pay from Tonkeeper, Wallet in Telegram, MyTonWallet or any other compliant wallet — and news about any one wallet app stops being your problem.  Separate tip while you're at it: don't treat a wallet's UI confirmation as payment confirmation on your backend — verify the incoming transaction on-chain (account, amount, comment/payload) before crediting the user. That's where most mini app payment bugs live. (reply to 185688)
 
 krazykrazy: thank you!!!
+
+— 2026-07-19 —
+
+Mostafa ⁂: How to get TON testnet tokens?
+
+TON Support: To get TON testnet tokens, you have two main options:  1.  For regular requests of 2 TON per hour: Use the Telegram Testgiver TON bot. You'll need a Telegram account, and then you can open the bot (@testgiver_ton_bot), click "Start," and follow the prompts...  to request test coins. You'll need to solve a captcha and provide your testnet wallet address. 2.  For larger allocations up to 5,000 TON: Submit a request form.  In both cases, you will need a testnet wallet to receive the tokens.  Source: How to get coins on testnet — TON Docs (reply to 185721)
+
+Petr: Or you can use builtin faucet in Acton https://ton-blockchain.github.io/acton/docs/wallets#fund-a-wallet-on-testnet
+
+Fardin: Maybe they are rebranding to Gram keeper (reply to 185688)
+
+Max: Bad idea, gram - native coin, ton - blockchain. In Tonkeeper there is not only Gram, but also other interactions with blockchain functions, that's why. (reply to 185727)
+
+Fardin: Yeah, but "Ton" is the chain name, and "Tonkeeper" has no meaning anymore (reply to 185732)
