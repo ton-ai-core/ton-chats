@@ -3873,3 +3873,41 @@ Fardin: Maybe they are rebranding to Gram keeper (reply to 185688)
 Max: Bad idea, gram - native coin, ton - blockchain. In Tonkeeper there is not only Gram, but also other interactions with blockchain functions, that's why. (reply to 185727)
 
 Fardin: Yeah, but "Ton" is the chain name, and "Tonkeeper" has no meaning anymore (reply to 185732)
+
+— 2026-07-21 —
+
+X_X: Hi guys
+
+X_X: Can I ask a question?
+
+Vivek: Bro I am new on testnet I am sending free ton token on my wallet but showing 0 balance
+
+Vivek: My account is new that is why not showing balance in my account?
+
+X_X: Would you play a game built on Ton/Gram?
+
+Vivek: Yes (reply to 185831)
+
+X_X: Search Tetblock
+
+Vivek: "Hey guys, my testnet wallet is stuck in an uninitialized loop and all bots are rejecting it. Can someone please send 0.05 testnet TON to activate my wallet? Address.....0QC3EZiH9Uxk0kwNd-jLBgzyiH2Ozvh6d-NnH0e6STle-GU9
+
+Vivek: What is link? (reply to 185833)
+
+X_X: Sent you 2 testnet ton (reply to 185834)
+
+X_X: Hello Admin can I send links please? (reply to 185835)
+
+Vivek: Still not showing balance (reply to 185836)
+
+Vivek: Look bro you send but still not showing in my wallet
+
+Vivek: Still zero...I am not understanding why? (reply to 185837)
+
+Vivek: Wht is the reason?
+
+X_X: Try updating your wallet maybe
+
+X_X: Admin, Am I allowed to send links?
+
+Vivek: Msg me but I am going to take rest after 6 hours will be online here (reply to 185845)
