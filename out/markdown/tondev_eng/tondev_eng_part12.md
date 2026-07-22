@@ -3911,3 +3911,55 @@ X_X: Try updating your wallet maybe
 X_X: Admin, Am I allowed to send links?
 
 Vivek: Msg me but I am going to take rest after 6 hours will be online here (reply to 185845)
+
+Mostafa ⁂: Try using another wallet like Tonwallet (reply to 185842)
+
+Mostafa ⁂: https://wallet.ton.org
+
+Vivek: Already using telegram and tonkeeper but still both showing 0 balance...."Uninitialized" or  "Uninit may be due to this reason (reply to 185854)
+
+&rey: Some of the testnet APIs (including tonapi IIRC) are out of commission.
+
+Vivek: If any one can help me to fix this problem ping me..so that I can use testnet wallet
+
+Vivek: Ok (reply to 185862)
+
+&rey: It means that Tonkeeper's testnet version will not work regardless of wallet status. (reply to 185864)
+
+Vivek: Then how I use testnet wallet? (reply to 185865)
+
+&rey: Tim's https://github.com/TonDevWallet/TonDevWallet worked in my experience. (reply to 185866)
+
+Vivek: Ok thanx (reply to 185867)
+
+Mostafa ⁂: had same issue the other day then switched to tonwallet and it shows the testnet balance (reply to 185860)
+
+Vivek: Gram wallet switch will so my tonkeeper testnet balance? (reply to 185869)
+
+Vivek: Ok bro then I try to import my tonkeeper testnet wallet to gram wallet (reply to 185873)
+
+Mostafa ⁂: Yes (reply to 185874)
+
+Vivek: You also faced same problem with telegram and tonkeeper? (reply to 185875)
+
+Mostafa ⁂: yes tonkeeper and telegrambot was not showing the testnet balace (reply to 185876)
+
+Vivek: Thanx for help bro finally someone helped me (reply to 185877)
+
+Mostafa ⁂: No problem bro
+
+Vivek: Now I understand telegram and tonkeeper will not work for testnet
+
+Vivek: But gram wallet will work
+
+P: Hello admin I want to give you a crypto idea
+
+Kazba: share it here (reply to 185896)
+
+Ruslan: Small but important correction: your wallet and balance were fine the whole time — the funds are on-chain. What's broken is the indexer API (toncenter v2 testnet), which has been degraded since ~Jul 13. Tonkeeper and the Telegram bot read balances through it, so they show 0; Gram wallet and TonDevWallet use different backends, so they show the real state. You can always verify the truth directly on testnet.tonscan.org or via a lite-client — if the explorer shows your balance, the problem is the wallet's data source, not your wallet.  Two extra notes: "uninit" is normal for a fresh address — it initializes on your first outgoing transaction, it doesn't block receiving. And be careful importing your seed into random wallet apps — fine for a testnet-only wallet, but never do that with a seed that also holds mainnet funds. (reply to 185887)
+
+Vivek: Bro I just used seed phrase to connect my tonkeeper and telegram mainnet wallet...I never used on unknown platforms (reply to 185902)
+
+Vivek: Both of my wallet connected with each other I can see balance in both at one time
+
+Ruslan: Yeah, that's totally fine — same seed in Tonkeeper and Telegram Wallet just means two apps reading the same on-chain account, that's why the balances match. Both are established wallets, no risk there. The only rule to remember going forward: keep a separate throwaway seed for testnet/experiments, and never type your main seed into anything beyond those trusted wallet apps. You're all set (reply to 185905)
