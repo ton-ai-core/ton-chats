@@ -3963,3 +3963,19 @@ Vivek: Bro I just used seed phrase to connect my tonkeeper and telegram mainnet 
 Vivek: Both of my wallet connected with each other I can see balance in both at one time
 
 Ruslan: Yeah, that's totally fine — same seed in Tonkeeper and Telegram Wallet just means two apps reading the same on-chain account, that's why the balances match. Both are established wallets, no risk there. The only rule to remember going forward: keep a separate throwaway seed for testnet/experiments, and never type your main seed into anything beyond those trusted wallet apps. You're all set (reply to 185905)
+
+— 2026-07-23 —
+
+H1Xploit: Hey man, can you provide the bot you use? It seems different from @wallet? (reply to 185886)
+
+Vivek: Try test giver ton bot (reply to 185968)
+
+H1Xploit: test_giver_ton_bot ? Not responding when click /start (reply to 185970)
+
+Vivek: These are two try them
+
+Vivek: Look profile pic
+
+H1Xploit: testgiver_ton_bot ? There is only a faucet feature and no TMA (reply to 185977)
+
+Rasmus Gissemann: React AppKit Hooks Overview https://chatgpt.com/c/6a6181cc-0680-83eb-ba26-2c6b47e84c90
