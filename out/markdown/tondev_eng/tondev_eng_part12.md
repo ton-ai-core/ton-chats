@@ -3979,3 +3979,21 @@ Vivek: Look profile pic
 H1Xploit: testgiver_ton_bot ? There is only a faucet feature and no TMA (reply to 185977)
 
 Rasmus Gissemann: React AppKit Hooks Overview https://chatgpt.com/c/6a6181cc-0680-83eb-ba26-2c6b47e84c90
+
+CryptoDundee: Hi how do I start an auction for an expired domain there is no option to do so ?
+
+TON Support: When a domain has not been renewed for over a year, you can trigger its release by calling dns_balance_release on the contract with a minimum payment. After this, the domain will re-enter auction for one week, with you as the initial bidder.  Source: [TON DNS — TON Docs](https://docs.ton.org/blockchain-basics/primitives/web3/ton-dns#:~:text=There (reply to 185992)
+
+candle: how to sell my auction
+
+&rey: What do you mean more specifically? (reply to 185997)
+
+indradev_: hi everyone :) my name is indradev_  yesterday I start to build TMA game based on fundamental ai/ml engineering in python/reflex (have a 5+ years of experience)  can I here ask a questions about TMA development? or plz recommend me similar channel where I can to do it, thank you
+
+&rey: TMA chat is @devs. (reply to 186014)
+
+indradev_: and that chat strictly for ton? and stars too? because I have a stars mechanic now, it's already in deployed code while even if I work according documentation (DDD) — I face some blackboxes (reply to 186018)
+
+— 2026-07-24 —
+
+&rey: Stars are not using TON machinery and thus are not for this chat. (reply to 186019)

@@ -1313,3 +1313,53 @@ TON Moderator: Привет!  Прочти правила и нажми кноп
 rub1kub 💻: от тест гиввера долго ждать тоны?
 
 Danil: обычно за пару минут   но лучше использовать airdrop из Acton https://ton-blockchain.github.io/acton/docs/wallets#fund-a-wallet-on-testnet (reply to 357337)
+
+— 2026-07-23 —
+
+Smony: Всем привет! Подскажите, пожалуйста, есть ли возможность получить дополнительное количество тестовых TON (Testnet)?  Сейчас разрабатываю и тестирую проект на TON. Стандартного лимита в 2 TON в час через faucet уже недостаточно для деплоя контрактов и массового тестирования транзакций.  Если есть возможность увеличить лимит или получить дополнительный объем тестовых монет, буду очень благодарен.  Адрес Testnet-кошелька: 0QCOS3G4fmBxXnQ0p0j4APQ9hmeKqv1J1utbEiEtqZjIj5DD  Спасибо!
+
+Danil: Через Acton можно, там более щедрые лимиты :) https://ton-blockchain.github.io/acton/docs/wallets#fund-a-wallet-on-testnet  > Acton faucet is limited to 2 requests of 2 testnet GRAM per hour for a single IP, device, and wallet. (reply to 357450)
+
+Smony: Спасибо! А есть ли какой-нибудь способ получить больше Testnet GRAM для разработки, помимо Action faucet? Например, через команду TON или по запросу для разработчиков? (reply to 357451)
+
+Petr: А какое вам нужно количество? (reply to 357453)
+
+Smony: Спасибо! Для начала около 1000–3000 Testnet TON будет вполне достаточно. Буду очень благодарен за любую помощь! (reply to 357454)
+
+Smony: Большое спасибо! Очень ценю вашу помощь!
+
+Andrew Bors: ты через gpt общаешься? (reply to 357453)
+
+куонист: похоже на то (reply to 357459)
+
+Smony: нет парни, я живой человек)
+
+куонист: проснулся
+
+Dmitriy: Кхм никто и не писал что ты БОТ ))) (reply to 357461)
+
+Smony: ок (reply to 357464)
+
+Toffee: Коллеги, привет кто может подсказать в чем у меня ошибка в стонфай https://testnet.tonviewer.com/transaction/5eb81cefcccddad62b5809127b98205c513a9ef4e46e4ab73b11056b9f936dd1?
+
+Smony: Еще вопрос. После ребрендинга с TON на GRAM у меня Tonkeeper в testnet начал подлагивать У всех так, или это только у меня?
+
+Petr: у TonAPI все еще проблемы с тестнетом :(( (reply to 357467)
+
+Toffee: } elseif (op == op::swap_token_to_ton()) {         throw_unless(401, equal_slices_bits(sender_address, owner_address));         slice my_jetton_wallet = in_msg_body~load_msg_addr();         slice askJettonWalletAddress = in_msg_body~load_msg_addr();         slice router = in_msg_body~load_msg_addr();         int token = in_msg_body~load_coins();         int min_out = in_msg_body~load_coins();         int frw_fee = 240000000;         int fee = 300000000 + frw_fee;         cell additional_data = begin_cell()             .store_coins(min_out)             .store_slice(my_address())             .store_coins(0)             .store_uint(0, 1)         ;; fwdGas             .store_coins(0)               ;; refundFwdGas             .store_uint(0, 1)             ;; refundPayload = null             .store_uint(10, 16)           ;; refFee (0.1%)             .store_uint(0, 2)           ;; referralAddress = null             .end_cell();         cell swap_payload = begin_cell()             .store_uint(0x6664de2a, 32)             .store_slice(askJettonWalletAddress)             .store_slice(my_address())             .store_slice(my_address())             .store_ref(additional_data)             .end_cell();          cell body = begin_cell()             .store_uint(0xf8a7ea5, 32)             .store_uint(0, 64)             .store_coins(token)             .store_slice(router)        ;; destination — условно; в реальности нужен адрес Router'а             .store_slice(my_address())             .store_uint(0, 1)             .store_coins(frw_fee)             .store_uint(1, 1)             .store_ref(swap_payload)             .end_cell();             cell msg = begin_cell()             .store_uint(0x18, 6)             .store_slice(my_jetton_wallet)             .store_coins(fee)             .store_uint(1, 107)             .store_ref(body)             .end_cell();         send_raw_message(msg, 1);     } вот код на FunC (reply to 357466)
+
+Smony: ага, вижу обозреватель Tonviewer тоже не работает
+
+Smony: на Tonscan перешел
+
+Sasha: Были проблемы с индексацией, сейчас догоняем (reply to 357468)
+
+middleware: Друзья, каким кошельком пользуйтесь? для тестнета
+
+Bohdan: Любым (reply to 357485)
+
+Danil: https://ton-blockchain.github.io/acton/docs/wallets (reply to 357485)
+
+— 2026-07-24 —
+
+Alexey: По моим замерам всё вернётся в норму к субботе (reply to 357477)
