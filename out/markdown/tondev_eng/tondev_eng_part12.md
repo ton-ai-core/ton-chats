@@ -3997,3 +3997,29 @@ indradev_: and that chat strictly for ton? and stars too? because I have a stars
 — 2026-07-24 —
 
 &rey: Stars are not using TON machinery and thus are not for this chat. (reply to 186019)
+
+— 2026-07-25 —
+
+Hamed: Hey guys i have a question. is there any function to feeze assets like that exists in tron/usdt in ton network and gram? i was considering the risks of adopting ton more than before and wanted to assess the freeze actual risk
+
+Getasew Tilahun: Hi everyone,  I am reaching out here to connect with someone from the TON core engineering team regarding two security findings I submitted through the official security channel.  I provided reproduction steps, stack traces, crash locations, and tested patches with proposed fixes, and I have also followed up through the appeal process. I would like to ensure the technical details are reviewed by the appropriate engineering team.  Could someone please guide me to the right person to discuss this with?  Thank you.
+
+&rey: USDT on TON can be frozen by message of its authority contract (Tether's multisig wallet IIRC). (reply to 186082)
+
+&rey: An uninitialized wallet on TON can be temporarily frozen by 2/3 of validators voting to add it to a list in Config. (180 early miners' wallets are suspended at the moment, 7 months remaining.)  Note that 2/3 of validators could do many other things to the network, however.
+
+&rey: There is no machinery to suspend a wallet which is deployed (e.g. by sending at least one outgoing transaction).
+
+Slava: A standard wallet to be 100% clear. (reply to 186094)
+
+Pratama: Is there anyone who can help me make a coin with 1% inflation
+
+⁭: we are against inflation, we can make deflation (reply to 186099)
+
+— 2026-07-26 —
+
+Vesting: the TON has change name to GRAM, but why all ecosystem still use old version?.
+
+Vesting: dont make me confused please
+
+Оскар: only the native token changed its name, the blockchain's name was left as is (reply to 186116)
