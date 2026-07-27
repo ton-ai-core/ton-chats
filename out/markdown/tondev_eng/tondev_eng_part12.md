@@ -4023,3 +4023,19 @@ Vesting: the TON has change name to GRAM, but why all ecosystem still use old ve
 Vesting: dont make me confused please
 
 Оскар: only the native token changed its name, the blockchain's name was left as is (reply to 186116)
+
+— 2026-07-27 —
+
+Vivek: Why my gram showing 0 balnce but I have 3.27 gram
+
+Vivek: Tonkeeper wallet (reply to 186177)
+
+Williams ( i will never dm you first ): are you on mainnet or testnet (reply to 186178)
+
+Vivek: Testnet (reply to 186180)
+
+Williams ( i will never dm you first ): switch to mainnet and clear cache and refresh then switch back to testnet (reply to 186181)
+
+Vivek: Ok (reply to 186182)
+
+Williams ( i will never dm you first ): any information now?? share me your address is dm (reply to 186183)
