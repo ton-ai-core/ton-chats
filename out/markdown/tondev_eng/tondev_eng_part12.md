@@ -4047,3 +4047,17 @@ TON Support: You can still get larger amounts of Testnet TON, up to 5,000 TON, b
 минт: Hi, I wanted to ask about the TON Testnet faucet. Before, there was a page on the Builders Portal where developers could request up to 5,000 Testnet TON for development: builders.ton.org Now the Builders Portal seems to be closed, and the page redirects to ton.org. I only see testgiver_ton_bot and Acton's faucet in the docs, but they provide only around 2 Testnet GRAM per request. Is there still a way to get a larger amount of Testnet TON for development, or was this program discontinued? If there is a new process or application form, could you please share it?
 
 TON Support: You can still obtain larger amounts of Testnet TON, up to 5,000 TON, by submitting a token request form. The TON Foundation reviews these submissions and transfers the tokens to your specified testnet wallet address.  Source: How to get coins on testnet - TON Docs (reply to 186216)
+
+— 2026-07-28 —
+
+imam: Hello, can you help me? I lost my Gram coins on the blockchain; they were stolen from my wallet and transferred to several other wallets. Is it possible to trace them or block the transactions? Please help me gather evidence, as I want to file a police report.
+
+&rey: Transaction history on your wallet will show all incoming and outgoing transfers (Gram-carrying messages).  (It cannot show how they were submitted to the network, however.) (reply to 186230)
+
+الأبَهِر🪐: I don’t think so, because that problem happen to me (reply to 186230)
+
+Szczepan: Can you tell us more about how it happend? (reply to 186230)
+
+Burak: How can I contact an authorized person on Telegram? A fake channel has been created in my game's name to scam people.
+
+&rey: That's to be reported at @notoscam. (reply to 186244)
