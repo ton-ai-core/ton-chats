@@ -4061,3 +4061,21 @@ Szczepan: Can you tell us more about how it happend? (reply to 186230)
 Burak: How can I contact an authorized person on Telegram? A fake channel has been created in my game's name to scam people.
 
 &rey: That's to be reported at @notoscam. (reply to 186244)
+
+— 2026-07-29 —
+
+Dinesh: Hi Ian devloper
+
+bharath: Why transaction time takes more than 40secs to complete when chain is sharding?
+
+‍ ‌‌‌‌ ‌‌‌‌ ‌ ‌‌‌‌ ⁪⁪: Except ton.app where else can add ton applications and miniapps
+
+TON Support: You can add TON applications and Mini Apps using AppKit, an open-source SDK designed for integrating TON into decentralized applications and Telegram Mini Apps. Telegram Mini Apps (TMAs) are web applications that run directly within the Telegram messenger.  Source: AppKit overview, TMA: Telegram Mini Apps overview - TON Docs (reply to 186308)
+
+— 2026-07-30 —
+
+Sam: How to earn ton pls help
+
+TON Support: Testnet Toncoin, which is used for development and testing on the TON testnet, can be acquired through two main methods:  *   For regular requests of 2 TON per hour, you can use the Telegram Testgiver TON bot. *   For larger allocations, up to 5,000 TON, you can submit a request form.  Source: How to get coins on testnet - TON Docs (reply to 186322)
+
+Sam: But these are not main ton coins ig
