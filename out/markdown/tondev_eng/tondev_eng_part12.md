@@ -4079,3 +4079,31 @@ Sam: How to earn ton pls help
 TON Support: Testnet Toncoin, which is used for development and testing on the TON testnet, can be acquired through two main methods:  *   For regular requests of 2 TON per hour, you can use the Telegram Testgiver TON bot. *   For larger allocations, up to 5,000 TON, you can submit a request form.  Source: How to get coins on testnet - TON Docs (reply to 186322)
 
 Sam: But these are not main ton coins ig
+
+REON: I need to renew a TON domain but the NFT is held in a Tangem wallet. Tangem does not support a wallet connect. Can I renew my TON domain with my telegram wallet that does not own the TON domain?
+
+TON Support: TON DNS domains are implemented as NFTs. To renew a domain, you need to send 0.015 TON to the domain contract annually. This action must be performed by the wallet that owns the NFT.  Since your TON domain NFT is held in a Tangem wallet, and Tangem does...  not support Wallet Connect, you would typically need to import the recovery phrase of your Tangem wallet into a TON-compatible wallet that does support transactions (like Tonkeeper or MyTonWallet browser extension) to manage and renew the domain.  If you don't have access to the recovery phrase or cannot import the wallet, you cannot renew the domain with a different Telegram wallet that does not own the NFT. The renewal transaction must originate from the owning wallet.  Source: [TON DNS — TON Docs](https://docs.ton.org/blockchain-basics/primitives/web3/ton-dns#:~:text=Domain (reply to 186338)
+
+REON: Looks like i will lose my domain  If only I can renew it using an external wallet (reply to 186339)
+
+Slava: Do you have seed phrase or can you export it? (reply to 186338)
+
+Роман: Hey everyone, I’ve been building a custom BOC parser in Rust, focusing on speed and low memory overhead. So far, it handles ordinary cells, addresses, coins, dictionaries, and snake-strings without any heap allocations in the critical path. I deliberately skipped exotic cell types (PrunedBranch, MerkleProof, MerkleUpdate) for now, because the use cases I’m targeting don’t seem to need them. Question to those who work with TON at the infrastructure level: how often do you actually encounter exotic cells in production? Is there a real need to support them for indexing, transaction parsing, or light client work, or is it safe to ignore them for 95% of cases? Would love to hear from people who’ve dealt with this in practice. Thanks!
+
+REON: Seedless (reply to 186347)
+
+Slava: Does it have NFT support? Can you transfer it? (reply to 186358)
+
+REON: No nft support which was a surprise  No wallet connect (reply to 186359)
+
+Fardin: Maybe you could let it expire and repurchase it with another wallet... (reply to 186343)
+
+REON: And pay another 60  Im not sure
+
+Slava: Trust me, 60 TON is not a big deal for a valuable lesson in Blockchain technology :) (reply to 186365)
+
+Alexey: I think in infrastructure level you pretty often need to parse blocks, you can not do this without exotic cells support (reply to 186349)
+
+Роман: Thanks, this is actually helpful. I’ve been thinking the same, just needed to hear it from someone who’s been there. Gives me a clearer picture of what to prioritize next. (reply to 186367)
+
+&rey: Don't forget exotic library cells, which were used very often. (reply to 186349)
