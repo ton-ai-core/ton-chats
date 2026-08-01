@@ -1593,3 +1593,11 @@ KRYPTOMan: Здравствуйте, сейчас данный момент в t
 KRYPTOMan: Tongrants bot тоже не работает (reply to 358112)
 
 KRYPTOMan: Спасибо за информацию
+
+middleware: Коллеги, есть у кого реализация map или cellsnake на толк?
+
+&rey: В стандартной библиотеке map есть. (reply to 358142)
+
+kooal: Знаете кому писать по поводу уязвимости связанную с ton connect?  Уровень: серьезный
+
+Dmitriy: https://t.me/ton_bugs_bot (reply to 358149)

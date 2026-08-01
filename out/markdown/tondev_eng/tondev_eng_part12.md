@@ -4107,3 +4107,25 @@ Alexey: I think in infrastructure level you pretty often need to parse blocks, y
 Роман: Thanks, this is actually helpful. I’ve been thinking the same, just needed to hear it from someone who’s been there. Gives me a clearer picture of what to prioritize next. (reply to 186367)
 
 &rey: Don't forget exotic library cells, which were used very often. (reply to 186349)
+
+— 2026-07-31 —
+
+Slava: TonKeeper, srsly?
+
+Anton: hmmm... (reply to 186463)
+
+Anton: can ya share with me all details (client, whatcha doin exactly, etc) (reply to 186463)
+
+Slava: Just a normal USDT transfer, latest desktop version (Pro) installed from deb. (reply to 186465)
+
+Anton: Hmm, I wonder if your wallet is activated in the blockchain... (reply to 186466)
+
+Anton: if the issue still persists (after activating) — gimme some info from the console crtl + shift + I (dm me if it's possible :))
+
+Slava: You are right, the wallet wasn't deployed. (reply to 186468)
+
+Anton: Please, try sending after deploying.   We kinda need to make it more clearer though... thanks for the feedback :)
+
+&rey: Uhm, shouldn't the wallet app work regardless? Up to passing StateInit to gasless payment API, when needed.
+
+Anton: that's another question... surely need to pass the feedback to fix (i guess?) the issue. (reply to 186472)
