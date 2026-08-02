@@ -4129,3 +4129,25 @@ Anton: Please, try sending after deploying.   We kinda need to make it more clea
 &rey: Uhm, shouldn't the wallet app work regardless? Up to passing StateInit to gasless payment API, when needed.
 
 Anton: that's another question... surely need to pass the feedback to fix (i guess?) the issue. (reply to 186472)
+
+— 2026-08-01 —
+
+⁭: Address generation depends only on StateInit? Any code could be used? I use gusarich vanitygen and it only asks for owner address, not for contract address/BOC. I just want to generate jetton on tolk with vanity generated address.  The result is something like:  {     "address": "EQBSCgaA2cK7x-vKrERl84nikhPm1AbBdujoa6RlLRABCDEf",     "init": {         "code": "te6ccgEBAQEAUAAAnPJL-JKNCGACNDUWAzY8JUivnwDkKemMr2kqZKRxDW3Z8lTZ-vnjprzHBfLjIdTUMO1U-wTbMAAAAAAAAAAAmEQScKFrbwHa97YAdBCNCQ==",         "fixedPrefixLength": 8,         "special": null     },     "config": {         "owner": "EQBGhqLAZseEqRXz4ByFPTGV7SVMlI4hrbs-Sps_Xzx01x8G",         "start": null,         "end": "ABCDEF",         "masterchain": false,         "non_bounceable": false,         "testnet": false,         "case_sensitive": false,         "only_one": false     },     "timestamp": 1764743367.707375 } I probably need %init% from result and tolk jetton contract code to deploy?
+
+Mirka: Read the README file here: https://github.com/ton-org/vanity (I guess you use it) It has an example how to deploy any contract you need (reply to 186512)
+
+Slava: It first deploys a minimal contract that has the ability for the owner to change it's code. You then send the code of your own contract, overwriting it. (reply to 186512)
+
+⁭: Is it correct? Won't be any troubles with DEXs because of that? If they try to generate hash of code and it will be different than my vanity generated. (reply to 186515)
+
+Slava: No. No one knows your state init in the first place to manually reconstruct your contract's canonical address. (reply to 186516)
+
+Slava: As far as all third parties will contact your contract using it's actual address, everything should be fine.
+
+⁭: just to be sure, so there should be 2 transactions? I may deploy vanity-contract now and change it later?  On github it seems that he deploys "example.tolk" contract with counter. I can't find where in code he deploys this "first" contract.  import { Blockchain, SandboxContract, TreasuryContract } from '@ton/sandbox'; import { Cell, toNano } from '@ton/core'; import { Example } from '../wrappers/Example'; import '@ton/test-utils'; import { compile } from '@ton/blueprint'; import { ContractWithVanity, Vanity } from '../wrappers/Vanity';  describe('Example', () => {     let code: Cell;      beforeAll(async () => {         code = await compile('Example');     });      let blockchain: Blockchain;     let deployer: SandboxContract<TreasuryContract>;     let example: SandboxContract<ContractWithVanity<Example>>;      beforeEach(async () => {         blockchain = await Blockchain.create();          const found =             '{"address":"EQBSCgaA2cK7x-vKrERl84nikhPm1AbBdujoa6RlLRABCDEf","init":{"code":"te6ccgEBAQEAUAAAnPJL-JKNCGACNDUWAzY8JUivnwDkKemMr2kqZKRxDW3Z8lTZ-vnjprzHBfLjIdTUMO1U-wTbMAAAAAAAAAAAmEQScKFrbwHa97YAdBCNCQ==","fixedPrefixLength":8,"special":null},"config":{"owner":"EQBGhqLAZseEqRXz4ByFPTGV7SVMlI4hrbs-Sps_Xzx01x8G","start":null,"end":"ABCDEF","masterchain":false,"non_bounceable":false,"testnet":false,"case_sensitive":false,"only_one":false},"timestamp":1764743367.707375}';         const vanity = Vanity.createFromLine(found);          example = blockchain.openContract(             vanity.installContract(                 Example.createFromConfig(                     {                         id: 0,                         counter: 0,                     },                     code,                 ),             ),         );          deployer = await blockchain.treasury('deployer');          const deployResult = await example.sendDeployVanity(deployer.getSender(), toNano('0.05'));          expect(deployResult.transactions).toHaveTransaction({             from: deployer.address,             to: example.address,             deploy: true,             success: true,         });     });      it('should deploy', async () => {         // the check is done inside beforeEach         // blockchain and example are ready to use     }); }); (reply to 186515)
+
+Mirka: You deploy vanity contract with your contract's stateInit inside the transaction. It requires only 1 transaction.  I guess It's called lazy deploy, when a contract can be deployed and do some additional stuff by 1 transaction (reply to 186529)
+
+⁭: alright, so this contract is hardcoded in BOC already.  I should just deploy something like "te6ccgEBAQEAUAAAnPJL-JKNCGACNDUWAzY8JUivnwDkKemMr2kqZKRxDW3Z8lTZ-vnjprzHBfLjIdTUMO1U-wTbMAAAAAAAAAAAmEQScKFrbwHa97YAdBCNCQ=="  and it will create this editable smart contract with on vanity address. (reply to 186531)
+
+Slava: When deployed, the contract is automatically executed, so you can perform some action. I believe it should be fully deployable with a single transaction.
