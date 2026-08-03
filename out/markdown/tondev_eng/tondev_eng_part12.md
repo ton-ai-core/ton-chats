@@ -4151,3 +4151,11 @@ Mirka: You deploy vanity contract with your contract's stateInit inside the tran
 ⁭: alright, so this contract is hardcoded in BOC already.  I should just deploy something like "te6ccgEBAQEAUAAAnPJL-JKNCGACNDUWAzY8JUivnwDkKemMr2kqZKRxDW3Z8lTZ-vnjprzHBfLjIdTUMO1U-wTbMAAAAAAAAAAAmEQScKFrbwHa97YAdBCNCQ=="  and it will create this editable smart contract with on vanity address. (reply to 186531)
 
 Slava: When deployed, the contract is automatically executed, so you can perform some action. I believe it should be fully deployable with a single transaction.
+
+— 2026-08-03 —
+
+Jeannette: I don't know how to get back to unfreeze my account I need help i don't have a computer I have to use my phone
+
+Jeannette: I don't know much about getting this done please help me
+
+Jake: Giveaway now live
