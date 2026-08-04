@@ -4159,3 +4159,65 @@ Jeannette: I don't know how to get back to unfreeze my account I need help i don
 Jeannette: I don't know much about getting this done please help me
 
 Jake: Giveaway now live
+
+Kip-: Builders.)ton.)org it doesn't work, where can I get the mini-app analytics?
+
+TON Support: You can get mini-app analytics by registering your project on TON Builders and navigating to the Analytics tab. There, you can enter your Telegram Bot URL and mini-app domain to receive an API key for SDK initialization.  Source: Preparations - TON Docs, Managing integration — TON Docs (reply to 186578)
+
+Kip-: does not work
+
+Kip-: Hello
+
+Mirka: You have frozen your wallet? (reply to 186570)
+
+Thomas: Hey
+
+Thomas: Is it possible to reverse a transaction that was accidentally sent to a ton zero address
+
+TON Support: Blockchain transactions on TON, like on many other blockchains, cannot be reversed once they are processed. The documentation consistently states: "Double-check recipient addresses — blockchain transactions cannot be reversed." This applies even if the transaction was sent to a zero address.  Source: How to interact with preprocessed wallet v2 - TON Docs, How to send a single transfer — TON Docs, How to send a batch of transfers — TON Docs (reply to 186614)
+
+Thomas: What about sent back
+
+TON Support: Blockchain transactions on TON cannot be reversed. However, when funding a non-existent account, using a non-bounceable address format can prevent funds from bouncing back. If a bounceable address is used and the account does not exist, the funds would...  typically be sent back to the sender. In your case, sending to a zero address (which is unlikely to be a valid, active account) with a bounceable address *might* result in the funds being returned, but this is not a reversal of the transaction itself, but rather a protocol-level behavior for non-existent accounts.  The documentation states: "When funding a nonexist account, use the non-bounceable format to prevent funds from bouncing back if the account doesn't exist yet."  Source: How to interact with preprocessed wallet v2 - TON Docs (reply to 186616)
+
+Thomas: Will that happen automatically
+
+TON Support: If you send funds to a non-existent account using a bounceable address, the funds will automatically be returned to your wallet. This is a built-in safety feature of TON.  However, if you use a non-bounceable address to send funds to a non-existent account,...  the funds will *not* be returned. They will remain in the uninitialized account until that account is activated.  The documentation advises: "For user-friendly format forms selection: use bounceable addresses for user smart contracts with custom logic to ensure funds are returned if the contract is invalid, and non-bounceable addresses for wallets to guarantee funds are credited even if the recipient is uninitialized."  Source: Internal address formats (reply to 186618)
+
+Thomas: So it would have instantly came back to me?
+
+TON Support: Yes, if you send funds to an uninitialized account using a bounceable address, the funds would be returned to you. The documentation states: "The contract doesn't exist yet, so bounceable messages would return the funds."  Source: Toncoin payments processing (reply to 186620)
+
+Thomas: There's nothing I can do?
+
+xylica: unfortunately no (reply to 186622)
+
+Thomas: That's a good amount of money just blowing in the wind
+
+Thomas: Thanks (reply to 186624)
+
+xylica: well did you send it programmatically? you can set bounce flag to true to avoid this from happening again in the future (reply to 186625)
+
+Thomas: No was using okx intending to just send from one account to another, had the wrong address copied and didn't double check
+
+Thomas: My own fault (reply to 186627)
+
+xylica: damn, let's just move on, no one can control the zero address or reverse the transaction (reply to 186630)
+
+Thomas: Kicking my own ass for this one lol 3k
+
+Slava: What was the destination address? (reply to 186628)
+
+PixelGifts: Does anyone know of other directories where I can list an app? I had been accepted into the App Center, but then there was an update and it hasn't come back; I don't know where else to promote it :(
+
+Thomas: EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c   I guess I accidently copied that address on accident from okx ton trade page (reply to 186635)
+
+Thomas: Didn't realize it
+
+Slava: Well, that's sad. CEX should've known better than to send funds to a zero address... (reply to 186660)
+
+Thomas: Support at ocx suggested I reach out to a dev wound up here
+
+— 2026-08-04 —
+
+Slava: No one would be able to help you at this point, please ignore the scammers or you will lose even more. (reply to 186686)
