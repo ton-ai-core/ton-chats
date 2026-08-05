@@ -4221,3 +4221,23 @@ Thomas: Support at ocx suggested I reach out to a dev wound up here
 — 2026-08-04 —
 
 Slava: No one would be able to help you at this point, please ignore the scammers or you will lose even more. (reply to 186686)
+
+Иван Сергеевич: Hi everyone! Could someone help and explain what the problem might be? I created a collection on the Getgems testnet and I'm minting via their Public API. The minting seems to go through successfully, but neither the NFT nor its associated transactions show up in Tonviewer. However, everything is visible on Tonscan. Since I'm using TonAPI to fetch NFTs from the wallet, I'm getting nothing back (just like in Tonviewer), and I don't understand why this is happening. Could anyone help?
+
+Adejoke: Hello  Any upcoming hackathon on Ton?
+
+ʀᴇꜱɪꜱᴛᴏʀ ₁₃₁₂.ₜₒₙ: Wen hackActon (reply to 186745)
+
+Mikhail: Hi! Could you pls provide Getgems link? (reply to 186734)
+
+42o: What is a burn address
+
+K🆓³³: I can't send a wallet address in this chat, but I can send a link to an explorer or a .ton  What's the point of this limitation in this case?
+
+User: Whitelisted you. Your messages was deleted because of caps lock limitations (reply to 186761)
+
+Max: It's a bottomless black hole for any items on the blockchain. (reply to 186753)
+
+Slava: Presumably... (reply to 186775)
+
+Lynx: Hi everyone — I’m building a TON-native project and I’m trying to reach the appropriate person at TON Foundation regarding ecosystem support or partnerships.  Could someone point me to the correct contact or application channel? I’m not looking to promote the project in here, just trying to reach the right team. Thanks.
