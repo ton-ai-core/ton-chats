@@ -4241,3 +4241,13 @@ Max: It's a bottomless black hole for any items on the blockchain. (reply to 186
 Slava: Presumably... (reply to 186775)
 
 Lynx: Hi everyone — I’m building a TON-native project and I’m trying to reach the appropriate person at TON Foundation regarding ecosystem support or partnerships.  Could someone point me to the correct contact or application channel? I’m not looking to promote the project in here, just trying to reach the right team. Thanks.
+
+— 2026-08-05 —
+
+Sad Bun 🐇: hi  could smn please clarify  maybe i have missed some important config updates  i'm sure there was just single shard for more than a year  but since last week ton mainnet started spliting into more shards (though it doesn't seem there's enough load for this to occur)  just noticed cause my node dies on each split because of insuffient memory
+
+Nir H: you can actually provide screenshots for clarification (reply to 186804)
+
+Getasew Tilahun: Security reports require careful review, but long delays can be frustrating for researchers, especially when dealing with potentially serious issues. A faster review process would help build more trust with the security community.
+
+Fardin: It's not a good timing, bro I have a project on too, but you should wait for the signs that say the bear market and global conflicts are ending... (reply to 186778)
