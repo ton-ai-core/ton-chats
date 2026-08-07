@@ -4251,3 +4251,7 @@ Nir H: you can actually provide screenshots for clarification (reply to 186804)
 Getasew Tilahun: Security reports require careful review, but long delays can be frustrating for researchers, especially when dealing with potentially serious issues. A faster review process would help build more trust with the security community.
 
 Fardin: It's not a good timing, bro I have a project on too, but you should wait for the signs that say the bear market and global conflicts are ending... (reply to 186778)
+
+— 2026-08-07 —
+
+NoDOg: Do you have any news about step 5 of the gram ? Really had a bad month
