@@ -4255,3 +4255,9 @@ Fardin: It's not a good timing, bro I have a project on too, but you should wait
 — 2026-08-07 —
 
 NoDOg: Do you have any news about step 5 of the gram ? Really had a bad month
+
+— 2026-08-10 —
+
+xc: yo
+
+xc: why are there so many bots
