@@ -8207,6 +8207,80 @@
       "from": "Skuli",
       "from_id": "user5499168023",
       "text": "Я могу паралельно решать по 6+ задач\nЗависит от задач\nМогу и по 10 смотря какие"
+    },
+    {
+      "id": 1011,
+      "type": "message",
+      "date": "2026-08-11T20:52:08.000Z",
+      "date_unixtime": "1786481528",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "https://t.me/postypashki_old/1841"
+    },
+    {
+      "id": 1014,
+      "type": "message",
+      "date": "2026-08-11T21:10:57.000Z",
+      "date_unixtime": "1786482657",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "ты ахуел",
+      "reply_to_message_id": 1013
+    },
+    {
+      "id": 1016,
+      "type": "message",
+      "date": "2026-08-11T21:15:58.000Z",
+      "date_unixtime": "1786482958",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "О ПРИВЕТ"
+    },
+    {
+      "id": 1017,
+      "type": "message",
+      "date": "2026-08-11T21:16:38.000Z",
+      "date_unixtime": "1786482998",
+      "from": "Maksim",
+      "from_id": "user1175647329",
+      "text": "мемы реально крутые слишком отвлекают от работы"
+    },
+    {
+      "id": 1020,
+      "type": "message",
+      "date": "2026-08-11T21:16:50.000Z",
+      "date_unixtime": "1786483010",
+      "from": "Пескарь™ | фронтент телефонов",
+      "from_id": "user6716",
+      "text": "блять"
+    },
+    {
+      "id": 1021,
+      "type": "message",
+      "date": "2026-08-11T21:39:01.000Z",
+      "date_unixtime": "1786484341",
+      "from": "sepezho",
+      "from_id": "user707939820",
+      "text": "хорошие мемы"
+    },
+    {
+      "id": 1022,
+      "type": "message",
+      "date": "2026-08-11T23:01:08.000Z",
+      "date_unixtime": "1786489268",
+      "from": "max",
+      "from_id": "user515090561",
+      "text": "Тамада развлекает"
+    },
+    {
+      "id": 1023,
+      "type": "message",
+      "date": "2026-08-11T23:01:52.000Z",
+      "date_unixtime": "1786489312",
+      "from": "max",
+      "from_id": "user515090561",
+      "text": "Шедевр",
+      "reply_to_message_id": 1010
     }
   ]
 }
